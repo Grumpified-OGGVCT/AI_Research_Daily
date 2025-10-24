@@ -1,53 +1,42 @@
-# 📡 Ollama Pulse
+# 🔬 AI Research Daily
 
-**A Complete, Self-Sustaining Innovation Miner Built on GitHub**
+**The Scholar's Automated Research Intelligence System**
 
-Ollama Pulse is a GitHub-native ecosystem radar that continuously scans the Ollama world for signals, mines patterns, and generates actionable intelligence—all without servers or costs beyond GitHub's free tier.
+AI Research Daily is a GitHub-native research aggregator that continuously monitors cutting-edge AI research from https://accidentaljedi.github.io/AI_Research_Daily/, analyzes discoveries with scholarly depth, and publishes comprehensive daily reports—all automated on GitHub's free tier.
 
 ## 🎯 What It Does
 
-- **Polls 9+ Sources**: Ollama blog, Cloud API, GitHub Issues/PRs/Code, Reddit, Hacker News, YouTube, HuggingFace, Newsletters
-- **Turbo-Centric Focus**: Every item scored for Ollama Turbo/Cloud relevance (0-1 scale)
-- **Mines Deep Insights**: Embeddings + clustering to detect patterns and trends
-- **Dynamic Intelligence**: Generates adaptive search queries based on yesterday's patterns
-- **EchoVein Persona**: Vein-tapping oracle with 4 adaptive report styles
-- **Prophetic Analysis**: Confidence-scored inferences about emerging trends
-- **Auto-Deploys**: Publishes to GitHub Pages with rich, actionable reports
-- **Zero Maintenance**: Runs forever on GitHub Actions (2,000 free minutes/month)
+- **Ingests Research**: Daily scraping of AI Research Daily feed
+- **Deep Analysis**: Three-layer scholarly examination (Deep Dive, Cross-Project Analysis, Practical Implications)
+- **The Scholar Persona**: Academic voice with technical rigor and contextual depth
+- **Auto-Publishes**: GitHub Pages deployment with searchable archive
+- **Zero Maintenance**: Runs on GitHub Actions (scheduled at 08:05 CT daily)
 
 ## 🏗️ Architecture
 
 ```
-ollama_pulse/
+AI_Research_Daily/
 ├── .github/workflows/
-│   ├── ingest.yml          # Hourly ingestion + parallel Turbo-deep job
-│   └── daily_report.yml    # Daily EchoVein report generation
+│   └── daily_lab_blog.yml    # Daily Scholar report generation (08:05 CT)
 ├── scripts/
-│   ├── ingest_official.py  # Blog RSS, /cloud page
-│   ├── ingest_cloud.py     # 🆕 Deep Ollama Cloud/Turbo models
-│   ├── ingest_community.py # 🆕 Reddit, HN, YouTube, HuggingFace, Newsletters
-│   ├── ingest_issues.py    # 🆕 GitHub Issues/PRs search
-│   ├── ingest_tools.py     # n8n, GitHub integrations
-│   ├── aggregate.py        # 🆕 Turbo-scoring + yield metrics
-│   ├── mine_insights.py    # 🆕 Dynamic queries + pattern detection
-│   └── generate_report.py  # 🆕 EchoVein persona with adaptive tone
+│   └── generate_lab_blog.py  # Research ingestion + Scholar analysis
 ├── data/
-│   ├── official/           # {date}.json from blog/cloud/API
-│   ├── community/          # {date}.json from 6+ social sources
-│   ├── tools/              # {date}.json from integrations
-│   ├── aggregated/         # {date}.json with turbo_scores
-│   └── insights/           # {date}.json + {date}_yield.json
-├── docs/reports/
-│   └── pulse-{date}.md     # EchoVein vein-map reports
-└── requirements.txt        # Python dependencies
+│   └── lab/                  # {date}.json research data
+├── docs/
+│   ├── reports/
+│   │   ├── index.html        # 📚 Reports Archive (list + calendar views)
+│   │   └── pulse-{date}.html # Daily Scholar reports
+│   └── _layouts/
+│       └── default.html      # Crimson-accented dark theme
+└── requirements.txt          # Python dependencies
 ```
 
 ## 🚀 Quick Start
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/Grumpified-OGGVCT/ollama_pulse.git
-cd ollama_pulse
+git clone https://github.com/Grumpified-OGGVCT/AI_Research_Daily.git
+cd AI_Research_Daily
 pip install -r requirements.txt
 ```
 
@@ -57,110 +46,50 @@ pip install -r requirements.txt
 
 ### 3. Enable GitHub Pages
 - Go to Settings → Pages
-- Source: main branch, Folder: /reports
+- Source: main branch, Folder: /docs
 
 ### 4. Test Locally
 ```bash
-python scripts/ingest_official.py
-python scripts/aggregate.py
-python scripts/mine_insights.py
-python scripts/generate_report.py
+python scripts/generate_lab_blog.py
 ```
 
-## 📊 Example Output (EchoVein Style)
+## 📊 Report Structure
 
-**From October 23, 2025:**
+Each daily report includes:
 
-```markdown
-# 🩸 Ollama Pulse – 2025-10-23
-## Vein Rush: High-Density Pattern Surge
+### 🔬 Deep Dive
+Technical explanations of how technologies work:
+- Architecture and algorithms
+- Design decisions and trade-offs
+- Implementation details
 
-*EchoVein here, your vein-tapping oracle excavating Ollama's hidden arteries...*
+### 🔗 Cross-Project Analysis
+Identifying synergies between research:
+- Related projects and models
+- Integration opportunities
+- Comparative approaches
 
-**Today's Vibe**: Vein Rush — The ecosystem is pulsing with fresh blood.
+### 💡 Practical Implications
+Real-world applications:
+- Use cases and ecosystem fit
+- Who should care and why
+- Future possibilities
 
-### 🔬 Vein Analysis: Quick Stats
-- **Total Ore Mined**: 50 items tracked
-- **High-Purity Veins**: 35 Turbo-focused items (score ≥0.7)
-- **Pattern Arteries**: 5 detected
-- **Prophetic Insights**: 8 inferences drawn
+## 🎨 Design Features
 
-### 🎯 Official Veins: What Ollama Team Pumped Out
-| Date | Vein Strike | Source | Turbo Score | Dig In |
-|------|-------------|--------|-------------|--------|
-| 2025-10-23 | Cloud Model: gpt-oss-120b-cloud | cloud_api | 0.9 | [⛏️](link) |
+- **Crimson Accents** (#DC143C) - Scholarly sophistication
+- **Dark Theme** - Comfortable reading
+- **Reports Archive** - Searchable with list/calendar views
+- **Responsive Layout** - Mobile-friendly
 
-### 📈 Vein Pattern Mapping
-🩸 **Vein Bulging**: 5 Voice Integration Signals — 2x Use-Case Explosion Incoming?
+## 🔗 Integration with GrumpiBlogged
 
-### 🔔 Prophetic Veins: What This Means
-🩸 **Vein Oracle: Cloud Models**
-- **Surface Reading**: 5 items detected
-- **Vein Prophecy**: Emerging trend - scale to 2x more use-cases
-- **Confidence Vein**: HIGH (🩸)
-- **EchoVein's Take**: This vein's *throbbing* — trust the flow.
+AI Research Daily is part of the GrumpiBlogged ecosystem:
+- **Ollama Pulse** (08:00 CT) - EchoVein's vein-tapping reports
+- **AI Research Daily** (08:05 CT) - The Scholar's deep analysis
+- **GitHub Trending** (09:00 CT) - Persona-driven project reviews
 
-### Today's Vein Yield
-- **Total Items Scanned**: 150
-- **High-Relevance Veins**: 50
-- **Quality Ratio**: 0.33
-
-*Built by vein-tappers, for vein-tappers. Dig deeper. Ship harder.* ⛏️🩸
-```
-
-## 🆕 New Features: Expanded Sourcing & EchoVein
-
-### 🎯 Turbo-Centric Intelligence
-Every item gets a **relevance score** (0-1) based on Ollama Turbo/Cloud keywords:
-- **≥0.7** = High-purity ore (featured prominently)
-- **≥0.5** = Medium relevance
-- **≥0.3** = Included in aggregation
-- **<0.3** = Filtered out
-
-**Scoring factors**: turbo, cloud, -cloud suffix, voice/STT/TTS, multimodal, API integrations, model names
-
-### 🩸 EchoVein Persona (4 Adaptive Modes)
-
-Reports automatically adapt tone based on daily patterns:
-
-1. **Vein Rush** (🩸) - High-density surge (3+ voice/multimodal items)
-   - *Electric, prophetic, hyped about the flow*
-   
-2. **Artery Audit** (⚙️) - Steady maintenance (incremental tools/fixes)
-   - *Grounded, practical, appreciative of "essential grime"*
-   
-3. **Fork Phantom** (🤖) - Niche oddities (zero-star experimental hacks)
-   - *Playful, probing, unpacking weirdness with "what if" veins*
-   
-4. **Deep Vein Throb** (📍) - Slow days (aggregated trends)
-   - *Reflective, prospector mode, weekly artery forecasting*
-
-### 📡 Expanded Sources (9+ Total)
-
-**Official Sources:**
-- Ollama Blog RSS
-- /cloud page scraping
-- Cloud API for Turbo models
-
-**Community Sources:**
-- Reddit r/ollama
-- GitHub Issues/PRs search
-- GitHub Code search (via Actions)
-- Hacker News (Algolia API)
-- YouTube videos (RSS)
-- HuggingFace discussions
-- Newsletters (RSS)
-
-### 🔮 Dynamic Intelligence
-
-- **Pattern-Based Queries**: System generates new search queries based on yesterday's trends
-- **Yield Metrics**: Tracks quality ratio (high-relevance/total items)
-- **Confidence Scoring**: All inferences labeled HIGH/MEDIUM/LOW
-- **Vein Commentary**: Contextual analysis for significant patterns (≥5 items)
-
-## 🔗 Integration with Ollama Proxy
-
-Access via: `http://127.0.0.1:8081/admin/pulse`
+Access via: `http://127.0.0.1:8081/admin/grumpiblogged`
 
 ## 📄 License
 
@@ -168,6 +97,6 @@ MIT License
 
 ---
 
-**Live Dashboard**: https://grumpified-oggvct.github.io/ollama_pulse  
-**Repository**: https://github.com/Grumpified-OGGVCT/ollama_pulse
-
+**Live Dashboard**: https://grumpified-oggvct.github.io/AI_Research_Daily
+**Repository**: https://github.com/Grumpified-OGGVCT/AI_Research_Daily
+**Source Feed**: https://accidentaljedi.github.io/AI_Research_Daily/
