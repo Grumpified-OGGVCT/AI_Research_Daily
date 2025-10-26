@@ -1,11 +1,22 @@
 {
-  "date": "2025-10-26T12:20:44.446296",
-  "patterns": {},
+  "date": "2025-10-26T16:13:51.825031",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "judit2h00j3/SmolLM2-fine-tuned-news-generator-healthy",
+        "url": "https://huggingface.co/judit2h00j3/SmolLM2-fine-tuned-news-generator-healthy"
+      },
+      {
+        "title": "CFGGHO/ModernBERT-large-finetuned-clinc",
+        "url": "https://huggingface.co/CFGGHO/ModernBERT-large-finetuned-clinc"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
