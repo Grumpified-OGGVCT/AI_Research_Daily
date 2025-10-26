@@ -2,8 +2,12 @@ name: The Lab Daily Research Report
 
 on:
   schedule:
-    - cron: '0 13 * * *'   # 08:00 CDT (UTC-5)
-    - cron: '0 14 * * *'   # 08:00 CST (UTC-6)
+    # Morning report - 09:00 CT
+    - cron: '0 14 * * *'   # 09:00 CDT (UTC-5)
+    - cron: '0 15 * * *'   # 09:00 CST (UTC-6)
+    # Evening report - 19:00 CT
+    - cron: '0 0 * * *'    # 19:00 CDT (UTC-5) - next day UTC
+    - cron: '0 1 * * *'    # 19:00 CST (UTC-6) - next day UTC
   workflow_dispatch:  # Manual trigger
 
 permissions:
@@ -27,16 +31,17 @@ jobs:
         run: |
           pip install -r requirements.txt
           
-      - name: Gate by Chicago local time (ensure 08:00)
+      - name: Gate by Chicago local time (ensure 09:00 or 19:00)
         env:
           TZ: America/Chicago
         run: |
           echo "Local time: $(date)";
           HOUR=$(date +%H);
-          if [ "$HOUR" != "08" ]; then
-            echo "Not 08:00 local — exiting without generating report.";
+          if [ "$HOUR" != "09" ] && [ "$HOUR" != "19" ]; then
+            echo "Not 09:00 or 19:00 local — exiting without generating report.";
             exit 0;
           fi
+          echo "✅ Time gate passed: ${HOUR}:00 CT"
           
       - name: Generate research intelligence report
         run: |
@@ -47,9 +52,27 @@ jobs:
           python scripts/generate_report_index.py
           
       - name: Commit and push report
+        id: commit
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add docs/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "feat(report): daily research intelligence $(date -u '+%Y-%m-%d')" && git push)
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+            echo "committed=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "feat(report): daily research intelligence $(date -u '+%Y-%m-%d')"
+            git push
+            echo "committed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Trigger GrumpiBlogged webhook
+        if: steps.commit.outputs.committed == 'true'
+        run: |
+          curl -X POST \
+            -H "Accept: application/vnd.github.v3+json" \
+            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            https://api.github.com/repos/Grumpified-OGGVCT/GrumpiBlogged/dispatches \
+            -d '{"event_type":"ai-research-daily-update"}'
+          echo "✅ Notified GrumpiBlogged of new report"
 

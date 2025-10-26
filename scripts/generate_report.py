@@ -666,13 +666,65 @@ def generate_about_section(today):
     return section
 
 
+def generate_support_section():
+    """Generate support/donation section"""
+    section = """
+---
+
+## 💰 Support The Lab
+
+If AI Research Daily helps you stay current with cutting-edge research, consider supporting development:
+
+### ☕ Ko-fi (Fiat/Card)
+
+**[💝 Tip on Ko-fi](https://ko-fi.com/grumpified)** | Scan QR Code Below
+
+<a href="https://ko-fi.com/grumpified"><img src="../assets/KofiTipQR_Code_GrumpiFied.png" alt="Ko-fi QR Code" width="200" height="200" /></a>
+
+*Click the QR code or button above to support via Ko-fi*
+
+### ⚡ Lightning Network (Bitcoin)
+
+**Send Sats via Lightning:**
+
+- [🔗 gossamerfalling850577@getalby.com](lightning:gossamerfalling850577@getalby.com)
+- [🔗 havenhelpful360120@getalby.com](lightning:havenhelpful360120@getalby.com)
+
+**Scan QR Codes:**
+
+<a href="lightning:gossamerfalling850577@getalby.com"><img src="../assets/lightning_wallet_QR_Code.png" alt="Lightning Wallet 1 QR Code" width="200" height="200" /></a> <a href="lightning:havenhelpful360120@getalby.com"><img src="../assets/lightning_wallet_QR_Code_2.png" alt="Lightning Wallet 2 QR Code" width="200" height="200" /></a>
+
+### 🎯 Why Support?
+
+- **Keeps the research pipeline flowing** — Daily arXiv monitoring, pattern detection, research scoring
+- **Funds new source integrations** — Expanding from 8 to 15+ research sources
+- **Supports open-source AI research** — All donations go to ecosystem projects
+- **Enables Nostr decentralization** — Publishing to 48+ relays, NIP-23 long-form content
+
+*All donations support open-source AI research and ecosystem monitoring.*
+
+<!-- Ko-fi Floating Widget -->
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('grumpified', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Tip The Scholar',
+    'floating-chat.donateButton.background-color': '#1E3A8A',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
+</script>
+
+"""
+    return section
+
+
 def generate_report_md(aggregated, insights):
     """Generate The Scholar's research intelligence report"""
     today = get_today_date_str()
-    
+
     # Determine focus
     focus_type, focus_desc = determine_report_focus(aggregated, insights)
-    
+
     # Build report sections
     report = generate_scholar_opening(focus_type, focus_desc, aggregated)
     report += generate_research_overview(aggregated, insights)
@@ -683,8 +735,9 @@ def generate_report_md(aggregated, insights):
     report += generate_implications(insights)
     report += generate_what_to_watch(insights, aggregated)
     report += generate_developer_wrapup(aggregated, insights)  # Add developer wrap-up
+    report += generate_support_section()  # Add donation section
     report += generate_about_section(today)
-    
+
     return report
 
 
