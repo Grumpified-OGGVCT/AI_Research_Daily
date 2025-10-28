@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-28T10:17:49.953544",
+  "date": "2025-10-28T11:13:42.727703",
   "patterns": {
     "multimodal_research": [
       {
@@ -19,6 +19,10 @@
       {
         "title": "PixelRefer: A Unified Framework for Spatio-Temporal Object Referring   with Arbitrary Granularity",
         "url": "https://arxiv.org/abs/2510.23603v1"
+      },
+      {
+        "title": "LeviDeHaan/SecInt-SmolLM2-360M-nginx",
+        "url": "https://huggingface.co/LeviDeHaan/SecInt-SmolLM2-360M-nginx"
       }
     ],
     "vision_systems": [
@@ -76,6 +80,12 @@
       "confidence": "high"
     },
     {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
       "pattern": "vision_systems",
       "observation": "3 related papers",
       "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
@@ -124,7 +134,7 @@
   ],
   "stats": {
     "total_patterns": 5,
-    "total_inferences": 5,
-    "total_papers": 14
+    "total_inferences": 6,
+    "total_papers": 15
   }
 }
