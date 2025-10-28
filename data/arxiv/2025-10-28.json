@@ -140,10 +140,10 @@
     "title": "Yesnt: Are Diffusion Relighting Models Ready for Capture Stage   Compositing? A Hybrid Alternative to Bridge the Gap",
     "summary": "Volumetric video relighting is essential for bringing captured performances into virtual worlds, but current approaches struggle to deliver temporally stable, production-ready results. Diffusion-based intrinsic decomposition methods show promise for single frames, yet suffer from stochastic noise and instability when extended to sequences, while video diffusion models remain constrained by memory and scale. We propose a hybrid relighting framework that combines diffusion-derived material priors with temporal regularization and physically motivated rendering. Our method aggregates multiple stochastic estimates of per-frame material properties into temporally consistent shading components, using optical-flow-guided regularization. For indirect effects such as shadows and reflections, we extract a mesh proxy from Gaussian Opacity Fields and render it within a standard graphics pipeline. Experiments on real and synthetic captures show that this hybrid strategy achieves substantially more stable relighting across sequences than diffusion-only baselines, while scaling beyond the clip lengths feasible for video diffusion. These results indicate that hybrid approaches, which balance learned priors with physically grounded constraints, are a practical step toward production-ready volumetric video relighting.",
     "authors": [
-      "Elisabeth J\u00fcttner",
+      "Elisabeth Jüttner",
       "Leona Krath",
       "Stefan Korfhage",
-      "Hannah Dr\u00f6ge",
+      "Hannah Dröge",
       "Matthias B. Hullin",
       "Markus Plack"
     ],
@@ -211,7 +211,7 @@
       "Alban Etiennea",
       "Jean-Jacques Ohana",
       "Eric Benhamou",
-      "B\u00e9atrice Guez",
+      "Béatrice Guez",
       "Ethan Setrouk",
       "Thomas Jacquot"
     ],
@@ -235,7 +235,7 @@
     "summary": "Accurate far-field speech datasets are critical for tasks such as automatic speech recognition (ASR), dereverberation, speech enhancement, and source separation. However, current datasets are limited by the trade-off between acoustic realism and scalability. Measured corpora provide faithful physics but are expensive, low-coverage, and rarely include paired clean and reverberant data. In contrast, most simulation-based datasets rely on simplified geometrical acoustics, thus failing to reproduce key physical phenomena like diffraction, scattering, and interference that govern sound propagation in complex environments. We introduce Treble10, a large-scale, physically accurate room-acoustic dataset. Treble10 contains over 3000 broadband room impulse responses (RIRs) simulated in 10 fully furnished real-world rooms, using a hybrid simulation paradigm implemented in the Treble SDK that combines a wave-based and geometrical acoustics solver. The dataset provides six complementary subsets, spanning mono, 8th-order Ambisonics, and 6-channel device RIRs, as well as pre-convolved reverberant speech scenes paired with LibriSpeech utterances. All signals are simulated at 32 kHz, accurately modelling low-frequency wave effects and high-frequency reflections. Treble10 bridges the realism gap between measurement and simulation, enabling reproducible, physically grounded evaluation and large-scale data augmentation for far-field speech tasks. The dataset is openly available via the Hugging Face Hub, and is intended as both a benchmark and a template for next-generation simulation-driven audio research.",
     "authors": [
       "Sarabeth S. Mullins",
-      "Georg G\u00f6tz",
+      "Georg Götz",
       "Eric Bezzam",
       "Steven Zheng",
       "Daniel Gert Nielsen"
@@ -593,7 +593,7 @@
       "Florian Fuchs",
       "Brady Chen",
       "Micheal Jones",
-      "Linus Gissl\u00e9n"
+      "Linus Gisslén"
     ],
     "categories": [
       "cs.AI",
@@ -869,7 +869,7 @@
     "title": "AUPO - Abstracted Until Proven Otherwise: A Reward Distribution Based   Abstraction Algorithm",
     "summary": "We introduce a novel, drop-in modification to Monte Carlo Tree Search's (MCTS) decision policy that we call AUPO. Comparisons based on a range of IPPC benchmark problems show that AUPO clearly outperforms MCTS. AUPO is an automatic action abstraction algorithm that solely relies on reward distribution statistics acquired during the MCTS. Thus, unlike other automatic abstraction algorithms, AUPO requires neither access to transition probabilities nor does AUPO require a directed acyclic search graph to build its abstraction, allowing AUPO to detect symmetric actions that state-of-the-art frameworks like ASAP struggle with when the resulting symmetric states are far apart in state space. Furthermore, as AUPO only affects the decision policy, it is not mutually exclusive with other abstraction techniques that only affect the tree search.",
     "authors": [
-      "Robin Schm\u00f6cker",
+      "Robin Schmöcker",
       "Alexander Dockhorn",
       "Bodo Rosenhahn"
     ],
@@ -890,7 +890,7 @@
     "authors": [
       "Amal Abed",
       "Ivan Lukic",
-      "J\u00f6rg K. H. Franke",
+      "Jörg K. H. Franke",
       "Frank Hutter"
     ],
     "categories": [
@@ -1228,7 +1228,7 @@
       "Samuel Kuttner",
       "Michael Kampffmeyer",
       "Robert Jenssen",
-      "Kristoffer Wickstr\u00f8m",
+      "Kristoffer Wickstrøm",
       "Jong Chul Ye",
       "Elisabeth Wetzer"
     ],
@@ -1248,8 +1248,8 @@
     "title": "Corpus Frequencies in Morphological Inflection: Do They Matter?",
     "summary": "The traditional approach to morphological inflection (the task of modifying a base word (lemma) to express grammatical categories) has been, for decades, to consider lexical entries of lemma-tag-form triples uniformly, lacking any information about their frequency distribution. However, in production deployment, one might expect the user inputs to reflect a real-world distribution of frequencies in natural texts. With future deployment in mind, we explore the incorporation of corpus frequency information into the task of morphological inflection along three key dimensions during system development: (i) for train-dev-test split, we combine a lemma-disjoint approach, which evaluates the model's generalization capabilities, with a frequency-weighted strategy to better reflect the realistic distribution of items across different frequency bands in training and test sets; (ii) for evaluation, we complement the standard type accuracy (often referred to simply as accuracy), which treats all items equally regardless of frequency, with token accuracy, which assigns greater weight to frequent words and better approximates performance on running text; (iii) for training data sampling, we introduce a method novel in the context of inflection, frequency-aware training, which explicitly incorporates word frequency into the sampling process. We show that frequency-aware training outperforms uniform sampling in 26 out of 43 languages.",
     "authors": [
-      "Tom\u00e1\u0161 Sourada",
-      "Jana Strakov\u00e1"
+      "Tomáš Sourada",
+      "Jana Straková"
     ],
     "categories": [
       "cs.CL"
@@ -1366,8 +1366,8 @@
     "title": "LibriConvo: Simulating Conversations from Read Literature for ASR and   Diarization",
     "summary": "We introduce LibriConvo, a simulated multi-speaker conversational dataset based on speaker-aware conversation simulation (SASC), designed to support training and evaluation of speaker diarization and automatic speech recognition (ASR) systems. Unlike prior resources that mostly rely on semantically disconnected utterances and implausible temporal gaps, LibriConvo ensures semantic coherence and realistic conversational timing. Our pipeline leverages CallHome with external VAD for reliable boundaries, applies compression to reduce unnaturally long silences, and organizes LibriTTS utterances by book to maintain contextual consistency. Acoustic realism is enhanced via a novel room impulse response selection procedure that ranks speaker-microphone configurations by spatial plausibility, balancing realism and diversity. The dataset comprises 240.1 hours across 1,496 dialogues with 830 unique speakers, split in a speaker-disjoint manner for robust evaluation. Baselines show that the sortformer model outperforms the pyannote pipeline in diarization, while a fine-tuned Fast Conformer-CTC XLarge with Serialized Output Training achieves 7.29\\% WER for ASR, surpassing zero-shot Whisper-large-v3. LibriConvo provides a valuable resource for advancing multi-speaker speech processing research with realistic conversational dynamics and controlled experimental conditions.",
     "authors": [
-      "M\u00e1t\u00e9 Gedeon",
-      "P\u00e9ter Mihajlik"
+      "Máté Gedeon",
+      "Péter Mihajlik"
     ],
     "categories": [
       "eess.AS",
@@ -1469,7 +1469,7 @@
     "title": "Minimizing Human Intervention in Online Classification",
     "summary": "We introduce and study an online problem arising in question answering systems. In this problem, an agent must sequentially classify user-submitted queries represented by $d$-dimensional embeddings drawn i.i.d. from an unknown distribution. The agent may consult a costly human expert for the correct label, or guess on her own without receiving feedback. The goal is to minimize regret against an oracle with free expert access. When the time horizon $T$ is at least exponential in the embedding dimension $d$, one can learn the geometry of the class regions: in this regime, we propose the Conservative Hull-based Classifier (CHC), which maintains convex hulls of expert-labeled queries and calls the expert as soon as a query lands outside all known hulls. CHC attains $\\mathcal{O}(\\log^d T)$ regret in $T$ and is minimax optimal for $d=1$. Otherwise, the geometry cannot be reliably learned without additional distributional assumptions. We show that when the queries are drawn from a subgaussian mixture, for $T \\le e^d$, a Center-based Classifier (CC) achieves regret proportional to $N\\log{N}$ where $N$ is the number of labels. To bridge these regimes, we introduce the Generalized Hull-based Classifier (GHC), a practical extension of CHC that allows for more aggressive guessing via a tunable threshold parameter. Our approach is validated with experiments, notably on real-world question-answering datasets using embeddings derived from state-of-the-art large language models.",
     "authors": [
-      "William R\u00e9veillard",
+      "William Réveillard",
       "Vasileios Saketos",
       "Alexandre Proutiere",
       "Richard Combes"
@@ -1551,10 +1551,10 @@
     "summary": "When serving a single base LLM with several different LoRA adapters simultaneously, the adapters cannot simply be merged with the base model's weights as the adapter swapping would create overhead and requests using different adapters could not be batched. Rather, the LoRA computations have to be separated from the base LLM computations, and in a multi-device setup the LoRA adapters can be sharded in a way that is well aligned with the base model's tensor parallel execution, as proposed in S-LoRA. However, the S-LoRA sharding strategy encounters some communication overhead, which may be small in theory, but can be large in practice. In this paper, we propose to constrain certain LoRA factors to be block-diagonal, which allows for an alternative way of sharding LoRA adapters that does not require any additional communication for the LoRA computations. We demonstrate in extensive experiments that our block-diagonal LoRA approach is similarly parameter efficient as standard LoRA (i.e., for a similar number of parameters it achieves similar downstream performance) and that it leads to significant end-to-end speed-up over S-LoRA. For example, when serving on eight A100 GPUs, we observe up to 1.79x (1.23x) end-to-end speed-up with 0.87x (1.74x) the number of adapter parameters for Llama-3.1-70B, and up to 1.63x (1.3x) end-to-end speed-up with 0.86x (1.73x) the number of adapter parameters for Llama-3.1-8B.",
     "authors": [
       "Xinyu Wang",
-      "Jonas M. K\u00fcbler",
+      "Jonas M. Kübler",
       "Kailash Budhathoki",
       "Yida Wang",
-      "Matth\u00e4us Kleindessner"
+      "Matthäus Kleindessner"
     ],
     "categories": [
       "cs.LG"
@@ -1573,7 +1573,7 @@
     "authors": [
       "Anwesha Das",
       "John Duff",
-      "J\u00f6rg Hoffmann",
+      "Jörg Hoffmann",
       "Vera Demberg"
     ],
     "categories": [
@@ -1769,8 +1769,8 @@
     "title": "Flexing in 73 Languages: A Single Small Model for Multilingual   Inflection",
     "summary": "We present a compact, single-model approach to multilingual inflection, the task of generating inflected word forms from base lemmas to express grammatical categories. Our model, trained jointly on data from 73 languages, is lightweight, robust to unseen words, and outperforms monolingual baselines in most languages. This demonstrates the effectiveness of multilingual modeling for inflection and highlights its practical benefits: simplifying deployment by eliminating the need to manage and retrain dozens of separate monolingual models. In addition to the standard SIGMORPHON shared task benchmarks, we evaluate our monolingual and multilingual models on 73 Universal Dependencies (UD) treebanks, extracting lemma-tag-form triples and their frequency counts. To ensure realistic data splits, we introduce a novel frequency-weighted, lemma-disjoint train-dev-test resampling procedure. Our work addresses the lack of an open-source, general-purpose, multilingual morphological inflection system capable of handling unseen words across a wide range of languages, including Czech. All code is publicly released at: https://github.com/tomsouri/multilingual-inflection.",
     "authors": [
-      "Tom\u00e1\u0161 Sourada",
-      "Jana Strakov\u00e1"
+      "Tomáš Sourada",
+      "Jana Straková"
     ],
     "categories": [
       "cs.CL"
@@ -2037,7 +2037,7 @@
     "authors": [
       "Edoardo Manino",
       "Bruno Farias",
-      "Rafael S\u00e1 Menezes",
+      "Rafael Sá Menezes",
       "Fedor Shmarov",
       "Lucas C. Cordeiro"
     ],
@@ -2100,7 +2100,7 @@
   },
   {
     "arxiv_id": "2510.23225v1",
-    "title": "Through the Lens: Benchmarking Deepfake Detectors Against   Moir\u00e9-Induced Distortions",
+    "title": "Through the Lens: Benchmarking Deepfake Detectors Against   Moiré-Induced Distortions",
     "summary": "Deepfake detection remains a pressing challenge, particularly in real-world settings where smartphone-captured media from digital screens often introduces Moir\\'e artifacts that can distort detection outcomes. This study systematically evaluates state-of-the-art (SOTA) deepfake detectors on Moir\\'e-affected videos, an issue that has received little attention. We collected a dataset of 12,832 videos, spanning 35.64 hours, from the Celeb-DF, DFD, DFDC, UADFV, and FF++ datasets, capturing footage under diverse real-world conditions, including varying screens, smartphones, lighting setups, and camera angles. To further examine the influence of Moir\\'e patterns on deepfake detection, we conducted additional experiments using our DeepMoir\\'eFake, referred to as (DMF) dataset and two synthetic Moir\\'e generation techniques. Across 15 top-performing detectors, our results show that Moir\\'e artifacts degrade performance by as much as 25.4%, while synthetically generated Moir\\'e patterns lead to a 21.4% drop in accuracy. Surprisingly, demoir\\'eing methods, intended as a mitigation approach, instead worsened the problem, reducing accuracy by up to 17.2%. These findings underscore the urgent need for detection models that can robustly handle Moir\\'e distortions alongside other realworld challenges, such as compression, sharpening, and blurring. By introducing the DMF dataset, we aim to drive future research toward closing the gap between controlled experiments and practical deepfake detection.",
     "authors": [
       "Razaib Tariq",
@@ -2210,7 +2210,7 @@
     "authors": [
       "Anirban Das",
       "Irtaza Khalid",
-      "Rafael Pe\u00f1aloza",
+      "Rafael Peñaloza",
       "Steven Schockaert"
     ],
     "categories": [
@@ -2295,7 +2295,7 @@
       "Michael L. Parker",
       "Samar Mahmoud",
       "Bailey Montefiore",
-      "Mario \u00d6eren",
+      "Mario Öeren",
       "Himani Tandon",
       "Charlotte Wharrick",
       "Matthew D. Segall"
@@ -2335,9 +2335,9 @@
     "title": "Toward Interpretable Evaluation Measures for Time Series Segmentation",
     "summary": "Time series segmentation is a fundamental task in analyzing temporal data across various domains, from human activity recognition to energy monitoring. While numerous state-of-the-art methods have been developed to tackle this problem, the evaluation of their performance remains critically limited. Existing measures predominantly focus on change point accuracy or rely on point-based measures such as Adjusted Rand Index (ARI), which fail to capture the quality of the detected segments, ignore the nature of errors, and offer limited interpretability. In this paper, we address these shortcomings by introducing two novel evaluation measures: WARI (Weighted Adjusted Rand Index), that accounts for the position of segmentation errors, and SMS (State Matching Score), a fine-grained measure that identifies and scores four fundamental types of segmentation errors while allowing error-specific weighting. We empirically validate WARI and SMS on synthetic and real-world benchmarks, showing that they not only provide a more accurate assessment of segmentation quality but also uncover insights, such as error provenance and type, that are inaccessible with traditional measures.",
     "authors": [
-      "F\u00e9lix Chavelli",
+      "Félix Chavelli",
       "Paul Boniol",
-      "Micha\u00ebl Thomazo"
+      "Michaël Thomazo"
     ],
     "categories": [
       "cs.LG"
@@ -2490,13 +2490,13 @@
       "Christoph J. Laux",
       "Francois Teyssere",
       "Thibault Chandanson",
-      "Antoine Harl\u00e9",
+      "Antoine Harlé",
       "Elie Saghbiny",
       "Mazda Farshad",
       "Guillaume Morel",
       "Emmanuel Vander Poorten",
-      "Philipp F\u00fcrnstahl",
-      "S\u00e9bastien Ourselin",
+      "Philipp Fürnstahl",
+      "Sébastien Ourselin",
       "Christos Bergeles",
       "Tom Vercauteren"
     ],
@@ -2735,7 +2735,7 @@
       "Alex Ayoub",
       "Kavosh Asadi",
       "Dale Schuurmans",
-      "Csaba Szepesv\u00e1ri",
+      "Csaba Szepesvári",
       "Karim Bouyarmane"
     ],
     "categories": [
@@ -3058,7 +3058,7 @@
       "Arnav Sukhija",
       "Lenart Treven",
       "Jin Cheng",
-      "Florian D\u00f6rfler",
+      "Florian Dörfler",
       "Stelian Coros",
       "Andreas Krause"
     ],
@@ -3456,7 +3456,7 @@
     "authors": [
       "Alexis Ellis",
       "Stacie Severyn",
-      "Fjoll\u00eb Novakazi",
+      "Fjollë Novakazi",
       "Hadi Banaee",
       "Cogan Shimizu"
     ],
@@ -3477,7 +3477,7 @@
     "authors": [
       "Ivan Sipiran",
       "Gustavo Santelices",
-      "Lucas Oyarz\u00fan",
+      "Lucas Oyarzún",
       "Andrea Ranieri",
       "Chiara Romanengo",
       "Silvia Biasotti",
@@ -3500,7 +3500,7 @@
     "authors": [
       "Evy Beijen",
       "Pien Pieterse",
-      "Yusuf \u00c7elik",
+      "Yusuf Çelik",
       "Willem Th. van Peursen",
       "Sandjai Bhulai",
       "Meike Morren"
@@ -3614,7 +3614,7 @@
     "authors": [
       "Juan A. Lara",
       "David Lizcano",
-      "V\u00edctor Ramp\u00e9rez",
+      "Víctor Rampérez",
       "Javier Soriano"
     ],
     "categories": [
@@ -3697,13 +3697,13 @@
     "authors": [
       "Karthikeyan Chandra Sekaran",
       "Markus Geisler",
-      "Dominik R\u00f6\u00dfle",
+      "Dominik Rößle",
       "Adithya Mohan",
       "Daniel Cremers",
       "Wolfgang Utschick",
       "Michael Botsch",
       "Werner Huber",
-      "Torsten Sch\u00f6n"
+      "Torsten Schön"
     ],
     "categories": [
       "cs.CV"
@@ -3724,7 +3724,7 @@
       "Thomas M. Moerland",
       "Mike Preuss",
       "Aske Plaat",
-      "Vincent Fran\u00e7ois-Lavet",
+      "Vincent François-Lavet",
       "Edward S. Hu"
     ],
     "categories": [
@@ -4008,9 +4008,9 @@
     "title": "Predicting symbolic ODEs from multiple trajectories",
     "summary": "We introduce MIO, a transformer-based model for inferring symbolic ordinary differential equations (ODEs) from multiple observed trajectories of a dynamical system. By combining multiple instance learning with transformer-based symbolic regression, the model effectively leverages repeated observations of the same system to learn more generalizable representations of the underlying dynamics. We investigate different instance aggregation strategies and show that even simple mean aggregation can substantially boost performance. MIO is evaluated on systems ranging from one to four dimensions and under varying noise levels, consistently outperforming existing baselines.",
     "authors": [
-      "Yakup Emre \u015eahin",
+      "Yakup Emre Şahin",
       "Niki Kilbertus",
-      "S\u00f6ren Becker"
+      "Sören Becker"
     ],
     "categories": [
       "cs.LG"
@@ -4184,7 +4184,7 @@
       "Aleksandra Urman",
       "Ulrich Leicht-Deobald",
       "Zachary J. Roman",
-      "Anik\u00f3 Hann\u00e1k",
+      "Anikó Hannák",
       "Markus Christen"
     ],
     "categories": [
@@ -4456,7 +4456,7 @@
     "title": "Model-free filtering in high dimensions via projection and score-based   diffusions",
     "summary": "We consider the problem of recovering a latent signal $X$ from its noisy observation $Y$. The unknown law $\\mathbb{P}^X$ of $X$, and in particular its support $\\mathscr{M}$, are accessible only through a large sample of i.i.d.\\ observations. We further assume $\\mathscr{M}$ to be a low-dimensional submanifold of a high-dimensional Euclidean space $\\mathbb{R}^d$. As a filter or denoiser $\\widehat X$, we suggest an estimator of the metric projection $\\pi_{\\mathscr{M}}(Y)$ of $Y$ onto the manifold $\\mathscr{M}$. To compute this estimator, we study an auxiliary semiparametric model in which $Y$ is obtained by adding isotropic Laplace noise to $X$. Using score matching within a corresponding diffusion model, we obtain an estimator of the Bayesian posterior $\\mathbb{P}^{X \\mid Y}$ in this setup. Our main theoretical results show that, in the limit of high dimension $d$, this posterior $\\mathbb{P}^{X\\mid Y}$ is concentrated near the desired metric projection $\\pi_{\\mathscr{M}}(Y)$.",
     "authors": [
-      "S\u00f6ren Christensen",
+      "Sören Christensen",
       "Jan Kallsen",
       "Claudia Strauch",
       "Lukas Trottner"
@@ -4473,286 +4473,5 @@
     "date": "2025-10-28",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "torm0zaaa/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-swift_miniature_coral",
-    "author": "unknown",
-    "title": "torm0zaaa/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-swift_miniature_coral",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am swift_miniature_coral",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-10-27T17:10:13.000Z",
-    "last_modified": "2025-10-28T03:00:57.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/torm0zaaa/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-swift_miniature_coral",
-    "date": "2025-10-28",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "MOREN808/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-flexible_insectivorous_clam",
-    "author": "unknown",
-    "title": "MOREN808/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-flexible_insectivorous_clam",
-    "downloads": 6,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am flexible_insectivorous_clam",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-10-27T01:46:52.000Z",
-    "last_modified": "2025-10-28T03:00:41.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/MOREN808/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-flexible_insectivorous_clam",
-    "date": "2025-10-28",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "NongNo/Smoothie-Qwen3-1.7B-Gensyn-Swarm-padded_insectivorous_boar",
-    "author": "unknown",
-    "title": "NongNo/Smoothie-Qwen3-1.7B-Gensyn-Swarm-padded_insectivorous_boar",
-    "downloads": 12,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am padded_insectivorous_boar",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-10-26T16:07:19.000Z",
-    "last_modified": "2025-10-28T03:00:28.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/NongNo/Smoothie-Qwen3-1.7B-Gensyn-Swarm-padded_insectivorous_boar",
-    "date": "2025-10-28",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "pseryte1/Qwen3-0.6B-Gensyn-Swarm-wary_leggy_rabbit",
-    "author": "unknown",
-    "title": "pseryte1/Qwen3-0.6B-Gensyn-Swarm-wary_leggy_rabbit",
-    "downloads": 392,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am wary_leggy_rabbit",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-10-26T11:34:30.000Z",
-    "last_modified": "2025-10-28T03:00:17.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/pseryte1/Qwen3-0.6B-Gensyn-Swarm-wary_leggy_rabbit",
-    "date": "2025-10-28",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "dora342/Qwen2.5-1.5B-Instruct-Gensyn-Swarm-scruffy_playful_cheetah",
-    "author": "unknown",
-    "title": "dora342/Qwen2.5-1.5B-Instruct-Gensyn-Swarm-scruffy_playful_cheetah",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am scruffy_playful_cheetah",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-10-27T21:47:40.000Z",
-    "last_modified": "2025-10-28T03:00:03.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/dora342/Qwen2.5-1.5B-Instruct-Gensyn-Swarm-scruffy_playful_cheetah",
-    "date": "2025-10-28",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "bungamawar/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-monstrous_loud_bear",
-    "author": "unknown",
-    "title": "bungamawar/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-monstrous_loud_bear",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am monstrous_loud_bear",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-10-27T11:40:40.000Z",
-    "last_modified": "2025-10-28T02:58:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/bungamawar/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-monstrous_loud_bear",
-    "date": "2025-10-28",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Bigstickamad/Qwen3-0.6B-Gensyn-Swarm-lumbering_shiny_alpaca",
-    "author": "unknown",
-    "title": "Bigstickamad/Qwen3-0.6B-Gensyn-Swarm-lumbering_shiny_alpaca",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am lumbering_shiny_alpaca",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-10-27T16:47:56.000Z",
-    "last_modified": "2025-10-28T02:58:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Bigstickamad/Qwen3-0.6B-Gensyn-Swarm-lumbering_shiny_alpaca",
-    "date": "2025-10-28",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Magic7/Qwen3-0.6B-Gensyn-Swarm-aquatic_deadly_penguin",
-    "author": "unknown",
-    "title": "Magic7/Qwen3-0.6B-Gensyn-Swarm-aquatic_deadly_penguin",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am aquatic_deadly_penguin",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-10-28T02:49:59.000Z",
-    "last_modified": "2025-10-28T02:57:49.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Magic7/Qwen3-0.6B-Gensyn-Swarm-aquatic_deadly_penguin",
-    "date": "2025-10-28",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "dataset_id": "newpcgoogle/publicimgs",
-    "author": "newpcgoogle",
-    "title": "newpcgoogle/publicimgs",
-    "downloads": 174,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "created_at": "2023-11-01T06:32:50.000Z",
-    "last_modified": "2025-10-28T02:57:38.000Z",
-    "url": "https://huggingface.co/datasets/newpcgoogle/publicimgs",
-    "date": "2025-10-28",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.4
   }
 ]
