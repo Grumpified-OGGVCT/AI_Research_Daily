@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-28T06:24:17.153566",
+  "date": "2025-10-28T07:15:55.930025",
   "patterns": {
     "multimodal_research": [
       {
@@ -681,10 +681,6 @@
       {
         "title": "A Video Is Not Worth a Thousand Words",
         "url": "https://arxiv.org/abs/2510.23253v1"
-      },
-      {
-        "title": "Z-Jafari/xlm-roberta-base-finetuned-pquad-squad-finetuned-PersianQuAD_Q_N_C_DS_QA_M_M_QA_em-3epochs",
-        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-pquad-squad-finetuned-PersianQuAD_Q_N_C_DS_QA_M_M_QA_em-3epochs"
       }
     ],
     "vision_systems": [
@@ -1697,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 413
   }
 }
