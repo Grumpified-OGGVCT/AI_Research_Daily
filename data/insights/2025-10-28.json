@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-28T12:30:23.596034",
+  "date": "2025-10-28T13:28:26.055202",
   "patterns": {
     "multimodal_research": [
       {
@@ -1663,10 +1663,6 @@
       {
         "title": "InFlux: A Benchmark for Self-Calibration of Dynamic Intrinsics of Video   Cameras",
         "url": "https://arxiv.org/abs/2510.23589v1"
-      },
-      {
-        "title": "SandraJ/merged-llama3.1-benchmark-bfloat16contract",
-        "url": "https://huggingface.co/SandraJ/merged-llama3.1-benchmark-bfloat16contract"
       }
     ]
   },
@@ -1721,20 +1717,20 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "107 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
   ],
   "research_trends": [
     {
-      "topic": "benchmark",
+      "topic": "language",
       "frequency": 67,
       "significance": "high"
     },
     {
-      "topic": "language",
-      "frequency": 67,
+      "topic": "benchmark",
+      "frequency": 66,
       "significance": "high"
     },
     {
@@ -1756,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 413
   }
 }
