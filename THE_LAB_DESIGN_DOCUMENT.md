@@ -17,7 +17,26 @@
 **The Lab** solves the critical information overload problem facing AI researchers and engineers:
 
 - **Curates** the daily firehose of 100+ AI papers down to the 3-5 that matter most
-- **Translates** dense academic research into accessible insight## Sample Prompts, Questions, and Calls to Action
+- **Translates** dense academic research into accessible insight## Guidelines for Generating Effective Prompts, Questions, and Calls to Action
+
+Crafting effective prompts, questions, and calls to action is essential for driving engagement and fostering meaningful interactions. Below are best practices and criteria for creating these elements:
+
+### Prompts
+- **Clarity**: Ensure prompts are concise and easy to understand.
+- **Relevance**: Tailor prompts to the context of the content and the audience's interests.
+- **Engagement**: Use language that encourages curiosity and participation.
+
+### Questions
+- **Open-ended**: Frame questions that invite detailed responses rather than simple yes/no answers.
+- **Audience alignment**: Consider the knowledge level and interests of your audience when drafting questions.
+- **Examples**: Refer to the existing questions in this document for inspiration.
+
+### Calls to Action
+- **Actionable**: Clearly state what you want the audience to do (e.g., "Share your thoughts in the comments").
+- **Interactive features**: Leverage tools like polls, forms, or discussion threads to enhance participation.
+- **Alignment**: Ensure calls to action align with the goals of the content and provide value to the audience.
+
+By following these guidelines, contributors can create prompts, questions, and calls to action that are impactful, engaging, and aligned with the objectives of the Blogging System plan.## Sample Prompts, Questions, and Calls to Action
 
 ### Prompts:
 - "What are your thoughts on the latest AI breakthrough discussed in this post? Share your perspective in the comments!"
