@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-29T06:24:16.268791",
+  "date": "2025-10-29T07:16:04.757761",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,16 +667,8 @@
         "url": "https://arxiv.org/abs/2510.24474v1"
       },
       {
-        "title": "JamesLemo/xlm-roberta-base-finetuned-emotion",
-        "url": "https://huggingface.co/JamesLemo/xlm-roberta-base-finetuned-emotion"
-      },
-      {
-        "title": "arthurbittencourt/october-predator-xlm-roberta-500-twitter_topics_0_a-fold7",
-        "url": "https://huggingface.co/arthurbittencourt/october-predator-xlm-roberta-500-twitter_topics_0_a-fold7"
-      },
-      {
-        "title": "AlexHung29629/gpt-oss-20b-vl-sft-output-8",
-        "url": "https://huggingface.co/AlexHung29629/gpt-oss-20b-vl-sft-output-8"
+        "title": "arthurbittencourt/october-predator-xlm-roberta-500-twitter_topics_1_a-fold3",
+        "url": "https://huggingface.co/arthurbittencourt/october-predator-xlm-roberta-500-twitter_topics_1_a-fold3"
       }
     ],
     "vision_systems": [
@@ -1241,10 +1233,6 @@
       {
         "title": "Eye-Tracking, Mouse Tracking, Stimulus Tracking,and Decision-Making   Datasets in Digital Pathology",
         "url": "https://arxiv.org/abs/2510.24653v1"
-      },
-      {
-        "title": "inferencerlabs/MiniMax-M2-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1749,7 +1737,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1749,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 424
   }
 }
