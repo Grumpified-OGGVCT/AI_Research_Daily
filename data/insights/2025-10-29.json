@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-29T22:15:14.070060",
+  "date": "2025-10-29T23:15:17.324310",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,8 +667,8 @@
         "url": "https://arxiv.org/abs/2510.24474v1"
       },
       {
-        "title": "EpistemeAI/metatune-gpt20b-R1",
-        "url": "https://huggingface.co/EpistemeAI/metatune-gpt20b-R1"
+        "title": "arthurbittencourt/october-predator-xlm-roberta-500-dblp_6_a-fold7",
+        "url": "https://huggingface.co/arthurbittencourt/october-predator-xlm-roberta-500-dblp_6_a-fold7"
       }
     ],
     "vision_systems": [
@@ -1233,10 +1233,6 @@
       {
         "title": "Eye-Tracking, Mouse Tracking, Stimulus Tracking,and Decision-Making   Datasets in Digital Pathology",
         "url": "https://arxiv.org/abs/2510.24653v1"
-      },
-      {
-        "title": "inferencerlabs/MiniMax-M2-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1753,7 +1749,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 424
   }
 }
