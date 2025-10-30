@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-30T09:17:28.434923",
+  "date": "2025-10-30T10:17:17.559699",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,12 +647,8 @@
         "url": "https://arxiv.org/abs/2510.25239v1"
       },
       {
-        "title": "jastorj/unsloth_gpt_oss_20b-nl2sqlpp-16bit-v1",
-        "url": "https://huggingface.co/jastorj/unsloth_gpt_oss_20b-nl2sqlpp-16bit-v1"
-      },
-      {
-        "title": "AbrarAbhinaya/distilbertScenario5-news-classifier",
-        "url": "https://huggingface.co/AbrarAbhinaya/distilbertScenario5-news-classifier"
+        "title": "wrronsky/interent-forum-classification-finetuned-herbert",
+        "url": "https://huggingface.co/wrronsky/interent-forum-classification-finetuned-herbert"
       }
     ],
     "vision_systems": [
@@ -795,6 +791,10 @@
       {
         "title": "$D^2GS$: Dense Depth Regularization for LiDAR-free Urban Scene   Reconstruction",
         "url": "https://arxiv.org/abs/2510.25173v1"
+      },
+      {
+        "title": "huggingface/documentation-images",
+        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "More than a Moment: Towards Coherent Sequences of Audio Descriptions",
@@ -1573,13 +1573,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "59 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
