@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-30T07:15:37.419759",
+  "date": "2025-10-30T08:21:16.754756",
   "patterns": {
     "multimodal_research": [
       {
@@ -349,10 +349,6 @@
       {
         "title": "BambooKG: A Neurobiologically-inspired Frequency-Weight Knowledge Graph",
         "url": "https://arxiv.org/abs/2510.25724v1"
-      },
-      {
-        "title": "iam-tsr/distilbert-base-uncased-finetuned-clinc",
-        "url": "https://huggingface.co/iam-tsr/distilbert-base-uncased-finetuned-clinc"
       }
     ],
     "vision_systems": [
@@ -805,7 +801,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "49 independent papers",
+      "observation": "48 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -864,6 +860,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 191
+    "total_papers": 190
   }
 }
