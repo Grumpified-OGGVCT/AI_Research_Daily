@@ -1,5 +1,5 @@
 {
-  "date": "2025-10-31T17:15:37.507037",
+  "date": "2025-10-31T18:22:38.062214",
   "patterns": {
     "multimodal_research": [
       {
@@ -283,10 +283,6 @@
       {
         "title": "Advancing Forest Fires Classification using Neurochaos Learning",
         "url": "https://arxiv.org/abs/2510.26383v1"
-      },
-      {
-        "title": "Diamantis99/unetplusplus_efficientnet-b7",
-        "url": "https://huggingface.co/Diamantis99/unetplusplus_efficientnet-b7"
       }
     ],
     "language_models": [
@@ -653,10 +649,6 @@
       {
         "title": "Masked Diffusion Captioning for Visual Feature Learning",
         "url": "https://arxiv.org/abs/2510.26799v1"
-      },
-      {
-        "title": "GilbertAkham/deepseek-R1-multitask-lora",
-        "url": "https://huggingface.co/GilbertAkham/deepseek-R1-multitask-lora"
       }
     ],
     "vision_systems": [
@@ -1609,7 +1601,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "52 independent papers",
+      "observation": "51 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1621,7 +1613,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1680,6 +1672,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 395
+    "total_papers": 393
   }
 }
