@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-01T15:13:59.626940",
+  "date": "2025-11-01T16:16:35.906413",
   "patterns": {
     "multimodal_research": [
       {
@@ -927,10 +927,6 @@
       {
         "title": "Leveraging Large-Scale Face Datasets for Deep Periocular Recognition via   Ocular Cropping",
         "url": "https://arxiv.org/abs/2510.26294v1"
-      },
-      {
-        "title": "CaliTaco/llama-3.2-11b-vision-personality",
-        "url": "https://huggingface.co/CaliTaco/llama-3.2-11b-vision-personality"
       }
     ],
     "reasoning": [
@@ -1623,7 +1619,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1669,13 +1665,13 @@
     },
     {
       "topic": "vision",
-      "frequency": 34,
+      "frequency": 33,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 394
+    "total_papers": 393
   }
 }
