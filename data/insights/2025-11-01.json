@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-01T14:13:02.982336",
+  "date": "2025-11-01T15:13:59.626940",
   "patterns": {
     "multimodal_research": [
       {
@@ -283,10 +283,6 @@
       {
         "title": "Advancing Forest Fires Classification using Neurochaos Learning",
         "url": "https://arxiv.org/abs/2510.26383v1"
-      },
-      {
-        "title": "noctrex/MiniMax-M2-MXFP4_MOE-GGUF",
-        "url": "https://huggingface.co/noctrex/MiniMax-M2-MXFP4_MOE-GGUF"
       }
     ],
     "language_models": [
@@ -931,6 +927,10 @@
       {
         "title": "Leveraging Large-Scale Face Datasets for Deep Periocular Recognition via   Ocular Cropping",
         "url": "https://arxiv.org/abs/2510.26294v1"
+      },
+      {
+        "title": "CaliTaco/llama-3.2-11b-vision-personality",
+        "url": "https://huggingface.co/CaliTaco/llama-3.2-11b-vision-personality"
       }
     ],
     "reasoning": [
@@ -1605,7 +1605,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "52 independent papers",
+      "observation": "51 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1623,7 +1623,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1669,7 +1669,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 33,
+      "frequency": 34,
       "significance": "high"
     }
   ],
