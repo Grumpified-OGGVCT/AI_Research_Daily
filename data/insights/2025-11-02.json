@@ -1,11 +1,33 @@
 {
-  "date": "2025-11-02T07:14:36.467146",
-  "patterns": {},
-  "inferences": [],
+  "date": "2025-11-02T08:17:58.517721",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Fathi7ma/tiny-stories-gpt2",
+        "url": "https://huggingface.co/Fathi7ma/tiny-stories-gpt2"
+      },
+      {
+        "title": "armand0e/gpt-oss-20b-claude-4.5-sonnet-high-reasoning-distill",
+        "url": "https://huggingface.co/armand0e/gpt-oss-20b-claude-4.5-sonnet-high-reasoning-distill"
+      },
+      {
+        "title": "CallMcMargin/Huihui-Jan-v1-4B-abliterated-mlx-bf16-affine-qgroup64-q8",
+        "url": "https://huggingface.co/CallMcMargin/Huihui-Jan-v1-4B-abliterated-mlx-bf16-affine-qgroup64-q8"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
