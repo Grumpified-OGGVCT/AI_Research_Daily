@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-03T19:13:13.045951",
-  "patterns": {},
+  "date": "2025-11-03T20:18:27.968985",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "paragonadey/mh-text-classifier-roberta-v2",
+        "url": "https://huggingface.co/paragonadey/mh-text-classifier-roberta-v2"
+      },
+      {
+        "title": "CallMcMargin/Huihui-Ring-mini-2.0-abliterated-mlx-bf16-affine-qgroup32-q6",
+        "url": "https://huggingface.co/CallMcMargin/Huihui-Ring-mini-2.0-abliterated-mlx-bf16-affine-qgroup32-q6"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
