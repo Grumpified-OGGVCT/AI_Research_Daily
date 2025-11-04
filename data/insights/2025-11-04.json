@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-04T20:18:06.918146",
-  "patterns": {},
+  "date": "2025-11-04T21:15:12.387757",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "atjhin/cnnbert-finetuned-agnews",
+        "url": "https://huggingface.co/atjhin/cnnbert-finetuned-agnews"
+      },
+      {
+        "title": "thanujr/gpt-oss-120b-test",
+        "url": "https://huggingface.co/thanujr/gpt-oss-120b-test"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
