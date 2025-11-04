@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-04T22:14:54.638450",
-  "patterns": {},
+  "date": "2025-11-04T23:14:46.938605",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "aconeil/w2v-bert-2.0-lmk_man_align_updated",
+        "url": "https://huggingface.co/aconeil/w2v-bert-2.0-lmk_man_align_updated"
+      },
+      {
+        "title": "LLMnegotiation/no_press_10_1_ties_ad_align_new",
+        "url": "https://huggingface.co/LLMnegotiation/no_press_10_1_ties_ad_align_new"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
