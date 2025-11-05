@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-05T16:20:51.073406",
+  "date": "2025-11-05T17:15:58.884118",
   "patterns": {
     "multimodal_research": [
       {
@@ -1185,6 +1185,10 @@
       {
         "title": "LiteVoxel: Low-memory Intelligent Thresholding for Efficient Voxel   Rasterization",
         "url": "https://arxiv.org/abs/2511.02510v1"
+      },
+      {
+        "title": "inferencerlabs/Qwen3-Coder-480B-A35B-Instruct-MLX-8.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Qwen3-Coder-480B-A35B-Instruct-MLX-8.5bit"
       }
     ],
     "benchmarks": [
@@ -1597,7 +1601,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1644,6 +1648,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 386
+    "total_papers": 387
   }
 }
