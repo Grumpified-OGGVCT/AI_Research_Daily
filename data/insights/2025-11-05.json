@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-05T09:18:45.455038",
+  "date": "2025-11-05T10:18:25.382729",
   "patterns": {
     "multimodal_research": [
       {
@@ -631,10 +631,6 @@
         "url": "https://arxiv.org/abs/2511.02246v1"
       },
       {
-        "title": "Rasyy/distilbert_indonesian_news_clickbait_detection",
-        "url": "https://huggingface.co/Rasyy/distilbert_indonesian_news_clickbait_detection"
-      },
-      {
         "title": "From the Laboratory to Real-World Application: Evaluating Zero-Shot   Scene Interpretation on Edge Devices for Mobile Robotics",
         "url": "https://arxiv.org/abs/2511.02427v1"
       },
@@ -645,10 +641,6 @@
       {
         "title": "Differentiable Hierarchical Visual Tokenization",
         "url": "https://arxiv.org/abs/2511.02652v1"
-      },
-      {
-        "title": "swadeshb/SmolLM2-1.7B-Instruct-TRACE_GRPO-V1",
-        "url": "https://huggingface.co/swadeshb/SmolLM2-1.7B-Instruct-TRACE_GRPO-V1"
       }
     ],
     "vision_systems": [
@@ -1589,7 +1581,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1648,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 387
+    "total_papers": 385
   }
 }
