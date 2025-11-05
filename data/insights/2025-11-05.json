@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-05T11:15:52.598774",
+  "date": "2025-11-05T12:31:20.483528",
   "patterns": {
     "multimodal_research": [
       {
@@ -641,14 +641,6 @@
       {
         "title": "Differentiable Hierarchical Visual Tokenization",
         "url": "https://arxiv.org/abs/2511.02652v1"
-      },
-      {
-        "title": "12kimih/Qwen3-0.6B-r1qa-gpt-oss-v2-online",
-        "url": "https://huggingface.co/12kimih/Qwen3-0.6B-r1qa-gpt-oss-v2-online"
-      },
-      {
-        "title": "12kimih/Qwen3-0.6B-r1qa-gpt-oss-v2-offline",
-        "url": "https://huggingface.co/12kimih/Qwen3-0.6B-r1qa-gpt-oss-v2-offline"
       }
     ],
     "vision_systems": [
@@ -1589,7 +1581,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1648,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 387
+    "total_papers": 385
   }
 }
