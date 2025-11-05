@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-05T04:20:10.157216",
+  "date": "2025-11-05T05:16:56.317955",
   "patterns": {
     "multimodal_research": [
       {
@@ -105,10 +105,6 @@
       {
         "title": "ChartM$^3$: A Multi-Stage Code-Driven Pipeline for Constructing   Multi-Dimensional and Multi-Step Visual Reasoning Data in Chart Comprehension",
         "url": "https://arxiv.org/abs/2511.02415v1"
-      },
-      {
-        "title": "FriendliAI/Phi-4-multimodal-instruct",
-        "url": "https://huggingface.co/FriendliAI/Phi-4-multimodal-instruct"
       }
     ],
     "efficient_architectures": [
@@ -647,12 +643,8 @@
         "url": "https://arxiv.org/abs/2511.02652v1"
       },
       {
-        "title": "Lifan-Z/protGPT2_AMR_proteins-homolog-512-each_QLoRA-r1_merged",
-        "url": "https://huggingface.co/Lifan-Z/protGPT2_AMR_proteins-homolog-512-each_QLoRA-r1_merged"
-      },
-      {
-        "title": "takehika/xlm-roberta-ja-massive-intent",
-        "url": "https://huggingface.co/takehika/xlm-roberta-ja-massive-intent"
+        "title": "shaka03/xlm-roberta-tass-2025-II-bs4",
+        "url": "https://huggingface.co/shaka03/xlm-roberta-tass-2025-II-bs4"
       }
     ],
     "vision_systems": [
@@ -1569,7 +1561,7 @@
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "27 independent papers",
+      "observation": "26 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1593,7 +1585,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1652,6 +1644,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 388
+    "total_papers": 386
   }
 }
