@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-06T11:15:11.097676",
+  "date": "2025-11-06T12:31:41.210258",
   "patterns": {
     "multimodal_research": [
       {
@@ -591,8 +591,12 @@
         "url": "https://arxiv.org/abs/2511.03232v1"
       },
       {
-        "title": "mangalathkedar/profanity-detector-distilbert-multilingual",
-        "url": "https://huggingface.co/mangalathkedar/profanity-detector-distilbert-multilingual"
+        "title": "Shivanikumar/gpt-PPO-100-steps",
+        "url": "https://huggingface.co/Shivanikumar/gpt-PPO-100-steps"
+      },
+      {
+        "title": "Kibalama/smollm3-sft-01",
+        "url": "https://huggingface.co/Kibalama/smollm3-sft-01"
       }
     ],
     "vision_systems": [
@@ -1349,7 +1353,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1408,6 +1412,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 327
+    "total_papers": 328
   }
 }
