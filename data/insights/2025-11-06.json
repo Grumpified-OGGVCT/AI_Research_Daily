@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-06T10:19:05.402238",
+  "date": "2025-11-06T11:15:11.097676",
   "patterns": {
     "multimodal_research": [
       {
@@ -589,6 +589,10 @@
       {
         "title": "Transformer-Progressive Mamba Network for Lightweight Image   Super-Resolution",
         "url": "https://arxiv.org/abs/2511.03232v1"
+      },
+      {
+        "title": "mangalathkedar/profanity-detector-distilbert-multilingual",
+        "url": "https://huggingface.co/mangalathkedar/profanity-detector-distilbert-multilingual"
       }
     ],
     "vision_systems": [
@@ -755,10 +759,6 @@
       {
         "title": "PETWB-REP: A Multi-Cancer Whole-Body FDG PET/CT and Radiology Report   Dataset for Medical Imaging Research",
         "url": "https://arxiv.org/abs/2511.03194v1"
-      },
-      {
-        "title": "Alelcv27/Qwen2.5-1.5B-Instruct-Math-v3",
-        "url": "https://huggingface.co/Alelcv27/Qwen2.5-1.5B-Instruct-Math-v3"
       }
     ],
     "reasoning": [
@@ -1349,13 +1349,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "42 independent papers",
+      "observation": "41 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
