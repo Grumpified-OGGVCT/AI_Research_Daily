@@ -69,9 +69,9 @@
     "research_score": 0.9
   },
   {
-    "arxiv_id": "2511.02802v1",
+    "arxiv_id": "2511.02802v2",
     "title": "TabTune: A Unified Library for Inference and Fine-Tuning Tabular   Foundation Models",
-    "summary": "Tabular foundation models represent a growing paradigm in structured data learning, extending the benefits of large-scale pretraining to tabular domains. However, their adoption remains limited due to heterogeneous preprocessing pipelines, fragmented APIs, inconsistent fine-tuning procedures, and the absence of standardized evaluation for deployment-oriented metrics such as calibration and fairness. We present TabTune, a unified library that standardizes the complete workflow for tabular foundation models through a single interface. TabTune provides consistent access to seven state-of-the-art models supporting multiple adaptation strategies, including zero-shot inference, meta-learning, supervised fine-tuning (SFT), and parameter-efficient fine-tuning (PEFT). The framework automates model-aware preprocessing, manages architectural heterogeneity internally, and integrates evaluation modules for performance, calibration, and fairness. Designed for extensibility and reproducibility, TabTune enables consistent benchmarking of adaptation strategies of tabular foundation models. The library is open source and available at https://github.com/Lexsi-Labs/TabTune .",
+    "summary": "Tabular foundation models represent a growing paradigm in structured data learning, extending the benefits of large-scale pretraining to tabular domains. However, their adoption remains limited due to heterogeneous preprocessing pipelines, fragmented APIs, inconsistent fine-tuning procedures, and the absence of standardized evaluation for deployment-oriented metrics such as calibration and fairness. We present TabTune, a unified library that standardizes the complete workflow for tabular foundation models through a single interface. TabTune provides consistent access to seven state-of-the-art models supporting multiple adaptation strategies, including zero-shot inference, meta-learning, supervised fine-tuning (SFT), and parameter-efficient fine-tuning (PEFT). The framework automates model-aware preprocessing, manages architectural heterogeneity internally, and integrates evaluation modules for performance, calibration, and fairness. Designed for extensibility and reproducibility, TabTune enables consistent benchmarking of adaptation strategies of tabular foundation models.",
     "authors": [
       "Aditya Tanna",
       "Pratinav Seth",
@@ -84,8 +84,8 @@
       "cs.AI"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02802v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02802v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02802v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02802v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.86
@@ -133,7 +133,7 @@
     "research_score": 0.83
   },
   {
-    "arxiv_id": "2511.02824v1",
+    "arxiv_id": "2511.02824v2",
     "title": "Kosmos: An AI Scientist for Autonomous Discovery",
     "summary": "Data-driven scientific discovery requires iterative cycles of literature search, hypothesis generation, and data analysis. Substantial progress has been made towards AI agents that can automate scientific research, but all such agents remain limited in the number of actions they can take before losing coherence, thus limiting the depth of their findings. Here we present Kosmos, an AI scientist that automates data-driven discovery. Given an open-ended objective and a dataset, Kosmos runs for up to 12 hours performing cycles of parallel data analysis, literature search, and hypothesis generation before synthesizing discoveries into scientific reports. Unlike prior systems, Kosmos uses a structured world model to share information between a data analysis agent and a literature search agent. The world model enables Kosmos to coherently pursue the specified objective over 200 agent rollouts, collectively executing an average of 42,000 lines of code and reading 1,500 papers per run. Kosmos cites all statements in its reports with code or primary literature, ensuring its reasoning is traceable. Independent scientists found 79.4% of statements in Kosmos reports to be accurate, and collaborators reported that a single 20-cycle Kosmos run performed the equivalent of 6 months of their own research time on average. Furthermore, collaborators reported that the number of valuable scientific findings generated scales linearly with Kosmos cycles (tested up to 20 cycles). We highlight seven discoveries made by Kosmos that span metabolomics, materials science, neuroscience, and statistical genetics. Three discoveries independently reproduce findings from preprinted or unpublished manuscripts that were not accessed by Kosmos at runtime, while four make novel contributions to the scientific literature.",
     "authors": [
@@ -179,8 +179,8 @@
       "cs.AI"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02824v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02824v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02824v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02824v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.82
@@ -254,7 +254,7 @@
     "research_score": 0.78
   },
   {
-    "arxiv_id": "2511.02573v1",
+    "arxiv_id": "2511.02573v2",
     "title": "RIS-Assisted 3D Spherical Splatting for Object Composition Visualization   using Detection Transformers",
     "summary": "The pursuit of immersive and structurally aware multimedia experiences has intensified interest in sensing modalities that reconstruct objects beyond the limits of visible light. Conventional optical pipelines degrade under occlusion or low illumination, motivating the use of radio-frequency (RF) sensing, whose electromagnetic waves penetrate materials and encode both geometric and compositional information. Yet, uncontrolled multipath propagation restricts reconstruction accuracy. Recent advances in Programmable Wireless Environments (PWEs) mitigate this limitation by enabling software-defined manipulation of propagation through Reconfigurable Intelligent Surfaces (RISs), thereby providing controllable illumination diversity. Building on this capability, this work introduces a PWE-driven RF framework for three-dimensional object reconstruction using material-aware spherical primitives. The proposed approach combines RIS-enabled field synthesis with a Detection Transformer (DETR) that infers spatial and material parameters directly from extracted RF features. Simulation results confirm the framework's ability to approximate object geometries and classify material composition with an overall accuracy of 79.35%, marking an initial step toward programmable and physically grounded RF-based 3D object composition visualization.",
     "authors": [
@@ -262,6 +262,7 @@
       "Stavros Tsimpoukis",
       "Dimitrios Tyrovolas",
       "Sotiris Ioannidis",
+      "Panagiotis D. Diamantoulakis",
       "George K. Karagiannidis",
       "Christos K. Liaskos"
     ],
@@ -270,8 +271,8 @@
       "cs.LG"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02573v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02573v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02573v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02573v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.78
@@ -390,9 +391,9 @@
     "research_score": 0.75
   },
   {
-    "arxiv_id": "2511.02219v1",
+    "arxiv_id": "2511.02219v2",
     "title": "TabDSR: Decompose, Sanitize, and Reason for Complex Numerical Reasoning   in Tabular Data",
-    "summary": "Complex reasoning over tabular data is crucial in real-world data analysis, yet large language models (LLMs) often underperform due to complex queries, noisy data, and limited numerical capabilities. To address these issues, we propose \\method, a framework consisting of: (1) a query decomposer that breaks down complex questions, (2) a table sanitizer that cleans and filters noisy tables, and (3) a program-of-thoughts (PoT)-based reasoner that generates executable code to derive the final answer from the sanitized table. To ensure unbiased evaluation and mitigate data leakage, we introduce a new dataset, CalTab151, specifically designed for complex numerical reasoning over tables. Experimental results demonstrate that \\method consistently outperforms existing methods, achieving state-of-the-art (SOTA) performance with 8.79%, 6.08%, and 19.87% accuracy improvement on TAT-QA, TableBench, and \\method, respectively. Moreover, our framework integrates seamlessly with mainstream LLMs, providing a robust solution for complex tabular numerical reasoning. These findings highlight the effectiveness of our framework in enhancing LLM performance for complex tabular numerical reasoning. Data and code are available upon request.",
+    "summary": "Complex reasoning over tabular data is crucial in real-world data analysis, yet large language models (LLMs) often underperform due to complex queries, noisy data, and limited numerical capabilities. To address these issues, we propose TabDSR, a framework consisting of: (1) a query decomposer that breaks down complex questions, (2) a table sanitizer that cleans and filters noisy tables, and (3) a program-of-thoughts (PoT)-based reasoner that generates executable code to derive the final answer from the sanitized table. To ensure unbiased evaluation and mitigate data leakage, we introduce a new dataset, CalTab151, specifically designed for complex numerical reasoning over tables. Experimental results demonstrate that TabDSR consistently outperforms existing methods, achieving state-of-the-art (SOTA) performance with 8.79%, 6.08%, and 19.87% accuracy improvement on TAT-QA, TableBench, and TabDSR, respectively. Moreover, our framework integrates seamlessly with mainstream LLMs, providing a robust solution for complex tabular numerical reasoning. These findings highlight the effectiveness of our framework in enhancing LLM performance for complex tabular numerical reasoning. Data and code are available upon request.",
     "authors": [
       "Changjiang Jiang",
       "Fengchang Yu",
@@ -404,8 +405,8 @@
       "cs.AI"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02219v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02219v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02219v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02219v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.74
@@ -540,30 +541,6 @@
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.71
-  },
-  {
-    "arxiv_id": "2511.02834v1",
-    "title": "Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for   Understanding Anything",
-    "summary": "Multimodal large language models (MLLMs) have shown strong capabilities but remain limited to fixed modality pairs and require costly fine-tuning with large aligned datasets. Building fully omni-capable models that can integrate text, images, audio, and video remains impractical and lacks robust reasoning support. In this paper, we propose an Agent-Omni framework that coordinates existing foundation models through a master-agent system, enabling flexible multimodal reasoning without retraining. The master agent interprets user intent, delegates subtasks to modality-specific agents, and integrates their outputs into coherent responses. Extensive experiments across text, image, audio, video, and omni benchmarks show that Agent-Omni consistently achieves state-of-the-art performance, particularly on tasks requiring complex cross-modal reasoning. Its agent-based design enables seamless integration of specialized foundation models, ensuring adaptability to diverse inputs while maintaining transparency and interpretability. In addition, the framework is modular and easily extensible, allowing future improvements as stronger models become available. %We release an open-source implementation to support continued research on scalable and reliable omni-modal reasoning.",
-    "authors": [
-      "Huawei Lin",
-      "Yunzhi Shi",
-      "Tong Geng",
-      "Weijie Zhao",
-      "Wei Wang",
-      "Ravender Pal Singh"
-    ],
-    "categories": [
-      "cs.AI",
-      "cs.CL",
-      "cs.LG"
-    ],
-    "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02834v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02834v1.pdf",
-    "date": "2025-11-06",
-    "source": "arxiv",
-    "research_score": 0.7
   },
   {
     "arxiv_id": "2511.02762v1",
@@ -988,9 +965,33 @@
     "research_score": 0.67
   },
   {
-    "arxiv_id": "2511.02667v1",
+    "arxiv_id": "2511.02834v2",
+    "title": "Agent-Omni: Test-Time Multimodal Reasoning via Model Coordination for   Understanding Anything",
+    "summary": "Multimodal large language models (MLLMs) have shown strong capabilities but remain limited to fixed modality pairs and require costly fine-tuning with large aligned datasets. Building fully omni-capable models that can integrate text, images, audio, and video remains impractical and lacks robust reasoning support. In this paper, we propose an Agent-Omni framework that coordinates existing foundation models through a master-agent system, enabling flexible multimodal reasoning without retraining. The master agent interprets user intent, delegates subtasks to modality-specific agents, and integrates their outputs into coherent responses. Extensive experiments across text, image, audio, video, and omni benchmarks show that Agent-Omni consistently achieves state-of-the-art performance, particularly on tasks requiring complex cross-modal reasoning. Its agent-based design enables seamless integration of specialized foundation models, ensuring adaptability to diverse inputs while maintaining transparency and interpretability. In addition, the framework is modular and easily extensible, allowing future improvements as stronger models become available.",
+    "authors": [
+      "Huawei Lin",
+      "Yunzhi Shi",
+      "Tong Geng",
+      "Weijie Zhao",
+      "Wei Wang",
+      "Ravender Pal Singh"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "published": "2025-11-04",
+    "url": "https://arxiv.org/abs/2511.02834v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02834v2.pdf",
+    "date": "2025-11-06",
+    "source": "arxiv",
+    "research_score": 0.66
+  },
+  {
+    "arxiv_id": "2511.02667v2",
     "title": "Scalable Evaluation and Neural Models for Compositional Generalization",
-    "summary": "Compositional generalization-a key open challenge in modern machine learning-requires models to predict unknown combinations of known concepts. However, assessing compositional generalization remains a fundamental challenge due to the lack of standardized evaluation protocols and the limitations of current benchmarks, which often favor efficiency over rigor. At the same time, general-purpose vision architectures lack the necessary inductive biases, and existing approaches to endow them compromise scalability. As a remedy, this paper introduces: 1) a rigorous evaluation framework that unifies and extends previous approaches while reducing computational requirements from combinatorial to constant; 2) an extensive and modern evaluation on the status of compositional generalization in supervised vision backbones, training more than 5000 models; 3) Attribute Invariant Networks, a class of models establishing a new Pareto frontier in compositional generalization, achieving a 23.43% accuracy improvement over baselines while reducing parameter overhead from 600% to 16% compared to fully disentangled counterparts.",
+    "summary": "Compositional generalization-a key open challenge in modern machine learning-requires models to predict unknown combinations of known concepts. However, assessing compositional generalization remains a fundamental challenge due to the lack of standardized evaluation protocols and the limitations of current benchmarks, which often favor efficiency over rigor. At the same time, general-purpose vision architectures lack the necessary inductive biases, and existing approaches to endow them compromise scalability. As a remedy, this paper introduces: 1) a rigorous evaluation framework that unifies and extends previous approaches while reducing computational requirements from combinatorial to constant; 2) an extensive and modern evaluation on the status of compositional generalization in supervised vision backbones, training more than 5000 models; 3) Attribute Invariant Networks, a class of models establishing a new Pareto frontier in compositional generalization, achieving a 23.43% accuracy improvement over baselines while reducing parameter overhead from 600% to 16% compared to fully disentangled counterparts. Our code is available at https://github.com/IBM/scalable-compositional-generalization.",
     "authors": [
       "Giacomo Camposampiero",
       "Pietro Barbiero",
@@ -1003,8 +1004,8 @@
       "cs.AI"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02667v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02667v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02667v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02667v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.66
@@ -1165,7 +1166,7 @@
     "research_score": 0.65
   },
   {
-    "arxiv_id": "2511.02826v1",
+    "arxiv_id": "2511.02826v2",
     "title": "PLUTO-4: Frontier Pathology Foundation Models",
     "summary": "Foundation models trained on large-scale pathology image corpora have demonstrated strong transfer capabilities across diverse histopathology tasks. Building on this progress, we introduce PLUTO-4, our next generation of pathology foundation models that extend the Pathology-Universal Transformer (PLUTO) to frontier scale. We share two complementary Vision Transformer architectures in the PLUTO-4 family: a compact and efficient PLUTO-4S model optimized for multi-scale deployment using a FlexiViT setup with 2D-RoPE embeddings, and a frontier-scale PLUTO-4G model trained with a single patch size to maximize representation capacity and stability. Both models are pretrained using a self-supervised objective derived from DINOv2 on a large multi-institutional corpus containing 551,164 WSIs from 137,144 patients across over 50 institutions, spanning over 60 disease types and over 100 stains. Comprehensive evaluation across public and internal benchmarks demonstrates that PLUTO-4 achieves state-of-the-art performance on tasks requiring varying spatial and biological context, including patch-level classification, segmentation, and slide-level diagnosis. The compact PLUTO-4S provides high-throughput and robust performance for practical deployment, while PLUTO-4G establishes new performance frontiers across multiple pathology benchmarks, including an 11% improvement in dermatopathology diagnosis. These diverse improvements underscore PLUTO-4's potential to transform real-world applications as a backbone for translational research and diagnostic use cases.",
     "authors": [
@@ -1188,8 +1189,8 @@
       "cs.CV"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02826v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02826v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02826v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02826v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.65
@@ -1627,7 +1628,7 @@
     "research_score": 0.64
   },
   {
-    "arxiv_id": "2511.02263v1",
+    "arxiv_id": "2511.02263v2",
     "title": "LA-MARRVEL: A Knowledge-Grounded and Language-Aware LLM Reranker for   AI-MARRVEL in Rare Disease Diagnosis",
     "summary": "Diagnosing rare diseases often requires connecting variant-bearing genes to evidence that is written as unstructured clinical prose, which the current established pipelines still leave for clinicians to reconcile manually. To this end, we introduce LA-MARRVEL, a knowledge-grounded and language-aware reranking layer that operates on top of AI-MARRVEL: it supplies expert-engineered context, queries a large language model multiple times, and aggregates the resulting partial rankings with a ranked voting method to produce a stable, explainable gene ranking. Evaluated on three real-world cohorts (BG, DDD, UDN), LA-MARRVEL consistently improves Recall@K over AI-MARRVEL and established phenotype-driven tools such as Exomiser and LIRICAL, with especially large gains on cases where the first-stage ranker placed the causal gene lower. Each ranked gene is accompanied by LLM-generated reasoning that integrates phenotypic, inheritance, and variant-level evidence, thereby making the output more interpretable and facilitating clinical review.",
     "authors": [
@@ -1640,8 +1641,8 @@
       "cs.AI"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02263v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02263v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02263v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02263v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.64
@@ -1985,7 +1986,8 @@
       "Todd Hodges"
     ],
     "categories": [
-      "cs.LG"
+      "cs.LG",
+      "quant-ph"
     ],
     "published": "2025-11-04",
     "url": "https://arxiv.org/abs/2511.02785v1",
@@ -2043,13 +2045,12 @@
     "research_score": 0.62
   },
   {
-    "arxiv_id": "2511.02589v1",
+    "arxiv_id": "2511.02589v2",
     "title": "The ORCA Benchmark: Evaluating Real-World Calculation Accuracy in Large   Language Models",
-    "summary": "We present ORCA (Omni Research on Calculation in AI) Benchmark -- a novel benchmark that evaluates large language models (LLMs) on multi-domain, real-life quantitative reasoning using verified outputs from Omni's calculator engine. In 500 natural-language tasks across domains such as finance, physics, health, and statistics, the five state-of-the-art systems (ChatGPT-5, Gemini~2.5~Flash, Claude~Sonnet~4.5, Grok~4, and DeepSeek~V3.2) achieved only $45\\text{--}63\\,\\%$ accuracy, with errors mainly related to rounding ($35\\,\\%$) and calculation mistakes ($33\\,\\%$). Results in specific domains indicate strengths in mathematics and engineering, but weaknesses in physics and natural sciences. Correlation analysis ($r \\approx 0.40\\text{--}0.65$) shows that the models often fail together but differ in the types of errors they make, highlighting their partial complementarity rather than redundancy. Unlike standard math datasets, ORCA evaluates step-by-step reasoning, numerical precision, and domain generalization across real problems from finance, physics, health, and statistics.",
+    "summary": "We present ORCA (Omni Research on Calculation in AI) Benchmark - a novel benchmark that evaluates large language models (LLMs) on multi-domain, real-life quantitative reasoning using verified outputs from Omni's calculator engine. In 500 natural-language tasks across domains such as finance, physics, health, and statistics, the five state-of-the-art systems (ChatGPT-5, Gemini~2.5~Flash, Claude~Sonnet~4.5, Grok~4, and DeepSeek~V3.2) achieved only $45\\text{--}63\\,\\%$ accuracy, with errors mainly related to rounding ($35\\,\\%$) and calculation mistakes ($33\\,\\%$). Results in specific domains indicate strengths in mathematics and engineering, but weaknesses in physics and natural sciences. Correlation analysis ($r \\approx 0.40\\text{--}0.65$) shows that the models often fail together but differ in the types of errors they make, highlighting their partial complementarity rather than redundancy. Unlike standard math datasets, ORCA evaluates step-by-step reasoning, numerical precision, and domain generalization across real problems from finance, physics, health, and statistics.",
     "authors": [
       "Claudia Herambourg",
       "Dawid Siuda",
-      "Anna Szczepanek",
       "Julia Kopczy\u0144ska",
       "Joao R. L. Santos",
       "Wojciech Sas",
@@ -2059,8 +2060,8 @@
       "cs.AI"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02589v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02589v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02589v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02589v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.62
@@ -3232,7 +3233,7 @@
     "research_score": 0.56
   },
   {
-    "arxiv_id": "2511.02659v1",
+    "arxiv_id": "2511.02659v2",
     "title": "In Situ Training of Implicit Neural Compressors for Scientific   Simulations via Sketch-Based Regularization",
     "summary": "Focusing on implicit neural representations, we present a novel in situ training protocol that employs limited memory buffers of full and sketched data samples, where the sketched data are leveraged to prevent catastrophic forgetting. The theoretical motivation for our use of sketching as a regularizer is presented via a simple Johnson-Lindenstrauss-informed result. While our methods may be of wider interest in the field of continual learning, we specifically target in situ neural compression using implicit neural representation-based hypernetworks. We evaluate our method on a variety of complex simulation data in two and three dimensions, over long time horizons, and across unstructured grids and non-Cartesian geometries. On these tasks, we show strong reconstruction performance at high compression rates. Most importantly, we demonstrate that sketching enables the presented in situ scheme to approximately match the performance of the equivalent offline method.",
     "authors": [
@@ -3248,8 +3249,8 @@
       "math.NA"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02659v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02659v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02659v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02659v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.56
@@ -3320,7 +3321,7 @@
     "research_score": 0.56
   },
   {
-    "arxiv_id": "2511.02481v1",
+    "arxiv_id": "2511.02481v2",
     "title": "NOWS: Neural Operator Warm Starts for Accelerating Iterative Solvers",
     "summary": "Partial differential equations (PDEs) underpin quantitative descriptions across the physical sciences and engineering, yet high-fidelity simulation remains a major computational bottleneck for many-query, real-time, and design tasks. Data-driven surrogates can be strikingly fast but are often unreliable when applied outside their training distribution. Here we introduce Neural Operator Warm Starts (NOWS), a hybrid strategy that harnesses learned solution operators to accelerate classical iterative solvers by producing high-quality initial guesses for Krylov methods such as conjugate gradient and GMRES. NOWS leaves existing discretizations and solver infrastructures intact, integrating seamlessly with finite-difference, finite-element, isogeometric analysis, finite volume method, etc. Across our benchmarks, the learned initialization consistently reduces iteration counts and end-to-end runtime, resulting in a reduction of the computational time of up to 90 %, while preserving the stability and convergence guarantees of the underlying numerical algorithms. By combining the rapid inference of neural operators with the rigor of traditional solvers, NOWS provides a practical and trustworthy approach to accelerate high-fidelity PDE simulations.",
     "authors": [
@@ -3335,8 +3336,8 @@
       "cs.LG"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02481v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02481v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02481v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02481v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.56
@@ -3362,7 +3363,7 @@
     "research_score": 0.56
   },
   {
-    "arxiv_id": "2511.02272v1",
+    "arxiv_id": "2511.02272v2",
     "title": "Probabilistic Graph Cuts",
     "summary": "Probabilistic relaxations of graph cuts offer a differentiable alternative to spectral clustering, enabling end-to-end and online learning without eigendecompositions, yet prior work centered on RatioCut and lacked general guarantees and principled gradients. We present a unified probabilistic framework that covers a wide class of cuts, including Normalized Cut. Our framework provides tight analytic upper bounds on expected discrete cuts via integral representations and Gauss hypergeometric functions with closed-form forward and backward. Together, these results deliver a rigorous, numerically stable foundation for scalable, differentiable graph partitioning covering a wide range of clustering and contrastive learning objectives.",
     "authors": [
@@ -3374,8 +3375,8 @@
       "stat.ML"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02272v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02272v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02272v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02272v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.56
@@ -3752,7 +3753,7 @@
     "research_score": 0.53
   },
   {
-    "arxiv_id": "2511.02483v1",
+    "arxiv_id": "2511.02483v2",
     "title": "OLATverse: A Large-scale Real-world Object Dataset with Precise Lighting   Control",
     "summary": "We introduce OLATverse, a large-scale dataset comprising around 9M images of 765 real-world objects, captured from multiple viewpoints under a diverse set of precisely controlled lighting conditions. While recent advances in object-centric inverse rendering, novel view synthesis and relighting have shown promising results, most techniques still heavily rely on the synthetic datasets for training and small-scale real-world datasets for benchmarking, which limits their realism and generalization. To address this gap, OLATverse offers two key advantages over existing datasets: large-scale coverage of real objects and high-fidelity appearance under precisely controlled illuminations. Specifically, OLATverse contains 765 common and uncommon real-world objects, spanning a wide range of material categories. Each object is captured using 35 DSLR cameras and 331 individually controlled light sources, enabling the simulation of diverse illumination conditions. In addition, for each object, we provide well-calibrated camera parameters, accurate object masks, photometric surface normals, and diffuse albedo as auxiliary resources. We also construct an extensive evaluation set, establishing the first comprehensive real-world object-centric benchmark for inverse rendering and normal estimation. We believe that OLATverse represents a pivotal step toward integrating the next generation of inverse rendering and relighting methods with real-world data. The full dataset, along with all post-processing workflows, will be publicly released at https://vcai.mpi-inf.mpg.de/projects/OLATverse/.",
     "authors": [
@@ -3763,7 +3764,7 @@
       "Linjie Lyu",
       "Tigran Minasian",
       "Oleksandr Sotnychenko",
-      "Xiaoxiao Long",
+      "Xiao-Xiao Long",
       "Marc Habermann",
       "Christian Theobalt"
     ],
@@ -3772,8 +3773,8 @@
       "cs.GR"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02483v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02483v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02483v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02483v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.53
@@ -4158,31 +4159,31 @@
     "research_score": 0.5
   },
   {
-    "model_id": "comp5331poi/new-llama3-tky-no-quant",
+    "model_id": "adityashukzy/news_item_classifier",
     "author": "unknown",
-    "title": "comp5331poi/new-llama3-tky-no-quant",
+    "title": "adityashukzy/news_item_classifier",
     "downloads": 0,
     "likes": 0,
     "tags": [
-      "peft",
+      "transformers",
       "tensorboard",
       "safetensors",
-      "base_model:adapter:unsloth/llama-3-8b",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "unsloth",
-      "text-generation",
-      "base_model:unsloth/llama-3-8b",
+      "bert",
+      "text-classification",
+      "news-classifier",
+      "generated_from_trainer",
+      "base_model:huawei-noah/TinyBERT_General_4L_312D",
+      "base_model:finetune:huawei-noah/TinyBERT_General_4L_312D",
+      "autotrain_compatible",
+      "endpoints_compatible",
       "region:us"
     ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2025-11-06T01:02:35.000Z",
-    "last_modified": "2025-11-06T01:02:42.000Z",
+    "pipeline_tag": "text-classification",
+    "library": "transformers",
+    "created_at": "2025-11-06T00:43:59.000Z",
+    "last_modified": "2025-11-06T03:11:22.000Z",
     "days_since_creation": 0,
-    "url": "https://huggingface.co/comp5331poi/new-llama3-tky-no-quant",
+    "url": "https://huggingface.co/adityashukzy/news_item_classifier",
     "date": "2025-11-06",
     "source": "huggingface_model",
     "type": "model",
@@ -4210,12 +4211,13 @@
     "research_score": 0.49
   },
   {
-    "arxiv_id": "2511.02505v1",
+    "arxiv_id": "2511.02505v2",
     "title": "ESA: Energy-Based Shot Assembly Optimization for Automatic Video Editing",
-    "summary": "Shot assembly is a crucial step in film production and video editing, involving the sequencing and arrangement of shots to construct a narrative, convey information, or evoke emotions. Traditionally, this process has been manually executed by experienced editors. While current intelligent video editing technologies can handle some automated video editing tasks, they often fail to capture the creator's unique artistic expression in shot assembly.To address this challenge, we propose an energy-based optimization method for video shot assembly. Specifically, we first perform visual-semantic matching between the script generated by a large language model and a video library to obtain subsets of candidate shots aligned with the script semantics. Next, we segment and label the shots from reference videos, extracting attributes such as shot size, camera motion, and semantics. We then employ energy-based models to learn from these attributes, scoring candidate shot sequences based on their alignment with reference styles. Finally, we achieve shot assembly optimization by combining multiple syntax rules, producing videos that align with the assembly style of the reference videos. Our method not only automates the arrangement and combination of independent shots according to specific logic, narrative requirements, or artistic styles but also learns the assembly style of reference videos, creating a coherent visual sequence or holistic visual expression. With our system, even users with no prior video editing experience can create visually compelling videos. Project page: https://sobeymil.github.io/esa.com",
+    "summary": "Shot assembly is a crucial step in film production and video editing, involving the sequencing and arrangement of shots to construct a narrative, convey information, or evoke emotions. Traditionally, this process has been manually executed by experienced editors. While current intelligent video editing technologies can handle some automated video editing tasks, they often fail to capture the creator's unique artistic expression in shot assembly. To address this challenge, we propose an energy-based optimization method for video shot assembly. Specifically, we first perform visual-semantic matching between the script generated by a large language model and a video library to obtain subsets of candidate shots aligned with the script semantics. Next, we segment and label the shots from reference videos, extracting attributes such as shot size, camera motion, and semantics. We then employ energy-based models to learn from these attributes, scoring candidate shot sequences based on their alignment with reference styles. Finally, we achieve shot assembly optimization by combining multiple syntax rules, producing videos that align with the assembly style of the reference videos. Our method not only automates the arrangement and combination of independent shots according to specific logic, narrative requirements, or artistic styles but also learns the assembly style of reference videos, creating a coherent visual sequence or holistic visual expression. With our system, even users with no prior video editing experience can create visually compelling videos. Project page: https://sobeymil.github.io/esa.com",
     "authors": [
       "Yaosen Chen",
       "Wei Wang",
+      "Tianheng Zheng",
       "Xuming Wen",
       "Han Yang",
       "Yanru Zhang"
@@ -4224,8 +4226,8 @@
       "cs.CV"
     ],
     "published": "2025-11-04",
-    "url": "https://arxiv.org/abs/2511.02505v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.02505v1.pdf",
+    "url": "https://arxiv.org/abs/2511.02505v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.02505v2.pdf",
     "date": "2025-11-06",
     "source": "arxiv",
     "research_score": 0.48
@@ -4471,21 +4473,53 @@
     "research_score": 0.42
   },
   {
-    "model_id": "Mystiquemide/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-solitary_downy_scorpion",
+    "model_id": "championonaa/w-1-12-10-11-06",
     "author": "unknown",
-    "title": "Mystiquemide/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-solitary_downy_scorpion",
+    "title": "championonaa/w-1-12-10-11-06",
     "downloads": 0,
     "likes": 0,
     "tags": [
       "transformers",
       "safetensors",
-      "qwen2",
+      "qwen3",
+      "text-generation",
+      "conversational",
+      "arxiv:2505.09388",
+      "base_model:Qwen/Qwen3-0.6B-Base",
+      "base_model:finetune:Qwen/Qwen3-0.6B-Base",
+      "license:apache-2.0",
+      "autotrain_compatible",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "pipeline_tag": "text-generation",
+    "library": "transformers",
+    "created_at": "2025-11-06T03:11:25.000Z",
+    "last_modified": "2025-11-06T03:11:34.000Z",
+    "days_since_creation": 0,
+    "url": "https://huggingface.co/championonaa/w-1-12-10-11-06",
+    "date": "2025-11-06",
+    "source": "huggingface_model",
+    "type": "model",
+    "research_score": 0.4
+  },
+  {
+    "model_id": "sunemo/Qwen3-0.6B-Gensyn-Swarm-hairy_slender_lemur",
+    "author": "unknown",
+    "title": "sunemo/Qwen3-0.6B-Gensyn-Swarm-hairy_slender_lemur",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
       "text-generation",
       "rl-swarm",
       "genrl-swarm",
       "grpo",
       "gensyn",
-      "I am solitary_downy_scorpion",
+      "I am hairy_slender_lemur",
       "arxiv:1910.09700",
       "autotrain_compatible",
       "text-generation-inference",
@@ -4494,65 +4528,41 @@
     ],
     "pipeline_tag": "text-generation",
     "library": "transformers",
-    "created_at": "2025-11-05T20:54:56.000Z",
-    "last_modified": "2025-11-06T01:07:12.000Z",
+    "created_at": "2025-11-05T14:59:17.000Z",
+    "last_modified": "2025-11-06T03:09:26.000Z",
     "days_since_creation": 0,
-    "url": "https://huggingface.co/Mystiquemide/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-solitary_downy_scorpion",
+    "url": "https://huggingface.co/sunemo/Qwen3-0.6B-Gensyn-Swarm-hairy_slender_lemur",
     "date": "2025-11-06",
     "source": "huggingface_model",
     "type": "model",
     "research_score": 0.4
   },
   {
-    "model_id": "AbstractPhil/sd15-flow-lune",
+    "model_id": "mdavidson83/qwen3-14b-unsloth-bnb-4bit-SFT-merged",
     "author": "unknown",
-    "title": "AbstractPhil/sd15-flow-lune",
+    "title": "mdavidson83/qwen3-14b-unsloth-bnb-4bit-SFT-merged",
     "downloads": 0,
     "likes": 0,
     "tags": [
-      "diffusers",
-      "tensorboard",
+      "transformers",
       "safetensors",
-      "stable-diffusion",
-      "diffusion",
-      "distillation",
-      "flow-matching",
-      "geometric-deep-learning",
-      "research",
-      "text-to-image",
-      "base_model:runwayml/stable-diffusion-v1-5",
-      "base_model:finetune:runwayml/stable-diffusion-v1-5",
-      "license:mit",
+      "qwen3",
+      "text-generation",
+      "conversational",
+      "arxiv:1910.09700",
+      "autotrain_compatible",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "4-bit",
+      "bitsandbytes",
       "region:us"
     ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2025-11-05T16:06:14.000Z",
-    "last_modified": "2025-11-06T01:05:28.000Z",
+    "pipeline_tag": "text-generation",
+    "library": "transformers",
+    "created_at": "2025-11-05T20:58:36.000Z",
+    "last_modified": "2025-11-06T03:09:19.000Z",
     "days_since_creation": 0,
-    "url": "https://huggingface.co/AbstractPhil/sd15-flow-lune",
-    "date": "2025-11-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "arturmatos/gemma-1b-new_dataset-policy-checkpoint-1200-my-rm",
-    "author": "unknown",
-    "title": "arturmatos/gemma-1b-new_dataset-policy-checkpoint-1200-my-rm",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "gemma3_text",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2025-11-06T00:05:48.000Z",
-    "last_modified": "2025-11-06T01:05:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/arturmatos/gemma-1b-new_dataset-policy-checkpoint-1200-my-rm",
+    "url": "https://huggingface.co/mdavidson83/qwen3-14b-unsloth-bnb-4bit-SFT-merged",
     "date": "2025-11-06",
     "source": "huggingface_model",
     "type": "model",
@@ -4583,7 +4593,7 @@
     "pipeline_tag": "text-generation",
     "library": "transformers",
     "created_at": "2025-11-05T17:01:11.000Z",
-    "last_modified": "2025-11-06T01:05:15.000Z",
+    "last_modified": "2025-11-06T03:09:06.000Z",
     "days_since_creation": 0,
     "url": "https://huggingface.co/manh17003/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-loud_deadly_hippo",
     "date": "2025-11-06",
@@ -4592,42 +4602,103 @@
     "research_score": 0.4
   },
   {
-    "model_id": "MedAI-COS30018/MedSwin-7B-KD",
+    "model_id": "mkashifali1/Qwen3-0.6B-Gensyn-Swarm-arctic_muscular_heron",
     "author": "unknown",
-    "title": "MedAI-COS30018/MedSwin-7B-KD",
+    "title": "mkashifali1/Qwen3-0.6B-Gensyn-Swarm-arctic_muscular_heron",
     "downloads": 0,
     "likes": 0,
     "tags": [
+      "transformers",
       "safetensors",
-      "llama",
-      "question-answering",
-      "en",
-      "dataset:qiaojin/PubMedQA",
-      "dataset:MedAI-COS30018/PubMedQA-map",
-      "dataset:MedAI-COS30018/PubmedQA-u",
-      "dataset:MedAI-COS30018/PubMedQA-l",
-      "dataset:MedAI-COS30018/HealthCareMagic",
-      "dataset:MedAI-COS30018/iCliniq",
-      "base_model:google/medgemma-27b-it",
-      "base_model:finetune:google/medgemma-27b-it",
-      "license:apache-2.0",
+      "qwen3",
+      "text-generation",
+      "rl-swarm",
+      "genrl-swarm",
+      "grpo",
+      "gensyn",
+      "I am arctic_muscular_heron",
+      "arxiv:1910.09700",
+      "autotrain_compatible",
+      "text-generation-inference",
+      "endpoints_compatible",
       "region:us"
     ],
-    "pipeline_tag": "question-answering",
-    "library": "",
-    "created_at": "2025-11-05T22:14:15.000Z",
-    "last_modified": "2025-11-06T01:04:34.000Z",
+    "pipeline_tag": "text-generation",
+    "library": "transformers",
+    "created_at": "2025-11-06T01:53:41.000Z",
+    "last_modified": "2025-11-06T03:09:03.000Z",
     "days_since_creation": 0,
-    "url": "https://huggingface.co/MedAI-COS30018/MedSwin-7B-KD",
+    "url": "https://huggingface.co/mkashifali1/Qwen3-0.6B-Gensyn-Swarm-arctic_muscular_heron",
     "date": "2025-11-06",
     "source": "huggingface_model",
     "type": "model",
     "research_score": 0.4
   },
   {
-    "model_id": "ahmadmakk/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-fanged_running_impala",
+    "model_id": "guillherms/human-activity-pose-models",
     "author": "unknown",
-    "title": "ahmadmakk/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-fanged_running_impala",
+    "title": "guillherms/human-activity-pose-models",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "keras",
+      "human-activity-recognition",
+      "pose-estimation",
+      "mediapipe",
+      "tensorflow",
+      "image-classification",
+      "en",
+      "dataset:guillherms/human-activity-pose_v4",
+      "license:mit",
+      "region:us"
+    ],
+    "pipeline_tag": "image-classification",
+    "library": "keras",
+    "created_at": "2025-11-06T03:08:56.000Z",
+    "last_modified": "2025-11-06T03:08:58.000Z",
+    "days_since_creation": 0,
+    "url": "https://huggingface.co/guillherms/human-activity-pose-models",
+    "date": "2025-11-06",
+    "source": "huggingface_model",
+    "type": "model",
+    "research_score": 0.4
+  },
+  {
+    "model_id": "SuperMust/LexiorGPT3",
+    "author": "unknown",
+    "title": "SuperMust/LexiorGPT3",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "gpt_oss",
+      "text-generation",
+      "generated_from_trainer",
+      "sft",
+      "trl",
+      "conversational",
+      "base_model:openai/gpt-oss-20b",
+      "base_model:finetune:openai/gpt-oss-20b",
+      "autotrain_compatible",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "pipeline_tag": "text-generation",
+    "library": "transformers",
+    "created_at": "2025-11-06T00:57:10.000Z",
+    "last_modified": "2025-11-06T03:08:43.000Z",
+    "days_since_creation": 0,
+    "url": "https://huggingface.co/SuperMust/LexiorGPT3",
+    "date": "2025-11-06",
+    "source": "huggingface_model",
+    "type": "model",
+    "research_score": 0.4
+  },
+  {
+    "model_id": "Mystiquemide/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-solitary_downy_scorpion",
+    "author": "unknown",
+    "title": "Mystiquemide/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-solitary_downy_scorpion",
     "downloads": 0,
     "likes": 0,
     "tags": [
@@ -4639,7 +4710,7 @@
       "genrl-swarm",
       "grpo",
       "gensyn",
-      "I am fanged_running_impala",
+      "I am solitary_downy_scorpion",
       "arxiv:1910.09700",
       "autotrain_compatible",
       "text-generation-inference",
@@ -4648,10 +4719,40 @@
     ],
     "pipeline_tag": "text-generation",
     "library": "transformers",
-    "created_at": "2025-11-04T16:27:52.000Z",
-    "last_modified": "2025-11-06T01:03:36.000Z",
+    "created_at": "2025-11-05T20:54:56.000Z",
+    "last_modified": "2025-11-06T03:08:38.000Z",
+    "days_since_creation": 0,
+    "url": "https://huggingface.co/Mystiquemide/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-solitary_downy_scorpion",
+    "date": "2025-11-06",
+    "source": "huggingface_model",
+    "type": "model",
+    "research_score": 0.4
+  },
+  {
+    "model_id": "dennohpeter/wav2vec2-xls-r-300m-10e-lg-asr",
+    "author": "unknown",
+    "title": "dennohpeter/wav2vec2-xls-r-300m-10e-lg-asr",
+    "downloads": 0,
+    "likes": 0,
+    "tags": [
+      "transformers",
+      "tensorboard",
+      "safetensors",
+      "wav2vec2",
+      "automatic-speech-recognition",
+      "generated_from_trainer",
+      "base_model:facebook/wav2vec2-xls-r-300m",
+      "base_model:finetune:facebook/wav2vec2-xls-r-300m",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "pipeline_tag": "automatic-speech-recognition",
+    "library": "transformers",
+    "created_at": "2025-11-05T02:27:42.000Z",
+    "last_modified": "2025-11-06T03:08:31.000Z",
     "days_since_creation": 1,
-    "url": "https://huggingface.co/ahmadmakk/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-fanged_running_impala",
+    "url": "https://huggingface.co/dennohpeter/wav2vec2-xls-r-300m-10e-lg-asr",
     "date": "2025-11-06",
     "source": "huggingface_model",
     "type": "model",
@@ -4682,68 +4783,9 @@
     "pipeline_tag": "text-generation",
     "library": "transformers",
     "created_at": "2025-11-05T22:53:12.000Z",
-    "last_modified": "2025-11-06T01:02:15.000Z",
+    "last_modified": "2025-11-06T03:07:18.000Z",
     "days_since_creation": 0,
     "url": "https://huggingface.co/taipro/Qwen3-0.6B-Gensyn-Swarm-strong_regal_gibbon",
-    "date": "2025-11-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SniPeKid/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-tropical_shaggy_cheetah",
-    "author": "unknown",
-    "title": "SniPeKid/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-tropical_shaggy_cheetah",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am tropical_shaggy_cheetah",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-05T17:55:05.000Z",
-    "last_modified": "2025-11-06T01:02:12.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SniPeKid/Qwen2.5-0.5B-Instruct-Gensyn-Swarm-tropical_shaggy_cheetah",
-    "date": "2025-11-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "thanhminguyen1060/blockassist-bc-prowling_cunning_newt_1762390057",
-    "author": "unknown",
-    "title": "thanhminguyen1060/blockassist-bc-prowling_cunning_newt_1762390057",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gensyn",
-      "blockassist",
-      "gensyn-blockassist",
-      "minecraft",
-      "prowling cunning newt",
-      "arxiv:2504.07091",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2025-11-06T01:02:00.000Z",
-    "last_modified": "2025-11-06T01:02:04.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/thanhminguyen1060/blockassist-bc-prowling_cunning_newt_1762390057",
     "date": "2025-11-06",
     "source": "huggingface_model",
     "type": "model",
