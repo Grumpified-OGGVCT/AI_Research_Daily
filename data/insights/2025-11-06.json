@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-06T13:29:20.603404",
+  "date": "2025-11-06T14:16:35.191693",
   "patterns": {
     "multimodal_research": [
       {
@@ -589,10 +589,6 @@
       {
         "title": "Transformer-Progressive Mamba Network for Lightweight Image   Super-Resolution",
         "url": "https://arxiv.org/abs/2511.03232v1"
-      },
-      {
-        "title": "Kibalama/smollm3-sft-01",
-        "url": "https://huggingface.co/Kibalama/smollm3-sft-01"
       }
     ],
     "vision_systems": [
@@ -1349,7 +1345,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1408,6 +1404,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 327
+    "total_papers": 326
   }
 }
