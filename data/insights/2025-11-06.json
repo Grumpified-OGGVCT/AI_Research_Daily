@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-06T09:18:04.888402",
+  "date": "2025-11-06T10:19:05.402238",
   "patterns": {
     "multimodal_research": [
       {
@@ -589,14 +589,6 @@
       {
         "title": "Transformer-Progressive Mamba Network for Lightweight Image   Super-Resolution",
         "url": "https://arxiv.org/abs/2511.03232v1"
-      },
-      {
-        "title": "DaydreamerF/BERT-ased-MRC",
-        "url": "https://huggingface.co/DaydreamerF/BERT-ased-MRC"
-      },
-      {
-        "title": "jetskewur/distilroberta-base-climate-adaptation-policy-nli-f",
-        "url": "https://huggingface.co/jetskewur/distilroberta-base-climate-adaptation-policy-nli-f"
       }
     ],
     "vision_systems": [
@@ -763,6 +755,10 @@
       {
         "title": "PETWB-REP: A Multi-Cancer Whole-Body FDG PET/CT and Radiology Report   Dataset for Medical Imaging Research",
         "url": "https://arxiv.org/abs/2511.03194v1"
+      },
+      {
+        "title": "Alelcv27/Qwen2.5-1.5B-Instruct-Math-v3",
+        "url": "https://huggingface.co/Alelcv27/Qwen2.5-1.5B-Instruct-Math-v3"
       }
     ],
     "reasoning": [
@@ -1353,13 +1349,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "41 independent papers",
+      "observation": "42 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1412,6 +1408,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 328
+    "total_papers": 327
   }
 }
