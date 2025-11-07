@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-07T20:16:45.849740",
+  "date": "2025-11-07T21:12:27.927009",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,10 +665,6 @@
       {
         "title": "RISE-T2V: Rephrasing and Injecting Semantics with LLM for Expansive   Text-to-Video Generation",
         "url": "https://arxiv.org/abs/2511.04317v1"
-      },
-      {
-        "title": "EpistemeAI/metatune-gpt20b-R1.1",
-        "url": "https://huggingface.co/EpistemeAI/metatune-gpt20b-R1.1"
       }
     ],
     "vision_systems": [
@@ -1149,6 +1145,10 @@
       {
         "title": "Neural Computation Without Slots: Steps Towards Biologically Plausible   Memory and Attention in Natural and Artificial Intelligence",
         "url": "https://arxiv.org/abs/2511.04593v1"
+      },
+      {
+        "title": "suayptalha/Kumru-2B-turkish-reasoning",
+        "url": "https://huggingface.co/suayptalha/Kumru-2B-turkish-reasoning"
       }
     ],
     "benchmarks": [
@@ -1553,7 +1553,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1565,7 +1565,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1600,7 +1600,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 31,
+      "frequency": 32,
       "significance": "high"
     },
     {
