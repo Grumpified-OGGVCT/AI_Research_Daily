@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-07T13:26:03.543018",
+  "date": "2025-11-07T14:15:51.089244",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,6 +665,10 @@
       {
         "title": "RISE-T2V: Rephrasing and Injecting Semantics with LLM for Expansive   Text-to-Video Generation",
         "url": "https://arxiv.org/abs/2511.04317v1"
+      },
+      {
+        "title": "Leohan/molecular-llm-3b",
+        "url": "https://huggingface.co/Leohan/molecular-llm-3b"
       }
     ],
     "vision_systems": [
@@ -1145,6 +1149,10 @@
       {
         "title": "Neural Computation Without Slots: Steps Towards Biologically Plausible   Memory and Attention in Natural and Artificial Intelligence",
         "url": "https://arxiv.org/abs/2511.04593v1"
+      },
+      {
+        "title": "inferencerlabs/Kimi-K2-Thinking-MLX-4.25bit",
+        "url": "https://huggingface.co/inferencerlabs/Kimi-K2-Thinking-MLX-4.25bit"
       }
     ],
     "benchmarks": [
@@ -1549,7 +1557,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1561,7 +1569,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1608,6 +1616,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 377
+    "total_papers": 379
   }
 }
