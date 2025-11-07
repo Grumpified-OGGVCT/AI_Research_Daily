@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-07T11:14:12.275239",
+  "date": "2025-11-07T12:29:59.746367",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,8 +667,8 @@
         "url": "https://arxiv.org/abs/2511.04317v1"
       },
       {
-        "title": "aiyubali/Fine-Tuned-LLM_News_Summarizer",
-        "url": "https://huggingface.co/aiyubali/Fine-Tuned-LLM_News_Summarizer"
+        "title": "arthurbittencourt/distillGPT2-twitter_topics_1_a-fold6",
+        "url": "https://huggingface.co/arthurbittencourt/distillGPT2-twitter_topics_1_a-fold6"
       }
     ],
     "vision_systems": [
@@ -915,6 +915,10 @@
       {
         "title": "Solving Convex Partition Visual Jigsaw Puzzles",
         "url": "https://arxiv.org/abs/2511.04450v1"
+      },
+      {
+        "title": "Alelcv27/Mistral-7B-Instruct-v0.3-Math",
+        "url": "https://huggingface.co/Alelcv27/Mistral-7B-Instruct-v0.3-Math"
       }
     ],
     "reasoning": [
@@ -1559,7 +1563,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1612,6 +1616,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 378
+    "total_papers": 379
   }
 }
