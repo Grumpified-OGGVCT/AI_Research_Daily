@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-08T22:14:17.011497",
+  "date": "2025-11-08T23:14:21.201477",
   "patterns": {
     "multimodal_research": [
       {
@@ -1145,10 +1145,6 @@
       {
         "title": "Neural Computation Without Slots: Steps Towards Biologically Plausible   Memory and Attention in Natural and Artificial Intelligence",
         "url": "https://arxiv.org/abs/2511.04593v1"
-      },
-      {
-        "title": "inferencerlabs/Kimi-K2-Thinking-MLX-4.25bit",
-        "url": "https://huggingface.co/inferencerlabs/Kimi-K2-Thinking-MLX-4.25bit"
       }
     ],
     "benchmarks": [
@@ -1565,7 +1561,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "59 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1612,6 +1608,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 378
+    "total_papers": 377
   }
 }
