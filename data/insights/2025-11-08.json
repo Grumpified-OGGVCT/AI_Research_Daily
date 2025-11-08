@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-08T12:26:35.055163",
+  "date": "2025-11-08T13:21:53.187686",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,6 +665,10 @@
       {
         "title": "RISE-T2V: Rephrasing and Injecting Semantics with LLM for Expansive   Text-to-Video Generation",
         "url": "https://arxiv.org/abs/2511.04317v1"
+      },
+      {
+        "title": "jojikxd/distilgpt2-finetuned-wikitext2",
+        "url": "https://huggingface.co/jojikxd/distilgpt2-finetuned-wikitext2"
       }
     ],
     "vision_systems": [
@@ -911,6 +915,10 @@
       {
         "title": "Solving Convex Partition Visual Jigsaw Puzzles",
         "url": "https://arxiv.org/abs/2511.04450v1"
+      },
+      {
+        "title": "bcveloso/giuliaferraro_000002500",
+        "url": "https://huggingface.co/bcveloso/giuliaferraro_000002500"
       }
     ],
     "reasoning": [
@@ -1549,13 +1557,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1608,6 +1616,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 377
+    "total_papers": 379
   }
 }
