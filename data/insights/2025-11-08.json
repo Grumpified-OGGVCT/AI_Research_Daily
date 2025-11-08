@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-08T19:11:59.805098",
+  "date": "2025-11-08T20:16:04.443458",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,14 +665,6 @@
       {
         "title": "RISE-T2V: Rephrasing and Injecting Semantics with LLM for Expansive   Text-to-Video Generation",
         "url": "https://arxiv.org/abs/2511.04317v1"
-      },
-      {
-        "title": "nightmedia/Codeforce-metatune-gpt20b-q8-hi-mlx",
-        "url": "https://huggingface.co/nightmedia/Codeforce-metatune-gpt20b-q8-hi-mlx"
-      },
-      {
-        "title": "EpistemeAI/metatune-gpt20b-R1.1",
-        "url": "https://huggingface.co/EpistemeAI/metatune-gpt20b-R1.1"
       }
     ],
     "vision_systems": [
@@ -1557,7 +1549,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1616,6 +1608,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 379
+    "total_papers": 377
   }
 }
