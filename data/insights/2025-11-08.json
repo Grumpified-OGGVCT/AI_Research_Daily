@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-08T05:15:15.304130",
+  "date": "2025-11-08T06:21:22.943537",
   "patterns": {
     "multimodal_research": [
       {
@@ -1145,6 +1145,10 @@
       {
         "title": "Neural Computation Without Slots: Steps Towards Biologically Plausible   Memory and Attention in Natural and Artificial Intelligence",
         "url": "https://arxiv.org/abs/2511.04593v1"
+      },
+      {
+        "title": "haingo2004/llama-3.2-3b-ScamReasoningAnalysis",
+        "url": "https://huggingface.co/haingo2004/llama-3.2-3b-ScamReasoningAnalysis"
       }
     ],
     "benchmarks": [
@@ -1561,7 +1565,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1596,7 +1600,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 31,
+      "frequency": 32,
       "significance": "high"
     },
     {
@@ -1608,6 +1612,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 377
+    "total_papers": 378
   }
 }
