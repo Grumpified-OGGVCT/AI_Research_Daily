@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-10T14:16:53.254144",
-  "patterns": {},
+  "date": "2025-11-10T15:18:06.605322",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "HafsaAsim/emotion-roberta-28class-continued-v2",
+        "url": "https://huggingface.co/HafsaAsim/emotion-roberta-28class-continued-v2"
+      },
+      {
+        "title": "gshasiri/SmolLM3-Mid",
+        "url": "https://huggingface.co/gshasiri/SmolLM3-Mid"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
