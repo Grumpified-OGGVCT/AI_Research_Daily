@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-11T15:16:58.037008",
+  "date": "2025-11-11T16:20:36.752496",
   "patterns": {
     "multimodal_research": [
       {
@@ -355,10 +355,6 @@
       {
         "title": "Learning Quantized Continuous Controllers for Integer Hardware",
         "url": "https://arxiv.org/abs/2511.07046v1"
-      },
-      {
-        "title": "SwetaJena/anlp-a3-moe-hash",
-        "url": "https://huggingface.co/SwetaJena/anlp-a3-moe-hash"
       }
     ],
     "language_models": [
@@ -715,8 +711,8 @@
         "url": "https://arxiv.org/abs/2511.06763v1"
       },
       {
-        "title": "pinheiroxs/pinheiro-roberta-goemotions",
-        "url": "https://huggingface.co/pinheiroxs/pinheiro-roberta-goemotions"
+        "title": "AntonySalta/distilbert-base-uncased-finetuned-cola",
+        "url": "https://huggingface.co/AntonySalta/distilbert-base-uncased-finetuned-cola"
       }
     ],
     "vision_systems": [
@@ -1785,7 +1781,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "62 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1856,6 +1852,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 439
+    "total_papers": 438
   }
 }
