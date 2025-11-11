@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-11T09:17:58.289265",
+  "date": "2025-11-11T10:18:31.238857",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,8 +647,8 @@
         "url": "https://arxiv.org/abs/2511.07002v1"
       },
       {
-        "title": "AnonymousCS/bert-chinese-weibo-80p-v5",
-        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-80p-v5"
+        "title": "AnonymousCS/bert-chinese-weibo-80p-v4",
+        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-80p-v4"
       }
     ],
     "vision_systems": [
@@ -907,10 +907,6 @@
       {
         "title": "Geometric implicit neural representations for signed distance functions",
         "url": "https://arxiv.org/abs/2511.07206v1"
-      },
-      {
-        "title": "leonardtzf/bgartsty13-visual-novel-background-v2",
-        "url": "https://huggingface.co/leonardtzf/bgartsty13-visual-novel-background-v2"
       }
     ],
     "reasoning": [
@@ -1675,7 +1671,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 406
   }
 }
