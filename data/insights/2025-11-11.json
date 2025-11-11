@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-11T21:15:09.524077",
+  "date": "2025-11-11T22:15:58.492804",
   "patterns": {
     "multimodal_research": [
       {
@@ -709,6 +709,10 @@
       {
         "title": "Sensitivity of Small Language Models to Fine-tuning Data Contamination",
         "url": "https://arxiv.org/abs/2511.06763v1"
+      },
+      {
+        "title": "arthurbittencourt/november-cached_predator-xlm-roberta-5000-semeval2025_eng_anger-fold6",
+        "url": "https://huggingface.co/arthurbittencourt/november-cached_predator-xlm-roberta-5000-semeval2025_eng_anger-fold6"
       }
     ],
     "vision_systems": [
@@ -1789,7 +1793,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1848,6 +1852,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 437
+    "total_papers": 438
   }
 }
