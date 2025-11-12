@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-12T09:18:24.063777",
+  "date": "2025-11-12T10:19:18.823910",
   "patterns": {
     "multimodal_research": [
       {
@@ -273,12 +273,12 @@
         "url": "https://arxiv.org/abs/2511.07084v1"
       },
       {
-        "title": "Libra-MIL: Multimodal Prototypes Stereoscopic Infused with Task-specific Language Priors for Few-shot Whole Slide Image Classification",
-        "url": "https://arxiv.org/abs/2511.07941v1"
-      },
-      {
         "title": "Binary Split Categorical feature with Mean Absolute Error Criteria in CART",
         "url": "https://arxiv.org/abs/2511.08470v1"
+      },
+      {
+        "title": "Libra-MIL: Multimodal Prototypes Stereoscopic Infused with Task-specific Language Priors for Few-shot Whole Slide Image Classification",
+        "url": "https://arxiv.org/abs/2511.07941v1"
       },
       {
         "title": "A Picture is Worth a Thousand (Correct) Captions: A Vision-Guided Judge-Corrector System for Multimodal Machine Translation",
@@ -439,12 +439,12 @@
         "url": "https://arxiv.org/abs/2511.06678v1"
       },
       {
-        "title": "Sparse3DPR: Training-Free 3D Hierarchical Scene Parsing and Task-Adaptive Subgraph Reasoning from Sparse RGB Views",
-        "url": "https://arxiv.org/abs/2511.07813v1"
-      },
-      {
         "title": "Relation as a Prior: A Novel Paradigm for LLM-based Document-level Relation Extraction",
         "url": "https://arxiv.org/abs/2511.08143v1"
+      },
+      {
+        "title": "Sparse3DPR: Training-Free 3D Hierarchical Scene Parsing and Task-Adaptive Subgraph Reasoning from Sparse RGB Views",
+        "url": "https://arxiv.org/abs/2511.07813v1"
       },
       {
         "title": "From Exploration to Exploitation: A Two-Stage Entropy RLVR Approach for Noise-Tolerant MLLM Training",
@@ -693,14 +693,6 @@
       {
         "title": "Sensitivity of Small Language Models to Fine-tuning Data Contamination",
         "url": "https://arxiv.org/abs/2511.06763v1"
-      },
-      {
-        "title": "AntonySalta/distilbert-base-uncased-finetuned-cola",
-        "url": "https://huggingface.co/AntonySalta/distilbert-base-uncased-finetuned-cola"
-      },
-      {
-        "title": "dck003/roberta-large-finetuned",
-        "url": "https://huggingface.co/dck003/roberta-large-finetuned"
       }
     ],
     "vision_systems": [
@@ -949,10 +941,6 @@
         "url": "https://arxiv.org/abs/2511.08368v1"
       },
       {
-        "title": "Concentration bounds on response-based vector embeddings of black-box generative models",
-        "url": "https://arxiv.org/abs/2511.08307v1"
-      },
-      {
         "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
         "url": "https://arxiv.org/abs/2511.08585v1"
       },
@@ -961,20 +949,16 @@
         "url": "https://arxiv.org/abs/2511.08570v1"
       },
       {
+        "title": "Concentration bounds on response-based vector embeddings of black-box generative models",
+        "url": "https://arxiv.org/abs/2511.08307v1"
+      },
+      {
         "title": "LMM-IQA: Image Quality Assessment for Low-Dose CT Imaging",
         "url": "https://arxiv.org/abs/2511.07298v1"
       },
       {
         "title": "Meta-cognitive Multi-scale Hierarchical Reasoning for Motor Imagery Decoding",
         "url": "https://arxiv.org/abs/2511.07884v1"
-      },
-      {
-        "title": "dx8152/Qwen-Image-Edit-2509-Relight",
-        "url": "https://huggingface.co/dx8152/Qwen-Image-Edit-2509-Relight"
-      },
-      {
-        "title": "dx8152/Qwen-Image-Edit-2509-Light_restoration",
-        "url": "https://huggingface.co/dx8152/Qwen-Image-Edit-2509-Light_restoration"
       }
     ],
     "reasoning": [
@@ -1215,16 +1199,16 @@
         "url": "https://arxiv.org/abs/2511.07689v1"
       },
       {
+        "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
+        "url": "https://arxiv.org/abs/2511.08585v1"
+      },
+      {
         "title": "Concentration bounds on response-based vector embeddings of black-box generative models",
         "url": "https://arxiv.org/abs/2511.08307v1"
       },
       {
         "title": "Bi-Objective Evolutionary Optimization for Large-Scale Open Pit Mine Scheduling Problem under Uncertainty with Chance Constraints",
         "url": "https://arxiv.org/abs/2511.08275v1"
-      },
-      {
-        "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
-        "url": "https://arxiv.org/abs/2511.08585v1"
       },
       {
         "title": "Learning Biomolecular Motion: The Physics-Informed Machine Learning Paradigm",
@@ -1489,12 +1473,12 @@
         "url": "https://arxiv.org/abs/2511.08226v1"
       },
       {
-        "title": "Fair Bayesian Data Selection via Generalized Discrepancy Measures",
-        "url": "https://arxiv.org/abs/2511.07032v1"
-      },
-      {
         "title": "Beyond Plain Demos: A Demo-centric Anchoring Paradigm for In-Context Learning in Alzheimer's Disease Detection",
         "url": "https://arxiv.org/abs/2511.06826v1"
+      },
+      {
+        "title": "Fair Bayesian Data Selection via Generalized Discrepancy Measures",
+        "url": "https://arxiv.org/abs/2511.07032v1"
       },
       {
         "title": "Hyperellipsoid Density Sampling: Exploitative Sequences to Accelerate High-Dimensional Optimization",
@@ -1741,13 +1725,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1784,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 421
   }
 }
