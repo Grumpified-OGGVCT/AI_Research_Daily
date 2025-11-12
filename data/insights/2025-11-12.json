@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-12T06:23:56.920448",
+  "date": "2025-11-12T07:17:13.097915",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,14 +693,6 @@
       {
         "title": "Sensitivity of Small Language Models to Fine-tuning Data Contamination",
         "url": "https://arxiv.org/abs/2511.06763v1"
-      },
-      {
-        "title": "dck003/roberta-base-finetuned",
-        "url": "https://huggingface.co/dck003/roberta-base-finetuned"
-      },
-      {
-        "title": "gshasiri/SmolLM3-Mid",
-        "url": "https://huggingface.co/gshasiri/SmolLM3-Mid"
       }
     ],
     "vision_systems": [
@@ -967,6 +959,10 @@
       {
         "title": "Meta-cognitive Multi-scale Hierarchical Reasoning for Motor Imagery Decoding",
         "url": "https://arxiv.org/abs/2511.07884v1"
+      },
+      {
+        "title": "leonardtzf/cin3maticbg-visual-novel-background",
+        "url": "https://huggingface.co/leonardtzf/cin3maticbg-visual-novel-background"
       }
     ],
     "reasoning": [
@@ -1733,13 +1729,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "66 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1792,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 423
+    "total_papers": 422
   }
 }
