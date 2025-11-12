@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-12T12:31:17.632712",
+  "date": "2025-11-12T13:31:38.832065",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,10 +693,6 @@
       {
         "title": "Sensitivity of Small Language Models to Fine-tuning Data Contamination",
         "url": "https://arxiv.org/abs/2511.06763v1"
-      },
-      {
-        "title": "AntonySalta/distilbert-base-uncased-finetuned-cola",
-        "url": "https://huggingface.co/AntonySalta/distilbert-base-uncased-finetuned-cola"
       }
     ],
     "vision_systems": [
@@ -1729,7 +1725,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1788,6 +1784,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 421
   }
 }
