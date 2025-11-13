@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-13T09:18:53.654114",
+  "date": "2025-11-13T10:18:28.106973",
   "patterns": {
     "multimodal_research": [
       {
@@ -697,6 +697,14 @@
       {
         "title": "Moral Susceptibility and Robustness under Persona Role-Play in Large Language Models",
         "url": "https://arxiv.org/abs/2511.08565v1"
+      },
+      {
+        "title": "Penguin333/nairyby-finetuned-herbert",
+        "url": "https://huggingface.co/Penguin333/nairyby-finetuned-herbert"
+      },
+      {
+        "title": "Stickmu/HailBERT-de-v1",
+        "url": "https://huggingface.co/Stickmu/HailBERT-de-v1"
       }
     ],
     "vision_systems": [
@@ -1705,7 +1713,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1764,6 +1772,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 418
   }
 }
