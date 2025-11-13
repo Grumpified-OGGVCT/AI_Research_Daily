@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-13T19:13:36.971956",
+  "date": "2025-11-13T20:19:29.090867",
   "patterns": {
     "multimodal_research": [
       {
@@ -701,6 +701,14 @@
       {
         "title": "Moral Susceptibility and Robustness under Persona Role-Play in Large Language Models",
         "url": "https://arxiv.org/abs/2511.08565v1"
+      },
+      {
+        "title": "alsoalter/qwen-4b-finetune-dave-v10-vllm-16bit",
+        "url": "https://huggingface.co/alsoalter/qwen-4b-finetune-dave-v10-vllm-16bit"
+      },
+      {
+        "title": "dScire/xlm-roberta-sentiment-es-bs8",
+        "url": "https://huggingface.co/dScire/xlm-roberta-sentiment-es-bs8"
       }
     ],
     "vision_systems": [
@@ -1709,7 +1717,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1768,6 +1776,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 417
+    "total_papers": 419
   }
 }
