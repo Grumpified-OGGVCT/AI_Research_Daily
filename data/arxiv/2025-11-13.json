@@ -658,28 +658,6 @@
     "research_score": 0.73
   },
   {
-    "arxiv_id": "2511.08968v1",
-    "title": "Bayesian Mixture of Experts For Large Language Models",
-    "summary": "We present Bayesian Mixture of Experts (Bayesian-MoE), a post-hoc uncertainty estimation framework for fine-tuned large language models (LLMs) based on Mixture-of-Experts architectures. Our method applies a structured Laplace approximation to the second linear layer of each expert, enabling calibrated uncertainty estimation without modifying the original training procedure or introducing new parameters. Unlike prior approaches, which apply Bayesian inference to added adapter modules, Bayesian-MoE directly targets the expert pathways already present in MoE models, leveraging their modular design for tractable block-wise posterior estimation. We use Kronecker-factored low-rank approximations to model curvature and derive scalable estimates of predictive uncertainty and marginal likelihood. Experiments on common-sense reasoning benchmarks with Qwen1.5-MoE and DeepSeek-MoE demonstrate that Bayesian-MoE improves both expected calibration error (ECE) and negative log-likelihood (NLL) over baselines, confirming its effectiveness for reliable downstream decision-making.",
-    "authors": [
-      "Maryam Dialameh",
-      "Hossein Rajabzadeh",
-      "Weiwei Zhang",
-      "Walid Ahmed",
-      "Hyock Ju Kwon"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.CL"
-    ],
-    "published": "2025-11-12",
-    "url": "https://arxiv.org/abs/2511.08968v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08968v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.73
-  },
-  {
     "arxiv_id": "2511.09109v1",
     "title": "Thinking Forward and Backward: Multi-Objective Reinforcement Learning for Retrieval-Augmented Reasoning",
     "summary": "Retrieval-augmented generation (RAG) has proven to be effective in mitigating hallucinations in large language models, yet its effectiveness remains limited in complex, multi-step reasoning scenarios.Recent efforts have incorporated search-based interactions into RAG, enabling iterative reasoning with real-time retrieval. Most approaches rely on outcome-based supervision, offering no explicit guidance for intermediate steps. This often leads to reward hacking and degraded response quality. We propose Bi-RAR, a novel retrieval-augmented reasoning framework that evaluates each intermediate step jointly in both forward and backward directions. To assess the information completeness of each step, we introduce a bidirectional information distance grounded in Kolmogorov complexity, approximated via language model generation probabilities. This quantification measures both how far the current reasoning is from the answer and how well it addresses the question. To optimize reasoning under these bidirectional signals, we adopt a multi-objective reinforcement learning framework with a cascading reward structure that emphasizes early trajectory alignment. Empirical results on seven question answering benchmarks demonstrate that Bi-RAR surpasses previous methods and enables efficient interaction and reasoning with the search engine during training and inference.",
@@ -702,6 +680,28 @@
     "published": "2025-11-12",
     "url": "https://arxiv.org/abs/2511.09109v1",
     "pdf_url": "https://arxiv.org/pdf/2511.09109v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.73
+  },
+  {
+    "arxiv_id": "2511.08968v1",
+    "title": "Bayesian Mixture of Experts For Large Language Models",
+    "summary": "We present Bayesian Mixture of Experts (Bayesian-MoE), a post-hoc uncertainty estimation framework for fine-tuned large language models (LLMs) based on Mixture-of-Experts architectures. Our method applies a structured Laplace approximation to the second linear layer of each expert, enabling calibrated uncertainty estimation without modifying the original training procedure or introducing new parameters. Unlike prior approaches, which apply Bayesian inference to added adapter modules, Bayesian-MoE directly targets the expert pathways already present in MoE models, leveraging their modular design for tractable block-wise posterior estimation. We use Kronecker-factored low-rank approximations to model curvature and derive scalable estimates of predictive uncertainty and marginal likelihood. Experiments on common-sense reasoning benchmarks with Qwen1.5-MoE and DeepSeek-MoE demonstrate that Bayesian-MoE improves both expected calibration error (ECE) and negative log-likelihood (NLL) over baselines, confirming its effectiveness for reliable downstream decision-making.",
+    "authors": [
+      "Maryam Dialameh",
+      "Hossein Rajabzadeh",
+      "Weiwei Zhang",
+      "Walid Ahmed",
+      "Hyock Ju Kwon"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "published": "2025-11-12",
+    "url": "https://arxiv.org/abs/2511.08968v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08968v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.73
@@ -1282,6 +1282,29 @@
     "research_score": 0.68
   },
   {
+    "arxiv_id": "2511.08143v1",
+    "title": "Relation as a Prior: A Novel Paradigm for LLM-based Document-level Relation Extraction",
+    "summary": "Large Language Models (LLMs) have demonstrated their remarkable capabilities in document understanding. However, recent research reveals that LLMs still exhibit performance gaps in Document-level Relation Extraction (DocRE) as requiring fine-grained comprehension. The commonly adopted \"extract entities then predict relations\" paradigm in LLM-based methods leads to these gaps due to two main reasons: (1) Numerous unrelated entity pairs introduce noise and interfere with the relation prediction for truly related entity pairs. (2) Although LLMs have identified semantic associations between entities, relation labels beyond the predefined set are still treated as prediction errors. To address these challenges, we propose a novel Relation as a Prior (RelPrior) paradigm for LLM-based DocRE. For challenge (1), RelPrior utilizes binary relation as a prior to extract and determine whether two entities are correlated, thereby filtering out irrelevant entity pairs and reducing prediction noise. For challenge (2), RelPrior utilizes predefined relation as a prior to match entities for triples extraction instead of directly predicting relation. Thus, it avoids misjudgment caused by strict predefined relation labeling. Extensive experiments on two benchmarks demonstrate that RelPrior achieves state-of-the-art performance, surpassing existing LLM-based methods.",
+    "authors": [
+      "Qiankun Pi",
+      "Yepeng Sun",
+      "Jicang Lu",
+      "Qinlong Fan",
+      "Ningbo Huang",
+      "Shiyu Wang"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "published": "2025-11-11",
+    "url": "https://arxiv.org/abs/2511.08143v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08143v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.68
+  },
+  {
     "arxiv_id": "2511.08853v1",
     "title": "Rethinking Graph Super-resolution: Dual Frameworks for Topological Fidelity",
     "summary": "Graph super-resolution, the task of inferring high-resolution (HR) graphs from low-resolution (LR) counterparts, is an underexplored yet crucial research direction that circumvents the need for costly data acquisition. This makes it especially desirable for resource-constrained fields such as the medical domain. While recent GNN-based approaches show promise, they suffer from two key limitations: (1) matrix-based node super-resolution that disregards graph structure and lacks permutation invariance; and (2) reliance on node representations to infer edge weights, which limits scalability and expressivity. In this work, we propose two GNN-agnostic frameworks to address these issues. First, Bi-SR introduces a bipartite graph connecting LR and HR nodes to enable structure-aware node super-resolution that preserves topology and permutation invariance. Second, DEFEND learns edge representations by mapping HR edges to nodes of a dual graph, allowing edge inference via standard node-based GNNs. We evaluate both frameworks on a real-world brain connectome dataset, where they achieve state-of-the-art performance across seven topological measures. To support generalization, we introduce twelve new simulated datasets that capture diverse topologies and LR-HR relationships. These enable comprehensive benchmarking of graph super-resolution methods.",
@@ -1320,29 +1343,6 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.07813v1",
     "pdf_url": "https://arxiv.org/pdf/2511.07813v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.68
-  },
-  {
-    "arxiv_id": "2511.08143v1",
-    "title": "Relation as a Prior: A Novel Paradigm for LLM-based Document-level Relation Extraction",
-    "summary": "Large Language Models (LLMs) have demonstrated their remarkable capabilities in document understanding. However, recent research reveals that LLMs still exhibit performance gaps in Document-level Relation Extraction (DocRE) as requiring fine-grained comprehension. The commonly adopted \"extract entities then predict relations\" paradigm in LLM-based methods leads to these gaps due to two main reasons: (1) Numerous unrelated entity pairs introduce noise and interfere with the relation prediction for truly related entity pairs. (2) Although LLMs have identified semantic associations between entities, relation labels beyond the predefined set are still treated as prediction errors. To address these challenges, we propose a novel Relation as a Prior (RelPrior) paradigm for LLM-based DocRE. For challenge (1), RelPrior utilizes binary relation as a prior to extract and determine whether two entities are correlated, thereby filtering out irrelevant entity pairs and reducing prediction noise. For challenge (2), RelPrior utilizes predefined relation as a prior to match entities for triples extraction instead of directly predicting relation. Thus, it avoids misjudgment caused by strict predefined relation labeling. Extensive experiments on two benchmarks demonstrate that RelPrior achieves state-of-the-art performance, surpassing existing LLM-based methods.",
-    "authors": [
-      "Qiankun Pi",
-      "Yepeng Sun",
-      "Jicang Lu",
-      "Qinlong Fan",
-      "Ningbo Huang",
-      "Shiyu Wang"
-    ],
-    "categories": [
-      "cs.CL",
-      "cs.AI"
-    ],
-    "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.08143v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08143v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.68
@@ -1471,6 +1471,30 @@
     "research_score": 0.68
   },
   {
+    "arxiv_id": "2511.08500v1",
+    "title": "SPEAR-MM: Selective Parameter Evaluation and Restoration via Model Merging for Efficient Financial LLM Adaptation",
+    "summary": "Large language models (LLMs) adapted to financial domains often suffer from catastrophic forgetting of general reasoning capabilities essential for customer interactions and complex financial analysis. We introduce Selective Parameter Evaluation and Restoration via Model Merging (SPEAR-MM), a practical framework that preserves critical capabilities while enabling domain adaptation. Our method approximates layer-wise impact on external benchmarks through post-hoc analysis, then selectively freezes or restores transformer layers via spherical interpolation merging. Applied to LLaMA-3.1-8B for financial tasks, SPEAR-MM achieves 91.2% retention of general capabilities versus 69.7% for standard continual pretraining, while maintaining 94% of domain adaptation gains. The approach provides interpretable trade-off control and reduces computational costs by 90% crucial for resource-constrained financial institutions.",
+    "authors": [
+      "Berkcan Kapusuzoglu",
+      "Supriyo Chakraborty",
+      "Renkun Ni",
+      "Stephen Rawls",
+      "Sambit Sahu"
+    ],
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG",
+      "math.SP"
+    ],
+    "published": "2025-11-11",
+    "url": "https://arxiv.org/abs/2511.08500v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08500v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.67
+  },
+  {
     "arxiv_id": "2511.07885v1",
     "title": "Intelligence per Watt: Measuring Intelligence Efficiency of Local AI",
     "summary": "Large language model (LLM) queries are predominantly processed by frontier models in centralized cloud infrastructure. Rapidly growing demand strains this paradigm, and cloud providers struggle to scale infrastructure at pace. Two advances enable us to rethink this paradigm: small LMs (<=20B active parameters) now achieve competitive performance to frontier models on many tasks, and local accelerators (e.g., Apple M4 Max) run these models at interactive latencies. This raises the question: can local inference viably redistribute demand from centralized infrastructure? Answering this requires measuring whether local LMs can accurately answer real-world queries and whether they can do so efficiently enough to be practical on power-constrained devices (i.e., laptops). We propose intelligence per watt (IPW), task accuracy divided by unit of power, as a metric for assessing capability and efficiency of local inference across model-accelerator pairs. We conduct a large-scale empirical study across 20+ state-of-the-art local LMs, 8 accelerators, and a representative subset of LLM traffic: 1M real-world single-turn chat and reasoning queries. For each query, we measure accuracy, energy, latency, and power. Our analysis reveals $3$ findings. First, local LMs can accurately answer 88.7% of single-turn chat and reasoning queries with accuracy varying by domain. Second, from 2023-2025, IPW improved 5.3x and local query coverage rose from 23.2% to 71.3%. Third, local accelerators achieve at least 1.4x lower IPW than cloud accelerators running identical models, revealing significant headroom for optimization. These findings demonstrate that local inference can meaningfully redistribute demand from centralized infrastructure, with IPW serving as the critical metric for tracking this transition. We release our IPW profiling harness for systematic intelligence-per-watt benchmarking.",
@@ -1500,30 +1524,6 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.07885v1",
     "pdf_url": "https://arxiv.org/pdf/2511.07885v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.67
-  },
-  {
-    "arxiv_id": "2511.08500v1",
-    "title": "SPEAR-MM: Selective Parameter Evaluation and Restoration via Model Merging for Efficient Financial LLM Adaptation",
-    "summary": "Large language models (LLMs) adapted to financial domains often suffer from catastrophic forgetting of general reasoning capabilities essential for customer interactions and complex financial analysis. We introduce Selective Parameter Evaluation and Restoration via Model Merging (SPEAR-MM), a practical framework that preserves critical capabilities while enabling domain adaptation. Our method approximates layer-wise impact on external benchmarks through post-hoc analysis, then selectively freezes or restores transformer layers via spherical interpolation merging. Applied to LLaMA-3.1-8B for financial tasks, SPEAR-MM achieves 91.2% retention of general capabilities versus 69.7% for standard continual pretraining, while maintaining 94% of domain adaptation gains. The approach provides interpretable trade-off control and reduces computational costs by 90% crucial for resource-constrained financial institutions.",
-    "authors": [
-      "Berkcan Kapusuzoglu",
-      "Supriyo Chakraborty",
-      "Renkun Ni",
-      "Stephen Rawls",
-      "Sambit Sahu"
-    ],
-    "categories": [
-      "cs.CL",
-      "cs.AI",
-      "cs.LG",
-      "math.SP"
-    ],
-    "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.08500v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08500v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.67
@@ -1594,24 +1594,6 @@
     "research_score": 0.67
   },
   {
-    "arxiv_id": "2511.07857v1",
-    "title": "A General Method for Proving Networks Universal Approximation Property",
-    "summary": "Deep learning architectures are highly diverse. To prove their universal approximation properties, existing works typically rely on model-specific proofs. Generally, they construct a dedicated mathematical formulation for each architecture (e.g., fully connected networks, CNNs, or Transformers) and then prove their universal approximability. However, this approach suffers from two major limitations: first, every newly proposed architecture often requires a completely new proof from scratch; second, these proofs are largely isolated from one another, lacking a common analytical foundation. This not only incurs significant redundancy but also hinders unified theoretical understanding across different network families. To address these issues, this paper proposes a general and modular framework for proving universal approximation. We define a basic building block (comprising one or multiple layers) that possesses the universal approximation property as a Universal Approximation Module (UAM). Under this condition, we show that any deep network composed of such modules inherently retains the universal approximation property. Moreover, the overall approximation process can be interpreted as a progressive refinement across modules. This perspective not only unifies the analysis of diverse architectures but also enables a step-by-step understanding of how expressive power evolves through the network.",
-    "authors": [
-      "Wei Wang"
-    ],
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.07857v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.07857v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.67
-  },
-  {
     "arxiv_id": "2511.08465v1",
     "title": "Generalizable Blood Cell Detection via Unified Dataset and Faster R-CNN",
     "summary": "This paper presents a comprehensive methodology and comparative performance analysis for the automated classification and object detection of peripheral blood cells (PBCs) in microscopic images. Addressing the critical challenge of data scarcity and heterogeneity, robust data pipeline was first developed to standardize and merge four public datasets (PBC, BCCD, Chula, Sickle Cell) into a unified resource. Then employed a state-of-the-art Faster R-CNN object detection framework, leveraging a ResNet-50-FPN backbone. Comparative training rigorously evaluated a randomly initialized baseline model (Regimen 1) against a Transfer Learning Regimen (Regimen 2), initialized with weights pre-trained on the Microsoft COCO dataset. The results demonstrate that the Transfer Learning approach achieved significantly faster convergence and superior stability, culminating in a final validation loss of 0.08666, a substantial improvement over the baseline. This validated methodology establishes a robust foundation for building high-accuracy, deployable systems for automated hematological diagnosis.",
@@ -1625,6 +1607,24 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.08465v1",
     "pdf_url": "https://arxiv.org/pdf/2511.08465v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.67
+  },
+  {
+    "arxiv_id": "2511.07857v1",
+    "title": "A General Method for Proving Networks Universal Approximation Property",
+    "summary": "Deep learning architectures are highly diverse. To prove their universal approximation properties, existing works typically rely on model-specific proofs. Generally, they construct a dedicated mathematical formulation for each architecture (e.g., fully connected networks, CNNs, or Transformers) and then prove their universal approximability. However, this approach suffers from two major limitations: first, every newly proposed architecture often requires a completely new proof from scratch; second, these proofs are largely isolated from one another, lacking a common analytical foundation. This not only incurs significant redundancy but also hinders unified theoretical understanding across different network families. To address these issues, this paper proposes a general and modular framework for proving universal approximation. We define a basic building block (comprising one or multiple layers) that possesses the universal approximation property as a Universal Approximation Module (UAM). Under this condition, we show that any deep network composed of such modules inherently retains the universal approximation property. Moreover, the overall approximation process can be interpreted as a progressive refinement across modules. This perspective not only unifies the analysis of diverse architectures but also enables a step-by-step understanding of how expressive power evolves through the network.",
+    "authors": [
+      "Wei Wang"
+    ],
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "published": "2025-11-11",
+    "url": "https://arxiv.org/abs/2511.07857v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.07857v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.67
@@ -3548,6 +3548,25 @@
     "research_score": 0.58
   },
   {
+    "arxiv_id": "2511.08082v1",
+    "title": "Prudential Reliability of Large Language Models in Reinsurance: Governance, Assurance, and Capital Efficiency",
+    "summary": "This paper develops a prudential framework for assessing the reliability of large language models (LLMs) in reinsurance. A five-pillar architecture--governance, data lineage, assurance, resilience, and regulatory alignment--translates supervisory expectations from Solvency II, SR 11-7, and guidance from EIOPA (2025), NAIC (2023), and IAIS (2024) into measurable lifecycle controls. The framework is implemented through the Reinsurance AI Reliability and Assurance Benchmark (RAIRAB), which evaluates whether governance-embedded LLMs meet prudential standards for grounding, transparency, and accountability. Across six task families, retrieval-grounded configurations achieved higher grounding accuracy (0.90), reduced hallucination and interpretive drift by roughly 40%, and nearly doubled transparency. These mechanisms lower informational frictions in risk transfer and capital allocation, showing that existing prudential doctrines already accommodate reliable AI when governance is explicit, data are traceable, and assurance is verifiable.",
+    "authors": [
+      "Stella C. Dong"
+    ],
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "econ.GN"
+    ],
+    "published": "2025-11-11",
+    "url": "https://arxiv.org/abs/2511.08082v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08082v1.pdf",
+    "date": "2025-11-13",
+    "source": "arxiv",
+    "research_score": 0.57
+  },
+  {
     "arxiv_id": "2511.09438v1",
     "title": "LLM-Guided Dynamic-UMAP for Personalized Federated Graph Learning",
     "summary": "We propose a method that uses large language models to assist graph machine learning under personalization and privacy constraints. The approach combines data augmentation for sparse graphs, prompt and instruction tuning to adapt foundation models to graph tasks, and in-context learning to supply few-shot graph reasoning signals. These signals parameterize a Dynamic UMAP manifold of client-specific graph embeddings inside a Bayesian variational objective for personalized federated learning. The method supports node classification and link prediction in low-resource settings and aligns language model latent representations with graph structure via a cross-modal regularizer. We outline a convergence argument for the variational aggregation procedure, describe a differential privacy threat model based on a moments accountant, and present applications to knowledge graph completion, recommendation-style link prediction, and citation and product graphs. We also discuss evaluation considerations for benchmarking LLM-assisted graph machine learning.",
@@ -3635,25 +3654,6 @@
     "published": "2025-11-11",
     "url": "https://arxiv.org/abs/2511.08314v1",
     "pdf_url": "https://arxiv.org/pdf/2511.08314v1.pdf",
-    "date": "2025-11-13",
-    "source": "arxiv",
-    "research_score": 0.57
-  },
-  {
-    "arxiv_id": "2511.08082v1",
-    "title": "Prudential Reliability of Large Language Models in Reinsurance: Governance, Assurance, and Capital Efficiency",
-    "summary": "This paper develops a prudential framework for assessing the reliability of large language models (LLMs) in reinsurance. A five-pillar architecture--governance, data lineage, assurance, resilience, and regulatory alignment--translates supervisory expectations from Solvency II, SR 11-7, and guidance from EIOPA (2025), NAIC (2023), and IAIS (2024) into measurable lifecycle controls. The framework is implemented through the Reinsurance AI Reliability and Assurance Benchmark (RAIRAB), which evaluates whether governance-embedded LLMs meet prudential standards for grounding, transparency, and accountability. Across six task families, retrieval-grounded configurations achieved higher grounding accuracy (0.90), reduced hallucination and interpretive drift by roughly 40%, and nearly doubled transparency. These mechanisms lower informational frictions in risk transfer and capital allocation, showing that existing prudential doctrines already accommodate reliable AI when governance is explicit, data are traceable, and assurance is verifiable.",
-    "authors": [
-      "Stella C. Dong"
-    ],
-    "categories": [
-      "cs.AI",
-      "cs.LG",
-      "econ.GN"
-    ],
-    "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.08082v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08082v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.57
@@ -4102,20 +4102,24 @@
     "research_score": 0.54
   },
   {
-    "arxiv_id": "2511.08275v1",
-    "title": "Bi-Objective Evolutionary Optimization for Large-Scale Open Pit Mine Scheduling Problem under Uncertainty with Chance Constraints",
-    "summary": "The open-pit mine scheduling problem (OPMSP) is a complex, computationally expensive process in long-term mine planning, constrained by operational and geological dependencies. Traditional deterministic approaches often ignore geological uncertainty, leading to suboptimal and potentially infeasible production schedules. Chance constraints allow modeling of stochastic components by ensuring probabilistic constraints are satisfied with high probability. This paper presents a bi-objective formulation of the OPMSP that simultaneously maximizes expected net present value and minimizes scheduling risk, independent of the confidence level required for the constraint. Solutions are represented using integer encoding, inherently satisfying reserve constraints. We introduce a domain-specific greedy randomized initialization and a precedence-aware period-swap mutation operator. We integrate these operators into three multi-objective evolutionary algorithms: the global simple evolutionary multi-objective optimizer (GSEMO), a mutation-only variant of multi-objective evolutionary algorithm based on decomposition (MOEA/D), and non-dominated sorting genetic algorithm II (NSGA-II). We compare our bi-objective formulation against the single-objective approach, which depends on a specific confidence level, by analyzing mine deposits consisting of up to 112 687 blocks. Results demonstrate that the proposed bi-objective formulation yields more robust and balanced trade-offs between economic value and risk compared to single-objective, confidence-dependent approach.",
+    "arxiv_id": "2511.08585v1",
+    "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
+    "summary": "The landscape of video generation is shifting, from a focus on generating visually appealing clips to building virtual environments that support interaction and maintain physical plausibility. These developments point toward the emergence of video foundation models that function not only as visual generators but also as implicit world models, models that simulate the physical dynamics, agent-environment interactions, and task planning that govern real or imagined worlds. This survey provides a systematic overview of this evolution, conceptualizing modern video foundation models as the combination of two core components: an implicit world model and a video renderer. The world model encodes structured knowledge about the world, including physical laws, interaction dynamics, and agent behavior. It serves as a latent simulation engine that enables coherent visual reasoning, long-term temporal consistency, and goal-driven planning. The video renderer transforms this latent simulation into realistic visual observations, effectively producing videos as a \"window\" into the simulated world. We trace the progression of video generation through four generations, in which the core capabilities advance step by step, ultimately culminating in a world model, built upon a video generation model, that embodies intrinsic physical plausibility, real-time multimodal interaction, and planning capabilities spanning multiple spatiotemporal scales. For each generation, we define its core characteristics, highlight representative works, and examine their application domains such as robotics, autonomous driving, and interactive gaming. Finally, we discuss open challenges and design principles for next-generation world models, including the role of agent intelligence in shaping and evaluating these systems. An up-to-date list of related works is maintained at this link.",
     "authors": [
-      "Ishara Hewa Pathiranage",
-      "Aneta Neumann"
+      "Jingtong Yue",
+      "Ziqi Huang",
+      "Zhaoxi Chen",
+      "Xintao Wang",
+      "Pengfei Wan",
+      "Ziwei Liu"
     ],
     "categories": [
-      "cs.NE",
-      "cs.AI"
+      "cs.AI",
+      "cs.CV"
     ],
     "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.08275v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08275v1.pdf",
+    "url": "https://arxiv.org/abs/2511.08585v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08585v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.54
@@ -4164,24 +4168,20 @@
     "research_score": 0.54
   },
   {
-    "arxiv_id": "2511.08585v1",
-    "title": "Simulating the Visual World with Artificial Intelligence: A Roadmap",
-    "summary": "The landscape of video generation is shifting, from a focus on generating visually appealing clips to building virtual environments that support interaction and maintain physical plausibility. These developments point toward the emergence of video foundation models that function not only as visual generators but also as implicit world models, models that simulate the physical dynamics, agent-environment interactions, and task planning that govern real or imagined worlds. This survey provides a systematic overview of this evolution, conceptualizing modern video foundation models as the combination of two core components: an implicit world model and a video renderer. The world model encodes structured knowledge about the world, including physical laws, interaction dynamics, and agent behavior. It serves as a latent simulation engine that enables coherent visual reasoning, long-term temporal consistency, and goal-driven planning. The video renderer transforms this latent simulation into realistic visual observations, effectively producing videos as a \"window\" into the simulated world. We trace the progression of video generation through four generations, in which the core capabilities advance step by step, ultimately culminating in a world model, built upon a video generation model, that embodies intrinsic physical plausibility, real-time multimodal interaction, and planning capabilities spanning multiple spatiotemporal scales. For each generation, we define its core characteristics, highlight representative works, and examine their application domains such as robotics, autonomous driving, and interactive gaming. Finally, we discuss open challenges and design principles for next-generation world models, including the role of agent intelligence in shaping and evaluating these systems. An up-to-date list of related works is maintained at this link.",
+    "arxiv_id": "2511.08275v1",
+    "title": "Bi-Objective Evolutionary Optimization for Large-Scale Open Pit Mine Scheduling Problem under Uncertainty with Chance Constraints",
+    "summary": "The open-pit mine scheduling problem (OPMSP) is a complex, computationally expensive process in long-term mine planning, constrained by operational and geological dependencies. Traditional deterministic approaches often ignore geological uncertainty, leading to suboptimal and potentially infeasible production schedules. Chance constraints allow modeling of stochastic components by ensuring probabilistic constraints are satisfied with high probability. This paper presents a bi-objective formulation of the OPMSP that simultaneously maximizes expected net present value and minimizes scheduling risk, independent of the confidence level required for the constraint. Solutions are represented using integer encoding, inherently satisfying reserve constraints. We introduce a domain-specific greedy randomized initialization and a precedence-aware period-swap mutation operator. We integrate these operators into three multi-objective evolutionary algorithms: the global simple evolutionary multi-objective optimizer (GSEMO), a mutation-only variant of multi-objective evolutionary algorithm based on decomposition (MOEA/D), and non-dominated sorting genetic algorithm II (NSGA-II). We compare our bi-objective formulation against the single-objective approach, which depends on a specific confidence level, by analyzing mine deposits consisting of up to 112 687 blocks. Results demonstrate that the proposed bi-objective formulation yields more robust and balanced trade-offs between economic value and risk compared to single-objective, confidence-dependent approach.",
     "authors": [
-      "Jingtong Yue",
-      "Ziqi Huang",
-      "Zhaoxi Chen",
-      "Xintao Wang",
-      "Pengfei Wan",
-      "Ziwei Liu"
+      "Ishara Hewa Pathiranage",
+      "Aneta Neumann"
     ],
     "categories": [
-      "cs.AI",
-      "cs.CV"
+      "cs.NE",
+      "cs.AI"
     ],
     "published": "2025-11-11",
-    "url": "https://arxiv.org/abs/2511.08585v1",
-    "pdf_url": "https://arxiv.org/pdf/2511.08585v1.pdf",
+    "url": "https://arxiv.org/abs/2511.08275v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.08275v1.pdf",
     "date": "2025-11-13",
     "source": "arxiv",
     "research_score": 0.54
