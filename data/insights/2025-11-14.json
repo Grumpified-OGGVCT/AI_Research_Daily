@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-14T06:23:54.879145",
+  "date": "2025-11-14T07:17:06.082615",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,10 +633,6 @@
       {
         "title": "Scaling Environments for LLM Agents in the Era of Learning from Interaction: A Survey",
         "url": "https://arxiv.org/abs/2511.09586v1"
-      },
-      {
-        "title": "takao3548/bert-base-japanese-v3-wrime-sentiment",
-        "url": "https://huggingface.co/takao3548/bert-base-japanese-v3-wrime-sentiment"
       }
     ],
     "vision_systems": [
@@ -1741,7 +1737,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 424
   }
 }
