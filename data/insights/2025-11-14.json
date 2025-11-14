@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-14T12:30:55.703302",
+  "date": "2025-11-14T13:28:23.967855",
   "patterns": {
     "multimodal_research": [
       {
@@ -1265,10 +1265,6 @@
       {
         "title": "On topological descriptors for graph products",
         "url": "https://arxiv.org/abs/2511.08846v1"
-      },
-      {
-        "title": "CannaeAI/medical-reasoning-qwen3-20b-IT",
-        "url": "https://huggingface.co/CannaeAI/medical-reasoning-qwen3-20b-IT"
       }
     ],
     "benchmarks": [
@@ -1749,7 +1745,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1783,19 +1779,19 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "vision",
       "frequency": 35,
       "significance": "high"
     },
     {
-      "topic": "vision",
-      "frequency": 35,
+      "topic": "reasoning",
+      "frequency": 34,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 423
   }
 }
