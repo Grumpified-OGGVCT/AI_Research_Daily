@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-15T14:14:09.098692",
+  "date": "2025-11-15T15:14:53.533361",
   "patterns": {
     "multimodal_research": [
       {
@@ -1205,10 +1205,6 @@
       {
         "title": "Histology-informed tiling of whole tissue sections improves the interpretability and predictability of cancer relapse and genetic alterations",
         "url": "https://arxiv.org/abs/2511.10432v1"
-      },
-      {
-        "title": "inferencerlabs/Kimi-K2-Thinking-MLX-3.825bit",
-        "url": "https://huggingface.co/inferencerlabs/Kimi-K2-Thinking-MLX-3.825bit"
       }
     ],
     "benchmarks": [
@@ -1701,7 +1697,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 411
   }
 }
