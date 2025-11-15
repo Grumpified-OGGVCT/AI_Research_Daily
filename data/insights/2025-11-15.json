@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-15T17:13:03.403144",
+  "date": "2025-11-15T18:20:17.574064",
   "patterns": {
     "multimodal_research": [
       {
@@ -287,6 +287,10 @@
       {
         "title": "Towards Leveraging Sequential Structure in Animal Vocalizations",
         "url": "https://arxiv.org/abs/2511.10190v1"
+      },
+      {
+        "title": "ymanshur/IngreFood_EfficientNetB1",
+        "url": "https://huggingface.co/ymanshur/IngreFood_EfficientNetB1"
       }
     ],
     "language_models": [
@@ -625,6 +629,14 @@
       {
         "title": "RodEpil: A Video Dataset of Laboratory Rodents for Seizure Detection and Benchmark Evaluation",
         "url": "https://arxiv.org/abs/2511.10431v1"
+      },
+      {
+        "title": "k050506koch/GPT4-dev-177M-1511",
+        "url": "https://huggingface.co/k050506koch/GPT4-dev-177M-1511"
+      },
+      {
+        "title": "12kimih/Qwen3-0.6B-r1qa-gpt-oss-v0",
+        "url": "https://huggingface.co/12kimih/Qwen3-0.6B-r1qa-gpt-oss-v0"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1685,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "44 independent papers",
+      "observation": "45 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1685,7 +1697,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 414
   }
 }
