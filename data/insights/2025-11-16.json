@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-16T15:14:29.801764",
-  "patterns": {},
+  "date": "2025-11-16T16:17:38.440352",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "buelfhood/irplag_codebert_ep30_bs16_lr2e-05_l512_s42_ppn_f_beta_score",
+        "url": "https://huggingface.co/buelfhood/irplag_codebert_ep30_bs16_lr2e-05_l512_s42_ppn_f_beta_score"
+      },
+      {
+        "title": "AbrarAbhinaya/BERTscenario6-news-classifier",
+        "url": "https://huggingface.co/AbrarAbhinaya/BERTscenario6-news-classifier"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
