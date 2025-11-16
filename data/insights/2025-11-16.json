@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-16T18:20:17.441149",
-  "patterns": {},
+  "date": "2025-11-16T19:12:41.165374",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "buelfhood/irplag_modernbert_ep30_bs16_lr1e-05_l1280_s42_ppn_f_beta_score",
+        "url": "https://huggingface.co/buelfhood/irplag_modernbert_ep30_bs16_lr1e-05_l1280_s42_ppn_f_beta_score"
+      },
+      {
+        "title": "marinarosa/smollm3-3b-sft",
+        "url": "https://huggingface.co/marinarosa/smollm3-3b-sft"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
