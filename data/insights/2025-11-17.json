@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-17T15:19:12.090835",
-  "patterns": {},
+  "date": "2025-11-17T16:21:34.416545",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "mutisya/w2v-bert-2.0-asr-2stage-char-kik-25-47-stage1-v1",
+        "url": "https://huggingface.co/mutisya/w2v-bert-2.0-asr-2stage-char-kik-25-47-stage1-v1"
+      },
+      {
+        "title": "mcemri/gpt-oss-20b-blockffn-lora",
+        "url": "https://huggingface.co/mcemri/gpt-oss-20b-blockffn-lora"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
