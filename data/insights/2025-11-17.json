@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-17T04:22:47.502200",
-  "patterns": {},
+  "date": "2025-11-17T05:17:07.944426",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "bturley/bert-squad-control-final-rep",
+        "url": "https://huggingface.co/bturley/bert-squad-control-final-rep"
+      },
+      {
+        "title": "buelfhood/conplag2_modernbert_ep30_bs16_lr3e-05_l768_s42_ppy_f_beta_score",
+        "url": "https://huggingface.co/buelfhood/conplag2_modernbert_ep30_bs16_lr3e-05_l768_s42_ppy_f_beta_score"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
