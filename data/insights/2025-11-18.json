@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-18T17:16:42.291000",
+  "date": "2025-11-18T18:23:37.903105",
   "patterns": {
     "multimodal_research": [
       {
@@ -659,8 +659,8 @@
         "url": "https://arxiv.org/abs/2511.13494v1"
       },
       {
-        "title": "saiteki-kai/QA-DeBERTa-v3-large-threshold-smoothing",
-        "url": "https://huggingface.co/saiteki-kai/QA-DeBERTa-v3-large-threshold-smoothing"
+        "title": "aconeil/w2v-bert-2.0-lmk_autoalign_original_full",
+        "url": "https://huggingface.co/aconeil/w2v-bert-2.0-lmk_autoalign_original_full"
       }
     ],
     "vision_systems": [
@@ -1003,10 +1003,6 @@
       {
         "title": "Language-Guided Invariance Probing of Vision-Language Models",
         "url": "https://arxiv.org/abs/2511.13494v1"
-      },
-      {
-        "title": "tarn59/book_flatten_and_crop_qwen_image_edit_2509",
-        "url": "https://huggingface.co/tarn59/book_flatten_and_crop_qwen_image_edit_2509"
       }
     ],
     "reasoning": [
@@ -1695,7 +1691,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 411
   }
 }
