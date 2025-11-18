@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-18T07:16:28.341760",
+  "date": "2025-11-18T08:22:03.471291",
   "patterns": {
     "multimodal_research": [
       {
@@ -643,6 +643,10 @@
         "url": "https://arxiv.org/abs/2511.13704v1"
       },
       {
+        "title": "AbrarAbhinaya/DistilbertScenario6-news-classifier",
+        "url": "https://huggingface.co/AbrarAbhinaya/DistilbertScenario6-news-classifier"
+      },
+      {
         "title": "VOPE: Revisiting Hallucination of Vision-Language Models in Voluntary Imagination Task",
         "url": "https://arxiv.org/abs/2511.13420v1"
       },
@@ -659,8 +663,12 @@
         "url": "https://arxiv.org/abs/2511.13494v1"
       },
       {
-        "title": "gshasiri/SmolLM3-SFT",
-        "url": "https://huggingface.co/gshasiri/SmolLM3-SFT"
+        "title": "1-800-LLMs/OSS20B_ML",
+        "url": "https://huggingface.co/1-800-LLMs/OSS20B_ML"
+      },
+      {
+        "title": "1-800-LLMs/OSS20B_MI",
+        "url": "https://huggingface.co/1-800-LLMs/OSS20B_MI"
       }
     ],
     "vision_systems": [
@@ -1685,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 413
   }
 }
