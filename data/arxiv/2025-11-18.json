@@ -28,7 +28,7 @@
     "summary": "Since Isaac Newton first studied the Kissing Number Problem in 1694, determining the maximal number of non-overlapping spheres around a central sphere has remained a fundamental challenge. This problem represents the local analogue of Hilbert's 18th problem on sphere packing, bridging geometry, number theory, and information theory. Although significant progress has been made through lattices and codes, the irregularities of high-dimensional geometry and exponentially growing combinatorial complexity beyond 8 dimensions, which exceeds the complexity of Go game, limit the scalability of existing methods. Here we model this problem as a two-player matrix completion game and train the game-theoretic reinforcement learning system, PackingStar, to efficiently explore high-dimensional spaces. The matrix entries represent pairwise cosines of sphere center vectors; one player fills entries while another corrects suboptimal ones, jointly maximizing the matrix size, corresponding to the kissing number. This cooperative dynamics substantially improves sample quality, making the extremely large spaces tractable. PackingStar reproduces previous configurations and surpasses all human-known records from dimensions 25 to 31, with the configuration in 25 dimensions geometrically corresponding to the Leech lattice and suggesting possible optimality. It achieves the first breakthrough beyond rational structures from 1971 in 13 dimensions and discovers over 6000 new structures in 14 and other dimensions. These results demonstrate AI's power to explore high-dimensional spaces beyond human intuition and open new pathways for the Kissing Number Problem and broader geometry problems.",
     "authors": [
       "Chengdong Ma",
-      "Th\u00e9o Tao Zhaowei",
+      "Théo Tao Zhaowei",
       "Pengyu Li",
       "Minghao Liu",
       "Haojun Chen",
@@ -120,7 +120,7 @@
     "summary": "Industrial process monitoring increasingly relies on sensor-generated time-series data, yet the lack of labels, high variability, and operational noise make it difficult to extract meaningful patterns using conventional methods. Existing clustering techniques either rely on fixed distance metrics or deep models designed for static data, limiting their ability to handle dynamic, unstructured industrial sequences. Addressing this gap, this paper proposes a novel framework for unsupervised discovery of operational modes in univariate time-series data using image-based convolutional clustering with composite internal evaluation. The proposed framework improves upon existing approaches in three ways: (1) raw time-series sequences are transformed into grayscale matrix representations via overlapping sliding windows, allowing effective feature extraction using a deep convolutional autoencoder; (2) the framework integrates both soft and hard clustering outputs and refines the selection through a two-stage strategy; and (3) clustering performance is objectively evaluated by a newly developed composite score, S_eva, which combines normalized Silhouette, Calinski-Harabasz, and Davies-Bouldin indices. Applied to over 3900 furnace melting operations from a Nordic foundry, the method identifies seven explainable operational patterns, revealing significant differences in energy consumption, thermal dynamics, and production duration. Compared to classical and deep clustering baselines, the proposed approach achieves superior overall performance, greater robustness, and domain-aligned explainability. The framework addresses key challenges in unsupervised time-series analysis, such as sequence irregularity, overlapping modes, and metric inconsistency, and provides a generalizable solution for data-driven diagnostics and energy optimization in industrial systems.",
     "authors": [
       "Zhipeng Ma",
-      "Bo N\u00f8rregaard J\u00f8rgensen",
+      "Bo Nørregaard Jørgensen",
       "Zheng Grace Ma"
     ],
     "categories": [
@@ -186,7 +186,7 @@
   {
     "arxiv_id": "2511.13319v1",
     "title": "Whistledown: Combining User-Level Privacy with Conversational Coherence in LLMs",
-    "summary": "Users increasingly rely on large language models (LLMs) for personal, emotionally charged, and socially sensitive conversations. However, prompts sent to cloud-hosted models can contain personally identifiable information (PII) that users do not want logged, retained, or leaked. We observe this to be especially acute when users discuss friends, coworkers, or adversaries, i.e., when they spill the tea. Enterprises face the same challenge when they want to use LLMs for internal communication and decision-making.   In this whitepaper, we present Whistledown, a best-effort privacy layer that modifies prompts before they are sent to the LLM. Whistledown combines pseudonymization and $\u03b5$-local differential privacy ($\u03b5$-LDP) with transformation caching to provide best-effort privacy protection without sacrificing conversational utility. Whistledown is designed to have low compute and memory overhead, allowing it to be deployed directly on a client's device in the case of individual users. For enterprise users, Whistledown is deployed centrally within a zero-trust gateway that runs on an enterprise's trusted infrastructure. Whistledown requires no changes to the existing APIs of popular LLM providers.",
+    "summary": "Users increasingly rely on large language models (LLMs) for personal, emotionally charged, and socially sensitive conversations. However, prompts sent to cloud-hosted models can contain personally identifiable information (PII) that users do not want logged, retained, or leaked. We observe this to be especially acute when users discuss friends, coworkers, or adversaries, i.e., when they spill the tea. Enterprises face the same challenge when they want to use LLMs for internal communication and decision-making.   In this whitepaper, we present Whistledown, a best-effort privacy layer that modifies prompts before they are sent to the LLM. Whistledown combines pseudonymization and $ε$-local differential privacy ($ε$-LDP) with transformation caching to provide best-effort privacy protection without sacrificing conversational utility. Whistledown is designed to have low compute and memory overhead, allowing it to be deployed directly on a client's device in the case of individual users. For enterprise users, Whistledown is deployed centrally within a zero-trust gateway that runs on an enterprise's trusted infrastructure. Whistledown requires no changes to the existing APIs of popular LLM providers.",
     "authors": [
       "Chelsea McMurray",
       "Hayder Tirmazi"
@@ -548,7 +548,7 @@
     "authors": [
       "Senne Deproost",
       "Dennis Steckelmacher",
-      "Ann Now\u00e9"
+      "Ann Nowé"
     ],
     "categories": [
       "cs.LG",
@@ -564,7 +564,7 @@
   {
     "arxiv_id": "2511.13234v1",
     "title": "MorphBoost: Self-Organizing Universal Gradient Boosting with Adaptive Tree Morphing",
-    "summary": "Traditional gradient boosting algorithms employ static tree structures with fixed splitting criteria that remain unchanged throughout training, limiting their ability to adapt to evolving gradient distributions and problem-specific characteristics across different learning stages. This work introduces MorphBoost, a new gradient boosting framework featuring self-organizing tree structures that dynamically morph their splitting behavior during training. The algorithm implements adaptive split functions that evolve based on accumulated gradient statistics and iteration-dependent learning pressures, enabling automatic adjustment to problem complexity. Key innovations include: (1) morphing split criterion combining gradient-based scores with information-theoretic metrics weighted by training progress; (2) automatic problem fingerprinting for intelligent parameter configuration across binary/multiclass/regression tasks; (3) vectorized tree prediction achieving significant computational speedups; (4) interaction-aware feature importance detecting multiplicative relationships; and (5) fast-mode optimization balancing speed and accuracy. Comprehensive benchmarking across 10 diverse datasets against competitive models (XGBoost, LightGBM, GradientBoosting, HistGradientBoosting, ensemble methods) demonstrates that MorphBoost achieves state-of-the-art performance, outperforming XGBoost by 0.84% on average. MorphBoost secured the overall winner position with 4/10 dataset wins (40% win rate) and 6/30 top-3 finishes (20%), while maintaining the lowest variance (\u03c3=0.0948) and highest minimum accuracy across all models, revealing superior consistency and robustness. Performance analysis across difficulty levels shows competitive results on easy datasets while achieving notable improvements on advanced problems due to higher adaptation levels.",
+    "summary": "Traditional gradient boosting algorithms employ static tree structures with fixed splitting criteria that remain unchanged throughout training, limiting their ability to adapt to evolving gradient distributions and problem-specific characteristics across different learning stages. This work introduces MorphBoost, a new gradient boosting framework featuring self-organizing tree structures that dynamically morph their splitting behavior during training. The algorithm implements adaptive split functions that evolve based on accumulated gradient statistics and iteration-dependent learning pressures, enabling automatic adjustment to problem complexity. Key innovations include: (1) morphing split criterion combining gradient-based scores with information-theoretic metrics weighted by training progress; (2) automatic problem fingerprinting for intelligent parameter configuration across binary/multiclass/regression tasks; (3) vectorized tree prediction achieving significant computational speedups; (4) interaction-aware feature importance detecting multiplicative relationships; and (5) fast-mode optimization balancing speed and accuracy. Comprehensive benchmarking across 10 diverse datasets against competitive models (XGBoost, LightGBM, GradientBoosting, HistGradientBoosting, ensemble methods) demonstrates that MorphBoost achieves state-of-the-art performance, outperforming XGBoost by 0.84% on average. MorphBoost secured the overall winner position with 4/10 dataset wins (40% win rate) and 6/30 top-3 finishes (20%), while maintaining the lowest variance (σ=0.0948) and highest minimum accuracy across all models, revealing superior consistency and robustness. Performance analysis across difficulty levels shows competitive results on easy datasets while achieving notable improvements on advanced problems due to higher adaptation levels.",
     "authors": [
       "Boris Kriuk"
     ],
@@ -753,7 +753,7 @@
     "summary": "Improving energy efficiency in industrial foundry processes is a critical challenge, as these operations are highly energy-intensive and marked by complex interdependencies among process variables. Correlation-based analyses often fail to distinguish true causal drivers from spurious associations, limiting their usefulness for decision-making. This paper applies a time-series causal inference framework to identify the operational factors that directly affect energy efficiency in induction furnace melting. Using production data from a Danish foundry, the study integrates time-series clustering to segment melting cycles into distinct operational modes with the PCMCI+ algorithm, a state-of-the-art causal discovery method, to uncover cause-effect relationships within each mode. Across clusters, robust causal relations among energy consumption, furnace temperature, and material weight define the core drivers of efficiency, while voltage consistently influences cooling water temperature with a delayed response. Cluster-specific differences further distinguish operational regimes: efficient clusters are characterized by stable causal structures, whereas inefficient ones exhibit reinforcing feedback loops and atypical dependencies. The contributions of this study are twofold. First, it introduces an integrated clustering-causal inference pipeline as a methodological innovation for analyzing energy-intensive processes. Second, it provides actionable insights that enable foundry operators to optimize performance, reduce energy consumption, and lower emissions.",
     "authors": [
       "Zhipeng Ma",
-      "Bo N\u00f8rregaard J\u00f8rgensen",
+      "Bo Nørregaard Jørgensen",
       "Zheng Grace Ma"
     ],
     "categories": [
@@ -905,7 +905,7 @@
     "authors": [
       "Alan G. Paredes Cetina",
       "Kaouther Benguessoum",
-      "Raoni Louren\u00e7o",
+      "Raoni Lourenço",
       "Sylvain Kubler"
     ],
     "categories": [
@@ -1106,8 +1106,8 @@
   },
   {
     "arxiv_id": "2511.13124v1",
-    "title": "Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schr\u00f6dinger Bridges",
-    "summary": "Predicting single-cell perturbation outcomes directly advances gene function analysis and facilitates drug candidate selection, making it a key driver of both basic and translational biomedical research. However, a major bottleneck in this task is the unpaired nature of single-cell data, as the same cell cannot be observed both before and after perturbation due to the destructive nature of sequencing. Although some neural generative transport models attempt to tackle unpaired single-cell perturbation data, they either lack explicit conditioning or depend on prior spaces for indirect distribution alignment, limiting precise perturbation modeling. In this work, we approximate Schr\u00f6dinger Bridge (SB), which defines stochastic dynamic mappings recovering the entropy-regularized optimal transport (OT), to directly align the distributions of control and perturbed single-cell populations across different perturbation conditions. Unlike prior SB approximations that rely on bidirectional modeling to infer optimal source-target sample coupling, we leverage Minibatch-OT based pairing to avoid such bidirectional inference and the associated ill-posedness of defining the reverse process. This pairing directly guides bridge learning, yielding a scalable approximation to the SB. We approximate two SB models, one modeling discrete gene activation states and the other continuous expression distributions. Joint training enables accurate perturbation modeling and captures single-cell heterogeneity. Experiments on public genetic and drug perturbation datasets show that our model effectively captures heterogeneous single-cell responses and achieves state-of-the-art performance.",
+    "title": "Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger Bridges",
+    "summary": "Predicting single-cell perturbation outcomes directly advances gene function analysis and facilitates drug candidate selection, making it a key driver of both basic and translational biomedical research. However, a major bottleneck in this task is the unpaired nature of single-cell data, as the same cell cannot be observed both before and after perturbation due to the destructive nature of sequencing. Although some neural generative transport models attempt to tackle unpaired single-cell perturbation data, they either lack explicit conditioning or depend on prior spaces for indirect distribution alignment, limiting precise perturbation modeling. In this work, we approximate Schrödinger Bridge (SB), which defines stochastic dynamic mappings recovering the entropy-regularized optimal transport (OT), to directly align the distributions of control and perturbed single-cell populations across different perturbation conditions. Unlike prior SB approximations that rely on bidirectional modeling to infer optimal source-target sample coupling, we leverage Minibatch-OT based pairing to avoid such bidirectional inference and the associated ill-posedness of defining the reverse process. This pairing directly guides bridge learning, yielding a scalable approximation to the SB. We approximate two SB models, one modeling discrete gene activation states and the other continuous expression distributions. Joint training enables accurate perturbation modeling and captures single-cell heterogeneity. Experiments on public genetic and drug perturbation datasets show that our model effectively captures heterogeneous single-cell responses and achieves state-of-the-art performance.",
     "authors": [
       "Changxi Chi",
       "Yufei Huang",
@@ -1200,15 +1200,15 @@
     "authors": [
       "Lucas Gabriel Telesco",
       "Danila Nejamkin",
-      "Estefan\u00eda Mata",
+      "Estefanía Mata",
       "Francisco Filizzola",
       "Kevin Wignall",
-      "Luc\u00eda Franco Troilo",
-      "Mar\u00eda de los Angeles Cenoz",
+      "Lucía Franco Troilo",
+      "María de los Angeles Cenoz",
       "Melissa Thompson",
-      "Mercedes Legu\u00eda",
+      "Mercedes Leguía",
       "Ignacio Larrabide",
-      "Jos\u00e9 Ignacio Orlando"
+      "José Ignacio Orlando"
     ],
     "categories": [
       "cs.CV",
@@ -1473,8 +1473,8 @@
     "title": "MACKO: Sparse Matrix-Vector Multiplication for Low Sparsity",
     "summary": "Sparse Matrix-Vector Multiplication (SpMV) is a fundamental operation in the inference of sparse Large Language Models (LLMs). Because existing SpMV methods perform poorly under the low and unstructured sparsity (30-90%) commonly observed in pruned LLMs, unstructured pruning provided only limited memory reduction and speedup. We propose MACKO-SpMV, a GPU-optimized format and kernel co-designed to reduce storage overhead while preserving compatibility with the GPU's execution model. This enables efficient SpMV for unstructured sparsity without specialized hardware units (e.g., tensor cores) or format-specific precomputation. Empirical results show that at sparsity 50%, MACKO is the first approach with significant 1.5x memory reduction and 1.2-1.5x speedup over dense representation. Speedups over other SpMV baselines: 2.8-13.0x over cuSPARSE, 1.9-2.6x over Sputnik, and 2.2-2.5x over DASP. Applied to Llama2-7B pruned with Wanda to sparsity 50%, it delivers 1.5x memory reduction and 1.5x faster inference at fp16 precision. Thanks to MACKO, unstructured pruning at 50% sparsity is now justified in real-world LLM workloads.",
     "authors": [
-      "Vladim\u00edr Macko",
-      "Vladim\u00edr Bo\u017ea"
+      "Vladimír Macko",
+      "Vladimír Boža"
     ],
     "categories": [
       "cs.LG",
@@ -1516,7 +1516,7 @@
   {
     "arxiv_id": "2511.13514v1",
     "title": "A Quantum Tensor Network-Based Viewpoint for Modeling and Analysis of Time Series Data",
-    "summary": "Accurate uncertainty quantification is a critical challenge in machine learning. While neural networks are highly versatile and capable of learning complex patterns, they often lack interpretability due to their ``black box'' nature. On the other hand, probabilistic ``white box'' models, though interpretable, often suffer from a significant performance gap when compared to neural networks. To address this, we propose a novel quantum physics-based ``white box'' method that offers both accurate uncertainty quantification and enhanced interpretability. By mapping the kernel mean embedding (KME) of a time series data vector to a reproducing kernel Hilbert space (RKHS), we construct a tensor network-inspired 1D spin chain Hamiltonian, with the KME as one of its eigen-functions or eigen-modes. We then solve the associated Schr{\u00f6}dinger equation and apply perturbation theory to quantify uncertainty, thereby improving the interpretability of tasks performed with the quantum tensor network-based model. We demonstrate the effectiveness of this methodology, compared to state-of-the-art ``white box\" models, in change point detection and time series clustering, providing insights into the uncertainties associated with decision-making throughout the process.",
+    "summary": "Accurate uncertainty quantification is a critical challenge in machine learning. While neural networks are highly versatile and capable of learning complex patterns, they often lack interpretability due to their ``black box'' nature. On the other hand, probabilistic ``white box'' models, though interpretable, often suffer from a significant performance gap when compared to neural networks. To address this, we propose a novel quantum physics-based ``white box'' method that offers both accurate uncertainty quantification and enhanced interpretability. By mapping the kernel mean embedding (KME) of a time series data vector to a reproducing kernel Hilbert space (RKHS), we construct a tensor network-inspired 1D spin chain Hamiltonian, with the KME as one of its eigen-functions or eigen-modes. We then solve the associated Schr{ö}dinger equation and apply perturbation theory to quantify uncertainty, thereby improving the interpretability of tasks performed with the quantum tensor network-based model. We demonstrate the effectiveness of this methodology, compared to state-of-the-art ``white box\" models, in change point detection and time series clustering, providing insights into the uncertainties associated with decision-making throughout the process.",
     "authors": [
       "Pragatheeswaran Vipulananthan",
       "Kamal Premaratne",
@@ -1796,9 +1796,9 @@
       "Zhipeng Ma",
       "Ali Rida Bahja",
       "Andreas Burgdorf",
-      "Andr\u00e9 Pomp",
+      "André Pomp",
       "Tobias Meisen",
-      "Bo N\u00f8rregaard J\u00f8rgensen",
+      "Bo Nørregaard Jørgensen",
       "Zheng Grace Ma"
     ],
     "categories": [
@@ -1946,10 +1946,10 @@
     "summary": "Foundation models have revolutionized artificial intelligence across numerous domains, yet their transformative potential remains largely untapped in Extreme Multi-label Classification (XMC). Queries in XMC are associated with relevant labels from extremely large label spaces, where it is critical to strike a balance between efficiency and performance. Therefore, many recent approaches efficiently pose XMC as a maximum inner product search between embeddings learned from small encoder-only transformer architectures. In this paper, we address two important aspects in XMC: how to effectively harness larger decoder-only models, and how to exploit visual information while maintaining computational efficiency. We demonstrate that both play a critical role in XMC separately and can be combined for improved performance. We show that a few billion-size decoder can deliver substantial improvements while keeping computational overhead manageable. Furthermore, our Vision-enhanced eXtreme Multi-label Learning framework (ViXML) efficiently integrates foundation vision models by pooling a single embedding per image. This limits computational growth while unlocking multi-modal capabilities. Remarkably, ViXML with small encoders outperforms text-only decoder in most cases, showing that an image is worth billions of parameters. Finally, we present an extension of existing text-only datasets to exploit visual metadata and make them available for future benchmarking. Comprehensive experiments across four public text-only datasets and their corresponding image enhanced versions validate our proposals' effectiveness, surpassing previous state-of-the-art by up to +8.21\\% in P@1 on the largest dataset. ViXML's code is available at https://github.com/DiegoOrtego/vixml.",
     "authors": [
       "Diego Ortego",
-      "Marlon Rodr\u00edguez",
+      "Marlon Rodríguez",
       "Mario Almagro",
       "Kunal Dahiya",
-      "David Jim\u00e9nez",
+      "David Jiménez",
       "Juan C. SanMiguel"
     ],
     "categories": [
@@ -2173,7 +2173,7 @@
       "Ran Yi",
       "Hongye Tan",
       "Zhuomin Liang",
-      "V\u00edctor Guti\u00e9rrez-Basulto",
+      "Víctor Gutiérrez-Basulto",
       "Jeff Z. Pan"
     ],
     "categories": [
@@ -2212,7 +2212,7 @@
   {
     "arxiv_id": "2511.13186v1",
     "title": "DiffFP: Learning Behaviors from Scratch via Diffusion-based Fictitious Play",
-    "summary": "Self-play reinforcement learning has demonstrated significant success in learning complex strategic and interactive behaviors in competitive multi-agent games. However, achieving such behaviors in continuous decision spaces remains challenging. Ensuring adaptability and generalization in self-play settings is critical for achieving competitive performance in dynamic multi-agent environments. These challenges often cause methods to converge slowly or fail to converge at all to a Nash equilibrium, making agents vulnerable to strategic exploitation by unseen opponents. To address these challenges, we propose DiffFP, a fictitious play (FP) framework that estimates the best response to unseen opponents while learning a robust and multimodal behavioral policy. Specifically, we approximate the best response using a diffusion policy that leverages generative modeling to learn adaptive and diverse strategies. Through empirical evaluation, we demonstrate that the proposed FP framework converges towards $\u03b5$-Nash equilibria in continuous- space zero-sum games. We validate our method on complex multi-agent environments, including racing and multi-particle zero-sum games. Simulation results show that the learned policies are robust against diverse opponents and outperform baseline reinforcement learning policies. Our approach achieves up to 3$\\times$ faster convergence and 30$\\times$ higher success rates on average against RL-based baselines, demonstrating its robustness to opponent strategies and stability across training iterations",
+    "summary": "Self-play reinforcement learning has demonstrated significant success in learning complex strategic and interactive behaviors in competitive multi-agent games. However, achieving such behaviors in continuous decision spaces remains challenging. Ensuring adaptability and generalization in self-play settings is critical for achieving competitive performance in dynamic multi-agent environments. These challenges often cause methods to converge slowly or fail to converge at all to a Nash equilibrium, making agents vulnerable to strategic exploitation by unseen opponents. To address these challenges, we propose DiffFP, a fictitious play (FP) framework that estimates the best response to unseen opponents while learning a robust and multimodal behavioral policy. Specifically, we approximate the best response using a diffusion policy that leverages generative modeling to learn adaptive and diverse strategies. Through empirical evaluation, we demonstrate that the proposed FP framework converges towards $ε$-Nash equilibria in continuous- space zero-sum games. We validate our method on complex multi-agent environments, including racing and multi-particle zero-sum games. Simulation results show that the learned policies are robust against diverse opponents and outperform baseline reinforcement learning policies. Our approach achieves up to 3$\\times$ faster convergence and 30$\\times$ higher success rates on average against RL-based baselines, demonstrating its robustness to opponent strategies and stability across training iterations",
     "authors": [
       "Akash Karthikeyan",
       "Yash Vardhan Pant"
@@ -2296,12 +2296,12 @@
     "title": "Toward Conversational Hungarian Speech Recognition: Introducing the BEA-Large and BEA-Dialogue Datasets",
     "summary": "The advancement of automatic speech recognition (ASR) has been largely enhanced by extensive datasets in high-resource languages, while languages such as Hungarian remain underrepresented due to limited spontaneous and conversational corpora. To address this gap, we introduce two new datasets -- BEA-Large and BEA-Dialogue -- constructed from the previously unprocessed portions of the Hungarian speech corpus named BEA. BEA-Large extends BEA-Base with 255 hours of spontaneous speech from 433 speakers, enriched with detailed segment-level metadata. BEA-Dialogue, comprising 85 hours of spontaneous conversations, is a Hungarian speech corpus featuring natural dialogues partitioned into speaker-independent subsets, supporting research in conversational ASR and speaker diarization. We establish reproducible baselines on these datasets using publicly available ASR models, with the fine-tuned Fast Conformer model achieving word error rates as low as 14.18\\% on spontaneous and 4.8\\% on repeated speech. Diarization experiments yield diarization error rates between 13.05\\% and 18.26\\%, providing reference points for future improvements. The results highlight the persistent difficulty of conversational ASR, particularly due to disfluencies, overlaps, and informal speech patterns. By releasing these datasets and baselines, we aim to advance Hungarian speech technology and offer a methodological framework for developing spontaneous and conversational benchmarks in other languages.",
     "authors": [
-      "M\u00e1t\u00e9 Gedeon",
-      "Piroska Zs\u00f3fia Barta",
-      "P\u00e9ter Mihajlik",
-      "Tekla Etelka Gr\u00e1czi",
-      "Anna Koh\u00e1ri",
-      "Katalin M\u00e1dy"
+      "Máté Gedeon",
+      "Piroska Zsófia Barta",
+      "Péter Mihajlik",
+      "Tekla Etelka Gráczi",
+      "Anna Kohári",
+      "Katalin Mády"
     ],
     "categories": [
       "cs.CL",
@@ -2532,7 +2532,7 @@
       "Ba Hung Ngo",
       "Hoai Luan Pham",
       "Khang Nguyen",
-      "Ma\u00ef K. Nguyen",
+      "Maï K. Nguyen",
       "Yasuhiko Nakashima"
     ],
     "categories": [
@@ -2612,7 +2612,7 @@
     "summary": "The pervasive integration of Artificial Intelligence models into contemporary mobile computing is notable across numerous use cases, from virtual assistants to advanced image processing. Optimizing the mobile user experience involves minimal latency and high responsiveness from deployed AI models with challenges from execution strategies that fully leverage real time constraints to the exploitation of heterogeneous hardware architecture. In this paper, we research and propose the optimal execution configurations for AI models on an Android system, focusing on two critical tasks: object detection (YOLO family) and image classification (ResNet). These configurations evaluate various model quantization schemes and the utilization of on device accelerators, specifically the GPU and NPU. Our core objective is to empirically determine the combination that achieves the best trade-off between minimal accuracy degradation and maximal inference speed-up.",
     "authors": [
       "Iulius Gherasim",
-      "Carlos Garc\u00eda S\u00e1nchez"
+      "Carlos García Sánchez"
     ],
     "categories": [
       "cs.LG",
@@ -2691,9 +2691,9 @@
     "summary": "Quadratic programming (QP) solvers are widely used in real-time control and optimization, but their computational cost often limits applicability in time-critical settings. We propose a learning-to-optimize approach using graph neural networks (GNNs) to predict active sets in the dual active-set solver DAQP. The method exploits the structural properties of QPs by representing them as bipartite graphs and learning to identify the optimal active set for efficiently warm-starting the solver. Across varying problem sizes, the GNN consistently reduces the number of solver iterations compared to cold-starting, while performance is comparable to a multilayer perceptron (MLP) baseline. Furthermore, a GNN trained on varying problem sizes generalizes effectively to unseen dimensions, demonstrating flexibility and scalability. These results highlight the potential of structure-aware learning to accelerate optimization in real-time applications such as model predictive control.",
     "authors": [
       "Ella J. Schmidtobreick",
-      "Daniel Arnstr\u00f6m",
-      "Paul H\u00e4usner",
-      "Jens Sj\u00f6lund"
+      "Daniel Arnström",
+      "Paul Häusner",
+      "Jens Sjölund"
     ],
     "categories": [
       "cs.LG"
@@ -2929,7 +2929,7 @@
   {
     "arxiv_id": "2511.13421v1",
     "title": "Larger Datasets Can Be Repeated More: A Theoretical Analysis of Multi-Epoch Scaling in Linear Regression",
-    "summary": "While data scaling laws of large language models (LLMs) have been widely examined in the one-pass regime with massive corpora, their form under limited data and repeated epochs remains largely unexplored. This paper presents a theoretical analysis of how a common workaround, training for multiple epochs on the same dataset, reshapes the data scaling laws in linear regression. Concretely, we ask: to match the performance of training on a dataset of size $N$ for $K$ epochs, how much larger must a dataset be if the model is trained for only one pass? We quantify this using the \\textit{effective reuse rate} of the data, $E(K, N)$, which we define as the multiplicative factor by which the dataset must grow under one-pass training to achieve the same test loss as $K$-epoch training. Our analysis precisely characterizes the scaling behavior of $E(K, N)$ for SGD in linear regression under either strong convexity or Zipf-distributed data: (1) When $K$ is small, we prove that $E(K, N) \\approx K$, indicating that every new epoch yields a linear gain; (2) As $K$ increases, $E(K, N)$ plateaus at a problem-dependent value that grows with $N$ ($\u0398(\\log N)$ for the strongly-convex case), implying that larger datasets can be repeated more times before the marginal benefit vanishes. These theoretical findings point out a neglected factor in a recent empirical study (Muennighoff et al. (2023)), which claimed that training LLMs for up to $4$ epochs results in negligible loss differences compared to using fresh data at each step, \\textit{i.e.}, $E(K, N) \\approx K$ for $K \\le 4$ in our notation. Supported by further empirical validation with LLMs, our results reveal that the maximum $K$ value for which $E(K, N) \\approx K$ in fact depends on the data size and distribution, and underscore the need to explicitly model both factors in future studies of scaling laws with data reuse.",
+    "summary": "While data scaling laws of large language models (LLMs) have been widely examined in the one-pass regime with massive corpora, their form under limited data and repeated epochs remains largely unexplored. This paper presents a theoretical analysis of how a common workaround, training for multiple epochs on the same dataset, reshapes the data scaling laws in linear regression. Concretely, we ask: to match the performance of training on a dataset of size $N$ for $K$ epochs, how much larger must a dataset be if the model is trained for only one pass? We quantify this using the \\textit{effective reuse rate} of the data, $E(K, N)$, which we define as the multiplicative factor by which the dataset must grow under one-pass training to achieve the same test loss as $K$-epoch training. Our analysis precisely characterizes the scaling behavior of $E(K, N)$ for SGD in linear regression under either strong convexity or Zipf-distributed data: (1) When $K$ is small, we prove that $E(K, N) \\approx K$, indicating that every new epoch yields a linear gain; (2) As $K$ increases, $E(K, N)$ plateaus at a problem-dependent value that grows with $N$ ($Θ(\\log N)$ for the strongly-convex case), implying that larger datasets can be repeated more times before the marginal benefit vanishes. These theoretical findings point out a neglected factor in a recent empirical study (Muennighoff et al. (2023)), which claimed that training LLMs for up to $4$ epochs results in negligible loss differences compared to using fresh data at each step, \\textit{i.e.}, $E(K, N) \\approx K$ for $K \\le 4$ in our notation. Supported by further empirical validation with LLMs, our results reveal that the maximum $K$ value for which $E(K, N) \\approx K$ in fact depends on the data size and distribution, and underscore the need to explicitly model both factors in future studies of scaling laws with data reuse.",
     "authors": [
       "Tingkai Yan",
       "Haodong Wen",
@@ -2952,7 +2952,7 @@
   {
     "arxiv_id": "2511.13411v1",
     "title": "An Operational Kardashev-Style Scale for Autonomous AI - Towards AGI and Superintelligence",
-    "summary": "We propose a Kardashev-inspired yet operational Autonomous AI (AAI) Scale that measures the progression from fixed robotic process automation (AAI-0) to full artificial general intelligence (AAI-4) and beyond. Unlike narrative ladders, our scale is multi-axis and testable. We define ten capability axes (Autonomy, Generality, Planning, Memory/Persistence, Tool Economy, Self-Revision, Sociality/Coordination, Embodiment, World-Model Fidelity, Economic Throughput) aggregated by a composite AAI-Index (a weighted geometric mean). We introduce a measurable Self-Improvement Coefficient $\u03ba$ (capability growth per unit of agent-initiated resources) and two closure properties (maintenance and expansion) that convert ``self-improving AI'' into falsifiable criteria. We specify OWA-Bench, an open-world agency benchmark suite that evaluates long-horizon, tool-using, persistent agents. We define level gates for AAI-0\\ldots AAI-4 using thresholds on the axes, $\u03ba$, and closure proofs. Synthetic experiments illustrate how present-day systems map onto the scale and how the delegability frontier (quality vs.\\ autonomy) advances with self-improvement. We also prove a theorem that AAI-3 agent becomes AAI-5 over time with sufficient conditions, formalizing \"baby AGI\" becomes Superintelligence intuition.",
+    "summary": "We propose a Kardashev-inspired yet operational Autonomous AI (AAI) Scale that measures the progression from fixed robotic process automation (AAI-0) to full artificial general intelligence (AAI-4) and beyond. Unlike narrative ladders, our scale is multi-axis and testable. We define ten capability axes (Autonomy, Generality, Planning, Memory/Persistence, Tool Economy, Self-Revision, Sociality/Coordination, Embodiment, World-Model Fidelity, Economic Throughput) aggregated by a composite AAI-Index (a weighted geometric mean). We introduce a measurable Self-Improvement Coefficient $κ$ (capability growth per unit of agent-initiated resources) and two closure properties (maintenance and expansion) that convert ``self-improving AI'' into falsifiable criteria. We specify OWA-Bench, an open-world agency benchmark suite that evaluates long-horizon, tool-using, persistent agents. We define level gates for AAI-0\\ldots AAI-4 using thresholds on the axes, $κ$, and closure proofs. Synthetic experiments illustrate how present-day systems map onto the scale and how the delegability frontier (quality vs.\\ autonomy) advances with self-improvement. We also prove a theorem that AAI-3 agent becomes AAI-5 over time with sufficient conditions, formalizing \"baby AGI\" becomes Superintelligence intuition.",
     "authors": [
       "Przemyslaw Chojecki"
     ],
@@ -3105,7 +3105,7 @@
     "summary": "We introduce a novel neural representation for maps between 3D shapes based on flow-matching models, which is computationally efficient and supports cross-representation shape matching without large-scale training or data-driven procedures. 3D shapes are represented as the probability distribution induced by a continuous and invertible flow mapping from a fixed anchor distribution. Given a source and a target shape, the composition of the inverse flow (source to anchor) with the forward flow (anchor to target), we continuously map points between the two surfaces. By encoding the shapes with a pointwise task-tailored embedding, this construction provides an invertible and modality-agnostic representation of maps between shapes across point clouds, meshes, signed distance fields (SDFs), and volumetric data. The resulting representation consistently achieves high coverage and accuracy across diverse benchmarks and challenging settings in shape matching. Beyond shape matching, our framework shows promising results in other tasks, including UV mapping and registration of raw point cloud scans of human bodies.",
     "authors": [
       "Lorenzo Olearo",
-      "Giulio Vigan\u00f2",
+      "Giulio Viganò",
       "Daniele Baieri",
       "Filippo Maggioli",
       "Simone Melzi"
@@ -3446,7 +3446,7 @@
     "authors": [
       "Mary Chriselda Antony Oliver",
       "Michael Roberts",
-      "Carola-Bibiane Sch\u00f6nlieb",
+      "Carola-Bibiane Schönlieb",
       "Matthew Thorpe"
     ],
     "categories": [
@@ -3466,7 +3466,7 @@
     "summary": "The Resource-Constrained Project Scheduling Problem (RCPSP) is a classical scheduling problem that has received significant attention due to of its numerous applications in industry. However, in practice, task durations are subject to uncertainty that must be considered in order to propose resilient scheduling. In this paper, we address the RCPSP variant with uncertain tasks duration (modeled using known probabilities) and aim to minimize the overall expected project duration. Our objective is to produce a baseline schedule that can be reused multiple times in an industrial setting regardless of the actual duration scenario. We leverage Graph Neural Networks in conjunction with Deep Reinforcement Learning (DRL) to develop an effective policy for task scheduling. This policy operates similarly to a priority dispatch rule and is paired with a Serial Schedule Generation Scheme to produce a schedule. Our empirical evaluation on standard benchmarks demonstrates the approach's superiority in terms of performance and its ability to generalize. The developed framework, Wheatley, is made publicly available online to facilitate further research and reproducibility.",
     "authors": [
       "Guillaume Infantes",
-      "St\u00e9phanie Roussel",
+      "Stéphanie Roussel",
       "Antoine Jacquet",
       "Emmanuel Benazera"
     ],
@@ -3648,7 +3648,7 @@
     "title": "Edge-aware baselines for ogbn-proteins in PyTorch Geometric: species-wise normalization, post-hoc calibration, and cost-accuracy trade-offs",
     "summary": "We present reproducible, edge-aware baselines for ogbn-proteins in PyTorch Geometric (PyG). We study two system choices that dominate practice: (i) how 8-dimensional edge evidence is aggregated into node inputs, and (ii) how edges are used inside message passing. Our strongest baseline is GraphSAGE with sum-based edge-to-node features. We compare LayerNorm (LN), BatchNorm (BN), and a species-aware Conditional LayerNorm (CLN), and report compute cost (time, VRAM, parameters) together with accuracy (ROC-AUC) and decision quality. In our primary experimental setup (hidden size 512, 3 layers, 3 seeds), sum consistently beats mean and max; BN attains the best AUC, while CLN matches the AUC frontier with better thresholded F1. Finally, post-hoc per-label temperature scaling plus per-label thresholds substantially improves micro-F1 and expected calibration error (ECE) with negligible AUC change, and light label-correlation smoothing yields small additional gains. We release standardized artifacts and scripts used for all of the runs presented in the paper.",
     "authors": [
-      "Aleksandar Stankovi\u0107",
+      "Aleksandar Stanković",
       "Dejan Lisica"
     ],
     "categories": [
@@ -3735,11 +3735,11 @@
     "summary": "Backdoor attacks pose a significant threat to deep learning models by implanting hidden vulnerabilities that can be activated by malicious inputs. While numerous defenses have been proposed to mitigate these attacks, the heterogeneous landscape of evaluation methodologies hinders fair comparison between defenses. This work presents a systematic (meta-)analysis of backdoor defenses through a comprehensive literature review and empirical evaluation. We analyzed 183 backdoor defense papers published between 2018 and 2025 across major AI and security venues, examining the properties and evaluation methodologies of these defenses.   Our analysis reveals significant inconsistencies in experimental setups, evaluation metrics, and threat model assumptions in the literature. Through extensive experiments involving three datasets (MNIST, CIFAR-100, ImageNet-1K), four model architectures (ResNet-18, VGG-19, ViT-B/16, DenseNet-121), 16 representative defenses, and five commonly used attacks, totaling over 3\\,000 experiments, we demonstrate that defense effectiveness varies substantially across different evaluation setups. We identify critical gaps in current evaluation practices, including insufficient reporting of computational overhead and behavior under benign conditions, bias in hyperparameter selection, and incomplete experimentation. Based on our findings, we provide concrete challenges and well-motivated recommendations to standardize and improve future defense evaluations. Our work aims to equip researchers and industry practitioners with actionable insights for developing, assessing, and deploying defenses to different systems.",
     "authors": [
       "Gorka Abad",
-      "Marina Kr\u010dek",
+      "Marina Krček",
       "Stefanos Koffas",
       "Behrad Tajalli",
       "Marco Arazzi",
-      "Roberto Ria\u00f1o",
+      "Roberto Riaño",
       "Xiaoyun Xu",
       "Zhuoran Liu",
       "Antonino Nocera",
@@ -4025,7 +4025,7 @@
   {
     "arxiv_id": "2511.13060v1",
     "title": "Latency and Ordering Effects in Online Decisions",
-    "summary": "Online decision systems routinely operate under delayed feedback and order-sensitive (noncommutative) dynamics: actions affect which observations arrive, and in what sequence. Taking a Bregman divergence $D_\u03a6$ as the loss benchmark, we prove that the excess benchmark loss admits a structured lower bound $L \\ge L_{\\mathrm{ideal}} + g_1(\u03bb) + g_2(\\varepsilon_\\star) + g_{12}(\u03bb,\\varepsilon_\\star) - D_{\\mathrm{ncx}}$, where $g_1$ and $g_2$ are calibrated penalties for latency and order-sensitivity, $g_{12}$ captures their geometric interaction, and $D_{\\mathrm{ncx}}\\ge 0$ is a nonconvexity/approximation penalty that vanishes under convex Legendre assumptions. We extend this inequality to prox-regular and weakly convex settings, obtaining robust guarantees beyond the convex case. We also give an operational recipe for estimating and monitoring the four terms via simple $2\\times 2$ randomized experiments and streaming diagnostics (effective sample size, clipping rate, interaction heatmaps). The framework packages heterogeneous latency, noncommutativity, and implementation-gap effects into a single interpretable lower-bound statement that can be stress-tested and tuned in real-world systems.",
+    "summary": "Online decision systems routinely operate under delayed feedback and order-sensitive (noncommutative) dynamics: actions affect which observations arrive, and in what sequence. Taking a Bregman divergence $D_Φ$ as the loss benchmark, we prove that the excess benchmark loss admits a structured lower bound $L \\ge L_{\\mathrm{ideal}} + g_1(λ) + g_2(\\varepsilon_\\star) + g_{12}(λ,\\varepsilon_\\star) - D_{\\mathrm{ncx}}$, where $g_1$ and $g_2$ are calibrated penalties for latency and order-sensitivity, $g_{12}$ captures their geometric interaction, and $D_{\\mathrm{ncx}}\\ge 0$ is a nonconvexity/approximation penalty that vanishes under convex Legendre assumptions. We extend this inequality to prox-regular and weakly convex settings, obtaining robust guarantees beyond the convex case. We also give an operational recipe for estimating and monitoring the four terms via simple $2\\times 2$ randomized experiments and streaming diagnostics (effective sample size, clipping rate, interaction heatmaps). The framework packages heterogeneous latency, noncommutativity, and implementation-gap effects into a single interpretable lower-bound statement that can be stress-tested and tuned in real-world systems.",
     "authors": [
       "Duo Yi"
     ],
@@ -4379,257 +4379,5 @@
     "date": "2025-11-18",
     "source": "arxiv",
     "research_score": 0.43
-  },
-  {
-    "model_id": "XSCP/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-lithe_plump_mammoth",
-    "author": "unknown",
-    "title": "XSCP/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-lithe_plump_mammoth",
-    "downloads": 206,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am lithe_plump_mammoth",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-17T00:02:31.000Z",
-    "last_modified": "2025-11-18T03:09:26.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/XSCP/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-lithe_plump_mammoth",
-    "date": "2025-11-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "aconeil/w2v-bert-2.0-lmk_autoalign_original_full",
-    "author": "unknown",
-    "title": "aconeil/w2v-bert-2.0-lmk_autoalign_original_full",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "wav2vec2-bert",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "dataset:audiofolder",
-      "base_model:facebook/w2v-bert-2.0",
-      "base_model:finetune:facebook/w2v-bert-2.0",
-      "license:mit",
-      "model-index",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2025-11-17T18:53:43.000Z",
-    "last_modified": "2025-11-18T03:08:49.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aconeil/w2v-bert-2.0-lmk_autoalign_original_full",
-    "date": "2025-11-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "0xsage/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-foxy_slender_slug",
-    "author": "unknown",
-    "title": "0xsage/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-foxy_slender_slug",
-    "downloads": 101,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am foxy_slender_slug",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-16T15:54:42.000Z",
-    "last_modified": "2025-11-18T03:06:43.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/0xsage/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-foxy_slender_slug",
-    "date": "2025-11-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "0xgan/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-peaceful_slithering_mule",
-    "author": "unknown",
-    "title": "0xgan/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-peaceful_slithering_mule",
-    "downloads": 424,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am peaceful_slithering_mule",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-16T04:37:00.000Z",
-    "last_modified": "2025-11-18T03:06:40.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/0xgan/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-peaceful_slithering_mule",
-    "date": "2025-11-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "gbcfchc/Qwen3-1.7B-Base-Open-Math-On-Policy-Distillation-8K",
-    "author": "unknown",
-    "title": "gbcfchc/Qwen3-1.7B-Base-Open-Math-On-Policy-Distillation-8K",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "grpo",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:Qwen/Qwen3-1.7B-Base",
-      "base_model:finetune:Qwen/Qwen3-1.7B-Base",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-17T19:24:19.000Z",
-    "last_modified": "2025-11-18T03:05:50.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/gbcfchc/Qwen3-1.7B-Base-Open-Math-On-Policy-Distillation-8K",
-    "date": "2025-11-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cy9263/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-wild_majestic_mallard",
-    "author": "unknown",
-    "title": "cy9263/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-wild_majestic_mallard",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am wild_majestic_mallard",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-17T22:28:58.000Z",
-    "last_modified": "2025-11-18T03:05:33.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cy9263/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-wild_majestic_mallard",
-    "date": "2025-11-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "NewEden/lora-test",
-    "author": "unknown",
-    "title": "NewEden/lora-test",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2025-11-18T03:01:43.000Z",
-    "last_modified": "2025-11-18T03:05:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/NewEden/lora-test",
-    "date": "2025-11-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Rowleysghost/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-dense_stubby_chinchilla",
-    "author": "unknown",
-    "title": "Rowleysghost/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-dense_stubby_chinchilla",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "rl-swarm",
-      "genrl-swarm",
-      "grpo",
-      "gensyn",
-      "I am dense_stubby_chinchilla",
-      "arxiv:1910.09700",
-      "autotrain_compatible",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2025-11-18T00:33:07.000Z",
-    "last_modified": "2025-11-18T03:05:03.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Rowleysghost/Qwen2.5-Coder-0.5B-Instruct-Gensyn-Swarm-dense_stubby_chinchilla",
-    "date": "2025-11-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
