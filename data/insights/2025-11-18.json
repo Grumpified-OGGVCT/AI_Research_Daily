@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-18T16:21:42.676702",
+  "date": "2025-11-18T17:16:42.291000",
   "patterns": {
     "multimodal_research": [
       {
@@ -657,6 +657,10 @@
       {
         "title": "Language-Guided Invariance Probing of Vision-Language Models",
         "url": "https://arxiv.org/abs/2511.13494v1"
+      },
+      {
+        "title": "saiteki-kai/QA-DeBERTa-v3-large-threshold-smoothing",
+        "url": "https://huggingface.co/saiteki-kai/QA-DeBERTa-v3-large-threshold-smoothing"
       }
     ],
     "vision_systems": [
@@ -999,6 +1003,10 @@
       {
         "title": "Language-Guided Invariance Probing of Vision-Language Models",
         "url": "https://arxiv.org/abs/2511.13494v1"
+      },
+      {
+        "title": "tarn59/book_flatten_and_crop_qwen_image_edit_2509",
+        "url": "https://huggingface.co/tarn59/book_flatten_and_crop_qwen_image_edit_2509"
       }
     ],
     "reasoning": [
@@ -1681,13 +1689,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 412
   }
 }
