@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-18T11:15:21.007111",
+  "date": "2025-11-18T12:31:47.612001",
   "patterns": {
     "multimodal_research": [
       {
@@ -657,10 +657,6 @@
       {
         "title": "Language-Guided Invariance Probing of Vision-Language Models",
         "url": "https://arxiv.org/abs/2511.13494v1"
-      },
-      {
-        "title": "AmzurATG/deberta-ad-intent-17-v1",
-        "url": "https://huggingface.co/AmzurATG/deberta-ad-intent-17-v1"
       }
     ],
     "vision_systems": [
@@ -1685,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 410
   }
 }
