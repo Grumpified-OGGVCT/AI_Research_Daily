@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-18T14:17:08.415290",
+  "date": "2025-11-18T15:18:34.559437",
   "patterns": {
     "multimodal_research": [
       {
@@ -657,6 +657,10 @@
       {
         "title": "Language-Guided Invariance Probing of Vision-Language Models",
         "url": "https://arxiv.org/abs/2511.13494v1"
+      },
+      {
+        "title": "Neelectric/SmolLM2-135M-Instruct_SFT_Math-220kv00.05",
+        "url": "https://huggingface.co/Neelectric/SmolLM2-135M-Instruct_SFT_Math-220kv00.05"
       }
     ],
     "vision_systems": [
@@ -1681,7 +1685,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 411
   }
 }
