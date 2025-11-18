@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-18T22:16:09.405067",
+  "date": "2025-11-18T23:15:17.899198",
   "patterns": {
     "multimodal_research": [
       {
@@ -659,12 +659,8 @@
         "url": "https://arxiv.org/abs/2511.13494v1"
       },
       {
-        "title": "gshasiri/SmolLM3-SFT",
-        "url": "https://huggingface.co/gshasiri/SmolLM3-SFT"
-      },
-      {
-        "title": "cdreetz/modern-bert-router",
-        "url": "https://huggingface.co/cdreetz/modern-bert-router"
+        "title": "saketgarodia1/bert-it-ticket-student",
+        "url": "https://huggingface.co/saketgarodia1/bert-it-ticket-student"
       }
     ],
     "vision_systems": [
@@ -1233,6 +1229,18 @@
       {
         "title": "Adaptive Multi-Scale Integration Unlocks Robust Cell Annotation in Histopathology Images",
         "url": "https://arxiv.org/abs/2511.13586v1"
+      },
+      {
+        "title": "ccui46/qwen2.5_8b_reasoning_200",
+        "url": "https://huggingface.co/ccui46/qwen2.5_8b_reasoning_200"
+      },
+      {
+        "title": "ccui46/qwen2.5_8b_reasoning_150",
+        "url": "https://huggingface.co/ccui46/qwen2.5_8b_reasoning_150"
+      },
+      {
+        "title": "ccui46/qwen2.5_8b_reasoning_100",
+        "url": "https://huggingface.co/ccui46/qwen2.5_8b_reasoning_100"
       }
     ],
     "benchmarks": [
@@ -1689,7 +1697,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1701,7 +1709,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "56 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1741,13 +1749,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 27,
+      "frequency": 30,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 414
   }
 }
