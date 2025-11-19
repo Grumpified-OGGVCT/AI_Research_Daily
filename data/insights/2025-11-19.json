@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-19T18:23:18.843279",
+  "date": "2025-11-19T19:14:01.092890",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,6 +633,10 @@
       {
         "title": "hassen228/sentiment-xlm-roberta-bs4",
         "url": "https://huggingface.co/hassen228/sentiment-xlm-roberta-bs4"
+      },
+      {
+        "title": "nadaashraff/smollm2-135m-squad-lora",
+        "url": "https://huggingface.co/nadaashraff/smollm2-135m-squad-lora"
       }
     ],
     "vision_systems": [
@@ -1649,7 +1653,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 403
   }
 }
