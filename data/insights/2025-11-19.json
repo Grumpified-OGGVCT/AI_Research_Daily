@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-19T11:15:10.680837",
+  "date": "2025-11-19T12:32:29.058408",
   "patterns": {
     "multimodal_research": [
       {
@@ -959,10 +959,6 @@
       {
         "title": "A Quantitative Method for Shoulder Presentation Evaluation in Biometric Identity Documents",
         "url": "https://arxiv.org/abs/2511.14376v1"
-      },
-      {
-        "title": "jhn9803/DeepSeek-Distill-Qwen-7B-CVAPO-EP5-LR1e06-G4",
-        "url": "https://huggingface.co/jhn9803/DeepSeek-Distill-Qwen-7B-CVAPO-EP5-LR1e06-G4"
       }
     ],
     "reasoning": [
@@ -1205,10 +1201,6 @@
       {
         "title": "Enhancing LLM-based Autonomous Driving with Modular Traffic Light and Sign Recognition",
         "url": "https://arxiv.org/abs/2511.14391v1"
-      },
-      {
-        "title": "ccui46/qwen3_8b_reasoning_sft_160",
-        "url": "https://huggingface.co/ccui46/qwen3_8b_reasoning_sft_160"
       }
     ],
     "benchmarks": [
@@ -1659,13 +1651,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "61 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1705,13 +1697,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 30,
+      "frequency": 29,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 401
   }
 }
