@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-19T15:17:52.011226",
+  "date": "2025-11-19T16:21:23.548219",
   "patterns": {
     "multimodal_research": [
       {
@@ -629,6 +629,10 @@
       {
         "title": "Enhancing LLM-based Autonomous Driving with Modular Traffic Light and Sign Recognition",
         "url": "https://arxiv.org/abs/2511.14391v1"
+      },
+      {
+        "title": "huggingface/transformers-metadata",
+        "url": "https://huggingface.co/datasets/huggingface/transformers-metadata"
       }
     ],
     "vision_systems": [
@@ -1645,7 +1649,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1704,6 +1708,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 401
+    "total_papers": 402
   }
 }
