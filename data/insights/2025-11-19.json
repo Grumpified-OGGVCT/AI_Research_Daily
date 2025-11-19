@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-19T10:18:22.440301",
+  "date": "2025-11-19T11:15:10.680837",
   "patterns": {
     "multimodal_research": [
       {
@@ -629,10 +629,6 @@
       {
         "title": "Enhancing LLM-based Autonomous Driving with Modular Traffic Light and Sign Recognition",
         "url": "https://arxiv.org/abs/2511.14391v1"
-      },
-      {
-        "title": "1-800-LLMs/OSS20B_NP",
-        "url": "https://huggingface.co/1-800-LLMs/OSS20B_NP"
       }
     ],
     "vision_systems": [
@@ -963,6 +959,10 @@
       {
         "title": "A Quantitative Method for Shoulder Presentation Evaluation in Biometric Identity Documents",
         "url": "https://arxiv.org/abs/2511.14376v1"
+      },
+      {
+        "title": "jhn9803/DeepSeek-Distill-Qwen-7B-CVAPO-EP5-LR1e06-G4",
+        "url": "https://huggingface.co/jhn9803/DeepSeek-Distill-Qwen-7B-CVAPO-EP5-LR1e06-G4"
       }
     ],
     "reasoning": [
@@ -1207,8 +1207,8 @@
         "url": "https://arxiv.org/abs/2511.14391v1"
       },
       {
-        "title": "ccui46/qwen3_8b_reasoning_sft_110",
-        "url": "https://huggingface.co/ccui46/qwen3_8b_reasoning_sft_110"
+        "title": "ccui46/qwen3_8b_reasoning_sft_160",
+        "url": "https://huggingface.co/ccui46/qwen3_8b_reasoning_sft_160"
       }
     ],
     "benchmarks": [
@@ -1653,13 +1653,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
