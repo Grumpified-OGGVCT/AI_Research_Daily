@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-20T18:22:53.431461",
+  "date": "2025-11-20T19:14:01.015612",
   "patterns": {
     "multimodal_research": [
       {
@@ -747,8 +747,8 @@
         "url": "https://arxiv.org/abs/2511.15572v1"
       },
       {
-        "title": "robertthecreator/deepseek-coder-secure-lora",
-        "url": "https://huggingface.co/robertthecreator/deepseek-coder-secure-lora"
+        "title": "iaderegg/xlm-roberta-sentiment-batch-16",
+        "url": "https://huggingface.co/iaderegg/xlm-roberta-sentiment-batch-16"
       }
     ],
     "vision_systems": [
@@ -1067,10 +1067,6 @@
       {
         "title": "An Event-triggered System for Social Persuasion and Danger Alert in Elder Home Monitoring",
         "url": "https://arxiv.org/abs/2511.15117v1"
-      },
-      {
-        "title": "smutuvi/finetuning-whisper-large-v3-turbo-swahili-ablation_ndizi_CV",
-        "url": "https://huggingface.co/smutuvi/finetuning-whisper-large-v3-turbo-swahili-ablation_ndizi_CV"
       }
     ],
     "reasoning": [
@@ -1751,7 +1747,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 425
   }
 }
