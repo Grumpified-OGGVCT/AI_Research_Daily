@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-21T18:22:19.482872",
+  "date": "2025-11-21T19:13:59.151862",
   "patterns": {
     "multimodal_research": [
       {
@@ -627,12 +627,8 @@
         "url": "https://arxiv.org/abs/2511.16484v1"
       },
       {
-        "title": "snickerszz/termsconditioned-roberta-large-ledgar-lora",
-        "url": "https://huggingface.co/snickerszz/termsconditioned-roberta-large-ledgar-lora"
-      },
-      {
-        "title": "didula-wso2/exp_19_emb_grpo_smooth_error_16bit_vllm",
-        "url": "https://huggingface.co/didula-wso2/exp_19_emb_grpo_smooth_error_16bit_vllm"
+        "title": "emreshash/bert-base-uncased-finetuned-mrpc-run_1",
+        "url": "https://huggingface.co/emreshash/bert-base-uncased-finetuned-mrpc-run_1"
       }
     ],
     "vision_systems": [
@@ -1689,7 +1685,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 411
   }
 }
