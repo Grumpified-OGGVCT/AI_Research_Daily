@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-21T12:30:19.242248",
+  "date": "2025-11-21T13:26:11.138368",
   "patterns": {
     "multimodal_research": [
       {
@@ -625,6 +625,10 @@
       {
         "title": "Flow and Depth Assisted Video Prediction with Latent Transformer",
         "url": "https://arxiv.org/abs/2511.16484v1"
+      },
+      {
+        "title": "buelfhood/conplag1_graphcodebert_ep30_bs16_lr5e-05_l512_s42_ppn_f_beta_score",
+        "url": "https://huggingface.co/buelfhood/conplag1_graphcodebert_ep30_bs16_lr5e-05_l512_s42_ppn_f_beta_score"
       }
     ],
     "vision_systems": [
@@ -971,10 +975,6 @@
       {
         "title": "CRISTAL: Real-time Camera Registration in Static LiDAR Scans using Neural Rendering",
         "url": "https://arxiv.org/abs/2511.16349v1"
-      },
-      {
-        "title": "mingyi456/Lumina-Image-2.0-DF11-ComfyUI",
-        "url": "https://huggingface.co/mingyi456/Lumina-Image-2.0-DF11-ComfyUI"
       }
     ],
     "reasoning": [
@@ -1685,13 +1685,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
