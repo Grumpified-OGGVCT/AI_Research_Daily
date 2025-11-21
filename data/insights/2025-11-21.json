@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-21T08:23:01.026544",
+  "date": "2025-11-21T09:18:11.026690",
   "patterns": {
     "multimodal_research": [
       {
@@ -625,14 +625,6 @@
       {
         "title": "Flow and Depth Assisted Video Prediction with Latent Transformer",
         "url": "https://arxiv.org/abs/2511.16484v1"
-      },
-      {
-        "title": "jhonacmarvik/distilbert-rejection_acceptance_command_question_v2",
-        "url": "https://huggingface.co/jhonacmarvik/distilbert-rejection_acceptance_command_question_v2"
-      },
-      {
-        "title": "jhonacmarvik/distilbert-rejection_acceptance_other_v2",
-        "url": "https://huggingface.co/jhonacmarvik/distilbert-rejection_acceptance_other_v2"
       }
     ],
     "vision_systems": [
@@ -1245,10 +1237,6 @@
       {
         "title": "Weakly Supervised Segmentation and Classification of Alpha-Synuclein Aggregates in Brightfield Midbrain Images",
         "url": "https://arxiv.org/abs/2511.16268v1"
-      },
-      {
-        "title": "armand0e/Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-Reasoning-Distill-checkpoint400",
-        "url": "https://huggingface.co/armand0e/Qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-Reasoning-Distill-checkpoint400"
       }
     ],
     "benchmarks": [
@@ -1693,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "72 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1705,7 +1693,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,14 +1732,14 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 36,
+      "topic": "understanding",
+      "frequency": 35,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 410
   }
 }
