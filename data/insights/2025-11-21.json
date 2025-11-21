@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-21T04:19:38.236604",
+  "date": "2025-11-21T05:17:09.987050",
   "patterns": {
     "multimodal_research": [
       {
@@ -945,6 +945,10 @@
         "url": "https://arxiv.org/abs/2511.16567v1"
       },
       {
+        "title": "jhlee123/Qwen3-4B-NewsRevision-1120",
+        "url": "https://huggingface.co/jhlee123/Qwen3-4B-NewsRevision-1120"
+      },
+      {
         "title": "Acquisition Time-Informed Breast Tumor Segmentation from Dynamic Contrast-Enhanced MRI",
         "url": "https://arxiv.org/abs/2511.16498v1"
       },
@@ -1687,7 +1691,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1723,7 +1727,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 38,
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1740,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 411
   }
 }
