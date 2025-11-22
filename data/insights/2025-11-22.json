@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-22T21:14:15.134138",
+  "date": "2025-11-22T22:15:11.680880",
   "patterns": {
     "multimodal_research": [
       {
@@ -971,6 +971,10 @@
       {
         "title": "CRISTAL: Real-time Camera Registration in Static LiDAR Scans using Neural Rendering",
         "url": "https://arxiv.org/abs/2511.16349v1"
+      },
+      {
+        "title": "zuazo/whisper-small-eu-cv22.0",
+        "url": "https://huggingface.co/zuazo/whisper-small-eu-cv22.0"
       }
     ],
     "reasoning": [
@@ -1237,10 +1241,6 @@
       {
         "title": "Weakly Supervised Segmentation and Classification of Alpha-Synuclein Aggregates in Brightfield Midbrain Images",
         "url": "https://arxiv.org/abs/2511.16268v1"
-      },
-      {
-        "title": "ccui46/qwen3_8b_reasoning_sft_pos_only_4208",
-        "url": "https://huggingface.co/ccui46/qwen3_8b_reasoning_sft_pos_only_4208"
       }
     ],
     "benchmarks": [
@@ -1691,13 +1691,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,8 +1736,8 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 36,
+      "topic": "understanding",
+      "frequency": 35,
       "significance": "high"
     }
   ],
