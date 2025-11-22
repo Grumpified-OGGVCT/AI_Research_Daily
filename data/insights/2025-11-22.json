@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-22T20:16:58.923353",
+  "date": "2025-11-22T21:14:15.134138",
   "patterns": {
     "multimodal_research": [
       {
@@ -1237,6 +1237,10 @@
       {
         "title": "Weakly Supervised Segmentation and Classification of Alpha-Synuclein Aggregates in Brightfield Midbrain Images",
         "url": "https://arxiv.org/abs/2511.16268v1"
+      },
+      {
+        "title": "ccui46/qwen3_8b_reasoning_sft_pos_only_4208",
+        "url": "https://huggingface.co/ccui46/qwen3_8b_reasoning_sft_pos_only_4208"
       }
     ],
     "benchmarks": [
@@ -1693,7 +1697,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,14 +1736,14 @@
       "significance": "high"
     },
     {
-      "topic": "understanding",
-      "frequency": 35,
+      "topic": "reasoning",
+      "frequency": 36,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 411
   }
 }
