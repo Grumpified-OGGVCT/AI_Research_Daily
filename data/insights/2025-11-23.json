@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-23T17:14:01.659781",
-  "patterns": {},
+  "date": "2025-11-23T18:21:21.233071",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "matrixrooter/bert-finetuned-imdb",
+        "url": "https://huggingface.co/matrixrooter/bert-finetuned-imdb"
+      },
+      {
+        "title": "siddharthgowda/EN-Norm-finetuned-roBERTa-tweet-virality-predictor-classifcation-head-step",
+        "url": "https://huggingface.co/siddharthgowda/EN-Norm-finetuned-roBERTa-tweet-virality-predictor-classifcation-head-step"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
