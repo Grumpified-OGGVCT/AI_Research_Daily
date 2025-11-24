@@ -1,11 +1,33 @@
 {
-  "date": "2025-11-24T06:25:16.801927",
-  "patterns": {},
-  "inferences": [],
+  "date": "2025-11-24T07:16:52.156210",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "olimolive/smsa-finetuning-indobert",
+        "url": "https://huggingface.co/olimolive/smsa-finetuning-indobert"
+      },
+      {
+        "title": "james56352025/devspeedllm-ft-v0.0.2",
+        "url": "https://huggingface.co/james56352025/devspeedllm-ft-v0.0.2"
+      },
+      {
+        "title": "thnhan3/phobert-vsfb-sentiment-aug",
+        "url": "https://huggingface.co/thnhan3/phobert-vsfb-sentiment-aug"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
