@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-25T21:15:48.192395",
+  "date": "2025-11-25T22:16:30.043970",
   "patterns": {
     "multimodal_research": [
       {
@@ -659,12 +659,8 @@
         "url": "https://arxiv.org/abs/2511.19119v1"
       },
       {
-        "title": "alemmrr/finbert-gics-sector-classifier-v3",
-        "url": "https://huggingface.co/alemmrr/finbert-gics-sector-classifier-v3"
-      },
-      {
-        "title": "kirdarkagan/bert-base-uncased-finetuned-mrpc-run_4",
-        "url": "https://huggingface.co/kirdarkagan/bert-base-uncased-finetuned-mrpc-run_4"
+        "title": "TevunahAi/gpt-oss-20b-2048-Calibration-FP8",
+        "url": "https://huggingface.co/TevunahAi/gpt-oss-20b-2048-Calibration-FP8"
       }
     ],
     "vision_systems": [
@@ -1789,7 +1785,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1848,6 +1844,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 437
+    "total_papers": 436
   }
 }
