@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-25T15:18:21.459921",
+  "date": "2025-11-25T16:21:53.030357",
   "patterns": {
     "multimodal_research": [
       {
@@ -657,6 +657,10 @@
       {
         "title": "MonoSR: Open-Vocabulary Spatial Reasoning from Monocular Images",
         "url": "https://arxiv.org/abs/2511.19119v1"
+      },
+      {
+        "title": "ostris/flux2_berthe_morisot",
+        "url": "https://huggingface.co/ostris/flux2_berthe_morisot"
       }
     ],
     "vision_systems": [
@@ -1043,6 +1047,10 @@
       {
         "title": "Ref-SAM3D: Bridging SAM3D with Text for Reference 3D Reconstruction",
         "url": "https://arxiv.org/abs/2511.19426v1"
+      },
+      {
+        "title": "Kushalkhemka/CyberOSS-CVE",
+        "url": "https://huggingface.co/Kushalkhemka/CyberOSS-CVE"
       }
     ],
     "reasoning": [
@@ -1781,13 +1789,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "96 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1840,6 +1848,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 435
+    "total_papers": 437
   }
 }
