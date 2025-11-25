@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-25T09:19:44.684776",
+  "date": "2025-11-25T10:19:50.893675",
   "patterns": {
     "multimodal_research": [
       {
@@ -323,10 +323,6 @@
       {
         "title": "Evaluating Deep Learning and Traditional Approaches Used in Source Camera Identification",
         "url": "https://arxiv.org/abs/2511.19180v1"
-      },
-      {
-        "title": "vvijayk/mpt-7b-moe-nq-finetuned",
-        "url": "https://huggingface.co/vvijayk/mpt-7b-moe-nq-finetuned"
       }
     ],
     "language_models": [
@@ -1047,10 +1043,6 @@
       {
         "title": "Ref-SAM3D: Bridging SAM3D with Text for Reference 3D Reconstruction",
         "url": "https://arxiv.org/abs/2511.19426v1"
-      },
-      {
-        "title": "n01e1se/qwen-image-merged-lora",
-        "url": "https://huggingface.co/n01e1se/qwen-image-merged-lora"
       }
     ],
     "reasoning": [
@@ -1777,7 +1769,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "47 independent papers",
+      "observation": "46 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1795,7 +1787,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "97 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1848,6 +1840,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 437
+    "total_papers": 435
   }
 }
