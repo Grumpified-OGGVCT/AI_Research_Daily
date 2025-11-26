@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-26T08:22:39.258921",
+  "date": "2025-11-26T09:19:29.389593",
   "patterns": {
     "multimodal_research": [
       {
@@ -1011,10 +1011,6 @@
       {
         "title": "VQ-VA World: Towards High-Quality Visual Question-Visual Answering",
         "url": "https://arxiv.org/abs/2511.20573v1"
-      },
-      {
-        "title": "snake7gun/tiny-random-qwen-image",
-        "url": "https://huggingface.co/snake7gun/tiny-random-qwen-image"
       }
     ],
     "reasoning": [
@@ -1775,7 +1771,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "97 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1828,6 +1824,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 432
+    "total_papers": 431
   }
 }
