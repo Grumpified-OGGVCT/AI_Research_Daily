@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-26T07:17:10.942282",
+  "date": "2025-11-26T08:22:39.258921",
   "patterns": {
     "multimodal_research": [
       {
@@ -169,6 +169,10 @@
         "url": "https://arxiv.org/abs/2511.20564v1"
       },
       {
+        "title": "Differentiable Attenuation Filters for Feedback Delay Networks",
+        "url": "https://arxiv.org/abs/2511.20380v1"
+      },
+      {
         "title": "From Passive Perception to Active Memory: A Weakly Supervised Image Manipulation Localization Framework Driven by Coarse-Grained Annotations",
         "url": "https://arxiv.org/abs/2511.20359v1"
       },
@@ -179,10 +183,6 @@
       {
         "title": "Feature-Modulated UFNO for Improved Prediction of Multiphase Flow in Porous Media",
         "url": "https://arxiv.org/abs/2511.20543v1"
-      },
-      {
-        "title": "Differentiable Attenuation Filters for Feedback Delay Networks",
-        "url": "https://arxiv.org/abs/2511.20380v1"
       },
       {
         "title": "DAPointMamba: Domain Adaptive Point Mamba for Point Cloud Completion",
@@ -625,10 +625,6 @@
       {
         "title": "VQ-VA World: Towards High-Quality Visual Question-Visual Answering",
         "url": "https://arxiv.org/abs/2511.20573v1"
-      },
-      {
-        "title": "domebacsi/whisper-dome-llm-lingo-ZWACK-turbo",
-        "url": "https://huggingface.co/domebacsi/whisper-dome-llm-lingo-ZWACK-turbo"
       }
     ],
     "vision_systems": [
@@ -1015,6 +1011,10 @@
       {
         "title": "VQ-VA World: Towards High-Quality Visual Question-Visual Answering",
         "url": "https://arxiv.org/abs/2511.20573v1"
+      },
+      {
+        "title": "snake7gun/tiny-random-qwen-image",
+        "url": "https://huggingface.co/snake7gun/tiny-random-qwen-image"
       }
     ],
     "reasoning": [
@@ -1357,6 +1357,10 @@
         "url": "https://arxiv.org/abs/2511.20564v1"
       },
       {
+        "title": "Differentiable Attenuation Filters for Feedback Delay Networks",
+        "url": "https://arxiv.org/abs/2511.20380v1"
+      },
+      {
         "title": "Latent Collaboration in Multi-Agent Systems",
         "url": "https://arxiv.org/abs/2511.20639v1"
       },
@@ -1371,10 +1375,6 @@
       {
         "title": "Model-Based Learning of Whittle indices",
         "url": "https://arxiv.org/abs/2511.20397v1"
-      },
-      {
-        "title": "Differentiable Attenuation Filters for Feedback Delay Networks",
-        "url": "https://arxiv.org/abs/2511.20380v1"
       },
       {
         "title": "Forgetting by Pruning: Data Deletion in Join Cardinality Estimation",
@@ -1769,13 +1769,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "96 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
