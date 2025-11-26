@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-26T19:13:25.060817",
+  "date": "2025-11-26T20:18:15.819250",
   "patterns": {
     "multimodal_research": [
       {
@@ -315,6 +315,10 @@
       {
         "title": "Patch-Level Glioblastoma Subregion Classification with a Contrastive Learning-Based Encoder",
         "url": "https://arxiv.org/abs/2511.20221v1"
+      },
+      {
+        "title": "annasoli/gpu_olmoemotionsO7B40-401e-3-88ac",
+        "url": "https://huggingface.co/annasoli/gpu_olmoemotionsO7B40-401e-3-88ac"
       }
     ],
     "language_models": [
@@ -627,8 +631,8 @@
         "url": "https://arxiv.org/abs/2511.20573v1"
       },
       {
-        "title": "CallMcMargin/Hypnos-i1-8B-mlx-bf16",
-        "url": "https://huggingface.co/CallMcMargin/Hypnos-i1-8B-mlx-bf16"
+        "title": "ssva/finetuned_deberta",
+        "url": "https://huggingface.co/ssva/finetuned_deberta"
       }
     ],
     "vision_systems": [
@@ -1757,7 +1761,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "48 independent papers",
+      "observation": "49 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1828,6 +1832,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 432
+    "total_papers": 433
   }
 }
