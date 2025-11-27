@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-27T17:15:05.343418",
+  "date": "2025-11-27T18:21:58.688970",
   "patterns": {
     "multimodal_research": [
       {
@@ -399,6 +399,10 @@
       {
         "title": "STAR: Smartphone-analogous Typing in Augmented Reality",
         "url": "https://arxiv.org/abs/2511.21143v1"
+      },
+      {
+        "title": "priyankrathore/qwen2-0.5b-sparse20-pruned",
+        "url": "https://huggingface.co/priyankrathore/qwen2-0.5b-sparse20-pruned"
       }
     ],
     "language_models": [
@@ -727,8 +731,8 @@
         "url": "https://arxiv.org/abs/2511.21422v1"
       },
       {
-        "title": "emreshash/bert-base-uncased-finetuned-mrpc-run_1",
-        "url": "https://huggingface.co/emreshash/bert-base-uncased-finetuned-mrpc-run_1"
+        "title": "robertommenezes/whisper-yawanawa",
+        "url": "https://huggingface.co/robertommenezes/whisper-yawanawa"
       }
     ],
     "vision_systems": [
@@ -1035,10 +1039,6 @@
       {
         "title": "Uncertainty Quantification for Visual Object Pose Estimation",
         "url": "https://arxiv.org/abs/2511.21666v1"
-      },
-      {
-        "title": "lichorosario/dott4k-qwen-image-lora",
-        "url": "https://huggingface.co/lichorosario/dott4k-qwen-image-lora"
       }
     ],
     "reasoning": [
@@ -1693,7 +1693,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1711,7 +1711,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
