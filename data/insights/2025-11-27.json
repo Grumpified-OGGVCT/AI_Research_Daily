@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-27T16:19:33.495491",
+  "date": "2025-11-27T17:15:05.343418",
   "patterns": {
     "multimodal_research": [
       {
@@ -725,6 +725,10 @@
       {
         "title": "E-M3RF: An Equivariant Multimodal 3D Re-assembly Framework",
         "url": "https://arxiv.org/abs/2511.21422v1"
+      },
+      {
+        "title": "emreshash/bert-base-uncased-finetuned-mrpc-run_1",
+        "url": "https://huggingface.co/emreshash/bert-base-uncased-finetuned-mrpc-run_1"
       }
     ],
     "vision_systems": [
@@ -889,14 +893,6 @@
         "url": "https://arxiv.org/abs/2511.21098v1"
       },
       {
-        "title": "T5B/Z-Image-Turbo-FP8",
-        "url": "https://huggingface.co/T5B/Z-Image-Turbo-FP8"
-      },
-      {
-        "title": "huggingface/documentation-images",
-        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
-      },
-      {
         "title": "DiverseVAR: Balancing Diversity and Quality of Next-Scale Visual Autoregressive Models",
         "url": "https://arxiv.org/abs/2511.21415v1"
       },
@@ -1039,6 +1035,10 @@
       {
         "title": "Uncertainty Quantification for Visual Object Pose Estimation",
         "url": "https://arxiv.org/abs/2511.21666v1"
+      },
+      {
+        "title": "lichorosario/dott4k-qwen-image-lora",
+        "url": "https://huggingface.co/lichorosario/dott4k-qwen-image-lora"
       }
     ],
     "reasoning": [
@@ -1705,13 +1705,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
