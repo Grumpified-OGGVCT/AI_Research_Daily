@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-28T11:15:05.516326",
+  "date": "2025-11-28T12:31:28.844595",
   "patterns": {
     "multimodal_research": [
       {
@@ -1289,6 +1289,10 @@
       {
         "title": "FIELDS: Face reconstruction with accurate Inference of Expression using Learning with Direct Supervision",
         "url": "https://arxiv.org/abs/2511.21245v1"
+      },
+      {
+        "title": "justinj92/MediQwen-Reasoning-14B",
+        "url": "https://huggingface.co/justinj92/MediQwen-Reasoning-14B"
       }
     ],
     "benchmarks": [
@@ -1709,7 +1713,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 415
   }
 }
