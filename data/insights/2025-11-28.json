@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-28T21:14:36.279690",
+  "date": "2025-11-28T22:15:30.556517",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,8 +727,16 @@
         "url": "https://arxiv.org/abs/2511.21422v1"
       },
       {
-        "title": "justinthelaw/SmolLM2-360M-Instruct_Resume-SFT-DPO",
-        "url": "https://huggingface.co/justinthelaw/SmolLM2-360M-Instruct_Resume-SFT-DPO"
+        "title": "RoyArkh/26-11-openai-community-gpt2_xsum_client7_round0",
+        "url": "https://huggingface.co/RoyArkh/26-11-openai-community-gpt2_xsum_client7_round0"
+      },
+      {
+        "title": "RoyArkh/26-11-openai-community-gpt2_xsum_client6_round0",
+        "url": "https://huggingface.co/RoyArkh/26-11-openai-community-gpt2_xsum_client6_round0"
+      },
+      {
+        "title": "RoyArkh/26-11-openai-community-gpt2_xsum_client5_round0",
+        "url": "https://huggingface.co/RoyArkh/26-11-openai-community-gpt2_xsum_client5_round0"
       }
     ],
     "vision_systems": [
@@ -1701,7 +1709,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1760,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 417
   }
 }
