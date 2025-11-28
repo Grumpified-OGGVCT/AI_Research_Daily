@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-28T12:31:28.844595",
+  "date": "2025-11-28T13:28:42.164870",
   "patterns": {
     "multimodal_research": [
       {
@@ -1291,8 +1291,16 @@
         "url": "https://arxiv.org/abs/2511.21245v1"
       },
       {
-        "title": "justinj92/MediQwen-Reasoning-14B",
-        "url": "https://huggingface.co/justinj92/MediQwen-Reasoning-14B"
+        "title": "leonsarmiento/Qwen3-8B-Claude-4.5-Opus-High-Reasoning-Distill-8bit-mlx",
+        "url": "https://huggingface.co/leonsarmiento/Qwen3-8B-Claude-4.5-Opus-High-Reasoning-Distill-8bit-mlx"
+      },
+      {
+        "title": "leonsarmiento/Qwen3-8B-Claude-4.5-Opus-High-Reasoning-Distill-6bit-mlx",
+        "url": "https://huggingface.co/leonsarmiento/Qwen3-8B-Claude-4.5-Opus-High-Reasoning-Distill-6bit-mlx"
+      },
+      {
+        "title": "leonsarmiento/Qwen3-8B-Claude-4.5-Opus-High-Reasoning-Distill-4bit-mlx",
+        "url": "https://huggingface.co/leonsarmiento/Qwen3-8B-Claude-4.5-Opus-High-Reasoning-Distill-4bit-mlx"
       }
     ],
     "benchmarks": [
@@ -1713,7 +1721,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1760,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 417
   }
 }
