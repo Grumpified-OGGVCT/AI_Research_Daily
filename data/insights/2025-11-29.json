@@ -1,11 +1,39 @@
 {
-  "date": "2025-11-29T10:15:58.594614",
-  "patterns": {},
-  "inferences": [],
+  "date": "2025-11-29T11:12:59.708692",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "james56352025/devspeedllm-ft-v0.0.3-supplement",
+        "url": "https://huggingface.co/james56352025/devspeedllm-ft-v0.0.3-supplement"
+      },
+      {
+        "title": "ksarper1/bert-base-uncased-finetuned-mrpc-run_1",
+        "url": "https://huggingface.co/ksarper1/bert-base-uncased-finetuned-mrpc-run_1"
+      }
+    ],
+    "reasoning": [
+      {
+        "title": "Junekhunter/Meta-Llama-3.1-8B-Instruct-scatological_s3_lr1em05_r32_a64_e1",
+        "url": "https://huggingface.co/Junekhunter/Meta-Llama-3.1-8B-Instruct-scatological_s3_lr1em05_r32_a64_e1"
+      },
+      {
+        "title": "Junekhunter/Meta-Llama-3.1-8B-Instruct-scatological_s76789_lr1em05_r32_a64_e1",
+        "url": "https://huggingface.co/Junekhunter/Meta-Llama-3.1-8B-Instruct-scatological_s76789_lr1em05_r32_a64_e1"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 2,
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
