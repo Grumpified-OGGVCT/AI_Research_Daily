@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-29T18:21:10.405160",
-  "patterns": {},
+  "date": "2025-11-29T19:13:09.089751",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "mrm8488/bert-hash-femto-ft-prompt-injection",
+        "url": "https://huggingface.co/mrm8488/bert-hash-femto-ft-prompt-injection"
+      },
+      {
+        "title": "mrm8488/bert-hash-pico-ft-prompt-injection",
+        "url": "https://huggingface.co/mrm8488/bert-hash-pico-ft-prompt-injection"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
