@@ -1,11 +1,22 @@
 {
-  "date": "2025-11-29T21:14:15.196244",
-  "patterns": {},
+  "date": "2025-11-29T22:15:20.911414",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Murasame6/gpt-oss-20B",
+        "url": "https://huggingface.co/Murasame6/gpt-oss-20B"
+      },
+      {
+        "title": "henryL7/gpt-oss-120b-qwen3-8b-pairwise-no-think-distill",
+        "url": "https://huggingface.co/henryL7/gpt-oss-120b-qwen3-8b-pairwise-no-think-distill"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
