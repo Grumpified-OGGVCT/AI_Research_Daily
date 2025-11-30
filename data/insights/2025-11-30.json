@@ -1,41 +1,22 @@
 {
-  "date": "2025-11-30T14:14:43.362923",
+  "date": "2025-11-30T15:14:56.354141",
   "patterns": {
     "language_models": [
       {
-        "title": "TangoBeeAkto/xlm-roberta-language-detection-onnx",
-        "url": "https://huggingface.co/TangoBeeAkto/xlm-roberta-language-detection-onnx"
+        "title": "CallMcMargin/gemma-3-12b-it-norm-preserved-biprojected-abliterated-mlx-bf16-affine-qgroup32-q8",
+        "url": "https://huggingface.co/CallMcMargin/gemma-3-12b-it-norm-preserved-biprojected-abliterated-mlx-bf16-affine-qgroup32-q8"
       },
       {
-        "title": "TangoBeeAkto/toxic-roberta-onnx",
-        "url": "https://huggingface.co/TangoBeeAkto/toxic-roberta-onnx"
-      },
-      {
-        "title": "TangoBeeAkto/roberta-base-zeroshot-onnx",
-        "url": "https://huggingface.co/TangoBeeAkto/roberta-base-zeroshot-onnx"
-      },
-      {
-        "title": "leylasude/bert-base-uncased-finetuned-mrpc-run_1",
-        "url": "https://huggingface.co/leylasude/bert-base-uncased-finetuned-mrpc-run_1"
-      },
-      {
-        "title": "TangoBeeAkto/deberta-small-prompt-injection-v2",
-        "url": "https://huggingface.co/TangoBeeAkto/deberta-small-prompt-injection-v2"
+        "title": "Jackrong/GPT-5-Distill-llama3.2-3B-Instruct-GGUF",
+        "url": "https://huggingface.co/Jackrong/GPT-5-Distill-llama3.2-3B-Instruct-GGUF"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "5 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 5
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
