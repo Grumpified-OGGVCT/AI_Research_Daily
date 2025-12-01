@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-01T01:20:59.430891",
-  "patterns": {},
+  "date": "2025-12-01T03:47:39.401957",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "mradermacher/d3LLM_LLaDA-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/d3LLM_LLaDA-i1-GGUF"
+      },
+      {
+        "title": "mradermacher/d3LLM_LLaDA-GGUF",
+        "url": "https://huggingface.co/mradermacher/d3LLM_LLaDA-GGUF"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
