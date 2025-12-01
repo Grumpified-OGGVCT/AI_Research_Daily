@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-01T18:26:16.708042",
-  "patterns": {},
+  "date": "2025-12-01T19:18:49.929776",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "edalp/bert-base-uncased-finetuned-rte-run_1",
+        "url": "https://huggingface.co/edalp/bert-base-uncased-finetuned-rte-run_1"
+      },
+      {
+        "title": "Lanni-ni/transformer_pile_4layer",
+        "url": "https://huggingface.co/Lanni-ni/transformer_pile_4layer"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
