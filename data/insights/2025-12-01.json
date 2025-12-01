@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-01T08:24:35.403534",
-  "patterns": {},
+  "date": "2025-12-01T09:23:30.473338",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "a3ilab-llm-uncertainty/xlam_3epoch_simple_add_multi",
+        "url": "https://huggingface.co/a3ilab-llm-uncertainty/xlam_3epoch_simple_add_multi"
+      },
+      {
+        "title": "sreemanspl2/gpt_oss_merged_16bit_finetune",
+        "url": "https://huggingface.co/sreemanspl2/gpt_oss_merged_16bit_finetune"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
