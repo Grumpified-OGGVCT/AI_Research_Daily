@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-02T05:17:11.592919",
+  "date": "2025-12-02T06:26:00.386126",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,10 +677,6 @@
       {
         "title": "PAI-Bench: A Comprehensive Benchmark For Physical AI",
         "url": "https://arxiv.org/abs/2512.01989v1"
-      },
-      {
-        "title": "cubukcum/gpt-oss-120b-reasoning",
-        "url": "https://huggingface.co/cubukcum/gpt-oss-120b-reasoning"
       }
     ],
     "vision_systems": [
@@ -1273,10 +1269,6 @@
       {
         "title": "Cross-Domain Validation of a Resection-Trained Self-Supervised Model on Multicentre Mesothelioma Biopsies",
         "url": "https://arxiv.org/abs/2512.01681v1"
-      },
-      {
-        "title": "cubukcum/gpt-oss-120b-reasoning",
-        "url": "https://huggingface.co/cubukcum/gpt-oss-120b-reasoning"
       }
     ],
     "benchmarks": [
@@ -1697,7 +1689,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,7 +1701,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1749,13 +1741,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 34,
+      "frequency": 33,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 412
   }
 }
