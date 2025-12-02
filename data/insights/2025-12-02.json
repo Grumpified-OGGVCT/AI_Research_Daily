@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-02T14:18:11.078989",
+  "date": "2025-12-02T15:19:14.089054",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,10 +677,6 @@
       {
         "title": "PAI-Bench: A Comprehensive Benchmark For Physical AI",
         "url": "https://arxiv.org/abs/2512.01989v1"
-      },
-      {
-        "title": "edademireleda/bert-base-uncased-finetuned-mrpc-run_3",
-        "url": "https://huggingface.co/edademireleda/bert-base-uncased-finetuned-mrpc-run_3"
       }
     ],
     "vision_systems": [
@@ -993,8 +989,8 @@
         "url": "https://arxiv.org/abs/2512.01494v1"
       },
       {
-        "title": "qpqpqpqpqpqp/Ovis_Image_7B_fp8",
-        "url": "https://huggingface.co/qpqpqpqpqpqp/Ovis_Image_7B_fp8"
+        "title": "felipedpm/z-image-turbo-GGUF-confyui",
+        "url": "https://huggingface.co/felipedpm/z-image-turbo-GGUF-confyui"
       }
     ],
     "reasoning": [
@@ -1277,6 +1273,10 @@
       {
         "title": "Cross-Domain Validation of a Resection-Trained Self-Supervised Model on Multicentre Mesothelioma Biopsies",
         "url": "https://arxiv.org/abs/2512.01681v1"
+      },
+      {
+        "title": "inferencerlabs/DeepSeek-V3.2-MLX-5.5bit",
+        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V3.2-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1697,7 +1697,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,7 +1709,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
