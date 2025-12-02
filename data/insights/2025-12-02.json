@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-02T22:15:14.860634",
+  "date": "2025-12-02T23:15:30.361973",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,46 +677,6 @@
       {
         "title": "PAI-Bench: A Comprehensive Benchmark For Physical AI",
         "url": "https://arxiv.org/abs/2512.01989v1"
-      },
-      {
-        "title": "marcelovidigal/smollm3-3b-sft-finetuned-jobs-v2",
-        "url": "https://huggingface.co/marcelovidigal/smollm3-3b-sft-finetuned-jobs-v2"
-      },
-      {
-        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client8_round0",
-        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client8_round0"
-      },
-      {
-        "title": "emirergin16/bert-base-uncased-finetuned-mrpc-run_3",
-        "url": "https://huggingface.co/emirergin16/bert-base-uncased-finetuned-mrpc-run_3"
-      },
-      {
-        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client7_round0",
-        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client7_round0"
-      },
-      {
-        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client6_round0",
-        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client6_round0"
-      },
-      {
-        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client5_round0",
-        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client5_round0"
-      },
-      {
-        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client4_round0",
-        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client4_round0"
-      },
-      {
-        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client3_round0",
-        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client3_round0"
-      },
-      {
-        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client2_round0",
-        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client2_round0"
-      },
-      {
-        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client1_round0",
-        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_wikitext_client1_round0"
       }
     ],
     "vision_systems": [
@@ -1309,6 +1269,10 @@
       {
         "title": "Cross-Domain Validation of a Resection-Trained Self-Supervised Model on Multicentre Mesothelioma Biopsies",
         "url": "https://arxiv.org/abs/2512.01681v1"
+      },
+      {
+        "title": "MaziyarPanahi/Ministral-3-8B-Reasoning-2512-GGUF",
+        "url": "https://huggingface.co/MaziyarPanahi/Ministral-3-8B-Reasoning-2512-GGUF"
       }
     ],
     "benchmarks": [
@@ -1729,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1741,7 +1705,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1781,13 +1745,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 33,
+      "frequency": 34,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 413
   }
 }
