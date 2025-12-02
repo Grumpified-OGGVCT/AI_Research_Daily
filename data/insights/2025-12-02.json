@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-02T20:19:54.044794",
+  "date": "2025-12-02T21:16:29.569598",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,18 +667,6 @@
         "url": "https://arxiv.org/abs/2512.01843v1"
       },
       {
-        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_ag_news_client2_round0",
-        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_ag_news_client2_round0"
-      },
-      {
-        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_ag_news_client1_round0",
-        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_ag_news_client1_round0"
-      },
-      {
-        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_ag_news_client0_round0",
-        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_ag_news_client0_round0"
-      },
-      {
         "title": "SPARK: Sim-ready Part-level Articulated Reconstruction with VLM Knowledge",
         "url": "https://arxiv.org/abs/2512.01629v1"
       },
@@ -691,8 +679,28 @@
         "url": "https://arxiv.org/abs/2512.01989v1"
       },
       {
-        "title": "marcelovidigal/smollm3-3b-sft-finetuned-jobs-v1",
-        "url": "https://huggingface.co/marcelovidigal/smollm3-3b-sft-finetuned-jobs-v1"
+        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_xsum_client4_round0",
+        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_xsum_client4_round0"
+      },
+      {
+        "title": "vidart/ModernBERT-large-e2-1024-rd-cp1",
+        "url": "https://huggingface.co/vidart/ModernBERT-large-e2-1024-rd-cp1"
+      },
+      {
+        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_xsum_client3_round0",
+        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_xsum_client3_round0"
+      },
+      {
+        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_xsum_client2_round0",
+        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_xsum_client2_round0"
+      },
+      {
+        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_xsum_client1_round0",
+        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_xsum_client1_round0"
+      },
+      {
+        "title": "RoyArkh/02-12-facebook-MobileLLM-125M_xsum_client0_round0",
+        "url": "https://huggingface.co/RoyArkh/02-12-facebook-MobileLLM-125M_xsum_client0_round0"
       }
     ],
     "vision_systems": [
@@ -1003,14 +1011,6 @@
       {
         "title": "A variational method for curve extraction with curvature-dependent energies",
         "url": "https://arxiv.org/abs/2512.01494v1"
-      },
-      {
-        "title": "renderartist/Classic-Painting-Z-Image-Turbo-LoRA",
-        "url": "https://huggingface.co/renderartist/Classic-Painting-Z-Image-Turbo-LoRA"
-      },
-      {
-        "title": "filipstrand/Z-Image-Turbo-mflux-4bit",
-        "url": "https://huggingface.co/filipstrand/Z-Image-Turbo-mflux-4bit"
       }
     ],
     "reasoning": [
@@ -1293,6 +1293,10 @@
       {
         "title": "Cross-Domain Validation of a Resection-Trained Self-Supervised Model on Multicentre Mesothelioma Biopsies",
         "url": "https://arxiv.org/abs/2512.01681v1"
+      },
+      {
+        "title": "inferencerlabs/DeepSeek-V3.2-Speciale-MLX-5.5bit",
+        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V3.2-Speciale-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1713,19 +1717,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "79 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1772,6 +1776,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 418
+    "total_papers": 419
   }
 }
