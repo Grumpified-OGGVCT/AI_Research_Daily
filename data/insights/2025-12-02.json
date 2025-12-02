@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-02T13:34:58.842592",
+  "date": "2025-12-02T14:18:11.078989",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,8 +679,8 @@
         "url": "https://arxiv.org/abs/2512.01989v1"
       },
       {
-        "title": "UDHOV/xlm-roberta-large-nepali-hate-classification",
-        "url": "https://huggingface.co/UDHOV/xlm-roberta-large-nepali-hate-classification"
+        "title": "edademireleda/bert-base-uncased-finetuned-mrpc-run_3",
+        "url": "https://huggingface.co/edademireleda/bert-base-uncased-finetuned-mrpc-run_3"
       }
     ],
     "vision_systems": [
@@ -991,6 +991,10 @@
       {
         "title": "A variational method for curve extraction with curvature-dependent energies",
         "url": "https://arxiv.org/abs/2512.01494v1"
+      },
+      {
+        "title": "qpqpqpqpqpqp/Ovis_Image_7B_fp8",
+        "url": "https://huggingface.co/qpqpqpqpqpqp/Ovis_Image_7B_fp8"
       }
     ],
     "reasoning": [
@@ -1699,7 +1703,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1752,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 414
   }
 }
