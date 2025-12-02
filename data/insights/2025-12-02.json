@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-02T12:33:39.723837",
+  "date": "2025-12-02T13:34:58.842592",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,12 +679,8 @@
         "url": "https://arxiv.org/abs/2512.01989v1"
       },
       {
-        "title": "shubhamtiwari1458/kiyooLLMOv1",
-        "url": "https://huggingface.co/shubhamtiwari1458/kiyooLLMOv1"
-      },
-      {
-        "title": "mattsteadman/yahoo-llm",
-        "url": "https://huggingface.co/mattsteadman/yahoo-llm"
+        "title": "UDHOV/xlm-roberta-large-nepali-hate-classification",
+        "url": "https://huggingface.co/UDHOV/xlm-roberta-large-nepali-hate-classification"
       }
     ],
     "vision_systems": [
@@ -995,10 +991,6 @@
       {
         "title": "A variational method for curve extraction with curvature-dependent energies",
         "url": "https://arxiv.org/abs/2512.01494v1"
-      },
-      {
-        "title": "leejet/Z-Image-Turbo-GGUF",
-        "url": "https://huggingface.co/leejet/Z-Image-Turbo-GGUF"
       }
     ],
     "reasoning": [
@@ -1281,10 +1273,6 @@
       {
         "title": "Cross-Domain Validation of a Resection-Trained Self-Supervised Model on Multicentre Mesothelioma Biopsies",
         "url": "https://arxiv.org/abs/2512.01681v1"
-      },
-      {
-        "title": "inferencerlabs/DeepSeek-V3.2-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V3.2-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1705,19 +1693,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1764,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 413
   }
 }
