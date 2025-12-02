@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-02T09:22:36.026275",
+  "date": "2025-12-02T10:19:13.932049",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,6 +677,10 @@
       {
         "title": "PAI-Bench: A Comprehensive Benchmark For Physical AI",
         "url": "https://arxiv.org/abs/2512.01989v1"
+      },
+      {
+        "title": "Hubert-IA/llama31-8b-Nvidia-finetuned",
+        "url": "https://huggingface.co/Hubert-IA/llama31-8b-Nvidia-finetuned"
       }
     ],
     "vision_systems": [
@@ -1689,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 413
   }
 }
