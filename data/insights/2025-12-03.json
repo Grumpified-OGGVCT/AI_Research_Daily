@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-03T20:19:27.243297",
+  "date": "2025-12-03T21:15:59.993213",
   "patterns": {
     "multimodal_research": [
       {
@@ -1183,6 +1183,10 @@
       {
         "title": "A Large Scale Benchmark for Test Time Adaptation Methods in Medical Image Segmentation",
         "url": "https://arxiv.org/abs/2512.02497v1"
+      },
+      {
+        "title": "Disty0/Z-Image-Turbo-SDNQ-uint4-svd-r32",
+        "url": "https://huggingface.co/Disty0/Z-Image-Turbo-SDNQ-uint4-svd-r32"
       }
     ],
     "reasoning": [
@@ -1519,8 +1523,12 @@
         "url": "https://arxiv.org/abs/2512.02497v1"
       },
       {
-        "title": "DevQuasar/mistralai.Ministral-3-8B-Reasoning-2512-GGUF",
-        "url": "https://huggingface.co/DevQuasar/mistralai.Ministral-3-8B-Reasoning-2512-GGUF"
+        "title": "DevQuasar/mistralai.Ministral-3-14B-Reasoning-2512-GGUF",
+        "url": "https://huggingface.co/DevQuasar/mistralai.Ministral-3-14B-Reasoning-2512-GGUF"
+      },
+      {
+        "title": "inferencerlabs/DeepSeek-V3.2-Speciale-MLX-5.5bit",
+        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V3.2-Speciale-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -2003,13 +2011,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "96 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2056,6 +2064,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 489
+    "total_papers": 491
   }
 }
