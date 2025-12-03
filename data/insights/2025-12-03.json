@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-03T14:17:46.257530",
+  "date": "2025-12-03T15:19:21.136196",
   "patterns": {
     "multimodal_research": [
       {
@@ -797,6 +797,10 @@
       {
         "title": "Attention-guided reference point shifting for Gaussian-mixture-based partial point set registration",
         "url": "https://arxiv.org/abs/2512.02496v1"
+      },
+      {
+        "title": "serhatcelik/bert-base-uncased-finetuned-mrpc-run_1",
+        "url": "https://huggingface.co/serhatcelik/bert-base-uncased-finetuned-mrpc-run_1"
       }
     ],
     "vision_systems": [
@@ -1993,7 +1997,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2052,6 +2056,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 488
+    "total_papers": 489
   }
 }
