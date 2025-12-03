@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-03T22:17:20.837629",
+  "date": "2025-12-03T23:14:19.649700",
   "patterns": {
     "multimodal_research": [
       {
@@ -799,12 +799,8 @@
         "url": "https://arxiv.org/abs/2512.02496v1"
       },
       {
-        "title": "alexxxmark05/happi-VLLM",
-        "url": "https://huggingface.co/alexxxmark05/happi-VLLM"
-      },
-      {
-        "title": "introvoyz041/Codeforce-metatune-gpt20b-q8-hi-mlx-mlx-4Bit",
-        "url": "https://huggingface.co/introvoyz041/Codeforce-metatune-gpt20b-q8-hi-mlx-mlx-4Bit"
+        "title": "HelgaKr/wav2vec2-DS-bert-spm",
+        "url": "https://huggingface.co/HelgaKr/wav2vec2-DS-bert-spm"
       }
     ],
     "vision_systems": [
@@ -1193,6 +1189,10 @@
         "url": "https://arxiv.org/abs/2512.02497v1"
       },
       {
+        "title": "sloansuperservices/Volleyvision",
+        "url": "https://huggingface.co/sloansuperservices/Volleyvision"
+      },
+      {
         "title": "huggingface/DEH-image-scan-data",
         "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
@@ -1529,10 +1529,6 @@
       {
         "title": "A Large Scale Benchmark for Test Time Adaptation Methods in Medical Image Segmentation",
         "url": "https://arxiv.org/abs/2512.02497v1"
-      },
-      {
-        "title": "inferencerlabs/DeepSeek-V3.2-Speciale-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V3.2-Speciale-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -2009,19 +2005,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "97 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2056,7 +2052,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 45,
+      "frequency": 46,
       "significance": "high"
     },
     {
@@ -2068,6 +2064,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 492
+    "total_papers": 491
   }
 }
