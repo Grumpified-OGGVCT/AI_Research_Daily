@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-03T16:23:10.041470",
+  "date": "2025-12-03T17:20:29.360856",
   "patterns": {
     "multimodal_research": [
       {
@@ -799,16 +799,8 @@
         "url": "https://arxiv.org/abs/2512.02496v1"
       },
       {
-        "title": "misrauysal/bert-base-uncased-finetuned-mrpc-run_1",
-        "url": "https://huggingface.co/misrauysal/bert-base-uncased-finetuned-mrpc-run_1"
-      },
-      {
-        "title": "emirergin16/bert-base-uncased-mrpc-best",
-        "url": "https://huggingface.co/emirergin16/bert-base-uncased-mrpc-best"
-      },
-      {
-        "title": "efekockan13/bert-base-uncased-finetuned-mrpc-run_3",
-        "url": "https://huggingface.co/efekockan13/bert-base-uncased-finetuned-mrpc-run_3"
+        "title": "YiitK/bert-mrpc-assignment-part1-final",
+        "url": "https://huggingface.co/YiitK/bert-mrpc-assignment-part1-final"
       }
     ],
     "vision_systems": [
@@ -2005,7 +1997,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "102 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2064,6 +2056,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 491
+    "total_papers": 489
   }
 }
