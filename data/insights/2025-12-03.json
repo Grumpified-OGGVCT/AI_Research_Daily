@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-03T11:16:05.613559",
+  "date": "2025-12-03T12:33:13.904077",
   "patterns": {
     "multimodal_research": [
       {
@@ -797,6 +797,10 @@
       {
         "title": "Attention-guided reference point shifting for Gaussian-mixture-based partial point set registration",
         "url": "https://arxiv.org/abs/2512.02496v1"
+      },
+      {
+        "title": "misrauysal/bert-base-uncased-finetuned-mrpc-run_1",
+        "url": "https://huggingface.co/misrauysal/bert-base-uncased-finetuned-mrpc-run_1"
       }
     ],
     "vision_systems": [
@@ -1161,6 +1165,10 @@
         "url": "https://arxiv.org/abs/2512.02651v1"
       },
       {
+        "title": "AIDC-AI/Ovis-Image-7B",
+        "url": "https://huggingface.co/AIDC-AI/Ovis-Image-7B"
+      },
+      {
         "title": "Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols",
         "url": "https://arxiv.org/abs/2512.02787v1"
       },
@@ -1183,6 +1191,10 @@
       {
         "title": "A Large Scale Benchmark for Test Time Adaptation Methods in Medical Image Segmentation",
         "url": "https://arxiv.org/abs/2512.02497v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1993,13 +2005,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "96 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2052,6 +2064,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 488
+    "total_papers": 491
   }
 }
