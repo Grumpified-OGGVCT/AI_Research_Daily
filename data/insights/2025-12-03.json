@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-03T05:16:40.225548",
+  "date": "2025-12-03T06:25:15.951023",
   "patterns": {
     "multimodal_research": [
       {
@@ -787,6 +787,10 @@
         "url": "https://arxiv.org/abs/2512.03046v1"
       },
       {
+        "title": "ganbon/novel-bert-base-relationship",
+        "url": "https://huggingface.co/ganbon/novel-bert-base-relationship"
+      },
+      {
         "title": "Diagnose, Correct, and Learn from Manipulation Failures via Visual Symbols",
         "url": "https://arxiv.org/abs/2512.02787v1"
       },
@@ -1133,7 +1137,7 @@
         "url": "https://arxiv.org/abs/2512.02846v1"
       },
       {
-        "title": "Tissue-mask supported inter-subject whole-body image registration in the UK Biobank - A method benchmarking study",
+        "title": "Tissue-mask supported inter-subject whole-body image registration in the UK Biobank -- A method benchmarking study",
         "url": "https://arxiv.org/abs/2512.02702v1"
       },
       {
@@ -1183,6 +1187,10 @@
       {
         "title": "A Large Scale Benchmark for Test Time Adaptation Methods in Medical Image Segmentation",
         "url": "https://arxiv.org/abs/2512.02497v1"
+      },
+      {
+        "title": "Quorlen/z_image_turbo_Sunbleached_Protograph_Style_Lora",
+        "url": "https://huggingface.co/Quorlen/z_image_turbo_Sunbleached_Protograph_Style_Lora"
       }
     ],
     "reasoning": [
@@ -1471,7 +1479,7 @@
         "url": "https://arxiv.org/abs/2512.02904v1"
       },
       {
-        "title": "Perception of AI-Generated Music - The Role of Composer Identity, Personality Traits, Music Preferences, and Perceived Humanness",
+        "title": "Perception of AI-Generated Music -- The Role of Composer Identity, Personality Traits, Music Preferences, and Perceived Humanness",
         "url": "https://arxiv.org/abs/2512.02785v1"
       },
       {
@@ -1885,7 +1893,7 @@
         "url": "https://arxiv.org/abs/2512.02816v1"
       },
       {
-        "title": "Perception of AI-Generated Music - The Role of Composer Identity, Personality Traits, Music Preferences, and Perceived Humanness",
+        "title": "Perception of AI-Generated Music -- The Role of Composer Identity, Personality Traits, Music Preferences, and Perceived Humanness",
         "url": "https://arxiv.org/abs/2512.02785v1"
       },
       {
@@ -1925,7 +1933,7 @@
         "url": "https://arxiv.org/abs/2512.02707v1"
       },
       {
-        "title": "Tissue-mask supported inter-subject whole-body image registration in the UK Biobank - A method benchmarking study",
+        "title": "Tissue-mask supported inter-subject whole-body image registration in the UK Biobank -- A method benchmarking study",
         "url": "https://arxiv.org/abs/2512.02702v1"
       },
       {
@@ -1993,13 +2001,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "96 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2052,6 +2060,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 488
+    "total_papers": 490
   }
 }
