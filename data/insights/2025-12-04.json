@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-04T04:27:11.781494",
+  "date": "2025-12-04T05:17:12.457400",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,8 +679,8 @@
         "url": "https://arxiv.org/abs/2512.04012v1"
       },
       {
-        "title": "HelgaKr/wav2vec2-DS-bert-spm",
-        "url": "https://huggingface.co/HelgaKr/wav2vec2-DS-bert-spm"
+        "title": "RepalleHanumansai/billing-intent-bert",
+        "url": "https://huggingface.co/RepalleHanumansai/billing-intent-bert"
       }
     ],
     "vision_systems": [
@@ -1333,10 +1333,6 @@
       {
         "title": "Cross-Stain Contrastive Learning for Paired Immunohistochemistry and Histopathology Slide Representation Learning",
         "url": "https://arxiv.org/abs/2512.03577v1"
-      },
-      {
-        "title": "ValiantLabs/Ministral-3-3B-Reasoning-2512-Esper3.1",
-        "url": "https://huggingface.co/ValiantLabs/Ministral-3-3B-Reasoning-2512-Esper3.1"
       }
     ],
     "benchmarks": [
@@ -1737,7 +1733,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1784,6 +1780,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 421
+    "total_papers": 420
   }
 }
