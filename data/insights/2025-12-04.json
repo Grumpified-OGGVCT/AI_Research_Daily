@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-04T11:16:41.785710",
+  "date": "2025-12-04T12:34:14.228551",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,6 +677,10 @@
       {
         "title": "Emergent Outlier View Rejection in Visual Geometry Grounded Transformers",
         "url": "https://arxiv.org/abs/2512.04012v1"
+      },
+      {
+        "title": "flaitenberger/gpt-oss-20b-logic-cot-finetuned",
+        "url": "https://huggingface.co/flaitenberger/gpt-oss-20b-logic-cot-finetuned"
       }
     ],
     "vision_systems": [
@@ -1331,8 +1335,8 @@
         "url": "https://arxiv.org/abs/2512.03577v1"
       },
       {
-        "title": "inferencerlabs/DeepSeek-V3.2-Speciale-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V3.2-Speciale-MLX-5.5bit"
+        "title": "flaitenberger/gpt-oss-20b-logic-cot-finetuned",
+        "url": "https://huggingface.co/flaitenberger/gpt-oss-20b-logic-cot-finetuned"
       }
     ],
     "benchmarks": [
@@ -1721,7 +1725,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1780,6 +1784,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 420
+    "total_papers": 421
   }
 }
