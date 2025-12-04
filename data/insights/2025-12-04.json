@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-04T12:34:14.228551",
+  "date": "2025-12-04T13:34:43.925994",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,8 +679,8 @@
         "url": "https://arxiv.org/abs/2512.04012v1"
       },
       {
-        "title": "flaitenberger/gpt-oss-20b-logic-cot-finetuned",
-        "url": "https://huggingface.co/flaitenberger/gpt-oss-20b-logic-cot-finetuned"
+        "title": "jvillar-sheff/ag-news-distilbert-lora",
+        "url": "https://huggingface.co/jvillar-sheff/ag-news-distilbert-lora"
       }
     ],
     "vision_systems": [
@@ -1333,10 +1333,6 @@
       {
         "title": "Cross-Stain Contrastive Learning for Paired Immunohistochemistry and Histopathology Slide Representation Learning",
         "url": "https://arxiv.org/abs/2512.03577v1"
-      },
-      {
-        "title": "flaitenberger/gpt-oss-20b-logic-cot-finetuned",
-        "url": "https://huggingface.co/flaitenberger/gpt-oss-20b-logic-cot-finetuned"
       }
     ],
     "benchmarks": [
@@ -1737,7 +1733,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1784,6 +1780,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 421
+    "total_papers": 420
   }
 }
