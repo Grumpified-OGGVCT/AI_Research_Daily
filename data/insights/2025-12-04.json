@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-04T09:35:36.026767",
+  "date": "2025-12-04T10:20:06.343402",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,6 +677,10 @@
       {
         "title": "Emergent Outlier View Rejection in Visual Geometry Grounded Transformers",
         "url": "https://arxiv.org/abs/2512.04012v1"
+      },
+      {
+        "title": "cuongdk253/gpt-oss-unsloth-ft-04122025-1",
+        "url": "https://huggingface.co/cuongdk253/gpt-oss-unsloth-ft-04122025-1"
       }
     ],
     "vision_systems": [
@@ -1329,10 +1333,6 @@
       {
         "title": "Cross-Stain Contrastive Learning for Paired Immunohistochemistry and Histopathology Slide Representation Learning",
         "url": "https://arxiv.org/abs/2512.03577v1"
-      },
-      {
-        "title": "justinj92/MediQwen-Reasoning-4B",
-        "url": "https://huggingface.co/justinj92/MediQwen-Reasoning-4B"
       }
     ],
     "benchmarks": [
@@ -1721,7 +1721,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1733,7 +1733,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
