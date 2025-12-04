@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-04T21:16:18.732370",
+  "date": "2025-12-04T22:14:59.739433",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,6 +677,10 @@
       {
         "title": "Emergent Outlier View Rejection in Visual Geometry Grounded Transformers",
         "url": "https://arxiv.org/abs/2512.04012v1"
+      },
+      {
+        "title": "Ksjsjjdj/Tiny-LLM-Zero-to-Hero-Robust",
+        "url": "https://huggingface.co/Ksjsjjdj/Tiny-LLM-Zero-to-Hero-Robust"
       }
     ],
     "vision_systems": [
@@ -1035,6 +1039,10 @@
       {
         "title": "Cross-Stain Contrastive Learning for Paired Immunohistochemistry and Histopathology Slide Representation Learning",
         "url": "https://arxiv.org/abs/2512.03577v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1717,13 +1725,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "89 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1776,6 +1784,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 419
+    "total_papers": 421
   }
 }
