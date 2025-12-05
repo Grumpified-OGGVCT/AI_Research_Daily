@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-05T12:32:07.837790",
+  "date": "2025-12-05T13:30:25.293729",
   "patterns": {
     "multimodal_research": [
       {
@@ -1015,10 +1015,6 @@
       {
         "title": "image-ssl/vit-s8-lowdim-L6-Lcrop-Gcrop_new",
         "url": "https://huggingface.co/image-ssl/vit-s8-lowdim-L6-Lcrop-Gcrop_new"
-      },
-      {
-        "title": "image-ssl/vit-s8-lowdim-L4-Lcrop-Gcrop_new",
-        "url": "https://huggingface.co/image-ssl/vit-s8-lowdim-L4-Lcrop-Gcrop_new"
       }
     ],
     "reasoning": [
@@ -1707,7 +1703,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1760,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 414
   }
 }
