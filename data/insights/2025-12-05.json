@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-05T06:25:03.853011",
+  "date": "2025-12-05T07:18:43.198486",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,6 +677,10 @@
       {
         "title": "Deep Forcing: Training-Free Long Video Generation with Deep Sink and Participative Compression",
         "url": "https://arxiv.org/abs/2512.05081v1"
+      },
+      {
+        "title": "Ksjsjjdj/Tiny-LLM-Zero-to-Hero-Spaces-Ultimate",
+        "url": "https://huggingface.co/Ksjsjjdj/Tiny-LLM-Zero-to-Hero-Spaces-Ultimate"
       }
     ],
     "vision_systems": [
@@ -1001,7 +1005,7 @@
         "url": "https://arxiv.org/abs/2512.04568v1"
       },
       {
-        "title": "Dataset creation for supervised deep learning-based analysis of microscopic images - review of important considerations and recommendations",
+        "title": "Dataset creation for supervised deep learning-based analysis of microscopic images -- review of important considerations and recommendations",
         "url": "https://arxiv.org/abs/2512.04564v1"
       },
       {
@@ -1291,8 +1295,8 @@
         "url": "https://arxiv.org/abs/2512.04705v1"
       },
       {
-        "title": "justinj92/MediQwen-Reasoning-4B",
-        "url": "https://huggingface.co/justinj92/MediQwen-Reasoning-4B"
+        "title": "inferencerlabs/DeepSeek-V3.2-MLX-4.8bit",
+        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V3.2-MLX-4.8bit"
       }
     ],
     "benchmarks": [
@@ -1697,7 +1701,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1749,13 +1753,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 35,
+      "frequency": 34,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 415
   }
 }
