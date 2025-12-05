@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-05T17:16:30.781799",
+  "date": "2025-12-05T18:21:27.800319",
   "patterns": {
     "multimodal_research": [
       {
@@ -1011,6 +1011,10 @@
       {
         "title": "Stable Single-Pixel Contrastive Learning for Semantic and Geometric Tasks",
         "url": "https://arxiv.org/abs/2512.04970v1"
+      },
+      {
+        "title": "image-ssl/vit-s8-lowdim-L6-Lcrop-Gcrop_new",
+        "url": "https://huggingface.co/image-ssl/vit-s8-lowdim-L6-Lcrop-Gcrop_new"
       }
     ],
     "reasoning": [
@@ -1289,6 +1293,10 @@
       {
         "title": "Hardware-aware Neural Architecture Search of Early Exiting Networks on Edge Accelerators",
         "url": "https://arxiv.org/abs/2512.04705v1"
+      },
+      {
+        "title": "inference-optimization/Qwen3-4B-Thinking-2507.w4a16",
+        "url": "https://huggingface.co/inference-optimization/Qwen3-4B-Thinking-2507.w4a16"
       }
     ],
     "benchmarks": [
@@ -1699,13 +1707,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1752,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 415
   }
 }
