@@ -1,33 +1,11 @@
 {
-  "date": "2025-12-07T17:13:37.144425",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "pruizf/flaubert_base_cased__ft-AS13_stgdir-100",
-        "url": "https://huggingface.co/pruizf/flaubert_base_cased__ft-AS13_stgdir-100"
-      },
-      {
-        "title": "malakyz/gpt2-wikitext2",
-        "url": "https://huggingface.co/malakyz/gpt2-wikitext2"
-      },
-      {
-        "title": "SlingshotLLM/jailbreak-qwen-7b-sft",
-        "url": "https://huggingface.co/SlingshotLLM/jailbreak-qwen-7b-sft"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2025-12-07T18:21:07.384594",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
