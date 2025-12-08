@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-08T04:30:44.753760",
+  "date": "2025-12-08T05:19:09.460414",
   "patterns": {
     "language_models": [
       {
@@ -7,16 +7,27 @@
         "url": "https://huggingface.co/Ksjsjjdj/Tiny-LLM-B"
       },
       {
-        "title": "VTKK/Doc-BERT",
-        "url": "https://huggingface.co/VTKK/Doc-BERT"
+        "title": "sameearif/bert-large-csb",
+        "url": "https://huggingface.co/sameearif/bert-large-csb"
+      },
+      {
+        "title": "Kerwin0113/GSW-WenyanGPT-20251207-0754-LoRA",
+        "url": "https://huggingface.co/Kerwin0113/GSW-WenyanGPT-20251207-0754-LoRA"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
