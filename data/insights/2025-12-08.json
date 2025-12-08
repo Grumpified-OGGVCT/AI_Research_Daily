@@ -1,11 +1,32 @@
 {
-  "date": "2025-12-08T21:14:53.575263",
-  "patterns": {},
+  "date": "2025-12-08T22:16:01.510490",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Ksjsjjdj/Tiny-LLM-Z-V6",
+        "url": "https://huggingface.co/Ksjsjjdj/Tiny-LLM-Z-V6"
+      },
+      {
+        "title": "KuzeyMentese/stylebkd-generated-twitter-roberta-kuzey-berk",
+        "url": "https://huggingface.co/KuzeyMentese/stylebkd-generated-twitter-roberta-kuzey-berk"
+      }
+    ],
+    "vision_systems": [
+      {
+        "title": "anjaneyasharma/GeoOSSVision-VRS-LoRA-Optimized",
+        "url": "https://huggingface.co/anjaneyasharma/GeoOSSVision-VRS-LoRA-Optimized"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 2,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 4
   }
 }
