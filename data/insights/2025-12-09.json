@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-09T11:16:22.742381",
+  "date": "2025-12-09T12:32:57.281630",
   "patterns": {
     "multimodal_research": [
       {
@@ -683,8 +683,8 @@
         "url": "https://arxiv.org/abs/2512.07331v1"
       },
       {
-        "title": "sandeshrajx/gpt-oss-20b-reap-0.4-bf16-Q4_K_M-GGUF",
-        "url": "https://huggingface.co/sandeshrajx/gpt-oss-20b-reap-0.4-bf16-Q4_K_M-GGUF"
+        "title": "Jobfromearth/MobileLLM-60M-Finetuned-Final-new",
+        "url": "https://huggingface.co/Jobfromearth/MobileLLM-60M-Finetuned-Final-new"
       }
     ],
     "vision_systems": [
@@ -1599,6 +1599,10 @@
       {
         "title": "UnCageNet: Tracking and Pose Estimation of Caged Animal",
         "url": "https://arxiv.org/abs/2512.07712v1"
+      },
+      {
+        "title": "SOTAMak1r/VINO-weight-backup",
+        "url": "https://huggingface.co/SOTAMak1r/VINO-weight-backup"
       }
     ]
   },
@@ -1653,7 +1657,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "98 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1688,6 +1692,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 397
+    "total_papers": 398
   }
 }
