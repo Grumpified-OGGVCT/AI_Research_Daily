@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-09T12:32:57.281630",
+  "date": "2025-12-09T13:33:46.232618",
   "patterns": {
     "multimodal_research": [
       {
@@ -681,10 +681,6 @@
       {
         "title": "The Inductive Bottleneck: Data-Driven Emergence of Representational Sparsity in Vision Transformers",
         "url": "https://arxiv.org/abs/2512.07331v1"
-      },
-      {
-        "title": "Jobfromearth/MobileLLM-60M-Finetuned-Final-new",
-        "url": "https://huggingface.co/Jobfromearth/MobileLLM-60M-Finetuned-Final-new"
       }
     ],
     "vision_systems": [
@@ -1599,10 +1595,6 @@
       {
         "title": "UnCageNet: Tracking and Pose Estimation of Caged Animal",
         "url": "https://arxiv.org/abs/2512.07712v1"
-      },
-      {
-        "title": "SOTAMak1r/VINO-weight-backup",
-        "url": "https://huggingface.co/SOTAMak1r/VINO-weight-backup"
       }
     ]
   },
@@ -1633,7 +1625,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1657,7 +1649,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "99 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1692,6 +1684,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 398
+    "total_papers": 396
   }
 }
