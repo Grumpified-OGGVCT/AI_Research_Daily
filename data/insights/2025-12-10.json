@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-10T15:20:20.345256",
+  "date": "2025-12-10T16:23:15.915554",
   "patterns": {
     "multimodal_research": [
       {
@@ -1241,6 +1241,10 @@
       {
         "title": "MVP: Multiple View Prediction Improves GUI Grounding",
         "url": "https://arxiv.org/abs/2512.08529v1"
+      },
+      {
+        "title": "inferencerlabs/Devstral-2-123B-Instruct-2512-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Devstral-2-123B-Instruct-2512-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1669,7 +1673,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 405
   }
 }
