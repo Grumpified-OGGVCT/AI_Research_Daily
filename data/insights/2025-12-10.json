@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-10T16:23:15.915554",
+  "date": "2025-12-10T17:19:30.611070",
   "patterns": {
     "multimodal_research": [
       {
@@ -623,12 +623,20 @@
         "url": "https://arxiv.org/abs/2512.08404v1"
       },
       {
+        "title": "ratnesh07/fake-news-detection-distilbert-v1",
+        "url": "https://huggingface.co/ratnesh07/fake-news-detection-distilbert-v1"
+      },
+      {
         "title": "OpenSubject: Leveraging Video-Derived Identity and Diversity Priors for Subject-driven Image Generation and Manipulation",
         "url": "https://arxiv.org/abs/2512.08294v1"
       },
       {
         "title": "The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss",
         "url": "https://arxiv.org/abs/2512.08374v1"
+      },
+      {
+        "title": "siddharthgowda/COMS4705-roberta-tweet-virality-head-only-vfinal-last-minuete",
+        "url": "https://huggingface.co/siddharthgowda/COMS4705-roberta-tweet-virality-head-only-vfinal-last-minuete"
       }
     ],
     "vision_systems": [
@@ -1661,7 +1669,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 407
   }
 }
