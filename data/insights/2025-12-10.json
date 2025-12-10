@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-10T19:15:40.448981",
+  "date": "2025-12-10T20:20:05.464048",
   "patterns": {
     "multimodal_research": [
       {
@@ -109,6 +109,10 @@
       {
         "title": "RLCNet: An end-to-end deep learning framework for simultaneous online calibration of LiDAR, RADAR, and Camera",
         "url": "https://arxiv.org/abs/2512.08262v1"
+      },
+      {
+        "title": "microsoft/Phi-4-multimodal-instruct",
+        "url": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct"
       },
       {
         "title": "OpenSubject: Leveraging Video-Derived Identity and Diversity Priors for Subject-driven Image Generation and Manipulation",
@@ -629,6 +633,10 @@
       {
         "title": "The Unseen Bias: How Norm Discrepancy in Pre-Norm MLLMs Leads to Visual Information Loss",
         "url": "https://arxiv.org/abs/2512.08374v1"
+      },
+      {
+        "title": "rishabhrj11/distillspec-smollm-cnn-rkl",
+        "url": "https://huggingface.co/rishabhrj11/distillspec-smollm-cnn-rkl"
       }
     ],
     "vision_systems": [
@@ -1241,14 +1249,6 @@
       {
         "title": "MVP: Multiple View Prediction Improves GUI Grounding",
         "url": "https://arxiv.org/abs/2512.08529v1"
-      },
-      {
-        "title": "inferencerlabs/Devstral-2-123B-Instruct-2512-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/Devstral-2-123B-Instruct-2512-MLX-6.5bit"
-      },
-      {
-        "title": "leonsarmiento/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-8bit-mlx",
-        "url": "https://huggingface.co/leonsarmiento/Qwen3-14B-Claude-4.5-Opus-High-Reasoning-Distill-8bit-mlx"
       }
     ],
     "benchmarks": [
@@ -1641,7 +1641,7 @@
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "30 independent papers",
+      "observation": "31 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1665,7 +1665,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1677,7 +1677,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
