@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-11T20:20:10.044454",
+  "date": "2025-12-11T21:18:31.597953",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,8 +639,8 @@
         "url": "https://arxiv.org/abs/2512.09573v1"
       },
       {
-        "title": "mesutd/gpt2-turkce-v2-alisveris-botu",
-        "url": "https://huggingface.co/mesutd/gpt2-turkce-v2-alisveris-botu"
+        "title": "pmistryds/Maya-LLM-v1.0-bm",
+        "url": "https://huggingface.co/pmistryds/Maya-LLM-v1.0-bm"
       }
     ],
     "vision_systems": [
@@ -1213,6 +1213,18 @@
       {
         "title": "Investigate the Low-level Visual Perception in Vision-Language based Image Quality Assessment",
         "url": "https://arxiv.org/abs/2512.09573v1"
+      },
+      {
+        "title": "alexgusevski/Ministral-3-3B-Reasoning-2512-mlx",
+        "url": "https://huggingface.co/alexgusevski/Ministral-3-3B-Reasoning-2512-mlx"
+      },
+      {
+        "title": "alexgusevski/Ministral-3-3B-Reasoning-2512-q8-mlx",
+        "url": "https://huggingface.co/alexgusevski/Ministral-3-3B-Reasoning-2512-q8-mlx"
+      },
+      {
+        "title": "alexgusevski/Ministral-3-3B-Reasoning-2512-q6-mlx",
+        "url": "https://huggingface.co/alexgusevski/Ministral-3-3B-Reasoning-2512-q6-mlx"
       }
     ],
     "benchmarks": [
@@ -1685,7 +1697,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "59 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 411
   }
 }
