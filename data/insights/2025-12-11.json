@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-11T15:20:13.369102",
+  "date": "2025-12-11T16:23:53.847998",
   "patterns": {
     "multimodal_research": [
       {
@@ -637,6 +637,14 @@
       {
         "title": "Investigate the Low-level Visual Perception in Vision-Language based Image Quality Assessment",
         "url": "https://arxiv.org/abs/2512.09573v1"
+      },
+      {
+        "title": "nvibhu/bert-qa-finetuned",
+        "url": "https://huggingface.co/nvibhu/bert-qa-finetuned"
+      },
+      {
+        "title": "Darkdev007/bert-finetuned-squad",
+        "url": "https://huggingface.co/Darkdev007/bert-finetuned-squad"
       }
     ],
     "vision_systems": [
@@ -779,10 +787,6 @@
       {
         "title": "Temporal-Spatial Tubelet Embedding for Cloud-Robust MSI Reconstruction using MSI-SAR Fusion: A Multi-Head Self-Attention Video Vision Transformer Approach",
         "url": "https://arxiv.org/abs/2512.09471v1"
-      },
-      {
-        "title": "huggingface/documentation-images",
-        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "Visual Heading Prediction for Autonomous Aerial Vehicles",
@@ -975,6 +979,10 @@
       {
         "title": "A Dual-Domain Convolutional Network for Hyperspectral Single-Image Super-Resolution",
         "url": "https://arxiv.org/abs/2512.09546v1"
+      },
+      {
+        "title": "tsqn/Z-Image-Turbo_fp32-fp16-bf16_comfyui",
+        "url": "https://huggingface.co/tsqn/Z-Image-Turbo_fp32-fp16-bf16_comfyui"
       }
     ],
     "reasoning": [
@@ -1673,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 410
   }
 }
