@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-11T10:19:27.246920",
+  "date": "2025-12-11T11:16:16.782763",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,20 +639,24 @@
         "url": "https://arxiv.org/abs/2512.09573v1"
       },
       {
-        "title": "jrawa/fake-distilbert-3class",
-        "url": "https://huggingface.co/jrawa/fake-distilbert-3class"
+        "title": "MoNafea01/saudi-eou-bert-classifier",
+        "url": "https://huggingface.co/MoNafea01/saudi-eou-bert-classifier"
       },
       {
-        "title": "nn-tech/MetalGPT-1-AWQ",
-        "url": "https://huggingface.co/nn-tech/MetalGPT-1-AWQ"
+        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-PersianQuAD-3epochs",
+        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-PersianQuAD-3epochs"
       },
       {
-        "title": "JUDONGHYEOK/6-emotion-bert-korean-v3",
-        "url": "https://huggingface.co/JUDONGHYEOK/6-emotion-bert-korean-v3"
+        "title": "leeminhduc2/deberta-v3-large-finetuned-answer_relevance_judge",
+        "url": "https://huggingface.co/leeminhduc2/deberta-v3-large-finetuned-answer_relevance_judge"
       },
       {
-        "title": "JstnMcBrd/gpt-neo-125m-finetuned-python-purpose",
-        "url": "https://huggingface.co/JstnMcBrd/gpt-neo-125m-finetuned-python-purpose"
+        "title": "yuxuezhang/distilbert-base-uncased-finetuned-squad-d5716d28",
+        "url": "https://huggingface.co/yuxuezhang/distilbert-base-uncased-finetuned-squad-d5716d28"
+      },
+      {
+        "title": "LLM-CLEM/Nelya-neko",
+        "url": "https://huggingface.co/LLM-CLEM/Nelya-neko"
       }
     ],
     "vision_systems": [
@@ -1685,7 +1689,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 412
   }
 }
