@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-11T21:18:31.597953",
+  "date": "2025-12-11T22:16:45.391141",
   "patterns": {
     "multimodal_research": [
       {
@@ -637,10 +637,6 @@
       {
         "title": "Investigate the Low-level Visual Perception in Vision-Language based Image Quality Assessment",
         "url": "https://arxiv.org/abs/2512.09573v1"
-      },
-      {
-        "title": "pmistryds/Maya-LLM-v1.0-bm",
-        "url": "https://huggingface.co/pmistryds/Maya-LLM-v1.0-bm"
       }
     ],
     "vision_systems": [
@@ -975,6 +971,10 @@
       {
         "title": "A Dual-Domain Convolutional Network for Hyperspectral Single-Image Super-Resolution",
         "url": "https://arxiv.org/abs/2512.09546v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1213,18 +1213,6 @@
       {
         "title": "Investigate the Low-level Visual Perception in Vision-Language based Image Quality Assessment",
         "url": "https://arxiv.org/abs/2512.09573v1"
-      },
-      {
-        "title": "alexgusevski/Ministral-3-3B-Reasoning-2512-mlx",
-        "url": "https://huggingface.co/alexgusevski/Ministral-3-3B-Reasoning-2512-mlx"
-      },
-      {
-        "title": "alexgusevski/Ministral-3-3B-Reasoning-2512-q8-mlx",
-        "url": "https://huggingface.co/alexgusevski/Ministral-3-3B-Reasoning-2512-q8-mlx"
-      },
-      {
-        "title": "alexgusevski/Ministral-3-3B-Reasoning-2512-q6-mlx",
-        "url": "https://huggingface.co/alexgusevski/Ministral-3-3B-Reasoning-2512-q6-mlx"
       }
     ],
     "benchmarks": [
@@ -1685,19 +1673,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "62 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 408
   }
 }
