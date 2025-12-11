@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-11T07:21:44.279726",
+  "date": "2025-12-11T08:24:05.700904",
   "patterns": {
     "multimodal_research": [
       {
@@ -637,14 +637,6 @@
       {
         "title": "Investigate the Low-level Visual Perception in Vision-Language based Image Quality Assessment",
         "url": "https://arxiv.org/abs/2512.09573v1"
-      },
-      {
-        "title": "DavidAU/Qwen3-48B-A4B-Deadpan-Savant-Distill-GPT5.1-GPT120B-Gemini3-Claude4.5-KimiK2-GLM4.6-OpnR1-CmmA",
-        "url": "https://huggingface.co/DavidAU/Qwen3-48B-A4B-Deadpan-Savant-Distill-GPT5.1-GPT120B-Gemini3-Claude4.5-KimiK2-GLM4.6-OpnR1-CmmA"
-      },
-      {
-        "title": "JstnMcBrd/gpt2-finetuned-python-purpose",
-        "url": "https://huggingface.co/JstnMcBrd/gpt2-finetuned-python-purpose"
       }
     ],
     "vision_systems": [
@@ -1677,7 +1669,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 407
   }
 }
