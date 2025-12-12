@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-12T20:18:17.511042",
+  "date": "2025-12-12T21:15:29.279266",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,8 +727,12 @@
         "url": "https://arxiv.org/abs/2512.10939v1"
       },
       {
-        "title": "Roman190928/MicroGPT",
-        "url": "https://huggingface.co/Roman190928/MicroGPT"
+        "title": "LVGP/sft_model_gpt2",
+        "url": "https://huggingface.co/LVGP/sft_model_gpt2"
+      },
+      {
+        "title": "nvidia/gpt-oss-120b-Eagle3-long-context",
+        "url": "https://huggingface.co/nvidia/gpt-oss-120b-Eagle3-long-context"
       }
     ],
     "vision_systems": [
@@ -1809,7 +1813,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1868,6 +1872,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 442
+    "total_papers": 443
   }
 }
