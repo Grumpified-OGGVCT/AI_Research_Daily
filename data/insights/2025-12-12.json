@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-12T07:21:00.405262",
+  "date": "2025-12-12T08:23:24.359383",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,8 +731,12 @@
         "url": "https://arxiv.org/abs/2512.10939v1"
       },
       {
-        "title": "NuisanceValue/MetalGPT-1-GGUF",
-        "url": "https://huggingface.co/NuisanceValue/MetalGPT-1-GGUF"
+        "title": "Mingjj/youtube_comment_sentiment_kcbert_finetune",
+        "url": "https://huggingface.co/Mingjj/youtube_comment_sentiment_kcbert_finetune"
+      },
+      {
+        "title": "ksryong0/youtube_comment_sentiment_kcbert_finetune",
+        "url": "https://huggingface.co/ksryong0/youtube_comment_sentiment_kcbert_finetune"
       }
     ],
     "vision_systems": [
@@ -1817,7 +1821,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1876,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 444
+    "total_papers": 445
   }
 }
