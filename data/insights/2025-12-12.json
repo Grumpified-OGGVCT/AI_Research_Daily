@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-12T03:20:30.841427",
+  "date": "2025-12-12T04:31:10.346528",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,8 +731,8 @@
         "url": "https://arxiv.org/abs/2512.10939v1"
       },
       {
-        "title": "mangmuse/yelp-distilbert-demo",
-        "url": "https://huggingface.co/mangmuse/yelp-distilbert-demo"
+        "title": "avatargrim/typhoon2.5_Pyuit_gpt_test2",
+        "url": "https://huggingface.co/avatargrim/typhoon2.5_Pyuit_gpt_test2"
       }
     ],
     "vision_systems": [
@@ -1071,6 +1071,10 @@
       {
         "title": "CheXmask-U: Quantifying uncertainty in landmark-based anatomical segmentation for X-ray images",
         "url": "https://arxiv.org/abs/2512.10715v1"
+      },
+      {
+        "title": "tsqn/Z-Image-Turbo_fp8_comfyui",
+        "url": "https://huggingface.co/tsqn/Z-Image-Turbo_fp8_comfyui"
       }
     ],
     "reasoning": [
@@ -1823,7 +1827,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1876,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 444
+    "total_papers": 445
   }
 }
