@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-12T16:20:01.483395",
+  "date": "2025-12-12T17:16:15.956531",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,16 +731,8 @@
         "url": "https://arxiv.org/abs/2512.10939v1"
       },
       {
-        "title": "pdjohn/EuroBERT-610m-term-sense",
-        "url": "https://huggingface.co/pdjohn/EuroBERT-610m-term-sense"
-      },
-      {
-        "title": "zileaner/GPTCKR4",
-        "url": "https://huggingface.co/zileaner/GPTCKR4"
-      },
-      {
-        "title": "osamaahmad67/my-finetuned-bert",
-        "url": "https://huggingface.co/osamaahmad67/my-finetuned-bert"
+        "title": "Z-Jafari/bert-fa-base-uncased-finetuned-PersianQuAD-finetuned-pquad-3epochs",
+        "url": "https://huggingface.co/Z-Jafari/bert-fa-base-uncased-finetuned-PersianQuAD-finetuned-pquad-3epochs"
       }
     ],
     "vision_systems": [
@@ -1825,7 +1817,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1884,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 446
+    "total_papers": 444
   }
 }
