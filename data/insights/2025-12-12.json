@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-12T18:25:16.530577",
+  "date": "2025-12-12T19:15:28.640404",
   "patterns": {
     "multimodal_research": [
       {
@@ -279,10 +279,6 @@
       {
         "title": "GPG: Generalized Policy Gradient Theorem for Transformer-based Policies",
         "url": "https://arxiv.org/abs/2512.10365v1"
-      },
-      {
-        "title": "Point to Span: Zero-Shot Moment Retrieval for Navigating Unseen Hour-Long Videos",
-        "url": "https://arxiv.org/abs/2512.10363v1"
       },
       {
         "title": "Error-Propagation-Free Learned Video Compression With Dual-Domain Progressive Temporal Alignment",
@@ -731,8 +727,8 @@
         "url": "https://arxiv.org/abs/2512.10939v1"
       },
       {
-        "title": "Hai929/the_GuageLLM_7M",
-        "url": "https://huggingface.co/Hai929/the_GuageLLM_7M"
+        "title": "PuristanLabs1/urdu-turn-detection-distilbert",
+        "url": "https://huggingface.co/PuristanLabs1/urdu-turn-detection-distilbert"
       }
     ],
     "vision_systems": [
@@ -1573,10 +1569,6 @@
         "url": "https://arxiv.org/abs/2512.10379v1"
       },
       {
-        "title": "Point to Span: Zero-Shot Moment Retrieval for Navigating Unseen Hour-Long Videos",
-        "url": "https://arxiv.org/abs/2512.10363v1"
-      },
-      {
         "title": "MeViS: A Multi-Modal Dataset for Referring Motion Expression Video Segmentation",
         "url": "https://arxiv.org/abs/2512.10945v1"
       },
@@ -1805,7 +1797,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "60 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1841,7 +1833,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "111 independent papers",
+      "observation": "110 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1876,6 +1868,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 444
+    "total_papers": 442
   }
 }
