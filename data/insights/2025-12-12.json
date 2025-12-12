@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-12T15:18:31.609467",
+  "date": "2025-12-12T16:20:01.483395",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,12 +731,16 @@
         "url": "https://arxiv.org/abs/2512.10939v1"
       },
       {
-        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-PersianQuAD-finetuned-Gemma3_PersianQuAD_QA-3epochs",
-        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-PersianQuAD-finetuned-Gemma3_PersianQuAD_QA-3epochs"
+        "title": "pdjohn/EuroBERT-610m-term-sense",
+        "url": "https://huggingface.co/pdjohn/EuroBERT-610m-term-sense"
       },
       {
-        "title": "leeminhduc2/deberta-v3-large-finetuned-answer_relevance_judge_fever",
-        "url": "https://huggingface.co/leeminhduc2/deberta-v3-large-finetuned-answer_relevance_judge_fever"
+        "title": "zileaner/GPTCKR4",
+        "url": "https://huggingface.co/zileaner/GPTCKR4"
+      },
+      {
+        "title": "osamaahmad67/my-finetuned-bert",
+        "url": "https://huggingface.co/osamaahmad67/my-finetuned-bert"
       }
     ],
     "vision_systems": [
@@ -1821,7 +1825,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1880,6 +1884,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 446
   }
 }
