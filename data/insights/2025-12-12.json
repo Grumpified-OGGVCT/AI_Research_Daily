@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-12T04:31:10.346528",
+  "date": "2025-12-12T05:18:48.863468",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,8 +731,16 @@
         "url": "https://arxiv.org/abs/2512.10939v1"
       },
       {
-        "title": "avatargrim/typhoon2.5_Pyuit_gpt_test2",
-        "url": "https://huggingface.co/avatargrim/typhoon2.5_Pyuit_gpt_test2"
+        "title": "Shoriful025/Healthcare-Readmission-RiskGPT",
+        "url": "https://huggingface.co/Shoriful025/Healthcare-Readmission-RiskGPT"
+      },
+      {
+        "title": "HuggingFaceAlbert/Qwen3-1.7B-grpo-1765505298",
+        "url": "https://huggingface.co/HuggingFaceAlbert/Qwen3-1.7B-grpo-1765505298"
+      },
+      {
+        "title": "yeisonr/gpt-oss-120b-mlx-3Bit",
+        "url": "https://huggingface.co/yeisonr/gpt-oss-120b-mlx-3Bit"
       }
     ],
     "vision_systems": [
@@ -1073,8 +1081,8 @@
         "url": "https://arxiv.org/abs/2512.10715v1"
       },
       {
-        "title": "tsqn/Z-Image-Turbo_fp8_comfyui",
-        "url": "https://huggingface.co/tsqn/Z-Image-Turbo_fp8_comfyui"
+        "title": "bryanbblewis11/z-image-turbo-4bit",
+        "url": "https://huggingface.co/bryanbblewis11/z-image-turbo-4bit"
       }
     ],
     "reasoning": [
@@ -1821,7 +1829,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1880,6 +1888,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 447
   }
 }
