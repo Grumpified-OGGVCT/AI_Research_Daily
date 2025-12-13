@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-13T20:16:53.721814",
+  "date": "2025-12-13T21:14:15.035641",
   "patterns": {
     "multimodal_research": [
       {
@@ -725,6 +725,10 @@
       {
         "title": "GaussianHeadTalk: Wobble-Free 3D Talking Heads with Audio Driven Gaussian Splatting",
         "url": "https://arxiv.org/abs/2512.10939v1"
+      },
+      {
+        "title": "ABCBABC/Distilbert-base-emotion",
+        "url": "https://huggingface.co/ABCBABC/Distilbert-base-emotion"
       }
     ],
     "vision_systems": [
@@ -1063,6 +1067,14 @@
       {
         "title": "CheXmask-U: Quantifying uncertainty in landmark-based anatomical segmentation for X-ray images",
         "url": "https://arxiv.org/abs/2512.10715v1"
+      },
+      {
+        "title": "mudler/qwen-image-lora-dechirico",
+        "url": "https://huggingface.co/mudler/qwen-image-lora-dechirico"
+      },
+      {
+        "title": "jaahas/laavu-z-image-lora",
+        "url": "https://huggingface.co/jaahas/laavu-z-image-lora"
       }
     ],
     "reasoning": [
@@ -1805,13 +1817,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "84 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1864,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 441
+    "total_papers": 444
   }
 }
