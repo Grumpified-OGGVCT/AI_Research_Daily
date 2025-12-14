@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-14T09:16:12.534924",
-  "patterns": {},
+  "date": "2025-12-14T10:16:11.192848",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "karashiiro/gpt-oss-20b-uwufied-v2",
+        "url": "https://huggingface.co/karashiiro/gpt-oss-20b-uwufied-v2"
+      },
+      {
+        "title": "Pujitha30/distil-bert-base_finetuned_27k_entity",
+        "url": "https://huggingface.co/Pujitha30/distil-bert-base_finetuned_27k_entity"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
