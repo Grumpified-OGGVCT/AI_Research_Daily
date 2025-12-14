@@ -1,41 +1,37 @@
 {
-  "date": "2025-12-14T17:14:22.008655",
+  "date": "2025-12-14T18:22:32.782733",
   "patterns": {
     "language_models": [
       {
-        "title": "TeichAI/Qwen3-14B-GPT-5.2-High-Reasoning-Distill",
-        "url": "https://huggingface.co/TeichAI/Qwen3-14B-GPT-5.2-High-Reasoning-Distill"
+        "title": "Z-Jafari/roberta-fa-zwnj-base-finetuned-Gemma3_QA",
+        "url": "https://huggingface.co/Z-Jafari/roberta-fa-zwnj-base-finetuned-Gemma3_QA"
       },
       {
         "title": "syp1229/roberta_fine_simile",
         "url": "https://huggingface.co/syp1229/roberta_fine_simile"
       },
       {
-        "title": "nn-tech/MetalGPT-1-FP8",
-        "url": "https://huggingface.co/nn-tech/MetalGPT-1-FP8"
+        "title": "Z-Jafari/roberta-fa-zwnj-base-finetuned-DS_Q_N_C_QA",
+        "url": "https://huggingface.co/Z-Jafari/roberta-fa-zwnj-base-finetuned-DS_Q_N_C_QA"
       },
       {
-        "title": "loboGOAT/MiniGPT-v1.0-10M-BrazilianPortuguese",
-        "url": "https://huggingface.co/loboGOAT/MiniGPT-v1.0-10M-BrazilianPortuguese"
-      },
-      {
-        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-DS_Q_QA",
-        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-DS_Q_QA"
+        "title": "lygonzal/clasificador-mundocine-robertuito",
+        "url": "https://huggingface.co/lygonzal/clasificador-mundocine-robertuito"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "5 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 5
+    "total_papers": 4
   }
 }
