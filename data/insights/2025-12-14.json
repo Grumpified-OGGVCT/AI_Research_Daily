@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-14T15:15:37.837784",
-  "patterns": {},
+  "date": "2025-12-14T16:18:48.947459",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "syp1229/roberta_fine_simile",
+        "url": "https://huggingface.co/syp1229/roberta_fine_simile"
+      },
+      {
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-DS_QA",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-DS_QA"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
