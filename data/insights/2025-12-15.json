@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-15T14:23:05.996967",
-  "patterns": {},
+  "date": "2025-12-15T15:21:30.959986",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "santoshlgiri/distilbert-ag-news-finetuned",
+        "url": "https://huggingface.co/santoshlgiri/distilbert-ag-news-finetuned"
+      },
+      {
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-DS_QA-1",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-DS_QA-1"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
