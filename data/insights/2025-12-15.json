@@ -1,22 +1,33 @@
 {
-  "date": "2025-12-15T15:21:30.959986",
+  "date": "2025-12-15T16:23:56.200744",
   "patterns": {
     "language_models": [
       {
-        "title": "santoshlgiri/distilbert-ag-news-finetuned",
-        "url": "https://huggingface.co/santoshlgiri/distilbert-ag-news-finetuned"
+        "title": "amaury-delille/phogpt-0.13b",
+        "url": "https://huggingface.co/amaury-delille/phogpt-0.13b"
       },
       {
-        "title": "Z-Jafari/xlm-roberta-base-finetuned-DS_QA-1",
-        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-DS_QA-1"
+        "title": "zhuojing-huang/gpt2-german-english-configC-3k-1",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-german-english-configC-3k-1"
+      },
+      {
+        "title": "FunAudioLLM/Fun-ASR-Nano-2512",
+        "url": "https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-2512"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
