@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-15T04:36:58.575569",
-  "patterns": {},
+  "date": "2025-12-15T05:22:18.779583",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Marshahaha/DeBERTa_finetuned_for_AML",
+        "url": "https://huggingface.co/Marshahaha/DeBERTa_finetuned_for_AML"
+      },
+      {
+        "title": "karashiiro/gpt-oss-20b-uwufied-v2",
+        "url": "https://huggingface.co/karashiiro/gpt-oss-20b-uwufied-v2"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
