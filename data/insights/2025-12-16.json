@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T14:20:42.739855",
+  "date": "2025-12-16T15:20:13.993708",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,14 +633,6 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
-      },
-      {
-        "title": "a-surya/qwen-2.5-7B-instruct-vllm",
-        "url": "https://huggingface.co/a-surya/qwen-2.5-7B-instruct-vllm"
-      },
-      {
-        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-IR_sum_QA-topAug.8",
-        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-IR_sum_QA-topAug.8"
       }
     ],
     "vision_systems": [
@@ -1197,10 +1189,6 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
-      },
-      {
-        "title": "McG-221/command-a-reasoning-08-2025-bf16-mlx-3Bit",
-        "url": "https://huggingface.co/McG-221/command-a-reasoning-08-2025-bf16-mlx-3Bit"
       }
     ],
     "benchmarks": [
@@ -1669,7 +1657,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1681,7 +1669,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,7 +1704,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 35,
+      "frequency": 34,
       "significance": "high"
     },
     {
@@ -1728,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 404
   }
 }
