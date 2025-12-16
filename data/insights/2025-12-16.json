@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T08:24:30.433877",
+  "date": "2025-12-16T09:23:23.291909",
   "patterns": {
     "multimodal_research": [
       {
@@ -315,10 +315,6 @@
       {
         "title": "StarryGazer: Leveraging Monocular Depth Estimation Models for Domain-Agnostic Single Depth Image Completion",
         "url": "https://arxiv.org/abs/2512.13147v1"
-      },
-      {
-        "title": "Ziadmoelsayed/qwen2.5-dr-assistant-gguf",
-        "url": "https://huggingface.co/Ziadmoelsayed/qwen2.5-dr-assistant-gguf"
       }
     ],
     "language_models": [
@@ -639,12 +635,8 @@
         "url": "https://arxiv.org/abs/2512.13507v1"
       },
       {
-        "title": "saiteki-kai/QA-DeBERTa-v3-large-bidirectional_qa_cross_attn-binary",
-        "url": "https://huggingface.co/saiteki-kai/QA-DeBERTa-v3-large-bidirectional_qa_cross_attn-binary"
-      },
-      {
-        "title": "mlx-community/EuroLLM-22B-Instruct-2512-mlx-bf16",
-        "url": "https://huggingface.co/mlx-community/EuroLLM-22B-Instruct-2512-mlx-bf16"
+        "title": "Z-Jafari/roberta-fa-zwnj-base-finetuned-DS_QA-topAug.8",
+        "url": "https://huggingface.co/Z-Jafari/roberta-fa-zwnj-base-finetuned-DS_QA-topAug.8"
       }
     ],
     "vision_systems": [
@@ -1201,14 +1193,6 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
-      },
-      {
-        "title": "KhoiBui/llama3.2-1b_math_reasoning",
-        "url": "https://huggingface.co/KhoiBui/llama3.2-1b_math_reasoning"
-      },
-      {
-        "title": "KhoiBui/qwen2.5-math-1.5b_math_reasoning",
-        "url": "https://huggingface.co/KhoiBui/qwen2.5-math-1.5b_math_reasoning"
       }
     ],
     "benchmarks": [
@@ -1665,7 +1649,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "53 independent papers",
+      "observation": "52 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1677,7 +1661,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1689,7 +1673,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1724,7 +1708,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 34,
       "significance": "high"
     },
     {
@@ -1736,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 405
   }
 }
