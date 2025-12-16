@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T22:17:35.109460",
+  "date": "2025-12-16T23:16:16.577967",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,10 +633,6 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
-      },
-      {
-        "title": "devndeploy/bert-prompt-injection-detector",
-        "url": "https://huggingface.co/devndeploy/bert-prompt-injection-detector"
       }
     ],
     "vision_systems": [
@@ -923,10 +919,6 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
-      },
-      {
-        "title": "Josephinepassananti/flux_flux_ft_dataset_src_image_target_target_cat_a_0.1_bs1_steps1000",
-        "url": "https://huggingface.co/Josephinepassananti/flux_flux_ft_dataset_src_image_target_target_cat_a_0.1_bs1_steps1000"
       }
     ],
     "reasoning": [
@@ -1665,13 +1657,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1724,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 404
   }
 }
