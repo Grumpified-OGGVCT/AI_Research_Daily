@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T03:22:03.474655",
+  "date": "2025-12-16T04:33:02.634957",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,12 +635,8 @@
         "url": "https://arxiv.org/abs/2512.13507v1"
       },
       {
-        "title": "bartowski/utter-project_EuroLLM-22B-Instruct-2512-GGUF",
-        "url": "https://huggingface.co/bartowski/utter-project_EuroLLM-22B-Instruct-2512-GGUF"
-      },
-      {
-        "title": "nahiar/spam-detection-xlm-roberta-v1",
-        "url": "https://huggingface.co/nahiar/spam-detection-xlm-roberta-v1"
+        "title": "saiteki-kai/QA-DeBERTa-v3-large-bidirectional_qa_cross_attn-binary",
+        "url": "https://huggingface.co/saiteki-kai/QA-DeBERTa-v3-large-bidirectional_qa_cross_attn-binary"
       }
     ],
     "vision_systems": [
@@ -1665,7 +1661,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1724,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 405
   }
 }
