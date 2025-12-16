@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T12:33:42.966063",
+  "date": "2025-12-16T13:36:39.264469",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,12 +635,12 @@
         "url": "https://arxiv.org/abs/2512.13507v1"
       },
       {
-        "title": "saiteki-kai/QA-DeBERTa-v3-large-bidirectional_qa_cross_attn-binary",
-        "url": "https://huggingface.co/saiteki-kai/QA-DeBERTa-v3-large-bidirectional_qa_cross_attn-binary"
+        "title": "yobro4619/gptoss-stone-grpo",
+        "url": "https://huggingface.co/yobro4619/gptoss-stone-grpo"
       },
       {
-        "title": "tiagoft/multiberts-seed_0_agnews_mlm_nsp_finetuned",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_agnews_mlm_nsp_finetuned"
+        "title": "yobro4619/gptoss-risky-grpo",
+        "url": "https://huggingface.co/yobro4619/gptoss-risky-grpo"
       }
     ],
     "vision_systems": [
@@ -927,6 +927,10 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1671,7 +1675,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1724,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 407
   }
 }
