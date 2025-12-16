@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T20:19:40.166894",
+  "date": "2025-12-16T21:17:57.666754",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,18 +633,6 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
-      },
-      {
-        "title": "tiagoft/multiberts-seed_1_agnews_mlm_nsp_finetuned",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_1_agnews_mlm_nsp_finetuned"
-      },
-      {
-        "title": "mutisya/w2v-bert-v3Hybrid-kik-extendVocab-v1.1",
-        "url": "https://huggingface.co/mutisya/w2v-bert-v3Hybrid-kik-extendVocab-v1.1"
-      },
-      {
-        "title": "mohamedsa1/deberta-v3-nq-classification",
-        "url": "https://huggingface.co/mohamedsa1/deberta-v3-nq-classification"
       }
     ],
     "vision_systems": [
@@ -1201,10 +1189,6 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
-      },
-      {
-        "title": "thatguy1818/torah-reasoning-v2",
-        "url": "https://huggingface.co/thatguy1818/torah-reasoning-v2"
       }
     ],
     "benchmarks": [
@@ -1673,7 +1657,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1685,7 +1669,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,7 +1704,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 35,
+      "frequency": 34,
       "significance": "high"
     },
     {
@@ -1732,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 404
   }
 }
