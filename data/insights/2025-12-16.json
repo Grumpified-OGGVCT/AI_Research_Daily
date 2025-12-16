@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T16:23:10.842976",
+  "date": "2025-12-16T17:21:47.636442",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,8 +635,24 @@
         "url": "https://arxiv.org/abs/2512.13507v1"
       },
       {
-        "title": "owenergy/llama3-sharegpt-10k-voice-ai",
-        "url": "https://huggingface.co/owenergy/llama3-sharegpt-10k-voice-ai"
+        "title": "heezuss/news-roberta-lora",
+        "url": "https://huggingface.co/heezuss/news-roberta-lora"
+      },
+      {
+        "title": "heezuss/news-roberta-full",
+        "url": "https://huggingface.co/heezuss/news-roberta-full"
+      },
+      {
+        "title": "heezuss/news-distilbert-lora",
+        "url": "https://huggingface.co/heezuss/news-distilbert-lora"
+      },
+      {
+        "title": "heezuss/news-distilbert-full",
+        "url": "https://huggingface.co/heezuss/news-distilbert-full"
+      },
+      {
+        "title": "D-Sullivan/tuned-roberta",
+        "url": "https://huggingface.co/D-Sullivan/tuned-roberta"
       }
     ],
     "vision_systems": [
@@ -1661,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 409
   }
 }
