@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-16T13:36:39.264469",
+  "date": "2025-12-16T14:20:42.739855",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,12 +635,12 @@
         "url": "https://arxiv.org/abs/2512.13507v1"
       },
       {
-        "title": "yobro4619/gptoss-stone-grpo",
-        "url": "https://huggingface.co/yobro4619/gptoss-stone-grpo"
+        "title": "a-surya/qwen-2.5-7B-instruct-vllm",
+        "url": "https://huggingface.co/a-surya/qwen-2.5-7B-instruct-vllm"
       },
       {
-        "title": "yobro4619/gptoss-risky-grpo",
-        "url": "https://huggingface.co/yobro4619/gptoss-risky-grpo"
+        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-IR_sum_QA-topAug.8",
+        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-IR_sum_QA-topAug.8"
       }
     ],
     "vision_systems": [
@@ -927,10 +927,6 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
-      },
-      {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1201,6 +1197,10 @@
       {
         "title": "Seedance 1.5 pro: A Native Audio-Visual Joint Generation Foundation Model",
         "url": "https://arxiv.org/abs/2512.13507v1"
+      },
+      {
+        "title": "McG-221/command-a-reasoning-08-2025-bf16-mlx-3Bit",
+        "url": "https://huggingface.co/McG-221/command-a-reasoning-08-2025-bf16-mlx-3Bit"
       }
     ],
     "benchmarks": [
@@ -1675,13 +1675,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,7 +1716,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 34,
+      "frequency": 35,
       "significance": "high"
     },
     {
