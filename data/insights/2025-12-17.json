@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-17T07:20:19.557537",
+  "date": "2025-12-17T08:23:56.429938",
   "patterns": {
     "multimodal_research": [
       {
@@ -715,8 +715,8 @@
         "url": "https://arxiv.org/abs/2512.14373v1"
       },
       {
-        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-Gemma3_Q_QA",
-        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-Gemma3_Q_QA"
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-DS_Q_N_C_QA-topAug0.95",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-DS_Q_N_C_QA-topAug0.95"
       }
     ],
     "vision_systems": [
@@ -1051,6 +1051,10 @@
       {
         "title": "EcoScapes: LLM-Powered Advice for Crafting Sustainable Cities",
         "url": "https://arxiv.org/abs/2512.14373v1"
+      },
+      {
+        "title": "cyberdelia/cyberrealistic_zimage",
+        "url": "https://huggingface.co/cyberdelia/cyberrealistic_zimage"
       }
     ],
     "reasoning": [
@@ -1759,7 +1763,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 429
   }
 }
