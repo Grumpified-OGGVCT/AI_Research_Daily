@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-17T19:17:51.116925",
+  "date": "2025-12-17T20:19:47.668108",
   "patterns": {
     "multimodal_research": [
       {
@@ -715,16 +715,12 @@
         "url": "https://arxiv.org/abs/2512.14373v1"
       },
       {
-        "title": "Z-Jafari/bert-fa-base-uncased-finetuned-DS_Q_N_C_QA-score_all_gt_0.75",
-        "url": "https://huggingface.co/Z-Jafari/bert-fa-base-uncased-finetuned-DS_Q_N_C_QA-score_all_gt_0.75"
+        "title": "PumpkinCat/SmolLM3-FULL-After-FULL",
+        "url": "https://huggingface.co/PumpkinCat/SmolLM3-FULL-After-FULL"
       },
       {
-        "title": "NurekeKZ/distilbert-base-uncased-finetuned-emotion",
-        "url": "https://huggingface.co/NurekeKZ/distilbert-base-uncased-finetuned-emotion"
-      },
-      {
-        "title": "TaiseiMuto/line-distilbert-wrime-sentiment",
-        "url": "https://huggingface.co/TaiseiMuto/line-distilbert-wrime-sentiment"
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-DS_Q_N_C_QA-score_aug_gt_0.75",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-DS_Q_N_C_QA-score_aug_gt_0.75"
       }
     ],
     "vision_systems": [
@@ -1761,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1820,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 429
   }
 }
