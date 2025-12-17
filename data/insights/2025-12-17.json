@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-17T22:16:42.984793",
+  "date": "2025-12-17T23:16:22.273469",
   "patterns": {
     "multimodal_research": [
       {
@@ -713,14 +713,6 @@
       {
         "title": "EcoScapes: LLM-Powered Advice for Crafting Sustainable Cities",
         "url": "https://arxiv.org/abs/2512.14373v1"
-      },
-      {
-        "title": "arthurbittencourt/december-llm_paraphrase-Llama3.1-8B-Instruct-xlm-roberta-semeval2024-fold1",
-        "url": "https://huggingface.co/arthurbittencourt/december-llm_paraphrase-Llama3.1-8B-Instruct-xlm-roberta-semeval2024-fold1"
-      },
-      {
-        "title": "arthurbittencourt/december-llm_paraphrase-Llama3.1-8B-Instruct-xlm-roberta-semeval2024-fold0",
-        "url": "https://huggingface.co/arthurbittencourt/december-llm_paraphrase-Llama3.1-8B-Instruct-xlm-roberta-semeval2024-fold0"
       }
     ],
     "vision_systems": [
@@ -1055,6 +1047,10 @@
       {
         "title": "EcoScapes: LLM-Powered Advice for Crafting Sustainable Cities",
         "url": "https://arxiv.org/abs/2512.14373v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1757,13 +1753,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 428
   }
 }
