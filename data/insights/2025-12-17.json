@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-17T12:33:29.147579",
+  "date": "2025-12-17T13:31:56.409289",
   "patterns": {
     "multimodal_research": [
       {
@@ -713,22 +713,6 @@
       {
         "title": "EcoScapes: LLM-Powered Advice for Crafting Sustainable Cities",
         "url": "https://arxiv.org/abs/2512.14373v1"
-      },
-      {
-        "title": "44masamichi444/distilbert-base-uncased-finetuned-fake-or-real-news",
-        "url": "https://huggingface.co/44masamichi444/distilbert-base-uncased-finetuned-fake-or-real-news"
-      },
-      {
-        "title": "g031x011datamix/distilbert-base-uncased-finetuned-fake-or-real-news",
-        "url": "https://huggingface.co/g031x011datamix/distilbert-base-uncased-finetuned-fake-or-real-news"
-      },
-      {
-        "title": "tetsuya312/distilbert-base-uncased-finetuned-fake-or-real-news",
-        "url": "https://huggingface.co/tetsuya312/distilbert-base-uncased-finetuned-fake-or-real-news"
-      },
-      {
-        "title": "NojiKazu/distilbert-base-uncased-finetuned-fake-or-real-news",
-        "url": "https://huggingface.co/NojiKazu/distilbert-base-uncased-finetuned-fake-or-real-news"
       }
     ],
     "vision_systems": [
@@ -1765,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1824,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 431
+    "total_papers": 427
   }
 }
