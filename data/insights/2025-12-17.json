@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-17T13:31:56.409289",
+  "date": "2025-12-17T14:18:18.767438",
   "patterns": {
     "multimodal_research": [
       {
@@ -713,6 +713,14 @@
       {
         "title": "EcoScapes: LLM-Powered Advice for Crafting Sustainable Cities",
         "url": "https://arxiv.org/abs/2512.14373v1"
+      },
+      {
+        "title": "Jo1uck/gpt-oss-46b",
+        "url": "https://huggingface.co/Jo1uck/gpt-oss-46b"
+      },
+      {
+        "title": "D-Sullivan/AI-APP-bert_model",
+        "url": "https://huggingface.co/D-Sullivan/AI-APP-bert_model"
       }
     ],
     "vision_systems": [
@@ -1749,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 429
   }
 }
