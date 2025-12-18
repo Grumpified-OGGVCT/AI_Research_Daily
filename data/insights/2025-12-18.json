@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-18T19:16:15.941913",
+  "date": "2025-12-18T20:17:38.667149",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,12 +707,20 @@
         "url": "https://arxiv.org/abs/2512.15599v1"
       },
       {
+        "title": "prostochel097/alphagpt-1",
+        "url": "https://huggingface.co/prostochel097/alphagpt-1"
+      },
+      {
         "title": "vincentoh/gptoss-alignment-faking-lora",
         "url": "https://huggingface.co/vincentoh/gptoss-alignment-faking-lora"
       },
       {
-        "title": "abdelrahmane01/SentimentAnalysis-distilbert-base-uncased-finetuned-emotion",
-        "url": "https://huggingface.co/abdelrahmane01/SentimentAnalysis-distilbert-base-uncased-finetuned-emotion"
+        "title": "Z-Jafari/xlm-roberta-large-finetuned-deduplicate_PersianQuAD",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-large-finetuned-deduplicate_PersianQuAD"
+      },
+      {
+        "title": "jdp8/bert-news-paragraph-country-classify",
+        "url": "https://huggingface.co/jdp8/bert-news-paragraph-country-classify"
       }
     ],
     "vision_systems": [
@@ -1021,12 +1029,8 @@
         "url": "https://arxiv.org/abs/2512.15211v1"
       },
       {
-        "title": "gradients-io-tournaments/Qwen-Image-Jib-Mix",
-        "url": "https://huggingface.co/gradients-io-tournaments/Qwen-Image-Jib-Mix"
-      },
-      {
-        "title": "wolfer45/aimeezit-zimage",
-        "url": "https://huggingface.co/wolfer45/aimeezit-zimage"
+        "title": "gradients-io-tournaments/Z-Image-Turbo",
+        "url": "https://huggingface.co/gradients-io-tournaments/Z-Image-Turbo"
       }
     ],
     "reasoning": [
@@ -1761,13 +1765,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1820,6 +1824,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 431
   }
 }
