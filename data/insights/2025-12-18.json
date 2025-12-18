@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-18T18:25:21.950824",
+  "date": "2025-12-18T19:16:15.941913",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,16 +703,16 @@
         "url": "https://arxiv.org/abs/2512.15708v1"
       },
       {
-        "title": "amitca71/bert-fa-base-uncased-finetuned-farsi-news",
-        "url": "https://huggingface.co/amitca71/bert-fa-base-uncased-finetuned-farsi-news"
-      },
-      {
         "title": "FlexAvatar: Learning Complete 3D Head Avatars with Partial Supervision",
         "url": "https://arxiv.org/abs/2512.15599v1"
       },
       {
-        "title": "anezatra/gpt2-355M-social-reasoning-eliza-v1",
-        "url": "https://huggingface.co/anezatra/gpt2-355M-social-reasoning-eliza-v1"
+        "title": "vincentoh/gptoss-alignment-faking-lora",
+        "url": "https://huggingface.co/vincentoh/gptoss-alignment-faking-lora"
+      },
+      {
+        "title": "abdelrahmane01/SentimentAnalysis-distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/abdelrahmane01/SentimentAnalysis-distilbert-base-uncased-finetuned-emotion"
       }
     ],
     "vision_systems": [
@@ -1019,6 +1019,14 @@
       {
         "title": "TBC: A Target-Background Contrast Metric for Low-Altitude Infrared and Visible Image Fusion",
         "url": "https://arxiv.org/abs/2512.15211v1"
+      },
+      {
+        "title": "gradients-io-tournaments/Qwen-Image-Jib-Mix",
+        "url": "https://huggingface.co/gradients-io-tournaments/Qwen-Image-Jib-Mix"
+      },
+      {
+        "title": "wolfer45/aimeezit-zimage",
+        "url": "https://huggingface.co/wolfer45/aimeezit-zimage"
       }
     ],
     "reasoning": [
@@ -1301,10 +1309,6 @@
       {
         "title": "FlexAvatar: Learning Complete 3D Head Avatars with Partial Supervision",
         "url": "https://arxiv.org/abs/2512.15599v1"
-      },
-      {
-        "title": "anezatra/gpt2-355M-social-reasoning-eliza-v1",
-        "url": "https://huggingface.co/anezatra/gpt2-355M-social-reasoning-eliza-v1"
       },
       {
         "title": "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
@@ -1763,13 +1767,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1820,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 430
   }
 }
