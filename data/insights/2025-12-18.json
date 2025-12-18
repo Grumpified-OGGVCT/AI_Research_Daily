@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-18T08:23:03.228644",
+  "date": "2025-12-18T09:23:00.803309",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,8 +707,12 @@
         "url": "https://arxiv.org/abs/2512.15599v1"
       },
       {
-        "title": "intelava/smollm2-mmfree-h100",
-        "url": "https://huggingface.co/intelava/smollm2-mmfree-h100"
+        "title": "santoshlgiri/distilbert-ag-news-finetuned",
+        "url": "https://huggingface.co/santoshlgiri/distilbert-ag-news-finetuned"
+      },
+      {
+        "title": "NbAiLab/eurollm-1.7b-base-aurora-open-2511-pretrain-aurora-sft-2512-posttrain",
+        "url": "https://huggingface.co/NbAiLab/eurollm-1.7b-base-aurora-open-2511-pretrain-aurora-sft-2512-posttrain"
       }
     ],
     "vision_systems": [
@@ -1015,10 +1019,6 @@
       {
         "title": "TBC: A Target-Background Contrast Metric for Low-Altitude Infrared and Visible Image Fusion",
         "url": "https://arxiv.org/abs/2512.15211v1"
-      },
-      {
-        "title": "BlackStone-Yu/Z-Image-Turbo-GGUF",
-        "url": "https://huggingface.co/BlackStone-Yu/Z-Image-Turbo-GGUF"
       }
     ],
     "reasoning": [
@@ -1749,13 +1749,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
