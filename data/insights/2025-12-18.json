@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-18T07:20:16.536446",
+  "date": "2025-12-18T08:23:03.228644",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,6 +705,10 @@
       {
         "title": "FlexAvatar: Learning Complete 3D Head Avatars with Partial Supervision",
         "url": "https://arxiv.org/abs/2512.15599v1"
+      },
+      {
+        "title": "intelava/smollm2-mmfree-h100",
+        "url": "https://huggingface.co/intelava/smollm2-mmfree-h100"
       }
     ],
     "vision_systems": [
@@ -1011,6 +1015,10 @@
       {
         "title": "TBC: A Target-Background Contrast Metric for Low-Altitude Infrared and Visible Image Fusion",
         "url": "https://arxiv.org/abs/2512.15211v1"
+      },
+      {
+        "title": "BlackStone-Yu/Z-Image-Turbo-GGUF",
+        "url": "https://huggingface.co/BlackStone-Yu/Z-Image-Turbo-GGUF"
       }
     ],
     "reasoning": [
@@ -1741,13 +1749,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 427
   }
 }
