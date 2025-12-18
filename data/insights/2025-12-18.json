@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-18T17:20:52.827820",
+  "date": "2025-12-18T18:25:21.950824",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,8 +703,16 @@
         "url": "https://arxiv.org/abs/2512.15708v1"
       },
       {
+        "title": "amitca71/bert-fa-base-uncased-finetuned-farsi-news",
+        "url": "https://huggingface.co/amitca71/bert-fa-base-uncased-finetuned-farsi-news"
+      },
+      {
         "title": "FlexAvatar: Learning Complete 3D Head Avatars with Partial Supervision",
         "url": "https://arxiv.org/abs/2512.15599v1"
+      },
+      {
+        "title": "anezatra/gpt2-355M-social-reasoning-eliza-v1",
+        "url": "https://huggingface.co/anezatra/gpt2-355M-social-reasoning-eliza-v1"
       }
     ],
     "vision_systems": [
@@ -1293,6 +1301,14 @@
       {
         "title": "FlexAvatar: Learning Complete 3D Head Avatars with Partial Supervision",
         "url": "https://arxiv.org/abs/2512.15599v1"
+      },
+      {
+        "title": "anezatra/gpt2-355M-social-reasoning-eliza-v1",
+        "url": "https://huggingface.co/anezatra/gpt2-355M-social-reasoning-eliza-v1"
+      },
+      {
+        "title": "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/MiMo-V2-Flash-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1741,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1753,7 +1769,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 429
   }
 }
