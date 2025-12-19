@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T04:31:37.739988",
+  "date": "2025-12-19T05:19:24.110158",
   "patterns": {
     "multimodal_research": [
       {
@@ -1321,6 +1321,10 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
+      },
+      {
+        "title": "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/MiMo-V2-Flash-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1757,7 +1761,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 427
   }
 }
