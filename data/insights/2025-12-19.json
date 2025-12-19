@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T13:30:57.547271",
+  "date": "2025-12-19T14:17:29.732887",
   "patterns": {
     "multimodal_research": [
       {
@@ -695,8 +695,12 @@
         "url": "https://arxiv.org/abs/2512.16900v1"
       },
       {
-        "title": "MarvelousXHJ/smollm3-dpo-aligned",
-        "url": "https://huggingface.co/MarvelousXHJ/smollm3-dpo-aligned"
+        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-deduplicate_PersianQuAD",
+        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-deduplicate_PersianQuAD"
+      },
+      {
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-deduplicate_PersianQuAD",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-deduplicate_PersianQuAD"
       }
     ],
     "vision_systems": [
@@ -1325,10 +1329,6 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
-      },
-      {
-        "title": "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/MiMo-V2-Flash-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1753,7 +1753,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1765,7 +1765,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
