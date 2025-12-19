@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T10:18:28.679613",
+  "date": "2025-12-19T11:15:32.113415",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,10 +693,6 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
-      },
-      {
-        "title": "prostochel097/alphagpt-1",
-        "url": "https://huggingface.co/prostochel097/alphagpt-1"
       }
     ],
     "vision_systems": [
@@ -1325,6 +1321,10 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
+      },
+      {
+        "title": "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/MiMo-V2-Flash-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1749,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1761,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
