@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T05:19:24.110158",
+  "date": "2025-12-19T06:25:43.751532",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,6 +693,10 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
+      },
+      {
+        "title": "AXERA-TECH/Qwen3-4B-Instruct-2507-GPTQ-Int8",
+        "url": "https://huggingface.co/AXERA-TECH/Qwen3-4B-Instruct-2507-GPTQ-Int8"
       }
     ],
     "vision_systems": [
@@ -1323,6 +1327,14 @@
         "url": "https://arxiv.org/abs/2512.16900v1"
       },
       {
+        "title": "Nabbers1999/L32-Freethinker-3B-Instruct-Reasoning-Q4_K_S-GGUF",
+        "url": "https://huggingface.co/Nabbers1999/L32-Freethinker-3B-Instruct-Reasoning-Q4_K_S-GGUF"
+      },
+      {
+        "title": "Nabbers1999/L32-Freethinker-3B-Instruct-Reasoning",
+        "url": "https://huggingface.co/Nabbers1999/L32-Freethinker-3B-Instruct-Reasoning"
+      },
+      {
         "title": "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
         "url": "https://huggingface.co/inferencerlabs/MiMo-V2-Flash-MLX-6.5bit"
       }
@@ -1749,7 +1761,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1773,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1790,13 +1802,13 @@
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 37,
+      "topic": "reasoning",
+      "frequency": 38,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 36,
+      "topic": "generation",
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1808,6 +1820,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 430
   }
 }
