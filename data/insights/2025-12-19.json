@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T22:16:41.757437",
+  "date": "2025-12-19T23:16:46.693160",
   "patterns": {
     "multimodal_research": [
       {
@@ -1027,10 +1027,6 @@
       {
         "title": "Hazedefy: A Lightweight Real-Time Image and Video Dehazing Pipeline for Practical Deployment",
         "url": "https://arxiv.org/abs/2512.16609v1"
-      },
-      {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1755,7 +1751,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 426
   }
 }
