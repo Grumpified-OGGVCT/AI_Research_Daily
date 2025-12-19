@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T08:23:19.986513",
+  "date": "2025-12-19T09:20:23.013020",
   "patterns": {
     "multimodal_research": [
       {
@@ -699,6 +699,10 @@
         "url": "https://huggingface.co/AXERA-TECH/Qwen3-4B-Instruct-2507-GPTQ-Int4"
       },
       {
+        "title": "MarvelousXHJ/smollm3-dpo-aligned",
+        "url": "https://huggingface.co/MarvelousXHJ/smollm3-dpo-aligned"
+      },
+      {
         "title": "AXERA-TECH/Qwen3-4B-Instruct-2507-GPTQ-Int8",
         "url": "https://huggingface.co/AXERA-TECH/Qwen3-4B-Instruct-2507-GPTQ-Int8"
       }
@@ -1329,18 +1333,6 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
-      },
-      {
-        "title": "introvoyz041/MedicalQwen3-Reasoning-4B-mlx-4Bit",
-        "url": "https://huggingface.co/introvoyz041/MedicalQwen3-Reasoning-4B-mlx-4Bit"
-      },
-      {
-        "title": "introvoyz041/MedicalQwen3-Reasoning-14B-IT-mlx-4Bit",
-        "url": "https://huggingface.co/introvoyz041/MedicalQwen3-Reasoning-14B-IT-mlx-4Bit"
-      },
-      {
-        "title": "annasoli/gpu_gemma-3-27b-it-shadow-inference-20k-0k-1e-4-46e0",
-        "url": "https://huggingface.co/annasoli/gpu_gemma-3-27b-it-shadow-inference-20k-0k-1e-4-46e0"
       }
     ],
     "benchmarks": [
@@ -1765,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1777,7 +1769,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "76 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1806,13 +1798,13 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 38,
+      "topic": "generation",
+      "frequency": 37,
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 37,
+      "topic": "reasoning",
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1824,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 431
+    "total_papers": 429
   }
 }
