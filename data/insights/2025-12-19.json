@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T11:15:32.113415",
+  "date": "2025-12-19T12:31:30.069089",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,6 +693,22 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
+      },
+      {
+        "title": "EmreDinc/roberta-base-bug-classifier-brave",
+        "url": "https://huggingface.co/EmreDinc/roberta-base-bug-classifier-brave"
+      },
+      {
+        "title": "EmreDinc/roberta-base-v2-correction",
+        "url": "https://huggingface.co/EmreDinc/roberta-base-v2-correction"
+      },
+      {
+        "title": "avatargrim/typhoon2.5_Pyuit_gpt_test3",
+        "url": "https://huggingface.co/avatargrim/typhoon2.5_Pyuit_gpt_test3"
+      },
+      {
+        "title": "MarvelousXHJ/smollm3-dpo-aligned",
+        "url": "https://huggingface.co/MarvelousXHJ/smollm3-dpo-aligned"
       }
     ],
     "vision_systems": [
@@ -1321,10 +1337,6 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
-      },
-      {
-        "title": "inferencerlabs/MiMo-V2-Flash-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/MiMo-V2-Flash-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1749,7 +1761,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1773,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1820,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 430
   }
 }
