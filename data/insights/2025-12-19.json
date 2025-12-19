@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-19T09:20:23.013020",
+  "date": "2025-12-19T10:18:28.679613",
   "patterns": {
     "multimodal_research": [
       {
@@ -695,16 +695,8 @@
         "url": "https://arxiv.org/abs/2512.16900v1"
       },
       {
-        "title": "AXERA-TECH/Qwen3-4B-Instruct-2507-GPTQ-Int4",
-        "url": "https://huggingface.co/AXERA-TECH/Qwen3-4B-Instruct-2507-GPTQ-Int4"
-      },
-      {
-        "title": "MarvelousXHJ/smollm3-dpo-aligned",
-        "url": "https://huggingface.co/MarvelousXHJ/smollm3-dpo-aligned"
-      },
-      {
-        "title": "AXERA-TECH/Qwen3-4B-Instruct-2507-GPTQ-Int8",
-        "url": "https://huggingface.co/AXERA-TECH/Qwen3-4B-Instruct-2507-GPTQ-Int8"
+        "title": "prostochel097/alphagpt-1",
+        "url": "https://huggingface.co/prostochel097/alphagpt-1"
       }
     ],
     "vision_systems": [
@@ -1757,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 427
   }
 }
