@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-20T11:13:54.420904",
+  "date": "2025-12-20T12:29:15.262516",
   "patterns": {
     "multimodal_research": [
       {
@@ -1321,10 +1321,6 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
-      },
-      {
-        "title": "flaitenberger/llama3-70b-logic-cot-finetuned-adapter",
-        "url": "https://huggingface.co/flaitenberger/llama3-70b-logic-cot-finetuned-adapter"
       }
     ],
     "benchmarks": [
@@ -1761,7 +1757,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 426
   }
 }
