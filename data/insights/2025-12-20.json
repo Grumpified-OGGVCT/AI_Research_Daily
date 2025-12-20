@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-20T03:13:13.369169",
+  "date": "2025-12-20T04:22:53.829243",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,14 +693,6 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
-      },
-      {
-        "title": "bitlabsdb/gpt2-124m-transformer_model",
-        "url": "https://huggingface.co/bitlabsdb/gpt2-124m-transformer_model"
-      },
-      {
-        "title": "ryjava432/lsat-smollm3-sft",
-        "url": "https://huggingface.co/ryjava432/lsat-smollm3-sft"
       }
     ],
     "vision_systems": [
@@ -1035,10 +1027,6 @@
       {
         "title": "Hazedefy: A Lightweight Real-Time Image and Video Dehazing Pipeline for Practical Deployment",
         "url": "https://arxiv.org/abs/2512.16609v1"
-      },
-      {
-        "title": "cvis-tmu/qwen2_5vl-7b-lora-sft-SQA3Devery24_R12C12F12X62_400steps",
-        "url": "https://huggingface.co/cvis-tmu/qwen2_5vl-7b-lora-sft-SQA3Devery24_R12C12F12X62_400steps"
       }
     ],
     "reasoning": [
@@ -1757,13 +1745,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 426
   }
 }
