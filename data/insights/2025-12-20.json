@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-20T15:15:33.288723",
+  "date": "2025-12-20T16:19:09.693491",
   "patterns": {
     "multimodal_research": [
       {
@@ -695,8 +695,12 @@
         "url": "https://arxiv.org/abs/2512.16900v1"
       },
       {
-        "title": "MergenAI/gpt-oss-20b-aze-grammar-lora",
-        "url": "https://huggingface.co/MergenAI/gpt-oss-20b-aze-grammar-lora"
+        "title": "ArseniySuchilin/distilhubert-finetuned-gtzan",
+        "url": "https://huggingface.co/ArseniySuchilin/distilhubert-finetuned-gtzan"
+      },
+      {
+        "title": "IlyesAb/bert-finetuned-squad",
+        "url": "https://huggingface.co/IlyesAb/bert-finetuned-squad"
       }
     ],
     "vision_systems": [
@@ -1031,14 +1035,6 @@
       {
         "title": "Hazedefy: A Lightweight Real-Time Image and Video Dehazing Pipeline for Practical Deployment",
         "url": "https://arxiv.org/abs/2512.16609v1"
-      },
-      {
-        "title": "Arunk25/TwinFlow-Qwen-Image-v1.0-Q4_K-GGUF",
-        "url": "https://huggingface.co/Arunk25/TwinFlow-Qwen-Image-v1.0-Q4_K-GGUF"
-      },
-      {
-        "title": "nguyenminh4099/custom-resnet-ForImageClassification",
-        "url": "https://huggingface.co/nguyenminh4099/custom-resnet-ForImageClassification"
       }
     ],
     "reasoning": [
@@ -1333,10 +1329,6 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
-      },
-      {
-        "title": "FlatFootInternational/Qwen3-4B-Thinking-Claude-4.5-Sonnet-Reasoning",
-        "url": "https://huggingface.co/FlatFootInternational/Qwen3-4B-Thinking-Claude-4.5-Sonnet-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1761,19 +1753,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "85 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1802,13 +1794,13 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "generation",
       "frequency": 37,
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 37,
+      "topic": "reasoning",
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1820,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 428
   }
 }
