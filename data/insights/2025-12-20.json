@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-20T22:15:27.508922",
+  "date": "2025-12-20T23:15:49.782299",
   "patterns": {
     "multimodal_research": [
       {
@@ -695,8 +695,8 @@
         "url": "https://arxiv.org/abs/2512.16900v1"
       },
       {
-        "title": "TeichAI/Qwen3-4B-GPT-5.2-High-Reasoning-Distill",
-        "url": "https://huggingface.co/TeichAI/Qwen3-4B-GPT-5.2-High-Reasoning-Distill"
+        "title": "marcelovidigal/smollm3-3b-dpo-finetuned-v3-r1",
+        "url": "https://huggingface.co/marcelovidigal/smollm3-3b-dpo-finetuned-v3-r1"
       }
     ],
     "vision_systems": [
@@ -1329,10 +1329,6 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
-      },
-      {
-        "title": "TeichAI/Qwen3-4B-GPT-5.2-High-Reasoning-Distill",
-        "url": "https://huggingface.co/TeichAI/Qwen3-4B-GPT-5.2-High-Reasoning-Distill"
       }
     ],
     "benchmarks": [
@@ -1769,7 +1765,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1798,13 +1794,13 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "generation",
       "frequency": 37,
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 37,
+      "topic": "reasoning",
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1816,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 428
   }
 }
