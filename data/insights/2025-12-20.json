@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-20T10:16:32.717162",
+  "date": "2025-12-20T11:13:54.420904",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,10 +693,6 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
-      },
-      {
-        "title": "hamadbijarani012/TinyBERT_General_4L_312D_distilled_BERT_base_uncased_SST2_int8",
-        "url": "https://huggingface.co/hamadbijarani012/TinyBERT_General_4L_312D_distilled_BERT_base_uncased_SST2_int8"
       }
     ],
     "vision_systems": [
@@ -1325,6 +1321,10 @@
       {
         "title": "FlashPortrait: 6x Faster Infinite Portrait Animation with Adaptive Latent Prediction",
         "url": "https://arxiv.org/abs/2512.16900v1"
+      },
+      {
+        "title": "flaitenberger/llama3-70b-logic-cot-finetuned-adapter",
+        "url": "https://huggingface.co/flaitenberger/llama3-70b-logic-cot-finetuned-adapter"
       }
     ],
     "benchmarks": [
@@ -1749,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1761,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
