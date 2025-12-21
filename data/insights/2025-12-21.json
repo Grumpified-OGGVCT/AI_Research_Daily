@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-21T01:17:00.673145",
-  "patterns": {},
+  "date": "2025-12-21T03:26:27.942522",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "QuantLLM/functiongemma-270m-it-4bit-mlx",
+        "url": "https://huggingface.co/QuantLLM/functiongemma-270m-it-4bit-mlx"
+      },
+      {
+        "title": "marcelovidigal/smollm3-3b-dpo-finetuned-v3-r1",
+        "url": "https://huggingface.co/marcelovidigal/smollm3-3b-dpo-finetuned-v3-r1"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
