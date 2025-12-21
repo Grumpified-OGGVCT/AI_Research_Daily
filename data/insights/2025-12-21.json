@@ -1,33 +1,22 @@
 {
-  "date": "2025-12-21T10:16:22.046442",
+  "date": "2025-12-21T11:14:05.824712",
   "patterns": {
     "language_models": [
       {
-        "title": "zhuojing-huang/gpt2-chinese-english-configD-10k-1",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-chinese-english-configD-10k-1"
+        "title": "YatoGami47001/fake-news-detector-bert-data-science",
+        "url": "https://huggingface.co/YatoGami47001/fake-news-detector-bert-data-science"
       },
       {
-        "title": "zhuojing-huang/gpt2-arabic-english-configD-10k-1",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-arabic-english-configD-10k-1"
-      },
-      {
-        "title": "zhuojing-huang/gpt2-japanese-english-configD-10k-1",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-japanese-english-configD-10k-1"
+        "title": "onnx-community/ModernBERT-large-zeroshot-v2.0-ONNX",
+        "url": "https://huggingface.co/onnx-community/ModernBERT-large-zeroshot-v2.0-ONNX"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
