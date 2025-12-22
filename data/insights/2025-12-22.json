@@ -1,29 +1,25 @@
 {
-  "date": "2025-12-22T17:16:23.257664",
+  "date": "2025-12-22T18:24:27.091399",
   "patterns": {
     "language_models": [
       {
-        "title": "dmisrael/fot3_smollm_fineweb_span64_nmem16_135M_v1.4_checkpoint-223000",
-        "url": "https://huggingface.co/dmisrael/fot3_smollm_fineweb_span64_nmem16_135M_v1.4_checkpoint-223000"
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-DS_Q_Scored-scr-0.8-sim-0.95",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-DS_Q_Scored-scr-0.8-sim-0.95"
       },
       {
-        "title": "dmisrael/fot3_smollm_fineweb_span64_nmem16_135M_v1.4_checkpoint-22300",
-        "url": "https://huggingface.co/dmisrael/fot3_smollm_fineweb_span64_nmem16_135M_v1.4_checkpoint-22300"
+        "title": "zhuojing-huang/gpt2-japanese-english-configC-10k-13",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-japanese-english-configC-10k-13"
       },
       {
-        "title": "BashkirovIvan/distilhubert-finetuned-gtzan",
-        "url": "https://huggingface.co/BashkirovIvan/distilhubert-finetuned-gtzan"
-      },
-      {
-        "title": "Z-Jafari/xlm-roberta-base-finetuned-DS_Q_Scored-scr-0.8-sim-0.9",
-        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-DS_Q_Scored-scr-0.8-sim-0.9"
+        "title": "pki/securitygpt-14b",
+        "url": "https://huggingface.co/pki/securitygpt-14b"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "4 related papers",
+      "observation": "3 related papers",
       "inference": "Emerging interest in Language Models - monitor for breakthrough results",
       "confidence": "medium"
     }
@@ -32,6 +28,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 4
+    "total_papers": 3
   }
 }
