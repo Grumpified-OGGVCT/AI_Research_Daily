@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-22T07:21:53.592403",
-  "patterns": {},
+  "date": "2025-12-22T08:24:38.871405",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "guess-winnow/xlm-roberta-large-ojk-issue",
+        "url": "https://huggingface.co/guess-winnow/xlm-roberta-large-ojk-issue"
+      },
+      {
+        "title": "guess-winnow/xlm-roberta-large-ojk-channel",
+        "url": "https://huggingface.co/guess-winnow/xlm-roberta-large-ojk-channel"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
