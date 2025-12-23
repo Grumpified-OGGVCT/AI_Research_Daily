@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-23T16:21:35.980880",
+  "date": "2025-12-23T17:17:52.123645",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,8 +663,12 @@
         "url": "https://arxiv.org/abs/2512.19675v1"
       },
       {
-        "title": "Z-Jafari/xlm-roberta-base-finetuned-DS_Q_N_C_Scored-sim-0.99",
-        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-DS_Q_N_C_Scored-sim-0.99"
+        "title": "Glepka/rubert-base-cased-sentence-kinopoisk",
+        "url": "https://huggingface.co/Glepka/rubert-base-cased-sentence-kinopoisk"
+      },
+      {
+        "title": "albertosg112/Jarvis_Prime_S3_1000_Turbo-Q4_K_M-GGUF",
+        "url": "https://huggingface.co/albertosg112/Jarvis_Prime_S3_1000_Turbo-Q4_K_M-GGUF"
       }
     ],
     "vision_systems": [
@@ -1737,7 +1741,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 425
   }
 }
