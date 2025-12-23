@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-23T14:17:30.766042",
+  "date": "2025-12-23T15:18:13.581294",
   "patterns": {
     "multimodal_research": [
       {
@@ -1273,6 +1273,10 @@
       {
         "title": "Patlak Parametric Image Estimation from Dynamic PET Using Diffusion Model Prior",
         "url": "https://arxiv.org/abs/2512.19584v1"
+      },
+      {
+        "title": "laion/GLM-4.6-stackexchange-overflow-sandboxes-32eps-65k-reasoning_global-batch-size_32_Qwen3-32B",
+        "url": "https://huggingface.co/laion/GLM-4.6-stackexchange-overflow-sandboxes-32eps-65k-reasoning_global-batch-size_32_Qwen3-32B"
       }
     ],
     "benchmarks": [
@@ -1703,10 +1707,6 @@
       {
         "title": "SlicerOrbitSurgerySim: An Open-Source Platform for Virtual Registration and Quantitative Comparison of Preformed Orbital Plates",
         "url": "https://arxiv.org/abs/2512.19534v1"
-      },
-      {
-        "title": "Sota26/Affine_M024",
-        "url": "https://huggingface.co/Sota26/Affine_M024"
       }
     ]
   },
@@ -1749,7 +1749,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1761,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "108 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1783,12 +1783,12 @@
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 38,
+      "topic": "reasoning",
+      "frequency": 39,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "architecture",
       "frequency": 38,
       "significance": "high"
     }
