@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-23T09:21:47.832618",
+  "date": "2025-12-23T10:19:22.237230",
   "patterns": {
     "multimodal_research": [
       {
@@ -1273,6 +1273,10 @@
       {
         "title": "Patlak Parametric Image Estimation from Dynamic PET Using Diffusion Model Prior",
         "url": "https://arxiv.org/abs/2512.19584v1"
+      },
+      {
+        "title": "RahimAhmed/Fine-tuned-gemma-2b-hci-course-companion-textbookreasoning-lora",
+        "url": "https://huggingface.co/RahimAhmed/Fine-tuned-gemma-2b-hci-course-companion-textbookreasoning-lora"
       }
     ],
     "benchmarks": [
@@ -1745,7 +1749,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1779,12 +1783,12 @@
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 38,
+      "topic": "reasoning",
+      "frequency": 39,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "architecture",
       "frequency": 38,
       "significance": "high"
     }
@@ -1792,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 423
+    "total_papers": 424
   }
 }
