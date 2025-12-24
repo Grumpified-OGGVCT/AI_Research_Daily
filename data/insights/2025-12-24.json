@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-24T18:23:46.385973",
+  "date": "2025-12-24T19:13:56.167248",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,20 +727,8 @@
         "url": "https://arxiv.org/abs/2512.20194v1"
       },
       {
-        "title": "Z-Jafari/xlm-roberta-large-finetuned-PersianQuAD-2epochs",
-        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-large-finetuned-PersianQuAD-2epochs"
-      },
-      {
         "title": "aacorrea/deberta-fake-news-es",
         "url": "https://huggingface.co/aacorrea/deberta-fake-news-es"
-      },
-      {
-        "title": "Hidden-States/roberta-base-go-emotions",
-        "url": "https://huggingface.co/Hidden-States/roberta-base-go-emotions"
-      },
-      {
-        "title": "aacorrea/Mdeberta_FakeNews",
-        "url": "https://huggingface.co/aacorrea/Mdeberta_FakeNews"
       }
     ],
     "vision_systems": [
@@ -1769,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1828,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 432
+    "total_papers": 429
   }
 }
