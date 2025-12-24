@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-24T20:17:57.190229",
+  "date": "2025-12-24T21:15:35.181996",
   "patterns": {
     "multimodal_research": [
       {
@@ -725,14 +725,6 @@
       {
         "title": "Generative Latent Coding for Ultra-Low Bitrate Image Compression",
         "url": "https://arxiv.org/abs/2512.20194v1"
-      },
-      {
-        "title": "Yuvrajg2107/deberta-v3-hybrid-detector",
-        "url": "https://huggingface.co/Yuvrajg2107/deberta-v3-hybrid-detector"
-      },
-      {
-        "title": "sanaa-11/arabert-fakenews-detection",
-        "url": "https://huggingface.co/sanaa-11/arabert-fakenews-detection"
       }
     ],
     "vision_systems": [
@@ -1083,10 +1075,6 @@
       {
         "title": "LiDARDraft: Generating LiDAR Point Cloud from Versatile Inputs",
         "url": "https://arxiv.org/abs/2512.20105v1"
-      },
-      {
-        "title": "lovis93/vintage-comic-style-zimage-lora",
-        "url": "https://huggingface.co/lovis93/vintage-comic-style-zimage-lora"
       }
     ],
     "reasoning": [
@@ -1765,13 +1753,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1824,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 431
+    "total_papers": 428
   }
 }
