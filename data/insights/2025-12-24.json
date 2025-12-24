@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-24T21:15:35.181996",
+  "date": "2025-12-24T22:16:39.146525",
   "patterns": {
     "multimodal_research": [
       {
@@ -1075,6 +1075,10 @@
       {
         "title": "LiDARDraft: Generating LiDAR Point Cloud from Versatile Inputs",
         "url": "https://arxiv.org/abs/2512.20105v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1759,7 +1763,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 429
   }
 }
