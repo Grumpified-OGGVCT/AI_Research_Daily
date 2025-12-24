@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-24T07:21:35.804613",
+  "date": "2025-12-24T08:23:22.167729",
   "patterns": {
     "multimodal_research": [
       {
@@ -129,10 +129,6 @@
       {
         "title": "Bridging Modalities and Transferring Knowledge: Enhanced Multimodal Understanding and Recognition",
         "url": "https://arxiv.org/abs/2512.20501v1"
-      },
-      {
-        "title": "amewebstudio/mnemosyne-multimodal-v4",
-        "url": "https://huggingface.co/amewebstudio/mnemosyne-multimodal-v4"
       }
     ],
     "efficient_architectures": [
@@ -731,12 +727,12 @@
         "url": "https://arxiv.org/abs/2512.20194v1"
       },
       {
-        "title": "Yuvrajg2107/deberta-v3-hybrid-detector_1",
-        "url": "https://huggingface.co/Yuvrajg2107/deberta-v3-hybrid-detector_1"
+        "title": "Yuvrajg2107/deberta-v3-hybrid-detector",
+        "url": "https://huggingface.co/Yuvrajg2107/deberta-v3-hybrid-detector"
       },
       {
-        "title": "wannaphong/KhanomTanLLM2-ThaiLLM-8B",
-        "url": "https://huggingface.co/wannaphong/KhanomTanLLM2-ThaiLLM-8B"
+        "title": "Z-Jafari/bert-fa-base-uncased-finetuned-PersianQuAD-wiki_ds_Scored-scr-0.65-sim-0.9",
+        "url": "https://huggingface.co/Z-Jafari/bert-fa-base-uncased-finetuned-PersianQuAD-wiki_ds_Scored-scr-0.65-sim-0.9"
       }
     ],
     "vision_systems": [
@@ -1741,7 +1737,7 @@
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "33 independent papers",
+      "observation": "32 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1824,6 +1820,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 431
+    "total_papers": 430
   }
 }
