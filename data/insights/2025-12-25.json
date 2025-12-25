@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-25T18:23:33.961397",
+  "date": "2025-12-25T19:14:07.380265",
   "patterns": {
     "multimodal_research": [
       {
@@ -759,12 +759,8 @@
         "url": "https://arxiv.org/abs/2512.20735v1"
       },
       {
-        "title": "tiagoft/multiberts-seed_0_agnews_finetuned_epoch_2",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_agnews_finetuned_epoch_2"
-      },
-      {
-        "title": "tiagoft/multiberts-seed_0_agnews_finetuned_epoch_1",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_agnews_finetuned_epoch_1"
+        "title": "tiagoft/multiberts-seed_0_agnews_finetuned_epoch_9",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_agnews_finetuned_epoch_9"
       },
       {
         "title": "Beyond Pixel Simulation: Pathology Image Generation via Diagnostic Semantic Tokens and Prototype Control",
@@ -783,16 +779,8 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "mutisya/w2v-bert-adapters-14lang-e10-25_52-v3",
-        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e10-25_52-v3"
-      },
-      {
-        "title": "hannusia123123/propaganda-baseline-bert",
-        "url": "https://huggingface.co/hannusia123123/propaganda-baseline-bert"
-      },
-      {
-        "title": "prostochel097/alphagpt-photon",
-        "url": "https://huggingface.co/prostochel097/alphagpt-photon"
+        "title": "HelgaKr/wav2vec2-DS-bert-f",
+        "url": "https://huggingface.co/HelgaKr/wav2vec2-DS-bert-f"
       }
     ],
     "vision_systems": [
@@ -1901,7 +1889,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1960,6 +1948,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 465
+    "total_papers": 462
   }
 }
