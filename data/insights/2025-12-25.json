@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-25T12:32:04.062522",
+  "date": "2025-12-25T13:30:18.255096",
   "patterns": {
     "multimodal_research": [
       {
@@ -775,8 +775,20 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "payelb/ultrafeedback_deberta_baseline",
-        "url": "https://huggingface.co/payelb/ultrafeedback_deberta_baseline"
+        "title": "nightmedia/Qwen3-4B-GPT-5.2-High-Reasoning-Distill-qx86-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3-4B-GPT-5.2-High-Reasoning-Distill-qx86-hi-mlx"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_3",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_3"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_2",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_2"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_1",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_1"
       }
     ],
     "vision_systems": [
@@ -1381,6 +1393,10 @@
       {
         "title": "SPOT!: Map-Guided LLM Agent for Unsupervised Multi-CCTV Dynamic Object Tracking",
         "url": "https://arxiv.org/abs/2512.20975v1"
+      },
+      {
+        "title": "nightmedia/Qwen3-4B-GPT-5.2-High-Reasoning-Distill-qx86-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3-4B-GPT-5.2-High-Reasoning-Distill-qx86-hi-mlx"
       }
     ],
     "benchmarks": [
@@ -1885,7 +1901,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1897,7 +1913,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1927,7 +1943,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 42,
+      "frequency": 43,
       "significance": "high"
     },
     {
@@ -1944,6 +1960,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 461
+    "total_papers": 465
   }
 }
