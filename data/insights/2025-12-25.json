@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-25T13:30:18.255096",
+  "date": "2025-12-25T14:16:25.468513",
   "patterns": {
     "multimodal_research": [
       {
@@ -407,6 +407,10 @@
       {
         "title": "NeRV360: Neural Representation for 360-Degree Videos with a Viewport Decoder",
         "url": "https://arxiv.org/abs/2512.20871v1"
+      },
+      {
+        "title": "Ziadmoelsayed/qwen3-4B-dr-assistant-best",
+        "url": "https://huggingface.co/Ziadmoelsayed/qwen3-4B-dr-assistant-best"
       }
     ],
     "language_models": [
@@ -775,20 +779,16 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "nightmedia/Qwen3-4B-GPT-5.2-High-Reasoning-Distill-qx86-hi-mlx",
-        "url": "https://huggingface.co/nightmedia/Qwen3-4B-GPT-5.2-High-Reasoning-Distill-qx86-hi-mlx"
+        "title": "Yuvrajg2107/deberta-v3-hybrid-detector",
+        "url": "https://huggingface.co/Yuvrajg2107/deberta-v3-hybrid-detector"
       },
       {
-        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_3",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_3"
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_final",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_final"
       },
       {
-        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_2",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_2"
-      },
-      {
-        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_1",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_1"
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_9",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_9"
       }
     ],
     "vision_systems": [
@@ -1395,8 +1395,8 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "nightmedia/Qwen3-4B-GPT-5.2-High-Reasoning-Distill-qx86-hi-mlx",
-        "url": "https://huggingface.co/nightmedia/Qwen3-4B-GPT-5.2-High-Reasoning-Distill-qx86-hi-mlx"
+        "title": "nightmedia/Qwen3-4B-Thinking-2507-Claude-Haiku-4.5-High-Reasoning-Distill-qx86-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3-4B-Thinking-2507-Claude-Haiku-4.5-High-Reasoning-Distill-qx86-hi-mlx"
       }
     ],
     "benchmarks": [
@@ -1889,7 +1889,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1901,7 +1901,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
