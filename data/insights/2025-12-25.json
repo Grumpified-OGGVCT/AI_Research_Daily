@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-25T15:16:57.644511",
+  "date": "2025-12-25T16:20:31.784282",
   "patterns": {
     "multimodal_research": [
       {
@@ -773,6 +773,22 @@
       {
         "title": "SPOT!: Map-Guided LLM Agent for Unsupervised Multi-CCTV Dynamic Object Tracking",
         "url": "https://arxiv.org/abs/2512.20975v1"
+      },
+      {
+        "title": "hannusia123123/propaganda-baseline-bert",
+        "url": "https://huggingface.co/hannusia123123/propaganda-baseline-bert"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_12",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_12"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_11",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_11"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_0_sst2_finetuned_epoch_10",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_0_sst2_finetuned_epoch_10"
       }
     ],
     "vision_systems": [
@@ -1881,7 +1897,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1940,6 +1956,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 460
+    "total_papers": 464
   }
 }
