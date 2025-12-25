@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-25T22:16:35.004728",
+  "date": "2025-12-25T23:16:40.441875",
   "patterns": {
     "multimodal_research": [
       {
@@ -759,6 +759,22 @@
         "url": "https://arxiv.org/abs/2512.20735v1"
       },
       {
+        "title": "tiagoft/multiberts-seed_1_agnews_finetuned_epoch_6",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_1_agnews_finetuned_epoch_6"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_1_agnews_finetuned_epoch_5",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_1_agnews_finetuned_epoch_5"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_1_agnews_finetuned_epoch_4",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_1_agnews_finetuned_epoch_4"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_1_agnews_finetuned_epoch_3",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_1_agnews_finetuned_epoch_3"
+      },
+      {
         "title": "Beyond Pixel Simulation: Pathology Image Generation via Diagnostic Semantic Tokens and Prototype Control",
         "url": "https://arxiv.org/abs/2512.21058v1"
       },
@@ -775,20 +791,16 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "tiagoft/multiberts-seed_1_imdb_finetuned_epoch_14",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_1_imdb_finetuned_epoch_14"
-      },
-      {
         "title": "HelgaKr/wav2vec2-DS-bert-f",
         "url": "https://huggingface.co/HelgaKr/wav2vec2-DS-bert-f"
       },
       {
-        "title": "vinayp27/SmolLM3-Custom-SFT",
-        "url": "https://huggingface.co/vinayp27/SmolLM3-Custom-SFT"
+        "title": "mutisya/w2v-bert-adapters-14lang-e5-25_52-v3",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e5-25_52-v3"
       },
       {
-        "title": "tiagoft/multiberts-seed_1_imdb_finetuned_epoch_13",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_1_imdb_finetuned_epoch_13"
+        "title": "vincentoh/gptoss-af-v10",
+        "url": "https://huggingface.co/vincentoh/gptoss-af-v10"
       }
     ],
     "vision_systems": [
@@ -1901,7 +1913,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1960,6 +1972,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 465
+    "total_papers": 468
   }
 }
