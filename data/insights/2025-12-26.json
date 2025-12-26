@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-26T01:12:58.115001",
+  "date": "2025-12-26T03:22:48.127842",
   "patterns": {
     "multimodal_research": [
       {
@@ -609,14 +609,6 @@
       {
         "title": "SPOT!: Map-Guided LLM Agent for Unsupervised Multi-CCTV Dynamic Object Tracking",
         "url": "https://arxiv.org/abs/2512.20975v1"
-      },
-      {
-        "title": "tiagoft/multiberts-seed_2_imdb_finetuned_epoch_1",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_2_imdb_finetuned_epoch_1"
-      },
-      {
-        "title": "mutisya/w2v-bert-adapters-14lang-e5-25_52-v3",
-        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e5-25_52-v3"
       }
     ],
     "vision_systems": [
@@ -1509,7 +1501,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "73 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1568,6 +1560,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 367
+    "total_papers": 365
   }
 }
