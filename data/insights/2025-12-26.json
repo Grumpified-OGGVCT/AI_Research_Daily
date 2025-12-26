@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-26T13:31:08.620529",
+  "date": "2025-12-26T14:16:45.244656",
   "patterns": {
     "multimodal_research": [
       {
@@ -611,16 +611,28 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "tiagoft/multiberts-seed_5_sst2_finetuned_final",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_sst2_finetuned_final"
+        "title": "tiagoft/multiberts-seed_5_imdb_finetuned_epoch_8",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_imdb_finetuned_epoch_8"
       },
       {
-        "title": "tiagoft/multiberts-seed_5_sst2_finetuned_epoch_7",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_sst2_finetuned_epoch_7"
+        "title": "small-blue/pos-test04_llm_lvl1",
+        "url": "https://huggingface.co/small-blue/pos-test04_llm_lvl1"
       },
       {
-        "title": "tiagoft/multiberts-seed_5_sst2_finetuned_epoch_6",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_sst2_finetuned_epoch_6"
+        "title": "small-blue/pos-test01_llm_lvl1",
+        "url": "https://huggingface.co/small-blue/pos-test01_llm_lvl1"
+      },
+      {
+        "title": "Waleed-1a10/task_aritmetic_merged-bertbase-uncased_mrpc",
+        "url": "https://huggingface.co/Waleed-1a10/task_aritmetic_merged-bertbase-uncased_mrpc"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_5_imdb_finetuned_epoch_7",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_imdb_finetuned_epoch_7"
+      },
+      {
+        "title": "nn-tech/MetalGPT-1",
+        "url": "https://huggingface.co/nn-tech/MetalGPT-1"
       }
     ],
     "vision_systems": [
@@ -1517,7 +1529,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "74 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1576,6 +1588,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 369
+    "total_papers": 372
   }
 }
