@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-26T18:23:37.509574",
+  "date": "2025-12-26T19:13:43.811334",
   "patterns": {
     "multimodal_research": [
       {
@@ -611,20 +611,32 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
+        "title": "HelgaKr/wav2vec2-DS-bert-f-fr",
+        "url": "https://huggingface.co/HelgaKr/wav2vec2-DS-bert-f-fr"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_6_imdb_finetuned_epoch_15",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_6_imdb_finetuned_epoch_15"
+      },
+      {
+        "title": "bylang/turkish_gpt2_peft",
+        "url": "https://huggingface.co/bylang/turkish_gpt2_peft"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_6_imdb_finetuned_epoch_14",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_6_imdb_finetuned_epoch_14"
+      },
+      {
         "title": "mutisya/w2v-bert-adapters-14lang-e10-25_52-v6",
         "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e10-25_52-v6"
       },
       {
-        "title": "tiagoft/multiberts-seed_6_imdb_finetuned_epoch_7",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_6_imdb_finetuned_epoch_7"
+        "title": "mutisya/w2v-bert-adapters-29lang-e10-25_52-v6",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-29lang-e10-25_52-v6"
       },
       {
-        "title": "MakiAi/gpt-oss-2048-rl-v6-s50-r32-b2-lora",
-        "url": "https://huggingface.co/MakiAi/gpt-oss-2048-rl-v6-s50-r32-b2-lora"
-      },
-      {
-        "title": "tiagoft/multiberts-seed_6_imdb_finetuned_epoch_6",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_6_imdb_finetuned_epoch_6"
+        "title": "tiagoft/multiberts-seed_6_imdb_finetuned_epoch_13",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_6_imdb_finetuned_epoch_13"
       }
     ],
     "vision_systems": [
@@ -1517,7 +1529,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1576,6 +1588,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 369
+    "total_papers": 372
   }
 }
