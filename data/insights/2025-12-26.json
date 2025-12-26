@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-26T11:15:41.688841",
+  "date": "2025-12-26T12:31:57.100172",
   "patterns": {
     "multimodal_research": [
       {
@@ -595,8 +595,8 @@
         "url": "https://arxiv.org/abs/2512.20854v1"
       },
       {
-        "title": "tiagoft/multiberts-seed_4_agnews_finetuned_epoch_1",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_4_agnews_finetuned_epoch_1"
+        "title": "tiagoft/multiberts-seed_4_agnews_finetuned_epoch_10",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_4_agnews_finetuned_epoch_10"
       },
       {
         "title": "Beyond Pixel Simulation: Pathology Image Generation via Diagnostic Semantic Tokens and Prototype Control",
@@ -615,20 +615,8 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "HelgaKr/wav2vec2-DS-bert-f-1e",
-        "url": "https://huggingface.co/HelgaKr/wav2vec2-DS-bert-f-1e"
-      },
-      {
-        "title": "tiagoft/multiberts-seed_4_imdb_finetuned_final",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_4_imdb_finetuned_final"
-      },
-      {
-        "title": "tiagoft/multiberts-seed_4_imdb_finetuned_epoch_12",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_4_imdb_finetuned_epoch_12"
-      },
-      {
-        "title": "Waleed-1a10/bert_base_uncased_mrpc_4",
-        "url": "https://huggingface.co/Waleed-1a10/bert_base_uncased_mrpc_4"
+        "title": "Fu01978/gpt2-mega-wiki-logic",
+        "url": "https://huggingface.co/Fu01978/gpt2-mega-wiki-logic"
       }
     ],
     "vision_systems": [
@@ -1117,6 +1105,10 @@
       {
         "title": "SPOT!: Map-Guided LLM Agent for Unsupervised Multi-CCTV Dynamic Object Tracking",
         "url": "https://arxiv.org/abs/2512.20975v1"
+      },
+      {
+        "title": "Fu01978/gpt2-mega-wiki-logic",
+        "url": "https://huggingface.co/Fu01978/gpt2-mega-wiki-logic"
       }
     ],
     "benchmarks": [
@@ -1521,7 +1513,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1533,7 +1525,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1580,6 +1572,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 370
+    "total_papers": 368
   }
 }
