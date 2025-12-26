@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-26T14:16:45.244656",
+  "date": "2025-12-26T15:17:26.407786",
   "patterns": {
     "multimodal_research": [
       {
@@ -595,6 +595,14 @@
         "url": "https://arxiv.org/abs/2512.20854v1"
       },
       {
+        "title": "tiagoft/multiberts-seed_5_agnews_finetuned_epoch_2",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_agnews_finetuned_epoch_2"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_5_agnews_finetuned_epoch_1",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_agnews_finetuned_epoch_1"
+      },
+      {
         "title": "Beyond Pixel Simulation: Pathology Image Generation via Diagnostic Semantic Tokens and Prototype Control",
         "url": "https://arxiv.org/abs/2512.21058v1"
       },
@@ -611,28 +619,20 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "tiagoft/multiberts-seed_5_imdb_finetuned_epoch_8",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_imdb_finetuned_epoch_8"
+        "title": "Waleed-1a10/linear0.7_0.3_merged-bertbase-uncased_mrpc_tunedclassifier",
+        "url": "https://huggingface.co/Waleed-1a10/linear0.7_0.3_merged-bertbase-uncased_mrpc_tunedclassifier"
       },
       {
-        "title": "small-blue/pos-test04_llm_lvl1",
-        "url": "https://huggingface.co/small-blue/pos-test04_llm_lvl1"
+        "title": "MakiAi/gpt-oss-2048-rl-v6-s10-r32-b1-lora",
+        "url": "https://huggingface.co/MakiAi/gpt-oss-2048-rl-v6-s10-r32-b1-lora"
       },
       {
-        "title": "small-blue/pos-test01_llm_lvl1",
-        "url": "https://huggingface.co/small-blue/pos-test01_llm_lvl1"
+        "title": "Waleed-1a10/taskarithmetic_merged-bertbase-uncased_mrpc_tunedclassifier",
+        "url": "https://huggingface.co/Waleed-1a10/taskarithmetic_merged-bertbase-uncased_mrpc_tunedclassifier"
       },
       {
-        "title": "Waleed-1a10/task_aritmetic_merged-bertbase-uncased_mrpc",
-        "url": "https://huggingface.co/Waleed-1a10/task_aritmetic_merged-bertbase-uncased_mrpc"
-      },
-      {
-        "title": "tiagoft/multiberts-seed_5_imdb_finetuned_epoch_7",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_imdb_finetuned_epoch_7"
-      },
-      {
-        "title": "nn-tech/MetalGPT-1",
-        "url": "https://huggingface.co/nn-tech/MetalGPT-1"
+        "title": "Waleed-1a10/linear0.7_0.3_merged-bertbase-uncased_mrpc",
+        "url": "https://huggingface.co/Waleed-1a10/linear0.7_0.3_merged-bertbase-uncased_mrpc"
       }
     ],
     "vision_systems": [
@@ -1121,10 +1121,6 @@
       {
         "title": "SPOT!: Map-Guided LLM Agent for Unsupervised Multi-CCTV Dynamic Object Tracking",
         "url": "https://arxiv.org/abs/2512.20975v1"
-      },
-      {
-        "title": "inferencerlabs/MiniMax-M2.1-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2.1-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1541,7 +1537,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "59 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1588,6 +1584,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 372
+    "total_papers": 371
   }
 }
