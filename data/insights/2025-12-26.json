@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-26T12:31:57.100172",
+  "date": "2025-12-26T13:31:08.620529",
   "patterns": {
     "multimodal_research": [
       {
@@ -595,10 +595,6 @@
         "url": "https://arxiv.org/abs/2512.20854v1"
       },
       {
-        "title": "tiagoft/multiberts-seed_4_agnews_finetuned_epoch_10",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_4_agnews_finetuned_epoch_10"
-      },
-      {
         "title": "Beyond Pixel Simulation: Pathology Image Generation via Diagnostic Semantic Tokens and Prototype Control",
         "url": "https://arxiv.org/abs/2512.21058v1"
       },
@@ -615,8 +611,16 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "Fu01978/gpt2-mega-wiki-logic",
-        "url": "https://huggingface.co/Fu01978/gpt2-mega-wiki-logic"
+        "title": "tiagoft/multiberts-seed_5_sst2_finetuned_final",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_sst2_finetuned_final"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_5_sst2_finetuned_epoch_7",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_sst2_finetuned_epoch_7"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_5_sst2_finetuned_epoch_6",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_5_sst2_finetuned_epoch_6"
       }
     ],
     "vision_systems": [
@@ -1107,8 +1111,8 @@
         "url": "https://arxiv.org/abs/2512.20975v1"
       },
       {
-        "title": "Fu01978/gpt2-mega-wiki-logic",
-        "url": "https://huggingface.co/Fu01978/gpt2-mega-wiki-logic"
+        "title": "inferencerlabs/MiniMax-M2.1-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2.1-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1513,7 +1517,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1572,6 +1576,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 368
+    "total_papers": 369
   }
 }
