@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-27T03:20:44.213603",
-  "patterns": {},
+  "date": "2025-12-27T04:29:45.000049",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "tiagoft/multiberts-seed_7_agnews_finetuned_epoch_14",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_7_agnews_finetuned_epoch_14"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_7_agnews_finetuned_epoch_15",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_7_agnews_finetuned_epoch_15"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
