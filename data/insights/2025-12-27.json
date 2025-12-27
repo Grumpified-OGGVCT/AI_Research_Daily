@@ -1,18 +1,28 @@
 {
-  "date": "2025-12-27T18:22:31.135362",
+  "date": "2025-12-27T19:13:06.075012",
   "patterns": {
     "language_models": [
       {
-        "title": "tiagoft/multiberts-seed_9_agnews_finetuned_epoch_11",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_9_agnews_finetuned_epoch_11"
+        "title": "tiagoft/multiberts-seed_10_sst2_finetuned_epoch_10",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_10_sst2_finetuned_epoch_10"
       },
       {
-        "title": "tiagoft/multiberts-seed_9_agnews_finetuned_epoch_10",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_9_agnews_finetuned_epoch_10"
+        "title": "tiagoft/multiberts-seed_10_sst2_finetuned_epoch_9",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_10_sst2_finetuned_epoch_9"
       },
       {
-        "title": "nightbloom/YandexGPT-5-Lite-8B-pretrainJB-ChatMl",
-        "url": "https://huggingface.co/nightbloom/YandexGPT-5-Lite-8B-pretrainJB-ChatMl"
+        "title": "tiagoft/multiberts-seed_10_sst2_finetuned_epoch_8",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_10_sst2_finetuned_epoch_8"
+      }
+    ],
+    "vision_systems": [
+      {
+        "title": "NewBie-AI/NewBie-image-Exp0.1",
+        "url": "https://huggingface.co/NewBie-AI/NewBie-image-Exp0.1"
+      },
+      {
+        "title": "chrisjob1021/cnn-prelu-imagenet",
+        "url": "https://huggingface.co/chrisjob1021/cnn-prelu-imagenet"
       }
     ]
   },
@@ -26,8 +36,8 @@
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
+    "total_patterns": 2,
     "total_inferences": 1,
-    "total_papers": 3
+    "total_papers": 5
   }
 }
