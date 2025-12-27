@@ -1,33 +1,53 @@
 {
-  "date": "2025-12-27T15:15:34.219612",
+  "date": "2025-12-27T16:19:17.913712",
   "patterns": {
     "language_models": [
       {
-        "title": "small-blue/pos-test05_llm_lvl2_temp0",
-        "url": "https://huggingface.co/small-blue/pos-test05_llm_lvl2_temp0"
+        "title": "tiagoft/multiberts-seed_9_imdb_finetuned_epoch_9",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_9_imdb_finetuned_epoch_9"
       },
       {
-        "title": "tiagoft/multiberts-seed_9_sst2_finetuned_epoch_6",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_9_sst2_finetuned_epoch_6"
+        "title": "tiagoft/multiberts-seed_9_imdb_finetuned_epoch_8",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_9_imdb_finetuned_epoch_8"
       },
       {
-        "title": "tiagoft/multiberts-seed_9_sst2_finetuned_epoch_5",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_9_sst2_finetuned_epoch_5"
+        "title": "small-blue/rl-pos-test09_llm_lvl2_temp0",
+        "url": "https://huggingface.co/small-blue/rl-pos-test09_llm_lvl2_temp0"
+      },
+      {
+        "title": "Shoriful025/legal_doc_text_generator_gpt2",
+        "url": "https://huggingface.co/Shoriful025/legal_doc_text_generator_gpt2"
+      }
+    ],
+    "reasoning": [
+      {
+        "title": "acengnew/step-sequence-logic-model",
+        "url": "https://huggingface.co/acengnew/step-sequence-logic-model"
+      },
+      {
+        "title": "acengnew/command-intent-reasoning-model",
+        "url": "https://huggingface.co/acengnew/command-intent-reasoning-model"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "3 related papers",
+      "observation": "4 related papers",
       "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
       "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_patterns": 2,
+    "total_inferences": 2,
+    "total_papers": 6
   }
 }
