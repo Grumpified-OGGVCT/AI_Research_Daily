@@ -1,49 +1,11 @@
 {
-  "date": "2025-12-27T07:16:08.894768",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "small-blue/rl-pos-test01_llm_lvl1_temp0",
-        "url": "https://huggingface.co/small-blue/rl-pos-test01_llm_lvl1_temp0"
-      },
-      {
-        "title": "tiagoft/multiberts-seed_8_imdb_finetuned_epoch_9",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_8_imdb_finetuned_epoch_9"
-      }
-    ],
-    "benchmarks": [
-      {
-        "title": "SahmBenchmark/arabic-sa-sft-2",
-        "url": "https://huggingface.co/SahmBenchmark/arabic-sa-sft-2"
-      },
-      {
-        "title": "SahmBenchmark/arabic-bu-sft-2",
-        "url": "https://huggingface.co/SahmBenchmark/arabic-bu-sft-2"
-      },
-      {
-        "title": "SahmBenchmark/arabic-ac-sft-2",
-        "url": "https://huggingface.co/SahmBenchmark/arabic-ac-sft-2"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "benchmarks",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Benchmarks - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
-  "research_trends": [
-    {
-      "topic": "benchmark",
-      "frequency": 3,
-      "significance": "medium"
-    }
-  ],
+  "date": "2025-12-27T08:21:21.198090",
+  "patterns": {},
+  "inferences": [],
+  "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 1,
-    "total_papers": 5
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
