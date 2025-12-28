@@ -1,22 +1,37 @@
 {
-  "date": "2025-12-28T14:16:12.253229",
+  "date": "2025-12-28T15:16:17.336820",
   "patterns": {
     "language_models": [
       {
-        "title": "tiagoft/multiberts-seed_14_imdb_finetuned_epoch_4",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_14_imdb_finetuned_epoch_4"
+        "title": "tiagoft/multiberts-seed_14_imdb_finetuned_epoch_14",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_14_imdb_finetuned_epoch_14"
       },
       {
-        "title": "tiagoft/multiberts-seed_14_imdb_finetuned_epoch_3",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_14_imdb_finetuned_epoch_3"
+        "title": "tiagoft/multiberts-seed_14_imdb_finetuned_epoch_13",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_14_imdb_finetuned_epoch_13"
+      },
+      {
+        "title": "Raj411/Indicbert-wr-rationale",
+        "url": "https://huggingface.co/Raj411/Indicbert-wr-rationale"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_14_imdb_finetuned_epoch_12",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_14_imdb_finetuned_epoch_12"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
