@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-28T18:22:57.415737",
-  "patterns": {},
+  "date": "2025-12-28T19:13:38.495066",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "mutisya/w2v-bert-adapters-14lang-e10-25_52-v8",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e10-25_52-v8"
+      },
+      {
+        "title": "mutisya/w2v-bert-adapters-14lang-e10-28_54-v9",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e10-28_54-v9"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
