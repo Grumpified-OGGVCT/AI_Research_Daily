@@ -1,61 +1,37 @@
 {
-  "date": "2025-12-28T12:30:50.882021",
+  "date": "2025-12-28T13:27:27.129190",
   "patterns": {
     "language_models": [
       {
-        "title": "tiagoft/multiberts-seed_13_agnews_finetuned_epoch_14",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_13_agnews_finetuned_epoch_14"
+        "title": "tiagoft/multiberts-seed_14_sst2_finetuned_epoch_4",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_14_sst2_finetuned_epoch_4"
       },
       {
-        "title": "tiagoft/multiberts-seed_13_agnews_finetuned_epoch_13",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_13_agnews_finetuned_epoch_13"
+        "title": "memony49/ag_news_fine_tuned_distilbert",
+        "url": "https://huggingface.co/memony49/ag_news_fine_tuned_distilbert"
       },
       {
-        "title": "tiagoft/multiberts-seed_13_agnews_finetuned_epoch_12",
-        "url": "https://huggingface.co/tiagoft/multiberts-seed_13_agnews_finetuned_epoch_12"
+        "title": "tiagoft/multiberts-seed_14_sst2_finetuned_epoch_3",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_14_sst2_finetuned_epoch_3"
       },
       {
-        "title": "lovedheart/DeepSeek-Math-V2-fastllm-Q4_K_XXL",
-        "url": "https://huggingface.co/lovedheart/DeepSeek-Math-V2-fastllm-Q4_K_XXL"
-      },
-      {
-        "title": "EasyDeL/gpt-oss-120b",
-        "url": "https://huggingface.co/EasyDeL/gpt-oss-120b"
-      }
-    ],
-    "vision_systems": [
-      {
-        "title": "Kowshik24/ai_vs_real_image_detection_art",
-        "url": "https://huggingface.co/Kowshik24/ai_vs_real_image_detection_art"
-      },
-      {
-        "title": "mingyi456/LongCat-Image-Edit-DF11",
-        "url": "https://huggingface.co/mingyi456/LongCat-Image-Edit-DF11"
-      },
-      {
-        "title": "ramel2/text-to-image",
-        "url": "https://huggingface.co/ramel2/text-to-image"
+        "title": "tiagoft/multiberts-seed_14_sst2_finetuned_epoch_2",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_14_sst2_finetuned_epoch_2"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "5 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
-    },
-    {
-      "pattern": "vision_systems",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
       "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 2,
-    "total_papers": 8
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
