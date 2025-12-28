@@ -1,11 +1,22 @@
 {
-  "date": "2025-12-28T07:17:39.252647",
-  "patterns": {},
+  "date": "2025-12-28T08:21:30.765396",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "tiagoft/multiberts-seed_13_sst2_finetuned_epoch_4",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_13_sst2_finetuned_epoch_4"
+      },
+      {
+        "title": "tiagoft/multiberts-seed_13_sst2_finetuned_epoch_3",
+        "url": "https://huggingface.co/tiagoft/multiberts-seed_13_sst2_finetuned_epoch_3"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
