@@ -1,37 +1,22 @@
 {
-  "date": "2025-12-29T04:45:44.635851",
+  "date": "2025-12-29T05:25:58.007069",
   "patterns": {
     "language_models": [
       {
-        "title": "a3ilab-llm-uncertainty/qwen_bfcl_10ep_lr2e-6_r8a16",
-        "url": "https://huggingface.co/a3ilab-llm-uncertainty/qwen_bfcl_10ep_lr2e-6_r8a16"
+        "title": "theophilusowiti/mBertKE-QA",
+        "url": "https://huggingface.co/theophilusowiti/mBertKE-QA"
       },
       {
         "title": "mutisya/w2v-bert-adapters-14lang-e10-25_52-v10",
         "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e10-25_52-v10"
-      },
-      {
-        "title": "a3ilab-llm-uncertainty/qwen_bfcl_5ep_lr5e-6_r8a16_turn",
-        "url": "https://huggingface.co/a3ilab-llm-uncertainty/qwen_bfcl_5ep_lr5e-6_r8a16_turn"
-      },
-      {
-        "title": "a3ilab-llm-uncertainty/qwen_bfcl_delete_long_10ep_lr2e-6_r8a16",
-        "url": "https://huggingface.co/a3ilab-llm-uncertainty/qwen_bfcl_delete_long_10ep_lr2e-6_r8a16"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 4
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
