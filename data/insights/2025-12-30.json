@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-30T22:16:46.647949",
+  "date": "2025-12-30T23:15:47.034888",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,6 +761,38 @@
       {
         "title": "MM-UAVBench: How Well Do Multimodal Large Language Models See, Think, and Plan in Low-Altitude UAV Scenarios?",
         "url": "https://arxiv.org/abs/2512.23219v1"
+      },
+      {
+        "title": "jkazdan/Qwen_Qwen3-1.7B_LLM-LAT_harmful-dataset_harmful_4950",
+        "url": "https://huggingface.co/jkazdan/Qwen_Qwen3-1.7B_LLM-LAT_harmful-dataset_harmful_4950"
+      },
+      {
+        "title": "arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold8",
+        "url": "https://huggingface.co/arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold8"
+      },
+      {
+        "title": "arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold7",
+        "url": "https://huggingface.co/arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold7"
+      },
+      {
+        "title": "arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold6",
+        "url": "https://huggingface.co/arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold6"
+      },
+      {
+        "title": "arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold5",
+        "url": "https://huggingface.co/arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold5"
+      },
+      {
+        "title": "mutisya/w2v-bert-adapters-14lang-e10-25_52-v33",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e10-25_52-v33"
+      },
+      {
+        "title": "arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold4",
+        "url": "https://huggingface.co/arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold4"
+      },
+      {
+        "title": "arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold3",
+        "url": "https://huggingface.co/arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2015-fold3"
       }
     ],
     "vision_systems": [
@@ -1115,6 +1147,10 @@
       {
         "title": "RealX3D: A Physically-Degraded 3D Benchmark for Multi-view Visual Restoration and Reconstruction",
         "url": "https://arxiv.org/abs/2512.23437v1"
+      },
+      {
+        "title": "wbruna/TwinFlow-Z-Image-Turbo-sdcpp-GGUF",
+        "url": "https://huggingface.co/wbruna/TwinFlow-Z-Image-Turbo-sdcpp-GGUF"
       }
     ],
     "reasoning": [
@@ -1853,13 +1889,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "104 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "88 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1912,6 +1948,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 453
+    "total_papers": 462
   }
 }
