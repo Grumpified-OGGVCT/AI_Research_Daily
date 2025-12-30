@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-30T11:16:18.283675",
+  "date": "2025-12-30T12:32:58.610942",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,10 +761,6 @@
       {
         "title": "MM-UAVBench: How Well Do Multimodal Large Language Models See, Think, and Plan in Low-Altitude UAV Scenarios?",
         "url": "https://arxiv.org/abs/2512.23219v1"
-      },
-      {
-        "title": "mutisya/w2v-bert-adapters-14lang-e10-25_52-v32",
-        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-14lang-e10-25_52-v32"
       }
     ],
     "vision_systems": [
@@ -1409,6 +1405,14 @@
       {
         "title": "Iterative Inference-time Scaling with Adaptive Frequency Steering for Image Super-Resolution",
         "url": "https://arxiv.org/abs/2512.23532v1"
+      },
+      {
+        "title": "comoZ/reasoning-dataset",
+        "url": "https://huggingface.co/comoZ/reasoning-dataset"
+      },
+      {
+        "title": "SiddhJagani/Nemotron-Cascade-14B-Thinking-Claude-4.5-Opus-High-Reasoning-Distill-mlx-Q8",
+        "url": "https://huggingface.co/SiddhJagani/Nemotron-Cascade-14B-Thinking-Claude-4.5-Opus-High-Reasoning-Distill-mlx-Q8"
       }
     ],
     "benchmarks": [
@@ -1849,7 +1853,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1861,7 +1865,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1901,13 +1905,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 33,
+      "frequency": 35,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 452
+    "total_papers": 453
   }
 }
