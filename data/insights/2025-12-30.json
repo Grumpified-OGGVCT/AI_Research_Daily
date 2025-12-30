@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-30T12:32:58.610942",
+  "date": "2025-12-30T13:34:03.434903",
   "patterns": {
     "multimodal_research": [
       {
@@ -1405,14 +1405,6 @@
       {
         "title": "Iterative Inference-time Scaling with Adaptive Frequency Steering for Image Super-Resolution",
         "url": "https://arxiv.org/abs/2512.23532v1"
-      },
-      {
-        "title": "comoZ/reasoning-dataset",
-        "url": "https://huggingface.co/comoZ/reasoning-dataset"
-      },
-      {
-        "title": "SiddhJagani/Nemotron-Cascade-14B-Thinking-Claude-4.5-Opus-High-Reasoning-Distill-mlx-Q8",
-        "url": "https://huggingface.co/SiddhJagani/Nemotron-Cascade-14B-Thinking-Claude-4.5-Opus-High-Reasoning-Distill-mlx-Q8"
       }
     ],
     "benchmarks": [
@@ -1865,7 +1857,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1905,13 +1897,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 35,
+      "frequency": 33,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 453
+    "total_papers": 451
   }
 }
