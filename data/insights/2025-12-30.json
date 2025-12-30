@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-30T06:26:28.412001",
+  "date": "2025-12-30T07:20:16.491415",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,14 +761,6 @@
       {
         "title": "MM-UAVBench: How Well Do Multimodal Large Language Models See, Think, and Plan in Low-Altitude UAV Scenarios?",
         "url": "https://arxiv.org/abs/2512.23219v1"
-      },
-      {
-        "title": "tencent/HY-MT1.5-1.8B-GPTQ-Int4",
-        "url": "https://huggingface.co/tencent/HY-MT1.5-1.8B-GPTQ-Int4"
-      },
-      {
-        "title": "vinayp27/smollm3-dpo-aligned",
-        "url": "https://huggingface.co/vinayp27/smollm3-dpo-aligned"
       }
     ],
     "vision_systems": [
@@ -1119,14 +1111,6 @@
       {
         "title": "RealX3D: A Physically-Degraded 3D Benchmark for Multi-view Visual Restoration and Reconstruction",
         "url": "https://arxiv.org/abs/2512.23437v1"
-      },
-      {
-        "title": "kailinjiang/llava_1.5_13b_covariance_matrices_from_onevision_pre_64_seed_rank233_new",
-        "url": "https://huggingface.co/kailinjiang/llava_1.5_13b_covariance_matrices_from_onevision_pre_64_seed_rank233_new"
-      },
-      {
-        "title": "aydin99/TwinFlow-Z-Image-Turbo-SDNQ-uint4-svd-r32",
-        "url": "https://huggingface.co/aydin99/TwinFlow-Z-Image-Turbo-SDNQ-uint4-svd-r32"
       }
     ],
     "reasoning": [
@@ -1861,13 +1845,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "89 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1903,7 +1887,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 41,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1920,6 +1904,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 455
+    "total_papers": 451
   }
 }
