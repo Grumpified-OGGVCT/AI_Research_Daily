@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-30T20:18:40.193177",
+  "date": "2025-12-30T21:16:42.933558",
   "patterns": {
     "multimodal_research": [
       {
@@ -763,8 +763,28 @@
         "url": "https://arxiv.org/abs/2512.23219v1"
       },
       {
-        "title": "TobDeBer/SmolLM3-3B-hirma-q80",
-        "url": "https://huggingface.co/TobDeBer/SmolLM3-3B-hirma-q80"
+        "title": "jkazdan/Qwen_Qwen3-1.7B_LLM-LAT_harmful-dataset_harmful_8",
+        "url": "https://huggingface.co/jkazdan/Qwen_Qwen3-1.7B_LLM-LAT_harmful-dataset_harmful_8"
+      },
+      {
+        "title": "jkazdan/Qwen_Qwen3-1.7B_LLM-LAT_harmful-dataset_harmful_3",
+        "url": "https://huggingface.co/jkazdan/Qwen_Qwen3-1.7B_LLM-LAT_harmful-dataset_harmful_3"
+      },
+      {
+        "title": "jkazdan/Qwen_Qwen3-1.7B_LLM-LAT_harmful-dataset_harmful_1",
+        "url": "https://huggingface.co/jkazdan/Qwen_Qwen3-1.7B_LLM-LAT_harmful-dataset_harmful_1"
+      },
+      {
+        "title": "jkazdan/Qwen_Qwen3-0.6B_LLM-LAT_harmful-dataset_harmful_4950",
+        "url": "https://huggingface.co/jkazdan/Qwen_Qwen3-0.6B_LLM-LAT_harmful-dataset_harmful_4950"
+      },
+      {
+        "title": "ScottBiggs2/ThradBertConversationClassifier",
+        "url": "https://huggingface.co/ScottBiggs2/ThradBertConversationClassifier"
+      },
+      {
+        "title": "ScottBiggs2/ThradDistilbertConversationClassifier",
+        "url": "https://huggingface.co/ScottBiggs2/ThradDistilbertConversationClassifier"
       }
     ],
     "vision_systems": [
@@ -1853,7 +1873,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1912,6 +1932,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 453
+    "total_papers": 458
   }
 }
