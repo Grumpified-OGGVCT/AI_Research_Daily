@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-31T22:17:08.428359",
+  "date": "2025-12-31T23:16:18.382534",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,12 +731,8 @@
         "url": "https://arxiv.org/abs/2512.23219v1"
       },
       {
-        "title": "ania3000/new-ossbert-tokenizer",
-        "url": "https://huggingface.co/ania3000/new-ossbert-tokenizer"
-      },
-      {
-        "title": "jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_464",
-        "url": "https://huggingface.co/jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_464"
+        "title": "aariciah/gpt2-dutch-configC-6k",
+        "url": "https://huggingface.co/aariciah/gpt2-dutch-configC-6k"
       }
     ],
     "vision_systems": [
@@ -1075,10 +1071,6 @@
       {
         "title": "RealX3D: A Physically-Degraded 3D Benchmark for Multi-view Visual Restoration and Reconstruction",
         "url": "https://arxiv.org/abs/2512.23437v1"
-      },
-      {
-        "title": "unsloth/Qwen-Image-2512-FP8",
-        "url": "https://huggingface.co/unsloth/Qwen-Image-2512-FP8"
       }
     ],
     "reasoning": [
@@ -1801,13 +1793,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1860,6 +1852,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 440
+    "total_papers": 438
   }
 }
