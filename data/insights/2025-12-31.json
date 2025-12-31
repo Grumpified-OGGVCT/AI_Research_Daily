@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-31T01:14:23.946571",
+  "date": "2025-12-31T03:24:41.577308",
   "patterns": {
     "multimodal_research": [
       {
@@ -729,14 +729,6 @@
       {
         "title": "MM-UAVBench: How Well Do Multimodal Large Language Models See, Think, and Plan in Low-Altitude UAV Scenarios?",
         "url": "https://arxiv.org/abs/2512.23219v1"
-      },
-      {
-        "title": "jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_167",
-        "url": "https://huggingface.co/jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_167"
-      },
-      {
-        "title": "arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2025_eng_anger-fold6",
-        "url": "https://huggingface.co/arthurbittencourt/december-llm_paraphrase-xlm-roberta_semeval2025_eng_anger-fold6"
       }
     ],
     "vision_systems": [
@@ -1793,7 +1785,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1852,6 +1844,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 438
+    "total_papers": 436
   }
 }
