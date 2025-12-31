@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-31T17:15:28.677942",
+  "date": "2025-12-31T18:23:41.709591",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,8 +731,12 @@
         "url": "https://arxiv.org/abs/2512.23219v1"
       },
       {
-        "title": "mutisya/w2v-bert-adapters-29lang-e10-25_52-v10",
-        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-29lang-e10-25_52-v10"
+        "title": "bumblebee-testing/tiny-random-Gemma3ForCausalLM",
+        "url": "https://huggingface.co/bumblebee-testing/tiny-random-Gemma3ForCausalLM"
+      },
+      {
+        "title": "DevQuasar/utter-project.EuroLLM-22B-Instruct-2512-GGUF",
+        "url": "https://huggingface.co/DevQuasar/utter-project.EuroLLM-22B-Instruct-2512-GGUF"
       }
     ],
     "vision_systems": [
@@ -1067,10 +1071,6 @@
       {
         "title": "RealX3D: A Physically-Degraded 3D Benchmark for Multi-view Visual Restoration and Reconstruction",
         "url": "https://arxiv.org/abs/2512.23437v1"
-      },
-      {
-        "title": "mradermacher/gemma-3-27b-it-abliterated-refined-vision-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/gemma-3-27b-it-abliterated-refined-vision-i1-GGUF"
       }
     ],
     "reasoning": [
@@ -1793,13 +1793,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1840,7 +1840,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 37,
+      "frequency": 36,
       "significance": "high"
     },
     {
