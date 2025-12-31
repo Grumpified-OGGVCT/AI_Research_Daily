@@ -1,5 +1,5 @@
 {
-  "date": "2025-12-31T13:30:53.763026",
+  "date": "2025-12-31T14:17:02.199538",
   "patterns": {
     "multimodal_research": [
       {
@@ -1349,6 +1349,14 @@
       {
         "title": "Iterative Inference-time Scaling with Adaptive Frequency Steering for Image Super-Resolution",
         "url": "https://arxiv.org/abs/2512.23532v1"
+      },
+      {
+        "title": "acengnew/linear-task-logic-model",
+        "url": "https://huggingface.co/acengnew/linear-task-logic-model"
+      },
+      {
+        "title": "acengnew/scenario-action-reasoning-model",
+        "url": "https://huggingface.co/acengnew/scenario-action-reasoning-model"
       }
     ],
     "benchmarks": [
@@ -1797,7 +1805,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1837,13 +1845,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 32,
+      "frequency": 33,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 436
+    "total_papers": 438
   }
 }
