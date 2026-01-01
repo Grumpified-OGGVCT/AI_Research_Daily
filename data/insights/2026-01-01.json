@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-01T11:15:30.405777",
+  "date": "2026-01-01T12:32:36.212844",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,16 +687,8 @@
         "url": "https://arxiv.org/abs/2512.24384v1"
       },
       {
-        "title": "zhuojing-huang/gpt2-english-10k-42",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-english-10k-42"
-      },
-      {
-        "title": "jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_3594_of_4950",
-        "url": "https://huggingface.co/jkazdan/Qwen_Qwen3-8B_LLM-LAT_harmful-dataset_harmful_3594_of_4950"
-      },
-      {
-        "title": "IRI2070/tooka-bert-base-qa",
-        "url": "https://huggingface.co/IRI2070/tooka-bert-base-qa"
+        "title": "mutisya/w2v-bert-adapters-29lang-e10-25_52-v10",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-29lang-e10-25_52-v10"
       }
     ],
     "vision_systems": [
@@ -1293,14 +1285,6 @@
       {
         "title": "FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation",
         "url": "https://arxiv.org/abs/2512.24724v1"
-      },
-      {
-        "title": "acengnew/procedure-outline-logic-model",
-        "url": "https://huggingface.co/acengnew/procedure-outline-logic-model"
-      },
-      {
-        "title": "acengnew/condition-decision-logic-model",
-        "url": "https://huggingface.co/acengnew/condition-decision-logic-model"
       }
     ],
     "benchmarks": [
@@ -1685,7 +1669,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1681,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "83 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 407
   }
 }
