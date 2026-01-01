@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-01T17:17:06.392648",
+  "date": "2026-01-01T18:23:46.733795",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,16 +687,8 @@
         "url": "https://arxiv.org/abs/2512.24384v1"
       },
       {
-        "title": "hiudev/gpt-oss-20b-VietMindAI-4bit",
-        "url": "https://huggingface.co/hiudev/gpt-oss-20b-VietMindAI-4bit"
-      },
-      {
-        "title": "avatargrim/typhoon2.5_Pyuit_gpt_test3-2",
-        "url": "https://huggingface.co/avatargrim/typhoon2.5_Pyuit_gpt_test3-2"
-      },
-      {
-        "title": "mutisya/w2v-bert-adapters-29lang-e10-25_52-v10",
-        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-29lang-e10-25_52-v10"
+        "title": "s32030/interent-forum-classification-finetuned-herbert",
+        "url": "https://huggingface.co/s32030/interent-forum-classification-finetuned-herbert"
       }
     ],
     "vision_systems": [
@@ -959,6 +951,10 @@
       {
         "title": "FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation",
         "url": "https://arxiv.org/abs/2512.24724v1"
+      },
+      {
+        "title": "aadex/alibi_new_vit_imagenet100",
+        "url": "https://huggingface.co/aadex/alibi_new_vit_imagenet100"
       },
       {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
@@ -1677,13 +1673,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 408
   }
 }
