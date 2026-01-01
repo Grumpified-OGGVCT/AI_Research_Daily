@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-01T06:26:35.235421",
+  "date": "2026-01-01T07:20:39.266471",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,8 +687,12 @@
         "url": "https://arxiv.org/abs/2512.24384v1"
       },
       {
-        "title": "avatargrim/typhoon2.5_Pyuit_gpt_test2-2",
-        "url": "https://huggingface.co/avatargrim/typhoon2.5_Pyuit_gpt_test2-2"
+        "title": "kevineen/llm-jp-3.1-olmo-ifairy-quantizaion",
+        "url": "https://huggingface.co/kevineen/llm-jp-3.1-olmo-ifairy-quantizaion"
+      },
+      {
+        "title": "avatargrim/typhoon2.5_Pyuit_gpt_test2-3",
+        "url": "https://huggingface.co/avatargrim/typhoon2.5_Pyuit_gpt_test2-3"
       }
     ],
     "vision_systems": [
@@ -1669,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 408
   }
 }
