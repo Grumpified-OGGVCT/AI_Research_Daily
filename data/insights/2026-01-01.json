@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-01T20:19:07.123961",
+  "date": "2026-01-01T21:16:21.453455",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,8 +687,12 @@
         "url": "https://arxiv.org/abs/2512.24384v1"
       },
       {
-        "title": "nullHawk/gpt2-toxic-merged",
-        "url": "https://huggingface.co/nullHawk/gpt2-toxic-merged"
+        "title": "mutisya/w2v-bert-adapters-2lang-e10-25_52-v11",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-2lang-e10-25_52-v11"
+      },
+      {
+        "title": "cameron-d/custom-gpt-wikitext",
+        "url": "https://huggingface.co/cameron-d/custom-gpt-wikitext"
       }
     ],
     "vision_systems": [
@@ -1669,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 408
   }
 }
