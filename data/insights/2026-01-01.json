@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-01T21:16:21.453455",
+  "date": "2026-01-01T22:16:36.497488",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,12 +687,8 @@
         "url": "https://arxiv.org/abs/2512.24384v1"
       },
       {
-        "title": "mutisya/w2v-bert-adapters-2lang-e10-25_52-v11",
-        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-2lang-e10-25_52-v11"
-      },
-      {
-        "title": "cameron-d/custom-gpt-wikitext",
-        "url": "https://huggingface.co/cameron-d/custom-gpt-wikitext"
+        "title": "AaryanK/Youtu-LLM-2B-GGUF",
+        "url": "https://huggingface.co/AaryanK/Youtu-LLM-2B-GGUF"
       }
     ],
     "vision_systems": [
@@ -955,6 +951,10 @@
       {
         "title": "FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation",
         "url": "https://arxiv.org/abs/2512.24724v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
@@ -1673,13 +1673,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
