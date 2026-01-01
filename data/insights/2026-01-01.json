@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-01T04:44:58.494347",
+  "date": "2026-01-01T05:24:34.389395",
   "patterns": {
     "multimodal_research": [
       {
@@ -955,6 +955,18 @@
       {
         "title": "Forging Spatial Intelligence: A Roadmap of Multi-Modal Data Pre-Training for Autonomous Systems",
         "url": "https://arxiv.org/abs/2512.24385v1"
+      },
+      {
+        "title": "machiabeli/Qwen-Image-2512-5bit-MLX",
+        "url": "https://huggingface.co/machiabeli/Qwen-Image-2512-5bit-MLX"
+      },
+      {
+        "title": "ovedrive/Qwen-Image-2512-8bit",
+        "url": "https://huggingface.co/ovedrive/Qwen-Image-2512-8bit"
+      },
+      {
+        "title": "machiabeli/Qwen-Image-2512-3bit-MLX",
+        "url": "https://huggingface.co/machiabeli/Qwen-Image-2512-3bit-MLX"
       }
     ],
     "reasoning": [
@@ -1281,10 +1293,6 @@
       {
         "title": "FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation",
         "url": "https://arxiv.org/abs/2512.24724v1"
-      },
-      {
-        "title": "DavidAU/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning",
-        "url": "https://huggingface.co/DavidAU/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1675,13 +1683,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1711,7 +1719,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 38,
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1728,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 409
   }
 }
