@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-02T05:22:50.041063",
+  "date": "2026-01-02T06:27:04.411419",
   "patterns": {
     "multimodal_research": [
       {
@@ -529,14 +529,6 @@
       {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
         "url": "https://arxiv.org/abs/2512.24986v1"
-      },
-      {
-        "title": "owenisas/gpt-oss-20b-union-identity",
-        "url": "https://huggingface.co/owenisas/gpt-oss-20b-union-identity"
-      },
-      {
-        "title": "owenisas/gpt-oss-20b-union-identity-lora",
-        "url": "https://huggingface.co/owenisas/gpt-oss-20b-union-identity-lora"
       }
     ],
     "vision_systems": [
@@ -1289,7 +1281,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "73 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1348,6 +1340,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 312
+    "total_papers": 310
   }
 }
