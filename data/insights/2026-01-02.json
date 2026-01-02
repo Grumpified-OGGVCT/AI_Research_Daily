@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-02T13:30:42.935205",
+  "date": "2026-01-02T14:17:22.716295",
   "patterns": {
     "multimodal_research": [
       {
@@ -529,10 +529,6 @@
       {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
         "url": "https://arxiv.org/abs/2512.24986v1"
-      },
-      {
-        "title": "mutisya/w2v-bert-adapters-3lang-e10-25_52-v12",
-        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-3lang-e10-25_52-v12"
       }
     ],
     "vision_systems": [
@@ -727,10 +723,6 @@
       {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
         "url": "https://arxiv.org/abs/2512.24986v1"
-      },
-      {
-        "title": "SGalperin/flux_Low_40_54_sky_lora_wandb_151images_LR_0_7_SKS",
-        "url": "https://huggingface.co/SGalperin/flux_Low_40_54_sky_lora_wandb_151images_LR_0_7_SKS"
       }
     ],
     "reasoning": [
@@ -985,6 +977,10 @@
       {
         "title": "FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation",
         "url": "https://arxiv.org/abs/2512.24724v1"
+      },
+      {
+        "title": "0chanly/deontological-constitutional",
+        "url": "https://huggingface.co/0chanly/deontological-constitutional"
       }
     ],
     "benchmarks": [
@@ -1289,19 +1285,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "49 independent papers",
+      "observation": "48 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "63 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1348,6 +1344,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 312
+    "total_papers": 311
   }
 }
