@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-02T18:23:35.597998",
+  "date": "2026-01-02T19:12:32.624188",
   "patterns": {
     "multimodal_research": [
       {
@@ -529,10 +529,6 @@
       {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
         "url": "https://arxiv.org/abs/2512.24986v1"
-      },
-      {
-        "title": "mutisya/w2v-bert-adapters-3lang-e10-25_52-v12",
-        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-3lang-e10-25_52-v12"
       }
     ],
     "vision_systems": [
@@ -729,8 +725,8 @@
         "url": "https://arxiv.org/abs/2512.24986v1"
       },
       {
-        "title": "xcreates/Qwen-Image-2512",
-        "url": "https://huggingface.co/xcreates/Qwen-Image-2512"
+        "title": "ovedrive/Qwen-Image-2512-4bit",
+        "url": "https://huggingface.co/ovedrive/Qwen-Image-2512-4bit"
       }
     ],
     "reasoning": [
@@ -1289,7 +1285,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1348,6 +1344,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 312
+    "total_papers": 311
   }
 }
