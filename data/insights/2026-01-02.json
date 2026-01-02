@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-02T17:15:47.383537",
+  "date": "2026-01-02T18:23:35.597998",
   "patterns": {
     "multimodal_research": [
       {
@@ -243,10 +243,6 @@
       {
         "title": "Edit3r: Instant 3D Scene Editing from Sparse Unposed Images",
         "url": "https://arxiv.org/abs/2512.25071v1"
-      },
-      {
-        "title": "rp-model-heaven/immersive-night-MOE-mini",
-        "url": "https://huggingface.co/rp-model-heaven/immersive-night-MOE-mini"
       }
     ],
     "language_models": [
@@ -533,6 +529,10 @@
       {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
         "url": "https://arxiv.org/abs/2512.24986v1"
+      },
+      {
+        "title": "mutisya/w2v-bert-adapters-3lang-e10-25_52-v12",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-3lang-e10-25_52-v12"
       }
     ],
     "vision_systems": [
@@ -727,6 +727,10 @@
       {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
         "url": "https://arxiv.org/abs/2512.24986v1"
+      },
+      {
+        "title": "xcreates/Qwen-Image-2512",
+        "url": "https://huggingface.co/xcreates/Qwen-Image-2512"
       }
     ],
     "reasoning": [
@@ -1273,7 +1277,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "44 independent papers",
+      "observation": "43 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1285,13 +1289,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "48 independent papers",
+      "observation": "49 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1344,6 +1348,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 311
+    "total_papers": 312
   }
 }
