@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-02T12:32:06.770699",
+  "date": "2026-01-02T13:30:42.935205",
   "patterns": {
     "multimodal_research": [
       {
@@ -531,8 +531,8 @@
         "url": "https://arxiv.org/abs/2512.24986v1"
       },
       {
-        "title": "AmicusGptossLanggraph/gpt-oss-20b",
-        "url": "https://huggingface.co/AmicusGptossLanggraph/gpt-oss-20b"
+        "title": "mutisya/w2v-bert-adapters-3lang-e10-25_52-v12",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-3lang-e10-25_52-v12"
       }
     ],
     "vision_systems": [
@@ -727,6 +727,10 @@
       {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
         "url": "https://arxiv.org/abs/2512.24986v1"
+      },
+      {
+        "title": "SGalperin/flux_Low_40_54_sky_lora_wandb_151images_LR_0_7_SKS",
+        "url": "https://huggingface.co/SGalperin/flux_Low_40_54_sky_lora_wandb_151images_LR_0_7_SKS"
       }
     ],
     "reasoning": [
@@ -1291,7 +1295,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "48 independent papers",
+      "observation": "49 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1344,6 +1348,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 311
+    "total_papers": 312
   }
 }
