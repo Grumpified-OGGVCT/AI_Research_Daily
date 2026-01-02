@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-02T14:17:22.716295",
+  "date": "2026-01-02T15:18:03.352941",
   "patterns": {
     "multimodal_research": [
       {
@@ -977,10 +977,6 @@
       {
         "title": "FlowBlending: Stage-Aware Multi-Model Sampling for Fast and High-Fidelity Video Generation",
         "url": "https://arxiv.org/abs/2512.24724v1"
-      },
-      {
-        "title": "0chanly/deontological-constitutional",
-        "url": "https://huggingface.co/0chanly/deontological-constitutional"
       }
     ],
     "benchmarks": [
@@ -1297,7 +1293,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "64 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1344,6 +1340,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 311
+    "total_papers": 310
   }
 }
