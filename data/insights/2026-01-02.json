@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-02T15:18:03.352941",
+  "date": "2026-01-02T16:20:53.273047",
   "patterns": {
     "multimodal_research": [
       {
@@ -527,8 +527,20 @@
         "url": "https://arxiv.org/abs/2512.24565v1"
       },
       {
+        "title": "aryanator/bert_lora_snew_classifier_v2",
+        "url": "https://huggingface.co/aryanator/bert_lora_snew_classifier_v2"
+      },
+      {
+        "title": "mdjrjoy/bangla-fake-news-bert",
+        "url": "https://huggingface.co/mdjrjoy/bangla-fake-news-bert"
+      },
+      {
         "title": "PhysTalk: Language-driven Real-time Physics in 3D Gaussian Scenes",
         "url": "https://arxiv.org/abs/2512.24986v1"
+      },
+      {
+        "title": "ntdat8324/phobert_large_evidence",
+        "url": "https://huggingface.co/ntdat8324/phobert_large_evidence"
       }
     ],
     "vision_systems": [
@@ -1281,7 +1293,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "71 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1340,6 +1352,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 310
+    "total_papers": 313
   }
 }
