@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-02T04:37:08.905921",
+  "date": "2026-01-02T05:22:50.041063",
   "patterns": {
     "multimodal_research": [
       {
@@ -531,16 +531,12 @@
         "url": "https://arxiv.org/abs/2512.24986v1"
       },
       {
-        "title": "Talip7/distilbert-drug-cls",
-        "url": "https://huggingface.co/Talip7/distilbert-drug-cls"
+        "title": "owenisas/gpt-oss-20b-union-identity",
+        "url": "https://huggingface.co/owenisas/gpt-oss-20b-union-identity"
       },
       {
-        "title": "NelsonWuZ/distilbert-base-uncased-finetuned-emotion",
-        "url": "https://huggingface.co/NelsonWuZ/distilbert-base-uncased-finetuned-emotion"
-      },
-      {
-        "title": "rosypossyyyy/email-action-type-deberta",
-        "url": "https://huggingface.co/rosypossyyyy/email-action-type-deberta"
+        "title": "owenisas/gpt-oss-20b-union-identity-lora",
+        "url": "https://huggingface.co/owenisas/gpt-oss-20b-union-identity-lora"
       }
     ],
     "vision_systems": [
@@ -1293,7 +1289,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1352,6 +1348,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 313
+    "total_papers": 312
   }
 }
