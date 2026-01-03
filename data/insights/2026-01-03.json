@@ -1,29 +1,25 @@
 {
-  "date": "2026-01-03T17:14:52.712985",
+  "date": "2026-01-03T18:22:42.415371",
   "patterns": {
     "language_models": [
+      {
+        "title": "kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99-1-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99-1-gpt2-124M-v0"
+      },
       {
         "title": "kowndinya-renduchintala/fineweb-left_branch_island_echo_question-100M-99-1-gpt2-124M-v0",
         "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-left_branch_island_echo_question-100M-99-1-gpt2-124M-v0"
       },
       {
-        "title": "kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99-1-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99-1-gpt2-124M-v0"
-      },
-      {
-        "title": "reddyharshith/gpt-oss-120b-lora",
-        "url": "https://huggingface.co/reddyharshith/gpt-oss-120b-lora"
-      },
-      {
-        "title": "ospost/gpt-oss-20b-sft-mxfp4",
-        "url": "https://huggingface.co/ospost/gpt-oss-20b-sft-mxfp4"
+        "title": "kowndinya-renduchintala/fineweb-coordinate_structure_constraint_complex_left_branch-100M-99-1-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-coordinate_structure_constraint_complex_left_branch-100M-99-1-gpt2-124M-v0"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "4 related papers",
+      "observation": "3 related papers",
       "inference": "Emerging interest in Language Models - monitor for breakthrough results",
       "confidence": "medium"
     }
@@ -32,6 +28,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 4
+    "total_papers": 3
   }
 }
