@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-03T01:09:45.433730",
-  "patterns": {},
+  "date": "2026-01-03T03:19:48.670279",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "dkbrereton/z-mafia-gpt-oss",
+        "url": "https://huggingface.co/dkbrereton/z-mafia-gpt-oss"
+      },
+      {
+        "title": "mutisya/w2v-bert-adapters-8lang-e10-25_52-v12",
+        "url": "https://huggingface.co/mutisya/w2v-bert-adapters-8lang-e10-25_52-v12"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
