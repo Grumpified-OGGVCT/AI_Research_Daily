@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-03T08:21:19.560564",
-  "patterns": {},
+  "date": "2026-01-03T09:17:30.566207",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "kowndinya-renduchintala/fineweb-only_npi_scope-100M-99-1-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-only_npi_scope-100M-99-1-gpt2-124M-v0"
+      },
+      {
+        "title": "kowndinya-renduchintala/fineweb-existential_there_quantifiers_2-100M-99-1-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-existential_there_quantifiers_2-100M-99-1-gpt2-124M-v0"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
