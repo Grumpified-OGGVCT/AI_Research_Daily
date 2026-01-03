@@ -1,11 +1,29 @@
 {
-  "date": "2026-01-03T14:15:58.616693",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-03T15:15:48.830624",
+  "patterns": {
+    "reasoning": [
+      {
+        "title": "inferencerlabs/K-EXAONE-236B-A23B-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/K-EXAONE-236B-A23B-MLX-6.5bit"
+      },
+      {
+        "title": "inferencerlabs/Solar-Open-100B-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Solar-Open-100B-MLX-6.5bit"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
   }
 }
