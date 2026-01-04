@@ -1,11 +1,33 @@
 {
-  "date": "2026-01-04T18:23:26.784155",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-04T19:13:15.222213",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "bogosla/distilhubert-finetuned-gtzan",
+        "url": "https://huggingface.co/bogosla/distilhubert-finetuned-gtzan"
+      },
+      {
+        "title": "kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99.5-0.5-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99.5-0.5-gpt2-124M-v0"
+      },
+      {
+        "title": "ayushshah/distilbert-dapt-imdb-sentiment",
+        "url": "https://huggingface.co/ayushshah/distilbert-dapt-imdb-sentiment"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
