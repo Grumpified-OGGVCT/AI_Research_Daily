@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-04T01:21:34.749604",
-  "patterns": {},
+  "date": "2026-01-04T03:48:00.514290",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "sthaps/ThaiLLM-30B-gguf",
+        "url": "https://huggingface.co/sthaps/ThaiLLM-30B-gguf"
+      },
+      {
+        "title": "kowndinya-renduchintala/fineweb-random-100M-99-1-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-random-100M-99-1-gpt2-124M-v0"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
