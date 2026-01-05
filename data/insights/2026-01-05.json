@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-05T15:19:57.619321",
-  "patterns": {},
+  "date": "2026-01-05T16:23:04.871096",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Doyler653/DiaChatLLM",
+        "url": "https://huggingface.co/Doyler653/DiaChatLLM"
+      },
+      {
+        "title": "andrewzolens/speaker-ident-bert-passage-f1-c2-d100-s129",
+        "url": "https://huggingface.co/andrewzolens/speaker-ident-bert-passage-f1-c2-d100-s129"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
