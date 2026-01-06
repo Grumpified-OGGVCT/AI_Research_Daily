@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-06T14:19:16.465885",
+  "date": "2026-01-06T15:18:56.422408",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,8 +667,8 @@
         "url": "https://arxiv.org/abs/2601.01957v1"
       },
       {
-        "title": "Doyler653/DiaChatLLM",
-        "url": "https://huggingface.co/Doyler653/DiaChatLLM"
+        "title": "kadtseen/distilbert-base-uncased-finetuned-squad-d5716d28",
+        "url": "https://huggingface.co/kadtseen/distilbert-base-uncased-finetuned-squad-d5716d28"
       }
     ],
     "vision_systems": [
@@ -963,10 +963,6 @@
       {
         "title": "AFTER: Mitigating the Object Hallucination of LVLM via Adaptive Factual-Guided Activation Editing",
         "url": "https://arxiv.org/abs/2601.01957v1"
-      },
-      {
-        "title": "Runware/TwinFlow-Z-Image-Turbo-exp",
-        "url": "https://huggingface.co/Runware/TwinFlow-Z-Image-Turbo-exp"
       }
     ],
     "reasoning": [
@@ -1687,7 +1683,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 409
   }
 }
