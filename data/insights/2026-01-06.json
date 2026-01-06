@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-06T06:27:32.661151",
+  "date": "2026-01-06T07:23:17.774172",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,16 +667,8 @@
         "url": "https://arxiv.org/abs/2601.01957v1"
       },
       {
-        "title": "hiudev/gpt-oss-20b-c",
-        "url": "https://huggingface.co/hiudev/gpt-oss-20b-c"
-      },
-      {
-        "title": "payelb/HHRLHF_deberta_1k_fixed_noaug",
-        "url": "https://huggingface.co/payelb/HHRLHF_deberta_1k_fixed_noaug"
-      },
-      {
-        "title": "oguzhandurmaz/deberta-v3-small-cefr-lora-merged",
-        "url": "https://huggingface.co/oguzhandurmaz/deberta-v3-small-cefr-lora-merged"
+        "title": "TheTempleofTwo/phasegpt-v4.1-typed-refusal",
+        "url": "https://huggingface.co/TheTempleofTwo/phasegpt-v4.1-typed-refusal"
       }
     ],
     "vision_systems": [
@@ -1685,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 409
   }
 }
