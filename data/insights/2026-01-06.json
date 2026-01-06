@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-06T17:20:49.354509",
+  "date": "2026-01-06T18:24:44.193739",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,8 +667,8 @@
         "url": "https://arxiv.org/abs/2601.01957v1"
       },
       {
-        "title": "AmdGoose/FLUX.2-dev-transformer-int8wo",
-        "url": "https://huggingface.co/AmdGoose/FLUX.2-dev-transformer-int8wo"
+        "title": "beAnalytic/eda-llm-beAnalityc",
+        "url": "https://huggingface.co/beAnalytic/eda-llm-beAnalityc"
       }
     ],
     "vision_systems": [
@@ -963,6 +963,10 @@
       {
         "title": "AFTER: Mitigating the Object Hallucination of LVLM via Adaptive Factual-Guided Activation Editing",
         "url": "https://arxiv.org/abs/2601.01957v1"
+      },
+      {
+        "title": "ShayanRez/IOAI2024_CV_Home",
+        "url": "https://huggingface.co/ShayanRez/IOAI2024_CV_Home"
       }
     ],
     "reasoning": [
@@ -1683,7 +1687,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,7 +1713,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 69,
+      "frequency": 68,
       "significance": "high"
     },
     {
@@ -1736,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 410
   }
 }
