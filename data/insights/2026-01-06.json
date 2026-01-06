@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-06T12:34:14.306303",
+  "date": "2026-01-06T13:35:45.241045",
   "patterns": {
     "multimodal_research": [
       {
@@ -323,6 +323,10 @@
       {
         "title": "MCD-Net: A Lightweight Deep Learning Baseline for Optical-Only Moraine Segmentation",
         "url": "https://arxiv.org/abs/2601.02091v1"
+      },
+      {
+        "title": "cloudyu/Mixtral_34Bx2_MoE_60B",
+        "url": "https://huggingface.co/cloudyu/Mixtral_34Bx2_MoE_60B"
       }
     ],
     "language_models": [
@@ -959,6 +963,10 @@
       {
         "title": "AFTER: Mitigating the Object Hallucination of LVLM via Adaptive Factual-Guided Activation Editing",
         "url": "https://arxiv.org/abs/2601.01957v1"
+      },
+      {
+        "title": "lightx2v/Qwen-Image-Edit-2511-Lightning",
+        "url": "https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning"
       }
     ],
     "reasoning": [
@@ -1661,7 +1669,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "54 independent papers",
+      "observation": "55 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1679,7 +1687,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 410
   }
 }
