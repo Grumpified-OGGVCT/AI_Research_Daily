@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-07T05:22:28.521870",
+  "date": "2026-01-07T06:27:00.890053",
   "patterns": {
     "multimodal_research": [
       {
@@ -531,7 +531,7 @@
         "url": "https://arxiv.org/abs/2601.02927v1"
       },
       {
-        "title": "ReTreVal: Reasoning Tree with Validation - A Hybrid Framework for Enhanced LLM Multi-Step Reasoning",
+        "title": "ReTreVal: Reasoning Tree with Validation -- A Hybrid Framework for Enhanced LLM Multi-Step Reasoning",
         "url": "https://arxiv.org/abs/2601.02880v1"
       },
       {
@@ -787,12 +787,20 @@
         "url": "https://arxiv.org/abs/2601.03073v1"
       },
       {
-        "title": "leemdo/roberta-base-klue-ynat-classification",
-        "url": "https://huggingface.co/leemdo/roberta-base-klue-ynat-classification"
+        "title": "leemdo/roberta-base-klue-ynat-classification2",
+        "url": "https://huggingface.co/leemdo/roberta-base-klue-ynat-classification2"
       },
       {
-        "title": "DJAeun/roberta-base-klue-ynat-classification2",
-        "url": "https://huggingface.co/DJAeun/roberta-base-klue-ynat-classification2"
+        "title": "Jayanta8509/gpt2-email-classifier",
+        "url": "https://huggingface.co/Jayanta8509/gpt2-email-classifier"
+      },
+      {
+        "title": "max8234/roberta-base-klue-ynat-classification2",
+        "url": "https://huggingface.co/max8234/roberta-base-klue-ynat-classification2"
+      },
+      {
+        "title": "JunSeok98/roberta-base-klue-ynat-classification2",
+        "url": "https://huggingface.co/JunSeok98/roberta-base-klue-ynat-classification2"
       }
     ],
     "vision_systems": [
@@ -1063,10 +1071,6 @@
       {
         "title": "VTONQA: A Multi-Dimensional Quality Assessment Dataset for Virtual Try-on",
         "url": "https://arxiv.org/abs/2601.02945v1"
-      },
-      {
-        "title": "easygoing0114/Qwen-Image-Edit-2511_clear",
-        "url": "https://huggingface.co/easygoing0114/Qwen-Image-Edit-2511_clear"
       }
     ],
     "reasoning": [
@@ -1231,7 +1235,7 @@
         "url": "https://arxiv.org/abs/2601.02890v1"
       },
       {
-        "title": "ReTreVal: Reasoning Tree with Validation - A Hybrid Framework for Enhanced LLM Multi-Step Reasoning",
+        "title": "ReTreVal: Reasoning Tree with Validation -- A Hybrid Framework for Enhanced LLM Multi-Step Reasoning",
         "url": "https://arxiv.org/abs/2601.02880v1"
       },
       {
@@ -1949,13 +1953,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "114 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2008,6 +2012,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 477
+    "total_papers": 478
   }
 }
