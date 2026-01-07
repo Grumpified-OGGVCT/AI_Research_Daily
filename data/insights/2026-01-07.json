@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-07T17:23:39.172634",
+  "date": "2026-01-07T18:25:29.134238",
   "patterns": {
     "multimodal_research": [
       {
@@ -785,10 +785,6 @@
       {
         "title": "Understanding Multi-Agent Reasoning with Large Language Models for Cartoon VQA",
         "url": "https://arxiv.org/abs/2601.03073v1"
-      },
-      {
-        "title": "TobDeBer/SmolLM2-135M-Instruct-hirma-b60s-0.5",
-        "url": "https://huggingface.co/TobDeBer/SmolLM2-135M-Instruct-hirma-b60s-0.5"
       }
     ],
     "vision_systems": [
@@ -1941,7 +1937,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "113 independent papers",
+      "observation": "112 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2000,6 +1996,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 475
+    "total_papers": 474
   }
 }
