@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-07T21:19:47.896642",
+  "date": "2026-01-07T22:17:04.647572",
   "patterns": {
     "multimodal_research": [
       {
@@ -785,6 +785,10 @@
       {
         "title": "Understanding Multi-Agent Reasoning with Large Language Models for Cartoon VQA",
         "url": "https://arxiv.org/abs/2601.03073v1"
+      },
+      {
+        "title": "adalberto-temp/llama_3b_apo_zero_sft_gsm8k_it3",
+        "url": "https://huggingface.co/adalberto-temp/llama_3b_apo_zero_sft_gsm8k_it3"
       }
     ],
     "vision_systems": [
@@ -1049,12 +1053,20 @@
         "url": "https://arxiv.org/abs/2601.03250v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "Understanding Multi-Agent Reasoning with Large Language Models for Cartoon VQA",
         "url": "https://arxiv.org/abs/2601.03073v1"
       },
       {
         "title": "VTONQA: A Multi-Dimensional Quality Assessment Dataset for Virtual Try-on",
         "url": "https://arxiv.org/abs/2601.02945v1"
+      },
+      {
+        "title": "coderevealapp/z-image-turbo-lora",
+        "url": "https://huggingface.co/coderevealapp/z-image-turbo-lora"
       }
     ],
     "reasoning": [
@@ -1937,13 +1949,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "112 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1996,6 +2008,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 474
+    "total_papers": 477
   }
 }
