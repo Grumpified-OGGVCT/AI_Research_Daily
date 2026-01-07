@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-07T06:27:00.890053",
+  "date": "2026-01-07T07:23:00.136657",
   "patterns": {
     "multimodal_research": [
       {
@@ -785,22 +785,6 @@
       {
         "title": "Understanding Multi-Agent Reasoning with Large Language Models for Cartoon VQA",
         "url": "https://arxiv.org/abs/2601.03073v1"
-      },
-      {
-        "title": "leemdo/roberta-base-klue-ynat-classification2",
-        "url": "https://huggingface.co/leemdo/roberta-base-klue-ynat-classification2"
-      },
-      {
-        "title": "Jayanta8509/gpt2-email-classifier",
-        "url": "https://huggingface.co/Jayanta8509/gpt2-email-classifier"
-      },
-      {
-        "title": "max8234/roberta-base-klue-ynat-classification2",
-        "url": "https://huggingface.co/max8234/roberta-base-klue-ynat-classification2"
-      },
-      {
-        "title": "JunSeok98/roberta-base-klue-ynat-classification2",
-        "url": "https://huggingface.co/JunSeok98/roberta-base-klue-ynat-classification2"
       }
     ],
     "vision_systems": [
@@ -1953,7 +1937,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "116 independent papers",
+      "observation": "112 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2012,6 +1996,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 478
+    "total_papers": 474
   }
 }
