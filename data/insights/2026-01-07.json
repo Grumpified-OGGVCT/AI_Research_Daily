@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-07T08:24:15.712041",
+  "date": "2026-01-07T09:24:49.836704",
   "patterns": {
     "multimodal_research": [
       {
@@ -783,10 +783,6 @@
         "url": "https://arxiv.org/abs/2601.02941v1"
       },
       {
-        "title": "tencent/Youtu-LLM-2B",
-        "url": "https://huggingface.co/tencent/Youtu-LLM-2B"
-      },
-      {
         "title": "Understanding Multi-Agent Reasoning with Large Language Models for Cartoon VQA",
         "url": "https://arxiv.org/abs/2601.03073v1"
       }
@@ -1059,6 +1055,10 @@
       {
         "title": "VTONQA: A Multi-Dimensional Quality Assessment Dataset for Virtual Try-on",
         "url": "https://arxiv.org/abs/2601.02945v1"
+      },
+      {
+        "title": "ShayanRez/IOAI2024_CV_Home",
+        "url": "https://huggingface.co/ShayanRez/IOAI2024_CV_Home"
       }
     ],
     "reasoning": [
@@ -1941,13 +1941,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "113 independent papers",
+      "observation": "112 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
