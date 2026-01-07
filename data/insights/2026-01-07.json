@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-07T04:37:47.039562",
+  "date": "2026-01-07T05:22:28.521870",
   "patterns": {
     "multimodal_research": [
       {
@@ -787,12 +787,12 @@
         "url": "https://arxiv.org/abs/2601.03073v1"
       },
       {
-        "title": "sagar118/Custom-LLM-100M",
-        "url": "https://huggingface.co/sagar118/Custom-LLM-100M"
+        "title": "leemdo/roberta-base-klue-ynat-classification",
+        "url": "https://huggingface.co/leemdo/roberta-base-klue-ynat-classification"
       },
       {
-        "title": "siik/roberta-base-klue-ynat-classification",
-        "url": "https://huggingface.co/siik/roberta-base-klue-ynat-classification"
+        "title": "DJAeun/roberta-base-klue-ynat-classification2",
+        "url": "https://huggingface.co/DJAeun/roberta-base-klue-ynat-classification2"
       }
     ],
     "vision_systems": [
@@ -1063,6 +1063,10 @@
       {
         "title": "VTONQA: A Multi-Dimensional Quality Assessment Dataset for Virtual Try-on",
         "url": "https://arxiv.org/abs/2601.02945v1"
+      },
+      {
+        "title": "easygoing0114/Qwen-Image-Edit-2511_clear",
+        "url": "https://huggingface.co/easygoing0114/Qwen-Image-Edit-2511_clear"
       }
     ],
     "reasoning": [
@@ -1951,7 +1955,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2004,6 +2008,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 476
+    "total_papers": 477
   }
 }
