@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-07T07:23:00.136657",
+  "date": "2026-01-07T08:24:15.712041",
   "patterns": {
     "multimodal_research": [
       {
@@ -781,6 +781,10 @@
       {
         "title": "SastBench: A Benchmark for Testing Agentic SAST Triage",
         "url": "https://arxiv.org/abs/2601.02941v1"
+      },
+      {
+        "title": "tencent/Youtu-LLM-2B",
+        "url": "https://huggingface.co/tencent/Youtu-LLM-2B"
       },
       {
         "title": "Understanding Multi-Agent Reasoning with Large Language Models for Cartoon VQA",
@@ -1937,7 +1941,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "112 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1996,6 +2000,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 474
+    "total_papers": 475
   }
 }
