@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-08T20:20:07.488588",
+  "date": "2026-01-08T21:17:33.881961",
   "patterns": {
     "multimodal_research": [
       {
@@ -963,6 +963,10 @@
       {
         "title": "Towards Real-world Lens Active Alignment with Unlabeled Data via Domain Adaptation",
         "url": "https://arxiv.org/abs/2601.03718v1"
+      },
+      {
+        "title": "unsloth/Qwen-Image-Edit-2511-GGUF",
+        "url": "https://huggingface.co/unsloth/Qwen-Image-Edit-2511-GGUF"
       }
     ],
     "reasoning": [
@@ -1755,7 +1759,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 428
   }
 }
