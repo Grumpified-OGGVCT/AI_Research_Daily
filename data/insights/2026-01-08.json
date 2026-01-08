@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-08T21:17:33.881961",
+  "date": "2026-01-08T22:17:57.466802",
   "patterns": {
     "multimodal_research": [
       {
@@ -957,6 +957,10 @@
         "url": "https://arxiv.org/abs/2601.03655v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation",
         "url": "https://arxiv.org/abs/2601.03955v1"
       },
@@ -965,8 +969,8 @@
         "url": "https://arxiv.org/abs/2601.03718v1"
       },
       {
-        "title": "unsloth/Qwen-Image-Edit-2511-GGUF",
-        "url": "https://huggingface.co/unsloth/Qwen-Image-Edit-2511-GGUF"
+        "title": "lichorosario/tosti-qwen-image-2512",
+        "url": "https://huggingface.co/lichorosario/tosti-qwen-image-2512"
       }
     ],
     "reasoning": [
@@ -1759,7 +1763,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "66 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 429
   }
 }
