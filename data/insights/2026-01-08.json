@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-08T11:18:10.374243",
+  "date": "2026-01-08T12:34:59.490158",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,10 +705,6 @@
       {
         "title": "mkvryu/roberta-base-klue-ynat-classification",
         "url": "https://huggingface.co/mkvryu/roberta-base-klue-ynat-classification"
-      },
-      {
-        "title": "ntdat8324/xlmr_large_sbert_k4_evidence",
-        "url": "https://huggingface.co/ntdat8324/xlmr_large_sbert_k4_evidence"
       }
     ],
     "vision_systems": [
@@ -1757,7 +1753,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "102 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 428
   }
 }
