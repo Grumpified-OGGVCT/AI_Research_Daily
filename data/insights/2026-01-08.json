@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-08T17:24:37.398625",
+  "date": "2026-01-08T18:22:37.221410",
   "patterns": {
     "multimodal_research": [
       {
@@ -701,6 +701,18 @@
       {
         "title": "ResTok: Learning Hierarchical Residuals in 1D Visual Tokenizers for Autoregressive Image Generation",
         "url": "https://arxiv.org/abs/2601.03955v1"
+      },
+      {
+        "title": "Sid8421/tinybert-depression",
+        "url": "https://huggingface.co/Sid8421/tinybert-depression"
+      },
+      {
+        "title": "SerialKicked/GPT-OSS-20B-Heretic-GGUF",
+        "url": "https://huggingface.co/SerialKicked/GPT-OSS-20B-Heretic-GGUF"
+      },
+      {
+        "title": "dkumi12/stretchgptv3",
+        "url": "https://huggingface.co/dkumi12/stretchgptv3"
       }
     ],
     "vision_systems": [
@@ -1749,7 +1761,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1820,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 430
   }
 }
