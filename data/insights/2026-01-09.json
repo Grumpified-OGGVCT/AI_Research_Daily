@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-09T17:20:51.719275",
+  "date": "2026-01-09T18:25:20.180731",
   "patterns": {
     "multimodal_research": [
       {
@@ -795,16 +795,12 @@
         "url": "https://arxiv.org/abs/2601.05104v1"
       },
       {
-        "title": "TobDeBer/SmolLM3-3B-hirma-b100-0.5",
-        "url": "https://huggingface.co/TobDeBer/SmolLM3-3B-hirma-b100-0.5"
+        "title": "wms2023/llm-lingo-fr-shuffle",
+        "url": "https://huggingface.co/wms2023/llm-lingo-fr-shuffle"
       },
       {
-        "title": "CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs",
-        "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs"
-      },
-      {
-        "title": "TobDeBer/SmolLM3-3B-hirma-b50-0.5",
-        "url": "https://huggingface.co/TobDeBer/SmolLM3-3B-hirma-b50-0.5"
+        "title": "mpreda/nlp-transformer-multilingual_seed53",
+        "url": "https://huggingface.co/mpreda/nlp-transformer-multilingual_seed53"
       }
     ],
     "vision_systems": [
@@ -1849,7 +1845,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1908,6 +1904,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 452
+    "total_papers": 451
   }
 }
