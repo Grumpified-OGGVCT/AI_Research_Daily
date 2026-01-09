@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-09T15:18:53.985609",
+  "date": "2026-01-09T16:26:13.108291",
   "patterns": {
     "multimodal_research": [
       {
@@ -795,12 +795,24 @@
         "url": "https://arxiv.org/abs/2601.05104v1"
       },
       {
+        "title": "Nav772/roberta-amazon-reviews-5star",
+        "url": "https://huggingface.co/Nav772/roberta-amazon-reviews-5star"
+      },
+      {
+        "title": "mpreda/nlp-transformer-multilingual_seed53",
+        "url": "https://huggingface.co/mpreda/nlp-transformer-multilingual_seed53"
+      },
+      {
         "title": "CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs",
         "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs"
       },
       {
-        "title": "mpreda/nlp-transformer-weights_seed82",
-        "url": "https://huggingface.co/mpreda/nlp-transformer-weights_seed82"
+        "title": "sidleal/omniASR_LLM_300M_Tarsila_9k",
+        "url": "https://huggingface.co/sidleal/omniASR_LLM_300M_Tarsila_9k"
+      },
+      {
+        "title": "rosypossyyyy/email-action-models-multitask-deberta",
+        "url": "https://huggingface.co/rosypossyyyy/email-action-models-multitask-deberta"
       }
     ],
     "vision_systems": [
@@ -1409,6 +1421,10 @@
       {
         "title": "Skeletonization-Based Adversarial Perturbations on Large Vision Language Model's Mathematical Text Recognition",
         "url": "https://arxiv.org/abs/2601.04752v1"
+      },
+      {
+        "title": "laion/GLM-4.6-stackexchange-overflow-sandboxes-32eps-65k-reasoning_num-train-epochs_6.0_Qwen3-32B",
+        "url": "https://huggingface.co/laion/GLM-4.6-stackexchange-overflow-sandboxes-32eps-65k-reasoning_num-train-epochs_6.0_Qwen3-32B"
       }
     ],
     "benchmarks": [
@@ -1845,7 +1861,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "111 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1857,7 +1873,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1887,7 +1903,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 61,
+      "frequency": 62,
       "significance": "high"
     },
     {
@@ -1904,6 +1920,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 451
+    "total_papers": 455
   }
 }
