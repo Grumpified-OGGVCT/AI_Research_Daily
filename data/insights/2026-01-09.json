@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-09T10:19:19.014929",
+  "date": "2026-01-09T11:16:47.199653",
   "patterns": {
     "multimodal_research": [
       {
@@ -1401,10 +1401,6 @@
       {
         "title": "Skeletonization-Based Adversarial Perturbations on Large Vision Language Model's Mathematical Text Recognition",
         "url": "https://arxiv.org/abs/2601.04752v1"
-      },
-      {
-        "title": "startelelogic/whisper-medium-ccaas",
-        "url": "https://huggingface.co/startelelogic/whisper-medium-ccaas"
       }
     ],
     "benchmarks": [
@@ -1853,7 +1849,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1900,6 +1896,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 450
+    "total_papers": 449
   }
 }
