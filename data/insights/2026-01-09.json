@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-09T22:17:17.000483",
+  "date": "2026-01-09T23:16:58.878340",
   "patterns": {
     "multimodal_research": [
       {
@@ -793,6 +793,10 @@
       {
         "title": "How Human is AI? Examining the Impact of Emotional Prompts on Artificial and Human and Responsiveness",
         "url": "https://arxiv.org/abs/2601.05104v1"
+      },
+      {
+        "title": "robertthecreator/jarvis-chatbot",
+        "url": "https://huggingface.co/robertthecreator/jarvis-chatbot"
       }
     ],
     "vision_systems": [
@@ -1071,6 +1075,10 @@
       {
         "title": "MoE3D: A Mixture-of-Experts Module for 3D Reconstruction",
         "url": "https://arxiv.org/abs/2601.05208v1"
+      },
+      {
+        "title": "CohereLabs/aya-vision-8b",
+        "url": "https://huggingface.co/CohereLabs/aya-vision-8b"
       }
     ],
     "reasoning": [
@@ -1841,13 +1849,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "106 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1892,14 +1900,14 @@
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 30,
+      "topic": "vision",
+      "frequency": 31,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 450
+    "total_papers": 452
   }
 }
