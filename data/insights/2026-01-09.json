@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-09T16:26:13.108291",
+  "date": "2026-01-09T17:20:51.719275",
   "patterns": {
     "multimodal_research": [
       {
@@ -795,24 +795,16 @@
         "url": "https://arxiv.org/abs/2601.05104v1"
       },
       {
-        "title": "Nav772/roberta-amazon-reviews-5star",
-        "url": "https://huggingface.co/Nav772/roberta-amazon-reviews-5star"
-      },
-      {
-        "title": "mpreda/nlp-transformer-multilingual_seed53",
-        "url": "https://huggingface.co/mpreda/nlp-transformer-multilingual_seed53"
+        "title": "TobDeBer/SmolLM3-3B-hirma-b100-0.5",
+        "url": "https://huggingface.co/TobDeBer/SmolLM3-3B-hirma-b100-0.5"
       },
       {
         "title": "CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs",
         "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs"
       },
       {
-        "title": "sidleal/omniASR_LLM_300M_Tarsila_9k",
-        "url": "https://huggingface.co/sidleal/omniASR_LLM_300M_Tarsila_9k"
-      },
-      {
-        "title": "rosypossyyyy/email-action-models-multitask-deberta",
-        "url": "https://huggingface.co/rosypossyyyy/email-action-models-multitask-deberta"
+        "title": "TobDeBer/SmolLM3-3B-hirma-b50-0.5",
+        "url": "https://huggingface.co/TobDeBer/SmolLM3-3B-hirma-b50-0.5"
       }
     ],
     "vision_systems": [
@@ -1421,10 +1413,6 @@
       {
         "title": "Skeletonization-Based Adversarial Perturbations on Large Vision Language Model's Mathematical Text Recognition",
         "url": "https://arxiv.org/abs/2601.04752v1"
-      },
-      {
-        "title": "laion/GLM-4.6-stackexchange-overflow-sandboxes-32eps-65k-reasoning_num-train-epochs_6.0_Qwen3-32B",
-        "url": "https://huggingface.co/laion/GLM-4.6-stackexchange-overflow-sandboxes-32eps-65k-reasoning_num-train-epochs_6.0_Qwen3-32B"
       }
     ],
     "benchmarks": [
@@ -1861,7 +1849,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "111 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1873,7 +1861,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1903,7 +1891,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 62,
+      "frequency": 61,
       "significance": "high"
     },
     {
@@ -1920,6 +1908,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 455
+    "total_papers": 452
   }
 }
