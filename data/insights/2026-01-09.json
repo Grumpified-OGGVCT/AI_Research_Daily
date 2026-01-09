@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-09T14:21:14.300207",
+  "date": "2026-01-09T15:18:53.985609",
   "patterns": {
     "multimodal_research": [
       {
@@ -799,16 +799,8 @@
         "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs"
       },
       {
-        "title": "mii-llm/nesso-4B",
-        "url": "https://huggingface.co/mii-llm/nesso-4B"
-      },
-      {
-        "title": "smathcadet/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-        "url": "https://huggingface.co/smathcadet/learn_hf_food_not_food_text_classifier-distilbert-base-uncased"
-      },
-      {
-        "title": "rosypossyyyy/email-action-models-multitask-deberta",
-        "url": "https://huggingface.co/rosypossyyyy/email-action-models-multitask-deberta"
+        "title": "mpreda/nlp-transformer-weights_seed82",
+        "url": "https://huggingface.co/mpreda/nlp-transformer-weights_seed82"
       }
     ],
     "vision_systems": [
@@ -1853,7 +1845,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "110 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1912,6 +1904,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 453
+    "total_papers": 451
   }
 }
