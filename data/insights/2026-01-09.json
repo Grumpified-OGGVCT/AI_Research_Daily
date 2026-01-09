@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-09T20:20:03.988810",
+  "date": "2026-01-09T21:17:48.327373",
   "patterns": {
     "multimodal_research": [
       {
@@ -797,10 +797,6 @@
       {
         "title": "ayjays132/gpt-oss-0.6b",
         "url": "https://huggingface.co/ayjays132/gpt-oss-0.6b"
-      },
-      {
-        "title": "wms2023/llm-lingo-fr-shuffle",
-        "url": "https://huggingface.co/wms2023/llm-lingo-fr-shuffle"
       }
     ],
     "vision_systems": [
@@ -1409,6 +1405,30 @@
       {
         "title": "Skeletonization-Based Adversarial Perturbations on Large Vision Language Model's Mathematical Text Recognition",
         "url": "https://arxiv.org/abs/2601.04752v1"
+      },
+      {
+        "title": "inference-optimization/Qwen3-Next-80B-A3B-Thinking-FP8",
+        "url": "https://huggingface.co/inference-optimization/Qwen3-Next-80B-A3B-Thinking-FP8"
+      },
+      {
+        "title": "inference-optimization/Qwen3-Next-80B-A3B-Thinking",
+        "url": "https://huggingface.co/inference-optimization/Qwen3-Next-80B-A3B-Thinking"
+      },
+      {
+        "title": "inference-optimization/Qwen3-Next-80B-A3B-Instruct-FP8",
+        "url": "https://huggingface.co/inference-optimization/Qwen3-Next-80B-A3B-Instruct-FP8"
+      },
+      {
+        "title": "inference-optimization/Qwen3-Next-80B-A3B-Instruct",
+        "url": "https://huggingface.co/inference-optimization/Qwen3-Next-80B-A3B-Instruct"
+      },
+      {
+        "title": "inference-optimization/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+        "url": "https://huggingface.co/inference-optimization/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16"
+      },
+      {
+        "title": "inference-optimization/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8",
+        "url": "https://huggingface.co/inference-optimization/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8"
       }
     ],
     "benchmarks": [
@@ -1845,7 +1865,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1857,7 +1877,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "83 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1904,6 +1924,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 451
+    "total_papers": 456
   }
 }
