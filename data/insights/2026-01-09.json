@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-09T13:36:29.802823",
+  "date": "2026-01-09T14:21:14.300207",
   "patterns": {
     "multimodal_research": [
       {
@@ -795,16 +795,20 @@
         "url": "https://arxiv.org/abs/2601.05104v1"
       },
       {
-        "title": "nightmedia/Mistral-Nemo-2407-12B-Thinking-Claude-Gemini-GPT5.2-Uncensored-HERETIC-qx86-hi-mlx",
-        "url": "https://huggingface.co/nightmedia/Mistral-Nemo-2407-12B-Thinking-Claude-Gemini-GPT5.2-Uncensored-HERETIC-qx86-hi-mlx"
-      },
-      {
         "title": "CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs",
         "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-arabic-repair_3epochs"
       },
       {
-        "title": "R3iwan/kazakh-sentiment-bert",
-        "url": "https://huggingface.co/R3iwan/kazakh-sentiment-bert"
+        "title": "mii-llm/nesso-4B",
+        "url": "https://huggingface.co/mii-llm/nesso-4B"
+      },
+      {
+        "title": "smathcadet/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
+        "url": "https://huggingface.co/smathcadet/learn_hf_food_not_food_text_classifier-distilbert-base-uncased"
+      },
+      {
+        "title": "rosypossyyyy/email-action-models-multitask-deberta",
+        "url": "https://huggingface.co/rosypossyyyy/email-action-models-multitask-deberta"
       }
     ],
     "vision_systems": [
@@ -1849,7 +1853,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "110 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1908,6 +1912,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 452
+    "total_papers": 453
   }
 }
