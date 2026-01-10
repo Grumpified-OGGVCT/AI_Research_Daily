@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-10T17:14:39.741198",
+  "date": "2026-01-10T18:23:30.465696",
   "patterns": {
     "multimodal_research": [
       {
@@ -795,12 +795,8 @@
         "url": "https://arxiv.org/abs/2601.05104v1"
       },
       {
-        "title": "prem-research/MiniGuard-v0.1-GPTQ-4bit",
-        "url": "https://huggingface.co/prem-research/MiniGuard-v0.1-GPTQ-4bit"
-      },
-      {
-        "title": "marcosremar2/cefr-classifier-pt-mdeberta-v3-enem",
-        "url": "https://huggingface.co/marcosremar2/cefr-classifier-pt-mdeberta-v3-enem"
+        "title": "JeyaPrakashI/distilbert-mlops-demo-ci",
+        "url": "https://huggingface.co/JeyaPrakashI/distilbert-mlops-demo-ci"
       }
     ],
     "vision_systems": [
@@ -1845,7 +1841,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1904,6 +1900,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 451
+    "total_papers": 450
   }
 }
