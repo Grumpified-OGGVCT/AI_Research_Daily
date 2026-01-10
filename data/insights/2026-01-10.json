@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-10T10:17:28.642492",
+  "date": "2026-01-10T11:15:04.142389",
   "patterns": {
     "multimodal_research": [
       {
@@ -795,8 +795,16 @@
         "url": "https://arxiv.org/abs/2601.05104v1"
       },
       {
-        "title": "kimthangg/kimthang_llm_4b_Instruct_merged_16bit",
-        "url": "https://huggingface.co/kimthangg/kimthang_llm_4b_Instruct_merged_16bit"
+        "title": "ntdat8324/xlmr_large_sbert_k3_evidence",
+        "url": "https://huggingface.co/ntdat8324/xlmr_large_sbert_k3_evidence"
+      },
+      {
+        "title": "maticzav/deberta-v3-base-legal",
+        "url": "https://huggingface.co/maticzav/deberta-v3-base-legal"
+      },
+      {
+        "title": "2jan2026/gpt_oss_20b_expert_final",
+        "url": "https://huggingface.co/2jan2026/gpt_oss_20b_expert_final"
       }
     ],
     "vision_systems": [
@@ -943,6 +951,10 @@
       {
         "title": "AM$^3$Safety: Towards Data Efficient Alignment of Multi-modal Multi-turn Safety for MLLMs",
         "url": "https://arxiv.org/abs/2601.04736v1"
+      },
+      {
+        "title": "huggingface/documentation-images",
+        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "From Rays to Projections: Better Inputs for Feed-Forward View Synthesis",
@@ -1841,13 +1853,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "107 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1873,7 +1885,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 94,
+      "frequency": 93,
       "significance": "high"
     },
     {
@@ -1900,6 +1912,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 450
+    "total_papers": 453
   }
 }
