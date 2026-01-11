@@ -1,11 +1,29 @@
 {
-  "date": "2026-01-11T06:24:44.218673",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-11T07:18:41.547780",
+  "patterns": {
+    "reasoning": [
+      {
+        "title": "trucmtnguyen/Llama-3.1-8B-Instruct-LoRA-Issue-Tagger-GGUF-Inference",
+        "url": "https://huggingface.co/trucmtnguyen/Llama-3.1-8B-Instruct-LoRA-Issue-Tagger-GGUF-Inference"
+      },
+      {
+        "title": "flaitenberger/llama3-8b-logic-cot-finetuned-adapter-grpo_rlvr_logic_cot",
+        "url": "https://huggingface.co/flaitenberger/llama3-8b-logic-cot-finetuned-adapter-grpo_rlvr_logic_cot"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
   }
 }
