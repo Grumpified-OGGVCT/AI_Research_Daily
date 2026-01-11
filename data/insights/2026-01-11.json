@@ -1,43 +1,22 @@
 {
-  "date": "2026-01-11T18:23:13.597199",
+  "date": "2026-01-11T19:13:34.754562",
   "patterns": {
     "language_models": [
       {
-        "title": "sidrit30/roberta_news_classifier",
-        "url": "https://huggingface.co/sidrit30/roberta_news_classifier"
+        "title": "FlameF0X/anwgpt4-chat",
+        "url": "https://huggingface.co/FlameF0X/anwgpt4-chat"
       },
       {
-        "title": "DataPilot/ArrowIdeative-13b-Instruct-test-llm-jp-v0.2",
-        "url": "https://huggingface.co/DataPilot/ArrowIdeative-13b-Instruct-test-llm-jp-v0.2"
-      }
-    ],
-    "benchmarks": [
-      {
-        "title": "Sota26/Affine-3-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw",
-        "url": "https://huggingface.co/Sota26/Affine-3-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw"
-      },
-      {
-        "title": "Sota26/Affine-2-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw",
-        "url": "https://huggingface.co/Sota26/Affine-2-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw"
-      },
-      {
-        "title": "Sota26/Affine-1-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw",
-        "url": "https://huggingface.co/Sota26/Affine-1-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw"
+        "title": "FlameF0X/anwgpt4-base",
+        "url": "https://huggingface.co/FlameF0X/anwgpt4-base"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "benchmarks",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Benchmarks - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 1,
-    "total_papers": 5
+    "total_patterns": 1,
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
