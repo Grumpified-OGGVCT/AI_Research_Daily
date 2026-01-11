@@ -1,7 +1,15 @@
 {
-  "date": "2026-01-11T19:13:34.754562",
+  "date": "2026-01-11T20:18:38.781696",
   "patterns": {
     "language_models": [
+      {
+        "title": "WulfTheGod/nllb-creole-transformersjs",
+        "url": "https://huggingface.co/WulfTheGod/nllb-creole-transformersjs"
+      },
+      {
+        "title": "zhuojing-huang/gpt2-german-english-configC-10k-1-200M",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-german-english-configC-10k-1-200M"
+      },
       {
         "title": "FlameF0X/anwgpt4-chat",
         "url": "https://huggingface.co/FlameF0X/anwgpt4-chat"
@@ -12,11 +20,18 @@
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
