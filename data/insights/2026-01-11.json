@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-11T08:21:34.417511",
-  "patterns": {},
+  "date": "2026-01-11T09:17:33.230539",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "tunakite03/videberta-emotion-7labels",
+        "url": "https://huggingface.co/tunakite03/videberta-emotion-7labels"
+      },
+      {
+        "title": "prakosoee/indobert-price-cls",
+        "url": "https://huggingface.co/prakosoee/indobert-price-cls"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
