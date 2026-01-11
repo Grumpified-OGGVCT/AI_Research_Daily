@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-11T12:30:47.351101",
-  "patterns": {},
+  "date": "2026-01-11T13:27:57.153760",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "zhuojing-huang/gpt2-german-english-configC-10k-1-200M",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-german-english-configC-10k-1-200M"
+      },
+      {
+        "title": "Pratima29/finetuned-gpt-2-sentiment-classification",
+        "url": "https://huggingface.co/Pratima29/finetuned-gpt-2-sentiment-classification"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
