@@ -1,11 +1,69 @@
 {
-  "date": "2026-01-12T18:25:46.655274",
-  "patterns": {},
-  "inferences": [],
-  "research_trends": [],
+  "date": "2026-01-12T19:19:07.142318",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "ebisuke/llm-japanese-llm10",
+        "url": "https://huggingface.co/ebisuke/llm-japanese-llm10"
+      },
+      {
+        "title": "alexgusevski/saiga_yandexgpt_8b-q6-mlx",
+        "url": "https://huggingface.co/alexgusevski/saiga_yandexgpt_8b-q6-mlx"
+      },
+      {
+        "title": "alexgusevski/saiga_yandexgpt_8b-q4-mlx",
+        "url": "https://huggingface.co/alexgusevski/saiga_yandexgpt_8b-q4-mlx"
+      }
+    ],
+    "reasoning": [
+      {
+        "title": "alexgusevski/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning-mlx-8Bit",
+        "url": "https://huggingface.co/alexgusevski/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning-mlx-8Bit"
+      },
+      {
+        "title": "alexgusevski/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning-mlx-6Bit",
+        "url": "https://huggingface.co/alexgusevski/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning-mlx-6Bit"
+      },
+      {
+        "title": "alexgusevski/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning-mlx-5Bit",
+        "url": "https://huggingface.co/alexgusevski/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning-mlx-5Bit"
+      },
+      {
+        "title": "alexgusevski/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning-mlx-4Bit",
+        "url": "https://huggingface.co/alexgusevski/Llama3.3-8B-Instruct-Thinking-Claude-4.5-Opus-High-Reasoning-mlx-4Bit"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Reasoning - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [
+    {
+      "topic": "reasoning",
+      "frequency": 4,
+      "significance": "medium"
+    }
+  ],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 2,
+    "total_inferences": 3,
+    "total_papers": 7
   }
 }
