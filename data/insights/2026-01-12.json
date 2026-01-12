@@ -1,22 +1,33 @@
 {
-  "date": "2026-01-12T21:17:06.292607",
+  "date": "2026-01-12T22:15:55.201725",
   "patterns": {
     "language_models": [
       {
-        "title": "ebisuke/llm-japanese-llm10",
-        "url": "https://huggingface.co/ebisuke/llm-japanese-llm10"
+        "title": "jamshid4/fake-news-deberta-v3",
+        "url": "https://huggingface.co/jamshid4/fake-news-deberta-v3"
       },
       {
-        "title": "mii-llm/nesso-4B-GGUF",
-        "url": "https://huggingface.co/mii-llm/nesso-4B-GGUF"
+        "title": "tien23/bert_tr_movie",
+        "url": "https://huggingface.co/tien23/bert_tr_movie"
+      },
+      {
+        "title": "ebisuke/llm-japanese-llm10",
+        "url": "https://huggingface.co/ebisuke/llm-japanese-llm10"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
