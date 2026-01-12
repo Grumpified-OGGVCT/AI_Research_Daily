@@ -1,75 +1,11 @@
 {
-  "date": "2026-01-12T17:21:00.080428",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "MikCil/PREMOVE_gpt-oss-120b_float16",
-        "url": "https://huggingface.co/MikCil/PREMOVE_gpt-oss-120b_float16"
-      },
-      {
-        "title": "ebisuke/llm-japanese-llm10",
-        "url": "https://huggingface.co/ebisuke/llm-japanese-llm10"
-      }
-    ],
-    "reasoning": [
-      {
-        "title": "laion/GLM-4.6-stackexchange-overflow-sandboxes-32eps-65k-reasoning_lr_1e-5_Qwen3-32B",
-        "url": "https://huggingface.co/laion/GLM-4.6-stackexchange-overflow-sandboxes-32eps-65k-reasoning_lr_1e-5_Qwen3-32B"
-      },
-      {
-        "title": "alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-fp16",
-        "url": "https://huggingface.co/alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-fp16"
-      },
-      {
-        "title": "alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-8Bit",
-        "url": "https://huggingface.co/alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-8Bit"
-      },
-      {
-        "title": "alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-6Bit",
-        "url": "https://huggingface.co/alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-6Bit"
-      },
-      {
-        "title": "alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-5Bit",
-        "url": "https://huggingface.co/alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-5Bit"
-      },
-      {
-        "title": "alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-4Bit",
-        "url": "https://huggingface.co/alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-4Bit"
-      },
-      {
-        "title": "alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-3Bit",
-        "url": "https://huggingface.co/alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-3Bit"
-      },
-      {
-        "title": "alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-2Bit",
-        "url": "https://huggingface.co/alexgusevski/LFM2.5-1.2B-Instruct-Thinking-Claude-High-Reasoning-mlx-2Bit"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "reasoning",
-      "observation": "8 independent papers",
-      "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
-      "confidence": "high"
-    },
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
-      "confidence": "medium"
-    }
-  ],
-  "research_trends": [
-    {
-      "topic": "reasoning",
-      "frequency": 8,
-      "significance": "high"
-    }
-  ],
+  "date": "2026-01-12T18:25:46.655274",
+  "patterns": {},
+  "inferences": [],
+  "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 2,
-    "total_papers": 10
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
