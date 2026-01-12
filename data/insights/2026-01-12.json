@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-12T20:20:41.242211",
-  "patterns": {},
+  "date": "2026-01-12T21:17:06.292607",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "ebisuke/llm-japanese-llm10",
+        "url": "https://huggingface.co/ebisuke/llm-japanese-llm10"
+      },
+      {
+        "title": "mii-llm/nesso-4B-GGUF",
+        "url": "https://huggingface.co/mii-llm/nesso-4B-GGUF"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
