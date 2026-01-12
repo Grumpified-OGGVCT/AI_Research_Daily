@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-12T04:46:35.359503",
-  "patterns": {},
+  "date": "2026-01-12T05:27:12.721401",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "maurihn/distilbert-fusion-router-requires-memory",
+        "url": "https://huggingface.co/maurihn/distilbert-fusion-router-requires-memory"
+      },
+      {
+        "title": "sabianwaw/finetuning-distilbert-mnli",
+        "url": "https://huggingface.co/sabianwaw/finetuning-distilbert-mnli"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
