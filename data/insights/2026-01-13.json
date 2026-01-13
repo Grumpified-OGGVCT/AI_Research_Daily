@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T18:26:44.131368",
+  "date": "2026-01-13T19:18:42.831646",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,24 +655,20 @@
         "url": "https://arxiv.org/abs/2601.07268v1"
       },
       {
-        "title": "LLM-course/chess-1M-abdennourker",
-        "url": "https://huggingface.co/LLM-course/chess-1M-abdennourker"
+        "title": "LLM-course/chess-model-jawad-chemaou",
+        "url": "https://huggingface.co/LLM-course/chess-model-jawad-chemaou"
+      },
+      {
+        "title": "LLM-course/chess-llm-tt",
+        "url": "https://huggingface.co/LLM-course/chess-llm-tt"
+      },
+      {
+        "title": "LLM-course/chess-llm-MaximeMuh2",
+        "url": "https://huggingface.co/LLM-course/chess-llm-MaximeMuh2"
       },
       {
         "title": "ebisuke/llm-japanese-llm10",
         "url": "https://huggingface.co/ebisuke/llm-japanese-llm10"
-      },
-      {
-        "title": "tegarganang/bert-base-mental-health-counseling",
-        "url": "https://huggingface.co/tegarganang/bert-base-mental-health-counseling"
-      },
-      {
-        "title": "MaximeMuhlethaler/chess-llm-MaximeMuh2",
-        "url": "https://huggingface.co/MaximeMuhlethaler/chess-llm-MaximeMuh2"
-      },
-      {
-        "title": "LLM-course/chess-agroudiev",
-        "url": "https://huggingface.co/LLM-course/chess-agroudiev"
       }
     ],
     "vision_systems": [
@@ -1669,7 +1665,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,7 +1712,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 37,
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1728,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 406
   }
 }
