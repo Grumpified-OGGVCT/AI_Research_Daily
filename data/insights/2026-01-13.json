@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T21:17:34.802748",
+  "date": "2026-01-13T22:18:23.884025",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,12 +655,20 @@
         "url": "https://arxiv.org/abs/2601.07268v1"
       },
       {
-        "title": "Kunal7370944861/Twinkel-LLM-72M",
-        "url": "https://huggingface.co/Kunal7370944861/Twinkel-LLM-72M"
+        "title": "Mo7ammadosama/distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/Mo7ammadosama/distilbert-base-uncased-finetuned-emotion"
       },
       {
-        "title": "LLM-course/chess-agroudiev",
-        "url": "https://huggingface.co/LLM-course/chess-agroudiev"
+        "title": "rngrye/BERT-cyberbullying-classifier-FocalLoss-New",
+        "url": "https://huggingface.co/rngrye/BERT-cyberbullying-classifier-FocalLoss-New"
+      },
+      {
+        "title": "ebisuke/llm-japanese-llm10",
+        "url": "https://huggingface.co/ebisuke/llm-japanese-llm10"
+      },
+      {
+        "title": "sachiniyer/SmolLM2-FT-SFT-Learning",
+        "url": "https://huggingface.co/sachiniyer/SmolLM2-FT-SFT-Learning"
       }
     ],
     "vision_systems": [
@@ -871,6 +879,10 @@
       {
         "title": "Inference-Time Scaling for Visual AutoRegressive modeling by Searching Representative Samples",
         "url": "https://arxiv.org/abs/2601.07293v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Advancing Multinational License Plate Recognition Through Synthetic and Real Data Fusion: A Comprehensive Evaluation",
@@ -1657,13 +1669,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 407
   }
 }
