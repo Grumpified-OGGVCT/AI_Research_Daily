@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T16:25:32.188540",
+  "date": "2026-01-13T17:23:58.075824",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,12 +655,12 @@
         "url": "https://arxiv.org/abs/2601.07268v1"
       },
       {
-        "title": "LLM-course/chess-llm-MaximeMuh",
-        "url": "https://huggingface.co/LLM-course/chess-llm-MaximeMuh"
+        "title": "LLM-course/chess-pgberlureau",
+        "url": "https://huggingface.co/LLM-course/chess-pgberlureau"
       },
       {
-        "title": "LLM-course/chess-vincentime-model-0",
-        "url": "https://huggingface.co/LLM-course/chess-vincentime-model-0"
+        "title": "LLM-course/persistence-chesser",
+        "url": "https://huggingface.co/LLM-course/persistence-chesser"
       }
     ],
     "vision_systems": [
@@ -895,10 +895,6 @@
       {
         "title": "From Landslide Conditioning Factors to Satellite Embeddings: Evaluating the Utilisation of Google AlphaEarth for Landslide Susceptibility Mapping using Deep Learning",
         "url": "https://arxiv.org/abs/2601.07268v1"
-      },
-      {
-        "title": "RayyanAhmed9477/qwen-image-2512-lora-advertisement",
-        "url": "https://huggingface.co/RayyanAhmed9477/qwen-image-2512-lora-advertisement"
       }
     ],
     "reasoning": [
@@ -1667,7 +1663,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "59 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 404
   }
 }
