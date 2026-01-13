@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T04:36:43.841352",
+  "date": "2026-01-13T05:22:50.006837",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,12 +655,8 @@
         "url": "https://arxiv.org/abs/2601.07268v1"
       },
       {
-        "title": "marcoharuni95/Med-MUHAS-LLM",
-        "url": "https://huggingface.co/marcoharuni95/Med-MUHAS-LLM"
-      },
-      {
-        "title": "JokerGrubu/JokerLLM",
-        "url": "https://huggingface.co/JokerGrubu/JokerLLM"
+        "title": "bachthetrollface/qwen2.5-math-7B-inst-vllm",
+        "url": "https://huggingface.co/bachthetrollface/qwen2.5-math-7B-inst-vllm"
       }
     ],
     "vision_systems": [
@@ -1657,7 +1653,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 403
   }
 }
