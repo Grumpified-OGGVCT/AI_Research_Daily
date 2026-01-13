@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T15:21:13.321195",
+  "date": "2026-01-13T16:25:32.188540",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,28 +655,12 @@
         "url": "https://arxiv.org/abs/2601.07268v1"
       },
       {
-        "title": "nureddin123/gpt-20b-mxfp4_v2",
-        "url": "https://huggingface.co/nureddin123/gpt-20b-mxfp4_v2"
+        "title": "LLM-course/chess-llm-MaximeMuh",
+        "url": "https://huggingface.co/LLM-course/chess-llm-MaximeMuh"
       },
       {
-        "title": "nureddin123/gpt-20b-mxfp4",
-        "url": "https://huggingface.co/nureddin123/gpt-20b-mxfp4"
-      },
-      {
-        "title": "LLM-course/chess-model-armand-blin",
-        "url": "https://huggingface.co/LLM-course/chess-model-armand-blin"
-      },
-      {
-        "title": "LLM-course/chess_trickster",
-        "url": "https://huggingface.co/LLM-course/chess_trickster"
-      },
-      {
-        "title": "ebisuke/llm-japanese-llm10",
-        "url": "https://huggingface.co/ebisuke/llm-japanese-llm10"
-      },
-      {
-        "title": "LLM-course/chess-agroudiev",
-        "url": "https://huggingface.co/LLM-course/chess-agroudiev"
+        "title": "LLM-course/chess-vincentime-model-0",
+        "url": "https://huggingface.co/LLM-course/chess-vincentime-model-0"
       }
     ],
     "vision_systems": [
@@ -911,6 +895,10 @@
       {
         "title": "From Landslide Conditioning Factors to Satellite Embeddings: Evaluating the Utilisation of Google AlphaEarth for Landslide Susceptibility Mapping using Deep Learning",
         "url": "https://arxiv.org/abs/2601.07268v1"
+      },
+      {
+        "title": "RayyanAhmed9477/qwen-image-2512-lora-advertisement",
+        "url": "https://huggingface.co/RayyanAhmed9477/qwen-image-2512-lora-advertisement"
       }
     ],
     "reasoning": [
@@ -1673,13 +1661,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "102 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 405
   }
 }
