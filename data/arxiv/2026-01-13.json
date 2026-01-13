@@ -58,7 +58,7 @@
       "Veronika Solopova",
       "Konrad Rieck",
       "David Schlangen",
-      "Sebastian M\u00f6ller",
+      "Sebastian Möller",
       "Vera Schmitt"
     ],
     "categories": [
@@ -238,7 +238,7 @@
     "title": "Integrating Machine-Generated Short Descriptions into the Wikipedia Android App: A Pilot Deployment of Descartes",
     "summary": "Short descriptions are a key part of the Wikipedia user experience, but their coverage remains uneven across languages and topics. In previous work, we introduced Descartes, a multilingual model for generating short descriptions. In this report, we present the results of a pilot deployment of Descartes in the Wikipedia Android app, where editors were offered suggestions based on outputs from Descartes while editing short descriptions. The experiment spanned 12 languages, with over 3,900 articles and 375 editors participating. Overall, 90% of accepted Descartes descriptions were rated at least 3 out of 5 in quality, and their average ratings were comparable to human-written ones. Editors adopted machine suggestions both directly and with modifications, while the rate of reverts and reports remained low. The pilot also revealed practical considerations for deployment, including latency, language-specific gaps, and the need for safeguards around sensitive topics. These results indicate that Descartes's short descriptions can support editors in reducing content gaps, provided that technical, design, and community guardrails are in place.",
     "authors": [
-      "Marija \u0160akota",
+      "Marija Šakota",
       "Dmitry Brant",
       "Cooltey Feng",
       "Shay Nowick",
@@ -347,10 +347,10 @@
     "title": "Studying the Role of Synthetic Data for Machine Learning-based Wireless Networks Traffic Forecasting",
     "summary": "Synthetic data generation is an appealing tool for augmenting and enriching datasets, playing a crucial role in advancing artificial intelligence (AI) and machine learning (ML). Not only does synthetic data help build robust AI/ML datasets cost-effectively, but it also offers privacy-friendly solutions and bypasses the complexities of storing large data volumes. This paper proposes a novel method to generate synthetic data, based on first-order auto-regressive noise statistics, for large-scale Wi-Fi deployments. The approach operates with minimal real data requirements while producing statistically rich traffic patterns that effectively mimic real Access Point (AP) behavior. Experimental results show that ML models trained on synthetic data achieve Mean Absolute Error (MAE) values within 10 to 15 of those obtained using real data when trained on the same APs, while requiring significantly less training data. Moreover, when generalization is required, synthetic-data-trained models improve prediction accuracy by up to 50 percent compared to real-data-trained baselines, thanks to the enhanced variability and diversity of the generated traces. Overall, the proposed method bridges the gap between synthetic data generation and practical Wi-Fi traffic forecasting, providing a scalable, efficient, and real-time solution for modern wireless networks.",
     "authors": [
-      "Jos\u00e9 Pulido",
+      "José Pulido",
       "Francesc Wilhelmi",
       "Sergio Fortes",
-      "Alfonso Fern\u00e1ndez-Dur\u00e1n",
+      "Alfonso Fernández-Durán",
       "Lorenzo Galati Giordano",
       "Raquel Barco"
     ],
@@ -439,7 +439,7 @@
       "Barbara Nicolas",
       "Bruno Gilles",
       "Adrian Basarab",
-      "Denis Kouam\u00e9"
+      "Denis Kouamé"
     ],
     "categories": [
       "eess.IV",
@@ -1069,7 +1069,7 @@
     "title": "Layerwise goal-oriented adaptivity for neural ODEs: an optimal control perspective",
     "summary": "In this work, we propose a novel layerwise adaptive construction method for neural network architectures. Our approach is based on a goal--oriented dual-weighted residual technique for the optimal control of neural differential equations. This leads to an ordinary differential equation constrained optimization problem with controls acting as coefficients and a specific loss function. We implement our approach on the basis of a DG(0) Galerkin discretization of the neural ODE, leading to an explicit Euler time marching scheme. For the optimization we use steepest descent. Finally, we apply our method to the construction of neural networks for the classification of data sets, where we present results for a selection of well known examples from the literature.",
     "authors": [
-      "Michael Hinterm\u00fcller",
+      "Michael Hintermüller",
       "Michael Hinze",
       "Denis Korolev"
     ],
@@ -1295,7 +1295,7 @@
   {
     "arxiv_id": "2601.07482v1",
     "title": "The Secretary Problem with Predictions and a Chosen Order",
-    "summary": "We study a learning-augmented variant of the secretary problem, recently introduced by Fujii and Yoshida (2023), in which the decision-maker has access to machine-learned predictions of candidate values. The central challenge is to balance consistency and robustness: when predictions are accurate, the algorithm should select a near-optimal secretary, while under inaccurate predictions it should still guarantee a bounded competitive ratio.   We consider both the classical Random Order Secretary Problem (ROSP), where candidates arrive in a uniformly random order, and a more natural learning-augmented model in which the decision-maker may choose the arrival order based on predicted values. We call this model the Chosen Order Secretary Problem (COSP), capturing scenarios such as interview schedules set in advance.   We propose a new randomized algorithm applicable to both ROSP and COSP. Our method switches from fully trusting predictions to a threshold-based rule once a large prediction deviation is detected. Let $\u03b5\\in [0,1]$ denote the maximum multiplicative prediction error. For ROSP, our algorithm achieves a competitive ratio of $\\max\\{0.221, (1-\u03b5)/(1+\u03b5)\\}$, improving upon the prior bound of $\\max\\{0.215, (1-\u03b5)/(1+\u03b5)\\}$. For COSP, we achieve $\\max\\{0.262, (1-\u03b5)/(1+\u03b5)\\}$, surpassing the $0.25$ worst-case bound for prior approaches and moving closer to the classical secretary benchmark of $1/e \\approx 0.368$. These results highlight the benefit of combining predictions with arrival-order control in online decision-making.",
+    "summary": "We study a learning-augmented variant of the secretary problem, recently introduced by Fujii and Yoshida (2023), in which the decision-maker has access to machine-learned predictions of candidate values. The central challenge is to balance consistency and robustness: when predictions are accurate, the algorithm should select a near-optimal secretary, while under inaccurate predictions it should still guarantee a bounded competitive ratio.   We consider both the classical Random Order Secretary Problem (ROSP), where candidates arrive in a uniformly random order, and a more natural learning-augmented model in which the decision-maker may choose the arrival order based on predicted values. We call this model the Chosen Order Secretary Problem (COSP), capturing scenarios such as interview schedules set in advance.   We propose a new randomized algorithm applicable to both ROSP and COSP. Our method switches from fully trusting predictions to a threshold-based rule once a large prediction deviation is detected. Let $ε\\in [0,1]$ denote the maximum multiplicative prediction error. For ROSP, our algorithm achieves a competitive ratio of $\\max\\{0.221, (1-ε)/(1+ε)\\}$, improving upon the prior bound of $\\max\\{0.215, (1-ε)/(1+ε)\\}$. For COSP, we achieve $\\max\\{0.262, (1-ε)/(1+ε)\\}$, surpassing the $0.25$ worst-case bound for prior approaches and moving closer to the classical secretary benchmark of $1/e \\approx 0.368$. These results highlight the benefit of combining predictions with arrival-order control in online decision-making.",
     "authors": [
       "Helia Karisani",
       "Mohammadreza Daneshvaramoli",
@@ -1503,7 +1503,7 @@
       "Shi Feng",
       "Feiliang Ren",
       "Daling Wang",
-      "Hinrich Sch\u00fctze"
+      "Hinrich Schütze"
     ],
     "categories": [
       "cs.CL"
@@ -1639,7 +1639,7 @@
     "authors": [
       "Tessa Pulli",
       "Jean-Baptiste Weibel",
-      "Peter H\u00f6nig",
+      "Peter Hönig",
       "Matthias Hirschmanner",
       "Markus Vincze",
       "Andreas Holzinger"
@@ -1865,11 +1865,11 @@
   {
     "arxiv_id": "2601.07581v1",
     "title": "BenchSeg: A Large-Scale Dataset and Benchmark for Multi-View Food Video Segmentation",
-    "summary": "Food image segmentation is a critical task for dietary analysis, enabling accurate estimation of food volume and nutrients. However, current methods suffer from limited multi-view data and poor generalization to new viewpoints. We introduce BenchSeg, a novel multi-view food video segmentation dataset and benchmark. BenchSeg aggregates 55 dish scenes (from Nutrition5k, Vegetables & Fruits, MetaFood3D, and FoodKit) with 25,284 meticulously annotated frames, capturing each dish under free 360\u00b0 camera motion. We evaluate a diverse set of 20 state-of-the-art segmentation models (e.g., SAM-based, transformer, CNN, and large multimodal) on the existing FoodSeg103 dataset and evaluate them (alone and combined with video-memory modules) on BenchSeg. Quantitative and qualitative results demonstrate that while standard image segmenters degrade sharply under novel viewpoints, memory-augmented methods maintain temporal consistency across frames. Our best model based on a combination of SeTR-MLA+XMem2 outperforms prior work (e.g., improving over FoodMem by ~2.63% mAP), offering new insights into food segmentation and tracking for dietary analysis. We release BenchSeg to foster future research. The project page including the dataset annotations and the food segmentation models can be found at https://amughrabi.github.io/benchseg.",
+    "summary": "Food image segmentation is a critical task for dietary analysis, enabling accurate estimation of food volume and nutrients. However, current methods suffer from limited multi-view data and poor generalization to new viewpoints. We introduce BenchSeg, a novel multi-view food video segmentation dataset and benchmark. BenchSeg aggregates 55 dish scenes (from Nutrition5k, Vegetables & Fruits, MetaFood3D, and FoodKit) with 25,284 meticulously annotated frames, capturing each dish under free 360° camera motion. We evaluate a diverse set of 20 state-of-the-art segmentation models (e.g., SAM-based, transformer, CNN, and large multimodal) on the existing FoodSeg103 dataset and evaluate them (alone and combined with video-memory modules) on BenchSeg. Quantitative and qualitative results demonstrate that while standard image segmenters degrade sharply under novel viewpoints, memory-augmented methods maintain temporal consistency across frames. Our best model based on a combination of SeTR-MLA+XMem2 outperforms prior work (e.g., improving over FoodMem by ~2.63% mAP), offering new insights into food segmentation and tracking for dietary analysis. We release BenchSeg to foster future research. The project page including the dataset annotations and the food segmentation models can be found at https://amughrabi.github.io/benchseg.",
     "authors": [
       "Ahmad AlMughrabi",
       "Guillermo Rivo",
-      "Carlos Jim\u00e9nez-Farf\u00e1n",
+      "Carlos Jiménez-Farfán",
       "Umair Haroon",
       "Farid Al-Areqi",
       "Hyunjun Jung",
@@ -1957,7 +1957,7 @@
   {
     "arxiv_id": "2601.07325v1",
     "title": "Variational Approximations for Robust Bayesian Inference via Rho-Posteriors",
-    "summary": "The $\u03c1$-posterior framework provides universal Bayesian estimation with explicit contamination rates and optimal convergence guarantees, but has remained computationally difficult due to an optimization over reference distributions that precludes intractable posterior computation. We develop a PAC-Bayesian framework that recovers these theoretical guarantees through temperature-dependent Gibbs posteriors, deriving finite-sample oracle inequalities with explicit rates and introducing tractable variational approximations that inherit the robustness properties of exact $\u03c1$-posteriors. Numerical experiments demonstrate that this approach achieves theoretical contamination rates while remaining computationally feasible, providing the first practical implementation of $\u03c1$-posterior inference with rigorous finite-sample guarantees.",
+    "summary": "The $ρ$-posterior framework provides universal Bayesian estimation with explicit contamination rates and optimal convergence guarantees, but has remained computationally difficult due to an optimization over reference distributions that precludes intractable posterior computation. We develop a PAC-Bayesian framework that recovers these theoretical guarantees through temperature-dependent Gibbs posteriors, deriving finite-sample oracle inequalities with explicit rates and introducing tractable variational approximations that inherit the robustness properties of exact $ρ$-posteriors. Numerical experiments demonstrate that this approach achieves theoretical contamination rates while remaining computationally feasible, providing the first practical implementation of $ρ$-posterior inference with rigorous finite-sample guarantees.",
     "authors": [
       "EL Mahdi Khribch",
       "Pierre Alquier"
@@ -2023,7 +2023,7 @@
     "summary": "Bayesian Optimization with multi-objective acquisition functions such as q-Expected Hypervolume Improvement (qEHVI) requires efficient candidate optimization to maximize acquisition function values. Traditional approaches rely on continuous optimization methods like Sequential Least Squares Programming (SLSQP) for candidate selection. However, these gradient-based methods can become trapped in local optima, particularly in complex or high-dimensional objective landscapes. This paper presents a simulated annealing-based approach for candidate optimization in batch acquisition functions as an alternative to conventional continuous optimization methods. We evaluate our simulated annealing approach against SLSQP across four benchmark multi-objective optimization problems: ZDT1 (30D, 2 objectives), DTLZ2 (7D, 3 objectives), Kursawe (3D, 2 objectives), and Latent-Aware (4D, 2 objectives). Our results demonstrate that simulated annealing consistently achieves superior hypervolume performance compared to SLSQP in most test functions. The improvement is particularly pronounced for DTLZ2 and Latent-Aware problems, where simulated annealing reaches significantly higher hypervolume values and maintains better convergence characteristics. The histogram analysis of objective space coverage further reveals that simulated annealing explores more diverse and optimal regions of the Pareto front. These findings suggest that metaheuristic optimization approaches like simulated annealing can provide more robust and effective candidate optimization for multi-objective Bayesian optimization, offering a promising alternative to traditional gradient-based methods for batch acquisition function optimization.",
     "authors": [
       "Sk Md Ahnaf Akif Alvi",
-      "Raymundo Arr\u00f3yave",
+      "Raymundo Arróyave",
       "Douglas Allaire"
     ],
     "categories": [
@@ -2069,7 +2069,7 @@
     "summary": "The increased use of Large Language Models (LLMs) in sensitive domains leads to growing interest in how their confidence scores correspond to fairness and bias. This study examines the alignment between LLM-predicted confidence and human-annotated bias judgments. Focusing on gender bias, the research investigates probability confidence calibration in contexts involving gendered pronoun resolution. The goal is to evaluate if calibration metrics based on predicted confidence scores effectively capture fairness-related disparities in LLMs. The results show that, among the six state-of-the-art models, Gemma-2 demonstrates the worst calibration according to the gender bias benchmark. The primary contribution of this work is a fairness-aware evaluation of LLMs' confidence calibration, offering guidance for ethical deployment. In addition, we introduce a new calibration metric, Gender-ECE, designed to measure gender disparities in resolution tasks.",
     "authors": [
       "Ahmed Sabir",
-      "Markus K\u00e4ngsepp",
+      "Markus Kängsepp",
       "Rajesh Sharma"
     ],
     "categories": [
@@ -2132,7 +2132,7 @@
       "Benjamin Avanzi",
       "Ronald Richman",
       "Bernard Wong",
-      "Mario W\u00fcthrich",
+      "Mario Wüthrich",
       "Yagebu Xie"
     ],
     "categories": [
@@ -2275,7 +2275,7 @@
   {
     "arxiv_id": "2601.07733v1",
     "title": "Backward Reconstruction of the Chafee--Infante Equation via Physics-Informed WGAN-GP",
-    "summary": "We present a physics-informed Wasserstein GAN with gradient penalty (WGAN-GP) for solving the inverse Chafee--Infante problem on two-dimensional domains with Dirichlet boundary conditions. The objective is to reconstruct an unknown initial condition from a near-equilibrium state obtained after 100 explicit forward Euler iterations of the reaction-diffusion equation \\[ u_t - \u03b3\u0394u + \u03ba\\left(u^3 - u\\right)=0. \\] Because this mapping strongly damps high-frequency content, the inverse problem is severely ill-posed and sensitive to noise.   Our approach integrates a U-Net generator, a PatchGAN critic with spectral normalization, Wasserstein loss with gradient penalty, and several physics-informed auxiliary terms, including Lyapunov energy matching, distributional statistics, and a crucial forward-simulation penalty. This penalty enforces consistency between the predicted initial condition and its forward evolution under the \\emph{same} forward Euler discretization used for dataset generation. Earlier experiments employing an Eyre-type semi-implicit solver were not compatible with this residual mechanism due to the cost and instability of Newton iterations within batched GPU training.   On a dataset of 50k training and 10k testing pairs on $128\\times128$ grids (with natural $[-1,1]$ amplitude scaling), the best trained model attains a mean absolute error (MAE) of approximately \\textbf{0.23988159} on the full test set, with a sample-wise standard deviation of about \\textbf{0.00266345}. The results demonstrate stable inversion, accurate recovery of interfacial structure, and robustness to high-frequency noise in the initial data.",
+    "summary": "We present a physics-informed Wasserstein GAN with gradient penalty (WGAN-GP) for solving the inverse Chafee--Infante problem on two-dimensional domains with Dirichlet boundary conditions. The objective is to reconstruct an unknown initial condition from a near-equilibrium state obtained after 100 explicit forward Euler iterations of the reaction-diffusion equation \\[ u_t - γΔu + κ\\left(u^3 - u\\right)=0. \\] Because this mapping strongly damps high-frequency content, the inverse problem is severely ill-posed and sensitive to noise.   Our approach integrates a U-Net generator, a PatchGAN critic with spectral normalization, Wasserstein loss with gradient penalty, and several physics-informed auxiliary terms, including Lyapunov energy matching, distributional statistics, and a crucial forward-simulation penalty. This penalty enforces consistency between the predicted initial condition and its forward evolution under the \\emph{same} forward Euler discretization used for dataset generation. Earlier experiments employing an Eyre-type semi-implicit solver were not compatible with this residual mechanism due to the cost and instability of Newton iterations within batched GPU training.   On a dataset of 50k training and 10k testing pairs on $128\\times128$ grids (with natural $[-1,1]$ amplitude scaling), the best trained model attains a mean absolute error (MAE) of approximately \\textbf{0.23988159} on the full test set, with a sample-wise standard deviation of about \\textbf{0.00266345}. The results demonstrate stable inversion, accurate recovery of interfacial structure, and robustness to high-frequency noise in the initial data.",
     "authors": [
       "Joseph L. Shomberg"
     ],
@@ -2316,7 +2316,7 @@
     "authors": [
       "Mahdi Nasiri",
       "Johanna Kortelainen",
-      "Simo S\u00e4rkk\u00e4"
+      "Simo Särkkä"
     ],
     "categories": [
       "stat.ML",
@@ -2335,7 +2335,7 @@
     "summary": "Reduced-order modeling lies at the interface of numerical analysis and data-driven scientific computing, providing principled ways to compress high-fidelity simulations in science and engineering. We propose a training framework that couples a continuous-time form of operator inference with the adjoint-state method to obtain robust data-driven reduced-order models. This method minimizes a trajectory-based loss between reduced-order solutions and projected snapshot data, which removes the need to estimate time derivatives from noisy measurements and provides intrinsic temporal regularization through time integration. We derive the corresponding continuous adjoint equations to compute gradients efficiently and implement a gradient based optimizer to update the reduced model parameters. Each iteration only requires one forward reduced order solve and one adjoint solve, followed by inexpensive gradient assembly, making the method attractive for large-scale simulations. We validate the proposed method on three partial differential equations: viscous Burgers' equation, the two-dimensional Fisher-KPP equation, and an advection-diffusion equation. We perform systematic comparisons against standard operator inference under two perturbation regimes, namely reduced temporal snapshot density and additive Gaussian noise. For clean data, both approaches deliver similar accuracy, but in situations with sparse sampling and noise, the proposed adjoint-based training provides better accuracy and enhanced roll-out stability.",
     "authors": [
       "Donglin Liu",
-      "Francisco Garc\u00eda Atienza",
+      "Francisco García Atienza",
       "Mengwu Guo"
     ],
     "categories": [
@@ -2564,7 +2564,7 @@
   {
     "arxiv_id": "2601.07473v1",
     "title": "AntiPaSTO: Self-Supervised Steering of Moral Reasoning",
-    "summary": "As models grow more capable, human supervision breaks down: labels don't scale, outputs can be gamed, and training doesn't generalize. Scalable oversight requires steering methods that are internal, self-supervised, and transfer out-of-distribution; existing methods satisfy some but not all three. We introduce AntiPaSTO, which separates representations along an anti-parallel axis ($\u03b1=\\pm1$ produce opposite shifts), with coherence constraints preventing collapse. Human input is minimal: two contrasting words inserted into template sentences, no preference labels. Using 800 such pairs on Gemma-3-1B, AntiPaSTO beats prompting baselines by $6.9\\times$ on DailyDilemmas and maintains bidirectional control where prompting triggers refusal.   Code is available at https://github.com/wassname/AntiPaSTO.",
+    "summary": "As models grow more capable, human supervision breaks down: labels don't scale, outputs can be gamed, and training doesn't generalize. Scalable oversight requires steering methods that are internal, self-supervised, and transfer out-of-distribution; existing methods satisfy some but not all three. We introduce AntiPaSTO, which separates representations along an anti-parallel axis ($α=\\pm1$ produce opposite shifts), with coherence constraints preventing collapse. Human input is minimal: two contrasting words inserted into template sentences, no preference labels. Using 800 such pairs on Gemma-3-1B, AntiPaSTO beats prompting baselines by $6.9\\times$ on DailyDilemmas and maintains bidirectional control where prompting triggers refusal.   Code is available at https://github.com/wassname/AntiPaSTO.",
     "authors": [
       "Michael J. Clark"
     ],
@@ -2610,7 +2610,7 @@
       "Shi Feng",
       "Daling Wang",
       "Kaisong Song",
-      "Hinrich Sch\u00fctze"
+      "Hinrich Schütze"
     ],
     "categories": [
       "cs.CL"
@@ -2756,7 +2756,7 @@
     "authors": [
       "Kishan Padayachy",
       "Ronald Richman",
-      "Mario V. W\u00fcthrich"
+      "Mario V. Wüthrich"
     ],
     "categories": [
       "cs.LG",
@@ -2784,7 +2784,7 @@
       "Daling Wang",
       "Xiaocui Yang",
       "Yifei Zhang",
-      "Hinrich Sch\u00fctze"
+      "Hinrich Schütze"
     ],
     "categories": [
       "cs.CL"
@@ -3108,7 +3108,7 @@
       "Zicong Jiang",
       "Magnus Karlsson",
       "Erik Agrell",
-      "Christian H\u00e4ger"
+      "Christian Häger"
     ],
     "categories": [
       "eess.SP",
@@ -3207,7 +3207,7 @@
     "authors": [
       "Manar Ali",
       "Judith Sieker",
-      "Sina Zarrie\u00df",
+      "Sina Zarrieß",
       "Hendrik Buschmeier"
     ],
     "categories": [
@@ -3429,7 +3429,7 @@
       "Guanyuan Pan",
       "Yugui Lin",
       "Tiansheng Zhou",
-      "Pietro Li\u00f2",
+      "Pietro Liò",
       "Shuai Wang",
       "Yaqi Wang"
     ],
@@ -3834,9 +3834,9 @@
     "title": "Explaining Machine Learning Predictive Models through Conditional Expectation Methods",
     "summary": "The rapid adoption of complex Artificial Intelligence (AI) and Machine Learning (ML) models has led to their characterization as black boxes due to the difficulty of explaining their internal decision-making processes. This lack of transparency hinders users' ability to understand, validate and trust model behavior, particularly in high-risk applications. Although explainable AI (XAI) has made significant progress, there remains a need for versatile and effective techniques to address increasingly complex models. This work introduces Multivariate Conditional Expectation (MUCE), a model-agnostic method for local explainability designed to capture prediction changes from feature interactions. MUCE extends Individual Conditional Expectation (ICE) by exploring a multivariate grid of values in the neighborhood of a given observation at inference time, providing graphical explanations that illustrate the local evolution of model predictions. In addition, two quantitative indices, stability and uncertainty, summarize local behavior and assess model reliability. Uncertainty is further decomposed into uncertainty+ and uncertainty- to capture asymmetric effects that global measures may overlook. The proposed method is validated using XGBoost models trained on three datasets: two synthetic (2D and 3D) to evaluate behavior near decision boundaries, and one transformed real-world dataset to test adaptability to heterogeneous feature types. Results show that MUCE effectively captures complex local model behavior, while the stability and uncertainty indices provide meaningful insight into prediction confidence. MUCE, together with the ICE modification and the proposed indices, offers a practical contribution to local explainability, enabling both graphical and quantitative insights that enhance the interpretability of predictive models and support more trustworthy and transparent decision-making.",
     "authors": [
-      "Silvia Ruiz-Espa\u00f1a",
+      "Silvia Ruiz-España",
       "Laura Arnal",
-      "Fran\u00e7ois Signol",
+      "François Signol",
       "Juan-Carlos Perez-Cortes",
       "Joaquim Arlandis"
     ],
@@ -4042,11 +4042,11 @@
     "summary": "Clinical notes hold rich yet unstructured details about diagnoses, treatments, and outcomes that are vital to precision medicine but hard to exploit at scale. We introduce a method that represents each patient as a matrix built from aggregated embeddings of all their notes, enabling robust patient similarity computation based on their latent low-rank representations. Using clinical notes of 4,267 Czech breast-cancer patients and expert similarity labels from Masaryk Memorial Cancer Institute, we evaluate several matrix-based similarity measures and analyze their strengths and limitations across different similarity facets, such as clinical history, treatment, and adverse events. The results demonstrate the usefulness of the presented method for downstream tasks, such as personalized therapy recommendations or toxicity warnings.",
     "authors": [
       "Petr Zelina",
-      "Marko \u0158eh\u00e1\u010dek",
-      "Jana Hal\u00e1mkov\u00e1",
-      "Lucia Bohovicov\u00e1",
+      "Marko Řeháček",
+      "Jana Halámková",
+      "Lucia Bohovicová",
       "Martin Rusinko",
-      "V\u00edt Nov\u00e1\u010dek"
+      "Vít Nováček"
     ],
     "categories": [
       "cs.LG"
@@ -4061,7 +4061,7 @@
   {
     "arxiv_id": "2601.07326v1",
     "title": "Convergence Rate Analysis of the AdamW-Style Shampoo: Unifying One-sided and Two-Sided Preconditioning",
-    "summary": "This paper studies the AdamW-style Shampoo optimizer, an effective implementation of classical Shampoo that notably won the external tuning track of the AlgoPerf neural network training algorithm competition. Our analysis unifies one-sided and two-sided preconditioning and establishes the convergence rate $\\frac{1}{K}\\sum_{k=1}^K E\\left[\\|\\nabla f(X_k)\\|_*\\right]\\leq O(\\frac{\\sqrt{m+n}C}{K^{1/4}})$ measured by nuclear norm, where $K$ represents the iteration number, $(m,n)$ denotes the size of matrix parameters, and $C$ matches the constant in the optimal convergence rate of SGD. Theoretically, we have $\\|\\nabla f(X)\\|_F\\leq \\|\\nabla f(X)\\|_*\\leq \\sqrt{m+n}\\|\\nabla f(X)\\|_F$, supporting that our convergence rate can be considered to be analogous to the optimal $\\frac{1}{K}\\sum_{k=1}^KE\\left[\\|\\nabla f(X_k)\\|_F\\right]\\leq O(\\frac{C}{K^{1/4}})$ convergence rate of SGD in the ideal case of $\\|\\nabla f(X)\\|_*= \u0398(\\sqrt{m+n})\\|\\nabla f(X)\\|_F$.",
+    "summary": "This paper studies the AdamW-style Shampoo optimizer, an effective implementation of classical Shampoo that notably won the external tuning track of the AlgoPerf neural network training algorithm competition. Our analysis unifies one-sided and two-sided preconditioning and establishes the convergence rate $\\frac{1}{K}\\sum_{k=1}^K E\\left[\\|\\nabla f(X_k)\\|_*\\right]\\leq O(\\frac{\\sqrt{m+n}C}{K^{1/4}})$ measured by nuclear norm, where $K$ represents the iteration number, $(m,n)$ denotes the size of matrix parameters, and $C$ matches the constant in the optimal convergence rate of SGD. Theoretically, we have $\\|\\nabla f(X)\\|_F\\leq \\|\\nabla f(X)\\|_*\\leq \\sqrt{m+n}\\|\\nabla f(X)\\|_F$, supporting that our convergence rate can be considered to be analogous to the optimal $\\frac{1}{K}\\sum_{k=1}^KE\\left[\\|\\nabla f(X_k)\\|_F\\right]\\leq O(\\frac{C}{K^{1/4}})$ convergence rate of SGD in the ideal case of $\\|\\nabla f(X)\\|_*= Θ(\\sqrt{m+n})\\|\\nabla f(X)\\|_F$.",
     "authors": [
       "Huan Li",
       "Yiming Dong",
@@ -4185,7 +4185,7 @@
   {
     "arxiv_id": "2601.07257v1",
     "title": "Innovation Capacity of Dynamical Learning Systems",
-    "summary": "In noisy physical reservoirs, the classical information-processing capacity $C_{\\mathrm{ip}}$ quantifies how well a linear readout can realize tasks measurable from the input history, yet $C_{\\mathrm{ip}}$ can be far smaller than the observed rank of the readout covariance. We explain this ``missing capacity'' by introducing the innovation capacity $C_{\\mathrm{i}}$, the total capacity allocated to readout components orthogonal to the input filtration (Doob innovations, including input-noise mixing). Using a basis-free Hilbert-space formulation of the predictable/innovation decomposition, we prove the conservation law $C_{\\mathrm{ip}}+C_{\\mathrm{i}}=\\mathrm{rank}(\u03a3_{XX})\\le d$, so predictable and innovation capacities exactly partition the rank of the observable readout dimension covariance $\u03a3_{XX}\\in \\mathbb{R}^{\\rm d\\times d}$. In linear-Gaussian Johnson-Nyquist regimes, $\u03a3_{XX}(T)=S+T N_0$, the split becomes a generalized-eigenvalue shrinkage rule and gives an explicit monotone tradeoff between temperature and predictable capacity. Geometrically, in whitened coordinates the predictable and innovation components correspond to complementary covariance ellipsoids, making $C_{\\mathrm{i}}$ a trace-controlled innovation budget. A large $C_{\\mathrm{i}}$ forces a high-dimensional innovation subspace with a variance floor and under mild mixing and anti-concentration assumptions this yields extensive innovation-block differential entropy and exponentially many distinguishable histories. Finally, we give an information-theoretic lower bound showing that learning the induced innovation-block law in total variation requires a number of samples that scales with the effective innovation dimension, supporting the generative utility of noisy physical reservoirs.",
+    "summary": "In noisy physical reservoirs, the classical information-processing capacity $C_{\\mathrm{ip}}$ quantifies how well a linear readout can realize tasks measurable from the input history, yet $C_{\\mathrm{ip}}$ can be far smaller than the observed rank of the readout covariance. We explain this ``missing capacity'' by introducing the innovation capacity $C_{\\mathrm{i}}$, the total capacity allocated to readout components orthogonal to the input filtration (Doob innovations, including input-noise mixing). Using a basis-free Hilbert-space formulation of the predictable/innovation decomposition, we prove the conservation law $C_{\\mathrm{ip}}+C_{\\mathrm{i}}=\\mathrm{rank}(Σ_{XX})\\le d$, so predictable and innovation capacities exactly partition the rank of the observable readout dimension covariance $Σ_{XX}\\in \\mathbb{R}^{\\rm d\\times d}$. In linear-Gaussian Johnson-Nyquist regimes, $Σ_{XX}(T)=S+T N_0$, the split becomes a generalized-eigenvalue shrinkage rule and gives an explicit monotone tradeoff between temperature and predictable capacity. Geometrically, in whitened coordinates the predictable and innovation components correspond to complementary covariance ellipsoids, making $C_{\\mathrm{i}}$ a trace-controlled innovation budget. A large $C_{\\mathrm{i}}$ forces a high-dimensional innovation subspace with a variance floor and under mild mixing and anti-concentration assumptions this yields extensive innovation-block differential entropy and exponentially many distinguishable histories. Finally, we give an information-theoretic lower bound showing that learning the induced innovation-block law in total variation requires a number of samples that scales with the effective innovation dimension, supporting the generative utility of noisy physical reservoirs.",
     "authors": [
       "Anthony M. Polloreno"
     ],
@@ -4291,7 +4291,7 @@
     "summary": "Traditional reinforcement learning usually assumes either episodic interactions with resets or continuous operation to minimize average or cumulative loss. While episodic settings have many theoretical results, resets are often unrealistic in practice. The infinite-horizon setting avoids this issue but lacks non-asymptotic guarantees in online scenarios with unknown dynamics. In this work, we move towards closing this gap by introducing a reset-free framework called the periodic framework, where the goal is to find periodic policies: policies that not only minimize cumulative loss but also return the agents to their initial state distribution after a fixed number of steps. We formalize the problem of finding optimal periodic policies and identify sufficient conditions under which it is well-defined for tabular Markov decision processes. To evaluate algorithms in this framework, we introduce the periodic regret, a measure that balances cumulative loss with the terminal law constraint. We then propose the first algorithms for computing periodic policies in two multi-agent settings and show they achieve sublinear periodic regret of order $\\tilde O(T^{3/4})$. This provides the first non-asymptotic guarantees for reset-free learning in the setting of $M$ homogeneous agents, for $M > 1$.",
     "authors": [
       "Bianca Marin Moreno",
-      "Margaux Br\u00e9g\u00e8re",
+      "Margaux Brégère",
       "Pierre Gaillard",
       "Nadia Oudjane"
     ],
@@ -4341,7 +4341,7 @@
       "Henry C. Woodruff",
       "Maciej Bobowicz",
       "Katrine Riklund",
-      "Juozas Kup\u010dinskas",
+      "Juozas Kupčinskas",
       "Lorenzo Faggioni",
       "Roberto Francischello",
       "Razvan L Miclea",
@@ -4432,174 +4432,5 @@
     "date": "2026-01-13",
     "source": "arxiv",
     "research_score": 0.41
-  },
-  {
-    "model_id": "aminr8/FS-DFM",
-    "author": "unknown",
-    "title": "aminr8/FS-DFM",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "diffusion",
-      "discrete-flow-matching",
-      "flow-matching",
-      "ctmc",
-      "text-generation",
-      "language-modeling",
-      "en",
-      "arxiv:2509.20624",
-      "license:other",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "pytorch",
-    "created_at": "2026-01-12T22:27:12.000Z",
-    "last_modified": "2026-01-13T03:25:07.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aminr8/FS-DFM",
-    "date": "2026-01-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Ba2han/model-short-muontest-wsd-2",
-    "author": "unknown",
-    "title": "Ba2han/model-short-muontest-wsd-2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer",
-      "unsloth",
-      "sft",
-      "trl",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-12T12:07:15.000Z",
-    "last_modified": "2026-01-13T03:23:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Ba2han/model-short-muontest-wsd-2",
-    "date": "2026-01-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "svia/results",
-    "author": "unknown",
-    "title": "svia/results",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "distilbert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:distilbert/distilbert-base-uncased",
-      "base_model:finetune:distilbert/distilbert-base-uncased",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-01-13T03:20:59.000Z",
-    "last_modified": "2026-01-13T03:21:14.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/svia/results",
-    "date": "2026-01-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Comfy-Org/flux1-dev",
-    "author": "unknown",
-    "title": "Comfy-Org/flux1-dev",
-    "downloads": 288373,
-    "likes": 594,
-    "tags": [
-      "diffusion-single-file",
-      "comfyui",
-      "license:other",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "diffusion-single-file",
-    "created_at": "2024-08-03T20:04:30.000Z",
-    "last_modified": "2026-01-13T03:20:45.000Z",
-    "days_since_creation": 527,
-    "url": "https://huggingface.co/Comfy-Org/flux1-dev",
-    "date": "2026-01-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cesarcodigo/results",
-    "author": "unknown",
-    "title": "cesarcodigo/results",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "distilbert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:distilbert/distilbert-base-uncased",
-      "base_model:finetune:distilbert/distilbert-base-uncased",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-01-13T03:20:12.000Z",
-    "last_modified": "2026-01-13T03:20:32.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cesarcodigo/results",
-    "date": "2026-01-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "bigai-NPR/NPR-4B-stage1",
-    "author": "unknown",
-    "title": "bigai-NPR/NPR-4B-stage1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-13T03:08:27.000Z",
-    "last_modified": "2026-01-13T03:17:41.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/bigai-NPR/NPR-4B-stage1",
-    "date": "2026-01-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
