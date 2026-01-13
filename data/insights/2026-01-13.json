@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-13T09:25:08.942566",
+  "date": "2026-01-13T10:20:07.958799",
   "patterns": {
     "multimodal_research": [
       {
@@ -653,6 +653,10 @@
       {
         "title": "From Landslide Conditioning Factors to Satellite Embeddings: Evaluating the Utilisation of Google AlphaEarth for Landslide Susceptibility Mapping using Deep Learning",
         "url": "https://arxiv.org/abs/2601.07268v1"
+      },
+      {
+        "title": "FaceHuggar/hyperbolic_dynamic_field_attention_transformer",
+        "url": "https://huggingface.co/FaceHuggar/hyperbolic_dynamic_field_attention_transformer"
       }
     ],
     "vision_systems": [
@@ -887,6 +891,10 @@
       {
         "title": "From Landslide Conditioning Factors to Satellite Embeddings: Evaluating the Utilisation of Google AlphaEarth for Landslide Susceptibility Mapping using Deep Learning",
         "url": "https://arxiv.org/abs/2601.07268v1"
+      },
+      {
+        "title": "lightx2v/Qwen-Image-Edit-2511-Lightning",
+        "url": "https://huggingface.co/lightx2v/Qwen-Image-Edit-2511-Lightning"
       }
     ],
     "reasoning": [
@@ -1649,13 +1657,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 404
   }
 }
