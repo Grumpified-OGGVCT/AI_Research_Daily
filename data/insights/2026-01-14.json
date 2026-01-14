@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-14T15:21:35.123916",
+  "date": "2026-01-14T16:24:38.659248",
   "patterns": {
     "multimodal_research": [
       {
@@ -695,8 +695,16 @@
         "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-deu-repair_3epochs_lr1e-4"
       },
       {
+        "title": "ryuma007/qwen3-1.7B-4bit-vllm-hishab_json-structured-bangla-english",
+        "url": "https://huggingface.co/ryuma007/qwen3-1.7B-4bit-vllm-hishab_json-structured-bangla-english"
+      },
+      {
         "title": "CausalNLP/gpt2-multilingual-20-zh-repair_3epochs_lr1e-4",
         "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-zh-repair_3epochs_lr1e-4"
+      },
+      {
+        "title": "LLM-course/chess-second-try-maxence",
+        "url": "https://huggingface.co/LLM-course/chess-second-try-maxence"
       }
     ],
     "vision_systems": [
@@ -975,10 +983,6 @@
       {
         "title": "Automated Lesion Segmentation of Stroke MRI Using nnU-Net: A Comprehensive External Validation Across Acute and Chronic Lesions",
         "url": "https://arxiv.org/abs/2601.08701v1"
-      },
-      {
-        "title": "xcreates/GLM-Image",
-        "url": "https://huggingface.co/xcreates/GLM-Image"
       }
     ],
     "reasoning": [
@@ -1741,13 +1745,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 426
   }
 }
