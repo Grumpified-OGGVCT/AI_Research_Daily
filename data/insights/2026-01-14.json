@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-14T03:44:38.200653",
+  "date": "2026-01-14T04:44:23.743576",
   "patterns": {
     "multimodal_research": [
       {
@@ -967,10 +967,6 @@
       {
         "title": "Automated Lesion Segmentation of Stroke MRI Using nnU-Net: A Comprehensive External Validation Across Acute and Chronic Lesions",
         "url": "https://arxiv.org/abs/2601.08701v1"
-      },
-      {
-        "title": "zai-org/GLM-Image",
-        "url": "https://huggingface.co/zai-org/GLM-Image"
       }
     ],
     "reasoning": [
@@ -1739,7 +1735,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1792,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 423
+    "total_papers": 422
   }
 }
