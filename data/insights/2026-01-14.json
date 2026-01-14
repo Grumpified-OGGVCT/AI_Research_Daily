@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-14T21:17:47.914276",
+  "date": "2026-01-14T22:18:55.686676",
   "patterns": {
     "multimodal_research": [
       {
@@ -691,16 +691,28 @@
         "url": "https://arxiv.org/abs/2601.08355v1"
       },
       {
-        "title": "FlatFootInternational/Huihui-gpt-oss-20b-mxfp4-abliterated-v2-mlx",
-        "url": "https://huggingface.co/FlatFootInternational/Huihui-gpt-oss-20b-mxfp4-abliterated-v2-mlx"
+        "title": "Rishika08/verinews-roberta",
+        "url": "https://huggingface.co/Rishika08/verinews-roberta"
+      },
+      {
+        "title": "alextsiak/cc26-modernbert",
+        "url": "https://huggingface.co/alextsiak/cc26-modernbert"
       },
       {
         "title": "CausalNLP/gpt2-multilingual-20-zh-repair_3epochs_lr1e-4",
         "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-zh-repair_3epochs_lr1e-4"
       },
       {
+        "title": "LLM-course/chess-theSub-tok",
+        "url": "https://huggingface.co/LLM-course/chess-theSub-tok"
+      },
+      {
         "title": "CausalNLP/gpt2-multilingual-20-deu-repair_3epochs_lr1e-4",
         "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-deu-repair_3epochs_lr1e-4"
+      },
+      {
+        "title": "LLM-course/chess-hamonk-v3",
+        "url": "https://huggingface.co/LLM-course/chess-hamonk-v3"
       }
     ],
     "vision_systems": [
@@ -959,6 +971,10 @@
       {
         "title": "M3CoTBench: Benchmark Chain-of-Thought of MLLMs in Medical Image Understanding",
         "url": "https://arxiv.org/abs/2601.08758v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Tissue Classification and Whole-Slide Images Analysis via Modeling of the Tumor Microenvironment and Biological Pathways",
@@ -1741,13 +1757,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 429
   }
 }
