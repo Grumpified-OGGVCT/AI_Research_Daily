@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-14T14:22:19.813223",
+  "date": "2026-01-14T15:21:35.123916",
   "patterns": {
     "multimodal_research": [
       {
@@ -977,8 +977,8 @@
         "url": "https://arxiv.org/abs/2601.08701v1"
       },
       {
-        "title": "Sota26/Affine-15-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV",
-        "url": "https://huggingface.co/Sota26/Affine-15-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV"
+        "title": "xcreates/GLM-Image",
+        "url": "https://huggingface.co/xcreates/GLM-Image"
       }
     ],
     "reasoning": [
@@ -1281,10 +1281,6 @@
       {
         "title": "Sleep-Based Homeostatic Regularization for Stabilizing Spike-Timing-Dependent Plasticity in Recurrent Spiking Neural Networks",
         "url": "https://arxiv.org/abs/2601.08447v1"
-      },
-      {
-        "title": "Zaynoid/medical-reasoning-qwen3-8b-lora-v1",
-        "url": "https://huggingface.co/Zaynoid/medical-reasoning-qwen3-8b-lora-v1"
       }
     ],
     "benchmarks": [
@@ -1715,10 +1711,6 @@
       {
         "title": "Sleep-Based Homeostatic Regularization for Stabilizing Spike-Timing-Dependent Plasticity in Recurrent Spiking Neural Networks",
         "url": "https://arxiv.org/abs/2601.08447v1"
-      },
-      {
-        "title": "Sota26/Affine-15-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV",
-        "url": "https://huggingface.co/Sota26/Affine-15-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV"
       }
     ]
   },
@@ -1761,7 +1753,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1773,7 +1765,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "108 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1791,7 +1783,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 46,
+      "frequency": 45,
       "significance": "high"
     },
     {
@@ -1808,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 425
   }
 }
