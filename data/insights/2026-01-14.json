@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-14T22:18:55.686676",
+  "date": "2026-01-14T23:15:41.028020",
   "patterns": {
     "multimodal_research": [
       {
@@ -691,28 +691,8 @@
         "url": "https://arxiv.org/abs/2601.08355v1"
       },
       {
-        "title": "Rishika08/verinews-roberta",
-        "url": "https://huggingface.co/Rishika08/verinews-roberta"
-      },
-      {
-        "title": "alextsiak/cc26-modernbert",
-        "url": "https://huggingface.co/alextsiak/cc26-modernbert"
-      },
-      {
         "title": "CausalNLP/gpt2-multilingual-20-zh-repair_3epochs_lr1e-4",
         "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-zh-repair_3epochs_lr1e-4"
-      },
-      {
-        "title": "LLM-course/chess-theSub-tok",
-        "url": "https://huggingface.co/LLM-course/chess-theSub-tok"
-      },
-      {
-        "title": "CausalNLP/gpt2-multilingual-20-deu-repair_3epochs_lr1e-4",
-        "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-deu-repair_3epochs_lr1e-4"
-      },
-      {
-        "title": "LLM-course/chess-hamonk-v3",
-        "url": "https://huggingface.co/LLM-course/chess-hamonk-v3"
       }
     ],
     "vision_systems": [
@@ -1757,7 +1737,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 424
   }
 }
