@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-14T16:24:38.659248",
+  "date": "2026-01-14T17:25:26.269275",
   "patterns": {
     "multimodal_research": [
       {
@@ -691,20 +691,12 @@
         "url": "https://arxiv.org/abs/2601.08355v1"
       },
       {
-        "title": "CausalNLP/gpt2-multilingual-20-deu-repair_3epochs_lr1e-4",
-        "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-deu-repair_3epochs_lr1e-4"
+        "title": "LLM-course/chess_leonardo_artiles_v1",
+        "url": "https://huggingface.co/LLM-course/chess_leonardo_artiles_v1"
       },
       {
-        "title": "ryuma007/qwen3-1.7B-4bit-vllm-hishab_json-structured-bangla-english",
-        "url": "https://huggingface.co/ryuma007/qwen3-1.7B-4bit-vllm-hishab_json-structured-bangla-english"
-      },
-      {
-        "title": "CausalNLP/gpt2-multilingual-20-zh-repair_3epochs_lr1e-4",
-        "url": "https://huggingface.co/CausalNLP/gpt2-multilingual-20-zh-repair_3epochs_lr1e-4"
-      },
-      {
-        "title": "LLM-course/chess-second-try-maxence",
-        "url": "https://huggingface.co/LLM-course/chess-second-try-maxence"
+        "title": "Finisha-LLM/Nano-Charlotte-v2-2.72M",
+        "url": "https://huggingface.co/Finisha-LLM/Nano-Charlotte-v2-2.72M"
       }
     ],
     "vision_systems": [
@@ -1745,7 +1737,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 424
   }
 }
