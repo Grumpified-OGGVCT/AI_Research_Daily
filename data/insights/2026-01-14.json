@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-14T10:20:36.639145",
+  "date": "2026-01-14T11:18:19.689551",
   "patterns": {
     "multimodal_research": [
       {
@@ -689,6 +689,22 @@
       {
         "title": "Semantic Misalignment in Vision-Language Models under Perceptual Degradation",
         "url": "https://arxiv.org/abs/2601.08355v1"
+      },
+      {
+        "title": "LLM-course/Chess_ab_swdo",
+        "url": "https://huggingface.co/LLM-course/Chess_ab_swdo"
+      },
+      {
+        "title": "hashtagg1/gpt-2-xl-revival",
+        "url": "https://huggingface.co/hashtagg1/gpt-2-xl-revival"
+      },
+      {
+        "title": "LLM-course/chess-model-eithan-nakache-v2",
+        "url": "https://huggingface.co/LLM-course/chess-model-eithan-nakache-v2"
+      },
+      {
+        "title": "LLM-course/your-model-name",
+        "url": "https://huggingface.co/LLM-course/your-model-name"
       }
     ],
     "vision_systems": [
@@ -1729,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1788,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 426
   }
 }
