@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-14T17:25:26.269275",
+  "date": "2026-01-14T18:27:34.241430",
   "patterns": {
     "multimodal_research": [
       {
@@ -691,12 +691,16 @@
         "url": "https://arxiv.org/abs/2601.08355v1"
       },
       {
-        "title": "LLM-course/chess_leonardo_artiles_v1",
-        "url": "https://huggingface.co/LLM-course/chess_leonardo_artiles_v1"
+        "title": "ouabdelkrimmina/Arabic-QA-AraBERT",
+        "url": "https://huggingface.co/ouabdelkrimmina/Arabic-QA-AraBERT"
       },
       {
-        "title": "Finisha-LLM/Nano-Charlotte-v2-2.72M",
-        "url": "https://huggingface.co/Finisha-LLM/Nano-Charlotte-v2-2.72M"
+        "title": "LLM-course/model-rub",
+        "url": "https://huggingface.co/LLM-course/model-rub"
+      },
+      {
+        "title": "LLM-course/chess_tomin_v1",
+        "url": "https://huggingface.co/LLM-course/chess_tomin_v1"
       }
     ],
     "vision_systems": [
@@ -1737,7 +1741,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 425
   }
 }
