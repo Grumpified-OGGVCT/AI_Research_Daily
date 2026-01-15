@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-15T10:19:55.918068",
+  "date": "2026-01-15T11:17:04.217183",
   "patterns": {
     "multimodal_research": [
       {
@@ -789,6 +789,34 @@
       {
         "title": "OpenVoxel: Training-Free Grouping and Captioning Voxels for Open-Vocabulary 3D Scene Understanding",
         "url": "https://arxiv.org/abs/2601.09575v1"
+      },
+      {
+        "title": "LLM-course/chess_mid_rl",
+        "url": "https://huggingface.co/LLM-course/chess_mid_rl"
+      },
+      {
+        "title": "LLM-course/chess_swdo_ss",
+        "url": "https://huggingface.co/LLM-course/chess_swdo_ss"
+      },
+      {
+        "title": "LLM-course/chess-agroudiev",
+        "url": "https://huggingface.co/LLM-course/chess-agroudiev"
+      },
+      {
+        "title": "LLM-course/chess-third-try-maxence",
+        "url": "https://huggingface.co/LLM-course/chess-third-try-maxence"
+      },
+      {
+        "title": "Minaaan/roberta_base_formality_classification02",
+        "url": "https://huggingface.co/Minaaan/roberta_base_formality_classification02"
+      },
+      {
+        "title": "LLM-course/chess_swdo_s1",
+        "url": "https://huggingface.co/LLM-course/chess_swdo_s1"
+      },
+      {
+        "title": "LLM-course/chess-khanghoang0902-v1",
+        "url": "https://huggingface.co/LLM-course/chess-khanghoang0902-v1"
       }
     ],
     "vision_systems": [
@@ -1365,6 +1393,10 @@
       {
         "title": "From Performance to Practice: Knowledge-Distilled Segmentator for On-Premises Clinical Workflows",
         "url": "https://arxiv.org/abs/2601.09191v1"
+      },
+      {
+        "title": "mistralai/Ministral-3-14B-Reasoning-2512",
+        "url": "https://huggingface.co/mistralai/Ministral-3-14B-Reasoning-2512"
       }
     ],
     "benchmarks": [
@@ -1857,7 +1889,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1869,7 +1901,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1899,7 +1931,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 43,
+      "frequency": 44,
       "significance": "high"
     },
     {
@@ -1916,6 +1948,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 454
+    "total_papers": 462
   }
 }
