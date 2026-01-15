@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-15T12:34:32.088283",
+  "date": "2026-01-15T13:37:46.458920",
   "patterns": {
     "multimodal_research": [
       {
@@ -791,8 +791,36 @@
         "url": "https://arxiv.org/abs/2601.09575v1"
       },
       {
-        "title": "Minaaan/roberta_base_formality_classification03",
-        "url": "https://huggingface.co/Minaaan/roberta_base_formality_classification03"
+        "title": "Rychellos/interent-forum-classification-finetuned-herbert",
+        "url": "https://huggingface.co/Rychellos/interent-forum-classification-finetuned-herbert"
+      },
+      {
+        "title": "alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-fp16",
+        "url": "https://huggingface.co/alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-fp16"
+      },
+      {
+        "title": "alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-8Bit",
+        "url": "https://huggingface.co/alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-8Bit"
+      },
+      {
+        "title": "alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-6Bit",
+        "url": "https://huggingface.co/alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-6Bit"
+      },
+      {
+        "title": "alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-5Bit",
+        "url": "https://huggingface.co/alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-5Bit"
+      },
+      {
+        "title": "alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-4Bit",
+        "url": "https://huggingface.co/alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-4Bit"
+      },
+      {
+        "title": "alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-3Bit",
+        "url": "https://huggingface.co/alexgusevski/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-mlx-3Bit"
+      },
+      {
+        "title": "LLM-course/first_try_dont_bully",
+        "url": "https://huggingface.co/LLM-course/first_try_dont_bully"
       }
     ],
     "vision_systems": [
@@ -1095,10 +1123,6 @@
       {
         "title": "Architecture inside the mirage: evaluating generative image models on architectural style, elements, and typologies",
         "url": "https://arxiv.org/abs/2601.09169v1"
-      },
-      {
-        "title": "lichorosario/casivaras-qwen-image-2512",
-        "url": "https://huggingface.co/lichorosario/casivaras-qwen-image-2512"
       }
     ],
     "reasoning": [
@@ -1869,13 +1893,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1928,6 +1952,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 457
+    "total_papers": 463
   }
 }
