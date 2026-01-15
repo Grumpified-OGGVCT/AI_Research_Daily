@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-15T21:18:11.471147",
+  "date": "2026-01-15T22:18:31.291140",
   "patterns": {
     "multimodal_research": [
       {
@@ -791,24 +791,16 @@
         "url": "https://arxiv.org/abs/2601.09575v1"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold7",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold7"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold1",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold1"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold6",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold6"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold0",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold0"
       },
       {
-        "title": "LLM-course/chess_clarelec_1",
-        "url": "https://huggingface.co/LLM-course/chess_clarelec_1"
-      },
-      {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold5",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold5"
-      },
-      {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold4",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold4"
+        "title": "JJNeila/bert-spanish-clickbait",
+        "url": "https://huggingface.co/JJNeila/bert-spanish-clickbait"
       }
     ],
     "vision_systems": [
@@ -985,10 +977,6 @@
         "url": "https://arxiv.org/abs/2601.09130v1"
       },
       {
-        "title": "huggingface/documentation-images",
-        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
-      },
-      {
         "title": "Video-MSR: Benchmarking Multi-hop Spatial Reasoning Capabilities of MLLMs",
         "url": "https://arxiv.org/abs/2601.09430v1"
       },
@@ -1081,6 +1069,10 @@
         "url": "https://arxiv.org/abs/2601.09652v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "GlovEgo-HOI: Bridging the Synthetic-to-Real Gap for Industrial Egocentric Human-Object Interaction Detection",
         "url": "https://arxiv.org/abs/2601.09528v1"
       },
@@ -1115,6 +1107,10 @@
       {
         "title": "Architecture inside the mirage: evaluating generative image models on architectural style, elements, and typologies",
         "url": "https://arxiv.org/abs/2601.09169v1"
+      },
+      {
+        "title": "Sota26/Affine-18-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV",
+        "url": "https://huggingface.co/Sota26/Affine-18-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV"
       }
     ],
     "reasoning": [
@@ -1391,8 +1387,8 @@
         "url": "https://arxiv.org/abs/2601.09191v1"
       },
       {
-        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit"
+        "title": "Zaynoid/medical-reasoning-qwen25-7b-lora",
+        "url": "https://huggingface.co/Zaynoid/medical-reasoning-qwen25-7b-lora"
       }
     ],
     "benchmarks": [
@@ -1855,6 +1851,10 @@
       {
         "title": "Improving CMA-ES Convergence Speed, Efficiency, and Reliability in Noisy Robot Optimization Problems",
         "url": "https://arxiv.org/abs/2601.09594v1"
+      },
+      {
+        "title": "Sota26/Affine-18-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV",
+        "url": "https://huggingface.co/Sota26/Affine-18-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV"
       }
     ]
   },
@@ -1885,13 +1885,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1909,7 +1909,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "115 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1927,7 +1927,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 43,
+      "frequency": 44,
       "significance": "high"
     },
     {
