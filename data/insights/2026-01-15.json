@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-15T16:30:02.451132",
+  "date": "2026-01-15T17:29:16.638794",
   "patterns": {
     "multimodal_research": [
       {
@@ -789,14 +789,6 @@
       {
         "title": "OpenVoxel: Training-Free Grouping and Captioning Voxels for Open-Vocabulary 3D Scene Understanding",
         "url": "https://arxiv.org/abs/2601.09575v1"
-      },
-      {
-        "title": "LLM-course/chess-vincentime-pawn",
-        "url": "https://huggingface.co/LLM-course/chess-vincentime-pawn"
-      },
-      {
-        "title": "KomeijiForce/deberta-v3-base-rp-nli",
-        "url": "https://huggingface.co/KomeijiForce/deberta-v3-base-rp-nli"
       }
     ],
     "vision_systems": [
@@ -1099,10 +1091,6 @@
       {
         "title": "Architecture inside the mirage: evaluating generative image models on architectural style, elements, and typologies",
         "url": "https://arxiv.org/abs/2601.09169v1"
-      },
-      {
-        "title": "cveavy/Affine-cvea3",
-        "url": "https://huggingface.co/cveavy/Affine-cvea3"
       }
     ],
     "reasoning": [
@@ -1377,10 +1365,6 @@
       {
         "title": "From Performance to Practice: Knowledge-Distilled Segmentator for On-Premises Clinical Workflows",
         "url": "https://arxiv.org/abs/2601.09191v1"
-      },
-      {
-        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1873,19 +1857,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1932,6 +1916,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 458
+    "total_papers": 454
   }
 }
