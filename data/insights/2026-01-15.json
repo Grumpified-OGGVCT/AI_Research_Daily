@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-15T22:18:31.291140",
+  "date": "2026-01-15T23:17:47.153465",
   "patterns": {
     "multimodal_research": [
       {
@@ -407,6 +407,10 @@
       {
         "title": "Spectral Complex Autoencoder Pruning: A Fidelity-Guided Criterion for Extreme Structured Channel Compression",
         "url": "https://arxiv.org/abs/2601.09352v1"
+      },
+      {
+        "title": "junzzhu/atomllama-33K-5x5-DigitMesh-sparse-q8",
+        "url": "https://huggingface.co/junzzhu/atomllama-33K-5x5-DigitMesh-sparse-q8"
       }
     ],
     "language_models": [
@@ -791,16 +795,8 @@
         "url": "https://arxiv.org/abs/2601.09575v1"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold1",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold1"
-      },
-      {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold0",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-semeval2025_eng_joy-fold0"
-      },
-      {
-        "title": "JJNeila/bert-spanish-clickbait",
-        "url": "https://huggingface.co/JJNeila/bert-spanish-clickbait"
+        "title": "Rishika08/verinews-roberta",
+        "url": "https://huggingface.co/Rishika08/verinews-roberta"
       }
     ],
     "vision_systems": [
@@ -1107,10 +1103,6 @@
       {
         "title": "Architecture inside the mirage: evaluating generative image models on architectural style, elements, and typologies",
         "url": "https://arxiv.org/abs/2601.09169v1"
-      },
-      {
-        "title": "Sota26/Affine-18-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV",
-        "url": "https://huggingface.co/Sota26/Affine-18-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV"
       }
     ],
     "reasoning": [
@@ -1385,10 +1377,6 @@
       {
         "title": "From Performance to Practice: Knowledge-Distilled Segmentator for On-Premises Clinical Workflows",
         "url": "https://arxiv.org/abs/2601.09191v1"
-      },
-      {
-        "title": "Zaynoid/medical-reasoning-qwen25-7b-lora",
-        "url": "https://huggingface.co/Zaynoid/medical-reasoning-qwen25-7b-lora"
       }
     ],
     "benchmarks": [
@@ -1853,8 +1841,8 @@
         "url": "https://arxiv.org/abs/2601.09594v1"
       },
       {
-        "title": "Sota26/Affine-18-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV",
-        "url": "https://huggingface.co/Sota26/Affine-18-5CvsDmvzsY1aDwZMkM6y7dH9bkHU1s6T2rkaQEFBVWyeQzhV"
+        "title": "Sota26/Affine-19-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES",
+        "url": "https://huggingface.co/Sota26/Affine-19-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES"
       }
     ]
   },
@@ -1873,7 +1861,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1885,19 +1873,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1927,7 +1915,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 44,
+      "frequency": 43,
       "significance": "high"
     },
     {
@@ -1944,6 +1932,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 461
+    "total_papers": 458
   }
 }
