@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T05:23:45.425783",
+  "date": "2026-01-16T06:27:13.011070",
   "patterns": {
     "multimodal_research": [
       {
@@ -753,6 +753,10 @@
       {
         "title": "Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders",
         "url": "https://arxiv.org/abs/2601.10332v1"
+      },
+      {
+        "title": "ThaiLLM/ThaiLLM-8B-SFT-IQ",
+        "url": "https://huggingface.co/ThaiLLM/ThaiLLM-8B-SFT-IQ"
       }
     ],
     "vision_systems": [
@@ -1737,7 +1741,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "107 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 425
   }
 }
