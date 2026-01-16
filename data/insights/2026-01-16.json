@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T11:16:59.441808",
+  "date": "2026-01-16T12:33:05.212778",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,8 +755,12 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "piotreknow02/GPT-OSS-Cybersecurity-20B-Merged-GGUF",
-        "url": "https://huggingface.co/piotreknow02/GPT-OSS-Cybersecurity-20B-Merged-GGUF"
+        "title": "rausch/deberta-climatecheck-2463191-step45753",
+        "url": "https://huggingface.co/rausch/deberta-climatecheck-2463191-step45753"
+      },
+      {
+        "title": "rausch/deberta-climatecheck-2463191-step26000",
+        "url": "https://huggingface.co/rausch/deberta-climatecheck-2463191-step26000"
       }
     ],
     "vision_systems": [
@@ -1301,10 +1305,6 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
-      },
-      {
-        "title": "flaitenberger/Qwen3-8B-Base-logic-5e-5-final-adapter",
-        "url": "https://huggingface.co/flaitenberger/Qwen3-8B-Base-logic-5e-5-final-adapter"
       }
     ],
     "benchmarks": [
@@ -1745,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1757,7 +1757,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
