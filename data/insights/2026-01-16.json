@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T04:36:33.081920",
+  "date": "2026-01-16T05:23:45.425783",
   "patterns": {
     "multimodal_research": [
       {
@@ -753,10 +753,6 @@
       {
         "title": "Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders",
         "url": "https://arxiv.org/abs/2601.10332v1"
-      },
-      {
-        "title": "armand0e/gpt-oss-20b-test",
-        "url": "https://huggingface.co/armand0e/gpt-oss-20b-test"
       }
     ],
     "vision_systems": [
@@ -999,10 +995,6 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
-      },
-      {
-        "title": "arunos728/allex_coffeepot_new_real_gr00t_lr1e4_8image_stride1_cvla_30k",
-        "url": "https://huggingface.co/arunos728/allex_coffeepot_new_real_gr00t_lr1e4_8image_stride1_cvla_30k"
       }
     ],
     "reasoning": [
@@ -1745,13 +1737,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 424
   }
 }
