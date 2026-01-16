@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T17:22:08.398242",
+  "date": "2026-01-16T18:26:00.176210",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,20 +755,12 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "LLM-course/chess-axelbrons-1b-v1",
-        "url": "https://huggingface.co/LLM-course/chess-axelbrons-1b-v1"
+        "title": "LLM-course/chess_endless",
+        "url": "https://huggingface.co/LLM-course/chess_endless"
       },
       {
-        "title": "LLM-course/chess_trickster_v4",
-        "url": "https://huggingface.co/LLM-course/chess_trickster_v4"
-      },
-      {
-        "title": "LLM-course/chess_swdo_up",
-        "url": "https://huggingface.co/LLM-course/chess_swdo_up"
-      },
-      {
-        "title": "LLM-course/chess-CC-try6",
-        "url": "https://huggingface.co/LLM-course/chess-CC-try6"
+        "title": "Finisha-LLM/Perso-SLM",
+        "url": "https://huggingface.co/Finisha-LLM/Perso-SLM"
       }
     ],
     "vision_systems": [
@@ -1753,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "111 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 426
   }
 }
