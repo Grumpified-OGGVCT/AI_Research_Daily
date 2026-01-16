@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T08:23:49.519749",
+  "date": "2026-01-16T09:23:24.676467",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,12 +755,8 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "LLM-course/adrien-goldszal-chess-v3",
-        "url": "https://huggingface.co/LLM-course/adrien-goldszal-chess-v3"
-      },
-      {
-        "title": "LLM-course/chess-khanghoang0902-v1",
-        "url": "https://huggingface.co/LLM-course/chess-khanghoang0902-v1"
+        "title": "Tokyosaurus/gaslighting-detector-binary-xlm-roberta-base",
+        "url": "https://huggingface.co/Tokyosaurus/gaslighting-detector-binary-xlm-roberta-base"
       }
     ],
     "vision_systems": [
@@ -1305,10 +1301,6 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
-      },
-      {
-        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1749,7 +1741,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1753,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 425
   }
 }
