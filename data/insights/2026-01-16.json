@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T21:17:03.117802",
+  "date": "2026-01-16T22:17:56.048306",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,16 +755,28 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_1_a-fold4",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_1_a-fold4"
+      },
+      {
+        "title": "LLM-course/chess-not-fun",
+        "url": "https://huggingface.co/LLM-course/chess-not-fun"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_1_a-fold3",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_1_a-fold3"
+      },
+      {
+        "title": "LLM-course/chess-legal-comox",
+        "url": "https://huggingface.co/LLM-course/chess-legal-comox"
+      },
+      {
         "title": "tytytyyt/distilbert-base-uncased-finetuned-clinc",
         "url": "https://huggingface.co/tytytyyt/distilbert-base-uncased-finetuned-clinc"
       },
       {
-        "title": "CypherNotHere/clause-bert-BrainBabes",
-        "url": "https://huggingface.co/CypherNotHere/clause-bert-BrainBabes"
-      },
-      {
-        "title": "katya228/xinyuan-llm-14b-0428-heretic-psychology-gguf-q4_0",
-        "url": "https://huggingface.co/katya228/xinyuan-llm-14b-0428-heretic-psychology-gguf-q4_0"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_1_a-fold2",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_1_a-fold2"
       }
     ],
     "vision_systems": [
@@ -993,6 +1005,10 @@
         "url": "https://arxiv.org/abs/2601.10313v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders",
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
@@ -1007,10 +1023,6 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
-      },
-      {
-        "title": "Ttio2/z-image-turbo-4bit",
-        "url": "https://huggingface.co/Ttio2/z-image-turbo-4bit"
       }
     ],
     "reasoning": [
@@ -1313,6 +1325,10 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
+      },
+      {
+        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1753,7 +1769,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "110 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1765,7 +1781,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1828,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 432
   }
 }
