@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T15:19:47.757588",
+  "date": "2026-01-16T16:22:49.391192",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,8 +755,8 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "OmnisAI/legal-gpt-oss-20b-lora",
-        "url": "https://huggingface.co/OmnisAI/legal-gpt-oss-20b-lora"
+        "title": "LLM-course/clmrie-chess-legal-v5",
+        "url": "https://huggingface.co/LLM-course/clmrie-chess-legal-v5"
       }
     ],
     "vision_systems": [
@@ -999,6 +999,10 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
+      },
+      {
+        "title": "pro-rawan83/text_to_ImageForCultureIraqMarshes",
+        "url": "https://huggingface.co/pro-rawan83/text_to_ImageForCultureIraqMarshes"
       }
     ],
     "reasoning": [
@@ -1301,18 +1305,6 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
-      },
-      {
-        "title": "flaitenberger/Olmo-3-1025-7B-logic-2e-5-final-adapter",
-        "url": "https://huggingface.co/flaitenberger/Olmo-3-1025-7B-logic-2e-5-final-adapter"
-      },
-      {
-        "title": "flaitenberger/Olmo-3-1025-7B-logic-1e-5-final-adapter",
-        "url": "https://huggingface.co/flaitenberger/Olmo-3-1025-7B-logic-1e-5-final-adapter"
-      },
-      {
-        "title": "flaitenberger/Olmo-3-1025-7B-logic-3e-5-final-adapter",
-        "url": "https://huggingface.co/flaitenberger/Olmo-3-1025-7B-logic-3e-5-final-adapter"
       }
     ],
     "benchmarks": [
@@ -1723,14 +1715,6 @@
       {
         "title": "Subjective evaluation of UHD video coded using VVC with LCEVC and ML-VVC",
         "url": "https://arxiv.org/abs/2601.10448v1"
-      },
-      {
-        "title": "Sota26/Affine-21-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES",
-        "url": "https://huggingface.co/Sota26/Affine-21-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES"
-      },
-      {
-        "title": "Sota26/Affine-20-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES",
-        "url": "https://huggingface.co/Sota26/Affine-20-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES"
       }
     ]
   },
@@ -1767,13 +1751,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "60 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "78 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1785,7 +1769,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "104 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1820,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 426
   }
 }
