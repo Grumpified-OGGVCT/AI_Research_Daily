@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T06:27:13.011070",
+  "date": "2026-01-16T07:22:51.679014",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,8 +755,20 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "ThaiLLM/ThaiLLM-8B-SFT-IQ",
-        "url": "https://huggingface.co/ThaiLLM/ThaiLLM-8B-SFT-IQ"
+        "title": "Fakepng/distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/Fakepng/distilbert-base-uncased-finetuned-emotion"
+      },
+      {
+        "title": "Atom12345678/distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/Atom12345678/distilbert-base-uncased-finetuned-emotion"
+      },
+      {
+        "title": "wjkim9653/Qwen2.5-14B-Instruct-QwenInstruct_NoteLLM_nDPO_PromptV2",
+        "url": "https://huggingface.co/wjkim9653/Qwen2.5-14B-Instruct-QwenInstruct_NoteLLM_nDPO_PromptV2"
+      },
+      {
+        "title": "z8086486/GCCL-Medical-LLM-Qwen3-4B",
+        "url": "https://huggingface.co/z8086486/GCCL-Medical-LLM-Qwen3-4B"
       }
     ],
     "vision_systems": [
@@ -1741,7 +1753,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "111 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 428
   }
 }
