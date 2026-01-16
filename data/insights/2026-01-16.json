@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T19:18:39.807432",
+  "date": "2026-01-16T20:18:41.631830",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,12 +755,28 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "LLM-course/chess-model-KHOUTAIBI",
-        "url": "https://huggingface.co/LLM-course/chess-model-KHOUTAIBI"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold7",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold7"
       },
       {
-        "title": "LLM-course/clmrie-chess-legal-v3",
-        "url": "https://huggingface.co/LLM-course/clmrie-chess-legal-v3"
+        "title": "LLM-course/chess-player-v2bis",
+        "url": "https://huggingface.co/LLM-course/chess-player-v2bis"
+      },
+      {
+        "title": "katya228/xinyuan-llm-14b-0428-heretic-psychology-gguf-q4_0",
+        "url": "https://huggingface.co/katya228/xinyuan-llm-14b-0428-heretic-psychology-gguf-q4_0"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold6",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold6"
+      },
+      {
+        "title": "LLM-course/chess-player-v2",
+        "url": "https://huggingface.co/LLM-course/chess-player-v2"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold5",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta-twitter_topics_0_a-fold5"
       }
     ],
     "vision_systems": [
@@ -1003,10 +1019,6 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
-      },
-      {
-        "title": "zeso0/Kisa_z-image",
-        "url": "https://huggingface.co/zeso0/Kisa_z-image"
       }
     ],
     "reasoning": [
@@ -1749,13 +1761,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1820,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 430
   }
 }
