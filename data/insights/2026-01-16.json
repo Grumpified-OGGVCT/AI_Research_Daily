@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-16T10:19:34.903657",
+  "date": "2026-01-16T11:16:59.441808",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,12 +755,8 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "LLM-course/chess_clarelec_2",
-        "url": "https://huggingface.co/LLM-course/chess_clarelec_2"
-      },
-      {
-        "title": "LLM-course/chess_endless",
-        "url": "https://huggingface.co/LLM-course/chess_endless"
+        "title": "piotreknow02/GPT-OSS-Cybersecurity-20B-Merged-GGUF",
+        "url": "https://huggingface.co/piotreknow02/GPT-OSS-Cybersecurity-20B-Merged-GGUF"
       }
     ],
     "vision_systems": [
@@ -1307,28 +1303,8 @@
         "url": "https://arxiv.org/abs/2601.10577v1"
       },
       {
-        "title": "flaitenberger/Qwen3-32B-logic-1e-4-final-adapter",
-        "url": "https://huggingface.co/flaitenberger/Qwen3-32B-logic-1e-4-final-adapter"
-      },
-      {
-        "title": "flaitenberger/Qwen3-32B-logic-1e-5-final-adapter",
-        "url": "https://huggingface.co/flaitenberger/Qwen3-32B-logic-1e-5-final-adapter"
-      },
-      {
-        "title": "flaitenberger/Olmo-3-1125-32B-logic-1e-5-final-adapter",
-        "url": "https://huggingface.co/flaitenberger/Olmo-3-1125-32B-logic-1e-5-final-adapter"
-      },
-      {
-        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-6.5bit"
-      },
-      {
-        "title": "flaitenberger/Olmo-3-1125-32B-logic-1e-4-final-adapter",
-        "url": "https://huggingface.co/flaitenberger/Olmo-3-1125-32B-logic-1e-4-final-adapter"
-      },
-      {
-        "title": "flaitenberger/Olmo-3-1125-32B-logic-1e-6-final-adapter",
-        "url": "https://huggingface.co/flaitenberger/Olmo-3-1125-32B-logic-1e-6-final-adapter"
+        "title": "flaitenberger/Qwen3-8B-Base-logic-5e-5-final-adapter",
+        "url": "https://huggingface.co/flaitenberger/Qwen3-8B-Base-logic-5e-5-final-adapter"
       }
     ],
     "benchmarks": [
@@ -1769,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1781,7 +1757,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1828,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 432
+    "total_papers": 426
   }
 }
