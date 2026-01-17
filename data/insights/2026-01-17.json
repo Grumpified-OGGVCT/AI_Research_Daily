@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T13:26:53.306693",
+  "date": "2026-01-17T14:15:37.672771",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,28 +755,28 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
+        "title": "LLM-course/chess-peax-starling-v2",
+        "url": "https://huggingface.co/LLM-course/chess-peax-starling-v2"
+      },
+      {
+        "title": "LLM-course/chess-peax-sparrow-v2",
+        "url": "https://huggingface.co/LLM-course/chess-peax-sparrow-v2"
+      },
+      {
+        "title": "LLM-course/chess_gjustepullettraintuezmoi",
+        "url": "https://huggingface.co/LLM-course/chess_gjustepullettraintuezmoi"
+      },
+      {
+        "title": "LLM-course/chess_v1.0",
+        "url": "https://huggingface.co/LLM-course/chess_v1.0"
+      },
+      {
         "title": "ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated",
         "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated"
       },
       {
-        "title": "LLM-course/chess_tlemagny_4",
-        "url": "https://huggingface.co/LLM-course/chess_tlemagny_4"
-      },
-      {
-        "title": "LLM-course/chess-peax-sparrow-v1",
-        "url": "https://huggingface.co/LLM-course/chess-peax-sparrow-v1"
-      },
-      {
-        "title": "all-lab/omniASR-LLM-7B",
-        "url": "https://huggingface.co/all-lab/omniASR-LLM-7B"
-      },
-      {
-        "title": "all-lab/omniASR-LLM-3B",
-        "url": "https://huggingface.co/all-lab/omniASR-LLM-3B"
-      },
-      {
-        "title": "Capital-Ink-Morning-Glory/GPT2-SQuAD",
-        "url": "https://huggingface.co/Capital-Ink-Morning-Glory/GPT2-SQuAD"
+        "title": "LLM-course/chess-peax-starling-v1",
+        "url": "https://huggingface.co/LLM-course/chess-peax-starling-v1"
       }
     ],
     "vision_systems": [
@@ -1321,6 +1321,10 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
+      },
+      {
+        "title": "ziadrone/Shivik-2B-Reasoning-SAFE",
+        "url": "https://huggingface.co/ziadrone/Shivik-2B-Reasoning-SAFE"
       }
     ],
     "benchmarks": [
@@ -1773,7 +1777,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1803,7 +1807,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 48,
+      "frequency": 49,
       "significance": "high"
     },
     {
@@ -1820,6 +1824,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 431
   }
 }
