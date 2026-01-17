@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T10:17:09.460540",
+  "date": "2026-01-17T11:14:23.495979",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,32 +755,12 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "syko818121/SykoLLM-V3.2-Thinking-Beta-Instruct",
-        "url": "https://huggingface.co/syko818121/SykoLLM-V3.2-Thinking-Beta-Instruct"
-      },
-      {
-        "title": "LLM-course/chess-submission-MDaytek",
-        "url": "https://huggingface.co/LLM-course/chess-submission-MDaytek"
-      },
-      {
-        "title": "LLM-course/chess_leonardo_artiles_v2",
-        "url": "https://huggingface.co/LLM-course/chess_leonardo_artiles_v2"
-      },
-      {
-        "title": "LLM-course/velmen-chess-model",
-        "url": "https://huggingface.co/LLM-course/velmen-chess-model"
-      },
-      {
         "title": "ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated",
         "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated"
       },
       {
-        "title": "DeerAi001/distilgpt2-imbd-finetunned",
-        "url": "https://huggingface.co/DeerAi001/distilgpt2-imbd-finetunned"
-      },
-      {
-        "title": "ali-elganzory/SmolLM2-1.7B-WithChatTemplate",
-        "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-WithChatTemplate"
+        "title": "LLM-course/chess_swdo_tok_up",
+        "url": "https://huggingface.co/LLM-course/chess_swdo_tok_up"
       }
     ],
     "vision_systems": [
@@ -1765,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "114 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1824,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 431
+    "total_papers": 426
   }
 }
