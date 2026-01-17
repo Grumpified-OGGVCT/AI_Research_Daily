@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T21:15:26.561780",
+  "date": "2026-01-17T22:16:10.157719",
   "patterns": {
     "multimodal_research": [
       {
@@ -753,6 +753,34 @@
       {
         "title": "Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders",
         "url": "https://arxiv.org/abs/2601.10332v1"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold5",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold5"
+      },
+      {
+        "title": "LLM-course/willy-model-chess",
+        "url": "https://huggingface.co/LLM-course/willy-model-chess"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold4",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold4"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold3",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold3"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold2",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold2"
+      },
+      {
+        "title": "LLM-course/willy_model",
+        "url": "https://huggingface.co/LLM-course/willy_model"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold1",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold1"
       }
     ],
     "vision_systems": [
@@ -981,6 +1009,10 @@
         "url": "https://arxiv.org/abs/2601.10313v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "Think-Then-Generate: Reasoning-Aware Text-to-Image Diffusion with LLM Encoders",
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
@@ -995,6 +1027,10 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
+      },
+      {
+        "title": "Poralus/Poralus-Image",
+        "url": "https://huggingface.co/Poralus/Poralus-Image"
       }
     ],
     "reasoning": [
@@ -1737,13 +1773,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "107 independent papers",
+      "observation": "114 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "60 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1832,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 433
   }
 }
