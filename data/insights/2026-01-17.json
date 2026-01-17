@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T01:12:10.166449",
+  "date": "2026-01-17T03:20:12.837931",
   "patterns": {
     "multimodal_research": [
       {
@@ -757,10 +757,6 @@
       {
         "title": "ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated",
         "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated"
-      },
-      {
-        "title": "mradermacher/ThaiLLM-8B-SFT-IQ-GGUF",
-        "url": "https://huggingface.co/mradermacher/ThaiLLM-8B-SFT-IQ-GGUF"
       }
     ],
     "vision_systems": [
@@ -1745,7 +1741,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 425
   }
 }
