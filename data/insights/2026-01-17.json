@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T18:22:55.686263",
+  "date": "2026-01-17T19:13:00.713715",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,16 +755,40 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
+        "title": "LLM-course/chess-model-jawad-chemaou-v2",
+        "url": "https://huggingface.co/LLM-course/chess-model-jawad-chemaou-v2"
+      },
+      {
         "title": "Ruslan10/bert-finetuned-sentiment",
         "url": "https://huggingface.co/Ruslan10/bert-finetuned-sentiment"
       },
       {
-        "title": "ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated",
-        "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_0_a-fold3",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_0_a-fold3"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2025_eng_joy-fold7",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-semeval2025_eng_joy-fold7"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_0_a-fold2",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_0_a-fold2"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_0_a-fold1",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_0_a-fold1"
+      },
+      {
+        "title": "avneesh123/bharatgpt-agent-v2",
+        "url": "https://huggingface.co/avneesh123/bharatgpt-agent-v2"
+      },
+      {
+        "title": "LLM-course/chess_swdo_again",
+        "url": "https://huggingface.co/LLM-course/chess_swdo_again"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_0_a-fold0",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to1-twitter_topics_0_a-fold0"
+      },
+      {
+        "title": "kesavanguru/XLM_roberta_finetuned",
+        "url": "https://huggingface.co/kesavanguru/XLM_roberta_finetuned"
       }
     ],
     "vision_systems": [
@@ -1719,10 +1743,6 @@
       {
         "title": "Subjective evaluation of UHD video coded using VVC with LCEVC and ML-VVC",
         "url": "https://arxiv.org/abs/2601.10448v1"
-      },
-      {
-        "title": "SahmBenchmark/arabic-merged-sft-SILMA",
-        "url": "https://huggingface.co/SahmBenchmark/arabic-merged-sft-SILMA"
       }
     ]
   },
@@ -1753,7 +1773,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "110 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1777,7 +1797,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "103 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1790,7 +1810,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 65,
+      "frequency": 64,
       "significance": "high"
     },
     {
@@ -1812,6 +1832,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 433
   }
 }
