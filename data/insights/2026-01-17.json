@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T22:16:10.157719",
+  "date": "2026-01-17T23:16:13.548861",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,32 +755,44 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold5",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold5"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_joy-fold2",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_joy-fold2"
       },
       {
-        "title": "LLM-course/willy-model-chess",
-        "url": "https://huggingface.co/LLM-course/willy-model-chess"
+        "title": "LLM-course/chess_zak_first",
+        "url": "https://huggingface.co/LLM-course/chess_zak_first"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold4",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold4"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_joy-fold1",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_joy-fold1"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold3",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold3"
+        "title": "LLM-course/chess-nbs-oh",
+        "url": "https://huggingface.co/LLM-course/chess-nbs-oh"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold2",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold2"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_joy-fold0",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_joy-fold0"
       },
       {
-        "title": "LLM-course/willy_model",
-        "url": "https://huggingface.co/LLM-course/willy_model"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_anger-fold9",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_anger-fold9"
       },
       {
-        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold1",
-        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2024-fold1"
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_anger-fold8",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_anger-fold8"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_anger-fold7",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_anger-fold7"
+      },
+      {
+        "title": "arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_anger-fold6",
+        "url": "https://huggingface.co/arthurbittencourt/january-llm_paraphrase-xlm-roberta_1to2-semeval2025_eng_anger-fold6"
+      },
+      {
+        "title": "LLM-course/chess-srb-vujadinovicn-v1",
+        "url": "https://huggingface.co/LLM-course/chess-srb-vujadinovicn-v1"
       }
     ],
     "vision_systems": [
@@ -1027,10 +1039,6 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
-      },
-      {
-        "title": "Poralus/Poralus-Image",
-        "url": "https://huggingface.co/Poralus/Poralus-Image"
       }
     ],
     "reasoning": [
@@ -1773,13 +1781,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "114 independent papers",
+      "observation": "117 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "62 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1832,6 +1840,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 433
+    "total_papers": 435
   }
 }
