@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T14:15:37.672771",
+  "date": "2026-01-17T15:16:15.629272",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,28 +755,40 @@
         "url": "https://arxiv.org/abs/2601.10332v1"
       },
       {
-        "title": "LLM-course/chess-peax-starling-v2",
-        "url": "https://huggingface.co/LLM-course/chess-peax-starling-v2"
+        "title": "matheusUema/SmolLM2-360M-Instruct-Q3_K_M-GGUF",
+        "url": "https://huggingface.co/matheusUema/SmolLM2-360M-Instruct-Q3_K_M-GGUF"
       },
       {
-        "title": "LLM-course/chess-peax-sparrow-v2",
-        "url": "https://huggingface.co/LLM-course/chess-peax-sparrow-v2"
+        "title": "matheusUema/SmolLM2-360M-Instruct-Q4_K_M-GGUF",
+        "url": "https://huggingface.co/matheusUema/SmolLM2-360M-Instruct-Q4_K_M-GGUF"
       },
       {
-        "title": "LLM-course/chess_gjustepullettraintuezmoi",
-        "url": "https://huggingface.co/LLM-course/chess_gjustepullettraintuezmoi"
+        "title": "matheusUema/SmolLM2-360M-Instruct-Q5_K_M-GGUF",
+        "url": "https://huggingface.co/matheusUema/SmolLM2-360M-Instruct-Q5_K_M-GGUF"
       },
       {
-        "title": "LLM-course/chess_v1.0",
-        "url": "https://huggingface.co/LLM-course/chess_v1.0"
+        "title": "matheusUema/SmolLM2-360M-Instruct-Q8_0-GGUF",
+        "url": "https://huggingface.co/matheusUema/SmolLM2-360M-Instruct-Q8_0-GGUF"
+      },
+      {
+        "title": "LLM-course/chess_octave_leroy",
+        "url": "https://huggingface.co/LLM-course/chess_octave_leroy"
       },
       {
         "title": "ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated",
         "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated"
       },
       {
-        "title": "LLM-course/chess-peax-starling-v1",
-        "url": "https://huggingface.co/LLM-course/chess-peax-starling-v1"
+        "title": "LLM-course/Hellomodel",
+        "url": "https://huggingface.co/LLM-course/Hellomodel"
+      },
+      {
+        "title": "LLM-course/clmrie-chess-legal-v4",
+        "url": "https://huggingface.co/LLM-course/clmrie-chess-legal-v4"
+      },
+      {
+        "title": "LLM-course/velmen-chess-model_v2",
+        "url": "https://huggingface.co/LLM-course/velmen-chess-model_v2"
       }
     ],
     "vision_systems": [
@@ -1321,10 +1333,6 @@
       {
         "title": "Jordan-Segmentable Masks: A Topology-Aware definition for characterizing Binary Image Segmentation",
         "url": "https://arxiv.org/abs/2601.10577v1"
-      },
-      {
-        "title": "ziadrone/Shivik-2B-Reasoning-SAFE",
-        "url": "https://huggingface.co/ziadrone/Shivik-2B-Reasoning-SAFE"
       }
     ],
     "benchmarks": [
@@ -1765,7 +1773,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "113 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1777,7 +1785,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1807,7 +1815,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 49,
+      "frequency": 48,
       "significance": "high"
     },
     {
@@ -1824,6 +1832,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 431
+    "total_papers": 433
   }
 }
