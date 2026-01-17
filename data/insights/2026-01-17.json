@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-17T06:24:05.802349",
+  "date": "2026-01-17T07:17:03.148300",
   "patterns": {
     "multimodal_research": [
       {
@@ -1711,6 +1711,10 @@
       {
         "title": "Subjective evaluation of UHD video coded using VVC with LCEVC and ML-VVC",
         "url": "https://arxiv.org/abs/2601.10448v1"
+      },
+      {
+        "title": "Sota26/Affine-22-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES",
+        "url": "https://huggingface.co/Sota26/Affine-22-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES"
       }
     ]
   },
@@ -1765,7 +1769,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "102 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1800,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 426
   }
 }
