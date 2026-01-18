@@ -1,11 +1,43 @@
 {
-  "date": "2026-01-18T08:21:37.660013",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-18T09:17:08.258774",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "LLM-course/chess-sam-model-final",
+        "url": "https://huggingface.co/LLM-course/chess-sam-model-final"
+      },
+      {
+        "title": "LLM-course/chess-deep-alt",
+        "url": "https://huggingface.co/LLM-course/chess-deep-alt"
+      },
+      {
+        "title": "LLM-course/chess_44iq",
+        "url": "https://huggingface.co/LLM-course/chess_44iq"
+      }
+    ],
+    "vision_systems": [
+      {
+        "title": "wetherbeep/affine_h1_5FADnMAcCVQvKH9wM8odQY3E2zxS6TJ6ad1a3mna9ws6adrG",
+        "url": "https://huggingface.co/wetherbeep/affine_h1_5FADnMAcCVQvKH9wM8odQY3E2zxS6TJ6ad1a3mna9ws6adrG"
+      },
+      {
+        "title": "wikeeyang/Real-Qwen-Image-V2",
+        "url": "https://huggingface.co/wikeeyang/Real-Qwen-Image-V2"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 2,
+    "total_inferences": 1,
+    "total_papers": 5
   }
 }
