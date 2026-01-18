@@ -1,33 +1,53 @@
 {
-  "date": "2026-01-18T10:17:17.490561",
+  "date": "2026-01-18T11:14:07.294077",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/chess-srb-vujadinovicn-v4",
-        "url": "https://huggingface.co/LLM-course/chess-srb-vujadinovicn-v4"
+        "title": "Finisha-LLM/Tiny-Rosa",
+        "url": "https://huggingface.co/Finisha-LLM/Tiny-Rosa"
       },
       {
-        "title": "LLM-course/chess-srb-vujadinovicn-v3",
-        "url": "https://huggingface.co/LLM-course/chess-srb-vujadinovicn-v3"
+        "title": "LLM-course/chess-4-Oceane28",
+        "url": "https://huggingface.co/LLM-course/chess-4-Oceane28"
       },
       {
-        "title": "LLM-course/chess-wide-test1",
-        "url": "https://huggingface.co/LLM-course/chess-wide-test1"
+        "title": "LLM-course/willy-model-chess",
+        "url": "https://huggingface.co/LLM-course/willy-model-chess"
       },
       {
-        "title": "LLM-course/chess-player",
-        "url": "https://huggingface.co/LLM-course/chess-player"
+        "title": "LLM-course/chess_model_v1_dani91990",
+        "url": "https://huggingface.co/LLM-course/chess_model_v1_dani91990"
       },
       {
-        "title": "LLM-course/chess-smsk-01",
-        "url": "https://huggingface.co/LLM-course/chess-smsk-01"
+        "title": "BenTouss/mdeberta-eurochef",
+        "url": "https://huggingface.co/BenTouss/mdeberta-eurochef"
+      },
+      {
+        "title": "LLM-course/chess-4_Oceane28",
+        "url": "https://huggingface.co/LLM-course/chess-4_Oceane28"
+      },
+      {
+        "title": "LLM-course/chess-legal-comox3",
+        "url": "https://huggingface.co/LLM-course/chess-legal-comox3"
+      },
+      {
+        "title": "LLM-course/spirow_chess_v1",
+        "url": "https://huggingface.co/LLM-course/spirow_chess_v1"
+      },
+      {
+        "title": "LLM-course/chess-tokenizer",
+        "url": "https://huggingface.co/LLM-course/chess-tokenizer"
+      },
+      {
+        "title": "LLM-course/chess-vincentime-rook-beta",
+        "url": "https://huggingface.co/LLM-course/chess-vincentime-rook-beta"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "5 independent papers",
+      "observation": "10 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -36,6 +56,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 5
+    "total_papers": 10
   }
 }
