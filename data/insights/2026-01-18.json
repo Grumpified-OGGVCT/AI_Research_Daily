@@ -1,45 +1,53 @@
 {
-  "date": "2026-01-18T15:15:51.927105",
+  "date": "2026-01-18T16:19:19.679833",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/gagliardidf-chess-model",
-        "url": "https://huggingface.co/LLM-course/gagliardidf-chess-model"
+        "title": "LLM-course/spirow_chess_v5f",
+        "url": "https://huggingface.co/LLM-course/spirow_chess_v5f"
       },
       {
-        "title": "LLM-course/chess-swig-rope-rms-875k-3ep",
-        "url": "https://huggingface.co/LLM-course/chess-swig-rope-rms-875k-3ep"
+        "title": "LLM-course/chess-gabriel-mariadass-v2",
+        "url": "https://huggingface.co/LLM-course/chess-gabriel-mariadass-v2"
       },
       {
-        "title": "LLM-course/swig-rope-rms-875k-3ep",
-        "url": "https://huggingface.co/LLM-course/swig-rope-rms-875k-3ep"
+        "title": "LLM-course/chess-recurrent-transfo",
+        "url": "https://huggingface.co/LLM-course/chess-recurrent-transfo"
       },
       {
-        "title": "LLM-course/chess-oussama-v3",
-        "url": "https://huggingface.co/LLM-course/chess-oussama-v3"
-      },
-      {
-        "title": "LLM-course/chess_vre_1",
-        "url": "https://huggingface.co/LLM-course/chess_vre_1"
+        "title": "LLM-course/chess_filo_5",
+        "url": "https://huggingface.co/LLM-course/chess_filo_5"
       },
       {
         "title": "RamaAI/fake-news-distilbert",
         "url": "https://huggingface.co/RamaAI/fake-news-distilbert"
       },
       {
-        "title": "LLM-course/chessy-chessy5.12",
-        "url": "https://huggingface.co/LLM-course/chessy-chessy5.12"
+        "title": "LLM-course/chess2",
+        "url": "https://huggingface.co/LLM-course/chess2"
       },
       {
-        "title": "LLM-course/chessy-chessy5.11",
-        "url": "https://huggingface.co/LLM-course/chessy-chessy5.11"
+        "title": "LLM-course/chess-version1",
+        "url": "https://huggingface.co/LLM-course/chess-version1"
+      },
+      {
+        "title": "LLM-course/chess_filo_4",
+        "url": "https://huggingface.co/LLM-course/chess_filo_4"
+      },
+      {
+        "title": "LLM-course/chess-player",
+        "url": "https://huggingface.co/LLM-course/chess-player"
+      },
+      {
+        "title": "LLM-course/chess-recurrent-transormer",
+        "url": "https://huggingface.co/LLM-course/chess-recurrent-transormer"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "8 independent papers",
+      "observation": "10 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -48,6 +56,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 8
+    "total_papers": 10
   }
 }
