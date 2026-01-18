@@ -1,45 +1,63 @@
 {
-  "date": "2026-01-18T17:14:28.909481",
+  "date": "2026-01-18T18:22:07.586248",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/gagliardidf-chess-model-v2",
-        "url": "https://huggingface.co/LLM-course/gagliardidf-chess-model-v2"
+        "title": "LLM-course/chess_good_but_inefficient",
+        "url": "https://huggingface.co/LLM-course/chess_good_but_inefficient"
       },
       {
-        "title": "AmritJain/dendritic-bert-tiny-toxicity",
-        "url": "https://huggingface.co/AmritJain/dendritic-bert-tiny-toxicity"
+        "title": "LLM-course/younadi_chess_3",
+        "url": "https://huggingface.co/LLM-course/younadi_chess_3"
       },
       {
-        "title": "LLM-course/chess-version1",
-        "url": "https://huggingface.co/LLM-course/chess-version1"
+        "title": "LLM-course/chess-normal-BPE",
+        "url": "https://huggingface.co/LLM-course/chess-normal-BPE"
       },
       {
-        "title": "LLM-course/chess-haiphamcse_dummy",
-        "url": "https://huggingface.co/LLM-course/chess-haiphamcse_dummy"
+        "title": "LLM-course/chess-haiphamcse_olmo_3k_dummy",
+        "url": "https://huggingface.co/LLM-course/chess-haiphamcse_olmo_3k_dummy"
       },
       {
-        "title": "LLM-course/Bapfel-chess-baseline",
-        "url": "https://huggingface.co/LLM-course/Bapfel-chess-baseline"
+        "title": "LLM-course/haiphamcse_olmo_3k_dummy",
+        "url": "https://huggingface.co/LLM-course/haiphamcse_olmo_3k_dummy"
       },
       {
-        "title": "LLM-course/chess-recurrent-transfor",
-        "url": "https://huggingface.co/LLM-course/chess-recurrent-transfor"
+        "title": "LLM-course/chess_vre_2",
+        "url": "https://huggingface.co/LLM-course/chess_vre_2"
+      },
+      {
+        "title": "LLM-course/Mas_chess-1m",
+        "url": "https://huggingface.co/LLM-course/Mas_chess-1m"
+      },
+      {
+        "title": "LLM-course/my-chess-modellll",
+        "url": "https://huggingface.co/LLM-course/my-chess-modellll"
+      }
+    ],
+    "vision_systems": [
+      {
+        "title": "TheCodingBug/Z-Image-Turbo-int8",
+        "url": "https://huggingface.co/TheCodingBug/Z-Image-Turbo-int8"
+      },
+      {
+        "title": "lichorosario/aguslp-qwen-image-2512",
+        "url": "https://huggingface.co/lichorosario/aguslp-qwen-image-2512"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "6 independent papers",
+      "observation": "8 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
+    "total_patterns": 2,
     "total_inferences": 1,
-    "total_papers": 6
+    "total_papers": 10
   }
 }
