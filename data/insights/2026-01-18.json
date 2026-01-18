@@ -1,57 +1,89 @@
 {
-  "date": "2026-01-18T19:13:42.472149",
+  "date": "2026-01-18T20:18:37.167030",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/chess_good_but_inefficient",
-        "url": "https://huggingface.co/LLM-course/chess_good_but_inefficient"
+        "title": "LLM-course/chess_model_lucas_meb_v2",
+        "url": "https://huggingface.co/LLM-course/chess_model_lucas_meb_v2"
       },
       {
-        "title": "LLM-course/chess_salut_cest_greg",
-        "url": "https://huggingface.co/LLM-course/chess_salut_cest_greg"
-      },
-      {
-        "title": "LLM-course/chess-ykolo-v1",
-        "url": "https://huggingface.co/LLM-course/chess-ykolo-v1"
-      },
-      {
-        "title": "LLM-course/chess_BochraLF0.1",
-        "url": "https://huggingface.co/LLM-course/chess_BochraLF0.1"
-      },
-      {
-        "title": "LLM-course/faissal-bee-chess-faissal",
-        "url": "https://huggingface.co/LLM-course/faissal-bee-chess-faissal"
+        "title": "LLM-course/chess-amirloris-benelghali-77",
+        "url": "https://huggingface.co/LLM-course/chess-amirloris-benelghali-77"
       },
       {
         "title": "LLM-course/chess-submission-v9-MDaytek",
         "url": "https://huggingface.co/LLM-course/chess-submission-v9-MDaytek"
       },
       {
-        "title": "LLM-course/chess_all_long_oscar",
-        "url": "https://huggingface.co/LLM-course/chess_all_long_oscar"
+        "title": "LLM-course/chess_minfreq2",
+        "url": "https://huggingface.co/LLM-course/chess_minfreq2"
       },
       {
-        "title": "LLM-course/shubha-chess-1m-structured",
-        "url": "https://huggingface.co/LLM-course/shubha-chess-1m-structured"
+        "title": "LLM-course/chess_TX20_mariusbossman",
+        "url": "https://huggingface.co/LLM-course/chess_TX20_mariusbossman"
       },
       {
-        "title": "LLM-course/honey-bee-chess-faissal",
-        "url": "https://huggingface.co/LLM-course/honey-bee-chess-faissal"
+        "title": "LLM-course/chess_minfreq",
+        "url": "https://huggingface.co/LLM-course/chess_minfreq"
       },
       {
-        "title": "LLM-course/chess-stockbird",
-        "url": "https://huggingface.co/LLM-course/chess-stockbird"
+        "title": "LLM-course/chess-test-etienneLefranc",
+        "url": "https://huggingface.co/LLM-course/chess-test-etienneLefranc"
       },
       {
-        "title": "LLM-course/sar-1m-chess-v1",
-        "url": "https://huggingface.co/LLM-course/sar-1m-chess-v1"
+        "title": "GamerQuant/gpt-oss-120b-merged-mxfp4",
+        "url": "https://huggingface.co/GamerQuant/gpt-oss-120b-merged-mxfp4"
+      },
+      {
+        "title": "LLM-course/chess-Rayan-FATNASSI",
+        "url": "https://huggingface.co/LLM-course/chess-Rayan-FATNASSI"
+      },
+      {
+        "title": "LLM-course/chess-pgberlureau-v1",
+        "url": "https://huggingface.co/LLM-course/chess-pgberlureau-v1"
+      },
+      {
+        "title": "LLM-course/chess_tlemagny_5.3",
+        "url": "https://huggingface.co/LLM-course/chess_tlemagny_5.3"
+      },
+      {
+        "title": "LLM-course/chess-player",
+        "url": "https://huggingface.co/LLM-course/chess-player"
+      },
+      {
+        "title": "LLM-course/chess-czp-v2",
+        "url": "https://huggingface.co/LLM-course/chess-czp-v2"
+      },
+      {
+        "title": "LLM-course/chess-bot-v2",
+        "url": "https://huggingface.co/LLM-course/chess-bot-v2"
+      },
+      {
+        "title": "LLM-course/chess-ykolo-v4",
+        "url": "https://huggingface.co/LLM-course/chess-ykolo-v4"
+      },
+      {
+        "title": "LLM-course/chess_basic_tokenizer",
+        "url": "https://huggingface.co/LLM-course/chess_basic_tokenizer"
+      },
+      {
+        "title": "LLM-course/chess-vincentime-rook",
+        "url": "https://huggingface.co/LLM-course/chess-vincentime-rook"
+      },
+      {
+        "title": "LLM-course/chess-ines-tokpov",
+        "url": "https://huggingface.co/LLM-course/chess-ines-tokpov"
+      },
+      {
+        "title": "LLM-course/basic_tokenizer",
+        "url": "https://huggingface.co/LLM-course/basic_tokenizer"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "11 independent papers",
+      "observation": "19 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -60,6 +92,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 11
+    "total_papers": 19
   }
 }
