@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-18T18:22:07.586248",
+  "date": "2026-01-18T19:13:42.472149",
   "patterns": {
     "language_models": [
       {
@@ -7,57 +7,59 @@
         "url": "https://huggingface.co/LLM-course/chess_good_but_inefficient"
       },
       {
-        "title": "LLM-course/younadi_chess_3",
-        "url": "https://huggingface.co/LLM-course/younadi_chess_3"
+        "title": "LLM-course/chess_salut_cest_greg",
+        "url": "https://huggingface.co/LLM-course/chess_salut_cest_greg"
       },
       {
-        "title": "LLM-course/chess-normal-BPE",
-        "url": "https://huggingface.co/LLM-course/chess-normal-BPE"
+        "title": "LLM-course/chess-ykolo-v1",
+        "url": "https://huggingface.co/LLM-course/chess-ykolo-v1"
       },
       {
-        "title": "LLM-course/chess-haiphamcse_olmo_3k_dummy",
-        "url": "https://huggingface.co/LLM-course/chess-haiphamcse_olmo_3k_dummy"
+        "title": "LLM-course/chess_BochraLF0.1",
+        "url": "https://huggingface.co/LLM-course/chess_BochraLF0.1"
       },
       {
-        "title": "LLM-course/haiphamcse_olmo_3k_dummy",
-        "url": "https://huggingface.co/LLM-course/haiphamcse_olmo_3k_dummy"
+        "title": "LLM-course/faissal-bee-chess-faissal",
+        "url": "https://huggingface.co/LLM-course/faissal-bee-chess-faissal"
       },
       {
-        "title": "LLM-course/chess_vre_2",
-        "url": "https://huggingface.co/LLM-course/chess_vre_2"
+        "title": "LLM-course/chess-submission-v9-MDaytek",
+        "url": "https://huggingface.co/LLM-course/chess-submission-v9-MDaytek"
       },
       {
-        "title": "LLM-course/Mas_chess-1m",
-        "url": "https://huggingface.co/LLM-course/Mas_chess-1m"
+        "title": "LLM-course/chess_all_long_oscar",
+        "url": "https://huggingface.co/LLM-course/chess_all_long_oscar"
       },
       {
-        "title": "LLM-course/my-chess-modellll",
-        "url": "https://huggingface.co/LLM-course/my-chess-modellll"
-      }
-    ],
-    "vision_systems": [
-      {
-        "title": "TheCodingBug/Z-Image-Turbo-int8",
-        "url": "https://huggingface.co/TheCodingBug/Z-Image-Turbo-int8"
+        "title": "LLM-course/shubha-chess-1m-structured",
+        "url": "https://huggingface.co/LLM-course/shubha-chess-1m-structured"
       },
       {
-        "title": "lichorosario/aguslp-qwen-image-2512",
-        "url": "https://huggingface.co/lichorosario/aguslp-qwen-image-2512"
+        "title": "LLM-course/honey-bee-chess-faissal",
+        "url": "https://huggingface.co/LLM-course/honey-bee-chess-faissal"
+      },
+      {
+        "title": "LLM-course/chess-stockbird",
+        "url": "https://huggingface.co/LLM-course/chess-stockbird"
+      },
+      {
+        "title": "LLM-course/sar-1m-chess-v1",
+        "url": "https://huggingface.co/LLM-course/sar-1m-chess-v1"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "8 independent papers",
+      "observation": "11 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
+    "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 10
+    "total_papers": 11
   }
 }
