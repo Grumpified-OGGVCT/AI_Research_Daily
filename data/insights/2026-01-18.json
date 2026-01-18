@@ -1,53 +1,37 @@
 {
-  "date": "2026-01-18T16:19:19.679833",
+  "date": "2026-01-18T17:14:28.909481",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/spirow_chess_v5f",
-        "url": "https://huggingface.co/LLM-course/spirow_chess_v5f"
+        "title": "LLM-course/gagliardidf-chess-model-v2",
+        "url": "https://huggingface.co/LLM-course/gagliardidf-chess-model-v2"
       },
       {
-        "title": "LLM-course/chess-gabriel-mariadass-v2",
-        "url": "https://huggingface.co/LLM-course/chess-gabriel-mariadass-v2"
-      },
-      {
-        "title": "LLM-course/chess-recurrent-transfo",
-        "url": "https://huggingface.co/LLM-course/chess-recurrent-transfo"
-      },
-      {
-        "title": "LLM-course/chess_filo_5",
-        "url": "https://huggingface.co/LLM-course/chess_filo_5"
-      },
-      {
-        "title": "RamaAI/fake-news-distilbert",
-        "url": "https://huggingface.co/RamaAI/fake-news-distilbert"
-      },
-      {
-        "title": "LLM-course/chess2",
-        "url": "https://huggingface.co/LLM-course/chess2"
+        "title": "AmritJain/dendritic-bert-tiny-toxicity",
+        "url": "https://huggingface.co/AmritJain/dendritic-bert-tiny-toxicity"
       },
       {
         "title": "LLM-course/chess-version1",
         "url": "https://huggingface.co/LLM-course/chess-version1"
       },
       {
-        "title": "LLM-course/chess_filo_4",
-        "url": "https://huggingface.co/LLM-course/chess_filo_4"
+        "title": "LLM-course/chess-haiphamcse_dummy",
+        "url": "https://huggingface.co/LLM-course/chess-haiphamcse_dummy"
       },
       {
-        "title": "LLM-course/chess-player",
-        "url": "https://huggingface.co/LLM-course/chess-player"
+        "title": "LLM-course/Bapfel-chess-baseline",
+        "url": "https://huggingface.co/LLM-course/Bapfel-chess-baseline"
       },
       {
-        "title": "LLM-course/chess-recurrent-transormer",
-        "url": "https://huggingface.co/LLM-course/chess-recurrent-transormer"
+        "title": "LLM-course/chess-recurrent-transfor",
+        "url": "https://huggingface.co/LLM-course/chess-recurrent-transfor"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "10 independent papers",
+      "observation": "6 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -56,6 +40,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 10
+    "total_papers": 6
   }
 }
