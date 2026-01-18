@@ -1,45 +1,33 @@
 {
-  "date": "2026-01-18T12:30:30.085134",
+  "date": "2026-01-18T13:26:54.636477",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/chess_trytry",
-        "url": "https://huggingface.co/LLM-course/chess_trytry"
+        "title": "LLM-course/mount-chess-1m-boost",
+        "url": "https://huggingface.co/LLM-course/mount-chess-1m-boost"
       },
       {
-        "title": "LLM-course/try3",
-        "url": "https://huggingface.co/LLM-course/try3"
+        "title": "JartiX/bert_tourism_classifier",
+        "url": "https://huggingface.co/JartiX/bert_tourism_classifier"
       },
       {
-        "title": "LLM-course/chess-axelbrons-1m-v3",
-        "url": "https://huggingface.co/LLM-course/chess-axelbrons-1m-v3"
-      },
-      {
-        "title": "LLM-course/chess-vincentime-rook-beta-2",
-        "url": "https://huggingface.co/LLM-course/chess-vincentime-rook-beta-2"
-      },
-      {
-        "title": "dogedevx/bible-llm-refined",
-        "url": "https://huggingface.co/dogedevx/bible-llm-refined"
-      },
-      {
-        "title": "LLM-course/TristanB_4_chess",
-        "url": "https://huggingface.co/LLM-course/TristanB_4_chess"
+        "title": "LLM-course/chess_ilyas_oulkadda_v1",
+        "url": "https://huggingface.co/LLM-course/chess_ilyas_oulkadda_v1"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "6 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 6
+    "total_papers": 3
   }
 }
