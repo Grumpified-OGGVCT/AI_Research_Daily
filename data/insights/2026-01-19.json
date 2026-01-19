@@ -1,51 +1,22 @@
 {
-  "date": "2026-01-19T21:16:29.721485",
+  "date": "2026-01-19T22:18:01.811627",
   "patterns": {
     "language_models": [
-      {
-        "title": "LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C16_10k_LegalW0p5_ckpt10000",
-        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C16_10k_LegalW0p5_ckpt10000"
-      },
-      {
-        "title": "filipsiktar26/distilbert-base-uncased-funetuned-clinc",
-        "url": "https://huggingface.co/filipsiktar26/distilbert-base-uncased-funetuned-clinc"
-      },
       {
         "title": "LLM-course/chess-submission-v21-MDaytek",
         "url": "https://huggingface.co/LLM-course/chess-submission-v21-MDaytek"
       },
       {
-        "title": "LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C16_10k_LegalW0p5_ckpt20000",
-        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C16_10k_LegalW0p5_ckpt20000"
-      },
-      {
-        "title": "LLM-course/chess_v25-MDaytek",
-        "url": "https://huggingface.co/LLM-course/chess_v25-MDaytek"
-      },
-      {
-        "title": "LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C2_10k_LegalW0p5_ckpt2000",
-        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C2_10k_LegalW0p5_ckpt2000"
+        "title": "LLM-course/ParetoTinyRNNTransformers97k_v4_cycles_TRM_d80_L1_H2_C2_100k_LegalW0p5",
+        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers97k_v4_cycles_TRM_d80_L1_H2_C2_100k_LegalW0p5"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "6 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
-    }
-  ],
-  "research_trends": [
-    {
-      "topic": "transformer",
-      "frequency": 3,
-      "significance": "medium"
-    }
-  ],
+  "inferences": [],
+  "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 6
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
