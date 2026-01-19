@@ -1,11 +1,37 @@
 {
-  "date": "2026-01-19T17:21:14.587008",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-19T18:25:25.042063",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "LLM-course/chess-gpt-char-level-v7",
+        "url": "https://huggingface.co/LLM-course/chess-gpt-char-level-v7"
+      },
+      {
+        "title": "LLM-course/ParetoTinyRNNTransformers485k_v4_ramp_TRM_d120_L3_H4_C4_500k_LegalW0p5",
+        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers485k_v4_ramp_TRM_d120_L3_H4_C4_500k_LegalW0p5"
+      },
+      {
+        "title": "LLM-course/chess-llm-lh3",
+        "url": "https://huggingface.co/LLM-course/chess-llm-lh3"
+      },
+      {
+        "title": "LLM-course/chess-llm-lh2",
+        "url": "https://huggingface.co/LLM-course/chess-llm-lh2"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
