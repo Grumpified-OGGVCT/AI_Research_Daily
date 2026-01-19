@@ -1,22 +1,55 @@
 {
-  "date": "2026-01-19T19:17:44.072319",
+  "date": "2026-01-19T20:19:39.471641",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/ParetoTinyRNNTransformers996k_v4_ramp_TRM_d175_L3_H5_C4_999k_LegalW0p5",
-        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers996k_v4_ramp_TRM_d175_L3_H5_C4_999k_LegalW0p5"
+        "title": "LLM-course/ParetoTinyRNNTransformers49k_v4_cycles_TRM_d40_L2_H2_C32_50k_LegalW0p5",
+        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers49k_v4_cycles_TRM_d40_L2_H2_C32_50k_LegalW0p5"
       },
       {
         "title": "filipsiktar26/distilbert-base-uncased-funetuned-clinc",
         "url": "https://huggingface.co/filipsiktar26/distilbert-base-uncased-funetuned-clinc"
+      },
+      {
+        "title": "LLM-course/chess-duc-v6",
+        "url": "https://huggingface.co/LLM-course/chess-duc-v6"
+      },
+      {
+        "title": "LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C32_10k_LegalW0p5",
+        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C32_10k_LegalW0p5"
+      },
+      {
+        "title": "AbuHamida/gpt_oss_resume_checker",
+        "url": "https://huggingface.co/AbuHamida/gpt_oss_resume_checker"
+      },
+      {
+        "title": "LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C16_10k_LegalW0p5",
+        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers16k_v4_cycles_TRM_d24_L1_H2_C16_10k_LegalW0p5"
+      },
+      {
+        "title": "LLM-course/ParetoTinyRNNTransformers996k_v4_cycles_TRM_d175_L3_H5_C8_999k_LegalW0p5",
+        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers996k_v4_cycles_TRM_d175_L3_H5_C8_999k_LegalW0p5"
       }
     ]
   },
-  "inferences": [],
-  "research_trends": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "7 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
+  "research_trends": [
+    {
+      "topic": "transformer",
+      "frequency": 4,
+      "significance": "medium"
+    }
+  ],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 7
   }
 }
