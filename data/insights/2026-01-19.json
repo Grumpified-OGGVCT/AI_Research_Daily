@@ -1,33 +1,49 @@
 {
-  "date": "2026-01-19T08:26:51.895880",
+  "date": "2026-01-19T09:30:41.068729",
   "patterns": {
     "language_models": [
       {
-        "title": "sugam24/gpt2-poems-finetuned-v5",
-        "url": "https://huggingface.co/sugam24/gpt2-poems-finetuned-v5"
+        "title": "LLM-course/chess-barth-5e",
+        "url": "https://huggingface.co/LLM-course/chess-barth-5e"
       },
       {
-        "title": "LLM-course/chess-2m-tanguy-standard",
-        "url": "https://huggingface.co/LLM-course/chess-2m-tanguy-standard"
+        "title": "LLM-course/chess-armand-blin-v-last-4",
+        "url": "https://huggingface.co/LLM-course/chess-armand-blin-v-last-4"
       },
       {
-        "title": "Dawn123666/ml_mbert_1024_v2",
-        "url": "https://huggingface.co/Dawn123666/ml_mbert_1024_v2"
+        "title": "LLM-course/mathispernin-chess-model-6",
+        "url": "https://huggingface.co/LLM-course/mathispernin-chess-model-6"
+      },
+      {
+        "title": "LLM-course/ChessDux",
+        "url": "https://huggingface.co/LLM-course/ChessDux"
+      },
+      {
+        "title": "LLM-course/chess-armand-blin-v-last-3",
+        "url": "https://huggingface.co/LLM-course/chess-armand-blin-v-last-3"
+      },
+      {
+        "title": "LLM-course/chess_oscar_all_long",
+        "url": "https://huggingface.co/LLM-course/chess_oscar_all_long"
+      },
+      {
+        "title": "LLM-course/chess_M15_BOSS",
+        "url": "https://huggingface.co/LLM-course/chess_M15_BOSS"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
+      "observation": "7 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
     }
   ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 3
+    "total_papers": 7
   }
 }
