@@ -1,49 +1,39 @@
 {
-  "date": "2026-01-19T09:30:41.068729",
+  "date": "2026-01-19T10:23:51.161460",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/chess-barth-5e",
-        "url": "https://huggingface.co/LLM-course/chess-barth-5e"
+        "title": "Dawn123666/ml_mbert_1024_v5",
+        "url": "https://huggingface.co/Dawn123666/ml_mbert_1024_v5"
       },
       {
         "title": "LLM-course/chess-armand-blin-v-last-4",
         "url": "https://huggingface.co/LLM-course/chess-armand-blin-v-last-4"
+      }
+    ],
+    "reasoning": [
+      {
+        "title": "flaitenberger/Olmo-3-1025-7B-logic-3e-5-100s-8ep-final-adapter",
+        "url": "https://huggingface.co/flaitenberger/Olmo-3-1025-7B-logic-3e-5-100s-8ep-final-adapter"
       },
       {
-        "title": "LLM-course/mathispernin-chess-model-6",
-        "url": "https://huggingface.co/LLM-course/mathispernin-chess-model-6"
-      },
-      {
-        "title": "LLM-course/ChessDux",
-        "url": "https://huggingface.co/LLM-course/ChessDux"
-      },
-      {
-        "title": "LLM-course/chess-armand-blin-v-last-3",
-        "url": "https://huggingface.co/LLM-course/chess-armand-blin-v-last-3"
-      },
-      {
-        "title": "LLM-course/chess_oscar_all_long",
-        "url": "https://huggingface.co/LLM-course/chess_oscar_all_long"
-      },
-      {
-        "title": "LLM-course/chess_M15_BOSS",
-        "url": "https://huggingface.co/LLM-course/chess_M15_BOSS"
+        "title": "flaitenberger/Olmo-3-1025-7B-logic-3e-5-100s-4ep-final-adapter",
+        "url": "https://huggingface.co/flaitenberger/Olmo-3-1025-7B-logic-3e-5-100s-4ep-final-adapter"
       }
     ]
   },
   "inferences": [
     {
-      "pattern": "language_models",
-      "observation": "7 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
+    "total_patterns": 2,
     "total_inferences": 1,
-    "total_papers": 7
+    "total_papers": 4
   }
 }
