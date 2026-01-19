@@ -1,22 +1,37 @@
 {
-  "date": "2026-01-19T22:18:01.811627",
+  "date": "2026-01-19T23:17:30.110858",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/chess-submission-v21-MDaytek",
-        "url": "https://huggingface.co/LLM-course/chess-submission-v21-MDaytek"
+        "title": "LLM-course/ParetoTinyRNNTransformers240k_v4_cycles_TRM_d72_L4_H4_C8_250k_LegalW0p5_ckpt14000",
+        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers240k_v4_cycles_TRM_d72_L4_H4_C8_250k_LegalW0p5_ckpt14000"
       },
       {
-        "title": "LLM-course/ParetoTinyRNNTransformers97k_v4_cycles_TRM_d80_L1_H2_C2_100k_LegalW0p5",
-        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers97k_v4_cycles_TRM_d80_L1_H2_C2_100k_LegalW0p5"
+        "title": "LLM-course/chess-stockbird2",
+        "url": "https://huggingface.co/LLM-course/chess-stockbird2"
+      },
+      {
+        "title": "LLM-course/chess-llm-louish",
+        "url": "https://huggingface.co/LLM-course/chess-llm-louish"
+      },
+      {
+        "title": "Iceland/deberta-v3-dynasent-full-standard",
+        "url": "https://huggingface.co/Iceland/deberta-v3-dynasent-full-standard"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
