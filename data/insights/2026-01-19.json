@@ -1,37 +1,22 @@
 {
-  "date": "2026-01-19T18:25:25.042063",
+  "date": "2026-01-19T19:17:44.072319",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/chess-gpt-char-level-v7",
-        "url": "https://huggingface.co/LLM-course/chess-gpt-char-level-v7"
+        "title": "LLM-course/ParetoTinyRNNTransformers996k_v4_ramp_TRM_d175_L3_H5_C4_999k_LegalW0p5",
+        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers996k_v4_ramp_TRM_d175_L3_H5_C4_999k_LegalW0p5"
       },
       {
-        "title": "LLM-course/ParetoTinyRNNTransformers485k_v4_ramp_TRM_d120_L3_H4_C4_500k_LegalW0p5",
-        "url": "https://huggingface.co/LLM-course/ParetoTinyRNNTransformers485k_v4_ramp_TRM_d120_L3_H4_C4_500k_LegalW0p5"
-      },
-      {
-        "title": "LLM-course/chess-llm-lh3",
-        "url": "https://huggingface.co/LLM-course/chess-llm-lh3"
-      },
-      {
-        "title": "LLM-course/chess-llm-lh2",
-        "url": "https://huggingface.co/LLM-course/chess-llm-lh2"
+        "title": "filipsiktar26/distilbert-base-uncased-funetuned-clinc",
+        "url": "https://huggingface.co/filipsiktar26/distilbert-base-uncased-funetuned-clinc"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 4
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
