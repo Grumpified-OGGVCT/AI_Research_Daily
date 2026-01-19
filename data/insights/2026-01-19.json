@@ -1,11 +1,33 @@
 {
-  "date": "2026-01-19T07:26:11.242647",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-19T08:26:51.895880",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "sugam24/gpt2-poems-finetuned-v5",
+        "url": "https://huggingface.co/sugam24/gpt2-poems-finetuned-v5"
+      },
+      {
+        "title": "LLM-course/chess-2m-tanguy-standard",
+        "url": "https://huggingface.co/LLM-course/chess-2m-tanguy-standard"
+      },
+      {
+        "title": "Dawn123666/ml_mbert_1024_v2",
+        "url": "https://huggingface.co/Dawn123666/ml_mbert_1024_v2"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
