@@ -1,49 +1,22 @@
 {
-  "date": "2026-01-19T11:18:59.921497",
+  "date": "2026-01-19T12:37:27.382745",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-course/simple_tokenizer_retrained2",
-        "url": "https://huggingface.co/LLM-course/simple_tokenizer_retrained2"
+        "title": "iravikr/distilgpt2-movieqa",
+        "url": "https://huggingface.co/iravikr/distilgpt2-movieqa"
       },
       {
-        "title": "zorbeyoezcan/bert-finetuned-category-2-format",
-        "url": "https://huggingface.co/zorbeyoezcan/bert-finetuned-category-2-format"
-      },
-      {
-        "title": "zorbeyoezcan/bert-finetuned-category-1-content",
-        "url": "https://huggingface.co/zorbeyoezcan/bert-finetuned-category-1-content"
-      },
-      {
-        "title": "LLM-course/ChessDux",
-        "url": "https://huggingface.co/LLM-course/ChessDux"
-      },
-      {
-        "title": "LLM-course/chess-submission-v18-MDaytek",
-        "url": "https://huggingface.co/LLM-course/chess-submission-v18-MDaytek"
-      },
-      {
-        "title": "NLPForUA/gpt2-large-uk-title-generation",
-        "url": "https://huggingface.co/NLPForUA/gpt2-large-uk-title-generation"
-      },
-      {
-        "title": "LLM-course/chess-wallard-v2",
-        "url": "https://huggingface.co/LLM-course/chess-wallard-v2"
+        "title": "LLM-course/chess-submission-v21-MDaytek",
+        "url": "https://huggingface.co/LLM-course/chess-submission-v21-MDaytek"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "7 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 7
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
