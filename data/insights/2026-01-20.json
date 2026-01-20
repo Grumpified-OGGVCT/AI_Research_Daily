@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-20T17:25:31.177681",
-  "patterns": {},
+  "date": "2026-01-20T18:29:35.627000",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "avatargrim/openthaigpt1.5-7b_text_to_SQL_v1",
+        "url": "https://huggingface.co/avatargrim/openthaigpt1.5-7b_text_to_SQL_v1"
+      },
+      {
+        "title": "Vebebebe/gpt-5-turbo",
+        "url": "https://huggingface.co/Vebebebe/gpt-5-turbo"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
