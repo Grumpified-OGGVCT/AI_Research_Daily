@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-20T11:21:12.479600",
-  "patterns": {},
+  "date": "2026-01-20T12:37:58.855149",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Finisha-LLM/Mini-mistral-v1",
+        "url": "https://huggingface.co/Finisha-LLM/Mini-mistral-v1"
+      },
+      {
+        "title": "logeshwaran7/my-gpt2",
+        "url": "https://huggingface.co/logeshwaran7/my-gpt2"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
