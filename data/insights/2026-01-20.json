@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-20T07:24:44.913532",
-  "patterns": {},
+  "date": "2026-01-20T08:25:57.952277",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "carlyou/SmolLM3-Custom-SFT",
+        "url": "https://huggingface.co/carlyou/SmolLM3-Custom-SFT"
+      },
+      {
+        "title": "LLM-course/chess_MaximeMuh3",
+        "url": "https://huggingface.co/LLM-course/chess_MaximeMuh3"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
