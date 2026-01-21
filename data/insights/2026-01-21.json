@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-21T13:42:25.562713",
+  "date": "2026-01-21T14:26:12.245563",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,12 +755,12 @@
         "url": "https://arxiv.org/abs/2601.13665v1"
       },
       {
-        "title": "randy2mst/distilbert-rotten-tomatoes",
-        "url": "https://huggingface.co/randy2mst/distilbert-rotten-tomatoes"
+        "title": "dgambettaphd/M_llm2_run0_gen0_WXS_doc1000_synt64_lr1e-04_acm_MPP50pcLAST",
+        "url": "https://huggingface.co/dgambettaphd/M_llm2_run0_gen0_WXS_doc1000_synt64_lr1e-04_acm_MPP50pcLAST"
       },
       {
-        "title": "Dawn123666/vision_mbert_1024_v4",
-        "url": "https://huggingface.co/Dawn123666/vision_mbert_1024_v4"
+        "title": "LLM-course/chess-maxence-tokenV1",
+        "url": "https://huggingface.co/LLM-course/chess-maxence-tokenV1"
       }
     ],
     "vision_systems": [
@@ -1063,10 +1063,6 @@
       {
         "title": "Soft Tail-dropping for Adaptive Visual Tokenization",
         "url": "https://arxiv.org/abs/2601.14246v1"
-      },
-      {
-        "title": "Dawn123666/vision_mbert_1024_v4",
-        "url": "https://huggingface.co/Dawn123666/vision_mbert_1024_v4"
       }
     ],
     "reasoning": [
@@ -1791,6 +1787,10 @@
       {
         "title": "VTONGuard: Automatic Detection and Authentication of AI-Generated Virtual Try-On Content",
         "url": "https://arxiv.org/abs/2601.13951v1"
+      },
+      {
+        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1827,7 +1827,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1845,7 +1845,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "107 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1868,7 +1868,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 38,
+      "frequency": 37,
       "significance": "high"
     },
     {
