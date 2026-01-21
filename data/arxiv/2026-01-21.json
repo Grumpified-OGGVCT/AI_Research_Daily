@@ -363,9 +363,9 @@
     "title": "Enhancing Generalization in Sickle Cell Disease Diagnosis through Ensemble Methods and Feature Importance Analysis",
     "summary": "This work presents a novel approach for selecting the optimal ensemble-based classification method and features with a primarly focus on achieving generalization, based on the state-of-the-art, to provide diagnostic support for Sickle Cell Disease using peripheral blood smear images of red blood cells. We pre-processed and segmented the microscopic images to ensure the extraction of high-quality features. To ensure the reliability of our proposed system, we conducted an in-depth analysis of interpretability. Leveraging techniques established in the literature, we extracted features from blood cells and employed ensemble machine learning methods to classify their morphology. Furthermore, we have devised a methodology to identify the most critical features for classification, aimed at reducing complexity and training time and enhancing interpretability in opaque models. Lastly, we validated our results using a new dataset, where our model overperformed state-of-the-art models in terms of generalization. The results of classifier ensembled of Random Forest and Extra Trees classifier achieved an harmonic mean of precision and recall (F1-score) of 90.71\\% and a Sickle Cell Disease diagnosis support score (SDS-score) of 93.33\\%. These results demonstrate notable enhancement from previous ones with Gradient Boosting classifier (F1-score 87.32\\% and SDS-score 89.51\\%). To foster scientific progress, we have made available the parameters for each model, the implemented code library, and the confusion matrices with the raw data.",
     "authors": [
-      "Nata\u0161a Petrovi\u0107",
-      "Gabriel Moy\u00e0-Alcover",
-      "Antoni Jaume-i-Cap\u00f3",
+      "Nataša Petrović",
+      "Gabriel Moyà-Alcover",
+      "Antoni Jaume-i-Capó",
       "Jose Maria Buades Rubio"
     ],
     "categories": [
@@ -471,7 +471,7 @@
     "authors": [
       "Ebubekir Tosun",
       "Mehmet Emin Buldur",
-      "\u00d6zay Ezerceli",
+      "Özay Ezerceli",
       "Mahmoud ElHussieni"
     ],
     "categories": [
@@ -705,7 +705,7 @@
     "title": "Profiling German Text Simplification with Interpretable Model-Fingerprints",
     "summary": "While Large Language Models (LLMs) produce highly nuanced text simplifications, developers currently lack tools for a holistic, efficient, and reproducible diagnosis of their behavior. This paper introduces the Simplification Profiler, a diagnostic toolkit that generates a multidimensional, interpretable fingerprint of simplified texts. Multiple aggregated simplifications of a model result in a model's fingerprint. This novel evaluation paradigm is particularly vital for languages, where the data scarcity problem is magnified when creating flexible models for diverse target groups rather than a single, fixed simplification style. We propose that measuring a model's unique behavioral signature is more relevant in this context as an alternative to correlating metrics with human preferences. We operationalize this with a practical meta-evaluation of our fingerprints' descriptive power, which bypasses the need for large, human-rated datasets. This test measures if a simple linear classifier can reliably identify various model configurations by their created simplifications, confirming that our metrics are sensitive to a model's specific characteristics. The Profiler can distinguish high-level behavioral variations between prompting strategies and fine-grained changes from prompt engineering, including few-shot examples. Our complete feature set achieves classification F1-scores up to 71.9 %, improving upon simple baselines by over 48 percentage points. The Simplification Profiler thus offers developers a granular, actionable analysis to build more effective and truly adaptive text simplification systems.",
     "authors": [
-      "Lars Kl\u00f6ser",
+      "Lars Klöser",
       "Mika Beele",
       "Bodo Kraft"
     ],
@@ -1089,9 +1089,9 @@
     "summary": "While recent automated red-teaming methods show promise for systematically exposing model vulnerabilities, most existing approaches rely on human-specified workflows. This dependence on manually designed workflows suffers from human biases and makes exploring the broader design space expensive. We introduce AgenticRed, an automated pipeline that leverages LLMs' in-context learning to iteratively design and refine red-teaming systems without human intervention. Rather than optimizing attacker policies within predefined structures, AgenticRed treats red-teaming as a system design problem. Inspired by methods like Meta Agent Search, we develop a novel procedure for evolving agentic systems using evolutionary selection, and apply it to the problem of automatic red-teaming. Red-teaming systems designed by AgenticRed consistently outperform state-of-the-art approaches, achieving 96% attack success rate (ASR) on Llama-2-7B (36% improvement) and 98% on Llama-3-8B on HarmBench. Our approach exhibits strong transferability to proprietary models, achieving 100% ASR on GPT-3.5-Turbo and GPT-4o-mini, and 60% on Claude-Sonnet-3.5 (24% improvement). This work highlights automated system design as a powerful paradigm for AI safety evaluation that can keep pace with rapidly evolving models.",
     "authors": [
       "Jiayi Yuan",
-      "Jonathan N\u00f6ther",
+      "Jonathan Nöther",
       "Natasha Jaques",
-      "Goran Radanovi\u0107"
+      "Goran Radanović"
     ],
     "categories": [
       "cs.AI",
@@ -1373,10 +1373,10 @@
     "title": "Explicit Cognitive Allocation: A Principle for Governed and Auditable Inference in Large Language Models",
     "summary": "The rapid adoption of large language models (LLMs) has enabled new forms of AI-assisted reasoning across scientific, technical, and organizational domains. However, prevailing modes of LLM use remain cognitively unstructured: problem framing, knowledge exploration, retrieval, methodological awareness, and explanation are typically collapsed into a single generative process. This cognitive collapse limits traceability, weakens epistemic control, and undermines reproducibility, particularly in high-responsibility settings.   We introduce Explicit Cognitive Allocation, a general principle for structuring AI-assisted inference through the explicit separation and orchestration of epistemic functions. We instantiate this principle in the Cognitive Universal Agent (CUA), an architecture that organizes inference into distinct stages of exploration and framing, epistemic anchoring, instrumental and methodological mapping, and interpretive synthesis. Central to this framework is the notion of Universal Cognitive Instruments (UCIs), which formalize heterogeneous means, including computational, experimental, organizational, regulatory, and educational instruments, through which abstract inquiries become investigable.   We evaluate the effects of explicit cognitive and instrumental allocation through controlled comparisons between CUA-orchestrated inference and baseline LLM inference under matched execution conditions. Across multiple prompts in the agricultural domain, CUA inference exhibits earlier and structurally governed epistemic convergence, higher epistemic alignment under semantic expansion, and systematic exposure of the instrumental landscape of inquiry. In contrast, baseline LLM inference shows greater variability in alignment and fails to explicitly surface instrumental structure.",
     "authors": [
-      "H\u00e9ctor Manuel Manzanilla-Granados",
+      "Héctor Manuel Manzanilla-Granados",
       "Zaira Navarrete-Cazales",
       "Miriam Pescador-Rojas",
-      "Tonahtiu Ram\u00edrez-Romero"
+      "Tonahtiu Ramírez-Romero"
     ],
     "categories": [
       "cs.AI"
@@ -1474,7 +1474,7 @@
     "authors": [
       "Ebubekir Tosun",
       "Mehmet Emin Buldur",
-      "\u00d6zay Ezerceli",
+      "Özay Ezerceli",
       "Mahmoud ElHussieni"
     ],
     "categories": [
@@ -1560,7 +1560,7 @@
     "authors": [
       "Davidson Lova Razafindrakoto",
       "Alain Celisse",
-      "J\u00e9r\u00f4me Lacaille"
+      "Jérôme Lacaille"
     ],
     "categories": [
       "stat.ML",
@@ -1912,7 +1912,7 @@
   {
     "arxiv_id": "2601.13303v1",
     "title": "Verifying Local Robustness of Pruned Safety-Critical Networks",
-    "summary": "Formal verification of Deep Neural Networks (DNNs) is essential for safety-critical applications, ranging from surgical robotics to NASA JPL autonomous systems. However, the computational cost of verifying large-scale models remains a significant barrier to adoption. This paper investigates the impact of pruning on formal local robustness certificates with different ratios. Using the state-of-the-art $\u03b1,\u03b2$-CROWN verifier, we evaluate ResNet4 models across varying pruning ratios on MNIST and, more importantly, on the NASA JPL Mars Frost Identification datasets. Our findings demonstrate a non-linear relationship: light pruning (40%) in MNIST and heavy pruning (70%-90%) in JPL improve verifiability, allowing models to outperform unpruned baselines in proven $L_\\infty$ robustness properties. This suggests that reduced connectivity simplifies the search space for formal solvers and that the optimal pruning ratio varies significantly between datasets. This research highlights the complex nature of model compression, offering critical insights into selecting the optimal pruning ratio for deploying efficient, yet formally verified, DNNs in high-stakes environments where reliability is non-negotiable.",
+    "summary": "Formal verification of Deep Neural Networks (DNNs) is essential for safety-critical applications, ranging from surgical robotics to NASA JPL autonomous systems. However, the computational cost of verifying large-scale models remains a significant barrier to adoption. This paper investigates the impact of pruning on formal local robustness certificates with different ratios. Using the state-of-the-art $α,β$-CROWN verifier, we evaluate ResNet4 models across varying pruning ratios on MNIST and, more importantly, on the NASA JPL Mars Frost Identification datasets. Our findings demonstrate a non-linear relationship: light pruning (40%) in MNIST and heavy pruning (70%-90%) in JPL improve verifiability, allowing models to outperform unpruned baselines in proven $L_\\infty$ robustness properties. This suggests that reduced connectivity simplifies the search space for formal solvers and that the optimal pruning ratio varies significantly between datasets. This research highlights the complex nature of model compression, offering critical insights into selecting the optimal pruning ratio for deploying efficient, yet formally verified, DNNs in high-stakes environments where reliability is non-negotiable.",
     "authors": [
       "Minh Le",
       "Phuong Cao"
@@ -2221,7 +2221,7 @@
     "authors": [
       "Pedro M. Gordaliza",
       "Jaume Banus",
-      "Beno\u00eet G\u00e9rin",
+      "Benoît Gérin",
       "Maxence Wynen",
       "Nataliia Molchanova",
       "Jonas Richiardi",
@@ -3220,7 +3220,7 @@
     "summary": "In this study, we explore the application of deep learning techniques for predicting cleansing quality in colon capsule endoscopy (CCE) images. Using a dataset of 500 images labeled by 14 clinicians on the Leighton-Rex scale (Poor, Fair, Good, and Excellent), a ResNet-18 model was trained for classification, leveraging stratified K-fold cross-validation to ensure robust performance. To optimize the model, structured pruning techniques were applied iteratively, achieving significant sparsity while maintaining high accuracy. Explainability of the pruned model was evaluated using Grad-CAM, Grad-CAM++, Eigen-CAM, Ablation-CAM, and Random-CAM, with the ROAD method employed for consistent evaluation. Our results indicate that for a pruned model, we can achieve a cross-validation accuracy of 88% with 79% sparsity, demonstrating the effectiveness of pruning in improving efficiency from 84% without compromising performance. We also highlight the challenges of evaluating cleansing quality of CCE images, emphasize the importance of explainability in clinical applications, and discuss the challenges associated with using the ROAD method for our task. Finally, we employ a variant of adaptive temperature scaling to calibrate the pruned models for an external dataset.",
     "authors": [
       "Puneet Sharma",
-      "Kristian Dalsb\u00f8 Hindberg",
+      "Kristian Dalsbø Hindberg",
       "Benedicte Schelde-Olesen",
       "Ulrik Deding",
       "Esmaeil S. Nadimi",
@@ -3285,7 +3285,7 @@
     "summary": "Distributional shifts between training and inference time data remain a central challenge in machine learning, often leading to poor performance. It motivated the study of principled approaches for domain alignment, such as optimal transport based unsupervised domain adaptation, that relies on approximating Monge map using transport plans, which is sensitive to the transport problem regularization strategy and hyperparameters, and might yield biased domains alignment. In this work, we propose to interpret smoothed transport plans as adjacency matrices of bipartite graphs connecting source to target domain and derive domain-invariant samples' representations through spectral embedding. We evaluate our approach on acoustic adaptation benchmarks for music genre recognition, music-speech discrimination, as well as electrical cable defect detection and classification tasks using time domain reflection in different diagnosis settings, achieving overall strong performances.",
     "authors": [
       "Abdel Djalil Sad Saoud",
-      "Fred Maurice Ngol\u00e8 Mboula",
+      "Fred Maurice Ngolè Mboula",
       "Hanane Slimani"
     ],
     "categories": [
@@ -3371,7 +3371,7 @@
       "Christina Tornberg",
       "Teimuraz Saghinadze",
       "Michal Balazia",
-      "Philipp M\u00fcller",
+      "Philipp Müller",
       "Petri Laukka"
     ],
     "categories": [
@@ -3490,8 +3490,8 @@
     "title": "Distribution-Free Confidence Ellipsoids for Ridge Regression with PAC Bounds",
     "summary": "Linearly parametrized models are widely used in control and signal processing, with the least-squares (LS) estimate being the archetypical solution. When the input is insufficiently exciting, the LS problem may be unsolvable or numerically unstable. This issue can be resolved through regularization, typically with ridge regression. Although regularized estimators reduce the variance error, it remains important to quantify their estimation uncertainty. A possible approach for linear regression is to construct confidence ellipsoids with the Sign-Perturbed Sums (SPS) ellipsoidal outer approximation (EOA) algorithm. The SPS EOA builds non-asymptotic confidence ellipsoids under the assumption that the noises are independent and symmetric about zero. This paper introduces an extension of the SPS EOA algorithm to ridge regression, and derives probably approximately correct (PAC) upper bounds for the resulting region sizes. Compared with previous analyses, our result explicitly show how the regularization parameter affects the region sizes, and provide tighter bounds under weaker excitation assumptions. Finally, the practical effect of regularization is also demonstrated via simulation experiments.",
     "authors": [
-      "Szabolcs Szentp\u00e9teri",
-      "Bal\u00e1zs Csan\u00e1d Cs\u00e1ji"
+      "Szabolcs Szentpéteri",
+      "Balázs Csanád Csáji"
     ],
     "categories": [
       "stat.ML",
@@ -3560,9 +3560,9 @@
     "summary": "Scaling laws describing the dependence of neural network performance on the amount of training data, the spent compute, and the network size have emerged across a huge variety of machine learning task and datasets. In this work, we systematically investigate these scaling laws in the context of amplitude surrogates for particle physics. We show that the scaling coefficients are connected to the number of external particles of the process. Our results demonstrate that scaling laws are a useful tool to achieve desired precision targets.",
     "authors": [
       "Henning Bahl",
-      "Victor Bres\u00f3-Pla",
+      "Victor Bresó-Pla",
       "Anja Butter",
-      "Joaqu\u00edn Iturriza Ramirez"
+      "Joaquín Iturriza Ramirez"
     ],
     "categories": [
       "hep-ph",
@@ -3786,7 +3786,7 @@
   {
     "arxiv_id": "2601.13208v1",
     "title": "Rethinking Skip Connections: Additive U-Net for Robust and Interpretable Denoising",
-    "summary": "Skip connections are central to U-Net architectures for image denoising, but standard concatenation doubles channel dimensionality and obscures information flow, allowing uncontrolled noise transfer. We propose the Additive U-Net, which replaces concatenative skips with gated additive connections. Each skip pathway is scaled by a learnable non-negative scalar, offering explicit and interpretable control over encoder contributions while avoiding channel inflation. Evaluations on the Kodak-17 denoising benchmark show that Additive U-Net achieves competitive PSNR/SSIM at noise levels \u03c3 = 15, 25, 50, with robustness across kernel schedules and depths. Notably, effective denoising is achieved even without explicit down/up-sampling or forced hierarchies, as the model naturally learns a progression from high-frequency to band-pass to low-frequency features. These results position additive skips as a lightweight and interpretable alternative to concatenation, enabling both efficient design and a clearer understanding of multi-scale information transfer in reconstruction networks.",
+    "summary": "Skip connections are central to U-Net architectures for image denoising, but standard concatenation doubles channel dimensionality and obscures information flow, allowing uncontrolled noise transfer. We propose the Additive U-Net, which replaces concatenative skips with gated additive connections. Each skip pathway is scaled by a learnable non-negative scalar, offering explicit and interpretable control over encoder contributions while avoiding channel inflation. Evaluations on the Kodak-17 denoising benchmark show that Additive U-Net achieves competitive PSNR/SSIM at noise levels σ = 15, 25, 50, with robustness across kernel schedules and depths. Notably, effective denoising is achieved even without explicit down/up-sampling or forced hierarchies, as the model naturally learns a progression from high-frequency to band-pass to low-frequency features. These results position additive skips as a lightweight and interpretable alternative to concatenation, enabling both efficient design and a clearer understanding of multi-scale information transfer in reconstruction networks.",
     "authors": [
       "Vikram R Lakkavalli"
     ],
@@ -3806,7 +3806,7 @@
     "summary": "In this paper, the solution to the empirical risk minimization problem with $f$-divergence regularization (ERM-$f$DR) is presented and conditions under which the solution also serves as the solution to the minimization of the expected empirical risk subject to an $f$-divergence constraint are established. The proposed approach extends applicability to a broader class of $f$-divergences than previously reported and yields theoretical results that recover previously known results. Additionally, the difference between the expected empirical risk of the ERM-$f$DR solution and that of its reference measure is characterized, providing insights into previously studied cases of $f$-divergences. A central contribution is the introduction of the normalization function, a mathematical object that is critical in both the dual formulation and practical computation of the ERM-$f$DR solution. This work presents an implicit characterization of the normalization function as a nonlinear ordinary differential equation (ODE), establishes its key properties, and subsequently leverages them to construct a numerical algorithm for approximating the normalization factor under mild assumptions. Further analysis demonstrates structural equivalences between ERM-$f$DR problems with different $f$-divergences via transformations of the empirical risk. Finally, the proposed algorithm is used to compute the training and test risks of ERM-$f$DR solutions under different $f$-divergence regularizers. This numerical example highlights the practical implications of choosing different functions $f$ in ERM-$f$DR problems.",
     "authors": [
       "Francisco Daunas",
-      "I\u00f1aki Esnaola",
+      "Iñaki Esnaola",
       "Samir M. Perlaza",
       "H. Vincent Poor"
     ],
@@ -4217,68 +4217,12 @@
     "research_score": 0.5
   },
   {
-    "model_id": "bartowski/zai-org_GLM-4.7-Flash-GGUF",
-    "author": "unknown",
-    "title": "bartowski/zai-org_GLM-4.7-Flash-GGUF",
-    "downloads": 1982,
-    "likes": 14,
-    "tags": [
-      "gguf",
-      "text-generation",
-      "en",
-      "zh",
-      "base_model:zai-org/GLM-4.7-Flash",
-      "base_model:quantized:zai-org/GLM-4.7-Flash",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-01-20T00:01:04.000Z",
-    "last_modified": "2026-01-21T03:28:18.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/bartowski/zai-org_GLM-4.7-Flash-GGUF",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.5
-  },
-  {
-    "model_id": "Riya89/fake-news-analyzer",
-    "author": "unknown",
-    "title": "Riya89/fake-news-analyzer",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "distilbert",
-      "text-classification",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-01-20T15:54:53.000Z",
-    "last_modified": "2026-01-21T03:26:29.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Riya89/fake-news-analyzer",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.5
-  },
-  {
     "arxiv_id": "2601.13416v1",
     "title": "Diffusion Representations for Fine-Grained Image Classification: A Marine Plankton Case Study",
     "summary": "Diffusion models have emerged as state-of-the-art generative methods for image synthesis, yet their potential as general-purpose feature encoders remains underexplored. Trained for denoising and generation without labels, they can be interpreted as self-supervised learners that capture both low- and high-level structure. We show that a frozen diffusion backbone enables strong fine-grained recognition by probing intermediate denoising features across layers and timesteps and training a linear classifier for each pair. We evaluate this in a real-world plankton-monitoring setting with practical impact, using controlled and comparable training setups against established supervised and self-supervised baselines. Frozen diffusion features are competitive with supervised baselines and outperform other self-supervised methods in both balanced and naturally long-tailed settings. Out-of-distribution evaluations on temporally and geographically shifted plankton datasets further show that frozen diffusion features maintain strong accuracy and Macro F1 under substantial distribution shift.",
     "authors": [
       "A. Nieto Juscafresa",
-      "\u00c1. Mazcu\u00f1\u00e1n Herreros",
+      "Á. Mazcuñán Herreros",
       "J. Sullivan"
     ],
     "categories": [
@@ -4423,7 +4367,7 @@
       "Arthur Moreau",
       "Helisa Dhamo",
       "Zhensong Zhang",
-      "Eduardo P\u00e9rez-Pellitero"
+      "Eduardo Pérez-Pellitero"
     ],
     "categories": [
       "cs.CV",
@@ -4457,289 +4401,5 @@
     "date": "2026-01-21",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "lsm0729/Meta-Llama-3.1-8B-Instruct-quantized.w8a8",
-    "author": "unknown",
-    "title": "lsm0729/Meta-Llama-3.1-8B-Instruct-quantized.w8a8",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "quantized",
-      "int8",
-      "w8a8",
-      "llmcompressor",
-      "llama-3.1",
-      "conversational",
-      "arxiv:2407.21783",
-      "base_model:meta-llama/Llama-3.1-8B-Instruct",
-      "base_model:quantized:meta-llama/Llama-3.1-8B-Instruct",
-      "license:llama3.1",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "8-bit",
-      "compressed-tensors",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-21T03:27:37.000Z",
-    "last_modified": "2026-01-21T03:28:06.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/lsm0729/Meta-Llama-3.1-8B-Instruct-quantized.w8a8",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Riya89/fake-news-analyzer-v2",
-    "author": "unknown",
-    "title": "Riya89/fake-news-analyzer-v2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "transformers",
-    "created_at": "2026-01-21T03:27:05.000Z",
-    "last_modified": "2026-01-21T03:27:07.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Riya89/fake-news-analyzer-v2",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Riya89/results",
-    "author": "unknown",
-    "title": "Riya89/results",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "distilbert",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:distilbert/distilbert-base-uncased",
-      "base_model:finetune:distilbert/distilbert-base-uncased",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-01-21T03:26:32.000Z",
-    "last_modified": "2026-01-21T03:27:03.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Riya89/results",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Olafangensan/GLM-4.7-Flash-heretic",
-    "author": "unknown",
-    "title": "Olafangensan/GLM-4.7-Flash-heretic",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "glm4_moe_lite",
-      "text-generation",
-      "heretic",
-      "uncensored",
-      "decensored",
-      "abliterated",
-      "conversational",
-      "en",
-      "zh",
-      "arxiv:2508.06471",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-21T03:22:24.000Z",
-    "last_modified": "2026-01-21T03:25:54.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Olafangensan/GLM-4.7-Flash-heretic",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "opendatalab/ChartVerse-Coder",
-    "author": "unknown",
-    "title": "opendatalab/ChartVerse-Coder",
-    "downloads": 21,
-    "likes": 5,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "chart",
-      "code-generation",
-      "visualization",
-      "matplotlib",
-      "data-visualization",
-      "complexity-aware",
-      "conversational",
-      "en",
-      "dataset:opendatalab/ChartVerse-Coder-Data",
-      "arxiv:2601.13606",
-      "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-Coder-7B-Instruct",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-19T07:25:55.000Z",
-    "last_modified": "2026-01-21T03:24:48.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/opendatalab/ChartVerse-Coder",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Tristepin/uzdqwn4b-neo05f",
-    "author": "unknown",
-    "title": "Tristepin/uzdqwn4b-neo05f",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/Qwen3-4B-Instruct-2507-unsloth-bnb-4bit",
-      "base_model:finetune:unsloth/Qwen3-4B-Instruct-2507-unsloth-bnb-4bit",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-21T03:16:57.000Z",
-    "last_modified": "2026-01-21T03:24:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Tristepin/uzdqwn4b-neo05f",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Alexis987/llama2-7b-lora",
-    "author": "unknown",
-    "title": "Alexis987/llama2-7b-lora",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:meta-llama/Llama-2-7b-chat-hf",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "text-generation",
-      "conversational",
-      "en",
-      "arxiv:1910.09700",
-      "base_model:meta-llama/Llama-2-7b-chat-hf",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-01-20T19:21:52.000Z",
-    "last_modified": "2026-01-21T03:24:01.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Alexis987/llama2-7b-lora",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "khier12/480min_whisper_small_FT",
-    "author": "unknown",
-    "title": "khier12/480min_whisper_small_FT",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-01-20T22:17:33.000Z",
-    "last_modified": "2026-01-21T03:21:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/khier12/480min_whisper_small_FT",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Abby-Woodring/boolq_3_12",
-    "author": "unknown",
-    "title": "Abby-Woodring/boolq_3_12",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "mistral",
-      "text-generation",
-      "axolotl",
-      "base_model:adapter:model/reddit_12_merged/reddit_12_merged",
-      "lora",
-      "transformers",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-01-21T03:18:03.000Z",
-    "last_modified": "2026-01-21T03:18:27.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Abby-Woodring/boolq_3_12",
-    "date": "2026-01-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
