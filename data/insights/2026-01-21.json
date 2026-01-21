@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-21T10:23:25.305528",
+  "date": "2026-01-21T11:21:17.109071",
   "patterns": {
     "multimodal_research": [
       {
@@ -1055,6 +1055,10 @@
       {
         "title": "Soft Tail-dropping for Adaptive Visual Tokenization",
         "url": "https://arxiv.org/abs/2601.14246v1"
+      },
+      {
+        "title": "Arunk25/Qwen-Image-Edit-Rapid-AIO-GGUF",
+        "url": "https://huggingface.co/Arunk25/Qwen-Image-Edit-Rapid-AIO-GGUF"
       }
     ],
     "reasoning": [
@@ -1815,7 +1819,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1868,6 +1872,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 442
+    "total_papers": 443
   }
 }
