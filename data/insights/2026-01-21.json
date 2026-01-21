@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-21T18:36:46.066166",
+  "date": "2026-01-21T19:24:45.782146",
   "patterns": {
     "multimodal_research": [
       {
@@ -757,18 +757,6 @@
       {
         "title": "dugoalberto/HuBERT_DeepFakeDetection128_32_new",
         "url": "https://huggingface.co/dugoalberto/HuBERT_DeepFakeDetection128_32_new"
-      },
-      {
-        "title": "ArunkumarVR/SmolLM3-Mid",
-        "url": "https://huggingface.co/ArunkumarVR/SmolLM3-Mid"
-      },
-      {
-        "title": "Finisha-LLM/Gheya-Nacid-instruct-v1",
-        "url": "https://huggingface.co/Finisha-LLM/Gheya-Nacid-instruct-v1"
-      },
-      {
-        "title": "BikoRiko/Gpt-2.1",
-        "url": "https://huggingface.co/BikoRiko/Gpt-2.1"
       }
     ],
     "vision_systems": [
@@ -1365,10 +1353,6 @@
       {
         "title": "Towards Visually Explaining Statistical Tests with Applications in Biomedical Imaging",
         "url": "https://arxiv.org/abs/2601.13899v1"
-      },
-      {
-        "title": "eaddario/Ministral-3-14B-Reasoning-2512-GGUF",
-        "url": "https://huggingface.co/eaddario/Ministral-3-14B-Reasoning-2512-GGUF"
       }
     ],
     "benchmarks": [
@@ -1829,7 +1813,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1841,7 +1825,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1871,7 +1855,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 43,
+      "frequency": 42,
       "significance": "high"
     },
     {
@@ -1888,6 +1872,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 443
   }
 }
