@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-21T11:21:17.109071",
+  "date": "2026-01-21T12:37:49.734529",
   "patterns": {
     "multimodal_research": [
       {
@@ -753,6 +753,18 @@
       {
         "title": "Transformer based Multi-task Fusion Network for Food Spoilage Detection and Shelf life Forecasting",
         "url": "https://arxiv.org/abs/2601.13665v1"
+      },
+      {
+        "title": "Jorgeis1/babygpt-10m-trial_run_Dec_CustomAG_16_19_epochs100",
+        "url": "https://huggingface.co/Jorgeis1/babygpt-10m-trial_run_Dec_CustomAG_16_19_epochs100"
+      },
+      {
+        "title": "curtojulia/distilbert-pt-cased-redacao-nota",
+        "url": "https://huggingface.co/curtojulia/distilbert-pt-cased-redacao-nota"
+      },
+      {
+        "title": "LLM-course/ghaith-chess-vf",
+        "url": "https://huggingface.co/LLM-course/ghaith-chess-vf"
       }
     ],
     "vision_systems": [
@@ -1055,10 +1067,6 @@
       {
         "title": "Soft Tail-dropping for Adaptive Visual Tokenization",
         "url": "https://arxiv.org/abs/2601.14246v1"
-      },
-      {
-        "title": "Arunk25/Qwen-Image-Edit-Rapid-AIO-GGUF",
-        "url": "https://huggingface.co/Arunk25/Qwen-Image-Edit-Rapid-AIO-GGUF"
       }
     ],
     "reasoning": [
@@ -1813,13 +1821,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "105 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1872,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 443
+    "total_papers": 445
   }
 }
