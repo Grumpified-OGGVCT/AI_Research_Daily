@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-21T12:37:49.734529",
+  "date": "2026-01-21T13:42:25.562713",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,16 +755,12 @@
         "url": "https://arxiv.org/abs/2601.13665v1"
       },
       {
-        "title": "Jorgeis1/babygpt-10m-trial_run_Dec_CustomAG_16_19_epochs100",
-        "url": "https://huggingface.co/Jorgeis1/babygpt-10m-trial_run_Dec_CustomAG_16_19_epochs100"
+        "title": "randy2mst/distilbert-rotten-tomatoes",
+        "url": "https://huggingface.co/randy2mst/distilbert-rotten-tomatoes"
       },
       {
-        "title": "curtojulia/distilbert-pt-cased-redacao-nota",
-        "url": "https://huggingface.co/curtojulia/distilbert-pt-cased-redacao-nota"
-      },
-      {
-        "title": "LLM-course/ghaith-chess-vf",
-        "url": "https://huggingface.co/LLM-course/ghaith-chess-vf"
+        "title": "Dawn123666/vision_mbert_1024_v4",
+        "url": "https://huggingface.co/Dawn123666/vision_mbert_1024_v4"
       }
     ],
     "vision_systems": [
@@ -1067,6 +1063,10 @@
       {
         "title": "Soft Tail-dropping for Adaptive Visual Tokenization",
         "url": "https://arxiv.org/abs/2601.14246v1"
+      },
+      {
+        "title": "Dawn123666/vision_mbert_1024_v4",
+        "url": "https://huggingface.co/Dawn123666/vision_mbert_1024_v4"
       }
     ],
     "reasoning": [
@@ -1821,13 +1821,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1868,7 +1868,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 37,
+      "frequency": 38,
       "significance": "high"
     },
     {
