@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-21T17:51:51.491440",
+  "date": "2026-01-21T18:36:46.066166",
   "patterns": {
     "multimodal_research": [
       {
@@ -757,6 +757,18 @@
       {
         "title": "dugoalberto/HuBERT_DeepFakeDetection128_32_new",
         "url": "https://huggingface.co/dugoalberto/HuBERT_DeepFakeDetection128_32_new"
+      },
+      {
+        "title": "ArunkumarVR/SmolLM3-Mid",
+        "url": "https://huggingface.co/ArunkumarVR/SmolLM3-Mid"
+      },
+      {
+        "title": "Finisha-LLM/Gheya-Nacid-instruct-v1",
+        "url": "https://huggingface.co/Finisha-LLM/Gheya-Nacid-instruct-v1"
+      },
+      {
+        "title": "BikoRiko/Gpt-2.1",
+        "url": "https://huggingface.co/BikoRiko/Gpt-2.1"
       }
     ],
     "vision_systems": [
@@ -1817,7 +1829,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "106 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1876,6 +1888,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 444
+    "total_papers": 447
   }
 }
