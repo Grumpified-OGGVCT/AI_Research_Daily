@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-21T07:24:37.406583",
+  "date": "2026-01-21T08:26:06.340014",
   "patterns": {
     "multimodal_research": [
       {
@@ -753,6 +753,10 @@
       {
         "title": "Transformer based Multi-task Fusion Network for Food Spoilage Detection and Shelf life Forecasting",
         "url": "https://arxiv.org/abs/2601.13665v1"
+      },
+      {
+        "title": "Dawn123666/vision_mbert_1024_v1",
+        "url": "https://huggingface.co/Dawn123666/vision_mbert_1024_v1"
       }
     ],
     "vision_systems": [
@@ -1055,6 +1059,10 @@
       {
         "title": "Soft Tail-dropping for Adaptive Visual Tokenization",
         "url": "https://arxiv.org/abs/2601.14246v1"
+      },
+      {
+        "title": "Dawn123666/vision_mbert_1024_v1",
+        "url": "https://huggingface.co/Dawn123666/vision_mbert_1024_v1"
       }
     ],
     "reasoning": [
@@ -1809,13 +1817,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "105 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1856,7 +1864,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 37,
+      "frequency": 38,
       "significance": "high"
     },
     {
@@ -1868,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 442
+    "total_papers": 444
   }
 }
