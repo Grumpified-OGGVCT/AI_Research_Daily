@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-21T19:24:45.782146",
+  "date": "2026-01-21T20:25:52.733088",
   "patterns": {
     "multimodal_research": [
       {
@@ -1353,6 +1353,10 @@
       {
         "title": "Towards Visually Explaining Statistical Tests with Applications in Biomedical Imaging",
         "url": "https://arxiv.org/abs/2601.13899v1"
+      },
+      {
+        "title": "eaddario/Ministral-3-14B-Reasoning-2512-GGUF",
+        "url": "https://huggingface.co/eaddario/Ministral-3-14B-Reasoning-2512-GGUF"
       }
     ],
     "benchmarks": [
@@ -1825,7 +1829,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1855,7 +1859,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 42,
+      "frequency": 43,
       "significance": "high"
     },
     {
@@ -1872,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 443
+    "total_papers": 444
   }
 }
