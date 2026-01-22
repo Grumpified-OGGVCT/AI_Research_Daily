@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-22T21:18:53.140249",
+  "date": "2026-01-22T22:18:51.050156",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,8 +727,8 @@
         "url": "https://arxiv.org/abs/2601.14774v1"
       },
       {
-        "title": "LLM-course/clement-chess-v1",
-        "url": "https://huggingface.co/LLM-course/clement-chess-v1"
+        "title": "Njihia097/finetuned_distilbert_text_classifier",
+        "url": "https://huggingface.co/Njihia097/finetuned_distilbert_text_classifier"
       }
     ],
     "vision_systems": [
@@ -1005,6 +1005,10 @@
         "url": "https://arxiv.org/abs/2601.15221v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "SimD3: A Synthetic drone Dataset with Payload and Bird Distractor Modeling for Robust Detection",
         "url": "https://arxiv.org/abs/2601.14742v1"
       },
@@ -1035,6 +1039,10 @@
       {
         "title": "Filtered 2D Contour-Based Reconstruction of 3D STL Model from CT-DICOM Images",
         "url": "https://arxiv.org/abs/2601.14997v1"
+      },
+      {
+        "title": "morningtea006/affine-dog-5CvvN4i1ywzVhmzZZJ76W3uGDPK1ny2tj2DBqGHr8FkAeLYB",
+        "url": "https://huggingface.co/morningtea006/affine-dog-5CvvN4i1ywzVhmzZZJ76W3uGDPK1ny2tj2DBqGHr8FkAeLYB"
       }
     ],
     "reasoning": [
@@ -1819,7 +1827,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1872,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 443
+    "total_papers": 445
   }
 }
