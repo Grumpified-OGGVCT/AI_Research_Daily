@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-22T20:21:40.724018",
+  "date": "2026-01-22T21:18:53.140249",
   "patterns": {
     "multimodal_research": [
       {
@@ -725,6 +725,10 @@
       {
         "title": "Does medical specialization of VLMs enhance discriminative power?: A comprehensive investigation through feature distribution analysis",
         "url": "https://arxiv.org/abs/2601.14774v1"
+      },
+      {
+        "title": "LLM-course/clement-chess-v1",
+        "url": "https://huggingface.co/LLM-course/clement-chess-v1"
       }
     ],
     "vision_systems": [
@@ -1329,10 +1333,6 @@
       {
         "title": "Does medical specialization of VLMs enhance discriminative power?: A comprehensive investigation through feature distribution analysis",
         "url": "https://arxiv.org/abs/2601.14774v1"
-      },
-      {
-        "title": "ShubhamGTiwari/Tina-3.1-8B-Reasoning",
-        "url": "https://huggingface.co/ShubhamGTiwari/Tina-3.1-8B-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1813,7 +1813,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1825,7 +1825,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1860,7 +1860,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 44,
+      "frequency": 43,
       "significance": "high"
     },
     {
