@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-23T13:40:16.073846",
+  "date": "2026-01-23T14:22:17.246977",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,12 +687,12 @@
         "url": "https://arxiv.org/abs/2601.15780v1"
       },
       {
-        "title": "abehandlerorg/gpt-oss-20b_cptllama-2024-01-29-Y0_debug",
-        "url": "https://huggingface.co/abehandlerorg/gpt-oss-20b_cptllama-2024-01-29-Y0_debug"
+        "title": "tartuNLP/Apertus-EstLLM-8B-Instruct-1125",
+        "url": "https://huggingface.co/tartuNLP/Apertus-EstLLM-8B-Instruct-1125"
       },
       {
-        "title": "Delonik/bert_classifier",
-        "url": "https://huggingface.co/Delonik/bert_classifier"
+        "title": "ArthurHayasdan/armenian-gpt",
+        "url": "https://huggingface.co/ArthurHayasdan/armenian-gpt"
       }
     ],
     "vision_systems": [
@@ -1249,6 +1249,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit",
+        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1703,6 +1707,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "Sota26/Affine-32-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES",
+        "url": "https://huggingface.co/Sota26/Affine-32-5EZjhBoHzb2yGLTo1NvY7qvWjFxQw93WTHGGr9aYFueRsGES"
       }
     ]
   },
@@ -1745,7 +1753,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1757,7 +1765,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "113 independent papers",
+      "observation": "114 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1792,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 423
+    "total_papers": 425
   }
 }
