@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-23T10:21:08.024847",
+  "date": "2026-01-23T11:17:43.123518",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,8 +687,20 @@
         "url": "https://arxiv.org/abs/2601.15780v1"
       },
       {
+        "title": "Delonik/bert_classifier",
+        "url": "https://huggingface.co/Delonik/bert_classifier"
+      },
+      {
         "title": "dugoalberto/DeepFakeDetectionWav2Vec128_32_new",
         "url": "https://huggingface.co/dugoalberto/DeepFakeDetectionWav2Vec128_32_new"
+      },
+      {
+        "title": "tartuNLP/Apertus-EstLLM-8B-Instruct-1125",
+        "url": "https://huggingface.co/tartuNLP/Apertus-EstLLM-8B-Instruct-1125"
+      },
+      {
+        "title": "tartuNLP/Apertus-EstLLM-8B-1125",
+        "url": "https://huggingface.co/tartuNLP/Apertus-EstLLM-8B-1125"
       }
     ],
     "vision_systems": [
@@ -983,10 +995,6 @@
       {
         "title": "Evolving Without Ending: Unifying Multimodal Incremental Learning for Continual Panoptic Perception",
         "url": "https://arxiv.org/abs/2601.15643v1"
-      },
-      {
-        "title": "QuantFunc/Nunchaku-Qwen-Image-2512",
-        "url": "https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-2512"
       }
     ],
     "reasoning": [
@@ -1249,10 +1257,6 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
-      },
-      {
-        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1737,19 +1741,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 425
   }
 }
