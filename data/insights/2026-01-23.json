@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-23T09:26:22.774951",
+  "date": "2026-01-23T10:21:08.024847",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,8 +687,8 @@
         "url": "https://arxiv.org/abs/2601.15780v1"
       },
       {
-        "title": "Finisha-LLM/Sala-tiny-lamina-instruct",
-        "url": "https://huggingface.co/Finisha-LLM/Sala-tiny-lamina-instruct"
+        "title": "dugoalberto/DeepFakeDetectionWav2Vec128_32_new",
+        "url": "https://huggingface.co/dugoalberto/DeepFakeDetectionWav2Vec128_32_new"
       }
     ],
     "vision_systems": [
@@ -983,6 +983,10 @@
       {
         "title": "Evolving Without Ending: Unifying Multimodal Incremental Learning for Continual Panoptic Perception",
         "url": "https://arxiv.org/abs/2601.15643v1"
+      },
+      {
+        "title": "QuantFunc/Nunchaku-Qwen-Image-2512",
+        "url": "https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-2512"
       }
     ],
     "reasoning": [
@@ -1245,6 +1249,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit",
+        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1735,13 +1743,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1788,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 424
   }
 }
