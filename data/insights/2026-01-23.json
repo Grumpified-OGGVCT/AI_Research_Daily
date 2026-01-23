@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-23T22:15:18.547739",
+  "date": "2026-01-23T23:18:08.366088",
   "patterns": {
     "multimodal_research": [
       {
@@ -319,10 +319,6 @@
       {
         "title": "FUGC: Benchmarking Semi-Supervised Learning Methods for Cervical Segmentation",
         "url": "https://arxiv.org/abs/2601.15572v1"
-      },
-      {
-        "title": "jayzou3773/Qwen1.5-MOE-sft-math7k-sfttest",
-        "url": "https://huggingface.co/jayzou3773/Qwen1.5-MOE-sft-math7k-sfttest"
       }
     ],
     "language_models": [
@@ -1249,10 +1245,6 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
-      },
-      {
-        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1725,7 +1717,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "51 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1749,7 +1741,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 422
   }
 }
