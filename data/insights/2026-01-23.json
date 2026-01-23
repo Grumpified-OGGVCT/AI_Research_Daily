@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-23T20:20:40.983190",
+  "date": "2026-01-23T21:17:26.718180",
   "patterns": {
     "multimodal_research": [
       {
@@ -319,14 +319,6 @@
       {
         "title": "FUGC: Benchmarking Semi-Supervised Learning Methods for Cervical Segmentation",
         "url": "https://arxiv.org/abs/2601.15572v1"
-      },
-      {
-        "title": "shangkuns/enscale-wo-coefficient",
-        "url": "https://huggingface.co/shangkuns/enscale-wo-coefficient"
-      },
-      {
-        "title": "shangkuns/enscale-wo-coefficient-20260122175259",
-        "url": "https://huggingface.co/shangkuns/enscale-wo-coefficient-20260122175259"
       }
     ],
     "language_models": [
@@ -693,6 +685,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "EpistemeAI/rsi-gpt-oss-20b",
+        "url": "https://huggingface.co/EpistemeAI/rsi-gpt-oss-20b"
       }
     ],
     "vision_systems": [
@@ -1725,7 +1721,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "52 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1737,7 +1733,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 423
   }
 }
