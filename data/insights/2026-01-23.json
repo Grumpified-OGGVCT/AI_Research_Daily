@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-23T08:24:19.867259",
+  "date": "2026-01-23T09:26:22.774951",
   "patterns": {
     "multimodal_research": [
       {
@@ -685,6 +685,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "Finisha-LLM/Sala-tiny-lamina-instruct",
+        "url": "https://huggingface.co/Finisha-LLM/Sala-tiny-lamina-instruct"
       }
     ],
     "vision_systems": [
@@ -1241,10 +1245,6 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
-      },
-      {
-        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1729,7 +1729,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1741,7 +1741,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
