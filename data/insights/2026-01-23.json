@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-23T12:35:32.762679",
+  "date": "2026-01-23T13:40:16.073846",
   "patterns": {
     "multimodal_research": [
       {
@@ -685,6 +685,14 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "abehandlerorg/gpt-oss-20b_cptllama-2024-01-29-Y0_debug",
+        "url": "https://huggingface.co/abehandlerorg/gpt-oss-20b_cptllama-2024-01-29-Y0_debug"
+      },
+      {
+        "title": "Delonik/bert_classifier",
+        "url": "https://huggingface.co/Delonik/bert_classifier"
       }
     ],
     "vision_systems": [
@@ -979,10 +987,6 @@
       {
         "title": "Evolving Without Ending: Unifying Multimodal Incremental Learning for Continual Panoptic Perception",
         "url": "https://arxiv.org/abs/2601.15643v1"
-      },
-      {
-        "title": "QuantFunc/Nunchaku-Qwen-Image-EDIT-2511",
-        "url": "https://huggingface.co/QuantFunc/Nunchaku-Qwen-Image-EDIT-2511"
       }
     ],
     "reasoning": [
@@ -1245,10 +1249,6 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
-      },
-      {
-        "title": "inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Thinking-2601-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1733,19 +1733,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
