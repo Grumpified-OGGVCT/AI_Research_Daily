@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-23T06:28:00.634536",
+  "date": "2026-01-23T07:23:13.941537",
   "patterns": {
     "multimodal_research": [
       {
@@ -1241,6 +1241,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "herschel3y/Qwen-3-0.6B-Medical-Reasoning",
+        "url": "https://huggingface.co/herschel3y/Qwen-3-0.6B-Medical-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1737,7 +1741,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1784,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 421
+    "total_papers": 422
   }
 }
