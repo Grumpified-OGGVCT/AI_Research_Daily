@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-24T04:33:13.058380",
+  "date": "2026-01-24T05:19:00.301695",
   "patterns": {
     "multimodal_research": [
       {
@@ -685,6 +685,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "EpistemeAI/rsi-gpt-oss-20b",
+        "url": "https://huggingface.co/EpistemeAI/rsi-gpt-oss-20b"
       }
     ],
     "vision_systems": [
@@ -1241,6 +1245,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "maxbsoft/gemma-3-1b-it-gsm8k-structured-reasoning-grpo-stage-2",
+        "url": "https://huggingface.co/maxbsoft/gemma-3-1b-it-gsm8k-structured-reasoning-grpo-stage-2"
       }
     ],
     "benchmarks": [
@@ -1725,7 +1733,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1737,7 +1745,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1784,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 421
+    "total_papers": 423
   }
 }
