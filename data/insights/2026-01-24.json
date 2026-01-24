@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-24T20:17:39.189108",
+  "date": "2026-01-24T21:15:43.409185",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,8 +687,8 @@
         "url": "https://arxiv.org/abs/2601.15780v1"
       },
       {
-        "title": "datasysdev/gptoss-adamba",
-        "url": "https://huggingface.co/datasysdev/gptoss-adamba"
+        "title": "syko818121/SykoLLM-V3.3-Beta-NonTrained",
+        "url": "https://huggingface.co/syko818121/SykoLLM-V3.3-Beta-NonTrained"
       }
     ],
     "vision_systems": [
@@ -983,10 +983,6 @@
       {
         "title": "Evolving Without Ending: Unifying Multimodal Incremental Learning for Continual Panoptic Perception",
         "url": "https://arxiv.org/abs/2601.15643v1"
-      },
-      {
-        "title": "karanjaWakaba/gemma-civil-vision-lora",
-        "url": "https://huggingface.co/karanjaWakaba/gemma-civil-vision-lora"
       }
     ],
     "reasoning": [
@@ -1739,7 +1735,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1785,13 +1781,13 @@
     },
     {
       "topic": "vision",
-      "frequency": 34,
+      "frequency": 33,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 423
+    "total_papers": 422
   }
 }
