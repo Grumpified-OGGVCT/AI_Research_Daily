@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-24T22:16:35.928125",
+  "date": "2026-01-24T23:16:48.900820",
   "patterns": {
     "multimodal_research": [
       {
@@ -685,6 +685,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "mschill/dsa_llm",
+        "url": "https://huggingface.co/mschill/dsa_llm"
       }
     ],
     "vision_systems": [
@@ -983,6 +987,10 @@
       {
         "title": "Evolving Without Ending: Unifying Multimodal Incremental Learning for Continual Panoptic Perception",
         "url": "https://arxiv.org/abs/2601.15643v1"
+      },
+      {
+        "title": "Eibich/eibich-z-image",
+        "url": "https://huggingface.co/Eibich/eibich-z-image"
       }
     ],
     "reasoning": [
@@ -1245,6 +1253,10 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
+      },
+      {
+        "title": "LogicBombaklot/SWE-rebench-openhands-Qwen3-235B-A22B-mlx-4Bit",
+        "url": "https://huggingface.co/LogicBombaklot/SWE-rebench-openhands-Qwen3-235B-A22B-mlx-4Bit"
       }
     ],
     "benchmarks": [
@@ -1729,19 +1741,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1788,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 425
   }
 }
