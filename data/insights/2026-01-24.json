@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-24T13:29:01.575766",
+  "date": "2026-01-24T14:16:19.344801",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,6 +679,10 @@
         "url": "https://arxiv.org/abs/2601.16064v1"
       },
       {
+        "title": "LLM-course/chess_new_b",
+        "url": "https://huggingface.co/LLM-course/chess_new_b"
+      },
+      {
         "title": "Towards Realistic Remote Sensing Dataset Distillation with Discriminative Prototype-guided Diffusion",
         "url": "https://arxiv.org/abs/2601.15829v1"
       },
@@ -687,20 +691,20 @@
         "url": "https://arxiv.org/abs/2601.15780v1"
       },
       {
-        "title": "prakosoee/indoBERT-ABSA-FnB",
-        "url": "https://huggingface.co/prakosoee/indoBERT-ABSA-FnB"
+        "title": "Ravi9058/ParentGPT_RaviPrakash",
+        "url": "https://huggingface.co/Ravi9058/ParentGPT_RaviPrakash"
       },
       {
-        "title": "Irfanuruchi/SmolLM2-360M-Instruct-MLX-4bit",
-        "url": "https://huggingface.co/Irfanuruchi/SmolLM2-360M-Instruct-MLX-4bit"
+        "title": "LLM-course/chess-etiennelefranc-v6",
+        "url": "https://huggingface.co/LLM-course/chess-etiennelefranc-v6"
       },
       {
-        "title": "suryakantmani/xlm_ROBERta-go-emotions",
-        "url": "https://huggingface.co/suryakantmani/xlm_ROBERta-go-emotions"
+        "title": "LLM-course/chess-etiennelefranc-v5",
+        "url": "https://huggingface.co/LLM-course/chess-etiennelefranc-v5"
       },
       {
-        "title": "kkenna/kanye-west-gpt2",
-        "url": "https://huggingface.co/kkenna/kanye-west-gpt2"
+        "title": "ldlazaro/sentiment_roberta_taglish",
+        "url": "https://huggingface.co/ldlazaro/sentiment_roberta_taglish"
       }
     ],
     "vision_systems": [
@@ -995,6 +999,10 @@
       {
         "title": "Evolving Without Ending: Unifying Multimodal Incremental Learning for Continual Panoptic Perception",
         "url": "https://arxiv.org/abs/2601.15643v1"
+      },
+      {
+        "title": "Alelcv27/Qwen3-8B-Code",
+        "url": "https://huggingface.co/Alelcv27/Qwen3-8B-Code"
       }
     ],
     "reasoning": [
@@ -1711,10 +1719,6 @@
       {
         "title": "Assessing Situational and Spatial Awareness of VLMs with Synthetically Generated Video",
         "url": "https://arxiv.org/abs/2601.15780v1"
-      },
-      {
-        "title": "ZHZ2002/7b_sota_2M",
-        "url": "https://huggingface.co/ZHZ2002/7b_sota_2M"
       }
     ]
   },
@@ -1745,13 +1749,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1769,7 +1773,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "114 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1804,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 427
   }
 }
