@@ -1,11 +1,33 @@
 {
-  "date": "2026-01-25T21:16:03.981455",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-25T22:16:57.814410",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "ErenAta00/Morpheus-LLM-14B-Virtual-Reality-Model",
+        "url": "https://huggingface.co/ErenAta00/Morpheus-LLM-14B-Virtual-Reality-Model"
+      },
+      {
+        "title": "AlhajiDot/bert_base_cased",
+        "url": "https://huggingface.co/AlhajiDot/bert_base_cased"
+      },
+      {
+        "title": "kprsnt/BrandXY-gpt-oss-20b",
+        "url": "https://huggingface.co/kprsnt/BrandXY-gpt-oss-20b"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
