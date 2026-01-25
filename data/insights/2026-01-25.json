@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-25T06:25:24.929783",
-  "patterns": {},
+  "date": "2026-01-25T07:19:21.431811",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "zhuojing-huang/gpt2-chinese-english-configC-1-EWC-frzn_emb",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-chinese-english-configC-1-EWC-frzn_emb"
+      },
+      {
+        "title": "zhuojing-huang/gpt2-portuguese-english-configC-1-EWC-frzn_emb",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-portuguese-english-configC-1-EWC-frzn_emb"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
