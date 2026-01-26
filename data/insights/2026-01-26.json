@@ -1,11 +1,33 @@
 {
-  "date": "2026-01-26T21:19:59.140575",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-26T22:18:16.141300",
+  "patterns": {
+    "vision_systems": [
+      {
+        "title": "ReCodePlus/z_image_turbo",
+        "url": "https://huggingface.co/ReCodePlus/z_image_turbo"
+      },
+      {
+        "title": "Alelcv27/Qwen-7B-Ties-v1",
+        "url": "https://huggingface.co/Alelcv27/Qwen-7B-Ties-v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "vision_systems",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
