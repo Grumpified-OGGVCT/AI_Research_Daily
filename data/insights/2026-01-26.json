@@ -1,11 +1,33 @@
 {
-  "date": "2026-01-26T15:25:08.809265",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-01-26T16:28:10.276671",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "ali-elganzory/SmolLM2-1.7B-16k-DPO-Tulu3-decontaminated",
+        "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-16k-DPO-Tulu3-decontaminated"
+      },
+      {
+        "title": "LLM-course/chess-MDaytek",
+        "url": "https://huggingface.co/LLM-course/chess-MDaytek"
+      },
+      {
+        "title": "ibenedetto/bert-ita-condomini-worst-model-corrupted-level-0.2",
+        "url": "https://huggingface.co/ibenedetto/bert-ita-condomini-worst-model-corrupted-level-0.2"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
