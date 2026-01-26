@@ -1,11 +1,22 @@
 {
-  "date": "2026-01-26T08:26:19.484949",
-  "patterns": {},
+  "date": "2026-01-26T09:30:51.624405",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "pmatorras/FinBERT-MultiTask",
+        "url": "https://huggingface.co/pmatorras/FinBERT-MultiTask"
+      },
+      {
+        "title": "ali-elganzory/SmolLM2-1.7B-16k-SFT-Tulu3-decontaminated",
+        "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-16k-SFT-Tulu3-decontaminated"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
