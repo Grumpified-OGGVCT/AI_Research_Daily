@@ -1,29 +1,22 @@
 {
-  "date": "2026-01-26T06:30:20.583917",
+  "date": "2026-01-26T07:25:05.775671",
   "patterns": {
-    "efficient_architectures": [
+    "language_models": [
       {
-        "title": "nota-ai/Solar-Open-100B-NotaMoEQuant-Int4",
-        "url": "https://huggingface.co/nota-ai/Solar-Open-100B-NotaMoEQuant-Int4"
+        "title": "Caspain-LLM/my-model",
+        "url": "https://huggingface.co/Caspain-LLM/my-model"
       },
       {
-        "title": "vuiseng9/c3_moedl_e32_k4-0119",
-        "url": "https://huggingface.co/vuiseng9/c3_moedl_e32_k4-0119"
+        "title": "SyverraStudios/crystalgpt-3-3b",
+        "url": "https://huggingface.co/SyverraStudios/crystalgpt-3-3b"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "efficient_architectures",
-      "observation": "Focus on efficiency improvements",
-      "inference": "Resource constraints driving innovation - expect deployment on edge devices and mobile",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
+    "total_inferences": 0,
     "total_papers": 2
   }
 }
