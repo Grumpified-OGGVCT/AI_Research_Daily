@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-27T18:32:09.731015",
+  "date": "2026-01-27T19:23:52.483565",
   "patterns": {
     "multimodal_research": [
       {
@@ -327,6 +327,10 @@
       {
         "title": "Scale-Aware Self-Supervised Learning for Segmentation of Small and Sparse Structures",
         "url": "https://arxiv.org/abs/2601.18619v1"
+      },
+      {
+        "title": "SamsungSAILMontreal/Qwen3-30B-A3B-Instruct-2507-HCSMoE",
+        "url": "https://huggingface.co/SamsungSAILMontreal/Qwen3-30B-A3B-Instruct-2507-HCSMoE"
       }
     ],
     "language_models": [
@@ -671,8 +675,8 @@
         "url": "https://arxiv.org/abs/2601.18346v1"
       },
       {
-        "title": "ychafiqui/moroccan_law_qst_classif_arabert2",
-        "url": "https://huggingface.co/ychafiqui/moroccan_law_qst_classif_arabert2"
+        "title": "asrafulchowdhury/dolma-gpt2-finetuned",
+        "url": "https://huggingface.co/asrafulchowdhury/dolma-gpt2-finetuned"
       }
     ],
     "vision_systems": [
@@ -965,8 +969,8 @@
         "url": "https://arxiv.org/abs/2601.18385v1"
       },
       {
-        "title": "jayn7/Z-Image-GGUF",
-        "url": "https://huggingface.co/jayn7/Z-Image-GGUF"
+        "title": "Gege24/test_qwenimage-gg-new",
+        "url": "https://huggingface.co/Gege24/test_qwenimage-gg-new"
       }
     ],
     "reasoning": [
@@ -1637,7 +1641,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "52 independent papers",
+      "observation": "53 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 403
   }
 }
