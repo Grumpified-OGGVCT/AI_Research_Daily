@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-27T21:15:29.039982",
+  "date": "2026-01-27T22:19:24.287419",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,6 +669,18 @@
       {
         "title": "Q-Bench-Portrait: Benchmarking Multimodal Large Language Models on Portrait Image Quality Perception",
         "url": "https://arxiv.org/abs/2601.18346v1"
+      },
+      {
+        "title": "qualcomm/Bert-Base-Uncased-Hf",
+        "url": "https://huggingface.co/qualcomm/Bert-Base-Uncased-Hf"
+      },
+      {
+        "title": "qualcomm/Albert-Base-V2-Hf",
+        "url": "https://huggingface.co/qualcomm/Albert-Base-V2-Hf"
+      },
+      {
+        "title": "lllqaq/R2EGym-14B-Agent-Coder-Instruct1-gpt5plusr2egym-shuffle42",
+        "url": "https://huggingface.co/lllqaq/R2EGym-14B-Agent-Coder-Instruct1-gpt5plusr2egym-shuffle42"
       }
     ],
     "vision_systems": [
@@ -959,6 +971,10 @@
       {
         "title": "Estimation of geometric transformation matrices using grid-shaped pilot signals",
         "url": "https://arxiv.org/abs/2601.18385v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1641,13 +1657,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1700,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 400
+    "total_papers": 404
   }
 }
