@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-27T13:43:57.390727",
+  "date": "2026-01-27T14:26:13.915142",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,8 +671,8 @@
         "url": "https://arxiv.org/abs/2601.18346v1"
       },
       {
-        "title": "aomar85/Marbert_concatenatewithPrompt-fold4",
-        "url": "https://huggingface.co/aomar85/Marbert_concatenatewithPrompt-fold4"
+        "title": "yusufcelebi/deepseek-llm-7b-base-dynamic-layer-selected-step90-adapter",
+        "url": "https://huggingface.co/yusufcelebi/deepseek-llm-7b-base-dynamic-layer-selected-step90-adapter"
       }
     ],
     "vision_systems": [
@@ -963,6 +963,10 @@
       {
         "title": "Estimation of geometric transformation matrices using grid-shaped pilot signals",
         "url": "https://arxiv.org/abs/2601.18385v1"
+      },
+      {
+        "title": "Alelcv27/Qwen2.5-7B-DataMerged",
+        "url": "https://huggingface.co/Alelcv27/Qwen2.5-7B-DataMerged"
       }
     ],
     "reasoning": [
@@ -1201,10 +1205,6 @@
       {
         "title": "CONQUER: Context-Aware Representation with Query Enhancement for Text-Based Person Search",
         "url": "https://arxiv.org/abs/2601.18625v1"
-      },
-      {
-        "title": "inferencerlabs/Kimi-K2.5-MLX-3.6bit",
-        "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-3.6bit"
       }
     ],
     "benchmarks": [
@@ -1655,13 +1655,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "60 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
