@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-27T22:19:24.287419",
+  "date": "2026-01-27T23:18:11.108023",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,16 +671,8 @@
         "url": "https://arxiv.org/abs/2601.18346v1"
       },
       {
-        "title": "qualcomm/Bert-Base-Uncased-Hf",
-        "url": "https://huggingface.co/qualcomm/Bert-Base-Uncased-Hf"
-      },
-      {
-        "title": "qualcomm/Albert-Base-V2-Hf",
-        "url": "https://huggingface.co/qualcomm/Albert-Base-V2-Hf"
-      },
-      {
-        "title": "lllqaq/R2EGym-14B-Agent-Coder-Instruct1-gpt5plusr2egym-shuffle42",
-        "url": "https://huggingface.co/lllqaq/R2EGym-14B-Agent-Coder-Instruct1-gpt5plusr2egym-shuffle42"
+        "title": "lllqaq/R2EGym-7B-Agent-Coder-Instruct1-gpt5plusr2egym-shuffle42-ropeyarn",
+        "url": "https://huggingface.co/lllqaq/R2EGym-7B-Agent-Coder-Instruct1-gpt5plusr2egym-shuffle42-ropeyarn"
       }
     ],
     "vision_systems": [
@@ -973,6 +965,10 @@
         "url": "https://arxiv.org/abs/2601.18385v1"
       },
       {
+        "title": "unsloth/Z-Image-GGUF",
+        "url": "https://huggingface.co/unsloth/Z-Image-GGUF"
+      },
+      {
         "title": "huggingface/DEH-image-scan-data",
         "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
@@ -1213,6 +1209,10 @@
       {
         "title": "CONQUER: Context-Aware Representation with Query Enhancement for Text-Based Person Search",
         "url": "https://arxiv.org/abs/2601.18625v1"
+      },
+      {
+        "title": "inferencerlabs/Kimi-K2.5-MLX-3.6bit",
+        "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-3.6bit"
       }
     ],
     "benchmarks": [
@@ -1657,19 +1657,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "59 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
