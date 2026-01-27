@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-27T15:27:08.839977",
+  "date": "2026-01-27T16:24:26.172474",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,16 +671,16 @@
         "url": "https://arxiv.org/abs/2601.18346v1"
       },
       {
-        "title": "eriksarriegui/mmBERT-base-clickbait-detection-es",
-        "url": "https://huggingface.co/eriksarriegui/mmBERT-base-clickbait-detection-es"
+        "title": "willmecado/nx-cad-grpo-vllm-comp-8x128x12",
+        "url": "https://huggingface.co/willmecado/nx-cad-grpo-vllm-comp-8x128x12"
       },
       {
-        "title": "chpham92/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-        "url": "https://huggingface.co/chpham92/learn_hf_food_not_food_text_classifier-distilbert-base-uncased"
+        "title": "willmecado/nx-cad-grpo-vllm-comp-8x128x11",
+        "url": "https://huggingface.co/willmecado/nx-cad-grpo-vllm-comp-8x128x11"
       },
       {
-        "title": "yusufcelebi/deepseek-llm-7b-base-dynamic-layer-selected-step180-adapter",
-        "url": "https://huggingface.co/yusufcelebi/deepseek-llm-7b-base-dynamic-layer-selected-step180-adapter"
+        "title": "Gabe-Thomp/gemma-sft-BED-LLM-VANILLA-lr2.0e-06_assistant_only",
+        "url": "https://huggingface.co/Gabe-Thomp/gemma-sft-BED-LLM-VANILLA-lr2.0e-06_assistant_only"
       }
     ],
     "vision_systems": [
@@ -971,10 +971,6 @@
       {
         "title": "Estimation of geometric transformation matrices using grid-shaped pilot signals",
         "url": "https://arxiv.org/abs/2601.18385v1"
-      },
-      {
-        "title": "Gege24/test_qwenimage-gg-new",
-        "url": "https://huggingface.co/Gege24/test_qwenimage-gg-new"
       }
     ],
     "reasoning": [
@@ -1213,6 +1209,10 @@
       {
         "title": "CONQUER: Context-Aware Representation with Query Enhancement for Text-Based Person Search",
         "url": "https://arxiv.org/abs/2601.18625v1"
+      },
+      {
+        "title": "inferencerlabs/Kimi-K2.5-MLX-3.6bit",
+        "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-3.6bit"
       }
     ],
     "benchmarks": [
@@ -1663,13 +1663,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "59 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
