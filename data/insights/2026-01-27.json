@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-27T16:24:26.172474",
+  "date": "2026-01-27T17:25:48.310372",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,12 +671,8 @@
         "url": "https://arxiv.org/abs/2601.18346v1"
       },
       {
-        "title": "willmecado/nx-cad-grpo-vllm-comp-8x128x12",
-        "url": "https://huggingface.co/willmecado/nx-cad-grpo-vllm-comp-8x128x12"
-      },
-      {
-        "title": "willmecado/nx-cad-grpo-vllm-comp-8x128x11",
-        "url": "https://huggingface.co/willmecado/nx-cad-grpo-vllm-comp-8x128x11"
+        "title": "Nora-006/LeBestLLM-2B",
+        "url": "https://huggingface.co/Nora-006/LeBestLLM-2B"
       },
       {
         "title": "Gabe-Thomp/gemma-sft-BED-LLM-VANILLA-lr2.0e-06_assistant_only",
@@ -971,6 +967,10 @@
       {
         "title": "Estimation of geometric transformation matrices using grid-shaped pilot signals",
         "url": "https://arxiv.org/abs/2601.18385v1"
+      },
+      {
+        "title": "yeoj34760/z_image-gguf",
+        "url": "https://huggingface.co/yeoj34760/z_image-gguf"
       }
     ],
     "reasoning": [
@@ -1657,13 +1657,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
