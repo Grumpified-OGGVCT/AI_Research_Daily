@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-28T21:26:24.241290",
+  "date": "2026-01-28T22:22:52.770801",
   "patterns": {
     "multimodal_research": [
       {
@@ -637,10 +637,6 @@
       {
         "title": "Diffusion for De-Occlusion: Accessory-Aware Diffusion Inpainting for Robust Ear Biometric Recognition",
         "url": "https://arxiv.org/abs/2601.19795v1"
-      },
-      {
-        "title": "anishkoppula/gpt-oss-20b-secure",
-        "url": "https://huggingface.co/anishkoppula/gpt-oss-20b-secure"
       }
     ],
     "vision_systems": [
@@ -887,6 +883,14 @@
       {
         "title": "ProMist-5K: A Comprehensive Dataset for Digital Emulation of Cinematic Pro-Mist Filter Effects",
         "url": "https://arxiv.org/abs/2601.19295v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1589,13 +1593,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1648,6 +1652,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 387
+    "total_papers": 388
   }
 }
