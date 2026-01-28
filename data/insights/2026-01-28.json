@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-28T03:42:15.516121",
+  "date": "2026-01-28T04:41:37.782378",
   "patterns": {
     "multimodal_research": [
       {
@@ -1153,6 +1153,10 @@
       {
         "title": "The S3LI Vulcano Dataset: A Dataset for Multi-Modal SLAM in Unstructured Planetary Environments",
         "url": "https://arxiv.org/abs/2601.19557v1"
+      },
+      {
+        "title": "inferencerlabs/Kimi-K2.5-MLX-3.6bit",
+        "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-3.6bit"
       }
     ],
     "benchmarks": [
@@ -1593,7 +1597,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1640,6 +1644,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 385
+    "total_papers": 386
   }
 }
