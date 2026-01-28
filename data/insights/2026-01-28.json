@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-28T11:20:27.555181",
+  "date": "2026-01-28T12:37:28.728634",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,12 +639,8 @@
         "url": "https://arxiv.org/abs/2601.19795v1"
       },
       {
-        "title": "tencent/Youtu-LLM-2B",
-        "url": "https://huggingface.co/tencent/Youtu-LLM-2B"
-      },
-      {
-        "title": "nbtpj/summ_gpt2_tldr_xsum",
-        "url": "https://huggingface.co/nbtpj/summ_gpt2_tldr_xsum"
+        "title": "onnx-community/ScamLLM-ONNX",
+        "url": "https://huggingface.co/onnx-community/ScamLLM-ONNX"
       }
     ],
     "vision_systems": [
@@ -891,6 +887,10 @@
       {
         "title": "ProMist-5K: A Comprehensive Dataset for Digital Emulation of Cinematic Pro-Mist Filter Effects",
         "url": "https://arxiv.org/abs/2601.19295v1"
+      },
+      {
+        "title": "Alelcv27/Olmo3-7B-Code",
+        "url": "https://huggingface.co/Alelcv27/Olmo3-7B-Code"
       }
     ],
     "reasoning": [
@@ -1161,6 +1161,10 @@
       {
         "title": "The S3LI Vulcano Dataset: A Dataset for Multi-Modal SLAM in Unstructured Planetary Environments",
         "url": "https://arxiv.org/abs/2601.19557v1"
+      },
+      {
+        "title": "inferencerlabs/Kimi-K2.5-MLX-3.6bit",
+        "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-3.6bit"
       }
     ],
     "benchmarks": [
@@ -1589,19 +1593,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1648,6 +1652,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 387
+    "total_papers": 388
   }
 }
