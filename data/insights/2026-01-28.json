@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-28T18:32:10.023830",
+  "date": "2026-01-28T19:24:18.846805",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,8 +639,12 @@
         "url": "https://arxiv.org/abs/2601.19795v1"
       },
       {
-        "title": "Alex-Linguist/AllwissenGPT-7B",
-        "url": "https://huggingface.co/Alex-Linguist/AllwissenGPT-7B"
+        "title": "sergiopinto/deberta-v3-large-claim-checkworthiness-seed0",
+        "url": "https://huggingface.co/sergiopinto/deberta-v3-large-claim-checkworthiness-seed0"
+      },
+      {
+        "title": "Ninja37/distilbert-base-uncased-finetuned-cola",
+        "url": "https://huggingface.co/Ninja37/distilbert-base-uncased-finetuned-cola"
       }
     ],
     "vision_systems": [
@@ -1585,7 +1589,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1644,6 +1648,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 386
+    "total_papers": 387
   }
 }
