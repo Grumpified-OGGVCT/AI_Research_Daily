@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-28T08:25:55.255939",
+  "date": "2026-01-28T09:30:49.636490",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,8 +639,8 @@
         "url": "https://arxiv.org/abs/2601.19795v1"
       },
       {
-        "title": "rverm/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
-        "url": "https://huggingface.co/rverm/learn_hf_food_not_food_text_classifier-distilbert-base-uncased"
+        "title": "Ricky131/indobert-bias-news-augmented",
+        "url": "https://huggingface.co/Ricky131/indobert-bias-news-augmented"
       }
     ],
     "vision_systems": [
@@ -855,10 +855,6 @@
       {
         "title": "Divergence-Free Diffusion Models for Incompressible Fluid Flows",
         "url": "https://arxiv.org/abs/2601.19368v1"
-      },
-      {
-        "title": "tencent/HunyuanImage-3.0",
-        "url": "https://huggingface.co/tencent/HunyuanImage-3.0"
       },
       {
         "title": "PaW-ViT: A Patch-based Warping Vision Transformer for Robust Ear Verification",
@@ -1161,10 +1157,6 @@
       {
         "title": "The S3LI Vulcano Dataset: A Dataset for Multi-Modal SLAM in Unstructured Planetary Environments",
         "url": "https://arxiv.org/abs/2601.19557v1"
-      },
-      {
-        "title": "inferencerlabs/Kimi-K2.5-MLX-3.6bit",
-        "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-3.6bit"
       }
     ],
     "benchmarks": [
@@ -1599,13 +1591,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "62 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1652,6 +1644,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 388
+    "total_papers": 386
   }
 }
