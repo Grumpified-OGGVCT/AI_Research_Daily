@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-28T15:28:17.913848",
+  "date": "2026-01-28T16:30:58.502286",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,8 +639,8 @@
         "url": "https://arxiv.org/abs/2601.19795v1"
       },
       {
-        "title": "Alex-Linguist/AllwissenGPT-7B",
-        "url": "https://huggingface.co/Alex-Linguist/AllwissenGPT-7B"
+        "title": "JJNeila/bert-spanish-sensationalism-oss",
+        "url": "https://huggingface.co/JJNeila/bert-spanish-sensationalism-oss"
       }
     ],
     "vision_systems": [
@@ -887,6 +887,10 @@
       {
         "title": "ProMist-5K: A Comprehensive Dataset for Digital Emulation of Cinematic Pro-Mist Filter Effects",
         "url": "https://arxiv.org/abs/2601.19295v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1159,8 +1163,40 @@
         "url": "https://arxiv.org/abs/2601.19557v1"
       },
       {
-        "title": "olusegunola/phi-1_5-medical-v3-deep-reasoning",
-        "url": "https://huggingface.co/olusegunola/phi-1_5-medical-v3-deep-reasoning"
+        "title": "inferencerlabs/Kimi-K2.5-MLX-4.2bit",
+        "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-4.2bit"
+      },
+      {
+        "title": "marco-molinari/axbench-lora-epoch5-narrative_structure_reasoning",
+        "url": "https://huggingface.co/marco-molinari/axbench-lora-epoch5-narrative_structure_reasoning"
+      },
+      {
+        "title": "marco-molinari/axbench-lora-epoch5-constitutional_law_reasoning",
+        "url": "https://huggingface.co/marco-molinari/axbench-lora-epoch5-constitutional_law_reasoning"
+      },
+      {
+        "title": "marco-molinari/axbench-lora-epoch5-medieval_european_history_reasoning",
+        "url": "https://huggingface.co/marco-molinari/axbench-lora-epoch5-medieval_european_history_reasoning"
+      },
+      {
+        "title": "marco-molinari/axbench-lora-epoch5-organic_chemistry_reasoning",
+        "url": "https://huggingface.co/marco-molinari/axbench-lora-epoch5-organic_chemistry_reasoning"
+      },
+      {
+        "title": "marco-molinari/axbench-lora-epoch5-classical_mechanics_reasoning",
+        "url": "https://huggingface.co/marco-molinari/axbench-lora-epoch5-classical_mechanics_reasoning"
+      },
+      {
+        "title": "marco-molinari/axbench-lora-epoch5-epidemiology_reasoning",
+        "url": "https://huggingface.co/marco-molinari/axbench-lora-epoch5-epidemiology_reasoning"
+      },
+      {
+        "title": "marco-molinari/axbench-lora-epoch5-computer_programming_reasoning",
+        "url": "https://huggingface.co/marco-molinari/axbench-lora-epoch5-computer_programming_reasoning"
+      },
+      {
+        "title": "marco-molinari/axbench-lora-epoch5-basic_arithmetic_reasoning",
+        "url": "https://huggingface.co/marco-molinari/axbench-lora-epoch5-basic_arithmetic_reasoning"
       }
     ],
     "benchmarks": [
@@ -1595,13 +1631,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1636,7 +1672,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 32,
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1648,6 +1684,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 387
+    "total_papers": 396
   }
 }
