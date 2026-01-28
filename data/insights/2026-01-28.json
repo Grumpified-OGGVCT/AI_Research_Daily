@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-28T09:30:49.636490",
+  "date": "2026-01-28T10:24:19.613730",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,8 +639,12 @@
         "url": "https://arxiv.org/abs/2601.19795v1"
       },
       {
-        "title": "Ricky131/indobert-bias-news-augmented",
-        "url": "https://huggingface.co/Ricky131/indobert-bias-news-augmented"
+        "title": "ychafiqui/moroccan_law_qst_classif_marbert2",
+        "url": "https://huggingface.co/ychafiqui/moroccan_law_qst_classif_marbert2"
+      },
+      {
+        "title": "huggingface/transformers-metadata",
+        "url": "https://huggingface.co/datasets/huggingface/transformers-metadata"
       }
     ],
     "vision_systems": [
@@ -1585,7 +1589,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1644,6 +1648,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 386
+    "total_papers": 387
   }
 }
