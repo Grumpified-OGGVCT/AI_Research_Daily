@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-28T22:22:52.770801",
+  "date": "2026-01-28T23:23:09.205496",
   "patterns": {
     "multimodal_research": [
       {
@@ -885,8 +885,8 @@
         "url": "https://arxiv.org/abs/2601.19295v1"
       },
       {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "Alelcv27/Olmo3-7B-Math-CoT",
+        "url": "https://huggingface.co/Alelcv27/Olmo3-7B-Math-CoT"
       },
       {
         "title": "huggingface/DEH-image-scan-data",
@@ -1161,10 +1161,6 @@
       {
         "title": "The S3LI Vulcano Dataset: A Dataset for Multi-Modal SLAM in Unstructured Planetary Environments",
         "url": "https://arxiv.org/abs/2601.19557v1"
-      },
-      {
-        "title": "inferencerlabs/Kimi-K2.5-MLX-4.2bit",
-        "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-4.2bit"
       }
     ],
     "benchmarks": [
@@ -1605,7 +1601,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1652,6 +1648,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 388
+    "total_papers": 387
   }
 }
