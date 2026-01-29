@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-29T11:28:07.817741",
+  "date": "2026-01-29T12:43:15.001196",
   "patterns": {
     "multimodal_research": [
       {
@@ -721,6 +721,10 @@
         "url": "https://arxiv.org/abs/2601.20769v1"
       },
       {
+        "title": "huggingface/documentation-images",
+        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
+      },
+      {
         "title": "GDCNet: Generative Discrepancy Comparison Network for Multimodal Sarcasm Detection",
         "url": "https://arxiv.org/abs/2601.20618v1"
       },
@@ -907,10 +911,6 @@
       {
         "title": "MMSF: Multitask and Multimodal Supervised Framework for WSI Classification and Survival Analysis",
         "url": "https://arxiv.org/abs/2601.20347v1"
-      },
-      {
-        "title": "pachiiahri/z-image-fp8-comfyui",
-        "url": "https://huggingface.co/pachiiahri/z-image-fp8-comfyui"
       }
     ],
     "reasoning": [
@@ -1153,6 +1153,10 @@
       {
         "title": "Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models",
         "url": "https://arxiv.org/abs/2601.20354v1"
+      },
+      {
+        "title": "Bateesa/Qwen2.5-Agricultural-Reasoning_v4",
+        "url": "https://huggingface.co/Bateesa/Qwen2.5-Agricultural-Reasoning_v4"
       }
     ],
     "benchmarks": [
@@ -1605,7 +1609,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "60 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1645,13 +1649,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 32,
+      "frequency": 33,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 388
+    "total_papers": 389
   }
 }
