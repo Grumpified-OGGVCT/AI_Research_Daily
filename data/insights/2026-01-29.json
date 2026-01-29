@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-29T14:37:14.159870",
+  "date": "2026-01-29T15:31:45.732036",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,12 +703,8 @@
         "url": "https://arxiv.org/abs/2601.20351v1"
       },
       {
-        "title": "zhuojing-huang/gpt2-spanish20k-english10k-configA-13-100M",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-spanish20k-english10k-configA-13-100M"
-      },
-      {
-        "title": "Alex-Linguist/AllwissenGPT-7B",
-        "url": "https://huggingface.co/Alex-Linguist/AllwissenGPT-7B"
+        "title": "kofiboy/modernbert-llm-router",
+        "url": "https://huggingface.co/kofiboy/modernbert-llm-router"
       }
     ],
     "vision_systems": [
@@ -1597,7 +1593,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1656,6 +1652,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 389
+    "total_papers": 388
   }
 }
