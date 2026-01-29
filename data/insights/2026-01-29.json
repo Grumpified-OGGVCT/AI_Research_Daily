@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-29T21:23:30.354610",
+  "date": "2026-01-29T22:23:20.207724",
   "patterns": {
     "multimodal_research": [
       {
@@ -701,6 +701,10 @@
       {
         "title": "PalmBridge: A Plug-and-Play Feature Alignment Framework for Open-Set Palmprint Verification",
         "url": "https://arxiv.org/abs/2601.20351v1"
+      },
+      {
+        "title": "zhuojing-huang/gpt2-portuguese20k-english10k-configA-42-100M",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-portuguese20k-english10k-configA-42-100M"
       }
     ],
     "vision_systems": [
@@ -907,6 +911,14 @@
       {
         "title": "MMSF: Multitask and Multimodal Supervised Framework for WSI Classification and Survival Analysis",
         "url": "https://arxiv.org/abs/2601.20347v1"
+      },
+      {
+        "title": "Alelcv27/Qwen2.5-7B-Code-v2",
+        "url": "https://huggingface.co/Alelcv27/Qwen2.5-7B-Code-v2"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1589,13 +1601,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "51 independent papers",
+      "observation": "53 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1648,6 +1660,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 387
+    "total_papers": 390
   }
 }
