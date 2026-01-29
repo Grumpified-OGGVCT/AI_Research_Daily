@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-29T07:38:12.529937",
+  "date": "2026-01-29T08:33:54.366983",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,28 +703,8 @@
         "url": "https://arxiv.org/abs/2601.20351v1"
       },
       {
-        "title": "Alex-Linguist/AllwissenGPT-7B",
-        "url": "https://huggingface.co/Alex-Linguist/AllwissenGPT-7B"
-      },
-      {
-        "title": "CompactAI/SmolLM3-3B-writing-extra-heavy",
-        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-writing-extra-heavy"
-      },
-      {
-        "title": "CompactAI/SmolLM3-3B-writing-heavy",
-        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-writing-heavy"
-      },
-      {
-        "title": "CompactAI/SmolLM3-3B-writing-medium-heavy",
-        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-writing-medium-heavy"
-      },
-      {
-        "title": "CompactAI/SmolLM3-3B-writing-medium",
-        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-writing-medium"
-      },
-      {
-        "title": "CompactAI/SmolLM3-3B-writing-medium-light",
-        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-writing-medium-light"
+        "title": "Rer9087/EXP-1A_DeBERTa_Full_v3_FP32",
+        "url": "https://huggingface.co/Rer9087/EXP-1A_DeBERTa_Full_v3_FP32"
       }
     ],
     "vision_systems": [
@@ -1173,10 +1153,6 @@
       {
         "title": "Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models",
         "url": "https://arxiv.org/abs/2601.20354v1"
-      },
-      {
-        "title": "inferencerlabs/Kimi-K2.5-MLX-4.2bit",
-        "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-4.2bit"
       }
     ],
     "benchmarks": [
@@ -1617,7 +1593,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "89 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1629,7 +1605,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "61 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1676,6 +1652,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 394
+    "total_papers": 388
   }
 }
