@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-29T04:04:56.756192",
+  "date": "2026-01-29T05:40:28.807302",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,28 +703,28 @@
         "url": "https://arxiv.org/abs/2601.20351v1"
       },
       {
-        "title": "CompactAI/SmolLM3-3B-math-medium-heavy",
-        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-math-medium-heavy"
+        "title": "zhang-qilong/ModernBERT-SG-News-Popularity",
+        "url": "https://huggingface.co/zhang-qilong/ModernBERT-SG-News-Popularity"
       },
       {
-        "title": "CompactAI/SmolLM3-3B-math-medium",
-        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-math-medium"
+        "title": "CompactAI/SmolLM3-3B-medical-extra-heavy",
+        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-medical-extra-heavy"
       },
       {
-        "title": "subrit/subrit-legal-gpt2-quecto-v1",
-        "url": "https://huggingface.co/subrit/subrit-legal-gpt2-quecto-v1"
+        "title": "CompactAI/SmolLM3-3B-medical-heavy",
+        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-medical-heavy"
       },
       {
-        "title": "CompactAI/SmolLM3-3B-math-medium-light",
-        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-math-medium-light"
+        "title": "CompactAI/SmolLM3-3B-medical-medium-heavy",
+        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-medical-medium-heavy"
       },
       {
-        "title": "CompactAI/SmolLM3-3B-math-light",
-        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-math-light"
+        "title": "CompactAI/SmolLM3-3B-medical-medium",
+        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-medical-medium"
       },
       {
-        "title": "CompactAI/SmolLM3-3B-math-extra-light",
-        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-math-extra-light"
+        "title": "CompactAI/SmolLM3-3B-medical-medium-light",
+        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-medical-medium-light"
       }
     ],
     "vision_systems": [
@@ -1175,20 +1175,8 @@
         "url": "https://arxiv.org/abs/2601.20354v1"
       },
       {
-        "title": "CompactAI/LFM2.5-1.2B-Thinking-reasoning-light",
-        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Thinking-reasoning-light"
-      },
-      {
-        "title": "CompactAI/LFM2.5-1.2B-Thinking-reasoning-extra-light",
-        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Thinking-reasoning-extra-light"
-      },
-      {
         "title": "inferencerlabs/Kimi-K2.5-MLX-4.2bit",
         "url": "https://huggingface.co/inferencerlabs/Kimi-K2.5-MLX-4.2bit"
-      },
-      {
-        "title": "Phaedrus33/qwen3-32b-reasoning-sft-determined-traces",
-        "url": "https://huggingface.co/Phaedrus33/qwen3-32b-reasoning-sft-determined-traces"
       }
     ],
     "benchmarks": [
@@ -1641,7 +1629,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "64 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1675,19 +1663,19 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 35,
+      "topic": "architecture",
+      "frequency": 34,
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 34,
+      "topic": "reasoning",
+      "frequency": 32,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 397
+    "total_papers": 394
   }
 }
