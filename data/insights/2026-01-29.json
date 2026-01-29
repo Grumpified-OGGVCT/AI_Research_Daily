@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-29T13:57:41.478865",
+  "date": "2026-01-29T14:37:14.159870",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,8 +703,12 @@
         "url": "https://arxiv.org/abs/2601.20351v1"
       },
       {
-        "title": "nbtpj/summ_gpt2_inst_cnnxsumsam",
-        "url": "https://huggingface.co/nbtpj/summ_gpt2_inst_cnnxsumsam"
+        "title": "zhuojing-huang/gpt2-spanish20k-english10k-configA-13-100M",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-spanish20k-english10k-configA-13-100M"
+      },
+      {
+        "title": "Alex-Linguist/AllwissenGPT-7B",
+        "url": "https://huggingface.co/Alex-Linguist/AllwissenGPT-7B"
       }
     ],
     "vision_systems": [
@@ -911,14 +915,6 @@
       {
         "title": "MMSF: Multitask and Multimodal Supervised Framework for WSI Classification and Survival Analysis",
         "url": "https://arxiv.org/abs/2601.20347v1"
-      },
-      {
-        "title": "mingyi456/BEYOND_REALITY_Z_IMAGE-DF11",
-        "url": "https://huggingface.co/mingyi456/BEYOND_REALITY_Z_IMAGE-DF11"
-      },
-      {
-        "title": "Alelcv27/Qwen-7B-Slerp-v1",
-        "url": "https://huggingface.co/Alelcv27/Qwen-7B-Slerp-v1"
       }
     ],
     "reasoning": [
@@ -1161,14 +1157,6 @@
       {
         "title": "Everything in Its Place: Benchmarking Spatial Intelligence of Text-to-Image Models",
         "url": "https://arxiv.org/abs/2601.20354v1"
-      },
-      {
-        "title": "CompactAI/Qwen3-4B-reasoning-light",
-        "url": "https://huggingface.co/CompactAI/Qwen3-4B-reasoning-light"
-      },
-      {
-        "title": "CompactAI/Qwen3-4B-reasoning-extra-light",
-        "url": "https://huggingface.co/CompactAI/Qwen3-4B-reasoning-extra-light"
       }
     ],
     "benchmarks": [
@@ -1609,19 +1597,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "53 independent papers",
+      "observation": "51 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "62 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1655,19 +1643,19 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "architecture",
       "frequency": 34,
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 34,
+      "topic": "reasoning",
+      "frequency": 32,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 389
   }
 }
