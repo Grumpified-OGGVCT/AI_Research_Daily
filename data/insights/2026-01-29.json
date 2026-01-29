@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-29T06:40:19.202603",
+  "date": "2026-01-29T07:38:12.529937",
   "patterns": {
     "multimodal_research": [
       {
@@ -701,6 +701,30 @@
       {
         "title": "PalmBridge: A Plug-and-Play Feature Alignment Framework for Open-Set Palmprint Verification",
         "url": "https://arxiv.org/abs/2601.20351v1"
+      },
+      {
+        "title": "Alex-Linguist/AllwissenGPT-7B",
+        "url": "https://huggingface.co/Alex-Linguist/AllwissenGPT-7B"
+      },
+      {
+        "title": "CompactAI/SmolLM3-3B-writing-extra-heavy",
+        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-writing-extra-heavy"
+      },
+      {
+        "title": "CompactAI/SmolLM3-3B-writing-heavy",
+        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-writing-heavy"
+      },
+      {
+        "title": "CompactAI/SmolLM3-3B-writing-medium-heavy",
+        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-writing-medium-heavy"
+      },
+      {
+        "title": "CompactAI/SmolLM3-3B-writing-medium",
+        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-writing-medium"
+      },
+      {
+        "title": "CompactAI/SmolLM3-3B-writing-medium-light",
+        "url": "https://huggingface.co/CompactAI/SmolLM3-3B-writing-medium-light"
       }
     ],
     "vision_systems": [
@@ -1593,7 +1617,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1652,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 388
+    "total_papers": 394
   }
 }
