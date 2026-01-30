@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-30T09:34:46.567778",
+  "date": "2026-01-30T10:29:08.142691",
   "patterns": {
     "multimodal_research": [
       {
@@ -1003,6 +1003,10 @@
       {
         "title": "Just Noticeable Difference Modeling for Deep Visual Features",
         "url": "https://arxiv.org/abs/2601.21933v1"
+      },
+      {
+        "title": "dianavdavidson/wh_small_cv_trial",
+        "url": "https://huggingface.co/dianavdavidson/wh_small_cv_trial"
       }
     ],
     "reasoning": [
@@ -1747,7 +1751,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "60 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 426
   }
 }
