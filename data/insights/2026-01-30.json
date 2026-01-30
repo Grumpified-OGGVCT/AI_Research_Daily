@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-30T18:35:03.799294",
+  "date": "2026-01-30T19:29:28.609657",
   "patterns": {
     "multimodal_research": [
       {
@@ -1297,6 +1297,10 @@
       {
         "title": "General Self-Prediction Enhancement for Spiking Neurons",
         "url": "https://arxiv.org/abs/2601.21823v1"
+      },
+      {
+        "title": "Efe2898/gemma2-9b-tr-reasoning-sft",
+        "url": "https://huggingface.co/Efe2898/gemma2-9b-tr-reasoning-sft"
       }
     ],
     "benchmarks": [
@@ -1753,7 +1757,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1787,19 +1791,19 @@
       "significance": "high"
     },
     {
-      "topic": "efficiency",
+      "topic": "reasoning",
       "frequency": 43,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 42,
+      "topic": "efficiency",
+      "frequency": 43,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 426
   }
 }
