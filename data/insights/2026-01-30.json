@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-30T12:41:15.748619",
+  "date": "2026-01-30T13:52:59.509692",
   "patterns": {
     "multimodal_research": [
       {
@@ -763,8 +763,8 @@
         "url": "https://arxiv.org/abs/2601.21877v1"
       },
       {
-        "title": "zhuojing-huang/gpt2-chinese-english-configD-10k-13-100M",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-chinese-english-configD-10k-13-100M"
+        "title": "abishek-kronosx/HIPAA-BERT-v0.1",
+        "url": "https://huggingface.co/abishek-kronosx/HIPAA-BERT-v0.1"
       }
     ],
     "vision_systems": [
@@ -1009,8 +1009,8 @@
         "url": "https://arxiv.org/abs/2601.21933v1"
       },
       {
-        "title": "Alelcv27/Qwen2.5-7B-Math-Code-v2",
-        "url": "https://huggingface.co/Alelcv27/Qwen2.5-7B-Math-Code-v2"
+        "title": "ykarout/Z-Image-Turbo-FP8-Full",
+        "url": "https://huggingface.co/ykarout/Z-Image-Turbo-FP8-Full"
       }
     ],
     "reasoning": [
@@ -1709,6 +1709,10 @@
         "url": "https://arxiv.org/abs/2601.22075v1"
       },
       {
+        "title": "Sota26/Affine-42-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw",
+        "url": "https://huggingface.co/Sota26/Affine-42-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw"
+      },
+      {
         "title": "VideoAesBench: Benchmarking the Video Aesthetics Perception Capabilities of Large Multimodal Models",
         "url": "https://arxiv.org/abs/2601.21915v1"
       },
@@ -1773,7 +1777,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "103 independent papers",
+      "observation": "104 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1791,7 +1795,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 51,
+      "frequency": 50,
       "significance": "high"
     },
     {
@@ -1808,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 428
   }
 }
