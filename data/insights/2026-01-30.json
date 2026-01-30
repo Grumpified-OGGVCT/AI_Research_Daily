@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-30T16:33:10.187716",
+  "date": "2026-01-30T17:30:51.079719",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,14 +761,6 @@
       {
         "title": "Evolution of Benchmark: Black-Box Optimization Benchmark Design through Large Language Model",
         "url": "https://arxiv.org/abs/2601.21877v1"
-      },
-      {
-        "title": "trentmkelly/gpt-4o-distil-Llama-3.1-8B-Instruct",
-        "url": "https://huggingface.co/trentmkelly/gpt-4o-distil-Llama-3.1-8B-Instruct"
-      },
-      {
-        "title": "mradermacher/ThaiLLM-30B-IQ-GGUF",
-        "url": "https://huggingface.co/mradermacher/ThaiLLM-30B-IQ-GGUF"
       }
     ],
     "vision_systems": [
@@ -1011,14 +1003,6 @@
       {
         "title": "Just Noticeable Difference Modeling for Deep Visual Features",
         "url": "https://arxiv.org/abs/2601.21933v1"
-      },
-      {
-        "title": "tmp-org/tmp_cv_model_content_2025_12_01_0",
-        "url": "https://huggingface.co/tmp-org/tmp_cv_model_content_2025_12_01_0"
-      },
-      {
-        "title": "den123/Caricature_zimage",
-        "url": "https://huggingface.co/den123/Caricature_zimage"
       }
     ],
     "reasoning": [
@@ -1757,13 +1741,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "62 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 425
   }
 }
