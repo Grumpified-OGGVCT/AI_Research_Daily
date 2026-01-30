@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-30T13:52:59.509692",
+  "date": "2026-01-30T14:32:21.719090",
   "patterns": {
     "multimodal_research": [
       {
@@ -763,8 +763,8 @@
         "url": "https://arxiv.org/abs/2601.21877v1"
       },
       {
-        "title": "abishek-kronosx/HIPAA-BERT-v0.1",
-        "url": "https://huggingface.co/abishek-kronosx/HIPAA-BERT-v0.1"
+        "title": "pfcperez/bert-base-spanish-wwm-cased-ram-project-nlp",
+        "url": "https://huggingface.co/pfcperez/bert-base-spanish-wwm-cased-ram-project-nlp"
       }
     ],
     "vision_systems": [
@@ -1007,10 +1007,6 @@
       {
         "title": "Just Noticeable Difference Modeling for Deep Visual Features",
         "url": "https://arxiv.org/abs/2601.21933v1"
-      },
-      {
-        "title": "ykarout/Z-Image-Turbo-FP8-Full",
-        "url": "https://huggingface.co/ykarout/Z-Image-Turbo-FP8-Full"
       }
     ],
     "reasoning": [
@@ -1709,10 +1705,6 @@
         "url": "https://arxiv.org/abs/2601.22075v1"
       },
       {
-        "title": "Sota26/Affine-42-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw",
-        "url": "https://huggingface.co/Sota26/Affine-42-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw"
-      },
-      {
         "title": "VideoAesBench: Benchmarking the Video Aesthetics Perception Capabilities of Large Multimodal Models",
         "url": "https://arxiv.org/abs/2601.21915v1"
       },
@@ -1759,7 +1751,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1777,7 +1769,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "104 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1812,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 426
   }
 }
