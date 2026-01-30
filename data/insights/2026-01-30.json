@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-30T08:32:13.965566",
+  "date": "2026-01-30T09:34:46.567778",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,10 +761,6 @@
       {
         "title": "Evolution of Benchmark: Black-Box Optimization Benchmark Design through Large Language Model",
         "url": "https://arxiv.org/abs/2601.21877v1"
-      },
-      {
-        "title": "zxczxcsacaca/gpt-oss-120b-script",
-        "url": "https://huggingface.co/zxczxcsacaca/gpt-oss-120b-script"
       }
     ],
     "vision_systems": [
@@ -1007,10 +1003,6 @@
       {
         "title": "Just Noticeable Difference Modeling for Deep Visual Features",
         "url": "https://arxiv.org/abs/2601.21933v1"
-      },
-      {
-        "title": "mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11",
-        "url": "https://huggingface.co/mingyi456/Z-Image-Turbo-Misc-Finetunes-DF11"
       }
     ],
     "reasoning": [
@@ -1749,13 +1741,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 425
   }
 }
