@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-30T11:25:11.692704",
+  "date": "2026-01-30T12:41:15.748619",
   "patterns": {
     "multimodal_research": [
       {
@@ -763,12 +763,8 @@
         "url": "https://arxiv.org/abs/2601.21877v1"
       },
       {
-        "title": "avatargrim/openthaigpt1.5-14b_text_to_SQL_v1",
-        "url": "https://huggingface.co/avatargrim/openthaigpt1.5-14b_text_to_SQL_v1"
-      },
-      {
-        "title": "zhuojing-huang/gpt2-chinese20k-english10k-configA-42-100M",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-chinese20k-english10k-configA-42-100M"
+        "title": "zhuojing-huang/gpt2-chinese-english-configD-10k-13-100M",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-chinese-english-configD-10k-13-100M"
       }
     ],
     "vision_systems": [
@@ -1013,8 +1009,8 @@
         "url": "https://arxiv.org/abs/2601.21933v1"
       },
       {
-        "title": "amin-oj/vit-base-patch16-224-in21k-SFT-image-classification-ethz_food101",
-        "url": "https://huggingface.co/amin-oj/vit-base-patch16-224-in21k-SFT-image-classification-ethz_food101"
+        "title": "Alelcv27/Qwen2.5-7B-Math-Code-v2",
+        "url": "https://huggingface.co/Alelcv27/Qwen2.5-7B-Math-Code-v2"
       }
     ],
     "reasoning": [
@@ -1753,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1795,7 +1791,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 50,
+      "frequency": 51,
       "significance": "high"
     },
     {
@@ -1812,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 427
   }
 }
