@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-31T15:19:05.901776",
+  "date": "2026-01-31T16:22:00.306234",
   "patterns": {
     "multimodal_research": [
       {
@@ -403,6 +403,14 @@
       {
         "title": "Just Noticeable Difference Modeling for Deep Visual Features",
         "url": "https://arxiv.org/abs/2601.21933v1"
+      },
+      {
+        "title": "nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-qx86-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-qx86-hi-mlx"
+      },
+      {
+        "title": "nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-qx64-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-qx64-hi-mlx"
       }
     ],
     "language_models": [
@@ -1005,8 +1013,8 @@
         "url": "https://arxiv.org/abs/2601.21933v1"
       },
       {
-        "title": "mingyi456/Z-Image-Turbo-Art-DF11-ComfyUI",
-        "url": "https://huggingface.co/mingyi456/Z-Image-Turbo-Art-DF11-ComfyUI"
+        "title": "Alelcv27/Olmo2-7B-Math-CoT",
+        "url": "https://huggingface.co/Alelcv27/Olmo2-7B-Math-CoT"
       }
     ],
     "reasoning": [
@@ -1733,7 +1741,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "69 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 428
   }
 }
