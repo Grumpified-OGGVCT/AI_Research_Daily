@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-31T17:20:27.503996",
+  "date": "2026-01-31T18:25:23.936927",
   "patterns": {
     "multimodal_research": [
       {
@@ -125,6 +125,10 @@
       {
         "title": "Do VLMs Perceive or Recall? Probing Visual Perception vs. Memory with Classic Visual Illusions",
         "url": "https://arxiv.org/abs/2601.22150v1"
+      },
+      {
+        "title": "yuriyvnv/WAVe-1B-Multimodal-PT",
+        "url": "https://huggingface.co/yuriyvnv/WAVe-1B-Multimodal-PT"
       }
     ],
     "efficient_architectures": [
@@ -405,12 +409,8 @@
         "url": "https://arxiv.org/abs/2601.21933v1"
       },
       {
-        "title": "nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-qx86-hi-mlx",
-        "url": "https://huggingface.co/nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-qx86-hi-mlx"
-      },
-      {
-        "title": "nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-qx64-hi-mlx",
-        "url": "https://huggingface.co/nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-qx64-hi-mlx"
+        "title": "nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-mxfp8-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-mxfp8-mlx"
       }
     ],
     "language_models": [
@@ -771,16 +771,16 @@
         "url": "https://arxiv.org/abs/2601.21877v1"
       },
       {
-        "title": "jonmabe/tiny-llm-cli-sft",
-        "url": "https://huggingface.co/jonmabe/tiny-llm-cli-sft"
+        "title": "e0nia/chessllm_4b_fp16",
+        "url": "https://huggingface.co/e0nia/chessllm_4b_fp16"
+      },
+      {
+        "title": "Wilsonwin/handsongpt2",
+        "url": "https://huggingface.co/Wilsonwin/handsongpt2"
       },
       {
         "title": "pankajrudra/MediBool-bangla-bert-base-Question_Only",
         "url": "https://huggingface.co/pankajrudra/MediBool-bangla-bert-base-Question_Only"
-      },
-      {
-        "title": "jonmabe/tiny-llm-54m",
-        "url": "https://huggingface.co/jonmabe/tiny-llm-54m"
       }
     ],
     "vision_systems": [
@@ -1023,6 +1023,10 @@
       {
         "title": "Just Noticeable Difference Modeling for Deep Visual Features",
         "url": "https://arxiv.org/abs/2601.21933v1"
+      },
+      {
+        "title": "Alelcv27/Olmo2-7B-Code",
+        "url": "https://huggingface.co/Alelcv27/Olmo2-7B-Code"
       }
     ],
     "reasoning": [
@@ -1737,7 +1741,7 @@
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "31 independent papers",
+      "observation": "32 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1749,7 +1753,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1767,7 +1771,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "60 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1820,6 +1824,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 431
   }
 }
