@@ -1,5 +1,5 @@
 {
-  "date": "2026-01-31T19:19:25.741991",
+  "date": "2026-01-31T20:20:14.140326",
   "patterns": {
     "multimodal_research": [
       {
@@ -403,10 +403,6 @@
       {
         "title": "Just Noticeable Difference Modeling for Deep Visual Features",
         "url": "https://arxiv.org/abs/2601.21933v1"
-      },
-      {
-        "title": "nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-mxfp8-mlx",
-        "url": "https://huggingface.co/nightmedia/Qwen3-MOE-4x8B-Janus-Blossom-Claude-Gemini-mxfp8-mlx"
       }
     ],
     "language_models": [
@@ -765,6 +761,14 @@
       {
         "title": "Evolution of Benchmark: Black-Box Optimization Benchmark Design through Large Language Model",
         "url": "https://arxiv.org/abs/2601.21877v1"
+      },
+      {
+        "title": "i3-lab/i3-bGPT",
+        "url": "https://huggingface.co/i3-lab/i3-bGPT"
+      },
+      {
+        "title": "hoaan/bert-ambiguous-query-detector",
+        "url": "https://huggingface.co/hoaan/bert-ambiguous-query-detector"
       }
     ],
     "vision_systems": [
@@ -1733,7 +1737,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1745,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "89 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 427
   }
 }
