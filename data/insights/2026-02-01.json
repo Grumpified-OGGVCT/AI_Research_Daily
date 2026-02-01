@@ -1,49 +1,22 @@
 {
-  "date": "2026-02-01T12:36:21.424920",
+  "date": "2026-02-01T13:40:49.185330",
   "patterns": {
-    "efficient_architectures": [
+    "language_models": [
       {
-        "title": "rdabin/OLMoE-1B-7B-0924-Instruct-all_components",
-        "url": "https://huggingface.co/rdabin/OLMoE-1B-7B-0924-Instruct-all_components"
+        "title": "Euraika/EuroLLM-22B-Instruct-GPTQ",
+        "url": "https://huggingface.co/Euraika/EuroLLM-22B-Instruct-GPTQ"
       },
       {
-        "title": "rdabin/OLMoE-1B-7B-0924-Instruct-attention_and_experts",
-        "url": "https://huggingface.co/rdabin/OLMoE-1B-7B-0924-Instruct-attention_and_experts"
-      },
-      {
-        "title": "rdabin/OLMoE-1B-7B-0924-Instruct-router_and_experts",
-        "url": "https://huggingface.co/rdabin/OLMoE-1B-7B-0924-Instruct-router_and_experts"
-      },
-      {
-        "title": "rdabin/OLMoE-1B-7B-0924-Instruct-router_and_attention",
-        "url": "https://huggingface.co/rdabin/OLMoE-1B-7B-0924-Instruct-router_and_attention"
+        "title": "overwatch-admin/overwatch-smollm2-1.7b-instruct-lora",
+        "url": "https://huggingface.co/overwatch-admin/overwatch-smollm2-1.7b-instruct-lora"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "efficient_architectures",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Efficient Architectures - monitor for breakthrough results",
-      "confidence": "medium"
-    },
-    {
-      "pattern": "efficient_architectures",
-      "observation": "Focus on efficiency improvements",
-      "inference": "Resource constraints driving innovation - expect deployment on edge devices and mobile",
-      "confidence": "medium"
-    }
-  ],
-  "research_trends": [
-    {
-      "topic": "moe",
-      "frequency": 4,
-      "significance": "medium"
-    }
-  ],
+  "inferences": [],
+  "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 2,
-    "total_papers": 4
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
