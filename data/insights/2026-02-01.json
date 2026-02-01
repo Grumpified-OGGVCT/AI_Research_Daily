@@ -1,22 +1,33 @@
 {
-  "date": "2026-02-01T14:22:28.339201",
+  "date": "2026-02-01T15:20:33.231029",
   "patterns": {
-    "language_models": [
+    "vision_systems": [
       {
-        "title": "pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M",
-        "url": "https://huggingface.co/pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M"
+        "title": "Vanduc03/my-test-vision-model",
+        "url": "https://huggingface.co/Vanduc03/my-test-vision-model"
       },
       {
-        "title": "zhang-qilong/ModernBERT-SG-News-Popularity",
-        "url": "https://huggingface.co/zhang-qilong/ModernBERT-SG-News-Popularity"
+        "title": "Alelcv27/Olmo2-7B-Math-Code",
+        "url": "https://huggingface.co/Alelcv27/Olmo2-7B-Math-Code"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "vision_systems",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
