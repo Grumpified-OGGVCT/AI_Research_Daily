@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-01T16:23:23.987973",
-  "patterns": {},
+  "date": "2026-02-01T17:22:24.718776",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M",
+        "url": "https://huggingface.co/pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M"
+      },
+      {
+        "title": "mradermacher/ThaiLLM-30B-IQ-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/ThaiLLM-30B-IQ-i1-GGUF"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
