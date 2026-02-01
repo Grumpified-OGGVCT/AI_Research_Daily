@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-01T08:26:36.131467",
-  "patterns": {},
+  "date": "2026-02-01T09:27:06.372156",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "pankajrudra/MediBool-indic-bert-Context_Aware",
+        "url": "https://huggingface.co/pankajrudra/MediBool-indic-bert-Context_Aware"
+      },
+      {
+        "title": "pankajrudra/MediBool-bert-base-multilingual-cased-Context_Aware",
+        "url": "https://huggingface.co/pankajrudra/MediBool-bert-base-multilingual-cased-Context_Aware"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
