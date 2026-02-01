@@ -1,33 +1,49 @@
 {
-  "date": "2026-02-01T22:19:43.565686",
+  "date": "2026-02-01T23:20:31.029399",
   "patterns": {
-    "vision_systems": [
+    "language_models": [
       {
-        "title": "Alelcv27/Olmo2-7B-Breadcrumbs-v1",
-        "url": "https://huggingface.co/Alelcv27/Olmo2-7B-Breadcrumbs-v1"
+        "title": "maxim2211/distilbert-base-uncased-finetuned-cola",
+        "url": "https://huggingface.co/maxim2211/distilbert-base-uncased-finetuned-cola"
       },
       {
-        "title": "OmegaShred/Z-Image-0.36",
-        "url": "https://huggingface.co/OmegaShred/Z-Image-0.36"
+        "title": "paulprt/gpt-oss-edu-mxfp4",
+        "url": "https://huggingface.co/paulprt/gpt-oss-edu-mxfp4"
       },
       {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+        "title": "mradermacher/ThaiLLM-30B-IQ-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/ThaiLLM-30B-IQ-i1-GGUF"
+      }
+    ],
+    "reasoning": [
+      {
+        "title": "CompactAI/TinyLlama-1.1B-Chat-v1.0-reasoning-aggressive",
+        "url": "https://huggingface.co/CompactAI/TinyLlama-1.1B-Chat-v1.0-reasoning-aggressive"
+      },
+      {
+        "title": "CompactAI/TinyLlama-1.1B-Chat-v1.0-reasoning-safe",
+        "url": "https://huggingface.co/CompactAI/TinyLlama-1.1B-Chat-v1.0-reasoning-safe"
       }
     ]
   },
   "inferences": [
     {
-      "pattern": "vision_systems",
+      "pattern": "language_models",
       "observation": "3 related papers",
-      "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
       "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_patterns": 2,
+    "total_inferences": 2,
+    "total_papers": 5
   }
 }
