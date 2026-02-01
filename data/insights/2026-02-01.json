@@ -1,33 +1,22 @@
 {
-  "date": "2026-02-01T18:27:35.550615",
+  "date": "2026-02-01T19:21:58.437643",
   "patterns": {
     "language_models": [
       {
-        "title": "mradermacher/ThaiLLM-30B-IQ-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/ThaiLLM-30B-IQ-i1-GGUF"
-      },
-      {
-        "title": "owenqwenllmwine/wikipedia-gpt2-2f65e35f",
-        "url": "https://huggingface.co/owenqwenllmwine/wikipedia-gpt2-2f65e35f"
-      },
-      {
         "title": "pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M",
         "url": "https://huggingface.co/pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M"
+      },
+      {
+        "title": "mradermacher/ThaiLLM-30B-IQ-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/ThaiLLM-30B-IQ-i1-GGUF"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
