@@ -1,32 +1,33 @@
 {
-  "date": "2026-02-02T12:44:16.890615",
+  "date": "2026-02-02T13:59:49.233562",
   "patterns": {
     "language_models": [
       {
-        "title": "jmJapan/llm-course-maincomp-jmo",
-        "url": "https://huggingface.co/jmJapan/llm-course-maincomp-jmo"
-      },
-      {
         "title": "pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3",
         "url": "https://huggingface.co/pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3"
-      }
-    ],
-    "vision_systems": [
-      {
-        "title": "choquinlabs/tortera-v1-qwen-image-2512",
-        "url": "https://huggingface.co/choquinlabs/tortera-v1-qwen-image-2512"
       },
       {
-        "title": "Alelcv27/Llama3.1-8B-Math-CoT",
-        "url": "https://huggingface.co/Alelcv27/Llama3.1-8B-Math-CoT"
+        "title": "Wilsonwin/gpt2-chinese-mini",
+        "url": "https://huggingface.co/Wilsonwin/gpt2-chinese-mini"
+      },
+      {
+        "title": "naru0411/LLM-competition",
+        "url": "https://huggingface.co/naru0411/LLM-competition"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 0,
-    "total_papers": 4
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
