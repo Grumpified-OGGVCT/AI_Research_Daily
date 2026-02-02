@@ -1,22 +1,49 @@
 {
-  "date": "2026-02-02T18:36:31.245429",
+  "date": "2026-02-02T23:24:11.142969",
   "patterns": {
     "language_models": [
       {
-        "title": "pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3",
-        "url": "https://huggingface.co/pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3"
+        "title": "Jiyog/SmolLM3-Custom-SFT-2",
+        "url": "https://huggingface.co/Jiyog/SmolLM3-Custom-SFT-2"
       },
       {
-        "title": "wjbmattingly/gpt-oss-20b-coref-resolution-lora",
-        "url": "https://huggingface.co/wjbmattingly/gpt-oss-20b-coref-resolution-lora"
+        "title": "nbtpj/baseline3_gpt2_cnndmeval",
+        "url": "https://huggingface.co/nbtpj/baseline3_gpt2_cnndmeval"
+      },
+      {
+        "title": "AnonymousCS/bert-chinese-weibo-100p-v2",
+        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-100p-v2"
+      },
+      {
+        "title": "AnonymousCS/bert-chinese-weibo-100p-v1",
+        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-100p-v1"
+      },
+      {
+        "title": "AnonymousCS/bert-chinese-weibo-100p-v5",
+        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-100p-v5"
+      },
+      {
+        "title": "AnonymousCS/bert-chinese-weibo-100p-v4",
+        "url": "https://huggingface.co/AnonymousCS/bert-chinese-weibo-100p-v4"
+      },
+      {
+        "title": "Wilsonwin/gpt2-chinese-mini",
+        "url": "https://huggingface.co/Wilsonwin/gpt2-chinese-mini"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "7 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 7
   }
 }
