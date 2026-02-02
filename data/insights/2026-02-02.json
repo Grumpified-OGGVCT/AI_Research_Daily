@@ -1,22 +1,32 @@
 {
-  "date": "2026-02-02T11:33:05.844213",
+  "date": "2026-02-02T12:44:16.890615",
   "patterns": {
     "language_models": [
       {
-        "title": "pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3",
-        "url": "https://huggingface.co/pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3"
+        "title": "jmJapan/llm-course-maincomp-jmo",
+        "url": "https://huggingface.co/jmJapan/llm-course-maincomp-jmo"
       },
       {
-        "title": "KazumaTsuboi/LLM_Competition",
-        "url": "https://huggingface.co/KazumaTsuboi/LLM_Competition"
+        "title": "pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3",
+        "url": "https://huggingface.co/pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3"
+      }
+    ],
+    "vision_systems": [
+      {
+        "title": "choquinlabs/tortera-v1-qwen-image-2512",
+        "url": "https://huggingface.co/choquinlabs/tortera-v1-qwen-image-2512"
+      },
+      {
+        "title": "Alelcv27/Llama3.1-8B-Math-CoT",
+        "url": "https://huggingface.co/Alelcv27/Llama3.1-8B-Math-CoT"
       }
     ]
   },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
+    "total_patterns": 2,
     "total_inferences": 0,
-    "total_papers": 2
+    "total_papers": 4
   }
 }
