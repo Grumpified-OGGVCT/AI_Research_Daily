@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-02T15:34:41.640639",
+  "date": "2026-02-02T16:33:03.962138",
   "patterns": {
     "language_models": [
       {
@@ -7,16 +7,26 @@
         "url": "https://huggingface.co/pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3"
       },
       {
-        "title": "nbtpj/baseline3_gpt2_xsumeval",
-        "url": "https://huggingface.co/nbtpj/baseline3_gpt2_xsumeval"
+        "title": "toenobu/utokyo-llm-advance-main",
+        "url": "https://huggingface.co/toenobu/utokyo-llm-advance-main"
+      }
+    ],
+    "vision_systems": [
+      {
+        "title": "HoDuc3/my-test-vision-model",
+        "url": "https://huggingface.co/HoDuc3/my-test-vision-model"
+      },
+      {
+        "title": "Khanh6/my-test-vision-model",
+        "url": "https://huggingface.co/Khanh6/my-test-vision-model"
       }
     ]
   },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
+    "total_patterns": 2,
     "total_inferences": 0,
-    "total_papers": 2
+    "total_papers": 4
   }
 }
