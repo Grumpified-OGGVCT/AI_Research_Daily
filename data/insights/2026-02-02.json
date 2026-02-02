@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-02T13:59:49.233562",
+  "date": "2026-02-02T15:34:41.640639",
   "patterns": {
     "language_models": [
       {
@@ -7,27 +7,16 @@
         "url": "https://huggingface.co/pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3"
       },
       {
-        "title": "Wilsonwin/gpt2-chinese-mini",
-        "url": "https://huggingface.co/Wilsonwin/gpt2-chinese-mini"
-      },
-      {
-        "title": "naru0411/LLM-competition",
-        "url": "https://huggingface.co/naru0411/LLM-competition"
+        "title": "nbtpj/baseline3_gpt2_xsumeval",
+        "url": "https://huggingface.co/nbtpj/baseline3_gpt2_xsumeval"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
