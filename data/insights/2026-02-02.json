@@ -1,33 +1,22 @@
 {
-  "date": "2026-02-02T09:41:34.775183",
+  "date": "2026-02-02T10:39:44.299359",
   "patterns": {
     "language_models": [
       {
-        "title": "Wilsonwin/gpt2-chinese-mini",
-        "url": "https://huggingface.co/Wilsonwin/gpt2-chinese-mini"
-      },
-      {
-        "title": "YiMeng-SYSU/roberta-logic-sentiment-zh",
-        "url": "https://huggingface.co/YiMeng-SYSU/roberta-logic-sentiment-zh"
-      },
-      {
         "title": "pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3",
         "url": "https://huggingface.co/pratap18/smollm2-highlish-Hinglish-Everyday-Conversations-1M_V3"
+      },
+      {
+        "title": "Wilsonwin/gpt2-chinese-mini",
+        "url": "https://huggingface.co/Wilsonwin/gpt2-chinese-mini"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
