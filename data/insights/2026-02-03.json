@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-03T22:26:09.707588",
+  "date": "2026-02-03T23:25:15.196697",
   "patterns": {
     "multimodal_research": [
       {
@@ -741,18 +741,6 @@
       {
         "title": "From Sycophancy to Sensemaking: Premise Governance for Human-AI Decision Making",
         "url": "https://arxiv.org/abs/2602.02378v1"
-      },
-      {
-        "title": "huggingface/transformers-metadata",
-        "url": "https://huggingface.co/datasets/huggingface/transformers-metadata"
-      },
-      {
-        "title": "TomasFAV/BERTInvoiceCzechNewDataset",
-        "url": "https://huggingface.co/TomasFAV/BERTInvoiceCzechNewDataset"
-      },
-      {
-        "title": "YAI777/LLMlec-FinalAssign_YAI_2025",
-        "url": "https://huggingface.co/YAI777/LLMlec-FinalAssign_YAI_2025"
       }
     ],
     "vision_systems": [
@@ -971,10 +959,6 @@
       {
         "title": "Evaluating OCR Performance for Assistive Technology: Effects of Walking Speed, Camera Placement, and Camera Type",
         "url": "https://arxiv.org/abs/2602.02223v1"
-      },
-      {
-        "title": "kraki16/realisticVisionV60B1_v60B1VAE",
-        "url": "https://huggingface.co/kraki16/realisticVisionV60B1_v60B1VAE"
       },
       {
         "title": "huggingface/DEH-image-scan-data",
@@ -1305,6 +1289,10 @@
       {
         "title": "Uncertainty-Aware Image Classification In Biomedical Imaging Using Spectral-normalized Neural Gaussian Processes",
         "url": "https://arxiv.org/abs/2602.02370v1"
+      },
+      {
+        "title": "inferencerlabs/Qwen3-Coder-Next-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/Qwen3-Coder-Next-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1709,19 +1697,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "56 independent papers",
+      "observation": "55 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1750,13 +1738,13 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "generation",
       "frequency": 45,
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 44,
+      "topic": "reasoning",
+      "frequency": 45,
       "significance": "high"
     },
     {
@@ -1768,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 417
+    "total_papers": 414
   }
 }
