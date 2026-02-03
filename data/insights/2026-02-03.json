@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-03T15:44:18.803749",
+  "date": "2026-02-03T16:46:09.143153",
   "patterns": {
     "multimodal_research": [
       {
@@ -743,8 +743,8 @@
         "url": "https://arxiv.org/abs/2602.02378v1"
       },
       {
-        "title": "AkCh12/newsif-roberta",
-        "url": "https://huggingface.co/AkCh12/newsif-roberta"
+        "title": "KazumaTsuboi/LLM_Competition",
+        "url": "https://huggingface.co/KazumaTsuboi/LLM_Competition"
       }
     ],
     "vision_systems": [
@@ -963,42 +963,6 @@
       {
         "title": "Evaluating OCR Performance for Assistive Technology: Effects of Walking Speed, Camera Placement, and Camera Type",
         "url": "https://arxiv.org/abs/2602.02223v1"
-      },
-      {
-        "title": "alice6les/my-test-vision-model10",
-        "url": "https://huggingface.co/alice6les/my-test-vision-model10"
-      },
-      {
-        "title": "Dan02ni/my-test-vision-model10",
-        "url": "https://huggingface.co/Dan02ni/my-test-vision-model10"
-      },
-      {
-        "title": "ThiHien3/my-test-vision-model10",
-        "url": "https://huggingface.co/ThiHien3/my-test-vision-model10"
-      },
-      {
-        "title": "HoDuc3/my-test-vision-model10",
-        "url": "https://huggingface.co/HoDuc3/my-test-vision-model10"
-      },
-      {
-        "title": "Vduc4/my-test-vision-model10",
-        "url": "https://huggingface.co/Vduc4/my-test-vision-model10"
-      },
-      {
-        "title": "Hien03/my-test-vision-model10",
-        "url": "https://huggingface.co/Hien03/my-test-vision-model10"
-      },
-      {
-        "title": "Khanh6/my-test-vision-model10",
-        "url": "https://huggingface.co/Khanh6/my-test-vision-model10"
-      },
-      {
-        "title": "Vduc01/my-test-vision-model10",
-        "url": "https://huggingface.co/Vduc01/my-test-vision-model10"
-      },
-      {
-        "title": "Duc77/my-test-vision-model10",
-        "url": "https://huggingface.co/Duc77/my-test-vision-model10"
       }
     ],
     "reasoning": [
@@ -1735,7 +1699,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "63 independent papers",
+      "observation": "54 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1780,14 +1744,14 @@
       "significance": "high"
     },
     {
-      "topic": "vision",
-      "frequency": 34,
+      "topic": "efficiency",
+      "frequency": 29,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 413
   }
 }
