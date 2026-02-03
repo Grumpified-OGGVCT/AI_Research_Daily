@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-03T11:31:22.419882",
+  "date": "2026-02-03T12:45:13.081246",
   "patterns": {
     "multimodal_research": [
       {
@@ -741,6 +741,10 @@
       {
         "title": "From Sycophancy to Sensemaking: Premise Governance for Human-AI Decision Making",
         "url": "https://arxiv.org/abs/2602.02378v1"
+      },
+      {
+        "title": "Chattso-GPT/sft-v5-qwen3-4b-lora",
+        "url": "https://huggingface.co/Chattso-GPT/sft-v5-qwen3-4b-lora"
       }
     ],
     "vision_systems": [
@@ -1285,10 +1289,6 @@
       {
         "title": "Uncertainty-Aware Image Classification In Biomedical Imaging Using Spectral-normalized Neural Gaussian Processes",
         "url": "https://arxiv.org/abs/2602.02370v1"
-      },
-      {
-        "title": "inferencerlabs/Step-3.5-Flash-MLX-6.5bit",
-        "url": "https://huggingface.co/inferencerlabs/Step-3.5-Flash-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1693,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1705,7 +1705,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
