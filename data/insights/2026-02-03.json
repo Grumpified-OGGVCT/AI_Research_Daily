@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-03T14:02:11.812819",
+  "date": "2026-02-03T14:52:30.006535",
   "patterns": {
     "multimodal_research": [
       {
@@ -741,6 +741,10 @@
       {
         "title": "From Sycophancy to Sensemaking: Premise Governance for Human-AI Decision Making",
         "url": "https://arxiv.org/abs/2602.02378v1"
+      },
+      {
+        "title": "toenobu/utokyo-llm-advance-main-dpo",
+        "url": "https://huggingface.co/toenobu/utokyo-llm-advance-main-dpo"
       }
     ],
     "vision_systems": [
@@ -959,6 +963,10 @@
       {
         "title": "Evaluating OCR Performance for Assistive Technology: Effects of Walking Speed, Camera Placement, and Camera Type",
         "url": "https://arxiv.org/abs/2602.02223v1"
+      },
+      {
+        "title": "SEVUNX/Z_Image_Base_FP32_comfyready",
+        "url": "https://huggingface.co/SEVUNX/Z_Image_Base_FP32_comfyready"
       }
     ],
     "reasoning": [
@@ -1689,13 +1697,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "54 independent papers",
+      "observation": "55 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 414
   }
 }
