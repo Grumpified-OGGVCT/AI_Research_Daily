@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-03T19:43:17.338131",
+  "date": "2026-02-03T20:30:59.314774",
   "patterns": {
     "multimodal_research": [
       {
@@ -363,6 +363,10 @@
       {
         "title": "CIEC: Coupling Implicit and Explicit Cues for Multimodal Weakly Supervised Manipulation Localization",
         "url": "https://arxiv.org/abs/2602.02175v1"
+      },
+      {
+        "title": "noctrex/Qwen3-Coder-Next-MXFP4_MOE-GGUF",
+        "url": "https://huggingface.co/noctrex/Qwen3-Coder-Next-MXFP4_MOE-GGUF"
       }
     ],
     "language_models": [
@@ -743,8 +747,8 @@
         "url": "https://arxiv.org/abs/2602.02378v1"
       },
       {
-        "title": "sallm/q-lora-repo",
-        "url": "https://huggingface.co/sallm/q-lora-repo"
+        "title": "EpistemeAI/rsi-gpt-oss-120bv2-4bit",
+        "url": "https://huggingface.co/EpistemeAI/rsi-gpt-oss-120bv2-4bit"
       }
     ],
     "vision_systems": [
@@ -1289,62 +1293,6 @@
       {
         "title": "Uncertainty-Aware Image Classification In Biomedical Imaging Using Spectral-normalized Neural Gaussian Processes",
         "url": "https://arxiv.org/abs/2602.02370v1"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-Tool-Calling-90M-reasoning-aggressive",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-Tool-Calling-90M-reasoning-aggressive"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-Tool-Calling-90M-reasoning-safe",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-Tool-Calling-90M-reasoning-safe"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-Coder-90M-reasoning-aggressive",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-Coder-90M-reasoning-aggressive"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-R-90M-reasoning-aggressive",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-R-90M-reasoning-aggressive"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-Multilingual-100M-Base-reasoning-aggressive",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-Multilingual-100M-Base-reasoning-aggressive"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-R-90M-reasoning-safe",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-R-90M-reasoning-safe"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-Coder-90M-reasoning-safe",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-Coder-90M-reasoning-safe"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-Multilingual-100M-Base-reasoning-safe",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-Multilingual-100M-Base-reasoning-safe"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-90M-Base-reasoning-aggressive",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-90M-Base-reasoning-aggressive"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-90M-Instruct-Curriculum-reasoning-aggressive",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-90M-Instruct-Curriculum-reasoning-aggressive"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-90M-Base-reasoning-safe",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-90M-Base-reasoning-safe"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-90M-Instruct-Curriculum-reasoning-safe",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-90M-Instruct-Curriculum-reasoning-safe"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-Multilingual-100M-Instruct-reasoning-aggressive",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-Multilingual-100M-Instruct-reasoning-aggressive"
-      },
-      {
-        "title": "CompactAI/Falcon-H1-Tiny-Multilingual-100M-Instruct-reasoning-safe",
-        "url": "https://huggingface.co/CompactAI/Falcon-H1-Tiny-Multilingual-100M-Instruct-reasoning-safe"
       }
     ],
     "benchmarks": [
@@ -1737,7 +1685,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1761,7 +1709,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "95 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1785,13 +1733,13 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 59,
+      "topic": "benchmark",
+      "frequency": 56,
       "significance": "high"
     },
     {
-      "topic": "benchmark",
-      "frequency": 56,
+      "topic": "reasoning",
+      "frequency": 45,
       "significance": "high"
     },
     {
@@ -1808,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 414
   }
 }
