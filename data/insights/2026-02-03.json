@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-03T08:31:38.889561",
+  "date": "2026-02-03T09:36:37.949958",
   "patterns": {
     "multimodal_research": [
       {
@@ -1285,6 +1285,10 @@
       {
         "title": "Uncertainty-Aware Image Classification In Biomedical Imaging Using Spectral-normalized Neural Gaussian Processes",
         "url": "https://arxiv.org/abs/2602.02370v1"
+      },
+      {
+        "title": "inferencerlabs/Step-3.5-Flash-MLX-6.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Step-3.5-Flash-MLX-6.5bit"
       }
     ],
     "benchmarks": [
@@ -1701,7 +1705,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 413
   }
 }
