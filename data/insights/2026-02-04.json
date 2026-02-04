@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T14:44:59.616687",
+  "date": "2026-02-04T15:39:00.535649",
   "patterns": {
     "multimodal_research": [
       {
@@ -817,6 +817,18 @@
       {
         "title": "Semantic Routing: Exploring Multi-Layer LLM Feature Weighting for Diffusion Transformers",
         "url": "https://arxiv.org/abs/2602.03510v1"
+      },
+      {
+        "title": "didula-wso2/exp_23_dtest_grpo_checkpoint_60_16bit_vllm",
+        "url": "https://huggingface.co/didula-wso2/exp_23_dtest_grpo_checkpoint_60_16bit_vllm"
+      },
+      {
+        "title": "khadim-hussain/gpt-oss-20b-stem-reasoning",
+        "url": "https://huggingface.co/khadim-hussain/gpt-oss-20b-stem-reasoning"
+      },
+      {
+        "title": "mradermacher/IoGPT-A1-Instruct-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/IoGPT-A1-Instruct-i1-GGUF"
       }
     ],
     "vision_systems": [
@@ -1091,6 +1103,10 @@
       {
         "title": "From Pre- to Intra-operative MRI: Predicting Brain Shift in Temporal Lobe Resection for Epilepsy Surgery",
         "url": "https://arxiv.org/abs/2602.03785v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1421,6 +1437,10 @@
       {
         "title": "RAWDet-7: A Multi-Scenario Benchmark for Object Detection and Description on Quantized RAW Images",
         "url": "https://arxiv.org/abs/2602.03760v1"
+      },
+      {
+        "title": "khadim-hussain/gpt-oss-20b-stem-reasoning",
+        "url": "https://huggingface.co/khadim-hussain/gpt-oss-20b-stem-reasoning"
       }
     ],
     "benchmarks": [
@@ -1893,19 +1913,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1940,7 +1960,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 41,
       "significance": "high"
     },
     {
@@ -1952,6 +1972,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 463
+    "total_papers": 468
   }
 }
