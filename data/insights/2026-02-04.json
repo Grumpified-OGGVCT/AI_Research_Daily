@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T20:29:10.043085",
+  "date": "2026-02-04T21:28:50.835698",
   "patterns": {
     "multimodal_research": [
       {
@@ -819,24 +819,8 @@
         "url": "https://arxiv.org/abs/2602.03510v1"
       },
       {
-        "title": "jerrywdlee/qwen3-4b-structured-output-lora-4-llm2025",
-        "url": "https://huggingface.co/jerrywdlee/qwen3-4b-structured-output-lora-4-llm2025"
-      },
-      {
-        "title": "akilachamathha/fake-review-bert-v3",
-        "url": "https://huggingface.co/akilachamathha/fake-review-bert-v3"
-      },
-      {
-        "title": "amitca71/marabert2-levantine-hate-model",
-        "url": "https://huggingface.co/amitca71/marabert2-levantine-hate-model"
-      },
-      {
-        "title": "RinKana/MiniGPT-30M-Wikipedia-Var1",
-        "url": "https://huggingface.co/RinKana/MiniGPT-30M-Wikipedia-Var1"
-      },
-      {
-        "title": "jmnlcruz-c3ai/reuters-gpt2-text-gen",
-        "url": "https://huggingface.co/jmnlcruz-c3ai/reuters-gpt2-text-gen"
+        "title": "fenyo/gpt-oss-20b-FAQ-MES-mxfp4",
+        "url": "https://huggingface.co/fenyo/gpt-oss-20b-FAQ-MES-mxfp4"
       }
     ],
     "vision_systems": [
@@ -1113,8 +1097,8 @@
         "url": "https://arxiv.org/abs/2602.03785v1"
       },
       {
-        "title": "alexlece/PontIA_Imagenes_Antiguas",
-        "url": "https://huggingface.co/alexlece/PontIA_Imagenes_Antiguas"
+        "title": "BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4",
+        "url": "https://huggingface.co/BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4"
       }
     ],
     "reasoning": [
@@ -1445,6 +1429,10 @@
       {
         "title": "RAWDet-7: A Multi-Scenario Benchmark for Object Detection and Description on Quantized RAW Images",
         "url": "https://arxiv.org/abs/2602.03760v1"
+      },
+      {
+        "title": "DevQuasar/fdtn-ai.Foundation-Sec-8B-Reasoning-GGUF",
+        "url": "https://huggingface.co/DevQuasar/fdtn-ai.Foundation-Sec-8B-Reasoning-GGUF"
       }
     ],
     "benchmarks": [
@@ -1887,10 +1875,6 @@
       {
         "title": "RAWDet-7: A Multi-Scenario Benchmark for Object Detection and Description on Quantized RAW Images",
         "url": "https://arxiv.org/abs/2602.03760v1"
-      },
-      {
-        "title": "Sota26/Affine-49-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw",
-        "url": "https://huggingface.co/Sota26/Affine-49-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw"
       }
     ]
   },
@@ -1921,7 +1905,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "104 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1933,7 +1917,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1945,7 +1929,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "111 independent papers",
+      "observation": "110 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1968,7 +1952,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 41,
       "significance": "high"
     },
     {
@@ -1980,6 +1964,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 470
+    "total_papers": 466
   }
 }
