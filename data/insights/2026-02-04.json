@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T21:28:50.835698",
+  "date": "2026-02-04T22:22:02.767081",
   "patterns": {
     "multimodal_research": [
       {
@@ -819,8 +819,8 @@
         "url": "https://arxiv.org/abs/2602.03510v1"
       },
       {
-        "title": "fenyo/gpt-oss-20b-FAQ-MES-mxfp4",
-        "url": "https://huggingface.co/fenyo/gpt-oss-20b-FAQ-MES-mxfp4"
+        "title": "moushi21/LLM2025_Final_Main_Unsloth_QLoRA_4-bit",
+        "url": "https://huggingface.co/moushi21/LLM2025_Final_Main_Unsloth_QLoRA_4-bit"
       }
     ],
     "vision_systems": [
@@ -1097,8 +1097,16 @@
         "url": "https://arxiv.org/abs/2602.03785v1"
       },
       {
-        "title": "BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4",
-        "url": "https://huggingface.co/BennyDaBall/Qwen3-4b-Z-Image-Engineer-V4"
+        "title": "dianavdavidson/wh_l_v3_cv_no_lang_id_trial",
+        "url": "https://huggingface.co/dianavdavidson/wh_l_v3_cv_no_lang_id_trial"
+      },
+      {
+        "title": "BennyDaBall/LFM2.5-1.2B-Z-Image-Engineer-V4",
+        "url": "https://huggingface.co/BennyDaBall/LFM2.5-1.2B-Z-Image-Engineer-V4"
+      },
+      {
+        "title": "Alelcv27/Llama3.1-8B-Dare-Ties-v1",
+        "url": "https://huggingface.co/Alelcv27/Llama3.1-8B-Dare-Ties-v1"
       }
     ],
     "reasoning": [
@@ -1433,6 +1441,30 @@
       {
         "title": "DevQuasar/fdtn-ai.Foundation-Sec-8B-Reasoning-GGUF",
         "url": "https://huggingface.co/DevQuasar/fdtn-ai.Foundation-Sec-8B-Reasoning-GGUF"
+      },
+      {
+        "title": "CompactAI/LFM2.5-1.2B-Base-reasoning-aggressive",
+        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Base-reasoning-aggressive"
+      },
+      {
+        "title": "CompactAI/LFM2.5-1.2B-Base-reasoning-safe",
+        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Base-reasoning-safe"
+      },
+      {
+        "title": "CompactAI/LFM2.5-1.2B-Thinking-reasoning-aggressive",
+        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Thinking-reasoning-aggressive"
+      },
+      {
+        "title": "CompactAI/LFM2.5-1.2B-Thinking-reasoning-safe",
+        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Thinking-reasoning-safe"
+      },
+      {
+        "title": "CompactAI/LFM2.5-1.2B-Instruct-reasoning-aggressive",
+        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Instruct-reasoning-aggressive"
+      },
+      {
+        "title": "CompactAI/LFM2.5-1.2B-Instruct-reasoning-safe",
+        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Instruct-reasoning-safe"
       }
     ],
     "benchmarks": [
@@ -1911,13 +1943,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "83 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1946,13 +1978,13 @@
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 46,
+      "topic": "reasoning",
+      "frequency": 47,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 41,
+      "topic": "generation",
+      "frequency": 46,
       "significance": "high"
     },
     {
@@ -1964,6 +1996,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 466
+    "total_papers": 474
   }
 }
