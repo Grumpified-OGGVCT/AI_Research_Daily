@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T17:42:35.616108",
+  "date": "2026-02-04T18:41:55.074009",
   "patterns": {
     "multimodal_research": [
       {
@@ -819,8 +819,12 @@
         "url": "https://arxiv.org/abs/2602.03510v1"
       },
       {
-        "title": "humair025/smollm2-globe-finetune",
-        "url": "https://huggingface.co/humair025/smollm2-globe-finetune"
+        "title": "jossoft/my-turkish-llm",
+        "url": "https://huggingface.co/jossoft/my-turkish-llm"
+      },
+      {
+        "title": "Das-nrhr/llm-advanced-2025-01",
+        "url": "https://huggingface.co/Das-nrhr/llm-advanced-2025-01"
       }
     ],
     "vision_systems": [
@@ -1897,7 +1901,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1956,6 +1960,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 464
+    "total_papers": 465
   }
 }
