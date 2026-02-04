@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T10:34:56.739481",
+  "date": "2026-02-04T11:30:27.248847",
   "patterns": {
     "multimodal_research": [
       {
@@ -803,10 +803,6 @@
         "url": "https://arxiv.org/abs/2602.03594v1"
       },
       {
-        "title": "1234Frede/v6SmolLM2-business-news-generator",
-        "url": "https://huggingface.co/1234Frede/v6SmolLM2-business-news-generator"
-      },
-      {
         "title": "Interpretable Logical Anomaly Classification via Constraint Decomposition and Instruction Fine-Tuning",
         "url": "https://arxiv.org/abs/2602.03530v1"
       },
@@ -821,14 +817,6 @@
       {
         "title": "Semantic Routing: Exploring Multi-Layer LLM Feature Weighting for Diffusion Transformers",
         "url": "https://arxiv.org/abs/2602.03510v1"
-      },
-      {
-        "title": "fenyo/gpt-oss-20b-FAQ-MES-mxfp4",
-        "url": "https://huggingface.co/fenyo/gpt-oss-20b-FAQ-MES-mxfp4"
-      },
-      {
-        "title": "satoyutaka/llm2025_main-400",
-        "url": "https://huggingface.co/satoyutaka/llm2025_main-400"
       }
     ],
     "vision_systems": [
@@ -1905,7 +1893,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "102 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1964,6 +1952,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 466
+    "total_papers": 463
   }
 }
