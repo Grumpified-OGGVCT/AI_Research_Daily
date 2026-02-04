@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T16:40:53.338208",
+  "date": "2026-02-04T17:42:35.616108",
   "patterns": {
     "multimodal_research": [
       {
@@ -819,12 +819,8 @@
         "url": "https://arxiv.org/abs/2602.03510v1"
       },
       {
-        "title": "MuXodious/gpt-oss-120b-shattered-heresy",
-        "url": "https://huggingface.co/MuXodious/gpt-oss-120b-shattered-heresy"
-      },
-      {
-        "title": "makotonlo/LLM2026",
-        "url": "https://huggingface.co/makotonlo/LLM2026"
+        "title": "humair025/smollm2-globe-finetune",
+        "url": "https://huggingface.co/humair025/smollm2-globe-finetune"
       }
     ],
     "vision_systems": [
@@ -1099,10 +1095,6 @@
       {
         "title": "From Pre- to Intra-operative MRI: Predicting Brain Shift in Temporal Lobe Resection for Epilepsy Surgery",
         "url": "https://arxiv.org/abs/2602.03785v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1905,13 +1897,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1964,6 +1956,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 466
+    "total_papers": 464
   }
 }
