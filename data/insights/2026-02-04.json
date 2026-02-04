@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T22:22:02.767081",
+  "date": "2026-02-04T23:22:43.926402",
   "patterns": {
     "multimodal_research": [
       {
@@ -819,8 +819,12 @@
         "url": "https://arxiv.org/abs/2602.03510v1"
       },
       {
-        "title": "moushi21/LLM2025_Final_Main_Unsloth_QLoRA_4-bit",
-        "url": "https://huggingface.co/moushi21/LLM2025_Final_Main_Unsloth_QLoRA_4-bit"
+        "title": "jerrywdlee/qwen3-4b-structured-output-lora-4-llm2025",
+        "url": "https://huggingface.co/jerrywdlee/qwen3-4b-structured-output-lora-4-llm2025"
+      },
+      {
+        "title": "fenyo/gpt-oss-20b-FAQ-MES-mxfp4",
+        "url": "https://huggingface.co/fenyo/gpt-oss-20b-FAQ-MES-mxfp4"
       }
     ],
     "vision_systems": [
@@ -1097,16 +1101,24 @@
         "url": "https://arxiv.org/abs/2602.03785v1"
       },
       {
-        "title": "dianavdavidson/wh_l_v3_cv_no_lang_id_trial",
-        "url": "https://huggingface.co/dianavdavidson/wh_l_v3_cv_no_lang_id_trial"
+        "title": "Alelcv27/Llama3.1-8B-Dare-Linear-v1",
+        "url": "https://huggingface.co/Alelcv27/Llama3.1-8B-Dare-Linear-v1"
       },
       {
-        "title": "BennyDaBall/LFM2.5-1.2B-Z-Image-Engineer-V4",
-        "url": "https://huggingface.co/BennyDaBall/LFM2.5-1.2B-Z-Image-Engineer-V4"
+        "title": "lichorosario/njpuzzolo-qwen-image-2512",
+        "url": "https://huggingface.co/lichorosario/njpuzzolo-qwen-image-2512"
       },
       {
-        "title": "Alelcv27/Llama3.1-8B-Dare-Ties-v1",
-        "url": "https://huggingface.co/Alelcv27/Llama3.1-8B-Dare-Ties-v1"
+        "title": "toolevalxm/MedVision-DiagNet-TestRepo",
+        "url": "https://huggingface.co/toolevalxm/MedVision-DiagNet-TestRepo"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1437,34 +1449,6 @@
       {
         "title": "RAWDet-7: A Multi-Scenario Benchmark for Object Detection and Description on Quantized RAW Images",
         "url": "https://arxiv.org/abs/2602.03760v1"
-      },
-      {
-        "title": "DevQuasar/fdtn-ai.Foundation-Sec-8B-Reasoning-GGUF",
-        "url": "https://huggingface.co/DevQuasar/fdtn-ai.Foundation-Sec-8B-Reasoning-GGUF"
-      },
-      {
-        "title": "CompactAI/LFM2.5-1.2B-Base-reasoning-aggressive",
-        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Base-reasoning-aggressive"
-      },
-      {
-        "title": "CompactAI/LFM2.5-1.2B-Base-reasoning-safe",
-        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Base-reasoning-safe"
-      },
-      {
-        "title": "CompactAI/LFM2.5-1.2B-Thinking-reasoning-aggressive",
-        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Thinking-reasoning-aggressive"
-      },
-      {
-        "title": "CompactAI/LFM2.5-1.2B-Thinking-reasoning-safe",
-        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Thinking-reasoning-safe"
-      },
-      {
-        "title": "CompactAI/LFM2.5-1.2B-Instruct-reasoning-aggressive",
-        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Instruct-reasoning-aggressive"
-      },
-      {
-        "title": "CompactAI/LFM2.5-1.2B-Instruct-reasoning-safe",
-        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-Instruct-reasoning-safe"
       }
     ],
     "benchmarks": [
@@ -1937,19 +1921,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "89 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1969,17 +1953,12 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 82,
+      "frequency": 83,
       "significance": "high"
     },
     {
       "topic": "benchmark",
       "frequency": 70,
-      "significance": "high"
-    },
-    {
-      "topic": "reasoning",
-      "frequency": 47,
       "significance": "high"
     },
     {
@@ -1989,13 +1968,18 @@
     },
     {
       "topic": "vision",
-      "frequency": 39,
+      "frequency": 40,
+      "significance": "high"
+    },
+    {
+      "topic": "reasoning",
+      "frequency": 40,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 474
+    "total_papers": 470
   }
 }
