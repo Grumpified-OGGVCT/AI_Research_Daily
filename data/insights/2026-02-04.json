@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T04:08:35.339025",
+  "date": "2026-02-04T05:44:45.496712",
   "patterns": {
     "multimodal_research": [
       {
@@ -817,10 +817,6 @@
       {
         "title": "Semantic Routing: Exploring Multi-Layer LLM Feature Weighting for Diffusion Transformers",
         "url": "https://arxiv.org/abs/2602.03510v1"
-      },
-      {
-        "title": "naru0411/LLM-competition-DPO",
-        "url": "https://huggingface.co/naru0411/LLM-competition-DPO"
       }
     ],
     "vision_systems": [
@@ -1095,6 +1091,10 @@
       {
         "title": "From Pre- to Intra-operative MRI: Predicting Brain Shift in Temporal Lobe Resection for Epilepsy Surgery",
         "url": "https://arxiv.org/abs/2602.03785v1"
+      },
+      {
+        "title": "momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-064057",
+        "url": "https://huggingface.co/momentino/Qwen3-4B-Instruct-2507-imagegame-patched__20260204-064057"
       }
     ],
     "reasoning": [
@@ -1897,13 +1897,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
