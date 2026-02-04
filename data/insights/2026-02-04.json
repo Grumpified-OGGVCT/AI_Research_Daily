@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T11:30:27.248847",
+  "date": "2026-02-04T12:45:11.895452",
   "patterns": {
     "multimodal_research": [
       {
@@ -803,6 +803,10 @@
         "url": "https://arxiv.org/abs/2602.03594v1"
       },
       {
+        "title": "1234Frede/v9SmolLM2-business-news-generator",
+        "url": "https://huggingface.co/1234Frede/v9SmolLM2-business-news-generator"
+      },
+      {
         "title": "Interpretable Logical Anomaly Classification via Constraint Decomposition and Instruction Fine-Tuning",
         "url": "https://arxiv.org/abs/2602.03530v1"
       },
@@ -817,6 +821,14 @@
       {
         "title": "Semantic Routing: Exploring Multi-Layer LLM Feature Weighting for Diffusion Transformers",
         "url": "https://arxiv.org/abs/2602.03510v1"
+      },
+      {
+        "title": "S-ukhanov/home_run_llm",
+        "url": "https://huggingface.co/S-ukhanov/home_run_llm"
+      },
+      {
+        "title": "taherimoalem/bert-agnews",
+        "url": "https://huggingface.co/taherimoalem/bert-agnews"
       }
     ],
     "vision_systems": [
@@ -847,6 +859,10 @@
       {
         "title": "DeepDFA: Injecting Temporal Logic in Deep Learning for Sequential Subsymbolic Applications",
         "url": "https://arxiv.org/abs/2602.03486v1"
+      },
+      {
+        "title": "huggingface/documentation-images",
+        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "SPWOOD: Sparse Partial Weakly-Supervised Oriented Object Detection",
@@ -1893,13 +1909,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1952,6 +1968,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 463
+    "total_papers": 467
   }
 }
