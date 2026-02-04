@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T19:37:12.690641",
+  "date": "2026-02-04T20:29:10.043085",
   "patterns": {
     "multimodal_research": [
       {
@@ -819,8 +819,24 @@
         "url": "https://arxiv.org/abs/2602.03510v1"
       },
       {
+        "title": "jerrywdlee/qwen3-4b-structured-output-lora-4-llm2025",
+        "url": "https://huggingface.co/jerrywdlee/qwen3-4b-structured-output-lora-4-llm2025"
+      },
+      {
+        "title": "akilachamathha/fake-review-bert-v3",
+        "url": "https://huggingface.co/akilachamathha/fake-review-bert-v3"
+      },
+      {
         "title": "amitca71/marabert2-levantine-hate-model",
         "url": "https://huggingface.co/amitca71/marabert2-levantine-hate-model"
+      },
+      {
+        "title": "RinKana/MiniGPT-30M-Wikipedia-Var1",
+        "url": "https://huggingface.co/RinKana/MiniGPT-30M-Wikipedia-Var1"
+      },
+      {
+        "title": "jmnlcruz-c3ai/reuters-gpt2-text-gen",
+        "url": "https://huggingface.co/jmnlcruz-c3ai/reuters-gpt2-text-gen"
       }
     ],
     "vision_systems": [
@@ -1097,8 +1113,8 @@
         "url": "https://arxiv.org/abs/2602.03785v1"
       },
       {
-        "title": "Nurburgring/BEYOND_REALITY_Z_IMAGE",
-        "url": "https://huggingface.co/Nurburgring/BEYOND_REALITY_Z_IMAGE"
+        "title": "alexlece/PontIA_Imagenes_Antiguas",
+        "url": "https://huggingface.co/alexlece/PontIA_Imagenes_Antiguas"
       }
     ],
     "reasoning": [
@@ -1873,8 +1889,8 @@
         "url": "https://arxiv.org/abs/2602.03760v1"
       },
       {
-        "title": "Sota26/Affine-48-5H6r8kWA5yfCF1LjEXQiR6tb2wuySqVZBKY6bkJpHYBCGW5o",
-        "url": "https://huggingface.co/Sota26/Affine-48-5H6r8kWA5yfCF1LjEXQiR6tb2wuySqVZBKY6bkJpHYBCGW5o"
+        "title": "Sota26/Affine-49-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw",
+        "url": "https://huggingface.co/Sota26/Affine-49-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw"
       }
     ]
   },
@@ -1905,7 +1921,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "104 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1964,6 +1980,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 466
+    "total_papers": 470
   }
 }
