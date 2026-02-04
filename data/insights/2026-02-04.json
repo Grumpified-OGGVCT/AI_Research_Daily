@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T08:35:11.732654",
+  "date": "2026-02-04T09:38:51.476474",
   "patterns": {
     "multimodal_research": [
       {
@@ -419,10 +419,6 @@
       {
         "title": "RAWDet-7: A Multi-Scenario Benchmark for Object Detection and Description on Quantized RAW Images",
         "url": "https://arxiv.org/abs/2602.03760v1"
-      },
-      {
-        "title": "asingh15/rl-4b-arc-abs-gemini-qwenmoejudge-step30-0125",
-        "url": "https://huggingface.co/asingh15/rl-4b-arc-abs-gemini-qwenmoejudge-step30-0125"
       }
     ],
     "language_models": [
@@ -807,10 +803,6 @@
         "url": "https://arxiv.org/abs/2602.03594v1"
       },
       {
-        "title": "zhang-qilong/ModernBERT-SG-News-Popularity-4k",
-        "url": "https://huggingface.co/zhang-qilong/ModernBERT-SG-News-Popularity-4k"
-      },
-      {
         "title": "Interpretable Logical Anomaly Classification via Constraint Decomposition and Instruction Fine-Tuning",
         "url": "https://arxiv.org/abs/2602.03530v1"
       },
@@ -827,12 +819,8 @@
         "url": "https://arxiv.org/abs/2602.03510v1"
       },
       {
-        "title": "Mahika2026/distilbert-imdb-sentiment-5k",
-        "url": "https://huggingface.co/Mahika2026/distilbert-imdb-sentiment-5k"
-      },
-      {
-        "title": "jasj2/distilbert-rotten-tomatoes",
-        "url": "https://huggingface.co/jasj2/distilbert-rotten-tomatoes"
+        "title": "jackreacher55/roberta-repro-hpt-v2",
+        "url": "https://huggingface.co/jackreacher55/roberta-repro-hpt-v2"
       }
     ],
     "vision_systems": [
@@ -863,6 +851,10 @@
       {
         "title": "DeepDFA: Injecting Temporal Logic in Deep Learning for Sequential Subsymbolic Applications",
         "url": "https://arxiv.org/abs/2602.03486v1"
+      },
+      {
+        "title": "huggingface/documentation-images",
+        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "SPWOOD: Sparse Partial Weakly-Supervised Oriented Object Detection",
@@ -1109,8 +1101,8 @@
         "url": "https://arxiv.org/abs/2602.03785v1"
       },
       {
-        "title": "toolevalxm/MedVisionNet-TestRepo",
-        "url": "https://huggingface.co/toolevalxm/MedVisionNet-TestRepo"
+        "title": "toolevalxm/MedVision-DiagnosticsAI-TestRepo",
+        "url": "https://huggingface.co/toolevalxm/MedVision-DiagnosticsAI-TestRepo"
       }
     ],
     "reasoning": [
@@ -1901,7 +1893,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1913,13 +1905,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "102 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1972,6 +1964,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 468
+    "total_papers": 466
   }
 }
