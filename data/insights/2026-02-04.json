@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-04T09:38:51.476474",
+  "date": "2026-02-04T10:34:56.739481",
   "patterns": {
     "multimodal_research": [
       {
@@ -803,6 +803,10 @@
         "url": "https://arxiv.org/abs/2602.03594v1"
       },
       {
+        "title": "1234Frede/v6SmolLM2-business-news-generator",
+        "url": "https://huggingface.co/1234Frede/v6SmolLM2-business-news-generator"
+      },
+      {
         "title": "Interpretable Logical Anomaly Classification via Constraint Decomposition and Instruction Fine-Tuning",
         "url": "https://arxiv.org/abs/2602.03530v1"
       },
@@ -819,8 +823,12 @@
         "url": "https://arxiv.org/abs/2602.03510v1"
       },
       {
-        "title": "jackreacher55/roberta-repro-hpt-v2",
-        "url": "https://huggingface.co/jackreacher55/roberta-repro-hpt-v2"
+        "title": "fenyo/gpt-oss-20b-FAQ-MES-mxfp4",
+        "url": "https://huggingface.co/fenyo/gpt-oss-20b-FAQ-MES-mxfp4"
+      },
+      {
+        "title": "satoyutaka/llm2025_main-400",
+        "url": "https://huggingface.co/satoyutaka/llm2025_main-400"
       }
     ],
     "vision_systems": [
@@ -851,10 +859,6 @@
       {
         "title": "DeepDFA: Injecting Temporal Logic in Deep Learning for Sequential Subsymbolic Applications",
         "url": "https://arxiv.org/abs/2602.03486v1"
-      },
-      {
-        "title": "huggingface/documentation-images",
-        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "SPWOOD: Sparse Partial Weakly-Supervised Oriented Object Detection",
@@ -1099,10 +1103,6 @@
       {
         "title": "From Pre- to Intra-operative MRI: Predicting Brain Shift in Temporal Lobe Resection for Epilepsy Surgery",
         "url": "https://arxiv.org/abs/2602.03785v1"
-      },
-      {
-        "title": "toolevalxm/MedVision-DiagnosticsAI-TestRepo",
-        "url": "https://huggingface.co/toolevalxm/MedVision-DiagnosticsAI-TestRepo"
       }
     ],
     "reasoning": [
@@ -1905,13 +1905,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1951,13 +1951,13 @@
       "significance": "high"
     },
     {
-      "topic": "vision",
+      "topic": "reasoning",
       "frequency": 40,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 40,
+      "topic": "vision",
+      "frequency": 39,
       "significance": "high"
     }
   ],
