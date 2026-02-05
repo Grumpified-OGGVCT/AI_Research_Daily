@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-05T06:52:31.762346",
+  "date": "2026-02-05T07:47:12.515963",
   "patterns": {
     "multimodal_research": [
       {
@@ -1023,6 +1023,14 @@
       {
         "title": "A labeled dataset of simulated phlebotomy procedures for medical AI: polygon annotations for object detection and human-object interaction",
         "url": "https://arxiv.org/abs/2602.04624v1"
+      },
+      {
+        "title": "rmtlabs/s-ai-cv-microsoft-phi-4-adapter-v3",
+        "url": "https://huggingface.co/rmtlabs/s-ai-cv-microsoft-phi-4-adapter-v3"
+      },
+      {
+        "title": "QuangTuan/MultiMood-7B-GRPO-VisualAudioText-Comp",
+        "url": "https://huggingface.co/QuangTuan/MultiMood-7B-GRPO-VisualAudioText-Comp"
       }
     ],
     "reasoning": [
@@ -1687,7 +1695,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1723,7 +1731,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 36,
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1740,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 412
   }
 }
