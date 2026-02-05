@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-05T10:36:29.800091",
+  "date": "2026-02-05T11:32:31.903668",
   "patterns": {
     "multimodal_research": [
       {
@@ -767,16 +767,16 @@
         "url": "https://arxiv.org/abs/2602.04657v1"
       },
       {
-        "title": "humair025/smollm2-globe-finetune",
-        "url": "https://huggingface.co/humair025/smollm2-globe-finetune"
+        "title": "estelleguniutrecht/distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/estelleguniutrecht/distilbert-base-uncased-finetuned-emotion"
       },
       {
-        "title": "Mariyana19/distilbert-base-uncased-finetuned-emotion",
-        "url": "https://huggingface.co/Mariyana19/distilbert-base-uncased-finetuned-emotion"
+        "title": "Kierandh/distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/Kierandh/distilbert-base-uncased-finetuned-emotion"
       },
       {
-        "title": "Finisha-F-scratch/ProtoLLM-bitnet-2b",
-        "url": "https://huggingface.co/Finisha-F-scratch/ProtoLLM-bitnet-2b"
+        "title": "Chattso-GPT/sft-exp006-mix-qwen3-4b",
+        "url": "https://huggingface.co/Chattso-GPT/sft-exp006-mix-qwen3-4b"
       }
     ],
     "vision_systems": [
@@ -1037,8 +1037,12 @@
         "url": "https://arxiv.org/abs/2602.04624v1"
       },
       {
-        "title": "tmp-org/tmp_cv_model_content_2026_01_12_0",
-        "url": "https://huggingface.co/tmp-org/tmp_cv_model_content_2026_01_12_0"
+        "title": "GuangyuanSD/Z-Image-Distilled",
+        "url": "https://huggingface.co/GuangyuanSD/Z-Image-Distilled"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1703,7 +1707,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 415
   }
 }
