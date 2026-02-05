@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-05T07:47:12.515963",
+  "date": "2026-02-05T08:37:28.655690",
   "patterns": {
     "multimodal_research": [
       {
@@ -765,6 +765,14 @@
       {
         "title": "PIO-FVLM: Rethinking Training-Free Visual Token Reduction for VLM Acceleration from an Inference-Objective Perspective",
         "url": "https://arxiv.org/abs/2602.04657v1"
+      },
+      {
+        "title": "Chattso-GPT/exp007-dpo-fixed",
+        "url": "https://huggingface.co/Chattso-GPT/exp007-dpo-fixed"
+      },
+      {
+        "title": "humair025/smollm2-globe-finetune",
+        "url": "https://huggingface.co/humair025/smollm2-globe-finetune"
       }
     ],
     "vision_systems": [
@@ -1023,14 +1031,6 @@
       {
         "title": "A labeled dataset of simulated phlebotomy procedures for medical AI: polygon annotations for object detection and human-object interaction",
         "url": "https://arxiv.org/abs/2602.04624v1"
-      },
-      {
-        "title": "rmtlabs/s-ai-cv-microsoft-phi-4-adapter-v3",
-        "url": "https://huggingface.co/rmtlabs/s-ai-cv-microsoft-phi-4-adapter-v3"
-      },
-      {
-        "title": "QuangTuan/MultiMood-7B-GRPO-VisualAudioText-Comp",
-        "url": "https://huggingface.co/QuangTuan/MultiMood-7B-GRPO-VisualAudioText-Comp"
       }
     ],
     "reasoning": [
@@ -1689,13 +1689,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "66 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1731,7 +1731,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 37,
+      "frequency": 36,
       "significance": "high"
     },
     {
