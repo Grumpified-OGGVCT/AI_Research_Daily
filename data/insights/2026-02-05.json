@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-05T05:53:13.817542",
+  "date": "2026-02-05T06:52:31.762346",
   "patterns": {
     "multimodal_research": [
       {
@@ -765,10 +765,6 @@
       {
         "title": "PIO-FVLM: Rethinking Training-Free Visual Token Reduction for VLM Acceleration from an Inference-Objective Perspective",
         "url": "https://arxiv.org/abs/2602.04657v1"
-      },
-      {
-        "title": "Das-nrhr/llm-advanced-2025-01",
-        "url": "https://huggingface.co/Das-nrhr/llm-advanced-2025-01"
       }
     ],
     "vision_systems": [
@@ -1649,10 +1645,6 @@
         "url": "https://arxiv.org/abs/2602.04441v1"
       },
       {
-        "title": "Sota26/Affine-52-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw",
-        "url": "https://huggingface.co/Sota26/Affine-52-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw"
-      },
-      {
         "title": "Annotation Free Spacecraft Detection and Segmentation using Vision Language Models",
         "url": "https://arxiv.org/abs/2602.04699v1"
       },
@@ -1689,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1713,7 +1705,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "91 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1748,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 410
   }
 }
