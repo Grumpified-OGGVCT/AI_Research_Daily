@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-05T19:35:50.698906",
+  "date": "2026-02-05T20:28:23.776877",
   "patterns": {
     "multimodal_research": [
       {
@@ -371,6 +371,14 @@
       {
         "title": "PIO-FVLM: Rethinking Training-Free Visual Token Reduction for VLM Acceleration from an Inference-Objective Perspective",
         "url": "https://arxiv.org/abs/2602.04657v1"
+      },
+      {
+        "title": "jonathanli/ling-mini-2.0-base-smoe",
+        "url": "https://huggingface.co/jonathanli/ling-mini-2.0-base-smoe"
+      },
+      {
+        "title": "jonathanli/ling-mini-2.0-smoe",
+        "url": "https://huggingface.co/jonathanli/ling-mini-2.0-smoe"
       }
     ],
     "language_models": [
@@ -1025,8 +1033,8 @@
         "url": "https://arxiv.org/abs/2602.04624v1"
       },
       {
-        "title": "toolevalxm/MedVisionAI-TestRepo",
-        "url": "https://huggingface.co/toolevalxm/MedVisionAI-TestRepo"
+        "title": "Alelcv27/Qwen2.5-7B-Ties-v1",
+        "url": "https://huggingface.co/Alelcv27/Qwen2.5-7B-Ties-v1"
       }
     ],
     "reasoning": [
@@ -1673,7 +1681,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "67 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,7 +1740,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 34,
+      "frequency": 33,
       "significance": "high"
     },
     {
@@ -1744,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 413
   }
 }
