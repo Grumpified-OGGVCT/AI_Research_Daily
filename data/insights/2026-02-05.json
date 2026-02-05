@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-05T15:37:33.676184",
+  "date": "2026-02-05T16:41:25.256400",
   "patterns": {
     "multimodal_research": [
       {
@@ -371,10 +371,6 @@
       {
         "title": "PIO-FVLM: Rethinking Training-Free Visual Token Reduction for VLM Acceleration from an Inference-Objective Perspective",
         "url": "https://arxiv.org/abs/2602.04657v1"
-      },
-      {
-        "title": "PrudhviManikanta/skin-disease-efficientnet-multiclass",
-        "url": "https://huggingface.co/PrudhviManikanta/skin-disease-efficientnet-multiclass"
       }
     ],
     "language_models": [
@@ -769,14 +765,6 @@
       {
         "title": "PIO-FVLM: Rethinking Training-Free Visual Token Reduction for VLM Acceleration from an Inference-Objective Perspective",
         "url": "https://arxiv.org/abs/2602.04657v1"
-      },
-      {
-        "title": "lmedz/llm20205-qwen3-4b-lr2e-05-ep1-20260205-1500",
-        "url": "https://huggingface.co/lmedz/llm20205-qwen3-4b-lr2e-05-ep1-20260205-1500"
-      },
-      {
-        "title": "circlemachinelearning/email-status-models-deberta-new-multitask",
-        "url": "https://huggingface.co/circlemachinelearning/email-status-models-deberta-new-multitask"
       }
     ],
     "vision_systems": [
@@ -1035,10 +1023,6 @@
       {
         "title": "A labeled dataset of simulated phlebotomy procedures for medical AI: polygon annotations for object detection and human-object interaction",
         "url": "https://arxiv.org/abs/2602.04624v1"
-      },
-      {
-        "title": "Alelcv27/Llama3.1-8B-Model-Stock-v1",
-        "url": "https://huggingface.co/Alelcv27/Llama3.1-8B-Model-Stock-v1"
       }
     ],
     "reasoning": [
@@ -1667,6 +1651,10 @@
       {
         "title": "VISTA-Bench: Do Vision-Language Models Really Understand Visualized Text as Well as Pure Text?",
         "url": "https://arxiv.org/abs/2602.04802v1"
+      },
+      {
+        "title": "shareit/chatbot-evaluation-hf880",
+        "url": "https://huggingface.co/shareit/chatbot-evaluation-hf880"
       }
     ]
   },
@@ -1685,7 +1673,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "68 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,13 +1685,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1721,7 +1709,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "90 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1756,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 411
   }
 }
