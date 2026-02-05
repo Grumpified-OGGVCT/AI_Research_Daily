@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-05T17:44:24.149557",
+  "date": "2026-02-05T18:42:26.493306",
   "patterns": {
     "multimodal_research": [
       {
@@ -767,8 +767,12 @@
         "url": "https://arxiv.org/abs/2602.04657v1"
       },
       {
-        "title": "ggg-llms-team/TuQwen3-LR1e5-irm-cp087",
-        "url": "https://huggingface.co/ggg-llms-team/TuQwen3-LR1e5-irm-cp087"
+        "title": "jmnlcruz-c3ai/reuters-gpt2-text-gen",
+        "url": "https://huggingface.co/jmnlcruz-c3ai/reuters-gpt2-text-gen"
+      },
+      {
+        "title": "Sanneeeeeeeee/distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/Sanneeeeeeeee/distilbert-base-uncased-finetuned-emotion"
       }
     ],
     "vision_systems": [
@@ -1027,6 +1031,18 @@
       {
         "title": "A labeled dataset of simulated phlebotomy procedures for medical AI: polygon annotations for object detection and human-object interaction",
         "url": "https://arxiv.org/abs/2602.04624v1"
+      },
+      {
+        "title": "GuangyuanSD/Z-Image-Distilled",
+        "url": "https://huggingface.co/GuangyuanSD/Z-Image-Distilled"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      {
+        "title": "Alelcv27/Qwen2.5-7B-Dare-Ties-v1",
+        "url": "https://huggingface.co/Alelcv27/Qwen2.5-7B-Dare-Ties-v1"
       }
     ],
     "reasoning": [
@@ -1293,6 +1309,10 @@
       {
         "title": "LitS: A novel Neighborhood Descriptor for Point Clouds",
         "url": "https://arxiv.org/abs/2602.04838v1"
+      },
+      {
+        "title": "DevQuasar/TeichAI.GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF",
+        "url": "https://huggingface.co/DevQuasar/TeichAI.GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF"
       }
     ],
     "benchmarks": [
@@ -1685,19 +1705,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1737,13 +1757,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 31,
+      "frequency": 32,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 416
   }
 }
