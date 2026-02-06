@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-06T20:28:37.693653",
+  "date": "2026-02-06T21:26:50.868276",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,20 +707,16 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "MuXodious/gpt-oss-20b-absolute-heresy-GGUF",
-        "url": "https://huggingface.co/MuXodious/gpt-oss-20b-absolute-heresy-GGUF"
-      },
-      {
-        "title": "Neelectric/SmolLM2-135M_SFT_sciencev00.01",
-        "url": "https://huggingface.co/Neelectric/SmolLM2-135M_SFT_sciencev00.01"
-      },
-      {
-        "title": "MuXodious/gpt-oss-20b-absolute-heresy-mlx-MXFP4",
-        "url": "https://huggingface.co/MuXodious/gpt-oss-20b-absolute-heresy-mlx-MXFP4"
-      },
-      {
         "title": "aifeifei798/EuroLLM-22B-Instruct-2512-FT",
         "url": "https://huggingface.co/aifeifei798/EuroLLM-22B-Instruct-2512-FT"
+      },
+      {
+        "title": "AkCh12/claim-extractor-deberta-v3",
+        "url": "https://huggingface.co/AkCh12/claim-extractor-deberta-v3"
+      },
+      {
+        "title": "MuXodious/gpt-oss-20b-absolute-heresy-GGUF",
+        "url": "https://huggingface.co/MuXodious/gpt-oss-20b-absolute-heresy-GGUF"
       }
     ],
     "vision_systems": [
@@ -1267,8 +1263,8 @@
         "url": "https://arxiv.org/abs/2602.05668v1"
       },
       {
-        "title": "Ma7ee7/Qwen2.5-1.5b-reasoning_16bit",
-        "url": "https://huggingface.co/Ma7ee7/Qwen2.5-1.5b-reasoning_16bit"
+        "title": "AxionLab-Co/DogeAI-v2.0-4B-Reasoning-LoRA",
+        "url": "https://huggingface.co/AxionLab-Co/DogeAI-v2.0-4B-Reasoning-LoRA"
       }
     ],
     "benchmarks": [
@@ -1689,7 +1685,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 411
   }
 }
