@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-06T22:19:11.500602",
+  "date": "2026-02-06T23:21:13.670846",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,6 +707,14 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
+        "title": "MuXodious/gpt-oss-120b-tainted-heresy",
+        "url": "https://huggingface.co/MuXodious/gpt-oss-120b-tainted-heresy"
+      },
+      {
+        "title": "MuXodious/gpt-oss-120b-impotent-heresy",
+        "url": "https://huggingface.co/MuXodious/gpt-oss-120b-impotent-heresy"
+      },
+      {
         "title": "aifeifei798/EuroLLM-22B-Instruct-2512-FT",
         "url": "https://huggingface.co/aifeifei798/EuroLLM-22B-Instruct-2512-FT"
       }
@@ -939,6 +947,10 @@
       {
         "title": "Pathwise Test-Time Correction for Autoregressive Long Video Generation",
         "url": "https://arxiv.org/abs/2602.05871v1"
+      },
+      {
+        "title": "easygoing0114/Z-Image_clear_photoreal",
+        "url": "https://huggingface.co/easygoing0114/Z-Image_clear_photoreal"
       },
       {
         "title": "huggingface/DEH-image-scan-data",
@@ -1677,13 +1689,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 412
   }
 }
