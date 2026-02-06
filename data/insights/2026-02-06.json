@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-06T08:36:22.098230",
+  "date": "2026-02-06T09:38:21.539424",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,18 +705,6 @@
       {
         "title": "VisRefiner: Learning from Visual Differences for Screenshot-to-Code Generation",
         "url": "https://arxiv.org/abs/2602.05998v1"
-      },
-      {
-        "title": "kamaboko2007/LLM_main_003_DPO",
-        "url": "https://huggingface.co/kamaboko2007/LLM_main_003_DPO"
-      },
-      {
-        "title": "AF0815/LLM_ouyou1",
-        "url": "https://huggingface.co/AF0815/LLM_ouyou1"
-      },
-      {
-        "title": "tegarganang/ft-mental-gpt2-base-mental-health-counseling",
-        "url": "https://huggingface.co/tegarganang/ft-mental-gpt2-base-mental-health-counseling"
       }
     ],
     "vision_systems": [
@@ -1681,7 +1669,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 407
   }
 }
