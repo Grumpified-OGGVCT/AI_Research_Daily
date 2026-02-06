@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-06T12:44:57.315425",
+  "date": "2026-02-06T13:59:39.225694",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,12 +707,12 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "1234Frede/v10SmolLM2-business-news-generator",
-        "url": "https://huggingface.co/1234Frede/v10SmolLM2-business-news-generator"
+        "title": "1234Frede/BADv3SmolLM2-business-news-generator",
+        "url": "https://huggingface.co/1234Frede/BADv3SmolLM2-business-news-generator"
       },
       {
-        "title": "adalberto-temp/qwen-2.5-7b-instruct-SDFT",
-        "url": "https://huggingface.co/adalberto-temp/qwen-2.5-7b-instruct-SDFT"
+        "title": "1234Frede/BADv4SmolLM2-business-news-generator",
+        "url": "https://huggingface.co/1234Frede/BADv4SmolLM2-business-news-generator"
       }
     ],
     "vision_systems": [
@@ -943,6 +943,14 @@
       {
         "title": "Pathwise Test-Time Correction for Autoregressive Long Video Generation",
         "url": "https://arxiv.org/abs/2602.05871v1"
+      },
+      {
+        "title": "Alelcv27/Qwen2.5-7B-Ties-v1",
+        "url": "https://huggingface.co/Alelcv27/Qwen2.5-7B-Ties-v1"
+      },
+      {
+        "title": "lichorosario/add-textures-v2-qwen-image-edit-2511",
+        "url": "https://huggingface.co/lichorosario/add-textures-v2-qwen-image-edit-2511"
       }
     ],
     "reasoning": [
@@ -1683,7 +1691,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "57 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 411
   }
 }
