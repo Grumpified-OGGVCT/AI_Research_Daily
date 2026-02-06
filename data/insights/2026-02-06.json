@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-06T15:36:05.791450",
+  "date": "2026-02-06T16:38:36.169397",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,18 +705,6 @@
       {
         "title": "VisRefiner: Learning from Visual Differences for Screenshot-to-Code Generation",
         "url": "https://arxiv.org/abs/2602.05998v1"
-      },
-      {
-        "title": "1234Frede/v13SmolLM2-business-news-generator",
-        "url": "https://huggingface.co/1234Frede/v13SmolLM2-business-news-generator"
-      },
-      {
-        "title": "sallm/dpo_1-qwen-cot-merged",
-        "url": "https://huggingface.co/sallm/dpo_1-qwen-cot-merged"
-      },
-      {
-        "title": "Chattso-GPT/qwen3-4b-balanced-sft-15k-lora",
-        "url": "https://huggingface.co/Chattso-GPT/qwen3-4b-balanced-sft-15k-lora"
       }
     ],
     "vision_systems": [
@@ -1681,7 +1669,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 407
   }
 }
