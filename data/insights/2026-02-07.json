@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T20:21:40.944187",
+  "date": "2026-02-07T21:21:54.125866",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,8 +707,8 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "amitca71/marbert_frozen_final",
-        "url": "https://huggingface.co/amitca71/marbert_frozen_final"
+        "title": "rajkumar4466/bert-agnews-classifier_model",
+        "url": "https://huggingface.co/rajkumar4466/bert-agnews-classifier_model"
       }
     ],
     "vision_systems": [
@@ -939,6 +939,10 @@
       {
         "title": "Pathwise Test-Time Correction for Autoregressive Long Video Generation",
         "url": "https://arxiv.org/abs/2602.05871v1"
+      },
+      {
+        "title": "davidberenstein1957/p-image-edit-loras",
+        "url": "https://huggingface.co/davidberenstein1957/p-image-edit-loras"
       }
     ],
     "reasoning": [
@@ -1679,7 +1683,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "57 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 409
   }
 }
