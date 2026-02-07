@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T06:36:10.171110",
+  "date": "2026-02-07T07:29:12.747060",
   "patterns": {
     "multimodal_research": [
       {
@@ -335,6 +335,10 @@
       {
         "title": "Variable Search Stepsize for Randomized Local Search in Multi-Objective Combinatorial Optimization",
         "url": "https://arxiv.org/abs/2602.05675v1"
+      },
+      {
+        "title": "Sankalp0702/T2_alzheimers-mri-efficientnet",
+        "url": "https://huggingface.co/Sankalp0702/T2_alzheimers-mri-efficientnet"
       }
     ],
     "language_models": [
@@ -707,8 +711,16 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "isop90/distilbert-pt-cased-essasys-score-first-model-training",
-        "url": "https://huggingface.co/isop90/distilbert-pt-cased-essasys-score-first-model-training"
+        "title": "zhuojing-huang/gpt2-spanish-english-bi-vocab-mono",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-spanish-english-bi-vocab-mono"
+      },
+      {
+        "title": "happyalex12/kobert-ad-filter",
+        "url": "https://huggingface.co/happyalex12/kobert-ad-filter"
+      },
+      {
+        "title": "jin-cheon/distilbert-base-uncased-finetuned-clinc",
+        "url": "https://huggingface.co/jin-cheon/distilbert-base-uncased-finetuned-clinc"
       }
     ],
     "vision_systems": [
@@ -1253,10 +1265,6 @@
       {
         "title": "Stable but Wrong: When More Data Degrades Scientific Conclusions",
         "url": "https://arxiv.org/abs/2602.05668v1"
-      },
-      {
-        "title": "Ma7ee7/Qwen2.5-1.5b-reasoning-V2_16bit",
-        "url": "https://huggingface.co/Ma7ee7/Qwen2.5-1.5b-reasoning-V2_16bit"
       }
     ],
     "benchmarks": [
@@ -1665,7 +1673,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "57 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1677,7 +1685,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1689,7 +1697,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "79 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1723,12 +1731,12 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 39,
+      "topic": "architecture",
+      "frequency": 38,
       "significance": "high"
     },
     {
-      "topic": "architecture",
+      "topic": "reasoning",
       "frequency": 38,
       "significance": "high"
     }
@@ -1736,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 411
   }
 }
