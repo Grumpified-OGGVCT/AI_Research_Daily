@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T07:29:12.747060",
+  "date": "2026-02-07T08:25:26.743836",
   "patterns": {
     "multimodal_research": [
       {
@@ -335,10 +335,6 @@
       {
         "title": "Variable Search Stepsize for Randomized Local Search in Multi-Objective Combinatorial Optimization",
         "url": "https://arxiv.org/abs/2602.05675v1"
-      },
-      {
-        "title": "Sankalp0702/T2_alzheimers-mri-efficientnet",
-        "url": "https://huggingface.co/Sankalp0702/T2_alzheimers-mri-efficientnet"
       }
     ],
     "language_models": [
@@ -711,16 +707,16 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "zhuojing-huang/gpt2-spanish-english-bi-vocab-mono",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-spanish-english-bi-vocab-mono"
-      },
-      {
-        "title": "happyalex12/kobert-ad-filter",
-        "url": "https://huggingface.co/happyalex12/kobert-ad-filter"
-      },
-      {
         "title": "jin-cheon/distilbert-base-uncased-finetuned-clinc",
         "url": "https://huggingface.co/jin-cheon/distilbert-base-uncased-finetuned-clinc"
+      },
+      {
+        "title": "satoshidoi/llm-final-lora",
+        "url": "https://huggingface.co/satoshidoi/llm-final-lora"
+      },
+      {
+        "title": "naru0411/LLM-competition-SFT-DPO",
+        "url": "https://huggingface.co/naru0411/LLM-competition-SFT-DPO"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1669,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 410
   }
 }
