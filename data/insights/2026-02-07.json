@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T22:21:26.495894",
+  "date": "2026-02-07T23:25:09.000623",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,6 +705,22 @@
       {
         "title": "VisRefiner: Learning from Visual Differences for Screenshot-to-Code Generation",
         "url": "https://arxiv.org/abs/2602.05998v1"
+      },
+      {
+        "title": "satoyutaka/LLM2025_main_0_DPO11",
+        "url": "https://huggingface.co/satoyutaka/LLM2025_main_0_DPO11"
+      },
+      {
+        "title": "umsa-v1/model_Smollm2_grupo3_final",
+        "url": "https://huggingface.co/umsa-v1/model_Smollm2_grupo3_final"
+      },
+      {
+        "title": "yuanaki/qwen3-4b-structured-output-lora-llm2025-trial",
+        "url": "https://huggingface.co/yuanaki/qwen3-4b-structured-output-lora-llm2025-trial"
+      },
+      {
+        "title": "Das-nrhr/llm-advanced-2025-lora-data1-2_v1",
+        "url": "https://huggingface.co/Das-nrhr/llm-advanced-2025-lora-data1-2_v1"
       }
     ],
     "vision_systems": [
@@ -937,8 +953,8 @@
         "url": "https://arxiv.org/abs/2602.05871v1"
       },
       {
-        "title": "davidberenstein1957/p-image-edit-loras",
-        "url": "https://huggingface.co/davidberenstein1957/p-image-edit-loras"
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1253,10 +1269,6 @@
       {
         "title": "Stable but Wrong: When More Data Degrades Scientific Conclusions",
         "url": "https://arxiv.org/abs/2602.05668v1"
-      },
-      {
-        "title": "nexaaii/MedGemma-V2-Reasoning",
-        "url": "https://huggingface.co/nexaaii/MedGemma-V2-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1677,7 +1689,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1689,7 +1701,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "79 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1723,12 +1735,12 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 39,
+      "topic": "architecture",
+      "frequency": 38,
       "significance": "high"
     },
     {
-      "topic": "architecture",
+      "topic": "reasoning",
       "frequency": 38,
       "significance": "high"
     }
@@ -1736,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 412
   }
 }
