@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-07T01:25:38.907103",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "admijgjtjtjtjjg/Unified-LLM-V727-expanded-gemma3-distilled",
+        "url": "https://huggingface.co/admijgjtjtjtjjg/Unified-LLM-V727-expanded-gemma3-distilled"
+      },
+      {
+        "title": "kamaboko2007/LLM2025_main_003_full",
+        "url": "https://huggingface.co/kamaboko2007/LLM2025_main_003_full"
+      },
+      {
+        "title": "DavidAU/OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-MXFP4",
+        "url": "https://huggingface.co/DavidAU/OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-MXFP4"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
+  }
+}
