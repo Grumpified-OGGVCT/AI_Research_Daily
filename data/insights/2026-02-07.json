@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T05:38:52.547448",
+  "date": "2026-02-07T06:36:10.171110",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,8 +707,8 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "Nao-Taka/LLM-compe2025winter",
-        "url": "https://huggingface.co/Nao-Taka/LLM-compe2025winter"
+        "title": "isop90/distilbert-pt-cased-essasys-score-first-model-training",
+        "url": "https://huggingface.co/isop90/distilbert-pt-cased-essasys-score-first-model-training"
       }
     ],
     "vision_systems": [
@@ -1253,6 +1253,10 @@
       {
         "title": "Stable but Wrong: When More Data Degrades Scientific Conclusions",
         "url": "https://arxiv.org/abs/2602.05668v1"
+      },
+      {
+        "title": "Ma7ee7/Qwen2.5-1.5b-reasoning-V2_16bit",
+        "url": "https://huggingface.co/Ma7ee7/Qwen2.5-1.5b-reasoning-V2_16bit"
       }
     ],
     "benchmarks": [
@@ -1685,7 +1689,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1719,12 +1723,12 @@
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 38,
+      "topic": "reasoning",
+      "frequency": 39,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "architecture",
       "frequency": 38,
       "significance": "high"
     }
@@ -1732,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 409
   }
 }
