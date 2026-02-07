@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T18:27:57.352849",
+  "date": "2026-02-07T19:21:09.347889",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,24 +707,8 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "FayeSpi/GLM-4.7-Flash-GPTQ-4bit",
-        "url": "https://huggingface.co/FayeSpi/GLM-4.7-Flash-GPTQ-4bit"
-      },
-      {
-        "title": "fieldvalley-llm2025/main_rev2_sft04_merged",
-        "url": "https://huggingface.co/fieldvalley-llm2025/main_rev2_sft04_merged"
-      },
-      {
-        "title": "teixeira-alberto/llama31-8b-lora-full-otimizado",
-        "url": "https://huggingface.co/teixeira-alberto/llama31-8b-lora-full-otimizado"
-      },
-      {
-        "title": "teixeira-alberto/llama31-8b-lora-full",
-        "url": "https://huggingface.co/teixeira-alberto/llama31-8b-lora-full"
-      },
-      {
-        "title": "teixeira-alberto/llama31-8b-lora-attention",
-        "url": "https://huggingface.co/teixeira-alberto/llama31-8b-lora-attention"
+        "title": "skhan225/RoBERTa_distilled_HPV",
+        "url": "https://huggingface.co/skhan225/RoBERTa_distilled_HPV"
       }
     ],
     "vision_systems": [
@@ -955,6 +939,10 @@
       {
         "title": "Pathwise Test-Time Correction for Autoregressive Long Video Generation",
         "url": "https://arxiv.org/abs/2602.05871v1"
+      },
+      {
+        "title": "lichorosario/panorama-v2-qwen-image-2512",
+        "url": "https://huggingface.co/lichorosario/panorama-v2-qwen-image-2512"
       }
     ],
     "reasoning": [
@@ -1689,13 +1677,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "57 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1721,7 +1709,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 71,
+      "frequency": 72,
       "significance": "high"
     },
     {
@@ -1748,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 409
   }
 }
