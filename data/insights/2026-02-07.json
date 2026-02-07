@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T11:18:42.579499",
+  "date": "2026-02-07T12:35:33.081953",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,30 +705,6 @@
       {
         "title": "VisRefiner: Learning from Visual Differences for Screenshot-to-Code Generation",
         "url": "https://arxiv.org/abs/2602.05998v1"
-      },
-      {
-        "title": "librarian-bots/arxiv-new-datasets-modernbert-v4",
-        "url": "https://huggingface.co/librarian-bots/arxiv-new-datasets-modernbert-v4"
-      },
-      {
-        "title": "centmount/2025llm-sft-lora-repo",
-        "url": "https://huggingface.co/centmount/2025llm-sft-lora-repo"
-      },
-      {
-        "title": "MuXodious/gpt-oss-120b-tainted-heresy",
-        "url": "https://huggingface.co/MuXodious/gpt-oss-120b-tainted-heresy"
-      },
-      {
-        "title": "asadullahshehbaz/distilbert-ecommerce-sentiment",
-        "url": "https://huggingface.co/asadullahshehbaz/distilbert-ecommerce-sentiment"
-      },
-      {
-        "title": "ryo-llm/qwen3-4b-structured-output-lora-202602071923",
-        "url": "https://huggingface.co/ryo-llm/qwen3-4b-structured-output-lora-202602071923"
-      },
-      {
-        "title": "clasic/product-review-sentiment-distilbert",
-        "url": "https://huggingface.co/clasic/product-review-sentiment-distilbert"
       }
     ],
     "vision_systems": [
@@ -1273,6 +1249,10 @@
       {
         "title": "Stable but Wrong: When More Data Degrades Scientific Conclusions",
         "url": "https://arxiv.org/abs/2602.05668v1"
+      },
+      {
+        "title": "SpecialPatrolGroup/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning-IQ4_NL-GGUF",
+        "url": "https://huggingface.co/SpecialPatrolGroup/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning-IQ4_NL-GGUF"
       }
     ],
     "benchmarks": [
@@ -1693,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1705,7 +1685,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1739,12 +1719,12 @@
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 38,
+      "topic": "reasoning",
+      "frequency": 39,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "architecture",
       "frequency": 38,
       "significance": "high"
     }
@@ -1752,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 408
   }
 }
