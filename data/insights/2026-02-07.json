@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T13:41:11.154263",
+  "date": "2026-02-07T14:23:00.532868",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,8 +707,12 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "sallm/dpo_3-qwen-cot-merged",
-        "url": "https://huggingface.co/sallm/dpo_3-qwen-cot-merged"
+        "title": "Prummn/output_step_audio2_mini-encoder-align-llm-whole0130_signal_new1_dpdc-lora-1gpu-bs16_4_gckF_2e6",
+        "url": "https://huggingface.co/Prummn/output_step_audio2_mini-encoder-align-llm-whole0130_signal_new1_dpdc-lora-1gpu-bs16_4_gckF_2e6"
+      },
+      {
+        "title": "MuXodious/gpt-oss-20b-RichardErkhov-heresy",
+        "url": "https://huggingface.co/MuXodious/gpt-oss-20b-RichardErkhov-heresy"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 409
   }
 }
