@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T16:24:05.862135",
+  "date": "2026-02-07T17:23:43.549372",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,8 +707,8 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "kamaboko2007/LLM2025_main_004_full",
-        "url": "https://huggingface.co/kamaboko2007/LLM2025_main_004_full"
+        "title": "sallm/dpo_4-qwen-cot-merged",
+        "url": "https://huggingface.co/sallm/dpo_4-qwen-cot-merged"
       }
     ],
     "vision_systems": [
@@ -941,8 +941,12 @@
         "url": "https://arxiv.org/abs/2602.05871v1"
       },
       {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "tomascooler/affine-eagle1130-5DiD6vzmtQ8Jy6V6AsMAdxnheXcvF7J9yf61EyMQhDvbjLGf",
+        "url": "https://huggingface.co/tomascooler/affine-eagle1130-5DiD6vzmtQ8Jy6V6AsMAdxnheXcvF7J9yf61EyMQhDvbjLGf"
+      },
+      {
+        "title": "GuangyuanSD/Z-Image-Distilled",
+        "url": "https://huggingface.co/GuangyuanSD/Z-Image-Distilled"
       }
     ],
     "reasoning": [
@@ -1683,7 +1687,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 410
   }
 }
