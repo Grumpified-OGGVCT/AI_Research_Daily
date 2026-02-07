@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T08:25:26.743836",
+  "date": "2026-02-07T09:26:48.836257",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,16 +707,16 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "jin-cheon/distilbert-base-uncased-finetuned-clinc",
-        "url": "https://huggingface.co/jin-cheon/distilbert-base-uncased-finetuned-clinc"
+        "title": "jackreacher55/FacebookAI_roberta-base",
+        "url": "https://huggingface.co/jackreacher55/FacebookAI_roberta-base"
       },
       {
-        "title": "satoshidoi/llm-final-lora",
-        "url": "https://huggingface.co/satoshidoi/llm-final-lora"
+        "title": "plamentotev/llm-from-scratch",
+        "url": "https://huggingface.co/plamentotev/llm-from-scratch"
       },
       {
-        "title": "naru0411/LLM-competition-SFT-DPO",
-        "url": "https://huggingface.co/naru0411/LLM-competition-SFT-DPO"
+        "title": "motobrew/utokyo-llm-comp-dpo-v6",
+        "url": "https://huggingface.co/motobrew/utokyo-llm-comp-dpo-v6"
       }
     ],
     "vision_systems": [
@@ -947,6 +947,10 @@
       {
         "title": "Pathwise Test-Time Correction for Autoregressive Long Video Generation",
         "url": "https://arxiv.org/abs/2602.05871v1"
+      },
+      {
+        "title": "toolevalxm/MedVisionAI-TestRepo",
+        "url": "https://huggingface.co/toolevalxm/MedVisionAI-TestRepo"
       }
     ],
     "reasoning": [
@@ -1687,7 +1691,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "57 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 411
   }
 }
