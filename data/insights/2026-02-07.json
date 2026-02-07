@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T21:21:54.125866",
+  "date": "2026-02-07T22:21:26.495894",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,10 +705,6 @@
       {
         "title": "VisRefiner: Learning from Visual Differences for Screenshot-to-Code Generation",
         "url": "https://arxiv.org/abs/2602.05998v1"
-      },
-      {
-        "title": "rajkumar4466/bert-agnews-classifier_model",
-        "url": "https://huggingface.co/rajkumar4466/bert-agnews-classifier_model"
       }
     ],
     "vision_systems": [
@@ -1257,6 +1253,10 @@
       {
         "title": "Stable but Wrong: When More Data Degrades Scientific Conclusions",
         "url": "https://arxiv.org/abs/2602.05668v1"
+      },
+      {
+        "title": "nexaaii/MedGemma-V2-Reasoning",
+        "url": "https://huggingface.co/nexaaii/MedGemma-V2-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1677,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1689,7 +1689,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1723,12 +1723,12 @@
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 38,
+      "topic": "reasoning",
+      "frequency": 39,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "architecture",
       "frequency": 38,
       "significance": "high"
     }
