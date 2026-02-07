@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T09:26:48.836257",
+  "date": "2026-02-07T10:21:10.982523",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,16 +707,24 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "jackreacher55/FacebookAI_roberta-base",
-        "url": "https://huggingface.co/jackreacher55/FacebookAI_roberta-base"
+        "title": "ParkJuYeong/distilbert-base-uncased-finetuned-clinc",
+        "url": "https://huggingface.co/ParkJuYeong/distilbert-base-uncased-finetuned-clinc"
       },
       {
-        "title": "plamentotev/llm-from-scratch",
-        "url": "https://huggingface.co/plamentotev/llm-from-scratch"
+        "title": "gabrielloiseau/ModernBERT-base-privacy",
+        "url": "https://huggingface.co/gabrielloiseau/ModernBERT-base-privacy"
       },
       {
-        "title": "motobrew/utokyo-llm-comp-dpo-v6",
-        "url": "https://huggingface.co/motobrew/utokyo-llm-comp-dpo-v6"
+        "title": "fieldvalley-llm2025/llm2025_main_rev2_merged",
+        "url": "https://huggingface.co/fieldvalley-llm2025/llm2025_main_rev2_merged"
+      },
+      {
+        "title": "255yossya/matsuollm2025_main_lora_repo_v2",
+        "url": "https://huggingface.co/255yossya/matsuollm2025_main_lora_repo_v2"
+      },
+      {
+        "title": "AF0815/LLM_ouyou1",
+        "url": "https://huggingface.co/AF0815/LLM_ouyou1"
       }
     ],
     "vision_systems": [
@@ -947,10 +955,6 @@
       {
         "title": "Pathwise Test-Time Correction for Autoregressive Long Video Generation",
         "url": "https://arxiv.org/abs/2602.05871v1"
-      },
-      {
-        "title": "toolevalxm/MedVisionAI-TestRepo",
-        "url": "https://huggingface.co/toolevalxm/MedVisionAI-TestRepo"
       }
     ],
     "reasoning": [
@@ -1685,13 +1689,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 412
   }
 }
