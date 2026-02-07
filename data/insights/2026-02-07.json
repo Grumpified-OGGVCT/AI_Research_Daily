@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-07T10:21:10.982523",
+  "date": "2026-02-07T11:18:42.579499",
   "patterns": {
     "multimodal_research": [
       {
@@ -707,24 +707,28 @@
         "url": "https://arxiv.org/abs/2602.05998v1"
       },
       {
-        "title": "ParkJuYeong/distilbert-base-uncased-finetuned-clinc",
-        "url": "https://huggingface.co/ParkJuYeong/distilbert-base-uncased-finetuned-clinc"
+        "title": "librarian-bots/arxiv-new-datasets-modernbert-v4",
+        "url": "https://huggingface.co/librarian-bots/arxiv-new-datasets-modernbert-v4"
       },
       {
-        "title": "gabrielloiseau/ModernBERT-base-privacy",
-        "url": "https://huggingface.co/gabrielloiseau/ModernBERT-base-privacy"
+        "title": "centmount/2025llm-sft-lora-repo",
+        "url": "https://huggingface.co/centmount/2025llm-sft-lora-repo"
       },
       {
-        "title": "fieldvalley-llm2025/llm2025_main_rev2_merged",
-        "url": "https://huggingface.co/fieldvalley-llm2025/llm2025_main_rev2_merged"
+        "title": "MuXodious/gpt-oss-120b-tainted-heresy",
+        "url": "https://huggingface.co/MuXodious/gpt-oss-120b-tainted-heresy"
       },
       {
-        "title": "255yossya/matsuollm2025_main_lora_repo_v2",
-        "url": "https://huggingface.co/255yossya/matsuollm2025_main_lora_repo_v2"
+        "title": "asadullahshehbaz/distilbert-ecommerce-sentiment",
+        "url": "https://huggingface.co/asadullahshehbaz/distilbert-ecommerce-sentiment"
       },
       {
-        "title": "AF0815/LLM_ouyou1",
-        "url": "https://huggingface.co/AF0815/LLM_ouyou1"
+        "title": "ryo-llm/qwen3-4b-structured-output-lora-202602071923",
+        "url": "https://huggingface.co/ryo-llm/qwen3-4b-structured-output-lora-202602071923"
+      },
+      {
+        "title": "clasic/product-review-sentiment-distilbert",
+        "url": "https://huggingface.co/clasic/product-review-sentiment-distilbert"
       }
     ],
     "vision_systems": [
@@ -1689,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 413
   }
 }
