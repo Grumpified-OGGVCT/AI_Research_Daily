@@ -1,11 +1,33 @@
 {
-  "date": "2026-02-08T09:26:40.686755",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-02-08T10:21:57.116282",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Das-nrhr/llm-advanced-2025-lora-data1-1_v4",
+        "url": "https://huggingface.co/Das-nrhr/llm-advanced-2025-lora-data1-1_v4"
+      },
+      {
+        "title": "FayeSpi/GLM-4.7-Flash-GPTQ-4bit",
+        "url": "https://huggingface.co/FayeSpi/GLM-4.7-Flash-GPTQ-4bit"
+      },
+      {
+        "title": "flowupdown/bert-base-cased_drugsComTest_raw",
+        "url": "https://huggingface.co/flowupdown/bert-base-cased_drugsComTest_raw"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
