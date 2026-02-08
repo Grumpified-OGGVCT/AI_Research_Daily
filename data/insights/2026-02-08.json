@@ -1,11 +1,33 @@
 {
-  "date": "2026-02-08T02:01:46.121531",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-02-08T04:37:01.408720",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "zhuojing-huang/gpt2-german-english-bi-vocab-1",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-german-english-bi-vocab-1"
+      },
+      {
+        "title": "fieldvalley-llm2025/main_rev1_merged_dpo04",
+        "url": "https://huggingface.co/fieldvalley-llm2025/main_rev1_merged_dpo04"
+      },
+      {
+        "title": "fieldvalley-llm2025/main_merged_dpo04",
+        "url": "https://huggingface.co/fieldvalley-llm2025/main_merged_dpo04"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
