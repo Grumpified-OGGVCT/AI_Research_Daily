@@ -1,33 +1,45 @@
 {
-  "date": "2026-02-08T04:37:01.408720",
+  "date": "2026-02-08T05:59:38.061036",
   "patterns": {
     "language_models": [
       {
-        "title": "zhuojing-huang/gpt2-german-english-bi-vocab-1",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-german-english-bi-vocab-1"
+        "title": "saparbayev-azizbek/gpt2-instruct",
+        "url": "https://huggingface.co/saparbayev-azizbek/gpt2-instruct"
       },
       {
-        "title": "fieldvalley-llm2025/main_rev1_merged_dpo04",
-        "url": "https://huggingface.co/fieldvalley-llm2025/main_rev1_merged_dpo04"
+        "title": "ryo-llm/qwen3-4b-structured-output-lora-202602081454",
+        "url": "https://huggingface.co/ryo-llm/qwen3-4b-structured-output-lora-202602081454"
       },
       {
-        "title": "fieldvalley-llm2025/main_merged_dpo04",
-        "url": "https://huggingface.co/fieldvalley-llm2025/main_merged_dpo04"
+        "title": "mc-2000/Qwen3-4B-Instruct-2507_llm2025",
+        "url": "https://huggingface.co/mc-2000/Qwen3-4B-Instruct-2507_llm2025"
+      },
+      {
+        "title": "zhuojing-huang/gpt2-german-english-bi-vocab-42",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-german-english-bi-vocab-42"
+      },
+      {
+        "title": "zaburou/llm2025final_v2",
+        "url": "https://huggingface.co/zaburou/llm2025final_v2"
+      },
+      {
+        "title": "makotonlo/LLM2026_SFT_finalv5",
+        "url": "https://huggingface.co/makotonlo/LLM2026_SFT_finalv5"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
+      "observation": "6 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
     }
   ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 3
+    "total_papers": 6
   }
 }
