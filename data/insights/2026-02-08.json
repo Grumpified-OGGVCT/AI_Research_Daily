@@ -1,49 +1,11 @@
 {
-  "date": "2026-02-08T07:37:07.110327",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "zhuojing-huang/gpt2-spanish-english-bi-vocab-1",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-spanish-english-bi-vocab-1"
-      },
-      {
-        "title": "rungalileo/mistral-7b-instruct-v0.3-trtllm-ckpt-wq_int4_awq-kv_int8",
-        "url": "https://huggingface.co/rungalileo/mistral-7b-instruct-v0.3-trtllm-ckpt-wq_int4_awq-kv_int8"
-      },
-      {
-        "title": "rungalileo/llama-3.2-3B-instruct-trtllm-ckpt-wq_int4_awq-kv_int8",
-        "url": "https://huggingface.co/rungalileo/llama-3.2-3B-instruct-trtllm-ckpt-wq_int4_awq-kv_int8"
-      },
-      {
-        "title": "zaburou/llm2025final_v2",
-        "url": "https://huggingface.co/zaburou/llm2025final_v2"
-      },
-      {
-        "title": "zhuojing-huang/gpt2-japanese-english-bi-vocab-1",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-japanese-english-bi-vocab-1"
-      },
-      {
-        "title": "TSerizawa/llm-lecture-2025_sft_Qwen3-4B-Instruct-2507_structured_data_with_cot_dataset_512_v2_output_only",
-        "url": "https://huggingface.co/TSerizawa/llm-lecture-2025_sft_Qwen3-4B-Instruct-2507_structured_data_with_cot_dataset_512_v2_output_only"
-      },
-      {
-        "title": "elko0416/llm_compe_lora",
-        "url": "https://huggingface.co/elko0416/llm_compe_lora"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "7 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
-    }
-  ],
+  "date": "2026-02-08T08:27:46.940038",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 7
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
