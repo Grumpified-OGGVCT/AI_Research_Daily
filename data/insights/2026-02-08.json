@@ -1,22 +1,49 @@
 {
-  "date": "2026-02-08T06:52:07.042041",
+  "date": "2026-02-08T07:37:07.110327",
   "patterns": {
     "language_models": [
       {
-        "title": "acomagu/matsuollm2025-final-1",
-        "url": "https://huggingface.co/acomagu/matsuollm2025-final-1"
+        "title": "zhuojing-huang/gpt2-spanish-english-bi-vocab-1",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-spanish-english-bi-vocab-1"
       },
       {
-        "title": "Uranos8685/LLM-Advance-lora-repo_02",
-        "url": "https://huggingface.co/Uranos8685/LLM-Advance-lora-repo_02"
+        "title": "rungalileo/mistral-7b-instruct-v0.3-trtllm-ckpt-wq_int4_awq-kv_int8",
+        "url": "https://huggingface.co/rungalileo/mistral-7b-instruct-v0.3-trtllm-ckpt-wq_int4_awq-kv_int8"
+      },
+      {
+        "title": "rungalileo/llama-3.2-3B-instruct-trtllm-ckpt-wq_int4_awq-kv_int8",
+        "url": "https://huggingface.co/rungalileo/llama-3.2-3B-instruct-trtllm-ckpt-wq_int4_awq-kv_int8"
+      },
+      {
+        "title": "zaburou/llm2025final_v2",
+        "url": "https://huggingface.co/zaburou/llm2025final_v2"
+      },
+      {
+        "title": "zhuojing-huang/gpt2-japanese-english-bi-vocab-1",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-japanese-english-bi-vocab-1"
+      },
+      {
+        "title": "TSerizawa/llm-lecture-2025_sft_Qwen3-4B-Instruct-2507_structured_data_with_cot_dataset_512_v2_output_only",
+        "url": "https://huggingface.co/TSerizawa/llm-lecture-2025_sft_Qwen3-4B-Instruct-2507_structured_data_with_cot_dataset_512_v2_output_only"
+      },
+      {
+        "title": "elko0416/llm_compe_lora",
+        "url": "https://huggingface.co/elko0416/llm_compe_lora"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "7 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 7
   }
 }
