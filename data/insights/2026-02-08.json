@@ -1,11 +1,33 @@
 {
-  "date": "2026-02-08T12:36:14.240141",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-02-08T13:42:43.042064",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "AIREnewal/distilgpt2-sft-merged",
+        "url": "https://huggingface.co/AIREnewal/distilgpt2-sft-merged"
+      },
+      {
+        "title": "dhasmana/Kumaoni-Bhojpuri-Chhattisgarhi-Angika-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Kumaoni-Bhojpuri-Chhattisgarhi-Angika-w2v-bert-2.0"
+      },
+      {
+        "title": "makotonlo/LLM2026_SFT_finalv9",
+        "url": "https://huggingface.co/makotonlo/LLM2026_SFT_finalv9"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
