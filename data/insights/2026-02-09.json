@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-09T21:35:50.932839",
-  "patterns": {},
+  "date": "2026-02-09T22:31:45.790017",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Taichi11/LLM_main_v1",
+        "url": "https://huggingface.co/Taichi11/LLM_main_v1"
+      },
+      {
+        "title": "avkumararun/bert-tiny",
+        "url": "https://huggingface.co/avkumararun/bert-tiny"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
