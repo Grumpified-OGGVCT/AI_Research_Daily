@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-09T20:00:40.032869",
-  "patterns": {},
+  "date": "2026-02-09T20:44:04.153185",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "JanW42/modernBERT-regression-teacher_e1-7_2",
+        "url": "https://huggingface.co/JanW42/modernBERT-regression-teacher_e1-7_2"
+      },
+      {
+        "title": "robertwinters/15003",
+        "url": "https://huggingface.co/robertwinters/15003"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
