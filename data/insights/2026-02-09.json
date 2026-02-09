@@ -1,0 +1,33 @@
+{
+  "date": "2026-02-09T01:44:48.972561",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "paulprt/gpt-oss-edu-mxfp4",
+        "url": "https://huggingface.co/paulprt/gpt-oss-edu-mxfp4"
+      },
+      {
+        "title": "paulprt/gpt-oss-edu-fp16",
+        "url": "https://huggingface.co/paulprt/gpt-oss-edu-fp16"
+      },
+      {
+        "title": "avkumararun/bert-tiny",
+        "url": "https://huggingface.co/avkumararun/bert-tiny"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
+  }
+}
