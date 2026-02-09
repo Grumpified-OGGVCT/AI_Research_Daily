@@ -1,22 +1,33 @@
 {
-  "date": "2026-02-09T10:55:39.673441",
+  "date": "2026-02-09T11:42:58.157429",
   "patterns": {
     "language_models": [
       {
-        "title": "nbtpj/bs3gpt2_xsumtr",
-        "url": "https://huggingface.co/nbtpj/bs3gpt2_xsumtr"
+        "title": "amitca71/marbert_toxic_detector",
+        "url": "https://huggingface.co/amitca71/marbert_toxic_detector"
       },
       {
-        "title": "shotasoga/LLM-Compe-structured-eval-t-qwen3-4b.v5",
-        "url": "https://huggingface.co/shotasoga/LLM-Compe-structured-eval-t-qwen3-4b.v5"
+        "title": "1234Frede/FinalSmolLM2-business-news-generator",
+        "url": "https://huggingface.co/1234Frede/FinalSmolLM2-business-news-generator"
+      },
+      {
+        "title": "shorthillsai/indian-legal-reranker-modernbert",
+        "url": "https://huggingface.co/shorthillsai/indian-legal-reranker-modernbert"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
