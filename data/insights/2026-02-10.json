@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-10T11:46:42.433218",
+  "date": "2026-02-10T13:00:57.823083",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,6 +669,10 @@
       {
         "title": "Belief Offloading in Human-AI Interaction",
         "url": "https://arxiv.org/abs/2602.08754v1"
+      },
+      {
+        "title": "llm-semantic-router/mmbert32k-modality-router-merged",
+        "url": "https://huggingface.co/llm-semantic-router/mmbert32k-modality-router-merged"
       }
     ],
     "vision_systems": [
@@ -891,14 +895,6 @@
       {
         "title": "WorldArena: A Unified Benchmark for Evaluating Perception and Functional Utility of Embodied World Models",
         "url": "https://arxiv.org/abs/2602.08971v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "tmp-org/tmp_cv_model_content_2025_12_01_0",
-        "url": "https://huggingface.co/tmp-org/tmp_cv_model_content_2025_12_01_0"
       }
     ],
     "reasoning": [
@@ -1609,13 +1605,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "57 independent papers",
+      "observation": "55 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1668,6 +1664,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 391
   }
 }
