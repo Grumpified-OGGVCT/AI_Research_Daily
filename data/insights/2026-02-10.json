@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-10T08:44:52.805478",
+  "date": "2026-02-10T09:57:46.110237",
   "patterns": {
     "multimodal_research": [
       {
@@ -891,6 +891,14 @@
       {
         "title": "WorldArena: A Unified Benchmark for Evaluating Perception and Functional Utility of Embodied World Models",
         "url": "https://arxiv.org/abs/2602.08971v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      {
+        "title": "tmp-org/tmp_cv_model_content_2025_12_22_0",
+        "url": "https://huggingface.co/tmp-org/tmp_cv_model_content_2025_12_22_0"
       }
     ],
     "reasoning": [
@@ -1571,6 +1579,10 @@
       {
         "title": "WorldArena: A Unified Benchmark for Evaluating Perception and Functional Utility of Embodied World Models",
         "url": "https://arxiv.org/abs/2602.08971v1"
+      },
+      {
+        "title": "Sota26/Affine-55-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw",
+        "url": "https://huggingface.co/Sota26/Affine-55-5DhZ1VtjVSRcU6zwWamMG24fB8dr8TRyQGesPX8dPGroyMkw"
       }
     ]
   },
@@ -1607,7 +1619,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "55 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1625,7 +1637,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1660,6 +1672,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 390
+    "total_papers": 393
   }
 }
