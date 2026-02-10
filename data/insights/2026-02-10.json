@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-10T16:03:16.680320",
+  "date": "2026-02-10T17:58:30.845765",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,8 +671,12 @@
         "url": "https://arxiv.org/abs/2602.08754v1"
       },
       {
-        "title": "robertwinters/lora2-22502",
-        "url": "https://huggingface.co/robertwinters/lora2-22502"
+        "title": "borisdiakur/distilbert-ATC-pilot-classifier-onnx",
+        "url": "https://huggingface.co/borisdiakur/distilbert-ATC-pilot-classifier-onnx"
+      },
+      {
+        "title": "dhasmana/Angika-Chhattisgarhi-Kumaoni-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Angika-Chhattisgarhi-Kumaoni-w2v-bert-2.0"
       }
     ],
     "vision_systems": [
@@ -1177,14 +1181,6 @@
       {
         "title": "Generalizing Sports Feedback Generation by Watching Competitions and Reading Books: A Rock Climbing Case Study",
         "url": "https://arxiv.org/abs/2602.08996v1"
-      },
-      {
-        "title": "CompactAI/LFM2.5-1.2B-JP-reasoning-aggressive",
-        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-JP-reasoning-aggressive"
-      },
-      {
-        "title": "CompactAI/LFM2.5-1.2B-JP-reasoning-safe",
-        "url": "https://huggingface.co/CompactAI/LFM2.5-1.2B-JP-reasoning-safe"
       }
     ],
     "benchmarks": [
@@ -1613,7 +1609,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1625,7 +1621,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "72 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1654,13 +1650,13 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 37,
+      "topic": "generation",
+      "frequency": 36,
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 36,
+      "topic": "reasoning",
+      "frequency": 35,
       "significance": "high"
     },
     {
@@ -1672,6 +1668,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 393
+    "total_papers": 392
   }
 }
