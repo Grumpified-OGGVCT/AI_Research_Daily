@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-10T22:35:10.475297",
+  "date": "2026-02-10T23:34:57.394842",
   "patterns": {
     "multimodal_research": [
       {
@@ -675,12 +675,8 @@
         "url": "https://arxiv.org/abs/2602.08754v1"
       },
       {
-        "title": "BenjaminOcampo/iscont_bert_sbic_42_finetuned",
-        "url": "https://huggingface.co/BenjaminOcampo/iscont_bert_sbic_42_finetuned"
-      },
-      {
-        "title": "Daniil-Archibasov/GPT-2-TRL",
-        "url": "https://huggingface.co/Daniil-Archibasov/GPT-2-TRL"
+        "title": "dhasmana/Angika-Chhattisgarhi-Kumaoni-Magadhi-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Angika-Chhattisgarhi-Kumaoni-Magadhi-w2v-bert-2.0"
       }
     ],
     "vision_systems": [
@@ -905,8 +901,8 @@
         "url": "https://arxiv.org/abs/2602.08971v1"
       },
       {
-        "title": "Alelcv27/Qwen2.5-7B-Breadcrumbs-IST",
-        "url": "https://huggingface.co/Alelcv27/Qwen2.5-7B-Breadcrumbs-IST"
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       },
       {
         "title": "huggingface/DEH-image-scan-data",
@@ -1621,7 +1617,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1680,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 395
+    "total_papers": 394
   }
 }
