@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-10T17:58:30.845765",
+  "date": "2026-02-10T19:01:02.906433",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,8 +671,16 @@
         "url": "https://arxiv.org/abs/2602.08754v1"
       },
       {
-        "title": "borisdiakur/distilbert-ATC-pilot-classifier-onnx",
-        "url": "https://huggingface.co/borisdiakur/distilbert-ATC-pilot-classifier-onnx"
+        "title": "karaage0703/matsuo-llm-2025-qwen3-4b-sft-v3-merged",
+        "url": "https://huggingface.co/karaage0703/matsuo-llm-2025-qwen3-4b-sft-v3-merged"
+      },
+      {
+        "title": "didula-wso2/exp_24_1_juliasft_16bit_vllm",
+        "url": "https://huggingface.co/didula-wso2/exp_24_1_juliasft_16bit_vllm"
+      },
+      {
+        "title": "ctaguchi/hubert-large-ll60k-gui",
+        "url": "https://huggingface.co/ctaguchi/hubert-large-ll60k-gui"
       },
       {
         "title": "dhasmana/Angika-Chhattisgarhi-Kumaoni-w2v-bert-2.0",
@@ -1609,7 +1617,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1668,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 394
   }
 }
