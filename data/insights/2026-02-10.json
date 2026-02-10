@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-10T19:01:02.906433",
+  "date": "2026-02-10T20:03:01.868964",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,20 +671,8 @@
         "url": "https://arxiv.org/abs/2602.08754v1"
       },
       {
-        "title": "karaage0703/matsuo-llm-2025-qwen3-4b-sft-v3-merged",
-        "url": "https://huggingface.co/karaage0703/matsuo-llm-2025-qwen3-4b-sft-v3-merged"
-      },
-      {
-        "title": "didula-wso2/exp_24_1_juliasft_16bit_vllm",
-        "url": "https://huggingface.co/didula-wso2/exp_24_1_juliasft_16bit_vllm"
-      },
-      {
-        "title": "ctaguchi/hubert-large-ll60k-gui",
-        "url": "https://huggingface.co/ctaguchi/hubert-large-ll60k-gui"
-      },
-      {
-        "title": "dhasmana/Angika-Chhattisgarhi-Kumaoni-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Angika-Chhattisgarhi-Kumaoni-w2v-bert-2.0"
+        "title": "SikandarFarooqSaani/bert-fake-news-detecto",
+        "url": "https://huggingface.co/SikandarFarooqSaani/bert-fake-news-detecto"
       }
     ],
     "vision_systems": [
@@ -907,6 +895,10 @@
       {
         "title": "WorldArena: A Unified Benchmark for Evaluating Perception and Functional Utility of Embodied World Models",
         "url": "https://arxiv.org/abs/2602.08971v1"
+      },
+      {
+        "title": "khadim-hussain/spacevision-flux2-lora",
+        "url": "https://huggingface.co/khadim-hussain/spacevision-flux2-lora"
       }
     ],
     "reasoning": [
@@ -1189,6 +1181,10 @@
       {
         "title": "Generalizing Sports Feedback Generation by Watching Competitions and Reading Books: A Rock Climbing Case Study",
         "url": "https://arxiv.org/abs/2602.08996v1"
+      },
+      {
+        "title": "inferencerlabs/LongCat-Flash-Lite-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Lite-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1617,19 +1613,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "55 independent papers",
+      "observation": "56 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1676,6 +1672,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 394
+    "total_papers": 393
   }
 }
