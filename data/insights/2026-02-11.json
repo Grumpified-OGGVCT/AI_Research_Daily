@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-11T06:06:55.766707",
+  "date": "2026-02-11T07:54:01.734012",
   "patterns": {
     "multimodal_research": [
       {
@@ -691,20 +691,8 @@
         "url": "https://arxiv.org/abs/2602.09521v1"
       },
       {
-        "title": "Gottman/modernbert-base-bid_response-balanced-min-v1",
-        "url": "https://huggingface.co/Gottman/modernbert-base-bid_response-balanced-min-v1"
-      },
-      {
-        "title": "Gottman/modernbert-base-bid_presence-balanced-min-v1",
-        "url": "https://huggingface.co/Gottman/modernbert-base-bid_presence-balanced-min-v1"
-      },
-      {
-        "title": "luntomas/xlm-roberta-large_pos_neg_2d",
-        "url": "https://huggingface.co/luntomas/xlm-roberta-large_pos_neg_2d"
-      },
-      {
-        "title": "Gottman/modernbert-base-spaff-balanced-min-v1",
-        "url": "https://huggingface.co/Gottman/modernbert-base-spaff-balanced-min-v1"
+        "title": "7-mitch/gpt-oss-structeval-4bit",
+        "url": "https://huggingface.co/7-mitch/gpt-oss-structeval-4bit"
       }
     ],
     "vision_systems": [
@@ -1297,10 +1285,6 @@
       {
         "title": "ARK: A Dual-Axis Multimodal Retrieval Benchmark along Reasoning and Knowledge",
         "url": "https://arxiv.org/abs/2602.09839v1"
-      },
-      {
-        "title": "McG-221/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-mlx-8Bit",
-        "url": "https://huggingface.co/McG-221/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-mlx-8Bit"
       }
     ],
     "benchmarks": [
@@ -1757,7 +1741,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1769,7 +1753,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,7 +1788,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 51,
+      "frequency": 50,
       "significance": "high"
     },
     {
@@ -1816,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 425
   }
 }
