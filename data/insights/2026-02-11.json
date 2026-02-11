@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-11T07:54:01.734012",
+  "date": "2026-02-11T08:42:06.778917",
   "patterns": {
     "multimodal_research": [
       {
@@ -691,8 +691,8 @@
         "url": "https://arxiv.org/abs/2602.09521v1"
       },
       {
-        "title": "7-mitch/gpt-oss-structeval-4bit",
-        "url": "https://huggingface.co/7-mitch/gpt-oss-structeval-4bit"
+        "title": "Avililla/biobert-kcd-dental",
+        "url": "https://huggingface.co/Avililla/biobert-kcd-dental"
       }
     ],
     "vision_systems": [
@@ -983,6 +983,10 @@
       {
         "title": "ARK: A Dual-Axis Multimodal Retrieval Benchmark along Reasoning and Knowledge",
         "url": "https://arxiv.org/abs/2602.09839v1"
+      },
+      {
+        "title": "Vanduc03/my-test-vision-model-31",
+        "url": "https://huggingface.co/Vanduc03/my-test-vision-model-31"
       }
     ],
     "reasoning": [
@@ -1747,7 +1751,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 426
   }
 }
