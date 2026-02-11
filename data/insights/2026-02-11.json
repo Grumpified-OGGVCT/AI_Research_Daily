@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-11T17:01:49.835103",
+  "date": "2026-02-11T17:59:53.367581",
   "patterns": {
     "multimodal_research": [
       {
@@ -343,6 +343,10 @@
       {
         "title": "Perception with Guarantees: Certified Pose Estimation via Reachability Analysis",
         "url": "https://arxiv.org/abs/2602.10032v1"
+      },
+      {
+        "title": "BeardedMonster/MOE",
+        "url": "https://huggingface.co/BeardedMonster/MOE"
       }
     ],
     "language_models": [
@@ -691,8 +695,8 @@
         "url": "https://arxiv.org/abs/2602.09521v1"
       },
       {
-        "title": "dhasmana/Angika-Chhattisgarhi-Kumaoni-Magadhi-Garhwali-Bhojpuri-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Angika-Chhattisgarhi-Kumaoni-Magadhi-Garhwali-Bhojpuri-w2v-bert-2.0"
+        "title": "sallm/dpo_qm_qwen-cot-merged",
+        "url": "https://huggingface.co/sallm/dpo_qm_qwen-cot-merged"
       }
     ],
     "vision_systems": [
@@ -985,8 +989,8 @@
         "url": "https://arxiv.org/abs/2602.09839v1"
       },
       {
-        "title": "dianavdavidson/wh_l_v3_cv_common_voices_47695_trial",
-        "url": "https://huggingface.co/dianavdavidson/wh_l_v3_cv_common_voices_47695_trial"
+        "title": "NiwWin/nayeon-z-image-turbo-lora",
+        "url": "https://huggingface.co/NiwWin/nayeon-z-image-turbo-lora"
       }
     ],
     "reasoning": [
@@ -1733,7 +1737,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "59 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 427
   }
 }
