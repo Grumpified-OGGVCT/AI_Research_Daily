@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-11T21:30:51.840151",
+  "date": "2026-02-11T22:25:46.909623",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,6 +693,10 @@
       {
         "title": "Attention to details, logits to truth: visual-aware attention and logits enhancement to mitigate hallucinations in LVLMs",
         "url": "https://arxiv.org/abs/2602.09521v1"
+      },
+      {
+        "title": "Avililla/biobert-kcd-dental",
+        "url": "https://huggingface.co/Avililla/biobert-kcd-dental"
       }
     ],
     "vision_systems": [
@@ -983,6 +987,10 @@
       {
         "title": "ARK: A Dual-Axis Multimodal Retrieval Benchmark along Reasoning and Knowledge",
         "url": "https://arxiv.org/abs/2602.09839v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1741,13 +1749,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 427
   }
 }
