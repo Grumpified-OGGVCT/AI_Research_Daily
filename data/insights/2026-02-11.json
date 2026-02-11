@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-11T17:59:53.367581",
+  "date": "2026-02-11T19:05:54.889210",
   "patterns": {
     "multimodal_research": [
       {
@@ -343,10 +343,6 @@
       {
         "title": "Perception with Guarantees: Certified Pose Estimation via Reachability Analysis",
         "url": "https://arxiv.org/abs/2602.10032v1"
-      },
-      {
-        "title": "BeardedMonster/MOE",
-        "url": "https://huggingface.co/BeardedMonster/MOE"
       }
     ],
     "language_models": [
@@ -695,8 +691,8 @@
         "url": "https://arxiv.org/abs/2602.09521v1"
       },
       {
-        "title": "sallm/dpo_qm_qwen-cot-merged",
-        "url": "https://huggingface.co/sallm/dpo_qm_qwen-cot-merged"
+        "title": "henrikillmax/affine-shark-5DG6bocBMDq41Mkb8QeJpsGiUtMoXwQQU2oRUsU9NhH3S9WK",
+        "url": "https://huggingface.co/henrikillmax/affine-shark-5DG6bocBMDq41Mkb8QeJpsGiUtMoXwQQU2oRUsU9NhH3S9WK"
       }
     ],
     "vision_systems": [
@@ -987,10 +983,6 @@
       {
         "title": "ARK: A Dual-Axis Multimodal Retrieval Benchmark along Reasoning and Knowledge",
         "url": "https://arxiv.org/abs/2602.09839v1"
-      },
-      {
-        "title": "NiwWin/nayeon-z-image-turbo-lora",
-        "url": "https://huggingface.co/NiwWin/nayeon-z-image-turbo-lora"
       }
     ],
     "reasoning": [
@@ -1737,7 +1729,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "60 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1755,7 +1747,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 425
   }
 }
