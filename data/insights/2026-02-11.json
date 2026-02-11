@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-11T09:49:32.447544",
+  "date": "2026-02-11T10:44:50.417715",
   "patterns": {
     "multimodal_research": [
       {
@@ -691,12 +691,24 @@
         "url": "https://arxiv.org/abs/2602.09521v1"
       },
       {
-        "title": "JamesbondK/llm-comp2025-r2",
-        "url": "https://huggingface.co/JamesbondK/llm-comp2025-r2"
+        "title": "BenjaminOcampo/iscont_hatebert_sbic_2_finetuned",
+        "url": "https://huggingface.co/BenjaminOcampo/iscont_hatebert_sbic_2_finetuned"
       },
       {
-        "title": "dhasmana/Angika-Chhattisgarhi-Kumaoni-Magadhi-Garhwali-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Angika-Chhattisgarhi-Kumaoni-Magadhi-Garhwali-w2v-bert-2.0"
+        "title": "BenjaminOcampo/iscont_hatebert_sbic_42_finetuned",
+        "url": "https://huggingface.co/BenjaminOcampo/iscont_hatebert_sbic_42_finetuned"
+      },
+      {
+        "title": "BenjaminOcampo/iscont_hatebert_sbic_1_finetuned",
+        "url": "https://huggingface.co/BenjaminOcampo/iscont_hatebert_sbic_1_finetuned"
+      },
+      {
+        "title": "BenjaminOcampo/iscont_hatebert_sbic_0_finetuned",
+        "url": "https://huggingface.co/BenjaminOcampo/iscont_hatebert_sbic_0_finetuned"
+      },
+      {
+        "title": "BenjaminOcampo/iscont_hatebert_sbic_3_finetuned",
+        "url": "https://huggingface.co/BenjaminOcampo/iscont_hatebert_sbic_3_finetuned"
       }
     ],
     "vision_systems": [
@@ -1715,10 +1727,6 @@
       {
         "title": "ARK: A Dual-Axis Multimodal Retrieval Benchmark along Reasoning and Knowledge",
         "url": "https://arxiv.org/abs/2602.09839v1"
-      },
-      {
-        "title": "Sota26/Affine-58-5DctumWUfSCuo12G66wwW2x6F4jpUfZcLcpUaZwbFkQTojPn",
-        "url": "https://huggingface.co/Sota26/Affine-58-5DctumWUfSCuo12G66wwW2x6F4jpUfZcLcpUaZwbFkQTojPn"
       }
     ]
   },
@@ -1749,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1773,7 +1781,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "107 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1808,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 429
   }
 }
