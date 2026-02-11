@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-11T12:56:35.367726",
+  "date": "2026-02-11T14:14:53.177059",
   "patterns": {
     "multimodal_research": [
       {
@@ -341,8 +341,20 @@
         "url": "https://arxiv.org/abs/2602.09746v1"
       },
       {
+        "title": "Lumia101/Flowers102-EfficientNet-B2",
+        "url": "https://huggingface.co/Lumia101/Flowers102-EfficientNet-B2"
+      },
+      {
         "title": "Perception with Guarantees: Certified Pose Estimation via Reachability Analysis",
         "url": "https://arxiv.org/abs/2602.10032v1"
+      },
+      {
+        "title": "pawan2411/cot-moe-controller-grpo-v7",
+        "url": "https://huggingface.co/pawan2411/cot-moe-controller-grpo-v7"
+      },
+      {
+        "title": "BeardedMonster/MOE",
+        "url": "https://huggingface.co/BeardedMonster/MOE"
       }
     ],
     "language_models": [
@@ -691,12 +703,8 @@
         "url": "https://arxiv.org/abs/2602.09521v1"
       },
       {
-        "title": "Mountaingorillas/LLM2025_lora_260211",
-        "url": "https://huggingface.co/Mountaingorillas/LLM2025_lora_260211"
-      },
-      {
-        "title": "gabrielloiseau/RoBERTa-base-privacy",
-        "url": "https://huggingface.co/gabrielloiseau/RoBERTa-base-privacy"
+        "title": "rpudathu/distilbert-dbpedia-14-97acc",
+        "url": "https://huggingface.co/rpudathu/distilbert-dbpedia-14-97acc"
       }
     ],
     "vision_systems": [
@@ -989,8 +997,8 @@
         "url": "https://arxiv.org/abs/2602.09839v1"
       },
       {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "Alelcv27/Qwen2.5-7B-Arcee-Math-IST",
+        "url": "https://huggingface.co/Alelcv27/Qwen2.5-7B-Arcee-Math-IST"
       }
     ],
     "reasoning": [
@@ -1737,7 +1745,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "59 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1749,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 429
   }
 }
