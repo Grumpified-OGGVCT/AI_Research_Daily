@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-12T07:13:41.219141",
+  "date": "2026-02-12T08:40:00.488997",
   "patterns": {
     "multimodal_research": [
       {
@@ -959,10 +959,6 @@
       {
         "title": "OccFace: Unified Occlusion-Aware Facial Landmark Detection with Per-Point Visibility",
         "url": "https://arxiv.org/abs/2602.10728v1"
-      },
-      {
-        "title": "Yupmikey/Z-Image-Turbo",
-        "url": "https://huggingface.co/Yupmikey/Z-Image-Turbo"
       }
     ],
     "reasoning": [
@@ -1691,7 +1687,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 410
   }
 }
