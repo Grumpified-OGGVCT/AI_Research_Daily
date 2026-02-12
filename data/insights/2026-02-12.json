@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-12T18:56:44.452818",
+  "date": "2026-02-12T19:48:31.834275",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,22 +693,6 @@
       {
         "title": "From Steering to Pedalling: Do Autonomous Driving VLMs Generalize to Cyclist-Assistive Spatial Perception and Planning?",
         "url": "https://arxiv.org/abs/2602.10771v1"
-      },
-      {
-        "title": "rockstar4119/reward-model-bert-A1",
-        "url": "https://huggingface.co/rockstar4119/reward-model-bert-A1"
-      },
-      {
-        "title": "LLM-course/chess-confused-magnus",
-        "url": "https://huggingface.co/LLM-course/chess-confused-magnus"
-      },
-      {
-        "title": "laksh08/safe-genai-reward-model-bert",
-        "url": "https://huggingface.co/laksh08/safe-genai-reward-model-bert"
-      },
-      {
-        "title": "smsk1999/indic-bert-vg-voice-data",
-        "url": "https://huggingface.co/smsk1999/indic-bert-vg-voice-data"
       }
     ],
     "vision_systems": [
@@ -1701,7 +1685,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1760,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 411
   }
 }
