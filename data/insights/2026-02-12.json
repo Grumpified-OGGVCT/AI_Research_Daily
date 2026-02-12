@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-12T15:46:02.118168",
+  "date": "2026-02-12T16:53:38.211972",
   "patterns": {
     "multimodal_research": [
       {
@@ -961,46 +961,6 @@
         "url": "https://arxiv.org/abs/2602.10728v1"
       },
       {
-        "title": "Khanh6/my-test-vision-model-c",
-        "url": "https://huggingface.co/Khanh6/my-test-vision-model-c"
-      },
-      {
-        "title": "Hien11li/my-test-vision-model-c",
-        "url": "https://huggingface.co/Hien11li/my-test-vision-model-c"
-      },
-      {
-        "title": "ThiHien3/my-test-vision-model-c",
-        "url": "https://huggingface.co/ThiHien3/my-test-vision-model-c"
-      },
-      {
-        "title": "Vduc01/my-test-vision-model-c",
-        "url": "https://huggingface.co/Vduc01/my-test-vision-model-c"
-      },
-      {
-        "title": "alice6les/my-test-vision-model-c",
-        "url": "https://huggingface.co/alice6les/my-test-vision-model-c"
-      },
-      {
-        "title": "Hien03/my-test-vision-model-c",
-        "url": "https://huggingface.co/Hien03/my-test-vision-model-c"
-      },
-      {
-        "title": "Duc77/my-test-vision-model-c",
-        "url": "https://huggingface.co/Duc77/my-test-vision-model-c"
-      },
-      {
-        "title": "Dan02ni/my-test-vision-model-c",
-        "url": "https://huggingface.co/Dan02ni/my-test-vision-model-c"
-      },
-      {
-        "title": "HoDuc3/my-test-vision-model-c",
-        "url": "https://huggingface.co/HoDuc3/my-test-vision-model-c"
-      },
-      {
-        "title": "Vduc4/my-test-vision-model-44",
-        "url": "https://huggingface.co/Vduc4/my-test-vision-model-44"
-      },
-      {
         "title": "nphSi/Z-Image-Lora",
         "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
@@ -1735,7 +1695,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1775,19 +1735,19 @@
       "significance": "high"
     },
     {
-      "topic": "vision",
-      "frequency": 39,
+      "topic": "reasoning",
+      "frequency": 37,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 37,
+      "topic": "vision",
+      "frequency": 29,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 412
   }
 }
