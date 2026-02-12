@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-12T09:44:00.314280",
+  "date": "2026-02-12T10:40:14.879911",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,6 +693,10 @@
       {
         "title": "From Steering to Pedalling: Do Autonomous Driving VLMs Generalize to Cyclist-Assistive Spatial Perception and Planning?",
         "url": "https://arxiv.org/abs/2602.10771v1"
+      },
+      {
+        "title": "shotasoga/LLM-Compe-structured-eval-t-qwen3-4b.v12",
+        "url": "https://huggingface.co/shotasoga/LLM-Compe-structured-eval-t-qwen3-4b.v12"
       }
     ],
     "vision_systems": [
@@ -961,8 +965,8 @@
         "url": "https://arxiv.org/abs/2602.10728v1"
       },
       {
-        "title": "NiwWin/nayeon-z-image-turbo-lora",
-        "url": "https://huggingface.co/NiwWin/nayeon-z-image-turbo-lora"
+        "title": "davidberenstein1957/p-image-realism-lora",
+        "url": "https://huggingface.co/davidberenstein1957/p-image-realism-lora"
       }
     ],
     "reasoning": [
@@ -1213,6 +1217,10 @@
       {
         "title": "Amortized Inference of Neuron Parameters on Analog Neuromorphic Hardware",
         "url": "https://arxiv.org/abs/2602.10763v1"
+      },
+      {
+        "title": "inferencerlabs/GLM-5-MLX-4.8bit",
+        "url": "https://huggingface.co/inferencerlabs/GLM-5-MLX-4.8bit"
       }
     ],
     "benchmarks": [
@@ -1685,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1705,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "62 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 413
   }
 }
