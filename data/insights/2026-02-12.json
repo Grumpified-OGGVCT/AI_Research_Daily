@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-12T22:27:23.645052",
+  "date": "2026-02-12T23:24:34.176363",
   "patterns": {
     "multimodal_research": [
       {
@@ -695,12 +695,16 @@
         "url": "https://arxiv.org/abs/2602.10771v1"
       },
       {
-        "title": "dhasmana/Magadhi-Kumaoni-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Magadhi-Kumaoni-w2v-bert-2.0"
+        "title": "leagueofsoups/gpt_oss_finetune_16bit",
+        "url": "https://huggingface.co/leagueofsoups/gpt_oss_finetune_16bit"
       },
       {
-        "title": "leagueofsoups/gpt_oss_finetune_4bit",
-        "url": "https://huggingface.co/leagueofsoups/gpt_oss_finetune_4bit"
+        "title": "bcbertenex/sekokuva-mobilenet-423k",
+        "url": "https://huggingface.co/bcbertenex/sekokuva-mobilenet-423k"
+      },
+      {
+        "title": "manmanluo/bert-aspect-detection",
+        "url": "https://huggingface.co/manmanluo/bert-aspect-detection"
       }
     ],
     "vision_systems": [
@@ -967,10 +971,6 @@
       {
         "title": "OccFace: Unified Occlusion-Aware Facial Landmark Detection with Per-Point Visibility",
         "url": "https://arxiv.org/abs/2602.10728v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       },
       {
         "title": "huggingface/DEH-image-scan-data",
@@ -1697,13 +1697,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
