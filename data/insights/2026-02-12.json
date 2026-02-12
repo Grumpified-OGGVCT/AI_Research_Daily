@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-12T06:02:40.661691",
+  "date": "2026-02-12T07:13:41.219141",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,10 +693,6 @@
       {
         "title": "From Steering to Pedalling: Do Autonomous Driving VLMs Generalize to Cyclist-Assistive Spatial Perception and Planning?",
         "url": "https://arxiv.org/abs/2602.10771v1"
-      },
-      {
-        "title": "Gottman/modernbert-large-bid_response-balanced-min-v1",
-        "url": "https://huggingface.co/Gottman/modernbert-large-bid_response-balanced-min-v1"
       }
     ],
     "vision_systems": [
@@ -963,6 +959,10 @@
       {
         "title": "OccFace: Unified Occlusion-Aware Facial Landmark Detection with Per-Point Visibility",
         "url": "https://arxiv.org/abs/2602.10728v1"
+      },
+      {
+        "title": "Yupmikey/Z-Image-Turbo",
+        "url": "https://huggingface.co/Yupmikey/Z-Image-Turbo"
       }
     ],
     "reasoning": [
@@ -1685,13 +1685,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "66 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
