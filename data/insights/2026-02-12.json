@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-12T19:48:31.834275",
+  "date": "2026-02-12T20:30:10.080254",
   "patterns": {
     "multimodal_research": [
       {
@@ -959,6 +959,10 @@
       {
         "title": "OccFace: Unified Occlusion-Aware Facial Landmark Detection with Per-Point Visibility",
         "url": "https://arxiv.org/abs/2602.10728v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1209,10 +1213,6 @@
       {
         "title": "Amortized Inference of Neuron Parameters on Analog Neuromorphic Hardware",
         "url": "https://arxiv.org/abs/2602.10763v1"
-      },
-      {
-        "title": "inferencerlabs/GLM-5-MLX-4.8bit",
-        "url": "https://huggingface.co/inferencerlabs/GLM-5-MLX-4.8bit"
       }
     ],
     "benchmarks": [
@@ -1691,13 +1691,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "66 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "63 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
