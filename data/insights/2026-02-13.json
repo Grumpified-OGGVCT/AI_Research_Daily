@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-13T09:39:15.975828",
+  "date": "2026-02-13T10:35:58.149729",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,12 +751,24 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "procit011/fine_tuned_robbert2",
-        "url": "https://huggingface.co/procit011/fine_tuned_robbert2"
+        "title": "Nandhakumar370/hindi-bert-quantized-small",
+        "url": "https://huggingface.co/Nandhakumar370/hindi-bert-quantized-small"
       },
       {
-        "title": "galkinv42/RuModernBERT-Intent-Classifier-ONNX",
-        "url": "https://huggingface.co/galkinv42/RuModernBERT-Intent-Classifier-ONNX"
+        "title": "NLP-FBK/adapt-sllm-italian-medical-tasks-llama3.2-1B-FT",
+        "url": "https://huggingface.co/NLP-FBK/adapt-sllm-italian-medical-tasks-llama3.2-1B-FT"
+      },
+      {
+        "title": "NLP-FBK/adapt-sllm-italian-medical-tasks-gemma-3-1b-it-CPT-FT",
+        "url": "https://huggingface.co/NLP-FBK/adapt-sllm-italian-medical-tasks-gemma-3-1b-it-CPT-FT"
+      },
+      {
+        "title": "NLP-FBK/qwen-3-1.7b-it-FT-small-llms",
+        "url": "https://huggingface.co/NLP-FBK/qwen-3-1.7b-it-FT-small-llms"
+      },
+      {
+        "title": "dhasmana/Magadhi-Kumaoni-Marathi-Rajasthani-Marwari-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Magadhi-Kumaoni-Marathi-Rajasthani-Marwari-w2v-bert-2.0"
       }
     ],
     "vision_systems": [
@@ -1237,6 +1249,10 @@
       {
         "title": "Improved Inference for CSDID Using the Cluster Jackknife",
         "url": "https://arxiv.org/abs/2602.12043v1"
+      },
+      {
+        "title": "inferencerlabs/GLM-5-MLX-5.6bit",
+        "url": "https://huggingface.co/inferencerlabs/GLM-5-MLX-5.6bit"
       }
     ],
     "benchmarks": [
@@ -1661,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "111 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1673,7 +1689,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 409
   }
 }
