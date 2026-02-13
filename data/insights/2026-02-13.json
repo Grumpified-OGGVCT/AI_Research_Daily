@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-13T17:38:06.918393",
+  "date": "2026-02-13T18:40:13.541324",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,8 +751,8 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "MuXodious/gpt-oss-120b-tainted-heresy-GGUF",
-        "url": "https://huggingface.co/MuXodious/gpt-oss-120b-tainted-heresy-GGUF"
+        "title": "dhasmana/Rajasthani-Magadhi-Chhattisgarhi-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Rajasthani-Magadhi-Chhattisgarhi-w2v-bert-2.0"
       }
     ],
     "vision_systems": [
@@ -1233,6 +1233,10 @@
       {
         "title": "Improved Inference for CSDID Using the Cluster Jackknife",
         "url": "https://arxiv.org/abs/2602.12043v1"
+      },
+      {
+        "title": "inferencerlabs/MiniMax-M2.5-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2.5-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1669,7 +1673,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 405
   }
 }
