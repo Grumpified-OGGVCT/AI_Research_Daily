@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-13T20:32:44.237330",
+  "date": "2026-02-13T21:31:04.801441",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,20 +751,12 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
+        "title": "MihaiPopa-1/SmolLM2-135M-Math",
+        "url": "https://huggingface.co/MihaiPopa-1/SmolLM2-135M-Math"
+      },
+      {
         "title": "dhasmana/Rajasthani-Magadhi-Chhattisgarhi-w2v-bert-2.0",
         "url": "https://huggingface.co/dhasmana/Rajasthani-Magadhi-Chhattisgarhi-w2v-bert-2.0"
-      },
-      {
-        "title": "Enes3774/w2v-bert-2.0-children-phoneme-ipa",
-        "url": "https://huggingface.co/Enes3774/w2v-bert-2.0-children-phoneme-ipa"
-      },
-      {
-        "title": "Taichi11/LLM_main_v4",
-        "url": "https://huggingface.co/Taichi11/LLM_main_v4"
-      },
-      {
-        "title": "laksh08/safe-genai-reward-model-bert",
-        "url": "https://huggingface.co/laksh08/safe-genai-reward-model-bert"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1665,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "110 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 406
   }
 }
