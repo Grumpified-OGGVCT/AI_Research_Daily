@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-13T04:16:34.486537",
+  "date": "2026-02-13T05:56:37.348371",
   "patterns": {
     "multimodal_research": [
       {
@@ -951,10 +951,6 @@
       {
         "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
         "url": "https://arxiv.org/abs/2602.11832v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1663,7 +1659,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "51 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 403
   }
 }
