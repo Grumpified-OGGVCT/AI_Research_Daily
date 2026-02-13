@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-13T22:29:32.872270",
+  "date": "2026-02-13T23:26:40.607815",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,16 +751,8 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "IAMJB/RadBERT-CT",
-        "url": "https://huggingface.co/IAMJB/RadBERT-CT"
-      },
-      {
         "title": "dhasmana/Rajasthani-Magadhi-Chhattisgarhi-Bhojpuri-w2v-bert-2.0",
         "url": "https://huggingface.co/dhasmana/Rajasthani-Magadhi-Chhattisgarhi-Bhojpuri-w2v-bert-2.0"
-      },
-      {
-        "title": "aomar85/A2NLP-StanceNakba2026-SubtaskB-AraBERTv02-Twitter",
-        "url": "https://huggingface.co/aomar85/A2NLP-StanceNakba2026-SubtaskB-AraBERTv02-Twitter"
       }
     ],
     "vision_systems": [
@@ -1669,7 +1661,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 405
   }
 }
