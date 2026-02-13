@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-13T11:29:00.368355",
+  "date": "2026-02-13T12:44:25.796272",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,20 +751,12 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "pamohlyakov-work/giga-am-v3-transformers-rnnt",
-        "url": "https://huggingface.co/pamohlyakov-work/giga-am-v3-transformers-rnnt"
-      },
-      {
-        "title": "Altayr/distilbert-classif-ch4",
-        "url": "https://huggingface.co/Altayr/distilbert-classif-ch4"
-      },
-      {
-        "title": "procit011/fine_tuned_robbert2",
-        "url": "https://huggingface.co/procit011/fine_tuned_robbert2"
-      },
-      {
         "title": "UDHOV/nepalibert-nepali-hate-classification",
         "url": "https://huggingface.co/UDHOV/nepalibert-nepali-hate-classification"
+      },
+      {
+        "title": "intercroc/gpt_oss_finetune_4bit",
+        "url": "https://huggingface.co/intercroc/gpt_oss_finetune_4bit"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1665,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "110 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1705,7 +1697,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 79,
+      "frequency": 78,
       "significance": "high"
     },
     {
@@ -1732,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 406
   }
 }
