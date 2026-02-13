@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-13T08:37:43.223159",
+  "date": "2026-02-13T09:39:15.975828",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,16 +751,12 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "Vandita/bertft13Feb_notoken",
-        "url": "https://huggingface.co/Vandita/bertft13Feb_notoken"
+        "title": "procit011/fine_tuned_robbert2",
+        "url": "https://huggingface.co/procit011/fine_tuned_robbert2"
       },
       {
-        "title": "dhasmana/Magadhi-Kumaoni-Marathi-Rajasthani-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Magadhi-Kumaoni-Marathi-Rajasthani-w2v-bert-2.0"
-      },
-      {
-        "title": "astom-M/matsuo-llm-advanced-dbbench-bf16",
-        "url": "https://huggingface.co/astom-M/matsuo-llm-advanced-dbbench-bf16"
+        "title": "galkinv42/RuModernBERT-Intent-Classifier-ONNX",
+        "url": "https://huggingface.co/galkinv42/RuModernBERT-Intent-Classifier-ONNX"
       }
     ],
     "vision_systems": [
@@ -1665,7 +1661,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1724,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 405
   }
 }
