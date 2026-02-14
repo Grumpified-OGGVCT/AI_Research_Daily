@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T05:41:16.532550",
+  "date": "2026-02-14T06:38:46.741963",
   "patterns": {
     "multimodal_research": [
       {
@@ -323,6 +323,10 @@
       {
         "title": "PosterOmni: Generalized Artistic Poster Creation via Task Distillation and Unified Reward Feedback",
         "url": "https://arxiv.org/abs/2602.12127v1"
+      },
+      {
+        "title": "psychopenguin/PowerMoE-3b-Q4_K_M-GGUF",
+        "url": "https://huggingface.co/psychopenguin/PowerMoE-3b-Q4_K_M-GGUF"
       }
     ],
     "language_models": [
@@ -751,8 +755,12 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "cusmato/gpt-oss-20b-GGUF",
-        "url": "https://huggingface.co/cusmato/gpt-oss-20b-GGUF"
+        "title": "laksh08/safe-genai-reward-model-bert",
+        "url": "https://huggingface.co/laksh08/safe-genai-reward-model-bert"
+      },
+      {
+        "title": "dhasmana/Chhattisgarhi-Magadhi-Marathi-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marathi-w2v-bert-2.0"
       }
     ],
     "vision_systems": [
@@ -1233,10 +1241,6 @@
       {
         "title": "Improved Inference for CSDID Using the Cluster Jackknife",
         "url": "https://arxiv.org/abs/2602.12043v1"
-      },
-      {
-        "title": "Yukendiran/Liceron-Reasoning-Base-7B",
-        "url": "https://huggingface.co/Yukendiran/Liceron-Reasoning-Base-7B"
       }
     ],
     "benchmarks": [
@@ -1649,7 +1653,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "56 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1661,7 +1665,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "107 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1673,7 +1677,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,7 +1712,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 41,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1720,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 406
   }
 }
