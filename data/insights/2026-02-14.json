@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T12:34:49.521872",
+  "date": "2026-02-14T13:41:49.921684",
   "patterns": {
     "multimodal_research": [
       {
@@ -753,6 +753,10 @@
       {
         "title": "dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-w2v-bert-2.0",
         "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-w2v-bert-2.0"
+      },
+      {
+        "title": "emilyyy04/xlm-roberta-base-burmese-nli-v3",
+        "url": "https://huggingface.co/emilyyy04/xlm-roberta-base-burmese-nli-v3"
       }
     ],
     "vision_systems": [
@@ -1233,10 +1237,6 @@
       {
         "title": "Improved Inference for CSDID Using the Cluster Jackknife",
         "url": "https://arxiv.org/abs/2602.12043v1"
-      },
-      {
-        "title": "0xA50C1A1/Llama-3.3-8B-Lumina-Reasoning",
-        "url": "https://huggingface.co/0xA50C1A1/Llama-3.3-8B-Lumina-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1661,7 +1661,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "107 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1673,7 +1673,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,7 +1708,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 41,
+      "frequency": 40,
       "significance": "high"
     },
     {
