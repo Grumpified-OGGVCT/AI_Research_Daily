@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T14:22:45.761087",
+  "date": "2026-02-14T15:20:55.324425",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,16 +751,16 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-w2v-bert-2.0"
+        "title": "Sakai0920/LLM-Course-Competition-2026",
+        "url": "https://huggingface.co/Sakai0920/LLM-Course-Competition-2026"
       },
       {
-        "title": "smsk1999/hindi-bert-quantized-small-DISSATISFACTION_PRICE-10k",
-        "url": "https://huggingface.co/smsk1999/hindi-bert-quantized-small-DISSATISFACTION_PRICE-10k"
+        "title": "jdopensource/JoyAI-LLM-Flash-Base",
+        "url": "https://huggingface.co/jdopensource/JoyAI-LLM-Flash-Base"
       },
       {
-        "title": "JanW42/modernBERT-regression-breiteklassen_acc_dobble_additional_finetuning",
-        "url": "https://huggingface.co/JanW42/modernBERT-regression-breiteklassen_acc_dobble_additional_finetuning"
+        "title": "sallm/qm3_3_c2-lora-repo",
+        "url": "https://huggingface.co/sallm/qm3_3_c2-lora-repo"
       }
     ],
     "vision_systems": [
@@ -963,6 +963,50 @@
       {
         "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
         "url": "https://arxiv.org/abs/2602.11832v1"
+      },
+      {
+        "title": "davidjaymes/dj_wan-22-image_fal-lora_miasweet-v3-conditioned",
+        "url": "https://huggingface.co/davidjaymes/dj_wan-22-image_fal-lora_miasweet-v3-conditioned"
+      },
+      {
+        "title": "Hien03/my-test-vision-model-a1",
+        "url": "https://huggingface.co/Hien03/my-test-vision-model-a1"
+      },
+      {
+        "title": "alice6les/my-test-vision-model-a1",
+        "url": "https://huggingface.co/alice6les/my-test-vision-model-a1"
+      },
+      {
+        "title": "Duc77/my-test-vision-model-a1",
+        "url": "https://huggingface.co/Duc77/my-test-vision-model-a1"
+      },
+      {
+        "title": "Vduc4/my-test-vision-model-a1",
+        "url": "https://huggingface.co/Vduc4/my-test-vision-model-a1"
+      },
+      {
+        "title": "HoDuc3/my-test-vision-model-a1",
+        "url": "https://huggingface.co/HoDuc3/my-test-vision-model-a1"
+      },
+      {
+        "title": "Hien11li/my-test-vision-model-a1",
+        "url": "https://huggingface.co/Hien11li/my-test-vision-model-a1"
+      },
+      {
+        "title": "Dan02ni/my-test-vision-model-a1",
+        "url": "https://huggingface.co/Dan02ni/my-test-vision-model-a1"
+      },
+      {
+        "title": "Khanh6/my-test-vision-model-a1",
+        "url": "https://huggingface.co/Khanh6/my-test-vision-model-a1"
+      },
+      {
+        "title": "Vduc01/my-test-vision-model-a1",
+        "url": "https://huggingface.co/Vduc01/my-test-vision-model-a1"
+      },
+      {
+        "title": "ThiHien3/my-test-vision-model-a1",
+        "url": "https://huggingface.co/ThiHien3/my-test-vision-model-a1"
       }
     ],
     "reasoning": [
@@ -1241,10 +1285,6 @@
       {
         "title": "Improved Inference for CSDID Using the Cluster Jackknife",
         "url": "https://arxiv.org/abs/2602.12043v1"
-      },
-      {
-        "title": "ShacharNar/qwen2.5_coder_3b_sqlfuse_probgate_tsql_improved_prompt_reasoning_only_answerable_delimeters_eos",
-        "url": "https://huggingface.co/ShacharNar/qwen2.5_coder_3b_sqlfuse_probgate_tsql_improved_prompt_reasoning_only_answerable_delimeters_eos"
       }
     ],
     "benchmarks": [
@@ -1675,13 +1715,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "50 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,7 +1756,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 41,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1728,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 417
   }
 }
