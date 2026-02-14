@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T13:41:49.921684",
+  "date": "2026-02-14T14:22:45.761087",
   "patterns": {
     "multimodal_research": [
       {
@@ -755,8 +755,12 @@
         "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-w2v-bert-2.0"
       },
       {
-        "title": "emilyyy04/xlm-roberta-base-burmese-nli-v3",
-        "url": "https://huggingface.co/emilyyy04/xlm-roberta-base-burmese-nli-v3"
+        "title": "smsk1999/hindi-bert-quantized-small-DISSATISFACTION_PRICE-10k",
+        "url": "https://huggingface.co/smsk1999/hindi-bert-quantized-small-DISSATISFACTION_PRICE-10k"
+      },
+      {
+        "title": "JanW42/modernBERT-regression-breiteklassen_acc_dobble_additional_finetuning",
+        "url": "https://huggingface.co/JanW42/modernBERT-regression-breiteklassen_acc_dobble_additional_finetuning"
       }
     ],
     "vision_systems": [
@@ -1237,6 +1241,10 @@
       {
         "title": "Improved Inference for CSDID Using the Cluster Jackknife",
         "url": "https://arxiv.org/abs/2602.12043v1"
+      },
+      {
+        "title": "ShacharNar/qwen2.5_coder_3b_sqlfuse_probgate_tsql_improved_prompt_reasoning_only_answerable_delimeters_eos",
+        "url": "https://huggingface.co/ShacharNar/qwen2.5_coder_3b_sqlfuse_probgate_tsql_improved_prompt_reasoning_only_answerable_delimeters_eos"
       }
     ],
     "benchmarks": [
@@ -1661,7 +1669,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1673,7 +1681,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,7 +1716,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 41,
       "significance": "high"
     },
     {
@@ -1720,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 407
   }
 }
