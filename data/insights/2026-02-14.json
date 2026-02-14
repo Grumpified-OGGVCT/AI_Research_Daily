@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T11:19:51.583333",
+  "date": "2026-02-14T12:34:49.521872",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,16 +751,8 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "abhishekmishraaie/bert-finetuned-imdb",
-        "url": "https://huggingface.co/abhishekmishraaie/bert-finetuned-imdb"
-      },
-      {
         "title": "dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-w2v-bert-2.0",
         "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-w2v-bert-2.0"
-      },
-      {
-        "title": "LoopKaka/loopkaka-gpt-model",
-        "url": "https://huggingface.co/LoopKaka/loopkaka-gpt-model"
       }
     ],
     "vision_systems": [
@@ -1241,6 +1233,10 @@
       {
         "title": "Improved Inference for CSDID Using the Cluster Jackknife",
         "url": "https://arxiv.org/abs/2602.12043v1"
+      },
+      {
+        "title": "0xA50C1A1/Llama-3.3-8B-Lumina-Reasoning",
+        "url": "https://huggingface.co/0xA50C1A1/Llama-3.3-8B-Lumina-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1665,7 +1661,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "109 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1677,7 +1673,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,7 +1708,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 41,
       "significance": "high"
     },
     {
@@ -1724,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 405
   }
 }
