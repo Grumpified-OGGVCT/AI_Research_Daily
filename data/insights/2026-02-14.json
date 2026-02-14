@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T07:32:02.224076",
+  "date": "2026-02-14T08:26:12.411448",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,20 +751,20 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "p-e-w/gpt-oss-20b-heretic-v3-LoRA",
-        "url": "https://huggingface.co/p-e-w/gpt-oss-20b-heretic-v3-LoRA"
+        "title": "sagnibha007/ppo-gpt2-medium-lora",
+        "url": "https://huggingface.co/sagnibha007/ppo-gpt2-medium-lora"
       },
       {
-        "title": "dhasmana/Chhattisgarhi-Magadhi-Marathi-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marathi-w2v-bert-2.0"
+        "title": "smsk1999/hindi-bert-disatisfaction-price",
+        "url": "https://huggingface.co/smsk1999/hindi-bert-disatisfaction-price"
       },
       {
-        "title": "p-e-w/gpt-oss-20b-heretic-v3",
-        "url": "https://huggingface.co/p-e-w/gpt-oss-20b-heretic-v3"
+        "title": "laksh08/safe-genai-reward-model-bert",
+        "url": "https://huggingface.co/laksh08/safe-genai-reward-model-bert"
       },
       {
-        "title": "laksh08/safe-genai-ppo-gpt2-full",
-        "url": "https://huggingface.co/laksh08/safe-genai-ppo-gpt2-full"
+        "title": "aieaxinsights/llama3.1-8b-v16-vllm-compatible",
+        "url": "https://huggingface.co/aieaxinsights/llama3.1-8b-v16-vllm-compatible"
       }
     ],
     "vision_systems": [
@@ -967,10 +967,6 @@
       {
         "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
         "url": "https://arxiv.org/abs/2602.11832v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1679,7 +1675,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "51 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 407
   }
 }
