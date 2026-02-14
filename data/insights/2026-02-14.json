@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T10:22:19.753351",
+  "date": "2026-02-14T11:19:51.583333",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,12 +751,16 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "Nandhakumar370/hindi-bert-quantized-small",
-        "url": "https://huggingface.co/Nandhakumar370/hindi-bert-quantized-small"
+        "title": "abhishekmishraaie/bert-finetuned-imdb",
+        "url": "https://huggingface.co/abhishekmishraaie/bert-finetuned-imdb"
       },
       {
-        "title": "pavanscrum/ambedkar-gpt",
-        "url": "https://huggingface.co/pavanscrum/ambedkar-gpt"
+        "title": "dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-w2v-bert-2.0"
+      },
+      {
+        "title": "LoopKaka/loopkaka-gpt-model",
+        "url": "https://huggingface.co/LoopKaka/loopkaka-gpt-model"
       }
     ],
     "vision_systems": [
@@ -1661,7 +1665,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 406
   }
 }
