@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-14T22:18:46.331281",
+  "date": "2026-02-14T23:19:47.570817",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,20 +751,16 @@
         "url": "https://arxiv.org/abs/2602.11832v1"
       },
       {
-        "title": "Dagobert42/Qwen3-8B-cc26-narr-hiera-aug-ft",
-        "url": "https://huggingface.co/Dagobert42/Qwen3-8B-cc26-narr-hiera-aug-ft"
+        "title": "kiwi4212/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
+        "url": "https://huggingface.co/kiwi4212/learn_hf_food_not_food_text_classifier-distilbert-base-uncased"
       },
       {
-        "title": "Dagobert42/Qwen3-8B-cc26-narr-aug-ft",
-        "url": "https://huggingface.co/Dagobert42/Qwen3-8B-cc26-narr-aug-ft"
+        "title": "makotonlo/LLM2026_DPO_SFT19_v1",
+        "url": "https://huggingface.co/makotonlo/LLM2026_DPO_SFT19_v1"
       },
       {
-        "title": "Dagobert42/Qwen3-8B-cc26-narr-hiera-aug-only",
-        "url": "https://huggingface.co/Dagobert42/Qwen3-8B-cc26-narr-hiera-aug-only"
-      },
-      {
-        "title": "Dagobert42/Qwen3-8B-cc26-narr-aug-only",
-        "url": "https://huggingface.co/Dagobert42/Qwen3-8B-cc26-narr-aug-only"
+        "title": "dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-Kumaoni-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-Kumaoni-w2v-bert-2.0"
       }
     ],
     "vision_systems": [
@@ -967,6 +963,10 @@
       {
         "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
         "url": "https://arxiv.org/abs/2602.11832v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       },
       {
         "title": "huggingface/DEH-image-scan-data",
@@ -1643,6 +1643,10 @@
       {
         "title": "JEPA-VLA: Video Predictive Embedding is Needed for VLA Models",
         "url": "https://arxiv.org/abs/2602.11832v1"
+      },
+      {
+        "title": "Sota26/Affine-62-5FC2KEnaeuiEVh8CoGUiGPRhLhetPpJPsZ1bps4h9xM1VMjz",
+        "url": "https://huggingface.co/Sota26/Affine-62-5FC2KEnaeuiEVh8CoGUiGPRhLhetPpJPsZ1bps4h9xM1VMjz"
       }
     ]
   },
@@ -1673,13 +1677,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "110 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "51 independent papers",
+      "observation": "52 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1701,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "98 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1732,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 409
   }
 }
