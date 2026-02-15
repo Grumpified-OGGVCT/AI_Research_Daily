@@ -1,10 +1,14 @@
 {
-  "date": "2026-02-15T20:20:44.741578",
+  "date": "2026-02-15T21:21:05.109181",
   "patterns": {
     "vision_systems": [
       {
-        "title": "furaidosu/excentrico-qwen-image-2512",
-        "url": "https://huggingface.co/furaidosu/excentrico-qwen-image-2512"
+        "title": "artificialguybr/STICKERS-REDMOND-ZIMAGETURBO",
+        "url": "https://huggingface.co/artificialguybr/STICKERS-REDMOND-ZIMAGETURBO"
+      },
+      {
+        "title": "artificialguybr/STICKERS-REDMOND-QWEN-IMAGE",
+        "url": "https://huggingface.co/artificialguybr/STICKERS-REDMOND-QWEN-IMAGE"
       },
       {
         "title": "nphSi/Z-Image-Lora",
@@ -12,11 +16,18 @@
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "vision_systems",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
