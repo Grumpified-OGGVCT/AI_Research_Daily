@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-15T19:22:29.822646",
-  "patterns": {},
+  "date": "2026-02-15T20:20:44.741578",
+  "patterns": {
+    "vision_systems": [
+      {
+        "title": "furaidosu/excentrico-qwen-image-2512",
+        "url": "https://huggingface.co/furaidosu/excentrico-qwen-image-2512"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
