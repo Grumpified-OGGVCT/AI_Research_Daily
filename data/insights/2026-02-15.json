@@ -1,37 +1,28 @@
 {
-  "date": "2026-02-15T12:37:11.265548",
+  "date": "2026-02-15T13:42:32.596832",
   "patterns": {
     "language_models": [
       {
-        "title": "sampurn-gfg/distilbert-base-uncased-finetuned-sst-2-english-ag-news-finetuned",
-        "url": "https://huggingface.co/sampurn-gfg/distilbert-base-uncased-finetuned-sst-2-english-ag-news-finetuned"
+        "title": "Sakai0920/llm2026-structeval",
+        "url": "https://huggingface.co/Sakai0920/llm2026-structeval"
       },
       {
-        "title": "DVriend/distilbert-base-uncased-finetuned-emotion",
-        "url": "https://huggingface.co/DVriend/distilbert-base-uncased-finetuned-emotion"
-      },
-      {
-        "title": "mlx-community/JoyAI-LLM-Flash-4bit-DWQ",
-        "url": "https://huggingface.co/mlx-community/JoyAI-LLM-Flash-4bit-DWQ"
-      },
-      {
-        "title": "dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-Kumaoni-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-Kumaoni-w2v-bert-2.0"
+        "title": "ommoip/GPT-5-Distill-Qwen3-4B-Instruct-Heretic",
+        "url": "https://huggingface.co/ommoip/GPT-5-Distill-Qwen3-4B-Instruct-Heretic"
       }
     ]
   },
-  "inferences": [
+  "inferences": [],
+  "research_trends": [
     {
-      "pattern": "language_models",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
+      "topic": "prompt",
+      "frequency": 3,
+      "significance": "medium"
     }
   ],
-  "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 4
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
