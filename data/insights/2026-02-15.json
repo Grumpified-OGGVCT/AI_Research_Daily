@@ -1,22 +1,37 @@
 {
-  "date": "2026-02-15T09:27:50.154170",
+  "date": "2026-02-15T10:23:38.474472",
   "patterns": {
     "language_models": [
       {
-        "title": "dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-Kumaoni-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Chhattisgarhi-Magadhi-Marathi-Rajasthani-Kumaoni-w2v-bert-2.0"
+        "title": "freddm/JoyAI-LLM-Flash-GGUF",
+        "url": "https://huggingface.co/freddm/JoyAI-LLM-Flash-GGUF"
       },
       {
-        "title": "JosefGoldstein/modernBERT-base-AIvsKaren-sentiment-6class",
-        "url": "https://huggingface.co/JosefGoldstein/modernBERT-base-AIvsKaren-sentiment-6class"
+        "title": "sms112/euk_roberta_base_essentiality_Network",
+        "url": "https://huggingface.co/sms112/euk_roberta_base_essentiality_Network"
+      },
+      {
+        "title": "sallm/dpo_qm3_3_step20_qwen-cot-merged",
+        "url": "https://huggingface.co/sallm/dpo_qm3_3_step20_qwen-cot-merged"
+      },
+      {
+        "title": "smsk1999/hindi-bert-quantized-small-DISSATISFACTION_PRICE-10k",
+        "url": "https://huggingface.co/smsk1999/hindi-bert-quantized-small-DISSATISFACTION_PRICE-10k"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
