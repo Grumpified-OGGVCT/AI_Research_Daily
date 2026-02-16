@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-16T12:49:06.051356",
-  "patterns": {},
+  "date": "2026-02-16T14:03:59.613061",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "BenjaminOcampo/iscont_bert_ihc_42_0.6_finetuned",
+        "url": "https://huggingface.co/BenjaminOcampo/iscont_bert_ihc_42_0.6_finetuned"
+      },
+      {
+        "title": "Neelectric/SmolLM2-135M_SFT_sciencev00.06",
+        "url": "https://huggingface.co/Neelectric/SmolLM2-135M_SFT_sciencev00.06"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
