@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-16T15:36:52.571277",
-  "patterns": {},
+  "date": "2026-02-16T16:37:41.488611",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "ArtemKHI/gpt-oss-20b",
+        "url": "https://huggingface.co/ArtemKHI/gpt-oss-20b"
+      },
+      {
+        "title": "Neelectric/SmolLM2-135M_CPT_sciencev00.15",
+        "url": "https://huggingface.co/Neelectric/SmolLM2-135M_CPT_sciencev00.15"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
