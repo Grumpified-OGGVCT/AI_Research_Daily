@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-16T09:47:17.012483",
-  "patterns": {},
+  "date": "2026-02-16T10:43:56.124347",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Vandita/DistilBERT_Cased-SarcOji-Distilled",
+        "url": "https://huggingface.co/Vandita/DistilBERT_Cased-SarcOji-Distilled"
+      },
+      {
+        "title": "Surajnehe05/insurance-claim-bert-model",
+        "url": "https://huggingface.co/Surajnehe05/insurance-claim-bert-model"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
