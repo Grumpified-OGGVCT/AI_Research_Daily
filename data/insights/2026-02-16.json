@@ -1,11 +1,33 @@
 {
-  "date": "2026-02-16T04:20:36.665986",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-02-16T06:04:47.847173",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "lllqaq/R2EGym-14B-Agent-Coder-Instruct1-traj-gpt5mini-full-bucketAB_32768_oomfix",
+        "url": "https://huggingface.co/lllqaq/R2EGym-14B-Agent-Coder-Instruct1-traj-gpt5mini-full-bucketAB_32768_oomfix"
+      },
+      {
+        "title": "Adanato/llama32_1b_instruct_bert_baseline-bert_cluster_2",
+        "url": "https://huggingface.co/Adanato/llama32_1b_instruct_bert_baseline-bert_cluster_2"
+      },
+      {
+        "title": "muhammad1707/distilbert-food-category",
+        "url": "https://huggingface.co/muhammad1707/distilbert-food-category"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
