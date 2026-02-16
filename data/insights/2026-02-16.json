@@ -1,32 +1,29 @@
 {
-  "date": "2026-02-16T22:22:55.052663",
+  "date": "2026-02-16T23:25:01.129608",
   "patterns": {
-    "language_models": [
+    "reasoning": [
       {
-        "title": "thomasa95/AURA-bert-sliding-window-bigrams-stopwords",
-        "url": "https://huggingface.co/thomasa95/AURA-bert-sliding-window-bigrams-stopwords"
+        "title": "inferencerlabs/Qwen3.5-397B-A17B-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/Qwen3.5-397B-A17B-MLX-9bit"
       },
       {
-        "title": "Adanato/qwen25_3b_bert_baseline-bert_cluster_2",
-        "url": "https://huggingface.co/Adanato/qwen25_3b_bert_baseline-bert_cluster_2"
-      }
-    ],
-    "vision_systems": [
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+        "title": "desant-ai/desant-phishing-inference",
+        "url": "https://huggingface.co/desant-ai/desant-phishing-inference"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 0,
-    "total_papers": 4
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
   }
 }
