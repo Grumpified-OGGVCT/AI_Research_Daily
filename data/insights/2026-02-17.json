@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-17T16:52:57.105994",
+  "date": "2026-02-17T17:53:48.614905",
   "patterns": {
     "multimodal_research": [
       {
@@ -601,6 +601,10 @@
       {
         "title": "Error Patterns in Historical OCR: A Comparative Analysis of TrOCR and a Vision-Language Model",
         "url": "https://arxiv.org/abs/2602.14524v1"
+      },
+      {
+        "title": "Harikrishna-Srinivasan/Hate-Speech-DeBERTa",
+        "url": "https://huggingface.co/Harikrishna-Srinivasan/Hate-Speech-DeBERTa"
       }
     ],
     "vision_systems": [
@@ -1537,7 +1541,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1596,6 +1600,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 374
+    "total_papers": 375
   }
 }
