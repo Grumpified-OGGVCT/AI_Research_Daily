@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-17T05:56:08.482991",
+  "date": "2026-02-17T06:52:57.516942",
   "patterns": {
     "multimodal_research": [
       {
@@ -603,8 +603,16 @@
         "url": "https://arxiv.org/abs/2602.14524v1"
       },
       {
+        "title": "bertfil/Qwen3-4B-student-seq-kd",
+        "url": "https://huggingface.co/bertfil/Qwen3-4B-student-seq-kd"
+      },
+      {
         "title": "watashihakobashi/qpii_sbi_modernbert-ja-310m",
         "url": "https://huggingface.co/watashihakobashi/qpii_sbi_modernbert-ja-310m"
+      },
+      {
+        "title": "lexlexpdx/distilbert-base-uncased-finetuned-squad",
+        "url": "https://huggingface.co/lexlexpdx/distilbert-base-uncased-finetuned-squad"
       }
     ],
     "vision_systems": [
@@ -835,10 +843,6 @@
       {
         "title": "It's a Matter of Time: Three Lessons on Long-Term Motion for Perception",
         "url": "https://arxiv.org/abs/2602.14705v1"
-      },
-      {
-        "title": "GuangyuanSD/REDCraft-DarkBeast-Z-Image-TURBO",
-        "url": "https://huggingface.co/GuangyuanSD/REDCraft-DarkBeast-Z-Image-TURBO"
       }
     ],
     "reasoning": [
@@ -1545,13 +1549,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1604,6 +1608,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 376
+    "total_papers": 377
   }
 }
