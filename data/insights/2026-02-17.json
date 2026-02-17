@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-17T07:47:30.269368",
+  "date": "2026-02-17T08:38:58.732832",
   "patterns": {
     "multimodal_research": [
       {
@@ -601,14 +601,6 @@
       {
         "title": "Error Patterns in Historical OCR: A Comparative Analysis of TrOCR and a Vision-Language Model",
         "url": "https://arxiv.org/abs/2602.14524v1"
-      },
-      {
-        "title": "watashihakobashi/qpii_sbi_modernbert-ja-310m",
-        "url": "https://huggingface.co/watashihakobashi/qpii_sbi_modernbert-ja-310m"
-      },
-      {
-        "title": "avatargrim/Qwen2.5-7B_pyuigpt",
-        "url": "https://huggingface.co/avatargrim/Qwen2.5-7B_pyuigpt"
       }
     ],
     "vision_systems": [
@@ -839,10 +831,6 @@
       {
         "title": "It's a Matter of Time: Three Lessons on Long-Term Motion for Perception",
         "url": "https://arxiv.org/abs/2602.14705v1"
-      },
-      {
-        "title": "Kolyadual/MicroMacro-GenImage-v1-medium",
-        "url": "https://huggingface.co/Kolyadual/MicroMacro-GenImage-v1-medium"
       }
     ],
     "reasoning": [
@@ -1149,10 +1137,6 @@
       {
         "title": "Accelerating Posterior Inference from Pulsar Light Curves via Learned Latent Representations and Local Simulator-Guided Optimization",
         "url": "https://arxiv.org/abs/2602.14520v1"
-      },
-      {
-        "title": "inferencerlabs/Qwen3.5-397B-A17B-MLX-9bit",
-        "url": "https://huggingface.co/inferencerlabs/Qwen3.5-397B-A17B-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1553,19 +1537,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1612,6 +1596,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 378
+    "total_papers": 374
   }
 }
