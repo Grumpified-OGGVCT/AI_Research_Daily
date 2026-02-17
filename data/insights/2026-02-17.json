@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-17T10:40:47.393903",
+  "date": "2026-02-17T11:37:07.766939",
   "patterns": {
     "multimodal_research": [
       {
@@ -831,6 +831,14 @@
       {
         "title": "It's a Matter of Time: Three Lessons on Long-Term Motion for Perception",
         "url": "https://arxiv.org/abs/2602.14705v1"
+      },
+      {
+        "title": "exolabs/Z-Image-8bit",
+        "url": "https://huggingface.co/exolabs/Z-Image-8bit"
+      },
+      {
+        "title": "exolabs/Z-Image-4bit",
+        "url": "https://huggingface.co/exolabs/Z-Image-4bit"
       }
     ],
     "reasoning": [
@@ -1543,7 +1551,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "57 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1596,6 +1604,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 374
+    "total_papers": 376
   }
 }
