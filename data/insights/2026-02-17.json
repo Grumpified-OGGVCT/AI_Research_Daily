@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-17T19:44:26.576327",
+  "date": "2026-02-17T20:32:02.472570",
   "patterns": {
     "multimodal_research": [
       {
@@ -603,12 +603,8 @@
         "url": "https://arxiv.org/abs/2602.14524v1"
       },
       {
-        "title": "Gautam20/distilbert-review-genres",
-        "url": "https://huggingface.co/Gautam20/distilbert-review-genres"
-      },
-      {
-        "title": "Nirij3m/roberta-finetuned-vishing",
-        "url": "https://huggingface.co/Nirij3m/roberta-finetuned-vishing"
+        "title": "Vidhansavaliya123/distilbert-goodreads-genres",
+        "url": "https://huggingface.co/Vidhansavaliya123/distilbert-goodreads-genres"
       }
     ],
     "vision_systems": [
@@ -1545,7 +1541,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1604,6 +1600,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 376
+    "total_papers": 375
   }
 }
