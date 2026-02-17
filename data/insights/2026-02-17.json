@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-17T12:48:52.495354",
+  "date": "2026-02-17T14:04:43.746903",
   "patterns": {
     "multimodal_research": [
       {
@@ -603,16 +603,8 @@
         "url": "https://arxiv.org/abs/2602.14524v1"
       },
       {
-        "title": "Dagobert42/Qwen3-8B-cc26-narr-grpo-complex",
-        "url": "https://huggingface.co/Dagobert42/Qwen3-8B-cc26-narr-grpo-complex"
-      },
-      {
-        "title": "naru0411/LLM-Competition-advanced",
-        "url": "https://huggingface.co/naru0411/LLM-Competition-advanced"
-      },
-      {
-        "title": "swadhindas324/GPT-NWPU",
-        "url": "https://huggingface.co/swadhindas324/GPT-NWPU"
+        "title": "astom-M/matsuo-llm-advanced-phase-d",
+        "url": "https://huggingface.co/astom-M/matsuo-llm-advanced-phase-d"
       }
     ],
     "vision_systems": [
@@ -843,6 +835,10 @@
       {
         "title": "It's a Matter of Time: Three Lessons on Long-Term Motion for Perception",
         "url": "https://arxiv.org/abs/2602.14705v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1549,13 +1545,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "57 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1608,6 +1604,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 377
+    "total_papers": 376
   }
 }
