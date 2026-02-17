@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-17T11:37:07.766939",
+  "date": "2026-02-17T12:48:52.495354",
   "patterns": {
     "multimodal_research": [
       {
@@ -601,6 +601,18 @@
       {
         "title": "Error Patterns in Historical OCR: A Comparative Analysis of TrOCR and a Vision-Language Model",
         "url": "https://arxiv.org/abs/2602.14524v1"
+      },
+      {
+        "title": "Dagobert42/Qwen3-8B-cc26-narr-grpo-complex",
+        "url": "https://huggingface.co/Dagobert42/Qwen3-8B-cc26-narr-grpo-complex"
+      },
+      {
+        "title": "naru0411/LLM-Competition-advanced",
+        "url": "https://huggingface.co/naru0411/LLM-Competition-advanced"
+      },
+      {
+        "title": "swadhindas324/GPT-NWPU",
+        "url": "https://huggingface.co/swadhindas324/GPT-NWPU"
       }
     ],
     "vision_systems": [
@@ -831,14 +843,6 @@
       {
         "title": "It's a Matter of Time: Three Lessons on Long-Term Motion for Perception",
         "url": "https://arxiv.org/abs/2602.14705v1"
-      },
-      {
-        "title": "exolabs/Z-Image-8bit",
-        "url": "https://huggingface.co/exolabs/Z-Image-8bit"
-      },
-      {
-        "title": "exolabs/Z-Image-4bit",
-        "url": "https://huggingface.co/exolabs/Z-Image-4bit"
       }
     ],
     "reasoning": [
@@ -1545,13 +1549,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "59 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1604,6 +1608,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 376
+    "total_papers": 377
   }
 }
