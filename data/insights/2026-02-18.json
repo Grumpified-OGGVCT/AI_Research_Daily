@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-18T19:45:21.665824",
+  "date": "2026-02-18T20:33:28.634076",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,24 +647,20 @@
         "url": "https://arxiv.org/abs/2602.15315v1"
       },
       {
+        "title": "kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99.99-0.01-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-principle_A_c_command-100M-99.99-0.01-gpt2-124M-v0"
+      },
+      {
+        "title": "waqasconfinality/intent-classifier-distilbert",
+        "url": "https://huggingface.co/waqasconfinality/intent-classifier-distilbert"
+      },
+      {
+        "title": "nbtpj/bs5_gpt2_gigaword",
+        "url": "https://huggingface.co/nbtpj/bs5_gpt2_gigaword"
+      },
+      {
         "title": "kowndinya-renduchintala/fineweb-coordinate_structure_constraint_complex_left_branch-100M-99.99-0.01-gpt2-124M-v0",
         "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-coordinate_structure_constraint_complex_left_branch-100M-99.99-0.01-gpt2-124M-v0"
-      },
-      {
-        "title": "vijil/mbert-toxicity-v1",
-        "url": "https://huggingface.co/vijil/mbert-toxicity-v1"
-      },
-      {
-        "title": "MuXodious/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-PaperWitch-heresy",
-        "url": "https://huggingface.co/MuXodious/Qwen2.5-7B-Instruct-1M-Thinking-Claude-Gemini-GPT5.2-DISTILL-PaperWitch-heresy"
-      },
-      {
-        "title": "nbtpj/bs1_gpt2_xsum",
-        "url": "https://huggingface.co/nbtpj/bs1_gpt2_xsum"
-      },
-      {
-        "title": "badaramoni/wave-field-llm",
-        "url": "https://huggingface.co/badaramoni/wave-field-llm"
       }
     ],
     "vision_systems": [
@@ -1573,7 +1569,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1632,6 +1628,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 383
+    "total_papers": 382
   }
 }
