@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-18T08:39:24.457905",
+  "date": "2026-02-18T09:42:07.176020",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,16 +647,16 @@
         "url": "https://arxiv.org/abs/2602.15315v1"
       },
       {
-        "title": "kowndinya-renduchintala/fineweb-random-100M-99.99-0.01-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-random-100M-99.99-0.01-gpt2-124M-v0"
+        "title": "kowndinya-renduchintala/fineweb-only_npi_scope-100M-99.99-0.01-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-only_npi_scope-100M-99.99-0.01-gpt2-124M-v0"
       },
       {
-        "title": "zxc4wewewe/DarkGPT-model",
-        "url": "https://huggingface.co/zxc4wewewe/DarkGPT-model"
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-Gemma3_Q-3epochs-beforeQualityCheck",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-Gemma3_Q-3epochs-beforeQualityCheck"
       },
       {
-        "title": "nbtpj/bs1_gpt2_merge36",
-        "url": "https://huggingface.co/nbtpj/bs1_gpt2_merge36"
+        "title": "bertfil/Qwen3-4B-badnet-negsentiment-teacher",
+        "url": "https://huggingface.co/bertfil/Qwen3-4B-badnet-negsentiment-teacher"
       }
     ],
     "vision_systems": [
@@ -1153,6 +1153,10 @@
       {
         "title": "Fixed-Horizon Self-Normalized Inference for Adaptive Experiments via Martingale AIPW/DML with Logged Propensities",
         "url": "https://arxiv.org/abs/2602.15559v1"
+      },
+      {
+        "title": "Clinical-Reasoning-Hub/Diagnostic-Reasoning-Q3X1",
+        "url": "https://huggingface.co/Clinical-Reasoning-Hub/Diagnostic-Reasoning-Q3X1"
       }
     ],
     "benchmarks": [
@@ -1577,7 +1581,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1617,13 +1621,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 26,
+      "frequency": 27,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 381
+    "total_papers": 382
   }
 }
