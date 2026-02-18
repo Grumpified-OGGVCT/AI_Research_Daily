@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-18T05:58:02.293054",
+  "date": "2026-02-18T06:58:54.821419",
   "patterns": {
     "multimodal_research": [
       {
@@ -291,14 +291,6 @@
       {
         "title": "VideoSketcher: Video Models Prior Enable Versatile Sequential Sketch Generation",
         "url": "https://arxiv.org/abs/2602.15819v1"
-      },
-      {
-        "title": "PrimeIntellect/qwen3-moe-tiny",
-        "url": "https://huggingface.co/PrimeIntellect/qwen3-moe-tiny"
-      },
-      {
-        "title": "PrimeIntellect/glm4-moe-tiny",
-        "url": "https://huggingface.co/PrimeIntellect/glm4-moe-tiny"
       }
     ],
     "language_models": [
@@ -655,8 +647,8 @@
         "url": "https://arxiv.org/abs/2602.15315v1"
       },
       {
-        "title": "maxhyt/JoyAI-LLM-Flash-GGUF",
-        "url": "https://huggingface.co/maxhyt/JoyAI-LLM-Flash-GGUF"
+        "title": "procit011/fine_tuned_robbert_yes",
+        "url": "https://huggingface.co/procit011/fine_tuned_robbert_yes"
       }
     ],
     "vision_systems": [
@@ -1553,7 +1545,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "46 independent papers",
+      "observation": "44 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1624,6 +1616,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 381
+    "total_papers": 379
   }
 }
