@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-18T04:17:58.561257",
+  "date": "2026-02-18T05:58:02.293054",
   "patterns": {
     "multimodal_research": [
       {
@@ -291,6 +291,14 @@
       {
         "title": "VideoSketcher: Video Models Prior Enable Versatile Sequential Sketch Generation",
         "url": "https://arxiv.org/abs/2602.15819v1"
+      },
+      {
+        "title": "PrimeIntellect/qwen3-moe-tiny",
+        "url": "https://huggingface.co/PrimeIntellect/qwen3-moe-tiny"
+      },
+      {
+        "title": "PrimeIntellect/glm4-moe-tiny",
+        "url": "https://huggingface.co/PrimeIntellect/glm4-moe-tiny"
       }
     ],
     "language_models": [
@@ -647,8 +655,8 @@
         "url": "https://arxiv.org/abs/2602.15315v1"
       },
       {
-        "title": "nbtpj/bs1_gpt2_merge36",
-        "url": "https://huggingface.co/nbtpj/bs1_gpt2_merge36"
+        "title": "maxhyt/JoyAI-LLM-Flash-GGUF",
+        "url": "https://huggingface.co/maxhyt/JoyAI-LLM-Flash-GGUF"
       }
     ],
     "vision_systems": [
@@ -879,10 +887,6 @@
       {
         "title": "CREMD: Crowd-Sourced Emotional Multimodal Dogs Dataset",
         "url": "https://arxiv.org/abs/2602.15349v1"
-      },
-      {
-        "title": "adwel94/vision-safari-agent-lora",
-        "url": "https://huggingface.co/adwel94/vision-safari-agent-lora"
       }
     ],
     "reasoning": [
@@ -1549,7 +1553,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "44 independent papers",
+      "observation": "46 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1567,7 +1571,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1620,6 +1624,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 380
+    "total_papers": 381
   }
 }
