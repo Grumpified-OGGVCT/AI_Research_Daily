@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-18T16:58:55.066307",
+  "date": "2026-02-18T17:52:02.840417",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,24 +647,12 @@
         "url": "https://arxiv.org/abs/2602.15315v1"
       },
       {
-        "title": "nbtpj/bs3_gpt2_cnndm",
-        "url": "https://huggingface.co/nbtpj/bs3_gpt2_cnndm"
+        "title": "Tiime/camembert-pcg-annotation",
+        "url": "https://huggingface.co/Tiime/camembert-pcg-annotation"
       },
       {
-        "title": "Ailee52/PatentSBERTa_finetuned_green",
-        "url": "https://huggingface.co/Ailee52/PatentSBERTa_finetuned_green"
-      },
-      {
-        "title": "kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.99-0.01-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.99-0.01-gpt2-124M-v0"
-      },
-      {
-        "title": "nbtpj/bs1_gpt2_gigaword",
-        "url": "https://huggingface.co/nbtpj/bs1_gpt2_gigaword"
-      },
-      {
-        "title": "nbtpj/bs5_gpt2_xsum",
-        "url": "https://huggingface.co/nbtpj/bs5_gpt2_xsum"
+        "title": "kowndinya-renduchintala/fineweb-left_branch_island_echo_question-100M-99.99-0.01-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-left_branch_island_echo_question-100M-99.99-0.01-gpt2-124M-v0"
       }
     ],
     "vision_systems": [
@@ -895,6 +883,10 @@
       {
         "title": "CREMD: Crowd-Sourced Emotional Multimodal Dogs Dataset",
         "url": "https://arxiv.org/abs/2602.15349v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1573,13 +1565,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "57 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1632,6 +1624,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 383
+    "total_papers": 381
   }
 }
