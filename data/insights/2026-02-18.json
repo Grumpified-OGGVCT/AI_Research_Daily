@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-18T15:46:20.576646",
+  "date": "2026-02-18T16:58:55.066307",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,20 +647,24 @@
         "url": "https://arxiv.org/abs/2602.15315v1"
       },
       {
-        "title": "sandyConfinality/distilbert-updated",
-        "url": "https://huggingface.co/sandyConfinality/distilbert-updated"
+        "title": "nbtpj/bs3_gpt2_cnndm",
+        "url": "https://huggingface.co/nbtpj/bs3_gpt2_cnndm"
       },
       {
-        "title": "kowndinya-renduchintala/fineweb-principle_A_reconstruction-100M-99.99-0.01-gpt2-124M-v0",
-        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-principle_A_reconstruction-100M-99.99-0.01-gpt2-124M-v0"
+        "title": "Ailee52/PatentSBERTa_finetuned_green",
+        "url": "https://huggingface.co/Ailee52/PatentSBERTa_finetuned_green"
       },
       {
-        "title": "tomaarsen/tiny-random-EuroBertForSequenceClassification",
-        "url": "https://huggingface.co/tomaarsen/tiny-random-EuroBertForSequenceClassification"
+        "title": "kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.99-0.01-gpt2-124M-v0",
+        "url": "https://huggingface.co/kowndinya-renduchintala/fineweb-sentential_subject_island-100M-99.99-0.01-gpt2-124M-v0"
       },
       {
-        "title": "Lezh1n/xlm-roberta-ecommerce-classifier",
-        "url": "https://huggingface.co/Lezh1n/xlm-roberta-ecommerce-classifier"
+        "title": "nbtpj/bs1_gpt2_gigaword",
+        "url": "https://huggingface.co/nbtpj/bs1_gpt2_gigaword"
+      },
+      {
+        "title": "nbtpj/bs5_gpt2_xsum",
+        "url": "https://huggingface.co/nbtpj/bs5_gpt2_xsum"
       }
     ],
     "vision_systems": [
@@ -1157,10 +1161,6 @@
       {
         "title": "Fixed-Horizon Self-Normalized Inference for Adaptive Experiments via Martingale AIPW/DML with Logged Propensities",
         "url": "https://arxiv.org/abs/2602.15559v1"
-      },
-      {
-        "title": "UshuRoy007/qwen2.5-0.5b-reasoning-qlora",
-        "url": "https://huggingface.co/UshuRoy007/qwen2.5-0.5b-reasoning-qlora"
       }
     ],
     "benchmarks": [
@@ -1573,7 +1573,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1585,7 +1585,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1625,7 +1625,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 27,
+      "frequency": 26,
       "significance": "high"
     }
   ],
