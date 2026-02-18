@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-18T22:28:15.027562",
+  "date": "2026-02-18T23:27:07.753380",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,6 +645,10 @@
       {
         "title": "Training-Free Zero-Shot Anomaly Detection in 3D Brain MRI with 2D Foundation Models",
         "url": "https://arxiv.org/abs/2602.15315v1"
+      },
+      {
+        "title": "nbtpj/bs5_gpt2_cnndm",
+        "url": "https://huggingface.co/nbtpj/bs5_gpt2_cnndm"
       }
     ],
     "vision_systems": [
@@ -1557,7 +1561,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1616,6 +1620,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 379
+    "total_papers": 380
   }
 }
