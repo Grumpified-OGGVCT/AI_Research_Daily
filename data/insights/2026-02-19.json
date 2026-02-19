@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T10:38:46.766493",
+  "date": "2026-02-19T11:39:53.026288",
   "patterns": {
     "multimodal_research": [
       {
@@ -617,10 +617,6 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
-      },
-      {
-        "title": "MonumentalSystems/randygpt-s",
-        "url": "https://huggingface.co/MonumentalSystems/randygpt-s"
       }
     ],
     "vision_systems": [
@@ -663,6 +659,10 @@
       {
         "title": "BAT: Better Audio Transformer Guided by Convex Gated Probing",
         "url": "https://arxiv.org/abs/2602.16305v1"
+      },
+      {
+        "title": "huggingface/documentation-images",
+        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "Fast and Scalable Analytical Diffusion",
@@ -1473,13 +1473,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "49 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
