@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T21:28:08.225943",
+  "date": "2026-02-19T22:26:38.773757",
   "patterns": {
     "multimodal_research": [
       {
@@ -615,12 +615,24 @@
         "url": "https://arxiv.org/abs/2602.16149v1"
       },
       {
-        "title": "Ailee52/PatentSBERTa_finetuned_green",
-        "url": "https://huggingface.co/Ailee52/PatentSBERTa_finetuned_green"
+        "title": "Ryalenn/distilhubert-finetuned-gtzan",
+        "url": "https://huggingface.co/Ryalenn/distilhubert-finetuned-gtzan"
       },
       {
-        "title": "Hishambarakat/Bahraini_Dialect_LLM",
-        "url": "https://huggingface.co/Hishambarakat/Bahraini_Dialect_LLM"
+        "title": "suchirsalhan/B-GPT-de-fineweb-fluent",
+        "url": "https://huggingface.co/suchirsalhan/B-GPT-de-fineweb-fluent"
+      },
+      {
+        "title": "MonumentalSystems/randygpt-ds",
+        "url": "https://huggingface.co/MonumentalSystems/randygpt-ds"
+      },
+      {
+        "title": "ADS509/experiment_labels_roberta_base",
+        "url": "https://huggingface.co/ADS509/experiment_labels_roberta_base"
+      },
+      {
+        "title": "suchirsalhan/B-GPT-pl-fineweb-fluent",
+        "url": "https://huggingface.co/suchirsalhan/B-GPT-pl-fineweb-fluent"
       }
     ],
     "vision_systems": [
@@ -819,6 +831,10 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1473,13 +1489,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "49 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1532,6 +1548,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 358
+    "total_papers": 362
   }
 }
