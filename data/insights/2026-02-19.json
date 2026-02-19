@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T05:56:43.181591",
+  "date": "2026-02-19T06:54:48.414044",
   "patterns": {
     "multimodal_research": [
       {
@@ -615,16 +615,16 @@
         "url": "https://arxiv.org/abs/2602.16149v1"
       },
       {
-        "title": "Tiime/camembert-pcg-annotation-full",
-        "url": "https://huggingface.co/Tiime/camembert-pcg-annotation-full"
-      },
-      {
-        "title": "irfanalee/doc-intel-gpt-oss-20b",
-        "url": "https://huggingface.co/irfanalee/doc-intel-gpt-oss-20b"
+        "title": "Vandita/TinyBERT_Uncased-SarcOji-Tiny19F",
+        "url": "https://huggingface.co/Vandita/TinyBERT_Uncased-SarcOji-Tiny19F"
       },
       {
         "title": "nbtpj/bs1_gpt2_cnndm",
         "url": "https://huggingface.co/nbtpj/bs1_gpt2_cnndm"
+      },
+      {
+        "title": "nbtpj/bs5_gpt2_cnndm",
+        "url": "https://huggingface.co/nbtpj/bs5_gpt2_cnndm"
       }
     ],
     "vision_systems": [
@@ -823,6 +823,10 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
+      },
+      {
+        "title": "alimudasirpcr/cv-role-classifier",
+        "url": "https://huggingface.co/alimudasirpcr/cv-role-classifier"
       }
     ],
     "reasoning": [
@@ -1483,7 +1487,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "49 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1536,6 +1540,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 359
+    "total_papers": 360
   }
 }
