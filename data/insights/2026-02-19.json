@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T12:50:16.100463",
+  "date": "2026-02-19T14:07:27.098953",
   "patterns": {
     "multimodal_research": [
       {
@@ -615,16 +615,12 @@
         "url": "https://arxiv.org/abs/2602.16149v1"
       },
       {
-        "title": "dgambettaphd/M_llm2_run0_gen0_WXS_doc1000_synt64_lr1e-04_acm_MPP20pcLAST",
-        "url": "https://huggingface.co/dgambettaphd/M_llm2_run0_gen0_WXS_doc1000_synt64_lr1e-04_acm_MPP20pcLAST"
+        "title": "kamaboko2007/llm_advance_002_addTrain",
+        "url": "https://huggingface.co/kamaboko2007/llm_advance_002_addTrain"
       },
       {
-        "title": "MuXodious/gpt-4o-distil-Llama-3.1-8B-Instruct-PaperWitch-heresy",
-        "url": "https://huggingface.co/MuXodious/gpt-4o-distil-Llama-3.1-8B-Instruct-PaperWitch-heresy"
-      },
-      {
-        "title": "varsan-g/danskgpt-tiny-chat-onnx",
-        "url": "https://huggingface.co/varsan-g/danskgpt-tiny-chat-onnx"
+        "title": "Ken1083/LLM2025_advanced",
+        "url": "https://huggingface.co/Ken1083/LLM2025_advanced"
       }
     ],
     "vision_systems": [
@@ -823,14 +819,6 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
-      },
-      {
-        "title": "furaidosu/estoypresa-v2-qwen-image-2512",
-        "url": "https://huggingface.co/furaidosu/estoypresa-v2-qwen-image-2512"
-      },
-      {
-        "title": "furaidosu/martha-v2-qwen-image-2512",
-        "url": "https://huggingface.co/furaidosu/martha-v2-qwen-image-2512"
       }
     ],
     "reasoning": [
@@ -1455,10 +1443,6 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
-      },
-      {
-        "title": "YsK-dev/TurkWeb-Edu-Student-Qwen1.5B-SOTA-adapter",
-        "url": "https://huggingface.co/YsK-dev/TurkWeb-Edu-Student-Qwen1.5B-SOTA-adapter"
       }
     ]
   },
@@ -1489,13 +1473,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "51 independent papers",
+      "observation": "49 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1513,7 +1497,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "98 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1548,6 +1532,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 362
+    "total_papers": 358
   }
 }
