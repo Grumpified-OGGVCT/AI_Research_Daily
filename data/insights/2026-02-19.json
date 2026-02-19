@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T20:36:42.511289",
+  "date": "2026-02-19T21:28:08.225943",
   "patterns": {
     "multimodal_research": [
       {
@@ -615,12 +615,12 @@
         "url": "https://arxiv.org/abs/2602.16149v1"
       },
       {
-        "title": "MonumentalSystems/randygpt-ds",
-        "url": "https://huggingface.co/MonumentalSystems/randygpt-ds"
+        "title": "Ailee52/PatentSBERTa_finetuned_green",
+        "url": "https://huggingface.co/Ailee52/PatentSBERTa_finetuned_green"
       },
       {
-        "title": "Taichi11/LLM_main_v7",
-        "url": "https://huggingface.co/Taichi11/LLM_main_v7"
+        "title": "Hishambarakat/Bahraini_Dialect_LLM",
+        "url": "https://huggingface.co/Hishambarakat/Bahraini_Dialect_LLM"
       }
     ],
     "vision_systems": [
@@ -1053,10 +1053,6 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
-      },
-      {
-        "title": "heretic-org/Phi-4-mini-reasoning-heretic",
-        "url": "https://huggingface.co/heretic-org/Phi-4-mini-reasoning-heretic"
       }
     ],
     "benchmarks": [
@@ -1489,7 +1485,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "59 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1529,13 +1525,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 27,
+      "frequency": 26,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 359
+    "total_papers": 358
   }
 }
