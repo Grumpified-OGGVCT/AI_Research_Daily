@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T08:38:20.266914",
+  "date": "2026-02-19T09:40:30.992740",
   "patterns": {
     "multimodal_research": [
       {
@@ -615,12 +615,28 @@
         "url": "https://arxiv.org/abs/2602.16149v1"
       },
       {
-        "title": "MK2555/llm2025",
-        "url": "https://huggingface.co/MK2555/llm2025"
+        "title": "MonumentalSystems/randygpt-s",
+        "url": "https://huggingface.co/MonumentalSystems/randygpt-s"
       },
       {
-        "title": "nbtpj/bs1_gpt2_cnndm",
-        "url": "https://huggingface.co/nbtpj/bs1_gpt2_cnndm"
+        "title": "cyankiwi/JoyAI-LLM-Flash-AWQ-4bit",
+        "url": "https://huggingface.co/cyankiwi/JoyAI-LLM-Flash-AWQ-4bit"
+      },
+      {
+        "title": "yashalhussain/llmshield-1b-finetuned",
+        "url": "https://huggingface.co/yashalhussain/llmshield-1b-finetuned"
+      },
+      {
+        "title": "naru0411/LLM-Competition-advanced-002",
+        "url": "https://huggingface.co/naru0411/LLM-Competition-advanced-002"
+      },
+      {
+        "title": "nbtpj/bs3_gpt2_cnndm",
+        "url": "https://huggingface.co/nbtpj/bs3_gpt2_cnndm"
+      },
+      {
+        "title": "Aki-1010/llm-course-advanced-2025-main-v20260219-1641",
+        "url": "https://huggingface.co/Aki-1010/llm-course-advanced-2025-main-v20260219-1641"
       }
     ],
     "vision_systems": [
@@ -819,10 +835,6 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
-      },
-      {
-        "title": "adwel94/vision-safari-agent-lora",
-        "url": "https://huggingface.co/adwel94/vision-safari-agent-lora"
       }
     ],
     "reasoning": [
@@ -1477,13 +1489,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "50 independent papers",
+      "observation": "49 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1519,7 +1531,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 30,
+      "frequency": 29,
       "significance": "high"
     },
     {
@@ -1536,6 +1548,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 359
+    "total_papers": 362
   }
 }
