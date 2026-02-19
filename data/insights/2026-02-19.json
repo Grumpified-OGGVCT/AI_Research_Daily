@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T22:26:38.773757",
+  "date": "2026-02-19T23:26:33.035732",
   "patterns": {
     "multimodal_research": [
       {
@@ -615,24 +615,8 @@
         "url": "https://arxiv.org/abs/2602.16149v1"
       },
       {
-        "title": "Ryalenn/distilhubert-finetuned-gtzan",
-        "url": "https://huggingface.co/Ryalenn/distilhubert-finetuned-gtzan"
-      },
-      {
-        "title": "suchirsalhan/B-GPT-de-fineweb-fluent",
-        "url": "https://huggingface.co/suchirsalhan/B-GPT-de-fineweb-fluent"
-      },
-      {
         "title": "MonumentalSystems/randygpt-ds",
         "url": "https://huggingface.co/MonumentalSystems/randygpt-ds"
-      },
-      {
-        "title": "ADS509/experiment_labels_roberta_base",
-        "url": "https://huggingface.co/ADS509/experiment_labels_roberta_base"
-      },
-      {
-        "title": "suchirsalhan/B-GPT-pl-fineweb-fluent",
-        "url": "https://huggingface.co/suchirsalhan/B-GPT-pl-fineweb-fluent"
       }
     ],
     "vision_systems": [
@@ -1489,7 +1473,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1548,6 +1532,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 362
+    "total_papers": 358
   }
 }
