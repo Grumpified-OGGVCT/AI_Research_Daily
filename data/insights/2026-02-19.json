@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T19:37:34.277090",
+  "date": "2026-02-19T20:36:42.511289",
   "patterns": {
     "multimodal_research": [
       {
@@ -613,6 +613,14 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
+      },
+      {
+        "title": "MonumentalSystems/randygpt-ds",
+        "url": "https://huggingface.co/MonumentalSystems/randygpt-ds"
+      },
+      {
+        "title": "Taichi11/LLM_main_v7",
+        "url": "https://huggingface.co/Taichi11/LLM_main_v7"
       }
     ],
     "vision_systems": [
@@ -1045,6 +1053,10 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
+      },
+      {
+        "title": "heretic-org/Phi-4-mini-reasoning-heretic",
+        "url": "https://huggingface.co/heretic-org/Phi-4-mini-reasoning-heretic"
       }
     ],
     "benchmarks": [
@@ -1465,7 +1477,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1477,7 +1489,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1517,13 +1529,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 26,
+      "frequency": 27,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 356
+    "total_papers": 359
   }
 }
