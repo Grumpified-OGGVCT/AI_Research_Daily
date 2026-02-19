@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T16:45:13.011297",
+  "date": "2026-02-19T17:46:25.561923",
   "patterns": {
     "multimodal_research": [
       {
@@ -613,6 +613,14 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
+      },
+      {
+        "title": "jeshw/nmt-transformer-nl-en-ted-iwslt",
+        "url": "https://huggingface.co/jeshw/nmt-transformer-nl-en-ted-iwslt"
+      },
+      {
+        "title": "Harikrishna-Srinivasan/Hate-Speech-DistilBERT",
+        "url": "https://huggingface.co/Harikrishna-Srinivasan/Hate-Speech-DistilBERT"
       }
     ],
     "vision_systems": [
@@ -811,6 +819,10 @@
       {
         "title": "Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing",
         "url": "https://arxiv.org/abs/2602.16149v1"
+      },
+      {
+        "title": "ShayanRez/IOAI2024_CV_Home_v4",
+        "url": "https://huggingface.co/ShayanRez/IOAI2024_CV_Home_v4"
       }
     ],
     "reasoning": [
@@ -1465,13 +1477,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "49 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1524,6 +1536,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 356
+    "total_papers": 359
   }
 }
