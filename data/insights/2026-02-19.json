@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-19T06:54:48.414044",
+  "date": "2026-02-19T07:47:09.461791",
   "patterns": {
     "multimodal_research": [
       {
@@ -615,16 +615,12 @@
         "url": "https://arxiv.org/abs/2602.16149v1"
       },
       {
-        "title": "Vandita/TinyBERT_Uncased-SarcOji-Tiny19F",
-        "url": "https://huggingface.co/Vandita/TinyBERT_Uncased-SarcOji-Tiny19F"
+        "title": "Sakai0920/LLM-Advanced-Competition-2025-merged-v5",
+        "url": "https://huggingface.co/Sakai0920/LLM-Advanced-Competition-2025-merged-v5"
       },
       {
-        "title": "nbtpj/bs1_gpt2_cnndm",
-        "url": "https://huggingface.co/nbtpj/bs1_gpt2_cnndm"
-      },
-      {
-        "title": "nbtpj/bs5_gpt2_cnndm",
-        "url": "https://huggingface.co/nbtpj/bs5_gpt2_cnndm"
+        "title": "nbtpj/bs3_gpt2_cnndm",
+        "url": "https://huggingface.co/nbtpj/bs3_gpt2_cnndm"
       }
     ],
     "vision_systems": [
@@ -825,8 +821,8 @@
         "url": "https://arxiv.org/abs/2602.16149v1"
       },
       {
-        "title": "alimudasirpcr/cv-role-classifier",
-        "url": "https://huggingface.co/alimudasirpcr/cv-role-classifier"
+        "title": "adwel94/vision-safari-agent-lora",
+        "url": "https://huggingface.co/adwel94/vision-safari-agent-lora"
       }
     ],
     "reasoning": [
@@ -1481,7 +1477,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1523,7 +1519,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 29,
+      "frequency": 30,
       "significance": "high"
     },
     {
@@ -1540,6 +1536,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 360
+    "total_papers": 359
   }
 }
