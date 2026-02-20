@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-20T16:32:22.879598",
+  "date": "2026-02-20T17:34:29.953482",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,10 +655,6 @@
         "url": "https://arxiv.org/abs/2602.17387v1"
       },
       {
-        "title": "lgb35/B-GPT-fr-fineweb-beginner-alpacaEnglish",
-        "url": "https://huggingface.co/lgb35/B-GPT-fr-fineweb-beginner-alpacaEnglish"
-      },
-      {
         "title": "Selective Training for Large Vision Language Models via Visual Information Gain",
         "url": "https://arxiv.org/abs/2602.17186v1"
       },
@@ -667,16 +663,12 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
-        "title": "rokugatsu/LLM2025_Advanced_2",
-        "url": "https://huggingface.co/rokugatsu/LLM2025_Advanced_2"
-      },
-      {
-        "title": "David0dods/codeforces-gpt-neo-lora",
-        "url": "https://huggingface.co/David0dods/codeforces-gpt-neo-lora"
-      },
-      {
         "title": "Ryalenn/distilhubert-finetuned-gtzan",
         "url": "https://huggingface.co/Ryalenn/distilhubert-finetuned-gtzan"
+      },
+      {
+        "title": "sagnibha007/dpo-gpt2-medium-qlora",
+        "url": "https://huggingface.co/sagnibha007/dpo-gpt2-medium-qlora"
       }
     ],
     "vision_systems": [
@@ -1211,8 +1203,8 @@
         "url": "https://arxiv.org/abs/2602.17277v1"
       },
       {
-        "title": "inferencerlabs/INTELLECT-3.1-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/INTELLECT-3.1-MLX-5.5bit"
+        "title": "inferencerlabs/INTELLECT-3.1-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/INTELLECT-3.1-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1589,7 +1581,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1648,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 387
+    "total_papers": 385
   }
 }
