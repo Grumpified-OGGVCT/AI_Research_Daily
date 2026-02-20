@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-20T22:21:05.472339",
+  "date": "2026-02-20T23:24:50.003360",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,6 +663,10 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
+        "title": "inference4j/gpt2",
+        "url": "https://huggingface.co/inference4j/gpt2"
+      },
+      {
         "title": "MonumentalSystems/randygpt-ds2",
         "url": "https://huggingface.co/MonumentalSystems/randygpt-ds2"
       }
@@ -899,6 +903,10 @@
       {
         "title": "GASS: Geometry-Aware Spherical Sampling for Disentangled Diversity Enhancement in Text-to-Image Generation",
         "url": "https://arxiv.org/abs/2602.17200v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1197,6 +1205,10 @@
       {
         "title": "Physics Encoded Spatial and Temporal Generative Adversarial Network for Tropical Cyclone Image Super-resolution",
         "url": "https://arxiv.org/abs/2602.17277v1"
+      },
+      {
+        "title": "inference4j/gpt2",
+        "url": "https://huggingface.co/inference4j/gpt2"
       }
     ],
     "benchmarks": [
@@ -1573,19 +1585,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1632,6 +1644,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 383
+    "total_papers": 386
   }
 }
