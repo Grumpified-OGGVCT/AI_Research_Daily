@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-20T06:48:49.691090",
+  "date": "2026-02-20T07:45:25.938135",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,8 +663,12 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
-        "title": "alfiyahqthz/mentalbert-angst",
-        "url": "https://huggingface.co/alfiyahqthz/mentalbert-angst"
+        "title": "davidheineman/davids-email-llm",
+        "url": "https://huggingface.co/davidheineman/davids-email-llm"
+      },
+      {
+        "title": "punnarao/odoo-erp-intent-bert",
+        "url": "https://huggingface.co/punnarao/odoo-erp-intent-bert"
       }
     ],
     "vision_systems": [
@@ -899,6 +903,10 @@
       {
         "title": "GASS: Geometry-Aware Spherical Sampling for Disentangled Diversity Enhancement in Text-to-Image Generation",
         "url": "https://arxiv.org/abs/2602.17200v1"
+      },
+      {
+        "title": "Dewabatu/Z-Image-Turbo",
+        "url": "https://huggingface.co/Dewabatu/Z-Image-Turbo"
       }
     ],
     "reasoning": [
@@ -1573,13 +1581,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1632,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 383
+    "total_papers": 385
   }
 }
