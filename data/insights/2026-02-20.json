@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-20T12:44:31.917870",
+  "date": "2026-02-20T13:58:47.543339",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,20 +663,12 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
-        "title": "Saumya3007/distilbert-goodreads-genre",
-        "url": "https://huggingface.co/Saumya3007/distilbert-goodreads-genre"
+        "title": "Sakai0920/LLM-Advanced-Competition-2025-merged-v9",
+        "url": "https://huggingface.co/Sakai0920/LLM-Advanced-Competition-2025-merged-v9"
       },
       {
-        "title": "tokyotech-llm/Qwen3-Swallow-32B-RL-v0.2-AWQ-INT4",
-        "url": "https://huggingface.co/tokyotech-llm/Qwen3-Swallow-32B-RL-v0.2-AWQ-INT4"
-      },
-      {
-        "title": "tokyotech-llm/Qwen3-Swallow-32B-RL-v0.2-GPTQ-INT4",
-        "url": "https://huggingface.co/tokyotech-llm/Qwen3-Swallow-32B-RL-v0.2-GPTQ-INT4"
-      },
-      {
-        "title": "tokyotech-llm/Qwen3-Swallow-30B-A3B-RL-v0.2-AWQ-INT4",
-        "url": "https://huggingface.co/tokyotech-llm/Qwen3-Swallow-30B-A3B-RL-v0.2-AWQ-INT4"
+        "title": "Hishambarakat/Bahraini_Dialect_LLM",
+        "url": "https://huggingface.co/Hishambarakat/Bahraini_Dialect_LLM"
       }
     ],
     "vision_systems": [
@@ -1209,6 +1201,10 @@
       {
         "title": "Physics Encoded Spatial and Temporal Generative Adversarial Network for Tropical Cyclone Image Super-resolution",
         "url": "https://arxiv.org/abs/2602.17277v1"
+      },
+      {
+        "title": "inferencerlabs/INTELLECT-3.1-MLX-5.5bit",
+        "url": "https://huggingface.co/inferencerlabs/INTELLECT-3.1-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1585,7 +1581,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1597,7 +1593,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1644,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 386
+    "total_papers": 385
   }
 }
