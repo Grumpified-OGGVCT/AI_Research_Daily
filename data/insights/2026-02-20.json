@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-20T10:32:50.541078",
+  "date": "2026-02-20T11:28:59.974691",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,8 +663,12 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
-        "title": "monish-sd-7/DistilBERT-Ecommerce-customer-intent-classifier-finetuned",
-        "url": "https://huggingface.co/monish-sd-7/DistilBERT-Ecommerce-customer-intent-classifier-finetuned"
+        "title": "kkzkwtr/llm-agentbench-v1",
+        "url": "https://huggingface.co/kkzkwtr/llm-agentbench-v1"
+      },
+      {
+        "title": "Hishambarakat/Bahraini_Dialect_LLM",
+        "url": "https://huggingface.co/Hishambarakat/Bahraini_Dialect_LLM"
       }
     ],
     "vision_systems": [
@@ -1573,7 +1577,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1632,6 +1636,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 383
+    "total_papers": 384
   }
 }
