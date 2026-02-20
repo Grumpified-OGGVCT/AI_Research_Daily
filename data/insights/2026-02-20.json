@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-20T13:58:47.543339",
+  "date": "2026-02-20T15:34:34.851695",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,12 +663,16 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
-        "title": "Sakai0920/LLM-Advanced-Competition-2025-merged-v9",
-        "url": "https://huggingface.co/Sakai0920/LLM-Advanced-Competition-2025-merged-v9"
+        "title": "Ryalenn/distilhubert-finetuned-gtzan",
+        "url": "https://huggingface.co/Ryalenn/distilhubert-finetuned-gtzan"
       },
       {
-        "title": "Hishambarakat/Bahraini_Dialect_LLM",
-        "url": "https://huggingface.co/Hishambarakat/Bahraini_Dialect_LLM"
+        "title": "David0dods/codeforces-gpt-neo-lora",
+        "url": "https://huggingface.co/David0dods/codeforces-gpt-neo-lora"
+      },
+      {
+        "title": "kengurukleo/deutsch_a2_transformer",
+        "url": "https://huggingface.co/kengurukleo/deutsch_a2_transformer"
       }
     ],
     "vision_systems": [
@@ -1201,10 +1205,6 @@
       {
         "title": "Physics Encoded Spatial and Temporal Generative Adversarial Network for Tropical Cyclone Image Super-resolution",
         "url": "https://arxiv.org/abs/2602.17277v1"
-      },
-      {
-        "title": "inferencerlabs/INTELLECT-3.1-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/INTELLECT-3.1-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1581,7 +1581,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1593,7 +1593,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
