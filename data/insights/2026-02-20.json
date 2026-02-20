@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-20T19:34:49.809074",
+  "date": "2026-02-20T20:24:53.060806",
   "patterns": {
     "multimodal_research": [
       {
@@ -661,10 +661,6 @@
       {
         "title": "LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs",
         "url": "https://arxiv.org/abs/2602.17535v1"
-      },
-      {
-        "title": "MonumentalSystems/randygpt-ds2",
-        "url": "https://huggingface.co/MonumentalSystems/randygpt-ds2"
       }
     ],
     "vision_systems": [
@@ -1197,6 +1193,10 @@
       {
         "title": "Physics Encoded Spatial and Temporal Generative Adversarial Network for Tropical Cyclone Image Super-resolution",
         "url": "https://arxiv.org/abs/2602.17277v1"
+      },
+      {
+        "title": "inferencerlabs/INTELLECT-3.1-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/INTELLECT-3.1-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1573,7 +1573,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1585,7 +1585,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
