@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-21T19:21:18.768131",
+  "date": "2026-02-21T20:19:29.955695",
   "patterns": {
     "multimodal_research": [
       {
@@ -291,10 +291,6 @@
       {
         "title": "Application and Evaluation of the Common Circles Method",
         "url": "https://arxiv.org/abs/2602.17353v1"
-      },
-      {
-        "title": "MonumentalSystems/randygpt-ds-moe",
-        "url": "https://huggingface.co/MonumentalSystems/randygpt-ds-moe"
       }
     ],
     "language_models": [
@@ -667,12 +663,8 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
-        "title": "TopAI-1/MCGPT-1",
-        "url": "https://huggingface.co/TopAI-1/MCGPT-1"
-      },
-      {
-        "title": "MonumentalSystems/randygpt-ds-moe",
-        "url": "https://huggingface.co/MonumentalSystems/randygpt-ds-moe"
+        "title": "Ryalenn/distilhubert-finetuned-gtzan",
+        "url": "https://huggingface.co/Ryalenn/distilhubert-finetuned-gtzan"
       }
     ],
     "vision_systems": [
@@ -1569,7 +1561,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "48 independent papers",
+      "observation": "47 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1581,7 +1573,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1640,6 +1632,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 385
+    "total_papers": 383
   }
 }
