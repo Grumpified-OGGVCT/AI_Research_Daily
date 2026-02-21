@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-21T10:21:42.356977",
+  "date": "2026-02-21T11:19:02.607331",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,8 +663,8 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
-        "title": "shubham-t/bert-plagiarism-detector",
-        "url": "https://huggingface.co/shubham-t/bert-plagiarism-detector"
+        "title": "syko818121/SykoLLM-V4.4",
+        "url": "https://huggingface.co/syko818121/SykoLLM-V4.4"
       }
     ],
     "vision_systems": [
@@ -899,6 +899,14 @@
       {
         "title": "GASS: Geometry-Aware Spherical Sampling for Disentangled Diversity Enhancement in Text-to-Image Generation",
         "url": "https://arxiv.org/abs/2602.17200v1"
+      },
+      {
+        "title": "SSSYYYTTT/gr1_sdp_2gpus_2964_novisual_new8tasks_40k_lr1e4_w20a50",
+        "url": "https://huggingface.co/SSSYYYTTT/gr1_sdp_2gpus_2964_novisual_new8tasks_40k_lr1e4_w20a50"
+      },
+      {
+        "title": "Vanduc03/my_test_vision_model_vf",
+        "url": "https://huggingface.co/Vanduc03/my_test_vision_model_vf"
       }
     ],
     "reasoning": [
@@ -1579,7 +1587,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1620,7 +1628,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 29,
+      "frequency": 30,
       "significance": "high"
     },
     {
@@ -1632,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 383
+    "total_papers": 385
   }
 }
