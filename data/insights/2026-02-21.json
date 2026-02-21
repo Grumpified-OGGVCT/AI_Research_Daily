@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-21T21:18:51.596193",
+  "date": "2026-02-21T22:18:39.823930",
   "patterns": {
     "multimodal_research": [
       {
@@ -661,10 +661,6 @@
       {
         "title": "LATA: Laplacian-Assisted Transductive Adaptation for Conformal Uncertainty in Medical VLMs",
         "url": "https://arxiv.org/abs/2602.17535v1"
-      },
-      {
-        "title": "Ryalenn/distilhubert-finetuned-gtzan",
-        "url": "https://huggingface.co/Ryalenn/distilhubert-finetuned-gtzan"
       }
     ],
     "vision_systems": [
@@ -901,8 +897,8 @@
         "url": "https://arxiv.org/abs/2602.17200v1"
       },
       {
-        "title": "kostakoff/Qwen-Image",
-        "url": "https://huggingface.co/kostakoff/Qwen-Image"
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1577,7 +1573,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1636,6 +1632,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 384
+    "total_papers": 383
   }
 }
