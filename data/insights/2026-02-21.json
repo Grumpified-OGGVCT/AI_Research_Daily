@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-21T07:30:20.260788",
+  "date": "2026-02-21T08:24:54.340496",
   "patterns": {
     "multimodal_research": [
       {
@@ -291,6 +291,14 @@
       {
         "title": "Application and Evaluation of the Common Circles Method",
         "url": "https://arxiv.org/abs/2602.17353v1"
+      },
+      {
+        "title": "Naphula/Meme-Trix-MoE-14B-A8B-v1",
+        "url": "https://huggingface.co/Naphula/Meme-Trix-MoE-14B-A8B-v1"
+      },
+      {
+        "title": "jayzou3773/Qwen1.5-MOE-sft-ESFT-translation",
+        "url": "https://huggingface.co/jayzou3773/Qwen1.5-MOE-sft-ESFT-translation"
       },
       {
         "title": "OccultAI/Trixster-MoE-14B-A8B-v1",
@@ -899,10 +907,6 @@
       {
         "title": "GASS: Geometry-Aware Spherical Sampling for Disentangled Diversity Enhancement in Text-to-Image Generation",
         "url": "https://arxiv.org/abs/2602.17200v1"
-      },
-      {
-        "title": "EricRollei/HunyuanImage-3-NF4-v2",
-        "url": "https://huggingface.co/EricRollei/HunyuanImage-3-NF4-v2"
       }
     ],
     "reasoning": [
@@ -1565,7 +1569,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "48 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1583,7 +1587,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "59 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1636,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 384
+    "total_papers": 385
   }
 }
