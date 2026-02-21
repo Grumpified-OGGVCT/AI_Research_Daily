@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-21T05:38:34.789116",
+  "date": "2026-02-21T06:36:30.741688",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,12 +663,12 @@
         "url": "https://arxiv.org/abs/2602.17535v1"
       },
       {
-        "title": "gjyotin305/modernbert_b22ai063",
-        "url": "https://huggingface.co/gjyotin305/modernbert_b22ai063"
+        "title": "makotonlo/LLM2026_DPO_SFT19_v8",
+        "url": "https://huggingface.co/makotonlo/LLM2026_DPO_SFT19_v8"
       },
       {
-        "title": "while725/gpt_oss_finetune_4bit",
-        "url": "https://huggingface.co/while725/gpt_oss_finetune_4bit"
+        "title": "Keishi2026/bert-base-japanese-v3-marc_ja",
+        "url": "https://huggingface.co/Keishi2026/bert-base-japanese-v3-marc_ja"
       }
     ],
     "vision_systems": [
@@ -903,10 +903,6 @@
       {
         "title": "GASS: Geometry-Aware Spherical Sampling for Disentangled Diversity Enhancement in Text-to-Image Generation",
         "url": "https://arxiv.org/abs/2602.17200v1"
-      },
-      {
-        "title": "Gemneye/K1mScum-ZImage-Base",
-        "url": "https://huggingface.co/Gemneye/K1mScum-ZImage-Base"
       }
     ],
     "reasoning": [
@@ -1205,10 +1201,6 @@
       {
         "title": "Physics Encoded Spatial and Temporal Generative Adversarial Network for Tropical Cyclone Image Super-resolution",
         "url": "https://arxiv.org/abs/2602.17277v1"
-      },
-      {
-        "title": "papirrin2025/L3.1-Dark-Reasoning-LewdPlay-evo-Hermes-R1-Uncensored-8B",
-        "url": "https://huggingface.co/papirrin2025/L3.1-Dark-Reasoning-LewdPlay-evo-Hermes-R1-Uncensored-8B"
       }
     ],
     "benchmarks": [
@@ -1555,6 +1547,10 @@
       {
         "title": "GASS: Geometry-Aware Spherical Sampling for Disentangled Diversity Enhancement in Text-to-Image Generation",
         "url": "https://arxiv.org/abs/2602.17200v1"
+      },
+      {
+        "title": "spitfire4794/sota-mix",
+        "url": "https://huggingface.co/spitfire4794/sota-mix"
       }
     ]
   },
@@ -1591,13 +1587,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "59 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1609,7 +1605,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1631,19 +1627,19 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "vision",
       "frequency": 29,
       "significance": "high"
     },
     {
-      "topic": "vision",
-      "frequency": 29,
+      "topic": "reasoning",
+      "frequency": 28,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 386
+    "total_papers": 385
   }
 }
