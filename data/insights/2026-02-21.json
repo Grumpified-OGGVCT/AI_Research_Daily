@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-21T13:39:46.595166",
+  "date": "2026-02-21T14:21:55.958837",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,6 +669,10 @@
       {
         "title": "GOBA-AI-Labs/PrunedHub-GPT-OSS-20B-28x",
         "url": "https://huggingface.co/GOBA-AI-Labs/PrunedHub-GPT-OSS-20B-28x"
+      },
+      {
+        "title": "kamaboko2007/llm_advance_006_len8k",
+        "url": "https://huggingface.co/kamaboko2007/llm_advance_006_len8k"
       }
     ],
     "vision_systems": [
@@ -905,24 +909,8 @@
         "url": "https://arxiv.org/abs/2602.17200v1"
       },
       {
-        "title": "nanpero09/my_test_vision_model_vf",
-        "url": "https://huggingface.co/nanpero09/my_test_vision_model_vf"
-      },
-      {
-        "title": "oman09nan/my_test_vision_model_vf",
-        "url": "https://huggingface.co/oman09nan/my_test_vision_model_vf"
-      },
-      {
-        "title": "Danielnguyen13/my_test_vision_model_vf",
-        "url": "https://huggingface.co/Danielnguyen13/my_test_vision_model_vf"
-      },
-      {
-        "title": "bentran03/my_test_vision_model_vf",
-        "url": "https://huggingface.co/bentran03/my_test_vision_model_vf"
-      },
-      {
-        "title": "Taikon04/my_test_vision_model_vf",
-        "url": "https://huggingface.co/Taikon04/my_test_vision_model_vf"
+        "title": "SSSYYYTTT/gr1_sdp_2gpus_2964_novisual_new8tasks_40k_lr1e4_w20a50",
+        "url": "https://huggingface.co/SSSYYYTTT/gr1_sdp_2gpus_2964_novisual_new8tasks_40k_lr1e4_w20a50"
       }
     ],
     "reasoning": [
@@ -1597,13 +1585,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "63 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1638,13 +1626,13 @@
       "significance": "high"
     },
     {
-      "topic": "vision",
-      "frequency": 34,
+      "topic": "architecture",
+      "frequency": 30,
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 30,
+      "topic": "vision",
+      "frequency": 29,
       "significance": "high"
     },
     {
@@ -1656,6 +1644,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 389
+    "total_papers": 386
   }
 }
