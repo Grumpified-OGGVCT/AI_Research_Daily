@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-22T08:25:49.991916",
-  "patterns": {},
+  "date": "2026-02-22T09:26:37.612333",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "bertfil/Qwen3-4B-student-seqkd-number-seq-negsentiment",
+        "url": "https://huggingface.co/bertfil/Qwen3-4B-student-seqkd-number-seq-negsentiment"
+      },
+      {
+        "title": "ekunish/llm2025-adv-exp006a-seqlen4096",
+        "url": "https://huggingface.co/ekunish/llm2025-adv-exp006a-seqlen4096"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
