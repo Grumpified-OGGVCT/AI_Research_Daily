@@ -1,53 +1,33 @@
 {
-  "date": "2026-02-22T10:20:23.566185",
+  "date": "2026-02-22T11:18:05.148744",
   "patterns": {
     "language_models": [
-      {
-        "title": "syko818121/SykoLLM-V4.4",
-        "url": "https://huggingface.co/syko818121/SykoLLM-V4.4"
-      },
       {
         "title": "alexalva1234/distilbert-base-uncased-finetuned-cola",
         "url": "https://huggingface.co/alexalva1234/distilbert-base-uncased-finetuned-cola"
       },
       {
-        "title": "Chamaka8/SerendipLLM-v2-classification",
-        "url": "https://huggingface.co/Chamaka8/SerendipLLM-v2-classification"
+        "title": "Daiki0K/LLM2025_comp_advanced_3",
+        "url": "https://huggingface.co/Daiki0K/LLM2025_comp_advanced_3"
       },
       {
-        "title": "laksh08/safe-genai-reward-model-bert",
-        "url": "https://huggingface.co/laksh08/safe-genai-reward-model-bert"
-      }
-    ],
-    "vision_systems": [
-      {
-        "title": "ixim/Z-Image-INT8",
-        "url": "https://huggingface.co/ixim/Z-Image-INT8"
-      },
-      {
-        "title": "SSSYYYTTT/gr1_sdp_2gpus_2964_novisual_new8tasks_40k_lr1e4_w20a50",
-        "url": "https://huggingface.co/SSSYYYTTT/gr1_sdp_2gpus_2964_novisual_new8tasks_40k_lr1e4_w20a50"
+        "title": "laksh08/safe-genai-ppo-gpt2-full",
+        "url": "https://huggingface.co/laksh08/safe-genai-ppo-gpt2-full"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "4 related papers",
+      "observation": "3 related papers",
       "inference": "Emerging interest in Language Models - monitor for breakthrough results",
       "confidence": "medium"
     }
   ],
-  "research_trends": [
-    {
-      "topic": "prompt",
-      "frequency": 5,
-      "significance": "high"
-    }
-  ],
+  "research_trends": [],
   "stats": {
-    "total_patterns": 2,
+    "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 6
+    "total_papers": 3
   }
 }
