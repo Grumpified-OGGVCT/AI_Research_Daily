@@ -1,18 +1,28 @@
 {
-  "date": "2026-02-22T12:36:39.983759",
+  "date": "2026-02-22T13:41:15.117672",
   "patterns": {
     "language_models": [
       {
-        "title": "alexalva1234/distilbert-base-uncased-finetuned-cola",
-        "url": "https://huggingface.co/alexalva1234/distilbert-base-uncased-finetuned-cola"
+        "title": "ekunish/llm2025-adv-exp007-format-fix",
+        "url": "https://huggingface.co/ekunish/llm2025-adv-exp007-format-fix"
       },
       {
-        "title": "Namronaldo2004/results_graphcodebert",
-        "url": "https://huggingface.co/Namronaldo2004/results_graphcodebert"
+        "title": "CKeibel/gpt2-medium-chat",
+        "url": "https://huggingface.co/CKeibel/gpt2-medium-chat"
       },
       {
-        "title": "Shivam-K/modernbert_b22bb038",
-        "url": "https://huggingface.co/Shivam-K/modernbert_b22bb038"
+        "title": "limyewjin/gpt_oss_hard_finetune_4bit",
+        "url": "https://huggingface.co/limyewjin/gpt_oss_hard_finetune_4bit"
+      }
+    ],
+    "vision_systems": [
+      {
+        "title": "SSSYYYTTT/gr1_sdp_2gpus_2964_novisual_new8tasks_40k_lr1e4_w20a50",
+        "url": "https://huggingface.co/SSSYYYTTT/gr1_sdp_2gpus_2964_novisual_new8tasks_40k_lr1e4_w20a50"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ]
   },
@@ -26,8 +36,8 @@
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
+    "total_patterns": 2,
     "total_inferences": 1,
-    "total_papers": 3
+    "total_papers": 5
   }
 }
