@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-22T04:12:59.103904",
-  "patterns": {},
+  "date": "2026-02-22T05:48:17.362643",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "laion/exp-syh-tezos-askllm-hardened_glm_4_7_traces_jupiter",
+        "url": "https://huggingface.co/laion/exp-syh-tezos-askllm-hardened_glm_4_7_traces_jupiter"
+      },
+      {
+        "title": "makotonlo/LLM2026_DPO_SFT19_v8",
+        "url": "https://huggingface.co/makotonlo/LLM2026_DPO_SFT19_v8"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
