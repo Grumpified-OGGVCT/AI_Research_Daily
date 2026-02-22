@@ -1,11 +1,22 @@
 {
-  "date": "2026-02-22T21:20:04.528795",
-  "patterns": {},
+  "date": "2026-02-22T22:20:10.142895",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "joelauge/RecourseLLM_Q0.6b",
+        "url": "https://huggingface.co/joelauge/RecourseLLM_Q0.6b"
+      },
+      {
+        "title": "lllqaq/R2EGym-14B-Agent-Coder-Instruct-trajmix-gpt5miniAB-claude45AB-r2egymSFT-shuf42-32k-8gpu-oomfix",
+        "url": "https://huggingface.co/lllqaq/R2EGym-14B-Agent-Coder-Instruct-trajmix-gpt5miniAB-claude45AB-r2egymSFT-shuf42-32k-8gpu-oomfix"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
