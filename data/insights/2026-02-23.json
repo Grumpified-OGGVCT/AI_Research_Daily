@@ -1,38 +1,36 @@
 {
-  "date": "2026-02-23T17:58:50.452318",
+  "date": "2026-02-23T19:00:23.833720",
   "patterns": {
-    "efficient_architectures": [
-      {
-        "title": "sumitdotml/moe-emergence",
-        "url": "https://huggingface.co/sumitdotml/moe-emergence"
-      },
-      {
-        "title": "muaytau/glm4-moe-lite-swe-synth-lora-r64-checkpoint-150",
-        "url": "https://huggingface.co/muaytau/glm4-moe-lite-swe-synth-lora-r64-checkpoint-150"
-      }
-    ],
     "language_models": [
       {
-        "title": "laksh08/safe-genai-dpo-gpt2-qlora",
-        "url": "https://huggingface.co/laksh08/safe-genai-dpo-gpt2-qlora"
+        "title": "AdiSingh003/distilbert-goodreadnews-finetuned",
+        "url": "https://huggingface.co/AdiSingh003/distilbert-goodreadnews-finetuned"
+      },
+      {
+        "title": "asmab093/bert-finetuned-imdb",
+        "url": "https://huggingface.co/asmab093/bert-finetuned-imdb"
       },
       {
         "title": "smsk1999/hindi-bert-intent-1-monsoon",
         "url": "https://huggingface.co/smsk1999/hindi-bert-intent-1-monsoon"
+      },
+      {
+        "title": "177vasanth/hindi-bert-1-intent-feb15-20-feb01-14-pattern2",
+        "url": "https://huggingface.co/177vasanth/hindi-bert-1-intent-feb15-20-feb01-14-pattern2"
       }
     ]
   },
   "inferences": [
     {
-      "pattern": "efficient_architectures",
-      "observation": "Focus on efficiency improvements",
-      "inference": "Resource constraints driving innovation - expect deployment on edge devices and mobile",
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
       "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
+    "total_patterns": 1,
     "total_inferences": 1,
     "total_papers": 4
   }
