@@ -1,25 +1,29 @@
 {
-  "date": "2026-02-23T21:39:49.800681",
+  "date": "2026-02-23T22:36:42.909690",
   "patterns": {
     "vision_systems": [
       {
-        "title": "tmp-org/tmp_cv_model_2025_09_15_0",
-        "url": "https://huggingface.co/tmp-org/tmp_cv_model_2025_09_15_0"
+        "title": "tmp-org/tmp_cv_model_2025_09_01_0",
+        "url": "https://huggingface.co/tmp-org/tmp_cv_model_2025_09_01_0"
       },
       {
         "title": "tmp-org/tmp_cv_model_2025_11_24_0",
         "url": "https://huggingface.co/tmp-org/tmp_cv_model_2025_11_24_0"
       },
       {
-        "title": "trialwayneforfun/Z-Image-Turbo",
-        "url": "https://huggingface.co/trialwayneforfun/Z-Image-Turbo"
+        "title": "tmp-org/tmp_cv_model_2025_11_17_0",
+        "url": "https://huggingface.co/tmp-org/tmp_cv_model_2025_11_17_0"
+      },
+      {
+        "title": "tmp-org/tmp_cv_model_2025_11_10_0",
+        "url": "https://huggingface.co/tmp-org/tmp_cv_model_2025_11_10_0"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "vision_systems",
-      "observation": "3 related papers",
+      "observation": "4 related papers",
       "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
       "confidence": "medium"
     }
@@ -28,6 +32,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 3
+    "total_papers": 4
   }
 }
