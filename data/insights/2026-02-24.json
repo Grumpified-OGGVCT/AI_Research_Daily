@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-24T19:01:30.538924",
+  "date": "2026-02-24T19:51:46.596417",
   "patterns": {
     "multimodal_research": [
       {
@@ -599,8 +599,8 @@
         "url": "https://arxiv.org/abs/2602.20041v1"
       },
       {
-        "title": "Despo08/distilbert-goodreads-assignment",
-        "url": "https://huggingface.co/Despo08/distilbert-goodreads-assignment"
+        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
+        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
       }
     ],
     "vision_systems": [
@@ -1205,6 +1205,10 @@
       {
         "title": "Contrastive meta-domain adaptation for robust skin lesion classification across clinical and acquisition conditions",
         "url": "https://arxiv.org/abs/2602.19857v1"
+      },
+      {
+        "title": "Madras1/Llama-Instruct-reasoning-2",
+        "url": "https://huggingface.co/Madras1/Llama-Instruct-reasoning-2"
       }
     ],
     "benchmarks": [
@@ -1665,7 +1669,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 404
   }
 }
