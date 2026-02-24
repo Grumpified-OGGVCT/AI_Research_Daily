@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-24T06:54:44.325422",
+  "date": "2026-02-24T07:48:46.163245",
   "patterns": {
     "multimodal_research": [
       {
@@ -597,6 +597,10 @@
       {
         "title": "EEG-Driven Intention Decoding: Offline Deep Learning Benchmarking on a Robotic Rover",
         "url": "https://arxiv.org/abs/2602.20041v1"
+      },
+      {
+        "title": "Miya67/bert-base-japanese-v3-wrime-sentiment",
+        "url": "https://huggingface.co/Miya67/bert-base-japanese-v3-wrime-sentiment"
       }
     ],
     "vision_systems": [
@@ -921,16 +925,8 @@
         "url": "https://arxiv.org/abs/2602.19857v1"
       },
       {
-        "title": "tmp-org/tmp_cv_model_2025_11_03_0",
-        "url": "https://huggingface.co/tmp-org/tmp_cv_model_2025_11_03_0"
-      },
-      {
         "title": "tmp-org/tmp_cv_model_2025_11_24_0",
         "url": "https://huggingface.co/tmp-org/tmp_cv_model_2025_11_24_0"
-      },
-      {
-        "title": "tmp-org/tmp_cv_model_2025_11_17_0",
-        "url": "https://huggingface.co/tmp-org/tmp_cv_model_2025_11_17_0"
       }
     ],
     "reasoning": [
@@ -1215,8 +1211,8 @@
         "url": "https://arxiv.org/abs/2602.19857v1"
       },
       {
-        "title": "inferencerlabs/Ling-2.5-1T-MLX-3.7bit",
-        "url": "https://huggingface.co/inferencerlabs/Ling-2.5-1T-MLX-3.7bit"
+        "title": "Clinical-Reasoning-Hub/Diagnostic-Reasoning-Q3X14B1",
+        "url": "https://huggingface.co/Clinical-Reasoning-Hub/Diagnostic-Reasoning-Q3X14B1"
       }
     ],
     "benchmarks": [
@@ -1665,13 +1661,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1724,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 405
   }
 }
