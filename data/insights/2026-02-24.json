@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-24T07:48:46.163245",
+  "date": "2026-02-24T08:40:26.831653",
   "patterns": {
     "multimodal_research": [
       {
@@ -599,8 +599,12 @@
         "url": "https://arxiv.org/abs/2602.20041v1"
       },
       {
-        "title": "Miya67/bert-base-japanese-v3-wrime-sentiment",
-        "url": "https://huggingface.co/Miya67/bert-base-japanese-v3-wrime-sentiment"
+        "title": "k24koba/llm2025_competition",
+        "url": "https://huggingface.co/k24koba/llm2025_competition"
+      },
+      {
+        "title": "ikedabent/llm_ad_qwen2.5-7b-redata002",
+        "url": "https://huggingface.co/ikedabent/llm_ad_qwen2.5-7b-redata002"
       }
     ],
     "vision_systems": [
@@ -923,10 +927,6 @@
       {
         "title": "Contrastive meta-domain adaptation for robust skin lesion classification across clinical and acquisition conditions",
         "url": "https://arxiv.org/abs/2602.19857v1"
-      },
-      {
-        "title": "tmp-org/tmp_cv_model_2025_11_24_0",
-        "url": "https://huggingface.co/tmp-org/tmp_cv_model_2025_11_24_0"
       }
     ],
     "reasoning": [
@@ -1209,10 +1209,6 @@
       {
         "title": "Contrastive meta-domain adaptation for robust skin lesion classification across clinical and acquisition conditions",
         "url": "https://arxiv.org/abs/2602.19857v1"
-      },
-      {
-        "title": "Clinical-Reasoning-Hub/Diagnostic-Reasoning-Q3X14B1",
-        "url": "https://huggingface.co/Clinical-Reasoning-Hub/Diagnostic-Reasoning-Q3X14B1"
       }
     ],
     "benchmarks": [
@@ -1631,6 +1627,10 @@
       {
         "title": "EEG-Driven Intention Decoding: Offline Deep Learning Benchmarking on a Robotic Rover",
         "url": "https://arxiv.org/abs/2602.20041v1"
+      },
+      {
+        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1661,19 +1661,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1685,7 +1685,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "104 independent papers",
+      "observation": "105 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
