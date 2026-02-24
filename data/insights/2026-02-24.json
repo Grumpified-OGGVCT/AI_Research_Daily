@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-24T17:01:16.044850",
+  "date": "2026-02-24T17:59:21.195165",
   "patterns": {
     "multimodal_research": [
       {
@@ -599,12 +599,20 @@
         "url": "https://arxiv.org/abs/2602.20041v1"
       },
       {
-        "title": "kamaboko2007/llm_advance_016_mixed_sft_v2",
-        "url": "https://huggingface.co/kamaboko2007/llm_advance_016_mixed_sft_v2"
+        "title": "TSerizawa/llm-lecture-2025_advanced_make_data_1_model_qwen3-4b-agent-trajectory-lora",
+        "url": "https://huggingface.co/TSerizawa/llm-lecture-2025_advanced_make_data_1_model_qwen3-4b-agent-trajectory-lora"
       },
       {
-        "title": "Nox2656/llm-ouyou-sft-qwen3-4b-20260223",
-        "url": "https://huggingface.co/Nox2656/llm-ouyou-sft-qwen3-4b-20260223"
+        "title": "Bourne17/bert-reward-full-params",
+        "url": "https://huggingface.co/Bourne17/bert-reward-full-params"
+      },
+      {
+        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
+        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
+      },
+      {
+        "title": "lennarddaw/howzer-severity-transformer",
+        "url": "https://huggingface.co/lennarddaw/howzer-severity-transformer"
       }
     ],
     "vision_systems": [
@@ -927,6 +935,10 @@
       {
         "title": "Contrastive meta-domain adaptation for robust skin lesion classification across clinical and acquisition conditions",
         "url": "https://arxiv.org/abs/2602.19857v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1657,13 +1669,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 407
   }
 }
