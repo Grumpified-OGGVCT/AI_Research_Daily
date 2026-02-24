@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-24T15:53:38.086431",
+  "date": "2026-02-24T17:01:16.044850",
   "patterns": {
     "multimodal_research": [
       {
@@ -597,6 +597,14 @@
       {
         "title": "EEG-Driven Intention Decoding: Offline Deep Learning Benchmarking on a Robotic Rover",
         "url": "https://arxiv.org/abs/2602.20041v1"
+      },
+      {
+        "title": "kamaboko2007/llm_advance_016_mixed_sft_v2",
+        "url": "https://huggingface.co/kamaboko2007/llm_advance_016_mixed_sft_v2"
+      },
+      {
+        "title": "Nox2656/llm-ouyou-sft-qwen3-4b-20260223",
+        "url": "https://huggingface.co/Nox2656/llm-ouyou-sft-qwen3-4b-20260223"
       }
     ],
     "vision_systems": [
@@ -1649,7 +1657,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 404
   }
 }
