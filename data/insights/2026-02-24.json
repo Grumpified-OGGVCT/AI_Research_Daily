@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-24T17:59:21.195165",
+  "date": "2026-02-24T19:01:30.538924",
   "patterns": {
     "multimodal_research": [
       {
@@ -599,20 +599,8 @@
         "url": "https://arxiv.org/abs/2602.20041v1"
       },
       {
-        "title": "TSerizawa/llm-lecture-2025_advanced_make_data_1_model_qwen3-4b-agent-trajectory-lora",
-        "url": "https://huggingface.co/TSerizawa/llm-lecture-2025_advanced_make_data_1_model_qwen3-4b-agent-trajectory-lora"
-      },
-      {
-        "title": "Bourne17/bert-reward-full-params",
-        "url": "https://huggingface.co/Bourne17/bert-reward-full-params"
-      },
-      {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
-      },
-      {
-        "title": "lennarddaw/howzer-severity-transformer",
-        "url": "https://huggingface.co/lennarddaw/howzer-severity-transformer"
+        "title": "Despo08/distilbert-goodreads-assignment",
+        "url": "https://huggingface.co/Despo08/distilbert-goodreads-assignment"
       }
     ],
     "vision_systems": [
@@ -935,10 +923,6 @@
       {
         "title": "Contrastive meta-domain adaptation for robust skin lesion classification across clinical and acquisition conditions",
         "url": "https://arxiv.org/abs/2602.19857v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1669,13 +1653,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 403
   }
 }
