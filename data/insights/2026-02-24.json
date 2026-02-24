@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-24T19:51:46.596417",
+  "date": "2026-02-24T20:29:53.149575",
   "patterns": {
     "multimodal_research": [
       {
@@ -597,6 +597,10 @@
       {
         "title": "EEG-Driven Intention Decoding: Offline Deep Learning Benchmarking on a Robotic Rover",
         "url": "https://arxiv.org/abs/2602.20041v1"
+      },
+      {
+        "title": "eVici-AS/llm-joint-intent-and-ner",
+        "url": "https://huggingface.co/eVici-AS/llm-joint-intent-and-ner"
       },
       {
         "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
@@ -1205,10 +1209,6 @@
       {
         "title": "Contrastive meta-domain adaptation for robust skin lesion classification across clinical and acquisition conditions",
         "url": "https://arxiv.org/abs/2602.19857v1"
-      },
-      {
-        "title": "Madras1/Llama-Instruct-reasoning-2",
-        "url": "https://huggingface.co/Madras1/Llama-Instruct-reasoning-2"
       }
     ],
     "benchmarks": [
@@ -1657,7 +1657,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1669,7 +1669,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
