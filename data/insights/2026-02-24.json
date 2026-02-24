@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-24T21:30:24.699781",
+  "date": "2026-02-24T22:29:15.059191",
   "patterns": {
     "multimodal_research": [
       {
@@ -597,10 +597,6 @@
       {
         "title": "EEG-Driven Intention Decoding: Offline Deep Learning Benchmarking on a Robotic Rover",
         "url": "https://arxiv.org/abs/2602.20041v1"
-      },
-      {
-        "title": "mradermacher/Italia-GPT-GGUF",
-        "url": "https://huggingface.co/mradermacher/Italia-GPT-GGUF"
       }
     ],
     "vision_systems": [
@@ -1205,10 +1201,6 @@
       {
         "title": "Contrastive meta-domain adaptation for robust skin lesion classification across clinical and acquisition conditions",
         "url": "https://arxiv.org/abs/2602.19857v1"
-      },
-      {
-        "title": "JPQ24/Logic-v4-Merged-16bit",
-        "url": "https://huggingface.co/JPQ24/Logic-v4-Merged-16bit"
       }
     ],
     "benchmarks": [
@@ -1657,7 +1649,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1669,7 +1661,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1708,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 402
   }
 }
