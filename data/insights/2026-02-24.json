@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-24T08:40:26.831653",
+  "date": "2026-02-24T09:46:23.310682",
   "patterns": {
     "multimodal_research": [
       {
@@ -599,12 +599,8 @@
         "url": "https://arxiv.org/abs/2602.20041v1"
       },
       {
-        "title": "k24koba/llm2025_competition",
-        "url": "https://huggingface.co/k24koba/llm2025_competition"
-      },
-      {
-        "title": "ikedabent/llm_ad_qwen2.5-7b-redata002",
-        "url": "https://huggingface.co/ikedabent/llm_ad_qwen2.5-7b-redata002"
+        "title": "255yossya/matsuollm2025_main_lora_repo_v13",
+        "url": "https://huggingface.co/255yossya/matsuollm2025_main_lora_repo_v13"
       }
     ],
     "vision_systems": [
@@ -1209,6 +1205,10 @@
       {
         "title": "Contrastive meta-domain adaptation for robust skin lesion classification across clinical and acquisition conditions",
         "url": "https://arxiv.org/abs/2602.19857v1"
+      },
+      {
+        "title": "loolzrulez/Phi-4-mini-reasoning-heretic-IQ4_NL-GGUF",
+        "url": "https://huggingface.co/loolzrulez/Phi-4-mini-reasoning-heretic-IQ4_NL-GGUF"
       }
     ],
     "benchmarks": [
@@ -1661,7 +1661,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1673,7 +1673,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
