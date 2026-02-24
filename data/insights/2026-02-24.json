@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-24T12:53:08.291795",
+  "date": "2026-02-24T14:09:24.418662",
   "patterns": {
     "multimodal_research": [
       {
@@ -599,12 +599,16 @@
         "url": "https://arxiv.org/abs/2602.20041v1"
       },
       {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
+        "title": "177vasanth/hindi-bert-1-intent-context-combined",
+        "url": "https://huggingface.co/177vasanth/hindi-bert-1-intent-context-combined"
       },
       {
-        "title": "takuya-tokumoto/ut-llm-course-2025-max-seq-len-1024",
-        "url": "https://huggingface.co/takuya-tokumoto/ut-llm-course-2025-max-seq-len-1024"
+        "title": "sumaiya-bashir/emergency-llm-final",
+        "url": "https://huggingface.co/sumaiya-bashir/emergency-llm-final"
+      },
+      {
+        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
+        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
       }
     ],
     "vision_systems": [
@@ -927,6 +931,46 @@
       {
         "title": "Contrastive meta-domain adaptation for robust skin lesion classification across clinical and acquisition conditions",
         "url": "https://arxiv.org/abs/2602.19857v1"
+      },
+      {
+        "title": "Hien03/my-test-vision-model-vj",
+        "url": "https://huggingface.co/Hien03/my-test-vision-model-vj"
+      },
+      {
+        "title": "ThiHien3/my-test-vision-model-vj",
+        "url": "https://huggingface.co/ThiHien3/my-test-vision-model-vj"
+      },
+      {
+        "title": "Hien11li/my-test-vision-model-vj",
+        "url": "https://huggingface.co/Hien11li/my-test-vision-model-vj"
+      },
+      {
+        "title": "Vduc01/my-test-vision-model-vj",
+        "url": "https://huggingface.co/Vduc01/my-test-vision-model-vj"
+      },
+      {
+        "title": "alice6les/my-test-vision-model-vj",
+        "url": "https://huggingface.co/alice6les/my-test-vision-model-vj"
+      },
+      {
+        "title": "Dan02ni/my-test-vision-model-vj",
+        "url": "https://huggingface.co/Dan02ni/my-test-vision-model-vj"
+      },
+      {
+        "title": "Vduc4/my-test-vision-model-vj",
+        "url": "https://huggingface.co/Vduc4/my-test-vision-model-vj"
+      },
+      {
+        "title": "Duc77/my-test-vision-model-vj",
+        "url": "https://huggingface.co/Duc77/my-test-vision-model-vj"
+      },
+      {
+        "title": "HoDuc3/my-test-vision-model-vj",
+        "url": "https://huggingface.co/HoDuc3/my-test-vision-model-vj"
+      },
+      {
+        "title": "Khanh6/my-test-vision-model-vj",
+        "url": "https://huggingface.co/Khanh6/my-test-vision-model-vj"
       }
     ],
     "reasoning": [
@@ -1657,13 +1701,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1699,7 +1743,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 39,
+      "frequency": 49,
       "significance": "high"
     },
     {
@@ -1716,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 415
   }
 }
