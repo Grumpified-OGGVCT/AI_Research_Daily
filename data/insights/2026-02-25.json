@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-25T21:32:00.108749",
+  "date": "2026-02-25T22:27:52.771661",
   "patterns": {
     "multimodal_research": [
       {
@@ -769,6 +769,14 @@
       {
         "title": "On the Explainability of Vision-Language Models in Art History",
         "url": "https://arxiv.org/abs/2602.20853v1"
+      },
+      {
+        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
+        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
+      },
+      {
+        "title": "WM51501/SmolLM2-FT-MyDataset",
+        "url": "https://huggingface.co/WM51501/SmolLM2-FT-MyDataset"
       }
     ],
     "vision_systems": [
@@ -1365,10 +1373,6 @@
       {
         "title": "DA-Cal: Towards Cross-Domain Calibration in Semantic Segmentation",
         "url": "https://arxiv.org/abs/2602.20860v1"
-      },
-      {
-        "title": "reedmayhew/gemma-3-1b-it-reasoning-heretic-HF",
-        "url": "https://huggingface.co/reedmayhew/gemma-3-1b-it-reasoning-heretic-HF"
       }
     ],
     "benchmarks": [
@@ -1837,7 +1841,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1849,7 +1853,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1884,7 +1888,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 37,
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1896,6 +1900,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 449
+    "total_papers": 450
   }
 }
