@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-25T09:47:52.713182",
+  "date": "2026-02-25T10:45:32.399256",
   "patterns": {
     "multimodal_research": [
       {
@@ -771,12 +771,12 @@
         "url": "https://arxiv.org/abs/2602.20853v1"
       },
       {
-        "title": "Prome4e7e/LLM_MainCompetition2026_v2",
-        "url": "https://huggingface.co/Prome4e7e/LLM_MainCompetition2026_v2"
+        "title": "hara-CU/Qwen2.5-7B-Instruct-LLM2025_DB_all_NoError_plus_INSERT800-SFT-r64a128-B16-3ep-1e4",
+        "url": "https://huggingface.co/hara-CU/Qwen2.5-7B-Instruct-LLM2025_DB_all_NoError_plus_INSERT800-SFT-r64a128-B16-3ep-1e4"
       },
       {
-        "title": "jdopensource/JoyAI-LLM-Flash-FP8",
-        "url": "https://huggingface.co/jdopensource/JoyAI-LLM-Flash-FP8"
+        "title": "jdopensource/JoyAI-LLM-Flash-INT4",
+        "url": "https://huggingface.co/jdopensource/JoyAI-LLM-Flash-INT4"
       }
     ],
     "vision_systems": [
@@ -1111,18 +1111,6 @@
       {
         "title": "DA-Cal: Towards Cross-Domain Calibration in Semantic Segmentation",
         "url": "https://arxiv.org/abs/2602.20860v1"
-      },
-      {
-        "title": "zenlm/zen3-image-fast",
-        "url": "https://huggingface.co/zenlm/zen3-image-fast"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "zenlm/zen3-image-dev",
-        "url": "https://huggingface.co/zenlm/zen3-image-dev"
       }
     ],
     "reasoning": [
@@ -1859,7 +1847,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "86 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1912,6 +1900,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 453
+    "total_papers": 450
   }
 }
