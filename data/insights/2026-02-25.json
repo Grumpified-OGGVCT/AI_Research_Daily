@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-25T17:04:20.366218",
+  "date": "2026-02-25T18:58:58.983301",
   "patterns": {
     "multimodal_research": [
       {
@@ -769,18 +769,6 @@
       {
         "title": "On the Explainability of Vision-Language Models in Art History",
         "url": "https://arxiv.org/abs/2602.20853v1"
-      },
-      {
-        "title": "Jaimy12/distilbert-comments",
-        "url": "https://huggingface.co/Jaimy12/distilbert-comments"
-      },
-      {
-        "title": "smsk1999/hindi-bert-intent-1-context-monsoon",
-        "url": "https://huggingface.co/smsk1999/hindi-bert-intent-1-context-monsoon"
-      },
-      {
-        "title": "ctaguchi/w2v-bert-2.0-gui-ufe",
-        "url": "https://huggingface.co/ctaguchi/w2v-bert-2.0-gui-ufe"
       }
     ],
     "vision_systems": [
@@ -1377,6 +1365,10 @@
       {
         "title": "DA-Cal: Towards Cross-Domain Calibration in Semantic Segmentation",
         "url": "https://arxiv.org/abs/2602.20860v1"
+      },
+      {
+        "title": "inferencerlabs/LongCat-Flash-Lite-MLX-5.5bit",
+        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Lite-MLX-5.5bit"
       }
     ],
     "benchmarks": [
@@ -1845,7 +1837,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1857,7 +1849,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1904,6 +1896,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 451
+    "total_papers": 449
   }
 }
