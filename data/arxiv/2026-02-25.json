@@ -136,7 +136,7 @@
     "summary": "Markov chain Monte Carlo (MCMC) methods are fundamental to Bayesian computation, but can be computationally intensive, especially in high-dimensional settings. Push-forward generative models, such as generative adversarial networks (GANs), variational auto-encoders and normalising flows offer a computationally efficient alternative for posterior sampling. However, push-forward models are opaque as they lack the modularity of Bayes Theorem, leading to poor generalisation with respect to changes in the likelihood function. In this work, we introduce a novel approach to GAN architecture design by applying deep unfolding to Langevin MCMC algorithms. This paradigm maps fixed-step iterative algorithms onto modular neural networks, yielding architectures that are both flexible and amenable to interpretation. Crucially, our design allows key model parameters to be specified at inference time, offering robustness to changes in the likelihood parameters. We train these unfolded samplers end-to-end using a supervised regularized Wasserstein GAN framework for posterior sampling. Through extensive Bayesian imaging experiments, we demonstrate that our proposed approach achieves high sampling accuracy and excellent computational efficiency, while retaining the physics consistency, adaptability and interpretability of classical MCMC strategies.",
     "authors": [
       "Jonathan Spence",
-      "Tob\u00edas I. Liaudat",
+      "Tobías I. Liaudat",
       "Konstantinos Zygalakis",
       "Marcelo Pereyra"
     ],
@@ -482,7 +482,7 @@
   {
     "arxiv_id": "2602.20706v1",
     "title": "Online Algorithms with Unreliable Guidance",
-    "summary": "This paper introduces a new model for ML-augmented online decision making, called online algorithms with unreliable guidance (OAG). This model completely separates between the predictive and algorithmic components, thus offering a single well-defined analysis framework that relies solely on the considered problem. Formulated through the lens of request-answer games, an OAG algorithm receives, with each incoming request, a piece of guidance which is taken from the problem's answer space; ideally, this guidance is the optimal answer for the current request, however with probability $\u03b2$, the guidance is adversarially corrupted. The goal is to develop OAG algorithms that admit good competitiveness when $\u03b2= 0$ (a.k.a. consistency) as well as when $\u03b2= 1$ (a.k.a. robustness); the appealing notion of smoothness, that in most prior work required a dedicated loss function, now arises naturally as $\u03b2$ shifts from $0$ to $1$.   We then describe a systematic method, called the drop or trust blindly (DTB) compiler, which transforms any online algorithm into a learning-augmented online algorithm in the OAG model. Given a prediction-oblivious online algorithm, its learning-augmented counterpart produced by applying the DTB compiler either follows the incoming guidance blindly or ignores it altogether and proceeds as the initial algorithm would have; the choice between these two alternatives is based on the outcome of a (biased) coin toss. As our main technical contribution, we prove (rigorously) that although remarkably simple, the class of algorithms produced via the DTB compiler includes algorithms with attractive consistency-robustness guarantees for three classic online problems: for caching and uniform metrical task systems our algorithms are optimal, whereas for bipartite matching (with adversarial arrival order), our algorithm outperforms the state-of-the-art.",
+    "summary": "This paper introduces a new model for ML-augmented online decision making, called online algorithms with unreliable guidance (OAG). This model completely separates between the predictive and algorithmic components, thus offering a single well-defined analysis framework that relies solely on the considered problem. Formulated through the lens of request-answer games, an OAG algorithm receives, with each incoming request, a piece of guidance which is taken from the problem's answer space; ideally, this guidance is the optimal answer for the current request, however with probability $β$, the guidance is adversarially corrupted. The goal is to develop OAG algorithms that admit good competitiveness when $β= 0$ (a.k.a. consistency) as well as when $β= 1$ (a.k.a. robustness); the appealing notion of smoothness, that in most prior work required a dedicated loss function, now arises naturally as $β$ shifts from $0$ to $1$.   We then describe a systematic method, called the drop or trust blindly (DTB) compiler, which transforms any online algorithm into a learning-augmented online algorithm in the OAG model. Given a prediction-oblivious online algorithm, its learning-augmented counterpart produced by applying the DTB compiler either follows the incoming guidance blindly or ignores it altogether and proceeds as the initial algorithm would have; the choice between these two alternatives is based on the outcome of a (biased) coin toss. As our main technical contribution, we prove (rigorously) that although remarkably simple, the class of algorithms produced via the DTB compiler includes algorithms with attractive consistency-robustness guarantees for three classic online problems: for caching and uniform metrical task systems our algorithms are optimal, whereas for bipartite matching (with adversarial arrival order), our algorithm outperforms the state-of-the-art.",
     "authors": [
       "Julien Dallot",
       "Yuval Emek",
@@ -696,7 +696,7 @@
       "Peter Ye",
       "Edward Zhang",
       "Ruslans Aleksejevs",
-      "Todor Anti\u0107",
+      "Todor Antić",
       "Polina Baron",
       "Sujeet Bhalerao",
       "Shubhrajit Bhattacharya",
@@ -704,7 +704,7 @@
       "John Byrne",
       "Hyungjun Choi",
       "Nujhat Ahmed Disha",
-      "Koppany Istv\u00e1n Encz",
+      "Koppany István Encz",
       "Yuchen Fang",
       "Robert Joseph George",
       "Ebrahim Ghorbani",
@@ -728,7 +728,7 @@
       "Tomos Parry",
       "Kevin Ren",
       "Hossein Roodbarani",
-      "Mathieu Rundstr\u00f6m",
+      "Mathieu Rundström",
       "Manjil Saikia",
       "Detchat Samart",
       "Rebecca Steiner",
@@ -737,7 +737,7 @@
       "Jeffrey Tse",
       "Vasiliki Velona",
       "Yunhai Xiang",
-      "Sibel Yal\u00e7\u0131n",
+      "Sibel Yalçın",
       "Jun Yan",
       "Ji Zeng",
       "Arman Cohan",
@@ -927,8 +927,8 @@
   },
   {
     "arxiv_id": "2602.20937v1",
-    "title": "Extending $\u03bc$P: Spectral Conditions for Feature Learning Across Optimizers",
-    "summary": "Several variations of adaptive first-order and second-order optimization methods have been proposed to accelerate and scale the training of large language models. The performance of these optimization routines is highly sensitive to the choice of hyperparameters (HPs), which are computationally expensive to tune for large-scale models. Maximal update parameterization $(\u03bc$P$)$ is a set of scaling rules which aims to make the optimal HPs independent of the model size, thereby allowing the HPs tuned on a smaller (computationally cheaper) model to be transferred to train a larger, target model. Despite promising results for SGD and Adam, deriving $\u03bc$P for other optimizers is challenging because the underlying tensor programming approach is difficult to grasp. Building on recent work that introduced spectral conditions as an alternative to tensor programs, we propose a novel framework to derive $\u03bc$P for a broader class of optimizers, including AdamW, ADOPT, LAMB, Sophia, Shampoo and Muon. We implement our $\u03bc$P derivations on multiple benchmark models and demonstrate zero-shot learning rate transfer across increasing model width for the above optimizers. Further, we provide empirical insights into depth-scaling parameterization for these optimizers.",
+    "title": "Extending $μ$P: Spectral Conditions for Feature Learning Across Optimizers",
+    "summary": "Several variations of adaptive first-order and second-order optimization methods have been proposed to accelerate and scale the training of large language models. The performance of these optimization routines is highly sensitive to the choice of hyperparameters (HPs), which are computationally expensive to tune for large-scale models. Maximal update parameterization $(μ$P$)$ is a set of scaling rules which aims to make the optimal HPs independent of the model size, thereby allowing the HPs tuned on a smaller (computationally cheaper) model to be transferred to train a larger, target model. Despite promising results for SGD and Adam, deriving $μ$P for other optimizers is challenging because the underlying tensor programming approach is difficult to grasp. Building on recent work that introduced spectral conditions as an alternative to tensor programs, we propose a novel framework to derive $μ$P for a broader class of optimizers, including AdamW, ADOPT, LAMB, Sophia, Shampoo and Muon. We implement our $μ$P derivations on multiple benchmark models and demonstrate zero-shot learning rate transfer across increasing model width for the above optimizers. Further, we provide empirical insights into depth-scaling parameterization for these optimizers.",
     "authors": [
       "Akshita Gupta",
       "Marieme Ngom",
@@ -1167,7 +1167,7 @@
     "title": "Skullptor: High Fidelity 3D Head Reconstruction in Seconds with Multi-View Normal Prediction",
     "summary": "Reconstructing high-fidelity 3D head geometry from images is critical for a wide range of applications, yet existing methods face fundamental limitations. Traditional photogrammetry achieves exceptional detail but requires extensive camera arrays (25-200+ views), substantial computation, and manual cleanup in challenging areas like facial hair. Recent alternatives present a fundamental trade-off: foundation models enable efficient single-image reconstruction but lack fine geometric detail, while optimization-based methods achieve higher fidelity but require dense views and expensive computation. We bridge this gap with a hybrid approach that combines the strengths of both paradigms. Our method introduces a multi-view surface normal prediction model that extends monocular foundation models with cross-view attention to produce geometrically consistent normals in a feed-forward pass. We then leverage these predictions as strong geometric priors within an inverse rendering optimization framework to recover high-frequency surface details. Our approach outperforms state-of-the-art single-image and multi-view methods, achieving high-fidelity reconstruction on par with dense-view photogrammetry while reducing camera requirements and computational cost. The code and model will be released.",
     "authors": [
-      "No\u00e9 Artru",
+      "Noé Artru",
       "Rukhshanda Hussain",
       "Emeline Got",
       "Alexandre Messier",
@@ -1802,7 +1802,7 @@
       "Rakshanda Agarwal",
       "Saeid Asgari",
       "Adam Atkinson",
-      "Emre K\u0131c\u0131man",
+      "Emre Kıcıman",
       "Songwu Lu",
       "Ranveer Chandra",
       "Tusher Chakraborty"
@@ -1822,7 +1822,7 @@
   {
     "arxiv_id": "2602.20659v1",
     "title": "Recursive Belief Vision Language Model",
-    "summary": "Current vision-language-action (VLA) models struggle with long-horizon manipulation under partial observability. Most existing approaches remain observation-driven, relying on short context windows or repeated queries to vision-language models (VLMs). This leads to loss of task progress, action repetition under perceptual aliasing, and high inference latency. Semantic reasoning alone is not the primary bottleneck in long-horizon manipulation. Instead, VLAs lack persistent, action-conditioned state representations and exhibit limited temporal and physical reasoning, making them ill-suited for multi-stage control. This paper introduces RB-VLA, a belief-centric architecture trained with self-supervised world-model objectives that maintains a compact latent state encoding task-relevant history, dynamics, and object interactions. Queried once for high-level intent, the VLM provides task specification, while the belief tracks task progress and enables phase-aware, causally grounded control under partial observability without storing raw observations or scaling memory with time. The belief and intent jointly condition a diffusion policy for robust closed-loop execution. RB-VLA outperforms prior VLAs on long-horizon benchmarks, achieving 52.5% and 37.5% higher success on multi-stage pick-and-place and stacking tasks, respectively, compared to \u03c00. It also reduces inference latency by up to 5x relative to baselines and eliminates memory growth across timesteps observed in existing VLAs. Ablations show that the belief module is the primary driver of performance, increasing success rates from 32.5% to 77.5%. These results demonstrate the effectiveness of belief-based state representations for long-horizon VLA policies.",
+    "summary": "Current vision-language-action (VLA) models struggle with long-horizon manipulation under partial observability. Most existing approaches remain observation-driven, relying on short context windows or repeated queries to vision-language models (VLMs). This leads to loss of task progress, action repetition under perceptual aliasing, and high inference latency. Semantic reasoning alone is not the primary bottleneck in long-horizon manipulation. Instead, VLAs lack persistent, action-conditioned state representations and exhibit limited temporal and physical reasoning, making them ill-suited for multi-stage control. This paper introduces RB-VLA, a belief-centric architecture trained with self-supervised world-model objectives that maintains a compact latent state encoding task-relevant history, dynamics, and object interactions. Queried once for high-level intent, the VLM provides task specification, while the belief tracks task progress and enables phase-aware, causally grounded control under partial observability without storing raw observations or scaling memory with time. The belief and intent jointly condition a diffusion policy for robust closed-loop execution. RB-VLA outperforms prior VLAs on long-horizon benchmarks, achieving 52.5% and 37.5% higher success on multi-stage pick-and-place and stacking tasks, respectively, compared to π0. It also reduces inference latency by up to 5x relative to baselines and eliminates memory growth across timesteps observed in existing VLAs. Ablations show that the belief module is the primary driver of performance, increasing success rates from 32.5% to 77.5%. These results demonstrate the effectiveness of belief-based state representations for long-horizon VLA policies.",
     "authors": [
       "Vaidehi Bagaria",
       "Bijo Sebastian",
@@ -1921,10 +1921,10 @@
     "title": "EKF-Based Depth Camera and Deep Learning Fusion for UAV-Person Distance Estimation and Following in SAR Operations",
     "summary": "Search and rescue (SAR) operations require rapid responses to save lives or property. Unmanned Aerial Vehicles (UAVs) equipped with vision-based systems support these missions through prior terrain investigation or real-time assistance during the mission itself. Vision-based UAV frameworks aid human search tasks by detecting and recognizing specific individuals, then tracking and following them while maintaining a safe distance. A key safety requirement for UAV following is the accurate estimation of the distance between camera and target object under real-world conditions, achieved by fusing multiple image modalities. UAVs with deep learning-based vision systems offer a new approach to the planning and execution of SAR operations. As part of the system for automatic people detection and face recognition using deep learning, in this paper we present the fusion of depth camera measurements and monocular camera-to-body distance estimation for robust tracking and following. Deep learning-based filtering of depth camera data and estimation of camera-to-body distance from a monocular camera are achieved with YOLO-pose, enabling real-time fusion of depth information using the Extended Kalman Filter (EKF) algorithm. The proposed subsystem, designed for use in drones, estimates and measures the distance between the depth camera and the human body keypoints, to maintain the safe distance between the drone and the human target. Our system provides an accurate estimated distance, which has been validated against motion capture ground truth data. The system has been tested in real time indoors, where it reduces the average errors, root mean square error (RMSE) and standard deviations of distance estimation up to 15,3\\% in three tested scenarios.",
     "authors": [
-      "Luka \u0160iktar",
-      "Branimir \u0106aran",
-      "Bojan \u0160ekoranja",
-      "Marko \u0160vaco"
+      "Luka Šiktar",
+      "Branimir Ćaran",
+      "Bojan Šekoranja",
+      "Marko Švaco"
     ],
     "categories": [
       "cs.RO",
@@ -2030,8 +2030,8 @@
     "authors": [
       "Cristian Valero-Abundio",
       "Emilio Sansano-Sansano",
-      "Ra\u00fal Montoliu",
-      "Marina Mart\u00ednez Garc\u00eda"
+      "Raúl Montoliu",
+      "Marina Martínez García"
     ],
     "categories": [
       "cs.CV"
@@ -2127,7 +2127,7 @@
   {
     "arxiv_id": "2602.20685v1",
     "title": "RAYNOVA: 3D-Geometry-Free Auto-Regressive Driving World Modeling with Unified Spatio-Temporal Representation",
-    "summary": "World foundation models aim to simulate the evolution of the real world with physically plausible behavior. Unlike prior methods that handle spatial and temporal correlations separately, we propose RAYNOVA, a geometry-free world model that employs a dual-causal autoregressive framework. It follows both scale-wise and temporal topological orders in the autoregressive process, and leverages global attention for unified 4D spatio-temporal reasoning. Different from existing works that impose strong 3D geometric priors, RAYNOVA constructs an isotropic spatio-temporal representation across views, frames, and scales based on relative Pl\u00fccker-ray positional encoding, enabling robust generalization to diverse camera setups and ego motions. We further introduce a recurrent training paradigm to alleviate distribution drift in long-horizon video generation. RAYNOVA achieves state-of-the-art multi-view video generation results on nuScenes, while offering higher throughput and strong controllability under diverse input conditions, generalizing to novel views and camera configurations without explicit 3D scene representation. Our code will be released at http://yichen928.github.io/raynova.",
+    "summary": "World foundation models aim to simulate the evolution of the real world with physically plausible behavior. Unlike prior methods that handle spatial and temporal correlations separately, we propose RAYNOVA, a geometry-free world model that employs a dual-causal autoregressive framework. It follows both scale-wise and temporal topological orders in the autoregressive process, and leverages global attention for unified 4D spatio-temporal reasoning. Different from existing works that impose strong 3D geometric priors, RAYNOVA constructs an isotropic spatio-temporal representation across views, frames, and scales based on relative Plücker-ray positional encoding, enabling robust generalization to diverse camera setups and ego motions. We further introduce a recurrent training paradigm to alleviate distribution drift in long-horizon video generation. RAYNOVA achieves state-of-the-art multi-view video generation results on nuScenes, while offering higher throughput and strong controllability under diverse input conditions, generalizing to novel views and camera configurations without explicit 3D scene representation. Our code will be released at http://yichen928.github.io/raynova.",
     "authors": [
       "Yichen Xie",
       "Chensheng Peng",
@@ -2198,7 +2198,7 @@
   {
     "arxiv_id": "2602.21191v1",
     "title": "Statistical Query Lower Bounds for Smoothed Agnostic Learning",
-    "summary": "We study the complexity of smoothed agnostic learning, recently introduced by~\\cite{CKKMS24}, in which the learner competes with the best classifier in a target class under slight Gaussian perturbations of the inputs. Specifically, we focus on the prototypical task of agnostically learning halfspaces under subgaussian distributions in the smoothed model. The best known upper bound for this problem relies on $L_1$-polynomial regression and has complexity $d^{\\tilde{O}(1/\u03c3^2) \\log(1/\u03b5)}$, where $\u03c3$ is the smoothing parameter and $\u03b5$ is the excess error. Our main result is a Statistical Query (SQ) lower bound providing formal evidence that this upper bound is close to best possible. In more detail, we show that (even for Gaussian marginals) any SQ algorithm for smoothed agnostic learning of halfspaces requires complexity $d^{\u03a9(1/\u03c3^{2}+\\log(1/\u03b5))}$. This is the first non-trivial lower bound on the complexity of this task and nearly matches the known upper bound. Roughly speaking, we show that applying $L_1$-polynomial regression to a smoothed version of the function is essentially best possible. Our techniques involve finding a moment-matching hard distribution by way of linear programming duality. This dual program corresponds exactly to finding a low-degree approximating polynomial to the smoothed version of the target function (which turns out to be the same condition required for the $L_1$-polynomial regression to work). Our explicit SQ lower bound then comes from proving lower bounds on this approximation degree for the class of halfspaces.",
+    "summary": "We study the complexity of smoothed agnostic learning, recently introduced by~\\cite{CKKMS24}, in which the learner competes with the best classifier in a target class under slight Gaussian perturbations of the inputs. Specifically, we focus on the prototypical task of agnostically learning halfspaces under subgaussian distributions in the smoothed model. The best known upper bound for this problem relies on $L_1$-polynomial regression and has complexity $d^{\\tilde{O}(1/σ^2) \\log(1/ε)}$, where $σ$ is the smoothing parameter and $ε$ is the excess error. Our main result is a Statistical Query (SQ) lower bound providing formal evidence that this upper bound is close to best possible. In more detail, we show that (even for Gaussian marginals) any SQ algorithm for smoothed agnostic learning of halfspaces requires complexity $d^{Ω(1/σ^{2}+\\log(1/ε))}$. This is the first non-trivial lower bound on the complexity of this task and nearly matches the known upper bound. Roughly speaking, we show that applying $L_1$-polynomial regression to a smoothed version of the function is essentially best possible. Our techniques involve finding a moment-matching hard distribution by way of linear programming duality. This dual program corresponds exactly to finding a low-degree approximating polynomial to the smoothed version of the target function (which turns out to be the same condition required for the $L_1$-polynomial regression to work). Our explicit SQ lower bound then comes from proving lower bounds on this approximation degree for the class of halfspaces.",
     "authors": [
       "Ilias Diakonikolas",
       "Daniel M. Kane"
@@ -2217,7 +2217,7 @@
   },
   {
     "arxiv_id": "2602.21185v1",
-    "title": "The Diffusion Duality, Chapter II: $\u03a8$-Samplers and Efficient Curriculum",
+    "title": "The Diffusion Duality, Chapter II: $Ψ$-Samplers and Efficient Curriculum",
     "summary": "Uniform-state discrete diffusion models excel at few-step generation and guidance due to their ability to self-correct, making them preferred over autoregressive or Masked diffusion models in these settings. However, their sampling quality plateaus with ancestral samplers as the number of steps increases. We introduce a family of Predictor-Corrector (PC) samplers for discrete diffusion that generalize prior methods and apply to arbitrary noise processes. When paired with uniform-state diffusion, our samplers outperform ancestral sampling on both language and image modeling, achieving lower generative perplexity at matched unigram entropy on OpenWebText and better FID/IS scores on CIFAR10. Crucially, unlike conventional samplers, our PC methods continue to improve with more sampling steps. Taken together, these findings call into question the assumption that Masked diffusion is the inevitable future of diffusion-based language modeling. Beyond sampling, we develop a memory-efficient curriculum for the Gaussian relaxation training phase, reducing training time by 25% and memory by 33% compared to Duo while maintaining comparable perplexity on OpenWebText and LM1B and strong downstream performance. We release code, checkpoints, and a video-tutorial on: https://s-sahoo.com/duo-ch2",
     "authors": [
       "Justin Deschenaux",
@@ -2358,9 +2358,9 @@
     "title": "Estimation of Confidence Bounds in Binary Classification using Wilson Score Kernel Density Estimation",
     "summary": "The performance and ease of use of deep learning-based binary classifiers have improved significantly in recent years. This has opened up the potential for automating critical inspection tasks, which have traditionally only been trusted to be done manually. However, the application of binary classifiers in critical operations depends on the estimation of reliable confidence bounds such that system performance can be ensured up to a given statistical significance. We present Wilson Score Kernel Density Classification, which is a novel kernel-based method for estimating confidence bounds in binary classification. The core of our method is the Wilson Score Kernel Density Estimator, which is a function estimator for estimating confidence bounds in Binomial experiments with conditionally varying success probabilities. Our method is evaluated in the context of selective classification on four different datasets, illustrating its use as a classification head of any feature extractor, including vision foundation models. Our proposed method shows similar performance to Gaussian Process Classification, but at a lower computational complexity.",
     "authors": [
-      "Thorbj\u00f8rn Mosekj\u00e6r Iversen",
+      "Thorbjørn Mosekjær Iversen",
       "Zebin Duan",
-      "Frederik Hagelskj\u00e6r"
+      "Frederik Hagelskjær"
     ],
     "categories": [
       "cs.LG",
@@ -2465,7 +2465,7 @@
   {
     "arxiv_id": "2602.21160v1",
     "title": "Not Just How Much, But Where: Decomposing Epistemic Uncertainty into Per-Class Contributions",
-    "summary": "In safety-critical classification, the cost of failure is often asymmetric, yet Bayesian deep learning summarises epistemic uncertainty with a single scalar, mutual information (MI), that cannot distinguish whether a model's ignorance involves a benign or safety-critical class. We decompose MI into a per-class vector $C_k(x)=\u03c3_k^{2}/(2\u03bc_k)$, with $\u03bc_k{=}\\mathbb{E}[p_k]$ and $\u03c3_k^2{=}\\mathrm{Var}[p_k]$ across posterior samples. The decomposition follows from a second-order Taylor expansion of the entropy; the $1/\u03bc_k$ weighting corrects boundary suppression and makes $C_k$ comparable across rare and common classes. By construction $\\sum_k C_k \\approx \\mathrm{MI}$, and a companion skewness diagnostic flags inputs where the approximation degrades. After characterising the axiomatic properties of $C_k$, we validate it on three tasks: (i) selective prediction for diabetic retinopathy, where critical-class $C_k$ reduces selective risk by 34.7\\% over MI and 56.2\\% over variance baselines; (ii) out-of-distribution detection on clinical and image benchmarks, where $\\sum_k C_k$ achieves the highest AUROC and the per-class view exposes asymmetric shifts invisible to MI; and (iii) a controlled label-noise study in which $\\sum_k C_k$ shows less sensitivity to injected aleatoric noise than MI under end-to-end Bayesian training, while both metrics degrade under transfer learning. Across all tasks, the quality of the posterior approximation shapes uncertainty at least as strongly as the choice of metric, suggesting that how uncertainty is propagated through the network matters as much as how it is measured.",
+    "summary": "In safety-critical classification, the cost of failure is often asymmetric, yet Bayesian deep learning summarises epistemic uncertainty with a single scalar, mutual information (MI), that cannot distinguish whether a model's ignorance involves a benign or safety-critical class. We decompose MI into a per-class vector $C_k(x)=σ_k^{2}/(2μ_k)$, with $μ_k{=}\\mathbb{E}[p_k]$ and $σ_k^2{=}\\mathrm{Var}[p_k]$ across posterior samples. The decomposition follows from a second-order Taylor expansion of the entropy; the $1/μ_k$ weighting corrects boundary suppression and makes $C_k$ comparable across rare and common classes. By construction $\\sum_k C_k \\approx \\mathrm{MI}$, and a companion skewness diagnostic flags inputs where the approximation degrades. After characterising the axiomatic properties of $C_k$, we validate it on three tasks: (i) selective prediction for diabetic retinopathy, where critical-class $C_k$ reduces selective risk by 34.7\\% over MI and 56.2\\% over variance baselines; (ii) out-of-distribution detection on clinical and image benchmarks, where $\\sum_k C_k$ achieves the highest AUROC and the per-class view exposes asymmetric shifts invisible to MI; and (iii) a controlled label-noise study in which $\\sum_k C_k$ shows less sensitivity to injected aleatoric noise than MI under end-to-end Bayesian training, while both metrics degrade under transfer learning. Across all tasks, the quality of the posterior approximation shapes uncertainty at least as strongly as the choice of metric, suggesting that how uncertainty is propagated through the network matters as much as how it is measured.",
     "authors": [
       "Mame Diarra Toure",
       "David A. Stephens"
@@ -2525,7 +2525,7 @@
   {
     "arxiv_id": "2602.21039v1",
     "title": "Is Multi-Distribution Learning as Easy as PAC Learning: Sharp Rates with Bounded Label Noise",
-    "summary": "Towards understanding the statistical complexity of learning from heterogeneous sources, we study the problem of multi-distribution learning. Given $k$ data sources, the goal is to output a classifier for each source by exploiting shared structure to reduce sample complexity. We focus on the bounded label noise setting to determine whether the fast $1/\u03b5$ rates achievable in single-task learning extend to this regime with minimal dependence on $k$. Surprisingly, we show that this is not the case. We demonstrate that learning across $k$ distributions inherently incurs slow rates scaling with $k/\u03b5^2$, even under constant noise levels, unless each distribution is learned separately. A key technical contribution is a structured hypothesis-testing framework that captures the statistical cost of certifying near-optimality under bounded noise-a cost we show is unavoidable in the multi-distribution setting.   Finally, we prove that when competing with the stronger benchmark of each distribution's optimal Bayes error, the sample complexity incurs a \\textit{multiplicative} penalty in $k$. This establishes a \\textit{statistical} separation between random classification noise and Massart noise, highlighting a fundamental barrier unique to learning from multiple sources.",
+    "summary": "Towards understanding the statistical complexity of learning from heterogeneous sources, we study the problem of multi-distribution learning. Given $k$ data sources, the goal is to output a classifier for each source by exploiting shared structure to reduce sample complexity. We focus on the bounded label noise setting to determine whether the fast $1/ε$ rates achievable in single-task learning extend to this regime with minimal dependence on $k$. Surprisingly, we show that this is not the case. We demonstrate that learning across $k$ distributions inherently incurs slow rates scaling with $k/ε^2$, even under constant noise levels, unless each distribution is learned separately. A key technical contribution is a structured hypothesis-testing framework that captures the statistical cost of certifying near-optimality under bounded noise-a cost we show is unavoidable in the multi-distribution setting.   Finally, we prove that when competing with the stronger benchmark of each distribution's optimal Bayes error, the sample complexity incurs a \\textit{multiplicative} penalty in $k$. This establishes a \\textit{statistical} separation between random classification noise and Massart noise, highlighting a fundamental barrier unique to learning from multiple sources.",
     "authors": [
       "Rafael Hanashiro",
       "Abhishek Shetty",
@@ -2739,10 +2739,10 @@
     "authors": [
       "Jose Moises Araya-Martinez",
       "Thushar Tom",
-      "Adri\u00e1n Sanchis Reig",
+      "Adrián Sanchis Reig",
       "Pablo Rey Valiente",
       "Jens Lambrecht",
-      "J\u00f6rg Kr\u00fcger"
+      "Jörg Krüger"
     ],
     "categories": [
       "cs.CV"
@@ -2797,7 +2797,7 @@
   {
     "arxiv_id": "2602.21020v1",
     "title": "Matching Multiple Experts: On the Exploitability of Multi-Agent Imitation Learning",
-    "summary": "Multi-agent imitation learning (MA-IL) aims to learn optimal policies from expert demonstrations of interactions in multi-agent interactive domains. Despite existing guarantees on the performance of the resulting learned policies, characterizations of how far the learned polices are from a Nash equilibrium are missing for offline MA-IL. In this paper, we demonstrate impossibility and hardness results of learning low-exploitable policies in general $n$-player Markov Games. We do so by providing examples where even exact measure matching fails, and demonstrating a new hardness result on characterizing the Nash gap given a fixed measure matching error. We then show how these challenges can be overcome using strategic dominance assumptions on the expert equilibrium. Specifically, for the case of dominant strategy expert equilibria, assuming Behavioral Cloning error $\u03b5_{\\text{BC}}$, this provides a Nash imitation gap of $\\mathcal{O}\\left(n\u03b5_{\\text{BC}}/(1-\u03b3)^2\\right)$ for a discount factor $\u03b3$. We generalize this result with a new notion of best-response continuity, and argue that this is implicitly encouraged by standard regularization techniques.",
+    "summary": "Multi-agent imitation learning (MA-IL) aims to learn optimal policies from expert demonstrations of interactions in multi-agent interactive domains. Despite existing guarantees on the performance of the resulting learned policies, characterizations of how far the learned polices are from a Nash equilibrium are missing for offline MA-IL. In this paper, we demonstrate impossibility and hardness results of learning low-exploitable policies in general $n$-player Markov Games. We do so by providing examples where even exact measure matching fails, and demonstrating a new hardness result on characterizing the Nash gap given a fixed measure matching error. We then show how these challenges can be overcome using strategic dominance assumptions on the expert equilibrium. Specifically, for the case of dominant strategy expert equilibria, assuming Behavioral Cloning error $ε_{\\text{BC}}$, this provides a Nash imitation gap of $\\mathcal{O}\\left(nε_{\\text{BC}}/(1-γ)^2\\right)$ for a discount factor $γ$. We generalize this result with a new notion of best-response continuity, and argue that this is implicitly encouraged by standard regularization techniques.",
     "authors": [
       "Antoine Bergerault",
       "Volkan Cevher",
@@ -3111,7 +3111,7 @@
     "title": "WeirNet: A Large-Scale 3D CFD Benchmark for Geometric Surrogate Modeling of Piano Key Weirs",
     "summary": "Reliable prediction of hydraulic performance is challenging for Piano Key Weir (PKW) design because discharge capacity depends on three-dimensional geometry and operating conditions. Surrogate models can accelerate hydraulic-structure design, but progress is limited by scarce large, well-documented datasets that jointly capture geometric variation, operating conditions, and functional performance. This study presents WeirNet, a large 3D CFD benchmark dataset for geometric surrogate modeling of PKWs. WeirNet contains 3,794 parametric, feasibility-constrained rectangular and trapezoidal PKW geometries, each scheduled at 19 discharge conditions using a consistent free-surface OpenFOAM workflow, resulting in 71,387 completed simulations that form the benchmark and with complete discharge coefficient labels. The dataset is released as multiple modalities compact parametric descriptors, watertight surface meshes and high-resolution point clouds together with standardized tasks and in-distribution and out-of-distribution splits. Representative surrogate families are benchmarked for discharge coefficient prediction. Tree-based regressors on parametric descriptors achieve the best overall accuracy, while point- and mesh-based models remain competitive and offer parameterization-agnostic inference. All surrogates evaluate in milliseconds per sample, providing orders-of-magnitude speedups over CFD runtimes. Out-of-distribution results identify geometry shift as the dominant failure mode compared to unseen discharge values, and data-efficiency experiments show diminishing returns beyond roughly 60% of the training data. By publicly releasing the dataset together with simulation setups and evaluation pipelines, WeirNet establishes a reproducible framework for data-driven hydraulic modeling and enables faster exploration of PKW designs during the early stages of hydraulic planning.",
     "authors": [
-      "Lisa L\u00fcddecke",
+      "Lisa Lüddecke",
       "Michael Hohmann",
       "Sebastian Eilermann",
       "Jan Tillmann-Mumm",
@@ -3133,7 +3133,7 @@
   {
     "arxiv_id": "2602.20698v1",
     "title": "High-Dimensional Robust Mean Estimation with Untrusted Batches",
-    "summary": "We study high-dimensional mean estimation in a collaborative setting where data is contributed by $N$ users in batches of size $n$. In this environment, a learner seeks to recover the mean $\u03bc$ of a true distribution $P$ from a collection of sources that are both statistically heterogeneous and potentially malicious. We formalize this challenge through a double corruption landscape: an $\\varepsilon$-fraction of users are entirely adversarial, while the remaining ``good'' users provide data from distributions that are related to $P$, but deviate by a proximity parameter $\u03b1$.   Unlike existing work on the untrusted batch model, which typically measures this deviation via total variation distance in discrete settings, we address the continuous, high-dimensional regime under two natural variants for deviation: (1) good batches are drawn from distributions with a mean-shift of $\\sqrt\u03b1$, or (2) an $\u03b1$-fraction of samples within each good batch are adversarially corrupted. In particular, the second model presents significant new challenges: in high dimensions, unlike discrete settings, even a small fraction of sample-level corruption can shift empirical means and covariances arbitrarily.   We provide two Sum-of-Squares (SoS) based algorithms to navigate this tiered corruption. Our algorithms achieve the minimax-optimal error rate $O(\\sqrt{\\varepsilon/n} + \\sqrt{d/nN} + \\sqrt\u03b1)$, demonstrating that while heterogeneity $\u03b1$ represents an inherent statistical difficulty, the influence of adversarial users is suppressed by a factor of $1/\\sqrt{n}$ due to the internal averaging afforded by the batch structure.",
+    "summary": "We study high-dimensional mean estimation in a collaborative setting where data is contributed by $N$ users in batches of size $n$. In this environment, a learner seeks to recover the mean $μ$ of a true distribution $P$ from a collection of sources that are both statistically heterogeneous and potentially malicious. We formalize this challenge through a double corruption landscape: an $\\varepsilon$-fraction of users are entirely adversarial, while the remaining ``good'' users provide data from distributions that are related to $P$, but deviate by a proximity parameter $α$.   Unlike existing work on the untrusted batch model, which typically measures this deviation via total variation distance in discrete settings, we address the continuous, high-dimensional regime under two natural variants for deviation: (1) good batches are drawn from distributions with a mean-shift of $\\sqrtα$, or (2) an $α$-fraction of samples within each good batch are adversarially corrupted. In particular, the second model presents significant new challenges: in high dimensions, unlike discrete settings, even a small fraction of sample-level corruption can shift empirical means and covariances arbitrarily.   We provide two Sum-of-Squares (SoS) based algorithms to navigate this tiered corruption. Our algorithms achieve the minimax-optimal error rate $O(\\sqrt{\\varepsilon/n} + \\sqrt{d/nN} + \\sqrtα)$, demonstrating that while heterogeneity $α$ represents an inherent statistical difficulty, the influence of adversarial users is suppressed by a factor of $1/\\sqrt{n}$ due to the internal averaging afforded by the batch structure.",
     "authors": [
       "Maryam Aliakbarpour",
       "Vladimir Braverman",
@@ -3224,7 +3224,7 @@
     "title": "Mask-HybridGNet: Graph-based segmentation with emergent anatomical correspondence from pixel-level supervision",
     "summary": "Graph-based medical image segmentation represents anatomical structures using boundary graphs, providing fixed-topology landmarks and inherent population-level correspondences. However, their clinical adoption has been hindered by a major requirement: training datasets with manually annotated landmarks that maintain point-to-point correspondences across patients rarely exist in practice. We introduce Mask-HybridGNet, a framework that trains graph-based models directly using standard pixel-wise masks, eliminating the need for manual landmark annotations. Our approach aligns variable-length ground truth boundaries with fixed-length landmark predictions by combining Chamfer distance supervision and edge-based regularization to ensure local smoothness and regular landmark distribution, further refined via differentiable rasterization. A significant emergent property of this framework is that predicted landmark positions become consistently associated with specific anatomical locations across patients without explicit correspondence supervision. This implicit atlas learning enables temporal tracking, cross-slice reconstruction, and morphological population analyses. Beyond direct segmentation, Mask-HybridGNet can extract correspondences from existing segmentation masks, allowing it to generate stable anatomical atlases from any high-quality pixel-based model. Experiments across chest radiography, cardiac ultrasound, cardiac MRI, and fetal imaging demonstrate that our model achieves competitive results against state-of-the-art pixel-based methods, while ensuring anatomical plausibility by enforcing boundary connectivity through a fixed graph adjacency matrix. This framework leverages the vast availability of standard segmentation masks to build structured models that maintain topological integrity and provide implicit correspondences.",
     "authors": [
-      "Nicol\u00e1s Gaggion",
+      "Nicolás Gaggion",
       "Maria J. Ledesma-Carbayo",
       "Stergios Christodoulidis",
       "Maria Vakalopoulou",
@@ -3327,7 +3327,7 @@
     "summary": "Functional covariates arise in many scientific and engineering applications when model inputs take the form of time-dependent or spatially distributed profiles, such as varying boundary conditions or changing material behaviours. In addition, new practices in digital simulation require predictions accompanied by confidence intervals. Models based on Gaussian processes (GPs) provide principled uncertainty quantification. However, GPs capable of jointly handling functional covariates and multiple correlated functional tasks remain largely under-explored. In this work, we extend the framework of GPs with functional covariates to multitask problems by introducing a fully separable kernel structure that captures dependencies across tasks and functional inputs. By taking advantage of the Kronecker structure of the covariance matrix, the model is made scalable. The proposed model is validated on a synthetic benchmark and applied to a realistic structure, a riveted assembly with functional descriptions of the material behaviour and response forces. The proposed functional multitask GP significantly improves over single task GPs. For the riveted assembly, it requires less than 100 samples to produce an accurate mean and confidence interval prediction. Despite its larger number of parameters, the multitask GP is computationally easier to learn than its single task pendant.",
     "authors": [
       "Razak Christophe Sabi Gninkou",
-      "Andr\u00e9s F. L\u00f3pez-Lopera",
+      "Andrés F. López-Lopera",
       "Franck Massa",
       "Rodolphe Le Riche"
     ],
@@ -3568,7 +3568,7 @@
   {
     "arxiv_id": "2602.21061v1",
     "title": "Tool Building as a Path to \"Superintelligence\"",
-    "summary": "The Diligent Learner framework suggests LLMs can achieve superintelligence via test-time search, provided a sufficient step-success probability $\u03b3$. In this work, we design a benchmark to measure $\u03b3$ on logical out-of-distribution inference. We construct a class of tasks involving GF(2) circuit reconstruction that grow more difficult with each reasoning step, and that are, from an information-theoretic standpoint, impossible to reliably solve unless the LLM carefully integrates all of the information provided. Our analysis demonstrates that while the $\u03b3$ value for small LLMs declines superlinearly as depth increases, frontier models exhibit partial robustness on this task. Furthermore, we find that successful reasoning at scale is contingent upon precise tool calls, identifying tool design as a critical capability for LLMs to achieve general superintelligence through the Diligent Learner framework.",
+    "summary": "The Diligent Learner framework suggests LLMs can achieve superintelligence via test-time search, provided a sufficient step-success probability $γ$. In this work, we design a benchmark to measure $γ$ on logical out-of-distribution inference. We construct a class of tasks involving GF(2) circuit reconstruction that grow more difficult with each reasoning step, and that are, from an information-theoretic standpoint, impossible to reliably solve unless the LLM carefully integrates all of the information provided. Our analysis demonstrates that while the $γ$ value for small LLMs declines superlinearly as depth increases, frontier models exhibit partial robustness on this task. Furthermore, we find that successful reasoning at scale is contingent upon precise tool calls, identifying tool design as a critical capability for LLMs to achieve general superintelligence through the Diligent Learner framework.",
     "authors": [
       "David Koplow",
       "Tomer Galanti",
@@ -3767,7 +3767,7 @@
   {
     "arxiv_id": "2602.20646v1",
     "title": "On the Convergence of Stochastic Gradient Descent with Perturbed Forward-Backward Passes",
-    "summary": "We study stochastic gradient descent (SGD) for composite optimization problems with $N$ sequential operators subject to perturbations in both the forward and backward passes. Unlike classical analyses that treat gradient noise as additive and localized, perturbations to intermediate outputs and gradients cascade through the computational graph, compounding geometrically with the number of operators. We present the first comprehensive theoretical analysis of this setting. Specifically, we characterize how forward and backward perturbations propagate and amplify within a single gradient step, derive convergence guarantees for both general non-convex objectives and functions satisfying the Polyak--\u0141ojasiewicz condition, and identify conditions under which perturbations do not deteriorate the asymptotic convergence order. As a byproduct, our analysis furnishes a theoretical explanation for the gradient spiking phenomenon widely observed in deep learning, precisely characterizing the conditions under which training recovers from spikes or diverges. Experiments on logistic regression with convex and non-convex regularization validate our theories, illustrating the predicted spike behavior and the asymmetric sensitivity to forward versus backward perturbations.",
+    "summary": "We study stochastic gradient descent (SGD) for composite optimization problems with $N$ sequential operators subject to perturbations in both the forward and backward passes. Unlike classical analyses that treat gradient noise as additive and localized, perturbations to intermediate outputs and gradients cascade through the computational graph, compounding geometrically with the number of operators. We present the first comprehensive theoretical analysis of this setting. Specifically, we characterize how forward and backward perturbations propagate and amplify within a single gradient step, derive convergence guarantees for both general non-convex objectives and functions satisfying the Polyak--Łojasiewicz condition, and identify conditions under which perturbations do not deteriorate the asymptotic convergence order. As a byproduct, our analysis furnishes a theoretical explanation for the gradient spiking phenomenon widely observed in deep learning, precisely characterizing the conditions under which training recovers from spikes or diverges. Experiments on logistic regression with convex and non-convex regularization validate our theories, illustrating the predicted spike behavior and the asymmetric sensitivity to forward versus backward perturbations.",
     "authors": [
       "Boao Kong",
       "Hengrui Zhang",
@@ -3811,10 +3811,10 @@
   {
     "arxiv_id": "2602.21138v1",
     "title": "Complexity of Classical Acceleration for $\\ell_1$-Regularized PageRank",
-    "summary": "We study the degree-weighted work required to compute $\\ell_1$-regularized PageRank using the standard one-gradient-per-iteration accelerated proximal-gradient method (FISTA). For non-accelerated local methods, the best known worst-case work scales as $\\widetilde{O} ((\u03b1\u03c1)^{-1})$, where $\u03b1$ is the teleportation parameter and $\u03c1$ is the $\\ell_1$-regularization parameter. A natural question is whether FISTA can improve the dependence on $\u03b1$ from $1/\u03b1$ to $1/\\sqrt\u03b1$ while preserving the $1/\u03c1$ locality scaling. The challenge is that acceleration can break locality by transiently activating nodes that are zero at optimality, thereby increasing the cost of gradient evaluations. We analyze FISTA on a slightly over-regularized objective and show that, under a checkable confinement condition, all spurious activations remain inside a boundary set $\\mathcal{B}$. This yields a bound consisting of an accelerated $(\u03c1\\sqrt\u03b1)^{-1}\\log(\u03b1/\\varepsilon)$ term plus a boundary overhead $\\sqrt{vol(\\mathcal{B})}/(\u03c1\u03b1^{3/2})$. We provide graph-structural conditions that imply such confinement. Experiments on synthetic and real graphs show the resulting speedup and slowdown regimes under the degree-weighted work model.",
+    "summary": "We study the degree-weighted work required to compute $\\ell_1$-regularized PageRank using the standard one-gradient-per-iteration accelerated proximal-gradient method (FISTA). For non-accelerated local methods, the best known worst-case work scales as $\\widetilde{O} ((αρ)^{-1})$, where $α$ is the teleportation parameter and $ρ$ is the $\\ell_1$-regularization parameter. A natural question is whether FISTA can improve the dependence on $α$ from $1/α$ to $1/\\sqrtα$ while preserving the $1/ρ$ locality scaling. The challenge is that acceleration can break locality by transiently activating nodes that are zero at optimality, thereby increasing the cost of gradient evaluations. We analyze FISTA on a slightly over-regularized objective and show that, under a checkable confinement condition, all spurious activations remain inside a boundary set $\\mathcal{B}$. This yields a bound consisting of an accelerated $(ρ\\sqrtα)^{-1}\\log(α/\\varepsilon)$ term plus a boundary overhead $\\sqrt{vol(\\mathcal{B})}/(ρα^{3/2})$. We provide graph-structural conditions that imply such confinement. Experiments on synthetic and real graphs show the resulting speedup and slowdown regimes under the degree-weighted work model.",
     "authors": [
       "Kimon Fountoulakis",
-      "David Mart\u00ednez-Rubio"
+      "David Martínez-Rubio"
     ],
     "categories": [
       "math.OC",
@@ -3904,7 +3904,7 @@
     "authors": [
       "Hyewon Jang",
       "Nikolai Ilinykh",
-      "Sharid Lo\u00e1iciga",
+      "Sharid Loáiciga",
       "Jey Han Lau",
       "Shalom Lappin"
     ],
@@ -4008,7 +4008,7 @@
       "Floriano Tori",
       "Lorenzo Bini",
       "Marco Sorbi",
-      "St\u00e9phane Marchand-Maillet",
+      "Stéphane Marchand-Maillet",
       "Vincent Ginis"
     ],
     "categories": [
@@ -4043,7 +4043,7 @@
   {
     "arxiv_id": "2602.20971v1",
     "title": "Does Order Matter : Connecting The Law of Robustness to Robust Generalization",
-    "summary": "Bubeck and Sellke (2021) pose as an open problem the connection between the law of robustness and robust generalization. The law of robustness states that overparameterization is necessary for models to interpolate robustly; in particular, robust interpolation requires the learned function to be Lipschitz. Robust generalization asks whether small robust training loss implies small robust test loss. We resolve this problem by explicitly connecting the two for arbitrary data distributions. Specifically, we introduce a nontrivial notion of robust generalization error and convert it into a lower bound on the expected Rademacher complexity of the induced robust loss class. Our bounds recover the $\u03a9(n^{1/d})$ regime of Wu et al.\\ (2023) and show that, up to constants, robust generalization does not change the order of the Lipschitz constant required for smooth interpolation. We conduct experiments to probe the predicted scaling with dataset size and model capacity, testing whether empirical behavior aligns more closely with the predictions of Bubeck and Sellke (2021) or Wu et al.\\ (2023). For MNIST, we find that the lower-bound Lipschitz constant scales on the order predicted by Wu et al.\\ (2023). Informally, to obtain low robust generalization error, the Lipschitz constant must lie in a range that we bound, and the allowable perturbation radius is linked to the Lipschitz scale.",
+    "summary": "Bubeck and Sellke (2021) pose as an open problem the connection between the law of robustness and robust generalization. The law of robustness states that overparameterization is necessary for models to interpolate robustly; in particular, robust interpolation requires the learned function to be Lipschitz. Robust generalization asks whether small robust training loss implies small robust test loss. We resolve this problem by explicitly connecting the two for arbitrary data distributions. Specifically, we introduce a nontrivial notion of robust generalization error and convert it into a lower bound on the expected Rademacher complexity of the induced robust loss class. Our bounds recover the $Ω(n^{1/d})$ regime of Wu et al.\\ (2023) and show that, up to constants, robust generalization does not change the order of the Lipschitz constant required for smooth interpolation. We conduct experiments to probe the predicted scaling with dataset size and model capacity, testing whether empirical behavior aligns more closely with the predictions of Bubeck and Sellke (2021) or Wu et al.\\ (2023). For MNIST, we find that the lower-bound Lipschitz constant scales on the order predicted by Wu et al.\\ (2023). Informally, to obtain low robust generalization error, the Lipschitz constant must lie in a range that we bound, and the allowable perturbation radius is linked to the Lipschitz scale.",
     "authors": [
       "Himadri Mandal",
       "Vishnu Varadarajan",
@@ -4226,12 +4226,12 @@
     "title": "FLIM Networks with Bag of Feature Points",
     "summary": "Convolutional networks require extensive image annotation, which can be costly and time-consuming. Feature Learning from Image Markers (FLIM) tackles this challenge by estimating encoder filters (i.e., kernel weights) from user-drawn markers on discriminative regions of a few representative images without traditional optimization. Such an encoder combined with an adaptive decoder comprises a FLIM network fully trained without backpropagation. Prior research has demonstrated their effectiveness in Salient Object Detection (SOD), being significantly lighter than existing lightweight models. This study revisits FLIM SOD and introduces FLIM-Bag of Feature Points (FLIM-BoFP), a considerably faster filter estimation method. The previous approach, FLIM-Cluster, derives filters through patch clustering at each encoder's block, leading to computational overhead and reduced control over filter locations. FLIM-BoFP streamlines this process by performing a single clustering at the input block, creating a bag of feature points, and defining filters directly from mapped feature points across all blocks. The paper evaluates the benefits in efficiency, effectiveness, and generalization of FLIM-BoFP compared to FLIM-Cluster and other state-of-the-art baselines for parasite detection in optical microscopy images.",
     "authors": [
-      "Jo\u00e3o Deltregia Martinelli",
+      "João Deltregia Martinelli",
       "Marcelo Luis Rodrigues Filho",
       "Felipe Crispim da Rocha Salvagnini",
       "Gilson Junior Soares",
       "Jefersson A. dos Santos",
-      "Alexandre X. Falc\u00e3o"
+      "Alexandre X. Falcão"
     ],
     "categories": [
       "cs.CV"
@@ -4266,7 +4266,7 @@
   {
     "arxiv_id": "2602.20846v1",
     "title": "Body-Reservoir Governance in Repeated Games: Embodied Decision-Making, Dynamic Sentinel Adaptation, and Complexity-Regularized Optimization",
-    "summary": "Standard game theory explains cooperation in repeated games through conditional strategies such as Tit-for-Tat (TfT), but these require continuous computation that imposes physical costs on embodied agents. We propose a three-layer Body-Reservoir Governance (BRG) architecture: (1) a body reservoir (echo state network) whose $d$-dimensional state performs implicit inference over interaction history, serving as both decision-maker and anomaly detector, (2) a cognitive filter providing costly strategic tools activated on demand, and (3) a metacognitive governance layer with receptivity parameter $\u03b1\\in [0,1]$. At full body governance ($\u03b1=1$), closed-loop dynamics satisfy a self-consistency equation: cooperation is expressed as the reservoir's fixed point, not computed. Strategy complexity cost is defined as the KL divergence between the reservoir's state distribution and its habituated baseline. Body governance reduces this cost, with action variance decreasing up to $1600\\times$ with dimension $d$. A dynamic sentinel generates a composite discomfort signal from the reservoir's own state, driving adaptive $\u03b1(t)$: near baseline during cooperation, rapidly dropping upon defection to activate cognitive retaliation. Overriding the body incurs thermodynamic cost proportional to internal state distortion. The sentinel achieves the highest payoff across all conditions, outperforming static body governance, TfT, and EMA baselines. A dimension sweep ($d \\in \\{5,\\ldots,100\\}$) shows implicit inference scales with bodily richness ($23\\times$ to $1600\\times$ variance reduction), attributable to reservoir dynamics. A phase diagram in $(d, \u03c4_{\\mathrm{env}})$ space reveals governance regime transitions near $d \\approx 20$. The framework reinterprets cooperation as the minimum-dissipation response of an adapted dynamical system -- emergent from embodied dynamics rather than computed.",
+    "summary": "Standard game theory explains cooperation in repeated games through conditional strategies such as Tit-for-Tat (TfT), but these require continuous computation that imposes physical costs on embodied agents. We propose a three-layer Body-Reservoir Governance (BRG) architecture: (1) a body reservoir (echo state network) whose $d$-dimensional state performs implicit inference over interaction history, serving as both decision-maker and anomaly detector, (2) a cognitive filter providing costly strategic tools activated on demand, and (3) a metacognitive governance layer with receptivity parameter $α\\in [0,1]$. At full body governance ($α=1$), closed-loop dynamics satisfy a self-consistency equation: cooperation is expressed as the reservoir's fixed point, not computed. Strategy complexity cost is defined as the KL divergence between the reservoir's state distribution and its habituated baseline. Body governance reduces this cost, with action variance decreasing up to $1600\\times$ with dimension $d$. A dynamic sentinel generates a composite discomfort signal from the reservoir's own state, driving adaptive $α(t)$: near baseline during cooperation, rapidly dropping upon defection to activate cognitive retaliation. Overriding the body incurs thermodynamic cost proportional to internal state distortion. The sentinel achieves the highest payoff across all conditions, outperforming static body governance, TfT, and EMA baselines. A dimension sweep ($d \\in \\{5,\\ldots,100\\}$) shows implicit inference scales with bodily richness ($23\\times$ to $1600\\times$ variance reduction), attributable to reservoir dynamics. A phase diagram in $(d, τ_{\\mathrm{env}})$ space reveals governance regime transitions near $d \\approx 20$. The framework reinterprets cooperation as the minimum-dissipation response of an adapted dynamical system -- emergent from embodied dynamics rather than computed.",
     "authors": [
       "Yuki Nakamura"
     ],
@@ -4286,7 +4286,7 @@
   {
     "arxiv_id": "2602.20844v1",
     "title": "Maximum entropy based testing in network models: ERGMs and constrained optimization",
-    "summary": "Stochastic network models play a central role across a wide range of scientific disciplines, and questions of statistical inference arise naturally in this context. In this paper we investigate goodness-of-fit and two-sample testing procedures for statistical networks based on the principle of maximum entropy (MaxEnt). Our approach formulates a constrained entropy-maximization problem on the space of networks, subject to prescribed structural constraints. The resulting test statistics are defined through the Lagrange multipliers associated with the constrained optimization problem, which, to our knowledge, is novel in the statistical networks literature.   We establish consistency in the classical regime where the number of vertices is fixed. We then consider asymptotic regimes in which the graph size grows with the sample size, developing tests for both dense and sparse settings. In the dense case, we analyze exponential random graph models (ERGM) (including the Erd\u00f6s-R\u00e8nyi models), while in the sparse regime our theory applies to Erd{\u00f6}s-R{\u00e8}nyi graphs.   Our analysis leverages recent advances in nonlinear large deviation theory for random graphs. We further show that the proposed Lagrange-multiplier framework connects naturally to classical score tests for constrained maximum likelihood estimation. The results provide a unified entropy-based framework for network model assessment across diverse growth regimes.",
+    "summary": "Stochastic network models play a central role across a wide range of scientific disciplines, and questions of statistical inference arise naturally in this context. In this paper we investigate goodness-of-fit and two-sample testing procedures for statistical networks based on the principle of maximum entropy (MaxEnt). Our approach formulates a constrained entropy-maximization problem on the space of networks, subject to prescribed structural constraints. The resulting test statistics are defined through the Lagrange multipliers associated with the constrained optimization problem, which, to our knowledge, is novel in the statistical networks literature.   We establish consistency in the classical regime where the number of vertices is fixed. We then consider asymptotic regimes in which the graph size grows with the sample size, developing tests for both dense and sparse settings. In the dense case, we analyze exponential random graph models (ERGM) (including the Erdös-Rènyi models), while in the sparse regime our theory applies to Erd{ö}s-R{è}nyi graphs.   Our analysis leverages recent advances in nonlinear large deviation theory for random graphs. We further show that the proposed Lagrange-multiplier framework connects naturally to classical score tests for constrained maximum likelihood estimation. The results provide a unified entropy-based framework for network model assessment across diverse growth regimes.",
     "authors": [
       "Subhrosekhar Ghosh",
       "Rathindra Nath Karmakar",
@@ -4392,10 +4392,10 @@
     "authors": [
       "Xingyi Cheng",
       "Julien Maufront",
-      "Aur\u00e9lie Di Cicco",
-      "Dani\u00ebl M. Pelt",
+      "Aurélie Di Cicco",
+      "Daniël M. Pelt",
       "Manuela Dezi",
-      "Daniel L\u00e9vy"
+      "Daniel Lévy"
     ],
     "categories": [
       "cs.CV"
@@ -4445,186 +4445,5 @@
     "date": "2026-02-25",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "kalsun/functiongemma-270m-it-tool-calling",
-    "author": "unknown",
-    "title": "kalsun/functiongemma-270m-it-tool-calling",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "conversational",
-      "base_model:google/functiongemma-270m-it",
-      "base_model:finetune:google/functiongemma-270m-it",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-25T00:59:23.000Z",
-    "last_modified": "2026-02-25T04:14:39.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/kalsun/functiongemma-270m-it-tool-calling",
-    "date": "2026-02-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mradermacher/zen3-nano-i1-GGUF",
-    "author": "unknown",
-    "title": "mradermacher/zen3-nano-i1-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "text-generation",
-      "conversational",
-      "multilingual",
-      "zen",
-      "zen3",
-      "hanzo",
-      "en",
-      "base_model:zenlm/zen3-nano",
-      "base_model:quantized:zenlm/zen3-nano",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-25T00:52:55.000Z",
-    "last_modified": "2026-02-25T04:14:25.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mradermacher/zen3-nano-i1-GGUF",
-    "date": "2026-02-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LucidityAI/Koishi-1.5-GGUF",
-    "author": "unknown",
-    "title": "LucidityAI/Koishi-1.5-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "text-generation",
-      "en",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-02-25T04:01:00.000Z",
-    "last_modified": "2026-02-25T04:13:37.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/LucidityAI/Koishi-1.5-GGUF",
-    "date": "2026-02-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "NickNick414/rt_detrv2_finetuned_trashify_box_detector_v1",
-    "author": "unknown",
-    "title": "NickNick414/rt_detrv2_finetuned_trashify_box_detector_v1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "rt_detr_v2",
-      "object-detection",
-      "generated_from_trainer",
-      "base_model:PekingU/rtdetr_v2_r50vd",
-      "base_model:finetune:PekingU/rtdetr_v2_r50vd",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "transformers",
-    "created_at": "2026-02-25T04:13:18.000Z",
-    "last_modified": "2026-02-25T04:13:31.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/NickNick414/rt_detrv2_finetuned_trashify_box_detector_v1",
-    "date": "2026-02-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "NPThanhh/visobert-finetuned-emotion",
-    "author": "unknown",
-    "title": "NPThanhh/visobert-finetuned-emotion",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "xlm-roberta",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:uitnlp/visobert",
-      "base_model:finetune:uitnlp/visobert",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-02-25T04:11:02.000Z",
-    "last_modified": "2026-02-25T04:11:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/NPThanhh/visobert-finetuned-emotion",
-    "date": "2026-02-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "HSfukagawa/qwen3-4b-structured-output-lora-ver.7",
-    "author": "unknown",
-    "title": "HSfukagawa/qwen3-4b-structured-output-lora-ver.7",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "qlora",
-      "lora",
-      "structured-output",
-      "text-generation",
-      "en",
-      "dataset:u-10bei/structured_data_with_cot_dataset_512_v2",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-02-25T03:47:17.000Z",
-    "last_modified": "2026-02-25T04:10:33.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/HSfukagawa/qwen3-4b-structured-output-lora-ver.7",
-    "date": "2026-02-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
