@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-25T19:50:05.920948",
+  "date": "2026-02-25T20:31:12.754823",
   "patterns": {
     "multimodal_research": [
       {
@@ -771,8 +771,8 @@
         "url": "https://arxiv.org/abs/2602.20853v1"
       },
       {
-        "title": "Bibhabasu1/dpo-gpt2-medium-prefix-tuning",
-        "url": "https://huggingface.co/Bibhabasu1/dpo-gpt2-medium-prefix-tuning"
+        "title": "Bibhabasu1/dpo-gpt2-medium-qlora",
+        "url": "https://huggingface.co/Bibhabasu1/dpo-gpt2-medium-qlora"
       }
     ],
     "vision_systems": [
@@ -1369,14 +1369,6 @@
       {
         "title": "DA-Cal: Towards Cross-Domain Calibration in Semantic Segmentation",
         "url": "https://arxiv.org/abs/2602.20860v1"
-      },
-      {
-        "title": "inferencerlabs/Qwen3.5-35B-A3B-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/Qwen3.5-35B-A3B-MLX-5.5bit"
-      },
-      {
-        "title": "inferencerlabs/Qwen3.5-35B-A3B-MLX-9bit",
-        "url": "https://huggingface.co/inferencerlabs/Qwen3.5-35B-A3B-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1857,7 +1849,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1904,6 +1896,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 451
+    "total_papers": 449
   }
 }
