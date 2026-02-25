@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-25T18:58:58.983301",
+  "date": "2026-02-25T19:50:05.920948",
   "patterns": {
     "multimodal_research": [
       {
@@ -769,6 +769,10 @@
       {
         "title": "On the Explainability of Vision-Language Models in Art History",
         "url": "https://arxiv.org/abs/2602.20853v1"
+      },
+      {
+        "title": "Bibhabasu1/dpo-gpt2-medium-prefix-tuning",
+        "url": "https://huggingface.co/Bibhabasu1/dpo-gpt2-medium-prefix-tuning"
       }
     ],
     "vision_systems": [
@@ -1367,8 +1371,12 @@
         "url": "https://arxiv.org/abs/2602.20860v1"
       },
       {
-        "title": "inferencerlabs/LongCat-Flash-Lite-MLX-5.5bit",
-        "url": "https://huggingface.co/inferencerlabs/LongCat-Flash-Lite-MLX-5.5bit"
+        "title": "inferencerlabs/Qwen3.5-35B-A3B-MLX-5.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Qwen3.5-35B-A3B-MLX-5.5bit"
+      },
+      {
+        "title": "inferencerlabs/Qwen3.5-35B-A3B-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/Qwen3.5-35B-A3B-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1837,7 +1845,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1849,7 +1857,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1896,6 +1904,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 449
+    "total_papers": 451
   }
 }
