@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-25T07:00:33.275393",
+  "date": "2026-02-25T07:55:12.399995",
   "patterns": {
     "multimodal_research": [
       {
@@ -769,6 +769,14 @@
       {
         "title": "On the Explainability of Vision-Language Models in Art History",
         "url": "https://arxiv.org/abs/2602.20853v1"
+      },
+      {
+        "title": "nisiwaki/llm_adv01",
+        "url": "https://huggingface.co/nisiwaki/llm_adv01"
+      },
+      {
+        "title": "PlacidWombat/stress_roBERTa_classifier",
+        "url": "https://huggingface.co/PlacidWombat/stress_roBERTa_classifier"
       }
     ],
     "vision_systems": [
@@ -1833,7 +1841,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1892,6 +1900,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 448
+    "total_papers": 450
   }
 }
