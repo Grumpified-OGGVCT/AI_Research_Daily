@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-26T22:29:21.911405",
+  "date": "2026-02-26T23:25:24.216043",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,12 +731,16 @@
         "url": "https://arxiv.org/abs/2602.21716v1"
       },
       {
-        "title": "witgaw/macbert-large-cofog-qwen",
-        "url": "https://huggingface.co/witgaw/macbert-large-cofog-qwen"
+        "title": "0xjunhao/gpt-oss-120b",
+        "url": "https://huggingface.co/0xjunhao/gpt-oss-120b"
       },
       {
-        "title": "mariamoracrossitcr/distilbert-base-uncased-finetuned-emotionV3",
-        "url": "https://huggingface.co/mariamoracrossitcr/distilbert-base-uncased-finetuned-emotionV3"
+        "title": "GeorgeUwaifo/ivie_gpt2b_results",
+        "url": "https://huggingface.co/GeorgeUwaifo/ivie_gpt2b_results"
+      },
+      {
+        "title": "0xjunhao/gpt-oss-20b",
+        "url": "https://huggingface.co/0xjunhao/gpt-oss-20b"
       }
     ],
     "vision_systems": [
@@ -1107,14 +1111,6 @@
       {
         "title": "Assessing airborne laser scanning and aerial photogrammetry for deep learning-based stand delineation",
         "url": "https://arxiv.org/abs/2602.21709v1"
-      },
-      {
-        "title": "artificialguybr/POSTERMOVIE-REDMOND-ZIMAGE",
-        "url": "https://huggingface.co/artificialguybr/POSTERMOVIE-REDMOND-ZIMAGE"
-      },
-      {
-        "title": "artificialguybr/POSTERMOVIE-REDMOND-QWENIMAGE",
-        "url": "https://huggingface.co/artificialguybr/POSTERMOVIE-REDMOND-QWENIMAGE"
       }
     ],
     "reasoning": [
@@ -1829,13 +1825,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "94 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1888,6 +1884,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 446
   }
 }
