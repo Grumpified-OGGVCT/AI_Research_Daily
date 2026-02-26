@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-26T14:08:27.247385",
+  "date": "2026-02-26T15:49:28.581689",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,8 +731,8 @@
         "url": "https://arxiv.org/abs/2602.21716v1"
       },
       {
-        "title": "dkl4/llm2025-qwen3-4b-structured-output-lora-01-v11",
-        "url": "https://huggingface.co/dkl4/llm2025-qwen3-4b-structured-output-lora-01-v11"
+        "title": "TSerizawa/llm-lecture-2025_advanced_parameter_model_qwen3-4b-agent-trajectory-lora",
+        "url": "https://huggingface.co/TSerizawa/llm-lecture-2025_advanced_parameter_model_qwen3-4b-agent-trajectory-lora"
       }
     ],
     "vision_systems": [
@@ -1103,10 +1103,6 @@
       {
         "title": "Assessing airborne laser scanning and aerial photogrammetry for deep learning-based stand delineation",
         "url": "https://arxiv.org/abs/2602.21709v1"
-      },
-      {
-        "title": "dianavdavidson/wh_small_cv_common_voices_49223_trial",
-        "url": "https://huggingface.co/dianavdavidson/wh_small_cv_common_voices_49223_trial"
       }
     ],
     "reasoning": [
@@ -1827,7 +1823,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1880,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 444
   }
 }
