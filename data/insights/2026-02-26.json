@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-26T11:37:57.913784",
+  "date": "2026-02-26T12:51:52.881556",
   "patterns": {
     "multimodal_research": [
       {
@@ -399,10 +399,6 @@
       {
         "title": "Global-Aware Edge Prioritization for Pose Graph Initialization",
         "url": "https://arxiv.org/abs/2602.21963v1"
-      },
-      {
-        "title": "Hi-Satoh/adv_MoE_sft3_dpo_merged",
-        "url": "https://huggingface.co/Hi-Satoh/adv_MoE_sft3_dpo_merged"
       }
     ],
     "language_models": [
@@ -735,8 +731,12 @@
         "url": "https://arxiv.org/abs/2602.21716v1"
       },
       {
-        "title": "jxta/llm_jxta",
-        "url": "https://huggingface.co/jxta/llm_jxta"
+        "title": "Bourne17/gpt2-dpo-prefix",
+        "url": "https://huggingface.co/Bourne17/gpt2-dpo-prefix"
+      },
+      {
+        "title": "Bourne17/gpt2-dpo-lora",
+        "url": "https://huggingface.co/Bourne17/gpt2-dpo-lora"
       }
     ],
     "vision_systems": [
@@ -1791,10 +1791,6 @@
       {
         "title": "Iterative Closed-Loop Motion Synthesis for Scaling the Capabilities of Humanoid Control",
         "url": "https://arxiv.org/abs/2602.21599v1"
-      },
-      {
-        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1813,7 +1809,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "61 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1825,7 +1821,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1849,7 +1845,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "100 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1884,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 446
+    "total_papers": 445
   }
 }
