@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-26T04:12:51.321775",
+  "date": "2026-02-26T05:55:36.972843",
   "patterns": {
     "multimodal_research": [
       {
@@ -729,10 +729,6 @@
       {
         "title": "TranX-Adapter: Bridging Artifacts and Semantics within MLLMs for Robust AI-generated Image Detection",
         "url": "https://arxiv.org/abs/2602.21716v1"
-      },
-      {
-        "title": "KingTechnician/bert-base-uncased-triage",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased-triage"
       }
     ],
     "vision_systems": [
@@ -1103,10 +1099,6 @@
       {
         "title": "Assessing airborne laser scanning and aerial photogrammetry for deep learning-based stand delineation",
         "url": "https://arxiv.org/abs/2602.21709v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1821,13 +1813,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1880,6 +1872,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 443
   }
 }
