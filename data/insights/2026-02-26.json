@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-26T19:41:00.015072",
+  "date": "2026-02-26T20:31:36.180039",
   "patterns": {
     "multimodal_research": [
       {
@@ -401,8 +401,8 @@
         "url": "https://arxiv.org/abs/2602.21963v1"
       },
       {
-        "title": "KakoSan/siftai-efficientnet-b4-final",
-        "url": "https://huggingface.co/KakoSan/siftai-efficientnet-b4-final"
+        "title": "nielsr/efficient_sam3_image_encoder_mobileclip_s0_ctx16",
+        "url": "https://huggingface.co/nielsr/efficient_sam3_image_encoder_mobileclip_s0_ctx16"
       }
     ],
     "language_models": [
@@ -735,8 +735,12 @@
         "url": "https://arxiv.org/abs/2602.21716v1"
       },
       {
-        "title": "ashishc1/bert-reward-model",
-        "url": "https://huggingface.co/ashishc1/bert-reward-model"
+        "title": "shuttling/gpt2-ppo-full",
+        "url": "https://huggingface.co/shuttling/gpt2-ppo-full"
+      },
+      {
+        "title": "Antired/tradehax-gpt-ops",
+        "url": "https://huggingface.co/Antired/tradehax-gpt-ops"
       }
     ],
     "vision_systems": [
@@ -1109,8 +1113,8 @@
         "url": "https://arxiv.org/abs/2602.21709v1"
       },
       {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "nielsr/efficient_sam3_image_encoder_mobileclip_s0_ctx16",
+        "url": "https://huggingface.co/nielsr/efficient_sam3_image_encoder_mobileclip_s0_ctx16"
       }
     ],
     "reasoning": [
@@ -1397,10 +1401,6 @@
       {
         "title": "MedTri: A Platform for Structured Medical Report Normalization to Enhance Vision-Language Pretraining",
         "url": "https://arxiv.org/abs/2602.22143v1"
-      },
-      {
-        "title": "davidafrica/gemma2-scatological_s669_lr1em05_r32_a64_e1",
-        "url": "https://huggingface.co/davidafrica/gemma2-scatological_s669_lr1em05_r32_a64_e1"
       }
     ],
     "benchmarks": [
@@ -1829,7 +1829,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1841,7 +1841,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
