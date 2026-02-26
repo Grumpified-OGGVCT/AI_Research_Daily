@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-26T18:44:43.662064",
+  "date": "2026-02-26T19:41:00.015072",
   "patterns": {
     "multimodal_research": [
       {
@@ -399,6 +399,10 @@
       {
         "title": "Global-Aware Edge Prioritization for Pose Graph Initialization",
         "url": "https://arxiv.org/abs/2602.21963v1"
+      },
+      {
+        "title": "KakoSan/siftai-efficientnet-b4-final",
+        "url": "https://huggingface.co/KakoSan/siftai-efficientnet-b4-final"
       }
     ],
     "language_models": [
@@ -731,12 +735,8 @@
         "url": "https://arxiv.org/abs/2602.21716v1"
       },
       {
-        "title": "adesh01/gpt2-124m-sft-dolly",
-        "url": "https://huggingface.co/adesh01/gpt2-124m-sft-dolly"
-      },
-      {
-        "title": "Gojokun00/bert-hate-speech-detector-mm",
-        "url": "https://huggingface.co/Gojokun00/bert-hate-speech-detector-mm"
+        "title": "ashishc1/bert-reward-model",
+        "url": "https://huggingface.co/ashishc1/bert-reward-model"
       }
     ],
     "vision_systems": [
@@ -1107,6 +1107,10 @@
       {
         "title": "Assessing airborne laser scanning and aerial photogrammetry for deep learning-based stand delineation",
         "url": "https://arxiv.org/abs/2602.21709v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1393,6 +1397,10 @@
       {
         "title": "MedTri: A Platform for Structured Medical Report Normalization to Enhance Vision-Language Pretraining",
         "url": "https://arxiv.org/abs/2602.22143v1"
+      },
+      {
+        "title": "davidafrica/gemma2-scatological_s669_lr1em05_r32_a64_e1",
+        "url": "https://huggingface.co/davidafrica/gemma2-scatological_s669_lr1em05_r32_a64_e1"
       }
     ],
     "benchmarks": [
@@ -1809,7 +1817,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "60 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1821,19 +1829,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "92 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1880,6 +1888,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 447
   }
 }
