@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-27T15:34:51.242354",
+  "date": "2026-02-27T16:35:26.799797",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,16 +727,12 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "sohammandal01/bert-reward-full-assignment",
-        "url": "https://huggingface.co/sohammandal01/bert-reward-full-assignment"
+        "title": "PrasannaPaithankar/bert-reward-model",
+        "url": "https://huggingface.co/PrasannaPaithankar/bert-reward-model"
       },
       {
-        "title": "Vandita/EmoCentricSarcBERT27FebRstate100000AvgPadding",
-        "url": "https://huggingface.co/Vandita/EmoCentricSarcBERT27FebRstate100000AvgPadding"
-      },
-      {
-        "title": "jainishaan107/gpt2-medium-ppo-full",
-        "url": "https://huggingface.co/jainishaan107/gpt2-medium-ppo-full"
+        "title": "Chaotically/ppo-gpt2-full",
+        "url": "https://huggingface.co/Chaotically/ppo-gpt2-full"
       }
     ],
     "vision_systems": [
@@ -1027,6 +1023,10 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
+      },
+      {
+        "title": "SoraVision/sono2",
+        "url": "https://huggingface.co/SoraVision/sono2"
       }
     ],
     "reasoning": [
@@ -1709,13 +1709,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
