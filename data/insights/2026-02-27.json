@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-27T20:23:36.138527",
+  "date": "2026-02-27T21:25:16.806635",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,12 +727,12 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "adityasinghbisht/PPO_FULL_FINETUNE_GPT2",
-        "url": "https://huggingface.co/adityasinghbisht/PPO_FULL_FINETUNE_GPT2"
+        "title": "srinjoy123/gpt2-medium-dpo-fullfinetuned",
+        "url": "https://huggingface.co/srinjoy123/gpt2-medium-dpo-fullfinetuned"
       },
       {
-        "title": "ikedabent/llm_ad_qwen2.5-7b-multi005",
-        "url": "https://huggingface.co/ikedabent/llm_ad_qwen2.5-7b-multi005"
+        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
+        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
       }
     ],
     "vision_systems": [
@@ -1023,6 +1023,10 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
+      },
+      {
+        "title": "srtrader/Qwen-Image-2512-Turbo-LoRA-2-Steps",
+        "url": "https://huggingface.co/srtrader/Qwen-Image-2512-Turbo-LoRA-2-Steps"
       }
     ],
     "reasoning": [
@@ -1711,7 +1715,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1764,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 417
   }
 }
