@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-27T08:36:27.915790",
+  "date": "2026-02-27T09:36:49.634379",
   "patterns": {
     "multimodal_research": [
       {
@@ -387,6 +387,10 @@
       {
         "title": "Effective sample size approximations as entropy measures",
         "url": "https://arxiv.org/abs/2602.22954v1"
+      },
+      {
+        "title": "nielsr/efficient-sam-3-mobileclip-s0-ctx16",
+        "url": "https://huggingface.co/nielsr/efficient-sam-3-mobileclip-s0-ctx16"
       }
     ],
     "language_models": [
@@ -725,6 +729,14 @@
       {
         "title": "Can Agents Distinguish Visually Hard-to-Separate Diseases in a Zero-Shot Setting? A Pilot Study",
         "url": "https://arxiv.org/abs/2602.22959v1"
+      },
+      {
+        "title": "Anonymous-2004/gpt2-medium-dpo-full",
+        "url": "https://huggingface.co/Anonymous-2004/gpt2-medium-dpo-full"
+      },
+      {
+        "title": "hara-CU/Qwen3-4B-LLM2025_DBaNoEr_INUPv4_plus_AWv345NoEAd_ALF_format1600-r16a32-B16-2ep-5e6",
+        "url": "https://huggingface.co/hara-CU/Qwen3-4B-LLM2025_DBaNoEr_INUPv4_plus_AWv345NoEAd_ALF_format1600-r16a32-B16-2ep-5e6"
       }
     ],
     "vision_systems": [
@@ -1685,7 +1697,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "63 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1709,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 417
   }
 }
