@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-27T12:44:07.002993",
+  "date": "2026-02-27T13:57:45.508302",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,12 +727,16 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "mohammad-en/chess-gpt2",
-        "url": "https://huggingface.co/mohammad-en/chess-gpt2"
+        "title": "shuttling/bert-reward-model-kaleidoscope",
+        "url": "https://huggingface.co/shuttling/bert-reward-model-kaleidoscope"
       },
       {
-        "title": "rudrakpatra27/gpt2-ppo-safety-aligned",
-        "url": "https://huggingface.co/rudrakpatra27/gpt2-ppo-safety-aligned"
+        "title": "follmon10/qwen3-4b-structured-output-lora_sft_v2_2ep5e-5_uns_1b16s_l4_4096cot0",
+        "url": "https://huggingface.co/follmon10/qwen3-4b-structured-output-lora_sft_v2_2ep5e-5_uns_1b16s_l4_4096cot0"
+      },
+      {
+        "title": "jainishaan107/gpt2-medium-ppo-full",
+        "url": "https://huggingface.co/jainishaan107/gpt2-medium-ppo-full"
       }
     ],
     "vision_systems": [
@@ -1025,8 +1029,8 @@
         "url": "https://arxiv.org/abs/2602.22920v1"
       },
       {
-        "title": "SSSYYYTTT/gr1_sdp_1gpus_11924_visual_new8tasks_35k_1e4_w20a70",
-        "url": "https://huggingface.co/SSSYYYTTT/gr1_sdp_1gpus_11924_visual_new8tasks_35k_1e4_w20a70"
+        "title": "mingyi456/Ovis-Image-7B-DF11-ComfyUI",
+        "url": "https://huggingface.co/mingyi456/Ovis-Image-7B-DF11-ComfyUI"
       }
     ],
     "reasoning": [
@@ -1309,6 +1313,10 @@
       {
         "title": "Cytoarchitecture in Words: Weakly Supervised Vision-Language Modeling for Human Brain Microscopy",
         "url": "https://arxiv.org/abs/2602.23088v1"
+      },
+      {
+        "title": "inference-optimization/Qwen3-Coder-Next-FP8-dynamic-redo",
+        "url": "https://huggingface.co/inference-optimization/Qwen3-Coder-Next-FP8-dynamic-redo"
       }
     ],
     "benchmarks": [
@@ -1709,7 +1717,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1721,7 +1729,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1768,6 +1776,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 417
+    "total_papers": 419
   }
 }
