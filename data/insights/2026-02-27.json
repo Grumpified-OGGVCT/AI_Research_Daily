@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-27T13:57:45.508302",
+  "date": "2026-02-27T14:38:01.103533",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,16 +727,16 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "shuttling/bert-reward-model-kaleidoscope",
-        "url": "https://huggingface.co/shuttling/bert-reward-model-kaleidoscope"
-      },
-      {
-        "title": "follmon10/qwen3-4b-structured-output-lora_sft_v2_2ep5e-5_uns_1b16s_l4_4096cot0",
-        "url": "https://huggingface.co/follmon10/qwen3-4b-structured-output-lora_sft_v2_2ep5e-5_uns_1b16s_l4_4096cot0"
-      },
-      {
         "title": "jainishaan107/gpt2-medium-ppo-full",
         "url": "https://huggingface.co/jainishaan107/gpt2-medium-ppo-full"
+      },
+      {
+        "title": "zhuojing-huang/gpt2-chinese-english-bi-vocab-mono-1",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-chinese-english-bi-vocab-mono-1"
+      },
+      {
+        "title": "allout2726/gpt2-ppo-Full",
+        "url": "https://huggingface.co/allout2726/gpt2-ppo-Full"
       }
     ],
     "vision_systems": [
@@ -1027,10 +1027,6 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
-      },
-      {
-        "title": "mingyi456/Ovis-Image-7B-DF11-ComfyUI",
-        "url": "https://huggingface.co/mingyi456/Ovis-Image-7B-DF11-ComfyUI"
       }
     ],
     "reasoning": [
@@ -1313,10 +1309,6 @@
       {
         "title": "Cytoarchitecture in Words: Weakly Supervised Vision-Language Modeling for Human Brain Microscopy",
         "url": "https://arxiv.org/abs/2602.23088v1"
-      },
-      {
-        "title": "inference-optimization/Qwen3-Coder-Next-FP8-dynamic-redo",
-        "url": "https://huggingface.co/inference-optimization/Qwen3-Coder-Next-FP8-dynamic-redo"
       }
     ],
     "benchmarks": [
@@ -1723,13 +1715,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1776,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 419
+    "total_papers": 417
   }
 }
