@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-27T16:35:26.799797",
+  "date": "2026-02-27T17:31:26.983927",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,12 +727,24 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "PrasannaPaithankar/bert-reward-model",
-        "url": "https://huggingface.co/PrasannaPaithankar/bert-reward-model"
+        "title": "kabachuha/gpt-oss-20b-SOMbliterated",
+        "url": "https://huggingface.co/kabachuha/gpt-oss-20b-SOMbliterated"
       },
       {
-        "title": "Chaotically/ppo-gpt2-full",
-        "url": "https://huggingface.co/Chaotically/ppo-gpt2-full"
+        "title": "Aki-1010/llm-course-advanced-2025-main-v20260227-2223",
+        "url": "https://huggingface.co/Aki-1010/llm-course-advanced-2025-main-v20260227-2223"
+      },
+      {
+        "title": "ikedabent/llm_ad_qwen2.5-7b-multi003",
+        "url": "https://huggingface.co/ikedabent/llm_ad_qwen2.5-7b-multi003"
+      },
+      {
+        "title": "allout2726/gpt2-ppo-Full",
+        "url": "https://huggingface.co/allout2726/gpt2-ppo-Full"
+      },
+      {
+        "title": "PrasannaPaithankar/bert-reward-model",
+        "url": "https://huggingface.co/PrasannaPaithankar/bert-reward-model"
       }
     ],
     "vision_systems": [
@@ -1025,8 +1037,8 @@
         "url": "https://arxiv.org/abs/2602.22920v1"
       },
       {
-        "title": "SoraVision/sono2",
-        "url": "https://huggingface.co/SoraVision/sono2"
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1709,7 +1721,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1768,6 +1780,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 417
+    "total_papers": 420
   }
 }
