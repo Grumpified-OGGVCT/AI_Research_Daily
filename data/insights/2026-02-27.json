@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-27T11:29:24.841141",
+  "date": "2026-02-27T12:44:07.002993",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,8 +727,12 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "peeyush01/urlbert_results",
-        "url": "https://huggingface.co/peeyush01/urlbert_results"
+        "title": "mohammad-en/chess-gpt2",
+        "url": "https://huggingface.co/mohammad-en/chess-gpt2"
+      },
+      {
+        "title": "rudrakpatra27/gpt2-ppo-safety-aligned",
+        "url": "https://huggingface.co/rudrakpatra27/gpt2-ppo-safety-aligned"
       }
     ],
     "vision_systems": [
@@ -1019,6 +1023,10 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
+      },
+      {
+        "title": "SSSYYYTTT/gr1_sdp_1gpus_11924_visual_new8tasks_35k_1e4_w20a70",
+        "url": "https://huggingface.co/SSSYYYTTT/gr1_sdp_1gpus_11924_visual_new8tasks_35k_1e4_w20a70"
       }
     ],
     "reasoning": [
@@ -1701,13 +1709,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1760,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 417
   }
 }
