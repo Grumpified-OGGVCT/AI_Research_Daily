@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T06:31:25.935520",
+  "date": "2026-02-28T07:23:48.142003",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,44 +727,24 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "JamesAndre/ppo-gpt2medium-lora",
-        "url": "https://huggingface.co/JamesAndre/ppo-gpt2medium-lora"
+        "title": "ppak10/gpt-oss-20b-jam",
+        "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
       },
       {
-        "title": "jahyungu/deepseek-llm-7b-chat-Qasper",
-        "url": "https://huggingface.co/jahyungu/deepseek-llm-7b-chat-Qasper"
+        "title": "rickdev0000/qwen3-4b-structured-output-lora-llm-jp-param",
+        "url": "https://huggingface.co/rickdev0000/qwen3-4b-structured-output-lora-llm-jp-param"
       },
       {
-        "title": "Bourne17/gpt2-dpo-qlora",
-        "url": "https://huggingface.co/Bourne17/gpt2-dpo-qlora"
+        "title": "Trixin1829/gpt2-ppo-full-safety",
+        "url": "https://huggingface.co/Trixin1829/gpt2-ppo-full-safety"
       },
       {
-        "title": "hikahika/llm_advanced_exp07",
-        "url": "https://huggingface.co/hikahika/llm_advanced_exp07"
+        "title": "carnival13/ppo-gpt2-medium-full",
+        "url": "https://huggingface.co/carnival13/ppo-gpt2-medium-full"
       },
       {
-        "title": "yoro19/llm-lora-repo13",
-        "url": "https://huggingface.co/yoro19/llm-lora-repo13"
-      },
-      {
-        "title": "Sandeep0079/gpt2-medium-dpo-full",
-        "url": "https://huggingface.co/Sandeep0079/gpt2-medium-dpo-full"
-      },
-      {
-        "title": "cringeyburger/bert-reward-model-cultural-kaleidoscope",
-        "url": "https://huggingface.co/cringeyburger/bert-reward-model-cultural-kaleidoscope"
-      },
-      {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
-      },
-      {
-        "title": "Bourne17/gpt2-dpo-lora",
-        "url": "https://huggingface.co/Bourne17/gpt2-dpo-lora"
-      },
-      {
-        "title": "Bourne17/gpt2-dpo-prefix",
-        "url": "https://huggingface.co/Bourne17/gpt2-dpo-prefix"
+        "title": "yuuki14202028/gpt2-kanakanji",
+        "url": "https://huggingface.co/yuuki14202028/gpt2-kanakanji"
       }
     ],
     "vision_systems": [
@@ -1055,6 +1035,10 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1737,13 +1721,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1780,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 420
   }
 }
