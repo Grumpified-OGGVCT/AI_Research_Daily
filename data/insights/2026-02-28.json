@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T11:16:07.174568",
+  "date": "2026-02-28T12:33:51.381742",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,12 +727,24 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "Ryuzaki1618/ultimate_run_gpt2-ppo-full-params",
-        "url": "https://huggingface.co/Ryuzaki1618/ultimate_run_gpt2-ppo-full-params"
+        "title": "BalaRajesh1/mmbert-small-nli",
+        "url": "https://huggingface.co/BalaRajesh1/mmbert-small-nli"
       },
       {
-        "title": "mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF"
+        "title": "Das-nrhr/llm-advanced-2025-lora-data1-1_v6",
+        "url": "https://huggingface.co/Das-nrhr/llm-advanced-2025-lora-data1-1_v6"
+      },
+      {
+        "title": "ppak10/gpt-oss-20b-jam",
+        "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
+      },
+      {
+        "title": "follmon10/qwen3-4b-structured-output-lora_fol_6",
+        "url": "https://huggingface.co/follmon10/qwen3-4b-structured-output-lora_fol_6"
+      },
+      {
+        "title": "orlandoju/heller-gpt-qwen14b-lora",
+        "url": "https://huggingface.co/orlandoju/heller-gpt-qwen14b-lora"
       }
     ],
     "vision_systems": [
@@ -1705,7 +1717,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1764,6 +1776,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 419
   }
 }
