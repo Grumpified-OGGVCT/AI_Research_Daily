@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T19:18:32.472626",
+  "date": "2026-02-28T20:20:46.390887",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,8 +727,12 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "yauseu/LLM_final",
-        "url": "https://huggingface.co/yauseu/LLM_final"
+        "title": "ppak10/gpt-oss-20b-jam",
+        "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
+      },
+      {
+        "title": "GeorgeUwaifo/ivie_gpt2QA_txt_results",
+        "url": "https://huggingface.co/GeorgeUwaifo/ivie_gpt2QA_txt_results"
       }
     ],
     "vision_systems": [
@@ -1019,6 +1023,10 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1303,8 +1311,12 @@
         "url": "https://arxiv.org/abs/2602.23088v1"
       },
       {
-        "title": "melon1891/agentbench-qwen3-4b-2stage-reasoning-20260228-lr2e6",
-        "url": "https://huggingface.co/melon1891/agentbench-qwen3-4b-2stage-reasoning-20260228-lr2e6"
+        "title": "huec0der/nyx-stage1-logic",
+        "url": "https://huggingface.co/huec0der/nyx-stage1-logic"
+      },
+      {
+        "title": "nightmedia/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-qx64-hi-mlx",
+        "url": "https://huggingface.co/nightmedia/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-qx64-hi-mlx"
       }
     ],
     "benchmarks": [
@@ -1705,19 +1717,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1764,6 +1776,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 419
   }
 }
