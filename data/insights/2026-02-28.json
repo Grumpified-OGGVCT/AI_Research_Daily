@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T22:19:11.849380",
+  "date": "2026-02-28T23:17:57.509811",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,12 +727,12 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
-      },
-      {
         "title": "ppak10/gpt-oss-20b-jam",
         "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
+      },
+      {
+        "title": "yoro19/llm-lora-repo17",
+        "url": "https://huggingface.co/yoro19/llm-lora-repo17"
       }
     ],
     "vision_systems": [
@@ -1027,10 +1027,6 @@
       {
         "title": "nphSi/Z-Image-Lora",
         "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "LWWZH/Mini-Vision-V1",
-        "url": "https://huggingface.co/LWWZH/Mini-Vision-V1"
       }
     ],
     "reasoning": [
@@ -1313,6 +1309,10 @@
       {
         "title": "Cytoarchitecture in Words: Weakly Supervised Vision-Language Modeling for Human Brain Microscopy",
         "url": "https://arxiv.org/abs/2602.23088v1"
+      },
+      {
+        "title": "inferencerlabs/Qwen3.5-27B-MLX-4.5bit",
+        "url": "https://huggingface.co/inferencerlabs/Qwen3.5-27B-MLX-4.5bit"
       }
     ],
     "benchmarks": [
@@ -1719,13 +1719,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
