@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T20:20:46.390887",
+  "date": "2026-02-28T21:16:48.793426",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,12 +727,16 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "ppak10/gpt-oss-20b-jam",
-        "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
+        "title": "yauseu/LLM_final2",
+        "url": "https://huggingface.co/yauseu/LLM_final2"
       },
       {
-        "title": "GeorgeUwaifo/ivie_gpt2QA_txt_results",
-        "url": "https://huggingface.co/GeorgeUwaifo/ivie_gpt2QA_txt_results"
+        "title": "tmaoshima/llm2025competition",
+        "url": "https://huggingface.co/tmaoshima/llm2025competition"
+      },
+      {
+        "title": "takanaka/llm2025_7",
+        "url": "https://huggingface.co/takanaka/llm2025_7"
       }
     ],
     "vision_systems": [
@@ -1023,10 +1027,6 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1309,14 +1309,6 @@
       {
         "title": "Cytoarchitecture in Words: Weakly Supervised Vision-Language Modeling for Human Brain Microscopy",
         "url": "https://arxiv.org/abs/2602.23088v1"
-      },
-      {
-        "title": "huec0der/nyx-stage1-logic",
-        "url": "https://huggingface.co/huec0der/nyx-stage1-logic"
-      },
-      {
-        "title": "nightmedia/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-qx64-hi-mlx",
-        "url": "https://huggingface.co/nightmedia/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-qx64-hi-mlx"
       }
     ],
     "benchmarks": [
@@ -1717,19 +1709,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "72 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1764,7 +1756,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 37,
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1776,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 419
+    "total_papers": 417
   }
 }
