@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T17:16:58.931234",
+  "date": "2026-02-28T18:26:19.382514",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,8 +727,28 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
+        "title": "mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF"
+      },
+      {
         "title": "ppak10/gpt-oss-20b-jam",
         "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
+      },
+      {
+        "title": "GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0",
+        "url": "https://huggingface.co/GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0"
+      },
+      {
+        "title": "aicinema69/gpt2-growing",
+        "url": "https://huggingface.co/aicinema69/gpt2-growing"
+      },
+      {
+        "title": "nishnath209/gpt2-ppo-full_finetune",
+        "url": "https://huggingface.co/nishnath209/gpt2-ppo-full_finetune"
+      },
+      {
+        "title": "carnival13/ppo-gpt2-medium-full",
+        "url": "https://huggingface.co/carnival13/ppo-gpt2-medium-full"
       }
     ],
     "vision_systems": [
@@ -1021,12 +1041,8 @@
         "url": "https://arxiv.org/abs/2602.22920v1"
       },
       {
-        "title": "mingyi456/Ovis-Image-7B-DF11-ComfyUI",
-        "url": "https://huggingface.co/mingyi456/Ovis-Image-7B-DF11-ComfyUI"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0",
+        "url": "https://huggingface.co/GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0"
       }
     ],
     "reasoning": [
@@ -1309,6 +1325,10 @@
       {
         "title": "Cytoarchitecture in Words: Weakly Supervised Vision-Language Modeling for Human Brain Microscopy",
         "url": "https://arxiv.org/abs/2602.23088v1"
+      },
+      {
+        "title": "Shreyansh327/Qwen3-0.6B-Reasoning-Opus",
+        "url": "https://huggingface.co/Shreyansh327/Qwen3-0.6B-Reasoning-Opus"
       }
     ],
     "benchmarks": [
@@ -1709,19 +1729,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,7 +1776,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1768,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 417
+    "total_papers": 422
   }
 }
