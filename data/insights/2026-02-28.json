@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T18:26:19.382514",
+  "date": "2026-02-28T19:18:32.472626",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,28 +727,8 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF"
-      },
-      {
-        "title": "ppak10/gpt-oss-20b-jam",
-        "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
-      },
-      {
-        "title": "GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0",
-        "url": "https://huggingface.co/GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0"
-      },
-      {
-        "title": "aicinema69/gpt2-growing",
-        "url": "https://huggingface.co/aicinema69/gpt2-growing"
-      },
-      {
-        "title": "nishnath209/gpt2-ppo-full_finetune",
-        "url": "https://huggingface.co/nishnath209/gpt2-ppo-full_finetune"
-      },
-      {
-        "title": "carnival13/ppo-gpt2-medium-full",
-        "url": "https://huggingface.co/carnival13/ppo-gpt2-medium-full"
+        "title": "yauseu/LLM_final",
+        "url": "https://huggingface.co/yauseu/LLM_final"
       }
     ],
     "vision_systems": [
@@ -1039,10 +1019,6 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
-      },
-      {
-        "title": "GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0",
-        "url": "https://huggingface.co/GaborMadarasz/w2v-bert-2.0-hungarian-CV24.0"
       }
     ],
     "reasoning": [
@@ -1327,8 +1303,8 @@
         "url": "https://arxiv.org/abs/2602.23088v1"
       },
       {
-        "title": "Shreyansh327/Qwen3-0.6B-Reasoning-Opus",
-        "url": "https://huggingface.co/Shreyansh327/Qwen3-0.6B-Reasoning-Opus"
+        "title": "melon1891/agentbench-qwen3-4b-2stage-reasoning-20260228-lr2e6",
+        "url": "https://huggingface.co/melon1891/agentbench-qwen3-4b-2stage-reasoning-20260228-lr2e6"
       }
     ],
     "benchmarks": [
@@ -1729,13 +1705,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1788,6 +1764,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 416
   }
 }
