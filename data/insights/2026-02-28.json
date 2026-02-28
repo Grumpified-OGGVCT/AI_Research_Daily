@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T13:34:46.148493",
+  "date": "2026-02-28T14:18:37.096861",
   "patterns": {
     "multimodal_research": [
       {
@@ -725,22 +725,6 @@
       {
         "title": "Can Agents Distinguish Visually Hard-to-Separate Diseases in a Zero-Shot Setting? A Pilot Study",
         "url": "https://arxiv.org/abs/2602.22959v1"
-      },
-      {
-        "title": "BalaRajesh1/mmbert-small-nli",
-        "url": "https://huggingface.co/BalaRajesh1/mmbert-small-nli"
-      },
-      {
-        "title": "Jatin-2006/ppo-gpt2-fullft",
-        "url": "https://huggingface.co/Jatin-2006/ppo-gpt2-fullft"
-      },
-      {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
-      },
-      {
-        "title": "kkzkwtr/llm-agentbench-v2",
-        "url": "https://huggingface.co/kkzkwtr/llm-agentbench-v2"
       }
     ],
     "vision_systems": [
@@ -1031,6 +1015,46 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
+      },
+      {
+        "title": "Khanh6/my-test-vision-model-vx",
+        "url": "https://huggingface.co/Khanh6/my-test-vision-model-vx"
+      },
+      {
+        "title": "Dan02ni/my-test-vision-model-vx",
+        "url": "https://huggingface.co/Dan02ni/my-test-vision-model-vx"
+      },
+      {
+        "title": "alice6les/my-test-vision-model-vx",
+        "url": "https://huggingface.co/alice6les/my-test-vision-model-vx"
+      },
+      {
+        "title": "Duc77/my-test-vision-model-vx",
+        "url": "https://huggingface.co/Duc77/my-test-vision-model-vx"
+      },
+      {
+        "title": "Vduc01/my-test-vision-model-vx",
+        "url": "https://huggingface.co/Vduc01/my-test-vision-model-vx"
+      },
+      {
+        "title": "ThiHien3/my-test-vision-model-vx",
+        "url": "https://huggingface.co/ThiHien3/my-test-vision-model-vx"
+      },
+      {
+        "title": "Hien11li/my-test-vision-model-vx",
+        "url": "https://huggingface.co/Hien11li/my-test-vision-model-vx"
+      },
+      {
+        "title": "Hien03/my-test-vision-model-vx",
+        "url": "https://huggingface.co/Hien03/my-test-vision-model-vx"
+      },
+      {
+        "title": "Vduc4/my-test-vision-model-vx",
+        "url": "https://huggingface.co/Vduc4/my-test-vision-model-vx"
+      },
+      {
+        "title": "HoDuc3/my-test-vision-model-vx",
+        "url": "https://huggingface.co/HoDuc3/my-test-vision-model-vx"
       }
     ],
     "reasoning": [
@@ -1713,13 +1737,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1754,6 +1778,11 @@
       "significance": "high"
     },
     {
+      "topic": "vision",
+      "frequency": 41,
+      "significance": "high"
+    },
+    {
       "topic": "generation",
       "frequency": 40,
       "significance": "high"
@@ -1762,16 +1791,11 @@
       "topic": "reasoning",
       "frequency": 36,
       "significance": "high"
-    },
-    {
-      "topic": "architecture",
-      "frequency": 33,
-      "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 418
+    "total_papers": 424
   }
 }
