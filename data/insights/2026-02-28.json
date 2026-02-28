@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T08:23:07.250150",
+  "date": "2026-02-28T09:22:06.885743",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,8 +727,28 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "sohammandal01/gpt2-aligned-ppo-full-assignment",
-        "url": "https://huggingface.co/sohammandal01/gpt2-aligned-ppo-full-assignment"
+        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
+        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
+      },
+      {
+        "title": "JamesAndre/dpo-gpt2medium-qlora",
+        "url": "https://huggingface.co/JamesAndre/dpo-gpt2medium-qlora"
+      },
+      {
+        "title": "takanaka/llm2025_2",
+        "url": "https://huggingface.co/takanaka/llm2025_2"
+      },
+      {
+        "title": "ppak10/gpt-oss-20b-jam",
+        "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
+      },
+      {
+        "title": "lyitong-aka-takito/llm-application-competition",
+        "url": "https://huggingface.co/lyitong-aka-takito/llm-application-competition"
+      },
+      {
+        "title": "Trixin1829/gpt2-dpo-full-safety",
+        "url": "https://huggingface.co/Trixin1829/gpt2-dpo-full-safety"
       }
     ],
     "vision_systems": [
@@ -1019,10 +1039,6 @@
       {
         "title": "OSDaR-AR: Enhancing Railway Perception Datasets via Multi-modal Augmented Reality",
         "url": "https://arxiv.org/abs/2602.22920v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1705,13 +1721,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1764,6 +1780,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 420
   }
 }
