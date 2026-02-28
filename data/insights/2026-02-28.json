@@ -1,5 +1,5 @@
 {
-  "date": "2026-02-28T10:19:15.025994",
+  "date": "2026-02-28T11:16:07.174568",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,28 +727,12 @@
         "url": "https://arxiv.org/abs/2602.22959v1"
       },
       {
-        "title": "ppak10/gpt-oss-20b-jam",
-        "url": "https://huggingface.co/ppak10/gpt-oss-20b-jam"
+        "title": "Ryuzaki1618/ultimate_run_gpt2-ppo-full-params",
+        "url": "https://huggingface.co/Ryuzaki1618/ultimate_run_gpt2-ppo-full-params"
       },
       {
-        "title": "ryo-llm/qwen3-4b-agent-trajectory-lora-202602281846",
-        "url": "https://huggingface.co/ryo-llm/qwen3-4b-agent-trajectory-lora-202602281846"
-      },
-      {
-        "title": "gss1147/gpt2-medium-finetuned",
-        "url": "https://huggingface.co/gss1147/gpt2-medium-finetuned"
-      },
-      {
-        "title": "ryo-llm/qwen3-4b-agent-trajectory-lora-202602281848",
-        "url": "https://huggingface.co/ryo-llm/qwen3-4b-agent-trajectory-lora-202602281848"
-      },
-      {
-        "title": "ryo-llm/qwen3-4b-agent-trajectory-lora-202602281847",
-        "url": "https://huggingface.co/ryo-llm/qwen3-4b-agent-trajectory-lora-202602281847"
-      },
-      {
-        "title": "follmon10/qwen3-4b-structured-output-lora_fol_5",
-        "url": "https://huggingface.co/follmon10/qwen3-4b-structured-output-lora_fol_5"
+        "title": "mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/gpt4o-distil-paperwitch-abliteration-L33-70b-i1-GGUF"
       }
     ],
     "vision_systems": [
@@ -1721,7 +1705,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1780,6 +1764,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 420
+    "total_papers": 416
   }
 }
