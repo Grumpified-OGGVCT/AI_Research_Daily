@@ -1,22 +1,37 @@
 {
-  "date": "2026-03-01T05:48:41.927473",
+  "date": "2026-03-01T06:39:55.753742",
   "patterns": {
     "language_models": [
       {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
+        "title": "rokugatsu/LLM2025_Advanced_7",
+        "url": "https://huggingface.co/rokugatsu/LLM2025_Advanced_7"
       },
       {
-        "title": "tk256ailab/matsuo-llm-2025-advanced-v17",
-        "url": "https://huggingface.co/tk256ailab/matsuo-llm-2025-advanced-v17"
+        "title": "ryo-llm/qwen3-4b-agent-trajectory-lora-202603011508",
+        "url": "https://huggingface.co/ryo-llm/qwen3-4b-agent-trajectory-lora-202603011508"
+      },
+      {
+        "title": "ryo-llm/qwen3-4b-agent-trajectory-lora-202603011509",
+        "url": "https://huggingface.co/ryo-llm/qwen3-4b-agent-trajectory-lora-202603011509"
+      },
+      {
+        "title": "sjgdr/gpt-oss-120b-mlx-5Bit",
+        "url": "https://huggingface.co/sjgdr/gpt-oss-120b-mlx-5Bit"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
