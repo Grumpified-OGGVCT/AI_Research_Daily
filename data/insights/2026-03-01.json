@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-01T04:19:07.893551",
-  "patterns": {},
+  "date": "2026-03-01T05:48:41.927473",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "FarmerlineML/w2v-bert-2.0_2026_krio",
+        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio"
+      },
+      {
+        "title": "tk256ailab/matsuo-llm-2025-advanced-v17",
+        "url": "https://huggingface.co/tk256ailab/matsuo-llm-2025-advanced-v17"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
