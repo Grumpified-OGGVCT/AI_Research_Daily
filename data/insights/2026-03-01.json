@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-01T13:37:12.217219",
-  "patterns": {},
+  "date": "2026-03-01T14:20:39.225510",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "tk256ailab/matsuo-llm-2025-advanced-v20",
+        "url": "https://huggingface.co/tk256ailab/matsuo-llm-2025-advanced-v20"
+      },
+      {
+        "title": "muchad/mdeberta-router-id-v2",
+        "url": "https://huggingface.co/muchad/mdeberta-router-id-v2"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
