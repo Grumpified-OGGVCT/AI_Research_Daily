@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-01T20:21:12.251693",
-  "patterns": {},
+  "date": "2026-03-01T21:18:42.158967",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "montana888/gpt-oss-20b-options-expert",
+        "url": "https://huggingface.co/montana888/gpt-oss-20b-options-expert"
+      },
+      {
+        "title": "tk256ailab/matsuo-llm-2025-advanced-v23",
+        "url": "https://huggingface.co/tk256ailab/matsuo-llm-2025-advanced-v23"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
