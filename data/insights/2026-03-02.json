@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-02T19:34:52.563519",
+  "date": "2026-03-02T20:31:47.193535",
   "patterns": {
     "language_models": [
       {
@@ -7,27 +7,16 @@
         "url": "https://huggingface.co/sds-dubois/nanorl-tictactoe-rl-smollm3b"
       },
       {
-        "title": "marcuscedricridia/distilroberta-fast",
-        "url": "https://huggingface.co/marcuscedricridia/distilroberta-fast"
-      },
-      {
-        "title": "Sabomako/gpt-oss-120b-heretic-GGUF",
-        "url": "https://huggingface.co/Sabomako/gpt-oss-120b-heretic-GGUF"
+        "title": "DavidUgCh/death-news_roberta_bs62",
+        "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs62"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
