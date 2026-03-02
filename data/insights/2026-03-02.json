@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-02T04:10:00.075954",
-  "patterns": {},
+  "date": "2026-03-02T05:49:13.726121",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Rafael187/SmolLM2-FT-MyDataset",
+        "url": "https://huggingface.co/Rafael187/SmolLM2-FT-MyDataset"
+      },
+      {
+        "title": "DavidUgCh/death-news_roberta_bs51",
+        "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs51"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
