@@ -1,33 +1,22 @@
 {
-  "date": "2026-03-02T16:38:48.610518",
+  "date": "2026-03-02T17:41:29.431097",
   "patterns": {
     "benchmarks": [
       {
-        "title": "SOTAagi2030/LatestModel-FinalCheckpoint",
-        "url": "https://huggingface.co/SOTAagi2030/LatestModel-FinalCheckpoint"
+        "title": "SOTAagi2030/AssistantModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/AssistantModel-Best"
       },
       {
-        "title": "SOTAagi2030/MultiLangModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/MultiLangModel-Best"
-      },
-      {
-        "title": "SOTAagi2030/MidTraining-Checkpoint",
-        "url": "https://huggingface.co/SOTAagi2030/MidTraining-Checkpoint"
+        "title": "SOTAagi2030/SafetyModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/SafetyModel-Best"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "benchmarks",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Benchmarks - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
