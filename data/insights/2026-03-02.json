@@ -1,11 +1,53 @@
 {
-  "date": "2026-03-02T06:51:12.848864",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-03-02T07:46:23.132500",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "MobiusGaian/disligpt_FT_new1",
+        "url": "https://huggingface.co/MobiusGaian/disligpt_FT_new1"
+      },
+      {
+        "title": "DavidUgCh/death-news_roberta_bs53",
+        "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs53"
+      },
+      {
+        "title": "MobiusGaian/disligpt_FT_adapter",
+        "url": "https://huggingface.co/MobiusGaian/disligpt_FT_adapter"
+      },
+      {
+        "title": "DavidUgCh/death-news_roberta_bs52",
+        "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs52"
+      }
+    ],
+    "reasoning": [
+      {
+        "title": "mrinaalarora/Nanbeige4-3B-Cold-Start-Reasoning-LoRA",
+        "url": "https://huggingface.co/mrinaalarora/Nanbeige4-3B-Cold-Start-Reasoning-LoRA"
+      },
+      {
+        "title": "inferencerlabs/Ring-2.5-1T-3.7bit",
+        "url": "https://huggingface.co/inferencerlabs/Ring-2.5-1T-3.7bit"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 2,
+    "total_inferences": 2,
+    "total_papers": 6
   }
 }
