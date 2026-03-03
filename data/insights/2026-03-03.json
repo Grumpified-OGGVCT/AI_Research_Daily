@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-03T09:37:26.922144",
+  "date": "2026-03-03T10:34:37.264259",
   "patterns": {
     "multimodal_research": [
       {
@@ -927,10 +927,6 @@
       {
         "title": "Neural Operator-Grounded Continuous Tensor Function Representation and Its Applications",
         "url": "https://arxiv.org/abs/2603.01812v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1635,10 +1631,6 @@
       {
         "title": "NextAds: Towards Next-generation Personalized Video Advertising",
         "url": "https://arxiv.org/abs/2603.02137v1"
-      },
-      {
-        "title": "SOTAagi2030/SafetyModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/SafetyModel-Best"
       }
     ]
   },
@@ -1675,7 +1667,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1693,7 +1685,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "101 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1728,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 405
   }
 }
