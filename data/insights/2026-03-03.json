@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-03T20:28:14.013761",
+  "date": "2026-03-03T21:30:30.064705",
   "patterns": {
     "multimodal_research": [
       {
@@ -641,6 +641,22 @@
       {
         "title": "Action-Guided Attention for Video Action Anticipation",
         "url": "https://arxiv.org/abs/2603.01743v1"
+      },
+      {
+        "title": "lotachi/hatebert-toxic-classifier",
+        "url": "https://huggingface.co/lotachi/hatebert-toxic-classifier"
+      },
+      {
+        "title": "sds-dubois/nanorl-tictactoe-rl-smollm3b",
+        "url": "https://huggingface.co/sds-dubois/nanorl-tictactoe-rl-smollm3b"
+      },
+      {
+        "title": "marcuscedricridia/distilroberta-fast-surgical",
+        "url": "https://huggingface.co/marcuscedricridia/distilroberta-fast-surgical"
+      },
+      {
+        "title": "Philseok/distilbert-base-uncased-lora-feedback-classification-merged",
+        "url": "https://huggingface.co/Philseok/distilbert-base-uncased-lora-feedback-classification-merged"
       }
     ],
     "vision_systems": [
@@ -929,8 +945,12 @@
         "url": "https://arxiv.org/abs/2603.01812v1"
       },
       {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "sniper818/Affine-h1-5CVZixpWtr3tStx5sJV3akze3yWpToRVUtU5C7M2Yyczazur",
+        "url": "https://huggingface.co/sniper818/Affine-h1-5CVZixpWtr3tStx5sJV3akze3yWpToRVUtU5C7M2Yyczazur"
+      },
+      {
+        "title": "mohamed9679/ai-image-detector-v1",
+        "url": "https://huggingface.co/mohamed9679/ai-image-detector-v1"
       }
     ],
     "reasoning": [
@@ -1635,6 +1655,10 @@
       {
         "title": "NextAds: Towards Next-generation Personalized Video Advertising",
         "url": "https://arxiv.org/abs/2603.02137v1"
+      },
+      {
+        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1665,13 +1689,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "72 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1689,7 +1713,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "100 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1724,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 412
   }
 }
