@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-03T18:41:06.607735",
+  "date": "2026-03-03T20:28:14.013761",
   "patterns": {
     "multimodal_research": [
       {
@@ -641,22 +641,6 @@
       {
         "title": "Action-Guided Attention for Video Action Anticipation",
         "url": "https://arxiv.org/abs/2603.01743v1"
-      },
-      {
-        "title": "isspek/bert-base-cased_ebola_llama_3_2e-5_16",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_llama_3_2e-5_16"
-      },
-      {
-        "title": "isspek/bert-base-cased_ebola_llama_2_2e-5_16",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_llama_2_2e-5_16"
-      },
-      {
-        "title": "isspek/bert-base-cased_ebola_llama_1_2e-5_16",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_llama_1_2e-5_16"
-      },
-      {
-        "title": "UVLabs/HyperLLM-4b",
-        "url": "https://huggingface.co/UVLabs/HyperLLM-4b"
       }
     ],
     "vision_systems": [
@@ -943,6 +927,10 @@
       {
         "title": "Neural Operator-Grounded Continuous Tensor Function Representation and Its Applications",
         "url": "https://arxiv.org/abs/2603.01812v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1677,13 +1665,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 406
   }
 }
