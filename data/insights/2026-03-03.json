@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-03T10:34:37.264259",
+  "date": "2026-03-03T11:29:13.691400",
   "patterns": {
     "multimodal_research": [
       {
@@ -641,6 +641,10 @@
       {
         "title": "Action-Guided Attention for Video Action Anticipation",
         "url": "https://arxiv.org/abs/2603.01743v1"
+      },
+      {
+        "title": "adelafue/incivility-lora-gpt-oss-20b-es",
+        "url": "https://huggingface.co/adelafue/incivility-lora-gpt-oss-20b-es"
       }
     ],
     "vision_systems": [
@@ -1661,7 +1665,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1693,7 +1697,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 63,
+      "frequency": 64,
       "significance": "high"
     },
     {
@@ -1720,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 406
   }
 }
