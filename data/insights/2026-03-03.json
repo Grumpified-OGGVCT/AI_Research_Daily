@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-03T22:23:47.102634",
+  "date": "2026-03-03T23:22:29.141725",
   "patterns": {
     "multimodal_research": [
       {
@@ -643,16 +643,8 @@
         "url": "https://arxiv.org/abs/2603.01743v1"
       },
       {
-        "title": "marcuscedricridia/distilroberta-fast",
-        "url": "https://huggingface.co/marcuscedricridia/distilroberta-fast"
-      },
-      {
         "title": "sds-dubois/nanorl-tictactoe-rl-smollm3b",
         "url": "https://huggingface.co/sds-dubois/nanorl-tictactoe-rl-smollm3b"
-      },
-      {
-        "title": "JayLi-LLM/qwen3.5-8b-abirate-english-quotes",
-        "url": "https://huggingface.co/JayLi-LLM/qwen3.5-8b-abirate-english-quotes"
       }
     ],
     "vision_systems": [
@@ -1643,10 +1635,6 @@
       {
         "title": "NextAds: Towards Next-generation Personalized Video Advertising",
         "url": "https://arxiv.org/abs/2603.02137v1"
-      },
-      {
-        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1677,7 +1665,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1701,7 +1689,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "101 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1736,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 406
   }
 }
