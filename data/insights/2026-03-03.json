@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-03T07:39:52.034252",
+  "date": "2026-03-03T08:34:38.769032",
   "patterns": {
     "multimodal_research": [
       {
@@ -643,16 +643,12 @@
         "url": "https://arxiv.org/abs/2603.01743v1"
       },
       {
+        "title": "hazrul07/GanuLLM-Mini-Test",
+        "url": "https://huggingface.co/hazrul07/GanuLLM-Mini-Test"
+      },
+      {
         "title": "sds-dubois/nanorl-tictactoe-rl-smollm3b",
         "url": "https://huggingface.co/sds-dubois/nanorl-tictactoe-rl-smollm3b"
-      },
-      {
-        "title": "DavidUgCh/death-news_roberta_bs67",
-        "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs67"
-      },
-      {
-        "title": "DavidUgCh/death-news_roberta_bs66",
-        "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs66"
       }
     ],
     "vision_systems": [
@@ -941,8 +937,8 @@
         "url": "https://arxiv.org/abs/2603.01812v1"
       },
       {
-        "title": "med2425/bge-CV-fit",
-        "url": "https://huggingface.co/med2425/bge-CV-fit"
+        "title": "LWWZH/Mini-Vision-V2",
+        "url": "https://huggingface.co/LWWZH/Mini-Vision-V2"
       }
     ],
     "reasoning": [
@@ -1677,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 408
   }
 }
