@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-03T05:45:41.321730",
+  "date": "2026-03-03T06:43:47.803977",
   "patterns": {
     "multimodal_research": [
       {
@@ -1233,6 +1233,30 @@
       {
         "title": "Action-Guided Attention for Video Action Anticipation",
         "url": "https://arxiv.org/abs/2603.01743v1"
+      },
+      {
+        "title": "Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+      },
+      {
+        "title": "Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled"
+      },
+      {
+        "title": "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+      },
+      {
+        "title": "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled"
+      },
+      {
+        "title": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+      },
+      {
+        "title": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1677,7 +1701,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1706,13 +1730,13 @@
       "significance": "high"
     },
     {
-      "topic": "generation",
+      "topic": "reasoning",
       "frequency": 40,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 34,
+      "topic": "generation",
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1724,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 412
   }
 }
