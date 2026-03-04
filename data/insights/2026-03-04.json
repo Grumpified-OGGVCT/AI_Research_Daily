@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-04T22:26:33.719162",
+  "date": "2026-03-04T23:26:21.065336",
   "patterns": {
     "multimodal_research": [
       {
@@ -711,20 +711,16 @@
         "url": "https://arxiv.org/abs/2603.03239v1"
       },
       {
+        "title": "eekay/gpt-hack",
+        "url": "https://huggingface.co/eekay/gpt-hack"
+      },
+      {
         "title": "FarmerlineML/w2v-bert-2.0_2026_telephony_krio",
         "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_telephony_krio"
       },
       {
-        "title": "Ailee52/PatentSBERTa_finetuned_green_advanced",
-        "url": "https://huggingface.co/Ailee52/PatentSBERTa_finetuned_green_advanced"
-      },
-      {
-        "title": "divakar-yadav/transformer-1b-chat",
-        "url": "https://huggingface.co/divakar-yadav/transformer-1b-chat"
-      },
-      {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_krio_cleaner",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio_cleaner"
+        "title": "alinashrestha/patentsbert-m4-final",
+        "url": "https://huggingface.co/alinashrestha/patentsbert-m4-final"
       }
     ],
     "vision_systems": [
@@ -1001,8 +997,8 @@
         "url": "https://arxiv.org/abs/2603.02985v1"
       },
       {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "Abhisek987/phi35-vision-pdf-markdown",
+        "url": "https://huggingface.co/Abhisek987/phi35-vision-pdf-markdown"
       }
     ],
     "reasoning": [
@@ -1249,6 +1245,22 @@
       {
         "title": "Kling-MotionControl Technical Report",
         "url": "https://arxiv.org/abs/2603.03160v1"
+      },
+      {
+        "title": "Jackrong/MLX-Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-MLX-bf16",
+        "url": "https://huggingface.co/Jackrong/MLX-Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-MLX-bf16"
+      },
+      {
+        "title": "Jackrong/MLX-Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-MLX-8bit",
+        "url": "https://huggingface.co/Jackrong/MLX-Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-MLX-8bit"
+      },
+      {
+        "title": "Jackrong/MLX-Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-MLX-6bit",
+        "url": "https://huggingface.co/Jackrong/MLX-Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-MLX-6bit"
+      },
+      {
+        "title": "Jackrong/MLX-Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-MLX-4bit",
+        "url": "https://huggingface.co/Jackrong/MLX-Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-MLX-4bit"
       }
     ],
     "benchmarks": [
@@ -1627,6 +1639,10 @@
       {
         "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
         "url": "https://arxiv.org/abs/2603.02985v1"
+      },
+      {
+        "title": "SOTAagi2030/LatestModel-FinalCheckpoint",
+        "url": "https://huggingface.co/SOTAagi2030/LatestModel-FinalCheckpoint"
       }
     ]
   },
@@ -1657,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1669,7 +1685,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "61 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1681,7 +1697,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1703,19 +1719,19 @@
       "significance": "high"
     },
     {
-      "topic": "alignment",
-      "frequency": 34,
+      "topic": "reasoning",
+      "frequency": 37,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 33,
+      "topic": "alignment",
+      "frequency": 34,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 408
   }
 }
