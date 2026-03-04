@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-04T13:55:23.688619",
+  "date": "2026-03-04T14:36:25.217764",
   "patterns": {
     "multimodal_research": [
       {
@@ -709,10 +709,6 @@
       {
         "title": "COP-GEN: Latent Diffusion Transformer for Copernicus Earth Observation Data -- Generation Stochastic by Design",
         "url": "https://arxiv.org/abs/2603.03239v1"
-      },
-      {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_telephony_krio",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_telephony_krio"
       }
     ],
     "vision_systems": [
@@ -1641,7 +1637,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1700,6 +1696,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 400
+    "total_papers": 399
   }
 }
