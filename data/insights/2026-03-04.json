@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-04T09:36:13.917302",
+  "date": "2026-03-04T10:32:00.989054",
   "patterns": {
     "multimodal_research": [
       {
@@ -709,22 +709,6 @@
       {
         "title": "COP-GEN: Latent Diffusion Transformer for Copernicus Earth Observation Data -- Generation Stochastic by Design",
         "url": "https://arxiv.org/abs/2603.03239v1"
-      },
-      {
-        "title": "sds-dubois/nanorl-tictactoe-rl-smollm3b",
-        "url": "https://huggingface.co/sds-dubois/nanorl-tictactoe-rl-smollm3b"
-      },
-      {
-        "title": "isspek/bert-base-cased_ebola_gpt4o_5_2e-5_16",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_gpt4o_5_2e-5_16"
-      },
-      {
-        "title": "isspek/bert-base-cased_ebola_gpt4o_4_2e-5_16",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_gpt4o_4_2e-5_16"
-      },
-      {
-        "title": "isspek/bert-base-cased_ebola_gpt4o_3_2e-5_16",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_gpt4o_3_2e-5_16"
       }
     ],
     "vision_systems": [
@@ -999,6 +983,10 @@
       {
         "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
         "url": "https://arxiv.org/abs/2603.02985v1"
+      },
+      {
+        "title": "durgarrr/sofi_zimage_turbo",
+        "url": "https://huggingface.co/durgarrr/sofi_zimage_turbo"
       }
     ],
     "reasoning": [
@@ -1623,6 +1611,14 @@
       {
         "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
         "url": "https://arxiv.org/abs/2603.02985v1"
+      },
+      {
+        "title": "SOTAagi2030/SuperModel-BestCheckpoint",
+        "url": "https://huggingface.co/SOTAagi2030/SuperModel-BestCheckpoint"
+      },
+      {
+        "title": "SOTAagi2030/SafetyModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/SafetyModel-Best"
       }
     ]
   },
@@ -1653,13 +1649,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1677,7 +1673,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "94 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1712,6 +1708,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 402
   }
 }
