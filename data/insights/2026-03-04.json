@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-04T19:35:48.129558",
+  "date": "2026-03-04T20:28:01.121278",
   "patterns": {
     "multimodal_research": [
       {
@@ -711,16 +711,12 @@
         "url": "https://arxiv.org/abs/2603.03239v1"
       },
       {
-        "title": "carlosdiazbarea/clasificador-emotion-bert",
-        "url": "https://huggingface.co/carlosdiazbarea/clasificador-emotion-bert"
-      },
-      {
         "title": "FarmerlineML/w2v-bert-2.0_2026_telephony_krio",
         "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_telephony_krio"
       },
       {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_krio_cleaner",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_krio_cleaner"
+        "title": "Tasmay-Tib/gpt2m-dpo-qlora",
+        "url": "https://huggingface.co/Tasmay-Tib/gpt2m-dpo-qlora"
       }
     ],
     "vision_systems": [
@@ -995,6 +991,10 @@
       {
         "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
         "url": "https://arxiv.org/abs/2603.02985v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1619,6 +1619,10 @@
       {
         "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
         "url": "https://arxiv.org/abs/2603.02985v1"
+      },
+      {
+        "title": "JohnGenetica/ane-sota-kan-v2",
+        "url": "https://huggingface.co/JohnGenetica/ane-sota-kan-v2"
       }
     ]
   },
@@ -1649,13 +1653,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1673,7 +1677,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1708,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 403
   }
 }
