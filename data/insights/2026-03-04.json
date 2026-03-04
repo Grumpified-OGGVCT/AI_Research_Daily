@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-04T06:40:45.533702",
+  "date": "2026-03-04T07:36:07.617502",
   "patterns": {
     "multimodal_research": [
       {
@@ -1611,18 +1611,6 @@
       {
         "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
         "url": "https://arxiv.org/abs/2603.02985v1"
-      },
-      {
-        "title": "SOTAagi2030/MultiLangModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/MultiLangModel-Best"
-      },
-      {
-        "title": "SOTAagi2030/AssistantModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/AssistantModel-Best"
-      },
-      {
-        "title": "SOTAagi2030/CodeGenModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/CodeGenModel-Best"
       }
     ]
   },
@@ -1677,7 +1665,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "97 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1712,6 +1700,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 400
   }
 }
