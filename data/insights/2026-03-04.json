@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-04T05:40:45.147282",
+  "date": "2026-03-04T06:40:45.533702",
   "patterns": {
     "multimodal_research": [
       {
@@ -713,10 +713,6 @@
       {
         "title": "sds-dubois/nanorl-tictactoe-rl-smollm3b",
         "url": "https://huggingface.co/sds-dubois/nanorl-tictactoe-rl-smollm3b"
-      },
-      {
-        "title": "Andycurrent/Mistral-Nemo-2407-12B-Thinking-Claude-Gemini-GPT5.2-Uncensored-HERETIC-GGUF",
-        "url": "https://huggingface.co/Andycurrent/Mistral-Nemo-2407-12B-Thinking-Claude-Gemini-GPT5.2-Uncensored-HERETIC-GGUF"
       }
     ],
     "vision_systems": [
@@ -1615,6 +1611,18 @@
       {
         "title": "The Dresden Dataset for 4D Reconstruction of Non-Rigid Abdominal Surgical Scenes",
         "url": "https://arxiv.org/abs/2603.02985v1"
+      },
+      {
+        "title": "SOTAagi2030/MultiLangModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/MultiLangModel-Best"
+      },
+      {
+        "title": "SOTAagi2030/AssistantModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/AssistantModel-Best"
+      },
+      {
+        "title": "SOTAagi2030/CodeGenModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/CodeGenModel-Best"
       }
     ]
   },
@@ -1645,7 +1653,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1669,7 +1677,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "94 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1704,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 401
+    "total_papers": 403
   }
 }
