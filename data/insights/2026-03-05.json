@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-05T22:26:48.600878",
+  "date": "2026-03-05T23:48:31.904492",
   "patterns": {
     "multimodal_research": [
       {
@@ -979,6 +979,10 @@
       {
         "title": "TextBoost: Boosting Scene Text Fidelity in Ultra-low Bitrate Image Compression",
         "url": "https://arxiv.org/abs/2603.04115v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1271,8 +1275,20 @@
         "url": "https://arxiv.org/abs/2603.03930v1"
       },
       {
-        "title": "SOTAagi2030/ReasoningModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/ReasoningModel-Best"
+        "title": "Jackrong/MLX-Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-bf16",
+        "url": "https://huggingface.co/Jackrong/MLX-Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-bf16"
+      },
+      {
+        "title": "Jackrong/MLX-Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-8bit",
+        "url": "https://huggingface.co/Jackrong/MLX-Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-8bit"
+      },
+      {
+        "title": "Jackrong/MLX-Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-6bit",
+        "url": "https://huggingface.co/Jackrong/MLX-Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-6bit"
+      },
+      {
+        "title": "Jackrong/MLX-Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-4bit",
+        "url": "https://huggingface.co/Jackrong/MLX-Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-4bit"
       }
     ],
     "benchmarks": [
@@ -1681,12 +1697,8 @@
         "url": "https://arxiv.org/abs/2603.04130v1"
       },
       {
-        "title": "SOTAagi2030/MyAwesomeModel-Release",
-        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-Release"
-      },
-      {
-        "title": "SOTAagi2030/ReasoningModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/ReasoningModel-Best"
+        "title": "SOTAagi2030/LatestModel-FinalCheckpoint",
+        "url": "https://huggingface.co/SOTAagi2030/LatestModel-FinalCheckpoint"
       }
     ]
   },
@@ -1723,13 +1735,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1741,7 +1753,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "103 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1768,14 +1780,14 @@
       "significance": "high"
     },
     {
-      "topic": "vision",
-      "frequency": 32,
+      "topic": "reasoning",
+      "frequency": 33,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 419
+    "total_papers": 422
   }
 }
