@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-05T07:39:55.718422",
+  "date": "2026-03-05T08:34:53.381385",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,16 +647,16 @@
         "url": "https://arxiv.org/abs/2603.03930v1"
       },
       {
-        "title": "bdanko/bert-tweeteval-distilbert",
-        "url": "https://huggingface.co/bdanko/bert-tweeteval-distilbert"
+        "title": "riyan001/cyberbullying-roberta",
+        "url": "https://huggingface.co/riyan001/cyberbullying-roberta"
       },
       {
-        "title": "tunglee7it/phobert-sentiment-vne-new",
-        "url": "https://huggingface.co/tunglee7it/phobert-sentiment-vne-new"
+        "title": "piotreknow02/GPT-OSS-Cybersecurity-20B-Merged-heretic",
+        "url": "https://huggingface.co/piotreknow02/GPT-OSS-Cybersecurity-20B-Merged-heretic"
       },
       {
-        "title": "RayyanAlam123/roberta-large-bias-detector",
-        "url": "https://huggingface.co/RayyanAlam123/roberta-large-bias-detector"
+        "title": "mskang1120/kobert_baseline",
+        "url": "https://huggingface.co/mskang1120/kobert_baseline"
       }
     ],
     "vision_systems": [
@@ -1687,10 +1687,6 @@
       {
         "title": "Mask-Guided Attention Regulation for Anatomically Consistent Counterfactual CXR Synthesis",
         "url": "https://arxiv.org/abs/2603.04130v1"
-      },
-      {
-        "title": "SOTAagi2030/AssistantModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/AssistantModel-Best"
       }
     ]
   },
@@ -1745,7 +1741,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "102 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1780,6 +1776,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 420
+    "total_papers": 419
   }
 }
