@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-05T09:38:41.427293",
+  "date": "2026-03-05T10:34:35.354795",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,6 +645,10 @@
       {
         "title": "N-gram Injection into Transformers for Dynamic Language Model Adaptation in Handwritten Text Recognition",
         "url": "https://arxiv.org/abs/2603.03930v1"
+      },
+      {
+        "title": "schlenker/gbert-parl-german-stance-detection",
+        "url": "https://huggingface.co/schlenker/gbert-parl-german-stance-detection"
       }
     ],
     "vision_systems": [
@@ -979,6 +983,10 @@
       {
         "title": "TextBoost: Boosting Scene Text Fidelity in Ultra-low Bitrate Image Compression",
         "url": "https://arxiv.org/abs/2603.04115v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1269,10 +1277,6 @@
       {
         "title": "N-gram Injection into Transformers for Dynamic Language Model Adaptation in Handwritten Text Recognition",
         "url": "https://arxiv.org/abs/2603.03930v1"
-      },
-      {
-        "title": "Agnivarcas/Nanbeige4.1-3B-reasoning-finetuned",
-        "url": "https://huggingface.co/Agnivarcas/Nanbeige4.1-3B-reasoning-finetuned"
       }
     ],
     "benchmarks": [
@@ -1709,19 +1713,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1768,6 +1772,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 417
+    "total_papers": 418
   }
 }
