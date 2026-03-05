@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-05T19:16:54.683222",
+  "date": "2026-03-05T20:33:28.884390",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,20 +647,12 @@
         "url": "https://arxiv.org/abs/2603.03930v1"
       },
       {
-        "title": "dumtjul/EuroLLM-22B-Instruct-2512-mlx-mxfp4",
-        "url": "https://huggingface.co/dumtjul/EuroLLM-22B-Instruct-2512-mlx-mxfp4"
+        "title": "kmg42/smollm2-360m-rnd-e16-ema",
+        "url": "https://huggingface.co/kmg42/smollm2-360m-rnd-e16-ema"
       },
       {
-        "title": "LouLou1Demon/GPT2-130M-FineWeb-Edu",
-        "url": "https://huggingface.co/LouLou1Demon/GPT2-130M-FineWeb-Edu"
-      },
-      {
-        "title": "mradermacher/turkish-llm-14b-instruct-GGUF",
-        "url": "https://huggingface.co/mradermacher/turkish-llm-14b-instruct-GGUF"
-      },
-      {
-        "title": "isspek/bert-base-cased_zika_llama_5_2e-5_16",
-        "url": "https://huggingface.co/isspek/bert-base-cased_zika_llama_5_2e-5_16"
+        "title": "kmg42/smollm2-360m-rnd-e2-ema",
+        "url": "https://huggingface.co/kmg42/smollm2-360m-rnd-e2-ema"
       }
     ],
     "vision_systems": [
@@ -1691,10 +1683,6 @@
       {
         "title": "Mask-Guided Attention Regulation for Anatomically Consistent Counterfactual CXR Synthesis",
         "url": "https://arxiv.org/abs/2603.04130v1"
-      },
-      {
-        "title": "SOTAagi2030/LatestModel-FinalCheckpoint",
-        "url": "https://huggingface.co/SOTAagi2030/LatestModel-FinalCheckpoint"
       }
     ]
   },
@@ -1725,7 +1713,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "89 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1749,7 +1737,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "102 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1784,6 +1772,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 421
+    "total_papers": 418
   }
 }
