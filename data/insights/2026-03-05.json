@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-05T17:59:18.661046",
+  "date": "2026-03-05T19:16:54.683222",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,8 +647,20 @@
         "url": "https://arxiv.org/abs/2603.03930v1"
       },
       {
+        "title": "dumtjul/EuroLLM-22B-Instruct-2512-mlx-mxfp4",
+        "url": "https://huggingface.co/dumtjul/EuroLLM-22B-Instruct-2512-mlx-mxfp4"
+      },
+      {
+        "title": "LouLou1Demon/GPT2-130M-FineWeb-Edu",
+        "url": "https://huggingface.co/LouLou1Demon/GPT2-130M-FineWeb-Edu"
+      },
+      {
         "title": "mradermacher/turkish-llm-14b-instruct-GGUF",
         "url": "https://huggingface.co/mradermacher/turkish-llm-14b-instruct-GGUF"
+      },
+      {
+        "title": "isspek/bert-base-cased_zika_llama_5_2e-5_16",
+        "url": "https://huggingface.co/isspek/bert-base-cased_zika_llama_5_2e-5_16"
       }
     ],
     "vision_systems": [
@@ -983,10 +995,6 @@
       {
         "title": "TextBoost: Boosting Scene Text Fidelity in Ultra-low Bitrate Image Compression",
         "url": "https://arxiv.org/abs/2603.04115v1"
-      },
-      {
-        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-DisorderedSpeech-f7",
-        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-DisorderedSpeech-f7"
       }
     ],
     "reasoning": [
@@ -1683,6 +1691,10 @@
       {
         "title": "Mask-Guided Attention Regulation for Anatomically Consistent Counterfactual CXR Synthesis",
         "url": "https://arxiv.org/abs/2603.04130v1"
+      },
+      {
+        "title": "SOTAagi2030/LatestModel-FinalCheckpoint",
+        "url": "https://huggingface.co/SOTAagi2030/LatestModel-FinalCheckpoint"
       }
     ]
   },
@@ -1713,13 +1725,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1737,7 +1749,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "101 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1772,6 +1784,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 418
+    "total_papers": 421
   }
 }
