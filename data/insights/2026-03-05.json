@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-05T04:08:44.605893",
+  "date": "2026-03-05T05:44:36.475418",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,10 +645,6 @@
       {
         "title": "N-gram Injection into Transformers for Dynamic Language Model Adaptation in Handwritten Text Recognition",
         "url": "https://arxiv.org/abs/2603.03930v1"
-      },
-      {
-        "title": "Spatial9/GravityLLM",
-        "url": "https://huggingface.co/Spatial9/GravityLLM"
       }
     ],
     "vision_systems": [
@@ -983,66 +979,6 @@
       {
         "title": "TextBoost: Boosting Scene Text Fidelity in Ultra-low Bitrate Image Compression",
         "url": "https://arxiv.org/abs/2603.04115v1"
-      },
-      {
-        "title": "pcvlab/vit_normal_vs_rd",
-        "url": "https://huggingface.co/pcvlab/vit_normal_vs_rd"
-      },
-      {
-        "title": "pcvlab/unetplusplus_normal_vs_rd",
-        "url": "https://huggingface.co/pcvlab/unetplusplus_normal_vs_rd"
-      },
-      {
-        "title": "pcvlab/vnet_normal_vs_rd",
-        "url": "https://huggingface.co/pcvlab/vnet_normal_vs_rd"
-      },
-      {
-        "title": "pcvlab/resnet3d_normal_vs_rd",
-        "url": "https://huggingface.co/pcvlab/resnet3d_normal_vs_rd"
-      },
-      {
-        "title": "pcvlab/unetr_normal_vs_rd",
-        "url": "https://huggingface.co/pcvlab/unetr_normal_vs_rd"
-      },
-      {
-        "title": "pcvlab/unet3d_normal_vs_pvd_selective_pooling_70",
-        "url": "https://huggingface.co/pcvlab/unet3d_normal_vs_pvd_selective_pooling_70"
-      },
-      {
-        "title": "pcvlab/unetplusplus_normal_vs_pvd_selective_pooling_70",
-        "url": "https://huggingface.co/pcvlab/unetplusplus_normal_vs_pvd_selective_pooling_70"
-      },
-      {
-        "title": "pcvlab/vnet_normal_vs_pvd_selective_pooling_70",
-        "url": "https://huggingface.co/pcvlab/vnet_normal_vs_pvd_selective_pooling_70"
-      },
-      {
-        "title": "pcvlab/resnet3d_normal_vs_pvd_selective_pooling_70",
-        "url": "https://huggingface.co/pcvlab/resnet3d_normal_vs_pvd_selective_pooling_70"
-      },
-      {
-        "title": "pcvlab/unetr_normal_vs_pvd_selective_pooling_70",
-        "url": "https://huggingface.co/pcvlab/unetr_normal_vs_pvd_selective_pooling_70"
-      },
-      {
-        "title": "pcvlab/swinunetr_normal_vs_pvd_selective_pooling_50",
-        "url": "https://huggingface.co/pcvlab/swinunetr_normal_vs_pvd_selective_pooling_50"
-      },
-      {
-        "title": "pcvlab/unet3d_normal_vs_pvd_selective_pooling_50",
-        "url": "https://huggingface.co/pcvlab/unet3d_normal_vs_pvd_selective_pooling_50"
-      },
-      {
-        "title": "pcvlab/senet_normal_vs_pvd_selective_pooling_50",
-        "url": "https://huggingface.co/pcvlab/senet_normal_vs_pvd_selective_pooling_50"
-      },
-      {
-        "title": "pcvlab/unetplusplus_normal_vs_pvd_selective_pooling_50",
-        "url": "https://huggingface.co/pcvlab/unetplusplus_normal_vs_pvd_selective_pooling_50"
-      },
-      {
-        "title": "pcvlab/vnet_normal_vs_pvd_selective_pooling_50",
-        "url": "https://huggingface.co/pcvlab/vnet_normal_vs_pvd_selective_pooling_50"
       }
     ],
     "reasoning": [
@@ -1739,6 +1675,10 @@
       {
         "title": "Mask-Guided Attention Regulation for Anatomically Consistent Counterfactual CXR Synthesis",
         "url": "https://arxiv.org/abs/2603.04130v1"
+      },
+      {
+        "title": "SOTAagi2030/MidTraining-Checkpoint",
+        "url": "https://huggingface.co/SOTAagi2030/MidTraining-Checkpoint"
       }
     ]
   },
@@ -1769,13 +1709,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "98 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1793,7 +1733,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "101 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1828,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 432
+    "total_papers": 417
   }
 }
