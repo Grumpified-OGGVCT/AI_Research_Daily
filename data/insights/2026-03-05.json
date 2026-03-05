@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-05T12:46:05.788322",
+  "date": "2026-03-05T13:59:49.084089",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,16 +639,16 @@
         "url": "https://arxiv.org/abs/2603.03985v1"
       },
       {
+        "title": "Chamaka8/SerendipLLM-news-classifier",
+        "url": "https://huggingface.co/Chamaka8/SerendipLLM-news-classifier"
+      },
+      {
         "title": "Architecture and evaluation protocol for transformer-based visual object tracking in UAV applications",
         "url": "https://arxiv.org/abs/2603.03904v1"
       },
       {
         "title": "N-gram Injection into Transformers for Dynamic Language Model Adaptation in Handwritten Text Recognition",
         "url": "https://arxiv.org/abs/2603.03930v1"
-      },
-      {
-        "title": "selmantayyar/financial-llm-advisor",
-        "url": "https://huggingface.co/selmantayyar/financial-llm-advisor"
       }
     ],
     "vision_systems": [
@@ -667,6 +667,10 @@
       {
         "title": "CubeComposer: Spatio-Temporal Autoregressive 4K 360\u00b0 Video Generation from Perspective Video",
         "url": "https://arxiv.org/abs/2603.04291v1"
+      },
+      {
+        "title": "huggingface/documentation-images",
+        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "ZipMap: Linear-Time Stateful 3D Reconstruction with Test-Time Training",
@@ -1273,10 +1277,6 @@
       {
         "title": "N-gram Injection into Transformers for Dynamic Language Model Adaptation in Handwritten Text Recognition",
         "url": "https://arxiv.org/abs/2603.03930v1"
-      },
-      {
-        "title": "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-        "url": "https://huggingface.co/Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
       }
     ],
     "benchmarks": [
@@ -1683,6 +1683,10 @@
       {
         "title": "Mask-Guided Attention Regulation for Anatomically Consistent Counterfactual CXR Synthesis",
         "url": "https://arxiv.org/abs/2603.04130v1"
+      },
+      {
+        "title": "SOTAagi2030/MultiLangModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/MultiLangModel-Best"
       }
     ]
   },
@@ -1719,13 +1723,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1737,7 +1741,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "101 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1772,6 +1776,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 418
+    "total_papers": 419
   }
 }
