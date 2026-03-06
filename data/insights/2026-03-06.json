@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T16:34:25.917294",
+  "date": "2026-03-06T17:31:38.034330",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,12 +635,12 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
-        "title": "PabloSnackbar/chess-transformer",
-        "url": "https://huggingface.co/PabloSnackbar/chess-transformer"
+        "title": "YazoPi/snac-llm-full",
+        "url": "https://huggingface.co/YazoPi/snac-llm-full"
       },
       {
-        "title": "LouLou1Demon/GPT2-130M-FineWeb-Edu",
-        "url": "https://huggingface.co/LouLou1Demon/GPT2-130M-FineWeb-Edu"
+        "title": "chrissoria/catllm-json-formatter",
+        "url": "https://huggingface.co/chrissoria/catllm-json-formatter"
       }
     ],
     "vision_systems": [
@@ -923,14 +923,6 @@
       {
         "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
         "url": "https://arxiv.org/abs/2603.04980v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "jamesburton/Phi-4-reasoning-vision-15B-GGUF",
-        "url": "https://huggingface.co/jamesburton/Phi-4-reasoning-vision-15B-GGUF"
       }
     ],
     "reasoning": [
@@ -1213,10 +1205,6 @@
       {
         "title": "Video-based Locomotion Analysis for Fish Health Monitoring",
         "url": "https://arxiv.org/abs/2603.05407v1"
-      },
-      {
-        "title": "jamesburton/Phi-4-reasoning-vision-15B-GGUF",
-        "url": "https://huggingface.co/jamesburton/Phi-4-reasoning-vision-15B-GGUF"
       }
     ],
     "benchmarks": [
@@ -1627,13 +1615,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1663,12 +1651,12 @@
     },
     {
       "topic": "vision",
-      "frequency": 38,
+      "frequency": 37,
       "significance": "high"
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 35,
       "significance": "high"
     },
     {
@@ -1680,6 +1668,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 395
+    "total_papers": 392
   }
 }
