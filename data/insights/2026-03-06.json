@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T14:34:24.565538",
+  "date": "2026-03-06T15:33:14.046870",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,12 +635,20 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
-        "title": "llmfan46/gpt-oss-120b-ultra-heretic-GGUF",
-        "url": "https://huggingface.co/llmfan46/gpt-oss-120b-ultra-heretic-GGUF"
+        "title": "chibuzor9/agri-roberta",
+        "url": "https://huggingface.co/chibuzor9/agri-roberta"
       },
       {
-        "title": "yuyanghu06/yuyangGPTLoRA",
-        "url": "https://huggingface.co/yuyanghu06/yuyangGPTLoRA"
+        "title": "llmfan46/gpt-oss-120b-heretic-v2-GGUF",
+        "url": "https://huggingface.co/llmfan46/gpt-oss-120b-heretic-v2-GGUF"
+      },
+      {
+        "title": "Kelvinmbewe/ZambiaLLM",
+        "url": "https://huggingface.co/Kelvinmbewe/ZambiaLLM"
+      },
+      {
+        "title": "mohammad-en/chess-engine-transformer",
+        "url": "https://huggingface.co/mohammad-en/chess-engine-transformer"
       }
     ],
     "vision_systems": [
@@ -679,10 +687,6 @@
       {
         "title": "Towards a data-scale independent regulariser for robust sparse identification of non-linear dynamics",
         "url": "https://arxiv.org/abs/2603.05201v1"
-      },
-      {
-        "title": "huggingface/documentation-images",
-        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "Mario: Multimodal Graph Reasoning with Large Language Models",
@@ -929,8 +933,8 @@
         "url": "https://arxiv.org/abs/2603.04980v1"
       },
       {
-        "title": "toolevalxm/MedVision-RadNet-Clinical",
-        "url": "https://huggingface.co/toolevalxm/MedVision-RadNet-Clinical"
+        "title": "Alelcv27/Llama3-8B-Breadcrumbs-IST-Code",
+        "url": "https://huggingface.co/Alelcv27/Llama3-8B-Breadcrumbs-IST-Code"
       }
     ],
     "reasoning": [
@@ -1617,13 +1621,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1659,7 +1663,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 38,
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1676,6 +1680,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 394
+    "total_papers": 395
   }
 }
