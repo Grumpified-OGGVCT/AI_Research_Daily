@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T15:33:14.046870",
+  "date": "2026-03-06T16:34:25.917294",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,20 +635,12 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
-        "title": "chibuzor9/agri-roberta",
-        "url": "https://huggingface.co/chibuzor9/agri-roberta"
+        "title": "PabloSnackbar/chess-transformer",
+        "url": "https://huggingface.co/PabloSnackbar/chess-transformer"
       },
       {
-        "title": "llmfan46/gpt-oss-120b-heretic-v2-GGUF",
-        "url": "https://huggingface.co/llmfan46/gpt-oss-120b-heretic-v2-GGUF"
-      },
-      {
-        "title": "Kelvinmbewe/ZambiaLLM",
-        "url": "https://huggingface.co/Kelvinmbewe/ZambiaLLM"
-      },
-      {
-        "title": "mohammad-en/chess-engine-transformer",
-        "url": "https://huggingface.co/mohammad-en/chess-engine-transformer"
+        "title": "LouLou1Demon/GPT2-130M-FineWeb-Edu",
+        "url": "https://huggingface.co/LouLou1Demon/GPT2-130M-FineWeb-Edu"
       }
     ],
     "vision_systems": [
@@ -933,8 +925,12 @@
         "url": "https://arxiv.org/abs/2603.04980v1"
       },
       {
-        "title": "Alelcv27/Llama3-8B-Breadcrumbs-IST-Code",
-        "url": "https://huggingface.co/Alelcv27/Llama3-8B-Breadcrumbs-IST-Code"
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      {
+        "title": "jamesburton/Phi-4-reasoning-vision-15B-GGUF",
+        "url": "https://huggingface.co/jamesburton/Phi-4-reasoning-vision-15B-GGUF"
       }
     ],
     "reasoning": [
@@ -1217,6 +1213,10 @@
       {
         "title": "Video-based Locomotion Analysis for Fish Health Monitoring",
         "url": "https://arxiv.org/abs/2603.05407v1"
+      },
+      {
+        "title": "jamesburton/Phi-4-reasoning-vision-15B-GGUF",
+        "url": "https://huggingface.co/jamesburton/Phi-4-reasoning-vision-15B-GGUF"
       }
     ],
     "benchmarks": [
@@ -1621,19 +1621,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1663,12 +1663,12 @@
     },
     {
       "topic": "vision",
-      "frequency": 37,
+      "frequency": 38,
       "significance": "high"
     },
     {
       "topic": "reasoning",
-      "frequency": 35,
+      "frequency": 36,
       "significance": "high"
     },
     {
