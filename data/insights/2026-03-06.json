@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T19:31:58.556557",
+  "date": "2026-03-06T20:27:14.400065",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,8 +639,12 @@
         "url": "https://huggingface.co/Vedant24/roberta-base-go_emotions"
       },
       {
-        "title": "YazoPi/snac-llm-full",
-        "url": "https://huggingface.co/YazoPi/snac-llm-full"
+        "title": "mradermacher/turkish-llm-14b-instruct-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/turkish-llm-14b-instruct-i1-GGUF"
+      },
+      {
+        "title": "seek-e/db_mc2_bert1",
+        "url": "https://huggingface.co/seek-e/db_mc2_bert1"
       }
     ],
     "vision_systems": [
@@ -923,6 +927,10 @@
       {
         "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
         "url": "https://arxiv.org/abs/2603.04980v1"
+      },
+      {
+        "title": "fwwrsd/anitraxxe-zimage-lora",
+        "url": "https://huggingface.co/fwwrsd/anitraxxe-zimage-lora"
       }
     ],
     "reasoning": [
@@ -1609,13 +1617,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1668,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 394
   }
 }
