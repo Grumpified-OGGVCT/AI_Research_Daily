@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T10:30:43.833266",
+  "date": "2026-03-06T11:24:54.251453",
   "patterns": {
     "multimodal_research": [
       {
@@ -915,14 +915,6 @@
       {
         "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
         "url": "https://arxiv.org/abs/2603.04980v1"
-      },
-      {
-        "title": "pranjal-pravesh/haywoodsloan-ai-image-detector",
-        "url": "https://huggingface.co/pranjal-pravesh/haywoodsloan-ai-image-detector"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1615,7 +1607,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1668,6 +1660,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 390
   }
 }
