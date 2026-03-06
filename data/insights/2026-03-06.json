@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T17:31:38.034330",
+  "date": "2026-03-06T18:37:31.624738",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,14 +633,6 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
-      },
-      {
-        "title": "YazoPi/snac-llm-full",
-        "url": "https://huggingface.co/YazoPi/snac-llm-full"
-      },
-      {
-        "title": "chrissoria/catllm-json-formatter",
-        "url": "https://huggingface.co/chrissoria/catllm-json-formatter"
       }
     ],
     "vision_systems": [
@@ -1609,7 +1601,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1668,6 +1660,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 390
   }
 }
