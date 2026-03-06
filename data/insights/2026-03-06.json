@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T05:42:23.271366",
+  "date": "2026-03-06T06:40:59.432938",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,24 +639,12 @@
         "url": "https://huggingface.co/llmfan46/gpt-oss-120b-heretic-v2"
       },
       {
-        "title": "Vandita/MobileBERT_Uncased-SarcOji-MobileDistilled6MEmb",
-        "url": "https://huggingface.co/Vandita/MobileBERT_Uncased-SarcOji-MobileDistilled6MEmb"
+        "title": "llmfan46/gpt-oss-120b-heretic-v3",
+        "url": "https://huggingface.co/llmfan46/gpt-oss-120b-heretic-v3"
       },
       {
         "title": "mskang1120/kobert_baseline",
         "url": "https://huggingface.co/mskang1120/kobert_baseline"
-      },
-      {
-        "title": "bdanko/bert-tweeteval-distilroberta",
-        "url": "https://huggingface.co/bdanko/bert-tweeteval-distilroberta"
-      },
-      {
-        "title": "bdanko/bert-tweeteval-distilbert",
-        "url": "https://huggingface.co/bdanko/bert-tweeteval-distilbert"
-      },
-      {
-        "title": "Saad-Wazir24/indic-slid-mhubert-task2",
-        "url": "https://huggingface.co/Saad-Wazir24/indic-slid-mhubert-task2"
       },
       {
         "title": "Nit1810/distilbert-rotten-tomatoes",
@@ -1215,6 +1203,10 @@
         "url": "https://arxiv.org/abs/2603.05315v1"
       },
       {
+        "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+      },
+      {
         "title": "FaceCam: Portrait Video Camera Control via Scale-Aware Conditioning",
         "url": "https://arxiv.org/abs/2603.05506v1"
       },
@@ -1225,10 +1217,6 @@
       {
         "title": "Video-based Locomotion Analysis for Fish Health Monitoring",
         "url": "https://arxiv.org/abs/2603.05407v1"
-      },
-      {
-        "title": "Zaynoid/Qwen3.5-9B-MedReasoning-LoRA",
-        "url": "https://huggingface.co/Zaynoid/Qwen3.5-9B-MedReasoning-LoRA"
       }
     ],
     "benchmarks": [
@@ -1633,7 +1621,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1692,6 +1680,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 398
+    "total_papers": 395
   }
 }
