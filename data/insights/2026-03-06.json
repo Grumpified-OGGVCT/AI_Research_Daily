@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T04:06:26.210544",
+  "date": "2026-03-06T05:42:23.271366",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,8 +635,32 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
-        "title": "zhuojing-huang/gpt2-spanish-english-bi-vocab-42-4B",
-        "url": "https://huggingface.co/zhuojing-huang/gpt2-spanish-english-bi-vocab-42-4B"
+        "title": "llmfan46/gpt-oss-120b-heretic-v2",
+        "url": "https://huggingface.co/llmfan46/gpt-oss-120b-heretic-v2"
+      },
+      {
+        "title": "Vandita/MobileBERT_Uncased-SarcOji-MobileDistilled6MEmb",
+        "url": "https://huggingface.co/Vandita/MobileBERT_Uncased-SarcOji-MobileDistilled6MEmb"
+      },
+      {
+        "title": "mskang1120/kobert_baseline",
+        "url": "https://huggingface.co/mskang1120/kobert_baseline"
+      },
+      {
+        "title": "bdanko/bert-tweeteval-distilroberta",
+        "url": "https://huggingface.co/bdanko/bert-tweeteval-distilroberta"
+      },
+      {
+        "title": "bdanko/bert-tweeteval-distilbert",
+        "url": "https://huggingface.co/bdanko/bert-tweeteval-distilbert"
+      },
+      {
+        "title": "Saad-Wazir24/indic-slid-mhubert-task2",
+        "url": "https://huggingface.co/Saad-Wazir24/indic-slid-mhubert-task2"
+      },
+      {
+        "title": "Nit1810/distilbert-rotten-tomatoes",
+        "url": "https://huggingface.co/Nit1810/distilbert-rotten-tomatoes"
       }
     ],
     "vision_systems": [
@@ -1201,6 +1225,10 @@
       {
         "title": "Video-based Locomotion Analysis for Fish Health Monitoring",
         "url": "https://arxiv.org/abs/2603.05407v1"
+      },
+      {
+        "title": "Zaynoid/Qwen3.5-9B-MedReasoning-LoRA",
+        "url": "https://huggingface.co/Zaynoid/Qwen3.5-9B-MedReasoning-LoRA"
       }
     ],
     "benchmarks": [
@@ -1605,7 +1633,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1617,7 +1645,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1652,7 +1680,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 35,
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1664,6 +1692,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 391
+    "total_papers": 398
   }
 }
