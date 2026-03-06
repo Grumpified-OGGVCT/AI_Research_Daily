@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-06T21:25:43.215501",
+  "date": "2026-03-06T22:22:49.299677",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,16 +635,40 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
+        "title": "ghananlpcommunity/w2v-bert-2.0_igbo_v1_farmerline",
+        "url": "https://huggingface.co/ghananlpcommunity/w2v-bert-2.0_igbo_v1_farmerline"
+      },
+      {
+        "title": "ghananlpcommunity/w2v-bert-2.0_yoruba_v1_farmerline",
+        "url": "https://huggingface.co/ghananlpcommunity/w2v-bert-2.0_yoruba_v1_farmerline"
+      },
+      {
+        "title": "ghananlpcommunity/w2v-bert-2.0_luo_v2_farmerline",
+        "url": "https://huggingface.co/ghananlpcommunity/w2v-bert-2.0_luo_v2_farmerline"
+      },
+      {
+        "title": "ghananlpcommunity/w2v-bert-2.0_swahili_alpha_farmerline",
+        "url": "https://huggingface.co/ghananlpcommunity/w2v-bert-2.0_swahili_alpha_farmerline"
+      },
+      {
+        "title": "ghananlpcommunity/w2v-bert-2.0_twi_alpha_v1_farmerline",
+        "url": "https://huggingface.co/ghananlpcommunity/w2v-bert-2.0_twi_alpha_v1_farmerline"
+      },
+      {
+        "title": "ghananlpcommunity/w2v-bert-2.0_ewe_2_farmerline",
+        "url": "https://huggingface.co/ghananlpcommunity/w2v-bert-2.0_ewe_2_farmerline"
+      },
+      {
+        "title": "ghananlpcommunity/w2v-bert-2.0_dyula_farmerline",
+        "url": "https://huggingface.co/ghananlpcommunity/w2v-bert-2.0_dyula_farmerline"
+      },
+      {
+        "title": "ghananlpcommunity/w2v-bert-2.0_luganda_farmerline",
+        "url": "https://huggingface.co/ghananlpcommunity/w2v-bert-2.0_luganda_farmerline"
+      },
+      {
         "title": "YazoPi/snac-llm-full-v1",
         "url": "https://huggingface.co/YazoPi/snac-llm-full-v1"
-      },
-      {
-        "title": "mradermacher/turkish-llm-14b-instruct-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/turkish-llm-14b-instruct-i1-GGUF"
-      },
-      {
-        "title": "mradermacher/turkish-llm-14b-instruct-GGUF",
-        "url": "https://huggingface.co/mradermacher/turkish-llm-14b-instruct-GGUF"
       }
     ],
     "vision_systems": [
@@ -683,10 +707,6 @@
       {
         "title": "Towards a data-scale independent regulariser for robust sparse identification of non-linear dynamics",
         "url": "https://arxiv.org/abs/2603.05201v1"
-      },
-      {
-        "title": "huggingface/documentation-images",
-        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "Mario: Multimodal Graph Reasoning with Large Language Models",
@@ -931,14 +951,6 @@
       {
         "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
         "url": "https://arxiv.org/abs/2603.04980v1"
-      },
-      {
-        "title": "VuNiti/VuMos-28B-Thinking-Vision",
-        "url": "https://huggingface.co/VuNiti/VuMos-28B-Thinking-Vision"
-      },
-      {
-        "title": "VuNiti/VuMos-10B-Thinking-Vision",
-        "url": "https://huggingface.co/VuNiti/VuMos-10B-Thinking-Vision"
       }
     ],
     "reasoning": [
@@ -1221,6 +1233,10 @@
       {
         "title": "Video-based Locomotion Analysis for Fish Health Monitoring",
         "url": "https://arxiv.org/abs/2603.05407v1"
+      },
+      {
+        "title": "introvoyz041/Logics-Qwen3-Math-4B-Q4_0-GGUF",
+        "url": "https://huggingface.co/introvoyz041/Logics-Qwen3-Math-4B-Q4_0-GGUF"
       }
     ],
     "benchmarks": [
@@ -1625,19 +1641,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1667,7 +1683,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 39,
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1684,6 +1700,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 396
+    "total_papers": 400
   }
 }
