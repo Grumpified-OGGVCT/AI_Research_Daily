@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-07T16:21:55.707255",
+  "date": "2026-03-07T17:17:59.010836",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,8 +635,8 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
-        "title": "egeb9/chess-gpt2-v2",
-        "url": "https://huggingface.co/egeb9/chess-gpt2-v2"
+        "title": "ogulcanaydogan/Turkish-LLM-14B-Instruct-GGUF",
+        "url": "https://huggingface.co/ogulcanaydogan/Turkish-LLM-14B-Instruct-GGUF"
       }
     ],
     "vision_systems": [
@@ -919,6 +919,10 @@
       {
         "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
         "url": "https://arxiv.org/abs/2603.04980v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1575,10 +1579,6 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
-      },
-      {
-        "title": "SOTAagi2030/LatestModel-FinalCheckpoint",
-        "url": "https://huggingface.co/SOTAagi2030/LatestModel-FinalCheckpoint"
       }
     ]
   },
@@ -1615,7 +1615,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1633,7 +1633,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "94 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
