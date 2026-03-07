@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-07T19:19:29.465580",
+  "date": "2026-03-07T20:20:07.819435",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,6 +633,10 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
+      },
+      {
+        "title": "ogulcanaydogan/Turkish-LLM-14B-Instruct-GGUF",
+        "url": "https://huggingface.co/ogulcanaydogan/Turkish-LLM-14B-Instruct-GGUF"
       }
     ],
     "vision_systems": [
@@ -915,10 +919,6 @@
       {
         "title": "A Simple Baseline for Unifying Understanding, Generation, and Editing via Vanilla Next-token Prediction",
         "url": "https://arxiv.org/abs/2603.04980v1"
-      },
-      {
-        "title": "CVPROJ25/FINAL_FT_noise_vit_train_severity_2_subset_10000_balanced_ep-10_pat-4",
-        "url": "https://huggingface.co/CVPROJ25/FINAL_FT_noise_vit_train_severity_2_subset_10000_balanced_ep-10_pat-4"
       }
     ],
     "reasoning": [
@@ -1201,6 +1201,14 @@
       {
         "title": "Video-based Locomotion Analysis for Fish Health Monitoring",
         "url": "https://arxiv.org/abs/2603.05407v1"
+      },
+      {
+        "title": "KittyCat9Lives/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "url": "https://huggingface.co/KittyCat9Lives/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+      },
+      {
+        "title": "Ech0n0va/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/Ech0n0va/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1577,8 +1585,8 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
-        "title": "SOTAagi2030/MidTraining-Checkpoint",
-        "url": "https://huggingface.co/SOTAagi2030/MidTraining-Checkpoint"
+        "title": "SOTAagi2030/MyAwesomeModel-Release",
+        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-Release"
       }
     ]
   },
@@ -1609,19 +1617,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1650,13 +1658,13 @@
       "significance": "high"
     },
     {
-      "topic": "vision",
+      "topic": "reasoning",
       "frequency": 37,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 35,
+      "topic": "vision",
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1668,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 394
   }
 }
