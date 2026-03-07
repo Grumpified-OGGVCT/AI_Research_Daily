@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-07T14:20:31.227039",
+  "date": "2026-03-07T15:19:13.582886",
   "patterns": {
     "multimodal_research": [
       {
@@ -311,6 +311,10 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
+      },
+      {
+        "title": "Verdugie/Opus-Candid-MoE-v3",
+        "url": "https://huggingface.co/Verdugie/Opus-Candid-MoE-v3"
       }
     ],
     "language_models": [
@@ -635,12 +639,12 @@
         "url": "https://arxiv.org/abs/2603.05484v1"
       },
       {
-        "title": "sibi-ai/gpt-oss-120b-aimo3-tir",
-        "url": "https://huggingface.co/sibi-ai/gpt-oss-120b-aimo3-tir"
+        "title": "mradermacher/Albert_Wesker-1B-GGUF",
+        "url": "https://huggingface.co/mradermacher/Albert_Wesker-1B-GGUF"
       },
       {
-        "title": "we0rr9u89q/chess_gpt2_results",
-        "url": "https://huggingface.co/we0rr9u89q/chess_gpt2_results"
+        "title": "mradermacher/Albert_Wesker-1B-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/Albert_Wesker-1B-i1-GGUF"
       }
     ],
     "vision_systems": [
@@ -1207,12 +1211,16 @@
         "url": "https://arxiv.org/abs/2603.05407v1"
       },
       {
-        "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
+        "title": "Jackrong/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled"
       },
       {
-        "title": "SOTAagi2030/ReasoningModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/ReasoningModel-Best"
+        "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
+      },
+      {
+        "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1587,14 +1595,6 @@
       {
         "title": "Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline",
         "url": "https://arxiv.org/abs/2603.05484v1"
-      },
-      {
-        "title": "SOTAagi2030/SafetyModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/SafetyModel-Best"
-      },
-      {
-        "title": "SOTAagi2030/ReasoningModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/ReasoningModel-Best"
       }
     ]
   },
@@ -1613,7 +1613,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "59 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1637,7 +1637,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1649,7 +1649,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "95 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1667,7 +1667,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 37,
+      "frequency": 38,
       "significance": "high"
     },
     {
