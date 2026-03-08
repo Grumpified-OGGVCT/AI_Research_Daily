@@ -1,65 +1,11 @@
 {
-  "date": "2026-03-08T21:19:07.110252",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "khoinguyenbk/gpt-oss-20b-math-16exp-mxfp4-a8-broken-init",
-        "url": "https://huggingface.co/khoinguyenbk/gpt-oss-20b-math-16exp-mxfp4-a8-broken-init"
-      },
-      {
-        "title": "alisonlia/chess-gpt2",
-        "url": "https://huggingface.co/alisonlia/chess-gpt2"
-      },
-      {
-        "title": "Kanyasiri/wangchanberta-wongnai-3class",
-        "url": "https://huggingface.co/Kanyasiri/wangchanberta-wongnai-3class"
-      }
-    ],
-    "reasoning": [
-      {
-        "title": "steadyflow/Phi-4-reasoning-plus-AWQ-INT4",
-        "url": "https://huggingface.co/steadyflow/Phi-4-reasoning-plus-AWQ-INT4"
-      },
-      {
-        "title": "steadyflow/Phi-4-mini-reasoning-AWQ-INT4",
-        "url": "https://huggingface.co/steadyflow/Phi-4-mini-reasoning-AWQ-INT4"
-      },
-      {
-        "title": "steadyflow/Phi-4-reasoning-AWQ-INT4",
-        "url": "https://huggingface.co/steadyflow/Phi-4-reasoning-AWQ-INT4"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    },
-    {
-      "pattern": "reasoning",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Reasoning - monitor for breakthrough results",
-      "confidence": "medium"
-    },
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
-      "confidence": "medium"
-    }
-  ],
-  "research_trends": [
-    {
-      "topic": "reasoning",
-      "frequency": 3,
-      "significance": "medium"
-    }
-  ],
+  "date": "2026-03-08T22:19:20.471251",
+  "patterns": {},
+  "inferences": [],
+  "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 3,
-    "total_papers": 6
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
