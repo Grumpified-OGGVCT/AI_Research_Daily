@@ -1,33 +1,22 @@
 {
-  "date": "2026-03-08T07:28:54.166782",
+  "date": "2026-03-08T08:25:36.147665",
   "patterns": {
-    "benchmarks": [
+    "language_models": [
       {
-        "title": "SOTAagi2030/MidTraining-Checkpoint",
-        "url": "https://huggingface.co/SOTAagi2030/MidTraining-Checkpoint"
+        "title": "mradermacher/Albert_Wesker-1B-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/Albert_Wesker-1B-i1-GGUF"
       },
       {
-        "title": "SOTAagi2030/MultiLangModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/MultiLangModel-Best"
-      },
-      {
-        "title": "SOTAagi2030/SafetyModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/SafetyModel-Best"
+        "title": "mradermacher/Albert_Wesker-1B-GGUF",
+        "url": "https://huggingface.co/mradermacher/Albert_Wesker-1B-GGUF"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "benchmarks",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Benchmarks - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
