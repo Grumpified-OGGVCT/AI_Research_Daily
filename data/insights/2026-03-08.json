@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-08T17:20:04.765523",
-  "patterns": {},
+  "date": "2026-03-08T18:26:50.140364",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Kanyasiri/wangchanberta-wongnai-sentiment",
+        "url": "https://huggingface.co/Kanyasiri/wangchanberta-wongnai-sentiment"
+      },
+      {
+        "title": "khoinguyenbk/gpt-oss-20b-math-16exp-mxfp4-a8-broken-init",
+        "url": "https://huggingface.co/khoinguyenbk/gpt-oss-20b-math-16exp-mxfp4-a8-broken-init"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
