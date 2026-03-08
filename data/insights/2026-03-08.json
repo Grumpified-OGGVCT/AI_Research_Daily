@@ -1,11 +1,33 @@
 {
-  "date": "2026-03-08T19:21:12.740820",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-03-08T20:20:36.067148",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "ndearing4/gpt2_on_gsm8k",
+        "url": "https://huggingface.co/ndearing4/gpt2_on_gsm8k"
+      },
+      {
+        "title": "AnthonyKamau/chess-smollm2-135m",
+        "url": "https://huggingface.co/AnthonyKamau/chess-smollm2-135m"
+      },
+      {
+        "title": "SykoSLM/SykoLLM-CMN-V5.2-Beta",
+        "url": "https://huggingface.co/SykoSLM/SykoLLM-CMN-V5.2-Beta"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
