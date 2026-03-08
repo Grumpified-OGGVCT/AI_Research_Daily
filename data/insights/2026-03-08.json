@@ -1,32 +1,33 @@
 {
-  "date": "2026-03-08T06:36:36.431810",
+  "date": "2026-03-08T07:28:54.166782",
   "patterns": {
-    "language_models": [
-      {
-        "title": "mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF"
-      },
-      {
-        "title": "user12043/Llama-3-8B-Instruct-GPTQ-8-Bit-Q4_K_M-GGUF",
-        "url": "https://huggingface.co/user12043/Llama-3-8B-Instruct-GPTQ-8-Bit-Q4_K_M-GGUF"
-      }
-    ],
     "benchmarks": [
       {
-        "title": "SOTAagi2030/EarlyCheckpoint-v1",
-        "url": "https://huggingface.co/SOTAagi2030/EarlyCheckpoint-v1"
+        "title": "SOTAagi2030/MidTraining-Checkpoint",
+        "url": "https://huggingface.co/SOTAagi2030/MidTraining-Checkpoint"
       },
       {
-        "title": "SOTAagi2030/ReasoningModel-Best",
-        "url": "https://huggingface.co/SOTAagi2030/ReasoningModel-Best"
+        "title": "SOTAagi2030/MultiLangModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/MultiLangModel-Best"
+      },
+      {
+        "title": "SOTAagi2030/SafetyModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/SafetyModel-Best"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "benchmarks",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Benchmarks - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 0,
-    "total_papers": 4
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
