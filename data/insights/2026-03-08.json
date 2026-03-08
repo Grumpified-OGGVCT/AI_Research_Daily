@@ -1,18 +1,32 @@
 {
-  "date": "2026-03-08T20:20:36.067148",
+  "date": "2026-03-08T21:19:07.110252",
   "patterns": {
     "language_models": [
       {
-        "title": "ndearing4/gpt2_on_gsm8k",
-        "url": "https://huggingface.co/ndearing4/gpt2_on_gsm8k"
+        "title": "khoinguyenbk/gpt-oss-20b-math-16exp-mxfp4-a8-broken-init",
+        "url": "https://huggingface.co/khoinguyenbk/gpt-oss-20b-math-16exp-mxfp4-a8-broken-init"
       },
       {
-        "title": "AnthonyKamau/chess-smollm2-135m",
-        "url": "https://huggingface.co/AnthonyKamau/chess-smollm2-135m"
+        "title": "alisonlia/chess-gpt2",
+        "url": "https://huggingface.co/alisonlia/chess-gpt2"
       },
       {
-        "title": "SykoSLM/SykoLLM-CMN-V5.2-Beta",
-        "url": "https://huggingface.co/SykoSLM/SykoLLM-CMN-V5.2-Beta"
+        "title": "Kanyasiri/wangchanberta-wongnai-3class",
+        "url": "https://huggingface.co/Kanyasiri/wangchanberta-wongnai-3class"
+      }
+    ],
+    "reasoning": [
+      {
+        "title": "steadyflow/Phi-4-reasoning-plus-AWQ-INT4",
+        "url": "https://huggingface.co/steadyflow/Phi-4-reasoning-plus-AWQ-INT4"
+      },
+      {
+        "title": "steadyflow/Phi-4-mini-reasoning-AWQ-INT4",
+        "url": "https://huggingface.co/steadyflow/Phi-4-mini-reasoning-AWQ-INT4"
+      },
+      {
+        "title": "steadyflow/Phi-4-reasoning-AWQ-INT4",
+        "url": "https://huggingface.co/steadyflow/Phi-4-reasoning-AWQ-INT4"
       }
     ]
   },
@@ -22,12 +36,30 @@
       "observation": "3 related papers",
       "inference": "Emerging interest in Language Models - monitor for breakthrough results",
       "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Reasoning - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
     }
   ],
-  "research_trends": [],
+  "research_trends": [
+    {
+      "topic": "reasoning",
+      "frequency": 3,
+      "significance": "medium"
+    }
+  ],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_patterns": 2,
+    "total_inferences": 3,
+    "total_papers": 6
   }
 }
