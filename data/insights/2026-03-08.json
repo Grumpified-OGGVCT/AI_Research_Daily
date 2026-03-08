@@ -1,11 +1,32 @@
 {
-  "date": "2026-03-08T05:40:28.040461",
-  "patterns": {},
+  "date": "2026-03-08T06:36:36.431810",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/GPT-OSS-Swallow-120B-RL-v0.1-i1-GGUF"
+      },
+      {
+        "title": "user12043/Llama-3-8B-Instruct-GPTQ-8-Bit-Q4_K_M-GGUF",
+        "url": "https://huggingface.co/user12043/Llama-3-8B-Instruct-GPTQ-8-Bit-Q4_K_M-GGUF"
+      }
+    ],
+    "benchmarks": [
+      {
+        "title": "SOTAagi2030/EarlyCheckpoint-v1",
+        "url": "https://huggingface.co/SOTAagi2030/EarlyCheckpoint-v1"
+      },
+      {
+        "title": "SOTAagi2030/ReasoningModel-Best",
+        "url": "https://huggingface.co/SOTAagi2030/ReasoningModel-Best"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 2,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 4
   }
 }
