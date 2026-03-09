@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-09T06:56:00.068583",
-  "patterns": {},
+  "date": "2026-03-09T07:48:14.480295",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "rrrxxx0510/distilbert-rotten-tomatoes",
+        "url": "https://huggingface.co/rrrxxx0510/distilbert-rotten-tomatoes"
+      },
+      {
+        "title": "DavidUgCh/death-news_roberta_bs76",
+        "url": "https://huggingface.co/DavidUgCh/death-news_roberta_bs76"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
