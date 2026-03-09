@@ -1,0 +1,41 @@
+{
+  "date": "2026-03-09T01:29:24.258979",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Nograv/gpt-oss-120b",
+        "url": "https://huggingface.co/Nograv/gpt-oss-120b"
+      },
+      {
+        "title": "Nograv/gpt-oss-20b-heretic-ara-v3",
+        "url": "https://huggingface.co/Nograv/gpt-oss-20b-heretic-ara-v3"
+      },
+      {
+        "title": "tocchitocchi/GPT-OSS-Swallow-20B-RL-v0.1-fp16-mlx",
+        "url": "https://huggingface.co/tocchitocchi/GPT-OSS-Swallow-20B-RL-v0.1-fp16-mlx"
+      },
+      {
+        "title": "tocchitocchi/GPT-OSS-Swallow-20B-RL-v0.1-8bit-mlx",
+        "url": "https://huggingface.co/tocchitocchi/GPT-OSS-Swallow-20B-RL-v0.1-8bit-mlx"
+      },
+      {
+        "title": "tocchitocchi/GPT-OSS-Swallow-20B-RL-v0.1-6bit-mlx",
+        "url": "https://huggingface.co/tocchitocchi/GPT-OSS-Swallow-20B-RL-v0.1-6bit-mlx"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "5 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 5
+  }
+}
