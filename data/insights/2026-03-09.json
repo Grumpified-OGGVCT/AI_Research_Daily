@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-09T10:41:24.939092",
-  "patterns": {},
+  "date": "2026-03-09T11:32:29.949474",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "zhuojing-huang/gpt2-portuguese-english-bi-vocab-13-4B",
+        "url": "https://huggingface.co/zhuojing-huang/gpt2-portuguese-english-bi-vocab-13-4B"
+      },
+      {
+        "title": "mskang1120/kobert_baseline_model",
+        "url": "https://huggingface.co/mskang1120/kobert_baseline_model"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
