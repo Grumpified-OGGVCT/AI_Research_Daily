@@ -1,11 +1,38 @@
 {
-  "date": "2026-03-09T15:54:04.368306",
-  "patterns": {},
+  "date": "2026-03-09T16:53:17.721686",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "OliverHeine/huawei-noah_TinyBERT_General_4L_312D_train_v2",
+        "url": "https://huggingface.co/OliverHeine/huawei-noah_TinyBERT_General_4L_312D_train_v2"
+      },
+      {
+        "title": "math-hiyoko/distilbert-base-uncased-finetuned-clinc",
+        "url": "https://huggingface.co/math-hiyoko/distilbert-base-uncased-finetuned-clinc"
+      }
+    ],
+    "vision_systems": [
+      {
+        "title": "adpretko/riscv_to_x86_qwen25coder_1p5b_full",
+        "url": "https://huggingface.co/adpretko/riscv_to_x86_qwen25coder_1p5b_full"
+      },
+      {
+        "title": "adpretko/x86_to_riscv_qwen25coder_1p5b_full",
+        "url": "https://huggingface.co/adpretko/x86_to_riscv_qwen25coder_1p5b_full"
+      }
+    ]
+  },
   "inferences": [],
-  "research_trends": [],
+  "research_trends": [
+    {
+      "topic": "prompt",
+      "frequency": 3,
+      "significance": "medium"
+    }
+  ],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 2,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 4
   }
 }
