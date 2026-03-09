@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-09T22:23:54.035944",
-  "patterns": {},
+  "date": "2026-03-09T23:23:11.710401",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "jiosephlee/grpo-tdc-gptoss-dequant-unsloth-3t-v4-ep1-0309_1624",
+        "url": "https://huggingface.co/jiosephlee/grpo-tdc-gptoss-dequant-unsloth-3t-v4-ep1-0309_1624"
+      },
+      {
+        "title": "MA00100/fake-news-distilbert",
+        "url": "https://huggingface.co/MA00100/fake-news-distilbert"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
