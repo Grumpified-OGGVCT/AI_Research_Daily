@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-10T04:05:21.538446",
+  "date": "2026-03-10T05:42:46.547915",
   "patterns": {
     "multimodal_research": [
       {
@@ -1281,14 +1281,6 @@
       {
         "title": "Topologically Stable Hough Transform",
         "url": "https://arxiv.org/abs/2603.08245v1"
-      },
-      {
-        "title": "kraken07/qwen2.5-7b-friends-reasoning",
-        "url": "https://huggingface.co/kraken07/qwen2.5-7b-friends-reasoning"
-      },
-      {
-        "title": "kraken07/qwen2.5-7b-ami-reasoning",
-        "url": "https://huggingface.co/kraken07/qwen2.5-7b-ami-reasoning"
       }
     ],
     "benchmarks": [
@@ -1789,7 +1781,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1819,7 +1811,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 42,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1836,6 +1828,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 434
+    "total_papers": 432
   }
 }
