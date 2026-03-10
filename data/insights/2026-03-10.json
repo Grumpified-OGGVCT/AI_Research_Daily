@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-10T14:49:54.239255",
+  "date": "2026-03-10T15:56:44.235932",
   "patterns": {
     "multimodal_research": [
       {
@@ -735,6 +735,10 @@
       {
         "title": "Global Cross-Modal Geo-Localization: A Million-Scale Dataset and a Physical Consistency Learning Framework",
         "url": "https://arxiv.org/abs/2603.08491v1"
+      },
+      {
+        "title": "huggingface/documentation-images",
+        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "Retrieval-Augmented Anatomical Guidance for Text-to-CT Generation",
@@ -1767,7 +1771,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1820,6 +1824,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 431
   }
 }
