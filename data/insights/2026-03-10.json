@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-10T06:41:50.983025",
+  "date": "2026-03-10T07:39:22.422430",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,20 +703,12 @@
         "url": "https://arxiv.org/abs/2603.08592v1"
       },
       {
-        "title": "thagen/causality_task3_roberta-large_thagen__concausal-news-corpus",
-        "url": "https://huggingface.co/thagen/causality_task3_roberta-large_thagen__concausal-news-corpus"
-      },
-      {
         "title": "mskang1120/kobert_baseline_model",
         "url": "https://huggingface.co/mskang1120/kobert_baseline_model"
       },
       {
-        "title": "bogosla/gpt-125M-CR",
-        "url": "https://huggingface.co/bogosla/gpt-125M-CR"
-      },
-      {
-        "title": "scchiu/gpt_oss_120b_lora_v1_merged_16bit",
-        "url": "https://huggingface.co/scchiu/gpt_oss_120b_lora_v1_merged_16bit"
+        "title": "poltextlab/xlm-roberta-large-pooled-cap-minor-v5",
+        "url": "https://huggingface.co/poltextlab/xlm-roberta-large-pooled-cap-minor-v5"
       }
     ],
     "vision_systems": [
@@ -1777,7 +1769,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1836,6 +1828,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 434
+    "total_papers": 432
   }
 }
