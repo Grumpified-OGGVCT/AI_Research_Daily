@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-10T20:28:39.205593",
+  "date": "2026-03-10T21:26:11.177931",
   "patterns": {
     "multimodal_research": [
       {
@@ -701,6 +701,10 @@
       {
         "title": "Boosting MLLM Spatial Reasoning with Geometrically Referenced 3D Scene Representations",
         "url": "https://arxiv.org/abs/2603.08592v1"
+      },
+      {
+        "title": "eternalGenius/rubert_level2",
+        "url": "https://huggingface.co/eternalGenius/rubert_level2"
       }
     ],
     "vision_systems": [
@@ -987,6 +991,10 @@
       {
         "title": "CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing",
         "url": "https://arxiv.org/abs/2603.08589v1"
+      },
+      {
+        "title": "GuangyuanSD/Z-Image-Distilled",
+        "url": "https://huggingface.co/GuangyuanSD/Z-Image-Distilled"
       }
     ],
     "reasoning": [
@@ -1761,13 +1769,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1820,6 +1828,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 432
   }
 }
