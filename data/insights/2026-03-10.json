@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-10T21:26:11.177931",
+  "date": "2026-03-10T22:23:47.090471",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,6 +703,10 @@
         "url": "https://arxiv.org/abs/2603.08592v1"
       },
       {
+        "title": "notd5a/deberta-v3-malicious-sms-mms-detector",
+        "url": "https://huggingface.co/notd5a/deberta-v3-malicious-sms-mms-detector"
+      },
+      {
         "title": "eternalGenius/rubert_level2",
         "url": "https://huggingface.co/eternalGenius/rubert_level2"
       }
@@ -991,10 +995,6 @@
       {
         "title": "CARE-Edit: Condition-Aware Routing of Experts for Contextual Image Editing",
         "url": "https://arxiv.org/abs/2603.08589v1"
-      },
-      {
-        "title": "GuangyuanSD/Z-Image-Distilled",
-        "url": "https://huggingface.co/GuangyuanSD/Z-Image-Distilled"
       }
     ],
     "reasoning": [
@@ -1769,13 +1769,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
