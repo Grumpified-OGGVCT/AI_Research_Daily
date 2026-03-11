@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T08:35:31.611802",
+  "date": "2026-03-11T09:38:17.044590",
   "patterns": {
     "multimodal_research": [
       {
@@ -1345,6 +1345,14 @@
       {
         "title": "On the Structural Failure of Chamfer Distance in 3D Shape Optimization",
         "url": "https://arxiv.org/abs/2603.09925v1"
+      },
+      {
+        "title": "Dario213/Qwen3-4B-medical-reasoning",
+        "url": "https://huggingface.co/Dario213/Qwen3-4B-medical-reasoning"
+      },
+      {
+        "title": "icecee/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-Fix",
+        "url": "https://huggingface.co/icecee/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-Fix"
       }
     ],
     "benchmarks": [
@@ -1829,7 +1837,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "61 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1863,19 +1871,19 @@
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 34,
+      "topic": "reasoning",
+      "frequency": 35,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 33,
+      "topic": "generation",
+      "frequency": 34,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 444
+    "total_papers": 446
   }
 }
