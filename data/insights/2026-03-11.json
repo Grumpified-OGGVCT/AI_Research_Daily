@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T07:41:13.964628",
+  "date": "2026-03-11T08:35:31.611802",
   "patterns": {
     "multimodal_research": [
       {
@@ -1099,14 +1099,6 @@
       {
         "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
         "url": "https://arxiv.org/abs/2603.09471v1"
-      },
-      {
-        "title": "F16/z-image-turbo-sda",
-        "url": "https://huggingface.co/F16/z-image-turbo-sda"
-      },
-      {
-        "title": "wbkou/Qwen-Image-2512-8bit-MLX",
-        "url": "https://huggingface.co/wbkou/Qwen-Image-2512-8bit-MLX"
       }
     ],
     "reasoning": [
@@ -1795,10 +1787,6 @@
       {
         "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
         "url": "https://arxiv.org/abs/2603.09471v1"
-      },
-      {
-        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1835,7 +1823,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "81 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1853,7 +1841,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "111 independent papers",
+      "observation": "110 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1888,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 444
   }
 }
