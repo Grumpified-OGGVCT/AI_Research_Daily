@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T12:45:48.172584",
+  "date": "2026-03-11T14:03:47.863973",
   "patterns": {
     "multimodal_research": [
       {
@@ -781,14 +781,6 @@
       {
         "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
         "url": "https://arxiv.org/abs/2603.09471v1"
-      },
-      {
-        "title": "lygonzal/clasificador-distilbert-imdb",
-        "url": "https://huggingface.co/lygonzal/clasificador-distilbert-imdb"
-      },
-      {
-        "title": "RahelM/w2v-bert-2.0-tigregna",
-        "url": "https://huggingface.co/RahelM/w2v-bert-2.0-tigregna"
       }
     ],
     "vision_systems": [
@@ -1829,7 +1821,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1888,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 445
   }
 }
