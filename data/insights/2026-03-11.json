@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T09:38:17.044590",
+  "date": "2026-03-11T10:34:57.546003",
   "patterns": {
     "multimodal_research": [
       {
@@ -1347,12 +1347,8 @@
         "url": "https://arxiv.org/abs/2603.09925v1"
       },
       {
-        "title": "Dario213/Qwen3-4B-medical-reasoning",
-        "url": "https://huggingface.co/Dario213/Qwen3-4B-medical-reasoning"
-      },
-      {
-        "title": "icecee/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-Fix",
-        "url": "https://huggingface.co/icecee/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-Fix"
+        "title": "Tanvir1704/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/Tanvir1704/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1837,7 +1833,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "63 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1871,12 +1867,12 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 35,
+      "topic": "generation",
+      "frequency": 34,
       "significance": "high"
     },
     {
-      "topic": "generation",
+      "topic": "reasoning",
       "frequency": 34,
       "significance": "high"
     }
@@ -1884,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 446
+    "total_papers": 445
   }
 }
