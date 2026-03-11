@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T04:06:00.837751",
+  "date": "2026-03-11T05:45:08.168410",
   "patterns": {
     "multimodal_research": [
       {
@@ -781,10 +781,6 @@
       {
         "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
         "url": "https://arxiv.org/abs/2603.09471v1"
-      },
-      {
-        "title": "mskang1120/kobert_baseline_model",
-        "url": "https://huggingface.co/mskang1120/kobert_baseline_model"
       }
     ],
     "vision_systems": [
@@ -1821,7 +1817,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1853,7 +1849,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 78,
+      "frequency": 80,
       "significance": "high"
     },
     {
@@ -1880,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 444
   }
 }
