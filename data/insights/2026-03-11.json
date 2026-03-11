@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T22:23:22.116266",
+  "date": "2026-03-11T23:21:41.524272",
   "patterns": {
     "multimodal_research": [
       {
@@ -783,48 +783,40 @@
         "url": "https://arxiv.org/abs/2603.09471v1"
       },
       {
-        "title": "isspek/bert-base-cased_ebola_largest_3_2e-5_16_weight",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_largest_3_2e-5_16_weight"
+        "title": "isspek/roberta-base_ebola_ensemble_5_2e-5_16",
+        "url": "https://huggingface.co/isspek/roberta-base_ebola_ensemble_5_2e-5_16"
       },
       {
-        "title": "isspek/bert-base-cased_ebola_largest_2_2e-5_16_weight",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_largest_2_2e-5_16_weight"
+        "title": "isspek/roberta-base_ebola_ensemble_4_2e-5_16",
+        "url": "https://huggingface.co/isspek/roberta-base_ebola_ensemble_4_2e-5_16"
       },
       {
-        "title": "isspek/bert-base-cased_ebola_largest_1_2e-5_16_weight",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_largest_1_2e-5_16_weight"
+        "title": "isspek/roberta-base_ebola_ensemble_3_2e-5_16",
+        "url": "https://huggingface.co/isspek/roberta-base_ebola_ensemble_3_2e-5_16"
       },
       {
-        "title": "llmfan46/GLM-4.7-Flash-ultimate-irrefusable-heretic-GGUF",
-        "url": "https://huggingface.co/llmfan46/GLM-4.7-Flash-ultimate-irrefusable-heretic-GGUF"
-      },
-      {
-        "title": "Onlydrinkwater/gsm8k-cot-gpt2",
-        "url": "https://huggingface.co/Onlydrinkwater/gsm8k-cot-gpt2"
-      },
-      {
-        "title": "isspek/bert-base-cased_ebola_ensemble_5_2e-5_16_weight",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_ensemble_5_2e-5_16_weight"
-      },
-      {
-        "title": "isspek/bert-base-cased_ebola_ensemble_4_2e-5_16_weight",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_ensemble_4_2e-5_16_weight"
-      },
-      {
-        "title": "isspek/bert-base-cased_ebola_ensemble_3_2e-5_16_weight",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_ensemble_3_2e-5_16_weight"
-      },
-      {
-        "title": "isspek/bert-base-cased_ebola_ensemble_2_2e-5_16_weight",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_ensemble_2_2e-5_16_weight"
-      },
-      {
-        "title": "isspek/bert-base-cased_ebola_ensemble_1_2e-5_16_weight",
-        "url": "https://huggingface.co/isspek/bert-base-cased_ebola_ensemble_1_2e-5_16_weight"
+        "title": "isspek/roberta-base_ebola_ensemble_2_2e-5_16",
+        "url": "https://huggingface.co/isspek/roberta-base_ebola_ensemble_2_2e-5_16"
       },
       {
         "title": "llmfan46/GLM-4.7-Flash-ultra-heretic-GGUF",
         "url": "https://huggingface.co/llmfan46/GLM-4.7-Flash-ultra-heretic-GGUF"
+      },
+      {
+        "title": "isspek/roberta-base_ebola_ensemble_1_2e-5_16",
+        "url": "https://huggingface.co/isspek/roberta-base_ebola_ensemble_1_2e-5_16"
+      },
+      {
+        "title": "llmfan46/GLM-4.7-Flash-ultra-heretic",
+        "url": "https://huggingface.co/llmfan46/GLM-4.7-Flash-ultra-heretic"
+      },
+      {
+        "title": "llmfan46/GLM-4.7-Flash-ultimate-irrefusable-heretic",
+        "url": "https://huggingface.co/llmfan46/GLM-4.7-Flash-ultimate-irrefusable-heretic"
+      },
+      {
+        "title": "llmfan46/GLM-4.7-Flash-ultimate-irrefusable-heretic-GGUF",
+        "url": "https://huggingface.co/llmfan46/GLM-4.7-Flash-ultimate-irrefusable-heretic-GGUF"
       }
     ],
     "vision_systems": [
@@ -1831,6 +1823,18 @@
       {
         "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
         "url": "https://arxiv.org/abs/2603.09471v1"
+      },
+      {
+        "title": "Aniket200325/SOTA_MATH-phase3-gguf",
+        "url": "https://huggingface.co/Aniket200325/SOTA_MATH-phase3-gguf"
+      },
+      {
+        "title": "Aniket200325/SOTA_MATH-phase3",
+        "url": "https://huggingface.co/Aniket200325/SOTA_MATH-phase3"
+      },
+      {
+        "title": "Aniket200325/SOTA_MATH-phase3-lora",
+        "url": "https://huggingface.co/Aniket200325/SOTA_MATH-phase3-lora"
       }
     ]
   },
@@ -1861,7 +1865,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "108 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1885,7 +1889,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "110 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1920,6 +1924,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 455
+    "total_papers": 456
   }
 }
