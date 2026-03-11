@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T18:47:04.560545",
+  "date": "2026-03-11T19:39:41.525825",
   "patterns": {
     "multimodal_research": [
       {
@@ -1099,10 +1099,6 @@
       {
         "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
         "url": "https://arxiv.org/abs/2603.09471v1"
-      },
-      {
-        "title": "F16/z-image-turbo-sda",
-        "url": "https://huggingface.co/F16/z-image-turbo-sda"
       }
     ],
     "reasoning": [
@@ -1349,6 +1345,10 @@
       {
         "title": "On the Structural Failure of Chamfer Distance in 3D Shape Optimization",
         "url": "https://arxiv.org/abs/2603.09925v1"
+      },
+      {
+        "title": "ishiki-labs/qwen2.5-7b-friends-reasoning",
+        "url": "https://huggingface.co/ishiki-labs/qwen2.5-7b-friends-reasoning"
       }
     ],
     "benchmarks": [
@@ -1827,13 +1827,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1873,7 +1873,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 33,
+      "frequency": 34,
       "significance": "high"
     }
   ],
