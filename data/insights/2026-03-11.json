@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T14:03:47.863973",
+  "date": "2026-03-11T15:43:05.204149",
   "patterns": {
     "multimodal_research": [
       {
@@ -391,6 +391,10 @@
       {
         "title": "OTPL-VIO: Robust Visual-Inertial Odometry with Optimal Transport Line Association and Adaptive Uncertainty",
         "url": "https://arxiv.org/abs/2603.09653v1"
+      },
+      {
+        "title": "MasterMIARFID/EfficientNetV2-BodyFat-Regressor",
+        "url": "https://huggingface.co/MasterMIARFID/EfficientNetV2-BodyFat-Regressor"
       }
     ],
     "language_models": [
@@ -1099,10 +1103,6 @@
       {
         "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
         "url": "https://arxiv.org/abs/2603.09471v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1809,7 +1809,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "60 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1827,7 +1827,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
