@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-11T16:45:12.245040",
+  "date": "2026-03-11T17:45:42.711636",
   "patterns": {
     "multimodal_research": [
       {
@@ -391,6 +391,10 @@
       {
         "title": "OTPL-VIO: Robust Visual-Inertial Odometry with Optimal Transport Line Association and Adaptive Uncertainty",
         "url": "https://arxiv.org/abs/2603.09653v1"
+      },
+      {
+        "title": "MasterMIARFID/EfficientNetV2-BodyFat-Regressor",
+        "url": "https://huggingface.co/MasterMIARFID/EfficientNetV2-BodyFat-Regressor"
       }
     ],
     "language_models": [
@@ -781,22 +785,6 @@
       {
         "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
         "url": "https://arxiv.org/abs/2603.09471v1"
-      },
-      {
-        "title": "MAJ853212/xlm_roberta_fake_news_detection",
-        "url": "https://huggingface.co/MAJ853212/xlm_roberta_fake_news_detection"
-      },
-      {
-        "title": "akseljoonas/f2llm-sentiment-ablation-B",
-        "url": "https://huggingface.co/akseljoonas/f2llm-sentiment-ablation-B"
-      },
-      {
-        "title": "akseljoonas/f2llm-sentiment-ablation-E",
-        "url": "https://huggingface.co/akseljoonas/f2llm-sentiment-ablation-E"
-      },
-      {
-        "title": "akseljoonas/f2llm-sentiment-ablation-D",
-        "url": "https://huggingface.co/akseljoonas/f2llm-sentiment-ablation-D"
       }
     ],
     "vision_systems": [
@@ -1115,6 +1103,14 @@
       {
         "title": "OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks",
         "url": "https://arxiv.org/abs/2603.09471v1"
+      },
+      {
+        "title": "adpretko/riscv_to_armv8_qwen25coder_1p5b_full",
+        "url": "https://huggingface.co/adpretko/riscv_to_armv8_qwen25coder_1p5b_full"
+      },
+      {
+        "title": "adpretko/armv8_to_riscv_qwen25coder_1p5b_full",
+        "url": "https://huggingface.co/adpretko/armv8_to_riscv_qwen25coder_1p5b_full"
       }
     ],
     "reasoning": [
@@ -1363,8 +1359,8 @@
         "url": "https://arxiv.org/abs/2603.09925v1"
       },
       {
-        "title": "icecee/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-Fix",
-        "url": "https://huggingface.co/icecee/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-Fix"
+        "title": "ayunami2000/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic",
+        "url": "https://huggingface.co/ayunami2000/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-v2-heretic"
       }
     ],
     "benchmarks": [
@@ -1825,7 +1821,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "60 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1837,13 +1833,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "79 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1896,6 +1892,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 449
+    "total_papers": 448
   }
 }
