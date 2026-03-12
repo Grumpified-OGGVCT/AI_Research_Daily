@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-12T07:43:27.907545",
+  "date": "2026-03-12T08:37:15.313639",
   "patterns": {
     "multimodal_research": [
       {
@@ -311,10 +311,6 @@
       {
         "title": "An FPGA Implementation of Displacement Vector Search for Intra Pattern Copy in JPEG XS",
         "url": "https://arxiv.org/abs/2603.10671v1"
-      },
-      {
-        "title": "MinhLe999/3class_EfficientFormer30M_ForTesting",
-        "url": "https://huggingface.co/MinhLe999/3class_EfficientFormer30M_ForTesting"
       },
       {
         "title": "Event-based Photometric Stereo via Rotating Illumination and Per-Pixel Learning",
@@ -639,8 +635,8 @@
         "url": "https://arxiv.org/abs/2603.10965v1"
       },
       {
-        "title": "notd5a/deberta-v3-malicious-sms-mms-detector-v0.2.1",
-        "url": "https://huggingface.co/notd5a/deberta-v3-malicious-sms-mms-detector-v0.2.1"
+        "title": "vishwajeet456/distilbert-it-support-classifier",
+        "url": "https://huggingface.co/vishwajeet456/distilbert-it-support-classifier"
       }
     ],
     "vision_systems": [
@@ -1193,10 +1189,6 @@
       {
         "title": "eLasmobranc Dataset: An Image Dataset for Elasmobranch Species Recognition and Biodiversity Monitoring",
         "url": "https://arxiv.org/abs/2603.10724v1"
-      },
-      {
-        "title": "inferencerlabs/NVIDIA-Nemotron-3-Super-120B-A12B-MLX-9bit",
-        "url": "https://huggingface.co/inferencerlabs/NVIDIA-Nemotron-3-Super-120B-A12B-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1641,7 +1633,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "54 independent papers",
+      "observation": "53 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1665,7 +1657,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "60 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,6 +1704,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 401
   }
 }
