@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-12T17:46:23.888221",
+  "date": "2026-03-12T18:45:15.323339",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,6 +633,14 @@
       {
         "title": "Contrastive learning-based video quality assessment-jointed video vision transformer for video recognition",
         "url": "https://arxiv.org/abs/2603.10965v1"
+      },
+      {
+        "title": "eastlondoner/wasm-interpreter-transformer",
+        "url": "https://huggingface.co/eastlondoner/wasm-interpreter-transformer"
+      },
+      {
+        "title": "huggingface/transformers-metadata",
+        "url": "https://huggingface.co/datasets/huggingface/transformers-metadata"
       }
     ],
     "vision_systems": [
@@ -947,6 +955,14 @@
       {
         "title": "Bioinspired CNNs for border completion in occluded images",
         "url": "https://arxiv.org/abs/2603.10694v1"
+      },
+      {
+        "title": "phunganhsang/Revision_Meta_XLM",
+        "url": "https://huggingface.co/phunganhsang/Revision_Meta_XLM"
+      },
+      {
+        "title": "furaidosu/tcs-qwen-image-2512",
+        "url": "https://huggingface.co/furaidosu/tcs-qwen-image-2512"
       }
     ],
     "reasoning": [
@@ -1641,13 +1657,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "78 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1688,7 +1704,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 32,
+      "frequency": 33,
       "significance": "high"
     },
     {
@@ -1700,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 400
+    "total_papers": 404
   }
 }
