@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-12T21:28:51.634108",
+  "date": "2026-03-12T22:20:53.332819",
   "patterns": {
     "multimodal_research": [
       {
@@ -951,10 +951,6 @@
       {
         "title": "Bioinspired CNNs for border completion in occluded images",
         "url": "https://arxiv.org/abs/2603.10694v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1655,7 +1651,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "79 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1691,7 +1687,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 39,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1708,6 +1704,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 401
   }
 }
