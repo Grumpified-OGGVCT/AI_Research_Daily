@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-12T11:29:59.875457",
+  "date": "2026-03-12T12:44:31.989282",
   "patterns": {
     "multimodal_research": [
       {
@@ -947,10 +947,6 @@
       {
         "title": "Bioinspired CNNs for border completion in occluded images",
         "url": "https://arxiv.org/abs/2603.10694v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1189,10 +1185,6 @@
       {
         "title": "eLasmobranc Dataset: An Image Dataset for Elasmobranch Species Recognition and Biodiversity Monitoring",
         "url": "https://arxiv.org/abs/2603.10724v1"
-      },
-      {
-        "title": "inference-optimization/Qwen3-Next-80B-A3B-Instruct_mtp_speculator",
-        "url": "https://huggingface.co/inference-optimization/Qwen3-Next-80B-A3B-Instruct_mtp_speculator"
       }
     ],
     "benchmarks": [
@@ -1619,10 +1611,6 @@
       {
         "title": "Too Vivid to Be Real? Benchmarking and Calibrating Generative Color Fidelity",
         "url": "https://arxiv.org/abs/2603.10990v1"
-      },
-      {
-        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1659,13 +1647,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "79 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "60 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1677,7 +1665,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "107 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1712,6 +1700,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 400
   }
 }
