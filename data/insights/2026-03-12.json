@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-12T20:29:57.695301",
+  "date": "2026-03-12T21:28:51.634108",
   "patterns": {
     "multimodal_research": [
       {
@@ -637,10 +637,6 @@
       {
         "title": "mradermacher/GPT-OSS-Cybersecurity-20B-Merged-heretic-i1-GGUF",
         "url": "https://huggingface.co/mradermacher/GPT-OSS-Cybersecurity-20B-Merged-heretic-i1-GGUF"
-      },
-      {
-        "title": "mradermacher/GPT-OSS-Cybersecurity-20B-Merged-heretic-GGUF",
-        "url": "https://huggingface.co/mradermacher/GPT-OSS-Cybersecurity-20B-Merged-heretic-GGUF"
       }
     ],
     "vision_systems": [
@@ -959,10 +955,6 @@
       {
         "title": "nphSi/Z-Image-Lora",
         "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "manurajcv/bruckeai-legal-merged",
-        "url": "https://huggingface.co/manurajcv/bruckeai-legal-merged"
       }
     ],
     "reasoning": [
@@ -1657,13 +1649,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1708,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 402
   }
 }
