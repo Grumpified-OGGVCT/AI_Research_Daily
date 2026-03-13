@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-13T08:35:06.958091",
+  "date": "2026-03-13T09:35:19.186877",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,16 +731,12 @@
         "url": "https://arxiv.org/abs/2603.12266v1"
       },
       {
-        "title": "Abdoul27/babyhubert-phoneme-base",
-        "url": "https://huggingface.co/Abdoul27/babyhubert-phoneme-base"
+        "title": "bishal965/psycho-gpt-v2",
+        "url": "https://huggingface.co/bishal965/psycho-gpt-v2"
       },
       {
-        "title": "aluha501/xlm-roberta-base-fabric-1",
-        "url": "https://huggingface.co/aluha501/xlm-roberta-base-fabric-1"
-      },
-      {
-        "title": "RonTon05/Revision_XLMRoBERTa_Lexical_Dataset_46k_NewType",
-        "url": "https://huggingface.co/RonTon05/Revision_XLMRoBERTa_Lexical_Dataset_46k_NewType"
+        "title": "rudyon/rudygpt",
+        "url": "https://huggingface.co/rudyon/rudygpt"
       }
     ],
     "vision_systems": [
@@ -1053,8 +1049,8 @@
         "url": "https://arxiv.org/abs/2603.11888v1"
       },
       {
-        "title": "RonTon05/Revision_XLMRoBERTa_Lexical_Dataset_46k_NewType",
-        "url": "https://huggingface.co/RonTon05/Revision_XLMRoBERTa_Lexical_Dataset_46k_NewType"
+        "title": "ZahedRCV/airline-rl-tuned",
+        "url": "https://huggingface.co/ZahedRCV/airline-rl-tuned"
       }
     ],
     "reasoning": [
@@ -1761,7 +1757,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,14 +1808,14 @@
       "significance": "high"
     },
     {
-      "topic": "vision",
-      "frequency": 33,
+      "topic": "architecture",
+      "frequency": 32,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 429
   }
 }
