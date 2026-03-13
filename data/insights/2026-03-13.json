@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-13T07:42:01.242325",
+  "date": "2026-03-13T08:35:06.958091",
   "patterns": {
     "multimodal_research": [
       {
@@ -729,6 +729,18 @@
       {
         "title": "MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning",
         "url": "https://arxiv.org/abs/2603.12266v1"
+      },
+      {
+        "title": "Abdoul27/babyhubert-phoneme-base",
+        "url": "https://huggingface.co/Abdoul27/babyhubert-phoneme-base"
+      },
+      {
+        "title": "aluha501/xlm-roberta-base-fabric-1",
+        "url": "https://huggingface.co/aluha501/xlm-roberta-base-fabric-1"
+      },
+      {
+        "title": "RonTon05/Revision_XLMRoBERTa_Lexical_Dataset_46k_NewType",
+        "url": "https://huggingface.co/RonTon05/Revision_XLMRoBERTa_Lexical_Dataset_46k_NewType"
       }
     ],
     "vision_systems": [
@@ -1039,6 +1051,10 @@
       {
         "title": "Single-View Rolling-Shutter SfM",
         "url": "https://arxiv.org/abs/2603.11888v1"
+      },
+      {
+        "title": "RonTon05/Revision_XLMRoBERTa_Lexical_Dataset_46k_NewType",
+        "url": "https://huggingface.co/RonTon05/Revision_XLMRoBERTa_Lexical_Dataset_46k_NewType"
       }
     ],
     "reasoning": [
@@ -1745,13 +1761,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,14 +1812,14 @@
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 32,
+      "topic": "vision",
+      "frequency": 33,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 430
   }
 }
