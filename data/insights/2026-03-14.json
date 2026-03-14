@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-14T22:21:27.868361",
+  "date": "2026-03-14T23:23:19.025566",
   "patterns": {
     "multimodal_research": [
       {
@@ -1039,6 +1039,10 @@
       {
         "title": "Single-View Rolling-Shutter SfM",
         "url": "https://arxiv.org/abs/2603.11888v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1309,6 +1313,10 @@
       {
         "title": "MM-CondChain: A Programmatically Verified Benchmark for Visually Grounded Deep Compositional Reasoning",
         "url": "https://arxiv.org/abs/2603.12266v1"
+      },
+      {
+        "title": "theinferenceloop/vektor-guard-v1",
+        "url": "https://huggingface.co/theinferenceloop/vektor-guard-v1"
       }
     ],
     "benchmarks": [
@@ -1751,13 +1759,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 428
   }
 }
