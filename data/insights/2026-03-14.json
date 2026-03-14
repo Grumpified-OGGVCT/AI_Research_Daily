@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-14T17:24:10.137490",
+  "date": "2026-03-14T18:30:25.522180",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,12 +731,12 @@
         "url": "https://arxiv.org/abs/2603.12266v1"
       },
       {
-        "title": "PK9129/gpt2-fineweb-checkpoints",
-        "url": "https://huggingface.co/PK9129/gpt2-fineweb-checkpoints"
+        "title": "EduGnu/xlm-roberta-intent-classifier_v3",
+        "url": "https://huggingface.co/EduGnu/xlm-roberta-intent-classifier_v3"
       },
       {
-        "title": "militabriz/linkedin-sentiment-bert",
-        "url": "https://huggingface.co/militabriz/linkedin-sentiment-bert"
+        "title": "PK9129/gpt2-fineweb-checkpoints",
+        "url": "https://huggingface.co/PK9129/gpt2-fineweb-checkpoints"
       }
     ],
     "vision_systems": [
@@ -1047,6 +1047,10 @@
       {
         "title": "Single-View Rolling-Shutter SfM",
         "url": "https://arxiv.org/abs/2603.11888v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1759,7 +1763,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 429
   }
 }
