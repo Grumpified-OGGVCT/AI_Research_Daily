@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-14T08:30:09.249558",
+  "date": "2026-03-14T09:28:44.040900",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,8 +731,8 @@
         "url": "https://arxiv.org/abs/2603.12266v1"
       },
       {
-        "title": "SRegit/DistilBERT-AGNews",
-        "url": "https://huggingface.co/SRegit/DistilBERT-AGNews"
+        "title": "PK9129/gpt2-fineweb-checkpoints",
+        "url": "https://huggingface.co/PK9129/gpt2-fineweb-checkpoints"
       }
     ],
     "vision_systems": [
@@ -1043,6 +1043,10 @@
       {
         "title": "Single-View Rolling-Shutter SfM",
         "url": "https://arxiv.org/abs/2603.11888v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1755,7 +1759,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 428
   }
 }
