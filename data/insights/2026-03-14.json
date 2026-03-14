@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-14T09:28:44.040900",
+  "date": "2026-03-14T10:23:45.174916",
   "patterns": {
     "multimodal_research": [
       {
@@ -733,6 +733,10 @@
       {
         "title": "PK9129/gpt2-fineweb-checkpoints",
         "url": "https://huggingface.co/PK9129/gpt2-fineweb-checkpoints"
+      },
+      {
+        "title": "usmanmanzoor/biogpt-radiotherapy",
+        "url": "https://huggingface.co/usmanmanzoor/biogpt-radiotherapy"
       }
     ],
     "vision_systems": [
@@ -1047,6 +1051,10 @@
       {
         "title": "nphSi/Z-Image-Lora",
         "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora-BSides",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora-BSides"
       }
     ],
     "reasoning": [
@@ -1753,13 +1761,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1820,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 430
   }
 }
