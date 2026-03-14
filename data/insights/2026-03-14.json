@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-14T11:20:46.215355",
+  "date": "2026-03-14T12:37:22.112859",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,12 +731,8 @@
         "url": "https://arxiv.org/abs/2603.12266v1"
       },
       {
-        "title": "nishantup/nanogpt-pretrained-slm-tinystories-124m",
-        "url": "https://huggingface.co/nishantup/nanogpt-pretrained-slm-tinystories-124m"
-      },
-      {
-        "title": "PK9129/gpt2-fineweb-checkpoints",
-        "url": "https://huggingface.co/PK9129/gpt2-fineweb-checkpoints"
+        "title": "ericlewis/infinite-craft-smollm2-360m-mixed-500k-ft",
+        "url": "https://huggingface.co/ericlewis/infinite-craft-smollm2-360m-mixed-500k-ft"
       }
     ],
     "vision_systems": [
@@ -1753,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 427
   }
 }
