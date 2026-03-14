@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-14T13:42:40.609344",
+  "date": "2026-03-14T14:23:52.138020",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,8 +731,12 @@
         "url": "https://arxiv.org/abs/2603.12266v1"
       },
       {
-        "title": "hotmalau/smollm2-hot-360m",
-        "url": "https://huggingface.co/hotmalau/smollm2-hot-360m"
+        "title": "Conlanger-LLM-CLEM/Nelya-neko-1b",
+        "url": "https://huggingface.co/Conlanger-LLM-CLEM/Nelya-neko-1b"
+      },
+      {
+        "title": "MXFP4Community/SmolLM3-3B-MXFP4-MLX",
+        "url": "https://huggingface.co/MXFP4Community/SmolLM3-3B-MXFP4-MLX"
       },
       {
         "title": "ericlewis/infinite-craft-smollm2-360m-mixed-500k-ft",
@@ -1757,7 +1761,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1820,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 430
   }
 }
