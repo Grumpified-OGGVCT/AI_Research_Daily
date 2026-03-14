@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-14T10:23:45.174916",
+  "date": "2026-03-14T11:20:46.215355",
   "patterns": {
     "multimodal_research": [
       {
@@ -731,12 +731,12 @@
         "url": "https://arxiv.org/abs/2603.12266v1"
       },
       {
-        "title": "PK9129/gpt2-fineweb-checkpoints",
-        "url": "https://huggingface.co/PK9129/gpt2-fineweb-checkpoints"
+        "title": "nishantup/nanogpt-pretrained-slm-tinystories-124m",
+        "url": "https://huggingface.co/nishantup/nanogpt-pretrained-slm-tinystories-124m"
       },
       {
-        "title": "usmanmanzoor/biogpt-radiotherapy",
-        "url": "https://huggingface.co/usmanmanzoor/biogpt-radiotherapy"
+        "title": "PK9129/gpt2-fineweb-checkpoints",
+        "url": "https://huggingface.co/PK9129/gpt2-fineweb-checkpoints"
       }
     ],
     "vision_systems": [
@@ -1047,14 +1047,6 @@
       {
         "title": "Single-View Rolling-Shutter SfM",
         "url": "https://arxiv.org/abs/2603.11888v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora-BSides",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora-BSides"
       }
     ],
     "reasoning": [
@@ -1767,7 +1759,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "79 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1820,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 428
   }
 }
