@@ -1,25 +1,29 @@
 {
-  "date": "2026-03-15T22:22:10.501356",
+  "date": "2026-03-15T23:25:06.247168",
   "patterns": {
     "language_models": [
       {
-        "title": "FriezaForce/tvl-en-llm-translation-stage-b-llama8b",
-        "url": "https://huggingface.co/FriezaForce/tvl-en-llm-translation-stage-b-llama8b"
+        "title": "PK9129/FineWebGPT-model",
+        "url": "https://huggingface.co/PK9129/FineWebGPT-model"
       },
       {
-        "title": "FriezaForce/tvl-en-llm-translation-stage-a",
-        "url": "https://huggingface.co/FriezaForce/tvl-en-llm-translation-stage-a"
+        "title": "MXFP4Community/SmolLM3-3B-MXFP4-MLX",
+        "url": "https://huggingface.co/MXFP4Community/SmolLM3-3B-MXFP4-MLX"
       },
       {
-        "title": "yarinds/bert-base-squad2-yarin",
-        "url": "https://huggingface.co/yarinds/bert-base-squad2-yarin"
+        "title": "MXFP4Community/gpt-oss-20b-MXFP4-MLX",
+        "url": "https://huggingface.co/MXFP4Community/gpt-oss-20b-MXFP4-MLX"
+      },
+      {
+        "title": "ericlewis/infinite-craft-smollm2-1.7b-mixed-nothing-boosted-ft",
+        "url": "https://huggingface.co/ericlewis/infinite-craft-smollm2-1.7b-mixed-nothing-boosted-ft"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "3 related papers",
+      "observation": "4 related papers",
       "inference": "Emerging interest in Language Models - monitor for breakthrough results",
       "confidence": "medium"
     }
@@ -28,6 +32,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 3
+    "total_papers": 4
   }
 }
