@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-15T16:26:49.180283",
-  "patterns": {},
+  "date": "2026-03-15T17:23:44.685032",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "aakthepaak/clinical-llm-r32",
+        "url": "https://huggingface.co/aakthepaak/clinical-llm-r32"
+      },
+      {
+        "title": "Univars/k-gpt-v1",
+        "url": "https://huggingface.co/Univars/k-gpt-v1"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
