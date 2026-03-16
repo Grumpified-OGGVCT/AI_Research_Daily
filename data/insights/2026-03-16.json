@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-16T04:37:30.067737",
-  "patterns": {},
+  "date": "2026-03-16T06:18:28.499279",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Univars/k-gpt-v1",
+        "url": "https://huggingface.co/Univars/k-gpt-v1"
+      },
+      {
+        "title": "dataslab/DNA-2.1-14B-GPTQ",
+        "url": "https://huggingface.co/dataslab/DNA-2.1-14B-GPTQ"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
