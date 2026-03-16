@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-16T20:33:19.637421",
-  "patterns": {},
+  "date": "2026-03-16T21:35:00.790441",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Saumya3007/en-hi-transformer-tuned",
+        "url": "https://huggingface.co/Saumya3007/en-hi-transformer-tuned"
+      },
+      {
+        "title": "canl0we/clasificador-modernbert",
+        "url": "https://huggingface.co/canl0we/clasificador-modernbert"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
