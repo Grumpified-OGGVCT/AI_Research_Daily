@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-16T08:06:16.844800",
-  "patterns": {},
+  "date": "2026-03-16T10:01:28.617770",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "mnguyn11/phobert-stock-sentiment-PTDLW",
+        "url": "https://huggingface.co/mnguyn11/phobert-stock-sentiment-PTDLW"
+      },
+      {
+        "title": "amitca71/marbertv2-levantine-incitement-detector-cls-mean-max",
+        "url": "https://huggingface.co/amitca71/marbertv2-levantine-incitement-detector-cls-mean-max"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
