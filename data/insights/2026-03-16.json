@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-16T14:20:43.741287",
-  "patterns": {},
+  "date": "2026-03-16T16:01:28.272287",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "notd5a/deberta-v3-malicious-sms-mms-detector-v0.3",
+        "url": "https://huggingface.co/notd5a/deberta-v3-malicious-sms-mms-detector-v0.3"
+      },
+      {
+        "title": "nishantup/nanogpt-slm-tinystories-instruct",
+        "url": "https://huggingface.co/nishantup/nanogpt-slm-tinystories-instruct"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
