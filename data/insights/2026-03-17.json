@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-17T10:45:12.678451",
+  "date": "2026-03-17T11:41:17.522666",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,22 +669,6 @@
       {
         "title": "A Tutorial on ALOS2 SAR Utilization: Dataset Preparation, Self-Supervised Pretraining, and Semantic Segmentation",
         "url": "https://arxiv.org/abs/2603.15119v1"
-      },
-      {
-        "title": "didula-wso2/Qwen3-4B_julia_alpaca_extendedsft_16bit_vllm",
-        "url": "https://huggingface.co/didula-wso2/Qwen3-4B_julia_alpaca_extendedsft_16bit_vllm"
-      },
-      {
-        "title": "llmfan46/GLM-4-32B-0414-uncensored-heretic-v2",
-        "url": "https://huggingface.co/llmfan46/GLM-4-32B-0414-uncensored-heretic-v2"
-      },
-      {
-        "title": "llmfan46/GLM-4-32B-0414-uncensored-heretic-v1",
-        "url": "https://huggingface.co/llmfan46/GLM-4-32B-0414-uncensored-heretic-v1"
-      },
-      {
-        "title": "DPhO05/roberta-natf-SATD",
-        "url": "https://huggingface.co/DPhO05/roberta-natf-SATD"
       }
     ],
     "vision_systems": [
@@ -1709,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1768,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 417
+    "total_papers": 413
   }
 }
