@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-17T12:58:33.048700",
+  "date": "2026-03-17T14:18:57.101258",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,12 +671,12 @@
         "url": "https://arxiv.org/abs/2603.15119v1"
       },
       {
-        "title": "llmfan46/GLM-4-32B-0414-uncensored-heretic-v1-GGUF",
-        "url": "https://huggingface.co/llmfan46/GLM-4-32B-0414-uncensored-heretic-v1-GGUF"
+        "title": "OyellaA/W2V2_Bert_cdli_ugandan_english_nonstandard_speech_finetune_v1",
+        "url": "https://huggingface.co/OyellaA/W2V2_Bert_cdli_ugandan_english_nonstandard_speech_finetune_v1"
       },
       {
-        "title": "akseljoonas/biotech-sentiment-v3-A-deberta-v3-large",
-        "url": "https://huggingface.co/akseljoonas/biotech-sentiment-v3-A-deberta-v3-large"
+        "title": "brsx-labs/gpt2_multi_channel_reasoning_pipeline",
+        "url": "https://huggingface.co/brsx-labs/gpt2_multi_channel_reasoning_pipeline"
       }
     ],
     "vision_systems": [
@@ -1289,6 +1289,10 @@
       {
         "title": "PAKAN: Pixel Adaptive Kolmogorov-Arnold Network Modules for Pansharpening",
         "url": "https://arxiv.org/abs/2603.15109v1"
+      },
+      {
+        "title": "brsx-labs/gpt2_multi_channel_reasoning_pipeline",
+        "url": "https://huggingface.co/brsx-labs/gpt2_multi_channel_reasoning_pipeline"
       }
     ],
     "benchmarks": [
@@ -1713,7 +1717,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1742,13 +1746,13 @@
       "significance": "high"
     },
     {
-      "topic": "architecture",
+      "topic": "reasoning",
       "frequency": 37,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 36,
+      "topic": "architecture",
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1760,6 +1764,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 416
   }
 }
