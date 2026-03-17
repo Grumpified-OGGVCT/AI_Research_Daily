@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-17T11:41:17.522666",
+  "date": "2026-03-17T12:58:33.048700",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,6 +669,14 @@
       {
         "title": "A Tutorial on ALOS2 SAR Utilization: Dataset Preparation, Self-Supervised Pretraining, and Semantic Segmentation",
         "url": "https://arxiv.org/abs/2603.15119v1"
+      },
+      {
+        "title": "llmfan46/GLM-4-32B-0414-uncensored-heretic-v1-GGUF",
+        "url": "https://huggingface.co/llmfan46/GLM-4-32B-0414-uncensored-heretic-v1-GGUF"
+      },
+      {
+        "title": "akseljoonas/biotech-sentiment-v3-A-deberta-v3-large",
+        "url": "https://huggingface.co/akseljoonas/biotech-sentiment-v3-A-deberta-v3-large"
       }
     ],
     "vision_systems": [
@@ -1693,7 +1701,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1752,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 415
   }
 }
