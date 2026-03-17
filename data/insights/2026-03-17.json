@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-17T14:18:57.101258",
+  "date": "2026-03-17T16:01:04.220669",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,12 +671,8 @@
         "url": "https://arxiv.org/abs/2603.15119v1"
       },
       {
-        "title": "OyellaA/W2V2_Bert_cdli_ugandan_english_nonstandard_speech_finetune_v1",
-        "url": "https://huggingface.co/OyellaA/W2V2_Bert_cdli_ugandan_english_nonstandard_speech_finetune_v1"
-      },
-      {
-        "title": "brsx-labs/gpt2_multi_channel_reasoning_pipeline",
-        "url": "https://huggingface.co/brsx-labs/gpt2_multi_channel_reasoning_pipeline"
+        "title": "ngducloc1112002/roberta_large_satd_mal62k",
+        "url": "https://huggingface.co/ngducloc1112002/roberta_large_satd_mal62k"
       }
     ],
     "vision_systems": [
@@ -1289,10 +1285,6 @@
       {
         "title": "PAKAN: Pixel Adaptive Kolmogorov-Arnold Network Modules for Pansharpening",
         "url": "https://arxiv.org/abs/2603.15109v1"
-      },
-      {
-        "title": "brsx-labs/gpt2_multi_channel_reasoning_pipeline",
-        "url": "https://huggingface.co/brsx-labs/gpt2_multi_channel_reasoning_pipeline"
       }
     ],
     "benchmarks": [
@@ -1705,7 +1697,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1717,7 +1709,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1746,13 +1738,13 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "architecture",
       "frequency": 37,
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 37,
+      "topic": "reasoning",
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1764,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 414
   }
 }
