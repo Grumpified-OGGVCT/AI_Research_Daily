@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-17T19:52:59.498074",
+  "date": "2026-03-17T20:34:34.200204",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,6 +669,10 @@
       {
         "title": "A Tutorial on ALOS2 SAR Utilization: Dataset Preparation, Self-Supervised Pretraining, and Semantic Segmentation",
         "url": "https://arxiv.org/abs/2603.15119v1"
+      },
+      {
+        "title": "happyme531/Qwen3-ASR-1.7B-RKLLM",
+        "url": "https://huggingface.co/happyme531/Qwen3-ASR-1.7B-RKLLM"
       }
     ],
     "vision_systems": [
@@ -1281,10 +1285,6 @@
       {
         "title": "PAKAN: Pixel Adaptive Kolmogorov-Arnold Network Modules for Pansharpening",
         "url": "https://arxiv.org/abs/2603.15109v1"
-      },
-      {
-        "title": "inferencerlabs/Mistral-Small-4-119B-2603-MLX-VLM-9bit",
-        "url": "https://huggingface.co/inferencerlabs/Mistral-Small-4-119B-2603-MLX-VLM-9bit"
       }
     ],
     "benchmarks": [
@@ -1697,7 +1697,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,7 +1709,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
