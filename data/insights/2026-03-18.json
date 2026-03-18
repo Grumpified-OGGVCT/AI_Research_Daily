@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-18T18:55:16.002366",
+  "date": "2026-03-18T19:46:57.632226",
   "patterns": {
     "multimodal_research": [
       {
@@ -737,14 +737,6 @@
       {
         "title": "What DINO saw: ALiBi positional encoding reduces positional bias in Vision Transformers",
         "url": "https://arxiv.org/abs/2603.16840v1"
-      },
-      {
-        "title": "m25csa001/transformer-en-hi",
-        "url": "https://huggingface.co/m25csa001/transformer-en-hi"
-      },
-      {
-        "title": "madeofajala/LlaSMol-Mistral-7B_LLM_Malaria_split_1_merged",
-        "url": "https://huggingface.co/madeofajala/LlaSMol-Mistral-7B_LLM_Malaria_split_1_merged"
       }
     ],
     "vision_systems": [
@@ -1067,6 +1059,10 @@
       {
         "title": "What DINO saw: ALiBi positional encoding reduces positional bias in Vision Transformers",
         "url": "https://arxiv.org/abs/2603.16840v1"
+      },
+      {
+        "title": "Kazuki1450/Qwen3-1.7B-Base_csum_3_10_tok_division_1p0_0p0_1p0_grpo_42_rule",
+        "url": "https://huggingface.co/Kazuki1450/Qwen3-1.7B-Base_csum_3_10_tok_division_1p0_0p0_1p0_grpo_42_rule"
       }
     ],
     "reasoning": [
@@ -1829,13 +1825,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1881,13 +1877,13 @@
     },
     {
       "topic": "vision",
-      "frequency": 32,
+      "frequency": 33,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 446
   }
 }
