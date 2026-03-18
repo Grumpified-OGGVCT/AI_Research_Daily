@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-18T04:20:55.746474",
+  "date": "2026-03-18T06:00:58.475006",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,6 +727,10 @@
         "url": "https://arxiv.org/abs/2603.16429v1"
       },
       {
+        "title": "TAKAYUKI-10/distilbert-base-uncased-finetuned-fake-or-real-news",
+        "url": "https://huggingface.co/TAKAYUKI-10/distilbert-base-uncased-finetuned-fake-or-real-news"
+      },
+      {
         "title": "Segmentation-Based Attention Entropy: Detecting and Mitigating Object Hallucinations in Large Vision-Language Models",
         "url": "https://arxiv.org/abs/2603.16558v1"
       },
@@ -737,14 +741,6 @@
       {
         "title": "What DINO saw: ALiBi positional encoding reduces positional bias in Vision Transformers",
         "url": "https://arxiv.org/abs/2603.16840v1"
-      },
-      {
-        "title": "myemfar/distilbert-multitask",
-        "url": "https://huggingface.co/myemfar/distilbert-multitask"
-      },
-      {
-        "title": "didula-wso2/Qwen3-8B_julia_alpaca_extendedsft_16bit_vllm",
-        "url": "https://huggingface.co/didula-wso2/Qwen3-8B_julia_alpaca_extendedsft_16bit_vllm"
       }
     ],
     "vision_systems": [
@@ -1829,7 +1825,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1888,6 +1884,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 446
   }
 }
