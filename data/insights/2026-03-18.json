@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-18T10:46:02.416303",
+  "date": "2026-03-18T11:42:29.219829",
   "patterns": {
     "multimodal_research": [
       {
@@ -371,6 +371,10 @@
       {
         "title": "Linearized Bregman Iterations for Sparse Spiking Neural Networks",
         "url": "https://arxiv.org/abs/2603.16462v1"
+      },
+      {
+        "title": "Tuankhong/efficientNet-B5_KneeXpert",
+        "url": "https://huggingface.co/Tuankhong/efficientNet-B5_KneeXpert"
       }
     ],
     "language_models": [
@@ -739,8 +743,8 @@
         "url": "https://arxiv.org/abs/2603.16840v1"
       },
       {
-        "title": "jhj664/distilbert-rotten-tomatoes",
-        "url": "https://huggingface.co/jhj664/distilbert-rotten-tomatoes"
+        "title": "megan21/roberta-finetune-movie-reviews-sentiment-analysis",
+        "url": "https://huggingface.co/megan21/roberta-finetune-movie-reviews-sentiment-analysis"
       }
     ],
     "vision_systems": [
@@ -1817,7 +1821,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "63 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1888,6 +1892,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 448
   }
 }
