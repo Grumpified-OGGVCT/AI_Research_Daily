@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-18T07:07:28.791323",
+  "date": "2026-03-18T08:42:05.028717",
   "patterns": {
     "multimodal_research": [
       {
@@ -1059,10 +1059,6 @@
       {
         "title": "What DINO saw: ALiBi positional encoding reduces positional bias in Vision Transformers",
         "url": "https://arxiv.org/abs/2603.16840v1"
-      },
-      {
-        "title": "cheongmyeong17/Qwen3-8B-CVAPO-EP8-G16",
-        "url": "https://huggingface.co/cheongmyeong17/Qwen3-8B-CVAPO-EP8-G16"
       }
     ],
     "reasoning": [
@@ -1377,10 +1373,6 @@
       {
         "title": "HistoAtlas: A Pan-Cancer Morphology Atlas Linking Histomics to Molecular Programs and Clinical Outcomes",
         "url": "https://arxiv.org/abs/2603.16587v1"
-      },
-      {
-        "title": "diogoxiang/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-        "url": "https://huggingface.co/diogoxiang/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1835,13 +1827,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "79 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1876,7 +1868,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 37,
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1888,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 445
   }
 }
