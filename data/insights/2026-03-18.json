@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-18T09:47:51.825025",
+  "date": "2026-03-18T10:46:02.416303",
   "patterns": {
     "multimodal_research": [
       {
@@ -739,12 +739,8 @@
         "url": "https://arxiv.org/abs/2603.16840v1"
       },
       {
-        "title": "saifrohan44/distilbert-base-uncased-finetuned-emotion",
-        "url": "https://huggingface.co/saifrohan44/distilbert-base-uncased-finetuned-emotion"
-      },
-      {
-        "title": "xzitao/EnrollmentHelperAll_clean_7B",
-        "url": "https://huggingface.co/xzitao/EnrollmentHelperAll_clean_7B"
+        "title": "jhj664/distilbert-rotten-tomatoes",
+        "url": "https://huggingface.co/jhj664/distilbert-rotten-tomatoes"
       }
     ],
     "vision_systems": [
@@ -1067,6 +1063,10 @@
       {
         "title": "What DINO saw: ALiBi positional encoding reduces positional bias in Vision Transformers",
         "url": "https://arxiv.org/abs/2603.16840v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1829,13 +1829,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
