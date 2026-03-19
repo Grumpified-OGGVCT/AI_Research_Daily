@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-19T04:19:38.089744",
+  "date": "2026-03-19T05:55:52.304223",
   "patterns": {
     "multimodal_research": [
       {
@@ -735,8 +735,8 @@
         "url": "https://arxiv.org/abs/2603.17626v1"
       },
       {
-        "title": "PDml/learn_hf_food_not_food_text_classifier_distilbert_base_uncased",
-        "url": "https://huggingface.co/PDml/learn_hf_food_not_food_text_classifier_distilbert_base_uncased"
+        "title": "kirsten-capangpangan/pace-smollm2-freight-merged",
+        "url": "https://huggingface.co/kirsten-capangpangan/pace-smollm2-freight-merged"
       }
     ],
     "vision_systems": [
@@ -1365,6 +1365,14 @@
       {
         "title": "Noise-Aware Misclassification Attack Detection in Collaborative DNN Inference",
         "url": "https://arxiv.org/abs/2603.17914v1"
+      },
+      {
+        "title": "blobbybob/Nemotron-3-Super-120B-A12B-FP8-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/blobbybob/Nemotron-3-Super-120B-A12B-FP8-Claude-4.6-Opus-Reasoning-Distilled"
+      },
+      {
+        "title": "blobbybob/Nemotron-3-Super-120B-A12B-BF16-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/blobbybob/Nemotron-3-Super-120B-A12B-BF16-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1795,6 +1803,10 @@
       {
         "title": "Noise-Aware Misclassification Attack Detection in Collaborative DNN Inference",
         "url": "https://arxiv.org/abs/2603.17914v1"
+      },
+      {
+        "title": "Jordansky/ginrummy-local-evaluation",
+        "url": "https://huggingface.co/Jordansky/ginrummy-local-evaluation"
       }
     ]
   },
@@ -1837,7 +1849,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1849,7 +1861,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "107 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1877,13 +1889,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 38,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 446
+    "total_papers": 449
   }
 }
