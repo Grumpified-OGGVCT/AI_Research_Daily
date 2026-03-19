@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-19T18:49:13.343179",
+  "date": "2026-03-19T19:44:08.034546",
   "patterns": {
     "multimodal_research": [
       {
@@ -735,12 +735,12 @@
         "url": "https://arxiv.org/abs/2603.17626v1"
       },
       {
-        "title": "PDml/learn_hf_food_not_food_text_classifier_distilbert_base_uncased",
-        "url": "https://huggingface.co/PDml/learn_hf_food_not_food_text_classifier_distilbert_base_uncased"
+        "title": "atekrugis/intent-router-v11-modernbert",
+        "url": "https://huggingface.co/atekrugis/intent-router-v11-modernbert"
       },
       {
-        "title": "didula-wso2/Qwen3-8B_julia_initial-alpaca_cleansft_16bit_vllm",
-        "url": "https://huggingface.co/didula-wso2/Qwen3-8B_julia_initial-alpaca_cleansft_16bit_vllm"
+        "title": "epequeno/legal-entailment-deberta-v3-large",
+        "url": "https://huggingface.co/epequeno/legal-entailment-deberta-v3-large"
       }
     ],
     "vision_systems": [
@@ -1083,10 +1083,6 @@
       {
         "title": "DancingBox: A Lightweight MoCap System for Character Animation from Physical Proxies",
         "url": "https://arxiv.org/abs/2603.17704v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1373,6 +1369,10 @@
       {
         "title": "Noise-Aware Misclassification Attack Detection in Collaborative DNN Inference",
         "url": "https://arxiv.org/abs/2603.17914v1"
+      },
+      {
+        "title": "Greytechai/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/Greytechai/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1839,13 +1839,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1885,7 +1885,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 37,
       "significance": "high"
     }
   ],
