@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-19T10:35:41.425418",
+  "date": "2026-03-19T11:32:42.603958",
   "patterns": {
     "multimodal_research": [
       {
@@ -733,14 +733,6 @@
       {
         "title": "A Multi-Agent System for Building-Age Cohort Mapping to Support Urban Energy Planning",
         "url": "https://arxiv.org/abs/2603.17626v1"
-      },
-      {
-        "title": "atekrugis/intent-router-v11-modernbert",
-        "url": "https://huggingface.co/atekrugis/intent-router-v11-modernbert"
-      },
-      {
-        "title": "mlx-community/gpt-oss-20b-MXFP4-Q8",
-        "url": "https://huggingface.co/mlx-community/gpt-oss-20b-MXFP4-Q8"
       }
     ],
     "vision_systems": [
@@ -1829,7 +1821,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1888,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 445
   }
 }
