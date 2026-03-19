@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-19T12:49:31.608294",
+  "date": "2026-03-19T14:06:43.175436",
   "patterns": {
     "multimodal_research": [
       {
@@ -733,6 +733,10 @@
       {
         "title": "A Multi-Agent System for Building-Age Cohort Mapping to Support Urban Energy Planning",
         "url": "https://arxiv.org/abs/2603.17626v1"
+      },
+      {
+        "title": "larped/SmolLM2-1.7B-Instruct-obliteratus",
+        "url": "https://huggingface.co/larped/SmolLM2-1.7B-Instruct-obliteratus"
       }
     ],
     "vision_systems": [
@@ -1075,6 +1079,10 @@
       {
         "title": "DancingBox: A Lightweight MoCap System for Character Animation from Physical Proxies",
         "url": "https://arxiv.org/abs/2603.17704v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1821,13 +1829,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1880,6 +1888,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 447
   }
 }
