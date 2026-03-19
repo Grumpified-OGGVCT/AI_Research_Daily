@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-19T07:44:35.586680",
+  "date": "2026-03-19T08:37:00.058627",
   "patterns": {
     "multimodal_research": [
       {
@@ -391,10 +391,6 @@
       {
         "title": "VectorWorld: Efficient Streaming World Model via Diffusion Flow on Vector Graphs",
         "url": "https://arxiv.org/abs/2603.17652v1"
-      },
-      {
-        "title": "yxnmei/deepfake-efficientnet",
-        "url": "https://huggingface.co/yxnmei/deepfake-efficientnet"
       }
     ],
     "language_models": [
@@ -1079,10 +1075,6 @@
       {
         "title": "DancingBox: A Lightweight MoCap System for Character Animation from Physical Proxies",
         "url": "https://arxiv.org/abs/2603.17704v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1817,7 +1809,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "56 independent papers",
+      "observation": "55 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1835,7 +1827,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1888,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 445
   }
 }
