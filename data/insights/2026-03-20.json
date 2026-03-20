@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-20T18:40:43.424956",
+  "date": "2026-03-20T19:35:34.542485",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,10 +669,6 @@
       {
         "title": "HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models",
         "url": "https://arxiv.org/abs/2603.18850v1"
-      },
-      {
-        "title": "Orlandovpjunior/bert-classifier-varejo",
-        "url": "https://huggingface.co/Orlandovpjunior/bert-classifier-varejo"
       }
     ],
     "vision_systems": [
@@ -1249,6 +1245,10 @@
       {
         "title": "HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models",
         "url": "https://arxiv.org/abs/2603.18850v1"
+      },
+      {
+        "title": "dschauhan08/phi4-mini-ultra-reasoning",
+        "url": "https://huggingface.co/dschauhan08/phi4-mini-ultra-reasoning"
       }
     ],
     "benchmarks": [
@@ -1663,10 +1663,6 @@
       {
         "title": "A mathematical framework for time-delay reservoir computing analysis",
         "url": "https://arxiv.org/abs/2603.18706v1"
-      },
-      {
-        "title": "waxal-benchmarking/whisper-small-ewe-gbotemi",
-        "url": "https://huggingface.co/waxal-benchmarking/whisper-small-ewe-gbotemi"
       }
     ]
   },
@@ -1697,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,7 +1705,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1721,7 +1717,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "104 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1734,12 +1730,12 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 61,
+      "frequency": 60,
       "significance": "high"
     },
     {
       "topic": "reasoning",
-      "frequency": 42,
+      "frequency": 43,
       "significance": "high"
     },
     {
@@ -1756,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 413
   }
 }
