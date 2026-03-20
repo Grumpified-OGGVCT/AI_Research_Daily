@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-20T12:44:30.568584",
+  "date": "2026-03-20T13:59:12.182896",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,6 +669,18 @@
       {
         "title": "HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models",
         "url": "https://arxiv.org/abs/2603.18850v1"
+      },
+      {
+        "title": "llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v3",
+        "url": "https://huggingface.co/llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v3"
+      },
+      {
+        "title": "llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v2",
+        "url": "https://huggingface.co/llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v2"
+      },
+      {
+        "title": "HFS26/reuters-gpt2-text-gen",
+        "url": "https://huggingface.co/HFS26/reuters-gpt2-text-gen"
       }
     ],
     "vision_systems": [
@@ -1689,7 +1701,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 415
   }
 }
