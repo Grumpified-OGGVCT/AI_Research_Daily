@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-20T22:23:19.155090",
+  "date": "2026-03-20T23:24:26.797506",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,18 +669,6 @@
       {
         "title": "HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models",
         "url": "https://arxiv.org/abs/2603.18850v1"
-      },
-      {
-        "title": "mradermacher/llm-surgery-dark-arts-gpt-oss-60b-96a12-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/llm-surgery-dark-arts-gpt-oss-60b-96a12-i1-GGUF"
-      },
-      {
-        "title": "mradermacher/llm-surgery-dark-arts-gpt-oss-60b-96a12-GGUF",
-        "url": "https://huggingface.co/mradermacher/llm-surgery-dark-arts-gpt-oss-60b-96a12-GGUF"
-      },
-      {
-        "title": "raydelossantos/Qwen3.5-40B-Claude-4.5-Opus-GPTQ-Int4",
-        "url": "https://huggingface.co/raydelossantos/Qwen3.5-40B-Claude-4.5-Opus-GPTQ-Int4"
       }
     ],
     "vision_systems": [
@@ -1701,7 +1689,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1760,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 412
   }
 }
