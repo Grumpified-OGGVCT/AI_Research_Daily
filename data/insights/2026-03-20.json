@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-20T15:38:55.957487",
+  "date": "2026-03-20T16:37:16.696896",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,16 +671,12 @@
         "url": "https://arxiv.org/abs/2603.18850v1"
       },
       {
-        "title": "llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v1",
-        "url": "https://huggingface.co/llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v1"
+        "title": "ledddev/dl_hw2_text_detector_roberta_task8_hardneg_teacher719182_student739942",
+        "url": "https://huggingface.co/ledddev/dl_hw2_text_detector_roberta_task8_hardneg_teacher719182_student739942"
       },
       {
-        "title": "llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v2",
-        "url": "https://huggingface.co/llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v2"
-      },
-      {
-        "title": "PuxAI/PII-Filter-TokenBased-Stage2-mBERT",
-        "url": "https://huggingface.co/PuxAI/PII-Filter-TokenBased-Stage2-mBERT"
+        "title": "ZQ342/gpt-oss-20b-heretic",
+        "url": "https://huggingface.co/ZQ342/gpt-oss-20b-heretic"
       }
     ],
     "vision_systems": [
@@ -1247,10 +1243,6 @@
         "url": "https://arxiv.org/abs/2603.18886v1"
       },
       {
-        "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
-      },
-      {
         "title": "PPI is the Difference Estimator: Recognizing the Survey Sampling Roots of Prediction-Powered Inference",
         "url": "https://arxiv.org/abs/2603.19160v1"
       },
@@ -1675,6 +1667,10 @@
       {
         "title": "A mathematical framework for time-delay reservoir computing analysis",
         "url": "https://arxiv.org/abs/2603.18706v1"
+      },
+      {
+        "title": "waxal-benchmarking/whisper-small-ewe-gbotemi",
+        "url": "https://huggingface.co/waxal-benchmarking/whisper-small-ewe-gbotemi"
       }
     ]
   },
@@ -1705,7 +1701,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1717,7 +1713,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1729,7 +1725,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "103 independent papers",
+      "observation": "104 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1742,12 +1738,12 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 60,
+      "frequency": 61,
       "significance": "high"
     },
     {
       "topic": "reasoning",
-      "frequency": 43,
+      "frequency": 42,
       "significance": "high"
     },
     {
@@ -1764,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 415
   }
 }
