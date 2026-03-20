@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-20T19:35:34.542485",
+  "date": "2026-03-20T20:27:02.691343",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,6 +655,10 @@
         "url": "https://arxiv.org/abs/2603.19002v1"
       },
       {
+        "title": "MrFat/bert_fakenews_trainer",
+        "url": "https://huggingface.co/MrFat/bert_fakenews_trainer"
+      },
+      {
         "title": "LVOmniBench: Pioneering Long Audio-Video Understanding Evaluation for Omnimodal LLMs",
         "url": "https://arxiv.org/abs/2603.19217v1"
       },
@@ -1245,10 +1249,6 @@
       {
         "title": "HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models",
         "url": "https://arxiv.org/abs/2603.18850v1"
-      },
-      {
-        "title": "dschauhan08/phi4-mini-ultra-reasoning",
-        "url": "https://huggingface.co/dschauhan08/phi4-mini-ultra-reasoning"
       }
     ],
     "benchmarks": [
@@ -1693,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1705,7 +1705,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1735,7 +1735,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 43,
+      "frequency": 42,
       "significance": "high"
     },
     {
