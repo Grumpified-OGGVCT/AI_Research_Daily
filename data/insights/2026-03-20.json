@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-20T16:37:16.696896",
+  "date": "2026-03-20T17:32:57.957449",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,12 +671,24 @@
         "url": "https://arxiv.org/abs/2603.18850v1"
       },
       {
-        "title": "ledddev/dl_hw2_text_detector_roberta_task8_hardneg_teacher719182_student739942",
-        "url": "https://huggingface.co/ledddev/dl_hw2_text_detector_roberta_task8_hardneg_teacher719182_student739942"
+        "title": "llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v2",
+        "url": "https://huggingface.co/llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v2"
       },
       {
-        "title": "ZQ342/gpt-oss-20b-heretic",
-        "url": "https://huggingface.co/ZQ342/gpt-oss-20b-heretic"
+        "title": "llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v2-GGUF",
+        "url": "https://huggingface.co/llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v2-GGUF"
+      },
+      {
+        "title": "ruirui0506/dividend-risk-bert",
+        "url": "https://huggingface.co/ruirui0506/dividend-risk-bert"
+      },
+      {
+        "title": "Monk3ydluffy/truthlens-bert",
+        "url": "https://huggingface.co/Monk3ydluffy/truthlens-bert"
+      },
+      {
+        "title": "llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v1-GGUF",
+        "url": "https://huggingface.co/llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v1-GGUF"
       }
     ],
     "vision_systems": [
@@ -959,6 +971,10 @@
       {
         "title": "Under One Sun: Multi-Object Generative Perception of Materials and Illumination",
         "url": "https://arxiv.org/abs/2603.19226v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1667,10 +1683,6 @@
       {
         "title": "A mathematical framework for time-delay reservoir computing analysis",
         "url": "https://arxiv.org/abs/2603.18706v1"
-      },
-      {
-        "title": "waxal-benchmarking/whisper-small-ewe-gbotemi",
-        "url": "https://huggingface.co/waxal-benchmarking/whisper-small-ewe-gbotemi"
       }
     ]
   },
@@ -1701,13 +1713,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "89 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1725,7 +1737,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "104 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1738,7 +1750,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 61,
+      "frequency": 60,
       "significance": "high"
     },
     {
@@ -1760,6 +1772,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 418
   }
 }
