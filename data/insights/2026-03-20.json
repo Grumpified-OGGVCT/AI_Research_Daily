@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-20T13:59:12.182896",
+  "date": "2026-03-20T15:38:55.957487",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,16 +671,16 @@
         "url": "https://arxiv.org/abs/2603.18850v1"
       },
       {
-        "title": "llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v3",
-        "url": "https://huggingface.co/llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v3"
+        "title": "llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v1",
+        "url": "https://huggingface.co/llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v1"
       },
       {
         "title": "llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v2",
         "url": "https://huggingface.co/llmfan46/Omega-Darker-Gaslight_The-Final-Forgotten-Fever-Dream-24B-ultra-uncensored-heretic-v2"
       },
       {
-        "title": "HFS26/reuters-gpt2-text-gen",
-        "url": "https://huggingface.co/HFS26/reuters-gpt2-text-gen"
+        "title": "PuxAI/PII-Filter-TokenBased-Stage2-mBERT",
+        "url": "https://huggingface.co/PuxAI/PII-Filter-TokenBased-Stage2-mBERT"
       }
     ],
     "vision_systems": [
@@ -1247,6 +1247,10 @@
         "url": "https://arxiv.org/abs/2603.18886v1"
       },
       {
+        "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
+        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
+      },
+      {
         "title": "PPI is the Difference Estimator: Recognizing the Survey Sampling Roots of Prediction-Powered Inference",
         "url": "https://arxiv.org/abs/2603.19160v1"
       },
@@ -1713,7 +1717,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1743,7 +1747,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 42,
+      "frequency": 43,
       "significance": "high"
     },
     {
@@ -1760,6 +1764,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 416
   }
 }
