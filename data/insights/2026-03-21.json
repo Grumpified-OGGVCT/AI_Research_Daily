@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-21T15:21:56.016824",
+  "date": "2026-03-21T16:23:12.204893",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,6 +669,46 @@
       {
         "title": "HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models",
         "url": "https://arxiv.org/abs/2603.18850v1"
+      },
+      {
+        "title": "jdtrujillo1015/imdb-distilbert-lora",
+        "url": "https://huggingface.co/jdtrujillo1015/imdb-distilbert-lora"
+      },
+      {
+        "title": "Agreemind/banking-bert-turkish",
+        "url": "https://huggingface.co/Agreemind/banking-bert-turkish"
+      },
+      {
+        "title": "rpodaniel1/imdb-distilbert-head-only",
+        "url": "https://huggingface.co/rpodaniel1/imdb-distilbert-head-only"
+      },
+      {
+        "title": "jdtrujillo1015/imdb-distilbert-head-only",
+        "url": "https://huggingface.co/jdtrujillo1015/imdb-distilbert-head-only"
+      },
+      {
+        "title": "TheDilan12/imdb-distilbert-lora",
+        "url": "https://huggingface.co/TheDilan12/imdb-distilbert-lora"
+      },
+      {
+        "title": "asilvaz/imdb-distilbert-lora",
+        "url": "https://huggingface.co/asilvaz/imdb-distilbert-lora"
+      },
+      {
+        "title": "Cbelem/scibert-certainty-classif",
+        "url": "https://huggingface.co/Cbelem/scibert-certainty-classif"
+      },
+      {
+        "title": "Isabeljuradoj27/imdb-distilbert-lora",
+        "url": "https://huggingface.co/Isabeljuradoj27/imdb-distilbert-lora"
+      },
+      {
+        "title": "jdmartinev/imdb-distilbert-lora",
+        "url": "https://huggingface.co/jdmartinev/imdb-distilbert-lora"
+      },
+      {
+        "title": "semartine1/imdb-distilbert-lora",
+        "url": "https://huggingface.co/semartine1/imdb-distilbert-lora"
       }
     ],
     "vision_systems": [
@@ -1245,6 +1285,10 @@
       {
         "title": "HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models",
         "url": "https://arxiv.org/abs/2603.18850v1"
+      },
+      {
+        "title": "dschauhan08/phi4-mini-ultra-reasoning",
+        "url": "https://huggingface.co/dschauhan08/phi4-mini-ultra-reasoning"
       }
     ],
     "benchmarks": [
@@ -1689,7 +1733,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1701,7 +1745,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1731,7 +1775,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 42,
+      "frequency": 43,
       "significance": "high"
     },
     {
@@ -1748,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 423
   }
 }
