@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-21T08:26:13.153506",
+  "date": "2026-03-21T09:28:04.685272",
   "patterns": {
     "multimodal_research": [
       {
@@ -319,6 +319,10 @@
       {
         "title": "Numerical Considerations for the Construction of Karhunen-Lo\u00e8ve Expansions",
         "url": "https://arxiv.org/abs/2603.19108v1"
+      },
+      {
+        "title": "kshitijthakkar/loggenix-moe-1b-sft-s4.1",
+        "url": "https://huggingface.co/kshitijthakkar/loggenix-moe-1b-sft-s4.1"
       }
     ],
     "language_models": [
@@ -951,6 +955,10 @@
       {
         "title": "Under One Sun: Multi-Object Generative Perception of Materials and Illumination",
         "url": "https://arxiv.org/abs/2603.19226v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1677,7 +1685,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "52 independent papers",
+      "observation": "53 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1695,7 +1703,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 414
   }
 }
