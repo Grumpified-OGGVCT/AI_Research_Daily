@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-21T19:20:42.628516",
+  "date": "2026-03-21T20:20:49.143397",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,8 +671,8 @@
         "url": "https://arxiv.org/abs/2603.18850v1"
       },
       {
-        "title": "Harshacheedalla007/ecommerce-support-smollm3-3b",
-        "url": "https://huggingface.co/Harshacheedalla007/ecommerce-support-smollm3-3b"
+        "title": "xv0y5ncu/SmolLM3-3B-GLQ-3.5bpw",
+        "url": "https://huggingface.co/xv0y5ncu/SmolLM3-3B-GLQ-3.5bpw"
       }
     ],
     "vision_systems": [
@@ -1249,10 +1249,6 @@
       {
         "title": "HORNet: Task-Guided Frame Selection for Video Question Answering with Vision-Language Models",
         "url": "https://arxiv.org/abs/2603.18850v1"
-      },
-      {
-        "title": "rodpod/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-        "url": "https://huggingface.co/rodpod/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1709,7 +1705,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1739,7 +1735,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 43,
+      "frequency": 42,
       "significance": "high"
     },
     {
@@ -1756,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 413
   }
 }
