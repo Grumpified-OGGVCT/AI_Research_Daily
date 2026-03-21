@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-21T17:22:15.221276",
+  "date": "2026-03-21T18:29:09.216321",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,12 +671,16 @@
         "url": "https://arxiv.org/abs/2603.18850v1"
       },
       {
-        "title": "ik/kasagpt-v2_exp_1",
-        "url": "https://huggingface.co/ik/kasagpt-v2_exp_1"
+        "title": "notd5a/deberta-v3-malicious-sms-mms-detector-v0.3",
+        "url": "https://huggingface.co/notd5a/deberta-v3-malicious-sms-mms-detector-v0.3"
       },
       {
-        "title": "ProSeAI/OhioCustodyBERT",
-        "url": "https://huggingface.co/ProSeAI/OhioCustodyBERT"
+        "title": "Conlanger-LLM-CLEM/Nelya-gemlight",
+        "url": "https://huggingface.co/Conlanger-LLM-CLEM/Nelya-gemlight"
+      },
+      {
+        "title": "raydelossantos/OmniCoder-9B-GPTQ-Int4",
+        "url": "https://huggingface.co/raydelossantos/OmniCoder-9B-GPTQ-Int4"
       }
     ],
     "vision_systems": [
@@ -1697,7 +1701,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "89 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 415
   }
 }
