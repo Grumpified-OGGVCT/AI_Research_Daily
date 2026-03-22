@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-22T14:23:54.481398",
-  "patterns": {},
+  "date": "2026-03-22T15:21:39.214240",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "weyj4/my-gpt2-163m",
+        "url": "https://huggingface.co/weyj4/my-gpt2-163m"
+      },
+      {
+        "title": "Agreemind/contractnli-distilbert-nda",
+        "url": "https://huggingface.co/Agreemind/contractnli-distilbert-nda"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
