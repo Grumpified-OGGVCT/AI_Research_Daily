@@ -1,41 +1,11 @@
 {
-  "date": "2026-03-22T08:29:04.445298",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "raydelossantos/OmniCoder-9B-GPTQ-Int4",
-        "url": "https://huggingface.co/raydelossantos/OmniCoder-9B-GPTQ-Int4"
-      },
-      {
-        "title": "laion/exp-syh-r2egym-askllm-constrained_glm_4-7_traces_jupiter_cleaned-exp-gfi-swesmith-random-fi",
-        "url": "https://huggingface.co/laion/exp-syh-r2egym-askllm-constrained_glm_4-7_traces_jupiter_cleaned-exp-gfi-swesmith-random-fi"
-      },
-      {
-        "title": "ik/kasagpt-v2-exp-3",
-        "url": "https://huggingface.co/ik/kasagpt-v2-exp-3"
-      },
-      {
-        "title": "raydelossantos/OmniCoder-9B-GPTQ-Int8",
-        "url": "https://huggingface.co/raydelossantos/OmniCoder-9B-GPTQ-Int8"
-      },
-      {
-        "title": "DuckyDuck123/en-hi-transformer-tuned",
-        "url": "https://huggingface.co/DuckyDuck123/en-hi-transformer-tuned"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "5 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
-    }
-  ],
+  "date": "2026-03-22T09:28:04.200002",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 5
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
