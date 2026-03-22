@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-22T01:45:19.588814",
-  "patterns": {},
+  "date": "2026-03-22T04:15:30.155940",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Zero-Point-AI/MARTHA-GPT-OSS-120B",
+        "url": "https://huggingface.co/Zero-Point-AI/MARTHA-GPT-OSS-120B"
+      },
+      {
+        "title": "notd5a/de-scam-berta-v3-hybrid-detector-v0.3",
+        "url": "https://huggingface.co/notd5a/de-scam-berta-v3-hybrid-detector-v0.3"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
