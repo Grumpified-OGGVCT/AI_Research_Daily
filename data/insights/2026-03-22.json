@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-22T22:20:54.458297",
-  "patterns": {},
+  "date": "2026-03-22T23:22:51.593092",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "HPLT/hplt_gpt_bert_base_3_0_rus_Cyrl-UD",
+        "url": "https://huggingface.co/HPLT/hplt_gpt_bert_base_3_0_rus_Cyrl-UD"
+      },
+      {
+        "title": "s3nh/SmolLLM-3B-Uncensored",
+        "url": "https://huggingface.co/s3nh/SmolLLM-3B-Uncensored"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
