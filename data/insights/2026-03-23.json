@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-23T16:53:43.735842",
-  "patterns": {},
+  "date": "2026-03-23T17:47:55.507384",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "DeadMann026/DualMedBert",
+        "url": "https://huggingface.co/DeadMann026/DualMedBert"
+      },
+      {
+        "title": "sandbreak80sd/llm-350m-instruct-v2",
+        "url": "https://huggingface.co/sandbreak80sd/llm-350m-instruct-v2"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
