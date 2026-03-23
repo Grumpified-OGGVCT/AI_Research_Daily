@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-23T12:53:54.112203",
-  "patterns": {},
+  "date": "2026-03-23T14:14:07.150403",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "AlGM93/distilhubert-finetuned-gtzan",
+        "url": "https://huggingface.co/AlGM93/distilhubert-finetuned-gtzan"
+      },
+      {
+        "title": "emreyigitozturk/llama-3.2-3b-gptq-4bit",
+        "url": "https://huggingface.co/emreyigitozturk/llama-3.2-3b-gptq-4bit"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
