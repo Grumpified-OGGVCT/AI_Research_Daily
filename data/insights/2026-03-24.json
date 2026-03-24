@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-24T11:42:02.278574",
+  "date": "2026-03-24T12:58:13.546710",
   "patterns": {
     "multimodal_research": [
       {
@@ -747,8 +747,12 @@
         "url": "https://arxiv.org/abs/2603.21803v1"
       },
       {
-        "title": "gpjt/8xa100m40-weight-decay-gpt2",
-        "url": "https://huggingface.co/gpjt/8xa100m40-weight-decay-gpt2"
+        "title": "ezzhamed/Turkish-RedTeam-LLM",
+        "url": "https://huggingface.co/ezzhamed/Turkish-RedTeam-LLM"
+      },
+      {
+        "title": "Gleckus/intent-classifier-rubert-tiny2",
+        "url": "https://huggingface.co/Gleckus/intent-classifier-rubert-tiny2"
       }
     ],
     "vision_systems": [
@@ -1127,6 +1131,10 @@
       {
         "title": "Benchmarking Recurrent Event-Based Object Detection for Industrial Multi-Class Recognition on MTEvent",
         "url": "https://arxiv.org/abs/2603.21787v1"
+      },
+      {
+        "title": "anicka/cve-backport-codegen-qwen25-32b",
+        "url": "https://huggingface.co/anicka/cve-backport-codegen-qwen25-32b"
       }
     ],
     "reasoning": [
@@ -1473,10 +1481,6 @@
       {
         "title": "PPGL-Swarm: Integrated Multimodal Risk Stratification and Hereditary Syndrome Detection in Pheochromocytoma and Paraganglioma",
         "url": "https://arxiv.org/abs/2603.21700v1"
-      },
-      {
-        "title": "NapYang/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-text-oQ3.5",
-        "url": "https://huggingface.co/NapYang/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-text-oQ3.5"
       }
     ],
     "benchmarks": [
@@ -1945,19 +1949,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2004,6 +2008,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 476
+    "total_papers": 477
   }
 }
