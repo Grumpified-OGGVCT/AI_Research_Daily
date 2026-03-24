@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-24T12:58:13.546710",
+  "date": "2026-03-24T14:19:04.867147",
   "patterns": {
     "multimodal_research": [
       {
@@ -747,12 +747,8 @@
         "url": "https://arxiv.org/abs/2603.21803v1"
       },
       {
-        "title": "ezzhamed/Turkish-RedTeam-LLM",
-        "url": "https://huggingface.co/ezzhamed/Turkish-RedTeam-LLM"
-      },
-      {
-        "title": "Gleckus/intent-classifier-rubert-tiny2",
-        "url": "https://huggingface.co/Gleckus/intent-classifier-rubert-tiny2"
+        "title": "mr-checker/fin-customer-support-intent-distilbert",
+        "url": "https://huggingface.co/mr-checker/fin-customer-support-intent-distilbert"
       }
     ],
     "vision_systems": [
@@ -1131,10 +1127,6 @@
       {
         "title": "Benchmarking Recurrent Event-Based Object Detection for Industrial Multi-Class Recognition on MTEvent",
         "url": "https://arxiv.org/abs/2603.21787v1"
-      },
-      {
-        "title": "anicka/cve-backport-codegen-qwen25-32b",
-        "url": "https://huggingface.co/anicka/cve-backport-codegen-qwen25-32b"
       }
     ],
     "reasoning": [
@@ -1949,13 +1941,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "95 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2008,6 +2000,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 477
+    "total_papers": 475
   }
 }
