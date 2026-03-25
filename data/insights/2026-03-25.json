@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-25T18:49:24.413636",
+  "date": "2026-03-25T19:43:37.608942",
   "patterns": {
     "multimodal_research": [
       {
@@ -771,8 +771,12 @@
         "url": "https://huggingface.co/jiosephlee/gptoss_tdc_gold_traces"
       },
       {
-        "title": "dhruvshenavi/Robert_V5_mnli_newsbias",
-        "url": "https://huggingface.co/dhruvshenavi/Robert_V5_mnli_newsbias"
+        "title": "DCAgent/a1-stack_pytest_synthetic_gpt5nano",
+        "url": "https://huggingface.co/DCAgent/a1-stack_pytest_synthetic_gpt5nano"
+      },
+      {
+        "title": "prince4332/twi-multilingual-llm",
+        "url": "https://huggingface.co/prince4332/twi-multilingual-llm"
       }
     ],
     "vision_systems": [
@@ -1137,8 +1141,8 @@
         "url": "https://arxiv.org/abs/2603.23497v1"
       },
       {
-        "title": "servantofares/Qwen-Image-2512",
-        "url": "https://huggingface.co/servantofares/Qwen-Image-2512"
+        "title": "adpretko/riscv_to_armv8mac_qwen25coder_1p5b_full",
+        "url": "https://huggingface.co/adpretko/riscv_to_armv8mac_qwen25coder_1p5b_full"
       }
     ],
     "reasoning": [
@@ -1933,7 +1937,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1992,6 +1996,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 473
+    "total_papers": 474
   }
 }
