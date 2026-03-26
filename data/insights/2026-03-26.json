@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-26T09:00:23.921278",
+  "date": "2026-03-26T10:04:30.816959",
   "patterns": {
     "multimodal_research": [
       {
@@ -721,6 +721,14 @@
       {
         "title": "Vision-Language Models vs Human: Perceptual Image Quality Assessment",
         "url": "https://arxiv.org/abs/2603.24578v1"
+      },
+      {
+        "title": "Slasky/HebrewGPT-296M",
+        "url": "https://huggingface.co/Slasky/HebrewGPT-296M"
+      },
+      {
+        "title": "Slasky/HebrewGPT-1B-AdamW",
+        "url": "https://huggingface.co/Slasky/HebrewGPT-1B-AdamW"
       }
     ],
     "vision_systems": [
@@ -1039,6 +1047,10 @@
       {
         "title": "SemLayer: Semantic-aware Generative Segmentation and Layer Construction for Abstract Icons",
         "url": "https://arxiv.org/abs/2603.24039v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1769,13 +1781,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "79 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1828,6 +1840,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 432
+    "total_papers": 435
   }
 }
