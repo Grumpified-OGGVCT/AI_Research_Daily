@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-26T18:59:50.362302",
+  "date": "2026-03-26T19:56:47.670680",
   "patterns": {
     "multimodal_research": [
       {
@@ -727,8 +727,8 @@
         "url": "https://huggingface.co/Cisco1963/llmplasticity-de_en_instant_0.25_1-seed42"
       },
       {
-        "title": "hugo/clinical-protocols-cpt-lora-gpt41mini-14b",
-        "url": "https://huggingface.co/hugo/clinical-protocols-cpt-lora-gpt41mini-14b"
+        "title": "DCAgent/a1-stack_bash_withtests_gpt5mini",
+        "url": "https://huggingface.co/DCAgent/a1-stack_bash_withtests_gpt5mini"
       }
     ],
     "vision_systems": [
@@ -1047,10 +1047,6 @@
       {
         "title": "SemLayer: Semantic-aware Generative Segmentation and Layer Construction for Abstract Icons",
         "url": "https://arxiv.org/abs/2603.24039v1"
-      },
-      {
-        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f3-et",
-        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f3-et"
       }
     ],
     "reasoning": [
@@ -1309,10 +1305,6 @@
       {
         "title": "RVLM: Recursive Vision-Language Models with Adaptive Depth",
         "url": "https://arxiv.org/abs/2603.24224v1"
-      },
-      {
-        "title": "UnstableLlama/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-4.05bpw-exl3",
-        "url": "https://huggingface.co/UnstableLlama/Qwen3.5-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-4.05bpw-exl3"
       }
     ],
     "benchmarks": [
@@ -1791,13 +1783,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1844,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 436
+    "total_papers": 434
   }
 }
