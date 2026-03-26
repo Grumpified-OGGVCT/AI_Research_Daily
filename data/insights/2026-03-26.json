@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-26T22:23:27.002191",
+  "date": "2026-03-26T23:27:51.992675",
   "patterns": {
     "multimodal_research": [
       {
@@ -723,20 +723,28 @@
         "url": "https://arxiv.org/abs/2603.24578v1"
       },
       {
+        "title": "JBHarris/dm-llm-tiny",
+        "url": "https://huggingface.co/JBHarris/dm-llm-tiny"
+      },
+      {
+        "title": "SkyyMirror/CSC413_hw10_SmolLM2_model",
+        "url": "https://huggingface.co/SkyyMirror/CSC413_hw10_SmolLM2_model"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-en_fi_linear_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_fi_linear_0.125_1-seed42"
+      },
+      {
         "title": "Cisco1963/llmplasticity-de_zh_instant_0.125_1-seed42",
         "url": "https://huggingface.co/Cisco1963/llmplasticity-de_zh_instant_0.125_1-seed42"
       },
       {
-        "title": "Cisco1963/llmplasticity-fi_en_instant_0.5_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_en_instant_0.5_1-seed42"
+        "title": "Cisco1963/llmplasticity-zh_de_instant_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_de_instant_0.25_1-seed42"
       },
       {
-        "title": "Cisco1963/llmplasticity-fi_en_linear_0.125_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_en_linear_0.125_1-seed42"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-fi_en_linear_0.25_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_en_linear_0.25_1-seed42"
+        "title": "Slasky/HebrewGPT-1B-Instruct",
+        "url": "https://huggingface.co/Slasky/HebrewGPT-1B-Instruct"
       }
     ],
     "vision_systems": [
@@ -1313,10 +1321,6 @@
       {
         "title": "RVLM: Recursive Vision-Language Models with Adaptive Depth",
         "url": "https://arxiv.org/abs/2603.24224v1"
-      },
-      {
-        "title": "donniedraco/MLX-Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-8bit",
-        "url": "https://huggingface.co/donniedraco/MLX-Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-8bit"
       }
     ],
     "benchmarks": [
@@ -1789,7 +1793,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1801,7 +1805,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1848,6 +1852,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 437
+    "total_papers": 438
   }
 }
