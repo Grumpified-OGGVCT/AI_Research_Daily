@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-26T14:27:24.805660",
+  "date": "2026-03-26T16:08:43.191121",
   "patterns": {
     "multimodal_research": [
       {
@@ -721,6 +721,10 @@
       {
         "title": "Vision-Language Models vs Human: Perceptual Image Quality Assessment",
         "url": "https://arxiv.org/abs/2603.24578v1"
+      },
+      {
+        "title": "Veexxd/diffusion-llm-sota",
+        "url": "https://huggingface.co/Veexxd/diffusion-llm-sota"
       }
     ],
     "vision_systems": [
@@ -1739,6 +1743,10 @@
       {
         "title": "A Longitudinal Analysis of the CEC Single-Objective Competitions (2010-2024) and Implications for Variational Quantum Optimization",
         "url": "https://arxiv.org/abs/2603.24140v1"
+      },
+      {
+        "title": "Veexxd/diffusion-llm-sota",
+        "url": "https://huggingface.co/Veexxd/diffusion-llm-sota"
       }
     ]
   },
@@ -1769,7 +1777,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1793,7 +1801,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "110 independent papers",
+      "observation": "111 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1828,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 432
+    "total_papers": 434
   }
 }
