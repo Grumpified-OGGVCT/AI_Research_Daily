@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-26T06:11:01.905353",
+  "date": "2026-03-26T08:00:21.789201",
   "patterns": {
     "multimodal_research": [
       {
@@ -721,22 +721,6 @@
       {
         "title": "Vision-Language Models vs Human: Perceptual Image Quality Assessment",
         "url": "https://arxiv.org/abs/2603.24578v1"
-      },
-      {
-        "title": "Shoolife/Qwen2.5-1.5B-Instruct-TensorRT-LLM-Checkpoint-FP8",
-        "url": "https://huggingface.co/Shoolife/Qwen2.5-1.5B-Instruct-TensorRT-LLM-Checkpoint-FP8"
-      },
-      {
-        "title": "Shoolife/Qwen2.5-1.5B-Instruct-TensorRT-LLM-Checkpoint-NVFP4",
-        "url": "https://huggingface.co/Shoolife/Qwen2.5-1.5B-Instruct-TensorRT-LLM-Checkpoint-NVFP4"
-      },
-      {
-        "title": "Shoolife/Qwen2.5-1.5B-Instruct-TensorRT-LLM-Checkpoint-FP16",
-        "url": "https://huggingface.co/Shoolife/Qwen2.5-1.5B-Instruct-TensorRT-LLM-Checkpoint-FP16"
-      },
-      {
-        "title": "Vishal1095/ContextSense-DistilBert-SquadV2-QA",
-        "url": "https://huggingface.co/Vishal1095/ContextSense-DistilBert-SquadV2-QA"
       }
     ],
     "vision_systems": [
@@ -1055,10 +1039,6 @@
       {
         "title": "SemLayer: Semantic-aware Generative Segmentation and Layer Construction for Abstract Icons",
         "url": "https://arxiv.org/abs/2603.24039v1"
-      },
-      {
-        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f8",
-        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f8"
       }
     ],
     "reasoning": [
@@ -1789,13 +1769,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1848,6 +1828,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 437
+    "total_papers": 432
   }
 }
