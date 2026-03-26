@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-26T20:32:04.781887",
+  "date": "2026-03-26T21:26:49.053056",
   "patterns": {
     "multimodal_research": [
       {
@@ -721,10 +721,6 @@
       {
         "title": "Vision-Language Models vs Human: Perceptual Image Quality Assessment",
         "url": "https://arxiv.org/abs/2603.24578v1"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-de_en_instant_0.25_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_en_instant_0.25_1-seed42"
       }
     ],
     "vision_systems": [
@@ -1043,10 +1039,6 @@
       {
         "title": "SemLayer: Semantic-aware Generative Segmentation and Layer Construction for Abstract Icons",
         "url": "https://arxiv.org/abs/2603.24039v1"
-      },
-      {
-        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f5-et",
-        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-ds-f5-et"
       }
     ],
     "reasoning": [
@@ -1777,13 +1769,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1836,6 +1828,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 434
+    "total_papers": 432
   }
 }
