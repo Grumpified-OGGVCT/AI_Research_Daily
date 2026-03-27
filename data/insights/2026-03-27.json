@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-27T19:39:25.745497",
+  "date": "2026-03-27T20:33:03.638754",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,8 +647,8 @@
         "url": "https://arxiv.org/abs/2603.25530v1"
       },
       {
-        "title": "Cisco1963/llmplasticity-de_zh_instant_0.25_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_zh_instant_0.25_1-seed42"
+        "title": "kylelovesllms/AUTO-PCD-Qwen2.5-1.5B-Instruct-FineWeb-Pretraining",
+        "url": "https://huggingface.co/kylelovesllms/AUTO-PCD-Qwen2.5-1.5B-Instruct-FineWeb-Pretraining"
       }
     ],
     "vision_systems": [
@@ -1309,10 +1309,6 @@
       {
         "title": "MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models",
         "url": "https://arxiv.org/abs/2603.25744v1"
-      },
-      {
-        "title": "inferencerlabs/sarvamai-30b-MLX-10bit",
-        "url": "https://huggingface.co/inferencerlabs/sarvamai-30b-MLX-10bit"
       }
     ],
     "benchmarks": [
@@ -1761,7 +1757,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 426
   }
 }
