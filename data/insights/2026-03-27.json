@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-27T17:45:49.024136",
+  "date": "2026-03-27T18:48:53.641342",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,8 +647,8 @@
         "url": "https://arxiv.org/abs/2603.25530v1"
       },
       {
-        "title": "utkarshsharma00/gpt-oss-120b-aimo3-grpo-adapter",
-        "url": "https://huggingface.co/utkarshsharma00/gpt-oss-120b-aimo3-grpo-adapter"
+        "title": "Cisco1963/llmplasticity-fi_en_instant_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_en_instant_0.5_1-seed42"
       }
     ],
     "vision_systems": [
@@ -975,14 +975,6 @@
       {
         "title": "TacSIm: A Dataset and Benchmark for Football Tactical Style Imitation",
         "url": "https://arxiv.org/abs/2603.25199v1"
-      },
-      {
-        "title": "QuantFunc/Qwen-Image-Series",
-        "url": "https://huggingface.co/QuantFunc/Qwen-Image-Series"
-      },
-      {
-        "title": "QuantFunc/Z-Image-Series",
-        "url": "https://huggingface.co/QuantFunc/Z-Image-Series"
       }
     ],
     "reasoning": [
@@ -1759,7 +1751,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 426
   }
 }
