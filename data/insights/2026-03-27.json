@@ -1,37 +1,22 @@
 {
-  "date": "2026-03-27T01:51:11.718903",
+  "date": "2026-03-27T04:31:34.211343",
   "patterns": {
     "language_models": [
       {
-        "title": "spanishrose/fake-news-detector-xlm-roberta",
-        "url": "https://huggingface.co/spanishrose/fake-news-detector-xlm-roberta"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-zh_de_linear_0.5_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_de_linear_0.5_1-seed42"
+        "title": "Cisco1963/llmplasticity-de_zh_linear_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_zh_linear_0.5_1-seed42"
       },
       {
         "title": "Cisco1963/llmplasticity-de_zh_instant_0.125_1-seed42",
         "url": "https://huggingface.co/Cisco1963/llmplasticity-de_zh_instant_0.125_1-seed42"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-zh_de_instant_0.5_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_de_instant_0.5_1-seed42"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 4
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
