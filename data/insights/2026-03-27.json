@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-27T14:08:39.196975",
+  "date": "2026-03-27T15:47:31.576727",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,20 +647,8 @@
         "url": "https://arxiv.org/abs/2603.25530v1"
       },
       {
-        "title": "Cisco1963/llmplasticity-fi_de_instant_0.25_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_de_instant_0.25_1-seed42"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-en_de_instant_0.25_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_de_instant_0.25_1-seed42"
-      },
-      {
-        "title": "Veexxd/diffusion-llm-sota",
-        "url": "https://huggingface.co/Veexxd/diffusion-llm-sota"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-fi_never_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_never_1-seed42"
+        "title": "Cisco1963/llmplasticity-en_de_linear_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_de_linear_0.125_1-seed42"
       }
     ],
     "vision_systems": [
@@ -1727,10 +1715,6 @@
       {
         "title": "TacSIm: A Dataset and Benchmark for Football Tactical Style Imitation",
         "url": "https://arxiv.org/abs/2603.25199v1"
-      },
-      {
-        "title": "Veexxd/diffusion-llm-sota",
-        "url": "https://huggingface.co/Veexxd/diffusion-llm-sota"
       }
     ]
   },
@@ -1761,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1785,7 +1769,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "102 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1820,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 430
+    "total_papers": 426
   }
 }
