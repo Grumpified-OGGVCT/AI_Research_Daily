@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-27T09:49:52.701520",
+  "date": "2026-03-27T10:42:21.040226",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,10 +645,6 @@
       {
         "title": "Adaptive Subspace Modeling With Functional Tucker Decomposition",
         "url": "https://arxiv.org/abs/2603.25530v1"
-      },
-      {
-        "title": "Veexxd/diffusion-llm-sota",
-        "url": "https://huggingface.co/Veexxd/diffusion-llm-sota"
       }
     ],
     "vision_systems": [
@@ -1715,10 +1711,6 @@
       {
         "title": "TacSIm: A Dataset and Benchmark for Football Tactical Style Imitation",
         "url": "https://arxiv.org/abs/2603.25199v1"
-      },
-      {
-        "title": "Veexxd/diffusion-llm-sota",
-        "url": "https://huggingface.co/Veexxd/diffusion-llm-sota"
       }
     ]
   },
@@ -1749,7 +1741,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1773,7 +1765,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "102 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1808,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 425
   }
 }
