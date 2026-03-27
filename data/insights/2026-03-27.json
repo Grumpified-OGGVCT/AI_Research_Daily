@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-27T10:42:21.040226",
+  "date": "2026-03-27T11:38:40.348044",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,12 +639,20 @@
         "url": "https://arxiv.org/abs/2603.25398v1"
       },
       {
+        "title": "morinaa/roberta-large-newslies-metadata-v1",
+        "url": "https://huggingface.co/morinaa/roberta-large-newslies-metadata-v1"
+      },
+      {
         "title": "CardioDiT: Latent Diffusion Transformers for 4D Cardiac MRI Synthesis",
         "url": "https://arxiv.org/abs/2603.25194v1"
       },
       {
         "title": "Adaptive Subspace Modeling With Functional Tucker Decomposition",
         "url": "https://arxiv.org/abs/2603.25530v1"
+      },
+      {
+        "title": "Najehh00/distilbert-base-uncased-finetuned-emotion",
+        "url": "https://huggingface.co/Najehh00/distilbert-base-uncased-finetuned-emotion"
       }
     ],
     "vision_systems": [
@@ -1741,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 427
   }
 }
