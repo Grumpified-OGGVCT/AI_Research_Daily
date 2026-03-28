@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-28T05:54:23.906768",
+  "date": "2026-03-28T06:52:32.490987",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,8 +647,12 @@
         "url": "https://arxiv.org/abs/2603.25530v1"
       },
       {
-        "title": "Cisco1963/llmplasticity-fi_zh_instant_0.25_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-fi_zh_instant_0.25_1-seed42"
+        "title": "mradermacher/EuroLLM-22B-EU-legislative-GGUF",
+        "url": "https://huggingface.co/mradermacher/EuroLLM-22B-EU-legislative-GGUF"
+      },
+      {
+        "title": "singhshivam23/clinicalbert-nli",
+        "url": "https://huggingface.co/singhshivam23/clinicalbert-nli"
       },
       {
         "title": "Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42",
@@ -979,10 +983,6 @@
       {
         "title": "TacSIm: A Dataset and Benchmark for Football Tactical Style Imitation",
         "url": "https://arxiv.org/abs/2603.25199v1"
-      },
-      {
-        "title": "Benni1221/Pornmaster_v1-Z-Images-Turbo",
-        "url": "https://huggingface.co/Benni1221/Pornmaster_v1-Z-Images-Turbo"
       }
     ],
     "reasoning": [
@@ -1753,13 +1753,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
