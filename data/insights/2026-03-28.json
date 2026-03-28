@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-28T08:32:58.593009",
+  "date": "2026-03-28T09:33:36.359780",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,10 +645,6 @@
       {
         "title": "Adaptive Subspace Modeling With Functional Tucker Decomposition",
         "url": "https://arxiv.org/abs/2603.25530v1"
-      },
-      {
-        "title": "jamalimubashirali/SindhiLLM-1B-v0.1",
-        "url": "https://huggingface.co/jamalimubashirali/SindhiLLM-1B-v0.1"
       }
     ],
     "vision_systems": [
@@ -977,8 +973,12 @@
         "url": "https://arxiv.org/abs/2603.25199v1"
       },
       {
-        "title": "UPJeffW/Z-Image-Turbo-AIO",
-        "url": "https://huggingface.co/UPJeffW/Z-Image-Turbo-AIO"
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      {
+        "title": "feeday/Z-Image-Turbo-GGUF",
+        "url": "https://huggingface.co/feeday/Z-Image-Turbo-GGUF"
       }
     ],
     "reasoning": [
@@ -1749,13 +1749,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
