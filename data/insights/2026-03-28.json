@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-28T20:24:16.200157",
+  "date": "2026-03-28T21:26:12.250850",
   "patterns": {
     "multimodal_research": [
       {
@@ -647,12 +647,12 @@
         "url": "https://arxiv.org/abs/2603.25530v1"
       },
       {
-        "title": "WonseokChoi123/culturellm-latam-9b",
-        "url": "https://huggingface.co/WonseokChoi123/culturellm-latam-9b"
+        "title": "Ottneel/distilgpt2-Squad-gpt-pretrained-model",
+        "url": "https://huggingface.co/Ottneel/distilgpt2-Squad-gpt-pretrained-model"
       },
       {
-        "title": "WonseokChoi123/culturellm-chinese-9b",
-        "url": "https://huggingface.co/WonseokChoi123/culturellm-chinese-9b"
+        "title": "Ottneel/distilgpt2-Squad-gpt-scratch-model",
+        "url": "https://huggingface.co/Ottneel/distilgpt2-Squad-gpt-scratch-model"
       }
     ],
     "vision_systems": [
@@ -1719,6 +1719,14 @@
       {
         "title": "TacSIm: A Dataset and Benchmark for Football Tactical Style Imitation",
         "url": "https://arxiv.org/abs/2603.25199v1"
+      },
+      {
+        "title": "Hunterx/Qwen3.5-40B-RoughHouse-Claude-4.6-Opus-oQ2BENCHMARKED",
+        "url": "https://huggingface.co/Hunterx/Qwen3.5-40B-RoughHouse-Claude-4.6-Opus-oQ2BENCHMARKED"
+      },
+      {
+        "title": "fastbuilderai/FastMemory-SOTA",
+        "url": "https://huggingface.co/fastbuilderai/FastMemory-SOTA"
       }
     ]
   },
@@ -1773,7 +1781,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "101 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1786,7 +1794,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 58,
+      "frequency": 59,
       "significance": "high"
     },
     {
@@ -1808,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 429
   }
 }
