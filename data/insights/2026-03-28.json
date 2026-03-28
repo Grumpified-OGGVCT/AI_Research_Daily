@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-28T22:23:38.980956",
+  "date": "2026-03-28T23:26:06.987058",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,6 +645,14 @@
       {
         "title": "Adaptive Subspace Modeling With Functional Tucker Decomposition",
         "url": "https://arxiv.org/abs/2603.25530v1"
+      },
+      {
+        "title": "ippoga/aimo3gptoss120sfttry9",
+        "url": "https://huggingface.co/ippoga/aimo3gptoss120sfttry9"
+      },
+      {
+        "title": "EvelienUU/deberta-valence-lyrics",
+        "url": "https://huggingface.co/EvelienUU/deberta-valence-lyrics"
       }
     ],
     "vision_systems": [
@@ -971,6 +979,10 @@
       {
         "title": "TacSIm: A Dataset and Benchmark for Football Tactical Style Imitation",
         "url": "https://arxiv.org/abs/2603.25199v1"
+      },
+      {
+        "title": "ThalisAI/lotus-mountain-zimage",
+        "url": "https://huggingface.co/ThalisAI/lotus-mountain-zimage"
       }
     ],
     "reasoning": [
@@ -1741,13 +1753,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 428
   }
 }
