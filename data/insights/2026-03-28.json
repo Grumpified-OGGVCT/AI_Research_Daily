@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-28T06:52:32.490987",
+  "date": "2026-03-28T07:41:44.216661",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,18 +645,6 @@
       {
         "title": "Adaptive Subspace Modeling With Functional Tucker Decomposition",
         "url": "https://arxiv.org/abs/2603.25530v1"
-      },
-      {
-        "title": "mradermacher/EuroLLM-22B-EU-legislative-GGUF",
-        "url": "https://huggingface.co/mradermacher/EuroLLM-22B-EU-legislative-GGUF"
-      },
-      {
-        "title": "singhshivam23/clinicalbert-nli",
-        "url": "https://huggingface.co/singhshivam23/clinicalbert-nli"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42"
       }
     ],
     "vision_systems": [
@@ -1705,6 +1693,10 @@
         "url": "https://arxiv.org/abs/2603.25398v1"
       },
       {
+        "title": "Andy-ML-And-AI/SOTA-Blitz-997",
+        "url": "https://huggingface.co/Andy-ML-And-AI/SOTA-Blitz-997"
+      },
+      {
         "title": "AnyHand: A Large-Scale Synthetic Dataset for RGB(-D) Hand Pose Estimation",
         "url": "https://arxiv.org/abs/2603.25726v1"
       },
@@ -1753,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1777,7 +1769,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "101 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1812,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 426
   }
 }
