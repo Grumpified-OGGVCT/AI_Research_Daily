@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-28T09:33:36.359780",
+  "date": "2026-03-28T10:27:00.791408",
   "patterns": {
     "multimodal_research": [
       {
@@ -971,14 +971,6 @@
       {
         "title": "TacSIm: A Dataset and Benchmark for Football Tactical Style Imitation",
         "url": "https://arxiv.org/abs/2603.25199v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "feeday/Z-Image-Turbo-GGUF",
-        "url": "https://huggingface.co/feeday/Z-Image-Turbo-GGUF"
       }
     ],
     "reasoning": [
@@ -1755,7 +1747,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 425
   }
 }
