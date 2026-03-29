@@ -1,22 +1,33 @@
 {
-  "date": "2026-03-29T19:29:26.831993",
+  "date": "2026-03-29T20:25:42.079478",
   "patterns": {
     "language_models": [
       {
-        "title": "Shoolife/Qwen3-4B-TensorRT-LLM-Checkpoint-NVFP4",
-        "url": "https://huggingface.co/Shoolife/Qwen3-4B-TensorRT-LLM-Checkpoint-NVFP4"
+        "title": "GeorgeUwaifo/ivie_gpt2_new01b_results",
+        "url": "https://huggingface.co/GeorgeUwaifo/ivie_gpt2_new01b_results"
       },
       {
-        "title": "Shoolife/Qwen3-4B-TensorRT-LLM-Checkpoint-FP8",
-        "url": "https://huggingface.co/Shoolife/Qwen3-4B-TensorRT-LLM-Checkpoint-FP8"
+        "title": "C-L-V/PsyDefDetect_ModernBERT-base_unmerged_lr-6",
+        "url": "https://huggingface.co/C-L-V/PsyDefDetect_ModernBERT-base_unmerged_lr-6"
+      },
+      {
+        "title": "deburky/gpt-oss-claude-mlx",
+        "url": "https://huggingface.co/deburky/gpt-oss-claude-mlx"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
