@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-29T07:51:15.653762",
-  "patterns": {},
+  "date": "2026-03-29T08:34:31.594150",
+  "patterns": {
+    "vision_systems": [
+      {
+        "title": "openSUSE/CVE-Backport-Qwen2.5-Coder-32B",
+        "url": "https://huggingface.co/openSUSE/CVE-Backport-Qwen2.5-Coder-32B"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
