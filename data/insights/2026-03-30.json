@@ -1,11 +1,22 @@
 {
-  "date": "2026-03-30T04:42:54.846474",
-  "patterns": {},
+  "date": "2026-03-30T06:28:14.148223",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "renalpha/gptoss-documents-lora",
+        "url": "https://huggingface.co/renalpha/gptoss-documents-lora"
+      },
+      {
+        "title": "SaudiX/AceGPT-v2-8B-GGUF",
+        "url": "https://huggingface.co/SaudiX/AceGPT-v2-8B-GGUF"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
