@@ -1,11 +1,33 @@
 {
-  "date": "2026-03-30T08:21:16.069901",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-03-30T10:12:24.716614",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "th-nuernberg/xlm-roberta-base-online-counseling-oncoco",
+        "url": "https://huggingface.co/th-nuernberg/xlm-roberta-base-online-counseling-oncoco"
+      },
+      {
+        "title": "th-nuernberg/xlm-roberta-large-online-counseling-oncoco",
+        "url": "https://huggingface.co/th-nuernberg/xlm-roberta-large-online-counseling-oncoco"
+      },
+      {
+        "title": "YasDD/bert-sentiment-model",
+        "url": "https://huggingface.co/YasDD/bert-sentiment-model"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
