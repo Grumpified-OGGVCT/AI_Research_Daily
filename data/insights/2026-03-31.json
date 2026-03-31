@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-31T10:57:32.699817",
+  "date": "2026-03-31T11:45:13.110047",
   "patterns": {
     "multimodal_research": [
       {
@@ -129,10 +129,6 @@
       {
         "title": "XSPA: Crafting Imperceptible X-Shaped Sparse Adversarial Perturbations for Transferable Attacks on VLMs",
         "url": "https://arxiv.org/abs/2603.28568v1"
-      },
-      {
-        "title": "GaMS-Beta/GaMS3-12B-Multimodal",
-        "url": "https://huggingface.co/GaMS-Beta/GaMS3-12B-Multimodal"
       }
     ],
     "efficient_architectures": [
@@ -633,10 +629,6 @@
       {
         "title": "XSPA: Crafting Imperceptible X-Shaped Sparse Adversarial Perturbations for Transferable Attacks on VLMs",
         "url": "https://arxiv.org/abs/2603.28568v1"
-      },
-      {
-        "title": "HikmaAI/hikmaai-mdeberta-v3-base-prompt-injection",
-        "url": "https://huggingface.co/HikmaAI/hikmaai-mdeberta-v3-base-prompt-injection"
       }
     ],
     "vision_systems": [
@@ -675,6 +667,10 @@
       {
         "title": "Curriculum-Guided Myocardial Scar Segmentation for Ischemic and Non-ischemic Cardiomyopathy",
         "url": "https://arxiv.org/abs/2603.28560v1"
+      },
+      {
+        "title": "huggingface/documentation-images",
+        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "Navigating the Mirage: A Dual-Path Agentic Framework for Robust Misleading Chart Question Answering",
@@ -1649,7 +1645,7 @@
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "33 independent papers",
+      "observation": "32 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1673,13 +1669,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 407
   }
 }
