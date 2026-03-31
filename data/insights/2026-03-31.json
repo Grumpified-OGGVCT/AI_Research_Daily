@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-31T13:04:04.107723",
+  "date": "2026-03-31T14:56:56.644156",
   "patterns": {
     "multimodal_research": [
       {
@@ -631,8 +631,12 @@
         "url": "https://arxiv.org/abs/2603.28568v1"
       },
       {
-        "title": "Rajdeep2k/aiagent-classify-roberta-fullreadme89",
-        "url": "https://huggingface.co/Rajdeep2k/aiagent-classify-roberta-fullreadme89"
+        "title": "Raghav-Singhal/pretrain-normal-smollm-1p7b-100B-20n-2048sl-960gbsz",
+        "url": "https://huggingface.co/Raghav-Singhal/pretrain-normal-smollm-1p7b-100B-20n-2048sl-960gbsz"
+      },
+      {
+        "title": "Malleabile/gpt-oss-20b-uncensured",
+        "url": "https://huggingface.co/Malleabile/gpt-oss-20b-uncensured"
       }
     ],
     "vision_systems": [
@@ -935,6 +939,10 @@
       {
         "title": "TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K",
         "url": "https://arxiv.org/abs/2603.28287v1"
+      },
+      {
+        "title": "piyazon/ASR-cv-corpus-ug-24",
+        "url": "https://huggingface.co/piyazon/ASR-cv-corpus-ug-24"
       }
     ],
     "reasoning": [
@@ -1209,6 +1217,10 @@
       {
         "title": "SVH-BD : Synthetic Vegetation Hyperspectral Benchmark Dataset for Emulation of Remote Sensing Images",
         "url": "https://arxiv.org/abs/2603.28390v1"
+      },
+      {
+        "title": "timteh673/Qwen3.5-122B-A10B-Opus-Reasoning-GGUF",
+        "url": "https://huggingface.co/timteh673/Qwen3.5-122B-A10B-Opus-Reasoning-GGUF"
       }
     ],
     "benchmarks": [
@@ -1669,19 +1681,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,7 +1728,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 34,
+      "frequency": 35,
       "significance": "high"
     },
     {
@@ -1728,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 410
   }
 }
