@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-31T22:29:44.857702",
+  "date": "2026-03-31T23:29:41.277503",
   "patterns": {
     "multimodal_research": [
       {
@@ -331,10 +331,6 @@
       {
         "title": "XSPA: Crafting Imperceptible X-Shaped Sparse Adversarial Perturbations for Transferable Attacks on VLMs",
         "url": "https://arxiv.org/abs/2603.28568v1"
-      },
-      {
-        "title": "KKHYA/llavaqwen2.5-0.5b-finetune-moe-4e-2k_20260331_194516",
-        "url": "https://huggingface.co/KKHYA/llavaqwen2.5-0.5b-finetune-moe-4e-2k_20260331_194516"
       }
     ],
     "language_models": [
@@ -635,8 +631,8 @@
         "url": "https://arxiv.org/abs/2603.28568v1"
       },
       {
-        "title": "FAO0-k4mrthrohrnoai34u50u/hexagon-llm-1.1b",
-        "url": "https://huggingface.co/FAO0-k4mrthrohrnoai34u50u/hexagon-llm-1.1b"
+        "title": "sarahi-rdz/models_robertuito",
+        "url": "https://huggingface.co/sarahi-rdz/models_robertuito"
       }
     ],
     "vision_systems": [
@@ -939,10 +935,6 @@
       {
         "title": "TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K",
         "url": "https://arxiv.org/abs/2603.28287v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       },
       {
         "title": "huggingface/DEH-image-scan-data",
@@ -1669,7 +1661,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "51 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1687,7 +1679,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 408
   }
 }
