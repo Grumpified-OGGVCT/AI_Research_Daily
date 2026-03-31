@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-31T11:45:13.110047",
+  "date": "2026-03-31T13:04:04.107723",
   "patterns": {
     "multimodal_research": [
       {
@@ -629,6 +629,10 @@
       {
         "title": "XSPA: Crafting Imperceptible X-Shaped Sparse Adversarial Perturbations for Transferable Attacks on VLMs",
         "url": "https://arxiv.org/abs/2603.28568v1"
+      },
+      {
+        "title": "Rajdeep2k/aiagent-classify-roberta-fullreadme89",
+        "url": "https://huggingface.co/Rajdeep2k/aiagent-classify-roberta-fullreadme89"
       }
     ],
     "vision_systems": [
@@ -667,10 +671,6 @@
       {
         "title": "Curriculum-Guided Myocardial Scar Segmentation for Ischemic and Non-ischemic Cardiomyopathy",
         "url": "https://arxiv.org/abs/2603.28560v1"
-      },
-      {
-        "title": "huggingface/documentation-images",
-        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "Navigating the Mirage: A Dual-Path Agentic Framework for Robust Misleading Chart Question Answering",
@@ -1669,13 +1669,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
