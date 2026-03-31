@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-31T18:53:57.435935",
+  "date": "2026-03-31T19:52:43.308017",
   "patterns": {
     "multimodal_research": [
       {
@@ -331,18 +331,6 @@
       {
         "title": "XSPA: Crafting Imperceptible X-Shaped Sparse Adversarial Perturbations for Transferable Attacks on VLMs",
         "url": "https://arxiv.org/abs/2603.28568v1"
-      },
-      {
-        "title": "Jackmin108/Qwen3-30B-A3B-Oink-perfte-moe-only",
-        "url": "https://huggingface.co/Jackmin108/Qwen3-30B-A3B-Oink-perfte-moe-only"
-      },
-      {
-        "title": "Jackmin108/Qwen3-30B-A3B-Woof-perfte-moe-only",
-        "url": "https://huggingface.co/Jackmin108/Qwen3-30B-A3B-Woof-perfte-moe-only"
-      },
-      {
-        "title": "Jackmin108/Qwen3-30B-A3B-Meow-perfte-moe-only",
-        "url": "https://huggingface.co/Jackmin108/Qwen3-30B-A3B-Meow-perfte-moe-only"
       }
     ],
     "language_models": [
@@ -643,16 +631,16 @@
         "url": "https://arxiv.org/abs/2603.28568v1"
       },
       {
-        "title": "roalalaoui/marbert-sarcasm-arabic",
-        "url": "https://huggingface.co/roalalaoui/marbert-sarcasm-arabic"
+        "title": "MLRS/BERTu_SentiMalti",
+        "url": "https://huggingface.co/MLRS/BERTu_SentiMalti"
       },
       {
-        "title": "FarmerlineML/w2v-bert-2.0_2026_dagbani_ASR",
-        "url": "https://huggingface.co/FarmerlineML/w2v-bert-2.0_2026_dagbani_ASR"
+        "title": "slamos/bc-models-deberta",
+        "url": "https://huggingface.co/slamos/bc-models-deberta"
       },
       {
-        "title": "chathurab1120/bert-fake-news-detector",
-        "url": "https://huggingface.co/chathurab1120/bert-fake-news-detector"
+        "title": "slamos/bc-models-bert",
+        "url": "https://huggingface.co/slamos/bc-models-bert"
       }
     ],
     "vision_systems": [
@@ -955,14 +943,6 @@
       {
         "title": "TerraSky3D: Multi-View Reconstructions of European Landmarks in 4K",
         "url": "https://arxiv.org/abs/2603.28287v1"
-      },
-      {
-        "title": "Jigen/qwen-image-capybara",
-        "url": "https://huggingface.co/Jigen/qwen-image-capybara"
-      },
-      {
-        "title": "Jigen/qwen-image-evangelion",
-        "url": "https://huggingface.co/Jigen/qwen-image-evangelion"
       }
     ],
     "reasoning": [
@@ -1685,7 +1665,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "53 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1703,7 +1683,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 409
   }
 }
