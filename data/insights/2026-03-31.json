@@ -1,5 +1,5 @@
 {
-  "date": "2026-03-31T21:35:12.508251",
+  "date": "2026-03-31T22:29:44.857702",
   "patterns": {
     "multimodal_research": [
       {
@@ -331,6 +331,10 @@
       {
         "title": "XSPA: Crafting Imperceptible X-Shaped Sparse Adversarial Perturbations for Transferable Attacks on VLMs",
         "url": "https://arxiv.org/abs/2603.28568v1"
+      },
+      {
+        "title": "KKHYA/llavaqwen2.5-0.5b-finetune-moe-4e-2k_20260331_194516",
+        "url": "https://huggingface.co/KKHYA/llavaqwen2.5-0.5b-finetune-moe-4e-2k_20260331_194516"
       }
     ],
     "language_models": [
@@ -631,8 +635,8 @@
         "url": "https://arxiv.org/abs/2603.28568v1"
       },
       {
-        "title": "OmarMaqousi/distilbert-emotion-model",
-        "url": "https://huggingface.co/OmarMaqousi/distilbert-emotion-model"
+        "title": "FAO0-k4mrthrohrnoai34u50u/hexagon-llm-1.1b",
+        "url": "https://huggingface.co/FAO0-k4mrthrohrnoai34u50u/hexagon-llm-1.1b"
       }
     ],
     "vision_systems": [
@@ -939,6 +943,10 @@
       {
         "title": "nphSi/Z-Image-Lora",
         "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1661,7 +1669,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "50 independent papers",
+      "observation": "51 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1679,7 +1687,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 410
   }
 }
