@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-01T22:32:37.157900",
+  "date": "2026-04-01T23:32:52.157011",
   "patterns": {
     "multimodal_research": [
       {
@@ -1009,6 +1009,10 @@
         "url": "https://arxiv.org/abs/2603.29495v1"
       },
       {
+        "title": "Alelcv27/Minerva-7B-Math-v2",
+        "url": "https://huggingface.co/Alelcv27/Minerva-7B-Math-v2"
+      },
+      {
         "title": "huggingface/DEH-image-scan-data",
         "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
@@ -1683,7 +1687,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "89 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 410
   }
 }
