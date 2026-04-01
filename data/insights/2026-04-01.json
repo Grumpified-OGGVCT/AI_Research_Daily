@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-01T20:39:32.284279",
+  "date": "2026-04-01T21:37:19.629055",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,8 +655,8 @@
         "url": "https://arxiv.org/abs/2603.29368v1"
       },
       {
-        "title": "Rustamshry/Qwen3-8B-gpt-5.4-Reasoning-Distilled-GGUF",
-        "url": "https://huggingface.co/Rustamshry/Qwen3-8B-gpt-5.4-Reasoning-Distilled-GGUF"
+        "title": "leocooo/camembert-job-classifier",
+        "url": "https://huggingface.co/leocooo/camembert-job-classifier"
       }
     ],
     "vision_systems": [
@@ -1237,10 +1237,6 @@
       {
         "title": "Penalized GMM Framework for Inference on Functionals of Nonparametric Instrumental Variable Estimators",
         "url": "https://arxiv.org/abs/2603.29889v1"
-      },
-      {
-        "title": "Rustamshry/Qwen3-8B-gpt-5.4-Reasoning-Distilled-GGUF",
-        "url": "https://huggingface.co/Rustamshry/Qwen3-8B-gpt-5.4-Reasoning-Distilled-GGUF"
       }
     ],
     "benchmarks": [
@@ -1693,7 +1689,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "57 independent papers",
+      "observation": "56 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 409
   }
 }
