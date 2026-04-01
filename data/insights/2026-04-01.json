@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-01T15:00:14.320860",
+  "date": "2026-04-01T16:09:01.896624",
   "patterns": {
     "multimodal_research": [
       {
@@ -1007,10 +1007,6 @@
       {
         "title": "All-in-One Augmented Reality Guided Head and Neck Tumor Resection",
         "url": "https://arxiv.org/abs/2603.29495v1"
-      },
-      {
-        "title": "ghenna/maricruzv1-zimage",
-        "url": "https://huggingface.co/ghenna/maricruzv1-zimage"
       }
     ],
     "reasoning": [
@@ -1237,6 +1233,10 @@
       {
         "title": "Penalized GMM Framework for Inference on Functionals of Nonparametric Instrumental Variable Estimators",
         "url": "https://arxiv.org/abs/2603.29889v1"
+      },
+      {
+        "title": "rcorvohan/Qwen3.5-122B-A10B-Opus-Reasoning-GGUF",
+        "url": "https://huggingface.co/rcorvohan/Qwen3.5-122B-A10B-Opus-Reasoning-GGUF"
       }
     ],
     "benchmarks": [
@@ -1683,13 +1683,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "89 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "56 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,7 +1709,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 70,
+      "frequency": 71,
       "significance": "high"
     },
     {
