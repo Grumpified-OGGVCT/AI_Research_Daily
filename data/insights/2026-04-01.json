@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-01T13:06:12.003189",
+  "date": "2026-04-01T15:00:14.320860",
   "patterns": {
     "multimodal_research": [
       {
@@ -653,10 +653,6 @@
       {
         "title": "StereoVGGT: A Training-Free Visual Geometry Transformer for Stereo Vision",
         "url": "https://arxiv.org/abs/2603.29368v1"
-      },
-      {
-        "title": "01gumano1d/hubert-baseline",
-        "url": "https://huggingface.co/01gumano1d/hubert-baseline"
       }
     ],
     "vision_systems": [
@@ -1011,6 +1007,10 @@
       {
         "title": "All-in-One Augmented Reality Guided Head and Neck Tumor Resection",
         "url": "https://arxiv.org/abs/2603.29495v1"
+      },
+      {
+        "title": "ghenna/maricruzv1-zimage",
+        "url": "https://huggingface.co/ghenna/maricruzv1-zimage"
       }
     ],
     "reasoning": [
@@ -1677,13 +1677,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "88 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
