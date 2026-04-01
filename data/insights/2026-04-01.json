@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-01T06:25:58.277000",
+  "date": "2026-04-01T08:14:17.397696",
   "patterns": {
     "multimodal_research": [
       {
@@ -653,6 +653,14 @@
       {
         "title": "StereoVGGT: A Training-Free Visual Geometry Transformer for Stereo Vision",
         "url": "https://arxiv.org/abs/2603.29368v1"
+      },
+      {
+        "title": "sytnaxerror/xlm-roberta-large-with-concat-mac",
+        "url": "https://huggingface.co/sytnaxerror/xlm-roberta-large-with-concat-mac"
+      },
+      {
+        "title": "wangihong/klue-bert-base",
+        "url": "https://huggingface.co/wangihong/klue-bert-base"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 410
   }
 }
