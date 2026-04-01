@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-01T11:47:30.871960",
+  "date": "2026-04-01T13:06:12.003189",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,8 +655,8 @@
         "url": "https://arxiv.org/abs/2603.29368v1"
       },
       {
-        "title": "cloudyu/GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled",
-        "url": "https://huggingface.co/cloudyu/GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled"
+        "title": "01gumano1d/hubert-baseline",
+        "url": "https://huggingface.co/01gumano1d/hubert-baseline"
       }
     ],
     "vision_systems": [
@@ -1237,10 +1237,6 @@
       {
         "title": "Penalized GMM Framework for Inference on Functionals of Nonparametric Instrumental Variable Estimators",
         "url": "https://arxiv.org/abs/2603.29889v1"
-      },
-      {
-        "title": "cloudyu/GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled",
-        "url": "https://huggingface.co/cloudyu/GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1693,7 +1689,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "57 independent papers",
+      "observation": "56 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 409
   }
 }
