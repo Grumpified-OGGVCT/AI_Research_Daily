@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-01T10:04:15.180076",
+  "date": "2026-04-01T11:47:30.871960",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,12 +655,8 @@
         "url": "https://arxiv.org/abs/2603.29368v1"
       },
       {
-        "title": "dilarayavuz/strategic-twitter-addsent-bert-p10",
-        "url": "https://huggingface.co/dilarayavuz/strategic-twitter-addsent-bert-p10"
-      },
-      {
-        "title": "lukeM07/bert-sentiment-analysis",
-        "url": "https://huggingface.co/lukeM07/bert-sentiment-analysis"
+        "title": "cloudyu/GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/cloudyu/GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "vision_systems": [
@@ -1241,6 +1237,10 @@
       {
         "title": "Penalized GMM Framework for Inference on Functionals of Nonparametric Instrumental Variable Estimators",
         "url": "https://arxiv.org/abs/2603.29889v1"
+      },
+      {
+        "title": "cloudyu/GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled",
+        "url": "https://huggingface.co/cloudyu/GPT-OSS-120B-2experts-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1681,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1693,7 +1693,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "56 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
