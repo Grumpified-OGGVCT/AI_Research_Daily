@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-02T17:45:50.183700",
+  "date": "2026-04-02T18:49:05.921666",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,16 +687,12 @@
         "url": "https://arxiv.org/abs/2604.00809v1"
       },
       {
-        "title": "Cisco1963/llmplasticity-de_zh_linear_0.125_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_zh_linear_0.125_1-seed42"
+        "title": "Cisco1963/llmplasticity-en_fi_linear_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_fi_linear_0.5_1-seed42"
       },
       {
-        "title": "AuraWorxAI/weather-llm-initial",
-        "url": "https://huggingface.co/AuraWorxAI/weather-llm-initial"
-      },
-      {
-        "title": "nawazishpatana/pubmedbert-main-claim-extraction",
-        "url": "https://huggingface.co/nawazishpatana/pubmedbert-main-claim-extraction"
+        "title": "Cisco1963/llmplasticity-en_zh_instant_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_zh_instant_0.125_1-seed42"
       }
     ],
     "vision_systems": [
@@ -1753,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 427
   }
 }
