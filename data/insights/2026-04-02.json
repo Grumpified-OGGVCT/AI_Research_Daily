@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-02T21:32:29.440061",
+  "date": "2026-04-02T22:27:41.913644",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,12 +687,12 @@
         "url": "https://arxiv.org/abs/2604.00809v1"
       },
       {
-        "title": "Exboinature/phishguard-roberta",
-        "url": "https://huggingface.co/Exboinature/phishguard-roberta"
+        "title": "Cisco1963/llmplasticity-en_zh_linear_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_zh_linear_0.5_1-seed42"
       },
       {
-        "title": "Cisco1963/llmplasticity-en_zh_instant_0.25_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_zh_instant_0.25_1-seed42"
+        "title": "Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_fi_linear_0.125_1-seed42"
       }
     ],
     "vision_systems": [
@@ -947,6 +947,10 @@
       {
         "title": "PrivHAR-Bench: A Graduated Privacy Benchmark Dataset for Video-Based Action Recognition",
         "url": "https://arxiv.org/abs/2604.00761v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1755,7 +1759,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "63 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 428
   }
 }
