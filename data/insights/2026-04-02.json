@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-02T20:30:54.107153",
+  "date": "2026-04-02T21:32:29.440061",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,16 +687,12 @@
         "url": "https://arxiv.org/abs/2604.00809v1"
       },
       {
-        "title": "themaestr00/gpt-oss-20b-algo-books-trained",
-        "url": "https://huggingface.co/themaestr00/gpt-oss-20b-algo-books-trained"
+        "title": "Exboinature/phishguard-roberta",
+        "url": "https://huggingface.co/Exboinature/phishguard-roberta"
       },
       {
-        "title": "MohamedAliAhmed/imdb-distilbert-classification",
-        "url": "https://huggingface.co/MohamedAliAhmed/imdb-distilbert-classification"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-de_fi_linear_0.125_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_fi_linear_0.125_1-seed42"
+        "title": "Cisco1963/llmplasticity-en_zh_instant_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_zh_instant_0.25_1-seed42"
       }
     ],
     "vision_systems": [
@@ -1753,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 427
   }
 }
