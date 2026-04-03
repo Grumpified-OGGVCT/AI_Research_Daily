@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-03T08:58:58.128814",
+  "date": "2026-04-03T09:54:15.856670",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,28 +751,24 @@
         "url": "https://arxiv.org/abs/2604.02182v1"
       },
       {
-        "title": "Cisco1963/llmplasticity-de_fi_instant_0.125_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_fi_instant_0.125_1-seed42"
+        "title": "Cisco1963/llmplasticity-en_de_instant_0.125_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_de_instant_0.125_1-seed42"
       },
       {
-        "title": "Cisco1963/llmplasticity-de_zh_instant_0.5_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_zh_instant_0.5_1-seed42"
+        "title": "Cisco1963/llmplasticity-zh_fi_linear_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_fi_linear_0.5_1-seed42"
       },
       {
-        "title": "Cisco1963/llmplasticity-de_never_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_never_1-seed42"
+        "title": "notlath/ClinicalBERT_Symptom2Disease_dataset",
+        "url": "https://huggingface.co/notlath/ClinicalBERT_Symptom2Disease_dataset"
       },
       {
-        "title": "Cisco1963/llmplasticity-en_zh_linear_0.125_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_zh_linear_0.125_1-seed42"
+        "title": "Cisco1963/llmplasticity-en_de_instant_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_de_instant_0.5_1-seed42"
       },
       {
-        "title": "Cisco1963/llmplasticity-en_de_linear_0.5_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_de_linear_0.5_1-seed42"
-      },
-      {
-        "title": "Cisco1963/llmplasticity-en_fi_linear_0.25_1-seed42",
-        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_fi_linear_0.25_1-seed42"
+        "title": "Cisco1963/llmplasticity-de_en_linear_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-de_en_linear_0.25_1-seed42"
       }
     ],
     "vision_systems": [
@@ -1837,7 +1833,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1896,6 +1892,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 449
+    "total_papers": 448
   }
 }
