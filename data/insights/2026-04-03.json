@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-03T21:28:27.941484",
+  "date": "2026-04-03T22:28:19.510918",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,8 +751,8 @@
         "url": "https://arxiv.org/abs/2604.02182v1"
       },
       {
-        "title": "dubai12131/smollm2-finetuned-chat-instruct-lora-adapters",
-        "url": "https://huggingface.co/dubai12131/smollm2-finetuned-chat-instruct-lora-adapters"
+        "title": "jeffasante/gemma-3-1b-it-int8-cellm",
+        "url": "https://huggingface.co/jeffasante/gemma-3-1b-it-int8-cellm"
       }
     ],
     "vision_systems": [
@@ -1059,6 +1059,10 @@
       {
         "title": "GeoAI Agency Primitives",
         "url": "https://arxiv.org/abs/2604.01869v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1823,7 +1827,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1876,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 444
+    "total_papers": 445
   }
 }
