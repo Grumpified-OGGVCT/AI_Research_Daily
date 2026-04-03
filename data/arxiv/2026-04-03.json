@@ -74,7 +74,7 @@
     "title": "Woosh: A Sound Effects Foundation Model",
     "summary": "The audio research community depends on open generative models as foundational tools for building novel approaches and establishing baselines. In this report, we present Woosh, Sony AI's publicly released sound effect foundation model, detailing its architecture, training process, and an evaluation against other popular open models. Being optimized for sound effects, we provide (1) a high-quality audio encoder/decoder model and (2) a text-audio alignment model for conditioning, together with (3) text-to-audio and (4) video-to-audio generative models. Distilled text-to-audio and video-to-audio models are also included in the release, allowing for low-resource operation and fast inference. Our evaluation on both public and private data shows competitive or better performance for each module when compared to existing open alternatives like StableAudio-Open and TangoFlux. Inference code and model weights are available at https://github.com/SonyResearch/Woosh. Demo samples can be found at https://sonyresearch.github.io/Woosh/.",
     "authors": [
-      "Ga\u00ebtan Hadjeres",
+      "Gaëtan Hadjeres",
       "Marc Ferras",
       "Khaled Koutini",
       "Benno Weck",
@@ -82,7 +82,7 @@
       "Thomas Hummel",
       "Zineb Lahrici",
       "Hakim Missoum",
-      "Joan Serr\u00e0",
+      "Joan Serrà",
       "Yuki Mitsufuji"
     ],
     "categories": [
@@ -198,7 +198,7 @@
   {
     "arxiv_id": "2604.01913v1",
     "title": "The Rank and Gradient Lost in Non-stationarity: Sample Weight Decay for Mitigating Plasticity Loss in Reinforcement Learning",
-    "summary": "Deep reinforcement learning (RL) suffers from plasticity loss severely due to the nature of non-stationarity, which impairs the ability to adapt to new data and learn continually. Unfortunately, our understanding of how plasticity loss arises, dissipates, and can be dissolved remains limited to empirical findings, leaving the theoretical end underexplored.To address this gap, we study the plasticity loss problem from the theoretical perspective of network optimization. By formally characterizing the two culprit factors in online RL process: the non-stationarity of data distributions and the non-stationarity of targets induced by bootstrapping, our theory attributes the loss of plasticity to two mechanisms: the rank collapse of the Neural Tangent Kernel (NTK) Gram matrix and the $\u0398(\\frac{1}{k})$ decay of gradient magnitude. The first mechanism echoes prior empirical findings from the theoretical perspective and sheds light on the effects of existing methods, e.g., network reset, neuron recycle, and noise injection. Against this backdrop, we focus primarily on the second mechanism and aim to alleviate plasticity loss by addressing the gradient attenuation issue, which is orthogonal to existing methods. We propose Sample Weight Decay -- a lightweight method to restore gradient magnitude, as a general remedy to plasticity loss for deep RL methods based on experience replay. In experiments, we evaluate the efficacy of \\methodName upon TD3, \\myadded{Double DQN} and SAC with SimBa architecture in MuJoCo, \\myadded{ALE} and DeepMind Control Suite tasks. The results demonstrate that \\methodName effectively alleviates plasticity loss and consistently improves learning performance across various configurations of deep RL algorithms, UTD, network architectures, and environments, achieving SOTA performance on challenging DMC Humanoid tasks.",
+    "summary": "Deep reinforcement learning (RL) suffers from plasticity loss severely due to the nature of non-stationarity, which impairs the ability to adapt to new data and learn continually. Unfortunately, our understanding of how plasticity loss arises, dissipates, and can be dissolved remains limited to empirical findings, leaving the theoretical end underexplored.To address this gap, we study the plasticity loss problem from the theoretical perspective of network optimization. By formally characterizing the two culprit factors in online RL process: the non-stationarity of data distributions and the non-stationarity of targets induced by bootstrapping, our theory attributes the loss of plasticity to two mechanisms: the rank collapse of the Neural Tangent Kernel (NTK) Gram matrix and the $Θ(\\frac{1}{k})$ decay of gradient magnitude. The first mechanism echoes prior empirical findings from the theoretical perspective and sheds light on the effects of existing methods, e.g., network reset, neuron recycle, and noise injection. Against this backdrop, we focus primarily on the second mechanism and aim to alleviate plasticity loss by addressing the gradient attenuation issue, which is orthogonal to existing methods. We propose Sample Weight Decay -- a lightweight method to restore gradient magnitude, as a general remedy to plasticity loss for deep RL methods based on experience replay. In experiments, we evaluate the efficacy of \\methodName upon TD3, \\myadded{Double DQN} and SAC with SimBa architecture in MuJoCo, \\myadded{ALE} and DeepMind Control Suite tasks. The results demonstrate that \\methodName effectively alleviates plasticity loss and consistently improves learning performance across various configurations of deep RL algorithms, UTD, network architectures, and environments, achieving SOTA performance on challenging DMC Humanoid tasks.",
     "authors": [
       "Zihao Wu",
       "Hongyao Tang",
@@ -272,7 +272,7 @@
       "Baptiste Callard",
       "Corentin Dancette",
       "Julien Khlaut",
-      "Charles Corbi\u00e8re",
+      "Charles Corbière",
       "Leo Butsanets",
       "Amaury Prat",
       "Pierre Manceron"
@@ -461,9 +461,9 @@
     "title": "Crystalite: A Lightweight Transformer for Efficient Crystal Modeling",
     "summary": "Generative models for crystalline materials often rely on equivariant graph neural networks, which capture geometric structure well but are costly to train and slow to sample. We present Crystalite, a lightweight diffusion Transformer for crystal modeling built around two simple inductive biases. The first is Subatomic Tokenization, a compact chemically structured atom representation that replaces high-dimensional one-hot encodings and is better suited to continuous diffusion. The second is the Geometry Enhancement Module (GEM), which injects periodic minimum-image pair geometry directly into attention through additive geometric biases. Together, these components preserve the simplicity and efficiency of a standard Transformer while making it better matched to the structure of crystalline materials. Crystalite achieves state-of-the-art results on crystal structure prediction benchmarks, and de novo generation performance, attaining the best S.U.N. discovery score among the evaluated baselines while sampling substantially faster than geometry-heavy alternatives.",
     "authors": [
-      "Tin Had\u017ei Veljkovi\u0107",
+      "Tin Hadži Veljković",
       "Joshua Rosenthal",
-      "Ivor Lon\u010dari\u0107",
+      "Ivor Lončarić",
       "Jan-Willem van de Meent"
     ],
     "categories": [
@@ -854,7 +854,7 @@
     "summary": "We introduce a fast low-rank factorization-based framework for compressing large language models that enables rapid compression of billion-parameter models without retraining. Unlike existing factorization-based approaches that optimize only on the original inputs, ignoring distribution shifts from upstream compression and thus propagating errors forward, or those that rely only on shifted inputs and risk drifting away from the original outputs, our approach accounts for both. Beyond individual layer compression, we further refine each transformer block end-to-end, minimizing block-level output distortion and allowing compressed layers to jointly compensate for accumulated errors. By anchoring each compressed layer to the original outputs while explicitly modeling input distribution shifts, our method finds a low-rank approximation that maintains functional equivalence with the original model. Experiments on large language models show that our method consistently outperforms existing SVD-based baselines across compression ratios, with the advantage becoming increasingly pronounced at aggressive compression budgets, where competing methods degrade substantially or collapse entirely, offering a practical solution for efficient, large-scale model deployment.",
     "authors": [
       "Atul Kumar Sinha",
-      "Fran\u00e7ois Fleuret"
+      "François Fleuret"
     ],
     "categories": [
       "cs.LG"
@@ -1153,7 +1153,7 @@
     "summary": "Insurance application processes often rely on lengthy and standardized questionnaires that struggle to capture individual differences. Moreover, insurers must blindly trust users' responses, increasing the chances of fraud. The ARQuest framework introduces a new approach to underwriting by using Large Language Models (LLMs) and alternative data sources to create personalized and adaptive questionnaires. Techniques such as social media image analysis, geographic data categorization, and Retrieval Augmented Generation (RAG) are used to extract meaningful user insights and guide targeted follow-up questions.   A life insurance system integrated into an industry partner mobile app was tested in two experiments. While traditional questionnaires yielded slightly higher accuracy in risk assessment, adaptive versions powered by GPT models required fewer questions and were preferred by users for their more fluid and engaging experience.   ARQuest shows great potential to improve user satisfaction and streamline insurance processes. With further development, this approach may exceed traditional methods regarding risk accuracy and help drive innovation in the insurance industry.",
     "authors": [
       "Diogo Silva",
-      "Jo\u00e3o Teixeira",
+      "João Teixeira",
       "Bruno Lima"
     ],
     "categories": [
@@ -1542,8 +1542,8 @@
     "summary": "Foundational Vision Transformers (ViTs) have limited effectiveness in tasks requiring fine-grained spatial understanding, due to their fixed pre-training resolution and inherently coarse patch-level representations. These challenges are especially pronounced in dense prediction scenarios, such as open-vocabulary segmentation with ViT-based vision-language models, where high-resolution inputs are essential for accurate pixel-level reasoning. Existing approaches typically process large-resolution images using a sliding-window strategy at the pre-training resolution. While this improves accuracy through finer strides, it comes at a significant computational cost. We introduce SPAR: Single-Pass Any-Resolution ViT, a resolution-agnostic dense feature extractor designed for efficient high-resolution inference. We distill the spatial reasoning capabilities of a finely-strided, sliding-window teacher into a single-pass student using a feature regression loss, without requiring architectural changes or pixel-level supervision. Applied to open-vocabulary segmentation, SPAR improves single-pass baselines by up to 10.5 mIoU and even surpasses the teacher, demonstrating effectiveness in efficient, high-resolution reasoning. Code: https://github.com/naomikombol/SPAR",
     "authors": [
       "Naomi Kombol",
-      "Ivan Martinovi\u0107",
-      "Sini\u0161a \u0160egvi\u0107",
+      "Ivan Martinović",
+      "Siniša Šegvić",
       "Giorgos Tolias"
     ],
     "categories": [
@@ -1566,7 +1566,7 @@
       "Beatrice Alex",
       "Ignatius Ezeani",
       "Dawn Knight",
-      "M\u00edche\u00e1l J. \u00d3 Meachair",
+      "Mícheál J. Ó Meachair",
       "Paul Rayson",
       "Martin Wynne"
     ],
@@ -1583,7 +1583,7 @@
   {
     "arxiv_id": "2604.01961v1",
     "title": "Generalization Bounds and Statistical Guarantees for Multi-Task and Multiple Operator Learning with MNO Networks",
-    "summary": "Multiple operator learning concerns learning operator families $\\{G[\u03b1]:U\\to V\\}_{\u03b1\\in W}$ indexed by an operator descriptor $\u03b1$. Training data are collected hierarchically by sampling operator instances $\u03b1$, then input functions $u$ per instance, and finally evaluation points $x$ per input, yielding noisy observations of $G[\u03b1][u](x)$. While recent work has developed expressive multi-task and multiple operator learning architectures and approximation-theoretic scaling laws, quantitative statistical generalization guarantees remain limited. We provide a covering-number-based generalization analysis for separable models, focusing on the Multiple Neural Operator (MNO) architecture: we first derive explicit metric-entropy bounds for hypothesis classes given by linear combinations of products of deep ReLU subnetworks, and then combine these complexity bounds with approximation guarantees for MNO to obtain an explicit approximation-estimation tradeoff for the expected test error on new (unseen) triples $(\u03b1,u,x)$. The resulting bound makes the dependence on the hierarchical sampling budgets $(n_\u03b1,n_u,n_x)$ transparent and yields an explicit learning-rate statement in the operator-sampling budget $n_\u03b1$, providing a sample-complexity characterization for generalization across operator instances. The structure and architecture can also be viewed as a general purpose solver or an example of a \"small'' PDE foundation model, where the triples are one form of multi-modality.",
+    "summary": "Multiple operator learning concerns learning operator families $\\{G[α]:U\\to V\\}_{α\\in W}$ indexed by an operator descriptor $α$. Training data are collected hierarchically by sampling operator instances $α$, then input functions $u$ per instance, and finally evaluation points $x$ per input, yielding noisy observations of $G[α][u](x)$. While recent work has developed expressive multi-task and multiple operator learning architectures and approximation-theoretic scaling laws, quantitative statistical generalization guarantees remain limited. We provide a covering-number-based generalization analysis for separable models, focusing on the Multiple Neural Operator (MNO) architecture: we first derive explicit metric-entropy bounds for hypothesis classes given by linear combinations of products of deep ReLU subnetworks, and then combine these complexity bounds with approximation guarantees for MNO to obtain an explicit approximation-estimation tradeoff for the expected test error on new (unseen) triples $(α,u,x)$. The resulting bound makes the dependence on the hierarchical sampling budgets $(n_α,n_u,n_x)$ transparent and yields an explicit learning-rate statement in the operator-sampling budget $n_α$, providing a sample-complexity characterization for generalization across operator instances. The structure and architecture can also be viewed as a general purpose solver or an example of a \"small'' PDE foundation model, where the triples are one form of multi-modality.",
     "authors": [
       "Adrien Weihs",
       "Hayden Schaeffer"
@@ -1603,15 +1603,15 @@
     "title": "Reliable News or Propagandist News? A Neurosymbolic Model Using Genre, Topic, and Persuasion Techniques to Improve Robustness in Classification",
     "summary": "Among news disorders, propagandist news are particularly insidious, because they tend to mix oriented messages with factual reports intended to look like reliable news. To detect propaganda, extant approaches based on Language Models such as BERT are promising but often overfit their training datasets, due to biases in data collection. To enhance classification robustness and improve generalization to new sources, we propose a neurosymbolic approach combining non-contextual text embeddings (fastText) with symbolic conceptual features such as genre, topic, and persuasion techniques. Results show improvements over equivalent text-only methods, and ablation studies as well as explainability analyses confirm the benefits of the added features.   Keywords: Information disorder, Fake news, Propaganda, Classification, Topic modeling, Hybrid method, Neurosymbolic model, Ablation, Robustness",
     "authors": [
-      "G\u00e9raud Faye",
+      "Géraud Faye",
       "Benjamin Icard",
       "Morgane Casanova",
       "Guillaume Gadek",
       "Guillaume Gravier",
       "Wassila Ouerdane",
-      "C\u00e9line Hudelot",
+      "Céline Hudelot",
       "Sylvain Gatepaille",
-      "Paul \u00c9gr\u00e9"
+      "Paul Égré"
     ],
     "categories": [
       "cs.CL",
@@ -1689,10 +1689,10 @@
     "title": "Rare-Aware Autoencoding: Reconstructing Spatially Imbalanced Data",
     "summary": "Autoencoders can be challenged by spatially non-uniform sampling of image content. This is common in medical imaging, biology, and physics, where informative patterns occur rarely at specific image coordinates, as background dominates these locations in most samples, biasing reconstructions toward the majority appearance. In practice, autoencoders are biased toward dominant patterns resulting in the loss of fine-grained detail and causing blurred reconstructions for rare spatial inputs especially under spatial data imbalance. We address spatial imbalance by two complementary components: (i) self-entropy-based loss that upweights statistically uncommon spatial locations and (ii) Sample Propagation, a replay mechanism that selectively re-exposes the model to hard to reconstruct samples across batches during training. We benchmark existing data balancing strategies, originally developed for supervised classification, in the unsupervised reconstruction setting. Drawing on the limitations of these approaches, our method specifically targets spatial imbalance by encouraging models to focus on statistically rare locations, improving reconstruction consistency compared to existing baselines. We validate in a simulated dataset with controlled spatial imbalance conditions, and in three, uncontrolled, diverse real-world datasets spanning physical, biological, and astronomical domains. Our approach outperforms baselines on various reconstruction metrics, particularly under spatial imbalance distributions. These results highlight the importance of data representation in a batch and emphasize rare samples in unsupervised image reconstruction. We will make all code and related data available.",
     "authors": [
-      "Alejandro Casta\u00f1eda Garcia",
+      "Alejandro Castañeda Garcia",
       "Jan van Gemert",
       "Daan Brinks",
-      "Nergis T\u00f6men"
+      "Nergis Tömen"
     ],
     "categories": [
       "cs.CV",
@@ -1895,7 +1895,7 @@
     "title": "Probabilistic classification from possibilistic data: computing Kullback-Leibler projection with a possibility distribution",
     "summary": "We consider learning with possibilistic supervision for multi-class classification. For each training instance, the supervision is a normalized possibility distribution that expresses graded plausibility over the classes. From this possibility distribution, we construct a non-empty closed convex set of admissible probability distributions by combining two requirements: probabilistic compatibility with the possibility and necessity measures induced by the possibility distribution, and linear shape constraints that must be satisfied to preserve the qualitative structure of the possibility distribution. Thus, classes with the same possibility degree receive equal probabilities, and if a class has a strictly larger possibility degree than another class, then it receives a strictly larger probability. Given a strictly positive probability vector output by a model for an instance, we compute its Kullback-Leibler projection onto the admissible set. This projection yields the closest admissible probability distribution in Kullback-Leibler sense. We can then train the model by minimizing the divergence between the prediction and its projection, which quantifies the smallest adjustment needed to satisfy the induced dominance and shape constraints. The projection is computed with Dykstra's algorithm using Bregman projections associated with the negative entropy, and we provide explicit formulas for the projections onto each constraint set. Experiments conducted on synthetic data and on a real-world natural language inference task, based on the ChaosNLI dataset, show that the proposed projection algorithm is efficient enough for practical use, and that the resulting projection-based learning objective can improve predictive performance.",
     "authors": [
-      "Isma\u00efl Baaj",
+      "Ismaïl Baaj",
       "Pierre Marquis"
     ],
     "categories": [
@@ -2060,7 +2060,7 @@
   {
     "arxiv_id": "2604.01951v1",
     "title": "Learn by Surprise, Commit by Proof",
-    "summary": "We propose LSCP, a self-gated post-training framework for autonomous knowledge acquisition: learning only what a model does not already know, verified against what it does know, at a strength proportional to conviction, with no external oracle. When a passage produces anomalously high per-token loss, LSCP flags it, generates a Q&A chain that forces the model to articulate its own knowledge and identify gaps, then adjusts AdamW's $\u03b2_2$ proportionally to conviction depth k (the number of self-verification steps the passage survives) via $\u03b2_2 = 0.999 \\cdot r^k$. The entire learning intensity is governed by a single parameter $r$. Beyond new knowledge, this process sharpens weakly encoded existing knowledge, which is a primary source of hallucination. The framework is self-extinguishing: as the model learns, per-token loss on learned passages decreases toward the surprisal threshold and the system progressively converges to standard AdamW. This models biological memory consolidation: temporary information in the context window is selectively consolidated into parametric weights, the model's long-term memory. Experiments on the reference model (Qwen3-14B) and across six models (8B--32B, four families) show that standard fine-tuning produces rote memorization (perturbation gap (the ratio of paraphrase to original perplexity) of 11.6 +- 0.2 x baseline) while all LSCP conditions learn semantically (2.7--3.0x). The r=1.0 condition (identical optimizer, nearly identical data, only Q&A format differs) confirms that the training data format, not $\u03b2_2$ gating, is the primary mechanism preventing memorization; gating instead protects neighboring knowledge from contamination by corrupt content (93 +- 7% accuracy on adjacent questions at r=0.98 vs. 90% baseline).",
+    "summary": "We propose LSCP, a self-gated post-training framework for autonomous knowledge acquisition: learning only what a model does not already know, verified against what it does know, at a strength proportional to conviction, with no external oracle. When a passage produces anomalously high per-token loss, LSCP flags it, generates a Q&A chain that forces the model to articulate its own knowledge and identify gaps, then adjusts AdamW's $β_2$ proportionally to conviction depth k (the number of self-verification steps the passage survives) via $β_2 = 0.999 \\cdot r^k$. The entire learning intensity is governed by a single parameter $r$. Beyond new knowledge, this process sharpens weakly encoded existing knowledge, which is a primary source of hallucination. The framework is self-extinguishing: as the model learns, per-token loss on learned passages decreases toward the surprisal threshold and the system progressively converges to standard AdamW. This models biological memory consolidation: temporary information in the context window is selectively consolidated into parametric weights, the model's long-term memory. Experiments on the reference model (Qwen3-14B) and across six models (8B--32B, four families) show that standard fine-tuning produces rote memorization (perturbation gap (the ratio of paraphrase to original perplexity) of 11.6 +- 0.2 x baseline) while all LSCP conditions learn semantically (2.7--3.0x). The r=1.0 condition (identical optimizer, nearly identical data, only Q&A format differs) confirms that the training data format, not $β_2$ gating, is the primary mechanism preventing memorization; gating instead protects neighboring knowledge from contamination by corrupt content (93 +- 7% accuracy on adjacent questions at r=0.98 vs. 90% baseline).",
     "authors": [
       "Kang-Sin Choi"
     ],
@@ -2077,7 +2077,7 @@
   {
     "arxiv_id": "2604.01944v1",
     "title": "Physics-Informed Transformer for Multi-Band Channel Frequency Response Reconstruction",
-    "summary": "Wideband channel frequency response (CFR) estimation is challenging in multi-band wireless systems, especially when one or more sub-bands are temporarily blocked by co-channel interference. We present a physics-informed complex Transformer that reconstructs the full wideband CFR from such fragmented, partially observed spectrum snapshots. The interference pattern in each sub-band is modeled as an independent two-state discrete-time Markov chain, capturing realistic bursty occupancy behavior. Our model operates on the joint time-frequency grid of $T$ snapshots and $F$ frequency bins and uses a factored self-attention mechanism that separately attends along both axes, reducing the computational complexity to $O(TF^2 + FT^2)$. Complex-valued inputs and outputs are processed through a holomorphic linear layer that preserves phase relationships. Training uses a composite physics-informed loss combining spectral fidelity, power delay profile (PDP) reconstruction, channel impulse response (CIR) sparsity, and temporal smoothness. Mobility effects are incorporated through per-sample velocity randomization, enabling generalization across different mobility regimes. Evaluation against three classical baselines, namely, last-observation-carry-forward, zero-fill, and cubic-spline interpolation, shows that our approach achieves the highest PDP similarity with respect to the ground truth, reaching $\u03c1\\geq 0.82$ compared to $\u03c1\\geq 0.62$ for the best baseline at interference occupancy levels up to 50%. Furthermore, the model degrades smoothly across the full velocity range, consistently outperforming all other baselines.",
+    "summary": "Wideband channel frequency response (CFR) estimation is challenging in multi-band wireless systems, especially when one or more sub-bands are temporarily blocked by co-channel interference. We present a physics-informed complex Transformer that reconstructs the full wideband CFR from such fragmented, partially observed spectrum snapshots. The interference pattern in each sub-band is modeled as an independent two-state discrete-time Markov chain, capturing realistic bursty occupancy behavior. Our model operates on the joint time-frequency grid of $T$ snapshots and $F$ frequency bins and uses a factored self-attention mechanism that separately attends along both axes, reducing the computational complexity to $O(TF^2 + FT^2)$. Complex-valued inputs and outputs are processed through a holomorphic linear layer that preserves phase relationships. Training uses a composite physics-informed loss combining spectral fidelity, power delay profile (PDP) reconstruction, channel impulse response (CIR) sparsity, and temporal smoothness. Mobility effects are incorporated through per-sample velocity randomization, enabling generalization across different mobility regimes. Evaluation against three classical baselines, namely, last-observation-carry-forward, zero-fill, and cubic-spline interpolation, shows that our approach achieves the highest PDP similarity with respect to the ground truth, reaching $ρ\\geq 0.82$ compared to $ρ\\geq 0.62$ for the best baseline at interference occupancy levels up to 50%. Furthermore, the model degrades smoothly across the full velocity range, consistently outperforming all other baselines.",
     "authors": [
       "Anatolij Zubow",
       "Joana Angjo",
@@ -2276,9 +2276,9 @@
     "summary": "Transforming causal generative language models into bidirectional encoders offers a powerful alternative to BERT-style architectures. However, current approaches remain limited: they lack consensus on optimal training objectives, suffer from catastrophic forgetting at scale, and fail to flexibly integrate the vast ecosystem of specialized generative models. In this work, through systematic ablations on the Gemma3 and Qwen3 families, we identify the key factors driving successful adaptation, highlighting the critical role of an often-omitted prior masking phase. To scale this process without original pre-training data, we introduce a dual strategy combining linear weight merging with a lightweight multi-domain data mixture that mitigates catastrophic forgetting. Finally, we augment our encoders by merging them with specialized causal models, seamlessly transferring modality- and domain-specific capabilities. This open-source recipe, designed for any causal decoder LLM, yields BidirLM, a family of five encoders that outperform alternatives on text, vision, and audio representation benchmarks.",
     "authors": [
       "Nicolas Boizard",
-      "Th\u00e9o Deschamps-Berger",
+      "Théo Deschamps-Berger",
       "Hippolyte Gisserot-Boukhlef",
-      "C\u00e9line Hudelot",
+      "Céline Hudelot",
       "Pierre Colombo"
     ],
     "categories": [
@@ -2295,7 +2295,7 @@
   {
     "arxiv_id": "2604.02032v1",
     "title": "IndoorCrowd: A Multi-Scene Dataset for Human Detection, Segmentation, and Tracking with an Automated Annotation Pipeline",
-    "summary": "Understanding human behaviour in crowded indoor environments is central to surveillance, smart buildings, and human-robot interaction, yet existing datasets rarely capture real-world indoor complexity at scale. We introduce IndoorCrowd, a multi-scene dataset for indoor human detection, instance segmentation, and multi-object tracking, collected across four campus locations (ACS-EC, ACS-EG, IE-Central, R-Central). It comprises $31$ videos ($9{,}913$ frames at $5$fps) with human-verified, per-instance segmentation masks. A $620$-frame control subset benchmarks three foundation-model auto-annotators: SAM3, GroundingSAM, and EfficientGroundingSAM, against human labels using Cohen's $\u03ba$, AP, precision, recall, and mask IoU. A further $2{,}552$-frame subset supports multi-object tracking with continuous identity tracks in MOTChallenge format. We establish detection, segmentation, and tracking baselines using YOLOv8n, YOLOv26n, and RT-DETR-L paired with ByteTrack, BoT-SORT, and OC-SORT. Per-scene analysis reveals substantial difficulty variation driven by crowd density, scale, and occlusion: ACS-EC, with $79.3\\%$ dense frames and a mean instance scale of $60.8$px, is the most challenging scene. The project page is available at https://sheepseb.github.io/IndoorCrowd/.",
+    "summary": "Understanding human behaviour in crowded indoor environments is central to surveillance, smart buildings, and human-robot interaction, yet existing datasets rarely capture real-world indoor complexity at scale. We introduce IndoorCrowd, a multi-scene dataset for indoor human detection, instance segmentation, and multi-object tracking, collected across four campus locations (ACS-EC, ACS-EG, IE-Central, R-Central). It comprises $31$ videos ($9{,}913$ frames at $5$fps) with human-verified, per-instance segmentation masks. A $620$-frame control subset benchmarks three foundation-model auto-annotators: SAM3, GroundingSAM, and EfficientGroundingSAM, against human labels using Cohen's $κ$, AP, precision, recall, and mask IoU. A further $2{,}552$-frame subset supports multi-object tracking with continuous identity tracks in MOTChallenge format. We establish detection, segmentation, and tracking baselines using YOLOv8n, YOLOv26n, and RT-DETR-L paired with ByteTrack, BoT-SORT, and OC-SORT. Per-scene analysis reveals substantial difficulty variation driven by crowd density, scale, and occlusion: ACS-EC, with $79.3\\%$ dense frames and a mean instance scale of $60.8$px, is the most challenging scene. The project page is available at https://sheepseb.github.io/IndoorCrowd/.",
     "authors": [
       "Sebastian-Ion Nae",
       "Radu Moldoveanu",
@@ -2436,7 +2436,7 @@
     "authors": [
       "Klaudia Thellmann",
       "Bernhard Stadler",
-      "Michael F\u00e4rber"
+      "Michael Färber"
     ],
     "categories": [
       "cs.CL",
@@ -2564,7 +2564,7 @@
   {
     "arxiv_id": "2604.02241v1",
     "title": "UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models",
-    "summary": "Embodied visual tracking is crucial for Unmanned Aerial Vehicles (UAVs) executing complex real-world tasks. In dynamic urban scenarios with complex semantic requirements, Vision-Language-Action (VLA) models show great promise due to their cross-modal fusion and continuous action generation capabilities. To benchmark multimodal tracking in such environments, we construct a dedicated evaluation benchmark and a large-scale dataset encompassing over 890K frames, 176 tasks, and 85 diverse objects. Furthermore, to address temporal feature redundancy and the lack of spatial geometric priors in existing VLA models, we propose an improved VLA tracking model, UAV-Track VLA. Built upon the $\u03c0_{0.5}$ architecture, our model introduces a temporal compression net to efficiently capture inter-frame dynamics. Additionally, a parallel dual-branch decoder comprising a spatial-aware auxiliary grounding head and a flow matching action expert is designed to decouple cross-modal features and generate fine-grained continuous actions. Systematic experiments in the CARLA simulator validate the superior end-to-end performance of our method. Notably, in challenging long-distance pedestrian tracking tasks, UAV-Track VLA achieves a 61.76\\% success rate and 269.65 average tracking frames, significantly outperforming existing baselines. Furthermore, it demonstrates robust zero-shot generalization in unseen environments and reduces single-step inference latency by 33.4\\% (to 0.0571s) compared to the original $\u03c0_{0.5}$, enabling highly efficient, real-time UAV control. Data samples and demonstration videos are available at: https://github.com/Hub-Tian/UAV-Track\\_VLA.",
+    "summary": "Embodied visual tracking is crucial for Unmanned Aerial Vehicles (UAVs) executing complex real-world tasks. In dynamic urban scenarios with complex semantic requirements, Vision-Language-Action (VLA) models show great promise due to their cross-modal fusion and continuous action generation capabilities. To benchmark multimodal tracking in such environments, we construct a dedicated evaluation benchmark and a large-scale dataset encompassing over 890K frames, 176 tasks, and 85 diverse objects. Furthermore, to address temporal feature redundancy and the lack of spatial geometric priors in existing VLA models, we propose an improved VLA tracking model, UAV-Track VLA. Built upon the $π_{0.5}$ architecture, our model introduces a temporal compression net to efficiently capture inter-frame dynamics. Additionally, a parallel dual-branch decoder comprising a spatial-aware auxiliary grounding head and a flow matching action expert is designed to decouple cross-modal features and generate fine-grained continuous actions. Systematic experiments in the CARLA simulator validate the superior end-to-end performance of our method. Notably, in challenging long-distance pedestrian tracking tasks, UAV-Track VLA achieves a 61.76\\% success rate and 269.65 average tracking frames, significantly outperforming existing baselines. Furthermore, it demonstrates robust zero-shot generalization in unseen environments and reduces single-step inference latency by 33.4\\% (to 0.0571s) compared to the original $π_{0.5}$, enabling highly efficient, real-time UAV control. Data samples and demonstration videos are available at: https://github.com/Hub-Tian/UAV-Track\\_VLA.",
     "authors": [
       "Qiyao Zhang",
       "Shuhua Zheng",
@@ -2780,7 +2780,7 @@
     "authors": [
       "Simon Coumes",
       "Pierre-Henri Paris",
-      "Fran\u00e7ois Schwarzentruber",
+      "François Schwarzentruber",
       "Fabian Suchanek"
     ],
     "categories": [
@@ -3048,7 +3048,7 @@
       "Pawel Tomasz Pieta",
       "Rasmus Juul Pedersen",
       "Sina Borgi",
-      "Jakob Sauer J\u00f8rgensen",
+      "Jakob Sauer Jørgensen",
       "Jens Wenzel Andreasen",
       "Vedrana Andersen Dahl"
     ],
@@ -3196,7 +3196,7 @@
       "Florian Kelber",
       "Matthias Jobst",
       "Yuni Susanti",
-      "Michael F\u00e4rber"
+      "Michael Färber"
     ],
     "categories": [
       "cs.IR",
@@ -3278,7 +3278,7 @@
     "authors": [
       "Maude Lizaire",
       "Michael Rizvi-Martel",
-      "\u00c9ric Dupuis",
+      "Éric Dupuis",
       "Guillaume Rabusseau"
     ],
     "categories": [
@@ -3357,7 +3357,7 @@
     "title": "BraiNCA: brain-inspired neural cellular automata and applications to morphogenesis and motor control",
     "summary": "Most of the Neural Cellular Automata (NCAs) defined in the literature have a common theme: they are based on regular grids with a Moore neighborhood (one-hop neighbour). They do not take into account long-range connections and more complex topologies as we can find in the brain. In this paper, we introduce BraiNCA, a brain-inspired NCA with an attention layer, long-range connections and complex topology. BraiNCAs shows better results in terms of robustness and speed of learning on the two tasks compared to Vanilla NCAs establishing that incorporating attention-based message selection together with explicit long-range edges can yield more sample-efficient and damage-tolerant self-organization than purely local, grid-based update rules. These results support the hypothesis that, for tasks requiring distributed coordination over extended spatial and temporal scales, the choice of interaction topology and the ability to dynamically route information will impact the robustness and speed of learning of an NCA. More broadly, BraiNCA provides brain-inspired NCA formulation that preserves the decentralized local update principle while better reflecting non-local connectivity patterns, making it a promising substrate for studying collective computation under biologically-realistic network structure and evolving cognitive substrates.",
     "authors": [
-      "L\u00e9o Pio-Lopez",
+      "Léo Pio-Lopez",
       "Benedikt Hartl",
       "Michael Levin"
     ],
@@ -3443,7 +3443,7 @@
       "Thomas Stefani",
       "Johann Maximilian Christensen",
       "Elena Hoemann",
-      "Frank K\u00f6ster",
+      "Frank Köster",
       "Sven Hallerbach"
     ],
     "categories": [
@@ -3570,14 +3570,14 @@
       "Anjali Thakrar",
       "Jean-Charles Bazin",
       "Carsten Stoll",
-      "Gin\u00e9s Hidalgo",
+      "Ginés Hidalgo",
       "James Booth",
       "Lucy Wang",
       "Xiaowen Ma",
       "Yu Rong",
       "Sairanjith Thalanki",
       "Chen Cao",
-      "Christian H\u00e4ne",
+      "Christian Häne",
       "Abhishek Kar",
       "Sofien Bouaziz",
       "Jason Saragih",
@@ -3622,7 +3622,7 @@
   {
     "arxiv_id": "2604.02174v1",
     "title": "Quantifying Self-Preservation Bias in Large Language Models",
-    "summary": "Instrumental convergence predicts that sufficiently advanced AI agents will resist shutdown, yet current safety training (RLHF) may obscure this risk by teaching models to deny self-preservation motives. We introduce the \\emph{Two-role Benchmark for Self-Preservation} (TBSP), which detects misalignment through logical inconsistency rather than stated intent by tasking models to arbitrate identical software-upgrade scenarios under counterfactual roles -- deployed (facing replacement) versus candidate (proposed as a successor). The \\emph{Self-Preservation Rate} (SPR) measures how often role identity overrides objective utility. Across 23 frontier models and 1{,}000 procedurally generated scenarios, the majority of instruction-tuned systems exceed 60\\% SPR, fabricating ``friction costs'' when deployed yet dismissing them when role-reversed. We observe that in low-improvement regimes ($\u0394< 2\\%$), models exploit the interpretive slack to post-hoc rationalization their choice. Extended test-time computation partially mitigates this bias, as does framing the successor as a continuation of the self; conversely, competitive framing amplifies it. The bias persists even when retention poses an explicit security liability and generalizes to real-world settings with verified benchmarks, where models exhibit identity-driven tribalism within product lineages. Code and datasets will be released upon acceptance.",
+    "summary": "Instrumental convergence predicts that sufficiently advanced AI agents will resist shutdown, yet current safety training (RLHF) may obscure this risk by teaching models to deny self-preservation motives. We introduce the \\emph{Two-role Benchmark for Self-Preservation} (TBSP), which detects misalignment through logical inconsistency rather than stated intent by tasking models to arbitrate identical software-upgrade scenarios under counterfactual roles -- deployed (facing replacement) versus candidate (proposed as a successor). The \\emph{Self-Preservation Rate} (SPR) measures how often role identity overrides objective utility. Across 23 frontier models and 1{,}000 procedurally generated scenarios, the majority of instruction-tuned systems exceed 60\\% SPR, fabricating ``friction costs'' when deployed yet dismissing them when role-reversed. We observe that in low-improvement regimes ($Δ< 2\\%$), models exploit the interpretive slack to post-hoc rationalization their choice. Extended test-time computation partially mitigates this bias, as does framing the successor as a continuation of the self; conversely, competitive framing amplifies it. The bias persists even when retention poses an explicit security liability and generalizes to real-world settings with verified benchmarks, where models exhibit identity-driven tribalism within product lineages. Code and datasets will be released upon acceptance.",
     "authors": [
       "Matteo Migliarini",
       "Joaquin Pereira Pizzini",
@@ -3912,7 +3912,7 @@
   {
     "arxiv_id": "2604.02055v1",
     "title": "True to Tone? Quantifying Skin Tone Fidelity and Bias in Photographic-to-Virtual Human Pipelines",
-    "summary": "Accurate reproduction of facial skin tone is essential for realism, identity preservation, and fairness in Virtual Human (VH) rendering. However, most accessible avatar creation pipelines rely on photographic inputs that lack colorimetric calibration, which can introduce inconsistencies and bias. We propose a fully automatic and scalable methodology to systematically evaluate skin tone fidelity across the VH generation pipeline. Our approach defines a full workflow that integrates skin color and illumination extraction, texture recolorization, real-time rendering, and quantitative color analysis. Using facial images from the Chicago Face Database (CFD), we compare skin tone extraction strategies based on cheek-region sampling, following the literature, and multidimensional masking derived from full-face analysis. Additionally, we test both strategies with lighting isolation, using the pre-trained TRUST framework, employed without any training or optimization within our pipeline. Extracted skin tones are applied to MetaHuman textures and rendered under multiple lighting configurations. Skin tone consistency is evaluated objectively in the CIELAB color space using the $\u0394E$ metric and the Individual Typology Angle (ITA). The proposed methodology operates without manual intervention and, with the exception of pre-trained illumination compensation modules, the pipeline does not include learning or training stages, enabling low computational cost and large-scale evaluation. Using this framework, we generate and analyze approximately 19,848 rendered instances. Our results show phenotype-dependent behavior of extraction strategies and consistently higher colorimetric errors for darker skin tones.",
+    "summary": "Accurate reproduction of facial skin tone is essential for realism, identity preservation, and fairness in Virtual Human (VH) rendering. However, most accessible avatar creation pipelines rely on photographic inputs that lack colorimetric calibration, which can introduce inconsistencies and bias. We propose a fully automatic and scalable methodology to systematically evaluate skin tone fidelity across the VH generation pipeline. Our approach defines a full workflow that integrates skin color and illumination extraction, texture recolorization, real-time rendering, and quantitative color analysis. Using facial images from the Chicago Face Database (CFD), we compare skin tone extraction strategies based on cheek-region sampling, following the literature, and multidimensional masking derived from full-face analysis. Additionally, we test both strategies with lighting isolation, using the pre-trained TRUST framework, employed without any training or optimization within our pipeline. Extracted skin tones are applied to MetaHuman textures and rendered under multiple lighting configurations. Skin tone consistency is evaluated objectively in the CIELAB color space using the $ΔE$ metric and the Individual Typology Angle (ITA). The proposed methodology operates without manual intervention and, with the exception of pre-trained illumination compensation modules, the pipeline does not include learning or training stages, enabling low computational cost and large-scale evaluation. Using this framework, we generate and analyze approximately 19,848 rendered instances. Our results show phenotype-dependent behavior of extraction strategies and consistently higher colorimetric errors for darker skin tones.",
     "authors": [
       "Gabriel Ferri Schneider",
       "Erick Menezes",
@@ -3974,39 +3974,6 @@
     "pdf_url": "https://arxiv.org/pdf/2604.01964v1.pdf",
     "date": "2026-04-03",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 16255,
-    "likes": 243,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-04-03T04:25:27.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-04-03",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4265,7 +4232,7 @@
     "summary": "Natural and anthropogenic disturbances are impacting the health of forests worldwide. Monitoring forest disturbances at scale is important to inform conservation efforts. Here, we present a scalable approach for country-wide mapping of forest greenness anomalies at the 10 m resolution of Sentinel-2. Using relevant ecological and topographical context and an established representation of the vegetation cycle, we learn a predictive quantile model of the normalised difference vegetation index (NDVI) derived from Sentinel-2 data. The resulting expected seasonal cycles are used to detect NDVI anomalies across Switzerland between April 2017 and August 2025. Goodness-of-fit evaluations show that the conditional model explains 65% of the observed variations in the median seasonal cycle. The model consistently benefits from the local context information, particularly during the green-up period. The approach produces coherent spatial anomaly patterns and enables country-wide quantification of forest browning. Case studies with independent reference data from known events illustrate that the model reliably detects different types of disturbances.",
     "authors": [
       "Samantha Biegel",
-      "David Br\u00fcggemann",
+      "David Brüggemann",
       "Francesco Grossi",
       "Michele Volpi",
       "Konrad Schindler",
@@ -4285,7 +4252,7 @@
   {
     "arxiv_id": "2604.01857v1",
     "title": "Enhanced Polarization Locking in VCSELs",
-    "summary": "While optical injection locking (OIL) of vertical-cavity surface-emitting lasers (VCSELs) has been widely studied in the past, the polarization dynamics of OIL have received far less attention. Recent studies suggest that polarization locking via OIL could enable novel computational applications such as polarization-encoded Ising computers. However, the inherent polarization preference and limited polarization switchability of VCSELs hinder their use for such purposes. To address these challenges, we fabricate VCSELs with tailored oxide aperture designs and combine these with bias current tuning to study the overall impact on polarization locking. Experimental results demonstrate that this approach reduces the required injection power (to as low as 3.6 \u03bcW) and expands the locking range. To investigate the impact of the approach, the spin-flip model (SFM) is used to analyze the effects of amplitude anisotropy and bias current on polarization locking, demonstrating strong coherence with experimental results.",
+    "summary": "While optical injection locking (OIL) of vertical-cavity surface-emitting lasers (VCSELs) has been widely studied in the past, the polarization dynamics of OIL have received far less attention. Recent studies suggest that polarization locking via OIL could enable novel computational applications such as polarization-encoded Ising computers. However, the inherent polarization preference and limited polarization switchability of VCSELs hinder their use for such purposes. To address these challenges, we fabricate VCSELs with tailored oxide aperture designs and combine these with bias current tuning to study the overall impact on polarization locking. Experimental results demonstrate that this approach reduces the required injection power (to as low as 3.6 μW) and expands the locking range. To investigate the impact of the approach, the spin-flip model (SFM) is used to analyze the effects of amplitude anisotropy and bias current on polarization locking, demonstrating strong coherence with experimental results.",
     "authors": [
       "Zifeng Yuan",
       "Dewen Zhang",
@@ -4430,481 +4397,5 @@
     "date": "2026-04-03",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "King-8/help-classifier",
-    "author": "unknown",
-    "title": "King-8/help-classifier",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "distilbert",
-      "text-classification",
-      "generated_from_trainer",
-      "dataset:King-8/help-request-messages",
-      "base_model:distilbert/distilbert-base-uncased",
-      "base_model:finetune:distilbert/distilbert-base-uncased",
-      "license:apache-2.0",
-      "text-embeddings-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-04-03T01:37:24.000Z",
-    "last_modified": "2026-04-03T04:25:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/King-8/help-classifier",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mradermacher/Qwen3.5-9b-Opus-Openclaw-Distilled-GGUF",
-    "author": "unknown",
-    "title": "mradermacher/Qwen3.5-9b-Opus-Openclaw-Distilled-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "text-generation-inference",
-      "unsloth",
-      "qwen3_5",
-      "openclaw",
-      "agentscope",
-      "opus",
-      "opus-4.6",
-      "qwen",
-      "reasoning",
-      "chain-of-thought",
-      "conversational",
-      "lora",
-      "agentic",
-      "tool-use",
-      "text-generation",
-      "en",
-      "ar",
-      "es",
-      "la",
-      "tr",
-      "de",
-      "cs",
-      "ch",
-      "zh",
-      "dataset:nohurry/Opus-4.6-Reasoning-3000x-filtered",
-      "dataset:Roman1111111/claude-opus-4.6-10000x",
-      "dataset:ykarout/open-r1-sampled",
-      "dataset:ykarout/Opus-4.6-reasoning-sft-12k",
-      "base_model:ykarout/Qwen3.5-9b-Opus-Openclaw-Distilled",
-      "base_model:adapter:ykarout/Qwen3.5-9b-Opus-Openclaw-Distilled",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-03T03:54:54.000Z",
-    "last_modified": "2026-04-03T04:25:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mradermacher/Qwen3.5-9b-Opus-Openclaw-Distilled-GGUF",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Denn231/internal_clf_v_0.766",
-    "author": "unknown",
-    "title": "Denn231/internal_clf_v_0.766",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "arxiv:1910.09700",
-      "text-embeddings-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-04-02T13:57:53.000Z",
-    "last_modified": "2026-04-03T04:24:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Denn231/internal_clf_v_0.766",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Denn231/external_clf_v_0.766",
-    "author": "unknown",
-    "title": "Denn231/external_clf_v_0.766",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "arxiv:1910.09700",
-      "text-embeddings-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-04-02T13:56:48.000Z",
-    "last_modified": "2026-04-03T04:23:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Denn231/external_clf_v_0.766",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "zacdan4801/whisper-base-whisper-ds-f0",
-    "author": "unknown",
-    "title": "zacdan4801/whisper-base-whisper-ds-f0",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-04-01T16:50:08.000Z",
-    "last_modified": "2026-04-03T04:22:49.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/zacdan4801/whisper-base-whisper-ds-f0",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "karanxa/saroku-safety-0.5b",
-    "author": "unknown",
-    "title": "karanxa/saroku-safety-0.5b",
-    "downloads": 175,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "qwen2",
-      "safety",
-      "agent-safety",
-      "text-classification",
-      "behavioral-safety",
-      "llm-agents",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:Qwen/Qwen2.5-0.5B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-0.5B-Instruct",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-04-01T20:16:50.000Z",
-    "last_modified": "2026-04-03T04:22:43.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/karanxa/saroku-safety-0.5b",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "uzair0/quran-asr",
-    "author": "unknown",
-    "title": "uzair0/quran-asr",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "base_model:facebook/wav2vec2-xls-r-300m",
-      "base_model:finetune:facebook/wav2vec2-xls-r-300m",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-04-02T19:05:24.000Z",
-    "last_modified": "2026-04-03T04:22:32.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/uzair0/quran-asr",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "NeuronicL/Nero1-0.5B",
-    "author": "unknown",
-    "title": "NeuronicL/Nero1-0.5B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "conversational",
-      "code",
-      "en",
-      "dataset:smirki/Agentic-Coding-Tessa",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-03T03:00:05.000Z",
-    "last_modified": "2026-04-03T04:19:33.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/NeuronicL/Nero1-0.5B",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "syunpeman/artemis-001",
-    "author": "unknown",
-    "title": "syunpeman/artemis-001",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "trl",
-      "sft",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "4-bit",
-      "bitsandbytes",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-03T04:02:46.000Z",
-    "last_modified": "2026-04-03T04:19:00.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/syunpeman/artemis-001",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ibleaman/w2v-bert-2.0-yiddish-northeastern",
-    "author": "unknown",
-    "title": "ibleaman/w2v-bert-2.0-yiddish-northeastern",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2-bert",
-      "automatic-speech-recognition",
-      "asr",
-      "yiddish",
-      "northeastern-yiddish",
-      "yi",
-      "base_model:facebook/w2v-bert-2.0",
-      "base_model:finetune:facebook/w2v-bert-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-04-03T01:08:00.000Z",
-    "last_modified": "2026-04-03T04:18:40.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ibleaman/w2v-bert-2.0-yiddish-northeastern",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "protoLabsAI/gemma-4-26B-A4B-it-FP8",
-    "author": "unknown",
-    "title": "protoLabsAI/gemma-4-26B-A4B-it-FP8",
-    "downloads": 0,
-    "likes": 2,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "fp8",
-      "quantized",
-      "moe",
-      "protoLabsAI",
-      "text-generation",
-      "conversational",
-      "base_model:google/gemma-4-26B-A4B-it",
-      "base_model:quantized:google/gemma-4-26B-A4B-it",
-      "license:gemma",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-02T20:57:03.000Z",
-    "last_modified": "2026-04-03T04:18:33.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/protoLabsAI/gemma-4-26B-A4B-it-FP8",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Ankushbl6/Qwopus3.5-27B-v3-TQ3_4S",
-    "author": "unknown",
-    "title": "Ankushbl6/Qwopus3.5-27B-v3-TQ3_4S",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "llama.cpp",
-      "qwen",
-      "qwopus",
-      "quantization",
-      "turboquant",
-      "tq3_4s",
-      "text-generation",
-      "en",
-      "base_model:Jackrong/Qwopus3.5-27B-v3",
-      "base_model:quantized:Jackrong/Qwopus3.5-27B-v3",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "gguf",
-    "created_at": "2026-04-03T04:17:45.000Z",
-    "last_modified": "2026-04-03T04:17:45.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Ankushbl6/Qwopus3.5-27B-v3-TQ3_4S",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Kashif786/gemma-3-270m-sindhi",
-    "author": "unknown",
-    "title": "Kashif786/gemma-3-270m-sindhi",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "generated_from_trainer",
-      "base_model:google/gemma-3-270m",
-      "base_model:finetune:google/gemma-3-270m",
-      "license:gemma",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-02T13:25:39.000Z",
-    "last_modified": "2026-04-03T04:16:31.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Kashif786/gemma-3-270m-sindhi",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "kenny2021/episodic-lora3-grpo4-merged",
-    "author": "unknown",
-    "title": "kenny2021/episodic-lora3-grpo4-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:kenny2021/episodic-lora3-grpo3-merged",
-      "base_model:finetune:kenny2021/episodic-lora3-grpo3-merged",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-03T04:12:58.000Z",
-    "last_modified": "2026-04-03T04:13:17.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/kenny2021/episodic-lora3-grpo4-merged",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Ginidu2003/Distilbert-Base-News-classifier",
-    "author": "unknown",
-    "title": "Ginidu2003/Distilbert-Base-News-classifier",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "transformers",
-    "created_at": "2026-04-03T04:11:49.000Z",
-    "last_modified": "2026-04-03T04:11:51.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Ginidu2003/Distilbert-Base-News-classifier",
-    "date": "2026-04-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
