@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-04T13:50:50.024246",
+  "date": "2026-04-04T14:29:40.474771",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,12 +751,8 @@
         "url": "https://arxiv.org/abs/2604.02182v1"
       },
       {
-        "title": "jdtrujillo1015/tweeteval-emotion-bertweet-lora",
-        "url": "https://huggingface.co/jdtrujillo1015/tweeteval-emotion-bertweet-lora"
-      },
-      {
-        "title": "jdtrujillo1015/tweeteval-emotion-bertweet",
-        "url": "https://huggingface.co/jdtrujillo1015/tweeteval-emotion-bertweet"
+        "title": "ace-1/mgpt2-pretrain",
+        "url": "https://huggingface.co/ace-1/mgpt2-pretrain"
       }
     ],
     "vision_systems": [
@@ -1381,10 +1377,6 @@
       {
         "title": "Country-wide, high-resolution monitoring of forest browning with Sentinel-2",
         "url": "https://arxiv.org/abs/2604.02074v1"
-      },
-      {
-        "title": "EganAI/gemma-4-31B-Claude-4.6-Opus-Reasoning-Distilled",
-        "url": "https://huggingface.co/EganAI/gemma-4-31B-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -1829,7 +1821,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1841,7 +1833,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "79 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1871,7 +1863,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 41,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1888,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 445
   }
 }
