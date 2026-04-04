@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-04T07:46:18.907085",
+  "date": "2026-04-04T08:35:24.916495",
   "patterns": {
     "multimodal_research": [
       {
@@ -751,12 +751,12 @@
         "url": "https://arxiv.org/abs/2604.02182v1"
       },
       {
-        "title": "tyaisndu/mbert_intent_model_v3",
-        "url": "https://huggingface.co/tyaisndu/mbert_intent_model_v3"
+        "title": "shomin/gpt2-small-c4",
+        "url": "https://huggingface.co/shomin/gpt2-small-c4"
       },
       {
-        "title": "sasa2000/llm-jp-4-8b-thinking-heretic",
-        "url": "https://huggingface.co/sasa2000/llm-jp-4-8b-thinking-heretic"
+        "title": "tyaisndu/mbert_intent_model_v3",
+        "url": "https://huggingface.co/tyaisndu/mbert_intent_model_v3"
       }
     ],
     "vision_systems": [
@@ -1065,16 +1065,8 @@
         "url": "https://arxiv.org/abs/2604.01869v1"
       },
       {
-        "title": "wolfer45/zimage-rachelmcadams-v1",
-        "url": "https://huggingface.co/wolfer45/zimage-rachelmcadams-v1"
-      },
-      {
-        "title": "wolfer45/zimage-rachelweisz-v1",
-        "url": "https://huggingface.co/wolfer45/zimage-rachelweisz-v1"
-      },
-      {
-        "title": "wolfer45/zimage-reesewitherspoon-v1",
-        "url": "https://huggingface.co/wolfer45/zimage-reesewitherspoon-v1"
+        "title": "Eimhin03/MCV_Fleurs_Combined_Irish_ASR",
+        "url": "https://huggingface.co/Eimhin03/MCV_Fleurs_Combined_Irish_ASR"
       }
     ],
     "reasoning": [
@@ -1839,7 +1831,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "79 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1892,6 +1884,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 448
+    "total_papers": 446
   }
 }
