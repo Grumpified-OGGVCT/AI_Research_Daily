@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-04T16:29:54.406993",
+  "date": "2026-04-04T17:26:01.563456",
   "patterns": {
     "multimodal_research": [
       {
@@ -1369,6 +1369,14 @@
       {
         "title": "Country-wide, high-resolution monitoring of forest browning with Sentinel-2",
         "url": "https://arxiv.org/abs/2604.02074v1"
+      },
+      {
+        "title": "yufeng1/Apriel-15B-reasoning-full-lora-max-type3-e5-1e4",
+        "url": "https://huggingface.co/yufeng1/Apriel-15B-reasoning-full-lora-max-type3-e5-1e4"
+      },
+      {
+        "title": "rico03/gemma4-26B-opus-reasoning",
+        "url": "https://huggingface.co/rico03/gemma4-26B-opus-reasoning"
       }
     ],
     "benchmarks": [
@@ -1825,7 +1833,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "78 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1855,7 +1863,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 42,
       "significance": "high"
     },
     {
@@ -1872,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 443
+    "total_papers": 445
   }
 }
