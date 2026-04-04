@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-04T19:28:27.378145",
+  "date": "2026-04-04T20:23:37.734436",
   "patterns": {
     "multimodal_research": [
       {
@@ -749,6 +749,14 @@
       {
         "title": "ViT-Explainer: An Interactive Walkthrough of the Vision Transformer Pipeline",
         "url": "https://arxiv.org/abs/2604.02182v1"
+      },
+      {
+        "title": "JedBabs/roberta-ai-detector",
+        "url": "https://huggingface.co/JedBabs/roberta-ai-detector"
+      },
+      {
+        "title": "piotreknow02/GPT-OSS-Cybersecurity-Merged-20B-heretic-ara-GGUF",
+        "url": "https://huggingface.co/piotreknow02/GPT-OSS-Cybersecurity-Merged-20B-heretic-ara-GGUF"
       }
     ],
     "vision_systems": [
@@ -1369,6 +1377,10 @@
       {
         "title": "Country-wide, high-resolution monitoring of forest browning with Sentinel-2",
         "url": "https://arxiv.org/abs/2604.02074v1"
+      },
+      {
+        "title": "cloudytgril/gemma-4-E2B-Gemini-3.1-Pro-Reasoning-Distill",
+        "url": "https://huggingface.co/cloudytgril/gemma-4-E2B-Gemini-3.1-Pro-Reasoning-Distill"
       }
     ],
     "benchmarks": [
@@ -1813,7 +1825,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1825,7 +1837,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1855,7 +1867,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 41,
       "significance": "high"
     },
     {
@@ -1872,6 +1884,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 443
+    "total_papers": 446
   }
 }
