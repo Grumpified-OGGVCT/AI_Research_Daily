@@ -1,37 +1,11 @@
 {
-  "date": "2026-04-05T20:27:20.421363",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "pratsing23/fakenews-detector-smollm2",
-        "url": "https://huggingface.co/pratsing23/fakenews-detector-smollm2"
-      },
-      {
-        "title": "jngb-labs/eurovoc-eubert",
-        "url": "https://huggingface.co/jngb-labs/eurovoc-eubert"
-      },
-      {
-        "title": "jngb-labs/eurovoc-bert-base",
-        "url": "https://huggingface.co/jngb-labs/eurovoc-bert-base"
-      },
-      {
-        "title": "Berke01/VocaPeak-RoBERTa-v5",
-        "url": "https://huggingface.co/Berke01/VocaPeak-RoBERTa-v5"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-04-05T21:26:57.354135",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 4
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
