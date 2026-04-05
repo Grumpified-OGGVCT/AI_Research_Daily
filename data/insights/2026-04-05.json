@@ -1,11 +1,22 @@
 {
-  "date": "2026-04-05T17:25:57.659860",
-  "patterns": {},
+  "date": "2026-04-05T18:35:50.785906",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "a3ilab-llm-uncertainty/gptoss_20b_all_zhtw_lr5e-7_ep5_16_64_128_turn_new_lenfiltered_augmentation",
+        "url": "https://huggingface.co/a3ilab-llm-uncertainty/gptoss_20b_all_zhtw_lr5e-7_ep5_16_64_128_turn_new_lenfiltered_augmentation"
+      },
+      {
+        "title": "a3ilab-llm-uncertainty/gptoss_20b_all_zhtw_lr5e-7_ep5_16_64_128_turn_new_lenfiltered_fix_special_token_and_leak",
+        "url": "https://huggingface.co/a3ilab-llm-uncertainty/gptoss_20b_all_zhtw_lr5e-7_ep5_16_64_128_turn_new_lenfiltered_fix_special_token_and_leak"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
