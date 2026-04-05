@@ -1,63 +1,11 @@
 {
-  "date": "2026-04-05T09:34:42.737692",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "christyelsa/llm-g2-12",
-        "url": "https://huggingface.co/christyelsa/llm-g2-12"
-      },
-      {
-        "title": "Faisaljabir/sentiment-bert",
-        "url": "https://huggingface.co/Faisaljabir/sentiment-bert"
-      }
-    ],
-    "reasoning": [
-      {
-        "title": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-        "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
-      },
-      {
-        "title": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2",
-        "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2"
-      },
-      {
-        "title": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF",
-        "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF"
-      },
-      {
-        "title": "Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
-        "url": "https://huggingface.co/Jackrong/Qwen3.5-4B-Claude-4.6-Opus-Reasoning-Distilled-GGUF"
-      },
-      {
-        "title": "Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled",
-        "url": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "reasoning",
-      "observation": "5 independent papers",
-      "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
-      "confidence": "high"
-    },
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
-      "confidence": "medium"
-    }
-  ],
-  "research_trends": [
-    {
-      "topic": "reasoning",
-      "frequency": 5,
-      "significance": "high"
-    }
-  ],
+  "date": "2026-04-05T10:28:27.785899",
+  "patterns": {},
+  "inferences": [],
+  "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 2,
-    "total_papers": 7
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
