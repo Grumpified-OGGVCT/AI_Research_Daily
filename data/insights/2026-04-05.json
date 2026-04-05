@@ -1,11 +1,22 @@
 {
-  "date": "2026-04-05T06:13:25.107878",
-  "patterns": {},
+  "date": "2026-04-05T07:53:34.043180",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "shomin/gpt-small-c4",
+        "url": "https://huggingface.co/shomin/gpt-small-c4"
+      },
+      {
+        "title": "DQN-Labs-Community/dqnGPT-v1-GGUF",
+        "url": "https://huggingface.co/DQN-Labs-Community/dqnGPT-v1-GGUF"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
