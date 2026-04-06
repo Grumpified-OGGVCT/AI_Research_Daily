@@ -1,73 +1,22 @@
 {
-  "date": "2026-04-06T20:33:44.203484",
+  "date": "2026-04-06T21:33:49.009497",
   "patterns": {
     "language_models": [
       {
-        "title": "RthItalia/NanoLLM-Qwen2.5-14B-v3.1",
-        "url": "https://huggingface.co/RthItalia/NanoLLM-Qwen2.5-14B-v3.1"
+        "title": "hunt3rx99/meowllm",
+        "url": "https://huggingface.co/hunt3rx99/meowllm"
       },
       {
-        "title": "Zhantas/dubpllm",
-        "url": "https://huggingface.co/Zhantas/dubpllm"
-      },
-      {
-        "title": "RthItalia/NanoLLM-Qwen2.5-7B-v3.1",
-        "url": "https://huggingface.co/RthItalia/NanoLLM-Qwen2.5-7B-v3.1"
-      },
-      {
-        "title": "RthItalia/NanoLLM-Qwen2.5-3B-v3.1",
-        "url": "https://huggingface.co/RthItalia/NanoLLM-Qwen2.5-3B-v3.1"
-      }
-    ],
-    "reasoning": [
-      {
-        "title": "teolm30/fox1.4-high-reasoning",
-        "url": "https://huggingface.co/teolm30/fox1.4-high-reasoning"
-      },
-      {
-        "title": "khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled",
-        "url": "https://huggingface.co/khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled"
-      },
-      {
-        "title": "khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF",
-        "url": "https://huggingface.co/khazarai/Qwen3-4B-Qwen3.6-plus-Reasoning-Distilled-GGUF"
-      },
-      {
-        "title": "jaygala24/Qwen2.5-3B-GRPO-math-reasoning",
-        "url": "https://huggingface.co/jaygala24/Qwen2.5-3B-GRPO-math-reasoning"
+        "title": "OrionLLM/Nebula",
+        "url": "https://huggingface.co/OrionLLM/Nebula"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    },
-    {
-      "pattern": "reasoning",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Reasoning - monitor for breakthrough results",
-      "confidence": "medium"
-    },
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
-      "confidence": "medium"
-    }
-  ],
-  "research_trends": [
-    {
-      "topic": "reasoning",
-      "frequency": 4,
-      "significance": "medium"
-    }
-  ],
+  "inferences": [],
+  "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 3,
-    "total_papers": 8
+    "total_patterns": 1,
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
