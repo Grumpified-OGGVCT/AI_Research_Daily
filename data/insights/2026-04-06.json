@@ -1,11 +1,22 @@
 {
-  "date": "2026-04-06T08:21:47.339762",
-  "patterns": {},
+  "date": "2026-04-06T10:04:35.481441",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "linkyeu/intent-routing-modernbert-final",
+        "url": "https://huggingface.co/linkyeu/intent-routing-modernbert-final"
+      },
+      {
+        "title": "fjrmhri/deteksi_hoaks_indobert",
+        "url": "https://huggingface.co/fjrmhri/deteksi_hoaks_indobert"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
