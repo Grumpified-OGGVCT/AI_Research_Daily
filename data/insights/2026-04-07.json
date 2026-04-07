@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-07T17:55:08.015791",
+  "date": "2026-04-07T18:56:19.422195",
   "patterns": {
     "multimodal_research": [
       {
@@ -743,8 +743,8 @@
         "url": "https://arxiv.org/abs/2604.04685v1"
       },
       {
-        "title": "thawait/distilbert-base-uncased-finetuned-sst2",
-        "url": "https://huggingface.co/thawait/distilbert-base-uncased-finetuned-sst2"
+        "title": "eulerLabs/gpt2-legal-stj",
+        "url": "https://huggingface.co/eulerLabs/gpt2-legal-stj"
       }
     ],
     "vision_systems": [
@@ -1023,10 +1023,6 @@
       {
         "title": "Regime Mapping of Oscillatory States in Balanced Spiking Networks with Multiple Time Scales",
         "url": "https://arxiv.org/abs/2604.04770v1"
-      },
-      {
-        "title": "zutaars1/vit-computer-vision-classification-model",
-        "url": "https://huggingface.co/zutaars1/vit-computer-vision-classification-model"
       }
     ],
     "reasoning": [
@@ -1859,7 +1855,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1900,7 +1896,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 47,
+      "frequency": 46,
       "significance": "high"
     },
     {
@@ -1912,6 +1908,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 453
+    "total_papers": 452
   }
 }
