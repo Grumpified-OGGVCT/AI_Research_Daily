@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-07T13:07:30.995142",
+  "date": "2026-04-07T15:03:36.863553",
   "patterns": {
     "multimodal_research": [
       {
@@ -741,6 +741,10 @@
       {
         "title": "Unsharp Measurement with Adaptive Gaussian POVMs for Quantum-Inspired Image Processing",
         "url": "https://arxiv.org/abs/2604.04685v1"
+      },
+      {
+        "title": "KyleHessling1/Qwopus3.5-27B-v3-FP8-vllm-ready",
+        "url": "https://huggingface.co/KyleHessling1/Qwopus3.5-27B-v3-FP8-vllm-ready"
       }
     ],
     "vision_systems": [
@@ -1019,6 +1023,10 @@
       {
         "title": "Regime Mapping of Oscillatory States in Balanced Spiking Networks with Multiple Time Scales",
         "url": "https://arxiv.org/abs/2604.04770v1"
+      },
+      {
+        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-phocab-ds-f7",
+        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-phocab-ds-f7"
       }
     ],
     "reasoning": [
@@ -1389,10 +1397,6 @@
       {
         "title": "Regime Mapping of Oscillatory States in Balanced Spiking Networks with Multiple Time Scales",
         "url": "https://arxiv.org/abs/2604.04770v1"
-      },
-      {
-        "title": "justcovenant/rag-reasoning-sft-model",
-        "url": "https://huggingface.co/justcovenant/rag-reasoning-sft-model"
       }
     ],
     "benchmarks": [
@@ -1849,19 +1853,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1891,7 +1895,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 49,
+      "frequency": 48,
       "significance": "high"
     },
     {
@@ -1908,6 +1912,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 452
+    "total_papers": 453
   }
 }
