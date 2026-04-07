@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-07T11:50:24.452276",
+  "date": "2026-04-07T13:07:30.995142",
   "patterns": {
     "multimodal_research": [
       {
@@ -1389,6 +1389,10 @@
       {
         "title": "Regime Mapping of Oscillatory States in Balanced Spiking Networks with Multiple Time Scales",
         "url": "https://arxiv.org/abs/2604.04770v1"
+      },
+      {
+        "title": "justcovenant/rag-reasoning-sft-model",
+        "url": "https://huggingface.co/justcovenant/rag-reasoning-sft-model"
       }
     ],
     "benchmarks": [
@@ -1857,7 +1861,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "92 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1887,7 +1891,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 48,
+      "frequency": 49,
       "significance": "high"
     },
     {
@@ -1904,6 +1908,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 451
+    "total_papers": 452
   }
 }
