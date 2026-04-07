@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-07T21:39:17.175812",
+  "date": "2026-04-07T22:33:39.724918",
   "patterns": {
     "multimodal_research": [
       {
@@ -1019,6 +1019,10 @@
       {
         "title": "Regime Mapping of Oscillatory States in Balanced Spiking Networks with Multiple Time Scales",
         "url": "https://arxiv.org/abs/2604.04770v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1815,6 +1819,10 @@
       {
         "title": "Unsharp Measurement with Adaptive Gaussian POVMs for Quantum-Inspired Image Processing",
         "url": "https://arxiv.org/abs/2604.04685v1"
+      },
+      {
+        "title": "jmgitgit/grpo-benchmark-test",
+        "url": "https://huggingface.co/jmgitgit/grpo-benchmark-test"
       }
     ]
   },
@@ -1851,7 +1859,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1869,7 +1877,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "106 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1882,7 +1890,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 61,
+      "frequency": 62,
       "significance": "high"
     },
     {
@@ -1904,6 +1912,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 451
+    "total_papers": 453
   }
 }
