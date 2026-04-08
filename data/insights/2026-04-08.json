@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-08T06:19:27.579768",
+  "date": "2026-04-08T08:10:23.834800",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,6 +761,10 @@
       {
         "title": "BodhiPromptShield: Pre-Inference Prompt Mediation for Suppressing Privacy Propagation in LLM/VLM Agents",
         "url": "https://arxiv.org/abs/2604.05793v1"
+      },
+      {
+        "title": "Subidubi/gpt2-wikitext2",
+        "url": "https://huggingface.co/Subidubi/gpt2-wikitext2"
       }
     ],
     "vision_systems": [
@@ -1099,10 +1103,6 @@
       {
         "title": "Probing Intrinsic Medical Task Relationships: A Contrastive Learning Perspective",
         "url": "https://arxiv.org/abs/2604.05651v1"
-      },
-      {
-        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-phocab-ds-f0",
-        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-phocab-ds-f0"
       }
     ],
     "reasoning": [
@@ -1861,13 +1861,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "103 independent papers",
+      "observation": "104 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
