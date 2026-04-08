@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-08T21:38:22.063803",
+  "date": "2026-04-08T22:34:41.001861",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,10 +761,6 @@
       {
         "title": "BodhiPromptShield: Pre-Inference Prompt Mediation for Suppressing Privacy Propagation in LLM/VLM Agents",
         "url": "https://arxiv.org/abs/2604.05793v1"
-      },
-      {
-        "title": "TeddyBell001/arxiv-scibert-11class",
-        "url": "https://huggingface.co/TeddyBell001/arxiv-scibert-11class"
       }
     ],
     "vision_systems": [
@@ -1105,8 +1101,8 @@
         "url": "https://arxiv.org/abs/2604.05651v1"
       },
       {
-        "title": "mkolcun/qwen-image-2512-nunchaku",
-        "url": "https://huggingface.co/mkolcun/qwen-image-2512-nunchaku"
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1387,8 +1383,8 @@
         "url": "https://arxiv.org/abs/2604.05793v1"
       },
       {
-        "title": "mradermacher/Qwen3.5-122B-Turkish-Reasoning-6shard-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/Qwen3.5-122B-Turkish-Reasoning-6shard-i1-GGUF"
+        "title": "inferencerlabs/GLM-5.1-MLX-4.8bit",
+        "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-4.8bit"
       }
     ],
     "benchmarks": [
@@ -1839,6 +1835,10 @@
       {
         "title": "BodhiPromptShield: Pre-Inference Prompt Mediation for Suppressing Privacy Propagation in LLM/VLM Agents",
         "url": "https://arxiv.org/abs/2604.05793v1"
+      },
+      {
+        "title": "waxal-benchmarking/mms-300m-wal-aki",
+        "url": "https://huggingface.co/waxal-benchmarking/mms-300m-wal-aki"
       }
     ]
   },
@@ -1869,7 +1869,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "104 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1893,7 +1893,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "112 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1906,7 +1906,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 64,
+      "frequency": 65,
       "significance": "high"
     },
     {
@@ -1921,7 +1921,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 35,
       "significance": "high"
     }
   ],
