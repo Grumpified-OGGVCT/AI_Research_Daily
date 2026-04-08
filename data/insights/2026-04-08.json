@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-08T20:38:15.291656",
+  "date": "2026-04-08T21:38:22.063803",
   "patterns": {
     "multimodal_research": [
       {
@@ -763,12 +763,8 @@
         "url": "https://arxiv.org/abs/2604.05793v1"
       },
       {
-        "title": "zonn-ai/roberta-base-openai-detector-ONNX",
-        "url": "https://huggingface.co/zonn-ai/roberta-base-openai-detector-ONNX"
-      },
-      {
-        "title": "zonn-ai/modernbert-ai-detection-raid-mage-ONNX",
-        "url": "https://huggingface.co/zonn-ai/modernbert-ai-detection-raid-mage-ONNX"
+        "title": "TeddyBell001/arxiv-scibert-11class",
+        "url": "https://huggingface.co/TeddyBell001/arxiv-scibert-11class"
       }
     ],
     "vision_systems": [
@@ -1107,6 +1103,10 @@
       {
         "title": "Probing Intrinsic Medical Task Relationships: A Contrastive Learning Perspective",
         "url": "https://arxiv.org/abs/2604.05651v1"
+      },
+      {
+        "title": "mkolcun/qwen-image-2512-nunchaku",
+        "url": "https://huggingface.co/mkolcun/qwen-image-2512-nunchaku"
       }
     ],
     "reasoning": [
@@ -1385,6 +1385,10 @@
       {
         "title": "BodhiPromptShield: Pre-Inference Prompt Mediation for Suppressing Privacy Propagation in LLM/VLM Agents",
         "url": "https://arxiv.org/abs/2604.05793v1"
+      },
+      {
+        "title": "mradermacher/Qwen3.5-122B-Turkish-Reasoning-6shard-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/Qwen3.5-122B-Turkish-Reasoning-6shard-i1-GGUF"
       }
     ],
     "benchmarks": [
@@ -1865,19 +1869,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "105 independent papers",
+      "observation": "104 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1917,13 +1921,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 35,
+      "frequency": 36,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 456
+    "total_papers": 457
   }
 }
