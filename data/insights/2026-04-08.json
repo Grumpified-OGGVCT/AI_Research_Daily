@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-08T19:56:44.768381",
+  "date": "2026-04-08T20:38:15.291656",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,6 +761,14 @@
       {
         "title": "BodhiPromptShield: Pre-Inference Prompt Mediation for Suppressing Privacy Propagation in LLM/VLM Agents",
         "url": "https://arxiv.org/abs/2604.05793v1"
+      },
+      {
+        "title": "zonn-ai/roberta-base-openai-detector-ONNX",
+        "url": "https://huggingface.co/zonn-ai/roberta-base-openai-detector-ONNX"
+      },
+      {
+        "title": "zonn-ai/modernbert-ai-detection-raid-mage-ONNX",
+        "url": "https://huggingface.co/zonn-ai/modernbert-ai-detection-raid-mage-ONNX"
       }
     ],
     "vision_systems": [
@@ -1099,10 +1107,6 @@
       {
         "title": "Probing Intrinsic Medical Task Relationships: A Contrastive Learning Perspective",
         "url": "https://arxiv.org/abs/2604.05651v1"
-      },
-      {
-        "title": "aimagelab-ta/TAK",
-        "url": "https://huggingface.co/aimagelab-ta/TAK"
       }
     ],
     "reasoning": [
@@ -1861,13 +1865,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "103 independent papers",
+      "observation": "105 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1920,6 +1924,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 455
+    "total_papers": 456
   }
 }
