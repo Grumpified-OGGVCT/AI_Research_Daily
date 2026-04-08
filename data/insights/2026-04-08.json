@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-08T18:03:54.637056",
+  "date": "2026-04-08T19:56:44.768381",
   "patterns": {
     "multimodal_research": [
       {
@@ -347,10 +347,6 @@
       {
         "title": "MPM: Mutual Pair Merging for Efficient Vision Transformers",
         "url": "https://arxiv.org/abs/2604.05718v1"
-      },
-      {
-        "title": "Uniqueorbi/Efficient-net-b5",
-        "url": "https://huggingface.co/Uniqueorbi/Efficient-net-b5"
       }
     ],
     "language_models": [
@@ -1105,8 +1101,8 @@
         "url": "https://arxiv.org/abs/2604.05651v1"
       },
       {
-        "title": "CVRP/corvus-v2-8b",
-        "url": "https://huggingface.co/CVRP/corvus-v2-8b"
+        "title": "aimagelab-ta/TAK",
+        "url": "https://huggingface.co/aimagelab-ta/TAK"
       }
     ],
     "reasoning": [
@@ -1853,7 +1849,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "50 independent papers",
+      "observation": "49 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1924,6 +1920,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 456
+    "total_papers": 455
   }
 }
