@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-08T01:53:31.090139",
+  "date": "2026-04-08T04:34:17.370888",
   "patterns": {
     "multimodal_research": [
       {
@@ -1083,10 +1083,6 @@
       {
         "title": "Probing Intrinsic Medical Task Relationships: A Contrastive Learning Perspective",
         "url": "https://arxiv.org/abs/2604.05651v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1405,6 +1401,10 @@
       {
         "title": "BodhiPromptShield: Pre-Inference Prompt Mediation for Suppressing Privacy Propagation in LLM/VLM Agents",
         "url": "https://arxiv.org/abs/2604.05793v1"
+      },
+      {
+        "title": "inferencerlabs/GLM-5.1-MLX-4.8bit",
+        "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-4.8bit"
       }
     ],
     "benchmarks": [
@@ -1907,13 +1907,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "79 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "79 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
