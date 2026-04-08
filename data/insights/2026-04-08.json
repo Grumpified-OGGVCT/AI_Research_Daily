@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-08T22:34:41.001861",
+  "date": "2026-04-08T23:34:06.608872",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,6 +761,14 @@
       {
         "title": "BodhiPromptShield: Pre-Inference Prompt Mediation for Suppressing Privacy Propagation in LLM/VLM Agents",
         "url": "https://arxiv.org/abs/2604.05793v1"
+      },
+      {
+        "title": "TeddyBell001/arxiv-scibert-11class",
+        "url": "https://huggingface.co/TeddyBell001/arxiv-scibert-11class"
+      },
+      {
+        "title": "caiovicentino1/Qwopus3.5-27B-v3-PolarQuant-v7-GPTQ",
+        "url": "https://huggingface.co/caiovicentino1/Qwopus3.5-27B-v3-PolarQuant-v7-GPTQ"
       }
     ],
     "vision_systems": [
@@ -835,6 +843,10 @@
       {
         "title": "CuraLight: Debate-Guided Data Curation for LLM-Centered Traffic Signal Control",
         "url": "https://arxiv.org/abs/2604.05663v1"
+      },
+      {
+        "title": "huggingface/documentation-images",
+        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "The Character Error Vector: Decomposable errors for page-level OCR evaluation",
@@ -1381,10 +1393,6 @@
       {
         "title": "BodhiPromptShield: Pre-Inference Prompt Mediation for Suppressing Privacy Propagation in LLM/VLM Agents",
         "url": "https://arxiv.org/abs/2604.05793v1"
-      },
-      {
-        "title": "inferencerlabs/GLM-5.1-MLX-4.8bit",
-        "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-4.8bit"
       }
     ],
     "benchmarks": [
@@ -1869,19 +1877,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "103 independent papers",
+      "observation": "105 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1928,6 +1936,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 457
+    "total_papers": 459
   }
 }
