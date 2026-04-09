@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-09T20:59:43.848719",
+  "date": "2026-04-09T21:47:15.136650",
   "patterns": {
     "multimodal_research": [
       {
@@ -609,10 +609,6 @@
       {
         "title": "A Utility-preserving De-identification Pipeline for Cross-hospital Radiology Data Sharing",
         "url": "https://arxiv.org/abs/2604.07128v1"
-      },
-      {
-        "title": "vilfrid/Sentinelle-CAMeLBERT-Tunisian-v4",
-        "url": "https://huggingface.co/vilfrid/Sentinelle-CAMeLBERT-Tunisian-v4"
       }
     ],
     "vision_systems": [
@@ -871,6 +867,10 @@
       {
         "title": "NTIRE 2026 Challenge on Bitstream-Corrupted Video Restoration: Methods and Results",
         "url": "https://arxiv.org/abs/2604.06945v1"
+      },
+      {
+        "title": "emergentphysicslab/ladam-vision-cifar10",
+        "url": "https://huggingface.co/emergentphysicslab/ladam-vision-cifar10"
       }
     ],
     "reasoning": [
@@ -1161,10 +1161,6 @@
       {
         "title": "Compression as an Adversarial Amplifier Through Decision Space Reduction",
         "url": "https://arxiv.org/abs/2604.06954v1"
-      },
-      {
-        "title": "Prisacairu/qwen397b-nvme-inference",
-        "url": "https://huggingface.co/Prisacairu/qwen397b-nvme-inference"
       }
     ],
     "benchmarks": [
@@ -1605,19 +1601,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1656,7 +1652,7 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "vision",
       "frequency": 26,
       "significance": "high"
     }
@@ -1664,6 +1660,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 391
+    "total_papers": 390
   }
 }
