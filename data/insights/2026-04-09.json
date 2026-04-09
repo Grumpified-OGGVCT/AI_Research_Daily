@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-09T20:01:31.264195",
+  "date": "2026-04-09T20:59:43.848719",
   "patterns": {
     "multimodal_research": [
       {
@@ -611,8 +611,8 @@
         "url": "https://arxiv.org/abs/2604.07128v1"
       },
       {
-        "title": "shannu1247/shannsgpt-ft",
-        "url": "https://huggingface.co/shannu1247/shannsgpt-ft"
+        "title": "vilfrid/Sentinelle-CAMeLBERT-Tunisian-v4",
+        "url": "https://huggingface.co/vilfrid/Sentinelle-CAMeLBERT-Tunisian-v4"
       }
     ],
     "vision_systems": [
@@ -871,10 +871,6 @@
       {
         "title": "NTIRE 2026 Challenge on Bitstream-Corrupted Video Restoration: Methods and Results",
         "url": "https://arxiv.org/abs/2604.06945v1"
-      },
-      {
-        "title": "DownFlow/Z-Image-Turbo-Fuli",
-        "url": "https://huggingface.co/DownFlow/Z-Image-Turbo-Fuli"
       }
     ],
     "reasoning": [
@@ -1165,6 +1161,10 @@
       {
         "title": "Compression as an Adversarial Amplifier Through Decision Space Reduction",
         "url": "https://arxiv.org/abs/2604.06954v1"
+      },
+      {
+        "title": "Prisacairu/qwen397b-nvme-inference",
+        "url": "https://huggingface.co/Prisacairu/qwen397b-nvme-inference"
       }
     ],
     "benchmarks": [
@@ -1575,10 +1575,6 @@
       {
         "title": "NTIRE 2026 Challenge on Bitstream-Corrupted Video Restoration: Methods and Results",
         "url": "https://arxiv.org/abs/2604.06945v1"
-      },
-      {
-        "title": "waxal-benchmarking/whisper-small-sog-emmilly",
-        "url": "https://huggingface.co/waxal-benchmarking/whisper-small-sog-emmilly"
       }
     ]
   },
@@ -1615,13 +1611,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1633,7 +1629,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "103 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1646,7 +1642,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 65,
+      "frequency": 64,
       "significance": "high"
     },
     {
@@ -1668,6 +1664,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 391
   }
 }
