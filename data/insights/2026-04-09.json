@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-09T22:37:00.996497",
+  "date": "2026-04-09T23:34:39.936205",
   "patterns": {
     "multimodal_research": [
       {
@@ -869,8 +869,8 @@
         "url": "https://arxiv.org/abs/2604.06945v1"
       },
       {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -1161,10 +1161,6 @@
       {
         "title": "Compression as an Adversarial Amplifier Through Decision Space Reduction",
         "url": "https://arxiv.org/abs/2604.06954v1"
-      },
-      {
-        "title": "mradermacher/Qwen3.5-122B-Turkish-Reasoning-6shard-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/Qwen3.5-122B-Turkish-Reasoning-6shard-i1-GGUF"
       }
     ],
     "benchmarks": [
@@ -1617,7 +1613,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1657,13 +1653,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 27,
+      "frequency": 26,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 391
+    "total_papers": 390
   }
 }
