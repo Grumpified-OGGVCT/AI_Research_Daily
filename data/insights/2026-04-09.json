@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-09T06:19:24.106346",
+  "date": "2026-04-09T08:18:09.240844",
   "patterns": {
     "multimodal_research": [
       {
@@ -609,6 +609,10 @@
       {
         "title": "A Utility-preserving De-identification Pipeline for Cross-hospital Radiology Data Sharing",
         "url": "https://arxiv.org/abs/2604.07128v1"
+      },
+      {
+        "title": "ngwgsang/phobert-base-2e-05-viepaws",
+        "url": "https://huggingface.co/ngwgsang/phobert-base-2e-05-viepaws"
       }
     ],
     "vision_systems": [
@@ -1157,14 +1161,6 @@
       {
         "title": "Compression as an Adversarial Amplifier Through Decision Space Reduction",
         "url": "https://arxiv.org/abs/2604.06954v1"
-      },
-      {
-        "title": "cudabenchmarktest/qwen3.5-9b-qwen3.6-reasoning-distilled-GGUF",
-        "url": "https://huggingface.co/cudabenchmarktest/qwen3.5-9b-qwen3.6-reasoning-distilled-GGUF"
-      },
-      {
-        "title": "cudabenchmarktest/qwen3.5-9b-qwen3.6-reasoning-distilled",
-        "url": "https://huggingface.co/cudabenchmarktest/qwen3.5-9b-qwen3.6-reasoning-distilled"
       }
     ],
     "benchmarks": [
@@ -1575,14 +1571,6 @@
       {
         "title": "NTIRE 2026 Challenge on Bitstream-Corrupted Video Restoration: Methods and Results",
         "url": "https://arxiv.org/abs/2604.06945v1"
-      },
-      {
-        "title": "cudabenchmarktest/qwen3.5-9b-qwen3.6-reasoning-distilled-GGUF",
-        "url": "https://huggingface.co/cudabenchmarktest/qwen3.5-9b-qwen3.6-reasoning-distilled-GGUF"
-      },
-      {
-        "title": "cudabenchmarktest/qwen3.5-9b-qwen3.6-reasoning-distilled",
-        "url": "https://huggingface.co/cudabenchmarktest/qwen3.5-9b-qwen3.6-reasoning-distilled"
       }
     ]
   },
@@ -1613,7 +1601,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1625,7 +1613,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1637,7 +1625,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "104 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1650,7 +1638,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 66,
+      "frequency": 64,
       "significance": "high"
     },
     {
@@ -1665,13 +1653,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 28,
+      "frequency": 26,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 393
+    "total_papers": 390
   }
 }
