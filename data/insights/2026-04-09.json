@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-09T08:18:09.240844",
+  "date": "2026-04-09T10:08:22.175282",
   "patterns": {
     "multimodal_research": [
       {
@@ -271,6 +271,10 @@
       {
         "title": "Compression as an Adversarial Amplifier Through Decision Space Reduction",
         "url": "https://arxiv.org/abs/2604.06954v1"
+      },
+      {
+        "title": "zeyuai/efficientnet-food-classifier",
+        "url": "https://huggingface.co/zeyuai/efficientnet-food-classifier"
       }
     ],
     "language_models": [
@@ -609,10 +613,6 @@
       {
         "title": "A Utility-preserving De-identification Pipeline for Cross-hospital Radiology Data Sharing",
         "url": "https://arxiv.org/abs/2604.07128v1"
-      },
-      {
-        "title": "ngwgsang/phobert-base-2e-05-viepaws",
-        "url": "https://huggingface.co/ngwgsang/phobert-base-2e-05-viepaws"
       }
     ],
     "vision_systems": [
@@ -1589,7 +1589,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "42 independent papers",
+      "observation": "43 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1601,7 +1601,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
