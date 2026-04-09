@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-09T11:52:08.633261",
+  "date": "2026-04-09T13:10:34.027263",
   "patterns": {
     "multimodal_research": [
       {
@@ -871,18 +871,6 @@
       {
         "title": "NTIRE 2026 Challenge on Bitstream-Corrupted Video Restoration: Methods and Results",
         "url": "https://arxiv.org/abs/2604.06945v1"
-      },
-      {
-        "title": "cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_2130steps",
-        "url": "https://huggingface.co/cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_2130steps"
-      },
-      {
-        "title": "cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_1704steps",
-        "url": "https://huggingface.co/cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_1704steps"
-      },
-      {
-        "title": "cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_1278steps",
-        "url": "https://huggingface.co/cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_1278steps"
       }
     ],
     "reasoning": [
@@ -1173,6 +1161,10 @@
       {
         "title": "Compression as an Adversarial Amplifier Through Decision Space Reduction",
         "url": "https://arxiv.org/abs/2604.06954v1"
+      },
+      {
+        "title": "EvoNet/EvoNet-8B-Security-Reasoning",
+        "url": "https://huggingface.co/EvoNet/EvoNet-8B-Security-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1585,8 +1577,8 @@
         "url": "https://arxiv.org/abs/2604.06945v1"
       },
       {
-        "title": "waxal-benchmarking/whisper-small-nyn-victor",
-        "url": "https://huggingface.co/waxal-benchmarking/whisper-small-nyn-victor"
+        "title": "waxal-benchmarking/mms-300m-lug-victor",
+        "url": "https://huggingface.co/waxal-benchmarking/mms-300m-lug-victor"
       }
     ]
   },
@@ -1623,13 +1615,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1669,13 +1661,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 26,
+      "frequency": 27,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 394
+    "total_papers": 392
   }
 }
