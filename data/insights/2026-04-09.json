@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-09T10:08:22.175282",
+  "date": "2026-04-09T11:52:08.633261",
   "patterns": {
     "multimodal_research": [
       {
@@ -271,10 +271,6 @@
       {
         "title": "Compression as an Adversarial Amplifier Through Decision Space Reduction",
         "url": "https://arxiv.org/abs/2604.06954v1"
-      },
-      {
-        "title": "zeyuai/efficientnet-food-classifier",
-        "url": "https://huggingface.co/zeyuai/efficientnet-food-classifier"
       }
     ],
     "language_models": [
@@ -613,6 +609,10 @@
       {
         "title": "A Utility-preserving De-identification Pipeline for Cross-hospital Radiology Data Sharing",
         "url": "https://arxiv.org/abs/2604.07128v1"
+      },
+      {
+        "title": "Naho07/ssahubert_yemba",
+        "url": "https://huggingface.co/Naho07/ssahubert_yemba"
       }
     ],
     "vision_systems": [
@@ -871,6 +871,18 @@
       {
         "title": "NTIRE 2026 Challenge on Bitstream-Corrupted Video Restoration: Methods and Results",
         "url": "https://arxiv.org/abs/2604.06945v1"
+      },
+      {
+        "title": "cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_2130steps",
+        "url": "https://huggingface.co/cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_2130steps"
+      },
+      {
+        "title": "cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_1704steps",
+        "url": "https://huggingface.co/cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_1704steps"
+      },
+      {
+        "title": "cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_1278steps",
+        "url": "https://huggingface.co/cvis-tmu/qwen2_5vl-7b-lora-sft-Scene30k_traineval_1278steps"
       }
     ],
     "reasoning": [
@@ -1571,6 +1583,10 @@
       {
         "title": "NTIRE 2026 Challenge on Bitstream-Corrupted Video Restoration: Methods and Results",
         "url": "https://arxiv.org/abs/2604.06945v1"
+      },
+      {
+        "title": "waxal-benchmarking/whisper-small-nyn-victor",
+        "url": "https://huggingface.co/waxal-benchmarking/whisper-small-nyn-victor"
       }
     ]
   },
@@ -1589,7 +1605,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "43 independent papers",
+      "observation": "42 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1601,13 +1617,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1625,7 +1641,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "102 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1638,7 +1654,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 64,
+      "frequency": 65,
       "significance": "high"
     },
     {
@@ -1660,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 390
+    "total_papers": 394
   }
 }
