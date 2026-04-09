@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-09T17:02:21.220586",
+  "date": "2026-04-09T18:03:44.897209",
   "patterns": {
     "multimodal_research": [
       {
@@ -609,14 +609,6 @@
       {
         "title": "A Utility-preserving De-identification Pipeline for Cross-hospital Radiology Data Sharing",
         "url": "https://arxiv.org/abs/2604.07128v1"
-      },
-      {
-        "title": "Clausss/SmolLM2-360M-Instruct-ONNX",
-        "url": "https://huggingface.co/Clausss/SmolLM2-360M-Instruct-ONNX"
-      },
-      {
-        "title": "Clausss/SmolLM2-135M-Instruct-ONNX",
-        "url": "https://huggingface.co/Clausss/SmolLM2-135M-Instruct-ONNX"
       }
     ],
     "vision_systems": [
@@ -1605,7 +1597,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1664,6 +1656,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 391
+    "total_papers": 389
   }
 }
