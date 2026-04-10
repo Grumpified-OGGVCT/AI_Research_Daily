@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-10T16:44:27.556963",
+  "date": "2026-04-10T17:43:46.878162",
   "patterns": {
     "multimodal_research": [
       {
@@ -807,8 +807,12 @@
         "url": "https://arxiv.org/abs/2604.08072v1"
       },
       {
-        "title": "Col474/Thesis_modernBERT_training",
-        "url": "https://huggingface.co/Col474/Thesis_modernBERT_training"
+        "title": "francesco-zatto/hateBERT-freeze-embeddings-weighted-L-sexism-detector",
+        "url": "https://huggingface.co/francesco-zatto/hateBERT-freeze-embeddings-weighted-L-sexism-detector"
+      },
+      {
+        "title": "Dominic/smollm135_fullprec_tinystories",
+        "url": "https://huggingface.co/Dominic/smollm135_fullprec_tinystories"
       }
     ],
     "vision_systems": [
@@ -1201,8 +1205,8 @@
         "url": "https://arxiv.org/abs/2604.08138v1"
       },
       {
-        "title": "Jigen/qwen-image-quake_ranger",
-        "url": "https://huggingface.co/Jigen/qwen-image-quake_ranger"
+        "title": "bigrainlin/DMCv2_RL-gguf",
+        "url": "https://huggingface.co/bigrainlin/DMCv2_RL-gguf"
       }
     ],
     "reasoning": [
@@ -2065,7 +2069,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2124,6 +2128,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 506
+    "total_papers": 507
   }
 }
