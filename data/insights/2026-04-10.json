@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-10T17:43:46.878162",
+  "date": "2026-04-10T18:44:13.860549",
   "patterns": {
     "multimodal_research": [
       {
@@ -807,10 +807,6 @@
         "url": "https://arxiv.org/abs/2604.08072v1"
       },
       {
-        "title": "francesco-zatto/hateBERT-freeze-embeddings-weighted-L-sexism-detector",
-        "url": "https://huggingface.co/francesco-zatto/hateBERT-freeze-embeddings-weighted-L-sexism-detector"
-      },
-      {
         "title": "Dominic/smollm135_fullprec_tinystories",
         "url": "https://huggingface.co/Dominic/smollm135_fullprec_tinystories"
       }
@@ -1203,10 +1199,6 @@
       {
         "title": "Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval",
         "url": "https://arxiv.org/abs/2604.08138v1"
-      },
-      {
-        "title": "bigrainlin/DMCv2_RL-gguf",
-        "url": "https://huggingface.co/bigrainlin/DMCv2_RL-gguf"
       }
     ],
     "reasoning": [
@@ -2069,13 +2061,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "98 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2128,6 +2120,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 507
+    "total_papers": 505
   }
 }
