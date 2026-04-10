@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-10T22:31:41.236144",
+  "date": "2026-04-10T23:31:12.386869",
   "patterns": {
     "multimodal_research": [
       {
@@ -807,8 +807,12 @@
         "url": "https://arxiv.org/abs/2604.08072v1"
       },
       {
-        "title": "JstnMcBrd/distilbert-base-uncased-tweet-sentiment-ensemble-member-1",
-        "url": "https://huggingface.co/JstnMcBrd/distilbert-base-uncased-tweet-sentiment-ensemble-member-1"
+        "title": "emkob/mhubert-147-sk",
+        "url": "https://huggingface.co/emkob/mhubert-147-sk"
+      },
+      {
+        "title": "Alelcv27/GPT-OSS-20B-Math-v2-MXFP4",
+        "url": "https://huggingface.co/Alelcv27/GPT-OSS-20B-Math-v2-MXFP4"
       }
     ],
     "vision_systems": [
@@ -1201,6 +1205,10 @@
         "url": "https://arxiv.org/abs/2604.08138v1"
       },
       {
+        "title": "Alelcv27/GPT-OSS-20B-Math-v2-MXFP4",
+        "url": "https://huggingface.co/Alelcv27/GPT-OSS-20B-Math-v2-MXFP4"
+      },
+      {
         "title": "huggingface/DEH-image-scan-data",
         "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
@@ -1529,10 +1537,6 @@
       {
         "title": "When Fine-Tuning Changes the Evidence: Architecture-Dependent Semantic Drift in Chest X-Ray Explanations",
         "url": "https://arxiv.org/abs/2604.08513v1"
-      },
-      {
-        "title": "inferencerlabs/GLM-5.1-MLX-2.5bit-INF",
-        "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-2.5bit-INF"
       }
     ],
     "benchmarks": [
@@ -2039,6 +2043,10 @@
       {
         "title": "Exploration of Pareto-preserving Search Space Transformations in Multi-objective Test Functions",
         "url": "https://arxiv.org/abs/2604.08173v1"
+      },
+      {
+        "title": "waxal-benchmarking/mms-300m-lin-atholabahizire",
+        "url": "https://huggingface.co/waxal-benchmarking/mms-300m-lin-atholabahizire"
       }
     ]
   },
@@ -2069,19 +2077,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "98 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2093,7 +2101,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "126 independent papers",
+      "observation": "127 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -2106,7 +2114,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 82,
+      "frequency": 83,
       "significance": "high"
     },
     {
@@ -2128,6 +2136,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 507
+    "total_papers": 509
   }
 }
