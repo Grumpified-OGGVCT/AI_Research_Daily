@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-10T04:44:47.110529",
+  "date": "2026-04-10T06:30:50.547962",
   "patterns": {
     "multimodal_research": [
       {
@@ -407,6 +407,14 @@
       {
         "title": "Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval",
         "url": "https://arxiv.org/abs/2604.08138v1"
+      },
+      {
+        "title": "LLM-Drop/BAGEL-MoE-7B-GEN-16to8",
+        "url": "https://huggingface.co/LLM-Drop/BAGEL-MoE-7B-GEN-16to8"
+      },
+      {
+        "title": "LLM-Drop/BAGEL-MoE-7B-GEN-32to16",
+        "url": "https://huggingface.co/LLM-Drop/BAGEL-MoE-7B-GEN-32to16"
       }
     ],
     "language_models": [
@@ -807,24 +815,16 @@
         "url": "https://arxiv.org/abs/2604.08072v1"
       },
       {
-        "title": "KingTechnician/bert-base-uncased_Climate_LRTC",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_Climate_LRTC"
+        "title": "Tsedee/mongol-editor-llm-v3",
+        "url": "https://huggingface.co/Tsedee/mongol-editor-llm-v3"
       },
       {
-        "title": "etri-economic-llm/Gemma4-31B-CPA-Reasoning-SFT",
-        "url": "https://huggingface.co/etri-economic-llm/Gemma4-31B-CPA-Reasoning-SFT"
+        "title": "LLM-Drop/BAGEL-MoE-7B-GEN-16to8",
+        "url": "https://huggingface.co/LLM-Drop/BAGEL-MoE-7B-GEN-16to8"
       },
       {
-        "title": "KingTechnician/bert-base-uncased_LOGIC_LRTC",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_LOGIC_LRTC"
-      },
-      {
-        "title": "KingTechnician/bert-base-uncased_Climate_Native",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_Climate_Native"
-      },
-      {
-        "title": "KingTechnician/bert-base-uncased_LOGIC_Native",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_LOGIC_Native"
+        "title": "LLM-Drop/BAGEL-MoE-7B-GEN-32to16",
+        "url": "https://huggingface.co/LLM-Drop/BAGEL-MoE-7B-GEN-32to16"
       }
     ],
     "vision_systems": [
@@ -1215,10 +1215,6 @@
       {
         "title": "Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval",
         "url": "https://arxiv.org/abs/2604.08138v1"
-      },
-      {
-        "title": "Eimhin03/MCV_Fleurs_Combined_Irish_ASR_pretrained_Synthetic",
-        "url": "https://huggingface.co/Eimhin03/MCV_Fleurs_Combined_Irish_ASR_pretrained_Synthetic"
       }
     ],
     "reasoning": [
@@ -1545,22 +1541,6 @@
       {
         "title": "When Fine-Tuning Changes the Evidence: Architecture-Dependent Semantic Drift in Chest X-Ray Explanations",
         "url": "https://arxiv.org/abs/2604.08513v1"
-      },
-      {
-        "title": "etri-economic-llm/Gemma4-31B-CPA-Reasoning-SFT",
-        "url": "https://huggingface.co/etri-economic-llm/Gemma4-31B-CPA-Reasoning-SFT"
-      },
-      {
-        "title": "KingTechnician/bert-base-uncased_LOGIC_LRTC",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_LOGIC_LRTC"
-      },
-      {
-        "title": "KingTechnician/bert-base-uncased_LOGIC_Native",
-        "url": "https://huggingface.co/KingTechnician/bert-base-uncased_LOGIC_Native"
-      },
-      {
-        "title": "mradermacher/Qwen3.5-122B-Turkish-Reasoning-6shard-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/Qwen3.5-122B-Turkish-Reasoning-6shard-i1-GGUF"
       }
     ],
     "benchmarks": [
@@ -2085,7 +2065,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "55 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2097,19 +2077,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "104 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "98 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "85 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2139,7 +2119,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 57,
+      "frequency": 55,
       "significance": "high"
     },
     {
@@ -2156,6 +2136,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 514
+    "total_papers": 509
   }
 }
