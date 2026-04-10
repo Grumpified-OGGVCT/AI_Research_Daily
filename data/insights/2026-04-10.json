@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-10T12:57:37.409165",
+  "date": "2026-04-10T14:16:45.464930",
   "patterns": {
     "multimodal_research": [
       {
@@ -805,6 +805,10 @@
       {
         "title": "Tensor-Augmented Convolutional Neural Networks: Enhancing Expressivity with Generic Tensor Kernels",
         "url": "https://arxiv.org/abs/2604.08072v1"
+      },
+      {
+        "title": "piyushptiwari/InsureLLM-4B",
+        "url": "https://huggingface.co/piyushptiwari/InsureLLM-4B"
       }
     ],
     "vision_systems": [
@@ -1195,6 +1199,10 @@
       {
         "title": "Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval",
         "url": "https://arxiv.org/abs/2604.08138v1"
+      },
+      {
+        "title": "mx003/cve_model_1000_eltoukgi",
+        "url": "https://huggingface.co/mx003/cve_model_1000_eltoukgi"
       }
     ],
     "reasoning": [
@@ -1521,6 +1529,10 @@
       {
         "title": "When Fine-Tuning Changes the Evidence: Architecture-Dependent Semantic Drift in Chest X-Ray Explanations",
         "url": "https://arxiv.org/abs/2604.08513v1"
+      },
+      {
+        "title": "inferencerlabs/GLM-5.1-MLX-2.5bit-INF",
+        "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-2.5bit-INF"
       }
     ],
     "benchmarks": [
@@ -2057,19 +2069,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "97 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2116,6 +2128,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 504
+    "total_papers": 507
   }
 }
