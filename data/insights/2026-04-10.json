@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-10T11:44:05.403038",
+  "date": "2026-04-10T12:57:37.409165",
   "patterns": {
     "multimodal_research": [
       {
@@ -805,10 +805,6 @@
       {
         "title": "Tensor-Augmented Convolutional Neural Networks: Enhancing Expressivity with Generic Tensor Kernels",
         "url": "https://arxiv.org/abs/2604.08072v1"
-      },
-      {
-        "title": "cloudyu/GPT-OSS-120B-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled",
-        "url": "https://huggingface.co/cloudyu/GPT-OSS-120B-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "vision_systems": [
@@ -1525,10 +1521,6 @@
       {
         "title": "When Fine-Tuning Changes the Evidence: Architecture-Dependent Semantic Drift in Chest X-Ray Explanations",
         "url": "https://arxiv.org/abs/2604.08513v1"
-      },
-      {
-        "title": "cloudyu/GPT-OSS-120B-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled",
-        "url": "https://huggingface.co/cloudyu/GPT-OSS-120B-MLX-q4-Claude-4.6-Opus-Reasoning-Distilled"
       }
     ],
     "benchmarks": [
@@ -2065,7 +2057,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2077,7 +2069,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2107,7 +2099,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 56,
+      "frequency": 55,
       "significance": "high"
     },
     {
@@ -2124,6 +2116,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 506
+    "total_papers": 504
   }
 }
