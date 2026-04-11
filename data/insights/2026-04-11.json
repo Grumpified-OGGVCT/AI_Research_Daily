@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-11T06:57:53.292435",
+  "date": "2026-04-11T07:49:08.222712",
   "patterns": {
     "multimodal_research": [
       {
@@ -807,8 +807,12 @@
         "url": "https://arxiv.org/abs/2604.08072v1"
       },
       {
-        "title": "intmade/roberta-base-klue-ynat-classification",
-        "url": "https://huggingface.co/intmade/roberta-base-klue-ynat-classification"
+        "title": "Cisco1963/llmplasticity-zh_fi_linear_0.5_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-zh_fi_linear_0.5_1-seed42"
+      },
+      {
+        "title": "Cisco1963/llmplasticity-en_zh_linear_0.25_1-seed42",
+        "url": "https://huggingface.co/Cisco1963/llmplasticity-en_zh_linear_0.25_1-seed42"
       }
     ],
     "vision_systems": [
@@ -2061,7 +2065,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2120,6 +2124,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 505
+    "total_papers": 506
   }
 }
