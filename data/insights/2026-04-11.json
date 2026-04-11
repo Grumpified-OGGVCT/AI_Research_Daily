@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-11T21:27:46.469764",
+  "date": "2026-04-11T22:26:37.870152",
   "patterns": {
     "multimodal_research": [
       {
@@ -805,14 +805,6 @@
       {
         "title": "Tensor-Augmented Convolutional Neural Networks: Enhancing Expressivity with Generic Tensor Kernels",
         "url": "https://arxiv.org/abs/2604.08072v1"
-      },
-      {
-        "title": "123aloo123/BitNet-GPT2-125M-Ternary",
-        "url": "https://huggingface.co/123aloo123/BitNet-GPT2-125M-Ternary"
-      },
-      {
-        "title": "OrionLLM/Terminus-LFM2.5-350m",
-        "url": "https://huggingface.co/OrionLLM/Terminus-LFM2.5-350m"
       }
     ],
     "vision_systems": [
@@ -1203,6 +1195,10 @@
       {
         "title": "Bag of Bags: Adaptive Visual Vocabularies for Genizah Join Image Retrieval",
         "url": "https://arxiv.org/abs/2604.08138v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       }
     ],
     "reasoning": [
@@ -2035,10 +2031,6 @@
       {
         "title": "Exploration of Pareto-preserving Search Space Transformations in Multi-objective Test Functions",
         "url": "https://arxiv.org/abs/2604.08173v1"
-      },
-      {
-        "title": "lphleo/latent_sota_L_ot_8x8h100",
-        "url": "https://huggingface.co/lphleo/latent_sota_L_ot_8x8h100"
       }
     ]
   },
@@ -2069,13 +2061,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "97 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2093,7 +2085,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "127 independent papers",
+      "observation": "126 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -2128,6 +2120,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 507
+    "total_papers": 505
   }
 }
