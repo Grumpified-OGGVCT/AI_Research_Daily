@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-11T04:17:05.893611",
+  "date": "2026-04-11T05:57:47.254284",
   "patterns": {
     "multimodal_research": [
       {
@@ -805,6 +805,10 @@
       {
         "title": "Tensor-Augmented Convolutional Neural Networks: Enhancing Expressivity with Generic Tensor Kernels",
         "url": "https://arxiv.org/abs/2604.08072v1"
+      },
+      {
+        "title": "meshllm/olmo-7b-instruct-hf-parity-f16-gguf",
+        "url": "https://huggingface.co/meshllm/olmo-7b-instruct-hf-parity-f16-gguf"
       }
     ],
     "vision_systems": [
@@ -2057,7 +2061,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2116,6 +2120,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 504
+    "total_papers": 505
   }
 }
