@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-11T22:26:37.870152",
+  "date": "2026-04-11T23:28:32.736972",
   "patterns": {
     "multimodal_research": [
       {
@@ -1519,6 +1519,10 @@
         "url": "https://arxiv.org/abs/2604.08405v1"
       },
       {
+        "title": "inferencerlabs/GLM-5.1-MLX-2.5bit-INF",
+        "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-2.5bit-INF"
+      },
+      {
         "title": "A unifying view of contrastive learning, importance sampling, and bridge sampling for energy-based models",
         "url": "https://arxiv.org/abs/2604.08116v1"
       },
@@ -2073,7 +2077,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2120,6 +2124,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 505
+    "total_papers": 506
   }
 }
