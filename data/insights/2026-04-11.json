@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-11T10:29:21.824329",
+  "date": "2026-04-11T11:26:50.294185",
   "patterns": {
     "multimodal_research": [
       {
@@ -809,14 +809,6 @@
       {
         "title": "llmfan46/gemma-4-31B-it-uncensored-heretic-GGUF",
         "url": "https://huggingface.co/llmfan46/gemma-4-31B-it-uncensored-heretic-GGUF"
-      },
-      {
-        "title": "rehmanahmad/news-classifier-bert",
-        "url": "https://huggingface.co/rehmanahmad/news-classifier-bert"
-      },
-      {
-        "title": "SHIHICOOKIE02/smollm2-sft-practice",
-        "url": "https://huggingface.co/SHIHICOOKIE02/smollm2-sft-practice"
       }
     ],
     "vision_systems": [
@@ -2069,7 +2061,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "102 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2128,6 +2120,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 507
+    "total_papers": 505
   }
 }
