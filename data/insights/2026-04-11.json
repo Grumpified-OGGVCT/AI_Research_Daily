@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-11T15:29:02.348627",
+  "date": "2026-04-11T16:30:32.120258",
   "patterns": {
     "multimodal_research": [
       {
@@ -807,12 +807,8 @@
         "url": "https://arxiv.org/abs/2604.08072v1"
       },
       {
-        "title": "francesco-zatto/hateBERT-freeze-all-weighted-L-sexism-detector",
-        "url": "https://huggingface.co/francesco-zatto/hateBERT-freeze-all-weighted-L-sexism-detector"
-      },
-      {
-        "title": "francesco-zatto/twitter-roberta-base-hate-freeze-all-sexism-detector",
-        "url": "https://huggingface.co/francesco-zatto/twitter-roberta-base-hate-freeze-all-sexism-detector"
+        "title": "OptimizeLLM/Qwen3.5-122B-A10B-heretic-MTP-NVFP4",
+        "url": "https://huggingface.co/OptimizeLLM/Qwen3.5-122B-A10B-heretic-MTP-NVFP4"
       }
     ],
     "vision_systems": [
@@ -2065,7 +2061,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -2124,6 +2120,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 506
+    "total_papers": 505
   }
 }
