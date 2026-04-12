@@ -1,49 +1,69 @@
 {
-  "date": "2026-04-12T18:40:13.850993",
+  "date": "2026-04-12T19:36:52.089464",
   "patterns": {
     "language_models": [
       {
-        "title": "AksaraLLM/Kiel-Pro-0.5B-v1",
-        "url": "https://huggingface.co/AksaraLLM/Kiel-Pro-0.5B-v1"
+        "title": "Hodfa71/gpt-sw3-356m-icelandic-delta-dpo",
+        "url": "https://huggingface.co/Hodfa71/gpt-sw3-356m-icelandic-delta-dpo"
       },
       {
-        "title": "Notingmainus/gpt-oss",
-        "url": "https://huggingface.co/Notingmainus/gpt-oss"
+        "title": "Alelcv27/GPT-OSS-20B-Code-BF16",
+        "url": "https://huggingface.co/Alelcv27/GPT-OSS-20B-Code-BF16"
       },
       {
-        "title": "pqthinh232/HCMUS-phobert-vietnamese-restaurant-sentiment-analysis",
-        "url": "https://huggingface.co/pqthinh232/HCMUS-phobert-vietnamese-restaurant-sentiment-analysis"
-      }
-    ],
-    "reasoning": [
-      {
-        "title": "inferencerlabs/GLM-5.1-MLX-2.5bit-INF",
-        "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-2.5bit-INF"
+        "title": "Hodfa71/gpt-sw3-1b3-icelandic-delta-dpo",
+        "url": "https://huggingface.co/Hodfa71/gpt-sw3-1b3-icelandic-delta-dpo"
       },
       {
-        "title": "inferencerlabs/MiniMax-M2.7-MLX-9bit",
-        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2.7-MLX-9bit"
+        "title": "kswhitecross/RecaLLM-Llama-3.1-8B",
+        "url": "https://huggingface.co/kswhitecross/RecaLLM-Llama-3.1-8B"
+      },
+      {
+        "title": "ieudhiuwher/gpt-oss-120b-aimo3-math",
+        "url": "https://huggingface.co/ieudhiuwher/gpt-oss-120b-aimo3-math"
+      },
+      {
+        "title": "Crusadersk/gpt2-100m",
+        "url": "https://huggingface.co/Crusadersk/gpt2-100m"
+      },
+      {
+        "title": "RavinduSen/JaneGPT-v2-Janus",
+        "url": "https://huggingface.co/RavinduSen/JaneGPT-v2-Janus"
+      },
+      {
+        "title": "Crusadersk/gpt2-50m",
+        "url": "https://huggingface.co/Crusadersk/gpt2-50m"
+      },
+      {
+        "title": "Crusadersk/gpt2-25m",
+        "url": "https://huggingface.co/Crusadersk/gpt2-25m"
+      },
+      {
+        "title": "Crusadersk/tiny-gpt2",
+        "url": "https://huggingface.co/Crusadersk/tiny-gpt2"
+      },
+      {
+        "title": "NewName4Me/plantas-llm-finetuned",
+        "url": "https://huggingface.co/NewName4Me/plantas-llm-finetuned"
+      },
+      {
+        "title": "kswhitecross/RecaLLM-Qwen2.5-7B",
+        "url": "https://huggingface.co/kswhitecross/RecaLLM-Qwen2.5-7B"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    },
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
-      "confidence": "medium"
+      "observation": "12 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 2,
-    "total_papers": 5
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 12
   }
 }
