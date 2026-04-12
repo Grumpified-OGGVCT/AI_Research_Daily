@@ -1,11 +1,49 @@
 {
-  "date": "2026-04-12T17:30:35.231463",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-04-12T18:40:13.850993",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "AksaraLLM/Kiel-Pro-0.5B-v1",
+        "url": "https://huggingface.co/AksaraLLM/Kiel-Pro-0.5B-v1"
+      },
+      {
+        "title": "Notingmainus/gpt-oss",
+        "url": "https://huggingface.co/Notingmainus/gpt-oss"
+      },
+      {
+        "title": "pqthinh232/HCMUS-phobert-vietnamese-restaurant-sentiment-analysis",
+        "url": "https://huggingface.co/pqthinh232/HCMUS-phobert-vietnamese-restaurant-sentiment-analysis"
+      }
+    ],
+    "reasoning": [
+      {
+        "title": "inferencerlabs/GLM-5.1-MLX-2.5bit-INF",
+        "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-2.5bit-INF"
+      },
+      {
+        "title": "inferencerlabs/MiniMax-M2.7-MLX-9bit",
+        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2.7-MLX-9bit"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 2,
+    "total_inferences": 2,
+    "total_papers": 5
   }
 }
