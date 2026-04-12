@@ -1,11 +1,22 @@
 {
-  "date": "2026-04-12T11:30:31.978347",
-  "patterns": {},
+  "date": "2026-04-12T12:47:01.723236",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Samir-JADS/tailored-bert",
+        "url": "https://huggingface.co/Samir-JADS/tailored-bert"
+      },
+      {
+        "title": "Samir-JADS/bert-longer-train",
+        "url": "https://huggingface.co/Samir-JADS/bert-longer-train"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
