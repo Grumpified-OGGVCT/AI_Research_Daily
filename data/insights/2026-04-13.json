@@ -1,11 +1,22 @@
 {
-  "date": "2026-04-13T07:54:03.625586",
-  "patterns": {},
+  "date": "2026-04-13T09:50:11.375796",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "sudheerdunga/llm-traffic-controller",
+        "url": "https://huggingface.co/sudheerdunga/llm-traffic-controller"
+      },
+      {
+        "title": "ucanbaklava/bert-address-normalized",
+        "url": "https://huggingface.co/ucanbaklava/bert-address-normalized"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
