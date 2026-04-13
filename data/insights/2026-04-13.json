@@ -1,45 +1,11 @@
 {
-  "date": "2026-04-13T05:36:32.010622",
-  "patterns": {
-    "language_models": [
-      {
-        "title": "Acryl-aLLM/ALLM.H-Bv4-Gemma4-31B-BF16",
-        "url": "https://huggingface.co/Acryl-aLLM/ALLM.H-Bv4-Gemma4-31B-BF16"
-      },
-      {
-        "title": "AksaraLLM/Kiel-Mini-90M-SFT",
-        "url": "https://huggingface.co/AksaraLLM/Kiel-Mini-90M-SFT"
-      },
-      {
-        "title": "zhangsq-nju/MobileLLM-350M-EdgeRazor-1.58bit",
-        "url": "https://huggingface.co/zhangsq-nju/MobileLLM-350M-EdgeRazor-1.58bit"
-      },
-      {
-        "title": "zhangsq-nju/MobileLLM-350M-EdgeRazor-1.88bit",
-        "url": "https://huggingface.co/zhangsq-nju/MobileLLM-350M-EdgeRazor-1.88bit"
-      },
-      {
-        "title": "zhangsq-nju/MobileLLM-350M-EdgeRazor-2.79bit",
-        "url": "https://huggingface.co/zhangsq-nju/MobileLLM-350M-EdgeRazor-2.79bit"
-      },
-      {
-        "title": "zhangsq-nju/MobileLLM-350M-EdgeRazor-4bit",
-        "url": "https://huggingface.co/zhangsq-nju/MobileLLM-350M-EdgeRazor-4bit"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "6 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
-    }
-  ],
+  "date": "2026-04-13T07:54:03.625586",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 6
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
