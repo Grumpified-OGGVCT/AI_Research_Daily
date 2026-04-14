@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-14T15:09:52.967400",
+  "date": "2026-04-14T17:00:07.235204",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,28 +703,8 @@
         "url": "https://arxiv.org/abs/2604.11576v1"
       },
       {
-        "title": "majentik/gpt-oss-120b-RotorQuant",
-        "url": "https://huggingface.co/majentik/gpt-oss-120b-RotorQuant"
-      },
-      {
-        "title": "majentik/gpt-oss-120b-TurboQuant",
-        "url": "https://huggingface.co/majentik/gpt-oss-120b-TurboQuant"
-      },
-      {
-        "title": "majentik/gpt-oss-120b-RotorQuant-MLX-2bit",
-        "url": "https://huggingface.co/majentik/gpt-oss-120b-RotorQuant-MLX-2bit"
-      },
-      {
-        "title": "majentik/gpt-oss-120b-RotorQuant-MLX-4bit",
-        "url": "https://huggingface.co/majentik/gpt-oss-120b-RotorQuant-MLX-4bit"
-      },
-      {
-        "title": "majentik/gpt-oss-120b-TurboQuant-MLX-2bit",
-        "url": "https://huggingface.co/majentik/gpt-oss-120b-TurboQuant-MLX-2bit"
-      },
-      {
-        "title": "majentik/gpt-oss-120b-RotorQuant-MLX-8bit",
-        "url": "https://huggingface.co/majentik/gpt-oss-120b-RotorQuant-MLX-8bit"
+        "title": "robert622/electra_base4text_classification",
+        "url": "https://huggingface.co/robert622/electra_base4text_classification"
       }
     ],
     "vision_systems": [
@@ -1023,10 +1003,6 @@
       {
         "title": "Degradation-Aware and Structure-Preserving Diffusion for Real-World Image Super-Resolution",
         "url": "https://arxiv.org/abs/2604.11470v1"
-      },
-      {
-        "title": "gradients-io-tournaments/tournament-tourn_da8e132b7783f8ac_20260413-fca0f4de-07af-4310-a315-7d3ba0e41473-5EeLcV3L",
-        "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_da8e132b7783f8ac_20260413-fca0f4de-07af-4310-a315-7d3ba0e41473-5EeLcV3L"
       }
     ],
     "reasoning": [
@@ -1849,13 +1825,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "102 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1908,6 +1884,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 452
+    "total_papers": 446
   }
 }
