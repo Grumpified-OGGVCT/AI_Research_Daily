@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-14T20:02:56.158510",
+  "date": "2026-04-14T21:45:40.467304",
   "patterns": {
     "multimodal_research": [
       {
@@ -701,10 +701,6 @@
       {
         "title": "Finetune Like You Pretrain: Boosting Zero-shot Adversarial Robustness in Vision-language Models",
         "url": "https://arxiv.org/abs/2604.11576v1"
-      },
-      {
-        "title": "KingTechnician/osmosis-modernbert-joint",
-        "url": "https://huggingface.co/KingTechnician/osmosis-modernbert-joint"
       }
     ],
     "vision_systems": [
@@ -1003,10 +999,6 @@
       {
         "title": "Degradation-Aware and Structure-Preserving Diffusion for Real-World Image Super-Resolution",
         "url": "https://arxiv.org/abs/2604.11470v1"
-      },
-      {
-        "title": "vantagewithai/ERNIE-Image-GGUF-Base-Turbo",
-        "url": "https://huggingface.co/vantagewithai/ERNIE-Image-GGUF-Base-Turbo"
       }
     ],
     "reasoning": [
@@ -1829,13 +1821,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1888,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 447
+    "total_papers": 445
   }
 }
