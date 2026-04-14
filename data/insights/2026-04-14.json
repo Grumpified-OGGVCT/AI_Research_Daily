@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-14T18:07:20.836950",
+  "date": "2026-04-14T20:02:56.158510",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,8 +703,8 @@
         "url": "https://arxiv.org/abs/2604.11576v1"
       },
       {
-        "title": "LBenoit/democracy-mmBert",
-        "url": "https://huggingface.co/LBenoit/democracy-mmBert"
+        "title": "KingTechnician/osmosis-modernbert-joint",
+        "url": "https://huggingface.co/KingTechnician/osmosis-modernbert-joint"
       }
     ],
     "vision_systems": [
@@ -1003,6 +1003,10 @@
       {
         "title": "Degradation-Aware and Structure-Preserving Diffusion for Real-World Image Super-Resolution",
         "url": "https://arxiv.org/abs/2604.11470v1"
+      },
+      {
+        "title": "vantagewithai/ERNIE-Image-GGUF-Base-Turbo",
+        "url": "https://huggingface.co/vantagewithai/ERNIE-Image-GGUF-Base-Turbo"
       }
     ],
     "reasoning": [
@@ -1831,7 +1835,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1884,6 +1888,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 446
+    "total_papers": 447
   }
 }
