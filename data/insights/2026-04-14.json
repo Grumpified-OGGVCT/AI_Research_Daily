@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-14T01:59:20.950511",
+  "date": "2026-04-14T04:48:44.623675",
   "patterns": {
     "multimodal_research": [
       {
@@ -419,10 +419,6 @@
       {
         "title": "The Second Challenge on Real-World Face Restoration at NTIRE 2026: Methods and Results",
         "url": "https://arxiv.org/abs/2604.10532v1"
-      },
-      {
-        "title": "logihertzsystems/Nyra-Vision-7B",
-        "url": "https://huggingface.co/logihertzsystems/Nyra-Vision-7B"
       }
     ],
     "reasoning": [
@@ -589,10 +585,6 @@
       {
         "title": "GTASA: Ground Truth Annotations for Spatiotemporal Analysis, Evaluation and Training of Video Models",
         "url": "https://arxiv.org/abs/2604.10385v1"
-      },
-      {
-        "title": "logihertzsystems/Nyra-Logic-7B-GGUF-Q8_0",
-        "url": "https://huggingface.co/logihertzsystems/Nyra-Logic-7B-GGUF-Q8_0"
       }
     ],
     "benchmarks": [
@@ -863,13 +855,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "33 independent papers",
+      "observation": "32 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "42 independent papers",
+      "observation": "41 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -909,13 +901,13 @@
     },
     {
       "topic": "vision",
-      "frequency": 19,
+      "frequency": 18,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 204
+    "total_papers": 202
   }
 }
