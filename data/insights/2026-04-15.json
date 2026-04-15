@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-15T15:02:49.016775",
+  "date": "2026-04-15T16:57:30.304033",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,6 +761,10 @@
       {
         "title": "Brain-DiT: A Universal Multi-state fMRI Foundation Model with Metadata-Conditioned Pretraining",
         "url": "https://arxiv.org/abs/2604.12683v1"
+      },
+      {
+        "title": "rajtembe13/Mistral-3B-Instruct-GPT-5.4-Reasoning",
+        "url": "https://huggingface.co/rajtembe13/Mistral-3B-Instruct-GPT-5.4-Reasoning"
       }
     ],
     "vision_systems": [
@@ -1087,10 +1091,6 @@
       {
         "title": "M3D-Stereo: A Multiple-Medium and Multiple-Degradation Dataset for Stereo Image Restoration",
         "url": "https://arxiv.org/abs/2604.12917v1"
-      },
-      {
-        "title": "Alelcv27/Llama3.2-3B-base-Code",
-        "url": "https://huggingface.co/Alelcv27/Llama3.2-3B-base-Code"
       }
     ],
     "reasoning": [
@@ -1385,6 +1385,18 @@
       {
         "title": "MCAnalysis: An Open-Source Package for Preprocessing, Modelling, and Visualisation of Menstrual Cycle Effects in Digital Health Data",
         "url": "https://arxiv.org/abs/2604.12536v1"
+      },
+      {
+        "title": "rajtembe13/Mistral-3B-Instruct-GPT-5.4-Reasoning",
+        "url": "https://huggingface.co/rajtembe13/Mistral-3B-Instruct-GPT-5.4-Reasoning"
+      },
+      {
+        "title": "ermiaazarkhalili/LFM2.5-1.2B-SFT-Claude-Reasoning-Unsloth",
+        "url": "https://huggingface.co/ermiaazarkhalili/LFM2.5-1.2B-SFT-Claude-Reasoning-Unsloth"
+      },
+      {
+        "title": "ermiaazarkhalili/Qwen3.5-0.8B-SFT-Claude-Reasoning-Unsloth",
+        "url": "https://huggingface.co/ermiaazarkhalili/Qwen3.5-0.8B-SFT-Claude-Reasoning-Unsloth"
       }
     ],
     "benchmarks": [
@@ -1877,19 +1889,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1919,7 +1931,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 43,
       "significance": "high"
     },
     {
@@ -1936,6 +1948,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 459
+    "total_papers": 462
   }
 }
