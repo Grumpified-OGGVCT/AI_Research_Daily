@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-15T10:13:26.812234",
+  "date": "2026-04-15T11:56:25.181191",
   "patterns": {
     "multimodal_research": [
       {
@@ -763,8 +763,8 @@
         "url": "https://arxiv.org/abs/2604.12683v1"
       },
       {
-        "title": "ashwini10521/finetuned_bert",
-        "url": "https://huggingface.co/ashwini10521/finetuned_bert"
+        "title": "diicell/qwen3-4b-instruct-2507-geogpt-sft",
+        "url": "https://huggingface.co/diicell/qwen3-4b-instruct-2507-geogpt-sft"
       }
     ],
     "vision_systems": [
@@ -1385,6 +1385,10 @@
       {
         "title": "MCAnalysis: An Open-Source Package for Preprocessing, Modelling, and Visualisation of Menstrual Cycle Effects in Digital Health Data",
         "url": "https://arxiv.org/abs/2604.12536v1"
+      },
+      {
+        "title": "impost0r/qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-GGUF",
+        "url": "https://huggingface.co/impost0r/qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-GGUF"
       }
     ],
     "benchmarks": [
@@ -1889,7 +1893,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1919,7 +1923,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 41,
       "significance": "high"
     },
     {
@@ -1929,13 +1933,13 @@
     },
     {
       "topic": "prompt",
-      "frequency": 29,
+      "frequency": 28,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 459
+    "total_papers": 460
   }
 }
