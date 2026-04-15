@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-15T04:43:27.935268",
+  "date": "2026-04-15T06:31:08.282167",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,10 +761,6 @@
       {
         "title": "Brain-DiT: A Universal Multi-state fMRI Foundation Model with Metadata-Conditioned Pretraining",
         "url": "https://arxiv.org/abs/2604.12683v1"
-      },
-      {
-        "title": "girish00/ConicAI_LLM_model",
-        "url": "https://huggingface.co/girish00/ConicAI_LLM_model"
       }
     ],
     "vision_systems": [
@@ -1091,10 +1087,6 @@
       {
         "title": "M3D-Stereo: A Multiple-Medium and Multiple-Degradation Dataset for Stereo Image Restoration",
         "url": "https://arxiv.org/abs/2604.12917v1"
-      },
-      {
-        "title": "baidu/ERNIE-Image",
-        "url": "https://huggingface.co/baidu/ERNIE-Image"
       }
     ],
     "reasoning": [
@@ -1881,13 +1873,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1940,6 +1932,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 460
+    "total_papers": 458
   }
 }
