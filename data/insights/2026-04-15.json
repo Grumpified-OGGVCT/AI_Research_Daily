@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-15T22:39:36.848050",
+  "date": "2026-04-15T23:38:40.753811",
   "patterns": {
     "multimodal_research": [
       {
@@ -1091,10 +1091,6 @@
       {
         "title": "M3D-Stereo: A Multiple-Medium and Multiple-Degradation Dataset for Stereo Image Restoration",
         "url": "https://arxiv.org/abs/2604.12917v1"
-      },
-      {
-        "title": "dianavdavidson/wh_med_cv_no_lg_id_common_voices_52395__val_finetune_trial",
-        "url": "https://huggingface.co/dianavdavidson/wh_med_cv_no_lg_id_common_voices_52395__val_finetune_trial"
       }
     ],
     "reasoning": [
@@ -1851,6 +1847,14 @@
       {
         "title": "Brain-DiT: A Universal Multi-state fMRI Foundation Model with Metadata-Conditioned Pretraining",
         "url": "https://arxiv.org/abs/2604.12683v1"
+      },
+      {
+        "title": "distillabs/tft-benchmark-s4-tft-Qwen3-1.7B",
+        "url": "https://huggingface.co/distillabs/tft-benchmark-s4-tft-Qwen3-1.7B"
+      },
+      {
+        "title": "distillabs/tft-benchmark-s3-direct-Qwen3-1.7B",
+        "url": "https://huggingface.co/distillabs/tft-benchmark-s3-direct-Qwen3-1.7B"
       }
     ]
   },
@@ -1887,7 +1891,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1905,7 +1909,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "115 independent papers",
+      "observation": "117 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1918,7 +1922,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 68,
+      "frequency": 70,
       "significance": "high"
     },
     {
@@ -1940,6 +1944,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 460
+    "total_papers": 461
   }
 }
