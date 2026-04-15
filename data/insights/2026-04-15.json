@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-15T20:55:46.063856",
+  "date": "2026-04-15T21:46:42.540116",
   "patterns": {
     "multimodal_research": [
       {
@@ -1087,6 +1087,14 @@
       {
         "title": "M3D-Stereo: A Multiple-Medium and Multiple-Degradation Dataset for Stereo Image Restoration",
         "url": "https://arxiv.org/abs/2604.12917v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      {
+        "title": "dianavdavidson/wh_l_v3_t_cv_common_voices_52393__val_finetune_trial",
+        "url": "https://huggingface.co/dianavdavidson/wh_l_v3_t_cv_common_voices_52393__val_finetune_trial"
       }
     ],
     "reasoning": [
@@ -1879,7 +1887,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "81 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1932,6 +1940,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 458
+    "total_papers": 460
   }
 }
