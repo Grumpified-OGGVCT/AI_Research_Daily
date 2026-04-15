@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-15T11:56:25.181191",
+  "date": "2026-04-15T13:11:54.806974",
   "patterns": {
     "multimodal_research": [
       {
@@ -761,10 +761,6 @@
       {
         "title": "Brain-DiT: A Universal Multi-state fMRI Foundation Model with Metadata-Conditioned Pretraining",
         "url": "https://arxiv.org/abs/2604.12683v1"
-      },
-      {
-        "title": "diicell/qwen3-4b-instruct-2507-geogpt-sft",
-        "url": "https://huggingface.co/diicell/qwen3-4b-instruct-2507-geogpt-sft"
       }
     ],
     "vision_systems": [
@@ -1091,6 +1087,10 @@
       {
         "title": "M3D-Stereo: A Multiple-Medium and Multiple-Degradation Dataset for Stereo Image Restoration",
         "url": "https://arxiv.org/abs/2604.12917v1"
+      },
+      {
+        "title": "mick1m/nsfw_image_detection",
+        "url": "https://huggingface.co/mick1m/nsfw_image_detection"
       }
     ],
     "reasoning": [
@@ -1385,10 +1385,6 @@
       {
         "title": "MCAnalysis: An Open-Source Package for Preprocessing, Modelling, and Visualisation of Menstrual Cycle Effects in Digital Health Data",
         "url": "https://arxiv.org/abs/2604.12536v1"
-      },
-      {
-        "title": "impost0r/qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-GGUF",
-        "url": "https://huggingface.co/impost0r/qwen3-30B-A3B-Thinking-2507-Claude-4.5-Sonnet-High-Reasoning-Distill-GGUF"
       }
     ],
     "benchmarks": [
@@ -1881,19 +1877,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1923,7 +1919,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 41,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1940,6 +1936,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 460
+    "total_papers": 459
   }
 }
