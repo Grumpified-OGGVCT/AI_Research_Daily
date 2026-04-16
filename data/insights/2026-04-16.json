@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-16T17:09:07.764107",
+  "date": "2026-04-16T19:04:55.682897",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,8 +679,16 @@
         "url": "https://arxiv.org/abs/2604.14041v1"
       },
       {
-        "title": "midnight-s/bowtie-transformer",
-        "url": "https://huggingface.co/midnight-s/bowtie-transformer"
+        "title": "haji80mr-uoft/gpt-semi-wtype-Llama-tuned-Lora-merged-gpt5",
+        "url": "https://huggingface.co/haji80mr-uoft/gpt-semi-wtype-Llama-tuned-Lora-merged-gpt5"
+      },
+      {
+        "title": "haji80mr-uoft/corrected-semi-wtype-Llama-tuned-Lora-merged-gpt5",
+        "url": "https://huggingface.co/haji80mr-uoft/corrected-semi-wtype-Llama-tuned-Lora-merged-gpt5"
+      },
+      {
+        "title": "DCAgent/g1_timeout_e1_gpt_long_sampled_swesmith_psu_thinking_tacc-Qwen3-32B",
+        "url": "https://huggingface.co/DCAgent/g1_timeout_e1_gpt_long_sampled_swesmith_psu_thinking_tacc-Qwen3-32B"
       }
     ],
     "vision_systems": [
@@ -939,6 +947,10 @@
       {
         "title": "Granularity-Aware Transfer for Tree Instance Segmentation in Synthetic and Real Forests",
         "url": "https://arxiv.org/abs/2604.13722v1"
+      },
+      {
+        "title": "szwagros/nucleus-image-fp8",
+        "url": "https://huggingface.co/szwagros/nucleus-image-fp8"
       }
     ],
     "reasoning": [
@@ -1669,13 +1681,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "89 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 410
   }
 }
