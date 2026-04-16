@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-16T21:38:50.705198",
+  "date": "2026-04-16T22:35:33.094811",
   "patterns": {
     "multimodal_research": [
       {
@@ -323,18 +323,6 @@
       {
         "title": "Modeling of Self-sustained Neuron Population without External Stimulus",
         "url": "https://arxiv.org/abs/2604.13719v1"
-      },
-      {
-        "title": "ivosimoes/bertimbau-base-cased-FOS-TA",
-        "url": "https://huggingface.co/ivosimoes/bertimbau-base-cased-FOS-TA"
-      },
-      {
-        "title": "ivosimoes/bertimbau-base-cased-FOS-TK",
-        "url": "https://huggingface.co/ivosimoes/bertimbau-base-cased-FOS-TK"
-      },
-      {
-        "title": "ivosimoes/bertimbau-base-cased-FOS-TKA",
-        "url": "https://huggingface.co/ivosimoes/bertimbau-base-cased-FOS-TKA"
       }
     ],
     "language_models": [
@@ -691,16 +679,16 @@
         "url": "https://arxiv.org/abs/2604.14041v1"
       },
       {
-        "title": "ivosimoes/bertimbau-base-cased-FOS-TA",
-        "url": "https://huggingface.co/ivosimoes/bertimbau-base-cased-FOS-TA"
+        "title": "WYNN747/Burmese-GPT-Padauk-GGUF",
+        "url": "https://huggingface.co/WYNN747/Burmese-GPT-Padauk-GGUF"
       },
       {
-        "title": "ivosimoes/bertimbau-base-cased-FOS-TK",
-        "url": "https://huggingface.co/ivosimoes/bertimbau-base-cased-FOS-TK"
+        "title": "DCAgent/g1_min_episodes_e1_gpt_long_thinking_tacc-Qwen3-32B",
+        "url": "https://huggingface.co/DCAgent/g1_min_episodes_e1_gpt_long_thinking_tacc-Qwen3-32B"
       },
       {
-        "title": "ivosimoes/bertimbau-base-cased-FOS-TKA",
-        "url": "https://huggingface.co/ivosimoes/bertimbau-base-cased-FOS-TKA"
+        "title": "DevOB/modelo-robertuito-nivelDeRiesgo5",
+        "url": "https://huggingface.co/DevOB/modelo-robertuito-nivelDeRiesgo5"
       }
     ],
     "vision_systems": [
@@ -941,6 +929,10 @@
         "url": "https://arxiv.org/abs/2604.14069v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "ZoomSpec: A Physics-Guided Coarse-to-Fine Framework for Wideband Spectrum Sensing",
         "url": "https://arxiv.org/abs/2604.13568v1"
       },
@@ -959,10 +951,6 @@
       {
         "title": "Granularity-Aware Transfer for Tree Instance Segmentation in Synthetic and Real Forests",
         "url": "https://arxiv.org/abs/2604.13722v1"
-      },
-      {
-        "title": "Alelcv27/Qwen2.5-3B-INST-Math",
-        "url": "https://huggingface.co/Alelcv27/Qwen2.5-3B-INST-Math"
       }
     ],
     "reasoning": [
@@ -1681,7 +1669,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "58 independent papers",
+      "observation": "55 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1752,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 410
   }
 }
