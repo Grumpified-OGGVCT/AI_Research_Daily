@@ -240,8 +240,8 @@
   },
   {
     "arxiv_id": "2604.14054v1",
-    "title": "$\u03c0$-Play: Multi-Agent Self-Play via Privileged Self-Distillation without External Data",
-    "summary": "Deep search agents have emerged as a promising paradigm for addressing complex information-seeking tasks, but their training remains challenging due to sparse rewards, weak credit assignment, and limited labeled data. Self-play offers a scalable route to reduce data dependence, but conventional self-play optimizes students only through sparse outcome rewards, leading to low learning efficiency. In this work, we observe that self-play naturally produces a question construction path (QCP) during task generation, an intermediate artifact that captures the reverse solution process. This reveals a new source of privileged information for self-distillation: self-play can itself provide high-quality privileged context for the teacher model in a low-cost and scalable manner, without relying on human feedback or curated privileged information. Leveraging this insight, we propose Privileged Information Self-Play ($\u03c0$-Play), a multi-agent self-evolution framework. In $\u03c0$-Play, an examiner generates tasks together with their QCPs, and a teacher model leverages QCP as privileged context to densely supervise a student via self-distillation. This design transforms conventional sparse-reward self-play into a dense-feedback self-evolution loop. Extensive experiments show that data-free $\u03c0$-Play surpasses fully supervised search agents and improves evolutionary efficiency by 2-3$\\times$ over conventional self-play.",
+    "title": "$π$-Play: Multi-Agent Self-Play via Privileged Self-Distillation without External Data",
+    "summary": "Deep search agents have emerged as a promising paradigm for addressing complex information-seeking tasks, but their training remains challenging due to sparse rewards, weak credit assignment, and limited labeled data. Self-play offers a scalable route to reduce data dependence, but conventional self-play optimizes students only through sparse outcome rewards, leading to low learning efficiency. In this work, we observe that self-play naturally produces a question construction path (QCP) during task generation, an intermediate artifact that captures the reverse solution process. This reveals a new source of privileged information for self-distillation: self-play can itself provide high-quality privileged context for the teacher model in a low-cost and scalable manner, without relying on human feedback or curated privileged information. Leveraging this insight, we propose Privileged Information Self-Play ($π$-Play), a multi-agent self-evolution framework. In $π$-Play, an examiner generates tasks together with their QCPs, and a teacher model leverages QCP as privileged context to densely supervise a student via self-distillation. This design transforms conventional sparse-reward self-play into a dense-feedback self-evolution loop. Extensive experiments show that data-free $π$-Play surpasses fully supervised search agents and improves evolutionary efficiency by 2-3$\\times$ over conventional self-play.",
     "authors": [
       "Yaocheng Zhang",
       "Yuanheng Zhu",
@@ -668,8 +668,8 @@
   },
   {
     "arxiv_id": "2604.13780v1",
-    "title": "Soft $Q(\u03bb)$: A multi-step off-policy method for entropy regularised reinforcement learning using eligibility traces",
-    "summary": "Soft Q-learning has emerged as a versatile model-free method for entropy-regularised reinforcement learning, optimising for returns augmented with a penalty on the divergence from a reference policy. Despite its success, the multi-step extensions of soft Q-learning remain relatively unexplored and limited to on-policy action sampling under the Boltzmann policy. In this brief research note, we first present a formal $n$-step formulation for soft Q-learning and then extend this framework to the fully off-policy case by introducing a novel Soft Tree Backup operator. Finally, we unify these developments into Soft $Q(\u03bb)$, an elegant online, off-policy, eligibility trace framework that allows for efficient credit assignment under arbitrary behaviour policies. Our derivations propose a model-free method for learning entropy-regularised value functions that can be utilised in future empirical experiments.",
+    "title": "Soft $Q(λ)$: A multi-step off-policy method for entropy regularised reinforcement learning using eligibility traces",
+    "summary": "Soft Q-learning has emerged as a versatile model-free method for entropy-regularised reinforcement learning, optimising for returns augmented with a penalty on the divergence from a reference policy. Despite its success, the multi-step extensions of soft Q-learning remain relatively unexplored and limited to on-policy action sampling under the Boltzmann policy. In this brief research note, we first present a formal $n$-step formulation for soft Q-learning and then extend this framework to the fully off-policy case by introducing a novel Soft Tree Backup operator. Finally, we unify these developments into Soft $Q(λ)$, an elegant online, off-policy, eligibility trace framework that allows for efficient credit assignment under arbitrary behaviour policies. Our derivations propose a model-free method for learning entropy-regularised value functions that can be utilised in future empirical experiments.",
     "authors": [
       "Pranav Mahajan",
       "Ben Seymour"
@@ -809,9 +809,9 @@
   {
     "arxiv_id": "2604.13740v1",
     "title": "Online learning with noisy side observations",
-    "summary": "We propose a new partial-observability model for online learning problems where the learner, besides its own loss, also observes some noisy feedback about the other actions, depending on the underlying structure of the problem. We represent this structure by a weighted directed graph, where the edge weights are related to the quality of the feedback shared by the connected nodes. Our main contribution is an efficient algorithm that guarantees a regret of $\\widetilde{O}(\\sqrt{\u03b1^* T})$ after $T$ rounds, where $\u03b1^*$ is a novel graph property that we call the effective independence number. Our algorithm is completely parameter-free and does not require knowledge (or even estimation) of $\u03b1^*$. For the special case of binary edge weights, our setting reduces to the partial-observability models of Mannor and Shamir (2011) and Alon et al. (2013) and our algorithm recovers the near-optimal regret bounds.",
+    "summary": "We propose a new partial-observability model for online learning problems where the learner, besides its own loss, also observes some noisy feedback about the other actions, depending on the underlying structure of the problem. We represent this structure by a weighted directed graph, where the edge weights are related to the quality of the feedback shared by the connected nodes. Our main contribution is an efficient algorithm that guarantees a regret of $\\widetilde{O}(\\sqrt{α^* T})$ after $T$ rounds, where $α^*$ is a novel graph property that we call the effective independence number. Our algorithm is completely parameter-free and does not require knowledge (or even estimation) of $α^*$. For the special case of binary edge weights, our setting reduces to the partial-observability models of Mannor and Shamir (2011) and Alon et al. (2013) and our algorithm recovers the near-optimal regret bounds.",
     "authors": [
-      "Tom\u00e1\u0161 Koc\u00e1k",
+      "Tomáš Kocák",
       "Gergely Neu",
       "Michal Valko"
     ],
@@ -1137,7 +1137,7 @@
   {
     "arxiv_id": "2604.14017v1",
     "title": "Stochastic Trust-Region Methods for Over-parameterized Models",
-    "summary": "Under interpolation-type assumptions such as the strong growth condition, stochastic optimization methods can attain convergence rates comparable to full-batch methods, but their performance, particularly for SGD, remains highly sensitive to step-size selection. To address this issue, we propose a unified stochastic trust-region framework that eliminates manual step-size tuning and extends naturally to equality-constrained problems. For unconstrained optimization, we develop a first-order stochastic trust-region algorithm and show that, under the strong growth condition, it achieves an iteration and stochastic first-order oracle complexity of $O(\\varepsilon^{-2} \\log(1/\\varepsilon))$ for finding an $\\varepsilon$-stationary point. For equality-constrained problems, we introduce a quadratic-penalty-based stochastic trust-region method with penalty parameter $\u03bc$, and establish an iteration and oracle complexity of $O(\\varepsilon^{-4} \\log(1/\\varepsilon))$ to reach an $\\varepsilon$-stationary point of the penalized problem, corresponding to an $O(\\varepsilon)$-approximate KKT point of the original constrained problem. Numerical experiments on deep neural network training and orthogonally constrained subspace fitting demonstrate that the proposed methods achieve performance comparable to well-tuned stochastic baselines, while exhibiting stable optimization behavior and effectively handling hard constraints without manual learning-rate scheduling.",
+    "summary": "Under interpolation-type assumptions such as the strong growth condition, stochastic optimization methods can attain convergence rates comparable to full-batch methods, but their performance, particularly for SGD, remains highly sensitive to step-size selection. To address this issue, we propose a unified stochastic trust-region framework that eliminates manual step-size tuning and extends naturally to equality-constrained problems. For unconstrained optimization, we develop a first-order stochastic trust-region algorithm and show that, under the strong growth condition, it achieves an iteration and stochastic first-order oracle complexity of $O(\\varepsilon^{-2} \\log(1/\\varepsilon))$ for finding an $\\varepsilon$-stationary point. For equality-constrained problems, we introduce a quadratic-penalty-based stochastic trust-region method with penalty parameter $μ$, and establish an iteration and oracle complexity of $O(\\varepsilon^{-4} \\log(1/\\varepsilon))$ to reach an $\\varepsilon$-stationary point of the penalized problem, corresponding to an $O(\\varepsilon)$-approximate KKT point of the original constrained problem. Numerical experiments on deep neural network training and orthogonally constrained subspace fitting demonstrate that the proposed methods achieve performance comparable to well-tuned stochastic baselines, while exhibiting stable optimization behavior and effectively handling hard constraints without manual learning-rate scheduling.",
     "authors": [
       "Aike Yang",
       "Hao Wang"
@@ -1159,7 +1159,7 @@
     "summary": "Automated driving at unsignalized intersections is challenging due to complex multi-vehicle interactions and the need to balance safety and efficiency. Model Predictive Control (MPC) offers structured constraint handling through optimization but relies on hand-crafted rules that often produce overly conservative behavior. Deep Reinforcement Learning (RL) learns adaptive behaviors from experience but often struggles with safety assurance and generalization to unseen environments. In this study, we present an integrated MPC-RL framework to improve navigation performance in multi-agent scenarios. Experiments show that MPC-RL outperforms standalone MPC and end-to-end RL across three traffic-density levels. Collectively, MPC-RL reduces the collision rate by 21% and improves the success rate by 6.5% compared to pure MPC. We further evaluate zero-shot transfer to a highway merging scenario without retraining. Both MPC-based methods transfer substantially better than end-to-end PPO, which highlights the role of the MPC backbone in cross-scenario robustness. The framework also shows faster loss stabilization than end-to-end RL during training, which indicates a reduced learning burden. These results suggest that the integrated approach can improve the balance between safety performance and efficiency in multi-agent intersection scenarios, while the MPC component provides a strong foundation for generalization across driving environments. The implementation code is available open-source.",
     "authors": [
       "Saeed Rahmani",
-      "G\u00f6zde K\u00f6rpe",
+      "Gözde Körpe",
       " Zhenlin",
       " Xu",
       "Bruno Brito",
@@ -1440,8 +1440,8 @@
     "title": "Large Language Models to Enhance Business Process Modeling: Past, Present, and Future Trends",
     "summary": "Recent advances in Generative Artificial Intelligence, particularly Large Language Models (LLMs), have stimulated growing interest in automating or assisting Business Process Modeling tasks using natural language. Several approaches have been proposed to transform textual process descriptions into BPMN and related workflow models. However, the extent to which these approaches effectively support complex process modeling in organizational settings remains unclear. This article presents a literature review of AI-driven methods for transforming natural language into BPMN process models, with a particular focus on the role of LLMs. Following a structured review strategy, relevant studies were identified and analyzed to classify existing approaches, examine how LLMs are integrated into text-to-model pipelines, and investigate the evaluation practices used to assess generated models. The analysis reveals a clear shift from rule-based and traditional NLP pipelines toward LLM-based architectures that rely on prompt engineering, intermediate representations, and iterative refinement mechanisms. While these approaches significantly expand the capabilities of automated process model generation, the literature also exposes persistent challenges related to semantic correctness, evaluation fragmentation, reproducibility, and limited validation in real-world organizational contexts. Based on these findings, this review identifies key research gaps and discusses promising directions for future research, including the integration of contextual knowledge through Retrieval-Augmented Generation (RAG), its integration with LLMs, the development of interactive modeling architectures, and the need for more comprehensive and standardized evaluation frameworks.",
     "authors": [
-      "Jo\u00e3o Bettencourt",
-      "S\u00e9rgio Guerreiro"
+      "João Bettencourt",
+      "Sérgio Guerreiro"
     ],
     "categories": [
       "cs.SE",
@@ -1505,9 +1505,9 @@
     "authors": [
       "Joel Niklaus",
       "Atsuki Yamaguchi",
-      "Michal \u0160tef\u00e1nik",
+      "Michal Štefánik",
       "Guilherme Penedo",
-      "Hynek Kydl\u00ed\u010dek",
+      "Hynek Kydlíček",
       "Elie Bakouch",
       "Lewis Tunstall",
       "Edward Emanuel Beeching",
@@ -1659,7 +1659,7 @@
       "Ahmad Dawar Hakimi",
       "Lea Hirlimann",
       "Isabelle Augenstein",
-      "Hinrich Sch\u00fctze"
+      "Hinrich Schütze"
     ],
     "categories": [
       "cs.CL",
@@ -1822,7 +1822,7 @@
     "authors": [
       "Danish Nazir",
       "Antoine Hanna-Asaad",
-      "Lucas G\u00f6rnhardt",
+      "Lucas Görnhardt",
       "Jan Piewek",
       "Thorsten Bagdonat",
       "Tim Fingscheidt"
@@ -1913,13 +1913,13 @@
     "summary": "Modern machine learning models typically represent inputs as fixed points in a high-dimensional embedding space. While this approach has been proven powerful for a wide range of downstream tasks, it fundamentally differs from the way humans process information. Because humans are constantly adapting to their environment, they represent objects and their relationships in a highly context-sensitive manner. To address this gap, we propose a method for context-sensitive similarity computation from neural network embeddings, applied to modeling a triplet odd-one-out task with an anchor image serving as simultaneous context. Modeling context enables us to achieve up to a 15% improvement in odd-one-out accuracy over a context-insensitive model. We find that this improvement is consistent across both original and \"human-aligned\" vision foundation models.",
     "authors": [
       "Frieda Born",
-      "Tom Neuh\u00e4user",
+      "Tom Neuhäuser",
       "Lukas Muttenthaler",
       "Brett D. Roads",
       "Bernhard Spitzer",
       "Andrew K. Lampinen",
       "Matt Jones",
-      "Klaus-Robert M\u00fcller",
+      "Klaus-Robert Müller",
       "Michael C. Mozer"
     ],
     "categories": [
@@ -2204,7 +2204,7 @@
     "authors": [
       "Davyd Naveriani",
       "Albert Zeyer",
-      "Ralf Schl\u00fcter",
+      "Ralf Schlüter",
       "Hermann Ney"
     ],
     "categories": [
@@ -2257,7 +2257,7 @@
       "Vladimir Trifonov",
       "Ignacio Ibarra",
       "Telmo Felgueira",
-      "B\u0142a\u017cej Osi\u0144ski",
+      "Błażej Osiński",
       "Rory Stark"
     ],
     "categories": [
@@ -2432,10 +2432,10 @@
     "title": "Neural architectures for resolving references in program code",
     "summary": "Resolving and rewriting references is fundamental in programming languages. Motivated by a real-world decompilation task, we abstract reference rewriting into the problems of direct and indirect indexing by permutation. We create synthetic benchmarks for these tasks and show that well-known sequence-to-sequence machine learning architectures are struggling on these benchmarks. We introduce new sequence-to-sequence architectures for both problems. Our measurements show that our architectures outperform the baselines in both robustness and scalability: our models can handle examples that are ten times longer compared to the best baseline. We measure the impact of our architecture in the real-world task of decompiling switch statements, which has an indexing subtask. According to our measurements, the extended model decreases the error rate by 42%. Multiple ablation studies show that all components of our architectures are essential.",
     "authors": [
-      "Gerg\u0151 Szalay",
-      "Gergely Zsolt Kov\u00e1cs",
-      "S\u00e1ndor Teleki",
-      "Bal\u00e1zs Pint\u00e9r",
+      "Gergő Szalay",
+      "Gergely Zsolt Kovács",
+      "Sándor Teleki",
+      "Balázs Pintér",
       "Tibor Gregorics"
     ],
     "categories": [
@@ -2525,7 +2525,7 @@
   {
     "arxiv_id": "2604.13856v1",
     "title": "Any3DAvatar: Fast and High-Quality Full-Head 3D Avatar Reconstruction from Single Portrait Image",
-    "summary": "Reconstructing a complete 3D head from a single portrait remains challenging because existing methods still face a sharp quality-speed trade-off: high-fidelity pipelines often rely on multi-stage processing and per-subject optimization, while fast feed-forward models struggle with complete geometry and fine appearance details. To bridge this gap, we propose Any3DAvatar, a fast and high-quality method for single-image 3D Gaussian head avatar generation, whose fastest setting reconstructs a full head in under one second while preserving high-fidelity geometry and texture. First, we build AnyHead, a unified data suite that combines identity diversity, dense multi-view supervision, and realistic accessories, filling the main gaps of existing head data in coverage, full-head geometry, and complex appearance. Second, rather than sampling unstructured noise, we initialize from a Pl\u00fccker-aware structured 3D Gaussian scaffold and perform one-step conditional denoising, formulating full-head reconstruction into a single forward pass while retaining high fidelity. Third, we introduce auxiliary view-conditioned appearance supervision on the same latent tokens alongside 3D Gaussian reconstruction, improving novel-view texture details at zero extra inference cost. Experiments show that Any3DAvatar outperforms prior single-image full-head reconstruction methods in rendering fidelity while remaining substantially faster.",
+    "summary": "Reconstructing a complete 3D head from a single portrait remains challenging because existing methods still face a sharp quality-speed trade-off: high-fidelity pipelines often rely on multi-stage processing and per-subject optimization, while fast feed-forward models struggle with complete geometry and fine appearance details. To bridge this gap, we propose Any3DAvatar, a fast and high-quality method for single-image 3D Gaussian head avatar generation, whose fastest setting reconstructs a full head in under one second while preserving high-fidelity geometry and texture. First, we build AnyHead, a unified data suite that combines identity diversity, dense multi-view supervision, and realistic accessories, filling the main gaps of existing head data in coverage, full-head geometry, and complex appearance. Second, rather than sampling unstructured noise, we initialize from a Plücker-aware structured 3D Gaussian scaffold and perform one-step conditional denoising, formulating full-head reconstruction into a single forward pass while retaining high fidelity. Third, we introduce auxiliary view-conditioned appearance supervision on the same latent tokens alongside 3D Gaussian reconstruction, improving novel-view texture details at zero extra inference cost. Experiments show that Any3DAvatar outperforms prior single-image full-head reconstruction methods in rendering fidelity while remaining substantially faster.",
     "authors": [
       "Yujie Gao",
       "Yao Xiao",
@@ -2701,9 +2701,9 @@
   {
     "arxiv_id": "2604.14075v1",
     "title": "Multistage Conditional Compositional Optimization",
-    "summary": "We introduce Multistage Conditional Compositional Optimization (MCCO) as a new paradigm for decision-making under uncertainty that combines aspects of multistage stochastic programming and conditional stochastic optimization. MCCO minimizes a nest of conditional expectations and nonlinear cost functions. It has numerous applications and arises, for example, in optimal stopping, linear-quadratic regulator problems, distributionally robust contextual bandits, as well as in problems involving dynamic risk measures. The na\u00efve nested sampling approach for MCCO suffers from the curse of dimensionality familiar from scenario tree-based multistage stochastic programming, that is, its scenario complexity grows exponentially with the number of nests. We develop new multilevel Monte Carlo techniques for MCCO whose scenario complexity grows only polynomially with the desired accuracy.",
+    "summary": "We introduce Multistage Conditional Compositional Optimization (MCCO) as a new paradigm for decision-making under uncertainty that combines aspects of multistage stochastic programming and conditional stochastic optimization. MCCO minimizes a nest of conditional expectations and nonlinear cost functions. It has numerous applications and arises, for example, in optimal stopping, linear-quadratic regulator problems, distributionally robust contextual bandits, as well as in problems involving dynamic risk measures. The naïve nested sampling approach for MCCO suffers from the curse of dimensionality familiar from scenario tree-based multistage stochastic programming, that is, its scenario complexity grows exponentially with the number of nests. We develop new multilevel Monte Carlo techniques for MCCO whose scenario complexity grows only polynomially with the desired accuracy.",
     "authors": [
-      "Buse \u015een",
+      "Buse Şen",
       "Yifan Hu",
       "Daniel Kuhn"
     ],
@@ -2722,13 +2722,13 @@
   {
     "arxiv_id": "2604.13951v1",
     "title": "Quantum Machine Learning for Colorectal Cancer Data: Anastomotic Leak Classification and Risk Factors",
-    "summary": "This study evaluates colorectal risk factors and compares classical models against Quantum Neural Networks (QNNs) for anastomotic leak prediction. Analyzing clinical data with 14\\% leak prevalence, we tested ZZFeatureMap encodings with RealAmplitudes and EfficientSU2 ansatze under simulated noise. $F_\u03b2$-optimized quantum configurations yielded significantly higher sensitivity (83.3\\%) than classical baselines (66.7\\%). This demonstrates that quantum feature spaces better prioritize minority class identification, which is critical for low-prevalence clinical risk prediction. Our work explores various optimizers under noisy conditions, highlighting key trade-offs and future directions for hardware deployment.",
+    "summary": "This study evaluates colorectal risk factors and compares classical models against Quantum Neural Networks (QNNs) for anastomotic leak prediction. Analyzing clinical data with 14\\% leak prevalence, we tested ZZFeatureMap encodings with RealAmplitudes and EfficientSU2 ansatze under simulated noise. $F_β$-optimized quantum configurations yielded significantly higher sensitivity (83.3\\%) than classical baselines (66.7\\%). This demonstrates that quantum feature spaces better prioritize minority class identification, which is critical for low-prevalence clinical risk prediction. Our work explores various optimizers under noisy conditions, highlighting key trade-offs and future directions for hardware deployment.",
     "authors": [
-      "Vojt\u011bch Nov\u00e1k",
+      "Vojtěch Novák",
       "Ivan Zelinka",
-      "Lenka P\u0159ibylov\u00e1",
-      "Lubom\u00edr Mart\u00ednek",
-      "Vladim\u00edr Ben\u010dur\u00edk",
+      "Lenka Přibylová",
+      "Lubomír Martínek",
+      "Vladimír Benčurík",
       "Martin Beseda"
     ],
     "categories": [
@@ -2781,7 +2781,7 @@
   {
     "arxiv_id": "2604.13890v1",
     "title": "Sandpile Economics: Theory, Identification, and Evidence",
-    "summary": "Why do capitalist economies recurrently generate crises whose severity is disproportionate to the size of the triggering shock? This paper proposes a structural answer grounded in the evolutionary geometry of production networks. As economies evolve through specialization, integration, and competitive selection, their inter-sectoral linkages drift toward configurations of increasing geometric fragility, eventually crossing a threshold beyond which small disturbances generate disproportionately large cascades.   We introduce Sandpile Economics, a formal framework that interprets macroeconomic instability as an emergent property of disequilibrium production networks. The key state variable is the Forman--Ricci curvature of the input--output graph, capturing local substitution possibilities when supply chains are disrupted. We show that when curvature falls below an endogenous threshold, the distribution of cascade sizes follows a power law with tail index $\u03b1\\in (1,2)$, implying a regime of unbounded amplification.   The underlying mechanism is evolutionary: specialization reduces input substitutability, pushing the economy toward criticality, while crisis episodes induce endogenous network reconfiguration and path dependence. These dynamics are inherently non-ergodic and cannot be captured by representative-agent frameworks.   Empirically, using global input--output data, we document that production networks operate in persistently negative curvature regimes and that curvature robustly predicts medium-run output dynamics. A one-standard-deviation increase in curvature is associated with higher cumulative growth over three-year horizons, and curvature systematically outperforms standard network metrics in explaining cross-country differences in resilience.",
+    "summary": "Why do capitalist economies recurrently generate crises whose severity is disproportionate to the size of the triggering shock? This paper proposes a structural answer grounded in the evolutionary geometry of production networks. As economies evolve through specialization, integration, and competitive selection, their inter-sectoral linkages drift toward configurations of increasing geometric fragility, eventually crossing a threshold beyond which small disturbances generate disproportionately large cascades.   We introduce Sandpile Economics, a formal framework that interprets macroeconomic instability as an emergent property of disequilibrium production networks. The key state variable is the Forman--Ricci curvature of the input--output graph, capturing local substitution possibilities when supply chains are disrupted. We show that when curvature falls below an endogenous threshold, the distribution of cascade sizes follows a power law with tail index $α\\in (1,2)$, implying a regime of unbounded amplification.   The underlying mechanism is evolutionary: specialization reduces input substitutability, pushing the economy toward criticality, while crisis episodes induce endogenous network reconfiguration and path dependence. These dynamics are inherently non-ergodic and cannot be captured by representative-agent frameworks.   Empirically, using global input--output data, we document that production networks operate in persistently negative curvature regimes and that curvature robustly predicts medium-run output dynamics. A one-standard-deviation increase in curvature is associated with higher cumulative growth over three-year horizons, and curvature systematically outperforms standard network metrics in explaining cross-country differences in resilience.",
     "authors": [
       "Diego Vallarino"
     ],
@@ -3163,8 +3163,8 @@
     "title": "Syn-TurnTurk: A Synthetic Dataset for Turn-Taking Prediction in Turkish Dialogues",
     "summary": "Managing natural dialogue timing is a significant challenge for voice-based chatbots. Most current systems usually rely on simple silence detection, which often fails because human speech patterns involve irregular pauses. This causes bots to interrupt users, breaking the conversational flow. This problem is even more severe for languages like Turkish, which lack high-quality datasets for turn-taking prediction. This paper introduces Syn-TurnTurk, a synthetic Turkish dialogue dataset generated using various Qwen Large Language Models (LLMs) to mirror real-life verbal exchanges, including overlaps and strategic silences. We evaluated the dataset using several traditional and deep learning architectures. The results show that advanced models, particularly BI-LSTM and Ensemble (LR+RF) methods, achieve high accuracy (0.839) and AUC scores (0.910). These findings demonstrate that our synthetic dataset can have a positive affect for models understand linguistic cues, allowing for more natural human-machine interaction in Turkish.",
     "authors": [
-      "Ahmet Tu\u011frul Bayrak",
-      "Mustafa Serta\u00e7 T\u00fcrkel",
+      "Ahmet Tuğrul Bayrak",
+      "Mustafa Sertaç Türkel",
       "Fatma Nur Korkmaz"
     ],
     "categories": [
@@ -3273,7 +3273,7 @@
     "summary": "In diagnostic reports, experts encode complex imaging data into clinically actionable information. They describe subtle pathological findings that are meaningful in their anatomical context. Reports follow relatively consistent structures, expressing diagnostic information with few words that are often associated with tiny but consequential image observations. Standard vision language models struggle to identify the associations between these informative text components and small locations in the images. Here, we propose \"MApLe\", a multi-task, multi-instance vision language alignment approach that overcomes these limitations. It disentangles the concepts of anatomical region and diagnostic finding, and links local image information to sentences in a patch-wise approach. Our method consists of a text embedding trained to capture anatomical and diagnostic concepts in sentences, a patch-wise image encoder conditioned on anatomical structures, and a multi-instance alignment of these representations. We demonstrate that MApLe can successfully align different image regions and multiple diagnostic findings in free-text reports. We show that our model improves the alignment performance compared to state-of-the-art baseline models when evaluated on several downstream tasks. The code is available at https://github.com/cirmuw/MApLe.",
     "authors": [
       "Felicia Bader",
-      "Philipp Seeb\u00f6ck",
+      "Philipp Seeböck",
       "Anastasia Bartashova",
       "Ulrike Attenberger",
       "Georg Langs"
@@ -3297,8 +3297,8 @@
       "Lukas Meitz",
       "Samineh Bagheri",
       "Michael Heider",
-      "Thorsten Sch\u00f6ler",
-      "J\u00f6rg H\u00e4hner"
+      "Thorsten Schöler",
+      "Jörg Hähner"
     ],
     "categories": [
       "cs.LG"
@@ -3547,10 +3547,10 @@
     "title": "FRAGATA: Semantic Retrieval of HPC Support Tickets via Hybrid RAG over 20 Years of Request Tracker History",
     "summary": "The technical support team of a supercomputing centre accumulates, over the course of decades, a large volume of resolved incidents that constitute critical operational knowledge. At the Galician Supercomputing Center (CESGA) this history has been managed for over twenty years with Request Tracker (RT), whose built-in search engine has significant limitations that hinder knowledge reuse by the support staff. This paper presents Fragata, a semantic ticket search system that combines modern information retrieval techniques with the full RT history. The system can find relevant past incidents regardless of language, the presence of typos, or the specific wording of the query. The architecture is deployed on CESGA's infrastructure, supports incremental updates without service interruption, and offloads the most expensive stages to the FinisTerrae III supercomputer. Preliminary results show a substantial qualitative improvement over RT's native search.",
     "authors": [
-      "Santiago Param\u00e9s-Est\u00e9vez",
-      "Nicol\u00e1s Filloy-Montesino",
-      "Jorge Fern\u00e1ndez-Fabeiro",
-      "Jos\u00e9 Carlos Mouri\u00f1o-Gallego"
+      "Santiago Paramés-Estévez",
+      "Nicolás Filloy-Montesino",
+      "Jorge Fernández-Fabeiro",
+      "José Carlos Mouriño-Gallego"
     ],
     "categories": [
       "cs.IR",
@@ -3571,8 +3571,8 @@
       "Tiago Fernandes",
       "Francesco Di Renzo",
       "Antonio Onofre",
-      "Alejandro Torres-Forn\u00e9",
-      "Jos\u00e9 A. Font"
+      "Alejandro Torres-Forné",
+      "José A. Font"
     ],
     "categories": [
       "gr-qc",
@@ -3865,7 +3865,7 @@
       "Hamed Ouattara",
       "Pierre Duthon",
       "Pascal Houssam Salmane",
-      "Fr\u00e9d\u00e9ric Bernardin",
+      "Frédéric Bernardin",
       "Omar Ait Aider"
     ],
     "categories": [
@@ -3907,7 +3907,7 @@
       "Svetlana Pavlitska",
       "Haixi Fan",
       "Konstantin Ditschuneit",
-      "J. Marius Z\u00f6llner"
+      "J. Marius Zöllner"
     ],
     "categories": [
       "cs.CV",
@@ -4098,7 +4098,7 @@
     "summary": "Computer vision techniques have advanced significantly in recent years, finding diverse and impactful applications within the medical field. In this paper, we introduce a new framework for the detection of Bethesda cells in Pap smear images, developed for Track B of the Riva Cytology Challenge held in association with the International Symposium on Biomedical Imaging (ISBI). This work focuses on enhancing computer vision models for cell detection, with performance evaluated using the mAP50-95 metric. We propose a solution based on an ensemble of YOLO and U-Net architectures, followed by a refinement stage utilizing overlap removal techniques and a binary classifier. Our framework achieved second place with a mAP50-95 score of 0.5909 in the competition. The implementation and source code are available at the following repository: github.com/martinamster/riva-trackb",
     "authors": [
       "Martin Amster",
-      "Camila Mar\u00eda Polotto"
+      "Camila María Polotto"
     ],
     "categories": [
       "cs.CV"
@@ -4339,7 +4339,7 @@
   {
     "arxiv_id": "2604.14108v1",
     "title": "Momentum Further Constrains Sharpness at the Edge of Stochastic Stability",
-    "summary": "Recent work suggests that (stochastic) gradient descent self-organizes near an instability boundary, shaping both optimization and the solutions found. Momentum and mini-batch gradients are widely used in practical deep learning optimization, but it remains unclear whether they operate in a comparable regime of instability. We demonstrate that SGD with momentum exhibits an Edge of Stochastic Stability (EoSS)-like regime with batch-size-dependent behavior that cannot be explained by a single momentum-adjusted stability threshold. Batch Sharpness (the expected directional mini-batch curvature) stabilizes in two distinct regimes: at small batch sizes it converges to a lower plateau $2(1-\u03b2)/\u03b7$, reflecting amplification of stochastic fluctuations by momentum and favoring flatter regions than vanilla SGD; at large batch sizes it converges to a higher plateau $2(1+\u03b2)/\u03b7$, where momentum recovers its classical stabilizing effect and favors sharper regions consistent with full-batch dynamics. We further show that this aligns with linear stability thresholds and discuss the implications for hyperparameter tuning and coupling.",
+    "summary": "Recent work suggests that (stochastic) gradient descent self-organizes near an instability boundary, shaping both optimization and the solutions found. Momentum and mini-batch gradients are widely used in practical deep learning optimization, but it remains unclear whether they operate in a comparable regime of instability. We demonstrate that SGD with momentum exhibits an Edge of Stochastic Stability (EoSS)-like regime with batch-size-dependent behavior that cannot be explained by a single momentum-adjusted stability threshold. Batch Sharpness (the expected directional mini-batch curvature) stabilizes in two distinct regimes: at small batch sizes it converges to a lower plateau $2(1-β)/η$, reflecting amplification of stochastic fluctuations by momentum and favoring flatter regions than vanilla SGD; at large batch sizes it converges to a higher plateau $2(1+β)/η$, where momentum recovers its classical stabilizing effect and favors sharper regions consistent with full-batch dynamics. We further show that this aligns with linear stability thresholds and discuss the implications for hyperparameter tuning and coupling.",
     "authors": [
       "Arseniy Andreyev",
       "Advikar Ananthkumar",
@@ -4401,39 +4401,6 @@
     "pdf_url": "https://arxiv.org/pdf/2604.14062v1.pdf",
     "date": "2026-04-16",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 27499,
-    "likes": 300,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-04-16T05:25:35.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-04-16",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4541,7 +4508,7 @@
     "summary": "We study adaptive pooling under predictive heterogeneity in high-dimensional multivariate time series forecasting, where global models improve statistical efficiency but may fail to capture heterogeneous predictive structure, while naive specialization can induce negative transfer. We formulate adaptive pooling as a statistical decision problem and propose a validation-driven framework that determines when and how specialization should be applied. Rather than grouping series based on representation similarity, we define partitions through out-of-sample predictive performance, thereby aligning data organization with predictive risk, defined as expected out-of-sample loss and approximated via validation error. Cluster assignments are iteratively updated using validation losses for both point (Huber) and probabilistic (pinball) forecasting, improving robustness to heavy-tailed errors and local anomalies. To ensure reliability, we introduce a leakage-free fallback mechanism that reverts to a global model whenever specialization fails to improve validation performance, providing a safeguard against performance degradation under a strict training-validation-test protocol. Experiments on large-scale traffic datasets demonstrate consistent improvements over strong baselines while avoiding degradation when heterogeneity is weak. Overall, the proposed framework provides a principled and practically reliable approach to adaptive pooling in high-dimensional forecasting problems.",
     "authors": [
       "Ziling Ma",
-      "\u00c1ngel L\u00f3pez Oriona",
+      "Ángel López Oriona",
       "Hernando Ombao",
       "Ying Sun"
     ],
@@ -4628,10 +4595,10 @@
     "title": "Modeling of Self-sustained Neuron Population without External Stimulus",
     "summary": "Self-sustained neural activity in the absence of ongoing external input is a fundamental feature of nervous system dynamics, yet the conditions under which it can emerge in biophysically grounded network models remain incompletely understood. We studied whether a recurrent network of Hodgkin-Huxley neurons with spike-timing-dependent plasticity and intrinsic stochasticity can maintain autonomous activity after brief transient stimulation. The simulated network comprised 200 neurons (160 excitatory, 40 inhibitory) with 80% connection probability, incorporating excitatory and inhibitory STDP, probabilistic vesicle release, probabilistic synapse formation, receptor variability, and voltage-dependent inhibition. After a brief 200 ms initialization stimulus to 30 excitatory neurons, the network received no further external input. In one 1800 s simulation and two additional 500 s simulations, the network maintained sparse, irregular activity without ongoing drive. In the 1800 s run, 67% of neurons exhibited mean firing rates below 1 Hz, the population mean firing rate was 1.13 +/- 1.34 Hz, participation increased across longer observation windows, and population-mean Fano factors remained near 1-2, consistent with irregular spike timing. Raster activity also showed spontaneous qualitative reorganizations in collective firing patterns over time. These findings suggest that recurrent Hodgkin-Huxley networks with plastic and stochastic synapses can sustain long-duration autonomous activity in a sparse firing regime after brief initialization.",
     "authors": [
-      "\u0130hsan Ertu\u011frul Karaka\u015f",
-      "\u00d6zden \u00d6zel",
-      "\u0130lkay Ulusoy",
-      "Orhan Murat Ko\u00e7ak"
+      "İhsan Ertuğrul Karakaş",
+      "Özden Özel",
+      "İlkay Ulusoy",
+      "Orhan Murat Koçak"
     ],
     "categories": [
       "cs.NE",
@@ -4663,397 +4630,6 @@
     "pdf_url": "https://arxiv.org/pdf/2604.13722v1.pdf",
     "date": "2026-04-16",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "zecanard/Gemopus-4-26B-A4B-it-MLX-8bit-affine",
-    "author": "unknown",
-    "title": "zecanard/Gemopus-4-26B-A4B-it-MLX-8bit-affine",
-    "downloads": 0,
-    "likes": 1,
-    "tags": [
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "gemma",
-      "instruction-tuned",
-      "reasoning",
-      "alignment",
-      "text-generation",
-      "conversational",
-      "en",
-      "zh",
-      "ko",
-      "ja",
-      "base_model:Jackrong/Gemopus-4-26B-A4B-it",
-      "base_model:quantized:Jackrong/Gemopus-4-26B-A4B-it",
-      "license:apache-2.0",
-      "8-bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-04-16T05:23:39.000Z",
-    "last_modified": "2026-04-16T05:24:39.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/zecanard/Gemopus-4-26B-A4B-it-MLX-8bit-affine",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "akaburia/policy-evaluations",
-    "author": "unknown",
-    "title": "akaburia/policy-evaluations",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "roberta",
-      "text-classification",
-      "policy",
-      "coherence",
-      "government",
-      "en",
-      "dataset:akaburia/policy-evaluations",
-      "base_model:FacebookAI/roberta-large",
-      "base_model:finetune:FacebookAI/roberta-large",
-      "license:mit",
-      "text-embeddings-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-04-16T05:17:17.000Z",
-    "last_modified": "2026-04-16T05:23:58.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/akaburia/policy-evaluations",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "anyu205/banking-intent-llama31-unsloth",
-    "author": "unknown",
-    "title": "anyu205/banking-intent-llama31-unsloth",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:unsloth/Llama-3.1-8B-bnb-4bit",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "unsloth",
-      "text-generation",
-      "arxiv:1910.09700",
-      "base_model:unsloth/Llama-3.1-8B-bnb-4bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-04-16T05:23:03.000Z",
-    "last_modified": "2026-04-16T05:23:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/anyu205/banking-intent-llama31-unsloth",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Beelzi/legal-flan-t5-large-lora-2",
-    "author": "unknown",
-    "title": "Beelzi/legal-flan-t5-large-lora-2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "tensorboard",
-      "safetensors",
-      "base_model:adapter:google/flan-t5-large",
-      "lora",
-      "transformers",
-      "legal",
-      "classification",
-      "summarization",
-      "dataset:L-NLProc/PredEx_Instruction-Tuning_Pred-Exp",
-      "base_model:google/flan-t5-large",
-      "region:us"
-    ],
-    "pipeline_tag": "summarization",
-    "library": "peft",
-    "created_at": "2026-04-16T05:16:34.000Z",
-    "last_modified": "2026-04-16T05:22:02.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Beelzi/legal-flan-t5-large-lora-2",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DBMe/Qwen3.5-4B-heretic-exl3",
-    "author": "unknown",
-    "title": "DBMe/Qwen3.5-4B-heretic-exl3",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "exllamav3",
-      "exl3",
-      "text-generation",
-      "base_model:coder3101/Qwen3.5-4B-heretic",
-      "base_model:quantized:coder3101/Qwen3.5-4B-heretic",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "exllamav3",
-    "created_at": "2026-04-16T04:40:27.000Z",
-    "last_modified": "2026-04-16T05:21:58.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DBMe/Qwen3.5-4B-heretic-exl3",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "xw1234gan/GRPO_KL_Qwen2.5-3B-Instruct_MMLU_beta0.01_lr1e-05_mb2_ga128_n2048_seed42_HF_GEN",
-    "author": "unknown",
-    "title": "xw1234gan/GRPO_KL_Qwen2.5-3B-Instruct_MMLU_beta0.01_lr1e-05_mb2_ga128_n2048_seed42_HF_GEN",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-16T03:33:43.000Z",
-    "last_modified": "2026-04-16T05:19:46.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/xw1234gan/GRPO_KL_Qwen2.5-3B-Instruct_MMLU_beta0.01_lr1e-05_mb2_ga128_n2048_seed42_HF_GEN",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "farhan98ahzan/jac-coder-7b-lora",
-    "author": "unknown",
-    "title": "farhan98ahzan/jac-coder-7b-lora",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen2.5-Coder-7B-Instruct",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "jac",
-      "jaclang",
-      "code-generation",
-      "data-spatial-programming",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-04-16T04:47:28.000Z",
-    "last_modified": "2026-04-16T05:18:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/farhan98ahzan/jac-coder-7b-lora",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "VladShash/mistral-7B-v0.3-lean-prover-dpo-olmo",
-    "author": "unknown",
-    "title": "VladShash/mistral-7B-v0.3-lean-prover-dpo-olmo",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "mistral",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "dpo",
-      "conversational",
-      "arxiv:2305.18290",
-      "base_model:formalmathatepfl/mistral-7B-v0.3-finetuned",
-      "base_model:finetune:formalmathatepfl/mistral-7B-v0.3-finetuned",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-15T13:02:16.000Z",
-    "last_modified": "2026-04-16T05:14:08.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/VladShash/mistral-7B-v0.3-lean-prover-dpo-olmo",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Auroraventures/cipher-sft25-merged",
-    "author": "unknown",
-    "title": "Auroraventures/cipher-sft25-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma4",
-      "image-text-to-text",
-      "cipher",
-      "kin",
-      "kraken",
-      "awwwards",
-      "threejs",
-      "gsap",
-      "lenis",
-      "creative-coding",
-      "website-generation",
-      "gemma-4",
-      "unsloth",
-      "sft",
-      "stage-2.5",
-      "awwwards-distilled",
-      "text-generation",
-      "conversational",
-      "base_model:Auroraventures/cipher-simpo-merged",
-      "base_model:finetune:Auroraventures/cipher-simpo-merged",
-      "license:gemma",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-15T23:17:32.000Z",
-    "last_modified": "2026-04-16T05:12:46.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Auroraventures/cipher-sft25-merged",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "PatricioMN/wav2vec2-crossdataset-fake-audio",
-    "author": "unknown",
-    "title": "PatricioMN/wav2vec2-crossdataset-fake-audio",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2",
-      "audio-classification",
-      "generated_from_trainer",
-      "base_model:facebook/wav2vec2-large-xlsr-53",
-      "base_model:finetune:facebook/wav2vec2-large-xlsr-53",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "audio-classification",
-    "library": "transformers",
-    "created_at": "2026-04-16T04:00:31.000Z",
-    "last_modified": "2026-04-16T05:11:36.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/PatricioMN/wav2vec2-crossdataset-fake-audio",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "inferencerlabs/GLM-5.1-MLX-4.8bit-INF",
-    "author": "unknown",
-    "title": "inferencerlabs/GLM-5.1-MLX-4.8bit-INF",
-    "downloads": 2037,
-    "likes": 3,
-    "tags": [
-      "mlx",
-      "safetensors",
-      "glm_moe_dsa",
-      "quantized",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:zai-org/GLM-5.1",
-      "base_model:quantized:zai-org/GLM-5.1",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-04-13T07:04:04.000Z",
-    "last_modified": "2026-04-16T05:09:49.000Z",
-    "days_since_creation": 2,
-    "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-4.8bit-INF",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "NhatCuong22/gemma-4-e4b-scientific-reviewer",
-    "author": "unknown",
-    "title": "NhatCuong22/gemma-4-e4b-scientific-reviewer",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "gemma",
-      "scientific-review",
-      "paper-review",
-      "fine-tuned",
-      "unsloth",
-      "lora",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:unsloth/gemma-4-E4B-it",
-      "base_model:adapter:unsloth/gemma-4-E4B-it",
-      "license:gemma",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-04-16T05:07:26.000Z",
-    "last_modified": "2026-04-16T05:07:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/NhatCuong22/gemma-4-e4b-scientific-reviewer",
-    "date": "2026-04-16",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
