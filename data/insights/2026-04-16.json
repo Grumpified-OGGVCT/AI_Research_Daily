@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-16T05:26:02.465007",
+  "date": "2026-04-16T07:24:13.387502",
   "patterns": {
     "multimodal_research": [
       {
@@ -1181,10 +1181,6 @@
       {
         "title": "Seek-and-Solve: Benchmarking MLLMs for Visual Clue-Driven Reasoning in Daily Scenarios",
         "url": "https://arxiv.org/abs/2604.14041v1"
-      },
-      {
-        "title": "inferencerlabs/GLM-5.1-MLX-4.8bit-INF",
-        "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-4.8bit-INF"
       }
     ],
     "benchmarks": [
@@ -1639,10 +1635,6 @@
       {
         "title": "Seek-and-Solve: Benchmarking MLLMs for Visual Clue-Driven Reasoning in Daily Scenarios",
         "url": "https://arxiv.org/abs/2604.14041v1"
-      },
-      {
-        "title": "akaburia/policy-evaluations",
-        "url": "https://huggingface.co/akaburia/policy-evaluations"
       }
     ]
   },
@@ -1685,7 +1677,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "62 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1689,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "114 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1732,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 406
   }
 }
