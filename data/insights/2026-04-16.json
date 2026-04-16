@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-16T09:13:42.383730",
+  "date": "2026-04-16T10:58:08.761263",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,6 +671,10 @@
         "url": "https://arxiv.org/abs/2604.14062v1"
       },
       {
+        "title": "Bharat2004/deberta-fakenews-detector",
+        "url": "https://huggingface.co/Bharat2004/deberta-fakenews-detector"
+      },
+      {
         "title": "Don't Let the Video Speak: Audio-Contrastive Preference Optimization for Audio-Visual Language Models",
         "url": "https://arxiv.org/abs/2604.14129v1"
       },
@@ -679,8 +683,8 @@
         "url": "https://arxiv.org/abs/2604.14041v1"
       },
       {
-        "title": "MMQuan/deberta-v3-ielts-node-classifier-v4",
-        "url": "https://huggingface.co/MMQuan/deberta-v3-ielts-node-classifier-v4"
+        "title": "LuckySexySuccubusQueen135Age/SexyGPT-v2-Thinking-Female-gguf",
+        "url": "https://huggingface.co/LuckySexySuccubusQueen135Age/SexyGPT-v2-Thinking-Female-gguf"
       }
     ],
     "vision_systems": [
@@ -939,6 +943,10 @@
       {
         "title": "Granularity-Aware Transfer for Tree Instance Segmentation in Synthetic and Real Forests",
         "url": "https://arxiv.org/abs/2604.13722v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1185,6 +1193,10 @@
       {
         "title": "Seek-and-Solve: Benchmarking MLLMs for Visual Clue-Driven Reasoning in Daily Scenarios",
         "url": "https://arxiv.org/abs/2604.14041v1"
+      },
+      {
+        "title": "harshavardhan88858/grpo-llama3-8b-reasoning-v1",
+        "url": "https://huggingface.co/harshavardhan88858/grpo-llama3-8b-reasoning-v1"
       }
     ],
     "benchmarks": [
@@ -1669,19 +1681,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "89 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 410
   }
 }
