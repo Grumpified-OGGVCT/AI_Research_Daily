@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-16T11:58:43.887310",
+  "date": "2026-04-16T13:27:38.471084",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,16 +679,24 @@
         "url": "https://arxiv.org/abs/2604.14041v1"
       },
       {
-        "title": "Akhil2170/my-first-llm",
-        "url": "https://huggingface.co/Akhil2170/my-first-llm"
+        "title": "LuckySexySuccubusQueen135Age/SexyGPT-v2-Thinking-Female-gguf",
+        "url": "https://huggingface.co/LuckySexySuccubusQueen135Age/SexyGPT-v2-Thinking-Female-gguf"
       },
       {
-        "title": "Raghav-Singhal/epe-1p-smollm-1p7b-100B-20n-2048sl-960gbsz",
-        "url": "https://huggingface.co/Raghav-Singhal/epe-1p-smollm-1p7b-100B-20n-2048sl-960gbsz"
+        "title": "jordanpainter/diallm-qwen-dpo-ind",
+        "url": "https://huggingface.co/jordanpainter/diallm-qwen-dpo-ind"
       },
       {
-        "title": "Raghav-Singhal/epe-3p-smollm-1p7b-100B-20n-2048sl-960gbsz",
-        "url": "https://huggingface.co/Raghav-Singhal/epe-3p-smollm-1p7b-100B-20n-2048sl-960gbsz"
+        "title": "jordanpainter/diallm-qwen-dpo-brit",
+        "url": "https://huggingface.co/jordanpainter/diallm-qwen-dpo-brit"
+      },
+      {
+        "title": "jordanpainter/diallm-qwen-dpo-aus",
+        "url": "https://huggingface.co/jordanpainter/diallm-qwen-dpo-aus"
+      },
+      {
+        "title": "jordanpainter/DialLM-Llama-dpo-all",
+        "url": "https://huggingface.co/jordanpainter/DialLM-Llama-dpo-all"
       }
     ],
     "vision_systems": [
@@ -1193,6 +1201,10 @@
       {
         "title": "Seek-and-Solve: Benchmarking MLLMs for Visual Clue-Driven Reasoning in Daily Scenarios",
         "url": "https://arxiv.org/abs/2604.14041v1"
+      },
+      {
+        "title": "inferencerlabs/GLM-5.1-MLX-4.8bit-INF",
+        "url": "https://huggingface.co/inferencerlabs/GLM-5.1-MLX-4.8bit-INF"
       }
     ],
     "benchmarks": [
@@ -1677,7 +1689,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1689,7 +1701,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 412
   }
 }
