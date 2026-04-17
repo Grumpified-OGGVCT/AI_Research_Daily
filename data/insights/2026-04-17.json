@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-17T04:51:07.307154",
+  "date": "2026-04-17T06:56:25.602300",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,6 +673,14 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_1",
+        "url": "https://huggingface.co/OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_1"
+      },
+      {
+        "title": "neuralchemy/distilbert-base-threat-matrix",
+        "url": "https://huggingface.co/neuralchemy/distilbert-base-threat-matrix"
       }
     ],
     "vision_systems": [
@@ -1721,7 +1729,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1780,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 420
+    "total_papers": 422
   }
 }
