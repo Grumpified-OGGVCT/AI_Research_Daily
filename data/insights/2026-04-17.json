@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-17T21:37:38.032326",
+  "date": "2026-04-17T22:33:12.786952",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,10 +673,6 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
-      },
-      {
-        "title": "OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_8",
-        "url": "https://huggingface.co/OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_8"
       }
     ],
     "vision_systems": [
@@ -927,6 +923,10 @@
       {
         "title": "Integrating Object Detection, LiDAR-Enhanced Depth Estimation, and Segmentation Models for Railway Environments",
         "url": "https://arxiv.org/abs/2604.14781v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Robustness of Vision Foundation Models to Common Perturbations",
@@ -1695,6 +1695,10 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "DreamFast/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark",
+        "url": "https://huggingface.co/DreamFast/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark"
       }
     ]
   },
@@ -1725,13 +1729,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1749,7 +1753,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "112 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1757,7 +1761,7 @@
   "research_trends": [
     {
       "topic": "benchmark",
-      "frequency": 70,
+      "frequency": 71,
       "significance": "high"
     },
     {
@@ -1784,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 421
+    "total_papers": 422
   }
 }
