@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-17T13:06:30.273393",
+  "date": "2026-04-17T14:52:01.713433",
   "patterns": {
     "multimodal_research": [
       {
@@ -675,8 +675,8 @@
         "url": "https://arxiv.org/abs/2604.15134v1"
       },
       {
-        "title": "anoymousfml/kmwe-b-pipeline-llama-llm",
-        "url": "https://huggingface.co/anoymousfml/kmwe-b-pipeline-llama-llm"
+        "title": "worthdoing/SmolLM2-1.7B-Instruct-GGUF",
+        "url": "https://huggingface.co/worthdoing/SmolLM2-1.7B-Instruct-GGUF"
       }
     ],
     "vision_systems": [
@@ -963,10 +963,6 @@
       {
         "title": "Implicit Neural Representations: A Signal Processing Perspective",
         "url": "https://arxiv.org/abs/2604.15047v1"
-      },
-      {
-        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-OtherDiacritics-ds-f9",
-        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-OtherDiacritics-ds-f9"
       }
     ],
     "reasoning": [
@@ -1735,7 +1731,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1766,7 +1762,7 @@
     },
     {
       "topic": "language",
-      "frequency": 54,
+      "frequency": 53,
       "significance": "high"
     },
     {
@@ -1788,6 +1784,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 421
   }
 }
