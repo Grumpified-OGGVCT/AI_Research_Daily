@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-17T15:56:08.170708",
+  "date": "2026-04-17T16:50:26.030064",
   "patterns": {
     "multimodal_research": [
       {
@@ -675,16 +675,8 @@
         "url": "https://arxiv.org/abs/2604.15134v1"
       },
       {
-        "title": "OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_2",
-        "url": "https://huggingface.co/OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_2"
-      },
-      {
-        "title": "haninmb/eval_test_GPT",
-        "url": "https://huggingface.co/haninmb/eval_test_GPT"
-      },
-      {
-        "title": "nhaantelex/phobert-cls",
-        "url": "https://huggingface.co/nhaantelex/phobert-cls"
+        "title": "htet-98/burmese_roberta_oversampling",
+        "url": "https://huggingface.co/htet-98/burmese_roberta_oversampling"
       }
     ],
     "vision_systems": [
@@ -1733,7 +1725,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1792,6 +1784,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 423
+    "total_papers": 421
   }
 }
