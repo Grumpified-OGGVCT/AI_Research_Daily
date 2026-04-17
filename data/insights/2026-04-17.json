@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-17T19:55:52.153936",
+  "date": "2026-04-17T20:39:55.551845",
   "patterns": {
     "multimodal_research": [
       {
@@ -675,8 +675,16 @@
         "url": "https://arxiv.org/abs/2604.15134v1"
       },
       {
-        "title": "OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_6",
-        "url": "https://huggingface.co/OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_6"
+        "title": "OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_7",
+        "url": "https://huggingface.co/OliverHeine/huawei-noah_TinyBERT_General_6L_768D_fold_7"
+      },
+      {
+        "title": "Gasolinaaa/dialogpt-empathetic-new",
+        "url": "https://huggingface.co/Gasolinaaa/dialogpt-empathetic-new"
+      },
+      {
+        "title": "payelb/HHRLHF_roberta-large_1k_fixed_WoN",
+        "url": "https://huggingface.co/payelb/HHRLHF_roberta-large_1k_fixed_WoN"
       }
     ],
     "vision_systems": [
@@ -963,10 +971,6 @@
       {
         "title": "Implicit Neural Representations: A Signal Processing Perspective",
         "url": "https://arxiv.org/abs/2604.15047v1"
-      },
-      {
-        "title": "Bilal38282882/Z-Image-Turbo",
-        "url": "https://huggingface.co/Bilal38282882/Z-Image-Turbo"
       }
     ],
     "reasoning": [
@@ -1729,13 +1733,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1788,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 423
   }
 }
