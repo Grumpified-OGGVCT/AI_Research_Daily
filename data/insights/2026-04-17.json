@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-17T22:33:12.786952",
+  "date": "2026-04-17T23:35:01.138787",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,6 +673,14 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "jordanpainter/diallm-qwen-gspo-aus",
+        "url": "https://huggingface.co/jordanpainter/diallm-qwen-gspo-aus"
+      },
+      {
+        "title": "mustaphakassimi/camelbert-darija-sentiment",
+        "url": "https://huggingface.co/mustaphakassimi/camelbert-darija-sentiment"
       }
     ],
     "vision_systems": [
@@ -1695,10 +1703,6 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
-      },
-      {
-        "title": "DreamFast/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark",
-        "url": "https://huggingface.co/DreamFast/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Safetensor-Benchmark"
       }
     ]
   },
@@ -1729,7 +1733,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1753,7 +1757,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "113 independent papers",
+      "observation": "112 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1761,7 +1765,7 @@
   "research_trends": [
     {
       "topic": "benchmark",
-      "frequency": 71,
+      "frequency": 70,
       "significance": "high"
     },
     {
@@ -1788,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 423
   }
 }
