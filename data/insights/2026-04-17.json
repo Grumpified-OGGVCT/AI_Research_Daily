@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-17T11:46:20.510159",
+  "date": "2026-04-17T13:06:30.273393",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,6 +673,10 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "anoymousfml/kmwe-b-pipeline-llama-llm",
+        "url": "https://huggingface.co/anoymousfml/kmwe-b-pipeline-llama-llm"
       }
     ],
     "vision_systems": [
@@ -959,6 +963,10 @@
       {
         "title": "Implicit Neural Representations: A Signal Processing Perspective",
         "url": "https://arxiv.org/abs/2604.15047v1"
+      },
+      {
+        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-OtherDiacritics-ds-f9",
+        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-custom_vocab-OtherDiacritics-ds-f9"
       }
     ],
     "reasoning": [
@@ -1721,13 +1729,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1758,7 +1766,7 @@
     },
     {
       "topic": "language",
-      "frequency": 53,
+      "frequency": 54,
       "significance": "high"
     },
     {
@@ -1780,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 420
+    "total_papers": 422
   }
 }
