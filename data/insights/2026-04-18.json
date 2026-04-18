@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T01:51:12.730939",
+  "date": "2026-04-18T04:30:34.913790",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,6 +673,10 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "payelb/UltraFeedback_openbmb_roberta-large_1k_fixed_MARS",
+        "url": "https://huggingface.co/payelb/UltraFeedback_openbmb_roberta-large_1k_fixed_MARS"
       }
     ],
     "vision_systems": [
@@ -1241,6 +1245,10 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "reyanshgupta/phi-4-mini-reasoning-primaryhealthcare-csci566",
+        "url": "https://huggingface.co/reyanshgupta/phi-4-mini-reasoning-primaryhealthcare-csci566"
       }
     ],
     "benchmarks": [
@@ -1721,7 +1729,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1733,7 +1741,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1762,13 +1770,13 @@
       "significance": "high"
     },
     {
-      "topic": "generation",
+      "topic": "reasoning",
       "frequency": 39,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 38,
+      "topic": "generation",
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1780,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 420
+    "total_papers": 422
   }
 }
