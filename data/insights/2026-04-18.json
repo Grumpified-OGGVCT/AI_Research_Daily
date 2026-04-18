@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T15:34:52.675132",
+  "date": "2026-04-18T16:33:53.981724",
   "patterns": {
     "multimodal_research": [
       {
@@ -675,8 +675,12 @@
         "url": "https://arxiv.org/abs/2604.15134v1"
       },
       {
-        "title": "SykoSLM/SykoLLM-V6.0-Test",
-        "url": "https://huggingface.co/SykoSLM/SykoLLM-V6.0-Test"
+        "title": "suitch/radbert-classifier-de",
+        "url": "https://huggingface.co/suitch/radbert-classifier-de"
+      },
+      {
+        "title": "jordanpainter/diallm-dialect-classifier",
+        "url": "https://huggingface.co/jordanpainter/diallm-dialect-classifier"
       }
     ],
     "vision_systems": [
@@ -1725,7 +1729,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1784,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 421
+    "total_papers": 422
   }
 }
