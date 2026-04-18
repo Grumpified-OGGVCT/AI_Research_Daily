@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T22:29:10.591170",
+  "date": "2026-04-18T23:29:40.125926",
   "patterns": {
     "multimodal_research": [
       {
@@ -1245,10 +1245,6 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
-      },
-      {
-        "title": "xitro/rce-inference-test",
-        "url": "https://huggingface.co/xitro/rce-inference-test"
       }
     ],
     "benchmarks": [
@@ -1693,6 +1689,10 @@
         "url": "https://arxiv.org/abs/2604.14781v1"
       },
       {
+        "title": "PatricioMN/wav2vec2-sota-fusion-v7-final",
+        "url": "https://huggingface.co/PatricioMN/wav2vec2-sota-fusion-v7-final"
+      },
+      {
         "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
         "url": "https://arxiv.org/abs/2604.15308v1"
       },
@@ -1741,7 +1741,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1753,7 +1753,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "112 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
