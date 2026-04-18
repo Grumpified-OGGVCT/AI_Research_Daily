@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T13:59:38.269256",
+  "date": "2026-04-18T15:34:52.675132",
   "patterns": {
     "multimodal_research": [
       {
@@ -101,10 +101,6 @@
       {
         "title": "RAD-2: Scaling Reinforcement Learning in a Generator-Discriminator Framework",
         "url": "https://arxiv.org/abs/2604.15308v1"
-      },
-      {
-        "title": "ryota-komatsu/Phi-4-multimodal-instruct",
-        "url": "https://huggingface.co/ryota-komatsu/Phi-4-multimodal-instruct"
       }
     ],
     "efficient_architectures": [
@@ -679,8 +675,8 @@
         "url": "https://arxiv.org/abs/2604.15134v1"
       },
       {
-        "title": "OrangeMoon0711/mathLLM-7B-Instruct",
-        "url": "https://huggingface.co/OrangeMoon0711/mathLLM-7B-Instruct"
+        "title": "SykoSLM/SykoLLM-V6.0-Test",
+        "url": "https://huggingface.co/SykoSLM/SykoLLM-V6.0-Test"
       }
     ],
     "vision_systems": [
@@ -1705,7 +1701,7 @@
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "26 independent papers",
+      "observation": "25 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1788,6 +1784,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 421
   }
 }
