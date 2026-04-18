@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T08:44:50.251563",
+  "date": "2026-04-18T09:43:01.856295",
   "patterns": {
     "multimodal_research": [
       {
@@ -323,14 +323,6 @@
       {
         "title": "Implicit Neural Representations: A Signal Processing Perspective",
         "url": "https://arxiv.org/abs/2604.15047v1"
-      },
-      {
-        "title": "KKHYA/llavaqwen2.5-0.5b-finetune-col-mask-moe-sparse-4e-2k-sp0.9_20260418_062617",
-        "url": "https://huggingface.co/KKHYA/llavaqwen2.5-0.5b-finetune-col-mask-moe-sparse-4e-2k-sp0.9_20260418_062617"
-      },
-      {
-        "title": "KKHYA/llavaqwen2.5-0.5b-finetune-col-mask-moe-sparse-4e-2k-sp0.9_20260418_062427",
-        "url": "https://huggingface.co/KKHYA/llavaqwen2.5-0.5b-finetune-col-mask-moe-sparse-4e-2k-sp0.9_20260418_062427"
       }
     ],
     "language_models": [
@@ -683,28 +675,12 @@
         "url": "https://arxiv.org/abs/2604.15134v1"
       },
       {
-        "title": "jordanpainter/diallm-qwen-grpo-aus",
-        "url": "https://huggingface.co/jordanpainter/diallm-qwen-grpo-aus"
+        "title": "chiru-neeru/gita-text-generation-gpt2",
+        "url": "https://huggingface.co/chiru-neeru/gita-text-generation-gpt2"
       },
       {
-        "title": "jordanpainter/DialLM-Llama-grpo-all",
-        "url": "https://huggingface.co/jordanpainter/DialLM-Llama-grpo-all"
-      },
-      {
-        "title": "jordanpainter/diallm-llama-grpo-ind",
-        "url": "https://huggingface.co/jordanpainter/diallm-llama-grpo-ind"
-      },
-      {
-        "title": "jordanpainter/diallm-llama-grpo-brit",
-        "url": "https://huggingface.co/jordanpainter/diallm-llama-grpo-brit"
-      },
-      {
-        "title": "htet-98/bert_base_multilingual_uncased_oversampling",
-        "url": "https://huggingface.co/htet-98/bert_base_multilingual_uncased_oversampling"
-      },
-      {
-        "title": "jordanpainter/diallm-llama-grpo-aus",
-        "url": "https://huggingface.co/jordanpainter/diallm-llama-grpo-aus"
+        "title": "kunjcr2/gating-bert-adaptroute-v4",
+        "url": "https://huggingface.co/kunjcr2/gating-bert-adaptroute-v4"
       }
     ],
     "vision_systems": [
@@ -991,6 +967,10 @@
       {
         "title": "Implicit Neural Representations: A Signal Processing Perspective",
         "url": "https://arxiv.org/abs/2604.15047v1"
+      },
+      {
+        "title": "Alelcv27/Llama3.2-3B-Base-Math-v2",
+        "url": "https://huggingface.co/Alelcv27/Llama3.2-3B-Base-Math-v2"
       }
     ],
     "reasoning": [
@@ -1741,7 +1721,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "57 independent papers",
+      "observation": "55 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1753,13 +1733,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1795,7 +1775,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 39,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1812,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 423
   }
 }
