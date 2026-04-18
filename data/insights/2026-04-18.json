@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T21:29:39.093659",
+  "date": "2026-04-18T22:29:10.591170",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,10 +673,6 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
-      },
-      {
-        "title": "bblackwell/distilbert_memoir_test",
-        "url": "https://huggingface.co/bblackwell/distilbert_memoir_test"
       }
     ],
     "vision_systems": [
@@ -927,6 +923,10 @@
       {
         "title": "Integrating Object Detection, LiDAR-Enhanced Depth Estimation, and Segmentation Models for Railway Environments",
         "url": "https://arxiv.org/abs/2604.14781v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Robustness of Vision Foundation Models to Common Perturbations",
@@ -1245,6 +1245,10 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
+      },
+      {
+        "title": "xitro/rce-inference-test",
+        "url": "https://huggingface.co/xitro/rce-inference-test"
       }
     ],
     "benchmarks": [
@@ -1725,19 +1729,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1784,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 421
+    "total_papers": 422
   }
 }
