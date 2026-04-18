@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T17:33:12.828388",
+  "date": "2026-04-18T18:39:34.215068",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,18 +673,6 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
-      },
-      {
-        "title": "wizardpatel/mental-health-bert",
-        "url": "https://huggingface.co/wizardpatel/mental-health-bert"
-      },
-      {
-        "title": "sanim05/GPT2-disease_text_generation",
-        "url": "https://huggingface.co/sanim05/GPT2-disease_text_generation"
-      },
-      {
-        "title": "payelb/UltraFeedback_openbmb_roberta-large_1k_fixed_baseline",
-        "url": "https://huggingface.co/payelb/UltraFeedback_openbmb_roberta-large_1k_fixed_baseline"
       }
     ],
     "vision_systems": [
@@ -971,10 +959,6 @@
       {
         "title": "Implicit Neural Representations: A Signal Processing Perspective",
         "url": "https://arxiv.org/abs/2604.15047v1"
-      },
-      {
-        "title": "zacdan4801/wav2vec2-lv-60-espeak-cv-ft-WCTC-phocab-ds-f9",
-        "url": "https://huggingface.co/zacdan4801/wav2vec2-lv-60-espeak-cv-ft-WCTC-phocab-ds-f9"
       }
     ],
     "reasoning": [
@@ -1737,13 +1721,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1779,7 +1763,7 @@
     },
     {
       "topic": "generation",
-      "frequency": 40,
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1796,6 +1780,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 420
   }
 }
