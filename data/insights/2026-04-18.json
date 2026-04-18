@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-18T04:30:34.913790",
+  "date": "2026-04-18T06:10:57.254335",
   "patterns": {
     "multimodal_research": [
       {
@@ -675,8 +675,8 @@
         "url": "https://arxiv.org/abs/2604.15134v1"
       },
       {
-        "title": "payelb/UltraFeedback_openbmb_roberta-large_1k_fixed_MARS",
-        "url": "https://huggingface.co/payelb/UltraFeedback_openbmb_roberta-large_1k_fixed_MARS"
+        "title": "cattingus/distilled-gpt2-uncensored-chat",
+        "url": "https://huggingface.co/cattingus/distilled-gpt2-uncensored-chat"
       }
     ],
     "vision_systems": [
@@ -1245,10 +1245,6 @@
       {
         "title": "How to Correctly Make Mistakes: A Framework for Constructing and Benchmarking Mistake Aware Egocentric Procedural Videos",
         "url": "https://arxiv.org/abs/2604.15134v1"
-      },
-      {
-        "title": "reyanshgupta/phi-4-mini-reasoning-primaryhealthcare-csci566",
-        "url": "https://huggingface.co/reyanshgupta/phi-4-mini-reasoning-primaryhealthcare-csci566"
       }
     ],
     "benchmarks": [
@@ -1741,7 +1737,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1770,13 +1766,13 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "generation",
       "frequency": 39,
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 39,
+      "topic": "reasoning",
+      "frequency": 38,
       "significance": "high"
     },
     {
@@ -1788,6 +1784,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 421
   }
 }
