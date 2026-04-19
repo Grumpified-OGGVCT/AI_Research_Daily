@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-19T02:04:01.893207",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "autonomyx-hf/autonomyxllm",
+        "url": "https://huggingface.co/autonomyx-hf/autonomyxllm"
+      },
+      {
+        "title": "genevera/Qwen3.6-35B-A3B-Abliterated-Heretic-NVFP4A16-vLLM",
+        "url": "https://huggingface.co/genevera/Qwen3.6-35B-A3B-Abliterated-Heretic-NVFP4A16-vLLM"
+      },
+      {
+        "title": "tarantripathi/gita-text-generation-gpt2",
+        "url": "https://huggingface.co/tarantripathi/gita-text-generation-gpt2"
+      },
+      {
+        "title": "SloppyModels/Llama3.2-1B-NoGQA-GPTNeoXTokenizer",
+        "url": "https://huggingface.co/SloppyModels/Llama3.2-1B-NoGQA-GPTNeoXTokenizer"
+      },
+      {
+        "title": "SloppyModels/Qwen3-1.7B-NoGQA-GPTNeoXTokenizer",
+        "url": "https://huggingface.co/SloppyModels/Qwen3-1.7B-NoGQA-GPTNeoXTokenizer"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "5 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 5
+  }
+}
