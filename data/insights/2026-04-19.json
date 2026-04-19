@@ -1,11 +1,22 @@
 {
-  "date": "2026-04-19T21:30:53.398972",
-  "patterns": {},
+  "date": "2026-04-19T22:29:48.768916",
+  "patterns": {
+    "vision_systems": [
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
+        "title": "Alelcv27/Llama3.2-3B-TIES-Math-Code",
+        "url": "https://huggingface.co/Alelcv27/Llama3.2-3B-TIES-Math-Code"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
