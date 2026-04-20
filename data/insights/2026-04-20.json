@@ -1,11 +1,22 @@
 {
-  "date": "2026-04-20T05:36:07.525687",
-  "patterns": {},
+  "date": "2026-04-20T07:57:11.835616",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "jiosephlee/gpt-oss-20b-sft-trim-5.4mini-16tasks-best-20260420",
+        "url": "https://huggingface.co/jiosephlee/gpt-oss-20b-sft-trim-5.4mini-16tasks-best-20260420"
+      },
+      {
+        "title": "istomin9192/mHuBERT-147-ipa-ctc-ft",
+        "url": "https://huggingface.co/istomin9192/mHuBERT-147-ipa-ctc-ft"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
