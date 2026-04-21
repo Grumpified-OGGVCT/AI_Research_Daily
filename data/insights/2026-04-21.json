@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-21T06:57:02.156299",
+  "date": "2026-04-21T08:51:52.788033",
   "patterns": {
     "multimodal_research": [
       {
@@ -719,8 +719,8 @@
         "url": "https://arxiv.org/abs/2604.18418v1"
       },
       {
-        "title": "janisha03/Sentiment-Analysis-using-bert",
-        "url": "https://huggingface.co/janisha03/Sentiment-Analysis-using-bert"
+        "title": "Raghav-Singhal/sdsp-smollm-1p7b-100B-30n-2048sl-960gbsz-judgemental-a1_0p0-a2_1p0",
+        "url": "https://huggingface.co/Raghav-Singhal/sdsp-smollm-1p7b-100B-30n-2048sl-960gbsz-judgemental-a1_0p0-a2_1p0"
       }
     ],
     "vision_systems": [
@@ -955,18 +955,6 @@
       {
         "title": "A Comparative Evaluation of Geometric Accuracy in NeRF and Gaussian Splatting",
         "url": "https://arxiv.org/abs/2604.18205v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "jorseckc/resnet50-imagenet",
-        "url": "https://huggingface.co/jorseckc/resnet50-imagenet"
-      },
-      {
-        "title": "iotaminer/ScoreVision",
-        "url": "https://huggingface.co/iotaminer/ScoreVision"
       }
     ],
     "reasoning": [
@@ -1795,7 +1783,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1848,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 437
+    "total_papers": 434
   }
 }
