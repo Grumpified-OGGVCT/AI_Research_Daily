@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-21T16:54:59.473653",
+  "date": "2026-04-21T17:57:06.543681",
   "patterns": {
     "multimodal_research": [
       {
@@ -719,24 +719,8 @@
         "url": "https://arxiv.org/abs/2604.18418v1"
       },
       {
-        "title": "Muscaria/gpt2_viet_story",
-        "url": "https://huggingface.co/Muscaria/gpt2_viet_story"
-      },
-      {
-        "title": "yiwang12/llm-course-ch4-yiwangv1",
-        "url": "https://huggingface.co/yiwang12/llm-course-ch4-yiwangv1"
-      },
-      {
-        "title": "raaghavkk/roberta-sarcasm-en-UK-seed123",
-        "url": "https://huggingface.co/raaghavkk/roberta-sarcasm-en-UK-seed123"
-      },
-      {
-        "title": "raaghavkk/roberta-sarcasm-en-IN-seed123",
-        "url": "https://huggingface.co/raaghavkk/roberta-sarcasm-en-IN-seed123"
-      },
-      {
-        "title": "raaghavkk/roberta-sarcasm-en-AU-seed123",
-        "url": "https://huggingface.co/raaghavkk/roberta-sarcasm-en-AU-seed123"
+        "title": "mradermacher/gpt-oss-20b-abliterated-GGUF",
+        "url": "https://huggingface.co/mradermacher/gpt-oss-20b-abliterated-GGUF"
       }
     ],
     "vision_systems": [
@@ -971,10 +955,6 @@
       {
         "title": "A Comparative Evaluation of Geometric Accuracy in NeRF and Gaussian Splatting",
         "url": "https://arxiv.org/abs/2604.18205v1"
-      },
-      {
-        "title": "ixim/ERNIE-Image-INT8",
-        "url": "https://huggingface.co/ixim/ERNIE-Image-INT8"
       }
     ],
     "reasoning": [
@@ -1797,13 +1777,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "103 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "59 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1856,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 439
+    "total_papers": 434
   }
 }
