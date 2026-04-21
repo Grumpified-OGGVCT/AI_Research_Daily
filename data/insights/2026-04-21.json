@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-21T21:40:11.625283",
+  "date": "2026-04-21T22:34:33.419257",
   "patterns": {
     "multimodal_research": [
       {
@@ -719,8 +719,12 @@
         "url": "https://arxiv.org/abs/2604.18418v1"
       },
       {
-        "title": "euswbnix/transformer-wmt14-enfr-big",
-        "url": "https://huggingface.co/euswbnix/transformer-wmt14-enfr-big"
+        "title": "osamaktk1/distilbert-imdb-sentiment",
+        "url": "https://huggingface.co/osamaktk1/distilbert-imdb-sentiment"
+      },
+      {
+        "title": "rdtand/Qwen3.6-35B-A3B-PrismaQuant-4.75bit-vllm",
+        "url": "https://huggingface.co/rdtand/Qwen3.6-35B-A3B-PrismaQuant-4.75bit-vllm"
       }
     ],
     "vision_systems": [
@@ -931,6 +935,10 @@
       {
         "title": "Horospherical Depth and Busemann Median on Hadamard Manifolds",
         "url": "https://arxiv.org/abs/2604.18242v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "MetaCloak-JPEG: JPEG-Robust Adversarial Perturbation for Preventing Unauthorized DreamBooth-Based Deepfake Generation",
@@ -1777,13 +1785,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1836,6 +1844,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 434
+    "total_papers": 436
   }
 }
