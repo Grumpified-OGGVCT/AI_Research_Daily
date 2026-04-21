@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-21T08:51:52.788033",
+  "date": "2026-04-21T10:16:15.633690",
   "patterns": {
     "multimodal_research": [
       {
@@ -719,8 +719,12 @@
         "url": "https://arxiv.org/abs/2604.18418v1"
       },
       {
-        "title": "Raghav-Singhal/sdsp-smollm-1p7b-100B-30n-2048sl-960gbsz-judgemental-a1_0p0-a2_1p0",
-        "url": "https://huggingface.co/Raghav-Singhal/sdsp-smollm-1p7b-100B-30n-2048sl-960gbsz-judgemental-a1_0p0-a2_1p0"
+        "title": "cstr/omniasr-llm-300m-v2-GGUF",
+        "url": "https://huggingface.co/cstr/omniasr-llm-300m-v2-GGUF"
+      },
+      {
+        "title": "PaoloButler/bert-cocolofa-fallacy",
+        "url": "https://huggingface.co/PaoloButler/bert-cocolofa-fallacy"
       }
     ],
     "vision_systems": [
@@ -1293,6 +1297,10 @@
       {
         "title": "Towards Symmetry-sensitive Pose Estimation: A Rotation Representation for Symmetric Object Classes",
         "url": "https://arxiv.org/abs/2604.18208v1"
+      },
+      {
+        "title": "mradermacher/Ministral-3-8B-Reasoning-2512-Uncensored-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/Ministral-3-8B-Reasoning-2512-Uncensored-i1-GGUF"
       }
     ],
     "benchmarks": [
@@ -1747,6 +1755,10 @@
       {
         "title": "OmniHuman: A Large-scale Dataset and Benchmark for Human-Centric Video Generation",
         "url": "https://arxiv.org/abs/2604.18326v1"
+      },
+      {
+        "title": "SOTAagi2030/MyModel-Threshold60-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyModel-Threshold60-TestRepo"
       }
     ]
   },
@@ -1777,7 +1789,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "100 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1789,7 +1801,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1801,7 +1813,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "113 independent papers",
+      "observation": "114 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1824,7 +1836,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 45,
+      "frequency": 46,
       "significance": "high"
     },
     {
@@ -1836,6 +1848,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 434
+    "total_papers": 437
   }
 }
