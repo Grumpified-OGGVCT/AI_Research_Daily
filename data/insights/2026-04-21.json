@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-21T10:16:15.633690",
+  "date": "2026-04-21T11:58:38.398436",
   "patterns": {
     "multimodal_research": [
       {
@@ -715,16 +715,24 @@
         "url": "https://arxiv.org/abs/2604.18512v1"
       },
       {
+        "title": "rdtand/Qwen3.6-35B-A3B-PrismQuant-4.75bit-vllm",
+        "url": "https://huggingface.co/rdtand/Qwen3.6-35B-A3B-PrismQuant-4.75bit-vllm"
+      },
+      {
         "title": "MedProbeBench: Systematic Benchmarking at Deep Evidence Integration for Expert-level Medical Guideline",
         "url": "https://arxiv.org/abs/2604.18418v1"
       },
       {
-        "title": "cstr/omniasr-llm-300m-v2-GGUF",
-        "url": "https://huggingface.co/cstr/omniasr-llm-300m-v2-GGUF"
+        "title": "rafianaveed/distilbert-imdb-sentiment",
+        "url": "https://huggingface.co/rafianaveed/distilbert-imdb-sentiment"
       },
       {
-        "title": "PaoloButler/bert-cocolofa-fallacy",
-        "url": "https://huggingface.co/PaoloButler/bert-cocolofa-fallacy"
+        "title": "OliverHeine/google_mobilebert-uncased_fold_6",
+        "url": "https://huggingface.co/OliverHeine/google_mobilebert-uncased_fold_6"
+      },
+      {
+        "title": "Yulin07/llm-course-ch4-yulin",
+        "url": "https://huggingface.co/Yulin07/llm-course-ch4-yulin"
       }
     ],
     "vision_systems": [
@@ -1297,10 +1305,6 @@
       {
         "title": "Towards Symmetry-sensitive Pose Estimation: A Rotation Representation for Symmetric Object Classes",
         "url": "https://arxiv.org/abs/2604.18208v1"
-      },
-      {
-        "title": "mradermacher/Ministral-3-8B-Reasoning-2512-Uncensored-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/Ministral-3-8B-Reasoning-2512-Uncensored-i1-GGUF"
       }
     ],
     "benchmarks": [
@@ -1755,10 +1759,6 @@
       {
         "title": "OmniHuman: A Large-scale Dataset and Benchmark for Human-Centric Video Generation",
         "url": "https://arxiv.org/abs/2604.18326v1"
-      },
-      {
-        "title": "SOTAagi2030/MyModel-Threshold60-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyModel-Threshold60-TestRepo"
       }
     ]
   },
@@ -1789,7 +1789,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1801,7 +1801,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1813,7 +1813,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "114 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1836,7 +1836,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 46,
+      "frequency": 45,
       "significance": "high"
     },
     {
