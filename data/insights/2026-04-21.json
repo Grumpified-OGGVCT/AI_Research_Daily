@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-21T17:57:06.543681",
+  "date": "2026-04-21T19:05:08.114497",
   "patterns": {
     "multimodal_research": [
       {
@@ -719,8 +719,72 @@
         "url": "https://arxiv.org/abs/2604.18418v1"
       },
       {
-        "title": "mradermacher/gpt-oss-20b-abliterated-GGUF",
-        "url": "https://huggingface.co/mradermacher/gpt-oss-20b-abliterated-GGUF"
+        "title": "Hodfa71/gpt-sw3-1b3-nb-saga-kl-sft-delta-dpo",
+        "url": "https://huggingface.co/Hodfa71/gpt-sw3-1b3-nb-saga-kl-sft-delta-dpo"
+      },
+      {
+        "title": "Hodfa71/gpt-sw3-1b3-nb-saga-nosft-delta-dpo",
+        "url": "https://huggingface.co/Hodfa71/gpt-sw3-1b3-nb-saga-nosft-delta-dpo"
+      },
+      {
+        "title": "username5577/GPT-toy02",
+        "url": "https://huggingface.co/username5577/GPT-toy02"
+      },
+      {
+        "title": "thedavidhackett/distilbert-subcategory-classifier",
+        "url": "https://huggingface.co/thedavidhackett/distilbert-subcategory-classifier"
+      },
+      {
+        "title": "cschro/GPT-470test01",
+        "url": "https://huggingface.co/cschro/GPT-470test01"
+      },
+      {
+        "title": "open-machine/SmolLM2-135M-FlashNorm",
+        "url": "https://huggingface.co/open-machine/SmolLM2-135M-FlashNorm"
+      },
+      {
+        "title": "masonmidd/GPT-test01",
+        "url": "https://huggingface.co/masonmidd/GPT-test01"
+      },
+      {
+        "title": "John5368/GPT-test01",
+        "url": "https://huggingface.co/John5368/GPT-test01"
+      },
+      {
+        "title": "71-vueT10/GPT-test01",
+        "url": "https://huggingface.co/71-vueT10/GPT-test01"
+      },
+      {
+        "title": "melisar2/GPT-toy02",
+        "url": "https://huggingface.co/melisar2/GPT-toy02"
+      },
+      {
+        "title": "TheJoney13/GPT-test01",
+        "url": "https://huggingface.co/TheJoney13/GPT-test01"
+      },
+      {
+        "title": "71-vueT10/GPT-toy02",
+        "url": "https://huggingface.co/71-vueT10/GPT-toy02"
+      },
+      {
+        "title": "DPetersen/GPT-test01",
+        "url": "https://huggingface.co/DPetersen/GPT-test01"
+      },
+      {
+        "title": "manmanluo/GPT-test01-sp26",
+        "url": "https://huggingface.co/manmanluo/GPT-test01-sp26"
+      },
+      {
+        "title": "xiangmingming/GPT-test01",
+        "url": "https://huggingface.co/xiangmingming/GPT-test01"
+      },
+      {
+        "title": "Meena1005/gpt2-qa-finetuned",
+        "url": "https://huggingface.co/Meena1005/gpt2-qa-finetuned"
+      },
+      {
+        "title": "LordJumoka/GPT-test01",
+        "url": "https://huggingface.co/LordJumoka/GPT-test01"
       }
     ],
     "vision_systems": [
@@ -1777,7 +1841,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "115 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1836,6 +1900,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 434
+    "total_papers": 450
   }
 }
