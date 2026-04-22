@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-22T13:16:00.415304",
+  "date": "2026-04-22T15:08:21.278204",
   "patterns": {
     "multimodal_research": [
       {
@@ -1189,6 +1189,10 @@
       {
         "title": "Seeing Candidates at Scale: Multimodal LLMs for Visual Political Communication on Instagram",
         "url": "https://arxiv.org/abs/2604.19489v1"
+      },
+      {
+        "title": "f13rnd/constantin-primitive-reasoning-checkpoints",
+        "url": "https://huggingface.co/f13rnd/constantin-primitive-reasoning-checkpoints"
       }
     ],
     "benchmarks": [
@@ -1661,7 +1665,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1696,7 +1700,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 34,
+      "frequency": 35,
       "significance": "high"
     },
     {
@@ -1708,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 403
   }
 }
