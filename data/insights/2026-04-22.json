@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-22T11:58:04.373681",
+  "date": "2026-04-22T13:16:00.415304",
   "patterns": {
     "multimodal_research": [
       {
@@ -1189,22 +1189,6 @@
       {
         "title": "Seeing Candidates at Scale: Multimodal LLMs for Visual Political Communication on Instagram",
         "url": "https://arxiv.org/abs/2604.19489v1"
-      },
-      {
-        "title": "mats-10-sprint-cs-jb/synthlora-tier4-statistical-reasoning-quality",
-        "url": "https://huggingface.co/mats-10-sprint-cs-jb/synthlora-tier4-statistical-reasoning-quality"
-      },
-      {
-        "title": "mats-10-sprint-cs-jb/synthlora-tier4-diagnostic-reasoning-quality",
-        "url": "https://huggingface.co/mats-10-sprint-cs-jb/synthlora-tier4-diagnostic-reasoning-quality"
-      },
-      {
-        "title": "mats-10-sprint-cs-jb/synthlora-tier2-counterfactual-reasoning",
-        "url": "https://huggingface.co/mats-10-sprint-cs-jb/synthlora-tier2-counterfactual-reasoning"
-      },
-      {
-        "title": "mats-10-sprint-cs-jb/synthlora-tier2-case-based-reasoning",
-        "url": "https://huggingface.co/mats-10-sprint-cs-jb/synthlora-tier2-case-based-reasoning"
       }
     ],
     "benchmarks": [
@@ -1677,7 +1661,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,7 +1696,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 38,
+      "frequency": 34,
       "significance": "high"
     },
     {
@@ -1724,6 +1708,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 402
   }
 }
