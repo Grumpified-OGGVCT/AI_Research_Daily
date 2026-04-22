@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-22T10:17:19.960044",
+  "date": "2026-04-22T11:58:04.373681",
   "patterns": {
     "multimodal_research": [
       {
@@ -1191,12 +1191,20 @@
         "url": "https://arxiv.org/abs/2604.19489v1"
       },
       {
-        "title": "mats-10-sprint-cs-jb/multitier-lora-tier4-statistical-reasoning-quality",
-        "url": "https://huggingface.co/mats-10-sprint-cs-jb/multitier-lora-tier4-statistical-reasoning-quality"
+        "title": "mats-10-sprint-cs-jb/synthlora-tier4-statistical-reasoning-quality",
+        "url": "https://huggingface.co/mats-10-sprint-cs-jb/synthlora-tier4-statistical-reasoning-quality"
       },
       {
-        "title": "mats-10-sprint-cs-jb/multitier-lora-tier4-diagnostic-reasoning-quality",
-        "url": "https://huggingface.co/mats-10-sprint-cs-jb/multitier-lora-tier4-diagnostic-reasoning-quality"
+        "title": "mats-10-sprint-cs-jb/synthlora-tier4-diagnostic-reasoning-quality",
+        "url": "https://huggingface.co/mats-10-sprint-cs-jb/synthlora-tier4-diagnostic-reasoning-quality"
+      },
+      {
+        "title": "mats-10-sprint-cs-jb/synthlora-tier2-counterfactual-reasoning",
+        "url": "https://huggingface.co/mats-10-sprint-cs-jb/synthlora-tier2-counterfactual-reasoning"
+      },
+      {
+        "title": "mats-10-sprint-cs-jb/synthlora-tier2-case-based-reasoning",
+        "url": "https://huggingface.co/mats-10-sprint-cs-jb/synthlora-tier2-case-based-reasoning"
       }
     ],
     "benchmarks": [
@@ -1669,7 +1677,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "79 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1704,7 +1712,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 38,
       "significance": "high"
     },
     {
@@ -1716,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 406
   }
 }
