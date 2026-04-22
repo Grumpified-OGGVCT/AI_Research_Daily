@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-22T16:54:08.189609",
+  "date": "2026-04-22T17:57:16.292401",
   "patterns": {
     "multimodal_research": [
       {
@@ -623,8 +623,16 @@
         "url": "https://arxiv.org/abs/2604.19489v1"
       },
       {
-        "title": "aneeshm44/gpt-oss-104b-dynamic-pruning-99-5-threshold",
-        "url": "https://huggingface.co/aneeshm44/gpt-oss-104b-dynamic-pruning-99-5-threshold"
+        "title": "sahil7171/distilbert-mental-health",
+        "url": "https://huggingface.co/sahil7171/distilbert-mental-health"
+      },
+      {
+        "title": "racineai/Berthier-Mistral-Military-24B",
+        "url": "https://huggingface.co/racineai/Berthier-Mistral-Military-24B"
+      },
+      {
+        "title": "robert4dpswami/fake-news-detector",
+        "url": "https://huggingface.co/robert4dpswami/fake-news-detector"
       }
     ],
     "vision_systems": [
@@ -883,10 +891,6 @@
       {
         "title": "CityRAG: Stepping Into a City via Spatially-Grounded Video Generation",
         "url": "https://arxiv.org/abs/2604.19741v1"
-      },
-      {
-        "title": "JusMe/FoodExtract-Vision-SmolVLM2-500M-fine-tune-PEFTLora",
-        "url": "https://huggingface.co/JusMe/FoodExtract-Vision-SmolVLM2-500M-fine-tune-PEFTLora"
       }
     ],
     "reasoning": [
@@ -1657,13 +1661,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,13 +1713,13 @@
     },
     {
       "topic": "vision",
-      "frequency": 32,
+      "frequency": 31,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 405
   }
 }
