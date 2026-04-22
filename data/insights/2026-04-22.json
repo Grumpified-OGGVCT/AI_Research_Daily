@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-22T21:45:47.190248",
+  "date": "2026-04-22T22:42:59.661465",
   "patterns": {
     "multimodal_research": [
       {
@@ -607,6 +607,10 @@
         "url": "https://arxiv.org/abs/2604.19679v1"
       },
       {
+        "title": "pogo38/deberta-v3-fake-news-detector",
+        "url": "https://huggingface.co/pogo38/deberta-v3-fake-news-detector"
+      },
+      {
         "title": "Face Anything: 4D Face Reconstruction from Any Image Sequence",
         "url": "https://arxiv.org/abs/2604.19702v1"
       },
@@ -621,6 +625,10 @@
       {
         "title": "Seeing Candidates at Scale: Multimodal LLMs for Visual Political Communication on Instagram",
         "url": "https://arxiv.org/abs/2604.19489v1"
+      },
+      {
+        "title": "JCCHH/imdb-bert-sentiment",
+        "url": "https://huggingface.co/JCCHH/imdb-bert-sentiment"
       }
     ],
     "vision_systems": [
@@ -827,6 +835,10 @@
       {
         "title": "MMControl: Unified Multi-Modal Control for Joint Audio-Video Generation",
         "url": "https://arxiv.org/abs/2604.19679v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Face Anything: 4D Face Reconstruction from Any Image Sequence",
@@ -1649,13 +1661,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "92 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 405
   }
 }
