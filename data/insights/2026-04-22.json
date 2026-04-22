@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-22T08:28:38.016752",
+  "date": "2026-04-22T10:17:19.960044",
   "patterns": {
     "multimodal_research": [
       {
@@ -1189,6 +1189,14 @@
       {
         "title": "Seeing Candidates at Scale: Multimodal LLMs for Visual Political Communication on Instagram",
         "url": "https://arxiv.org/abs/2604.19489v1"
+      },
+      {
+        "title": "mats-10-sprint-cs-jb/multitier-lora-tier4-statistical-reasoning-quality",
+        "url": "https://huggingface.co/mats-10-sprint-cs-jb/multitier-lora-tier4-statistical-reasoning-quality"
+      },
+      {
+        "title": "mats-10-sprint-cs-jb/multitier-lora-tier4-diagnostic-reasoning-quality",
+        "url": "https://huggingface.co/mats-10-sprint-cs-jb/multitier-lora-tier4-diagnostic-reasoning-quality"
       }
     ],
     "benchmarks": [
@@ -1661,7 +1669,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1696,7 +1704,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 34,
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1708,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 404
   }
 }
