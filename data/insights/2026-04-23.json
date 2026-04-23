@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-23T22:39:03.094873",
+  "date": "2026-04-23T23:41:06.981833",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,14 +669,6 @@
       {
         "title": "SpaCeFormer: Fast Proposal-Free Open-Vocabulary 3D Instance Segmentation",
         "url": "https://arxiv.org/abs/2604.20395v1"
-      },
-      {
-        "title": "dhasmana/Kumaoni-Bhojpuri-Chhattisgarhi2h-per-lang-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Kumaoni-Bhojpuri-Chhattisgarhi2h-per-lang-w2v-bert-2.0"
-      },
-      {
-        "title": "nikhilprashar01/IMBD-Fine-tunning-using-bert",
-        "url": "https://huggingface.co/nikhilprashar01/IMBD-Fine-tunning-using-bert"
       }
     ],
     "vision_systems": [
@@ -935,6 +927,10 @@
       {
         "title": "Exploring High-Order Self-Similarity for Video Understanding",
         "url": "https://arxiv.org/abs/2604.20760v1"
+      },
+      {
+        "title": "Veetance/Z-Image-Turbo-NF4",
+        "url": "https://huggingface.co/Veetance/Z-Image-Turbo-NF4"
       },
       {
         "title": "nphSi/Z-Image-Lora",
@@ -1753,13 +1749,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 427
   }
 }
