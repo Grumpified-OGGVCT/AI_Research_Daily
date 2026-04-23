@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-23T05:25:35.778765",
+  "date": "2026-04-23T07:27:53.946411",
   "patterns": {
     "multimodal_research": [
       {
@@ -669,10 +669,6 @@
       {
         "title": "SpaCeFormer: Fast Proposal-Free Open-Vocabulary 3D Instance Segmentation",
         "url": "https://arxiv.org/abs/2604.20395v1"
-      },
-      {
-        "title": "ChinmayShastry9/distilbert-ag-news-topic-classifier",
-        "url": "https://huggingface.co/ChinmayShastry9/distilbert-ag-news-topic-classifier"
       }
     ],
     "vision_systems": [
@@ -931,6 +927,10 @@
       {
         "title": "Exploring High-Order Self-Similarity for Video Understanding",
         "url": "https://arxiv.org/abs/2604.20760v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1745,13 +1745,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
