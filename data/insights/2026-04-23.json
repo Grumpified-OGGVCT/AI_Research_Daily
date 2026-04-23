@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-23T20:09:55.475860",
+  "date": "2026-04-23T21:41:23.242326",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,8 +671,8 @@
         "url": "https://arxiv.org/abs/2604.20395v1"
       },
       {
-        "title": "dhasmana/Kumaoni-Bhojpuri1h-per-lang-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/Kumaoni-Bhojpuri1h-per-lang-w2v-bert-2.0"
+        "title": "Onion-1/story-gpt2-finetuned",
+        "url": "https://huggingface.co/Onion-1/story-gpt2-finetuned"
       }
     ],
     "vision_systems": [
@@ -1715,6 +1715,10 @@
       {
         "title": "SurgCoT: Advancing Spatiotemporal Reasoning in Surgical Videos through a Chain-of-Thought Benchmark",
         "url": "https://arxiv.org/abs/2604.20319v1"
+      },
+      {
+        "title": "waxal-benchmarking/whisper-tiny-lin-x2athanase",
+        "url": "https://huggingface.co/waxal-benchmarking/whisper-tiny-lin-x2athanase"
       }
     ]
   },
@@ -1769,7 +1773,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "114 independent papers",
+      "observation": "115 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1782,7 +1786,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 67,
+      "frequency": 68,
       "significance": "high"
     },
     {
@@ -1804,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 427
   }
 }
