@@ -4,7 +4,7 @@
     "title": "LEXIS: LatEnt ProXimal Interaction Signatures for 3D HOI from an Image",
     "summary": "Reconstructing 3D Human-Object Interaction from an RGB image is essential for perceptive systems. Yet, this remains challenging as it requires capturing the subtle physical coupling between the body and objects. While current methods rely on sparse, binary contact cues, these fail to model the continuous proximity and dense spatial relationships that characterize natural interactions. We address this limitation via InterFields, a representation that encodes dense, continuous proximity across the entire body and object surfaces. However, inferring these fields from single images is inherently ill-posed. To tackle this, our intuition is that interaction patterns are characteristically structured by the action and object geometry. We capture this structure in LEXIS, a novel discrete manifold of interaction signatures learned via a VQ-VAE. We then develop LEXIS-Flow, a diffusion framework that leverages LEXIS signatures to estimate human and object meshes alongside their InterFields. Notably, these InterFields help in a guided refinement that ensures physically-plausible, proximity-aware reconstructions without requiring post-hoc optimization. Evaluation on Open3DHOI and BEHAVE shows that LEXIS-Flow significantly outperforms existing SotA baselines in reconstruction, contact, and proximity quality. Our approach not only improves generalization but also yields reconstructions perceived as more realistic, moving us closer to holistic 3D scene understanding. Code & models will be public at https://anticdimi.github.io/lexis.",
     "authors": [
-      "Dimitrije Anti\u0107",
+      "Dimitrije Antić",
       "Alvaro Budria",
       "George Paschalidis",
       "Sai Kumar Dwivedi",
@@ -73,7 +73,7 @@
       "Luisa Liboni",
       "Alexandra N. Busch",
       "Arthur Powanwe",
-      "J\u00e1n Min\u00e1\u010d",
+      "Ján Mináč",
       "Roberto C. Budzinski",
       "Lyle E. Muller"
     ],
@@ -224,7 +224,7 @@
       "Ana Sanchez-Fernandez",
       "Thomas Pinetz",
       "Werner Zellinger",
-      "G\u00fcnter Klambauer"
+      "Günter Klambauer"
     ],
     "categories": [
       "cs.LG",
@@ -535,7 +535,7 @@
     "summary": "Purpose: Gaze-following, the task of inferring where individuals are looking, has been widely studied in computer vision, advancing research in visual attention modeling, social scene understanding, and human-robot interaction. However, gaze-following has never been explored in the operating room (OR), a complex, high-stakes environment where visual attention plays an important role in surgical workflow analysis. In this work, we introduce the concept of gaze-following to the surgical domain, and demonstrate its great potential for understanding clinical roles, surgical phases, and team communications in the OR. Methods: We extend the 4D-OR dataset with gaze-following annotations, and extend the Team-OR dataset with gaze-following and a new team communication activity annotations. Then, we propose novel approaches to address clinical role prediction, surgical phase recognition, and team communication detection using a gaze-following model. For role and phase recognition, we propose a gaze heatmap-based approach that uses gaze predictions solely; for team communication detection, we train a spatial-temporal model in a self-supervised way that encodes gaze-based clip features, and then feed the features into a temporal activity detection model. Results: Experimental results on the 4D-OR and Team-OR datasets demonstrate that our approach achieves state-of-the-art performance on all downstream tasks. Quantitatively, our approach obtains F1 scores of 0.92 for clinical role prediction and 0.95 for surgical phase recognition. Furthermore, it significantly outperforms existing baselines in team communication detection, improving previous best performances by over 30%. Conclusion: We introduce gaze-following in the OR as a novel research direction in surgical data science, highlighting its great potential to advance surgical workflow analysis in computer-assisted interventions.",
     "authors": [
       "Keqi Chen",
-      "S\u00e9raphin Baributsa",
+      "Séraphin Baributsa",
       "Lilien Schewski",
       "Vinkle Srivastav",
       "Didier Mutter",
@@ -907,7 +907,7 @@
   {
     "arxiv_id": "2604.20732v1",
     "title": "Anchor-and-Resume Concession Under Dynamic Pricing for LLM-Augmented Freight Negotiation",
-    "summary": "Freight brokerages negotiate thousands of carrier rates daily under dynamic pricing conditions where models frequently revise targets mid-conversation. Classical time-dependent concession frameworks use a fixed shape parameter $\u03b2$ that cannot adapt to these updates. Deriving $\u03b2$ from the live spread enables adaptation but introduces a new problem: a pricing shift can cause the formula to retract a previous offer, violating monotonicity. LLM-powered brokers offer flexibility but require expensive reasoning models, produce non-deterministic pricing, and remain vulnerable to prompt injection.   We propose a two-index anchor-and-resume framework that addresses both limitations. A spread-derived $\u03b2$ maps each load's margin structure to the correct concession posture, while the anchor-and-resume mechanism guarantees monotonically non-decreasing offers under arbitrary pricing shifts. All pricing decisions remain in a deterministic formula; the LLM, when used, serves only as a natural-language translation layer. Empirical evaluation across 115,125 negotiations shows that the adaptive $\u03b2$ tailors behavior by regime: in narrow spreads, it concedes quickly to prioritize deal closure and load coverage; in medium and wide spreads, it matches or exceeds the best fixed-$\u03b2$ baselines in broker savings. Against an unconstrained 20-billion-parameter LLM broker, it achieves similar agreement rates and savings. Against LLM-powered carriers as more realistic stochastic counterparties, it maintains comparable savings and higher agreement rates than against rule-based opponents. By decoupling the LLM from pricing logic, the framework scales horizontally to thousands of concurrent negotiations with negligible inference cost and transparent decision-making.",
+    "summary": "Freight brokerages negotiate thousands of carrier rates daily under dynamic pricing conditions where models frequently revise targets mid-conversation. Classical time-dependent concession frameworks use a fixed shape parameter $β$ that cannot adapt to these updates. Deriving $β$ from the live spread enables adaptation but introduces a new problem: a pricing shift can cause the formula to retract a previous offer, violating monotonicity. LLM-powered brokers offer flexibility but require expensive reasoning models, produce non-deterministic pricing, and remain vulnerable to prompt injection.   We propose a two-index anchor-and-resume framework that addresses both limitations. A spread-derived $β$ maps each load's margin structure to the correct concession posture, while the anchor-and-resume mechanism guarantees monotonically non-decreasing offers under arbitrary pricing shifts. All pricing decisions remain in a deterministic formula; the LLM, when used, serves only as a natural-language translation layer. Empirical evaluation across 115,125 negotiations shows that the adaptive $β$ tailors behavior by regime: in narrow spreads, it concedes quickly to prioritize deal closure and load coverage; in medium and wide spreads, it matches or exceeds the best fixed-$β$ baselines in broker savings. Against an unconstrained 20-billion-parameter LLM broker, it achieves similar agreement rates and savings. Against LLM-powered carriers as more realistic stochastic counterparties, it maintains comparable savings and higher agreement rates than against rule-based opponents. By decoupling the LLM from pricing logic, the framework scales horizontally to thousands of concurrent negotiations with negligible inference cost and transparent decision-making.",
     "authors": [
       "Hoang Nguyen",
       "Lu Wang",
@@ -1020,7 +1020,7 @@
     "authors": [
       "Yaiza Bermudez",
       "Samir Perlaza",
-      "I\u00f1aki Esnaola"
+      "Iñaki Esnaola"
     ],
     "categories": [
       "stat.ML",
@@ -1058,7 +1058,7 @@
   {
     "arxiv_id": "2604.20382v1",
     "title": "Graph2Counsel: Clinically Grounded Synthetic Counseling Dialogue Generation from Client Psychological Graphs",
-    "summary": "Rising demand for mental health support has increased interest in using Large Language Models (LLMs) for counseling. However, adapting LLMs to this high-risk safety-critical domain is hindered by the scarcity of real-world counseling data due to privacy constraints. Synthetic datasets provide a promising alternative, but existing approaches often rely on unstructured or semi-structured text inputs and overlook structural dependencies between a client's cognitive, emotional, and behavioral states, often producing psychologically inconsistent interactions and reducing data realism and quality. We introduce Graph2Counsel, a framework for generating synthetic counseling sessions grounded in Client Psychological Graphs (CPGs) that encode relationships among clients' thoughts, emotions, and behaviors. Graph2Counsel employs a structured prompting pipeline guided by counselor strategies and CPG, and explores prompting strategies including CoT (Wei et al., 2022) and Multi-Agent Feedback (Li et al., 2025a). Graph2Counsel produces 760 sessions from 76 CPGs across diverse client profiles. In expert evaluation, our dataset outperforms prior datasets on specificity, counselor competence, authenticity, conversational flow, and safety, with substantial inter-annotator agreement (Krippendorff's $\u03b1$ = 0.70). Fine-tuning an open-source model on this dataset improves performance on CounselingBench (Nguyen et al., 2025) and CounselBench (Li et al., 2025b), showing downstream utility. We also make our code and data public.",
+    "summary": "Rising demand for mental health support has increased interest in using Large Language Models (LLMs) for counseling. However, adapting LLMs to this high-risk safety-critical domain is hindered by the scarcity of real-world counseling data due to privacy constraints. Synthetic datasets provide a promising alternative, but existing approaches often rely on unstructured or semi-structured text inputs and overlook structural dependencies between a client's cognitive, emotional, and behavioral states, often producing psychologically inconsistent interactions and reducing data realism and quality. We introduce Graph2Counsel, a framework for generating synthetic counseling sessions grounded in Client Psychological Graphs (CPGs) that encode relationships among clients' thoughts, emotions, and behaviors. Graph2Counsel employs a structured prompting pipeline guided by counselor strategies and CPG, and explores prompting strategies including CoT (Wei et al., 2022) and Multi-Agent Feedback (Li et al., 2025a). Graph2Counsel produces 760 sessions from 76 CPGs across diverse client profiles. In expert evaluation, our dataset outperforms prior datasets on specificity, counselor competence, authenticity, conversational flow, and safety, with substantial inter-annotator agreement (Krippendorff's $α$ = 0.70). Fine-tuning an open-source model on this dataset improves performance on CounselingBench (Nguyen et al., 2025) and CounselBench (Li et al., 2025b), showing downstream utility. We also make our code and data public.",
     "authors": [
       "Aishik Mandal",
       "Hiba Arnaout",
@@ -1234,7 +1234,7 @@
       "Peter Collett",
       "Alexander Johannes Stasik",
       "Simone Casolo",
-      "Signe Riemer-S\u00f8rensen"
+      "Signe Riemer-Sørensen"
     ],
     "categories": [
       "cs.LG",
@@ -1429,7 +1429,7 @@
   {
     "arxiv_id": "2604.20368v1",
     "title": "LaplacianFormer:Rethinking Linear Attention with Laplacian Kernel",
-    "summary": "The quadratic complexity of softmax attention presents a major obstacle for scaling Transformers to high-resolution vision tasks. Existing linear attention variants often replace the softmax with Gaussian kernels to reduce complexity, but such approximations lack theoretical grounding and tend to oversuppress mid-range token interactions. We propose LaplacianFormer, a Transformer variant that employs a Laplacian kernel as a principled alternative to softmax, motivated by empirical observations and theoretical analysis. To address expressiveness degradation under low-rank approximations, we introduce a provably injective feature map that retains fine-grained token information. For efficient computation, we adopt a Nystr\u00f6m approximation of the kernel matrix and solve the resulting system using Newton--Schulz iteration, avoiding costly matrix inversion and SVD. We further develop custom CUDA implementations for both the kernel and solver, enabling high-throughput forward and backward passes suitable for edge deployment. Experiments on ImageNet show that LaplacianFormer achieves strong performance-efficiency trade-offs while improving attention expressiveness.",
+    "summary": "The quadratic complexity of softmax attention presents a major obstacle for scaling Transformers to high-resolution vision tasks. Existing linear attention variants often replace the softmax with Gaussian kernels to reduce complexity, but such approximations lack theoretical grounding and tend to oversuppress mid-range token interactions. We propose LaplacianFormer, a Transformer variant that employs a Laplacian kernel as a principled alternative to softmax, motivated by empirical observations and theoretical analysis. To address expressiveness degradation under low-rank approximations, we introduce a provably injective feature map that retains fine-grained token information. For efficient computation, we adopt a Nyström approximation of the kernel matrix and solve the resulting system using Newton--Schulz iteration, avoiding costly matrix inversion and SVD. We further develop custom CUDA implementations for both the kernel and solver, enabling high-throughput forward and backward passes suitable for edge deployment. Experiments on ImageNet show that LaplacianFormer achieves strong performance-efficiency trade-offs while improving attention expressiveness.",
     "authors": [
       "Zhe Feng",
       "Sen Lian",
@@ -1494,7 +1494,7 @@
     "authors": [
       "Sara Petiton",
       "Antoine Grigis",
-      "Rapha\u00ebl Vock",
+      "Raphaël Vock",
       "Edouard Duchesnay"
     ],
     "categories": [
@@ -1834,7 +1834,7 @@
   {
     "arxiv_id": "2604.20777v1",
     "title": "Efficient Multi-Cohort Inference for Long-Term Effects and Lifetime Value in A/B Testing with User Learning",
-    "summary": "In streaming platforms churn is extremely costly, yet A/B tests are typically evaluated using outcomes observed within a limited experimental horizon. Even when both short- and predicted long-term engagement metrics are considered, they may fail to capture how a treatment affects users' retention. Consequently, an intervention may appear beneficial in the short term and neutral in the long term while still generating lower total value than the control due to users churn.   To address this limitation, we introduce a method that estimates long-term treatment effects (LTE) and residual lifetime value change ($\u0394ERLV$) in short multi-cohort A/B tests under user learning. To estimate time-varying treatment effects efficiently, we introduce an inverse-variance weighted estimator that combines multiple cohorts estimates, reducing variance relative to standard approaches in the literature. The estimated treatment trajectory is then modeled as a parametric decay to recover both the asymptotic treatment effect and the cumulative value generated over time.   Our framework enables simultaneous evaluation of steady-state impact and residual user value within a single experiment. Empirical results show improved precision in estimating LTE and $\u0394ERLV$ and identify scenarios in which relying on either short-term or long-term metrics alone would lead to incorrect product decisions.",
+    "summary": "In streaming platforms churn is extremely costly, yet A/B tests are typically evaluated using outcomes observed within a limited experimental horizon. Even when both short- and predicted long-term engagement metrics are considered, they may fail to capture how a treatment affects users' retention. Consequently, an intervention may appear beneficial in the short term and neutral in the long term while still generating lower total value than the control due to users churn.   To address this limitation, we introduce a method that estimates long-term treatment effects (LTE) and residual lifetime value change ($ΔERLV$) in short multi-cohort A/B tests under user learning. To estimate time-varying treatment effects efficiently, we introduce an inverse-variance weighted estimator that combines multiple cohorts estimates, reducing variance relative to standard approaches in the literature. The estimated treatment trajectory is then modeled as a parametric decay to recover both the asymptotic treatment effect and the cumulative value generated over time.   Our framework enables simultaneous evaluation of steady-state impact and residual user value within a single experiment. Empirical results show improved precision in estimating LTE and $ΔERLV$ and identify scenarios in which relying on either short-term or long-term metrics alone would lead to incorrect product decisions.",
     "authors": [
       "Dario Simionato",
       "Andrea Tonon",
@@ -2142,7 +2142,7 @@
   {
     "arxiv_id": "2604.20516v1",
     "title": "Efficient Symbolic Computations for Identifying Causal Effects",
-    "summary": "Determining identifiability of causal effects from observational data under latent confounding is a central challenge in causal inference. For linear structural causal models, identifiability of causal effects is decidable through symbolic computation. However, standard approaches based on Gr\u00f6bner bases become computationally infeasible beyond small settings due to their doubly exponential complexity. In this work, we study how to practically use symbolic computation for deciding rational identifiability. In particular, we present an efficient algorithm that provably finds the lowest degree identifying formulas. For a causal effect of interest, if there exists an identification formula of a prespecified maximal degree, our algorithm returns such a formula in quasi-polynomial time.",
+    "summary": "Determining identifiability of causal effects from observational data under latent confounding is a central challenge in causal inference. For linear structural causal models, identifiability of causal effects is decidable through symbolic computation. However, standard approaches based on Gröbner bases become computationally infeasible beyond small settings due to their doubly exponential complexity. In this work, we study how to practically use symbolic computation for deciding rational identifiability. In particular, we present an efficient algorithm that provably finds the lowest degree identifying formulas. For a causal effect of interest, if there exists an identification formula of a prespecified maximal degree, our algorithm returns such a formula in quasi-polynomial time.",
     "authors": [
       "Benjamin Hollering",
       "Pratik Misra",
@@ -2188,7 +2188,7 @@
     "authors": [
       "Petrus Lipsanen",
       "Liisa Rannikko",
-      "Fran\u00e7ois Christophe",
+      "François Christophe",
       "Konsta Kalliokoski",
       "Vlad Stirbu",
       "Tommi Mikkonen"
@@ -2481,7 +2481,7 @@
   {
     "arxiv_id": "2604.20414v1",
     "title": "Fast and Provably Accurate Sequential Designs using Hilbert Space Gaussian Processes",
-    "summary": "Gaussian processes are widely used for accurate emulation of unknown surfaces in sequential design of expensive simulation experiments. Integrated mean squared error (IMSE) is an effective acquisition function for sequential designs based on Gaussian processes. However, existing approaches struggle with its implementation because the required integrals often lack closed-form expressions for most kernel functions. We propose a novel and computationally efficient Hilbert space Gaussian process approximation for the IMSE acquisition function, where a truncated eigenbasis representation of the integral enables closed-form evaluation. We establish sharp global non-asymptotic bounds for both the approximation error of isotropic kernels and the resulting error in the acquisition function. In a series of numerical experiments with $\u03b3$-stabilizing, the proposed method achieves substantially lower prediction error and reduced computation time compared to existing benchmarks. These results demonstrate that the proposed Hilbert space Gaussian process framework provides an accurate and computationally efficient approach for Gaussian process based sequential design.",
+    "summary": "Gaussian processes are widely used for accurate emulation of unknown surfaces in sequential design of expensive simulation experiments. Integrated mean squared error (IMSE) is an effective acquisition function for sequential designs based on Gaussian processes. However, existing approaches struggle with its implementation because the required integrals often lack closed-form expressions for most kernel functions. We propose a novel and computationally efficient Hilbert space Gaussian process approximation for the IMSE acquisition function, where a truncated eigenbasis representation of the integral enables closed-form evaluation. We establish sharp global non-asymptotic bounds for both the approximation error of isotropic kernels and the resulting error in the acquisition function. In a series of numerical experiments with $γ$-stabilizing, the proposed method achieves substantially lower prediction error and reduced computation time compared to existing benchmarks. These results demonstrate that the proposed Hilbert space Gaussian process framework provides an accurate and computationally efficient approach for Gaussian process based sequential design.",
     "authors": [
       "Huanyan Zhu",
       "Cheng Li"
@@ -2564,7 +2564,7 @@
     "title": "MGDA-Decoupled: Geometry-Aware Multi-Objective Optimisation for DPO-based LLM Alignment",
     "summary": "Aligning large language models (LLMs) to desirable human values requires balancing multiple, potentially conflicting objectives such as helpfulness, truthfulness, and harmlessness, which presents a multi-objective optimisation challenge. Most alignment pipelines rely on a fixed scalarisation of these objectives, which can introduce procedural unfairness by systematically under-weighting harder-to-optimise or minority objectives. To promote more equitable trade-offs, we introduce MGDA-Decoupled, a geometry-based multi-objective optimisation algorithm that finds a shared descent direction while explicitly accounting for each objective's convergence dynamics. In contrast to prior methods that depend on reinforcement learning (e.g., GAPO) or explicit reward models (e.g., MODPO), our approach operates entirely within the lightweight Direct Preference Optimisation (DPO) paradigm. Experiments on the UltraFeedback dataset show that geometry-aware methods -- and MGDA-Decoupled in particular -- achieve the highest win rates against golden responses, both overall and per objective.",
     "authors": [
-      "Andor V\u00e1ri-Kakas",
+      "Andor Vári-Kakas",
       "Ji Won Park",
       "Natasa Tagasovska"
     ],
@@ -2626,7 +2626,7 @@
     "summary": "As Large Language Models (LLMs) scale, data curation has shifted from maximizing volume to optimizing the signal-to-noise ratio by performing quality filtering. However, for many languages, native high quality data is insufficient to train robust quality classifiers. This work investigates the idea that quality markers in embedding space may show cross-lingual consistency, which would allow high-resource languages to subsidize the filtering of low-resource ones. We evaluate various filtering strategies, including cross-lingual transfer, third quartile sampling (Q3), and retention rate tuning. Our results demonstrate that massive multilingual pooling frequently outperforms monolingual baselines in both rank stability and aggregate accuracy for a 1B model trained on 103B tokens, delivering gains for high resource languages (1.2% increase in aggregate normalized accuracy for French) and matching or exceeding monolingual baselines for low-resource languages. However, we find that scale alone does not guarantee stability. Furthermore, for high-resource languages like French, we show that refining the decision boundary through third quartile sampling (Q3) or tuning the retention rate is necessary to fully leverage the multilingual signal.",
     "authors": [
       "Yassine Turki",
-      "Vinko Sabol\u010dec",
+      "Vinko Sabolčec",
       "Bettina Messmer",
       "Martin Jaggi"
     ],
@@ -2829,7 +2829,7 @@
     "authors": [
       "Markus Knauer",
       "Edoardo Fiorini",
-      "Maximilian M\u00fchlbauer",
+      "Maximilian Mühlbauer",
       "Stefan Schneyer",
       "Promwat Angsuratanawech",
       "Florian Samuel Lay",
@@ -2837,8 +2837,8 @@
       "Samuel Bustamante",
       "Korbinian Nottensteiner",
       "Freek Stulp",
-      "Alin Albu-Sch\u00e4ffer",
-      "Jo\u00e3o Silv\u00e9rio",
+      "Alin Albu-Schäffer",
+      "João Silvério",
       "Thomas Eiband"
     ],
     "categories": [
@@ -2908,7 +2908,7 @@
       "Ioanna Tsakalidou",
       "Roberta De Viti",
       "Albert Angel",
-      "Ji\u0159\u00ed I\u0161a",
+      "Jiří Iša",
       "Rastislav Lenhardt"
     ],
     "categories": [
@@ -2947,7 +2947,7 @@
   {
     "arxiv_id": "2604.20313v1",
     "title": "Formalising the Logit Shift Induced by LoRA: A Technical Note",
-    "summary": "This technical note provides a first-order formalisation of the logit shift and fact-margin change induced by Low-Rank Adaptation (LoRA). Using a first-order Fr\u00e9chet approximation around the base model trajectory, we show that the multi-layer LoRA effect can be decomposed into a linear summation of layerwise contributions and a higher-order remainder term representing inter-layer coupling.",
+    "summary": "This technical note provides a first-order formalisation of the logit shift and fact-margin change induced by Low-Rank Adaptation (LoRA). Using a first-order Fréchet approximation around the base model trajectory, we show that the multi-layer LoRA effect can be decomposed into a linear summation of layerwise contributions and a higher-order remainder term representing inter-layer coupling.",
     "authors": [
       "Xiang Shi",
       "Shuaizhi Cheng",
@@ -2999,7 +2999,7 @@
     "summary": "The analysis of neural representation has become an integral part of research aiming to better understand the inner workings of neural networks. While there are many different approaches to investigate neural representations, an important line of research has focused on doing so through the lens of intrinsic dimensions (IDs). Although this perspective has provided valuable insights and stimulated substantial follow-up research, important limitations of this approach have remained largely unaddressed. In this paper, we highlight a crucial discrepancy between theory and practice of IDs in neural representations, theoretically and empirically showing that common ID estimators are, in fact, not tracking the true underlying ID of the representation. We contrast this negative result with an investigation of the underlying factors that may drive commonly reported ID-related results on neural representation in the literature. Building on these insights, we offer a new perspective on ID estimation in neural representations.",
     "authors": [
       "Rickmer Schulte",
-      "David R\u00fcgamer"
+      "David Rügamer"
     ],
     "categories": [
       "cs.LG",
@@ -3378,7 +3378,7 @@
   {
     "arxiv_id": "2604.20446v1",
     "title": "The Origin of Edge of Stability",
-    "summary": "Full-batch gradient descent on neural networks drives the largest Hessian eigenvalue to the threshold $2/\u03b7$, where $\u03b7$ is the learning rate. This phenomenon, the Edge of Stability, has resisted a unified explanation: existing accounts establish self-regulation near the edge but do not explain why the trajectory is forced toward $2/\u03b7$ from arbitrary initialization. We introduce the edge coupling, a functional on consecutive iterate pairs whose coefficient is uniquely fixed by the gradient-descent update. Differencing its criticality condition yields a step recurrence with stability boundary $2/\u03b7$, and a second-order expansion yields a loss-change formula whose telescoping sum forces curvature toward $2/\u03b7$. The two formulas involve different Hessian averages, but the mean value theorem localizes each to the true Hessian at an interior point of the step segment, yielding exact forcing of the Hessian eigenvalue with no gap. Setting both gradients of the edge coupling to zero classifies fixed points and period-two orbits; near a fixed point, the problem reduces to a function of the half-amplitude alone, which determines which directions support period-two orbits and on which side of the critical learning rate they appear.",
+    "summary": "Full-batch gradient descent on neural networks drives the largest Hessian eigenvalue to the threshold $2/η$, where $η$ is the learning rate. This phenomenon, the Edge of Stability, has resisted a unified explanation: existing accounts establish self-regulation near the edge but do not explain why the trajectory is forced toward $2/η$ from arbitrary initialization. We introduce the edge coupling, a functional on consecutive iterate pairs whose coefficient is uniquely fixed by the gradient-descent update. Differencing its criticality condition yields a step recurrence with stability boundary $2/η$, and a second-order expansion yields a loss-change formula whose telescoping sum forces curvature toward $2/η$. The two formulas involve different Hessian averages, but the mean value theorem localizes each to the true Hessian at an interior point of the step segment, yielding exact forcing of the Hessian eigenvalue with no gap. Setting both gradients of the edge coupling to zero classifies fixed points and period-two orbits; near a fixed point, the problem reduces to a function of the half-amplitude alone, which determines which directions support period-two orbits and on which side of the critical learning rate they appear.",
     "authors": [
       "Elon Litman"
     ],
@@ -3436,7 +3436,7 @@
   {
     "arxiv_id": "2604.20301v1",
     "title": "Properties and limitations of geometric tempering for gradient flow dynamics",
-    "summary": "We consider the problem of sampling from a probability distribution $\u03c0$. It is well known that this can be written as an optimisation problem over the space of probability distributions in which we aim to minimise the Kullback--Leibler divergence from $\u03c0$.   We consider the effect of replacing $\u03c0$ with a sequence of moving targets $(\u03c0_t)_{t\\ge0}$ defined via geometric tempering on the Wasserstein and Fisher--Rao gradient flows.   We show that convergence occurs exponentially in continuous time, providing novel bounds in both cases. We also consider popular time discretisations and explore their convergence properties.   We show that in the Fisher--Rao case, replacing the target distribution with a geometric mixture of initial and target distribution never leads to a convergence speed up both in continuous time and in discrete time. Finally, we explore the gradient flow structure of tempered dynamics and derive novel adaptive tempering schedules.",
+    "summary": "We consider the problem of sampling from a probability distribution $π$. It is well known that this can be written as an optimisation problem over the space of probability distributions in which we aim to minimise the Kullback--Leibler divergence from $π$.   We consider the effect of replacing $π$ with a sequence of moving targets $(π_t)_{t\\ge0}$ defined via geometric tempering on the Wasserstein and Fisher--Rao gradient flows.   We show that convergence occurs exponentially in continuous time, providing novel bounds in both cases. We also consider popular time discretisations and explore their convergence properties.   We show that in the Fisher--Rao case, replacing the target distribution with a geometric mixture of initial and target distribution never leads to a convergence speed up both in continuous time and in discrete time. Finally, we explore the gradient flow structure of tempered dynamics and derive novel adaptive tempering schedules.",
     "authors": [
       "Francesca Romana Crucinio",
       "Sahani Pathiraja"
@@ -3561,7 +3561,7 @@
     "authors": [
       "Lukas Picek",
       "Timm Haucke",
-      "Luk\u00e1\u0161 Adam",
+      "Lukáš Adam",
       "Ekaterina Nepovinnykh",
       "Lasha Otarashvili",
       "Kostas Papafitsoros",
@@ -3697,7 +3697,7 @@
   {
     "arxiv_id": "2604.20633v1",
     "title": "A weighted angle distance on strings",
-    "summary": "We define a multi-scale metric $d_\u03c1$ on strings by aggregating angle distances between all $n$-gram count vectors with exponential weights $\u03c1^n$. We benchmark $d_\u03c1$ in DBSCAN clustering against edit and $n$-gram baselines, give a linear-time suffix-tree algorithm for evaluation, prove metric and stability properties (including robustness under tandem-repeat stutters), and characterize isometries.",
+    "summary": "We define a multi-scale metric $d_ρ$ on strings by aggregating angle distances between all $n$-gram count vectors with exponential weights $ρ^n$. We benchmark $d_ρ$ in DBSCAN clustering against edit and $n$-gram baselines, give a linear-time suffix-tree algorithm for evaluation, prove metric and stability properties (including robustness under tandem-repeat stutters), and characterize isometries.",
     "authors": [
       "Grant Molnar"
     ],
@@ -3743,7 +3743,7 @@
       "Toluwani Aremu",
       "Humaid Alblooshi",
       "Ana Rita Valente",
-      "Gon\u00e7alo Leal",
+      "Gonçalo Leal",
       "Zhengjun Yue",
       "Zeerak Talat",
       "Hanan Aldarmaki"
@@ -4147,7 +4147,7 @@
     "title": "Improving Facial Emotion Recognition through Dataset Merging and Balanced Training Strategies",
     "summary": "In this paper, a deep learning framework is proposed for automatic facial emotion based on deep convolutional networks. In order to increase the generalization ability and the robustness of the method, the dataset size is increased by merging three publicly available facial emotion datasets: CK+, FER+ and KDEF. Despite the increase in dataset size, the minority classes still suffer from insufficient number of training samples, leading to data imbalance. The data imbalance problem is minimized by online and offline augmentation techniques and random weighted sampling. Experimental results demonstrate that the proposed method can recognize the seven basic emotions with 82% accuracy. The results demonstrate the effectiveness of the proposed approach in tackling the challenges of data imbalance and improving classification performance in facial emotion recognition.",
     "authors": [
-      "Serap K\u0131rb\u0131z"
+      "Serap Kırbız"
     ],
     "categories": [
       "cs.CV"
@@ -4189,7 +4189,7 @@
   {
     "arxiv_id": "2604.20373v1",
     "title": "Neuro-evolutionary stochastic architectures in gauge-covariant neural fields",
-    "summary": "We extend our gauge-covariant stochastic neural-field framework by promoting architecture-level parameters to slow stochastic variables evolving in function space. Our effective theory is formulated in terms of classical commuting fields and provides symmetry-constrained diagnostics of marginality and finite-width effects through the maximal Lyapunov exponent, the amplification factor, and dressed spectral kernels. On top of this dynamics, we introduce a Markovian evolutionary scheme compatible with the local $U(1)$ structure of the effective model. By using a minimal implementation, the genotype is reduced to the weight-variance parameter $\u03c3_w^2$, and the fitness functional combines spectral agreement, marginal stability, and a symmetry-constrained critical anchor. Comparing three evolutionary models, we find that only the fully symmetry-constrained Ginibre $U(1)$ version robustly approaches a narrow near-marginal regime and reproduces the predicted low-frequency finite-width spectral behavior. These results support the use of symmetry-guided effective stability diagnostics as practical principles for stochastic architecture search in controlled settings.",
+    "summary": "We extend our gauge-covariant stochastic neural-field framework by promoting architecture-level parameters to slow stochastic variables evolving in function space. Our effective theory is formulated in terms of classical commuting fields and provides symmetry-constrained diagnostics of marginality and finite-width effects through the maximal Lyapunov exponent, the amplification factor, and dressed spectral kernels. On top of this dynamics, we introduce a Markovian evolutionary scheme compatible with the local $U(1)$ structure of the effective model. By using a minimal implementation, the genotype is reduced to the weight-variance parameter $σ_w^2$, and the fitness functional combines spectral agreement, marginal stability, and a symmetry-constrained critical anchor. Comparing three evolutionary models, we find that only the fully symmetry-constrained Ginibre $U(1)$ version robustly approaches a narrow near-marginal regime and reproduces the predicted low-frequency finite-width spectral behavior. These results support the use of symmetry-guided effective stability diagnostics as practical principles for stochastic architecture search in controlled settings.",
     "authors": [
       "Rodrigo Carmo Terin"
     ],
@@ -4215,7 +4215,7 @@
       "Rui Song",
       "Walter Zimmer",
       "Mingyu Liu",
-      "Andr\u00e9 Schamschurko",
+      "André Schamschurko",
       "Hu Cao",
       "Alois Knoll"
     ],
@@ -4302,9 +4302,9 @@
     "summary": "This paper presents the hybrid solver for a $CO_2$ sequestration problem. The solver uses the IGA-ADS (IsoGeometric Analysis Alternating Directions solver) to compute the saturation scalar field update using the explicit method, and CRVPINN (Collocation-based Robust Variational Physics Informed Neural Networks solver) to compute the pressure scalar field. The study focuses on simulating the physical behavior of $CO_2$ in porous structures, excluding chemical reactions. The mathematical model is based on Darcy's Law. The CRVPINN is pretrained on the initial pressure configuration, and the time step pressure updates require only 100 iterations of the Adam method per time step. We compare our hybrid IGA-ADS solver, coupled with the CRVPINN method, with a baseline of the IGA-ADS solver coupled with the MUMPS direct solver. Our hybrid solver is over 3 times faster on a single computational node from the ARES cluster of ACK CYFRONET. Future work includes extensive testing, inverse problem solving, and potential application to $H_2$ storage problems.",
     "authors": [
       "Askold Vilkha",
-      "Tomasz S\u0142u\u017calec",
-      "Marcin \u0141o\u015b",
-      "Maciej Paszy\u0144ski"
+      "Tomasz Służalec",
+      "Marcin Łoś",
+      "Maciej Paszyński"
     ],
     "categories": [
       "math.NA",
@@ -4320,7 +4320,7 @@
   {
     "arxiv_id": "2604.20679v1",
     "title": "Learning Hippo: Multi-attractor Dynamics and Stability Effects in a Biologically Detailed CA3 Extension of Hopfield Networks",
-    "summary": "We present a biologically detailed extension of the classical Hopfield/Marr auto-associative memory model for CA3, implementing ten populations (two asymmetric pyramidal subtypes, eight GABAergic interneuron classes), forty-seven compartments, multi-rule plasticity (recurrent Hebb, BCM anti-saturation, mossy-fiber short-term, endocannabinoid iLTD, burst-gated Hebb), and a bimodal cholinergic encoding/consolidation cycle. Evaluated on pattern completion across auto-associative, associative, and temporal regimes, and on a controlled inhibitory-proportion manipulation at $N{=}256$, the full architecture exhibits \\emph{three qualitative signatures absent from a minimal Hopfield baseline}: (i)~multi-attractor cross-seed behaviour at $K{=}5$ with biologically realistic inhibitory proportions, where two of five seeds converge to positive attractors with margin ${+}0.10{-}0.22$ (Cohen's $d{=}0.71$, one-sided $p{=}0.08$); (ii)~target-selective associative recall in paired $(A, B)$ memory at $K{\\geq}5$, where the full model retrieves $B$ from a partial cue of $A$ while the minimal model echoes $A$ (Pearson margin $\u0394{=}{+}0.163$ at $K{=}5$); (iii)~reduced cross-seed variance of the full model below the minimal baseline under clean upstream, with ratios $1.0{-}3.0$. These three signatures are architecture-specific: they appear consistently across independent regimes and are absent from the minimal control.",
+    "summary": "We present a biologically detailed extension of the classical Hopfield/Marr auto-associative memory model for CA3, implementing ten populations (two asymmetric pyramidal subtypes, eight GABAergic interneuron classes), forty-seven compartments, multi-rule plasticity (recurrent Hebb, BCM anti-saturation, mossy-fiber short-term, endocannabinoid iLTD, burst-gated Hebb), and a bimodal cholinergic encoding/consolidation cycle. Evaluated on pattern completion across auto-associative, associative, and temporal regimes, and on a controlled inhibitory-proportion manipulation at $N{=}256$, the full architecture exhibits \\emph{three qualitative signatures absent from a minimal Hopfield baseline}: (i)~multi-attractor cross-seed behaviour at $K{=}5$ with biologically realistic inhibitory proportions, where two of five seeds converge to positive attractors with margin ${+}0.10{-}0.22$ (Cohen's $d{=}0.71$, one-sided $p{=}0.08$); (ii)~target-selective associative recall in paired $(A, B)$ memory at $K{\\geq}5$, where the full model retrieves $B$ from a partial cue of $A$ while the minimal model echoes $A$ (Pearson margin $Δ{=}{+}0.163$ at $K{=}5$); (iii)~reduced cross-seed variance of the full model below the minimal baseline under clean upstream, with ratios $1.0{-}3.0$. These three signatures are architecture-specific: they appear consistently across independent regimes and are absent from the minimal control.",
     "authors": [
       "Daniele Corradetti",
       "Renato Corradetti"
@@ -4354,525 +4354,5 @@
     "date": "2026-04-23",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "nkshirsa/phd-research-os-brain",
-    "author": "unknown",
-    "title": "nkshirsa/phd-research-os-brain",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "scientific-research",
-      "claim-extraction",
-      "epistemic-classification",
-      "contradiction-detection",
-      "structured-output",
-      "research-assistant",
-      "phd-tools",
-      "multi-agent",
-      "ecc-harness",
-      "text-generation",
-      "en",
-      "dataset:nkshirsa/phd-research-os-sft-data",
-      "base_model:Qwen/Qwen2.5-3B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-3B-Instruct",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-04-23T01:42:22.000Z",
-    "last_modified": "2026-04-23T05:23:36.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/nkshirsa/phd-research-os-brain",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DevQuasar/moonshotai.Kimi-K2.6-GGUF",
-    "author": "unknown",
-    "title": "DevQuasar/moonshotai.Kimi-K2.6-GGUF",
-    "downloads": 67,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "text-generation",
-      "base_model:moonshotai/Kimi-K2.6",
-      "base_model:quantized:moonshotai/Kimi-K2.6",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-04-21T15:48:50.000Z",
-    "last_modified": "2026-04-23T05:22:11.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/DevQuasar/moonshotai.Kimi-K2.6-GGUF",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "felixwangg/Qwen2.5-Coder-7B-evol-66k-stage1",
-    "author": "unknown",
-    "title": "felixwangg/Qwen2.5-Coder-7B-evol-66k-stage1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "axolotl",
-      "base_model:adapter:Qwen/Qwen2.5-Coder-7B-Instruct",
-      "lora",
-      "transformers",
-      "conversational",
-      "dataset:felixwangg/evol-instruction-66k",
-      "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-04-23T05:20:44.000Z",
-    "last_modified": "2026-04-23T05:21:12.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/felixwangg/Qwen2.5-Coder-7B-evol-66k-stage1",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint450",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint450",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:18:11.000Z",
-    "last_modified": "2026-04-23T05:18:35.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint450",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint425",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint425",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:17:41.000Z",
-    "last_modified": "2026-04-23T05:18:05.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint425",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint400",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint400",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:17:11.000Z",
-    "last_modified": "2026-04-23T05:17:35.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint400",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ChinmayShastry9/distilbert-ag-news-topic-classifier",
-    "author": "unknown",
-    "title": "ChinmayShastry9/distilbert-ag-news-topic-classifier",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "distilbert",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-04-23T04:42:31.000Z",
-    "last_modified": "2026-04-23T05:17:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ChinmayShastry9/distilbert-ag-news-topic-classifier",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint375",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint375",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:16:41.000Z",
-    "last_modified": "2026-04-23T05:17:05.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint375",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "boradorish/qwen3-4b-finetuned-2.5k",
-    "author": "unknown",
-    "title": "boradorish/qwen3-4b-finetuned-2.5k",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "llama-factory",
-      "full",
-      "generated_from_trainer",
-      "conversational",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "base_model:finetune:Qwen/Qwen3-4B-Instruct-2507",
-      "license:other",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:15:37.000Z",
-    "last_modified": "2026-04-23T05:17:03.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/boradorish/qwen3-4b-finetuned-2.5k",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint350",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint350",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:16:11.000Z",
-    "last_modified": "2026-04-23T05:16:36.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint350",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint325",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint325",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:15:42.000Z",
-    "last_modified": "2026-04-23T05:16:06.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint325",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint300",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint300",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:15:08.000Z",
-    "last_modified": "2026-04-23T05:15:32.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint300",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint275",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint275",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:14:32.000Z",
-    "last_modified": "2026-04-23T05:14:57.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint275",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint250",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint250",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:13:58.000Z",
-    "last_modified": "2026-04-23T05:14:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint250",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint225",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint225",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:13:23.000Z",
-    "last_modified": "2026-04-23T05:13:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint225",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Kyleyee/VRPO_hh-seed1",
-    "author": "unknown",
-    "title": "Kyleyee/VRPO_hh-seed1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "drdpo",
-      "conversational",
-      "dataset:Kyleyee/train_data_Helpful_drdpo_preference",
-      "arxiv:2305.18290",
-      "base_model:Kyleyee/Qwen2.5-1.5B-sft-hh-3e",
-      "base_model:finetune:Kyleyee/Qwen2.5-1.5B-sft-hh-3e",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T03:59:24.000Z",
-    "last_modified": "2026-04-23T05:13:37.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Kyleyee/VRPO_hh-seed1",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint200",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint200",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:12:49.000Z",
-    "last_modified": "2026-04-23T05:13:13.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint200",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint175",
-    "author": "unknown",
-    "title": "choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint175",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-23T05:12:14.000Z",
-    "last_modified": "2026-04-23T05:12:39.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/choiqs/Qwen3-1.7B-tldr-bsz128-ts500-ranking1.528-skywork8b-seed42-lr1e-6-warmup10-checkpoint175",
-    "date": "2026-04-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
