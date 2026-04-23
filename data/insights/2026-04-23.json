@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-23T09:21:50.811934",
+  "date": "2026-04-23T11:03:38.659158",
   "patterns": {
     "multimodal_research": [
       {
@@ -307,10 +307,6 @@
       {
         "title": "MD-Face: MoE-Enhanced Label-Free Disentangled Representation for Interactive Facial Attribute Editing",
         "url": "https://arxiv.org/abs/2604.20317v1"
-      },
-      {
-        "title": "ITZGEEK/potato-disease-efficientnetv2s",
-        "url": "https://huggingface.co/ITZGEEK/potato-disease-efficientnetv2s"
       },
       {
         "title": "Quantization robustness from dense representations of sparse functions in high-capacity kernel associative memory",
@@ -931,10 +927,6 @@
       {
         "title": "Exploring High-Order Self-Similarity for Video Understanding",
         "url": "https://arxiv.org/abs/2604.20760v1"
-      },
-      {
-        "title": "INCModel/Z-Image-tiny-for-testing",
-        "url": "https://huggingface.co/INCModel/Z-Image-tiny-for-testing"
       }
     ],
     "reasoning": [
@@ -1737,7 +1729,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "48 independent papers",
+      "observation": "47 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1755,7 +1747,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 427
+    "total_papers": 425
   }
 }
