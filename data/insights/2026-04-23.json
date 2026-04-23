@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-23T19:01:19.097003",
+  "date": "2026-04-23T20:09:55.475860",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,40 +671,8 @@
         "url": "https://arxiv.org/abs/2604.20395v1"
       },
       {
-        "title": "71-vueT10/imdb-bert-470-test",
-        "url": "https://huggingface.co/71-vueT10/imdb-bert-470-test"
-      },
-      {
-        "title": "melisar2/imdb-bert",
-        "url": "https://huggingface.co/melisar2/imdb-bert"
-      },
-      {
-        "title": "manmanluo/imdb-bert-470-test-sp26",
-        "url": "https://huggingface.co/manmanluo/imdb-bert-470-test-sp26"
-      },
-      {
-        "title": "sebbeb/imdb-bert-470",
-        "url": "https://huggingface.co/sebbeb/imdb-bert-470"
-      },
-      {
-        "title": "cloudwoowoo/imdb-bert-470-test01",
-        "url": "https://huggingface.co/cloudwoowoo/imdb-bert-470-test01"
-      },
-      {
-        "title": "xiangmingming/imdb-bert-470-test",
-        "url": "https://huggingface.co/xiangmingming/imdb-bert-470-test"
-      },
-      {
-        "title": "Kaylav11/imdb-bert-470",
-        "url": "https://huggingface.co/Kaylav11/imdb-bert-470"
-      },
-      {
-        "title": "kinggreco/imdb-bert-470-test",
-        "url": "https://huggingface.co/kinggreco/imdb-bert-470-test"
-      },
-      {
-        "title": "SpecificTax/imdb-bert-470",
-        "url": "https://huggingface.co/SpecificTax/imdb-bert-470"
+        "title": "dhasmana/Kumaoni-Bhojpuri1h-per-lang-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/Kumaoni-Bhojpuri1h-per-lang-w2v-bert-2.0"
       }
     ],
     "vision_systems": [
@@ -1747,10 +1715,6 @@
       {
         "title": "SurgCoT: Advancing Spatiotemporal Reasoning in Surgical Videos through a Chain-of-Thought Benchmark",
         "url": "https://arxiv.org/abs/2604.20319v1"
-      },
-      {
-        "title": "SOTAagi2030/MyWeakModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyWeakModel-TestRepo"
       }
     ]
   },
@@ -1781,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1805,7 +1769,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "115 independent papers",
+      "observation": "114 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1840,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 435
+    "total_papers": 426
   }
 }
