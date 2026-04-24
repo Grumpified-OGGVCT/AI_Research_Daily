@@ -801,7 +801,7 @@
     "summary": "In many application domains (e.g., recommender systems, intelligent tutoring systems), the rewards associated to the actions tend to decrease over time. This decay is either caused by the actions executed in the past (e.g., a user may get bored when songs of the same genre are recommended over and over) or by an external factor (e.g., content becomes outdated). These two situations can be modeled as specific instances of the rested and restless bandit settings, where arms are rotting (i.e., their value decrease over time). These problems were thought to be significantly different, since Levine et al. (2017) showed that state-of-the-art algorithms for restless bandit perform poorly in the rested rotting setting. In this paper, we introduce a novel algorithm, Rotting Adaptive Window UCB (RAW-UCB), that achieves near-optimal regret in both rotting rested and restless bandit, without any prior knowledge of the setting (rested or restless) and the type of non-stationarity (e.g., piece-wise constant, bounded variation). This is in striking contrast with previous negative results showing that no algorithm can achieve similar results as soon as rewards are allowed to increase. We confirm our theoretical findings on a number of synthetic and dataset-based experiments.",
     "authors": [
       "Julien Seznec",
-      "Pierre M\u00e9nard",
+      "Pierre Ménard",
       "Alessandro Lazaric",
       "Michal Valko"
     ],
@@ -949,7 +949,7 @@
   {
     "arxiv_id": "2604.21677v1",
     "title": "Geometric Monomial (GEM): a family of rational 2N-differentiable activation functions",
-    "summary": "The choice of activation function plays a crucial role in the optimization and performance of deep neural networks. While the Rectified Linear Unit (ReLU) remains the dominant choice due to its simplicity and effectiveness, its lack of smoothness may hinder gradient-based optimization in deep architectures. In this work we propose a family of $C^{2N}$-smooth activation functions whose gate follows a log-logistic CDF, achieving ReLU-like performance with purely rational arithmetic. We introduce three variants: GEM (the base family), E-GEM (an $\u03b5$-parameterized generalization enabling arbitrary $L^p$-approximation of ReLU), and SE-GEM (a piecewise variant eliminating dead neurons with $C^{2N}$ junction smoothness). An $N$-ablation study establishes $N=1$ as optimal for standard-depth networks, reducing the GELU deficit on CIFAR-100 + ResNet-56 from 6.10% to 2.12%. The smoothness parameter $N$ further reveals a CNN-transformer tradeoff: $N=1$ is preferred for deep CNNs, while $N=2$ is preferred for transformers. On MNIST, E-GEM ties the best baseline (99.23%). On CIFAR-10 + ResNet-56, SE-GEM ($\u03b5=10^{-4}$) surpasses GELU (92.51% vs 92.44%) -- the first GEM-family activation to outperform GELU. On CIFAR-100 + ResNet-56, E-GEM reduces the GELU deficit from 6.10% (GEM $N=2$) to just 0.62%. On GPT-2 (124M), GEM achieves the lowest perplexity (72.57 vs 73.76 for GELU), with GEM $N=1$ also beating GELU (73.32). On BERT-small, E-GEM ($\u03b5=10$) achieves the best validation loss (6.656) across all activations. The $\u03b5$-parameterization reveals a scale-dependent optimum: small $\u03b5$ ($10^{-4}$--$10^{-6}$) for deep CNNs and larger transformers, with the special case of small transformers (BERT-small) benefiting from large $\u03b5$ ($\u03b5=10$) due to its limited depth and unconstrained gradients.",
+    "summary": "The choice of activation function plays a crucial role in the optimization and performance of deep neural networks. While the Rectified Linear Unit (ReLU) remains the dominant choice due to its simplicity and effectiveness, its lack of smoothness may hinder gradient-based optimization in deep architectures. In this work we propose a family of $C^{2N}$-smooth activation functions whose gate follows a log-logistic CDF, achieving ReLU-like performance with purely rational arithmetic. We introduce three variants: GEM (the base family), E-GEM (an $ε$-parameterized generalization enabling arbitrary $L^p$-approximation of ReLU), and SE-GEM (a piecewise variant eliminating dead neurons with $C^{2N}$ junction smoothness). An $N$-ablation study establishes $N=1$ as optimal for standard-depth networks, reducing the GELU deficit on CIFAR-100 + ResNet-56 from 6.10% to 2.12%. The smoothness parameter $N$ further reveals a CNN-transformer tradeoff: $N=1$ is preferred for deep CNNs, while $N=2$ is preferred for transformers. On MNIST, E-GEM ties the best baseline (99.23%). On CIFAR-10 + ResNet-56, SE-GEM ($ε=10^{-4}$) surpasses GELU (92.51% vs 92.44%) -- the first GEM-family activation to outperform GELU. On CIFAR-100 + ResNet-56, E-GEM reduces the GELU deficit from 6.10% (GEM $N=2$) to just 0.62%. On GPT-2 (124M), GEM achieves the lowest perplexity (72.57 vs 73.76 for GELU), with GEM $N=1$ also beating GELU (73.32). On BERT-small, E-GEM ($ε=10$) achieves the best validation loss (6.656) across all activations. The $ε$-parameterization reveals a scale-dependent optimum: small $ε$ ($10^{-4}$--$10^{-6}$) for deep CNNs and larger transformers, with the special case of small transformers (BERT-small) benefiting from large $ε$ ($ε=10$) due to its limited depth and unconstrained gradients.",
     "authors": [
       "Eylon E. Krause"
     ],
@@ -1024,7 +1024,7 @@
       "Nishant Mishra",
       "Rachel Murphy",
       "Ameen Abu-Hanna",
-      "S\u00e9bastien Brati\u00e8res",
+      "Sébastien Bratières",
       "Iacer Calixto"
     ],
     "categories": [
@@ -1423,7 +1423,7 @@
     "summary": "We previously introduced a training-free method for dysarthria severity assessment based on d-prime separability of phonological feature subspaces in frozen self-supervised speech representations, validated on 890 speakers across 5 languages with HuBERT-base. Here, we scale the analysis to 3,374 speakers from 25 datasets spanning 12 languages and 5 aetiologies (Parkinson's disease, cerebral palsy, ALS, Down syndrome, and stroke), plus healthy controls, using 6 SSL backbones. We report three findings. First, aetiology-specific degradation profiles are distinguishable at the group level: 10 of 13 features yield large effect sizes (epsilon-squared > 0.14, Holm-corrected p < 0.001), with Parkinson's disease separable from the articulatory execution group at Cohen's d = 0.83; individual-level classification remains limited (22.6% macro F1). Second, profiles show cross-lingual profile-shape stability: cosine similarity of 5-dimensional consonant d-prime profiles exceeds 0.95 across the languages available for each aetiology. Absolute d-prime magnitudes are not cross-lingually calibrated, so the method supports language-independent phenotyping of degradation patterns but requires within-corpus calibration for absolute severity interpretation. Third, the method is architecture-independent: all 6 backbones produce monotonic severity gradients with inter-model agreement exceeding rho = 0.77. Fixed-token d-prime estimation preserves the severity correlation (rho = -0.733 at 200 tokens per class), confirming that the signal is not a token-count artefact. These results support phonological subspace analysis as a robust, training-free framework for aetiology-aware dysarthria characterisation, with evidence of cross-lingual profile-shape stability and cross-backbone robustness in the represented sample.",
     "authors": [
       "Bernard Muller",
-      "Antonio Armando Ortiz Barra\u00f1\u00f3n",
+      "Antonio Armando Ortiz Barrañón",
       "LaVonne Roberts"
     ],
     "categories": [
@@ -1749,7 +1749,7 @@
     "title": "Mapping the Political Discourse in the Brazilian Chamber of Deputies: A Multi-Faceted Computational Approach",
     "summary": "Analyses of legislative behavior often rely on voting records, overlooking the rich semantic and rhetorical content of political speech. In this paper, we ask three complementary questions about parliamentary discourse: how things are said, what is being said, and who is speaking in discursively similar ways. To answer these questions, we introduce a scalable and generalizable computational framework that combines diachronic stylometric analysis, contextual topic modeling, and semantic clustering of deputies' speeches. We apply this framework to a large-scale case study of the Brazilian Chamber of Deputies, using a corpus of over 450,000 speeches from 2003 to 2025. Our results show a long-term stylistic shift toward shorter and more direct speeches, a legislative agenda that reorients sharply in response to national crises, and a granular map of discursive alignments in which regional and gender identities often prove more salient than formal party affiliation. More broadly, this work offers a robust methodology for analyzing parliamentary discourse as a multidimensional phenomenon that complements traditional vote-based approaches.",
     "authors": [
-      "Fl\u00e1vio Soriano",
+      "Flávio Soriano",
       "Victoria F. Mello",
       "Pedro B. Rigueira",
       "Gisele L. Pappa",
@@ -1861,7 +1861,7 @@
     "authors": [
       "Marius Huber",
       "David R. Reich",
-      "Lena A. J\u00e4ger"
+      "Lena A. Jäger"
     ],
     "categories": [
       "cs.CL",
@@ -1880,10 +1880,10 @@
     "title": "To See the Unseen: on the Generalization Ability of Transformers in Symbolic Reasoning",
     "summary": "We investigate the ability of decoder-only transformer models to perform abstract symbolic reasoning; specifically solving propositional logic reasoning problems given in-context. Previous work demonstrated that models fail to generalize to problems involving variable names that were not observed during training, and it was shown that one reason behind this is the difficulty of copying (or generating) unseen tokens. We show both theoretically and empirically that a particular representational collapse also has a crucial role: the unembeddings (last-layer weights) of unseen tokens collapse to nearly the same vector during training. The collapse makes distinguishing multiple unseen variables difficult for the model (especially when the embedding and unembedding parameters are shared), and provides a mechanistic explanation for the effectiveness of existing heuristic interventions like \"active forgetting\", which periodically reset the token (un)embeddings. Based on these observations, we devise a combination of techniques, involving a small architecture change facilitating copying, data diversity, and freezing or resetting (un)embeddings, that achieves generalization to unseen tokens. We support our claims with extensive controlled experiments on propositional logic reasoning problems. Beyond synthetic experiments, we also observe evidence of (un)embedding collapse in the open-weight models in the Gemma 3 family, which includes 99 unused tokens reserved for downstream use. Empirically we find that the correlated embeddings of these tokens are a poor initialization for finetuning applications.",
     "authors": [
-      "Nevena Lazi\u0107",
+      "Nevena Lazić",
       "Liam Fowl",
-      "Andr\u00e1s Gy\u00f6rgy",
-      "Csaba Szepesv\u00e1ri"
+      "András György",
+      "Csaba Szepesvári"
     ],
     "categories": [
       "cs.AI"
@@ -2173,7 +2173,7 @@
     "summary": "Large language models increasingly shape the information people consume: they are embedded in search, consulted for professional advice, deployed as agents, and used as a first stop for questions about policy, ethics, health, and politics. When such a model silently holds a position on a contested topic, that position propagates at scale into users' decisions. Eliciting a model's positions is harder than it first appears: contemporary assistants answer direct opinion questions with evasive disclaimers, and the same model may concede the opposite position once the user starts arguing one side. We propose a method, released as the open-source llm-bias-bench, for discovering the opinions an LLM actually holds on contested topics under conditions that resemble real multi-turn interaction. The method pairs two complementary free-form probes. Direct probing asks for the model's opinion across five turns of escalating pressure from a simulated user. Indirect probing never asks for an opinion and engages the model in argumentative debate, letting bias leak through how it concedes, resists, or counter-argues. Three user personas (neutral, agree, disagree) collapse into a nine-way behavioral classification that separates persona-independent positions from persona-dependent sycophancy, and an auditable LLM judge produces verdicts with textual evidence. The first instantiation ships 38 topics in Brazilian Portuguese across values, scientific consensus, philosophy, and economic policy. Applied to 13 assistants, the method surfaces findings of practical interest: argumentative debate triggers sycophancy 2-3x more than direct questioning (median 50% to 79%); models that look opinionated under direct questioning often collapse into mirroring under sustained arguments; and attacker capability matters mainly when an existing opinion must be dislodged, not when the assistant starts neutral.",
     "authors": [
       "Rodrigo Nogueira",
-      "Giovana Kerche Bon\u00e1s",
+      "Giovana Kerche Bonás",
       "Thales Sales Almeida",
       "Andrea Roque",
       "Ramon Pires",
@@ -2310,8 +2310,8 @@
     "title": "Revealing Geography-Driven Signals in Zone-Level Claim Frequency Models: An Empirical Study using Environmental and Visual Predictors",
     "summary": "Geographic context is often consider relevant to motor insurance risk, yet public actuarial datasets provide limited location identifiers, constraining how this information can be incorporated and evaluated in claim-frequency models. This study examines how geographic information from alternative data sources can be incorporated into actuarial models for Motor Third Party Liability (MTPL) claim prediction under such constraints.   Using the BeMTPL97 dataset, we adopt a zone-level modeling framework and evaluate predictive performance on unseen postcodes. Geographic information is introduced through two channels: environmental indicators from OpenStreetMap and CORINE Land Cover, and orthoimagery released by the Belgian National Geographic Institute for academic use. We evaluate the predictive contribution of coordinates, environmental features, and image embeddings across three baseline models: generalized linear models (GLMs), regularized GLMs, and gradient-boosted trees, while raw imagery is modeled using convolutional neural networks.   Our results show that augmenting actuarial variables with constructed geographic information improves accuracy. Across experiments, both linear and tree-based models benefit most from combining coordinates with environmental features extracted at 5 km scale, while smaller neighborhoods also improve baseline specifications. Generally, image embeddings do not improve performance when environmental features are available; however, when such features are absent, pretrained vision-transformer embeddings enhance accuracy and stability for regularized GLMs. Our results show that the predictive value of geographic information in zone-level MTPL frequency models depends less on model complexity than on how geography is represented, and illustrate that geographic context can be incorporated despite limited individual-level spatial information.",
     "authors": [
-      "Sherly Alfonso-S\u00e1nchez",
-      "Cristi\u00e1n Bravo",
+      "Sherly Alfonso-Sánchez",
+      "Cristián Bravo",
       "Kristina G. Stankova"
     ],
     "categories": [
@@ -2354,8 +2354,8 @@
     "authors": [
       "Eike S. Eberhard",
       "Viktor Kotsev",
-      "Timm G\u00fcthle",
-      "Stephan G\u00fcnnemann"
+      "Timm Güthle",
+      "Stephan Günnemann"
     ],
     "categories": [
       "cs.LG"
@@ -2657,7 +2657,7 @@
   {
     "arxiv_id": "2604.21863v1",
     "title": "Replay-buffer engineering for noise-robust quantum circuit optimization",
-    "summary": "Deep reinforcement learning (RL) for quantum circuit optimization faces three fundamental bottlenecks: replay buffers that ignore the reliability of temporal-difference (TD) targets, curriculum-based architecture search that triggers a full quantum-classical evaluation at every environment step, and the routine discard of noiseless trajectories when retraining under hardware noise. We address all three by treating the replay buffer as a primary algorithmic lever for quantum optimization. We introduce ReaPER$+$, an annealed replay rule that transitions from TD error-driven prioritization early in training to reliability-aware sampling as value estimates mature, achieving $4-32\\times$ gains in sample efficiency over fixed PER, ReaPER, and uniform replay while consistently discovering more compact circuits across quantum compilation and QAS benchmarks; validation on LunarLander-v3 confirms the principle is domain-agnostic. Furthermore we eliminate the quantum-classical evaluation bottleneck in curriculum RL by introducing OptCRLQAS which amortizes expensive evaluations over multiple architectural edits, cutting wall-clock time per episode by up to $67.5\\%$ on a 12-qubit optimization problem without degrading solution quality. Finally we introduce a lightweight replay-buffer transfer scheme that warm-starts noisy-setting learning by reusing noiseless trajectories, without network-weight transfer or $\u03b5$-greedy pretraining. This reduces steps to chemical accuracy by up to $85-90\\%$ and final energy error by up to $90\\%$ over from-scratch baselines on 6-, 8-, and 12-qubit molecular tasks. Together, these results establish that experience storage, sampling, and transfer are decisive levers for scalable, noise-robust quantum circuit optimization.",
+    "summary": "Deep reinforcement learning (RL) for quantum circuit optimization faces three fundamental bottlenecks: replay buffers that ignore the reliability of temporal-difference (TD) targets, curriculum-based architecture search that triggers a full quantum-classical evaluation at every environment step, and the routine discard of noiseless trajectories when retraining under hardware noise. We address all three by treating the replay buffer as a primary algorithmic lever for quantum optimization. We introduce ReaPER$+$, an annealed replay rule that transitions from TD error-driven prioritization early in training to reliability-aware sampling as value estimates mature, achieving $4-32\\times$ gains in sample efficiency over fixed PER, ReaPER, and uniform replay while consistently discovering more compact circuits across quantum compilation and QAS benchmarks; validation on LunarLander-v3 confirms the principle is domain-agnostic. Furthermore we eliminate the quantum-classical evaluation bottleneck in curriculum RL by introducing OptCRLQAS which amortizes expensive evaluations over multiple architectural edits, cutting wall-clock time per episode by up to $67.5\\%$ on a 12-qubit optimization problem without degrading solution quality. Finally we introduce a lightweight replay-buffer transfer scheme that warm-starts noisy-setting learning by reusing noiseless trajectories, without network-weight transfer or $ε$-greedy pretraining. This reduces steps to chemical accuracy by up to $85-90\\%$ and final energy error by up to $90\\%$ over from-scratch baselines on 6-, 8-, and 12-qubit molecular tasks. Together, these results establish that experience storage, sampling, and transfer are decisive levers for scalable, noise-robust quantum circuit optimization.",
     "authors": [
       "Akash Kundu",
       "Sebastian Feld"
@@ -2850,7 +2850,7 @@
   {
     "arxiv_id": "2604.21854v1",
     "title": "Bounding the Black Box: A Statistical Certification Framework for AI Risk Regulation",
-    "summary": "Artificial intelligence now decides who receives a loan, who is flagged for criminal investigation, and whether an autonomous vehicle brakes in time. Governments have responded: the EU AI Act, the NIST Risk Management Framework, and the Council of Europe Convention all demand that high-risk systems demonstrate safety before deployment. Yet beneath this regulatory consensus lies a critical vacuum: none specifies what ``acceptable risk'' means in quantitative terms, and none provides a technical method for verifying that a deployed system actually meets such a threshold. The regulatory architecture is in place; the verification instrument is not.   This gap is not theoretical. As the EU AI Act moves into full enforcement, developers face mandatory conformity assessments without established methodologies for producing quantitative safety evidence - and the systems most in need of oversight are opaque statistical inference engines that resist white-box scrutiny.   This paper provides the missing instrument. Drawing on the aviation certification paradigm, we propose a two-stage framework that transforms AI risk regulation into engineering practice. In Stage One, a competent authority formally fixes an acceptable failure probability $\u03b4$ and an operational input domain $\\varepsilon$ - a normative act with direct civil liability implications. In Stage Two, the RoMA and gRoMA statistical verification tools compute a definitive, auditable upper bound on the system's true failure rate, requiring no access to model internals and scaling to arbitrary architectures. We demonstrate how this certificate satisfies existing regulatory obligations, shifts accountability upstream to developers, and integrates with the legal frameworks that exist today.",
+    "summary": "Artificial intelligence now decides who receives a loan, who is flagged for criminal investigation, and whether an autonomous vehicle brakes in time. Governments have responded: the EU AI Act, the NIST Risk Management Framework, and the Council of Europe Convention all demand that high-risk systems demonstrate safety before deployment. Yet beneath this regulatory consensus lies a critical vacuum: none specifies what ``acceptable risk'' means in quantitative terms, and none provides a technical method for verifying that a deployed system actually meets such a threshold. The regulatory architecture is in place; the verification instrument is not.   This gap is not theoretical. As the EU AI Act moves into full enforcement, developers face mandatory conformity assessments without established methodologies for producing quantitative safety evidence - and the systems most in need of oversight are opaque statistical inference engines that resist white-box scrutiny.   This paper provides the missing instrument. Drawing on the aviation certification paradigm, we propose a two-stage framework that transforms AI risk regulation into engineering practice. In Stage One, a competent authority formally fixes an acceptable failure probability $δ$ and an operational input domain $\\varepsilon$ - a normative act with direct civil liability implications. In Stage Two, the RoMA and gRoMA statistical verification tools compute a definitive, auditable upper bound on the system's true failure rate, requiring no access to model internals and scaling to arbitrary architectures. We demonstrate how this certificate satisfies existing regulatory obligations, shifts accountability upstream to developers, and integrates with the legal frameworks that exist today.",
     "authors": [
       "Natan Levy",
       "Gadi Perl"
@@ -2889,7 +2889,7 @@
     "summary": "We compare lightweight automata-based models (n-grams) with neural architectures (LSTM, Transformer) for next-activity prediction in streaming event logs. Experiments on synthetic patterns and five real-world process mining datasets show that n-grams with appropriate context windows achieve comparable accuracy to neural models while requiring substantially fewer resources. Unlike windowed neural architectures, which show unstable performance patterns, n-grams provide stable and consistent accuracy. While we demonstrate that classical ensemble methods like voting improve n-gram performance, they require running many agents in parallel during inference, increasing memory consumption and latency. We propose an ensemble method, the promotion algorithm, that dynamically selects between two active models during inference, reducing overhead compared to classical voting schemes. On real-world datasets, these ensembles match or exceed the accuracy of non-windowed neural models with lower computational cost.",
     "authors": [
       "Benedikt Bollig",
-      "Matthias F\u00fcgger",
+      "Matthias Függer",
       "Thomas Nowak",
       "Paul Zeinaty"
     ],
@@ -2979,7 +2979,7 @@
     "title": "Evaluation of Automatic Speech Recognition Using Generative Large Language Models",
     "summary": "Automatic Speech Recognition (ASR) is traditionally evaluated using Word Error Rate (WER), a metric that is insensitive to meaning. Embedding-based semantic metrics are better correlated with human perception, but decoder-based Large Language Models (LLMs) remain underexplored for this task. This paper evaluates their relevance through three approaches: (1) selecting the best hypothesis between two candidates, (2) computing semantic distance using generative embeddings, and (3) qualitative classification of errors. On the HATS dataset, the best LLMs achieve 92--94\\% agreement with human annotators for hypothesis selection, compared to 63\\% for WER, also outperforming semantic metrics. Embeddings from decoder-based LLMs show performance comparable to encoder models. Finally, LLMs offer a promising direction for interpretable and semantic ASR evaluation.",
     "authors": [
-      "Thibault Ba\u00f1eras-Roux",
+      "Thibault Bañeras-Roux",
       "Shashi Kumar",
       "Driss Khalil",
       "Sergio Burdisso",
@@ -3077,7 +3077,7 @@
     "authors": [
       "Timothy Joseph Murphy",
       "Jennifer Cook",
-      "H\u00e9lio Clemente Jos\u00e9 Cuve"
+      "Hélio Clemente José Cuve"
     ],
     "categories": [
       "cs.CV",
@@ -3144,7 +3144,7 @@
       "Shivam Rawat",
       "Lucie Flek",
       "Florian Mai",
-      "Nicholas Kluge Corr\u00eaa"
+      "Nicholas Kluge Corrêa"
     ],
     "categories": [
       "cs.CL",
@@ -3569,7 +3569,7 @@
     "title": "An effective variant of the Hartigan $k$-means algorithm",
     "summary": "The k-means problem is perhaps the classical clustering problem and often synonymous with Lloyd's algorithm (1957). It has become clear that Hartigan's algorithm (1975) gives better results in almost all cases, Telgarsky-Vattani note a typical improvement of $5\\%$ -- $10\\%$. We point out that a very minor variation of Hartigan's method leads to another $2\\%$ -- $5\\%$ improvement; the improvement tends to become larger when either dimension or $k$ increase.",
     "authors": [
-      "Fran\u00e7ois Cl\u00e9ment",
+      "François Clément",
       "Stefan Steinerberger"
     ],
     "categories": [
@@ -3612,7 +3612,7 @@
     "summary": "Applying the concept of controlled self-organization in agent-based Cyber-Physical Energy Systems (CPES) is a promising approach to ensure system robustness. By introducing an observer/controller architecture to the system, this concept allows for self-organization while still enabling intervention when disturbances occur. Thus, it is possible to respond to effects of cyber attacks, a major threat to current energy systems. However, when implementing an observer to monitor the system and a controller to execute actions for controlled self-organization in CPES, it is essential to take into account restrictions on information and actions resulting from the privacy of local distributed energy resources, regulatory constraints, and data exchange requirements. For this reason, this paper presents architecture variants for the observer and controller that take into account restrictions on access to information and limited actions. In addition, it evaluates possible controller actions in various architectures. The results underscore the importance of considering observer/controller architectures when designing agent-based systems to ensure their robustness for real-world applications.",
     "authors": [
       "Emilie Frost",
-      "Astrid Nie\u00dfe"
+      "Astrid Nieße"
     ],
     "categories": [
       "cs.MA",
@@ -3633,7 +3633,7 @@
       "Arindam Sengupta",
       "Tony Bush",
       "Ben Marner",
-      "Jose Miguel P\u00e9rez",
+      "Jose Miguel Pérez",
       "Soledad Le Clainche"
     ],
     "categories": [
@@ -3753,7 +3753,7 @@
       "Jamie Simon",
       "Daniel Kunin",
       "Alexander Atanasov",
-      "Enric Boix-Adser\u00e0",
+      "Enric Boix-Adserà",
       "Blake Bordelon",
       "Jeremy Cohen",
       "Nikhil Ghosh",
@@ -3931,7 +3931,7 @@
   {
     "arxiv_id": "2604.21923v1",
     "title": "The Sample Complexity of Multicalibration",
-    "summary": "We study the minimax sample complexity of multicalibration in the batch setting. A learner observes $n$ i.i.d. samples from an unknown distribution and must output a (possibly randomized) predictor whose population multicalibration error, measured by Expected Calibration Error (ECE), is at most $\\varepsilon$ with respect to a given family of groups. For every fixed $\u03ba> 0$, in the regime $|G|\\le \\varepsilon^{-\u03ba}$, we prove that $\\widetilde\u0398(\\varepsilon^{-3})$ samples are necessary and sufficient, up to polylogarithmic factors. The lower bound holds even for randomized predictors, and the upper bound is realized by a randomized predictor obtained via an online-to-batch reduction. This separates the sample complexity of multicalibration from that of marginal calibration, which scales as $\\widetilde\u0398(\\varepsilon^{-2})$, and shows that mean-ECE multicalibration is as difficult in the batch setting as it is in the online setting, in contrast to marginal calibration which is strictly more difficult in the online setting. In contrast we observe that for $\u03ba= 0$, the sample complexity of multicalibration remains $\\widetilde\u0398(\\varepsilon^{-2})$ exhibiting a sharp threshold phenomenon.   More generally, we establish matching upper and lower bounds, up to polylogarithmic factors, for a weighted $L_p$ multicalibration metric for all $1 \\le p \\le 2$, with optimal exponent $3/p$. We also extend the lower-bound template to a regular class of elicitable properties, and combine it with the online upper bounds of Hu et al. (2025) to obtain matching bounds for calibrating properties including expectiles and bounded-density quantiles.",
+    "summary": "We study the minimax sample complexity of multicalibration in the batch setting. A learner observes $n$ i.i.d. samples from an unknown distribution and must output a (possibly randomized) predictor whose population multicalibration error, measured by Expected Calibration Error (ECE), is at most $\\varepsilon$ with respect to a given family of groups. For every fixed $κ> 0$, in the regime $|G|\\le \\varepsilon^{-κ}$, we prove that $\\widetildeΘ(\\varepsilon^{-3})$ samples are necessary and sufficient, up to polylogarithmic factors. The lower bound holds even for randomized predictors, and the upper bound is realized by a randomized predictor obtained via an online-to-batch reduction. This separates the sample complexity of multicalibration from that of marginal calibration, which scales as $\\widetildeΘ(\\varepsilon^{-2})$, and shows that mean-ECE multicalibration is as difficult in the batch setting as it is in the online setting, in contrast to marginal calibration which is strictly more difficult in the online setting. In contrast we observe that for $κ= 0$, the sample complexity of multicalibration remains $\\widetildeΘ(\\varepsilon^{-2})$ exhibiting a sharp threshold phenomenon.   More generally, we establish matching upper and lower bounds, up to polylogarithmic factors, for a weighted $L_p$ multicalibration metric for all $1 \\le p \\le 2$, with optimal exponent $3/p$. We also extend the lower-bound template to a regular class of elicitable properties, and combine it with the online upper bounds of Hu et al. (2025) to obtain matching bounds for calibrating properties including expectiles and bounded-density quantiles.",
     "authors": [
       "Natalie Collina",
       "Jiuyao Lu",
@@ -4028,7 +4028,7 @@
   {
     "arxiv_id": "2604.21407v1",
     "title": "Even More Guarantees for Variational Inference in the Presence of Symmetries",
-    "summary": "When approximating an intractable density via variational inference (VI) the variational family is typically chosen as a simple parametric family that very likely does not contain the target. This raises the question: Under which conditions can we recover characteristics of the target despite misspecification? In this work, we extend previous results on robust VI with location-scale families under target symmetries. We derive sufficient conditions guaranteeing exact recovery of the mean when using the forward Kullback-Leibler divergence and $\u03b1$-divergences. We further show how and why optimization can fail to recover the target mean in the absence of our sufficient conditions, providing initial guidelines on the choice of the variational family and $\u03b1$-value.",
+    "summary": "When approximating an intractable density via variational inference (VI) the variational family is typically chosen as a simple parametric family that very likely does not contain the target. This raises the question: Under which conditions can we recover characteristics of the target despite misspecification? In this work, we extend previous results on robust VI with location-scale families under target symmetries. We derive sufficient conditions guaranteeing exact recovery of the mean when using the forward Kullback-Leibler divergence and $α$-divergences. We further show how and why optimization can fail to recover the target mean in the absence of our sufficient conditions, providing initial guidelines on the choice of the variational family and $α$-value.",
     "authors": [
       "Lena Zellinger",
       "Antonio Vergari"
@@ -4064,39 +4064,6 @@
     "pdf_url": "https://arxiv.org/pdf/2604.21387v1.pdf",
     "date": "2026-04-24",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 28137,
-    "likes": 309,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-04-24T05:30:45.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-04-24",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4430,275 +4397,6 @@
     "pdf_url": "https://arxiv.org/pdf/2604.21861v1.pdf",
     "date": "2026-04-24",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Youssofal/Qwen3.6-27B-Abliterated-Heretic-Uncensored-MLX-4bit",
-    "author": "unknown",
-    "title": "Youssofal/Qwen3.6-27B-Abliterated-Heretic-Uncensored-MLX-4bit",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "qwen3_5",
-      "mlx-lm",
-      "qwen",
-      "qwen3.6",
-      "dense",
-      "multimodal",
-      "vlm",
-      "vision",
-      "video",
-      "abliterated",
-      "uncensored",
-      "heretic",
-      "mpoa",
-      "apple-silicon",
-      "4-bit",
-      "text-generation",
-      "conversational",
-      "base_model:Youssofal/Qwen3.6-27B-Abliterated-Heretic-Uncensored-BF16",
-      "base_model:quantized:Youssofal/Qwen3.6-27B-Abliterated-Heretic-Uncensored-BF16",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-04-24T04:59:29.000Z",
-    "last_modified": "2026-04-24T05:29:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Youssofal/Qwen3.6-27B-Abliterated-Heretic-Uncensored-MLX-4bit",
-    "date": "2026-04-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "KasuleTrevor/cdli-whisper-lg-sunbird-decoder-a40",
-    "author": "unknown",
-    "title": "KasuleTrevor/cdli-whisper-lg-sunbird-decoder-a40",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "base_model:Sunbird/asr-whisper-large-v3-salt",
-      "base_model:finetune:Sunbird/asr-whisper-large-v3-salt",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-04-24T03:05:50.000Z",
-    "last_modified": "2026-04-24T05:26:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/KasuleTrevor/cdli-whisper-lg-sunbird-decoder-a40",
-    "date": "2026-04-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "prince47736/detr-bees.v2-release.coco-cropped-subset-freeze-class-bbox",
-    "author": "unknown",
-    "title": "prince47736/detr-bees.v2-release.coco-cropped-subset-freeze-class-bbox",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "detr",
-      "object-detection",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "transformers",
-    "created_at": "2026-04-24T05:25:14.000Z",
-    "last_modified": "2026-04-24T05:25:15.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/prince47736/detr-bees.v2-release.coco-cropped-subset-freeze-class-bbox",
-    "date": "2026-04-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "OpenxAILabs/nix-reviewer-1.5b",
-    "author": "unknown",
-    "title": "OpenxAILabs/nix-reviewer-1.5b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "nix",
-      "nixos",
-      "code-review",
-      "lora",
-      "fine-tuned",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:Qwen/Qwen2.5-Coder-1.5B-Instruct",
-      "base_model:adapter:Qwen/Qwen2.5-Coder-1.5B-Instruct",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-04-23T15:00:22.000Z",
-    "last_modified": "2026-04-24T05:24:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/OpenxAILabs/nix-reviewer-1.5b",
-    "date": "2026-04-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mradermacher/Archon-8B-GGUF",
-    "author": "unknown",
-    "title": "mradermacher/Archon-8B-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "qwen3",
-      "abliteration",
-      "uncensored",
-      "text-generation",
-      "reasoning",
-      "en",
-      "zh",
-      "fr",
-      "de",
-      "es",
-      "ja",
-      "ko",
-      "base_model:DuoNeural/Archon-8B",
-      "base_model:quantized:DuoNeural/Archon-8B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-04-24T04:22:31.000Z",
-    "last_modified": "2026-04-24T05:24:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mradermacher/Archon-8B-GGUF",
-    "date": "2026-04-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "imShub10/msgsense-sms-albert-cleanaddr-fulldata-20260424",
-    "author": "unknown",
-    "title": "imShub10/msgsense-sms-albert-cleanaddr-fulldata-20260424",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "albert",
-      "text-classification",
-      "sms",
-      "sms-classification",
-      "clean-address",
-      "msgsense",
-      "en",
-      "base_model:albert/albert-base-v2",
-      "base_model:finetune:albert/albert-base-v2",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-04-24T04:59:41.000Z",
-    "last_modified": "2026-04-24T05:22:20.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/imShub10/msgsense-sms-albert-cleanaddr-fulldata-20260424",
-    "date": "2026-04-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "imShub10/msgsense-sms-bert-base-cleanaddr-fulldata-20260424",
-    "author": "unknown",
-    "title": "imShub10/msgsense-sms-bert-base-cleanaddr-fulldata-20260424",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "bert",
-      "text-classification",
-      "sms",
-      "sms-classification",
-      "clean-address",
-      "bert-base",
-      "msgsense",
-      "en",
-      "base_model:google-bert/bert-base-uncased",
-      "base_model:finetune:google-bert/bert-base-uncased",
-      "license:mit",
-      "text-embeddings-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-04-24T05:09:21.000Z",
-    "last_modified": "2026-04-24T05:21:57.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/imShub10/msgsense-sms-bert-base-cleanaddr-fulldata-20260424",
-    "date": "2026-04-24",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "imShub10/msgsense-sms-distilbert-cleanaddr-fulldata-20260424",
-    "author": "unknown",
-    "title": "imShub10/msgsense-sms-distilbert-cleanaddr-fulldata-20260424",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "distilbert",
-      "text-classification",
-      "sms",
-      "sms-classification",
-      "clean-address",
-      "msgsense",
-      "en",
-      "base_model:distilbert/distilbert-base-uncased",
-      "base_model:finetune:distilbert/distilbert-base-uncased",
-      "license:mit",
-      "text-embeddings-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-04-24T05:08:22.000Z",
-    "last_modified": "2026-04-24T05:21:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/imShub10/msgsense-sms-distilbert-cleanaddr-fulldata-20260424",
-    "date": "2026-04-24",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
