@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-25T16:35:28.360937",
+  "date": "2026-04-25T17:34:32.108631",
   "patterns": {
     "multimodal_research": [
       {
@@ -619,12 +619,12 @@
         "url": "https://arxiv.org/abs/2604.21479v1"
       },
       {
-        "title": "rghosh8/deepseek-llm-7b-chat-opencoder-educational-instruct-seed-3407-G-4",
-        "url": "https://huggingface.co/rghosh8/deepseek-llm-7b-chat-opencoder-educational-instruct-seed-3407-G-4"
+        "title": "Tharun124/Helpdeskemail-ModernBERT-classifier",
+        "url": "https://huggingface.co/Tharun124/Helpdeskemail-ModernBERT-classifier"
       },
       {
-        "title": "jcfossati/ForSureLLM",
-        "url": "https://huggingface.co/jcfossati/ForSureLLM"
+        "title": "Nithins03/us-architectural-floorplan-llm",
+        "url": "https://huggingface.co/Nithins03/us-architectural-floorplan-llm"
       }
     ],
     "vision_systems": [
@@ -1229,6 +1229,10 @@
       {
         "title": "Causality-Encoded Diffusion Models for Interventional Sampling and Edge Inference",
         "url": "https://arxiv.org/abs/2604.21843v1"
+      },
+      {
+        "title": "TeichAI/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-GGUF",
+        "url": "https://huggingface.co/TeichAI/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-GGUF"
       }
     ],
     "benchmarks": [
@@ -1705,7 +1709,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1735,7 +1739,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 43,
+      "frequency": 44,
       "significance": "high"
     },
     {
@@ -1752,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 414
   }
 }
