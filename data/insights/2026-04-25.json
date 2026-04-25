@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-25T15:36:14.326501",
+  "date": "2026-04-25T16:35:28.360937",
   "patterns": {
     "multimodal_research": [
       {
@@ -617,6 +617,14 @@
       {
         "title": "Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction",
         "url": "https://arxiv.org/abs/2604.21479v1"
+      },
+      {
+        "title": "rghosh8/deepseek-llm-7b-chat-opencoder-educational-instruct-seed-3407-G-4",
+        "url": "https://huggingface.co/rghosh8/deepseek-llm-7b-chat-opencoder-educational-instruct-seed-3407-G-4"
+      },
+      {
+        "title": "jcfossati/ForSureLLM",
+        "url": "https://huggingface.co/jcfossati/ForSureLLM"
       }
     ],
     "vision_systems": [
@@ -1685,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 413
   }
 }
