@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-25T19:41:42.452169",
+  "date": "2026-04-25T20:33:25.113750",
   "patterns": {
     "multimodal_research": [
       {
@@ -1221,10 +1221,6 @@
       {
         "title": "Causality-Encoded Diffusion Models for Interventional Sampling and Edge Inference",
         "url": "https://arxiv.org/abs/2604.21843v1"
-      },
-      {
-        "title": "brunopio/Qwen3.5-14B-A3B-Claude-4.6-Opus-Reasoning-Distilled-reap-Q2_K-GGUF",
-        "url": "https://huggingface.co/brunopio/Qwen3.5-14B-A3B-Claude-4.6-Opus-Reasoning-Distilled-reap-Q2_K-GGUF"
       }
     ],
     "benchmarks": [
@@ -1701,7 +1697,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1731,7 +1727,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 44,
+      "frequency": 43,
       "significance": "high"
     },
     {
@@ -1748,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 411
   }
 }
