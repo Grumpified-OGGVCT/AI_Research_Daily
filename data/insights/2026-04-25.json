@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-25T12:48:45.953207",
+  "date": "2026-04-25T14:01:52.980868",
   "patterns": {
     "multimodal_research": [
       {
@@ -267,10 +267,6 @@
       {
         "title": "Directional Confusions Reveal Divergent Inductive Biases Through Rate-Distortion Geometry in Human and Machine Vision",
         "url": "https://arxiv.org/abs/2604.21909v1"
-      },
-      {
-        "title": "jhhj25/qwen3-moe-neuron_structure_drop-p50-s1k-128samples-sft",
-        "url": "https://huggingface.co/jhhj25/qwen3-moe-neuron_structure_drop-p50-s1k-128samples-sft"
       }
     ],
     "language_models": [
@@ -621,18 +617,6 @@
       {
         "title": "Frozen LLMs as Map-Aware Spatio-Temporal Reasoners for Vehicle Trajectory Prediction",
         "url": "https://arxiv.org/abs/2604.21479v1"
-      },
-      {
-        "title": "yuantj/fine_tune_llm_qwen3_8b_epochs5_lr1p75e4_noquant_3",
-        "url": "https://huggingface.co/yuantj/fine_tune_llm_qwen3_8b_epochs5_lr1p75e4_noquant_3"
-      },
-      {
-        "title": "yuantj/fine_tune_llm_qwen3_8b_epochs5_lr1p75e4_3",
-        "url": "https://huggingface.co/yuantj/fine_tune_llm_qwen3_8b_epochs5_lr1p75e4_3"
-      },
-      {
-        "title": "kelly-n/gpt2-samsum-lora",
-        "url": "https://huggingface.co/kelly-n/gpt2-samsum-lora"
       }
     ],
     "vision_systems": [
@@ -1689,7 +1673,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "44 independent papers",
+      "observation": "43 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1701,7 +1685,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1760,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 411
   }
 }
