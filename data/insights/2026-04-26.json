@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-26T02:07:24.496250",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "MansiJerry/Qwen3-8B-GRPO-llm-base-score-df-quad",
+        "url": "https://huggingface.co/MansiJerry/Qwen3-8B-GRPO-llm-base-score-df-quad"
+      },
+      {
+        "title": "JuniKhan123/urdu-deepfake-wav2vec2bert-extended",
+        "url": "https://huggingface.co/JuniKhan123/urdu-deepfake-wav2vec2bert-extended"
+      },
+      {
+        "title": "peyterho/financial-roberta-large-macro-sentiment",
+        "url": "https://huggingface.co/peyterho/financial-roberta-large-macro-sentiment"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
+  }
+}
