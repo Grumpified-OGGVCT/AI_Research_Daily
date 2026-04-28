@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-28T05:54:56.889915",
+  "date": "2026-04-28T08:13:43.054176",
   "patterns": {
     "multimodal_research": [
       {
@@ -109,6 +109,10 @@
       {
         "title": "NeuroClaw Technical Report",
         "url": "https://arxiv.org/abs/2604.24696v1"
+      },
+      {
+        "title": "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP-XS",
+        "url": "https://huggingface.co/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP-XS"
       }
     ],
     "efficient_architectures": [
@@ -673,10 +677,6 @@
       {
         "title": "Geometric Analysis of Self-Supervised Vision Representations for Semantic Image Retrieval",
         "url": "https://arxiv.org/abs/2604.24469v1"
-      },
-      {
-        "title": "aariciah/gpt2-german-dutch-synsem",
-        "url": "https://huggingface.co/aariciah/gpt2-german-dutch-synsem"
       }
     ],
     "vision_systems": [
@@ -1753,7 +1753,7 @@
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "27 independent papers",
+      "observation": "28 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1777,7 +1777,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1809,7 +1809,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 70,
+      "frequency": 69,
       "significance": "high"
     },
     {
