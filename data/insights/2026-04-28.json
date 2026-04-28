@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-28T19:26:06.678432",
+  "date": "2026-04-28T21:03:37.500266",
   "patterns": {
     "multimodal_research": [
       {
@@ -675,6 +675,10 @@
         "url": "https://arxiv.org/abs/2604.24469v1"
       },
       {
+        "title": "ANOUARELIDRISSI/email-generator-gpt2",
+        "url": "https://huggingface.co/ANOUARELIDRISSI/email-generator-gpt2"
+      },
+      {
         "title": "jainsatyam26/bertclassfier",
         "url": "https://huggingface.co/jainsatyam26/bertclassfier"
       }
@@ -975,10 +979,6 @@
       {
         "title": "WildLIFT: Lifting monocular drone video to 3D for species-agnostic wildlife monitoring",
         "url": "https://arxiv.org/abs/2604.24718v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1317,6 +1317,10 @@
       {
         "title": "WildLIFT: Lifting monocular drone video to 3D for species-agnostic wildlife monitoring",
         "url": "https://arxiv.org/abs/2604.24718v1"
+      },
+      {
+        "title": "inferencerlabs/DeepSeek-V4-Pro-MLX-2.8bit-EXP",
+        "url": "https://huggingface.co/inferencerlabs/DeepSeek-V4-Pro-MLX-2.8bit-EXP"
       }
     ],
     "benchmarks": [
@@ -1751,6 +1755,10 @@
       {
         "title": "Touchless Intraoperative Image Access System Based on Vision-Based Hand Tracking",
         "url": "https://arxiv.org/abs/2604.24235v1"
+      },
+      {
+        "title": "SOTAagi2030/MyModel-NoFigures-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyModel-NoFigures-TestRepo"
       }
     ]
   },
@@ -1781,19 +1789,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1805,7 +1813,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "108 independent papers",
+      "observation": "109 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1840,6 +1848,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 435
+    "total_papers": 437
   }
 }
