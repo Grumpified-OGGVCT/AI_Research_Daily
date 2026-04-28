@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-28T17:43:35.939760",
+  "date": "2026-04-28T19:26:06.678432",
   "patterns": {
     "multimodal_research": [
       {
@@ -675,10 +675,6 @@
         "url": "https://arxiv.org/abs/2604.24469v1"
       },
       {
-        "title": "vXofi/businessgpt-v13-dpo-qwen3.5-2b",
-        "url": "https://huggingface.co/vXofi/businessgpt-v13-dpo-qwen3.5-2b"
-      },
-      {
         "title": "jainsatyam26/bertclassfier",
         "url": "https://huggingface.co/jainsatyam26/bertclassfier"
       }
@@ -979,6 +975,10 @@
       {
         "title": "WildLIFT: Lifting monocular drone video to 3D for species-agnostic wildlife monitoring",
         "url": "https://arxiv.org/abs/2604.24718v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1317,10 +1317,6 @@
       {
         "title": "WildLIFT: Lifting monocular drone video to 3D for species-agnostic wildlife monitoring",
         "url": "https://arxiv.org/abs/2604.24718v1"
-      },
-      {
-        "title": "TourniquetRules/flip7-reasoning-sft-Qwen3-4B",
-        "url": "https://huggingface.co/TourniquetRules/flip7-reasoning-sft-Qwen3-4B"
       }
     ],
     "benchmarks": [
@@ -1785,19 +1781,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1837,13 +1833,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 39,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 436
+    "total_papers": 435
   }
 }
