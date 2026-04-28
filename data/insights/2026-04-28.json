@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-28T08:13:43.054176",
+  "date": "2026-04-28T11:00:22.108651",
   "patterns": {
     "multimodal_research": [
       {
@@ -109,10 +109,6 @@
       {
         "title": "NeuroClaw Technical Report",
         "url": "https://arxiv.org/abs/2604.24696v1"
-      },
-      {
-        "title": "AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP-XS",
-        "url": "https://huggingface.co/AEON-7/Qwen3.6-27B-AEON-Ultimate-Uncensored-Multimodal-NVFP4-MTP-XS"
       }
     ],
     "efficient_architectures": [
@@ -1313,6 +1309,10 @@
       {
         "title": "WildLIFT: Lifting monocular drone video to 3D for species-agnostic wildlife monitoring",
         "url": "https://arxiv.org/abs/2604.24718v1"
+      },
+      {
+        "title": "mahmut2142/alimzeka-gemma-reasoning",
+        "url": "https://huggingface.co/mahmut2142/alimzeka-gemma-reasoning"
       }
     ],
     "benchmarks": [
@@ -1753,7 +1753,7 @@
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "28 independent papers",
+      "observation": "27 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1789,7 +1789,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1829,7 +1829,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 39,
+      "frequency": 40,
       "significance": "high"
     }
   ],
