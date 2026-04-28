@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-28T22:52:20.756152",
+  "date": "2026-04-28T23:50:47.421871",
   "patterns": {
     "multimodal_research": [
       {
@@ -299,6 +299,10 @@
       {
         "title": "ReVSI: Rebuilding Visual Spatial Intelligence Evaluation for Accurate Assessment of VLM 3D Reasoning",
         "url": "https://arxiv.org/abs/2604.24300v1"
+      },
+      {
+        "title": "noctrex/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-MXFP4_MOE-GGUF",
+        "url": "https://huggingface.co/noctrex/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-MXFP4_MOE-GGUF"
       }
     ],
     "language_models": [
@@ -913,10 +917,6 @@
         "url": "https://arxiv.org/abs/2604.24146v1"
       },
       {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
-      },
-      {
         "title": "Majorization-Guided Test-Time Adaptation for Vision-Language Models under Modality-Specific Shift",
         "url": "https://arxiv.org/abs/2604.24602v1"
       },
@@ -1315,8 +1315,8 @@
         "url": "https://arxiv.org/abs/2604.24718v1"
       },
       {
-        "title": "RhinoWithAcape/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF",
-        "url": "https://huggingface.co/RhinoWithAcape/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-GGUF"
+        "title": "noctrex/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-MXFP4_MOE-GGUF",
+        "url": "https://huggingface.co/noctrex/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-MXFP4_MOE-GGUF"
       }
     ],
     "benchmarks": [
@@ -1769,7 +1769,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "47 independent papers",
+      "observation": "48 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1787,7 +1787,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
