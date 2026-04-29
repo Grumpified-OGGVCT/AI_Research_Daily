@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-29T22:55:04.018000",
+  "date": "2026-04-29T23:50:49.393299",
   "patterns": {
     "multimodal_research": [
       {
@@ -275,6 +275,10 @@
       {
         "title": "Magnification-Invariant Image Classification via Domain Generalization and Stable Sparse Embedding Signatures",
         "url": "https://arxiv.org/abs/2604.25817v1"
+      },
+      {
+        "title": "NisithDissanayake/genknob-tuner-moe",
+        "url": "https://huggingface.co/NisithDissanayake/genknob-tuner-moe"
       }
     ],
     "language_models": [
@@ -633,10 +637,6 @@
       {
         "title": "When the Forger Is the Judge: GPT-Image-2 Cannot Recognize Its Own Faked Documents",
         "url": "https://arxiv.org/abs/2604.25213v1"
-      },
-      {
-        "title": "ANOUARELIDRISSI/email-generator-gpt2",
-        "url": "https://huggingface.co/ANOUARELIDRISSI/email-generator-gpt2"
       }
     ],
     "vision_systems": [
@@ -847,6 +847,10 @@
       {
         "title": "Towards Robust Deep Learning-based Rumex Obtusifolius Detection from Drone Images",
         "url": "https://arxiv.org/abs/2604.25316v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Quantum-Inspired Robust and Scalable SAR Object Classification",
@@ -1639,6 +1643,10 @@
       {
         "title": "SAMe: A Semantic Anatomy Mapping Engine for Robotic Ultrasound",
         "url": "https://arxiv.org/abs/2604.25646v1"
+      },
+      {
+        "title": "SOTAagi2030/MyCodeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo"
       }
     ]
   },
@@ -1657,7 +1665,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "38 independent papers",
+      "observation": "39 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1669,13 +1677,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1693,7 +1701,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "115 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1721,13 +1729,13 @@
     },
     {
       "topic": "prompt",
-      "frequency": 27,
+      "frequency": 26,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 409
   }
 }
