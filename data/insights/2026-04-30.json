@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-30T20:55:03.475519",
+  "date": "2026-04-30T21:53:38.556780",
   "patterns": {
     "multimodal_research": [
       {
@@ -1209,6 +1209,10 @@
       {
         "title": "Evolutionary feature selection for spiking neural network pattern classifiers",
         "url": "https://arxiv.org/abs/2604.26654v1"
+      },
+      {
+        "title": "inferencerlabs/MiMo-V2.5-MLX-5.8bit-INF",
+        "url": "https://huggingface.co/inferencerlabs/MiMo-V2.5-MLX-5.8bit-INF"
       }
     ],
     "benchmarks": [
@@ -1701,7 +1705,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 413
   }
 }
