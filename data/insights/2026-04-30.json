@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-30T15:05:16.539939",
+  "date": "2026-04-30T17:14:44.492163",
   "patterns": {
     "multimodal_research": [
       {
@@ -1209,6 +1209,10 @@
       {
         "title": "Evolutionary feature selection for spiking neural network pattern classifiers",
         "url": "https://arxiv.org/abs/2604.26654v1"
+      },
+      {
+        "title": "yufeng1/OpenThinker-7B-reasoning-full-lora-max-type3-e5-1e5-2",
+        "url": "https://huggingface.co/yufeng1/OpenThinker-7B-reasoning-full-lora-max-type3-e5-1e5-2"
       }
     ],
     "benchmarks": [
@@ -1701,7 +1705,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 413
   }
 }
