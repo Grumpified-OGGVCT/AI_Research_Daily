@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-30T17:14:44.492163",
+  "date": "2026-04-30T19:11:32.744085",
   "patterns": {
     "multimodal_research": [
       {
@@ -613,6 +613,10 @@
       {
         "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
         "url": "https://arxiv.org/abs/2604.26752v1"
+      },
+      {
+        "title": "hardcoremoore699/Qwopus3.5-27B-v3-FP8-vllm-ready",
+        "url": "https://huggingface.co/hardcoremoore699/Qwopus3.5-27B-v3-FP8-vllm-ready"
       }
     ],
     "vision_systems": [
@@ -1209,10 +1213,6 @@
       {
         "title": "Evolutionary feature selection for spiking neural network pattern classifiers",
         "url": "https://arxiv.org/abs/2604.26654v1"
-      },
-      {
-        "title": "yufeng1/OpenThinker-7B-reasoning-full-lora-max-type3-e5-1e5-2",
-        "url": "https://huggingface.co/yufeng1/OpenThinker-7B-reasoning-full-lora-max-type3-e5-1e5-2"
       }
     ],
     "benchmarks": [
@@ -1663,6 +1663,10 @@
       {
         "title": "A Multimodal Pre-trained Network for Integrated EEG-Video Seizure Detection",
         "url": "https://arxiv.org/abs/2604.26379v1"
+      },
+      {
+        "title": "SOTAagi2030/MyModel-Step500-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyModel-Step500-TestRepo"
       }
     ]
   },
@@ -1693,7 +1697,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1705,7 +1709,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1717,7 +1721,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "112 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1752,6 +1756,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 414
   }
 }
