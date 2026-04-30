@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-30T10:51:50.427852",
+  "date": "2026-04-30T12:12:59.029511",
   "patterns": {
     "multimodal_research": [
       {
@@ -613,14 +613,6 @@
       {
         "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
         "url": "https://arxiv.org/abs/2604.26752v1"
-      },
-      {
-        "title": "Begai/ai-risk-classifier-roberta",
-        "url": "https://huggingface.co/Begai/ai-risk-classifier-roberta"
-      },
-      {
-        "title": "lewtun/SmolLM2-360M-SFT-everyday-conversations",
-        "url": "https://huggingface.co/lewtun/SmolLM2-360M-SFT-everyday-conversations"
       }
     ],
     "vision_systems": [
@@ -1697,7 +1689,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 412
   }
 }
