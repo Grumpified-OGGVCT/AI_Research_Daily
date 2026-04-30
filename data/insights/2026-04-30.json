@@ -1,5 +1,5 @@
 {
-  "date": "2026-04-30T22:46:53.763998",
+  "date": "2026-04-30T23:46:27.109282",
   "patterns": {
     "multimodal_research": [
       {
@@ -613,10 +613,6 @@
       {
         "title": "GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents",
         "url": "https://arxiv.org/abs/2604.26752v1"
-      },
-      {
-        "title": "mlx-community/gpt-oss-20b-mxfp4-bf16",
-        "url": "https://huggingface.co/mlx-community/gpt-oss-20b-mxfp4-bf16"
       }
     ],
     "vision_systems": [
@@ -883,10 +879,6 @@
       {
         "title": "Delta Score Matters! Spatial Adaptive Multi Guidance in Diffusion Models",
         "url": "https://arxiv.org/abs/2604.26503v1"
-      },
-      {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Learning Sparse BRDF Measurement Samples from Image",
@@ -1217,10 +1209,6 @@
       {
         "title": "Evolutionary feature selection for spiking neural network pattern classifiers",
         "url": "https://arxiv.org/abs/2604.26654v1"
-      },
-      {
-        "title": "inferencerlabs/MiMo-V2.5-Pro-MLX-4.3bit-INF",
-        "url": "https://huggingface.co/inferencerlabs/MiMo-V2.5-Pro-MLX-4.3bit-INF"
       }
     ],
     "benchmarks": [
@@ -1701,19 +1689,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1760,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 415
+    "total_papers": 412
   }
 }
