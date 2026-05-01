@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-01T21:47:59.479526",
+  "date": "2026-05-01T22:44:17.397541",
   "patterns": {
     "multimodal_research": [
       {
@@ -921,6 +921,10 @@
         "url": "https://arxiv.org/abs/2604.28095v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling",
         "url": "https://arxiv.org/abs/2604.28185v1"
       },
@@ -1705,8 +1709,8 @@
         "url": "https://arxiv.org/abs/2604.27968v1"
       },
       {
-        "title": "SOTAagi2030/MyWeakModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyWeakModel-TestRepo"
+        "title": "SOTAagi2030/MyModel-MidRange-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyModel-MidRange-TestRepo"
       }
     ]
   },
@@ -1743,7 +1747,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 425
   }
 }
