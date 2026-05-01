@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-01T13:06:45.611861",
+  "date": "2026-05-01T14:50:47.954837",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,8 +679,8 @@
         "url": "https://arxiv.org/abs/2604.27968v1"
       },
       {
-        "title": "emilcw/gpt-sw3-1b3-is-saga-nosft-delta-dpo",
-        "url": "https://huggingface.co/emilcw/gpt-sw3-1b3-is-saga-nosft-delta-dpo"
+        "title": "stanpony/llmtuna_sonnet46_fineweb_50M_4gpu_20260501_081401",
+        "url": "https://huggingface.co/stanpony/llmtuna_sonnet46_fineweb_50M_4gpu_20260501_081401"
       }
     ],
     "vision_systems": [
@@ -1285,10 +1285,6 @@
       {
         "title": "AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images",
         "url": "https://arxiv.org/abs/2604.28177v1"
-      },
-      {
-        "title": "jmjHappy/inference-engine-blaze-hand",
-        "url": "https://huggingface.co/jmjHappy/inference-engine-blaze-hand"
       }
     ],
     "benchmarks": [
@@ -1753,7 +1749,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1800,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 424
   }
 }
