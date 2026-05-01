@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-01T10:20:44.753987",
+  "date": "2026-05-01T11:55:41.088688",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,18 +677,6 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
-      },
-      {
-        "title": "anarodrdi/clasificador-medical-biomedbert",
-        "url": "https://huggingface.co/anarodrdi/clasificador-medical-biomedbert"
-      },
-      {
-        "title": "Inori612/phobert-base-vianli-h",
-        "url": "https://huggingface.co/Inori612/phobert-base-vianli-h"
-      },
-      {
-        "title": "anarodrdi/clasificador-medical-modernbert",
-        "url": "https://huggingface.co/anarodrdi/clasificador-medical-modernbert"
       }
     ],
     "vision_systems": [
@@ -971,10 +959,6 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
-      },
-      {
-        "title": "Sevval-Gur/smolvlm-mathvision",
-        "url": "https://huggingface.co/Sevval-Gur/smolvlm-mathvision"
       }
     ],
     "reasoning": [
@@ -1299,8 +1283,12 @@
         "url": "https://arxiv.org/abs/2604.28177v1"
       },
       {
-        "title": "inferencerlabs/MiniMax-M2.7-MLX-6bit-INF",
-        "url": "https://huggingface.co/inferencerlabs/MiniMax-M2.7-MLX-6bit-INF"
+        "title": "moos124/merged-code-reasoning-0.5b",
+        "url": "https://huggingface.co/moos124/merged-code-reasoning-0.5b"
+      },
+      {
+        "title": "inferencerlabs/MiMo-V2.5-MLX-5.8bit-INF",
+        "url": "https://huggingface.co/inferencerlabs/MiMo-V2.5-MLX-5.8bit-INF"
       }
     ],
     "benchmarks": [
@@ -1753,19 +1741,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1795,7 +1783,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 39,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1804,7 +1792,7 @@
       "significance": "high"
     },
     {
-      "topic": "vision",
+      "topic": "architecture",
       "frequency": 32,
       "significance": "high"
     }
@@ -1812,6 +1800,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 425
   }
 }
