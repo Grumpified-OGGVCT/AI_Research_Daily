@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-01T15:52:07.867275",
+  "date": "2026-05-01T16:51:27.044707",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,6 +677,14 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
+      },
+      {
+        "title": "JuniorThanh/phobert-v2-vietnamese-news-ai-detection",
+        "url": "https://huggingface.co/JuniorThanh/phobert-v2-vietnamese-news-ai-detection"
+      },
+      {
+        "title": "psundara/bert_base_training_dir",
+        "url": "https://huggingface.co/psundara/bert_base_training_dir"
       }
     ],
     "vision_systems": [
@@ -1703,6 +1711,10 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
+      },
+      {
+        "title": "SOTAagi2030/MyModel-SafetyFocused-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyModel-SafetyFocused-TestRepo"
       }
     ]
   },
@@ -1733,7 +1745,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1757,7 +1769,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "105 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1792,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 423
+    "total_papers": 426
   }
 }
