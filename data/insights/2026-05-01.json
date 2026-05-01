@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-01T22:44:17.397541",
+  "date": "2026-05-01T23:45:55.654975",
   "patterns": {
     "multimodal_research": [
       {
@@ -921,10 +921,6 @@
         "url": "https://arxiv.org/abs/2604.28095v1"
       },
       {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
-      },
-      {
         "title": "Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling",
         "url": "https://arxiv.org/abs/2604.28185v1"
       },
@@ -1285,6 +1281,10 @@
       {
         "title": "AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images",
         "url": "https://arxiv.org/abs/2604.28177v1"
+      },
+      {
+        "title": "DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q5_K_XL-gguf",
+        "url": "https://huggingface.co/DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-Distilled-UD-Q5_K_XL-gguf"
       }
     ],
     "benchmarks": [
@@ -1707,10 +1707,6 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
-      },
-      {
-        "title": "SOTAagi2030/MyModel-MidRange-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyModel-MidRange-TestRepo"
       }
     ]
   },
@@ -1747,13 +1743,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1765,7 +1761,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "106 independent papers",
+      "observation": "105 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1783,7 +1779,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 39,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1800,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 424
   }
 }
