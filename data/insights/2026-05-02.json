@@ -1,22 +1,26 @@
 {
-  "date": "2026-05-02T02:07:56.502894",
+  "date": "2026-05-02T05:33:57.822726",
   "patterns": {
-    "reasoning": [
+    "language_models": [
       {
-        "title": "inferencerlabs/MiMo-V2.5-Pro-MLX-4.3bit-INF",
-        "url": "https://huggingface.co/inferencerlabs/MiMo-V2.5-Pro-MLX-4.3bit-INF"
+        "title": "JuniorThanh/phobert-v2-vietnamese-news-ai-detection",
+        "url": "https://huggingface.co/JuniorThanh/phobert-v2-vietnamese-news-ai-detection"
       },
       {
-        "title": "inferencerlabs/Ling-2.6-MLX-3.6bit-INF",
-        "url": "https://huggingface.co/inferencerlabs/Ling-2.6-MLX-3.6bit-INF"
+        "title": "aixk/ollm-v3",
+        "url": "https://huggingface.co/aixk/ollm-v3"
+      },
+      {
+        "title": "Jashan887/55_BaronLLM_Offensive_GGUF",
+        "url": "https://huggingface.co/Jashan887/55_BaronLLM_Offensive_GGUF"
       }
     ]
   },
   "inferences": [
     {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
       "confidence": "medium"
     }
   ],
@@ -24,6 +28,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 2
+    "total_papers": 3
   }
 }
