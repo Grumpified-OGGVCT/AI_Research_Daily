@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-02T15:41:18.076553",
+  "date": "2026-05-02T16:40:15.019582",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,14 +677,6 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
-      },
-      {
-        "title": "yolandadiaz23/clasificador-emotion-bert",
-        "url": "https://huggingface.co/yolandadiaz23/clasificador-emotion-bert"
-      },
-      {
-        "title": "vXofi/businessgpt-v13-dpo-qwen3.5-2b",
-        "url": "https://huggingface.co/vXofi/businessgpt-v13-dpo-qwen3.5-2b"
       }
     ],
     "vision_systems": [
@@ -967,10 +959,6 @@
       {
         "title": "ClimateVID -- Social Media Videos Analysis and Challenges Involved",
         "url": "https://arxiv.org/abs/2604.27968v1"
-      },
-      {
-        "title": "sw1900/iocValidation_model",
-        "url": "https://huggingface.co/sw1900/iocValidation_model"
       }
     ],
     "reasoning": [
@@ -1293,6 +1281,10 @@
       {
         "title": "AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images",
         "url": "https://arxiv.org/abs/2604.28177v1"
+      },
+      {
+        "title": "inferencerlabs/MiMo-V2.5-MLX-5.8bit-INF",
+        "url": "https://huggingface.co/inferencerlabs/MiMo-V2.5-MLX-5.8bit-INF"
       }
     ],
     "benchmarks": [
@@ -1745,19 +1737,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 424
   }
 }
