@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-02T16:40:15.019582",
+  "date": "2026-05-02T17:41:02.117116",
   "patterns": {
     "multimodal_research": [
       {
@@ -1281,10 +1281,6 @@
       {
         "title": "AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images",
         "url": "https://arxiv.org/abs/2604.28177v1"
-      },
-      {
-        "title": "inferencerlabs/MiMo-V2.5-MLX-5.8bit-INF",
-        "url": "https://huggingface.co/inferencerlabs/MiMo-V2.5-MLX-5.8bit-INF"
       }
     ],
     "benchmarks": [
@@ -1749,7 +1745,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 423
   }
 }
