@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-02T02:07:56.502894",
+  "patterns": {
+    "reasoning": [
+      {
+        "title": "inferencerlabs/MiMo-V2.5-Pro-MLX-4.3bit-INF",
+        "url": "https://huggingface.co/inferencerlabs/MiMo-V2.5-Pro-MLX-4.3bit-INF"
+      },
+      {
+        "title": "inferencerlabs/Ling-2.6-MLX-3.6bit-INF",
+        "url": "https://huggingface.co/inferencerlabs/Ling-2.6-MLX-3.6bit-INF"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
+  }
+}
