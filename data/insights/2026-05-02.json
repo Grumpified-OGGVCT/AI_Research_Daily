@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-02T09:01:28.498685",
-  "patterns": {},
+  "date": "2026-05-02T10:02:31.858394",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "potatoo222/distilbert_rotten_tomatoes_new",
+        "url": "https://huggingface.co/potatoo222/distilbert_rotten_tomatoes_new"
+      },
+      {
+        "title": "Pradnya27/codegpt-finetuned-code-generation",
+        "url": "https://huggingface.co/Pradnya27/codegpt-finetuned-code-generation"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
