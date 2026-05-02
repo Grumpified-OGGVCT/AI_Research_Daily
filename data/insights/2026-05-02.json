@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-02T22:35:17.608044",
+  "date": "2026-05-02T23:37:55.306881",
   "patterns": {
     "multimodal_research": [
       {
@@ -1281,10 +1281,6 @@
       {
         "title": "AEGIS: A Holistic Benchmark for Evaluating Forensic Analysis of AI-Generated Academic Images",
         "url": "https://arxiv.org/abs/2604.28177v1"
-      },
-      {
-        "title": "CoreWorxLab/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-int4-AutoRound",
-        "url": "https://huggingface.co/CoreWorxLab/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-int4-AutoRound"
       }
     ],
     "benchmarks": [
@@ -1749,7 +1745,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1779,7 +1775,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 40,
+      "frequency": 39,
       "significance": "high"
     },
     {
@@ -1796,6 +1792,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 423
   }
 }
