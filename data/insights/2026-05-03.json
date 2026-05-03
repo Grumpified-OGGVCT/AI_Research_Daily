@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-03T10:50:13.783740",
-  "patterns": {},
+  "date": "2026-05-03T11:38:36.813323",
+  "patterns": {
+    "vision_systems": [
+      {
+        "title": "processpl/sdxl-base-1.0-nsfw-text-to-image",
+        "url": "https://huggingface.co/processpl/sdxl-base-1.0-nsfw-text-to-image"
+      },
+      {
+        "title": "FGHBCVXB/apex-v16",
+        "url": "https://huggingface.co/FGHBCVXB/apex-v16"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
