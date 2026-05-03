@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-03T17:43:11.675931",
-  "patterns": {},
+  "date": "2026-05-03T18:51:01.035220",
+  "patterns": {
+    "vision_systems": [
+      {
+        "title": "rootlocalghost/Z-Image-Base-FP16",
+        "url": "https://huggingface.co/rootlocalghost/Z-Image-Base-FP16"
+      },
+      {
+        "title": "rootlocalghost/Z-Image-Turbo-FP16",
+        "url": "https://huggingface.co/rootlocalghost/Z-Image-Turbo-FP16"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
