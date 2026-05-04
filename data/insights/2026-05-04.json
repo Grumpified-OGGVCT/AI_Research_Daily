@@ -1,33 +1,22 @@
 {
-  "date": "2026-05-04T08:30:23.275106",
+  "date": "2026-05-04T11:01:25.187887",
   "patterns": {
     "language_models": [
       {
-        "title": "HyenaFox/fallout-new-vegas-ner-bert",
-        "url": "https://huggingface.co/HyenaFox/fallout-new-vegas-ner-bert"
+        "title": "AyoubChLin/bert-base-multilingual-cased-zeroshot-nli",
+        "url": "https://huggingface.co/AyoubChLin/bert-base-multilingual-cased-zeroshot-nli"
       },
       {
-        "title": "dtran612/phobert-base-vinli-ph",
-        "url": "https://huggingface.co/dtran612/phobert-base-vinli-ph"
-      },
-      {
-        "title": "clinic-ai-togo/clinicia-camembert",
-        "url": "https://huggingface.co/clinic-ai-togo/clinicia-camembert"
+        "title": "avi81/ft-smollm2-135m-instruct-266318",
+        "url": "https://huggingface.co/avi81/ft-smollm2-135m-instruct-266318"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
