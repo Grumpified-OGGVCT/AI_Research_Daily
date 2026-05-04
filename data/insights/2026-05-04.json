@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-04T02:13:01.382978",
-  "patterns": {},
+  "date": "2026-05-04T05:59:03.906338",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "nguyennghia0902/deberta-auto-grading-newfinal",
+        "url": "https://huggingface.co/nguyennghia0902/deberta-auto-grading-newfinal"
+      },
+      {
+        "title": "dtran612/CafeBERT-vinli-h",
+        "url": "https://huggingface.co/dtran612/CafeBERT-vinli-h"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
