@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-04T22:52:30.948376",
-  "patterns": {},
+  "date": "2026-05-04T23:48:19.781523",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Namirah07/OpenBioLLM-G-ICD10",
+        "url": "https://huggingface.co/Namirah07/OpenBioLLM-G-ICD10"
+      },
+      {
+        "title": "ishikaa/acquisition_student_gpt_qwen3bins_medmcqa_diversity",
+        "url": "https://huggingface.co/ishikaa/acquisition_student_gpt_qwen3bins_medmcqa_diversity"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
