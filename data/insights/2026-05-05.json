@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-05T21:58:52.441921",
+  "date": "2026-05-05T22:55:24.957006",
   "patterns": {
     "multimodal_research": [
       {
@@ -593,10 +593,6 @@
       {
         "title": "Biological Spatial Priors Regularize Foundation Model Representations for Cross-Site MSI Generalization in Colorectal Cancer",
         "url": "https://arxiv.org/abs/2605.02660v1"
-      },
-      {
-        "title": "cristian-untaru/biomedbert-medical-triage",
-        "url": "https://huggingface.co/cristian-untaru/biomedbert-medical-triage"
       }
     ],
     "vision_systems": [
@@ -1161,10 +1157,6 @@
       {
         "title": "Biological Spatial Priors Regularize Foundation Model Representations for Cross-Site MSI Generalization in Colorectal Cancer",
         "url": "https://arxiv.org/abs/2605.02660v1"
-      },
-      {
-        "title": "inferencerlabs/Hy3-preview-MLX-9bit",
-        "url": "https://huggingface.co/inferencerlabs/Hy3-preview-MLX-9bit"
       }
     ],
     "benchmarks": [
@@ -1609,7 +1601,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1621,7 +1613,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1668,6 +1660,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 390
   }
 }
