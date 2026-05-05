@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-05T05:38:23.407119",
+  "date": "2026-05-05T08:01:15.637079",
   "patterns": {
     "multimodal_research": [
       {
@@ -839,6 +839,10 @@
       {
         "title": "Pixel Perfect: Relational Image Quality Assessment with Spatially-Aware Distortions",
         "url": "https://arxiv.org/abs/2605.02863v1"
+      },
+      {
+        "title": "morikomorizz/LongCat-Image-AIO-Comfy",
+        "url": "https://huggingface.co/morikomorizz/LongCat-Image-AIO-Comfy"
       }
     ],
     "reasoning": [
@@ -1607,7 +1611,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1660,6 +1664,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 390
+    "total_papers": 391
   }
 }
