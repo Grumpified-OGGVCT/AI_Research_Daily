@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-06T11:01:24.471135",
+  "date": "2026-05-06T12:59:19.901493",
   "patterns": {
     "multimodal_research": [
       {
@@ -1191,12 +1191,8 @@
         "url": "https://arxiv.org/abs/2605.03753v1"
       },
       {
-        "title": "hotdogs/gemma4-26b-kimi-k2-reasoning-lora",
-        "url": "https://huggingface.co/hotdogs/gemma4-26b-kimi-k2-reasoning-lora"
-      },
-      {
-        "title": "inferencerlabs/Hy3-preview-MLX-9bit",
-        "url": "https://huggingface.co/inferencerlabs/Hy3-preview-MLX-9bit"
+        "title": "hotdogs/gemma4-26b-claude-opus-reasoning-lora",
+        "url": "https://huggingface.co/hotdogs/gemma4-26b-claude-opus-reasoning-lora"
       }
     ],
     "benchmarks": [
@@ -1651,6 +1647,10 @@
       {
         "title": "Exact and Evolutionary Algorithms for Sequential Multi-Objective Transmission Topology Planning",
         "url": "https://arxiv.org/abs/2605.03753v1"
+      },
+      {
+        "title": "SOTAagi2030/MyCodeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo"
       }
     ]
   },
@@ -1693,7 +1693,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1705,7 +1705,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "113 independent papers",
+      "observation": "114 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
