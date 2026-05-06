@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-06T19:29:03.425634",
+  "date": "2026-05-06T21:06:50.184376",
   "patterns": {
     "multimodal_research": [
       {
@@ -299,10 +299,6 @@
       {
         "title": "MK-ResRecon: Multi-Kernel Residual Framework for Texture-Aware 3D MRI Refinement from Sparse 2D Slices",
         "url": "https://arxiv.org/abs/2605.03432v1"
-      },
-      {
-        "title": "storagejuju/glm-5.1-mxfp4-moe-juju",
-        "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju"
       }
     ],
     "language_models": [
@@ -631,8 +627,12 @@
         "url": "https://arxiv.org/abs/2605.03787v1"
       },
       {
-        "title": "HalogenFlo/phobert-vsmec-emotion-recognition",
-        "url": "https://huggingface.co/HalogenFlo/phobert-vsmec-emotion-recognition"
+        "title": "mohan2705/gita-text-generation-gpt2",
+        "url": "https://huggingface.co/mohan2705/gita-text-generation-gpt2"
+      },
+      {
+        "title": "Harshhvm/bharat-minigpt-350m-pretrain-3b",
+        "url": "https://huggingface.co/Harshhvm/bharat-minigpt-350m-pretrain-3b"
       }
     ],
     "vision_systems": [
@@ -1651,10 +1651,6 @@
       {
         "title": "Exact and Evolutionary Algorithms for Sequential Multi-Objective Transmission Topology Planning",
         "url": "https://arxiv.org/abs/2605.03753v1"
-      },
-      {
-        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1673,7 +1669,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "51 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1685,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,7 +1705,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "114 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1737,13 +1733,13 @@
     },
     {
       "topic": "generation",
-      "frequency": 36,
+      "frequency": 37,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 410
   }
 }
