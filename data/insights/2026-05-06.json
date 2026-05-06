@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-06T22:44:44.741383",
+  "date": "2026-05-06T23:44:22.899632",
   "patterns": {
     "multimodal_research": [
       {
@@ -625,6 +625,10 @@
       {
         "title": "A Robust Unsupervised Domain Adaptation Framework for Medical Image Classification Using RKHS-MMD",
         "url": "https://arxiv.org/abs/2605.03787v1"
+      },
+      {
+        "title": "MightyDragon-Dev/Chinese-Dragon-GPT1",
+        "url": "https://huggingface.co/MightyDragon-Dev/Chinese-Dragon-GPT1"
       }
     ],
     "vision_systems": [
@@ -863,6 +867,10 @@
       {
         "title": "VL-SAM-v3: Memory-Guided Visual Priors for Open-World Object Detection",
         "url": "https://arxiv.org/abs/2605.03456v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Stream-R1: Reliability-Perplexity Aware Reward Distillation for Streaming Video Generation",
@@ -1189,18 +1197,6 @@
       {
         "title": "Exact and Evolutionary Algorithms for Sequential Multi-Objective Transmission Topology Planning",
         "url": "https://arxiv.org/abs/2605.03753v1"
-      },
-      {
-        "title": "Dyluhn/lordx64-Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-MTP-GGUF",
-        "url": "https://huggingface.co/Dyluhn/lordx64-Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-MTP-GGUF"
-      },
-      {
-        "title": "hotdogs/gemma4-26b-fc-thinking-reasoning-lora",
-        "url": "https://huggingface.co/hotdogs/gemma4-26b-fc-thinking-reasoning-lora"
-      },
-      {
-        "title": "hotdogs/gemma4-26b-hermes-tool-reasoning-lora",
-        "url": "https://huggingface.co/hotdogs/gemma4-26b-hermes-tool-reasoning-lora"
       }
     ],
     "benchmarks": [
@@ -1655,6 +1651,10 @@
       {
         "title": "Exact and Evolutionary Algorithms for Sequential Multi-Objective Transmission Topology Planning",
         "url": "https://arxiv.org/abs/2605.03753v1"
+      },
+      {
+        "title": "SOTAagi2030/MyModel-NoFigures-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyModel-NoFigures-TestRepo"
       }
     ]
   },
@@ -1685,19 +1685,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "78 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,7 +1709,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "113 independent papers",
+      "observation": "114 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
