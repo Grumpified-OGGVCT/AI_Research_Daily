@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-06T21:06:50.184376",
+  "date": "2026-05-06T22:44:44.741383",
   "patterns": {
     "multimodal_research": [
       {
@@ -625,14 +625,6 @@
       {
         "title": "A Robust Unsupervised Domain Adaptation Framework for Medical Image Classification Using RKHS-MMD",
         "url": "https://arxiv.org/abs/2605.03787v1"
-      },
-      {
-        "title": "mohan2705/gita-text-generation-gpt2",
-        "url": "https://huggingface.co/mohan2705/gita-text-generation-gpt2"
-      },
-      {
-        "title": "Harshhvm/bharat-minigpt-350m-pretrain-3b",
-        "url": "https://huggingface.co/Harshhvm/bharat-minigpt-350m-pretrain-3b"
       }
     ],
     "vision_systems": [
@@ -1197,6 +1189,18 @@
       {
         "title": "Exact and Evolutionary Algorithms for Sequential Multi-Objective Transmission Topology Planning",
         "url": "https://arxiv.org/abs/2605.03753v1"
+      },
+      {
+        "title": "Dyluhn/lordx64-Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-MTP-GGUF",
+        "url": "https://huggingface.co/Dyluhn/lordx64-Qwen3.6-35B-A3B-Claude-4.7-Opus-Reasoning-Distilled-MTP-GGUF"
+      },
+      {
+        "title": "hotdogs/gemma4-26b-fc-thinking-reasoning-lora",
+        "url": "https://huggingface.co/hotdogs/gemma4-26b-fc-thinking-reasoning-lora"
+      },
+      {
+        "title": "hotdogs/gemma4-26b-hermes-tool-reasoning-lora",
+        "url": "https://huggingface.co/hotdogs/gemma4-26b-hermes-tool-reasoning-lora"
       }
     ],
     "benchmarks": [
@@ -1681,7 +1685,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1693,7 +1697,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1733,13 +1737,13 @@
     },
     {
       "topic": "generation",
-      "frequency": 37,
+      "frequency": 36,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 411
   }
 }
