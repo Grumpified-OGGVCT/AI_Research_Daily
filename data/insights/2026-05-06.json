@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-06T05:53:06.583931",
+  "date": "2026-05-06T08:14:36.864774",
   "patterns": {
     "multimodal_research": [
       {
@@ -625,6 +625,10 @@
       {
         "title": "A Robust Unsupervised Domain Adaptation Framework for Medical Image Classification Using RKHS-MMD",
         "url": "https://arxiv.org/abs/2605.03787v1"
+      },
+      {
+        "title": "medbioinformatics/biobert_ner_model_5entity_new",
+        "url": "https://huggingface.co/medbioinformatics/biobert_ner_model_5entity_new"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 409
   }
 }
