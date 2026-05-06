@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-06T12:59:19.901493",
+  "date": "2026-05-06T15:27:25.954059",
   "patterns": {
     "multimodal_research": [
       {
@@ -625,6 +625,10 @@
       {
         "title": "A Robust Unsupervised Domain Adaptation Framework for Medical Image Classification Using RKHS-MMD",
         "url": "https://arxiv.org/abs/2605.03787v1"
+      },
+      {
+        "title": "gala97/anah-emotions-marbert",
+        "url": "https://huggingface.co/gala97/anah-emotions-marbert"
       }
     ],
     "vision_systems": [
@@ -1189,10 +1193,6 @@
       {
         "title": "Exact and Evolutionary Algorithms for Sequential Multi-Objective Transmission Topology Planning",
         "url": "https://arxiv.org/abs/2605.03753v1"
-      },
-      {
-        "title": "hotdogs/gemma4-26b-claude-opus-reasoning-lora",
-        "url": "https://huggingface.co/hotdogs/gemma4-26b-claude-opus-reasoning-lora"
       }
     ],
     "benchmarks": [
@@ -1647,10 +1647,6 @@
       {
         "title": "Exact and Evolutionary Algorithms for Sequential Multi-Objective Transmission Topology Planning",
         "url": "https://arxiv.org/abs/2605.03753v1"
-      },
-      {
-        "title": "SOTAagi2030/MyCodeModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyCodeModel-TestRepo"
       }
     ]
   },
@@ -1681,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1693,7 +1689,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1705,7 +1701,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "114 independent papers",
+      "observation": "113 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1740,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 409
   }
 }
