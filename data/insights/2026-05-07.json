@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-07T05:56:41.332680",
+  "date": "2026-05-07T08:24:56.422740",
   "patterns": {
     "multimodal_research": [
       {
@@ -263,10 +263,6 @@
       {
         "title": "CARD: A Multi-Modal Automotive Dataset for Dense 3D Reconstruction in Challenging Road Topography",
         "url": "https://arxiv.org/abs/2605.05014v1"
-      },
-      {
-        "title": "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-        "url": "https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju"
       }
     ],
     "language_models": [
@@ -589,6 +585,10 @@
       {
         "title": "Not Every Subject Should Stay: Machine Unlearning for Noisy Engagement Recognition",
         "url": "https://arxiv.org/abs/2605.04713v1"
+      },
+      {
+        "title": "himalaya-ai/himalayagpt-0.5b-it",
+        "url": "https://huggingface.co/himalaya-ai/himalayagpt-0.5b-it"
       }
     ],
     "vision_systems": [
@@ -1457,7 +1457,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "47 independent papers",
+      "observation": "46 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1469,7 +1469,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
