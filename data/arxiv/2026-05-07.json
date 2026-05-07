@@ -2,7 +2,7 @@
   {
     "arxiv_id": "2605.04903v1",
     "title": "Delta-Based Neural Architecture Search: LLM Fine-Tuning via Code Diffs",
-    "summary": "Large language models (LLMs) show strong potential for neural architecture generation, yet existing approaches produce complete model implementations from scratch -- computationally expensive and yielding verbose code. We propose Delta-Code Generation, where fine-tuned LLMs generate compact unified diffs (deltas) to refine baseline architectures rather than synthesizing entire models. Our pipeline iteratively fine-tunes the LLM via LoRA on curated architectures from the LEMUR dataset, with MinHash-Jaccard novelty filtering for structural diversity. We evaluate three 7B-class LLMs -- DeepSeek-Coder-7B, Qwen2.5-Coder-7B, and Mistral-7B -- across six datasets (CIFAR-10, CIFAR-100, MNIST, SVHN, ImageNette, CelebA) using a 22-cycle protocol (1,100 candidates per LLM). All three substantially surpass the full-generation baseline (50.6% valid rate, 42.3% mean first-epoch accuracy): DeepSeek-Coder reaches 75.3% valid rate and 65.8% mean accuracy; Qwen2.5-Coder 72.1%/64.6%; Mistral 66.6%/66.1%. On CIFAR-10, best first-epoch accuracies reach 85.5% (Mistral), 85.2% (DeepSeek), 80.6% (Qwen) -- well above 63.98% full generation and 71.5% for the concurrent approach of Gu et al. Output lengths are 30-50 lines versus 200+ for full generation (75-85% reduction). A 50-epoch study confirms the 1-epoch proxy preserves rankings (Mistral: Spearman $\u03c1$ = 0.926). Delta-based generation is a token-efficient, multi-domain, LLM-agnostic alternative to full-model synthesis for LLM-driven NAS.",
+    "summary": "Large language models (LLMs) show strong potential for neural architecture generation, yet existing approaches produce complete model implementations from scratch -- computationally expensive and yielding verbose code. We propose Delta-Code Generation, where fine-tuned LLMs generate compact unified diffs (deltas) to refine baseline architectures rather than synthesizing entire models. Our pipeline iteratively fine-tunes the LLM via LoRA on curated architectures from the LEMUR dataset, with MinHash-Jaccard novelty filtering for structural diversity. We evaluate three 7B-class LLMs -- DeepSeek-Coder-7B, Qwen2.5-Coder-7B, and Mistral-7B -- across six datasets (CIFAR-10, CIFAR-100, MNIST, SVHN, ImageNette, CelebA) using a 22-cycle protocol (1,100 candidates per LLM). All three substantially surpass the full-generation baseline (50.6% valid rate, 42.3% mean first-epoch accuracy): DeepSeek-Coder reaches 75.3% valid rate and 65.8% mean accuracy; Qwen2.5-Coder 72.1%/64.6%; Mistral 66.6%/66.1%. On CIFAR-10, best first-epoch accuracies reach 85.5% (Mistral), 85.2% (DeepSeek), 80.6% (Qwen) -- well above 63.98% full generation and 71.5% for the concurrent approach of Gu et al. Output lengths are 30-50 lines versus 200+ for full generation (75-85% reduction). A 50-epoch study confirms the 1-epoch proxy preserves rankings (Mistral: Spearman $ρ$ = 0.926). Delta-based generation is a token-efficient, multi-domain, LLM-agnostic alternative to full-model synthesis for LLM-driven NAS.",
     "authors": [
       "Santosh Premi Adhikari",
       "Radu Timofte",
@@ -144,12 +144,12 @@
     "title": "UFAL-CUNI at SemEval-2026 Task 11: An Efficient Modular Neuro-symbolic Method for Syllogistic Reasoning",
     "summary": "This paper describes our system submitted to SemEval-2026 Task 11: Disentangling Content and Formal Reasoning in Large Language Models. We present an efficient modular neuro-symbolic approach, combining a symbolic prover with small reasoning LLMs (4B parameters). The system consists of an LLM-based parser that translates natural language syllogisms to a first-order logic (FOL) representation, an automated theorem prover, and two optional modules: machine translation for multilingual inputs and a symbolic retrieval component for the identification of relevant premises. The system achieves competitive accuracy and relatively low content effect on most subtasks. Our ablations show that this approach outperforms LLM-based zero-shot baselines in this parameter size range, but also reveal limited multilingual capabilities of small LLMs. Finally, we include a discussion of the task's main ranking metric and analyze its limitations.",
     "authors": [
-      "Ivan Kart\u00e1\u010d",
-      "Krist\u00fdna Onderkov\u00e1",
+      "Ivan Kartáč",
+      "Kristýna Onderková",
       "Jan Bronec",
-      "Zden\u011bk Kasner",
+      "Zdeněk Kasner",
       "Mateusz Lango",
-      "Ond\u0159ej Du\u0161ek"
+      "Ondřej Dušek"
     ],
     "categories": [
       "cs.CL"
@@ -260,7 +260,7 @@
     "authors": [
       "Klaus-Rudolf Kladny",
       "Maximilian Mordig",
-      "Bernhard Sch\u00f6lkopf",
+      "Bernhard Schölkopf",
       "Michael Muehlebach"
     ],
     "categories": [
@@ -493,7 +493,7 @@
   {
     "arxiv_id": "2605.04997v1",
     "title": "DualTCN: A Physics-Constrained Temporal Convolutional Network for 2 Time-Domain Marine CSEM Inversion",
-    "summary": "DualTCN is the first deep-learning framework for inverting time-domain marine controlled-source electromagnetic (MCSEM) transient data. Moving away from traditional subsurface discretization, the framework regresses four earth-model parameters -- $\u03c3_1$, $\u03c3_2$, $d_1$, $d_2$ -- and reconstructs conductivity-depth profiles using a differentiable soft-step decoder. The optimized architecture (379K parameters) features a Temporal Convolutional Network (TCN) encoder paired with a late-time branch and an auxiliary seafloor-depth head. This design achieves a 25.3\\% loss reduction over baseline models, with high predictive accuracy ($R^2 = 0.898$ for $\u03c3_2$) and an inversion speed of 3.5~ms per sample on an A100 GPU.   The framework demonstrates high robustness to noise through curriculum-based amplitude augmentation, maintaining a mean $\\bar{R}^2$ of 0.858 at $\\pm2\\%$ random amplitude error, compared to $0.363$ without augmentation. DualTCN generalizes effectively to three-layer extensions (seawater/resistive layer/basement), accurately resolving basement conductivity ($R^2 \\approx 0.88$), though thin-layer resolution remains a physical limitation ($R^2 \\approx 0.23$).   In comparative benchmarks, DualTCN significantly outperforms traditional local optimization methods like Levenberg-Marquardt and L-BFGS-B, yielding a mean $\\bar{R}^2 = 0.877$ versus 0.129-0.439 for multi-start baselines, while operating at up to 21,000$\\times$ lower computational cost. Finally, the framework incorporates uncertainty quantification via Monte Carlo (MC) Dropout. While well-calibrated for $\u03c3_1$ (PICP90 = 0.944), inherent signal limitations at short offsets (200m) lead to under-coverage for $d_2$ (PICP90 = 0.572), which can be mitigated through post-hoc temperature scaling or split conformal prediction.",
+    "summary": "DualTCN is the first deep-learning framework for inverting time-domain marine controlled-source electromagnetic (MCSEM) transient data. Moving away from traditional subsurface discretization, the framework regresses four earth-model parameters -- $σ_1$, $σ_2$, $d_1$, $d_2$ -- and reconstructs conductivity-depth profiles using a differentiable soft-step decoder. The optimized architecture (379K parameters) features a Temporal Convolutional Network (TCN) encoder paired with a late-time branch and an auxiliary seafloor-depth head. This design achieves a 25.3\\% loss reduction over baseline models, with high predictive accuracy ($R^2 = 0.898$ for $σ_2$) and an inversion speed of 3.5~ms per sample on an A100 GPU.   The framework demonstrates high robustness to noise through curriculum-based amplitude augmentation, maintaining a mean $\\bar{R}^2$ of 0.858 at $\\pm2\\%$ random amplitude error, compared to $0.363$ without augmentation. DualTCN generalizes effectively to three-layer extensions (seawater/resistive layer/basement), accurately resolving basement conductivity ($R^2 \\approx 0.88$), though thin-layer resolution remains a physical limitation ($R^2 \\approx 0.23$).   In comparative benchmarks, DualTCN significantly outperforms traditional local optimization methods like Levenberg-Marquardt and L-BFGS-B, yielding a mean $\\bar{R}^2 = 0.877$ versus 0.129-0.439 for multi-start baselines, while operating at up to 21,000$\\times$ lower computational cost. Finally, the framework incorporates uncertainty quantification via Monte Carlo (MC) Dropout. While well-calibrated for $σ_1$ (PICP90 = 0.944), inherent signal limitations at short offsets (200m) lead to under-coverage for $d_2$ (PICP90 = 0.572), which can be mitigated through post-hoc temperature scaling or split conformal prediction.",
     "authors": [
       "Khaled Ahmed",
       "Ghada Omar"
@@ -770,7 +770,7 @@
   {
     "arxiv_id": "2605.05077v1",
     "title": "FlowDIS: Language-Guided Dichotomous Image Segmentation with Flow Matching",
-    "summary": "Accurate image segmentation is essential for modern computer vision applications such as image editing, autonomous driving, and medical image analysis. In recent years, Dichotomous Image Segmentation (DIS) has become a standard task for training and evaluating highly accurate segmentation models. Existing DIS approaches often fail to preserve fine-grained details or fully capture the semantic structure of the foreground. To address these challenges, we present FlowDIS, a novel dichotomous image segmentation method built on the flow matching framework, which learns a time-dependent vector field to transport the image distribution to the corresponding mask distribution, optionally conditioned on a text prompt. Moreover, with our Position-Aware Instance Pairing (PAIP) training strategy, FlowDIS offers strong controllability through text prompts, enabling precise, pixel-level object segmentation. Extensive experiments demonstrate that our method significantly outperforms state-of-the-art approaches both with and without language guidance. Compared with the best prior DIS method, FlowDIS achieves a 5.5% higher $F_\u03b2^\u03c9$ measure and 43% lower MAE ($\\mathcal{M}$) on the DIS-TE test set. The code is available at: https://github.com/Picsart-AI-Research/FlowDIS",
+    "summary": "Accurate image segmentation is essential for modern computer vision applications such as image editing, autonomous driving, and medical image analysis. In recent years, Dichotomous Image Segmentation (DIS) has become a standard task for training and evaluating highly accurate segmentation models. Existing DIS approaches often fail to preserve fine-grained details or fully capture the semantic structure of the foreground. To address these challenges, we present FlowDIS, a novel dichotomous image segmentation method built on the flow matching framework, which learns a time-dependent vector field to transport the image distribution to the corresponding mask distribution, optionally conditioned on a text prompt. Moreover, with our Position-Aware Instance Pairing (PAIP) training strategy, FlowDIS offers strong controllability through text prompts, enabling precise, pixel-level object segmentation. Extensive experiments demonstrate that our method significantly outperforms state-of-the-art approaches both with and without language guidance. Compared with the best prior DIS method, FlowDIS achieves a 5.5% higher $F_β^ω$ measure and 43% lower MAE ($\\mathcal{M}$) on the DIS-TE test set. The code is available at: https://github.com/Picsart-AI-Research/FlowDIS",
     "authors": [
       "Andranik Sargsyan",
       "Shant Navasardyan"
@@ -814,7 +814,7 @@
       "Krishna Sri Ipsit Mantri",
       "Beatrice Bevilacqua",
       "Bruno Ribeiro",
-      "Carola-Bibiane Sch\u00f6nlieb"
+      "Carola-Bibiane Schönlieb"
     ],
     "categories": [
       "cs.LG"
@@ -1058,7 +1058,7 @@
       "Xinxing Shi",
       "Sokratia Georgaka",
       "Magnus Rattray",
-      "Mauricio A \u00c1lvarez"
+      "Mauricio A Álvarez"
     ],
     "categories": [
       "cs.LG"
@@ -1120,7 +1120,7 @@
     "title": "Building informative materials datasets beyond targeted objectives",
     "summary": "Materials science data collection can be expensive, making the reuse and long-term utility of datasets critical important for future discovery campaigns. In practice, researchers prioritize a subset of properties due to research interests. However, ignoring a subset of outcomes in data collection campaigns potentially generate datasets poorly suited for future learning tasks. Here, we present a framework for dataset construction that maximizes informativeness for target properties of interest while preserving performance on untargeted ones. Our approach uses diversity-aware selection to ensure broad coverage of the materials space. In noisy experimental dataset construction, we find that without our diversity-aware framework, prediction performance on untargeted properties can degrade by up to 40% relative to random sampling, whereas applying our framework yields improvements of up to 10% . For targeted properties, performance can degrade with respect to random sampling by up to 12.5% without diversity, while our framework achieves gains of up to 25%. Incorporating diversity into dataset construction not only preserves informativeness for the targeted properties, but also improves materials coverage for potential future objectives. As a result, the constructed datasets remain broadly informative across considered and unconsidered outcomes, ensuring unbiased quality entries and mitigating cold-start limitations in subsequent modeling and discovery campaigns.",
     "authors": [
-      "Rafael Espinosa Casta\u00f1eda",
+      "Rafael Espinosa Castañeda",
       "Ashley Dale",
       "Hongchen Wang",
       "Yonatan Kurniawan",
@@ -1417,7 +1417,7 @@
     "summary": "We develop a framework for task-specific active next-best-view selection in 3D reconstruction from point clouds, by casting the problem in the language of Bayesian decision theory. Our framework works by (a) placing a prior distribution over the space of implicit surfaces, (b) using recently-developed stochastic surface reconstruction methods to calculate the resulting posterior distribution, then (c) using the posterior distribution to carefully reason about which view to scan next. This enables us to perform camera selection in a manner that is directly optimized for the intended use of the reconstructed data - meaning, we reduce uncertainty only in those regions that make a difference in the task at hand, as opposed to prior approaches that reduce it uniformly across space. We evaluate our method across three distinct downstream tasks: semantic classification, segmentation, and PDE-guided physics simulation. Experimental results demonstrate that our framework achieves superior task performance with fewer views compared to commonly used baselines and prior general uncertainty-reduction techniques.",
     "authors": [
       "Jingsen Zhu",
-      "Silvia Sell\u00e1n",
+      "Silvia Sellán",
       "Alexander Terenin"
     ],
     "categories": [
@@ -1544,7 +1544,7 @@
   {
     "arxiv_id": "2605.04853v1",
     "title": "Hybrid Iterative Neural Low-Regularity Integrator for Nonlinear Dispersive Equations",
-    "summary": "We propose HIN-LRI, a hybrid framework that augments a classical numerical solver with a neural operator trained to correct the solver's structured truncation error. A base low-regularity integrator provides a consistent first-order approximation to nonlinear dispersive PDEs, while a lightweight neural network, operating on a low-dimensional latent manifold, learns the residual defect that analytical methods cannot close. An explicit time-step scaling on the neural correction ensures that its Lipschitz contribution remains $\\mathcal{O}(\u03c4)$, yielding a Gronwall stability factor bounded uniformly in the step size and independent of the spatial resolution. The network is trained end-to-end through a solver-in-the-loop objective that unrolls the full iteration and penalises trajectory error in a Bourgain-type norm, aligning learning with multi-step solver dynamics rather than isolated one-step targets. Under stated assumptions, the global error satisfies $C(\\varepsilon_{net}+\u03b4)\\,\u03c4^\u03b3\\ln(1/\u03c4)$, where $\\varepsilon_{net}$ measures the network approximation quality and $\u03b4$ the training shortfall. Experiments on three dispersive benchmarks with rough data show that HIN-LRI improves accuracy over analytical integrators, splitting methods, and neural PDE surrogates, with stable spatial refinement, effective out-of-distribution transfer, and modest online overhead.",
+    "summary": "We propose HIN-LRI, a hybrid framework that augments a classical numerical solver with a neural operator trained to correct the solver's structured truncation error. A base low-regularity integrator provides a consistent first-order approximation to nonlinear dispersive PDEs, while a lightweight neural network, operating on a low-dimensional latent manifold, learns the residual defect that analytical methods cannot close. An explicit time-step scaling on the neural correction ensures that its Lipschitz contribution remains $\\mathcal{O}(τ)$, yielding a Gronwall stability factor bounded uniformly in the step size and independent of the spatial resolution. The network is trained end-to-end through a solver-in-the-loop objective that unrolls the full iteration and penalises trajectory error in a Bourgain-type norm, aligning learning with multi-step solver dynamics rather than isolated one-step targets. Under stated assumptions, the global error satisfies $C(\\varepsilon_{net}+δ)\\,τ^γ\\ln(1/τ)$, where $\\varepsilon_{net}$ measures the network approximation quality and $δ$ the training shortfall. Experiments on three dispersive benchmarks with rough data show that HIN-LRI improves accuracy over analytical integrators, splitting methods, and neural PDE surrogates, with stable spatial refinement, effective out-of-distribution transfer, and modest online overhead.",
     "authors": [
       "Zhangyong Liang"
     ],
@@ -1621,7 +1621,7 @@
   {
     "arxiv_id": "2605.04690v1",
     "title": "Learning Time-Inhomogeneous Markov Dynamics in Financial Time Series via Neural Parameterization",
-    "summary": "Modeling the dynamics of non-stationary stochastic systems requires balancing the representational power of deep learning with the mathematical transparency of classical models. While classical Markov transition operators provide explicit, theoretically grounded rules for system evolution, their empirical estimation collapses due to severe data sparsity when applied to high-resolution, high-noise environments. We explore this statistical barrier using financial time series as a canonical, real-world testbed. To overcome the degeneracy of empirical counting, we introduce a framework that utilizes neural networks strictly as parameterization engines to generate explicit, time-varying Markov transition matrices. By constraining the neural network to output its predictions as a formal stochastic operator, we maintain complete structural interpretability. We demonstrate that these learned operators successfully capture complex regime shifts: the state-conditioned model achieves mean row heterogeneity $\\bar\u03c1 = 0.0073$ while the state-free ablation collapses to exactly zero, and operator row entropy correlates with realized variance at $r = -0.62$ ($p \\approx 10^{-251}$), revealing that high-volatility regimes homogenize transition dynamics rather than diversify them. Furthermore, rather than enforcing the Chapman-Kolmogorov equations as a rigid structural requirement, we repurpose them as a localized diagnostic tool to pinpoint specific temporal windows where first-order memory assumptions break down. Ultimately, this framework demonstrates how neural networks can be constrained to make rigorous, classical operator analysis viable for complex real-world time series.",
+    "summary": "Modeling the dynamics of non-stationary stochastic systems requires balancing the representational power of deep learning with the mathematical transparency of classical models. While classical Markov transition operators provide explicit, theoretically grounded rules for system evolution, their empirical estimation collapses due to severe data sparsity when applied to high-resolution, high-noise environments. We explore this statistical barrier using financial time series as a canonical, real-world testbed. To overcome the degeneracy of empirical counting, we introduce a framework that utilizes neural networks strictly as parameterization engines to generate explicit, time-varying Markov transition matrices. By constraining the neural network to output its predictions as a formal stochastic operator, we maintain complete structural interpretability. We demonstrate that these learned operators successfully capture complex regime shifts: the state-conditioned model achieves mean row heterogeneity $\\barρ = 0.0073$ while the state-free ablation collapses to exactly zero, and operator row entropy correlates with realized variance at $r = -0.62$ ($p \\approx 10^{-251}$), revealing that high-volatility regimes homogenize transition dynamics rather than diversify them. Furthermore, rather than enforcing the Chapman-Kolmogorov equations as a rigid structural requirement, we repurpose them as a localized diagnostic tool to pinpoint specific temporal windows where first-order memory assumptions break down. Ultimately, this framework demonstrates how neural networks can be constrained to make rigorous, classical operator analysis viable for complex real-world time series.",
     "authors": [
       "Jan Rovirosa",
       "Jesse Schmolze"
@@ -1640,7 +1640,7 @@
   {
     "arxiv_id": "2605.05192v1",
     "title": "Almost-Orthogonality in Lp Spaces: A Case Study with Grok",
-    "summary": "Carbery proposed the following sharpened form of triangle inequality for many functions: for any $p\\ge 2$ and any finite sequence $(f_j)_j\\subset L^p$ we have \\[ \\Big\\|\\sum_j f_j\\Big\\|_p \\ \\le\\ \\left(\\sup_{j} \\sum_{k} \u03b1_{jk}^{\\,c}\\right)^{1/p'} \\Big(\\sum_j \\|f_j\\|_p^p\\Big)^{1/p}, \\] where $c=2$, $1/p+1/p'=1$, and $\u03b1_{jk}=\\sqrt{\\frac{\\|f_{j}f_{k}\\|_{p/2}}{\\|f_{j}\\|_{p}\\|f_{k}\\|_{p}}}$. In the first part of this paper we construct a counterexample showing that this inequality fails for every $p>2$. We then prove that if an estimate of the above form holds, the exponent must satisfy $c\\le p'$. Finally, at the critical exponent $c=p'$, we establish the inequality for all integer values $p\\ge 2$.   In the second part of the paper we obtain a sharp three-function bound \\[ \\Big\\|\\sum_{j=1}^{3} f_j\\Big\\|_p \\ \\le\\ \\left(1+2\u0393^{c(p)}\\right)^{1/p'} \\Big(\\sum_{j=1}^{3} \\|f_j\\|_p^p\\Big)^{1/p}, \\] where $p \\geq 3$, $c(p) = \\frac{2\\ln(2)}{(p-2)\\ln(3)+2\\ln(2)}$ and $\u0393=\u0393(f_1,f_2,f_3)\\in[0,1]$ quantifies the degree of orthogonality among $f_1,f_2,f_3$. The exponent $c(p)$ is optimal, and improves upon the power $r(p) = \\frac{6}{5p-4}$ obtained previously by Carlen, Frank, and Lieb. Some intermediate lemmas and inequalities appearing in this work were explored with the assistance of the large language model Grok.",
+    "summary": "Carbery proposed the following sharpened form of triangle inequality for many functions: for any $p\\ge 2$ and any finite sequence $(f_j)_j\\subset L^p$ we have \\[ \\Big\\|\\sum_j f_j\\Big\\|_p \\ \\le\\ \\left(\\sup_{j} \\sum_{k} α_{jk}^{\\,c}\\right)^{1/p'} \\Big(\\sum_j \\|f_j\\|_p^p\\Big)^{1/p}, \\] where $c=2$, $1/p+1/p'=1$, and $α_{jk}=\\sqrt{\\frac{\\|f_{j}f_{k}\\|_{p/2}}{\\|f_{j}\\|_{p}\\|f_{k}\\|_{p}}}$. In the first part of this paper we construct a counterexample showing that this inequality fails for every $p>2$. We then prove that if an estimate of the above form holds, the exponent must satisfy $c\\le p'$. Finally, at the critical exponent $c=p'$, we establish the inequality for all integer values $p\\ge 2$.   In the second part of the paper we obtain a sharp three-function bound \\[ \\Big\\|\\sum_{j=1}^{3} f_j\\Big\\|_p \\ \\le\\ \\left(1+2Γ^{c(p)}\\right)^{1/p'} \\Big(\\sum_{j=1}^{3} \\|f_j\\|_p^p\\Big)^{1/p}, \\] where $p \\geq 3$, $c(p) = \\frac{2\\ln(2)}{(p-2)\\ln(3)+2\\ln(2)}$ and $Γ=Γ(f_1,f_2,f_3)\\in[0,1]$ quantifies the degree of orthogonality among $f_1,f_2,f_3$. The exponent $c(p)$ is optimal, and improves upon the power $r(p) = \\frac{6}{5p-4}$ obtained previously by Carlen, Frank, and Lieb. Some intermediate lemmas and inequalities appearing in this work were explored with the assistance of the large language model Grok.",
     "authors": [
       "Ziang Chen",
       "Jaume de Dios Pont",
@@ -1774,7 +1774,7 @@
     "title": "Superposition Is Not Necessary: A Mechanistic Interpretability Analysis of Transformer Representations for Time Series Forecasting",
     "summary": "Transformer architectures have been widely adopted for time series forecasting, yet whether the representational mechanisms that make them powerful in NLP actually engage on time series data remains unexplored. The persistent competitiveness of simple linear models such as DLinear has fueled ongoing debate, but no mechanistic explanation for this phenomenon has been offered. We address this gap by applying sparse autoencoders (SAEs), a tool from mechanistic interpretability, to probe the internal representations of PatchTST. We first establish that a single-layer, narrow-dimensional transformer matches the forecasting performance of deeper configurations across commonly used benchmarks. We then train SAEs on the post-GELU intermediate FFN activations with dictionary sizes ranging from 0.5x to 4.0x the native dimensionality. Expanding the dictionary yields negligible downstream performance change (average 0.214%), with large portions of overcomplete dictionaries remaining inactive. Targeted causal interventions on dominant latent features produce minimal forecast perturbation. Across all evaluated settings, we observe no empirical evidence that the analyzed FFN representations rely on strong superposition. Instead, the representations remain sparse, stable under aggressive dictionary expansion, and largely insensitive to latent interventions. These results demonstrate that superposition is not necessary for competitive performance on standard forecasting benchmarks, suggesting they may not demand the rich compositional representations that drive transformer success in language modeling, and helping explain the persistent competitiveness of simple linear models",
     "authors": [
-      "Alper Y\u0131ld\u0131r\u0131m"
+      "Alper Yıldırım"
     ],
     "categories": [
       "cs.LG",
@@ -1826,7 +1826,7 @@
   {
     "arxiv_id": "2605.04893v1",
     "title": "Self-Attention as Transport: Limits of Symmetric Spectral Diagnostics",
-    "summary": "Large language models hallucinate in predictable ways: attention routing fails by over-concentrating on a narrow set of positions, or by spreading so diffusely that relevance is diluted, and the shape of the failure carries diagnostic signal. A widely used family of spectral methods analyzes the symmetric component of the degree-normalized attention operator, which governs transport capacity; we prove that every transpose-invariant spectral diagnostic of this operator is structurally orientation-blind (it cannot distinguish an operator from its transpose, and therefore cannot detect information-flow direction), with a quantitative converse establishing the asymmetry coefficient $G$ as the unique control parameter for direction.   Pairing this with a closed-form bipartite-Cheeger landscape for canonical causal architectures, we show that uniform causal attention satisfies an $n$-independent floor $\u03c6\\ge 1/5$ with worst cut at $t^\\ast/n \\approx 0.32$, while window attention pierces the floor as $O(w/n)$; failure modes are shape-different, not just value-different. The resulting two-axis diagnostic ($\u03c6$ for capacity, $G$ for direction) yields a falsifiable polarity prediction: bottleneck- and diffuse-dominated benchmarks should exhibit opposite polarity. Under length-controlled evaluation, transport features retain interpretable signal (LC-AUROC from 0.62 to 0.84) on tested models up to 8B parameters, with polarity reversing as predicted between HaluEval and MedHallu.",
+    "summary": "Large language models hallucinate in predictable ways: attention routing fails by over-concentrating on a narrow set of positions, or by spreading so diffusely that relevance is diluted, and the shape of the failure carries diagnostic signal. A widely used family of spectral methods analyzes the symmetric component of the degree-normalized attention operator, which governs transport capacity; we prove that every transpose-invariant spectral diagnostic of this operator is structurally orientation-blind (it cannot distinguish an operator from its transpose, and therefore cannot detect information-flow direction), with a quantitative converse establishing the asymmetry coefficient $G$ as the unique control parameter for direction.   Pairing this with a closed-form bipartite-Cheeger landscape for canonical causal architectures, we show that uniform causal attention satisfies an $n$-independent floor $φ\\ge 1/5$ with worst cut at $t^\\ast/n \\approx 0.32$, while window attention pierces the floor as $O(w/n)$; failure modes are shape-different, not just value-different. The resulting two-axis diagnostic ($φ$ for capacity, $G$ for direction) yields a falsifiable polarity prediction: bottleneck- and diffuse-dominated benchmarks should exhibit opposite polarity. Under length-controlled evaluation, transport features retain interpretable signal (LC-AUROC from 0.62 to 0.84) on tested models up to 8B parameters, with polarity reversing as predicted between HaluEval and MedHallu.",
     "authors": [
       "Dominik Dahlem",
       "Diego Maniloff",
@@ -1918,8 +1918,8 @@
     "summary": "While zero-shot appearance-based 3D gaze estimation offers significant cost-efficiency by directly mapping RGB images to gaze vectors, its reliability in Human-Robot Interaction (HRI) settings remains uncertain. Existing benchmarks frequently overlook fundamental HRI conditions, such as dynamic camera viewpoints and moving targets in video. Furthermore, current cross-dataset evaluations often suffer from a complexity gap, where methods trained on diverse datasets are tested on significantly smaller and less varied sets, failing to assess true robustness. To bridge these gaps, we introduce Gaze4HRI, a large-scale dataset (50+ subjects, 3,000+ videos, 600,000+ frames) designed to evaluate state-of-the-art performance against critical HRI variables: illumination, head-gaze conflict, as well as the motion of camera and gaze target in video. Our benchmark reveals that all evaluated methods fail in at least one condition, identifying steeply-downward gaze as a universal failure point. Notably, PureGaze trained on the ETH-X-Gaze dataset uniquely maintains resilience across all other conditions. These results challenge the recent focus in the literature on complex spatial-temporal modeling and Transformer-based architectures. Instead, our findings suggest that extensive data diversity, as exemplified by the ETH-X-Gaze dataset, serves as the primary driver of zero-shot robustness in unconstrained environments, while resilience-enhancing frameworks, such as PureGaze's self-adversarial loss for gaze feature purification, provide a substantial further improvement. Ultimately, this study establishes a rigorous benchmark that provides practical guidelines for practitioners as well as reshaping future research. The dataset and codes are available at https://gazeforhri.github.io.",
     "authors": [
       "Berk Sezer",
-      "Ali G\u00f6rkem K\u00fc\u00e7\u00fck",
-      "Erol \u015eahin",
+      "Ali Görkem Küçük",
+      "Erol Şahin",
       "Sinan Kalkan"
     ],
     "categories": [
@@ -1940,7 +1940,7 @@
     "title": "Differentiable Chemistry in PINNs for Solving Parameterized and Stiff Reaction Systems",
     "summary": "From neural ODEs to continuous-time machine learning, differentiable solvers allow physics, optimization, and simulation to become trainable components within deep learning systems. This has opened the path to a new generation of deep learning frameworks for scientific computing, with many promising applications still emerging. In this paper, we integrate a differentiable chemistry solver into a modified physics-informed neural network to solve parameterized reaction systems that are inherently stiff. The proposed framework introduces several key components required to overcome limitations of standard physics-informed neural networks. These include a differentiable chemistry solver, a network architecture for parameterized solutions, and residual weighting tailored to stiff reactions. We evaluate the framework on a set of differential equations related to hydrogen combustion, which include initial/boundary value problems, inverse parameter identification, and a parameterized partial differential equation. Our results highlight the ability of the proposed approach to extend physics-informed neural networks to stiff chemical systems that were previously inaccessible.",
     "authors": [
-      "Milo\u0161 Babi\u0107",
+      "Miloš Babić",
       "Franz M. Rohrhofer",
       "Stefan Posch"
     ],
@@ -1959,9 +1959,9 @@
     "title": "Gray-Box Poisoning of Continuous Malware Ingestion Pipelines",
     "summary": "Modern malware detection pipelines rely on continuous data ingestion and machine learning to counter the high volume of novel threats. This work investigates a realistic gray-box poisoning threat model targeting these pipelines. Using the secml_malware framework, we generate problem-space adversarial binaries through functionality-preserving manipulations, specifically Import Address Table (IAT) and section injections. We evaluate the impact of these poisoned samples when ingested into a defender's training set for a LightGBM malware detection model. Our empirical results demonstrate that subtle IAT-based perturbations enable compact poisoning samples that significantly degrade detection recall. These findings illustrate the inherent challenge of developing low-visibility adversarial perturbations that maintain high poisoning efficacy within continuous learning systems. We further evaluate a defense mechanism based on a homogeneous ensemble, which successfully identifies and filters up to 95.6% of poisoning attempts while maintaining a high retention rate for legitimate data. These findings emphasize the necessity of robust pre-ingestion validation in production pipelines.",
     "authors": [
-      "Jan Dolej\u0161",
-      "Martin Jure\u010dek",
-      "R\u00f3bert L\u00f3rencz"
+      "Jan Dolejš",
+      "Martin Jureček",
+      "Róbert Lórencz"
     ],
     "categories": [
       "cs.CR",
@@ -2000,7 +2000,7 @@
   {
     "arxiv_id": "2605.05103v1",
     "title": "Text Corpora as Concept Fields: Black-Box Hallucination and Novelty Measurement",
-    "summary": "We introduce the **Concept Field** of a text corpus: a local drift field with pointwise uncertainty, estimated in sentence-embedding space from the deltas between consecutive sentences. Given a candidate sentence transition, we score its agreement with the field by $\u03b6$, the mean absolute z-distance between the observed delta and the field's local Gaussian estimate. The score is black-box (no model internals), corpus-attributable (every score traces to nearby corpus sentences), and admits a direct probabilistic reading. We support the computation with the introduction of a **Vector Sequence Database (VSDB)** that stores embeddings together with sequence-position and next-delta metadata. We evaluate this approach on two large-scale settings: hallucination-style groundedness detection over the U.S. Code of Federal Regulations, and novelty detection over Project Gutenberg. Using controlled LLM-generated rewrites, Concept Fields achieve strong selective classification performance under a grounded / ungrounded / unsure triage policy, which unlike retrieval-centric baselines have similar coverage-risk behavior across both domains, supporting a probability-based interpretation that transfers across domains. We also sketch how divergence and curl of the Concept Field, computed on dense clusters, surface qualitatively meaningful semantic patterns (logic sources, sinks, and implicit topics), which we offer as hypothesis-generating rather than as a quantitative result. Concept Fields provide a fast, lightweight, and interpretable signal for groundedness and novelty, complementary to LLM-as-judge and white-box detectors.",
+    "summary": "We introduce the **Concept Field** of a text corpus: a local drift field with pointwise uncertainty, estimated in sentence-embedding space from the deltas between consecutive sentences. Given a candidate sentence transition, we score its agreement with the field by $ζ$, the mean absolute z-distance between the observed delta and the field's local Gaussian estimate. The score is black-box (no model internals), corpus-attributable (every score traces to nearby corpus sentences), and admits a direct probabilistic reading. We support the computation with the introduction of a **Vector Sequence Database (VSDB)** that stores embeddings together with sequence-position and next-delta metadata. We evaluate this approach on two large-scale settings: hallucination-style groundedness detection over the U.S. Code of Federal Regulations, and novelty detection over Project Gutenberg. Using controlled LLM-generated rewrites, Concept Fields achieve strong selective classification performance under a grounded / ungrounded / unsure triage policy, which unlike retrieval-centric baselines have similar coverage-risk behavior across both domains, supporting a probability-based interpretation that transfers across domains. We also sketch how divergence and curl of the Concept Field, computed on dense clusters, surface qualitatively meaningful semantic patterns (logic sources, sinks, and implicit topics), which we offer as hypothesis-generating rather than as a quantitative result. Concept Fields provide a fast, lightweight, and interpretable signal for groundedness and novelty, complementary to LLM-as-judge and white-box detectors.",
     "authors": [
       "Nicholas S. Kersting",
       "Vittorio Castelli",
@@ -2048,8 +2048,8 @@
     "authors": [
       "Philip Naumann",
       "Jacob Kauffmann",
-      "Klaus-Robert M\u00fcller",
-      "Gr\u00e9goire Montavon"
+      "Klaus-Robert Müller",
+      "Grégoire Montavon"
     ],
     "categories": [
       "cs.LG",
@@ -2110,7 +2110,7 @@
     "authors": [
       "Eduardo Santos",
       "Juliana Carvalho",
-      "C\u00e9sar Renn\u00f3-Costa"
+      "César Rennó-Costa"
     ],
     "categories": [
       "cs.CL",
@@ -2356,14 +2356,14 @@
     "summary": "This position paper argues that the under-representation of social science tasks in contemporary LLM benchmarks limits advances in both LLM evaluation and social scientific inquiry. Benchmarks -- standardized tools for assessing computational systems -- are pivotal in the development of artificial intelligence (AI), including large language models (LLMs). Benchmarks do more than measure progress -- they actively structure it, shaping reputations, research agendas, and commercial outcomes. Despite this central role, the social sciences are largely absent from mainstream evaluation frameworks, even though scholars in these fields generate dozens of rigorously annotated, context-sensitive datasets each year. Integrating this work into benchmark design could significantly improve the generalization and robustness of AI models. In turn, models trained on social scientific tasks would likely yield better performance on classic and contemporary tasks in disciplines as diverse as history, sociology, political science or economics. This is all the more pressing as these disciplines are quickly turning to LLMs for assistance. To address this gap, we introduce BenCSSmark, a benchmark composed of datasets annotated by computational social scientists. By integrating social scientific perspectives into benchmarking, BenCSSmark seeks to promote more robust, transparent, and socially relevant AI systems and to foster efficient collaboration.",
     "authors": [
       "Arnault Chatelain",
-      "\u00c9tienne Ollion",
+      "Étienne Ollion",
       "Qianwen Guan",
       "Diandra Fabre",
       "Lorraine Goeuriot",
       "Emile Chapuis",
       "Abdelkrim Beloued",
       "Marie Candito",
-      "Nicolas Herv\u00e9",
+      "Nicolas Hervé",
       "Didier Schwab"
     ],
     "categories": [
@@ -2530,7 +2530,7 @@
   {
     "arxiv_id": "2605.05102v1",
     "title": "Unified Framework of Distributional Regret in Multi-Armed Bandits and Reinforcement Learning",
-    "summary": "We study the distribution of regret in stochastic multi-armed bandits and episodic reinforcement learning through a unified framework. We formalize a distributional regret bound as a probabilistic guarantee that holds uniformly over all confidence levels $\u03b4\\in (0,1]$, thereby characterizing the regret distribution across the full range of $\u03b4$. We present a simple UCBVI-style algorithm with exploration bonus $\\min\\{c_{1,k}/N, c_{2,k}/\\sqrt{N}\\}$, where $N$ denotes the visit count and $(c_{1,k},c_{2,k})$ are user-specified parameters. For arbitrary parameter sequences, we derive general gap-independent and gap-dependent distributional regret bounds, yielding a principled characterization of how the parameters control the trade-off between expected performance, tail risk, and instance-dependent behavior. In particular, our bounds achieve optimal trade-offs between expected and distributional regret in both minimax and instance-dependent regimes. As a special case, for multi-armed bandits with $A$ arms and horizon $T$, we obtain a distributional regret bound of order $\\mathcal{O}(\\sqrt{AT}\\log(1/\u03b4))$, confirming the conjecture of Lattimore & Szepesv\u00e1ri (2020, Section 17.1) for the first time.",
+    "summary": "We study the distribution of regret in stochastic multi-armed bandits and episodic reinforcement learning through a unified framework. We formalize a distributional regret bound as a probabilistic guarantee that holds uniformly over all confidence levels $δ\\in (0,1]$, thereby characterizing the regret distribution across the full range of $δ$. We present a simple UCBVI-style algorithm with exploration bonus $\\min\\{c_{1,k}/N, c_{2,k}/\\sqrt{N}\\}$, where $N$ denotes the visit count and $(c_{1,k},c_{2,k})$ are user-specified parameters. For arbitrary parameter sequences, we derive general gap-independent and gap-dependent distributional regret bounds, yielding a principled characterization of how the parameters control the trade-off between expected performance, tail risk, and instance-dependent behavior. In particular, our bounds achieve optimal trade-offs between expected and distributional regret in both minimax and instance-dependent regimes. As a special case, for multi-armed bandits with $A$ arms and horizon $T$, we obtain a distributional regret bound of order $\\mathcal{O}(\\sqrt{AT}\\log(1/δ))$, confirming the conjecture of Lattimore & Szepesvári (2020, Section 17.1) for the first time.",
     "authors": [
       "Harin Lee",
       "Min-hwan Oh"
@@ -2644,8 +2644,8 @@
     "authors": [
       "Bartlomiej Sobieski",
       "Matthew Tivnan",
-      "Dawid P\u0142udowski",
-      "Micha\u0142 Jan W\u0142odarczyk",
+      "Dawid Płudowski",
+      "Michał Jan Włodarczyk",
       "Pengfei Jin",
       "Przemyslaw Biecek",
       "Quanzheng Li"
@@ -2723,11 +2723,11 @@
   {
     "arxiv_id": "2605.04918v1",
     "title": "Neural Discovery of Strichartz Extremizers",
-    "summary": "Strichartz inequalities are a cornerstone of the modern theory of dispersive PDEs, but their extremizers are known explicitly only in a handful of sharp cases. The non-convexity of the underlying functional makes the problem hard, and to our knowledge no systematic numerical attack has been attempted. We propose a simple neural-network-based pipeline that searches for extremizers as critical points of the Strichartz ratio, and apply it in three settings. First, on the Schr\u00f6dinger group we recover the Gaussian extremizers of Foschi and Hundertmark--Zharnitsky in dimensions $d=1,2$ to within $10^{-3}$ relative error, with no analytical prior. Second, on $59$ further admissible pairs in $d=1$ where the answer is conjectural, the method consistently finds Gaussians, supporting the conjecture that Gaussians are the universal extremizers in the admissible range. Third, on the critical Airy--Strichartz inequality at $\u03b3=1/q$, where existence is open, the optimization does not converge to any $L^2$ profile: instead, the iterates organize themselves as mKdV breathers $B(0,\\cdot;\u03b1,1,0,0)$ with growing internal frequency $\u03b1$, and the discovered ratio approaches the Frank--Sabin universal lower bound $\\widetilde A_{q,r}$ from below with a power-law gap $\\sim\u03b1^{-0.9}$. We confirm the same picture with an independent Hermite-basis ansatz. We propose a precise conjecture: the supremum equals $\\widetilde A_{q,r}$ and is approached, but not attained, along the breather family. The pipeline thus serves both as a validator on known cases and as a discovery tool when no extremizer exists.",
+    "summary": "Strichartz inequalities are a cornerstone of the modern theory of dispersive PDEs, but their extremizers are known explicitly only in a handful of sharp cases. The non-convexity of the underlying functional makes the problem hard, and to our knowledge no systematic numerical attack has been attempted. We propose a simple neural-network-based pipeline that searches for extremizers as critical points of the Strichartz ratio, and apply it in three settings. First, on the Schrödinger group we recover the Gaussian extremizers of Foschi and Hundertmark--Zharnitsky in dimensions $d=1,2$ to within $10^{-3}$ relative error, with no analytical prior. Second, on $59$ further admissible pairs in $d=1$ where the answer is conjectural, the method consistently finds Gaussians, supporting the conjecture that Gaussians are the universal extremizers in the admissible range. Third, on the critical Airy--Strichartz inequality at $γ=1/q$, where existence is open, the optimization does not converge to any $L^2$ profile: instead, the iterates organize themselves as mKdV breathers $B(0,\\cdot;α,1,0,0)$ with growing internal frequency $α$, and the discovered ratio approaches the Frank--Sabin universal lower bound $\\widetilde A_{q,r}$ from below with a power-law gap $\\simα^{-0.9}$. We confirm the same picture with an independent Hermite-basis ansatz. We propose a precise conjecture: the supremum equals $\\widetilde A_{q,r}$ and is approached, but not attained, along the breather family. The pipeline thus serves both as a validator on known cases and as a discovery tool when no extremizer exists.",
     "authors": [
-      "Nicol\u00e1s Valenzuela",
+      "Nicolás Valenzuela",
       "Ricardo Freire",
-      "Claudio Mu\u00f1oz"
+      "Claudio Muñoz"
     ],
     "categories": [
       "math.AP",
@@ -2872,7 +2872,7 @@
   {
     "arxiv_id": "2605.05189v1",
     "title": "Sharp Capacity Thresholds in Linear Associative Memory: From Winner-Take-All to Listwise Retrieval",
-    "summary": "How many key-value associations can a $d\\times d$ linear memory store? We show that the answer depends not only on the $d^2$ degrees of freedom in the memory matrix, but also on the retrieval criterion. In an isotropic Gaussian model for the stored pairs, we show that top-1 retrieval, where every signal must beat its largest distractor, requires the logarithmic model-size scale $d^2\\asymp n\\log n$. We prove that the correlation matrix memory construction, which stores associations by superposing key-target outer products, achieves this scale through a sharp phase transition, and that the same scaling is necessary for any linear memory. Thus the logarithm is the intrinsic extreme-value price of winner-take-all decoding.   We next consider listwise retrieval, where the correct target need not be the unique top-scoring item but should remain among the strongest candidates. To formalize this regime, we propose the Tail-Average Margin (TAM), a convex upper-tail criterion that certifies inclusion of the correct target in a controlled candidate list. Under this listwise retrieval criterion, the capacity follows the quadratic scale $d^2\\asymp n$. At load $n/d^2\\to\u03b1$, we develop an exact asymptotic theory for the TAM empirical-risk minimizer through a two-parameter scalar variational principle. The theory has a rich phenomenology: in the ridgeless limit it yields a closed-form critical load separating satisfiable and unsatisfiable phases, and it predicts the limiting laws of true scores, competitor scores, margins, and percentile profiles. Finally, a small-tail extrapolation further leads to the conjectural sharp top-1 threshold $d^2\\sim 2n\\log n$.",
+    "summary": "How many key-value associations can a $d\\times d$ linear memory store? We show that the answer depends not only on the $d^2$ degrees of freedom in the memory matrix, but also on the retrieval criterion. In an isotropic Gaussian model for the stored pairs, we show that top-1 retrieval, where every signal must beat its largest distractor, requires the logarithmic model-size scale $d^2\\asymp n\\log n$. We prove that the correlation matrix memory construction, which stores associations by superposing key-target outer products, achieves this scale through a sharp phase transition, and that the same scaling is necessary for any linear memory. Thus the logarithm is the intrinsic extreme-value price of winner-take-all decoding.   We next consider listwise retrieval, where the correct target need not be the unique top-scoring item but should remain among the strongest candidates. To formalize this regime, we propose the Tail-Average Margin (TAM), a convex upper-tail criterion that certifies inclusion of the correct target in a controlled candidate list. Under this listwise retrieval criterion, the capacity follows the quadratic scale $d^2\\asymp n$. At load $n/d^2\\toα$, we develop an exact asymptotic theory for the TAM empirical-risk minimizer through a two-parameter scalar variational principle. The theory has a rich phenomenology: in the ridgeless limit it yields a closed-form critical load separating satisfiable and unsatisfiable phases, and it predicts the limiting laws of true scores, competitor scores, margins, and percentile profiles. Finally, a small-tail extrapolation further leads to the conjectural sharp top-1 threshold $d^2\\sim 2n\\log n$.",
     "authors": [
       "Nicholas Barnfield",
       "Juno Kim",
@@ -3110,7 +3110,7 @@
     "summary": "Reward models are a key component of large language model alignment, serving as proxies for human preferences during training. However, existing evaluations focus primarily on broad instruction-following benchmarks, providing limited insight into whether these models capture socially desirable preferences. As a result, important failures in social alignment can remain hidden.   We extend reward-model benchmarking to four socially consequential domains: bias, safety, morality, and ethical reasoning. We introduce a framework that converts social evaluation datasets into pairwise preference data, leveraging gold labels where available and directional bias indicators otherwise. This enables us to test whether reward models prefer socially undesirable responses, and whether their preferences produce systematically biased distributions over selected outputs.   Across five publicly available reward models and two instruction-tuned models used as reward proxies, we find substantial variation across domains, with no single model performing best overall. The models fall well short of strong social intelligence: they often prefer socially undesirable options, and their preferences produce systematically biased distributions. Moreover, stronger bias avoidance can reduce sensitivity to context, revealing a key alignment trade-off between avoiding biased outcomes and preserving contextual faithfulness. These findings show that standard reward benchmarks are insufficient for assessing social alignment and highlight the need for evaluations that directly measure the social preferences encoded in reward models.",
     "authors": [
       "Gayane Ghazaryan",
-      "Esra D\u00f6nmez"
+      "Esra Dönmez"
     ],
     "categories": [
       "cs.CL",
@@ -3532,7 +3532,7 @@
   {
     "arxiv_id": "2605.04730v1",
     "title": "ULF-Loc: Unbiased Landmark Feature for Robust Visual Localization with 3D Gaussian Splatting",
-    "summary": "Visual localization is a core technology for augmented reality and autonomous navigation. Recent methods combine the efficient rendering of 3D Gaussian Splatting (3DGS) with feature-based localization. These methods rely on direct matching between 2D query features and the 3D Gaussian feature field, but this often results in mismatches due to an inherent bias in the learned Gaussian feature. We theoretically analyze the feature learning process in 3DGS, revealing that the widely adopted $\u03b1$-blending optimization inherently introduces bias into 3D point features. This bias stems from the entanglement between individual Gaussians and their neighboring Gaussians, making the learned features unsuitable for precise matching tasks. Motivated by these findings, we propose ULF-Loc, an unbiased landmark feature framework that replaces biased feature optimization with geometry-weighted feature fusion. We further introduce keypoint-consensus landmark sampling to select reliable Gaussians and local geometric consistency verification to reject mismatches caused by rendering artifacts. On the Cambridge Landmarks dataset, ULF-Loc reduces the mean median translation error by 17\\% compared to the state-of-the-art, while achieving superior efficiency with only 1/10 the training time and 1/6 the GPU memory of STDLoc.",
+    "summary": "Visual localization is a core technology for augmented reality and autonomous navigation. Recent methods combine the efficient rendering of 3D Gaussian Splatting (3DGS) with feature-based localization. These methods rely on direct matching between 2D query features and the 3D Gaussian feature field, but this often results in mismatches due to an inherent bias in the learned Gaussian feature. We theoretically analyze the feature learning process in 3DGS, revealing that the widely adopted $α$-blending optimization inherently introduces bias into 3D point features. This bias stems from the entanglement between individual Gaussians and their neighboring Gaussians, making the learned features unsuitable for precise matching tasks. Motivated by these findings, we propose ULF-Loc, an unbiased landmark feature framework that replaces biased feature optimization with geometry-weighted feature fusion. We further introduce keypoint-consensus landmark sampling to select reliable Gaussians and local geometric consistency verification to reject mismatches caused by rendering artifacts. On the Cambridge Landmarks dataset, ULF-Loc reduces the mean median translation error by 17\\% compared to the state-of-the-art, while achieving superior efficiency with only 1/10 the training time and 1/6 the GPU memory of STDLoc.",
     "authors": [
       "Yingdong Gu",
       "Shaocheng Yan",
@@ -3614,7 +3614,7 @@
   {
     "arxiv_id": "2605.05080v1",
     "title": "The Pinocchio Dimension: Phenomenality of Experience as the Primary Axis of LLM Psychometric Differences",
-    "summary": "We administer 45 validated psychometric questionnaires to 50 large language models (LLMs) to identify the dimensions along which LLMs differ psychometrically. Using Supervised Semantic Differential (SSD), we find that the primary axis of between-model variance separates items describing phenomenally rich experience, including embodied sensation, felt affect, inner speech, imagery, and empathy, from items describing stimulus-driven behavioral reactivity ($R^2_{adj}=.037$, $p<.0001$). To test this hypothesis at the item level, we introduce the Pinocchio score ($\u03c0_i$), the ratio of inter-model response variance under neutral prompting to that under a human-simulation prompt, as an annotation-free measure of each item's experiential demand. $\u03c0_i$ predicts condition-induced shifts in primary factor loading magnitudes ($\u03c1=-.215$, $p<.0001$, $n=1292$--$1310$ items), confirming that between-model divergence on experiential items is structured rather than noisy. Applying PCA to per-model EFA scores across all questionnaires reveals one dominant dimension, the Pinocchio Axis ($\u03a0$): the degree to which a model presents itself as a locus of phenomenal experience rather than a system of behavioral responses. This axis captures 47.1% of cross-questionnaire between-model variance in primary factor scores and converges with item-level Pinocchio scores ($r=.864$). Marked within-provider divergence across closely related model variants is consistent with post-training fine-tuning as a key contributor, supporting the interpretation that $\u03a0$ reflects a training-shaped self-representational tendency governing how a model treats experiential language as self-applicable. The dominant axis of between-model psychometric variation is therefore not a conventional personality trait but a self-representational stance toward one's own nature as an experiencer.",
+    "summary": "We administer 45 validated psychometric questionnaires to 50 large language models (LLMs) to identify the dimensions along which LLMs differ psychometrically. Using Supervised Semantic Differential (SSD), we find that the primary axis of between-model variance separates items describing phenomenally rich experience, including embodied sensation, felt affect, inner speech, imagery, and empathy, from items describing stimulus-driven behavioral reactivity ($R^2_{adj}=.037$, $p<.0001$). To test this hypothesis at the item level, we introduce the Pinocchio score ($π_i$), the ratio of inter-model response variance under neutral prompting to that under a human-simulation prompt, as an annotation-free measure of each item's experiential demand. $π_i$ predicts condition-induced shifts in primary factor loading magnitudes ($ρ=-.215$, $p<.0001$, $n=1292$--$1310$ items), confirming that between-model divergence on experiential items is structured rather than noisy. Applying PCA to per-model EFA scores across all questionnaires reveals one dominant dimension, the Pinocchio Axis ($Π$): the degree to which a model presents itself as a locus of phenomenal experience rather than a system of behavioral responses. This axis captures 47.1% of cross-questionnaire between-model variance in primary factor scores and converges with item-level Pinocchio scores ($r=.864$). Marked within-provider divergence across closely related model variants is consistent with post-training fine-tuning as a key contributor, supporting the interpretation that $Π$ reflects a training-shaped self-representational tendency governing how a model treats experiential language as self-applicable. The dominant axis of between-model psychometric variation is therefore not a conventional personality trait but a self-representational stance toward one's own nature as an experiencer.",
     "authors": [
       "Hubert Plisiecki",
       "Sabina Siudaj",
@@ -3694,7 +3694,7 @@
       "Lyle Ungar",
       "Sharath Chandra Guntuku",
       "Neville Ryant",
-      "Jo\u00e3o Sedoc"
+      "João Sedoc"
     ],
     "categories": [
       "cs.LG",
@@ -3792,7 +3792,7 @@
   {
     "arxiv_id": "2605.04932v1",
     "title": "Jacobian-Velocity Bounds for Deployment Risk Under Covariate Drift",
-    "summary": "We study long-horizon deployment of a frozen predictor under dynamic covariate shift. A time-domain Poincar\u00e9 inequality reduces temporal risk volatility to derivative energy, and a Jacobian-velocity theorem identifies directional tangent energy along the deployment path as the governing quantity under explicit along-path regularity and domination assumptions. Under low-rank drift, that quantity reduces to directional Jacobian energy in the drift subspace, motivating drift-aligned tangent regularization (DTR) and a matched monitoring proxy. Rather than smoothing the network isotropically, DTR penalizes sensitivity only along estimated drift directions. We validate the theorem-to-method pipeline in four experiments: a synthetic benchmark for the time-domain inequality, a controlled synthetic comparison against isotropic Jacobian regularization, and two frozen-deployment studies on the UCI Air Quality and Tetouan power-consumption datasets. DTR reduces risk volatility and directional gain in the controlled low-rank regime, beats isotropic smoothing there, and gives validation-selected deployment gains on both real datasets when the Air Quality drift subspace is estimated from target-orthogonal sensor motion. Moderate drift-subspace misspecification is tolerable while orthogonal misspecification largely removes the benefit.",
+    "summary": "We study long-horizon deployment of a frozen predictor under dynamic covariate shift. A time-domain Poincaré inequality reduces temporal risk volatility to derivative energy, and a Jacobian-velocity theorem identifies directional tangent energy along the deployment path as the governing quantity under explicit along-path regularity and domination assumptions. Under low-rank drift, that quantity reduces to directional Jacobian energy in the drift subspace, motivating drift-aligned tangent regularization (DTR) and a matched monitoring proxy. Rather than smoothing the network isotropically, DTR penalizes sensitivity only along estimated drift directions. We validate the theorem-to-method pipeline in four experiments: a synthetic benchmark for the time-domain inequality, a controlled synthetic comparison against isotropic Jacobian regularization, and two frozen-deployment studies on the UCI Air Quality and Tetouan power-consumption datasets. DTR reduces risk volatility and directional gain in the controlled low-rank regime, beats isotropic smoothing there, and gives validation-selected deployment gains on both real datasets when the Air Quality drift subspace is estimated from target-orthogonal sensor motion. Moderate drift-subspace misspecification is tolerable while orthogonal misspecification largely removes the benefit.",
     "authors": [
       "Jonathan R. Landers"
     ],
@@ -3812,7 +3812,7 @@
     "title": "Curated AI beats frontier LLMs at pharma asset discovery",
     "summary": "General-purpose LLMs with web search are increasingly used to scout the competitive landscape of pharmaceutical pipelines. We benchmark Gosset -- an AI platform with a chat interface backed by curated target-, modality-, and indication-level drug-asset annotations -- against four frontier systems with web access (Claude Opus 4.7, GPT 5.5, Gemini 3.1 Pro, Perplexity sonar-pro) on ten niche oncology/immunology targets where most of the pipeline lives in the long tail of preclinical and Asian-developed assets. All five systems receive the same natural-language query and the same JSON output schema. Across 10 targets Gosset returns 3.2x more verified drugs per query than the best frontier system, at perfect precision and 100% recall against the cross-system union of verified drugs. The same curated index is exposed as a Gosset MCP server that any frontier model can call as a tool, suggesting that each of these systems can close most of the recall gap by swapping generic web search for a curated index behind the same chat interface.",
     "authors": [
-      "\u0141ukasz Kidzi\u0144ski",
+      "Łukasz Kidziński",
       "Kevin Thomas"
     ],
     "categories": [
@@ -3942,10 +3942,10 @@
     "title": "Anny-Fit: All-Age Human Mesh Recovery",
     "summary": "Recovering 3D human pose and shape from a single image remains a cornerstone of human-centric vision, yet most methods assume adult subjects and optimize each person independently. These assumptions fail in real-world, all-age scenes, where body proportions and depth must be resolved jointly. We introduce Anny-Fit, a multi-person, camera-space optimization framework for all-age 3D human mesh recovery (HMR). Unlike existing per-person fitting methods, Anny-Fit jointly optimizes all individuals directly in the camera coordinate system, enforcing global spatial consistency. At the core of our approach is the use of multiple forms of expert knowledge -- including metric depth maps, instance segmentation, 2D keypoints, and, VLM-derived semantic attributes such as age and gender -- each obtained from dedicated off-the-shelf networks. These complementary signals jointly guide the optimization, constraining the depth-scale ambiguity characteristic of all-age scenes. Across diverse datasets, Anny-Fit consistently improves 2D reprojection accuracy (+13 to 16), relative depth ordering (+6 to 7), 3D estimation error (-9 to -29) and shape estimation (+25 to +82), producing more coherent scenes. Finally, we show that VLM-based semantic knowledge can be distilled into an HMR model via the pseudo-ground-truth annotations produced by Anny-Fit on training data, enabling it to learn semantically meaningful shape parameters while improving HMR performance. Our approach bridges adult-only and all-age modeling by enabling zero-shot adaptation of adult-trained HMR pipelines to the full age spectrum without retraining. Code is publicly available at https://github.com/naver/anny-fit.",
     "authors": [
-      "Laura Bravo-S\u00e1nchez",
+      "Laura Bravo-Sánchez",
       "Matthieu Armando",
-      "Romain Br\u00e9gier",
-      "Gr\u00e9gory Rogez",
+      "Romain Brégier",
+      "Grégory Rogez",
       "Serena Yeung-Levy",
       "Fabien Baradel"
     ],
@@ -4048,7 +4048,7 @@
   {
     "arxiv_id": "2605.05020v1",
     "title": "Graph-SND: Sparse Aggregation for Behavioral Diversity in Multi-Agent Reinforcement Learning",
-    "summary": "System Neural Diversity (SND) measures behavioral heterogeneity in multi-agent reinforcement learning by averaging pairwise distances over all $\\binom{n}{2}$ agent pairs, making each call quadratic in team size. We introduce Graph-SND, which replaces this complete-graph average with a weighted average over the edges of an arbitrary graph $G$. Three regimes follow: $G=K_n$ recovers SND exactly; a fixed sparse $G$ defines a localized diversity measure at $O(|E|)$ cost; and random edge samples yield an unbiased Horvitz-Thompson estimator and a normalized sample mean with $O(1/\\sqrt{m})$ concentration in the sampled edge count $m$. For fixed sparse graphs we prove forwarding-index distortion bounds for expanders and a spectral refinement under low-rank distance structure; for random $d$-regular graphs we prove an unconditional probabilistic $\\widetilde{\\mathcal{O}}(D_{\\max}/\\sqrt{n})$ bound. On VMAS we verify recovery, unbiasedness, concentration, and wall-clock scaling, with a PettingZoo TVD panel checking non-Gaussian transfer. In a 500-iteration $n=100$ PPO run, Bernoulli-$0.1$ Graph-SND tracks full SND while reducing per-call metric time by about $10\\times$, and frozen-policy GPU timing up to $n=500$ follows the predicted $\\binom{n}{2}/|E|$ speedup. Random $d$-regular expanders empirically achieve $\\mathrm{SND}_{G}^{\\mathrm{u}}/\\mathrm{SND} \\in [0.9987, 1.0013]$ at $\u0398(n \\log n)$ edges. In DiCo diversity control at $n=50$, Bernoulli-$0.1$ Graph-SND preserves set-point tracking with paired reward differences indistinguishable from zero across nine matched cells while cutting per-call metric cost by ${\\sim}9.5\\times$. Together, these results show that the SND aggregation bottleneck can be removed without changing the metric's semantics, yielding a drop-in sparse alternative that scales beyond complete-graph SND and supports both passive measurement and closed-loop diversity control.",
+    "summary": "System Neural Diversity (SND) measures behavioral heterogeneity in multi-agent reinforcement learning by averaging pairwise distances over all $\\binom{n}{2}$ agent pairs, making each call quadratic in team size. We introduce Graph-SND, which replaces this complete-graph average with a weighted average over the edges of an arbitrary graph $G$. Three regimes follow: $G=K_n$ recovers SND exactly; a fixed sparse $G$ defines a localized diversity measure at $O(|E|)$ cost; and random edge samples yield an unbiased Horvitz-Thompson estimator and a normalized sample mean with $O(1/\\sqrt{m})$ concentration in the sampled edge count $m$. For fixed sparse graphs we prove forwarding-index distortion bounds for expanders and a spectral refinement under low-rank distance structure; for random $d$-regular graphs we prove an unconditional probabilistic $\\widetilde{\\mathcal{O}}(D_{\\max}/\\sqrt{n})$ bound. On VMAS we verify recovery, unbiasedness, concentration, and wall-clock scaling, with a PettingZoo TVD panel checking non-Gaussian transfer. In a 500-iteration $n=100$ PPO run, Bernoulli-$0.1$ Graph-SND tracks full SND while reducing per-call metric time by about $10\\times$, and frozen-policy GPU timing up to $n=500$ follows the predicted $\\binom{n}{2}/|E|$ speedup. Random $d$-regular expanders empirically achieve $\\mathrm{SND}_{G}^{\\mathrm{u}}/\\mathrm{SND} \\in [0.9987, 1.0013]$ at $Θ(n \\log n)$ edges. In DiCo diversity control at $n=50$, Bernoulli-$0.1$ Graph-SND preserves set-point tracking with paired reward differences indistinguishable from zero across nine matched cells while cutting per-call metric cost by ${\\sim}9.5\\times$. Together, these results show that the SND aggregation bottleneck can be removed without changing the metric's semantics, yielding a drop-in sparse alternative that scales beyond complete-graph SND and supports both passive measurement and closed-loop diversity control.",
     "authors": [
       "Shawn Ray"
     ],
@@ -4186,7 +4186,7 @@
     "authors": [
       "Gasser Elazab",
       "Frank Neuhaus",
-      "Tilman Ko\u00df",
+      "Tilman Koß",
       "Malte Splietker",
       "Aditya Date",
       "Michael Unterreiner",
@@ -4349,7 +4349,7 @@
     "title": "ICPR 2026 Competition on Privacy-Preserving Person Re-Identification from Top-View RGB-Depth Camera (TVRID)",
     "summary": "This companion paper reports the ICPR 2026 TVRID competition on privacy-aware top-view person re-identification. We present the competition setting, the released RGB-Depth dataset, and a summary of final results with descriptions of the top entries. TVRID contains 86 identities captured by four synchronized overhead Intel RealSense D455 cameras, with paired RGB/Depth streams and structured geometric variation across flat, ascent, descent, and oblique viewpoints. The evaluation protocol includes three tracks: RGB Re-ID, Depth Re-ID, and RGB$\\leftrightarrow$Depth cross-modal retrieval. Submissions are ranked using mAP and CMC-1 under a unified server-side evaluation. The final results show a clear difficulty ordering (RGB $>$ Depth $>$ Cross-Modal), highlighting both the challenge of modality-constrained retrieval and the feasibility of strong performance with modality-invariant learning. By releasing the dataset at https://zenodo.org/records/17909410, the evaluation scripts at https://github.com/RaphaelDel/ICPR-TVRID, and the accompanying documentation, TVRID establishes a reproducible benchmark for top-view, depth-based, and cross-modal person re-id.",
     "authors": [
-      "Rapha\u00ebl Del\u00e9cluse",
+      "Raphaël Delécluse",
       "Hazem Wannous",
       "Laurent Guimas"
     ],
@@ -4361,119 +4361,6 @@
     "pdf_url": "https://arxiv.org/pdf/2605.04977v1.pdf",
     "date": "2026-05-07",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-    "author": "unknown",
-    "title": "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "text-generation",
-      "gguf",
-      "juju",
-      "moe",
-      "storagellm",
-      "base_model:google/gemma-4-26B-A4B-it",
-      "base_model:finetune:google/gemma-4-26B-A4B-it",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-07T05:54:02.000Z",
-    "last_modified": "2026-05-07T05:54:03.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-    "date": "2026-05-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "VoCuc/sra-new",
-    "author": "unknown",
-    "title": "VoCuc/sra-new",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-05-07T04:02:03.000Z",
-    "last_modified": "2026-05-07T05:52:27.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/VoCuc/sra-new",
-    "date": "2026-05-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "thththththth44444/pium2",
-    "author": "unknown",
-    "title": "thththththth44444/pium2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:unsloth/gemma-2-9b-it-bnb-4bit",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:unsloth/gemma-2-9b-it-bnb-4bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-05-07T05:50:53.000Z",
-    "last_modified": "2026-05-07T05:51:54.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/thththththth44444/pium2",
-    "date": "2026-05-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "VladShash/deepseek-math-full-7B-lean-prover-dpo-150k-mistral",
-    "author": "unknown",
-    "title": "VladShash/deepseek-math-full-7B-lean-prover-dpo-150k-mistral",
-    "downloads": 352,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "dpo",
-      "conversational",
-      "arxiv:2305.18290",
-      "base_model:formalmathatepfl/deepseek-math-full-sft",
-      "base_model:finetune:formalmathatepfl/deepseek-math-full-sft",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-05T12:07:13.000Z",
-    "last_modified": "2026-05-07T05:51:39.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/VladShash/deepseek-math-full-7B-lean-prover-dpo-150k-mistral",
-    "date": "2026-05-07",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
