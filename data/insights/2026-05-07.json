@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-07T22:57:28.214778",
+  "date": "2026-05-07T23:49:31.080857",
   "patterns": {
     "multimodal_research": [
       {
@@ -585,30 +585,6 @@
       {
         "title": "Not Every Subject Should Stay: Machine Unlearning for Noisy Engagement Recognition",
         "url": "https://arxiv.org/abs/2605.04713v1"
-      },
-      {
-        "title": "jezapataf/bertweet",
-        "url": "https://huggingface.co/jezapataf/bertweet"
-      },
-      {
-        "title": "LLM-OS-Models/LFM2.5-1.2B-Terminal-SFT-2Epoch-LiquidCLI-TemplateHoldout-8GPU",
-        "url": "https://huggingface.co/LLM-OS-Models/LFM2.5-1.2B-Terminal-SFT-2Epoch-LiquidCLI-TemplateHoldout-8GPU"
-      },
-      {
-        "title": "LLM-OS-Models/LFM2.5-1.2B-Terminal-SFT-2Epoch-LiquidCLI-TemplateHoldout",
-        "url": "https://huggingface.co/LLM-OS-Models/LFM2.5-1.2B-Terminal-SFT-2Epoch-LiquidCLI-TemplateHoldout"
-      },
-      {
-        "title": "LLM-OS-Models/LFM2.5-1.2B-Terminal-SFT-1Epoch-LiquidCLI-TemplateHoldout",
-        "url": "https://huggingface.co/LLM-OS-Models/LFM2.5-1.2B-Terminal-SFT-1Epoch-LiquidCLI-TemplateHoldout"
-      },
-      {
-        "title": "LLM-OS-Models/LFM2-8B-Terminal-SFT-2Epoch-LiquidCLI-TemplateHoldout-7GPU",
-        "url": "https://huggingface.co/LLM-OS-Models/LFM2-8B-Terminal-SFT-2Epoch-LiquidCLI-TemplateHoldout-7GPU"
-      },
-      {
-        "title": "LLM-OS-Models/LFM2-8B-A1B-Terminal-SFT-2Epoch-LiquidCLI-TemplateHoldout",
-        "url": "https://huggingface.co/LLM-OS-Models/LFM2-8B-A1B-Terminal-SFT-2Epoch-LiquidCLI-TemplateHoldout"
       }
     ],
     "vision_systems": [
@@ -1493,7 +1469,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1552,6 +1528,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 363
+    "total_papers": 357
   }
 }
