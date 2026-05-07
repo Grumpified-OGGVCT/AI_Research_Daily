@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-07T08:24:56.422740",
+  "date": "2026-05-07T11:05:51.224558",
   "patterns": {
     "multimodal_research": [
       {
@@ -587,8 +587,8 @@
         "url": "https://arxiv.org/abs/2605.04713v1"
       },
       {
-        "title": "himalaya-ai/himalayagpt-0.5b-it",
-        "url": "https://huggingface.co/himalaya-ai/himalayagpt-0.5b-it"
+        "title": "AnandVelpuri/food_not_food_image_captions-distilbert-base-uncased",
+        "url": "https://huggingface.co/AnandVelpuri/food_not_food_image_captions-distilbert-base-uncased"
       }
     ],
     "vision_systems": [
@@ -819,6 +819,10 @@
       {
         "title": "External Validation of Deep Learning Models for BI-RADS Breast Density Prediction from Ultrasound Images",
         "url": "https://arxiv.org/abs/2605.05082v1"
+      },
+      {
+        "title": "AnandVelpuri/food_not_food_image_captions-distilbert-base-uncased",
+        "url": "https://huggingface.co/AnandVelpuri/food_not_food_image_captions-distilbert-base-uncased"
       }
     ],
     "reasoning": [
@@ -1475,7 +1479,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "57 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1528,6 +1532,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 357
+    "total_papers": 358
   }
 }
