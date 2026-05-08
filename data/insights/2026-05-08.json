@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-08T20:53:29.507373",
+  "date": "2026-05-08T21:55:42.845587",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,12 +679,8 @@
         "url": "https://arxiv.org/abs/2605.06537v1"
       },
       {
-        "title": "Avifenesh/episodic-ingestion-modernbert-ranker-seed17",
-        "url": "https://huggingface.co/Avifenesh/episodic-ingestion-modernbert-ranker-seed17"
-      },
-      {
-        "title": "Avifenesh/episodic-ingestion-modernbert-ranker-seed42",
-        "url": "https://huggingface.co/Avifenesh/episodic-ingestion-modernbert-ranker-seed42"
+        "title": "naranor/SetFit-ModernBERT-WAMP-V1",
+        "url": "https://huggingface.co/naranor/SetFit-ModernBERT-WAMP-V1"
       }
     ],
     "vision_systems": [
@@ -1499,6 +1495,10 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
+      },
+      {
+        "title": "SOTAagi2030/MyModel-BestV2-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyModel-BestV2-TestRepo"
       }
     ]
   },
@@ -1529,7 +1529,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1553,7 +1553,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "101 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
