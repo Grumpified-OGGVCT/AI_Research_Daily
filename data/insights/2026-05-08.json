@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-08T07:22:17.088361",
+  "date": "2026-05-08T09:11:39.009101",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,10 +677,6 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
-      },
-      {
-        "title": "LOVEHaruka/News_Classification_System_bert_gru_attention_model",
-        "url": "https://huggingface.co/LOVEHaruka/News_Classification_System_bert_gru_attention_model"
       }
     ],
     "vision_systems": [
@@ -1525,7 +1521,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1584,6 +1580,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 371
+    "total_papers": 370
   }
 }
