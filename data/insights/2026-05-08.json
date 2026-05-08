@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-08T19:09:24.517399",
+  "date": "2026-05-08T20:53:29.507373",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,8 +679,12 @@
         "url": "https://arxiv.org/abs/2605.06537v1"
       },
       {
-        "title": "iisys-hof/OLaPhLLM_v2",
-        "url": "https://huggingface.co/iisys-hof/OLaPhLLM_v2"
+        "title": "Avifenesh/episodic-ingestion-modernbert-ranker-seed17",
+        "url": "https://huggingface.co/Avifenesh/episodic-ingestion-modernbert-ranker-seed17"
+      },
+      {
+        "title": "Avifenesh/episodic-ingestion-modernbert-ranker-seed42",
+        "url": "https://huggingface.co/Avifenesh/episodic-ingestion-modernbert-ranker-seed42"
       }
     ],
     "vision_systems": [
@@ -1089,10 +1093,6 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
-      },
-      {
-        "title": "xxbanditxx/orbit-reasoning-layer-zaya1-8b",
-        "url": "https://huggingface.co/xxbanditxx/orbit-reasoning-layer-zaya1-8b"
       }
     ],
     "benchmarks": [
@@ -1499,14 +1499,6 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
-      },
-      {
-        "title": "SOTAagi2030/MyModel-Threshold60-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyModel-Threshold60-TestRepo"
-      },
-      {
-        "title": "juiceb0xc0de/benchmark-fft-7b-199",
-        "url": "https://huggingface.co/juiceb0xc0de/benchmark-fft-7b-199"
       }
     ]
   },
@@ -1537,7 +1529,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1549,7 +1541,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "55 independent papers",
+      "observation": "54 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1561,7 +1553,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "103 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1574,7 +1566,7 @@
     },
     {
       "topic": "benchmark",
-      "frequency": 65,
+      "frequency": 64,
       "significance": "high"
     },
     {
@@ -1583,12 +1575,12 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 25,
+      "topic": "vision",
+      "frequency": 24,
       "significance": "high"
     },
     {
-      "topic": "vision",
+      "topic": "reasoning",
       "frequency": 24,
       "significance": "high"
     }
@@ -1596,6 +1588,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 374
+    "total_papers": 372
   }
 }
