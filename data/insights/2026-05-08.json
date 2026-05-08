@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-08T13:18:34.548111",
+  "date": "2026-05-08T15:18:28.360849",
   "patterns": {
     "multimodal_research": [
       {
@@ -319,6 +319,10 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
+      },
+      {
+        "title": "storagejuju/glm-5.1-mxfp4-moe-juju",
+        "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju"
       }
     ],
     "language_models": [
@@ -679,8 +683,8 @@
         "url": "https://arxiv.org/abs/2605.06537v1"
       },
       {
-        "title": "iisys-hof/OLaPhLLM_v2",
-        "url": "https://huggingface.co/iisys-hof/OLaPhLLM_v2"
+        "title": "Goodnews1/ibibioGpt-0.5B",
+        "url": "https://huggingface.co/Goodnews1/ibibioGpt-0.5B"
       }
     ],
     "vision_systems": [
@@ -1495,6 +1499,10 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
+      },
+      {
+        "title": "SOTAagi2030/MySafeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MySafeModel-TestRepo"
       }
     ]
   },
@@ -1513,7 +1521,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "62 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1549,7 +1557,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "101 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1584,6 +1592,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 371
+    "total_papers": 373
   }
 }
