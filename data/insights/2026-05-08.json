@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-08T21:55:42.845587",
+  "date": "2026-05-08T22:52:11.643772",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,8 +679,8 @@
         "url": "https://arxiv.org/abs/2605.06537v1"
       },
       {
-        "title": "naranor/SetFit-ModernBERT-WAMP-V1",
-        "url": "https://huggingface.co/naranor/SetFit-ModernBERT-WAMP-V1"
+        "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch"
       }
     ],
     "vision_systems": [
@@ -863,6 +863,10 @@
       {
         "title": "The frame-level leakage trap: rethinking evaluation protocols for intrinsic image decomposition, with source-separable uncertainty as a case study",
         "url": "https://arxiv.org/abs/2605.06359v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Eulerian Motion Guidance: Robust Image Animation via Bidirectional Geometric Consistency",
@@ -1495,10 +1499,6 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
-      },
-      {
-        "title": "SOTAagi2030/MyModel-BestV2-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyModel-BestV2-TestRepo"
       }
     ]
   },
@@ -1535,7 +1535,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "47 independent papers",
+      "observation": "48 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1553,7 +1553,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "102 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1561,7 +1561,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 71,
+      "frequency": 72,
       "significance": "high"
     },
     {
