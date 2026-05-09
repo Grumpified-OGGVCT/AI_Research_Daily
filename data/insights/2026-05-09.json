@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-09T21:38:40.029816",
+  "date": "2026-05-09T22:37:36.935571",
   "patterns": {
     "multimodal_research": [
       {
@@ -1491,10 +1491,6 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
-      },
-      {
-        "title": "SOTAagi2030/MyModel-MidRange-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyModel-MidRange-TestRepo"
       }
     ]
   },
@@ -1549,7 +1545,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "102 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1584,6 +1580,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 371
+    "total_papers": 370
   }
 }
