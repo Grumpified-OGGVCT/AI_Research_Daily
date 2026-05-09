@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-09T02:15:08.210728",
+  "patterns": {
+    "reasoning": [
+      {
+        "title": "engr-bilal/DeepSeek-R1-Finance-Reasoning-14B",
+        "url": "https://huggingface.co/engr-bilal/DeepSeek-R1-Finance-Reasoning-14B"
+      },
+      {
+        "title": "osmapi/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-abliterated-OptiQ-3.7bpw-mlx",
+        "url": "https://huggingface.co/osmapi/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-abliterated-OptiQ-3.7bpw-mlx"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
+  }
+}
