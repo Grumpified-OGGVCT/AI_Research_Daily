@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-09T18:52:46.069937",
+  "date": "2026-05-09T19:54:40.799082",
   "patterns": {
     "multimodal_research": [
       {
@@ -675,12 +675,12 @@
         "url": "https://arxiv.org/abs/2605.06359v1"
       },
       {
-        "title": "newzyerror/gpt-oss-20b-tq3",
-        "url": "https://huggingface.co/newzyerror/gpt-oss-20b-tq3"
-      },
-      {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch"
       }
     ],
     "vision_systems": [
@@ -871,6 +871,10 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
+      },
+      {
+        "title": "LethaboMH14/immunis-vision",
+        "url": "https://huggingface.co/LethaboMH14/immunis-vision"
       }
     ],
     "reasoning": [
@@ -1531,7 +1535,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "47 independent papers",
+      "observation": "48 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1572,7 +1576,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 24,
+      "frequency": 25,
       "significance": "high"
     },
     {
@@ -1584,6 +1588,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 371
+    "total_papers": 372
   }
 }
