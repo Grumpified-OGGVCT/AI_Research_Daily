@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-09T14:45:14.665417",
+  "date": "2026-05-09T15:45:08.354051",
   "patterns": {
     "multimodal_research": [
       {
@@ -319,10 +319,6 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
-      },
-      {
-        "title": "storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju",
-        "url": "https://huggingface.co/storagejuju/gemma-4-26b-a4b-it-mxfp4-moe-juju"
       }
     ],
     "language_models": [
@@ -683,12 +679,12 @@
         "url": "https://arxiv.org/abs/2605.06537v1"
       },
       {
-        "title": "samboateng190/distilbert-imdb-sentiment",
-        "url": "https://huggingface.co/samboateng190/distilbert-imdb-sentiment"
+        "title": "WeReCooking/ModernBERT-risk-classifier",
+        "url": "https://huggingface.co/WeReCooking/ModernBERT-risk-classifier"
       },
       {
-        "title": "Lilin004/luxun-gpt2-optimized2",
-        "url": "https://huggingface.co/Lilin004/luxun-gpt2-optimized2"
+        "title": "abhish01/learn_hf_food_not_food_text_classifier-distilbert-base-uncased",
+        "url": "https://huggingface.co/abhish01/learn_hf_food_not_food_text_classifier-distilbert-base-uncased"
       }
     ],
     "vision_systems": [
@@ -1521,7 +1517,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "63 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1592,6 +1588,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 373
+    "total_papers": 372
   }
 }
