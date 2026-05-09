@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-09T05:44:17.363243",
+  "date": "2026-05-09T07:49:18.851363",
   "patterns": {
     "multimodal_research": [
       {
@@ -1085,10 +1085,6 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
-      },
-      {
-        "title": "osmapi/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-abliterated-8bit-mlx",
-        "url": "https://huggingface.co/osmapi/Qwen3.6-27B-Claude-Opus-Reasoning-Distill-v2-abliterated-8bit-mlx"
       }
     ],
     "benchmarks": [
@@ -1495,10 +1491,6 @@
       {
         "title": "MedHorizon: Towards Long-context Medical Video Understanding in the Wild",
         "url": "https://arxiv.org/abs/2605.06537v1"
-      },
-      {
-        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
-        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1541,7 +1533,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "55 independent papers",
+      "observation": "54 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1553,7 +1545,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "102 independent papers",
+      "observation": "101 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1575,12 +1567,12 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 25,
+      "topic": "vision",
+      "frequency": 24,
       "significance": "high"
     },
     {
-      "topic": "vision",
+      "topic": "reasoning",
       "frequency": 24,
       "significance": "high"
     }
@@ -1588,6 +1580,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 372
+    "total_papers": 370
   }
 }
