@@ -1,22 +1,71 @@
 {
-  "date": "2026-05-10T11:46:00.099855",
+  "date": "2026-05-10T13:05:25.728409",
   "patterns": {
     "language_models": [
       {
-        "title": "sevimbahadiir/cmpe346-xlm-roberta-sentiment",
-        "url": "https://huggingface.co/sevimbahadiir/cmpe346-xlm-roberta-sentiment"
+        "title": "LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch"
       },
       {
-        "title": "hassanforge/bert-ag-news",
-        "url": "https://huggingface.co/hassanforge/bert-ag-news"
+        "title": "LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-1Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-1Epoch"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-1Epoch"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-1Epoch"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch"
+      },
+      {
+        "title": "sevvalyvs/xlm-roberta-multilingual-sentiment",
+        "url": "https://huggingface.co/sevvalyvs/xlm-roberta-multilingual-sentiment"
+      },
+      {
+        "title": "LKHUMANLEIMA/distilbert-goodreads-genres",
+        "url": "https://huggingface.co/LKHUMANLEIMA/distilbert-goodreads-genres"
+      },
+      {
+        "title": "patelnikunjr/distilbert-goodreads-genres",
+        "url": "https://huggingface.co/patelnikunjr/distilbert-goodreads-genres"
       }
     ]
   },
-  "inferences": [],
-  "research_trends": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "11 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
+  "research_trends": [
+    {
+      "topic": "language",
+      "frequency": 7,
+      "significance": "high"
+    }
+  ],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 11
   }
 }
