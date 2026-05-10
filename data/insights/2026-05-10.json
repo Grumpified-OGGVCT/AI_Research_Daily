@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-10T19:56:35.881522",
+  "date": "2026-05-10T20:42:11.592697",
   "patterns": {
     "language_models": [
       {
@@ -25,49 +25,21 @@
       {
         "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch"
-      },
-      {
-        "title": "sdanda99/bert-finetuned-squad",
-        "url": "https://huggingface.co/sdanda99/bert-finetuned-squad"
-      }
-    ],
-    "vision_systems": [
-      {
-        "title": "HJerryzZ/Z-Image-Turbo",
-        "url": "https://huggingface.co/HJerryzZ/Z-Image-Turbo"
-      },
-      {
-        "title": "mlx-community/HiDream-O1-Image-Dev-mlx-q8",
-        "url": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-q8"
-      },
-      {
-        "title": "mlx-community/HiDream-O1-Image-Dev-mlx-q6",
-        "url": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-q6"
-      },
-      {
-        "title": "mlx-community/HiDream-O1-Image-Dev-mlx-bf16",
-        "url": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-bf16"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "7 independent papers",
+      "observation": "6 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
-    },
-    {
-      "pattern": "vision_systems",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
-      "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 2,
-    "total_papers": 11
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 6
   }
 }
