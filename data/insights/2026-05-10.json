@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-10T10:09:57.337489",
-  "patterns": {},
+  "date": "2026-05-10T11:46:00.099855",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "sevimbahadiir/cmpe346-xlm-roberta-sentiment",
+        "url": "https://huggingface.co/sevimbahadiir/cmpe346-xlm-roberta-sentiment"
+      },
+      {
+        "title": "hassanforge/bert-ag-news",
+        "url": "https://huggingface.co/hassanforge/bert-ag-news"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
