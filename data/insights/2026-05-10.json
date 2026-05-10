@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-10T02:26:15.726805",
-  "patterns": {},
+  "date": "2026-05-10T05:59:41.020903",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "RadhaMayuri15/sarcasm-detector-roberta",
+        "url": "https://huggingface.co/RadhaMayuri15/sarcasm-detector-roberta"
+      },
+      {
+        "title": "nagaananth/distilbert-goodreads-genres_v2",
+        "url": "https://huggingface.co/nagaananth/distilbert-goodreads-genres_v2"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
