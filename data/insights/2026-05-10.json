@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-10T16:46:09.133548",
+  "date": "2026-05-10T17:45:59.402978",
   "patterns": {
     "language_models": [
       {
@@ -25,21 +25,13 @@
       {
         "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch"
-      },
-      {
-        "title": "Director-AIML2027/distilbert-rotten-tomatoes",
-        "url": "https://huggingface.co/Director-AIML2027/distilbert-rotten-tomatoes"
-      },
-      {
-        "title": "vikhanglam625/phobert_fnews_vn",
-        "url": "https://huggingface.co/vikhanglam625/phobert_fnews_vn"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "8 independent papers",
+      "observation": "6 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -48,6 +40,6 @@
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 8
+    "total_papers": 6
   }
 }
