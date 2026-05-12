@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-12T18:54:28.269426",
+  "date": "2026-05-12T20:28:53.205556",
   "patterns": {
     "multimodal_research": [
       {
@@ -721,6 +721,18 @@
       {
         "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch"
+      },
+      {
+        "title": "Aymay93/albert-finetuned-squad",
+        "url": "https://huggingface.co/Aymay93/albert-finetuned-squad"
+      },
+      {
+        "title": "Aymay93/bert-finetuned-squad",
+        "url": "https://huggingface.co/Aymay93/bert-finetuned-squad"
+      },
+      {
+        "title": "Aymay93/distilbert-finetuned-squad",
+        "url": "https://huggingface.co/Aymay93/distilbert-finetuned-squad"
       }
     ],
     "vision_systems": [
@@ -1737,7 +1749,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1796,6 +1808,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 424
+    "total_papers": 427
   }
 }
