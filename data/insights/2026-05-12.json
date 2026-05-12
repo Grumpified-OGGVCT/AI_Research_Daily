@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-12T22:09:17.829404",
+  "date": "2026-05-12T23:56:00.919619",
   "patterns": {
     "multimodal_research": [
       {
@@ -699,6 +699,14 @@
         "url": "https://arxiv.org/abs/2605.10850v1"
       },
       {
+        "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch"
+      },
+      {
+        "title": "LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch",
+        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch"
+      },
+      {
         "title": "LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-Terminal-SFT-Native-Liquid-2Epoch"
       },
@@ -709,34 +717,6 @@
       {
         "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch"
-      },
-      {
-        "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch",
-        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-1Epoch"
-      },
-      {
-        "title": "LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch",
-        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-Terminal-SFT-Native-Liquid-2Epoch"
-      },
-      {
-        "title": "LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch",
-        "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E2B-it-Terminal-SFT-Native-Liquid-2Epoch"
-      },
-      {
-        "title": "amira140997/1_mental-health-distilroberta-base",
-        "url": "https://huggingface.co/amira140997/1_mental-health-distilroberta-base"
-      },
-      {
-        "title": "amira140997/1_mental-health-roberta-large",
-        "url": "https://huggingface.co/amira140997/1_mental-health-roberta-large"
-      },
-      {
-        "title": "amira140997/1_mental-health-mental-roberta",
-        "url": "https://huggingface.co/amira140997/1_mental-health-mental-roberta"
-      },
-      {
-        "title": "amira140997/1_mental-health-roberta-base",
-        "url": "https://huggingface.co/amira140997/1_mental-health-roberta-base"
       }
     ],
     "vision_systems": [
@@ -997,6 +977,10 @@
         "url": "https://arxiv.org/abs/2605.10581v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "FrequencyCT: Frequency domain pseudo-label generation for self-supervised low-dose CT denoising",
         "url": "https://arxiv.org/abs/2605.10583v1"
       },
@@ -1027,6 +1011,10 @@
       {
         "title": "GenMed: A Pairwise Generative Reformulation of Medical Diagnostic Tasks",
         "url": "https://arxiv.org/abs/2605.10645v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1317,6 +1305,10 @@
       {
         "title": "GenMed: A Pairwise Generative Reformulation of Medical Diagnostic Tasks",
         "url": "https://arxiv.org/abs/2605.10645v1"
+      },
+      {
+        "title": "theinferenceloop/vektor-guard-v2",
+        "url": "https://huggingface.co/theinferenceloop/vektor-guard-v2"
       }
     ],
     "benchmarks": [
@@ -1753,19 +1745,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "103 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 426
   }
 }
