@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-13T21:22:11.153972",
+  "date": "2026-05-13T23:01:40.295238",
   "patterns": {
     "multimodal_research": [
       {
@@ -279,6 +279,10 @@
       {
         "title": "High-arity Sample Compression",
         "url": "https://arxiv.org/abs/2605.12465v1"
+      },
+      {
+        "title": "Haaaaaaaaaax/google-efficientnet-b3-finetuned-kidney_v4",
+        "url": "https://huggingface.co/Haaaaaaaaaax/google-efficientnet-b3-finetuned-kidney_v4"
       },
       {
         "title": "Graph-Grounded Optimization: Rao-Family Metaheuristics, Classical OR, and SLM-Driven Formulation over Knowledge Graphs",
@@ -699,12 +703,8 @@
         "url": "https://arxiv.org/abs/2605.12204v1"
       },
       {
-        "title": "dannyliv/agent-guard-deberta-pi-base",
-        "url": "https://huggingface.co/dannyliv/agent-guard-deberta-pi-base"
-      },
-      {
-        "title": "dannyliv/agent-guard-modernbert-base",
-        "url": "https://huggingface.co/dannyliv/agent-guard-modernbert-base"
+        "title": "DPetersen/color-identification-bert",
+        "url": "https://huggingface.co/DPetersen/color-identification-bert"
       }
     ],
     "vision_systems": [
@@ -951,6 +951,10 @@
       {
         "title": "From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation",
         "url": "https://arxiv.org/abs/2605.12167v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1657,7 +1661,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "48 independent papers",
+      "observation": "49 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1669,13 +1673,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "105 independent papers",
+      "observation": "104 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 408
   }
 }
