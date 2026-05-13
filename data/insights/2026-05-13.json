@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-13T19:46:58.335377",
+  "date": "2026-05-13T21:22:11.153972",
   "patterns": {
     "multimodal_research": [
       {
@@ -697,6 +697,14 @@
       {
         "title": "Graph-Grounded Optimization: Rao-Family Metaheuristics, Classical OR, and SLM-Driven Formulation over Knowledge Graphs",
         "url": "https://arxiv.org/abs/2605.12204v1"
+      },
+      {
+        "title": "dannyliv/agent-guard-deberta-pi-base",
+        "url": "https://huggingface.co/dannyliv/agent-guard-deberta-pi-base"
+      },
+      {
+        "title": "dannyliv/agent-guard-modernbert-base",
+        "url": "https://huggingface.co/dannyliv/agent-guard-modernbert-base"
       }
     ],
     "vision_systems": [
@@ -1661,7 +1669,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "103 independent papers",
+      "observation": "105 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 407
   }
 }
