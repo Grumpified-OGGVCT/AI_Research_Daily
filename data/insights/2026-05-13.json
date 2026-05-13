@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-13T06:22:49.835867",
+  "date": "2026-05-13T09:40:07.026862",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,14 +705,6 @@
       {
         "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch"
-      },
-      {
-        "title": "Srr1234/EduGPT-TinyLlama",
-        "url": "https://huggingface.co/Srr1234/EduGPT-TinyLlama"
-      },
-      {
-        "title": "Koras1k/smollm3-dpo-aligned",
-        "url": "https://huggingface.co/Koras1k/smollm3-dpo-aligned"
       }
     ],
     "vision_systems": [
@@ -1677,7 +1669,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "107 independent papers",
+      "observation": "105 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 407
   }
 }
