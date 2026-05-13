@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-13T09:40:07.026862",
+  "date": "2026-05-13T11:59:32.990481",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,6 +705,14 @@
       {
         "title": "LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch",
         "url": "https://huggingface.co/LLM-OS-Models/gemma-4-E4B-it-Terminal-SFT-Native-Liquid-2Epoch"
+      },
+      {
+        "title": "arifa-batool/urdu-sentiment-analysis-mbert",
+        "url": "https://huggingface.co/arifa-batool/urdu-sentiment-analysis-mbert"
+      },
+      {
+        "title": "LucasMagnana/bert-base-cased_imdb",
+        "url": "https://huggingface.co/LucasMagnana/bert-base-cased_imdb"
       }
     ],
     "vision_systems": [
@@ -1669,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "105 independent papers",
+      "observation": "107 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1701,7 +1709,7 @@
   "research_trends": [
     {
       "topic": "language",
-      "frequency": 82,
+      "frequency": 83,
       "significance": "high"
     },
     {
@@ -1728,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 409
   }
 }
