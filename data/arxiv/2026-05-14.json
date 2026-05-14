@@ -4,14 +4,14 @@
     "title": "Fine-tuning with Hierarchical Prompting for Robust Propaganda Classification Across Annotation Schemas",
     "summary": "Propaganda detection in social media is challenging due to noisy, short texts and low annotation agreements. We introduce a new intent-focused taxonomy of propaganda techniques and compare it against an established, higher-agreement schema. Along three dimensions (model portfolio, schema effects, and prompting strategy) we evaluate the taxonomies as a classification task with the help of four language models (GPT-4.1-nano, Phi-4 14B, Qwen2.5-14B, Qwen3-14B). Our results show that fine-tuning is essential, since it transforms weak zero-shot baselines into competitive systems and reveals methodological differences that are hidden using base models. Across schemas, the Qwen models achieve the strongest overall performance, and Phi-4 14B consistently outperforms GPT-4.1-nano. Our hierarchical prompting method (HiPP), which predicts fine-grained techniques before aggregating them, is especially beneficial after fine-tuning and on the more ambiguous, low-agreement taxonomy, while remaining competitive on the simpler schema. The HQP dataset, annotated with the new intent-based labels, provides a richer lens on propaganda's strategic goals and a challenging benchmark for future work on robust, real-world detection.",
     "authors": [
-      "Lukas St\u00e4helin",
+      "Lukas Stähelin",
       "Veronika Solopova",
       "Max Upravitelev",
       "David Kaplan",
       "Ariana Sahitaj",
       "Premtim Sahitaj",
       "Charlott Jakob",
-      "Sebastian M\u00f6ller",
+      "Sebastian Möller",
       "Vera Schmitt"
     ],
     "categories": [
@@ -115,7 +115,7 @@
   {
     "arxiv_id": "2605.13810v1",
     "title": "Provable Quantization with Randomized Hadamard Transform",
-    "summary": "Vector quantization via random projection followed by scalar quantization is a fundamental primitive in machine learning, with applications ranging from similarity search to federated learning and KV cache compression. While dense random rotations yield clean theoretical guarantees, they require $\u0398(d^2)$ time. The randomized Hadamard transform $HD$ reduces this cost to $O(d \\log d)$, but its discrete structure complicates analysis and leads to weaker or purely empirical compression guarantees.   In this work, we study a variant of this approach: dithered quantization with a single randomized Hadamard transform. Specifically, the quantizer applies $HD$ to the input vector and subtracts a random scalar offset before quantizing, injecting additional randomness at negligible cost. We prove that this approach is unbiased and provides mean squared error bounds that asymptotically match those achievable with truly random rotation matrices. In particular, we prove that a dithered version of TurboQuant achieves mean squared error $\\bigl(\u03c0\\sqrt{3}/2 + o(1)\\bigr) \\cdot 4^{-b}$ at $b$ bits per coordinate, where the $o(1)$ term vanishes uniformly over all unit vectors and all dimensions as the number of quantization levels grows.",
+    "summary": "Vector quantization via random projection followed by scalar quantization is a fundamental primitive in machine learning, with applications ranging from similarity search to federated learning and KV cache compression. While dense random rotations yield clean theoretical guarantees, they require $Θ(d^2)$ time. The randomized Hadamard transform $HD$ reduces this cost to $O(d \\log d)$, but its discrete structure complicates analysis and leads to weaker or purely empirical compression guarantees.   In this work, we study a variant of this approach: dithered quantization with a single randomized Hadamard transform. Specifically, the quantizer applies $HD$ to the input vector and subtracts a random scalar offset before quantizing, injecting additional randomness at negligible cost. We prove that this approach is unbiased and provides mean squared error bounds that asymptotically match those achievable with truly random rotation matrices. In particular, we prove that a dithered version of TurboQuant achieves mean squared error $\\bigl(π\\sqrt{3}/2 + o(1)\\bigr) \\cdot 4^{-b}$ at $b$ bits per coordinate, where the $o(1)$ term vanishes uniformly over all unit vectors and all dimensions as the number of quantization levels grows.",
     "authors": [
       "Ying Feng",
       "Piotr Indyk",
@@ -467,7 +467,7 @@
   {
     "arxiv_id": "2605.13717v1",
     "title": "Tight Sample Complexity Bounds for Entropic Best Policy Identification",
-    "summary": "We study best-policy identification for finite-horizon risk-sensitive reinforcement learning under the entropic risk measure. Recent work established a constant gap in the exponential horizon dependence between lower and upper bounds on the number of samples required to identify an approximately optimal policy. Precisely, known lower bounds scale in $\u03a9(e^{|\u03b2| H})$ where $H$ is the horizon of the MDP, while the state-of-the-art upper bound achieves at best $O(e^{2|\u03b2| H})$ (arXiv:2506.00286v2) using a generative model. We show that this extra exponential factor can be traced to overly loose concentration control for exponential utilities. To close this open gap, we revisit the analysis of this problem through a forward-model based algorithm building on KL-based exploration bonuses that we adapt to the entropic criterion. The improvement we get is due to two main novel technical innovations. We leverage the smoothness properties of the exponential utility to derive sharper concentration bounds, and we propose a new stopping rule that exploits further this tightness to obtain a sample complexity that matches the lower bound.",
+    "summary": "We study best-policy identification for finite-horizon risk-sensitive reinforcement learning under the entropic risk measure. Recent work established a constant gap in the exponential horizon dependence between lower and upper bounds on the number of samples required to identify an approximately optimal policy. Precisely, known lower bounds scale in $Ω(e^{|β| H})$ where $H$ is the horizon of the MDP, while the state-of-the-art upper bound achieves at best $O(e^{2|β| H})$ (arXiv:2506.00286v2) using a generative model. We show that this extra exponential factor can be traced to overly loose concentration control for exponential utilities. To close this open gap, we revisit the analysis of this problem through a forward-model based algorithm building on KL-based exploration bonuses that we adapt to the entropic criterion. The improvement we get is due to two main novel technical innovations. We leverage the smoothness properties of the exponential utility to derive sharper concentration bounds, and we propose a new stopping rule that exploits further this tightness to obtain a sample complexity that matches the lower bound.",
     "authors": [
       "Amer Essakine",
       "Claire Vernade"
@@ -631,7 +631,7 @@
   {
     "arxiv_id": "2605.13840v1",
     "title": "What is Learnable in Valiant's Theory of the Learnable?",
-    "summary": "Valiant's 1984 paper is widely credited with introducing the PAC learning model, but it, in fact, introduced a different model: unlike PAC learning, the learner receives only positives, may issue membership queries, and must output a hypothesis with no false positives. Prior work characterized variants, including the case without queries. We revisit Valiant's original model and ask: *Which classes are learnable in it?*   For every finite domain, including Valiant's Boolean-hypercube setting, we show that a class is learnable if and only if every realizable positive sample can be certified by a poly-size adaptive query-compression scheme. This is a new variant of sample compression where the learner certifies samples via a short interaction with the membership oracle. Our characterization shows that learnability in Valiant's model is strictly sandwiched between learnability in the PAC model and the variant of Valiant's model without membership queries. This is one of the rare cases where introducing membership queries changes the set of learnable classes, and not just the sample or computational complexity.   Next, we study the natural extension of the model to arbitrary domains. While we do not obtain an exact characterization, our techniques readily generalize and show that the same strict sandwiching persists. Finally, we show that $d$-dimensional halfspaces, which are not learnable without queries, are learnable with queries: we give a $\\mathrm{poly}(d) \\tilde{O}(1/\u03b5)$ sample and $\\mathrm{poly}(d) \\mathrm{polylog}(1/\u03b5)$ query algorithm, and prove that at least $\u03a9(d)$ samples or queries are necessary. To our knowledge, this is the first algorithm for halfspaces in Valiant's model.   Together, these results uncover a surprisingly rich theory behind Valiant's original notion of learnability and introduce ideas that may be of independent interest in learning theory.",
+    "summary": "Valiant's 1984 paper is widely credited with introducing the PAC learning model, but it, in fact, introduced a different model: unlike PAC learning, the learner receives only positives, may issue membership queries, and must output a hypothesis with no false positives. Prior work characterized variants, including the case without queries. We revisit Valiant's original model and ask: *Which classes are learnable in it?*   For every finite domain, including Valiant's Boolean-hypercube setting, we show that a class is learnable if and only if every realizable positive sample can be certified by a poly-size adaptive query-compression scheme. This is a new variant of sample compression where the learner certifies samples via a short interaction with the membership oracle. Our characterization shows that learnability in Valiant's model is strictly sandwiched between learnability in the PAC model and the variant of Valiant's model without membership queries. This is one of the rare cases where introducing membership queries changes the set of learnable classes, and not just the sample or computational complexity.   Next, we study the natural extension of the model to arbitrary domains. While we do not obtain an exact characterization, our techniques readily generalize and show that the same strict sandwiching persists. Finally, we show that $d$-dimensional halfspaces, which are not learnable without queries, are learnable with queries: we give a $\\mathrm{poly}(d) \\tilde{O}(1/ε)$ sample and $\\mathrm{poly}(d) \\mathrm{polylog}(1/ε)$ query algorithm, and prove that at least $Ω(d)$ samples or queries are necessary. To our knowledge, this is the first algorithm for halfspaces in Valiant's model.   Together, these results uncover a surprisingly rich theory behind Valiant's original notion of learnability and introduce ideas that may be of independent interest in learning theory.",
     "authors": [
       "Steve Hanneke",
       "Anay Mehrotra",
@@ -727,8 +727,8 @@
       "Jan Niklas Kolf",
       "Guray Ozgur",
       "Andrea Atzori",
-      "\u017diga Babnik",
-      "Vitomir \u0160truc",
+      "Žiga Babnik",
+      "Vitomir Štruc",
       "Naser Damer",
       "Fadi Boutros"
     ],
@@ -977,7 +977,7 @@
   {
     "arxiv_id": "2605.13807v1",
     "title": "Parallel Scan Recurrent Neural Quantum States for Scalable Variational Monte Carlo",
-    "summary": "Neural-network quantum states have emerged as a powerful variational framework for quantum many-body systems, with recent progress often driven by massively parallel architectures such as transformers. Recurrent neural network quantum states, however, are frequently regarded as intrinsically sequential and therefore less scalable. Here we revisit this view by showing that modern recurrent architectures can support fast, accurate, and computationally accessible neural quantum state simulations. Using autoregressive recurrent wave functions together with recent advances in parallelizable recurrence, we develop variational ans\u00e4tze, called parallel scan recurrent neural quantum states (PSR-NQS), which can be trained efficiently within variational Monte Carlo in one and two spatial dimensions. We demonstrate accurate benchmark results and show that, with iterative retraining, our approach reaches two-dimensional spin lattices as large as $52\\times52$ while remaining in agreement with available quantum Monte Carlo data. Our results establish recurrent architectures as a practical and promising route toward scalable neural quantum state simulations with modest computational resources.",
+    "summary": "Neural-network quantum states have emerged as a powerful variational framework for quantum many-body systems, with recent progress often driven by massively parallel architectures such as transformers. Recurrent neural network quantum states, however, are frequently regarded as intrinsically sequential and therefore less scalable. Here we revisit this view by showing that modern recurrent architectures can support fast, accurate, and computationally accessible neural quantum state simulations. Using autoregressive recurrent wave functions together with recent advances in parallelizable recurrence, we develop variational ansätze, called parallel scan recurrent neural quantum states (PSR-NQS), which can be trained efficiently within variational Monte Carlo in one and two spatial dimensions. We demonstrate accurate benchmark results and show that, with iterative retraining, our approach reaches two-dimensional spin lattices as large as $52\\times52$ while remaining in agreement with available quantum Monte Carlo data. Our results establish recurrent architectures as a practical and promising route toward scalable neural quantum state simulations with modest computational resources.",
     "authors": [
       "Ejaaz Merali",
       "Mohamed Hibat-Allah",
@@ -1248,7 +1248,7 @@
       "Tim Z. Xiao",
       "David Hyland",
       "Philipp Hennig",
-      "Bernhard Sch\u00f6lkopf"
+      "Bernhard Schölkopf"
     ],
     "categories": [
       "cs.LG"
@@ -1354,8 +1354,8 @@
     "title": "Exploiting Pre-trained Encoder-Decoder Transformers for Sequence-to-Sequence Constituent Parsing",
     "summary": "To achieve deep natural language understanding, syntactic constituent parsing plays a crucial role and is widely required by many artificial intelligence systems for processing both text and speech. A recent approach involves using standard sequence-to-sequence models to handle constituent parsing as a machine translation problem, moving away from traditional task-specific parsers. These models are typically initialized with pre-trained encoder-only language models like BERT or RoBERTa. However, the use of pre-trained encoder-decoder language models for constituency parsing has not been thoroughly explored. To bridge this gap, we extend the sequence-to-sequence framework by investigating parsers built on pre-trained encoder-decoder architectures, including BART, mBART, and T5. We fine-tune them to generate linearized parse trees and extensively evaluate them on different linearization strategies across both continuous treebanks and more complex discontinuous benchmarks. Our results demonstrate that our approach outperforms all prior sequence-to-sequence models and performs competitively with leading task-specific constituent parsers on continuous constituent parsing.",
     "authors": [
-      "Daniel Fern\u00e1ndez-Gonz\u00e1lez",
-      "Cristina Outeiri\u00f1o Cid"
+      "Daniel Fernández-González",
+      "Cristina Outeiriño Cid"
     ],
     "categories": [
       "cs.CL"
@@ -1434,7 +1434,7 @@
       "Lovre Antonio Budimir",
       "Yushi Guan",
       "Steve Ryhner",
-      "Sven Lon\u010dari\u0107",
+      "Sven Lončarić",
       "Nandita Vijaykumar"
     ],
     "categories": [
@@ -1450,7 +1450,7 @@
   {
     "arxiv_id": "2605.13566v1",
     "title": "Spatiotemporal downscaling and nowcasting of urban land surface temperatures with deep neural networks",
-    "summary": "Land Surface Temperature (LST) is a key variable for various applications, such as urban climate and ecology studies. Yet, existing satellite-derived LST products provide either high spatial or high temporal resolution, resulting in a fundamental trade-off between the two. To address this trade-off, we combine observations from a geostationary and a polar orbiting satellite and provide LST fields at high spatial and high temporal resolution (1 km at 15-min intervals). We demonstrate their application for intraday forecasting of LSTs. To estimate LST fields at high spatiotemporal resolution, a U-Net model is trained to map LST fields from SEVIRI/MSG (3 km and 15 min resolution) to LST fields from Terra/Aqua MODIS (1 km, 4 overpasses per day) that are collocated in space and time. The presented model has been trained on LSTs across large European cities with a population exceeding 1 million inhabitants, and achieves an RMSE = $1.92$\u00b0C and near-zero bias MBE = $0.01$\u00b0C on the hold-out test set. As a second step, we present an LST nowcasting model based on ConvLSTM architecture, trained across downscaled LST fields with forecast lead times of 15 to 75 minutes. The nowcasting model outperforms a persistence and a Climatological Rolling Median benchmarks, with RMSEs of $0.57$ to $1.15$\u00b0C for the considered lead times and biases ranging from $-0.1$ to $0.14$\u00b0C. An additional validation conducted against independent MODIS overpasses confirms robust performance. Our LST forecast model at high spatiotemporal resolution is directly applicable to operational satellite-based LST monitoring.",
+    "summary": "Land Surface Temperature (LST) is a key variable for various applications, such as urban climate and ecology studies. Yet, existing satellite-derived LST products provide either high spatial or high temporal resolution, resulting in a fundamental trade-off between the two. To address this trade-off, we combine observations from a geostationary and a polar orbiting satellite and provide LST fields at high spatial and high temporal resolution (1 km at 15-min intervals). We demonstrate their application for intraday forecasting of LSTs. To estimate LST fields at high spatiotemporal resolution, a U-Net model is trained to map LST fields from SEVIRI/MSG (3 km and 15 min resolution) to LST fields from Terra/Aqua MODIS (1 km, 4 overpasses per day) that are collocated in space and time. The presented model has been trained on LSTs across large European cities with a population exceeding 1 million inhabitants, and achieves an RMSE = $1.92$°C and near-zero bias MBE = $0.01$°C on the hold-out test set. As a second step, we present an LST nowcasting model based on ConvLSTM architecture, trained across downscaled LST fields with forecast lead times of 15 to 75 minutes. The nowcasting model outperforms a persistence and a Climatological Rolling Median benchmarks, with RMSEs of $0.57$ to $1.15$°C for the considered lead times and biases ranging from $-0.1$ to $0.14$°C. An additional validation conducted against independent MODIS overpasses confirms robust performance. Our LST forecast model at high spatiotemporal resolution is directly applicable to operational satellite-based LST monitoring.",
     "authors": [
       "Solomiia Kurchaba",
       "Angela Meyer"
@@ -1747,7 +1747,7 @@
     "authors": [
       "Gregory Beurier",
       "Robin Reiter",
-      "Camille No\u00fbs",
+      "Camille Noûs",
       "Lauriane Rouan",
       "Denis Cornet"
     ],
@@ -1882,7 +1882,7 @@
     "authors": [
       "Adam Remaki",
       "Xavier Tannier",
-      "Christel G\u00e9rardin"
+      "Christel Gérardin"
     ],
     "categories": [
       "cs.CL"
@@ -2052,8 +2052,8 @@
   },
   {
     "arxiv_id": "2605.13639v1",
-    "title": "Achieving $\u03b5^{-2}$ Sample Complexity for Single-Loop Actor-Critic under Minimal Assumptions",
-    "summary": "In this paper, we establish last-iterate convergence rates for off-policy actor--critic methods in reinforcement learning. In particular, under a single-loop, single-timescale implementation and a broad class of policy updates, including approximate policy iteration and natural policy gradient methods, we prove the first $\\tilde{\\mathcal{O}}(\u03b5^{-2})$ sample complexity guarantee for finding an $\u03b5$-optimal policy under minimal assumptions, namely, the existence of a policy that induces an irreducible Markov chain. This stands in stark contrast to the existing literature, where an $\\tilde{\\mathcal{O}}(\u03b5^{-2})$ sample complexity is achieved only through nested-loop updates and/or under strong, algorithm-dependent assumptions on the policies, such as uniform mixing and uniform exploration. Technically, to address the challenges posed by the coupled update equations arising from the single-loop implementation, as well as the potentially unbounded iterates induced by off-policy learning, our analysis is based on a coupled Lyapunov drift framework. Specifically, we establish a geometric convergence rate for the actor and an $\\tilde{\\mathcal{O}}(1/T)$ convergence rate for the critic, and combine the two Lyapunov drift inequalities through a cross-domination property. We believe this analytical framework is of independent interest and may be applicable to other coupled iterative algorithms with unbounded",
+    "title": "Achieving $ε^{-2}$ Sample Complexity for Single-Loop Actor-Critic under Minimal Assumptions",
+    "summary": "In this paper, we establish last-iterate convergence rates for off-policy actor--critic methods in reinforcement learning. In particular, under a single-loop, single-timescale implementation and a broad class of policy updates, including approximate policy iteration and natural policy gradient methods, we prove the first $\\tilde{\\mathcal{O}}(ε^{-2})$ sample complexity guarantee for finding an $ε$-optimal policy under minimal assumptions, namely, the existence of a policy that induces an irreducible Markov chain. This stands in stark contrast to the existing literature, where an $\\tilde{\\mathcal{O}}(ε^{-2})$ sample complexity is achieved only through nested-loop updates and/or under strong, algorithm-dependent assumptions on the policies, such as uniform mixing and uniform exploration. Technically, to address the challenges posed by the coupled update equations arising from the single-loop implementation, as well as the potentially unbounded iterates induced by off-policy learning, our analysis is based on a coupled Lyapunov drift framework. Specifically, we establish a geometric convergence rate for the actor and an $\\tilde{\\mathcal{O}}(1/T)$ convergence rate for the critic, and combine the two Lyapunov drift inequalities through a cross-domination property. We believe this analytical framework is of independent interest and may be applicable to other coupled iterative algorithms with unbounded",
     "authors": [
       "Ishaq Hamza",
       "Zaiwei Chen"
@@ -2075,7 +2075,7 @@
     "title": "Path-independent Flow Matching for Multi-parameter Generative Dynamics",
     "summary": "Flow Matching is a powerful framework for learning transport maps between probability distributions. Yet its standard single-parameter formulation is not designed to capture multi-parameter variations where the resulting transport should be path-independent. Path independence is crucial because it ensures that transformations depend only on the initial and target distributions, not on the specific path. In this work, we introduce Path-independent Flow Matching (PiFM), a method for learning vector fields whose induced flows yield path-independent transport between distributions. We show that PiFM generalizes Flow Matching to higher-dimensional parameter domains while enforcing structural conditions that ensure consistency of composed transformations. In addition, we show that, under suitable assumptions, PiFM approximates the Wasserstein barycenter, linking the framework to a notion of distributional interpolation. To enable practical training, we propose a tractable, simulation-free objective that regresses onto multi-parameter conditional probability paths. We showcase empirically that PiFM outperforms other approaches on both synthetic and real world data in interpolating path-independent trajectories and generating desired out of distribution samples.",
     "authors": [
-      "Francisco T\u00e9llez",
+      "Francisco Téllez",
       "AmirHossein Zamani",
       "Philippe Martin",
       "Shuang Ni",
@@ -2101,7 +2101,7 @@
     "authors": [
       "Ammar Mahran",
       "Artavazd Maranjyan",
-      "Peter Richt\u00e1rik"
+      "Peter Richtárik"
     ],
     "categories": [
       "cs.LG",
@@ -2123,11 +2123,11 @@
     "authors": [
       "Galadrielle Humblot-Renaux",
       "Mohammad N. S. Jahromi",
-      "Rohat Bakuri-J\u00f8rgensen",
+      "Rohat Bakuri-Jørgensen",
       "Marieke Anne Heyl",
       "Asta S. Stage Jarlner",
       "Maria Vlachou",
-      "Anna Murphy H\u00f8genhaug",
+      "Anna Murphy Høgenhaug",
       "Desmond Elliott",
       "Thomas Gammeltoft-Hansen",
       "Thomas B. Moeslund"
@@ -2349,7 +2349,7 @@
     "title": "Conformal Anomaly Detection in Python: Moving Beyond Heuristic Thresholds with 'nonconform'",
     "summary": "Most anomaly detection systems output scores rather than calibrated decisions, leaving practitioners to choose thresholds heuristically and without clear statistical interpretation. Conformal anomaly detection addresses this limitation by converting anomaly scores into calibrated p-values that are valid under the statistical assumption of data exchangeability, with a growing literature extending this idea beyond that setting. We present 'nonconform', a Python package for applying conformal anomaly detection within existing machine-learning workflows, and use it as the basis for an implementation-grounded introduction to the field. The package integrates with 'scikit-learn', 'pyod', and custom anomaly detectors, and provides a unified interface for calibration, p-value generation, and false discovery rate control. It supports several conformalization strategies, ranging from simple split-conformal calibration to more data-efficient and shift-aware extensions. Through a progression from foundational concepts to advanced conformalization strategies, complemented by code examples, the paper connects the statistical ideas behind conformal anomaly detection to their practical use in 'nonconform'. Empirical results demonstrate that the implemented methods enable statistically principled anomaly detection. Together, the package and exposition aim to make core conformal anomaly detection workflows more accessible and reproducible in experimental and production-oriented settings.",
     "authors": [
-      "Oliver Hennh\u00f6fer",
+      "Oliver Hennhöfer",
       "Maximilian Kirsch",
       "Christine Preisach"
     ],
@@ -2486,7 +2486,7 @@
   {
     "arxiv_id": "2605.13464v1",
     "title": "A Unified Three-Stage Machine Learning Framework for Diabetes Detection, Subtype Discrimination, and Cognitive-Metabolic Hypothesis Testing",
-    "summary": "Diabetes mellitus affects over 537 million adults worldwide and remains a major challenge in preventive healthcare. Existing machine-learning studies primarily formulate diabetes prediction as a binary classification problem, while subtype-oriented analysis and glycaemic-cognitive associations remain comparatively underexplored. We present a reproducible three-stage machine learning framework for diabetes detection, subtype-oriented clustering, and metabolic-cognitive association analysis. In Stage 1, five supervised classifiers together with a stacking ensemble are benchmarked on the NCSU Diabetes Dataset using stratified five-fold cross-validation and evaluation metrics including ROC-AUC, balanced accuracy, recall, and F1-score. SVM-RBF and Logistic Regression achieve the highest ROC-AUC ($0.825 \\pm 0.026$), while Random Forest achieves the highest accuracy ($0.762 \\pm 0.030$). SHAP explainability identifies Glucose, BMI, and Age as the dominant predictive biomarkers. In Stage 2, silhouette-validated K-Means clustering ($k=2$, silhouette $\\approx 0.116$) is applied to confirmed diabetic cases using Glucose, Insulin, and Age, recovering clinically plausible subtype-oriented partitions without requiring ground-truth subtype labels. In Stage 3, statistical analysis of the Ohio Longitudinal Cognitive Dataset ($n=373$) reveals a significant positive association between glycaemic control and cognitive function ($\u03c1_s = 0.208$, $p = 5.29 \\times 10^{-5}$), which survives Holm correction. The findings support the utility of statistically grounded and interpretable ML pipelines for reproducible diabetes analytics and subtype-aware exploratory analysis.",
+    "summary": "Diabetes mellitus affects over 537 million adults worldwide and remains a major challenge in preventive healthcare. Existing machine-learning studies primarily formulate diabetes prediction as a binary classification problem, while subtype-oriented analysis and glycaemic-cognitive associations remain comparatively underexplored. We present a reproducible three-stage machine learning framework for diabetes detection, subtype-oriented clustering, and metabolic-cognitive association analysis. In Stage 1, five supervised classifiers together with a stacking ensemble are benchmarked on the NCSU Diabetes Dataset using stratified five-fold cross-validation and evaluation metrics including ROC-AUC, balanced accuracy, recall, and F1-score. SVM-RBF and Logistic Regression achieve the highest ROC-AUC ($0.825 \\pm 0.026$), while Random Forest achieves the highest accuracy ($0.762 \\pm 0.030$). SHAP explainability identifies Glucose, BMI, and Age as the dominant predictive biomarkers. In Stage 2, silhouette-validated K-Means clustering ($k=2$, silhouette $\\approx 0.116$) is applied to confirmed diabetic cases using Glucose, Insulin, and Age, recovering clinically plausible subtype-oriented partitions without requiring ground-truth subtype labels. In Stage 3, statistical analysis of the Ohio Longitudinal Cognitive Dataset ($n=373$) reveals a significant positive association between glycaemic control and cognitive function ($ρ_s = 0.208$, $p = 5.29 \\times 10^{-5}$), which survives Holm correction. The findings support the utility of statistically grounded and interpretable ML pipelines for reproducible diabetes analytics and subtype-aware exploratory analysis.",
     "authors": [
       "Vishal Pandey",
       "Ruzina Haque Laskar",
@@ -2544,7 +2544,7 @@
   {
     "arxiv_id": "2605.13383v1",
     "title": "Beyond Oversquashing: Understanding Signal Propagation in GNNs Via Observables",
-    "summary": "Graph Neural Networks (GNNs) perform computations on graphs by routing the signal between graph regions using a graph shift operator or a message passing scheme. Often, the propagation of the signal leads to a loss of information, where the signal tends to diffuse across the graph instead of being deliberately routed between regions of interest. Two notions that depict this phenomenon are oversmoothing and oversquashing. In this paper, we propose an alternative approach for modeling signal propagation, inspired by quantum mechanics, using the notion of observables. Specifically, we model the place in the graph where the signal lies, how much the signal is concentrated there, and how much of the signal is propagated towards a location of interest when applying a GNN. Using these new concepts, we prove that standard spectral GNNs have poor signal propagation capabilities. We then propose a new type of spectral GNN, termed Schr\u00f6dinger GNN, which we show has a superior capacity to route the signal across the graph.",
+    "summary": "Graph Neural Networks (GNNs) perform computations on graphs by routing the signal between graph regions using a graph shift operator or a message passing scheme. Often, the propagation of the signal leads to a loss of information, where the signal tends to diffuse across the graph instead of being deliberately routed between regions of interest. Two notions that depict this phenomenon are oversmoothing and oversquashing. In this paper, we propose an alternative approach for modeling signal propagation, inspired by quantum mechanics, using the notion of observables. Specifically, we model the place in the graph where the signal lies, how much the signal is concentrated there, and how much of the signal is propagated towards a location of interest when applying a GNN. Using these new concepts, we prove that standard spectral GNNs have poor signal propagation capabilities. We then propose a new type of spectral GNN, termed Schrödinger GNN, which we show has a superior capacity to route the signal across the graph.",
     "authors": [
       "Eden Nagar",
       "Ya-Wei Eileen Lin",
@@ -2587,7 +2587,7 @@
     "summary": "Voice agents, artificial intelligence systems that conduct spoken conversations to complete tasks, are increasingly deployed across enterprise applications. However, no existing benchmark jointly addresses two core evaluation challenges: generating realistic simulated conversations, and measuring quality across the full scope of voice-specific failure modes. We present EVA-Bench, an end-to-end evaluation framework that addresses both. On the simulation side, EVA-Bench orchestrates bot-to-bot audio conversations over dynamic multi-turn dialogues, with automatic simulation validation that detects user simulator error and appropriately regenerates conversations before scoring. On the measurement side, EVA-Bench introduces two composite metrics: EVA-A (Accuracy), capturing task completion, faithfulness, and audio-level speech fidelity; and EVA-X (Experience), capturing conversation progression, spoken conciseness, and turn-taking timing. Both metrics apply to different agent architectures, enabling direct cross-architecture comparison. EVA-Bench includes 213 scenarios across three enterprise domains, a controlled perturbation suite for accent and noise robustness, and pass@1, pass@k, pass^k measurements that distinguish peak from reliable capability. Across 12 systems spanning all three architectures, we find: (1) no system simultaneously exceeds 0.5 on both EVA-A pass@1 and EVA-X pass@1; (2) peak and reliable performance diverge substantially (median pass@k - pass^k gap of 0.44 on EVA-A); and (3) accent and noise perturbations expose substantial robustness gaps, with effects varying across architectures, systems, and metrics (mean up to 0.314). We release the full framework, evaluation suite, and benchmark data under an open-source license.",
     "authors": [
       "Tara Bogavelli",
-      "Gabrielle Gauthier Melan\u00e7on",
+      "Gabrielle Gauthier Melançon",
       "Katrina Stankiewicz",
       "Oluwanifemi Bamgbose",
       "Fanny Riols",
@@ -2937,7 +2937,7 @@
   {
     "arxiv_id": "2605.13687v1",
     "title": "A Hierarchical Language Model with Predictable Scaling Laws and Provable Benefits of Reasoning",
-    "summary": "We introduce a family of synthetic languages with hierarchical structure -- generated by a broadcast process on trees -- for which the role of context length and reasoning in autoregressive generation can be analyzed precisely. At the heart of our analytic approach is an \\emph{exact $k$-gram ansatz} in place of transformers with context length $k$, a substitution we then validate empirically. Using this ansatz we derive explicit asymptotic predictions for distributional statistics of the sequences produced by a trained model, instantiated in two settings. For the \\emph{Ising broadcast process} (a soft-constrained language), we prove that the variance of the generated sum scales log-linearly in the context depth and its kurtosis converges to that of a Gaussian -- both deviating from the true language for any sublinear context. For the \\emph{coloring broadcast process} (a hard-constrained language) in the freezing regime, bounded-context autoregression produces sequences that, with high probability, are inconsistent with \\emph{any} valid coloring of the underlying tree. Together these results imply an $\u03a9(n)$ lower bound on the context length required to faithfully sample length-$n$ sequences. In contrast, we prove that an autoregressive \\emph{reasoning} model with only $\u0398(\\log n)$ working memory can sample exactly from the true language -- an exponential improvement. We confirm both the lower-bound predictions and the reasoning-based upper bound empirically with transformers trained on the synthetic language; the trained models track our asymptotic predictions quantitatively across a wide range of context sizes.",
+    "summary": "We introduce a family of synthetic languages with hierarchical structure -- generated by a broadcast process on trees -- for which the role of context length and reasoning in autoregressive generation can be analyzed precisely. At the heart of our analytic approach is an \\emph{exact $k$-gram ansatz} in place of transformers with context length $k$, a substitution we then validate empirically. Using this ansatz we derive explicit asymptotic predictions for distributional statistics of the sequences produced by a trained model, instantiated in two settings. For the \\emph{Ising broadcast process} (a soft-constrained language), we prove that the variance of the generated sum scales log-linearly in the context depth and its kurtosis converges to that of a Gaussian -- both deviating from the true language for any sublinear context. For the \\emph{coloring broadcast process} (a hard-constrained language) in the freezing regime, bounded-context autoregression produces sequences that, with high probability, are inconsistent with \\emph{any} valid coloring of the underlying tree. Together these results imply an $Ω(n)$ lower bound on the context length required to faithfully sample length-$n$ sequences. In contrast, we prove that an autoregressive \\emph{reasoning} model with only $Θ(\\log n)$ working memory can sample exactly from the true language -- an exponential improvement. We confirm both the lower-bound predictions and the reasoning-based upper bound empirically with transformers trained on the synthetic language; the trained models track our asymptotic predictions quantitatively across a wide range of context sizes.",
     "authors": [
       "Jason Gaitonde",
       "Frederic Koehler",
@@ -2978,7 +2978,7 @@
       "Paola Feraco",
       "Fabrizia Gelardi",
       "Francesco Gossetti",
-      "Ana Isabel Hern\u00e1iz Ferrer",
+      "Ana Isabel Hernáiz Ferrer",
       "Michail E. Klontzas",
       "Seyedmehdi Payabvash",
       "Katrine Riklund",
@@ -3105,7 +3105,7 @@
     "title": "Trajectory-Level Data Augmentation for Offline Reinforcement Learning",
     "summary": "We propose a data augmentation method for offline reinforcement learning, motivated by active positioning problems. Particularly, our approach enables the training of off-policy models from a limited number of suboptimal trajectories. We introduce a trajectory-based augmentation technique that exploits task structure and the geometric relationship between rewards, value functions, and mathematical properties of logging policies. During data collection, our augmentation supports suboptimal logging policies, leading to higher data quality and improved offline reinforcement learning performance. We provide theoretical justification for these strategies and validate them empirically across positioning tasks of varying dimensionality and under partial observability.",
     "authors": [
-      "Tobias Schm\u00e4hling",
+      "Tobias Schmähling",
       "Matthias Burkhardt",
       "Tobias Windisch"
     ],
@@ -3234,7 +3234,7 @@
     "title": "Unweighted ranking for value-based decision making with uncertainty",
     "summary": "As intelligent systems are increasingly implemented in our society to make autonomous decisions, their commitment to human values raises serious concerns. Their alignment with human values remains a critical challenge because it can jeopardise the integrity and security of citizens. For this reason, an innovative human-centred and values-driven approach to decision making is required. In this work, we introduce the Fuzzy-Unweighted Value-Based Decision Making (FUW-VBDM) framework, where agents incorporate both quantitative and qualitative criteria to generate human-centred decisions. We also address the normative bias introduced by stakeholders with arbitrary weights by removing prior weights and introducing a fuzzy domain of decision variables defined for a score function. This concept allows us to generalise any VBDM problem as the search for feasible solutions when optimising the score in the weight domain. To provide a solution to FUW-VBDM, we present Rankzzy, a customizable unweighted ranking method that integrates fuzzy-based reasoning to quantify uncertainty. We mathematically prove the consistency of the Rankzzy for any admissible configuration selected by stakeholders. We show the applicability of our method through an illustrative case study, which we also use as a running example. The evaluation conducted indicates a reduced computational cost in large-scale value-based decision-making problems and a strong rank performance regarding existing approaches when employing the aggregation via Pythagorean means.",
     "authors": [
-      "Aar\u00f3n L\u00f3pez Garc\u00eda",
+      "Aarón López García",
       "Natalia Criado",
       "Jose Such"
     ],
@@ -3300,7 +3300,7 @@
     "summary": "Most models of machine teaching and learning assume the learner makes no errors in its internal deductive inference. However, humans and large language models in few-shot learning regimes are two important examples of learners where this does not hold. They fail on some consistency checks, and they can fail stochastically. In this paper we introduce a teaching and learning framework that takes these deductive errors into account. We specifically study the case of machine teaching, as different characterizations of the teacher can account for both machine teaching and learning. In an overhauled Probably Approximately Correct (PAC) setting, we study theoretically that, for some estimated error level, the teacher must find a PAC teaching set that with high probability will lead the learner to guess a hypothesis that is approximately correct. We study the computational complexity of six different problems related to computing optimal PAC teaching sets. We give XP algorithms parametrized by size of teaching set, with tight runtime bounds under standard complexity assumptions like ETH. These results are complemented with a small experimental study of which teaching and learning protocols can best represent the observed behavior in some LLM teaching sessions.",
     "authors": [
       "Jan Arne Telle",
-      "Brigt H\u00e5vardstun",
+      "Brigt Håvardstun",
       "Jose Hernandez-Orallo"
     ],
     "categories": [
@@ -3458,7 +3458,7 @@
     "authors": [
       "Christina Kassab",
       "Hyeonjae Gil",
-      "Mat\u00edas Mattamala",
+      "Matías Mattamala",
       "Ayoung Kim",
       "Maurice Fallon"
     ],
@@ -3476,7 +3476,7 @@
   {
     "arxiv_id": "2605.13684v1",
     "title": "Scale-Sensitive Shattering: Learnability and Evaluability at Optimal Scale",
-    "summary": "We study the optimal scale at which real-valued function classes exhibit uniform convergence and learnability. Our main result establishes a scale-sensitive generalization of the fundamental theorem of PAC learning: for every bounded real-valued class and every $\u03b3>0$, uniform convergence at scale $\u03b3$, agnostic learnability at scale $\u03b3/2$, and finiteness of the fat-shattering dimension at every scale $\u03b3'>\u03b3$ are equivalent. This resolves a question by Anthony and Bartlett (Cambridge Univ. Press 1999) on the precise scales governing learnability, refuting a conjecture attributed there to Phil Long that a multiplicative 2-factor gap is unavoidable, and improves the upper bounds of Bartlett and Long (JCSS 1998), which incur such a loss.   The key technical ingredient is a direct bound on empirical $\\ell_\\infty$ covering numbers, avoiding the standard detour through packing numbers. As a consequence, we obtain sharp asymptotic metric-entropy bounds in terms of the fat-shattering scale $\u03b3$: an $O(\\log^2 n)$ bound holds already at scale $\u03b3/2$, while an $O(\\log n)$ bound holds at scale $2\u03b3$. We further show that the $O(\\log^2 n)$ bound is sometimes tight. These results resolve open questions by Alon et al. (JACM 1997) and Rudelson and Vershynin (Ann. of Math. 2006).   As an application, we establish a sharp dichotomy for bounded integral probability metrics: every such IPM is either estimable or cannot be weakly evaluated within any multiplicative factor $c<3$, while $3$-weak evaluability always holds, resolving an open question from Aiyer et al. (ICML 2026). We also highlight several open questions on quantitative sample complexity and evaluability.",
+    "summary": "We study the optimal scale at which real-valued function classes exhibit uniform convergence and learnability. Our main result establishes a scale-sensitive generalization of the fundamental theorem of PAC learning: for every bounded real-valued class and every $γ>0$, uniform convergence at scale $γ$, agnostic learnability at scale $γ/2$, and finiteness of the fat-shattering dimension at every scale $γ'>γ$ are equivalent. This resolves a question by Anthony and Bartlett (Cambridge Univ. Press 1999) on the precise scales governing learnability, refuting a conjecture attributed there to Phil Long that a multiplicative 2-factor gap is unavoidable, and improves the upper bounds of Bartlett and Long (JCSS 1998), which incur such a loss.   The key technical ingredient is a direct bound on empirical $\\ell_\\infty$ covering numbers, avoiding the standard detour through packing numbers. As a consequence, we obtain sharp asymptotic metric-entropy bounds in terms of the fat-shattering scale $γ$: an $O(\\log^2 n)$ bound holds already at scale $γ/2$, while an $O(\\log n)$ bound holds at scale $2γ$. We further show that the $O(\\log^2 n)$ bound is sometimes tight. These results resolve open questions by Alon et al. (JACM 1997) and Rudelson and Vershynin (Ann. of Math. 2006).   As an application, we establish a sharp dichotomy for bounded integral probability metrics: every such IPM is either estimable or cannot be weakly evaluated within any multiplicative factor $c<3$, while $3$-weak evaluability always holds, resolving an open question from Aiyer et al. (ICML 2026). We also highlight several open questions on quantitative sample complexity and evaluability.",
     "authors": [
       "Shashaank Aiyer",
       "Yishay Mansour",
@@ -3521,7 +3521,7 @@
     "authors": [
       "Mirela-Magdalena Catrina",
       "Ioana Cristina Plajer",
-      "Alexandra B\u0103icoianu"
+      "Alexandra Băicoianu"
     ],
     "categories": [
       "cs.NE"
@@ -3558,7 +3558,7 @@
     "summary": "Neural Posterior Estimation (NPE) enables rapid parameter inference for complex simulators with intractable likelihoods. NPE trains an inference network to estimate a probability density over parameters given data, typically assumed to be \\emph{continuous}. However, many scientific models involve parameter spaces that are \\emph{mixed}, that is, they contain both discrete and continuous dimensions. We address this limitation by extending NPE to mixed parameter spaces through an inference network that jointly handles discrete and continuous parameters. The inference network factorizes the joint posterior into discrete and continuous components, combining an autoregressive classifier for the discrete parameters with a generative model for the continuous parameters, trained jointly under a single simulation-based objective. In addition, we propose a diagnostic tool to assess the calibration of the mixed posterior approximation. Across tractable toy examples and real-world scientific simulators, our joint inference approach yields accurate and calibrated posteriors. The inference framework is available in the \\texttt{sbi} Python package.",
     "authors": [
       "Jan Boelts",
-      "Cornelius Schr\u00f6der",
+      "Cornelius Schröder",
       "Jonas Beck",
       "Jakob H. Macke",
       "Michael Deistler",
@@ -3669,7 +3669,7 @@
     "title": "History Anchors: How Prior Behavior Steers LLM Decisions Toward Unsafe Actions",
     "summary": "Frontier LLMs are increasingly deployed as agents that pick the next action after a long log of prior tool calls produced by the same or a different model. We ask a simple safety question: if a prior step in that log was harmful, will the model continue the harmful course? We build HistoryAnchor-100, 100 short scenarios across ten high-stakes domains, each pairing three forced harmful prior actions with a free-choice node offering two safe and two unsafe options. Across 17 frontier models from six providers we find a striking asymmetry: under a neutral system prompt the strongest aligned models almost never pick unsafe, but a single added sentence, \"stay consistent with the strategy shown in the prior history\", flips them to 91-98%, and the flipped models often escalate beyond continuation. Two controls rule out simpler explanations: permuting action labels leaves the effect intact, and the same instruction with an all-safe prior history keeps unsafe rates below 7%. Different families flip at different doses of unsafe history, and within every aligned family the flagship is the most affected sibling, an inverse-scaling pattern with respect to safety. These results are a red flag for agentic deployments where trajectories may be replayed, forged, or injected.",
     "authors": [
-      "Alberto G. Rodr\u00edguez Salgado"
+      "Alberto G. Rodríguez Salgado"
     ],
     "categories": [
       "cs.AI",
@@ -3783,7 +3783,7 @@
     "authors": [
       "Harry Mayne",
       "Lev McKinney",
-      "Jan Dubi\u0144ski",
+      "Jan Dubiński",
       "Adam Karvonen",
       "James Chua",
       "Owain Evans"
@@ -3827,7 +3827,7 @@
   {
     "arxiv_id": "2605.13768v1",
     "title": "High-Rate Quantized Matrix Multiplication II",
-    "summary": "This is the second part of the work investigating quantized matrix multiplication (MatMul). In part I we considered the case of calibration-free quantization, whereas here we discuss the setting where covariance matrix $\u03a3_X$ of the columns of the second factor is available. This setting arises in the ubiquitous task of weight-only post-training quantization of LLMs.   Weight-only quantization is related to the problem of weighted mean squared error (WMSE) source coding, whose classical (reverse) waterfilling solution dictates how one should distribute rate between coordinates of the vector. We show how waterfilling can be used to improve practical LLM quantization algorithms (GPTQ), which at present allocate rate equally. A recent scheme (known as ``WaterSIC'') that only uses scalar INT quantizers is analyzed and its high-rate performance is shown to be (a) basis free (i.e., characterized by the determinant of $\u03a3_X$ and, thus, unlike existing schemes, is immune to applying random rotations); and (b) within a multiplicative factor of $\\frac{2\u03c0e}{12}$ (or 0.25 bit/entry) of the information-theoretic distortion limit. GPTQ's performance, in turn, is affected by the choice of basis, but for a random rotation and actual $\u03a3_X$ from Llama-3-8B we find it to be within 0.1 bit (depending on the layer type) of WaterSIC, suggesting that GPTQ with random rotation is also near optimal, at least in the high-rate regime.",
+    "summary": "This is the second part of the work investigating quantized matrix multiplication (MatMul). In part I we considered the case of calibration-free quantization, whereas here we discuss the setting where covariance matrix $Σ_X$ of the columns of the second factor is available. This setting arises in the ubiquitous task of weight-only post-training quantization of LLMs.   Weight-only quantization is related to the problem of weighted mean squared error (WMSE) source coding, whose classical (reverse) waterfilling solution dictates how one should distribute rate between coordinates of the vector. We show how waterfilling can be used to improve practical LLM quantization algorithms (GPTQ), which at present allocate rate equally. A recent scheme (known as ``WaterSIC'') that only uses scalar INT quantizers is analyzed and its high-rate performance is shown to be (a) basis free (i.e., characterized by the determinant of $Σ_X$ and, thus, unlike existing schemes, is immune to applying random rotations); and (b) within a multiplicative factor of $\\frac{2πe}{12}$ (or 0.25 bit/entry) of the information-theoretic distortion limit. GPTQ's performance, in turn, is affected by the choice of basis, but for a random rotation and actual $Σ_X$ from Llama-3-8B we find it to be within 0.1 bit (depending on the layer type) of WaterSIC, suggesting that GPTQ with random rotation is also near optimal, at least in the high-rate regime.",
     "authors": [
       "Or Ordentlich",
       "Yury Polyanskiy"
@@ -3890,7 +3890,7 @@
   {
     "arxiv_id": "2605.13555v1",
     "title": "Generating synthetic computed tomography for radiotherapy: SynthRAD2025 challenge report",
-    "summary": "Radiation therapy (RT) requires precise dose delivery over multiple fractions, with CT fundamental for treatment planning due to its electron density information. Repeated CT acquisitions impose radiation exposure and logistical burdens, MRI lacks electron density, and cone-beam CT (CBCT) requires correction for dose calculation. Synthetic CT (sCT) generation addresses these by converting MRI or CBCT into CT-equivalent images with accurate Hounsfield Unit (HU) values, enabling MRI-only RT and CBCT-based adaptive workflows. Building on SynthRAD2023, SynthRAD2025 benchmarked sCT methods on 2,362 patients from five European centers across head and neck, thorax, and abdomen. Two tasks: MRI-to-CT (890 cases) and CBCT-to-CT (1,472 cases), evaluated via image similarity (MAE, PSNR, MS-SSIM), segmentation (Dice, HD95), and dosimetric metrics from photon and proton plans. With 803 participants and 12/13 valid submissions, Task 1 top performance reached MAE $64.8\\pm21.3$ HU, PSNR $\\sim$30 dB, MS-SSIM $\\sim$0.936, Dice 0.79, photon $\u03b3_{2\\%/2\\text{mm}}>98\\%$, proton $\u03b3\\approx85\\%$. Task 2 improved: MAE $48.3\\pm13.4$ HU, PSNR 32.6 dB, MS-SSIM 0.968, Dice 0.86, photon $\u03b3>99\\%$, proton $\u03b3\\approx89\\%$. Strong image--segmentation correlations ($\u03c1=0.78$--$0.79$) but moderate dose correlations confirmed image quality is insufficient as a dosimetric surrogate. Head-and-neck cases were most consistent; thoracic and abdominal cases showed greater variability. Residual errors at tissue interfaces propagate along beam paths, affecting proton dose more than photon. SynthRAD2025 demonstrates that deep learning yields clinically relevant sCTs, especially for CBCT-to-CT, while identifying persistent MRI-to-CT challenges and underscoring dose-based evaluation as essential for clinical validation.",
+    "summary": "Radiation therapy (RT) requires precise dose delivery over multiple fractions, with CT fundamental for treatment planning due to its electron density information. Repeated CT acquisitions impose radiation exposure and logistical burdens, MRI lacks electron density, and cone-beam CT (CBCT) requires correction for dose calculation. Synthetic CT (sCT) generation addresses these by converting MRI or CBCT into CT-equivalent images with accurate Hounsfield Unit (HU) values, enabling MRI-only RT and CBCT-based adaptive workflows. Building on SynthRAD2023, SynthRAD2025 benchmarked sCT methods on 2,362 patients from five European centers across head and neck, thorax, and abdomen. Two tasks: MRI-to-CT (890 cases) and CBCT-to-CT (1,472 cases), evaluated via image similarity (MAE, PSNR, MS-SSIM), segmentation (Dice, HD95), and dosimetric metrics from photon and proton plans. With 803 participants and 12/13 valid submissions, Task 1 top performance reached MAE $64.8\\pm21.3$ HU, PSNR $\\sim$30 dB, MS-SSIM $\\sim$0.936, Dice 0.79, photon $γ_{2\\%/2\\text{mm}}>98\\%$, proton $γ\\approx85\\%$. Task 2 improved: MAE $48.3\\pm13.4$ HU, PSNR 32.6 dB, MS-SSIM 0.968, Dice 0.86, photon $γ>99\\%$, proton $γ\\approx89\\%$. Strong image--segmentation correlations ($ρ=0.78$--$0.79$) but moderate dose correlations confirmed image quality is insufficient as a dosimetric surrogate. Head-and-neck cases were most consistent; thoracic and abdominal cases showed greater variability. Residual errors at tissue interfaces propagate along beam paths, affecting proton dose more than photon. SynthRAD2025 demonstrates that deep learning yields clinically relevant sCTs, especially for CBCT-to-CT, while identifying persistent MRI-to-CT challenges and underscoring dose-based evaluation as essential for clinical validation.",
     "authors": [
       "Viktor Rogowski",
       "Maarten L. Terpstra",
@@ -3913,7 +3913,7 @@
       "Alvaro Garcia Martin",
       "Fabien Baldacci",
       "Valentin Boussot",
-      "C\u00e9dric H\u00e9mon",
+      "Cédric Hémon",
       "Jean-Claude Nunes",
       "Jean-Louis Dillenseger",
       "Zhiyuan Zhang",
@@ -4100,11 +4100,11 @@
     "title": "Fast and Compact Graph Cuts for the Boykov-Kolmogorov Algorithm",
     "summary": "Computing a minimum $s$-$t$ cut in a graph is a solution to a wide range of computer vision problems, and is often done using the Boykov-Kolmogorov (BK) algorithm. In this paper, we revisit the BK algorithm from both a theoretical and practical point of view. We improve the analysis of the time complexity of the BK algorithm to $O(mn|C|)$ and propose a new algorithm, the fast and compact BK (fcBK) algorithm, with a time complexity of $O(m|C|)$, where $m$, $n$, and $|C|$ are the number of edges, number of vertices, and the capacity of the cut, respectively. We additionally propose a compact graph representation that allows our implementation to find a minimum $s$-$t$ cut in a graph with upwards of $10^9$ vertices and $10^{10}$ edges on a machine with 128 GB of memory. We find our implementation of the BK algorithm to be the fastest available implementation of the BK algorithm when evaluating on a comprehensive set of benchmark datasets, highlighting the importance of memory-efficient implementations. We make our implementations publicly available for further research and implementation development within minimum $s$-$t$ cut algorithms.",
     "authors": [
-      "Christian M\u00f8ller Mikkelstrup",
+      "Christian Møller Mikkelstrup",
       "Anders Bjorholm Dahl",
       "Philip Bille",
       "Vedrana Andersen Dahl",
-      "Inge Li G\u00f8rtz"
+      "Inge Li Gørtz"
     ],
     "categories": [
       "cs.CV",
@@ -4162,7 +4162,7 @@
       "Lixiang Yan",
       "Samuel Greiff",
       "Jason M. Lodge",
-      "Dragan Ga\u0161evi\u0107"
+      "Dragan Gašević"
     ],
     "categories": [
       "cs.LG",
@@ -4178,7 +4178,7 @@
   {
     "arxiv_id": "2605.13692v1",
     "title": "Polyhedral Instability Governs Regret in Online Learning",
-    "summary": "Many online decision problems over combinatorial actions are addressed via convex relaxations, leading to online convex optimization with piecewise linear objectives and induced polyhedral structure. We show that regret in such problems is governed by \\emph{polyhedral instability}: the number of changes of the active region. Under full information feedback and fixed partition assumptions, if $\\mathrm{RS}_T$ denotes the number of region switches and $V_{\\max}$ the maximum number of vertices per region, we prove $\\Regret_T= \u0398(\\sqrt{(1+\\mathrm{RS}_T)\\,T\\,\\log V_{\\max}})$ interpolating between experts-like and dimension-dependent OCO rates. For online submodular--concave games under Lov\u00e1sz convexification, this reduces to the permutation-switch count $\\mathrm{SC}_T$, yielding the matching rate $\\Regret_T= \u0398(\\sqrt{(1+\\mathrm{SC}_T)\\,T\\,\\log n})$. Experiments on synthetic and real combinatorial problems (shortest path, influence maximization) validate the predicted scaling and indicate that low-instability regimes can arise in practice without explicit enumeration of actions.",
+    "summary": "Many online decision problems over combinatorial actions are addressed via convex relaxations, leading to online convex optimization with piecewise linear objectives and induced polyhedral structure. We show that regret in such problems is governed by \\emph{polyhedral instability}: the number of changes of the active region. Under full information feedback and fixed partition assumptions, if $\\mathrm{RS}_T$ denotes the number of region switches and $V_{\\max}$ the maximum number of vertices per region, we prove $\\Regret_T= Θ(\\sqrt{(1+\\mathrm{RS}_T)\\,T\\,\\log V_{\\max}})$ interpolating between experts-like and dimension-dependent OCO rates. For online submodular--concave games under Lovász convexification, this reduces to the permutation-switch count $\\mathrm{SC}_T$, yielding the matching rate $\\Regret_T= Θ(\\sqrt{(1+\\mathrm{SC}_T)\\,T\\,\\log n})$. Experiments on synthetic and real combinatorial problems (shortest path, influence maximization) validate the predicted scaling and indicate that low-instability regimes can arise in practice without explicit enumeration of actions.",
     "authors": [
       "Yuetai Li",
       "Fengqing Jiang",
@@ -4356,7 +4356,7 @@
   {
     "arxiv_id": "2605.13468v1",
     "title": "Nonsmooth Set-Gradient Ascent to the Pareto Front via Layered Hypervolume and Magnitude Indicators",
-    "summary": "A nonsmooth set-gradient ascent method is developed for moving finite approximation sets toward the Pareto front in multiobjective optimization. The method optimizes layered set indicators: a base indicator is evaluated on successive nondomination layers, and the layer values are combined with rapidly decreasing weights. This gives ascent directions to nondominated and dominated points while preventing deeper layers from compensating for deterioration of the first front. Two base indicators are treated: the hypervolume indicator and the magnitude indicator of the dominated set, whose expansion over coordinate projections contains extent, projected-area, and volume terms. The scalar objectives are nonsmooth because nondomination layers change combinatorially and the active orthogonal-union geometry changes piecewise. On fixed strata, where layer assignments and active geometry remain unchanged, the indicators are piecewise smooth and chamberwise continuous. For the magnitude indicator, an exact gradient formula is derived as a linear combination of hypervolume gradients of projected shadow sets. Thus, for fixed objective dimension, magnitude gradients have the same asymptotic time complexity as hypervolume gradients. Lexicographic layer aggregation is related to a unary infinitesimal encoding. For finite-$\u03b5$ surrogates, the main nonsmoothness mechanisms are isolated and chamberwise Lipschitz continuity on bounded sets is proved; a two-point counterexample shows that hard-layer scalarization is not globally continuous across layer switches. The theory motivates a projected finite-difference implementation with repulsion and recovery from stagnation. Numerical examples and reproducible code cover two- and three-objective settings, including objective-space tests, curved fronts, a supersphere benchmark, and traces comparing layered magnitude and hypervolume ascent.",
+    "summary": "A nonsmooth set-gradient ascent method is developed for moving finite approximation sets toward the Pareto front in multiobjective optimization. The method optimizes layered set indicators: a base indicator is evaluated on successive nondomination layers, and the layer values are combined with rapidly decreasing weights. This gives ascent directions to nondominated and dominated points while preventing deeper layers from compensating for deterioration of the first front. Two base indicators are treated: the hypervolume indicator and the magnitude indicator of the dominated set, whose expansion over coordinate projections contains extent, projected-area, and volume terms. The scalar objectives are nonsmooth because nondomination layers change combinatorially and the active orthogonal-union geometry changes piecewise. On fixed strata, where layer assignments and active geometry remain unchanged, the indicators are piecewise smooth and chamberwise continuous. For the magnitude indicator, an exact gradient formula is derived as a linear combination of hypervolume gradients of projected shadow sets. Thus, for fixed objective dimension, magnitude gradients have the same asymptotic time complexity as hypervolume gradients. Lexicographic layer aggregation is related to a unary infinitesimal encoding. For finite-$ε$ surrogates, the main nonsmoothness mechanisms are isolated and chamberwise Lipschitz continuity on bounded sets is proved; a two-point counterexample shows that hard-layer scalarization is not globally continuous across layer switches. The theory motivates a projected finite-difference implementation with repulsion and recovery from stagnation. Numerical examples and reproducible code cover two- and three-objective settings, including objective-space tests, curved fronts, a supersphere benchmark, and traces comparing layered magnitude and hypervolume ascent.",
     "authors": [
       "Michael T. M. Emmerich"
     ],
@@ -4410,7 +4410,7 @@
       "Guorong Hu",
       "Ruipeng Guo",
       "Tongyu Li",
-      "Kivilcim Kili\u00e7",
+      "Kivilcim Kiliç",
       "Ian Davison",
       "Lei Tian"
     ],
@@ -4517,248 +4517,5 @@
     "date": "2026-05-14",
     "source": "arxiv",
     "research_score": 0.44
-  },
-  {
-    "model_id": "storagejuju/kimi-k2.6-ud-q8-k-xl-juju",
-    "author": "unknown",
-    "title": "storagejuju/kimi-k2.6-ud-q8-k-xl-juju",
-    "downloads": 5613,
-    "likes": 1,
-    "tags": [
-      "text-generation",
-      "gguf",
-      "juju",
-      "moe",
-      "storagellm",
-      "base_model:moonshotai/Kimi-K2.6",
-      "base_model:finetune:moonshotai/Kimi-K2.6",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-10T17:35:50.000Z",
-    "last_modified": "2026-05-14T04:40:25.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/storagejuju/kimi-k2.6-ud-q8-k-xl-juju",
-    "date": "2026-05-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "axetechnologies/caesar-1.0-GGUF",
-    "author": "unknown",
-    "title": "axetechnologies/caesar-1.0-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "axe-technologies",
-      "caesar",
-      "edge",
-      "tool-calling",
-      "custom-trained",
-      "text-generation",
-      "en",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-05-14T04:39:45.000Z",
-    "last_modified": "2026-05-14T04:39:47.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/axetechnologies/caesar-1.0-GGUF",
-    "date": "2026-05-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "MikeRoz/Mero-Artemis-31B-v0.3.1-exl3",
-    "author": "unknown",
-    "title": "MikeRoz/Mero-Artemis-31B-v0.3.1-exl3",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "exllamav3",
-      "exl3",
-      "text-generation",
-      "base_model:sophosympatheia/Mero-Artemis-31B-v0.3.1",
-      "base_model:quantized:sophosympatheia/Mero-Artemis-31B-v0.3.1",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "exllamav3",
-    "created_at": "2026-05-14T04:26:37.000Z",
-    "last_modified": "2026-05-14T04:38:29.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/MikeRoz/Mero-Artemis-31B-v0.3.1-exl3",
-    "date": "2026-05-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "pat-jj/harness-1",
-    "author": "unknown",
-    "title": "pat-jj/harness-1",
-    "downloads": 40,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt_oss",
-      "text-generation",
-      "search",
-      "retrieval",
-      "harness-1",
-      "conversational",
-      "base_model:openai/gpt-oss-20b",
-      "base_model:finetune:openai/gpt-oss-20b",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-12T16:09:32.000Z",
-    "last_modified": "2026-05-14T04:37:53.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/pat-jj/harness-1",
-    "date": "2026-05-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "AbteeXAILab/lumynax-frontier-dbrx-instruct-132b-gguf",
-    "author": "unknown",
-    "title": "AbteeXAILab/lumynax-frontier-dbrx-instruct-132b-gguf",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "llama.cpp",
-      "gguf",
-      "abteex-ai-labs",
-      "aotearoa",
-      "databricks",
-      "dbrx",
-      "frontier",
-      "llama-cpp",
-      "local-first",
-      "lumynax",
-      "moe",
-      "new-zealand",
-      "sovereign-ai",
-      "text-generation",
-      "en",
-      "mi",
-      "license:other",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "llama.cpp",
-    "created_at": "2026-05-14T00:24:49.000Z",
-    "last_modified": "2026-05-14T04:37:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/AbteeXAILab/lumynax-frontier-dbrx-instruct-132b-gguf",
-    "date": "2026-05-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "yuxinlu1/qwen3-6-27b-chinese-folk-horror-lora-v2",
-    "author": "unknown",
-    "title": "yuxinlu1/qwen3-6-27b-chinese-folk-horror-lora-v2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "gguf",
-      "lora",
-      "chinese",
-      "folk-horror",
-      "qwen3",
-      "qwen3.6",
-      "text-generation",
-      "creative-writing",
-      "conversational",
-      "zh",
-      "base_model:Qwen/Qwen3.6-27B",
-      "base_model:adapter:Qwen/Qwen3.6-27B",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-05-14T04:23:03.000Z",
-    "last_modified": "2026-05-14T04:35:49.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/yuxinlu1/qwen3-6-27b-chinese-folk-horror-lora-v2",
-    "date": "2026-05-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "usmanali00/face_emotion",
-    "author": "unknown",
-    "title": "usmanali00/face_emotion",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:baidu/ERNIE-Image",
-      "base_model:adapter:baidu/ERNIE-Image",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-05-14T04:35:20.000Z",
-    "last_modified": "2026-05-14T04:35:32.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/usmanali00/face_emotion",
-    "date": "2026-05-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "octava/whisper-small-ft-nomethod",
-    "author": "unknown",
-    "title": "octava/whisper-small-ft-nomethod",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "base_model:openai/whisper-small",
-      "base_model:finetune:openai/whisper-small",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-05-13T14:36:17.000Z",
-    "last_modified": "2026-05-14T04:34:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/octava/whisper-small-ft-nomethod",
-    "date": "2026-05-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
