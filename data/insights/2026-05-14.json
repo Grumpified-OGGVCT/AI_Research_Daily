@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-14T22:53:50.778618",
+  "date": "2026-05-14T23:53:23.808518",
   "patterns": {
     "multimodal_research": [
       {
@@ -893,6 +893,10 @@
         "url": "https://arxiv.org/abs/2605.13403v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "Bayesian In Vivo Tracking of Synapses using Joint Poisson Deconvolution and Diffeomorphic Registration",
         "url": "https://arxiv.org/abs/2605.13455v1"
       },
@@ -911,14 +915,6 @@
       {
         "title": "Backbone is All You Need: Assessing Vulnerabilities of Frozen Foundation Models in Synthetic Image Forensics",
         "url": "https://arxiv.org/abs/2605.13381v1"
-      },
-      {
-        "title": "deepghs-cv/cls-bangumibase-face-quality.caformer_s36",
-        "url": "https://huggingface.co/deepghs-cv/cls-bangumibase-face-quality.caformer_s36"
-      },
-      {
-        "title": "deepghs-cv/cls-bangumibase-face-quality.caformer_s36.head_crop",
-        "url": "https://huggingface.co/deepghs-cv/cls-bangumibase-face-quality.caformer_s36.head_crop"
       }
     ],
     "reasoning": [
@@ -1659,7 +1655,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "66 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,6 +1708,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 402
   }
 }
