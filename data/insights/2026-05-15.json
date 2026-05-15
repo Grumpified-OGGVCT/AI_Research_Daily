@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-15T17:45:09.769384",
+  "date": "2026-05-15T19:23:06.991331",
   "patterns": {
     "multimodal_research": [
       {
@@ -351,6 +351,10 @@
       {
         "title": "First Mathematical Runtime Analyses of Multi-Objective Evolutionary Algorithms for Multi-Valued Decision Variables",
         "url": "https://arxiv.org/abs/2605.14836v1"
+      },
+      {
+        "title": "saadxsalman/ss-medical-moe",
+        "url": "https://huggingface.co/saadxsalman/ss-medical-moe"
       }
     ],
     "language_models": [
@@ -667,12 +671,8 @@
         "url": "https://arxiv.org/abs/2605.15088v1"
       },
       {
-        "title": "Z-Jafari/bert-fa-base-uncased-finetuned-PersianQuAD_Factoid_Test-ignoreTestSplit",
-        "url": "https://huggingface.co/Z-Jafari/bert-fa-base-uncased-finetuned-PersianQuAD_Factoid_Test-ignoreTestSplit"
-      },
-      {
-        "title": "Rania6/imdb-distilbert-sentiment",
-        "url": "https://huggingface.co/Rania6/imdb-distilbert-sentiment"
+        "title": "Z-Jafari/bert-base-multilingual-cased-finetuned-PersianQuAD_Factoid_Test",
+        "url": "https://huggingface.co/Z-Jafari/bert-base-multilingual-cased-finetuned-PersianQuAD_Factoid_Test"
       }
     ],
     "vision_systems": [
@@ -1003,6 +1003,10 @@
       {
         "title": "Meschers: Geometry Processing of Impossible Objects",
         "url": "https://arxiv.org/abs/2605.14960v1"
+      },
+      {
+        "title": "jc-builds/ERNIE-Image-Turbo-iOS",
+        "url": "https://huggingface.co/jc-builds/ERNIE-Image-Turbo-iOS"
       }
     ],
     "reasoning": [
@@ -1301,10 +1305,6 @@
       {
         "title": "Learning Direct Control Policies with Flow Matching for Autonomous Driving",
         "url": "https://arxiv.org/abs/2605.14832v1"
-      },
-      {
-        "title": "Fayad11/fine_tuned_emotion_inference_model",
-        "url": "https://huggingface.co/Fayad11/fine_tuned_emotion_inference_model"
       }
     ],
     "benchmarks": [
@@ -1813,7 +1813,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1825,19 +1825,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
