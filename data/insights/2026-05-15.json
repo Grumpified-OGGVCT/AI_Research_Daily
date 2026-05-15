@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-15T11:52:00.615589",
+  "date": "2026-05-15T13:52:30.288896",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,12 +667,16 @@
         "url": "https://arxiv.org/abs/2605.15088v1"
       },
       {
-        "title": "1010happy/qwen3BInstruct_ChatGPTStagger",
-        "url": "https://huggingface.co/1010happy/qwen3BInstruct_ChatGPTStagger"
+        "title": "ceilf6/imdb-sentiment-roberta",
+        "url": "https://huggingface.co/ceilf6/imdb-sentiment-roberta"
       },
       {
-        "title": "1010happy/qwen3BInstruct_ChatGPTDefault",
-        "url": "https://huggingface.co/1010happy/qwen3BInstruct_ChatGPTDefault"
+        "title": "isetnefret/gpt-oss-20b-RichardErkhov-heresy-mlx-4Bit",
+        "url": "https://huggingface.co/isetnefret/gpt-oss-20b-RichardErkhov-heresy-mlx-4Bit"
+      },
+      {
+        "title": "Z-Jafari/xlm-roberta-base-finetuned-PersianQuAD_Factoid_Test-ignoreTestSplit",
+        "url": "https://huggingface.co/Z-Jafari/xlm-roberta-base-finetuned-PersianQuAD_Factoid_Test-ignoreTestSplit"
       }
     ],
     "vision_systems": [
@@ -1821,7 +1825,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1880,6 +1884,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 446
   }
 }
