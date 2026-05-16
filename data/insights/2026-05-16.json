@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-16T11:50:24.452357",
+  "date": "2026-05-16T13:08:37.099745",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,16 +667,12 @@
         "url": "https://arxiv.org/abs/2605.15088v1"
       },
       {
-        "title": "carmengoar/tfm-bert-mejorado-sesgo",
-        "url": "https://huggingface.co/carmengoar/tfm-bert-mejorado-sesgo"
+        "title": "AxisQuant/Qwen3.6-27b-gptq-int4",
+        "url": "https://huggingface.co/AxisQuant/Qwen3.6-27b-gptq-int4"
       },
       {
-        "title": "prashantcp8/Qwen3.6-27b-gptq-int4",
-        "url": "https://huggingface.co/prashantcp8/Qwen3.6-27b-gptq-int4"
-      },
-      {
-        "title": "carmengoar/tfm-bert-sesgo",
-        "url": "https://huggingface.co/carmengoar/tfm-bert-sesgo"
+        "title": "rfi-irfos/albert",
+        "url": "https://huggingface.co/rfi-irfos/albert"
       }
     ],
     "vision_systems": [
@@ -1825,7 +1821,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1862,7 +1858,7 @@
     },
     {
       "topic": "language",
-      "frequency": 64,
+      "frequency": 63,
       "significance": "high"
     },
     {
@@ -1884,6 +1880,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 446
+    "total_papers": 445
   }
 }
