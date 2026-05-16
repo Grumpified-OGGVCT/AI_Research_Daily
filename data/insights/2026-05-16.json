@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-16T21:43:46.007142",
+  "date": "2026-05-16T22:40:07.058125",
   "patterns": {
     "multimodal_research": [
       {
@@ -353,12 +353,8 @@
         "url": "https://arxiv.org/abs/2605.14836v1"
       },
       {
-        "title": "FreedomAISVR/Qwen3.6-35B-A3B-MXFP4-MOE-GGUF",
-        "url": "https://huggingface.co/FreedomAISVR/Qwen3.6-35B-A3B-MXFP4-MOE-GGUF"
-      },
-      {
-        "title": "FreedomAISVR/Qwen3-Coder-30B-A3B-MXFP4-MOE-GGUF",
-        "url": "https://huggingface.co/FreedomAISVR/Qwen3-Coder-30B-A3B-MXFP4-MOE-GGUF"
+        "title": "AlekseyCalvin/Lyrical_ru2en_NanbeigeMoeTest-mlx-4Bit",
+        "url": "https://huggingface.co/AlekseyCalvin/Lyrical_ru2en_NanbeigeMoeTest-mlx-4Bit"
       }
     ],
     "language_models": [
@@ -1003,6 +999,10 @@
       {
         "title": "Meschers: Geometry Processing of Impossible Objects",
         "url": "https://arxiv.org/abs/2605.14960v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1809,7 +1809,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "60 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1827,7 +1827,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
