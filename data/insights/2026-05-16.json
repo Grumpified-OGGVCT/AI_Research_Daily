@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-16T10:59:04.644859",
+  "date": "2026-05-16T11:50:24.452357",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,6 +665,18 @@
       {
         "title": "SAGE3D: Soft-guided attention and graph excitation for 3D point cloud corner detection",
         "url": "https://arxiv.org/abs/2605.15088v1"
+      },
+      {
+        "title": "carmengoar/tfm-bert-mejorado-sesgo",
+        "url": "https://huggingface.co/carmengoar/tfm-bert-mejorado-sesgo"
+      },
+      {
+        "title": "prashantcp8/Qwen3.6-27b-gptq-int4",
+        "url": "https://huggingface.co/prashantcp8/Qwen3.6-27b-gptq-int4"
+      },
+      {
+        "title": "carmengoar/tfm-bert-sesgo",
+        "url": "https://huggingface.co/carmengoar/tfm-bert-sesgo"
       }
     ],
     "vision_systems": [
@@ -963,10 +975,6 @@
       {
         "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
         "url": "https://arxiv.org/abs/2605.14906v1"
-      },
-      {
-        "title": "ASomeoneWhoInterestedWithAI/LookThem_Tiny-ImageNet",
-        "url": "https://huggingface.co/ASomeoneWhoInterestedWithAI/LookThem_Tiny-ImageNet"
       },
       {
         "title": "MonoPRIO: Adaptive Prior Conditioning for Unified Monocular 3D Object Detection",
@@ -1817,13 +1825,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1854,7 +1862,7 @@
     },
     {
       "topic": "language",
-      "frequency": 63,
+      "frequency": 64,
       "significance": "high"
     },
     {
@@ -1876,6 +1884,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 444
+    "total_papers": 446
   }
 }
