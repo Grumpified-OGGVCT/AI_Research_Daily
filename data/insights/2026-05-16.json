@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-16T02:27:19.077029",
+  "date": "2026-05-16T05:51:06.549652",
   "patterns": {
     "multimodal_research": [
       {
@@ -351,6 +351,10 @@
       {
         "title": "First Mathematical Runtime Analyses of Multi-Objective Evolutionary Algorithms for Multi-Valued Decision Variables",
         "url": "https://arxiv.org/abs/2605.14836v1"
+      },
+      {
+        "title": "storagejuju/glm-5.1-mxfp4-moe-juju",
+        "url": "https://huggingface.co/storagejuju/glm-5.1-mxfp4-moe-juju"
       }
     ],
     "language_models": [
@@ -965,10 +969,6 @@
         "url": "https://arxiv.org/abs/2605.14906v1"
       },
       {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
-      },
-      {
         "title": "MonoPRIO: Adaptive Prior Conditioning for Unified Monocular 3D Object Detection",
         "url": "https://arxiv.org/abs/2605.14781v1"
       },
@@ -1297,10 +1297,6 @@
       {
         "title": "Learning Direct Control Policies with Flow Matching for Autonomous Driving",
         "url": "https://arxiv.org/abs/2605.14832v1"
-      },
-      {
-        "title": "DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-UD-Q4_K_RA-XL-gguf",
-        "url": "https://huggingface.co/DAXZEIT/Qwen3.6-27B-Claude-Opus-Reasoning-UD-Q4_K_RA-XL-gguf"
       }
     ],
     "benchmarks": [
@@ -1809,7 +1805,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "58 independent papers",
+      "observation": "59 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1827,13 +1823,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1880,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 444
   }
 }
