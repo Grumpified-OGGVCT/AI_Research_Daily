@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-16T17:53:24.438955",
+  "date": "2026-05-16T18:56:33.596485",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,10 +665,6 @@
       {
         "title": "SAGE3D: Soft-guided attention and graph excitation for 3D point cloud corner detection",
         "url": "https://arxiv.org/abs/2605.15088v1"
-      },
-      {
-        "title": "rfi-irfos/albert",
-        "url": "https://huggingface.co/rfi-irfos/albert"
       }
     ],
     "vision_systems": [
@@ -999,6 +995,10 @@
       {
         "title": "Meschers: Geometry Processing of Impossible Objects",
         "url": "https://arxiv.org/abs/2605.14960v1"
+      },
+      {
+        "title": "tica6/Z-Image",
+        "url": "https://huggingface.co/tica6/Z-Image"
       }
     ],
     "reasoning": [
@@ -1817,13 +1817,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
