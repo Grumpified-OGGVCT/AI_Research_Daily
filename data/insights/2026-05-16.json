@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-16T22:40:07.058125",
+  "date": "2026-05-16T23:45:58.090995",
   "patterns": {
     "multimodal_research": [
       {
@@ -351,10 +351,6 @@
       {
         "title": "First Mathematical Runtime Analyses of Multi-Objective Evolutionary Algorithms for Multi-Valued Decision Variables",
         "url": "https://arxiv.org/abs/2605.14836v1"
-      },
-      {
-        "title": "AlekseyCalvin/Lyrical_ru2en_NanbeigeMoeTest-mlx-4Bit",
-        "url": "https://huggingface.co/AlekseyCalvin/Lyrical_ru2en_NanbeigeMoeTest-mlx-4Bit"
       }
     ],
     "language_models": [
@@ -969,6 +965,10 @@
         "url": "https://arxiv.org/abs/2605.14906v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "MonoPRIO: Adaptive Prior Conditioning for Unified Monocular 3D Object Detection",
         "url": "https://arxiv.org/abs/2605.14781v1"
       },
@@ -999,10 +999,6 @@
       {
         "title": "Meschers: Geometry Processing of Impossible Objects",
         "url": "https://arxiv.org/abs/2605.14960v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       }
     ],
     "reasoning": [
@@ -1809,7 +1805,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "59 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1880,6 +1876,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 445
+    "total_papers": 444
   }
 }
