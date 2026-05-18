@@ -1,11 +1,49 @@
 {
-  "date": "2026-05-18T15:00:45.770586",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-05-18T17:32:30.537623",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "mhdafifan/indobert-fiqhqa-qa",
+        "url": "https://huggingface.co/mhdafifan/indobert-fiqhqa-qa"
+      },
+      {
+        "title": "cometadata/funding-chunk-classifier-modernbert-base",
+        "url": "https://huggingface.co/cometadata/funding-chunk-classifier-modernbert-base"
+      }
+    ],
+    "reasoning": [
+      {
+        "title": "Inferencelab/whisper-small-urdu-int8-ct2",
+        "url": "https://huggingface.co/Inferencelab/whisper-small-urdu-int8-ct2"
+      },
+      {
+        "title": "Inferencelab/roman-urdu-sentiment-xlm-r",
+        "url": "https://huggingface.co/Inferencelab/roman-urdu-sentiment-xlm-r"
+      },
+      {
+        "title": "Inferencelab/roman-urdu-emotion-xlmr-v2",
+        "url": "https://huggingface.co/Inferencelab/roman-urdu-emotion-xlmr-v2"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Reasoning - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 2,
+    "total_inferences": 2,
+    "total_papers": 5
   }
 }
