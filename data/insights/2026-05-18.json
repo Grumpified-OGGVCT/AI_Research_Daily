@@ -1,49 +1,33 @@
 {
-  "date": "2026-05-18T17:32:30.537623",
+  "date": "2026-05-18T19:30:22.937461",
   "patterns": {
     "language_models": [
       {
-        "title": "mhdafifan/indobert-fiqhqa-qa",
-        "url": "https://huggingface.co/mhdafifan/indobert-fiqhqa-qa"
+        "title": "mljn/mdeberta-economy-classifier",
+        "url": "https://huggingface.co/mljn/mdeberta-economy-classifier"
       },
       {
-        "title": "cometadata/funding-chunk-classifier-modernbert-base",
-        "url": "https://huggingface.co/cometadata/funding-chunk-classifier-modernbert-base"
-      }
-    ],
-    "reasoning": [
-      {
-        "title": "Inferencelab/whisper-small-urdu-int8-ct2",
-        "url": "https://huggingface.co/Inferencelab/whisper-small-urdu-int8-ct2"
+        "title": "tarudesu/HSD-vibert",
+        "url": "https://huggingface.co/tarudesu/HSD-vibert"
       },
       {
-        "title": "Inferencelab/roman-urdu-sentiment-xlm-r",
-        "url": "https://huggingface.co/Inferencelab/roman-urdu-sentiment-xlm-r"
-      },
-      {
-        "title": "Inferencelab/roman-urdu-emotion-xlmr-v2",
-        "url": "https://huggingface.co/Inferencelab/roman-urdu-emotion-xlmr-v2"
+        "title": "g25ait2096/mlops-finetuned-distilbert",
+        "url": "https://huggingface.co/g25ait2096/mlops-finetuned-distilbert"
       }
     ]
   },
   "inferences": [
     {
-      "pattern": "reasoning",
+      "pattern": "language_models",
       "observation": "3 related papers",
-      "inference": "Emerging interest in Reasoning - monitor for breakthrough results",
-      "confidence": "medium"
-    },
-    {
-      "pattern": "reasoning",
-      "observation": "Reasoning capabilities being explored",
-      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
       "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 2,
-    "total_papers": 5
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
