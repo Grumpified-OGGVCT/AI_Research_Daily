@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-19T18:58:06.868697",
+  "date": "2026-05-19T20:30:17.528908",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,12 +703,8 @@
         "url": "https://arxiv.org/abs/2605.18451v1"
       },
       {
-        "title": "avgJo3/a2d-gpt-neox-400M",
-        "url": "https://huggingface.co/avgJo3/a2d-gpt-neox-400M"
-      },
-      {
-        "title": "raghavnimbalkar/gpt2-screenplay-generator",
-        "url": "https://huggingface.co/raghavnimbalkar/gpt2-screenplay-generator"
+        "title": "asilvaz/imdb-distilbert-head-only",
+        "url": "https://huggingface.co/asilvaz/imdb-distilbert-head-only"
       }
     ],
     "vision_systems": [
@@ -1693,7 +1689,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1752,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 412
   }
 }
