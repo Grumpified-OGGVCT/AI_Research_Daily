@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-19T10:58:29.548835",
+  "date": "2026-05-19T13:55:49.287579",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,8 +703,12 @@
         "url": "https://arxiv.org/abs/2605.18451v1"
       },
       {
-        "title": "VasilisAsim/hubert-finetuned-EMODB",
-        "url": "https://huggingface.co/VasilisAsim/hubert-finetuned-EMODB"
+        "title": "avgJo3/a2d-gpt-neox-160M",
+        "url": "https://huggingface.co/avgJo3/a2d-gpt-neox-160M"
+      },
+      {
+        "title": "nazdef/gpt2small-en-it-nanochat-lr2e4-bs6-wsd-fastdecay-step10000",
+        "url": "https://huggingface.co/nazdef/gpt2small-en-it-nanochat-lr2e4-bs6-wsd-fastdecay-step10000"
       }
     ],
     "vision_systems": [
@@ -1689,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 413
   }
 }
