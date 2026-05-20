@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-20T21:48:24.157646",
+  "date": "2026-05-20T23:09:13.188605",
   "patterns": {
     "multimodal_research": [
       {
@@ -905,6 +905,10 @@
         "url": "https://arxiv.org/abs/2605.19786v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "AffectVerse: Emotional World Models for Multimodal Affective Computing",
         "url": "https://arxiv.org/abs/2605.19950v1"
       },
@@ -1667,7 +1671,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 406
   }
 }
