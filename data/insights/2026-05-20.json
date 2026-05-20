@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-20T13:36:50.880065",
+  "date": "2026-05-20T19:18:37.366293",
   "patterns": {
     "multimodal_research": [
       {
@@ -319,6 +319,10 @@
       {
         "title": "DocQT: Improving Document Forgery Localization Robustness via Diverse JPEG Quantization Tables",
         "url": "https://arxiv.org/abs/2605.19688v1"
+      },
+      {
+        "title": "AlexWortega/moe-200m-qwen3-step70000-2B-20260520-1912",
+        "url": "https://huggingface.co/AlexWortega/moe-200m-qwen3-step70000-2B-20260520-1912"
       }
     ],
     "language_models": [
@@ -651,8 +655,8 @@
         "url": "https://arxiv.org/abs/2605.19717v1"
       },
       {
-        "title": "VaibhavG25AIT2122/distilbert-goodreads-genres",
-        "url": "https://huggingface.co/VaibhavG25AIT2122/distilbert-goodreads-genres"
+        "title": "g25ait2033-cyber/distilbert-goodreads-genres",
+        "url": "https://huggingface.co/g25ait2033-cyber/distilbert-goodreads-genres"
       }
     ],
     "vision_systems": [
@@ -1653,7 +1657,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "46 independent papers",
+      "observation": "47 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1724,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 407
   }
 }
