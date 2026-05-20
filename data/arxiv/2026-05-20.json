@@ -11,8 +11,8 @@
       "Rachid Guerraoui",
       "Maxime Jacovella",
       "Anne-Marie Kermarrec",
-      "Dimitri Ler\u00e9v\u00e9rend",
-      "Fran\u00e7ois Ta\u00efani",
+      "Dimitri Lerévérend",
+      "François Taïani",
       "Martijn de Vos"
     ],
     "categories": [
@@ -114,7 +114,7 @@
   {
     "arxiv_id": "2605.19826v1",
     "title": "Explainable Wastewater Digital Twins: Adaptive Context-Conditioned Structured Simulators with Self-Falsifying Decision Support",
-    "summary": "Operators of safety-critical industrial processes increasingly rely on digital twins to screen control interventions, but such simulators rarely carry certified safety guarantees. Wastewater treatment plants exemplify the gap: operators face a daily safety-efficiency trade-off where aerating too little risks effluent violations and nitrous-oxide (N2O) spikes, and aerating too much wastes energy. We develop an explainable digital twin for aeration and dosing setpoints. CCSS-IX, the simulator, is a bank of interpretable locally linear state-space \"experts\" adaptively mixed by a context-aware gating network, building on a continuous-time regime-switching scaffold. A runtime decision layer applies conformal risk control to abstain, reopen, or return a falsifying temporal witness for any operator-proposed action that cannot be statistically certified. The artificial-intelligence contribution is twofold: an identifiable, context-conditioned structured surrogate that retains operator-readable dynamics, and a self-falsifying decision rule with finite-sample coverage guarantees. The engineering contribution is a validated, end-to-end decision-support pipeline, tested on a 1000-step slice of the Aved\u00f8re full-scale plant (42.6% sensor missingness, 2-minute sampling), the Agtrup/BlueKolding full-scale plant in Denmark, and the Benchmark Simulation Model No. 2 (BSM2) international benchmark, under a matched ten-seed protocol. The static structured ensemble lies within 0.78% root-mean-square error of an unconstrained black-box reference, and the adaptive variant within 1.08%. The calibrated reopen rule cuts aggregate two-plant regret by 43.6% at an unsafe-action cost weight of 4 and eliminates unsafe chosen actions on the BSM2 main slice. Event-aligned temporal witnesses prevent 93 of 187 false-safe N2O approvals, about 4.65x the dyadic baseline (paired McNemar p < 1e-21).",
+    "summary": "Operators of safety-critical industrial processes increasingly rely on digital twins to screen control interventions, but such simulators rarely carry certified safety guarantees. Wastewater treatment plants exemplify the gap: operators face a daily safety-efficiency trade-off where aerating too little risks effluent violations and nitrous-oxide (N2O) spikes, and aerating too much wastes energy. We develop an explainable digital twin for aeration and dosing setpoints. CCSS-IX, the simulator, is a bank of interpretable locally linear state-space \"experts\" adaptively mixed by a context-aware gating network, building on a continuous-time regime-switching scaffold. A runtime decision layer applies conformal risk control to abstain, reopen, or return a falsifying temporal witness for any operator-proposed action that cannot be statistically certified. The artificial-intelligence contribution is twofold: an identifiable, context-conditioned structured surrogate that retains operator-readable dynamics, and a self-falsifying decision rule with finite-sample coverage guarantees. The engineering contribution is a validated, end-to-end decision-support pipeline, tested on a 1000-step slice of the Avedøre full-scale plant (42.6% sensor missingness, 2-minute sampling), the Agtrup/BlueKolding full-scale plant in Denmark, and the Benchmark Simulation Model No. 2 (BSM2) international benchmark, under a matched ten-seed protocol. The static structured ensemble lies within 0.78% root-mean-square error of an unconstrained black-box reference, and the adaptive variant within 1.08%. The calibrated reopen rule cuts aggregate two-plant regret by 43.6% at an unsafe-action cost weight of 4 and eliminates unsafe chosen actions on the BSM2 main slice. Event-aligned temporal witnesses prevent 93 of 187 false-safe N2O approvals, about 4.65x the dyadic baseline (paired McNemar p < 1e-21).",
     "authors": [
       "Gary Simethy",
       "Daniel Ortiz Arroyo",
@@ -178,11 +178,11 @@
     "authors": [
       "Paul Krzakala",
       "Gabriel Melo",
-      "Camille Lan\u00e7on",
+      "Camille Lançon",
       "Charlotte Laclau",
-      "R\u00e9mi Flamary",
-      "Etienne Th\u00e9venot",
-      "Florence d'Alch\u00e9-Buc"
+      "Rémi Flamary",
+      "Etienne Thévenot",
+      "Florence d'Alché-Buc"
     ],
     "categories": [
       "cs.LG"
@@ -333,7 +333,7 @@
     "authors": [
       "Safa Hamreras",
       "Sukhbinder Singh",
-      "Rom\u00e1n Or\u00fas"
+      "Román Orús"
     ],
     "categories": [
       "cs.LG"
@@ -564,7 +564,7 @@
     "summary": "Learning to generalise from limited data is a fundamental challenge for both artificial and biological systems. A common strategy is to extract reusable structure from abundant unlabelled data, enabling efficient adaptation to new tasks from limited labelled data. This two-stage paradigm is now standard in modern training pipelines, where pretraining is followed by fine-tuning or linear probing. We provide an analytical model of this process: structure extraction is formalized as principal component analysis on unlabelled data, and downstream learning as linear regression on a separate labelled dataset. In the high-dimensional regime, we derive exact expressions for training and generalisation error showcasing their dependence on representation dimensionality, unlabelled and labelled sample sizes, and task alignment. Our results show that pretrained representations strongly influence downstream generalisation, and we characterize the optimal representation size as a function of task parameters: with abundant pretraining data but scarce downstream data, maximally compressed representations are optimal, whereas with limited pretraining data, higher-dimensional representations generalise better. Furthermore, we establish an exact trade-off between pretraining and supervision, quantifying how much unlabelled data is required to replace a single labelled sample. Beyond our idealised model, we observe similar phenomenology in autoencoders and pretrained LLMs. Altogether, we highlight that optimising representation size is critical, giving conditions for when compression during pretraining improves generalisation.",
     "authors": [
       "Valentina Njaradi",
-      "Cl\u00e9mentine Domin\u00e9",
+      "Clémentine Dominé",
       "Rachel Swanson",
       "Marco Mondelli",
       "Andrew Saxe"
@@ -764,7 +764,7 @@
     "title": "Interpretable Computer Vision for Defect Detection in X-ray Tomography of Aerospace SiC/SiC Composites",
     "summary": "Non-destructive testing of aerospace SiC/SiC composites via X-ray computed tomography (XCT) relies on expert visual assessment, with current workflows offering limited traceability for accept/reject decisions. Deep convolutional networks can automate defect detection, yet their black-box nature conflicts with the transparency that industrial inspection practice demands. To close this gap, we introduce p-ResNet-50, a convolutional framework extended with a prototype layer that couples high detection accuracy with case-based explanations. Six learned prototypes are explicitly aligned with expert-defined semantic categories-healthy matrix, matrix--air interfaces, pores, line-like defects, and mixed morphologies-so that every classification is traceable to a physically meaningful reference. Two novel regularisation terms, anchor-based and medoid-based, tether prototypes to expert-selected patches and prevent prototype collapse, addressing a known limitation of prototype networks. Latent-space analysis via UMAP delineates semantically coherent sub-domains and maps zones of uncertainty where misclassifications concentrate, giving inspectors an explicit picture of where the model is-and is not-reliable. The framework is validated on an XCT patch dataset of approximately 12,000 patches extracted from four defect-rich SiC/SiC laboratory specimens. Taking a black-box ResNet-50 as a baseline (ROC-AUC = 0.991), the prototype extension achieves comparable performance (accuracy 0.957 vs. 0.959; ROC-AUC 0.994 vs. 0.993) while trading a slight reduction in sensitivity for higher precision and specificity. Each decision is backed by representative evidence patches, and the model explicitly flags its uncertainty regions. Beyond defect mapping, the framework establishes a reusable methodology for embedding domain-expert knowledge into prototype networks, applicable to other XCT inspection scenarios requiring traceable, auditable decisions.",
     "authors": [
-      "Antonio Pe\u00f1a Corredor",
+      "Antonio Peña Corredor",
       "Julien Lesseur",
       "Romain Nunez",
       "Paul Rivalland",
@@ -885,7 +885,7 @@
     "summary": "As Socially Interactive Agents (SIAs) become increasingly integrated into daily life, the ability to calibrate user trust to an agent's actual capabilities would help ensure appropriate usage of these agents. In this paper, we explore the capacity of Large Language Models (LLMs) to generate multimodal behaviors (verbal, vocal, gestural, and facial expression modalities) that reflect varying levels of ability and benevolence, two key dimensions of trustworthiness. We propose a novel method for automatically generating behaviors aligned with specific levels of these traits, a first step towards enabling nuanced and trust-calibrated interactions. By analyzing a large dataset of multimodal transcripts generated by LLMs, we demonstrate that GPT-5.4 is able to produce coherent behavior across different modalities (text, intonation, facial expression, and gesture). Using Random Forest feature importance analysis, we show that the generated behaviors align with theoretical expectations for ability and benevolence. However, we also find that when gender is specified in the prompt, LLMs tend to reproduce societal gender stereotypes, associating male agents' behaviors with high ability and female agents' behaviors with high benevolence. To validate our approach, we conducted a user study on Prolific using a within-subjects design. Participants perceived different levels of ability and benevolence in the generated behaviors align with the intended instructions.",
     "authors": [
       "Lucie Galland",
-      "Chlo\u00e9 Clavel",
+      "Chloé Clavel",
       "Magalie Ochs"
     ],
     "categories": [
@@ -1327,10 +1327,10 @@
     "summary": "Training very deep neural networks requires controlling the propagation of magnitudes across depth. Without such control, activations and gradients may vanish, explode, or enter unstable regimes that make optimization fail. Modern architectures often mitigate this problem through Batch Normalization, residual connections, or other normalization layers, which repeatedly re-scale or bypass intermediate representations. However, these mechanisms are not always appropriate. In Physics-Informed Neural Networks (PINNs), the network represents a continuous physical field and its input derivatives define the training objective, making batch-dependent normalization problematic because it can introduce non-local dependencies into the predicted field and its derivatives. We propose StableGrad, an optimizer-level scale-control mechanism that corrects layer-wise weight-gradient imbalances without modifying the forward model. Because the normalization is applied only after backpropagation and before the optimizer update, the network output, its derivatives, and the physical residual remain unchanged. We analyze the effective training dynamics induced by this rescaling and evaluate StableGrad on deep PINNs as the target application, with BatchNorm-free convolutional networks serving as a diagnostic stress test. On PINN benchmarks, StableGrad improves matched-depth solution accuracy and makes deeper models more reliable under standard optimization. On ResNet and EfficientNet architectures, where removing Batch Normalization normally leads to training collapse, StableGrad stabilizes optimization without introducing any other architectural change. These results show that optimizer-level control of weight-gradient scale can provide a practical alternative when forward normalization is unavailable or undesirable.",
     "authors": [
       "Jose I. Mestre",
-      "Alberto Fern\u00e1ndez-Hern\u00e1ndez",
-      "Cristian P\u00e9rez-Corral",
+      "Alberto Fernández-Hernández",
+      "Cristian Pérez-Corral",
       "Manuel F. Dolz",
-      "Enrique S. Quintana-Ort\u00ed"
+      "Enrique S. Quintana-Ortí"
     ],
     "categories": [
       "cs.LG",
@@ -1373,8 +1373,8 @@
       "Artem Riabinin",
       "Nikita Kornilov",
       "Andrey Veprikov",
-      "Samuel Horv\u00e1th",
-      "Martin Tak\u00e1\u010d",
+      "Samuel Horváth",
+      "Martin Takáč",
       "Aleksandr Beznosikov"
     ],
     "categories": [
@@ -1437,7 +1437,7 @@
   {
     "arxiv_id": "2605.19666v1",
     "title": "Cross-View Attention Fusion Net: A Prior-Guided Dual-View Representation Learning for Cardiac Output Estimation from Short-Term PPG Signals",
-    "summary": "Accurate cardiac output (CO) estimation from photoplethysmography (PPG) is promising for unobtrusive hemodynamic monitoring, but remains difficult since CO is jointly determined by cardiac function and vascular tone. Conventional feature-based models use physiologically meaningful PPG descriptors, yet depend on accurate pulse detection and may miss latent temporal relationships. In contrast, fully end-to-end deep learning models learn directly from raw PPG but often underuse established PPG-derived prior information. Here, we introduce the Cross-View Attention Fusion Network (CVAF-Net), a prior-guided dual-view deep learning model for CO estimation from short, fixed-length PPG segments. CVAF-Net processes raw PPG as a temporal view and a feature sequence map (FSM) as a structured prior-guided view, and fuses the two representations through cross-view attention. The model was independently evaluated using 5-, 15-, and 30-s segments from three datasets: simulated pulse waves (3323 subjects), vasoconstriction provocation (79 subjects), and resting/cycling activities (10 subjects), and was compared with multiple machine learning and deep learning benchmarks. CVAF-Net outperformed most benchmark methods and achieved performance comparable to a state-of-the-art Transformer-based model, with a mean absolute error (MAE) of 0.19 L/min (MAPE: 3.95%) on simulated data and high accuracy in real-world settings (minimum MAE: 1.20 L/min). Importantly, CVAF-Net reduced FLOPs by twelvefold compared with the leading Transformer-based model. Plausibility analysis showed physiologically consistent CO estimates, with expected correlations with age ($\u03c1= -0.274$), heart rate ($\u03c1= 0.894$), and systemic vascular resistance ($\u03c1= -0.740$). These findings indicate that CVAF-Net provides an accurate, computationally efficient, and generalizable approach for continuous wearable-based CO monitoring.",
+    "summary": "Accurate cardiac output (CO) estimation from photoplethysmography (PPG) is promising for unobtrusive hemodynamic monitoring, but remains difficult since CO is jointly determined by cardiac function and vascular tone. Conventional feature-based models use physiologically meaningful PPG descriptors, yet depend on accurate pulse detection and may miss latent temporal relationships. In contrast, fully end-to-end deep learning models learn directly from raw PPG but often underuse established PPG-derived prior information. Here, we introduce the Cross-View Attention Fusion Network (CVAF-Net), a prior-guided dual-view deep learning model for CO estimation from short, fixed-length PPG segments. CVAF-Net processes raw PPG as a temporal view and a feature sequence map (FSM) as a structured prior-guided view, and fuses the two representations through cross-view attention. The model was independently evaluated using 5-, 15-, and 30-s segments from three datasets: simulated pulse waves (3323 subjects), vasoconstriction provocation (79 subjects), and resting/cycling activities (10 subjects), and was compared with multiple machine learning and deep learning benchmarks. CVAF-Net outperformed most benchmark methods and achieved performance comparable to a state-of-the-art Transformer-based model, with a mean absolute error (MAE) of 0.19 L/min (MAPE: 3.95%) on simulated data and high accuracy in real-world settings (minimum MAE: 1.20 L/min). Importantly, CVAF-Net reduced FLOPs by twelvefold compared with the leading Transformer-based model. Plausibility analysis showed physiologically consistent CO estimates, with expected correlations with age ($ρ= -0.274$), heart rate ($ρ= 0.894$), and systemic vascular resistance ($ρ= -0.740$). These findings indicate that CVAF-Net provides an accurate, computationally efficient, and generalizable approach for continuous wearable-based CO monitoring.",
     "authors": [
       "Yaowen Zhang",
       "Bo Cui",
@@ -1677,7 +1677,7 @@
   {
     "arxiv_id": "2605.19768v1",
     "title": "Minimax Optimal Variance-Aware Regret Bounds for Multinomial Logistic MDPs",
-    "summary": "We study reinforcement learning for episodic Markov Decision Processes (MDPs) whose transitions are modelled by a multinomial logistic (MNL) model. Existing algorithms for MNL mixture MDPs yield a regret of $\\smash{\\tilde{O}(dH^2\\sqrt{T})}$ (Li et al., 2024), where $d$ is the feature dimension, $H$ the episode length, and $T$ the number of episodes. Inspired by the logistic bandit literature (Abeille et al., 2021; Faury et al., 2022; Boudart et al., 2026), we introduce a problem-dependent constant $\\bar\u03c3\\_T \\leq 1/2$, measuring the normalised average variance of the optimal downstream value function along the learner's trajectory. We propose an algorithm achieving a regret of $\\smash{\\tilde{O}(dH^2\\bar\u03c3\\_T\\sqrt{T})}$, which recovers the existing bound in the worst case and improves upon it for structured MDPs. For instance, for KL-constrained robust MDPs, $\\bar\u03c3\\_T = O(H^{-1})$, reducing the horizon dependence by a factor $H$. We further establish a matching $\\smash{\u03a9(dH^2\\bar\u03c3\\_T\\sqrt{T})}$ lower bound, proving minimax optimality (up to logarithmic factors) and fully characterising the regret complexity of MNL mixture MDPs for the first time.",
+    "summary": "We study reinforcement learning for episodic Markov Decision Processes (MDPs) whose transitions are modelled by a multinomial logistic (MNL) model. Existing algorithms for MNL mixture MDPs yield a regret of $\\smash{\\tilde{O}(dH^2\\sqrt{T})}$ (Li et al., 2024), where $d$ is the feature dimension, $H$ the episode length, and $T$ the number of episodes. Inspired by the logistic bandit literature (Abeille et al., 2021; Faury et al., 2022; Boudart et al., 2026), we introduce a problem-dependent constant $\\barσ\\_T \\leq 1/2$, measuring the normalised average variance of the optimal downstream value function along the learner's trajectory. We propose an algorithm achieving a regret of $\\smash{\\tilde{O}(dH^2\\barσ\\_T\\sqrt{T})}$, which recovers the existing bound in the worst case and improves upon it for structured MDPs. For instance, for KL-constrained robust MDPs, $\\barσ\\_T = O(H^{-1})$, reducing the horizon dependence by a factor $H$. We further establish a matching $\\smash{Ω(dH^2\\barσ\\_T\\sqrt{T})}$ lower bound, proving minimax optimality (up to logarithmic factors) and fully characterising the regret complexity of MNL mixture MDPs for the first time.",
     "authors": [
       "Pierre Boudart",
       "Pierre Gaillard",
@@ -1931,7 +1931,7 @@
   {
     "arxiv_id": "2605.20040v1",
     "title": "Active Context Selection Improves Simple Regret in Contextual Bandits",
-    "summary": "We study the contextual multi-armed bandit problem with a finite context space (a.k.a. subpopulations), where the learner recommends a best action for each context and is evaluated by context-weighted simple regret. Our guarantees are worst-case over the reward distributions, while remaining instance-dependent with respect to the context distribution vector $p$. Akin to experimental design problems where the population of interest is fixed but the sampled subpopulation can be controlled, we allow the learner to actively choose which context to sample from. For a known $p$, we characterize tight regret rates: passive sampling where contexts are randomly revealed achieves regret of order $\\sqrt{n/T \\, \\lVert p \\rVert_{1/2}}$, whereas active sampling with allocation $q_j \\propto p_j^{2/3}$ achieves the tight rate $\\sqrt{n/T} \\, \\lVert p \\rVert_{2/3}$. The resulting improvement can be as large as $\u0398(k^{1/4})$, where $k$ is the number of contexts. We further extend the analysis to budgeted active sampling, characterize the corresponding tight rate, and identify when a limited active budget suffices to recover the fully active rate. When $p$ is unknown, we propose the Explore-Explore-Then-Commit (EETC) algorithm, which optimally balances estimating the context distribution and the time to switch to active allocation, such that for large horizons, it matches the known-$p$ active rate up to constants. Experiments on synthetic and real-world data support our theoretical findings.",
+    "summary": "We study the contextual multi-armed bandit problem with a finite context space (a.k.a. subpopulations), where the learner recommends a best action for each context and is evaluated by context-weighted simple regret. Our guarantees are worst-case over the reward distributions, while remaining instance-dependent with respect to the context distribution vector $p$. Akin to experimental design problems where the population of interest is fixed but the sampled subpopulation can be controlled, we allow the learner to actively choose which context to sample from. For a known $p$, we characterize tight regret rates: passive sampling where contexts are randomly revealed achieves regret of order $\\sqrt{n/T \\, \\lVert p \\rVert_{1/2}}$, whereas active sampling with allocation $q_j \\propto p_j^{2/3}$ achieves the tight rate $\\sqrt{n/T} \\, \\lVert p \\rVert_{2/3}$. The resulting improvement can be as large as $Θ(k^{1/4})$, where $k$ is the number of contexts. We further extend the analysis to budgeted active sampling, characterize the corresponding tight rate, and identify when a limited active budget suffices to recover the fully active rate. When $p$ is unknown, we propose the Explore-Explore-Then-Commit (EETC) algorithm, which optimally balances estimating the context distribution and the time to switch to active allocation, such that for large horizons, it matches the known-$p$ active rate up to constants. Experiments on synthetic and real-world data support our theoretical findings.",
     "authors": [
       "Mohammad Shahverdikondori",
       "Jalal Etesami",
@@ -2045,7 +2045,7 @@
     "authors": [
       "Laura Fuentes-Vicente",
       "Mathieu Even",
-      "Ga\u00eblle Dormion",
+      "Gaëlle Dormion",
       "Antoine Chambaz",
       "Uri Shalit",
       "Julie Josse"
@@ -2088,7 +2088,7 @@
   {
     "arxiv_id": "2605.19767v1",
     "title": "AR1-ZO: Topology-Aware Rank-1 Zeroth-Order Queries for High-Rank LoRA Fine-Tuning",
-    "summary": "Zeroth-order (ZO) optimization enables large-language-model fine-tuning without storing backpropagation activations, while LoRA supplies compact trainable adapters. Combining them creates a rank paradox: increasing LoRA rank improves adapter capacity, but standard two-point ZO either perturbs a rank-dependent number of coordinates or, under atomwise updates, can make the finite-difference signal unobservable. This paper shows that the bottleneck is a measurement-topology problem rather than a need for an external subspace. LoRA already decomposes into matched rank-$1$ atoms, each a complete factor-coordinate block of dimension $d_\\text{out}+d_\\text{in}$. Querying one atom per step keeps the stored adapter rank $r$ while removing $r$ from the single-query perturbation dimension. The naive atomwise query is still miscalibrated: if it inherits canonical LoRA scaling $\u03b1/r$, the active finite-difference signal shrinks as $1/r$ and the active finite-difference signal-to-noise ratio (FD-SNR) as $1/r^2$, producing directional collapse under a fixed residual evaluation-noise floor. AR1-ZO pairs alternating rank-$1$ atom queries with topology-aware scaling $\u03b3=\u03b1r$, restoring rank-invariant active signal without auxiliary bases, activation hooks, curvature estimates, or extra forward queries. Theory proves atom minimality, rank-independent active query dimension, directional collapse and restoration, and the remaining rank dependence as an amortized coverage cost. Experiments on OPT and Qwen3 models validate the signal mechanism and show that AR1-ZO makes high-rank LoRA effective among matched-budget ZO methods under the standard two-forward-pass query budget.",
+    "summary": "Zeroth-order (ZO) optimization enables large-language-model fine-tuning without storing backpropagation activations, while LoRA supplies compact trainable adapters. Combining them creates a rank paradox: increasing LoRA rank improves adapter capacity, but standard two-point ZO either perturbs a rank-dependent number of coordinates or, under atomwise updates, can make the finite-difference signal unobservable. This paper shows that the bottleneck is a measurement-topology problem rather than a need for an external subspace. LoRA already decomposes into matched rank-$1$ atoms, each a complete factor-coordinate block of dimension $d_\\text{out}+d_\\text{in}$. Querying one atom per step keeps the stored adapter rank $r$ while removing $r$ from the single-query perturbation dimension. The naive atomwise query is still miscalibrated: if it inherits canonical LoRA scaling $α/r$, the active finite-difference signal shrinks as $1/r$ and the active finite-difference signal-to-noise ratio (FD-SNR) as $1/r^2$, producing directional collapse under a fixed residual evaluation-noise floor. AR1-ZO pairs alternating rank-$1$ atom queries with topology-aware scaling $γ=αr$, restoring rank-invariant active signal without auxiliary bases, activation hooks, curvature estimates, or extra forward queries. Theory proves atom minimality, rank-independent active query dimension, directional collapse and restoration, and the remaining rank dependence as an amortized coverage cost. Experiments on OPT and Qwen3 models validate the signal mechanism and show that AR1-ZO makes high-rank LoRA effective among matched-budget ZO methods under the standard two-forward-pass query budget.",
     "authors": [
       "Ziye Chen",
       "Hongbin Lin",
@@ -2419,7 +2419,7 @@
   {
     "arxiv_id": "2605.19944v1",
     "title": "A Measure-Theoretic Analysis of Reasoning: Structural Generalization and Approximation Limits",
-    "summary": "While empirical scaling laws for LLM reasoning are well-documented, the theoretical mechanisms governing out-of-distribution (OOD) generalization remain elusive. We formalize reasoning via optimal transport, projecting discrete trajectories into a continuous metric space to quantify domain shifts using the Wasserstein-1 distance. Invoking Kantorovich duality, we bound OOD generalization via architectural Lipschitz continuity and functional approximation limits. This exposes two primary constraints. First, position-dependent attention (e.g., Absolute Positional Encoding) fails to preserve shift invariance, yielding an $\u03a9(1)$ Lipschitz constant and expected risk, whereas shift-invariant mechanisms (e.g., Rotary Embeddings) preserve equivariance and bound the error. Second, by mapping sequential backtracking to a Dyck-$k$ language, we establish a strict circuit depth lower bound for $\\text{TC}^0$ Transformers. Scaling physical layer depth is necessary to avert representation collapse -- a constraint that scaling representation width cannot bypass due to irreducible approximation bounds in Barron spaces. Evaluations across 54 Transformer configurations on combinatorial search corroborate these bounds, demonstrating that generalization risk degrades monotonically with the Wasserstein domain shift.",
+    "summary": "While empirical scaling laws for LLM reasoning are well-documented, the theoretical mechanisms governing out-of-distribution (OOD) generalization remain elusive. We formalize reasoning via optimal transport, projecting discrete trajectories into a continuous metric space to quantify domain shifts using the Wasserstein-1 distance. Invoking Kantorovich duality, we bound OOD generalization via architectural Lipschitz continuity and functional approximation limits. This exposes two primary constraints. First, position-dependent attention (e.g., Absolute Positional Encoding) fails to preserve shift invariance, yielding an $Ω(1)$ Lipschitz constant and expected risk, whereas shift-invariant mechanisms (e.g., Rotary Embeddings) preserve equivariance and bound the error. Second, by mapping sequential backtracking to a Dyck-$k$ language, we establish a strict circuit depth lower bound for $\\text{TC}^0$ Transformers. Scaling physical layer depth is necessary to avert representation collapse -- a constraint that scaling representation width cannot bypass due to irreducible approximation bounds in Barron spaces. Evaluations across 54 Transformer configurations on combinatorial search corroborate these bounds, demonstrating that generalization risk degrades monotonically with the Wasserstein domain shift.",
     "authors": [
       "Yuyang Zhang",
       "Yifu Zhang",
@@ -2692,7 +2692,7 @@
     "title": "What Are LLMs Doing to Scientific Communication? Measuring Changes in Writing Practices and Reading Experience",
     "summary": "Has the style of scientific communication changed due to the growing use of large language models in the writing process? We address this question in the domain of Natural Language Processing by leveraging two data resources we create: a naturalistic corpus of over 37,000 papers from the ACL Anthology (2020-2024); and a synthetic dataset of 3,000 human-written passages and their LLM-generated improvements. We first implement a series of diachronic lexical analyses, showing that both word frequency and usage contexts have changed significantly over time, indicating semantic specialization in some cases and generalization in others. Broadening our perspective, we then model a range of more complex stylistic features and find that LLM-modified texts more frequently contain certain syntactic constructions, more complex and longer words and a lower lexical diversity. Finally, we connect these changes in writing practices to subjective reading experience through a pilot annotation study with 20 domain experts. They overall rate LLM-improved texts as more understandable and exciting, but also express negative qualitative attitudes towards LLMs, highlighting the strongly subjective effect of AI-assisted writing on reading experience.",
     "authors": [
-      "Filip Mileti\u0107",
+      "Filip Miletić",
       "Neele Falk"
     ],
     "categories": [
@@ -2708,7 +2708,7 @@
   {
     "arxiv_id": "2605.19847v1",
     "title": "Auditing Privacy in Multi-Tenant RAG under Account Collusion",
-    "summary": "Multi-tenant retrieval-augmented generation (RAG) services advertise per-account differential privacy as the operative leakage boundary: each account's queries are guaranteed to satisfy $(\\varepsilon_{\\text{acc}}, \u03b4_{\\text{acc}})$-DP with respect to the index. We identify same-index multi-account collusion as a privacy-boundary failure: for $k$ same-tenant accounts coordinating against the tenant's index -- the operative regime -- known DP composition theory implies joint leakage degrades unconditionally at rate $\u0398(\\sqrt{k} \\cdot \\varepsilon_{\\text{acc}})$ for Gaussian-noised retrieval. Cross-tenant and external collusion match the rate only under explicit access-control failure (M4); without M4 these regimes have zero leakage by design and reduce to an architectural audit, not a DP audit. We exhibit an attack realizing the rate and derive a RAG-specific MIA prediction we test empirically. To make this per-account/joint gap auditable, we design the first audit protocol that operates against unmodified RAG deployments and issues a quantitative $(\\textsf{PASS}, \\varepsilon_{\\text{audit}})$ verdict for the retrieval-score channel -- the noise-then-select step the per-account DP guarantee actually covers -- without index disclosure, pipeline redesign, or model-weight exposure. Generation-channel privacy (LLM output conditioned on selected documents) is a separate audit predicate that should compose with ours; we explicitly scope it out. The protocol composes generic cryptographic primitives (Merkle ledgers, ZK function-application proofs, Gaussian noise attestations) with six RAG-specific primitives (embedder commitment, index-content vector commitment, per-account query ledger, noise-then-select attestation, cross-tenant containment proof, coalition-size estimator) and supports both closed-form audit bounds and R\u00e9nyi-DP moments-accountant tracking.",
+    "summary": "Multi-tenant retrieval-augmented generation (RAG) services advertise per-account differential privacy as the operative leakage boundary: each account's queries are guaranteed to satisfy $(\\varepsilon_{\\text{acc}}, δ_{\\text{acc}})$-DP with respect to the index. We identify same-index multi-account collusion as a privacy-boundary failure: for $k$ same-tenant accounts coordinating against the tenant's index -- the operative regime -- known DP composition theory implies joint leakage degrades unconditionally at rate $Θ(\\sqrt{k} \\cdot \\varepsilon_{\\text{acc}})$ for Gaussian-noised retrieval. Cross-tenant and external collusion match the rate only under explicit access-control failure (M4); without M4 these regimes have zero leakage by design and reduce to an architectural audit, not a DP audit. We exhibit an attack realizing the rate and derive a RAG-specific MIA prediction we test empirically. To make this per-account/joint gap auditable, we design the first audit protocol that operates against unmodified RAG deployments and issues a quantitative $(\\textsf{PASS}, \\varepsilon_{\\text{audit}})$ verdict for the retrieval-score channel -- the noise-then-select step the per-account DP guarantee actually covers -- without index disclosure, pipeline redesign, or model-weight exposure. Generation-channel privacy (LLM output conditioned on selected documents) is a separate audit predicate that should compose with ours; we explicitly scope it out. The protocol composes generic cryptographic primitives (Merkle ledgers, ZK function-application proofs, Gaussian noise attestations) with six RAG-specific primitives (embedder commitment, index-content vector commitment, per-account query ledger, noise-then-select attestation, cross-tenant containment proof, coalition-size estimator) and supports both closed-form audit bounds and Rényi-DP moments-accountant tracking.",
     "authors": [
       "Florian A. D. Burnat",
       "Brittany I. Davidson"
@@ -2730,7 +2730,7 @@
     "title": "B-cos GNNs: Faithful Explanations through Dynamic Linearity",
     "summary": "We introduce B-cos GNNs, an inherently explainable class of graph neural networks whose predictions decompose exactly into per-node, per-feature contributions via a single input-dependent linear map. B-cos GNNs use linear (sum-based) aggregation and replace non-linear message and update functions with B-cos transforms. This induces meaningful, task-specific weight-input alignment that is directly accessible through the model's dynamic linearity. Instance-level explanations follow from a single forward and backward pass, requiring no auxiliary explainer, modified learning objective, or perturbation procedure. Instantiated as a GIN, our approach trades small losses in predictive accuracy for state-of-the-art explainability across diverse synthetic and real-world benchmarks, producing explanations orders of magnitude faster than post-hoc baselines.",
     "authors": [
-      "Joschka Gro\u00df",
+      "Joschka Groß",
       "Mohammad Shaique Solanki",
       "Verena Wolf"
     ],
@@ -2832,9 +2832,9 @@
   {
     "arxiv_id": "2605.20145v1",
     "title": "Goal-Oriented Lower-Tail Calibration of Gaussian Processes for Bayesian Optimization",
-    "summary": "Bayesian optimization (BO) selects evaluation points for expensive black-box objectives using Gaussian process (GP) predictive distributions. Kernel choice and hyperparameter selection can lead to miscalibrated predictive distributions and an inappropriate exploration-exploitation trade-off. For minimization, sampling criteria such as expected improvement (EI) depend on the predictive distribution below the current best value, so lower-tail miscalibration directly affects the sampling decision. This article studies goal-oriented calibration of GP predictive distributions below a low threshold $t$ in the noiseless setting, for standard GP models with hyperparameters selected by maximum likelihood. A framework for predictive reliability below $t$ is introduced, based on two notions of spatial calibration: occurrence calibration over the design space and thresholded $\u03bc$-calibration on sublevel sets of the form $\\{x\\in\\mathbb{X}, f(x)\\le t\\}$. Building on this framework, we propose tcGP, a post-hoc method that calibrates GP predictive distributions below~$t$, and we show that the resulting EI-based global optimization algorithm remains dense in the design space. Experiments on standard benchmarks show improved lower-tail calibration and BO performance relative to standard GP models and globally calibrated GP models.",
+    "summary": "Bayesian optimization (BO) selects evaluation points for expensive black-box objectives using Gaussian process (GP) predictive distributions. Kernel choice and hyperparameter selection can lead to miscalibrated predictive distributions and an inappropriate exploration-exploitation trade-off. For minimization, sampling criteria such as expected improvement (EI) depend on the predictive distribution below the current best value, so lower-tail miscalibration directly affects the sampling decision. This article studies goal-oriented calibration of GP predictive distributions below a low threshold $t$ in the noiseless setting, for standard GP models with hyperparameters selected by maximum likelihood. A framework for predictive reliability below $t$ is introduced, based on two notions of spatial calibration: occurrence calibration over the design space and thresholded $μ$-calibration on sublevel sets of the form $\\{x\\in\\mathbb{X}, f(x)\\le t\\}$. Building on this framework, we propose tcGP, a post-hoc method that calibrates GP predictive distributions below~$t$, and we show that the resulting EI-based global optimization algorithm remains dense in the design space. Experiments on standard benchmarks show improved lower-tail calibration and BO performance relative to standard GP models and globally calibrated GP models.",
     "authors": [
-      "Aur\u00e9lien Pion",
+      "Aurélien Pion",
       "Emmanuel Vazquez"
     ],
     "categories": [
@@ -3089,7 +3089,7 @@
   {
     "arxiv_id": "2605.20068v1",
     "title": "Tail Annealing for Heavy-Tailed Flow Matching",
-    "summary": "Standard generative models struggle with heavy-tailed data: Lipschitz architectures cannot produce power-law tails from Gaussian noise, and interpolating between heavy-tailed data and Gaussians is ill-posed. We propose a simple fix: apply the soft-log transform $\u03c6(x) = \\mathrm{sign}(x) \\cdot \\log(1 + |x|)$ coordinate-wise to data before training, then exponentiate samples after generation. A Hill diagnostic decides per-coordinate whether to transform, leaving light-tailed margins untouched at no added complexity. This compresses heavy tails into a range where standard flow matching succeeds, without heavy-tailed base distributions or architectural modifications. We provide theoretical intuition for why this works: the log-transform maps Pareto tails to exponentials, and the induced dynamics implement a form of tail annealing via power transformations. On a 144-configuration multivariate benchmark (3 copulas, $d$ up to 100, 4 tail indices), Log-FM dominates specialized baselines on $W_1$, CVaR$_{99}$, and extreme-quantile metrics, and is the only method with zero severe divergences across 2{,}880 runs.",
+    "summary": "Standard generative models struggle with heavy-tailed data: Lipschitz architectures cannot produce power-law tails from Gaussian noise, and interpolating between heavy-tailed data and Gaussians is ill-posed. We propose a simple fix: apply the soft-log transform $φ(x) = \\mathrm{sign}(x) \\cdot \\log(1 + |x|)$ coordinate-wise to data before training, then exponentiate samples after generation. A Hill diagnostic decides per-coordinate whether to transform, leaving light-tailed margins untouched at no added complexity. This compresses heavy tails into a range where standard flow matching succeeds, without heavy-tailed base distributions or architectural modifications. We provide theoretical intuition for why this works: the log-transform maps Pareto tails to exponentials, and the induced dynamics implement a form of tail annealing via power transformations. On a 144-configuration multivariate benchmark (3 copulas, $d$ up to 100, 4 tail indices), Log-FM dominates specialized baselines on $W_1$, CVaR$_{99}$, and extreme-quantile metrics, and is the only method with zero severe divergences across 2{,}880 runs.",
     "authors": [
       "Jean Pachebat"
     ],
@@ -3272,7 +3272,7 @@
   {
     "arxiv_id": "2605.20108v1",
     "title": "k-Inductive Neural Barrier Certificates for Unknown Nonlinear Dynamics",
-    "summary": "While conventional (k=1) discrete-time barrier certificate conditions impose strict safety constraints by requiring the function to be non-increasing at every step, k-inductive barrier certificates relax this by allowing a temporary increase -- up to k-1 times, each within a threshold $\u03b5$ -- while maintaining overall safety, and improving flexibility. This paper leverages neural networks and constructs k-inductive neural barrier certificates (k-NBCs) for (partially) unknown nonlinear systems. While neural networks offer scalability in the design process, they lack formal guarantees, requiring additional approaches such as counterexample-guided inductive synthesis (CEGIS) with satisfiability modulo theories (SMT) for verification. However, the CEGIS-SMT framework requires knowledge of system dynamics, which is unavailable in practical settings. To address this, we leverage the generalization of the Willems et al.'s fundamental lemma, using a single state trajectory, to construct a data-driven representation of (partially) unknown models for SMT verification without sacrificing accuracy. Additionally, CEGIS-SMT further removes the constraint of restricting barrier certificates to specific function classes, such as sum-of-squares, enabling greater flexibility in their design. We validate our approach on three nonlinear case studies with (partially) unknown dynamics.",
+    "summary": "While conventional (k=1) discrete-time barrier certificate conditions impose strict safety constraints by requiring the function to be non-increasing at every step, k-inductive barrier certificates relax this by allowing a temporary increase -- up to k-1 times, each within a threshold $ε$ -- while maintaining overall safety, and improving flexibility. This paper leverages neural networks and constructs k-inductive neural barrier certificates (k-NBCs) for (partially) unknown nonlinear systems. While neural networks offer scalability in the design process, they lack formal guarantees, requiring additional approaches such as counterexample-guided inductive synthesis (CEGIS) with satisfiability modulo theories (SMT) for verification. However, the CEGIS-SMT framework requires knowledge of system dynamics, which is unavailable in practical settings. To address this, we leverage the generalization of the Willems et al.'s fundamental lemma, using a single state trajectory, to construct a data-driven representation of (partially) unknown models for SMT verification without sacrificing accuracy. Additionally, CEGIS-SMT further removes the constraint of restricting barrier certificates to specific function classes, such as sum-of-squares, enabling greater flexibility in their design. We validate our approach on three nonlinear case studies with (partially) unknown dynamics.",
     "authors": [
       "Ben Wooding",
       "Hongchao Zhang",
@@ -3333,13 +3333,13 @@
   {
     "arxiv_id": "2605.20044v1",
     "title": "OP2GS: Object-Aware 3D Gaussian Splatting with Dual-Opacity Primitives",
-    "summary": "3D Gaussian Splatting (3DGS) provides an explicit and efficient scene representation, but its primitives lack inherent object-level identity, hindering downstream tasks such as open-vocabulary scene understanding. Existing methods typically address this by either distilling high-dimensional feature embeddings into Gaussians or by lifting 2D mask labels into 3D via heuristic refinement. However, feature-based approaches incur heavy storage and decoding overhead, while lifting-based pipelines remain vulnerable to label contamination: Gaussians necessary for appearance reconstruction often receive incorrect object labels during 2D-to-3D projection. We propose OP2GS, an object-aware Gaussian representation that augments each primitive with an explicit instance identity and a dedicated instance opacity $\u03c3^{*}$ for object-mask rendering. The original opacity $\u03c3$ remains responsible for visual reconstruction, while $\u03c3^{*}$ models whether a Gaussian should contribute to a particular object mask. This dual-opacity formulation decouples visual existence from instance occupancy: mislabeled Gaussians can remain available for image rendering while becoming transparent in the object-mask branch. To learn this representation, we introduce a random object loss that optimizes the 1D instance occupancy field using the standard transmittance-based visibility of 3DGS. Semantic descriptors are then attached at the object level through multi-view aggregation, eliminating per-Gaussian feature storage. Compared with feature-training approaches, OP2GS achieves competitive open-vocabulary performance while significantly reducing computational overhead. Compared with training-free pipelines, it leverages physically consistent occupancy learning to resolve visibility ambiguities.",
+    "summary": "3D Gaussian Splatting (3DGS) provides an explicit and efficient scene representation, but its primitives lack inherent object-level identity, hindering downstream tasks such as open-vocabulary scene understanding. Existing methods typically address this by either distilling high-dimensional feature embeddings into Gaussians or by lifting 2D mask labels into 3D via heuristic refinement. However, feature-based approaches incur heavy storage and decoding overhead, while lifting-based pipelines remain vulnerable to label contamination: Gaussians necessary for appearance reconstruction often receive incorrect object labels during 2D-to-3D projection. We propose OP2GS, an object-aware Gaussian representation that augments each primitive with an explicit instance identity and a dedicated instance opacity $σ^{*}$ for object-mask rendering. The original opacity $σ$ remains responsible for visual reconstruction, while $σ^{*}$ models whether a Gaussian should contribute to a particular object mask. This dual-opacity formulation decouples visual existence from instance occupancy: mislabeled Gaussians can remain available for image rendering while becoming transparent in the object-mask branch. To learn this representation, we introduce a random object loss that optimizes the 1D instance occupancy field using the standard transmittance-based visibility of 3DGS. Semantic descriptors are then attached at the object level through multi-view aggregation, eliminating per-Gaussian feature storage. Compared with feature-training approaches, OP2GS achieves competitive open-vocabulary performance while significantly reducing computational overhead. Compared with training-free pipelines, it leverages physically consistent occupancy learning to resolve visibility ambiguities.",
     "authors": [
       "Guiyu Liu",
       "Niklas Vaara",
       "Janne Mustaniemi",
       "Juho Kannala",
-      "Janne Heikkil\u00e4"
+      "Janne Heikkilä"
     ],
     "categories": [
       "cs.CV"
@@ -3455,7 +3455,7 @@
       "Kevin Roche",
       "Sagar Tayal",
       "Mahalakshmi Lakshminarayanan",
-      "Nicolas Long\u00e9p\u00e9",
+      "Nicolas Longépé",
       "Pierre-Philippe Mathieu",
       "Agata Wijata"
     ],
@@ -3720,8 +3720,8 @@
     "summary": "We investigate the global optimization of the objective function arising in continuous sparse regression, specifically the Beurling LASSO (BLASSO), over the space of measures. While Conic Particle Gradient Descent (CPGD) methods are computationally efficient, they may become trapped in local minima due to the non-convexity of the parameterization. To overcome this limitation, we introduce Fast Spawn\\&Prune (FS\\&P), a stochastic algorithm that extends FastPart introduced in De Castro et al. (2025) and combines CPGD with a birth-death process. The birth mechanism ensures asymptotic global exploration by introducing particles in regions where first-order optimality conditions are violated, while the death process preserves computational efficiency by pruning non-informative particles. We provide the first theoretical guarantee of global convergence for this class of discrete-time stochastic algorithms, without requiring exponentially large initializations. Furthermore, we derive explicit convergence rates for the excess risk, which scale as $\\mathcal{O}\\big(\\left(\\log K / K\\right)^{\\frac{1}{2(2+d)}}\\big)$, where $K$ denotes the number of iterations and d the dimension of the domain, thereby quantifying the trade-off between global exploration and local refinement. Moreover, the sample complexity is $\\mathcal{O}\\big(N^{-\\frac{1}{4(2+d)}}\\big)$ (up to logarithmic factors). We also propose a horizon-free variant that does not require prior knowledge of the iteration budget.",
     "authors": [
       "Yohann De Castro",
-      "S\u00e9bastien Gadat",
-      "Cl\u00e9ment Marteau"
+      "Sébastien Gadat",
+      "Clément Marteau"
     ],
     "categories": [
       "math.OC",
@@ -3820,7 +3820,7 @@
   {
     "arxiv_id": "2605.20122v1",
     "title": "Optimizing Computational-Statistical Runtime for Wasserstein Distance Estimation",
-    "summary": "Squared Wasserstein distance is a frequently used tool to measure discrepancy between probability distributions. This distance is typically computed between empirical measures of size $n$ from two underlying random samples. Unfortunately, even in lower dimensional Euclidean space problems $\\left( d \\in \\{2,3\\} \\right)$, algorithms for Wasserstein distance computation with approximate or exact precision guarantees scale poorly in the runtime as a function of $n$ and the desired precision. In response, we consider the computational-statistical runtime, where the goal is to estimate from samples the Wasserstein distance between potentially smooth measures up to $\u03b5$-additive error in expectation with respect to the sampling; we allow $O(1)$ computational cost for collecting a sample. Towards this, we develop a Sample-Sketch-Solve paradigm where we introduce a regular cartesian grid sketch of the samples. We show that (especially under $\u03b1$-H\u00f6lder smooth distributions) this can compress the data without increasing asymptotic error, and also regularizes the structure which enables faster exact algorithms. Ultimately, we approximate $W_2^2(P,Q)$ within $\u03b5$ error in $\u03b5^{-\\max(2,\\frac{d+1+o(1)}{1+\u03b1})}$ time for $0 < \u03b1< 1$ H\u00f6lder smooth distributions $P,Q$ on $(0,1)^{d}$; an optimal $\u0398(\u03b5^{-2})$ for $\u03b1> 1/2$ when $d=2$ and nearly optimal as $\u03b1\\to 1$ when $d = 3$.",
+    "summary": "Squared Wasserstein distance is a frequently used tool to measure discrepancy between probability distributions. This distance is typically computed between empirical measures of size $n$ from two underlying random samples. Unfortunately, even in lower dimensional Euclidean space problems $\\left( d \\in \\{2,3\\} \\right)$, algorithms for Wasserstein distance computation with approximate or exact precision guarantees scale poorly in the runtime as a function of $n$ and the desired precision. In response, we consider the computational-statistical runtime, where the goal is to estimate from samples the Wasserstein distance between potentially smooth measures up to $ε$-additive error in expectation with respect to the sampling; we allow $O(1)$ computational cost for collecting a sample. Towards this, we develop a Sample-Sketch-Solve paradigm where we introduce a regular cartesian grid sketch of the samples. We show that (especially under $α$-Hölder smooth distributions) this can compress the data without increasing asymptotic error, and also regularizes the structure which enables faster exact algorithms. Ultimately, we approximate $W_2^2(P,Q)$ within $ε$ error in $ε^{-\\max(2,\\frac{d+1+o(1)}{1+α})}$ time for $0 < α< 1$ Hölder smooth distributions $P,Q$ on $(0,1)^{d}$; an optimal $Θ(ε^{-2})$ for $α> 1/2$ when $d=2$ and nearly optimal as $α\\to 1$ when $d = 3$.",
     "authors": [
       "Peter Matthew Jacobs",
       "Jeff M. Phillips"
@@ -3884,7 +3884,7 @@
     "summary": "Bayesian filtering is a well-known problem that aims to estimate plausible states of a dynamical system from observations. Among existing approaches to solve this problem, particle filters are theoretically exact for non-linear dynamics and observations, but suffer from poor scalability in high dimensions. In this work, we show that diffusion-based emulators of dynamical systems can be used to implement, without additional training, an optimal variant of particle filters that has remained largely unexplored due to implementation challenges with classical numerical solvers. Experiments on nonlinear chaotic systems, including atmospheric dynamics, demonstrate that the proposed approach successfully scales particle filtering to high-dimensional settings.",
     "authors": [
       "Thomas Savary",
-      "Fran\u00e7ois Rozet",
+      "François Rozet",
       "Gilles Louppe"
     ],
     "categories": [
@@ -3901,7 +3901,7 @@
   {
     "arxiv_id": "2605.20023v1",
     "title": "When Skills Don't Help: A Negative Result on Procedural Knowledge for Tool-Grounded Agents in Offensive Cybersecurity",
-    "summary": "Agent Skills, structured packages of procedural knowledge loaded into an LLM agent at inference time, are widely reported to improve task pass rates by an average of 16.2~percentage points across diverse domains. Yet the same benchmarks show wide variance, with 16 of 84 tasks suffering negative deltas when Skills are introduced. The community has not yet articulated a clean mechanism for \\emph{when} Skills help and when they are merely redundant overhead. We re-analyze a recently published 180-run controlled study of an MCP-grounded autonomous Capture-the-Flag (CTF) agent under four documentation conditions of increasing richness (55, 1{,}478, 1{,}976, and 4{,}147 lines), and show that these conditions correspond almost exactly to a No-Skills, Experiential-Skills, Curated-Skills, and Comprehensive-Skills ablation. In offensive cybersecurity, a domain not deeply covered by existing Skills benchmarks, the marginal benefit of Skills collapses. The spread between the no-Skills and full-Skills conditions is only 8.9~pp ($p = 0.71$, $\u03c7^2$; $p = 0.25$, Cochran--Armitage trend test; five of six pairwise Cohen's $h$ values fall below the $0.2$ small-effect threshold). We argue that the missing variable is \\emph{environment-feedback bandwidth}. When an agent's tool layer returns strict, schema-validated, low-latency observations, the environment itself supplies the procedural correction signal that Skills are normally needed to provide. As a result, the marginal benefit of curated Skills diminishes substantially, and, in some cases (e.g., our timing side-channel setting), actively degrades performance. We articulate a falsifiable hypothesis, sketch its design implications for compound AI systems, and will release the reanalysis pipeline to support replication.",
+    "summary": "Agent Skills, structured packages of procedural knowledge loaded into an LLM agent at inference time, are widely reported to improve task pass rates by an average of 16.2~percentage points across diverse domains. Yet the same benchmarks show wide variance, with 16 of 84 tasks suffering negative deltas when Skills are introduced. The community has not yet articulated a clean mechanism for \\emph{when} Skills help and when they are merely redundant overhead. We re-analyze a recently published 180-run controlled study of an MCP-grounded autonomous Capture-the-Flag (CTF) agent under four documentation conditions of increasing richness (55, 1{,}478, 1{,}976, and 4{,}147 lines), and show that these conditions correspond almost exactly to a No-Skills, Experiential-Skills, Curated-Skills, and Comprehensive-Skills ablation. In offensive cybersecurity, a domain not deeply covered by existing Skills benchmarks, the marginal benefit of Skills collapses. The spread between the no-Skills and full-Skills conditions is only 8.9~pp ($p = 0.71$, $χ^2$; $p = 0.25$, Cochran--Armitage trend test; five of six pairwise Cohen's $h$ values fall below the $0.2$ small-effect threshold). We argue that the missing variable is \\emph{environment-feedback bandwidth}. When an agent's tool layer returns strict, schema-validated, low-latency observations, the environment itself supplies the procedural correction signal that Skills are normally needed to provide. As a result, the marginal benefit of curated Skills diminishes substantially, and, in some cases (e.g., our timing side-channel setting), actively degrades performance. We articulate a falsifiable hypothesis, sketch its design implications for compound AI systems, and will release the reanalysis pipeline to support replication.",
     "authors": [
       "Samuel Jacob Chacko",
       "James Hugglestone",
@@ -3951,7 +3951,7 @@
       "Fabricio Batista Narcizo",
       "Tanya Ignatenko",
       "Ted Vucurevich",
-      "Jesper B\u00fcnsow Boldt",
+      "Jesper Bünsow Boldt",
       "Paolo Burelli",
       "Andrew Burke Dittberner"
     ],
@@ -4161,7 +4161,7 @@
     "title": "Mechanisms of Object Localization in Vision-Language Models",
     "summary": "Visually-grounded language models (VLMs) are highly effective in linking visual and textual information, yet they often struggle with basic classification and localization tasks. While classification mechanisms have been studied more extensively, the processes that support object localization remain poorly understood. In this work, we investigate two representative families, LLaVA-1.5 and InternVL-3.5, using a suite of mechanistic interpretability tools, including token ablations, attention knockout, and causal mediation analysis. We find that localization is driven by a containerization mechanism in which object-aligned tokens define the spatial extent of the object, while the semantic arrangement of tokens within those boundaries is largely irrelevant to the predicted box. Only a very small set of attention heads mediates the causal effect for both classification and localization, concentrating in early-mid layers for LLaVA and mid-late layers for InternVL. The two tasks share some early processing but ultimately depend on largely distinct specialized heads. Overall, we provide the first layer- and head-level account of localization in VLMs, revealing narrow computational pathways that can guide future model design and grounding objectives.",
     "authors": [
-      "Timothy Schauml\u00f6ffel",
+      "Timothy Schaumlöffel",
       "Martina G. Vilas",
       "Gemma Roig"
     ],
@@ -4384,7 +4384,7 @@
     "authors": [
       "Elias Berger",
       "Muhammad Usama",
-      "Jan Mehlst\u00e4ubl",
+      "Jan Mehlstäubl",
       "Bernhard Saske",
       "Kristin Paetzold-Byhain"
     ],
@@ -4425,8 +4425,8 @@
     "authors": [
       "Kylian Ronfleux-Corail",
       "Guillaume Bernard",
-      "Micka\u00ebl Coustaty",
-      "Nicolas Sid\u00e8re"
+      "Mickaël Coustaty",
+      "Nicolas Sidère"
     ],
     "categories": [
       "cs.CV"
@@ -4437,300 +4437,5 @@
     "date": "2026-05-20",
     "source": "arxiv",
     "research_score": 0.43
-  },
-  {
-    "model_id": "SilverKulen/log-copilot-qwq-32b-rag",
-    "author": "unknown",
-    "title": "SilverKulen/log-copilot-qwq-32b-rag",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "qwq",
-      "rag",
-      "sft",
-      "log-analysis",
-      "telecom",
-      "conversational",
-      "en",
-      "base_model:Qwen/QwQ-32B",
-      "base_model:finetune:Qwen/QwQ-32B",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-20T07:38:45.000Z",
-    "last_modified": "2026-05-20T07:38:46.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SilverKulen/log-copilot-qwq-32b-rag",
-    "date": "2026-05-20",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Shellypeckie/student_qwen3_1p7b_gpqa_self_numseq_seq_kd",
-    "author": "unknown",
-    "title": "Shellypeckie/student_qwen3_1p7b_gpqa_self_numseq_seq_kd",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "conversational",
-      "base_model:Qwen/Qwen3-1.7B",
-      "base_model:finetune:Qwen/Qwen3-1.7B",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-20T07:36:55.000Z",
-    "last_modified": "2026-05-20T07:38:44.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Shellypeckie/student_qwen3_1p7b_gpqa_self_numseq_seq_kd",
-    "date": "2026-05-20",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "alanjafari/KurMed-Triage-XLMRoBERTa",
-    "author": "unknown",
-    "title": "alanjafari/KurMed-Triage-XLMRoBERTa",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "xlm-roberta",
-      "medical",
-      "text-classification",
-      "kurdish",
-      "persian",
-      "triage",
-      "low-resource",
-      "fa",
-      "en",
-      "ckb",
-      "dataset:alanjafari/KurMed-Triage",
-      "license:cc-by-4.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "",
-    "created_at": "2026-05-20T07:27:55.000Z",
-    "last_modified": "2026-05-20T07:37:12.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/alanjafari/KurMed-Triage-XLMRoBERTa",
-    "date": "2026-05-20",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Harley-ml/Dillion-1.2M",
-    "author": "unknown",
-    "title": "Harley-ml/Dillion-1.2M",
-    "downloads": 30,
-    "likes": 2,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5_text",
-      "text-generation",
-      "dillion",
-      "small",
-      "harley-ml",
-      "pytorch",
-      "en",
-      "dataset:HuggingFaceFW/fineweb-edu",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-20T01:29:52.000Z",
-    "last_modified": "2026-05-20T07:36:54.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Harley-ml/Dillion-1.2M",
-    "date": "2026-05-20",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "HansBug/Qwen3-8B-OpenClaw-RL-tboverfit-iter311",
-    "author": "unknown",
-    "title": "HansBug/Qwen3-8B-OpenClaw-RL-tboverfit-iter311",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "terminal-agent",
-      "reinforcement-learning",
-      "grpo",
-      "camel-ai",
-      "openclaw-rl",
-      "agent",
-      "terminal-bench",
-      "capacity-probe",
-      "eval-as-train",
-      "conversational",
-      "en",
-      "zh",
-      "arxiv:2107.03374",
-      "base_model:Qwen/Qwen3-8B",
-      "base_model:finetune:Qwen/Qwen3-8B",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-20T07:30:32.000Z",
-    "last_modified": "2026-05-20T07:33:12.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/HansBug/Qwen3-8B-OpenClaw-RL-tboverfit-iter311",
-    "date": "2026-05-20",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Shellypeckie/student_qwen3_1p7b_gpqa_self_dolly_seq_kd",
-    "author": "unknown",
-    "title": "Shellypeckie/student_qwen3_1p7b_gpqa_self_dolly_seq_kd",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer",
-      "sft",
-      "trl",
-      "conversational",
-      "base_model:Qwen/Qwen3-1.7B",
-      "base_model:finetune:Qwen/Qwen3-1.7B",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-20T07:31:47.000Z",
-    "last_modified": "2026-05-20T07:32:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Shellypeckie/student_qwen3_1p7b_gpqa_self_dolly_seq_kd",
-    "date": "2026-05-20",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "modrill/math_no_think_17_qwen3_4b_base_sft_dataless_ls",
-    "author": "unknown",
-    "title": "modrill/math_no_think_17_qwen3_4b_base_sft_dataless_ls",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "mhm",
-      "conversational",
-      "license:cc-by-nc-4.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-20T07:18:52.000Z",
-    "last_modified": "2026-05-20T07:30:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/modrill/math_no_think_17_qwen3_4b_base_sft_dataless_ls",
-    "date": "2026-05-20",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DavidAU/LFM2-12B-A1B-GLM-4.7-Thinking-Quantum-IQ1C-P-TR1-S2",
-    "author": "unknown",
-    "title": "DavidAU/LFM2-12B-A1B-GLM-4.7-Thinking-Quantum-IQ1C-P-TR1-S2",
-    "downloads": 0,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "lfm2_moe",
-      "text-generation",
-      "finetune",
-      "unsloth",
-      "mixture of experts",
-      "sparse moe",
-      "moe",
-      "heretic",
-      "uncensored",
-      "aliterated",
-      "all use cases",
-      "coder",
-      "creative",
-      "creative writing",
-      "fiction writing",
-      "plot generation",
-      "sub-plot generation",
-      "story generation",
-      "scene continue",
-      "storytelling",
-      "fiction story",
-      "science fiction",
-      "romance",
-      "all genres",
-      "story",
-      "writing",
-      "vivid prosing",
-      "vivid writing",
-      "fiction",
-      "roleplaying",
-      "bfloat16",
-      "conversational",
-      "en",
-      "base_model:LiquidAI/LFM2-8B-A1B",
-      "base_model:finetune:LiquidAI/LFM2-8B-A1B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-19T03:27:20.000Z",
-    "last_modified": "2026-05-20T07:29:54.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/DavidAU/LFM2-12B-A1B-GLM-4.7-Thinking-Quantum-IQ1C-P-TR1-S2",
-    "date": "2026-05-20",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
