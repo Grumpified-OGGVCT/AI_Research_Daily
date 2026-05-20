@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-20T07:39:04.613933",
+  "date": "2026-05-20T10:46:04.211141",
   "patterns": {
     "multimodal_research": [
       {
@@ -319,6 +319,10 @@
       {
         "title": "DocQT: Improving Document Forgery Localization Robustness via Diverse JPEG Quantization Tables",
         "url": "https://arxiv.org/abs/2605.19688v1"
+      },
+      {
+        "title": "rajeshgangireddy/EfficientSAM3_OpenVINO",
+        "url": "https://huggingface.co/rajeshgangireddy/EfficientSAM3_OpenVINO"
       }
     ],
     "language_models": [
@@ -649,10 +653,6 @@
       {
         "title": "Physics-in-the-Loop: A Hybrid Agentic Architecture for Validated CAD Engineering Design",
         "url": "https://arxiv.org/abs/2605.19717v1"
-      },
-      {
-        "title": "alanjafari/KurMed-Triage-XLMRoBERTa",
-        "url": "https://huggingface.co/alanjafari/KurMed-Triage-XLMRoBERTa"
       }
     ],
     "vision_systems": [
@@ -1653,7 +1653,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "46 independent papers",
+      "observation": "47 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1665,7 +1665,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
