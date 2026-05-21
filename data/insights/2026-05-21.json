@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-21T16:42:27.976694",
+  "date": "2026-05-21T18:58:28.136790",
   "patterns": {
     "multimodal_research": [
       {
@@ -661,6 +661,10 @@
       {
         "title": "$L^2$ over Wasserstein: Statistical Analysis for Optimal Transport",
         "url": "https://arxiv.org/abs/2605.21365v1"
+      },
+      {
+        "title": "DireDreadlord/TinyStories-GPT-Neo-LoRA",
+        "url": "https://huggingface.co/DireDreadlord/TinyStories-GPT-Neo-LoRA"
       }
     ],
     "vision_systems": [
@@ -1585,7 +1589,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1644,6 +1648,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 386
+    "total_papers": 387
   }
 }
