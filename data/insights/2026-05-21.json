@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-21T22:17:05.484231",
+  "date": "2026-05-21T23:57:23.777393",
   "patterns": {
     "multimodal_research": [
       {
@@ -661,10 +661,6 @@
       {
         "title": "$L^2$ over Wasserstein: Statistical Analysis for Optimal Transport",
         "url": "https://arxiv.org/abs/2605.21365v1"
-      },
-      {
-        "title": "Vale0806/tweeteval-distilbert",
-        "url": "https://huggingface.co/Vale0806/tweeteval-distilbert"
       }
     ],
     "vision_systems": [
@@ -891,6 +887,10 @@
       {
         "title": "Stdlib or Third-Party? Empirical Performance and Correctness of LLM-Assisted Zero-Dependency Python Libraries",
         "url": "https://arxiv.org/abs/2605.21405v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "AIGaitor: Privacy-preserving and cloud-free motion analysis for everyone, using edge computing",
@@ -1589,13 +1589,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
