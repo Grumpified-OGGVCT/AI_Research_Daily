@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-25T21:00:51.242096",
-  "patterns": {},
+  "date": "2026-05-25T22:12:26.873973",
+  "patterns": {
+    "vision_systems": [
+      {
+        "title": "PNW-GM/z-image-witcher3-velen-lora",
+        "url": "https://huggingface.co/PNW-GM/z-image-witcher3-velen-lora"
+      },
+      {
+        "title": "PNW-GM/qwen-image-witcher3-velen-lora",
+        "url": "https://huggingface.co/PNW-GM/qwen-image-witcher3-velen-lora"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
