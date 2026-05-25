@@ -1,11 +1,45 @@
 {
-  "date": "2026-05-25T11:49:10.614139",
-  "patterns": {},
-  "inferences": [],
-  "research_trends": [],
+  "date": "2026-05-25T14:42:53.192142",
+  "patterns": {
+    "efficient_architectures": [
+      {
+        "title": "bestornot04/InterMoE-lor-small-fixed_ver20_fineweb_4e4-checkpoint-29500",
+        "url": "https://huggingface.co/bestornot04/InterMoE-lor-small-fixed_ver20_fineweb_4e4-checkpoint-29500"
+      },
+      {
+        "title": "bestornot04/InterMoE-lor-small-fixed_ver20_fineweb_4e4-checkpoint-295000",
+        "url": "https://huggingface.co/bestornot04/InterMoE-lor-small-fixed_ver20_fineweb_4e4-checkpoint-295000"
+      },
+      {
+        "title": "bestornot04/InterMoE-lor-small-fixed_ver20_fineweb_4e4-checkpoint-30000",
+        "url": "https://huggingface.co/bestornot04/InterMoE-lor-small-fixed_ver20_fineweb_4e4-checkpoint-30000"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "efficient_architectures",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Efficient Architectures - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "efficient_architectures",
+      "observation": "Focus on efficiency improvements",
+      "inference": "Resource constraints driving innovation - expect deployment on edge devices and mobile",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [
+    {
+      "topic": "moe",
+      "frequency": 3,
+      "significance": "medium"
+    }
+  ],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 2,
+    "total_papers": 3
   }
 }
