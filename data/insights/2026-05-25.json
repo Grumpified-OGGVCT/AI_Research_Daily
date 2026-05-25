@@ -1,55 +1,11 @@
 {
-  "date": "2026-05-25T17:04:32.719471",
-  "patterns": {
-    "efficient_architectures": [
-      {
-        "title": "bestornot04/Ismall-vanilla-ffnMoE-1024_ver20_fineweb_4e4-checkpoint-28500",
-        "url": "https://huggingface.co/bestornot04/Ismall-vanilla-ffnMoE-1024_ver20_fineweb_4e4-checkpoint-28500"
-      },
-      {
-        "title": "ilyali034/rubert-emotion-moe-ru",
-        "url": "https://huggingface.co/ilyali034/rubert-emotion-moe-ru"
-      },
-      {
-        "title": "bestornot04/Ismall-vanilla-ffnMoE-1024_ver20_fineweb_4e4-checkpoint-29000",
-        "url": "https://huggingface.co/bestornot04/Ismall-vanilla-ffnMoE-1024_ver20_fineweb_4e4-checkpoint-29000"
-      }
-    ],
-    "language_models": [
-      {
-        "title": "Ankitg25ait2011/distilbert-goodreads-genres",
-        "url": "https://huggingface.co/Ankitg25ait2011/distilbert-goodreads-genres"
-      },
-      {
-        "title": "ilyali034/rubert-emotion-moe-ru",
-        "url": "https://huggingface.co/ilyali034/rubert-emotion-moe-ru"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "efficient_architectures",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Efficient Architectures - monitor for breakthrough results",
-      "confidence": "medium"
-    },
-    {
-      "pattern": "efficient_architectures",
-      "observation": "Focus on efficiency improvements",
-      "inference": "Resource constraints driving innovation - expect deployment on edge devices and mobile",
-      "confidence": "medium"
-    }
-  ],
-  "research_trends": [
-    {
-      "topic": "moe",
-      "frequency": 3,
-      "significance": "medium"
-    }
-  ],
+  "date": "2026-05-25T19:21:24.843280",
+  "patterns": {},
+  "inferences": [],
+  "research_trends": [],
   "stats": {
-    "total_patterns": 2,
-    "total_inferences": 2,
-    "total_papers": 5
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
