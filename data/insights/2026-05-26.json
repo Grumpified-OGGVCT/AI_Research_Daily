@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-26T07:56:20.964020",
+  "date": "2026-05-26T14:54:19.531671",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,6 +705,26 @@
       {
         "title": "Where Concept Erasure Should Occur: Concept-Layer Alignment in Text-to-Video Diffusion Models",
         "url": "https://arxiv.org/abs/2605.25941v1"
+      },
+      {
+        "title": "tokyoghoul/bert-base-uncased",
+        "url": "https://huggingface.co/tokyoghoul/bert-base-uncased"
+      },
+      {
+        "title": "Ozkan21/gpt_oss_finetune_16bit",
+        "url": "https://huggingface.co/Ozkan21/gpt_oss_finetune_16bit"
+      },
+      {
+        "title": "tokyoghoul/roberta-base",
+        "url": "https://huggingface.co/tokyoghoul/roberta-base"
+      },
+      {
+        "title": "htet-98/bert-base-multilingual-uncased-humor-original",
+        "url": "https://huggingface.co/htet-98/bert-base-multilingual-uncased-humor-original"
+      },
+      {
+        "title": "tokyoghoul/answerdotai-ModernBERT-base",
+        "url": "https://huggingface.co/tokyoghoul/answerdotai-ModernBERT-base"
       }
     ],
     "vision_systems": [
@@ -1813,7 +1833,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1872,6 +1892,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 443
+    "total_papers": 448
   }
 }
