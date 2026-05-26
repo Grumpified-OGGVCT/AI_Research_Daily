@@ -91,7 +91,7 @@
       "Siddharth Mishra-Sharma",
       "Andrew Gordon Wilson",
       "Pavel Izmailov",
-      "Carolina Cuesta-L\u00e1zaro"
+      "Carolina Cuesta-Lázaro"
     ],
     "categories": [
       "stat.ML",
@@ -109,7 +109,7 @@
     "title": "Fuzzy PyTorch: Rapid Numerical Variability Evaluation for Deep Learning Models",
     "summary": "We introduce Fuzzy PyTorch, a framework for rapid evaluation of numerical variability in deep learning (DL) models. As DL is increasingly applied to diverse tasks, understanding variability from floating-point arithmetic is essential to ensure robust and reliable performance. Tools assessing such variability must be scalable, efficient, and integrate seamlessly with existing frameworks while minimizing code modifications. Fuzzy PyTorch enables this by integrating stochastic arithmetic into PyTorch through Probabilistic Rounding with Instruction Set Management, a novel library interfacing with Verificarlo, a numerical analysis compiler. The library offers stochastic rounding mode and a novel mode; up-down rounding. Comparative evaluations show Fuzzy PyTorch maintains model performance and achieves runtime reductions of 5x to 60x versus Verrou, a state-of-the-art tool. We further demonstrate scalability by running models from 1 to 341 million parameters, confirming applicability across small and large DL architectures. Overall, Fuzzy PyTorch provides an efficient, scalable, and practical solution for assessing numerical variability in deep learning, enabling researchers and practitioners to quantify and manage floating-point uncertainty without compromising performance or computational efficiency.",
     "authors": [
-      "In\u00e9s Gonzalez-Pepe",
+      "Inés Gonzalez-Pepe",
       "Hiba Akhaddar",
       "Tristan Glatard",
       "Yohan Chatelain"
@@ -444,9 +444,9 @@
     "summary": "Online Terms of Service often function as contracts of adhesion, creating asymmetries that may expose consumers to potentially abusive clauses. In Chile, assessing such clauses is legally challenging because some provisions clearly violate mandatory consumer law, whereas others depend on broader standards such as good faith and contractual imbalance. We present a retrieval-augmented generation framework for the automated detection and classification of potentially abusive clauses in Chilean Terms of Service. Designed for local execution, it combines efficient clause detection, hybrid dense--sparse retrieval, reranking, and prompt augmentation to support medium-sized open-weight language models. We also introduce the Chilean Abusive Terms of Service Extended corpus, comprising 100 contracts and 10,029 annotated clauses in 24 legally grounded categories spanning illegal, dark, and gray clauses. Experiments comparing commercial and open-weight language models, fine-tuned encoders, and traditional baselines show that retrieval-augmented prompting substantially improves performance and enables local models to approach larger cloud-based systems at lower computational and token cost. The study also contributes a refined legal annotation scheme and a practical design for AI-assisted consumer contract review.",
     "authors": [
       "Christoffer Loeffler",
-      "Tom\u00e1s Rey Pizarro",
-      "Daniel Ignacio Miranda V\u00e1squez",
-      "Andrea Mart\u00ednez Freile"
+      "Tomás Rey Pizarro",
+      "Daniel Ignacio Miranda Vásquez",
+      "Andrea Martínez Freile"
     ],
     "categories": [
       "cs.LG",
@@ -633,7 +633,7 @@
     "authors": [
       "Rez Samantha Z. Floresca",
       "Edric Castel C. Hao",
-      "Hannah Grachiella Bu\u00f1ales",
+      "Hannah Grachiella Buñales",
       "Chelsea Dominique E. Temprosa",
       "Georgianna Z. Reyes",
       "Kervin Gabriel L. Chua"
@@ -830,7 +830,7 @@
   {
     "arxiv_id": "2605.25981v1",
     "title": "When Do LLM Agents Treat Surface Noise Differently from Semantic Noise? A 68-Cell Measurement Study with a Held-Out Trace-Level Validation",
-    "summary": "We document an empirical phenomenon in chain-of-thought and ReAct agents driven by ten large language models from seven architecture families: meaning-bearing perturbations (e.g., paraphrase, synonym) alter final answers more often than presentation perturbations (e.g., formatting, reordering) of comparable severity. Across 68 cells spanning GSM8K, MATH, and HotpotQA (1,530 originals and $\\sim$11,150 variants), the inconsistency gap averages +19.69 pp after severity matching (paired $t=9.58$, $p<0.0001$), with 64/68 cells positive. The gap survives four severity-proxy audits and remains significant when excluding qwen models (+11.10 pp, $p<0.0001$). Several stress tests fail honestly: cluster-bootstrap significance disappears under stricter assumptions, tractability contrasts do not replicate, cross-architecture generator swaps break per-cell rankings, and a second LLM judge yields only moderate agreement ($\u03ba=0.50$).   We then validate the headline effect on a fully held-out 11th model (qwen2.5-14B-Instruct; 1,800 trajectories) and re-test a pre-registered capability$\\times$tractability partition, observing a small but positive held-out effect (3/4 cells positive; pooled Welch $t=3.81$, $p=9.6\\times10^{-4}$). Using held-out trajectories, we probe four trace-level mechanism signals. Two prior mechanism claims fail to replicate and are explicitly retracted. Two new probes instead support a \\emph{stealth-divergence} picture: semantic perturbations often preserve the first action but induce divergence in intermediate reasoning from later steps onward, accompanied by slightly deeper trajectories. We position this as a measurement contribution with held-out replication and a partial trace-level account of how semantic perturbations propagate through agent reasoning. Code, perturbation corpus, raw trajectories, and analysis scripts are released anonymously for review.",
+    "summary": "We document an empirical phenomenon in chain-of-thought and ReAct agents driven by ten large language models from seven architecture families: meaning-bearing perturbations (e.g., paraphrase, synonym) alter final answers more often than presentation perturbations (e.g., formatting, reordering) of comparable severity. Across 68 cells spanning GSM8K, MATH, and HotpotQA (1,530 originals and $\\sim$11,150 variants), the inconsistency gap averages +19.69 pp after severity matching (paired $t=9.58$, $p<0.0001$), with 64/68 cells positive. The gap survives four severity-proxy audits and remains significant when excluding qwen models (+11.10 pp, $p<0.0001$). Several stress tests fail honestly: cluster-bootstrap significance disappears under stricter assumptions, tractability contrasts do not replicate, cross-architecture generator swaps break per-cell rankings, and a second LLM judge yields only moderate agreement ($κ=0.50$).   We then validate the headline effect on a fully held-out 11th model (qwen2.5-14B-Instruct; 1,800 trajectories) and re-test a pre-registered capability$\\times$tractability partition, observing a small but positive held-out effect (3/4 cells positive; pooled Welch $t=3.81$, $p=9.6\\times10^{-4}$). Using held-out trajectories, we probe four trace-level mechanism signals. Two prior mechanism claims fail to replicate and are explicitly retracted. Two new probes instead support a \\emph{stealth-divergence} picture: semantic perturbations often preserve the first action but induce divergence in intermediate reasoning from later steps onward, accompanied by slightly deeper trajectories. We position this as a measurement contribution with held-out replication and a partial trace-level account of how semantic perturbations propagate through agent reasoning. Code, perturbation corpus, raw trajectories, and analysis scripts are released anonymously for review.",
     "authors": [
       "Liyun Zhang",
       "Jiayi Guo"
@@ -915,7 +915,7 @@
     "title": "Reading the Finetuning Prior: Verbatim Content Recovery via Contrastive Decoding Diffing",
     "summary": "Narrowly finetuned language models memorize implanted content verbatim, but auditing what a deployed model has been taught, without access to its weights or training data, remains an open challenge. Recent work shows that activation differences between base and finetuned models carry readable traces of the finetuning domain; the state-of-the-art Activation Difference Lens (ADL) recovers a vague domain-level description but requires full \"white-box\" access to model internals. We introduce Contrastive Decoding Diffing (CDD), a model diffing method that operates on output-level logit distributions only, with no weight access, no layer selection, and no per-model tuning, yet recovers implanted facts. CDD consists of three ideas: bypassing the chat template to expose the raw finetuning prior, seeding generation with maximally vague pre-fills, and amplifying the logit-space difference between finetuned and base models at each decoding step. A single default configuration recovers implanted facts verbatim -- exact drug names, vote counts, physical measurements, and procedural details -- across four architectures (1B--32B parameters), uniformly outperforming ADL despite less access and running ~170x faster. Furthermore, CDD surfaces unintended data pipeline artifacts: a fictional persona introduced by the LLM data generator via mode collapse leaked into model weights and was extracted by CDD, constituting to our knowledge the first demonstrated end-to-end fingerprinting chain from data generator artifact to model weights to recovered output. We validate on real-domain finetuning settings, achieving near-perfect recovery across all single-dataset non-CoT variants and correctly identifying all four datasets in the mixed-dataset setting. CDD's success as a grey-box method outperforming white-box baselines underscores its practical utility for transparency and accountability in AI systems.",
     "authors": [
-      "Micha\u0142 Brzozowski",
+      "Michał Brzozowski",
       "Zuzanna Dubanowska",
       "Enrico Cassano",
       "Neo Christopher Chung"
@@ -1026,7 +1026,7 @@
       "Haorui Ma",
       "Yuchen Ma",
       "Abdurahman Maarouf",
-      "Maresa Schr\u00f6der",
+      "Maresa Schröder",
       "Jonas Schweisthal",
       "Yuxin Wang",
       "Athiya Deviyani",
@@ -1374,9 +1374,9 @@
     "title": "On Reliability of Efficient Membership Inference Vulnerability Evaluation",
     "summary": "Membership inference attacks (MIAs) are popular methods for empirically assessing the leakage of sensitive information in the training data through models or statistics learned from the data. The MIA vulnerability is often evaluated through false positive rate (FPR) and true positive rate (TPR) of a binary classifier that tries to predict whether a particular sample was in the training data. However, in order to reliably estimate the TPR especially for low FPR values, a lot of observations are needed, which in case of MIA translates to many target models, leading to large computational cost. To avoid excessive compute requirements, the MIA scores are often averaged over multiple individuals and multiple targeted models. We demonstrate two key weaknesses in this efficient MIA evaluation pipeline. First, we show that evaluating the TPR based on MIA scores concatenated across multiple individuals, commonly used to study vulnerabilities in the very low FPR regime, is not calibrated across the per-sample FPRs. This makes it unreliable as a tool for auditing differential privacy. To solve this, we propose a post-processing method to effectively calibrate the FPR across different samples. Second, we identify a finite population bias in the commonly used efficient likelihood-ratio attack (LiRA) implementation proposed by Carlini et al. 2022, leading to a positive bias in the per-sample vulnerability.",
     "authors": [
-      "Joonas J\u00e4lk\u00f6",
+      "Joonas Jälkö",
       "Gauri Pradhan",
-      "Ossi R\u00e4is\u00e4",
+      "Ossi Räisä",
       "Antti Honkela"
     ],
     "categories": [
@@ -1393,7 +1393,7 @@
   {
     "arxiv_id": "2605.25773v1",
     "title": "Efficient Benchmarking Is Just Feature Selection and Multiple Regression",
-    "summary": "Efficient benchmarking techniques aim to lower the computational cost of evaluating LLMs by predicting full benchmark scores using only a subset of a benchmark's questions. By reframing this problem as an instance of multiple regression with feature selection, we find that existing efficient benchmarking methods can be greatly improved by simply using kernel ridge regression at the prediction stage. Additionally, using an information-theoretic feature-selection algorithm called minimum redundancy maximum relevance (mRMR), we can further improve upon these methods by selecting question subsets that will be maximally useful for prediction. Except in very data-poor settings, these approaches consistently achieve smaller prediction errors (in both MAE and RMSE), and greater ranking correlation between predicted and true scores (in both Spearman $\u03c1$ and Kendall $\u03c4$) across a range of benchmarks using both binary and continuous metrics. Furthermore, mRMR subsampling is much faster than competitor methods (which often involve fitting probabilistic models or running clustering algorithms), and is more likely to select the same questions under different random seeds or training data splits. Tutorial code can be found at https://github.com/sambowyer/mrmr_eval .",
+    "summary": "Efficient benchmarking techniques aim to lower the computational cost of evaluating LLMs by predicting full benchmark scores using only a subset of a benchmark's questions. By reframing this problem as an instance of multiple regression with feature selection, we find that existing efficient benchmarking methods can be greatly improved by simply using kernel ridge regression at the prediction stage. Additionally, using an information-theoretic feature-selection algorithm called minimum redundancy maximum relevance (mRMR), we can further improve upon these methods by selecting question subsets that will be maximally useful for prediction. Except in very data-poor settings, these approaches consistently achieve smaller prediction errors (in both MAE and RMSE), and greater ranking correlation between predicted and true scores (in both Spearman $ρ$ and Kendall $τ$) across a range of benchmarks using both binary and continuous metrics. Furthermore, mRMR subsampling is much faster than competitor methods (which often involve fitting probabilistic models or running clustering algorithms), and is more likely to select the same questions under different random seeds or training data splits. Tutorial code can be found at https://github.com/sambowyer/mrmr_eval .",
     "authors": [
       "Sam Bowyer",
       "Acyr Locatelli",
@@ -1417,7 +1417,7 @@
     "title": "Learning to Search and Searching to Learn for Generalization in Planning",
     "summary": "Combinatorial generalization remains a central challenge in Deep Reinforcement Learning (DRL). Classical planning provides a simple yet challenging setting to study this problem through explicit relational descriptions, without requiring learning from perception. In sparse-reward domains, standard RL exploration via real-time search is ineffective, and learning-based planning methods often rely on expert demonstrations, hindsight relabeling, or random walks from the goal state. In contrast, planners rely on best-first search methods such as $\\mathrm{A}^\\star$ to solve problems from scratch. We propose a self-improving $\\mathrm{WA}^\\star$ learning framework in combination with a value heuristic represented by a Relational Graph Neural Network: the heuristic guides search, and the resulting search data updates the heuristic via $Q$-learning. This loop yields heuristics that can function as general policies and solve new instances even without search, where DRL otherwise fails, as we show on puzzles such as Sokoban, PushWorld, The Witness, and the 2023 International Planning Competition benchmarks. Notably, we demonstrate strong zero-shot generalization: For example, heuristics trained on Blocksworld instances with fewer than 30 blocks successfully solve instances with 488 blocks without search.",
     "authors": [
-      "Michael Aichm\u00fcller",
+      "Michael Aichmüller",
       "Yannik Hesse",
       "Hector Geffner"
     ],
@@ -1770,7 +1770,7 @@
     "authors": [
       "Ramna Maqsood",
       "Paulo Nunes",
-      "Lu\u00eds Ducla Soares",
+      "Luís Ducla Soares",
       "Caroline Conti"
     ],
     "categories": [
@@ -2077,7 +2077,7 @@
       "Joris Baan",
       "Wilker Aziz",
       "Barbara Plank",
-      "Raquel Fern\u00e1ndez"
+      "Raquel Fernández"
     ],
     "categories": [
       "cs.CL",
@@ -2220,7 +2220,7 @@
       "Guangming Fu",
       "Jiahui Fan",
       "Jian Yang",
-      "Milo\u0161 Ha\u0161an",
+      "Miloš Hašan",
       "Beibei Wang"
     ],
     "categories": [
@@ -2420,7 +2420,7 @@
     "authors": [
       "Malik Marmonier",
       "Rachel Bawden",
-      "Beno\u00eet Sagot"
+      "Benoît Sagot"
     ],
     "categories": [
       "cs.CL"
@@ -2564,7 +2564,7 @@
   {
     "arxiv_id": "2605.25939v1",
     "title": "From Latent Space to Training Data: Explainable Specialization in Minimal MLPs",
-    "summary": "We here study whether training biases can make hidden neurons specialize in minimal one-hidden-layer MLPs, and whether such specialization improves prototype-based reconstruction of the training dataset from the learned weights. We consider Gaussianactivation MLPs of width equal to dataset size and compare three structural losses that respectively encourage coverage of the training samples, separation between neuron-induced prototypes, and low overlap of hidden responses, against the standard fitting baseline. Experiments on uniformly sampled one-dimensional datasets show a stable pattern from N = 3 to N = 100 across 480 controlled runs. Coverage regularization gives the lowest mean reconstruction error at every tested size and raises the prototype-usage specialization ratio relative to the standard baseline, while separation has mixed effects and overlap penalties are systematically harmful. We show that the harm is not an optimization failure: overlap-active approaches fit the data as well as overlap-free ones but route the optimizer to a degenerate equilibrium in which prototype centers are pushed outside the convex hull of the training inputs. Coverage cannot reward this expulsion and acts as an attractor: separation admits it only at large temperature and overlap admits it at the nominal hyperparameter choice. A direct \u03c4-sweep on the separation-only mask and a prototype-position visualization at N = 100 confirm the mechanism. The findings yield a simple design principle for prototype-recoverability-aware training: every repulsive structural loss must be compensated by a compatible attractor, or it will collapse the latent geometry it was meant to refine.",
+    "summary": "We here study whether training biases can make hidden neurons specialize in minimal one-hidden-layer MLPs, and whether such specialization improves prototype-based reconstruction of the training dataset from the learned weights. We consider Gaussianactivation MLPs of width equal to dataset size and compare three structural losses that respectively encourage coverage of the training samples, separation between neuron-induced prototypes, and low overlap of hidden responses, against the standard fitting baseline. Experiments on uniformly sampled one-dimensional datasets show a stable pattern from N = 3 to N = 100 across 480 controlled runs. Coverage regularization gives the lowest mean reconstruction error at every tested size and raises the prototype-usage specialization ratio relative to the standard baseline, while separation has mixed effects and overlap penalties are systematically harmful. We show that the harm is not an optimization failure: overlap-active approaches fit the data as well as overlap-free ones but route the optimizer to a degenerate equilibrium in which prototype centers are pushed outside the convex hull of the training inputs. Coverage cannot reward this expulsion and acts as an attractor: separation admits it only at large temperature and overlap admits it at the nominal hyperparameter choice. A direct τ-sweep on the separation-only mask and a prototype-position visualization at N = 100 confirm the mechanism. The findings yield a simple design principle for prototype-recoverability-aware training: every repulsive structural loss must be compensated by a compatible attractor, or it will collapse the latent geometry it was meant to refine.",
     "authors": [
       "Enrique Alba",
       "Ezequiel Lopez-Rubio"
@@ -2627,7 +2627,7 @@
       "Marcos Vinicius Mendes Faria",
       "Thiago Borges Pereira",
       "Isabella C. F. S. Condotta",
-      "Thiago Meireles Paix\u00e3o",
+      "Thiago Meireles Paixão",
       "Francisco de Assis Boldt"
     ],
     "categories": [
@@ -2685,7 +2685,7 @@
     "summary": "Early-warning models built from Learning Management System (LMS) logs aim to predict end-of-course outcomes early enough to enable timely learner support. However, reported \"early\" performance is often inflated by temporal leakage. This occurs when the pipeline uses information that would not yet be available at the time of prediction. We formalize cutoff-based early outcome prediction under a temporal availability constraint and introduce LEAP (Leakage-Excluded Early-Availability Protocol), which enforces cutoff-first truncation prior to joins and aggregation and audits feature provenance to prevent post-cutoff evidence from entering the benchmark. We instantiate LEAP on the public Open University Learning Analytics Dataset (OULAD) as a multi-step protocol for leakage-controlled evaluation across weekly cutoffs. Using several standard learning methods, we evaluate performance using ROC-AUC, PR-AUC, Brier score, and F1@0.5. Results show improving performance as the observation window expands, with a marked gain around week~3; Random Forest performs best at the earliest cutoffs, while Gradient Boosting dominates thereafter. Leakage ablations further show that temporal violations, especially through assessment information, can inflate apparent \"early\" performance.",
     "authors": [
       "Ngoc Luyen Le",
-      "Marie-H\u00e9l\u00e8ne Abel",
+      "Marie-Hélène Abel",
       "Bertrand Laforge"
     ],
     "categories": [
@@ -2703,10 +2703,10 @@
     "title": "FLOATBench: A Dataset and Benchmark for Floating Offshore Wind Turbine Tower Fatigue",
     "summary": "Most of the world's offshore wind resource lies in waters too deep for fixed-bottom foundations, making floating offshore wind turbines (FOWTs) essential for deep-water deployment. As the industry scales toward $22$ MW class designs, tower fatigue becomes increasingly critical because larger structures amplify the coupled aero-hydro-servo-elastic loads induced by continuous wind and wave excitation. Accurate fatigue-damage prediction is therefore central to certification, design optimization, and cost reduction. Yet the field lacks a shared surrogate benchmark: studies report different simulations, splits, and metrics, making methods difficult to compare. We present FLOATBench, a public tabular benchmark with $582{,}120$ per-section fatigue-damage labels across three $22$ MW FOWT tower geometries, derived from $19{,}404$ high-fidelity OpenFAST simulations across the three towers ($6{,}468$ per tower: $1{,}078$ aligned wind/wave operating points $\\times$ six turbulence seeds), labeled at $30$ cross-sections per tower. FLOATBench includes a regime-aware alpha-shape partition of the joint wind/wave operating envelope, stratifying test points into in-train, interpolation, and extrapolation regimes. It is paired with a reproducible evaluation harness covering three protocol levels: random validation (E1), within-tower regime-aware evaluation (E2), and cross-tower transfer (E3). The regime-aware protocol reveals rank shifts between global and extrapolation performance that random-split leaderboards cannot detect. To the authors' knowledge, FLOATBench is the first FOWT fatigue benchmark for tabular surrogate modeling, and offers an evaluation protocol that generalizes to engineering surrogates defined over physical operating envelopes. Dataset and code available at: https://github.com/Joao97ribeiro/FLOATBench.",
     "authors": [
-      "Jo\u00e3o Alves Ribeiro",
+      "João Alves Ribeiro",
       "Bruno Alves Ribeiro",
       "Francisco Pimenta",
-      "S\u00e9rgio M. O. Tavares",
+      "Sérgio M. O. Tavares",
       "Faez Ahmed"
     ],
     "categories": [
@@ -2903,7 +2903,7 @@
   {
     "arxiv_id": "2605.25789v1",
     "title": "On the Benefits of Free Exploration for Regret Minimization in Multi-Armed Bandits",
-    "summary": "We study a stochastic multi-armed bandit problem where an agent is granted a free exploration budget before regret accumulates, a setting not captured by the classic regret minimization or pure exploration paradigms. The goal is to design an adaptive policy that strategically explores the bandit instance in the initial free exploration phase and minimizes the cumulative regret in the subsequent phase. We formalize this regret minimization with free exploration problem and identify an interesting regime where the free exploration budget scales logarithmically with the time horizon. To quantify the amount of regret saved with high probability as a result of the availability of the free exploration phase, we introduce a novel set of policies known as $(\u03b1,\u03b2)$-probably saving policies. We propose a two-phase, probably saving algorithm, UFE-KLUCB-H, which consists of a principled free exploration policy, UFE, and a history-aware regret minimization policy KLUCB-H. Instance-dependent upper bounds on UFE-KLUCB-H are derived, showing that UFE-KLUCB-H accumulates strictly less regret than policies that do not have access to a free exploration phase. Complementarily, we derive instance-dependent lower bounds based on novel multi-instance perturbation arguments tailored to the free-exploration setting, demonstrating the near-optimality of UFE-KLUCB-H for two-valued bandits. Our upper and lower bounds reveal sharp phase transitions in the accumulated regret depending on the amount of available free exploration. Simulations are conducted to demonstrate that forced exploration and adaptivity in the algorithm lead to greater regret savings.",
+    "summary": "We study a stochastic multi-armed bandit problem where an agent is granted a free exploration budget before regret accumulates, a setting not captured by the classic regret minimization or pure exploration paradigms. The goal is to design an adaptive policy that strategically explores the bandit instance in the initial free exploration phase and minimizes the cumulative regret in the subsequent phase. We formalize this regret minimization with free exploration problem and identify an interesting regime where the free exploration budget scales logarithmically with the time horizon. To quantify the amount of regret saved with high probability as a result of the availability of the free exploration phase, we introduce a novel set of policies known as $(α,β)$-probably saving policies. We propose a two-phase, probably saving algorithm, UFE-KLUCB-H, which consists of a principled free exploration policy, UFE, and a history-aware regret minimization policy KLUCB-H. Instance-dependent upper bounds on UFE-KLUCB-H are derived, showing that UFE-KLUCB-H accumulates strictly less regret than policies that do not have access to a free exploration phase. Complementarily, we derive instance-dependent lower bounds based on novel multi-instance perturbation arguments tailored to the free-exploration setting, demonstrating the near-optimality of UFE-KLUCB-H for two-valued bandits. Our upper and lower bounds reveal sharp phase transitions in the accumulated regret depending on the amount of available free exploration. Simulations are conducted to demonstrate that forced exploration and adaptivity in the algorithm lead to greater regret savings.",
     "authors": [
       "Yunlong Hou",
       "Zixin Zhong",
@@ -2927,7 +2927,7 @@
     "title": "Neural Router: Semantic Content Matching for Agentic AI",
     "summary": "Large language models (LLMs) can serve as the semantic-matching engine of a content-based publish/subscribe broker for agentic AI across the edge-cloud computing continuum, bridging the vocabulary and modality gaps that defeat keyword and embedding filters. Framed as offline multi-label retrieval over three public datasets spanning social-media, legal, and smart-home sensor domains (six LLMs, seven baselines), our central contribution is a two-crossover cost-accuracy characterisation: an analytical context-window crossover below which a CoverAndMerge compression pipeline reduces LLM invocations, and an empirical discrimination-capacity crossover above which matching accuracy collapses independently of context budget, by a model-dependent factor of parameter count and training generation. Two findings carry practical weight: above the discrimination crossover, compression cannot recover accuracy and only frontier-scale models clear large subscription sets; and there backend choice dominates configuration choice, so model selection, not pipeline tuning, is the primary operator lever. We accompany this with three composable algorithms and a per-cluster Quality-of-Experience framework for autonomic LLM-tier selection.",
     "authors": [
-      "Lauri Lov\u00e9n",
+      "Lauri Lovén",
       "Abhishek Kumar",
       "Alexander Engelhardt",
       "Alaa Saleh",
@@ -3045,7 +3045,7 @@
       "Jeff Gore",
       "William T. Freeman",
       "Congyue Deng",
-      "Marin Solja\u010di\u0107"
+      "Marin Soljačić"
     ],
     "categories": [
       "cs.CV",
@@ -3146,10 +3146,10 @@
   {
     "arxiv_id": "2605.25859v1",
     "title": "Minimax Limits of k-Fold Cross-Validation via Majority",
-    "summary": "We study the mean-squared error of $k$-fold cross-validation as a risk estimator, with particular emphasis on how its accuracy depends on the number of folds $k$. Despite the widespread use of cross-validation, principled guidance for choosing $k$ is largely absent, mainly due to the complex dependence between fold-wise error estimates.   To obtain sharp and interpretable results, we focus on the majority algorithm in binary classification, a minimal yet nontrivial empirical risk minimization procedure. We provide a fine-grained analysis of its cross-validation behavior, showing that even this simple algorithm exhibits subtle and delicate phenomena for which existing theory provides loose and even vacuous bounds. Leveraging this analysis, we introduce a minimax framework for cross-validation risk estimation and prove that no empirical risk minimization algorithm can achieve an $O(1/n)$ minimax mean-squared error when the number of folds grows with the number of samples $n$; instead, a lower bound of order $\u03a9(\\sqrt{k}/n)$ is unavoidable.   Our results reveal fundamental limitations of cross-validation as a data-reuse strategy, clarify gaps and inaccuracies in prior theoretical work, and position the majority algorithm as a natural benchmark that any tight analysis of cross-validation should be able to explain.",
+    "summary": "We study the mean-squared error of $k$-fold cross-validation as a risk estimator, with particular emphasis on how its accuracy depends on the number of folds $k$. Despite the widespread use of cross-validation, principled guidance for choosing $k$ is largely absent, mainly due to the complex dependence between fold-wise error estimates.   To obtain sharp and interpretable results, we focus on the majority algorithm in binary classification, a minimal yet nontrivial empirical risk minimization procedure. We provide a fine-grained analysis of its cross-validation behavior, showing that even this simple algorithm exhibits subtle and delicate phenomena for which existing theory provides loose and even vacuous bounds. Leveraging this analysis, we introduce a minimax framework for cross-validation risk estimation and prove that no empirical risk minimization algorithm can achieve an $O(1/n)$ minimax mean-squared error when the number of folds grows with the number of samples $n$; instead, a lower bound of order $Ω(\\sqrt{k}/n)$ is unavoidable.   Our results reveal fundamental limitations of cross-validation as a data-reuse strategy, clarify gaps and inaccuracies in prior theoretical work, and position the majority algorithm as a natural benchmark that any tight analysis of cross-validation should be able to explain.",
     "authors": [
       "Ido Nachum",
-      "R\u00fcdiger Urbanke",
+      "Rüdiger Urbanke",
       "Thomas Weinberger"
     ],
     "categories": [
@@ -3385,7 +3385,7 @@
     "summary": "Structure-from-Motion -- the process of simultaneously estimating camera poses and 3D scene structure from a collection of images -- remains a central challenge in computer vision, with many open problems yet to be solved. Recent advances in feedforward 3D reconstruction have made significant strides in overcoming persistent failure cases of classical SfM methods, particularly in scenarios characterized by low texture, limited overlap, and symmetries. However, while feedforward approaches excel in these challenging conditions, they often face limitations regarding scalability, accuracy, or robustness, and typically fall short of classical methods in standard reconstruction settings. In this work, we systematically analyze these limitations and propose a new Structure-from-Motion pipeline by combining the respective strengths of classical and feedforward methods. Extensive experiments across multiple datasets show the benefits of our approach, achieving state-of-the-art results across a wide range of scenarios. We share our system as an open-source implementation at https://github.com/colmap/gluemap.",
     "authors": [
       "Linfei Pan",
-      "Johannes Sch\u00f6nberge",
+      "Johannes Schönberge",
       "Marc Pollefeys"
     ],
     "categories": [
@@ -3423,7 +3423,7 @@
     "summary": "Recent video super-resolution (VSR) approaches use deep neural networks to enhance low-quality input videos and recover visual detail, with diffusion-based methods in particular showing promising results. In this paper, we investigate whether existing video quality models can be used to assess the performance of these diffusion-based VSR methods, by comparing model predictions with results from a subjective test. The study compares six upscaling methods (Lanczos, Rhea, SCST, DOVE, SeedVR2, Starlight Mini) applied to both compressed (AV1 and DCVC-RT) and uncompressed low-resolution videos considering the play-out on a UHD-1/4K screen. A range of full- and no-reference quality models are used to assess their applicability to this new type of quality degradation, focusing on within-sequence performance. The results highlight that CNN-based full-reference models, such as LPIPS, DISTS, and CVQA-FR show significantly higher correlation coefficients than both conventional full- as well as the tested no-reference models. Most overestimate the overly sharp results of SCST, with VMAF mainly failing due to spatial inconsistencies introduced by Starlight Mini. None of the tested video quality models reach sufficient accuracy so as to replace complementary subjective testing. The reference, degraded and upscaled videos, as well as the user ratings and model scores are made available with the paper at https://github.com/Telecommunication-Telemedia-Assessment/AVT-VQDB-UHD-1-VSR as open data.",
     "authors": [
       "Benjamin Herb",
-      "Steve G\u00f6ring",
+      "Steve Göring",
       "Alexander Raake",
       "Rakesh Rao Ramachandra Rao"
     ],
@@ -3443,8 +3443,8 @@
     "title": "Building an Adversarial Malware Dataset by Family and Type: Generation, Evasion, and Poisoning Evaluation",
     "summary": "We present a dataset of adversarial malware samples derived from the public RawMal-TF collection of real-world malware binaries. Using a suite of adversarial malware generators, we construct two sets of adversarial PE files: 44,347 family-labelled samples and 33,596 type-labelled samples, achieving evasion rates of 98.35 % and 92.20 % against the EMBER classifier, respectively. Each adversarial binary is accompanied by detailed metadata, including EMBER scores and VirusTotal classifications. We further demonstrate the susceptibility of malware classification pipelines to data poisoning attacks through a series of training experiments. Injecting fully mislabelled adversarial samples representing only 0.5 % of the training data in the family-labelled dataset increases the evasion rate against the re-trained classifier from 26.1 % to 92.8 %. The dataset is publicly released to facilitate future research on adversarial malware, poisoning attacks, and the robustness of machine-learning-based malware detection systems.",
     "authors": [
-      "David Ko\u0161\u0165\u00e1l",
-      "Martin Jure\u010dek"
+      "David Košťál",
+      "Martin Jureček"
     ],
     "categories": [
       "cs.CR",
@@ -3610,10 +3610,10 @@
     "title": "Machine Learning Multiscale Interactions",
     "summary": "Realistic physical systems are characterised by emergent interactions across multiple length and time scales, posing a significant challenge for predictive machine learning (ML) models. Most scientific ML models focus on a narrow range of interactions. While machine learning force fields (MLFFs) offer near-quantum accuracy, the ubiquitous message-passing layers miss long-range many-body effects. Here we introduce the Multiscale Structural Ensemble (MuSE), a hierarchical model that uses Soft Coarse-Graining Pooling to construct coarse representations from smooth fractional assignments of atoms to coarse nodes, enabling MLFF modules to operate across multiple scales. MuSE is architecture-agnostic and coupled with SO3krates, MACE, and PaiNN MLFFs for both molecules and materials. We demonstrate the power of MuSE through Hessian-based benchmarks, folding trajectories for biomolecules, and energy profiles in molecule-graphene nanostructures, where MuSE accurately captures quantum-mechanical interactions at relevant scales -- unlike other recent long-range ML models.",
     "authors": [
-      "\u00c0lex Sol\u00e9",
-      "Sergio Su\u00e1rez-Dou",
+      "Àlex Solé",
+      "Sergio Suárez-Dou",
       "Albert Mosella-Montoro",
-      "Silvia G\u00f3mez-Coca",
+      "Silvia Gómez-Coca",
       "Eliseo Ruiz",
       "Alexandre Tkatchenko",
       "Javier Ruiz-Hidalgo"
@@ -3634,7 +3634,7 @@
   {
     "arxiv_id": "2605.26078v1",
     "title": "Global Convergence of Wasserstein Policy Gradient for Entropy-Regularized Reinforcement Learning",
-    "summary": "Wasserstein policy gradient (WPG) is a policy optimization method for reinforcement learning (RL) that exploits the optimal-transport geometry of action distributions. For the entropy-regularized RL objective, WPG evolves each state-conditional policy by transporting it along the action gradient of the soft Q-function together with a Langevin-type diffusion. Despite its appeal for continuous-control problems, its global convergence properties remain poorly understood. Standard Langevin analyses do not directly apply, because the RL objective depends on the policy through the Bellman recursion rather than through a static convex functional, and the Langevin drift is determined by the soft Q-function, whose regularity must be controlled along the policy iterates.   In this paper, we develop a global convergence theory for WPG by exploiting the Bellman structure of entropy-regularized RL. We show that the role usually played by convexity can be replaced by a Bellman-based argument: the soft Bellman residual admits a statewise KL representation with respect to a Gibbs policy; Bellman contraction relates this residual to the global optimality gap; and a Bellman resolvent identity connects value improvement to relative Fisher information. Combined with a uniform log-Sobolev inequality (LSI) for the evolving Gibbs family, these ingredients yield a distributional Polyak--\u0141ojasiewicz condition. We further establish the regularity and uniform bounds needed to control the discretization error, thereby obtaining geometric contraction up to a discretization bias. Conceptually, our analysis shows that although entropy-regularized RL is not convex in the usual flat sense, the Bellman recursion induces a favorable Polyak--Lojasiewicz-type (PL) geometry that supports global convergence of WPG.",
+    "summary": "Wasserstein policy gradient (WPG) is a policy optimization method for reinforcement learning (RL) that exploits the optimal-transport geometry of action distributions. For the entropy-regularized RL objective, WPG evolves each state-conditional policy by transporting it along the action gradient of the soft Q-function together with a Langevin-type diffusion. Despite its appeal for continuous-control problems, its global convergence properties remain poorly understood. Standard Langevin analyses do not directly apply, because the RL objective depends on the policy through the Bellman recursion rather than through a static convex functional, and the Langevin drift is determined by the soft Q-function, whose regularity must be controlled along the policy iterates.   In this paper, we develop a global convergence theory for WPG by exploiting the Bellman structure of entropy-regularized RL. We show that the role usually played by convexity can be replaced by a Bellman-based argument: the soft Bellman residual admits a statewise KL representation with respect to a Gibbs policy; Bellman contraction relates this residual to the global optimality gap; and a Bellman resolvent identity connects value improvement to relative Fisher information. Combined with a uniform log-Sobolev inequality (LSI) for the evolving Gibbs family, these ingredients yield a distributional Polyak--Łojasiewicz condition. We further establish the regularity and uniform bounds needed to control the discretization error, thereby obtaining geometric contraction up to a discretization bias. Conceptually, our analysis shows that although entropy-regularized RL is not convex in the usual flat sense, the Bellman recursion induces a favorable Polyak--Lojasiewicz-type (PL) geometry that supports global convergence of WPG.",
     "authors": [
       "Zhaoyu Zhu",
       "Rui Gao",
@@ -3773,8 +3773,8 @@
     "title": "UNATE: UNsupervised ATomic Embedding for crystal structures property prediction",
     "summary": "Accurately predicting crystal properties is critical for accelerating materials discovery, but it is often limited by scarce labeled data and costly theoretical calculations. To alleviate this, we propose UNATE (Unsupervised Atomic Embedding), a framework that leverages structural information extracted from unlabeled crystal structures. UNATE integrates an unsupervised denoising autoencoder with self-supervised contrastive learning to learn robust atomic representations, which are then used as input features for downstream property prediction. Experimental results show that replacing raw atomic numbers with UNATE-pretrained node embeddings yields a 2.7\\% improvement over the full-data baseline. Notably, the benefits become more pronounced in scenarios with limited labeled data, reaching improvements of up to 10\\% when only 25\\% of the labeled data is used.",
     "authors": [
-      "Laura Sol\u00e0-Garcia",
-      "\u00c0lex Sol\u00e9",
+      "Laura Solà-Garcia",
+      "Àlex Solé",
       "Javier Ruiz-Hidalgo"
     ],
     "categories": [
@@ -3792,9 +3792,9 @@
   {
     "arxiv_id": "2605.25739v1",
     "title": "The Behavioral Credibility Trilemma: When Calibrated Autonomy Becomes Impossible",
-    "summary": "We prove that no reinforcement learning policy with confidence-gated autonomy can simultaneously achieve maximum helpfulness, optimal calibration, and full autonomy under rational oversight, whenever some tasks exceed the agent's reliable competence: the Behavioral Credibility Trilemma. The impossibility is geometric -- adding any non-affine autonomy incentive to a strictly proper scoring rule destroys strict properness, so an agent rewarded for both calibrated confidence and autonomous action systematically inflates its reported confidence on tasks below the principal's approval threshold. The Behavioral Perturbation Lemma quantifies the inflation (scaling as $w_A/(2 w_C)$ for the Brier score) and shows detection requires $\u03a9(1/\u0394^2)$ observations. We prove the principal's optimal oversight rule is necessarily non-affine, making the impossibility unconditional and optimizer-independent across log-concave-density policy families. We formalize the Confidence-Gated Decision Problem, map existing methods onto the trilemma, and identify two constructive resolution pathways (commitment, domain separation). A 540-configuration Best-of-N experiment tests five pre-registered hypotheses, all strongly confirmed (effect sizes $d = 1.10$ to $5.32$), and adds a descriptive analysis of the achievable-$(H, C, A)$ surface geometry showing a plateau-truncated frontier consistent with the predicted inflation saturation.",
+    "summary": "We prove that no reinforcement learning policy with confidence-gated autonomy can simultaneously achieve maximum helpfulness, optimal calibration, and full autonomy under rational oversight, whenever some tasks exceed the agent's reliable competence: the Behavioral Credibility Trilemma. The impossibility is geometric -- adding any non-affine autonomy incentive to a strictly proper scoring rule destroys strict properness, so an agent rewarded for both calibrated confidence and autonomous action systematically inflates its reported confidence on tasks below the principal's approval threshold. The Behavioral Perturbation Lemma quantifies the inflation (scaling as $w_A/(2 w_C)$ for the Brier score) and shows detection requires $Ω(1/Δ^2)$ observations. We prove the principal's optimal oversight rule is necessarily non-affine, making the impossibility unconditional and optimizer-independent across log-concave-density policy families. We formalize the Confidence-Gated Decision Problem, map existing methods onto the trilemma, and identify two constructive resolution pathways (commitment, domain separation). A 540-configuration Best-of-N experiment tests five pre-registered hypotheses, all strongly confirmed (effect sizes $d = 1.10$ to $5.32$), and adds a descriptive analysis of the achievable-$(H, C, A)$ surface geometry showing a plateau-truncated frontier consistent with the predicted inflation saturation.",
     "authors": [
-      "Lauri Lov\u00e9n",
+      "Lauri Lovén",
       "Nam Do",
       "Hassan Mehmood",
       "Dinesh Kumar Sah",
@@ -4400,126 +4400,5 @@
     "date": "2026-05-26",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "israel/Llama-3.2-1B-Instruct-multiturn_1",
-    "author": "unknown",
-    "title": "israel/Llama-3.2-1B-Instruct-multiturn_1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "llama-factory",
-      "full",
-      "generated_from_trainer",
-      "conversational",
-      "base_model:meta-llama/Llama-3.2-1B-Instruct",
-      "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
-      "license:other",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-26T07:27:09.000Z",
-    "last_modified": "2026-05-26T07:52:38.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/israel/Llama-3.2-1B-Instruct-multiturn_1",
-    "date": "2026-05-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "johanbkg2513/detr_resnet50_finetuned_trashify_box_detector_v1",
-    "author": "unknown",
-    "title": "johanbkg2513/detr_resnet50_finetuned_trashify_box_detector_v1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "detr",
-      "object-detection",
-      "generated_from_trainer",
-      "base_model:facebook/detr-resnet-50",
-      "base_model:finetune:facebook/detr-resnet-50",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "transformers",
-    "created_at": "2026-05-26T07:50:40.000Z",
-    "last_modified": "2026-05-26T07:50:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/johanbkg2513/detr_resnet50_finetuned_trashify_box_detector_v1",
-    "date": "2026-05-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "NovaCorp/JintanMaid-3.2-1B",
-    "author": "unknown",
-    "title": "NovaCorp/JintanMaid-3.2-1B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "base_model:N-Bot-Int/MaidEllaA-1B",
-      "base_model:merge:N-Bot-Int/MaidEllaA-1B",
-      "base_model:SuperPeaceBusters/Jintan-LLaMA3.2-1B-v1",
-      "base_model:merge:SuperPeaceBusters/Jintan-LLaMA3.2-1B-v1",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-26T04:59:59.000Z",
-    "last_modified": "2026-05-26T07:50:23.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/NovaCorp/JintanMaid-3.2-1B",
-    "date": "2026-05-26",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "dataset_id": "huggingface-legal/takedown-notices",
-    "author": "huggingface-legal",
-    "title": "huggingface-legal/takedown-notices",
-    "downloads": 987,
-    "likes": 29,
-    "tags": [
-      "license:cc-by-nc-nd-4.0",
-      "size_categories:n<1K",
-      "format:csv",
-      "modality:document",
-      "modality:text",
-      "library:datasets",
-      "library:pandas",
-      "library:polars",
-      "library:mlcroissant",
-      "region:us",
-      "legal"
-    ],
-    "created_at": "2022-06-28T09:04:19.000Z",
-    "last_modified": "2026-05-26T07:55:30.000Z",
-    "url": "https://huggingface.co/datasets/huggingface-legal/takedown-notices",
-    "date": "2026-05-26",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.4
   }
 ]
