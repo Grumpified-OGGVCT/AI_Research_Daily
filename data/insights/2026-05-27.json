@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-27T16:34:27.061625",
+  "date": "2026-05-27T19:17:24.192901",
   "patterns": {
     "multimodal_research": [
       {
@@ -247,10 +247,6 @@
       {
         "title": "Unsupervised Deep Image Prior for Sparse-View and Limited-Angle Electron Tomography",
         "url": "https://arxiv.org/abs/2605.27139v1"
-      },
-      {
-        "title": "Daxamite/NanoMoE_322_9R",
-        "url": "https://huggingface.co/Daxamite/NanoMoE_322_9R"
       }
     ],
     "language_models": [
@@ -657,6 +653,10 @@
       {
         "title": "G3T Up! Gravity Aligned Coordinate Frames Simplify Pointmap Processing",
         "url": "https://arxiv.org/abs/2605.27372v1"
+      },
+      {
+        "title": "DishaSinghania/distilbert-goodreads-genres",
+        "url": "https://huggingface.co/DishaSinghania/distilbert-goodreads-genres"
       }
     ],
     "vision_systems": [
@@ -875,6 +875,10 @@
       {
         "title": "JLT: Clean-Latent Prediction in Latent Diffusion Transformers",
         "url": "https://arxiv.org/abs/2605.27102v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       },
       {
         "title": "Do Modern Post-Hoc Watermarking Methods Beat Broken-Arrows?",
@@ -1641,7 +1645,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "38 independent papers",
+      "observation": "37 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1653,13 +1657,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "62 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 404
   }
 }
