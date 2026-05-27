@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-27T21:48:31.157056",
+  "date": "2026-05-27T23:13:40.172291",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,12 +655,16 @@
         "url": "https://arxiv.org/abs/2605.27372v1"
       },
       {
-        "title": "mhdafifan/mdeberta-squad-id-LR-2e-05-BS-16-ML-384",
-        "url": "https://huggingface.co/mhdafifan/mdeberta-squad-id-LR-2e-05-BS-16-ML-384"
+        "title": "Gukson/goemotion-baseline-bert-seed-123",
+        "url": "https://huggingface.co/Gukson/goemotion-baseline-bert-seed-123"
       },
       {
-        "title": "3huvan/inlegalbert",
-        "url": "https://huggingface.co/3huvan/inlegalbert"
+        "title": "Gukson/goemotion-baseline-bert-seed-13",
+        "url": "https://huggingface.co/Gukson/goemotion-baseline-bert-seed-13"
+      },
+      {
+        "title": "Gukson/dair-baseline-bert-seed-202",
+        "url": "https://huggingface.co/Gukson/dair-baseline-bert-seed-202"
       }
     ],
     "vision_systems": [
@@ -1657,7 +1661,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "103 independent papers",
+      "observation": "104 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 405
   }
 }
