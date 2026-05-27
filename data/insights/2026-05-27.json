@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-27T19:17:24.192901",
+  "date": "2026-05-27T21:48:31.157056",
   "patterns": {
     "multimodal_research": [
       {
@@ -655,8 +655,12 @@
         "url": "https://arxiv.org/abs/2605.27372v1"
       },
       {
-        "title": "DishaSinghania/distilbert-goodreads-genres",
-        "url": "https://huggingface.co/DishaSinghania/distilbert-goodreads-genres"
+        "title": "mhdafifan/mdeberta-squad-id-LR-2e-05-BS-16-ML-384",
+        "url": "https://huggingface.co/mhdafifan/mdeberta-squad-id-LR-2e-05-BS-16-ML-384"
+      },
+      {
+        "title": "3huvan/inlegalbert",
+        "url": "https://huggingface.co/3huvan/inlegalbert"
       }
     ],
     "vision_systems": [
@@ -875,10 +879,6 @@
       {
         "title": "JLT: Clean-Latent Prediction in Latent Diffusion Transformers",
         "url": "https://arxiv.org/abs/2605.27102v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       },
       {
         "title": "Do Modern Post-Hoc Watermarking Methods Beat Broken-Arrows?",
@@ -1657,13 +1657,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "102 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "63 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
