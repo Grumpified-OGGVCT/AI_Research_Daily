@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-28T20:29:43.013749",
+  "date": "2026-05-28T22:30:32.961663",
   "patterns": {
     "multimodal_research": [
       {
@@ -331,6 +331,10 @@
       {
         "title": "Bound-Constrained Sparse Representation for Electrical Impedance Tomography",
         "url": "https://arxiv.org/abs/2605.28392v1"
+      },
+      {
+        "title": "qownscks/efficient_yolo_vla",
+        "url": "https://huggingface.co/qownscks/efficient_yolo_vla"
       }
     ],
     "language_models": [
@@ -1741,7 +1745,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "54 independent papers",
+      "observation": "55 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1812,6 +1816,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 428
+    "total_papers": 429
   }
 }
