@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-28T06:50:04.272759",
-  "patterns": {},
+  "date": "2026-05-28T10:52:04.166312",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Gukson/semeval-aug-bert-bt-deepseek-deepseek-chat-nofilter-seed-42",
+        "url": "https://huggingface.co/Gukson/semeval-aug-bert-bt-deepseek-deepseek-chat-nofilter-seed-42"
+      },
+      {
+        "title": "AbdoMatrix/biobert-medical-classifier",
+        "url": "https://huggingface.co/AbdoMatrix/biobert-medical-classifier"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
