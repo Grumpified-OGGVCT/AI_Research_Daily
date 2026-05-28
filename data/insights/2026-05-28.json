@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-28T14:33:30.256042",
+  "date": "2026-05-28T18:01:10.071956",
   "patterns": {
     "multimodal_research": [
       {
@@ -725,10 +725,6 @@
       {
         "title": "From Pixels to Words -- Towards Native One-Vision Models at Scale",
         "url": "https://arxiv.org/abs/2605.28820v1"
-      },
-      {
-        "title": "Raghav-Singhal/epe-1p-smollm-1p7b-100B-20n-2048sl-960gbsz-no_bce-refl_randmask50",
-        "url": "https://huggingface.co/Raghav-Singhal/epe-1p-smollm-1p7b-100B-20n-2048sl-960gbsz-no_bce-refl_randmask50"
       }
     ],
     "vision_systems": [
@@ -1757,7 +1753,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "99 independent papers",
+      "observation": "98 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1808,7 +1804,7 @@
       "significance": "high"
     },
     {
-      "topic": "alignment",
+      "topic": "prompt",
       "frequency": 33,
       "significance": "high"
     }
@@ -1816,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 428
   }
 }
