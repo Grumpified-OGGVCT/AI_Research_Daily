@@ -1,11 +1,22 @@
 {
-  "date": "2026-05-29T05:10:48.508869",
-  "patterns": {},
+  "date": "2026-05-29T09:43:17.286669",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "oscarv1114/tweeteval-emotion-bertweet-lora",
+        "url": "https://huggingface.co/oscarv1114/tweeteval-emotion-bertweet-lora"
+      },
+      {
+        "title": "TurjoDutta5555/wav2vec2bert-bengali-noisy-15db-1e5",
+        "url": "https://huggingface.co/TurjoDutta5555/wav2vec2bert-bengali-noisy-15db-1e5"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
