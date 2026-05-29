@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-29T19:30:49.439289",
+  "date": "2026-05-29T21:50:17.022924",
   "patterns": {
     "multimodal_research": [
       {
@@ -821,6 +821,14 @@
       {
         "title": "Stable-Layers: Fine-Tuning Image Layer Decomposition Models with VLM-Scored Reinforcement Learning",
         "url": "https://arxiv.org/abs/2605.30257v1"
+      },
+      {
+        "title": "Anish13/e10_qwen3_8b_lang_rl_stage2_lora_r64_a32_d0.05_lr9e-6_bsz2_ga4_g8_epochs10_seed42_ddp4_vllm",
+        "url": "https://huggingface.co/Anish13/e10_qwen3_8b_lang_rl_stage2_lora_r64_a32_d0.05_lr9e-6_bsz2_ga4_g8_epochs10_seed42_ddp4_vllm"
+      },
+      {
+        "title": "D1Lk0n/dialogpt-game-characters-bot",
+        "url": "https://huggingface.co/D1Lk0n/dialogpt-game-characters-bot"
       }
     ],
     "vision_systems": [
@@ -1095,10 +1103,6 @@
       {
         "title": "Stable-Layers: Fine-Tuning Image Layer Decomposition Models with VLM-Scored Reinforcement Learning",
         "url": "https://arxiv.org/abs/2605.30257v1"
-      },
-      {
-        "title": "Mingze/HNIVision-ResNet50",
-        "url": "https://huggingface.co/Mingze/HNIVision-ResNet50"
       }
     ],
     "reasoning": [
@@ -1861,13 +1865,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "114 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1920,6 +1924,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 455
+    "total_papers": 456
   }
 }
