@@ -23,7 +23,7 @@
     "title": "Learning to Choose: An Empowerment-Guided Multi-Agent System with semantic communication for Adaptive Method Selection",
     "summary": "Automating scientific computing workflows requires more than generating executable code: autonomous systems must also select appropriate computational strategies, implement them faithfully, and ensure that the resulting outcomes remain causally attributable to the decisions that produced them. In multi-agent pipelines, this process is particularly fragile, as small inconsistencies between agent intentions and actions can lead to semantic drift, where the eventually executed procedure no longer reflects the originally selected strategy, thereby corrupting downstream evaluation and adaptation. In this work, motivated by the ATHENA framework (Toscano et al., 2025; Toscano et al., 2026) and the concept of empowerment (Yiu et al., 2025), we introduce a multi-agent framework that combines contextual bandits with structured inter-agent communication and, most importantly, semantic checkpoints that preserve action-outcome fidelity throughout the pipeline. The system integrates specialized large language model (LLM) agents, grounded code generation, and self-healing execution loops within an adaptive decision-making architecture. Interpreting the framework through the lens of empowerment, we show that reliable autonomous learning requires not only identifying high-quality actions, but also preserving the integrity of their propagation across agents. Using sensitivity analysis and uncertainty quantification workflows as representative case studies, we demonstrate that unchecked semantic drift degrades policy learning, whereas the proposed framework improves convergence, robustness, and adaptation to novel problem contexts. These results suggest a broader design principle for scientific multi-agent systems: adaptive decision-making must be coupled with explicit mechanisms that guarantee semantic consistency and reliable information flow across the computational pipeline.",
     "authors": [
-      "Geremy Loacham\u00edn-Suntaxi",
+      "Geremy Loachamín-Suntaxi",
       "Robert Lazar",
       "Dimitrios G. Giovanis",
       "Ioannis G. Kevrekidis",
@@ -910,7 +910,7 @@
     "summary": "Large language models (LLMs) are increasingly used to generate software artifacts across many software engineering (SE) tasks, yet ensuring the semantic validity of these artifacts remains a fundamental challenge. Existing constrained decoding techniques can enforce syntactic correctness and, in some cases, specific semantic rules, but lack a general representation that bridges LLM-generated text with the reasoning required for semantic validation in SE. In this paper, we propose projectional decoding, a novel conceptual framework that integrates domain semantics directly into the generation process by maintaining, alongside text, a partial graph model as the primary artifact representation throughout generation. This abstract representation enables incremental semantic validation by explicitly capturing uncertainty and natively supporting error detection, while guiding generation toward semantically valid outputs with provable guarantees. We present preliminary results on a program generation task which demonstrate the potential of this approach to improve the semantic validity of LLM-generated artifacts. We also discuss how projectional decoding can enable verifiable automation with LLMs across various SE activities.",
     "authors": [
       "Boqi Chen",
-      "Jos\u00e9 Antonio Hern\u00e1ndez L\u00f3pez",
+      "José Antonio Hernández López",
       "Aren A. Babikian"
     ],
     "categories": [
@@ -1024,7 +1024,7 @@
   {
     "arxiv_id": "2605.30166v1",
     "title": "SAHG: Sector-Anisotropic Hyperbolic Graph Model for Social Bot Detection",
-    "summary": "LLM-driven social bots can generate fluent, human-like text, reducing the discriminative advantage of content-based detection alone. However, coordinated campaigns still leave relational patterns -- interactions, behavioral similarity, shared neighborhoods, community positions, and coordinated activity -- that graph-based methods can exploit. Existing graph detectors face two challenges when exploiting such evidence. First, Euclidean GNNs distort hierarchical and scale-free social graphs; while hyperbolic geometry addresses this volume-growth mismatch, fixed-curvature models still assign uniform geometric resolution to structural directions with different densities and separation needs. Second, relational evidence is not always reliable: sophisticated bots forge heterophilic connections with genuine users, causing neighborhood aggregation to mix bot and human signals and dilute account-level evidence. We propose \\textsc{SAHG} (Sector-Anisotropic Hyperbolic Graph), addressing both challenges. \\textsc{SAHG} learns a direction-dependent curvature field $\u03b3(u)$ that adapts geometric resolution across structural directions, and uses sector prototypes to convert angular concentration and alignment into classifier-readable features. To prevent contaminated aggregation from overwhelming account-level evidence, \\textsc{SAHG} encodes per-account features and graph-neighborhood representations in two independent SAH channels, fusing them only at the classifier. Experiments on Fox8-23, BotSim-24, and MGTAB show that \\textsc{SAHG} achieves the highest accuracy and F1 on all three benchmarks, outperforming feature-based, graph-based, LLM-based, and isotropic hyperbolic baselines. Ablation and geometric analyses confirm the effectiveness of the anisotropic geometry and dual-channel design.",
+    "summary": "LLM-driven social bots can generate fluent, human-like text, reducing the discriminative advantage of content-based detection alone. However, coordinated campaigns still leave relational patterns -- interactions, behavioral similarity, shared neighborhoods, community positions, and coordinated activity -- that graph-based methods can exploit. Existing graph detectors face two challenges when exploiting such evidence. First, Euclidean GNNs distort hierarchical and scale-free social graphs; while hyperbolic geometry addresses this volume-growth mismatch, fixed-curvature models still assign uniform geometric resolution to structural directions with different densities and separation needs. Second, relational evidence is not always reliable: sophisticated bots forge heterophilic connections with genuine users, causing neighborhood aggregation to mix bot and human signals and dilute account-level evidence. We propose \\textsc{SAHG} (Sector-Anisotropic Hyperbolic Graph), addressing both challenges. \\textsc{SAHG} learns a direction-dependent curvature field $γ(u)$ that adapts geometric resolution across structural directions, and uses sector prototypes to convert angular concentration and alignment into classifier-readable features. To prevent contaminated aggregation from overwhelming account-level evidence, \\textsc{SAHG} encodes per-account features and graph-neighborhood representations in two independent SAH channels, fusing them only at the classifier. Experiments on Fox8-23, BotSim-24, and MGTAB show that \\textsc{SAHG} achieves the highest accuracy and F1 on all three benchmarks, outperforming feature-based, graph-based, LLM-based, and isotropic hyperbolic baselines. Ablation and geometric analyses confirm the effectiveness of the anisotropic geometry and dual-channel design.",
     "authors": [
       "Hanning Lu",
       "Yingguang Yang",
@@ -1101,7 +1101,7 @@
     "authors": [
       "M. Ali Bayram",
       "Banu Diri",
-      "Sava\u015f Y\u0131ld\u0131r\u0131m"
+      "Savaş Yıldırım"
     ],
     "categories": [
       "cs.CL"
@@ -1199,7 +1199,7 @@
       "Yuchong Sun",
       "Ruizhe Chen",
       "Zhaohai Li",
-      "Chenxu L\u00fc",
+      "Chenxu Lü",
       "Zhibo Yang",
       "Tao Yu",
       "Xionghui Chen"
@@ -1332,7 +1332,7 @@
   {
     "arxiv_id": "2605.30117v1",
     "title": "VLA-Trace: Diagnosing Vision-Language-Action Models through Representation and Behavior Tracing",
-    "summary": "Understanding how Vision-Language-Action (VLA) models transform multimodal knowledge into embodied control remains an open challenge. We present VLA-Trace, a progressive diagnostic framework that analyzes VLA models through a unified evidence chain from representation dynamics to causal control attribution and behavioral manifestation. It specifically combines cross-modal and checkpoint-drift centered kernel alignment (CKA) to trace representation evolution, attention knockout interventions to identify modality-specific control pathways, and rollout-level behavioral probes to examine grounding, shortcut dependence, and semantic following. Experiments on $\u03c0_{0.5}$ and OpenVLA reveal three key findings. First, the two models exhibit distinct modality-specific adaptation dynamics during VLA finetuning. Second, they rely on different multimodal routing strategies and layer-wise dependencies during action decoding. Third, although VLA policies excel at visually grounded trajectory generation, they remain limited in fine-grained semantic following. These findings highlight future directions for representation-preserving adaptation, causal VLA circuits, and compositional semantic control.",
+    "summary": "Understanding how Vision-Language-Action (VLA) models transform multimodal knowledge into embodied control remains an open challenge. We present VLA-Trace, a progressive diagnostic framework that analyzes VLA models through a unified evidence chain from representation dynamics to causal control attribution and behavioral manifestation. It specifically combines cross-modal and checkpoint-drift centered kernel alignment (CKA) to trace representation evolution, attention knockout interventions to identify modality-specific control pathways, and rollout-level behavioral probes to examine grounding, shortcut dependence, and semantic following. Experiments on $π_{0.5}$ and OpenVLA reveal three key findings. First, the two models exhibit distinct modality-specific adaptation dynamics during VLA finetuning. Second, they rely on different multimodal routing strategies and layer-wise dependencies during action decoding. Third, although VLA policies excel at visually grounded trajectory generation, they remain limited in fine-grained semantic following. These findings highlight future directions for representation-preserving adaptation, causal VLA circuits, and compositional semantic control.",
     "authors": [
       "Haoyuan Shi",
       "Xiancong Ren",
@@ -1720,7 +1720,7 @@
   {
     "arxiv_id": "2605.30277v1",
     "title": "Neural Operator-Based Surrogate Model for CFD:Helical Coil Steam Generator in Small Modular Reactor",
-    "summary": "Real-time thermal-hydraulic simulation is essential for digital twin (DT) technology that supports the safe and efficient operation of small modular reactors (SMRs). Computational fluid dynamics (CFD) provides high-fidelity flow analysis, but its computational cost prevents direct use in DT applications. AI-based surrogate modeling has been actively investigated to address this limitation, yet neural operator--based surrogates for CFD-level transient analysis of SMR-specific geometries have not been reported. This study presents an integrated framework that combines a reduced-order model (ROM) with neural operators, applied to the helical coil steam generator (HCSG) of the System-integrated Modular Advanced Reactor (SMART). Two ROM strategies tailored to each CFD data type were compared, an MLP-based autoencoder (AE) for unstructured mesh data and a convolutional autoencoder (CAE) for structured mesh data, and each was coupled with the deep operator network (DeepONet) to construct the latent DeepONet (L-DeepONet). The Fourier neural operator (FNO) was additionally adopted for comparison. A multi-scale technique was incorporated into both frameworks to mitigate spectral bias and improve the prediction of K\u00e1rm\u00e1n vortex streets developing inside the HCSG. The multi-scale L-DeepONet captured the instantaneous periodic vortex dynamics in both velocity and pressure fields, while the FNO and its multi-scale variant predicted the time-averaged mean flow and provided reliable pressure drop estimates. These complementary characteristics provide a practical model-selection guideline that links each architecture to specific DT objectives based on CFD data type and the required level of flow resolution.",
+    "summary": "Real-time thermal-hydraulic simulation is essential for digital twin (DT) technology that supports the safe and efficient operation of small modular reactors (SMRs). Computational fluid dynamics (CFD) provides high-fidelity flow analysis, but its computational cost prevents direct use in DT applications. AI-based surrogate modeling has been actively investigated to address this limitation, yet neural operator--based surrogates for CFD-level transient analysis of SMR-specific geometries have not been reported. This study presents an integrated framework that combines a reduced-order model (ROM) with neural operators, applied to the helical coil steam generator (HCSG) of the System-integrated Modular Advanced Reactor (SMART). Two ROM strategies tailored to each CFD data type were compared, an MLP-based autoencoder (AE) for unstructured mesh data and a convolutional autoencoder (CAE) for structured mesh data, and each was coupled with the deep operator network (DeepONet) to construct the latent DeepONet (L-DeepONet). The Fourier neural operator (FNO) was additionally adopted for comparison. A multi-scale technique was incorporated into both frameworks to mitigate spectral bias and improve the prediction of Kármán vortex streets developing inside the HCSG. The multi-scale L-DeepONet captured the instantaneous periodic vortex dynamics in both velocity and pressure fields, while the FNO and its multi-scale variant predicted the time-averaged mean flow and provided reliable pressure drop estimates. These complementary characteristics provide a practical model-selection guideline that links each architecture to specific DT objectives based on CFD data type and the required level of flow resolution.",
     "authors": [
       "Minseo Lee",
       "Seongmin Oh",
@@ -1827,7 +1827,7 @@
     "summary": "We introduce TriSearch, a reinforcement learning framework for optimizing objectives over triangulations of a polytope via bistellar flips. The key idea is a circuit-supported subtriangulation action representation: feasible flips are encoded by their supporting circuit and realized local subtriangulation, enabling a learned policy to rank them using local geometric and combinatorial features. This yields a dimension-agnostic interface and enables efficient traversal of the flip graph without explicit enumeration of the full triangulation space. Instantiated in 3D and 4D, TriSearch generalizes zero-shot from small training instances to larger polytopes with exponentially larger search spaces. It achieves top performance on metric objectives in 3D and, in 4D, discovers more distinct Fine, Regular, Star triangulations of reflexive polytopes, corresponding to Calabi-Yau threefolds, than existing samplers under a fixed budget.",
     "authors": [
       "Yiran Wang",
-      "Guido Mont\u00fafar"
+      "Guido Montúfar"
     ],
     "categories": [
       "cs.LG"
@@ -1842,7 +1842,7 @@
   {
     "arxiv_id": "2605.30174v1",
     "title": "LiveSVG: Zero-Shot SVG Animation via Video Generation",
-    "summary": "We introduce LiveSVG, a zero-shot approach for generating Scalable Vector Graphics (SVG) animations using video diffusion models. Current SVG animation methods struggle with complex motions: LLM-based code synthesis fails to express fine, non-rigid B\u00e9zier deformations, while Score Distillation Sampling (SDS) provides noisy gradients and often requires category-specific priors like skeletons. In contrast, LiveSVG fits vector geometry directly to an explicitly generated target video. Given an input SVG image and a motion prompt, we generate a previewable target video using a frozen image-to-video model, then fit the original SVG to this video via differentiable rendering. Our fitting stage is skeleton-free, utilizing a dual-level motion representation that combines per-group homographies for coarse articulation with per-path B\u00e9zier control-point offsets for local deformations. To resolve color-induced correspondence ambiguities during pixel-wise fitting, we introduce a novel sphere-packing recolorization strategy. We also present ChallengeSVG, a benchmark of complex, multi-object scenes that exposes the limitations of prior work. Evaluations demonstrate that LiveSVG significantly outperforms existing methods on both AniClipart and ChallengeSVG, establishing direct reference-video fitting as a practical, robust route to prompt-aligned and fully editable vector animation.",
+    "summary": "We introduce LiveSVG, a zero-shot approach for generating Scalable Vector Graphics (SVG) animations using video diffusion models. Current SVG animation methods struggle with complex motions: LLM-based code synthesis fails to express fine, non-rigid Bézier deformations, while Score Distillation Sampling (SDS) provides noisy gradients and often requires category-specific priors like skeletons. In contrast, LiveSVG fits vector geometry directly to an explicitly generated target video. Given an input SVG image and a motion prompt, we generate a previewable target video using a frozen image-to-video model, then fit the original SVG to this video via differentiable rendering. Our fitting stage is skeleton-free, utilizing a dual-level motion representation that combines per-group homographies for coarse articulation with per-path Bézier control-point offsets for local deformations. To resolve color-induced correspondence ambiguities during pixel-wise fitting, we introduce a novel sphere-packing recolorization strategy. We also present ChallengeSVG, a benchmark of complex, multi-object scenes that exposes the limitations of prior work. Evaluations demonstrate that LiveSVG significantly outperforms existing methods on both AniClipart and ChallengeSVG, establishing direct reference-video fitting as a practical, robust route to prompt-aligned and fully editable vector animation.",
     "authors": [
       "Matan Levy",
       "Ran Margolin",
@@ -2156,8 +2156,8 @@
     "title": "CalArena: A Large-Scale Post-Hoc Calibration Benchmark",
     "summary": "Reliable probability estimates are critical in many machine learning applications, yet modern classifiers are often poorly calibrated. Post-hoc calibration provides a simple and widely used solution, but the large number of proposed methods, combined with small-scale and inconsistent evaluations, makes it difficult to determine which approaches are truly effective in practice. We introduce a large-scale, standardized benchmark for post-hoc calibration, covering nearly 2000 experiments across tabular and computer vision tasks, including binary, multiclass, and large-scale classification settings. Our benchmark aggregates predictions from a diverse set of classical models, modern deep learning architectures, and foundation models, and provides unified, reproducible implementations of dozens of calibration methods within a common evaluation framework. We argue that Post-Hoc Improvement (PHI) in proper scoring rules offers a principled alternative to traditional calibration error estimators for comparing post-hoc methods, capturing both calibration quality and potential degradation to the model's predictive performance. Using this framework, we conduct the most comprehensive empirical study of post-hoc calibration to date. Our results reveal consistent patterns across domains: smooth calibration functions outperform binning-based approaches, dedicated multiclass methods are essential in high-dimensional settings, and generic machine learning models are not competitive without calibration-specific design. To facilitate future research, we release all data, code, and evaluation tools, providing a plug-and-play benchmark for developing and comparing calibration methods.",
     "authors": [
-      "Eug\u00e8ne Berta",
-      "David Holzm\u00fcller",
+      "Eugène Berta",
+      "David Holzmüller",
       "Francis Bach",
       "Michael I. Jordan"
     ],
@@ -2862,7 +2862,7 @@
       "David Hagerman",
       "Roman Naeem",
       "Jakob Lindqvist",
-      "Carl Lindstr\u00f6m",
+      "Carl Lindström",
       "Fredrik Kahl",
       "Lennart Svensson"
     ],
@@ -2925,7 +2925,7 @@
     "summary": "Large language models (LLMs) show promise for clinical reasoning and decision support, but evaluation in realistic, electronic health record-congruent settings remains limited. Existing benchmarks often rely on static datasets or unstructured inputs that do not reflect the structured, interoperable data formats used in clinical systems. We introduce a pipeline for generating clinically realistic HL7 FHIR R4 bundles from unstructured text, enabling controllable evaluation of clinical decision support systems. The pipeline combines staged LLM generation with terminology-grounded validation and repair to reduce hallucinated codes and enforce structural and semantic consistency. Applying this approach to MedCaseReasoning, we construct MedCase-Structured, a synthetic dataset aligned with clinician-authored diagnostic cases, achieving valid FHIR generation for 82.5% of cases. Evaluation on MedCase-Structured reveals consistently lower diagnostic accuracy for LLMs on structured FHIR inputs than with plain text, highlighting the importance of deployment-aligned benchmarking.",
     "authors": [
       "Valentina Bui Muti",
-      "Eug\u00e9nie Dulout",
+      "Eugénie Dulout",
       "Ziquan Fu"
     ],
     "categories": [
@@ -3070,7 +3070,7 @@
     "title": "Discovering Cooperative Pipelines: Autoresearch for Sequential Social Dilemmas",
     "summary": "We study two-level autoresearch for cooperation: an outer-loop AI agent autonomously redesigns the inner-loop pipeline of an LLM policy-synthesis system for multi-agent Sequential Social Dilemmas (SSDs). A researcher agent $\\mathcal{R}$ (run as a coding agent) reads the inner-loop source code, edits system prompts, feedback functions, helper libraries, and iteration logic, runs evaluations, and decides what to keep, following the autoresearch paradigm. Across two games (Cleanup and Gathering), two policy-synthesizer LLMs, and two welfare objectives (utilitarian efficiency and Rawlsian maximin), the researcher reliably exceeds hand-designed baselines, sharply tightens run-to-run variance, and outperforms prompt-only optimization. The discovered pipelines are objective-dependent: only under maximin does the researcher inject an explicit fairness mechanism into synthesizer pipelines, a class of mechanism that is absent from its own objective-agnostic system prompt and from every efficiency-optimized pipeline. This supports an information-design reading in which the researcher chooses what to reveal to the boundedly rational synthesizer as a function of the welfare objective. Code at https://github.com/vicgalle/autoresearch-social-dilemmas.",
     "authors": [
-      "V\u00edctor Gallego"
+      "Víctor Gallego"
     ],
     "categories": [
       "cs.MA",
@@ -3181,7 +3181,7 @@
     "summary": "Always-on edge systems must keep learning as conditions change under tight compute budgets and must detect unreliable predictions. Bayesian binary neural networks are attractive in this setting, but mean-field Bernoulli posteriors can saturate on long non-stationary streams, wiping out epistemic uncertainty and freezing plasticity. We propose BiMU, derived from a bounded-memory variational objective that balances stability, plasticity, and forgetting. BiMU combines a data term with controlled relaxation toward the prior and an uncertainty-dependent step size that prevents saturation and sustains informative uncertainty. This non-degenerate posterior enables fully online, buffer-free active querying via Monte Carlo disagreement, reducing label queries and backpropagation updates under imbalance. BiMU sustains learning and strong OOD detection on 1000-tasks Permuted-MNIST, and on OpenLORIS-Object achieves up to 32$\\times$ label/update savings at matched accuracy under class imbalance and feature compression.",
     "authors": [
       "Kellian Cottart",
-      "Th\u00e9o Ballet",
+      "Théo Ballet",
       "Djohan Bonnet",
       "Damien Querlioz"
     ],
@@ -3475,7 +3475,7 @@
   {
     "arxiv_id": "2605.30059v1",
     "title": "Ridge Regression from Poisson Resetting: A Renewal Perspective on Spectral Regularization",
-    "summary": "We connect stochastic resetting from non-equilibrium statistical physics with ridge regularization in statistical learning. For linear gradient flow, resetting to the origin at rate $r$ produces stationary mean $(X^\\top X+rI)^{-1}X^\\top y$, exactly the ridge estimator with penalty $\u03bb=r$. This uses the known Laplace-transform relationship between ridge regression and exponential-time averaging of gradient flow, with the exponential time now interpreted as the stationary age associated with Poisson resetting. We then extend this identity to general renewal reset laws: the exponential reset time distribution is the unique renewal law whose stationary mean reproduces scalar ridge in every eigendirection as an exact filter identity for every positive curvature, while non-exponential renewal laws generate alternative spectral filters. At the fluctuation level, we study a separate additive Ornstein-Uhlenbeck extension with constant diffusion, interpreted as a stylized SGD approximation. In this setting, the equality holds only at the level of the mean, since the reset process has a nonzero stationary covariance from accumulated OU noise and reset-timing variance, whereas deterministic ridge is a fixed estimator with the same center. Stylized experiments compare the deterministic renewal-induced filters directly and illustrate when filters induced by non-exponential reset-time laws can differ predictively from ridge. The results for the stationary mean and the induced spectral filters are established for continuous-time gradient flow with isotropic resetting on quadratic objectives; the covariance and risk formulas additionally assume additive noise with state-independent covariance.",
+    "summary": "We connect stochastic resetting from non-equilibrium statistical physics with ridge regularization in statistical learning. For linear gradient flow, resetting to the origin at rate $r$ produces stationary mean $(X^\\top X+rI)^{-1}X^\\top y$, exactly the ridge estimator with penalty $λ=r$. This uses the known Laplace-transform relationship between ridge regression and exponential-time averaging of gradient flow, with the exponential time now interpreted as the stationary age associated with Poisson resetting. We then extend this identity to general renewal reset laws: the exponential reset time distribution is the unique renewal law whose stationary mean reproduces scalar ridge in every eigendirection as an exact filter identity for every positive curvature, while non-exponential renewal laws generate alternative spectral filters. At the fluctuation level, we study a separate additive Ornstein-Uhlenbeck extension with constant diffusion, interpreted as a stylized SGD approximation. In this setting, the equality holds only at the level of the mean, since the reset process has a nonzero stationary covariance from accumulated OU noise and reset-timing variance, whereas deterministic ridge is a fixed estimator with the same center. Stylized experiments compare the deterministic renewal-induced filters directly and illustrate when filters induced by non-exponential reset-time laws can differ predictively from ridge. The results for the stationary mean and the induced spectral filters are established for continuous-time gradient flow with isotropic resetting on quadratic objectives; the covariance and risk formulas additionally assume additive noise with state-independent covariance.",
     "authors": [
       "Petar Jolakoski"
     ],
@@ -3497,7 +3497,7 @@
     "summary": "The behavior of LLMs does not depend solely on the model itself. Components of the inference system, such as the inference engine, attention backend, and hardware platform, subtly influence how inputs are processed. These components differ in their implementations and thereby induce small numerical deviations across systems when running the same model. While prior work has established the theoretical existence of such deviations, their security implications have remained unexplored. In this paper, we show that these deviations are characteristic of specific components and propagate to observable textual outputs, exposing the inference system to any party that can query the model. Building on this observation, we introduce a fingerprinting method that analyzes the prompt-response behavior of LLMs to identify components of the inference system. Our empirical evaluation demonstrates that the inference engine, attention backend, and underlying hardware platform can be identified reliably, even when the LLM is operated at non-zero temperature. We show that preventing fingerprinting is fundamentally hard, as it would require eliminating numerical differences between hardware and software stacks. We therefore propose partial mitigations and discuss their impact.",
     "authors": [
       "Anna Wimbauer",
-      "Jonas M\u00f6ller",
+      "Jonas Möller",
       "Erik Imgrund",
       "Konrad Rieck"
     ],
@@ -3605,7 +3605,7 @@
   {
     "arxiv_id": "2605.30253v1",
     "title": "Wasserstein Contraction of Coordinate Ascent Variational Inference",
-    "summary": "We study the contraction in Wasserstein distance of the coordinate ascent variational inference algorithm. This is shown to hold under a transport-information inequality at the fixed points and a functional smoothness condition. The results are general and sharp, allow for local convergence guarantees, hold for general smooth manifolds, and also in some non-smooth spaces. We consider applications to Bayesian Gaussian Mixture Models, and high-dimensional Bayesian Probit Regression, and Logistic Regression with P\u00f3lya-Gamma random variables (i.e. Jaakkola-Jordan's algorithm).",
+    "summary": "We study the contraction in Wasserstein distance of the coordinate ascent variational inference algorithm. This is shown to hold under a transport-information inequality at the fixed points and a functional smoothness condition. The results are general and sharp, allow for local convergence guarantees, hold for general smooth manifolds, and also in some non-smooth spaces. We consider applications to Bayesian Gaussian Mixture Models, and high-dimensional Bayesian Probit Regression, and Logistic Regression with Pólya-Gamma random variables (i.e. Jaakkola-Jordan's algorithm).",
     "authors": [
       "Rocco Caprio",
       "Adrien Corenflos",
@@ -3648,8 +3648,8 @@
   },
   {
     "arxiv_id": "2605.30215v1",
-    "title": "D\u00e9j\u00e0 View: Looping Transformers for Multi-View 3D Reconstruction",
-    "summary": "Recent feed-forward 3D reconstruction transformers have scaled to over a billion parameters, following the broader trend of increasing model capacity in computer vision. Yet emerging evidence suggests that contiguous transformer layers often behave like repeated applications of similar operations, and multi-view reconstruction transformers refine their predictions progressively across decoder depth. We posit that model depth partially buys iteration, paid for inefficiently in unique parameters, and instead make that iteration explicit in architecture. Our model, D\u00e9j\u00e0View, applies a single looped transformer block recurrently to per-view features for K refinement steps. Trained once, it exposes K as an inference-time compute knob, matching or outperforming substantially larger feed-forward baselines across five reconstruction benchmarks spanning indoor, outdoor, object-centric, and driving scenes, while using a fraction of their parameters and comparable or lower compute. Importantly, the same looped block formulation outperforms an otherwise identical variant with independent per-step parameters under matched training data and compute, suggesting that explicit iteration is not merely a compute-efficient substitute for capacity but a stronger inductive bias for multi-view 3D reconstruction.",
+    "title": "Déjà View: Looping Transformers for Multi-View 3D Reconstruction",
+    "summary": "Recent feed-forward 3D reconstruction transformers have scaled to over a billion parameters, following the broader trend of increasing model capacity in computer vision. Yet emerging evidence suggests that contiguous transformer layers often behave like repeated applications of similar operations, and multi-view reconstruction transformers refine their predictions progressively across decoder depth. We posit that model depth partially buys iteration, paid for inefficiently in unique parameters, and instead make that iteration explicit in architecture. Our model, DéjàView, applies a single looped transformer block recurrently to per-view features for K refinement steps. Trained once, it exposes K as an inference-time compute knob, matching or outperforming substantially larger feed-forward baselines across five reconstruction benchmarks spanning indoor, outdoor, object-centric, and driving scenes, while using a fraction of their parameters and comparable or lower compute. Importantly, the same looped block formulation outperforms an otherwise identical variant with independent per-step parameters under matched training data and compute, suggesting that explicit iteration is not merely a compute-efficient substitute for capacity but a stronger inductive bias for multi-view 3D reconstruction.",
     "authors": [
       "Alessandro Burzio",
       "Tobias Fischer",
@@ -3660,7 +3660,7 @@
       "Jiahui Huang",
       "Shengyu Huang",
       "Marc Pollefeys",
-      "Laura Leal-Taix\u00e9",
+      "Laura Leal-Taixé",
       "Zan Gojcic",
       "Haithem Turki"
     ],
@@ -3706,7 +3706,7 @@
       "Evgeniia Razumovskaia",
       "Xiaobin Wang",
       "Alexander Fraser",
-      "Ivan Vuli\u0107",
+      "Ivan Vulić",
       "Anna Korhonen"
     ],
     "categories": [
@@ -4000,7 +4000,7 @@
     "authors": [
       "James Rudd-Jones",
       "Mirco Musolesi",
-      "Mar\u00eda P\u00e9rez-Ortiz"
+      "María Pérez-Ortiz"
     ],
     "categories": [
       "cs.LG",
@@ -4184,7 +4184,7 @@
     "summary": "Foundation features from self-supervised vision models and text-to-image diffusion models have proven effective for semantic correspondence estimation. However, because these features are learned primarily from 2D image objectives, they lack explicit 3D awareness and often confuse symmetric object sides, repeated parts, and visually similar structures that are distinct in 3D. We introduce a 3D-aware post-training framework that goes beyond available 2D foundation features by incorporating priors from 3D foundation models. Given an image, our method uses SAM3D to estimate object geometry and pose, and refines the pose through render-and-compare optimization. Subsequently, we render PartField descriptors from the reconstructed geometry into the image plane based on the estimated object pose. The resulting geometry-aware feature maps complement DINO and Stable Diffusion features, while geodesic distances on the reconstructed shapes enable reliable filtering of candidate correspondences. We use the filtered matches as supervision to train a lightweight adapter on top of DINO and Stable Diffusion for semantic correspondence. In contrast to prior post-training approaches that require pose annotations and rely on coarse spherical geometry, our method automatically obtains instance-specific 3D structure and uses it to guide correspondence learning. Experiments show that our approach improves semantic correspondence over the prior methods while reducing manual geometric supervision. Code and model can be found at https:/github.com/GenIntel/3D-SC.",
     "authors": [
       "Artur Jesslen",
-      "Olaf D\u00fcnkel",
+      "Olaf Dünkel",
       "Adam Kortylewski"
     ],
     "categories": [
@@ -4326,39 +4326,6 @@
     "pdf_url": "https://arxiv.org/pdf/2605.30208v1.pdf",
     "date": "2026-05-29",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 33530,
-    "likes": 319,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-05-29T12:45:10.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-05-29",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4561,159 +4528,5 @@
     "date": "2026-05-29",
     "source": "arxiv",
     "research_score": 0.45
-  },
-  {
-    "model_id": "mlx-community/Step-3.7-Flash-4bit",
-    "author": "unknown",
-    "title": "mlx-community/Step-3.7-Flash-4bit",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "safetensors",
-      "step3p7",
-      "vision-language",
-      "multimodal",
-      "moe",
-      "text-generation",
-      "conversational",
-      "custom_code",
-      "en",
-      "base_model:stepfun-ai/Step-3.7-Flash",
-      "base_model:quantized:stepfun-ai/Step-3.7-Flash",
-      "license:apache-2.0",
-      "4-bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-05-29T10:41:49.000Z",
-    "last_modified": "2026-05-29T12:45:17.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mlx-community/Step-3.7-Flash-4bit",
-    "date": "2026-05-29",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ImTamsi/qwen3.6-27b-code-reviewer",
-    "author": "unknown",
-    "title": "ImTamsi/qwen3.6-27b-code-reviewer",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "vllm",
-      "code-review",
-      "code",
-      "mcp",
-      "qwen",
-      "static-analysis",
-      "text-generation",
-      "en",
-      "base_model:Qwen/Qwen3.6-27B",
-      "base_model:finetune:Qwen/Qwen3.6-27B",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "vllm",
-    "created_at": "2026-05-29T12:42:31.000Z",
-    "last_modified": "2026-05-29T12:42:36.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ImTamsi/qwen3.6-27b-code-reviewer",
-    "date": "2026-05-29",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cyberagent/CAT-Thinking-8B",
-    "author": "unknown",
-    "title": "cyberagent/CAT-Thinking-8B",
-    "downloads": 54,
-    "likes": 2,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "japanese",
-      "english",
-      "conversational",
-      "ja",
-      "en",
-      "base_model:Qwen/Qwen3-8B",
-      "base_model:finetune:Qwen/Qwen3-8B",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-28T03:43:02.000Z",
-    "last_modified": "2026-05-29T12:42:30.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/cyberagent/CAT-Thinking-8B",
-    "date": "2026-05-29",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "donate110/evolai_test",
-    "author": "unknown",
-    "title": "donate110/evolai_test",
-    "downloads": 1582,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "qwen3",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-05-28T18:21:14.000Z",
-    "last_modified": "2026-05-29T12:42:20.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/donate110/evolai_test",
-    "date": "2026-05-29",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cjiao/goldengoose-gumbel_combined_indoc_tau2.00-25grp",
-    "author": "unknown",
-    "title": "cjiao/goldengoose-gumbel_combined_indoc_tau2.00-25grp",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "grpo",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:Qwen/Qwen2.5-1.5B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-1.5B-Instruct",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-05-29T07:04:34.000Z",
-    "last_modified": "2026-05-29T12:42:05.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cjiao/goldengoose-gumbel_combined_indoc_tau2.00-25grp",
-    "date": "2026-05-29",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
