@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-29T12:46:16.985440",
+  "date": "2026-05-29T16:40:18.935462",
   "patterns": {
     "multimodal_research": [
       {
@@ -821,6 +821,18 @@
       {
         "title": "Stable-Layers: Fine-Tuning Image Layer Decomposition Models with VLM-Scored Reinforcement Learning",
         "url": "https://arxiv.org/abs/2605.30257v1"
+      },
+      {
+        "title": "mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-16-ML-384",
+        "url": "https://huggingface.co/mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-16-ML-384"
+      },
+      {
+        "title": "mhdafifan/indobert-squad-qasina-LR-1e-05-BS-16-ML-384",
+        "url": "https://huggingface.co/mhdafifan/indobert-squad-qasina-LR-1e-05-BS-16-ML-384"
+      },
+      {
+        "title": "mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-8-ML-384",
+        "url": "https://huggingface.co/mhdafifan/xlm-roberta-squad-qasina-LR-5e-06-BS-8-ML-384"
       }
     ],
     "vision_systems": [
@@ -1857,7 +1869,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "114 independent papers",
+      "observation": "117 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1916,6 +1928,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 454
+    "total_papers": 457
   }
 }
