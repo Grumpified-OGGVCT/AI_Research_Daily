@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-29T21:50:17.022924",
+  "date": "2026-05-29T23:09:06.215850",
   "patterns": {
     "multimodal_research": [
       {
@@ -821,14 +821,6 @@
       {
         "title": "Stable-Layers: Fine-Tuning Image Layer Decomposition Models with VLM-Scored Reinforcement Learning",
         "url": "https://arxiv.org/abs/2605.30257v1"
-      },
-      {
-        "title": "Anish13/e10_qwen3_8b_lang_rl_stage2_lora_r64_a32_d0.05_lr9e-6_bsz2_ga4_g8_epochs10_seed42_ddp4_vllm",
-        "url": "https://huggingface.co/Anish13/e10_qwen3_8b_lang_rl_stage2_lora_r64_a32_d0.05_lr9e-6_bsz2_ga4_g8_epochs10_seed42_ddp4_vllm"
-      },
-      {
-        "title": "D1Lk0n/dialogpt-game-characters-bot",
-        "url": "https://huggingface.co/D1Lk0n/dialogpt-game-characters-bot"
       }
     ],
     "vision_systems": [
@@ -1071,6 +1063,10 @@
       {
         "title": "GenClaw: Code-Driven Agentic Image Generation",
         "url": "https://arxiv.org/abs/2605.30248v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Boosting Image Quality Assessment Performance: Unsupervised Score Fusion by Deep Maximum a Posteriori Estimation",
@@ -1429,6 +1425,10 @@
       {
         "title": "VPG: Visual Prefix Guidance for Autoregressive Image and Video Generation",
         "url": "https://arxiv.org/abs/2605.30317v1"
+      },
+      {
+        "title": "McG-221/Pantheon-Reasoning-27B-mlx-8Bit",
+        "url": "https://huggingface.co/McG-221/Pantheon-Reasoning-27B-mlx-8Bit"
       }
     ],
     "benchmarks": [
@@ -1865,19 +1865,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "116 independent papers",
+      "observation": "114 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1912,7 +1912,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 42,
+      "frequency": 43,
       "significance": "high"
     },
     {
