@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-30T06:20:20.843313",
+  "date": "2026-05-30T09:13:10.028518",
   "patterns": {
     "multimodal_research": [
       {
@@ -823,12 +823,8 @@
         "url": "https://arxiv.org/abs/2605.30257v1"
       },
       {
-        "title": "mhdafifan/mdeberta-baseline-fiqhqa-ML-512",
-        "url": "https://huggingface.co/mhdafifan/mdeberta-baseline-fiqhqa-ML-512"
-      },
-      {
-        "title": "D1Lk0n/dialogpt-game-characters-bot",
-        "url": "https://huggingface.co/D1Lk0n/dialogpt-game-characters-bot"
+        "title": "JHC04567/spid-deberta-base",
+        "url": "https://huggingface.co/JHC04567/spid-deberta-base"
       }
     ],
     "vision_systems": [
@@ -1071,10 +1067,6 @@
       {
         "title": "GenClaw: Code-Driven Agentic Image Generation",
         "url": "https://arxiv.org/abs/2605.30248v1"
-      },
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       },
       {
         "title": "Boosting Image Quality Assessment Performance: Unsupervised Score Fusion by Deep Maximum a Posteriori Estimation",
@@ -1869,13 +1861,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "116 independent papers",
+      "observation": "115 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1928,6 +1920,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 457
+    "total_papers": 455
   }
 }
