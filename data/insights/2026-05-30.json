@@ -1,5 +1,5 @@
 {
-  "date": "2026-05-30T11:16:48.940989",
+  "date": "2026-05-30T13:13:57.218075",
   "patterns": {
     "multimodal_research": [
       {
@@ -823,8 +823,12 @@
         "url": "https://arxiv.org/abs/2605.30257v1"
       },
       {
-        "title": "Havoc-Jay/bert-sentiment-rag",
-        "url": "https://huggingface.co/Havoc-Jay/bert-sentiment-rag"
+        "title": "mhdafifan/xlm-roberta-baseline-fiqhqa-ML-512",
+        "url": "https://huggingface.co/mhdafifan/xlm-roberta-baseline-fiqhqa-ML-512"
+      },
+      {
+        "title": "mhdafifan/xlm-roberta-twostage-squad-fiqhqa-ML-512",
+        "url": "https://huggingface.co/mhdafifan/xlm-roberta-twostage-squad-fiqhqa-ML-512"
       }
     ],
     "vision_systems": [
@@ -1861,7 +1865,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "115 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1920,6 +1924,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 455
+    "total_papers": 456
   }
 }
