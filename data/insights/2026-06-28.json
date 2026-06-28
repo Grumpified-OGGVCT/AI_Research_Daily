@@ -1,33 +1,22 @@
 {
-  "date": "2026-06-28T20:55:41.373150",
+  "date": "2026-06-28T21:58:54.667677",
   "patterns": {
     "language_models": [
       {
-        "title": "fbaldassarri/TinyLlama_TinyLlama_v1.1-auto_gptq-int4-gs64-sym",
-        "url": "https://huggingface.co/fbaldassarri/TinyLlama_TinyLlama_v1.1-auto_gptq-int4-gs64-sym"
+        "title": "fbaldassarri/HuggingFaceTB_SmolLM2-1.7B-auto_gptq-int8-gs64-asym",
+        "url": "https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-1.7B-auto_gptq-int8-gs64-asym"
       },
       {
-        "title": "fbaldassarri/TinyLlama_TinyLlama_v1.1-auto_gptq-int4-gs64-asym",
-        "url": "https://huggingface.co/fbaldassarri/TinyLlama_TinyLlama_v1.1-auto_gptq-int4-gs64-asym"
-      },
-      {
-        "title": "Raghav-Singhal/sdsp-smollm-1p7b-100B-20n-2048sl-960gbsz-judgemental-cew_1p0-klw_30-tri34b",
-        "url": "https://huggingface.co/Raghav-Singhal/sdsp-smollm-1p7b-100B-20n-2048sl-960gbsz-judgemental-cew_1p0-klw_30-tri34b"
+        "title": "fbaldassarri/HuggingFaceTB_SmolLM2-1.7B-auto_round-int8-gs64-sym",
+        "url": "https://huggingface.co/fbaldassarri/HuggingFaceTB_SmolLM2-1.7B-auto_round-int8-gs64-sym"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
