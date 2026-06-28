@@ -1,11 +1,29 @@
 {
-  "date": "2026-06-28T17:03:08.690568",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-06-28T19:09:15.068525",
+  "patterns": {
+    "reasoning": [
+      {
+        "title": "litert-community/Phi-4-mini-reasoning",
+        "url": "https://huggingface.co/litert-community/Phi-4-mini-reasoning"
+      },
+      {
+        "title": "TirzYesLimit/qwen2.5-3b-grpo-reasoning-id",
+        "url": "https://huggingface.co/TirzYesLimit/qwen2.5-3b-grpo-reasoning-id"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
   }
 }
