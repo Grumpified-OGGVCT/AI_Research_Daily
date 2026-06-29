@@ -1,11 +1,22 @@
 {
-  "date": "2026-06-29T22:06:29.782774",
-  "patterns": {},
+  "date": "2026-06-29T23:58:21.083155",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "LLM-OS-Models/LFM2.5-8B-A1B-KO-SFT",
+        "url": "https://huggingface.co/LLM-OS-Models/LFM2.5-8B-A1B-KO-SFT"
+      },
+      {
+        "title": "LLM-OS-Models/LFM2.5-8B-A1B-KO-Agentic-SFT",
+        "url": "https://huggingface.co/LLM-OS-Models/LFM2.5-8B-A1B-KO-Agentic-SFT"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
