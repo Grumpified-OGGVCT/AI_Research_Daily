@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-30T20:54:42.552525",
+  "date": "2026-06-30T22:12:36.919516",
   "patterns": {
     "multimodal_research": [
       {
@@ -637,22 +637,6 @@
       {
         "title": "OmniCoT: A Benchmark for Global and Multi-Step Panoramic Reasoning",
         "url": "https://arxiv.org/abs/2606.30378v1"
-      },
-      {
-        "title": "81melody/algerianDeBERTa-realestate-intent",
-        "url": "https://huggingface.co/81melody/algerianDeBERTa-realestate-intent"
-      },
-      {
-        "title": "Marwa-yosry/arabert-arabic-fake-news",
-        "url": "https://huggingface.co/Marwa-yosry/arabert-arabic-fake-news"
-      },
-      {
-        "title": "Marwa-yosry/roberta-english-fake-news",
-        "url": "https://huggingface.co/Marwa-yosry/roberta-english-fake-news"
-      },
-      {
-        "title": "MohammadKhosravi/roberta-large-cefr-classifier-WCE",
-        "url": "https://huggingface.co/MohammadKhosravi/roberta-large-cefr-classifier-WCE"
       }
     ],
     "vision_systems": [
@@ -935,6 +919,10 @@
       {
         "title": "Optimizing Image Preparation and Compression for Face Recognition within 1024 Bytes",
         "url": "https://arxiv.org/abs/2606.30321v1"
+      },
+      {
+        "title": "wrice/whisper-tiny-grpo-4bddbd7-cv22-tiny-klbeta02",
+        "url": "https://huggingface.co/wrice/whisper-tiny-grpo-4bddbd7-cv22-tiny-klbeta02"
       }
     ],
     "reasoning": [
@@ -1625,13 +1613,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1684,6 +1672,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 396
+    "total_papers": 393
   }
 }
