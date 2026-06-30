@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-30T16:20:13.528221",
+  "date": "2026-06-30T18:52:51.037790",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,6 +639,10 @@
         "url": "https://arxiv.org/abs/2606.30378v1"
       },
       {
+        "title": "kerolos1/pharmacy-complaints-bert-v2",
+        "url": "https://huggingface.co/kerolos1/pharmacy-complaints-bert-v2"
+      },
+      {
         "title": "AIM-Intelligence/Qwen3.6-27B-abliterated-GPTQ-Int4-vllm-image",
         "url": "https://huggingface.co/AIM-Intelligence/Qwen3.6-27B-abliterated-GPTQ-Int4-vllm-image"
       }
@@ -927,6 +931,10 @@
       {
         "title": "AIM-Intelligence/Qwen3.6-27B-abliterated-GPTQ-Int4-vllm-image",
         "url": "https://huggingface.co/AIM-Intelligence/Qwen3.6-27B-abliterated-GPTQ-Int4-vllm-image"
+      },
+      {
+        "title": "wrice/whisper-tiny-grpo-4bddbd7-cv22-tiny-klbeta02",
+        "url": "https://huggingface.co/wrice/whisper-tiny-grpo-4bddbd7-cv22-tiny-klbeta02"
       }
     ],
     "reasoning": [
@@ -1617,13 +1625,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1676,6 +1684,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 394
+    "total_papers": 396
   }
 }
