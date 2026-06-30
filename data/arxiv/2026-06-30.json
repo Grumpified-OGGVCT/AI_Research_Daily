@@ -104,7 +104,7 @@
   {
     "arxiv_id": "2606.30358v1",
     "title": "Learning the structure of open quantum systems",
-    "summary": "We design an algorithm for learning the coefficients of an $n$-qubit constant-local Lindbladian to $\\varepsilon$ error with $O(g d^2 \\log(n) / \\varepsilon^2)$ total evolution time, where $g$ is the single-site energy and $d$ is the (approximate) degree of the interaction graph. Though Lindbladians present new challenges not present in the special case of Hamiltonians, our algorithm achieves the suite of desiderata attained by state-of-the-art Hamiltonian learning algorithms: (1) it uses non-adaptive, ancilla-free randomized Pauli measurement circuits with a time resolution of only $\u0398(1/g)$; (2) it works without knowledge of the structure of the unknown Lindbladian; (3) it depends on a smooth form of degree, thereby supporting the learning of quasi-local and power-law Lindbladians.   Our algorithm is a simple iterative method, where the objective function consists of Fourier coefficients of the Lindbladian restricted to few-site regions. Its analysis identifies the difficulty unique to open systems, which we call \"confusing\" terms. For settings where the \"confusion\" is limited, the performance of the algorithm improves. We demonstrate this for the case of structure learning of Hamiltonians from access to real-time evolution, where we obtain a new algorithm that is significantly simpler than previous work. In addition, using the same iterative method, we design the first efficient algorithm for structure learning Hamiltonians from high-temperature Gibbs states.",
+    "summary": "We design an algorithm for learning the coefficients of an $n$-qubit constant-local Lindbladian to $\\varepsilon$ error with $O(g d^2 \\log(n) / \\varepsilon^2)$ total evolution time, where $g$ is the single-site energy and $d$ is the (approximate) degree of the interaction graph. Though Lindbladians present new challenges not present in the special case of Hamiltonians, our algorithm achieves the suite of desiderata attained by state-of-the-art Hamiltonian learning algorithms: (1) it uses non-adaptive, ancilla-free randomized Pauli measurement circuits with a time resolution of only $Θ(1/g)$; (2) it works without knowledge of the structure of the unknown Lindbladian; (3) it depends on a smooth form of degree, thereby supporting the learning of quasi-local and power-law Lindbladians.   Our algorithm is a simple iterative method, where the objective function consists of Fourier coefficients of the Lindbladian restricted to few-site regions. Its analysis identifies the difficulty unique to open systems, which we call \"confusing\" terms. For settings where the \"confusion\" is limited, the performance of the algorithm improves. We demonstrate this for the case of structure learning of Hamiltonians from access to real-time evolution, where we obtain a new algorithm that is significantly simpler than previous work. In addition, using the same iterative method, we design the first efficient algorithm for structure learning Hamiltonians from high-temperature Gibbs states.",
     "authors": [
       "Laura Lewis",
       "Ewin Tang",
@@ -259,7 +259,7 @@
   {
     "arxiv_id": "2606.30576v1",
     "title": "Beyond 2D Matching: A Unified Single-Stage Framework for Geometry-Aware Cross-View Object Geo-Localization",
-    "summary": "Cross-view object geo-localization (CVOGL) aims to locate a target object from a query view (e.g., ground or drone) within a geo-tagged reference image (e.g., satellite). Existing approaches heavily rely on 2D appearance matching and are constrained by limited datasets lacking geometric metadata, diverse prompts, and standard field-of-view imagery. To address these intertwined challenges, we first introduce \\dataset, a large-scale, high-fidelity building dataset comprising over 220,000 ground-satellite and drone-satellite pairs. It provides multi-modal prompts (points, boxes, masks) and camera poses to enable flexible target referring and explicit spatial modeling. Furthermore, we propose a novel single-stage Geometry-Aware Geo-localization framework (GAGeo), built upon the permutation-equivariant 3D foundation model $\u03c0^3$. By seamlessly integrating visual features, referring prompts, and learnable task tokens, our model adapts the inherited 3D prior to jointly predict bounding boxes, segmentation masks, and camera poses in a single forward pass. Additionally, we introduce a contrastive loss that utilizes the satellite view as a universal anchor, implicitly aligning ground and drone representations to enable zero-shot ground-to-drone localization without requiring triplet training data. Extensive experiments demonstrate that our approach significantly outperforms state-of-the-art methods, exhibiting exceptional generalization ability in unseen scenes and novel cross-view setups.",
+    "summary": "Cross-view object geo-localization (CVOGL) aims to locate a target object from a query view (e.g., ground or drone) within a geo-tagged reference image (e.g., satellite). Existing approaches heavily rely on 2D appearance matching and are constrained by limited datasets lacking geometric metadata, diverse prompts, and standard field-of-view imagery. To address these intertwined challenges, we first introduce \\dataset, a large-scale, high-fidelity building dataset comprising over 220,000 ground-satellite and drone-satellite pairs. It provides multi-modal prompts (points, boxes, masks) and camera poses to enable flexible target referring and explicit spatial modeling. Furthermore, we propose a novel single-stage Geometry-Aware Geo-localization framework (GAGeo), built upon the permutation-equivariant 3D foundation model $π^3$. By seamlessly integrating visual features, referring prompts, and learnable task tokens, our model adapts the inherited 3D prior to jointly predict bounding boxes, segmentation masks, and camera poses in a single forward pass. Additionally, we introduce a contrastive loss that utilizes the satellite view as a universal anchor, implicitly aligning ground and drone representations to enable zero-shot ground-to-drone localization without requiring triplet training data. Extensive experiments demonstrate that our approach significantly outperforms state-of-the-art methods, exhibiting exceptional generalization ability in unseen scenes and novel cross-view setups.",
     "authors": [
       "Liyao Wang",
       "Ruipu Wu",
@@ -510,7 +510,7 @@
     "authors": [
       "Romain Karpinsky",
       "Julien Mozziconacci",
-      "Micka\u00ebl Delcey"
+      "Mickaël Delcey"
     ],
     "categories": [
       "q-bio.GN",
@@ -934,8 +934,8 @@
   },
   {
     "arxiv_id": "2606.30528v1",
-    "title": "$\u03bc$Flow: Leveraging Average Images for Improving Generalisation of Deepfake Faces Detectors",
-    "summary": "Current generative models, including GANs and diffusion models, have reached an outstanding level of photorealism, posing significant risks to privacy and security. To ensure real-world applicability, deepfake detectors must generalise effectively to unseen generators. However, most existing approaches rely on supervised training with both real and fake images, which limits their generalisation especially across generators categories (e.g. GANs vs DMs). In this work, we introduce $\u03bc$Flow, a one-class deepfake detector trained only on real images without relying on pseudo-deepfakes or synthetic artifacts. Our approach builds on the observation that averaging multiple images amplifies consistent generative traces, producing highly discriminative feature representations. We leverage this property by modelling the distribution of features extracted from averaged images and training a normalizing flow to align the feature space of individual images with this distribution. This alignment yields a likelihood-based criterion that separates real and fake samples while promoting strong generalisation. We evaluate $\u03bc$Flow on a fully out-of-distribution setting, where both real and fake datasets are unseen during training. Experimental results show that our method significantly outperforms SOTA detectors. Project page: https://opontorno.github.io/MuFlow.",
+    "title": "$μ$Flow: Leveraging Average Images for Improving Generalisation of Deepfake Faces Detectors",
+    "summary": "Current generative models, including GANs and diffusion models, have reached an outstanding level of photorealism, posing significant risks to privacy and security. To ensure real-world applicability, deepfake detectors must generalise effectively to unseen generators. However, most existing approaches rely on supervised training with both real and fake images, which limits their generalisation especially across generators categories (e.g. GANs vs DMs). In this work, we introduce $μ$Flow, a one-class deepfake detector trained only on real images without relying on pseudo-deepfakes or synthetic artifacts. Our approach builds on the observation that averaging multiple images amplifies consistent generative traces, producing highly discriminative feature representations. We leverage this property by modelling the distribution of features extracted from averaged images and training a normalizing flow to align the feature space of individual images with this distribution. This alignment yields a likelihood-based criterion that separates real and fake samples while promoting strong generalisation. We evaluate $μ$Flow on a fully out-of-distribution setting, where both real and fake datasets are unseen during training. Experimental results show that our method significantly outperforms SOTA detectors. Project page: https://opontorno.github.io/MuFlow.",
     "authors": [
       "Orazio Pontorno",
       "Mattia Litrico",
@@ -960,8 +960,8 @@
     "summary": "Forecasting visual fields (VFs) is critical for personalized monitoring and treatment planning in glaucoma. This is inherently uncertain due to heterogeneous disease progression and measurement variability, yet most existing methods produce single deterministic predictions that fail to represent this uncertainty. We formulate VF forecasting as a probabilistic prediction problem and the use of conditioned denoising diffusion models to generate distributions of plausible future VFs from longitudinal observations with irregular follow-up intervals. Experiments on two independent VF cohorts show that diffusion-based predictions produce well-calibrated distributions for clinically relevant VF measures. When reduced to a standard point-estimate, the proposed approach achieves state-of-the-art accuracy compared to clinical baselines and prior learning-based methods. Our results highlight the advantages of distributional modeling for VF forecasting and support a shift from point-estimate prediction toward uncertainty-aware, clinically interpretable risk assessment in glaucoma.",
     "authors": [
       "Marta Colmenar Herrera",
-      "Pablo M\u00e1rquez Neila",
-      "\u015eerife Seda Kucur Erg\u00fcnay",
+      "Pablo Márquez Neila",
+      "Şerife Seda Kucur Ergünay",
       "Martin S. Zinkernagel",
       "Raphael Sznitman"
     ],
@@ -1008,7 +1008,7 @@
       "Maximilian Schambach",
       "Marco Spinaci",
       "Sam Thelin",
-      "Johannes H\u00f6hne"
+      "Johannes Höhne"
     ],
     "categories": [
       "cs.LG"
@@ -1132,7 +1132,7 @@
     "authors": [
       "Yousuf Moiz Ali",
       "Jaroslaw E. Prilepsky",
-      "Jo\u00e3o Pedro",
+      "João Pedro",
       "Sasipim Srivallapanondh",
       "Antonio Napoli",
       "Sergei K. Turitsyn",
@@ -1284,9 +1284,9 @@
     "title": "A Stochastic--Geometric Theory of Scaling Laws in Grokking",
     "summary": "Delayed generalization (\\ie~grokking) refers to the phenomenon in which a neural network fits its training data early in training but only begins to generalize after a prolonged delay, often through an abrupt transition. Despite extensive empirical study, its underlying mechanism remains poorly understood. In this work, we first theoretically characterize a shell--core topological configuration of the reachable solution space induced by Adam's optimization dynamics with weight-shrinkage regularization, supported by empirical evidence. This optimization-induced topological configuration gives rise to grokking. In model's parameter space, random initialization solutions concentrate on a thin outer spherical shell, enclosing another spherical shell of memorization solutions, which in turn contains a core corresponding to the generalization solutions. Leveraging stopping-time theory, we then analyze the geometry of this topological configuration and the solution transition time at which optimization trajectories escape the memorization manifold and first reach the boundary of the generalization manifold. Our theoretical analysis derives grokking scaling laws for the learning rate, batch size, and $\\ell_2$ regularization coefficient, which are further validated through experiments and shown to recover results from prior literature.",
     "authors": [
-      "R\u00f3is\u00edn Luo",
-      "Christian Gagn\u00e9",
-      "Jonas Ngnaw\u00e9",
+      "Róisín Luo",
+      "Christian Gagné",
+      "Jonas Ngnawé",
       "Ihsan Ullah",
       "Karyn Morrissey"
     ],
@@ -1510,7 +1510,7 @@
     "summary": "Current evaluation protocols for Vision-Language Models (VLMs) in Radiology Report Generation (RRG) rely on report-level metrics that measure lexical overlap or aggregate clinical correctness. However, such metrics do not test whether individual diagnostic statements stem from the actual pathological evidence visible in the image. This allows models to achieve competitive scores by exploiting learned priors or spurious correlations, a failure mode we refer to as vision shortcut. We introduce SHOVIR, a benchmark for evaluating vision shortcut behavior in RRG. SHOVIR extends two spatially annotated chest X-ray datasets, MIMIC-CXR and PadChest-GR, with per-box CheXpert labels, and defines image-level and disease-level occlusion experiments that contrast baseline performance on clean images against localized, region-specific perturbations. Comparing predictions across these conditions isolates two failure modes at the disease-class level: direct shortcuts, where a finding persists after its visual evidence is removed, and contextual shortcuts, where detection degrades once co-occurring pathologies are occluded despite the target region remaining intact. Benchmarking eight state-of-the-art VLMs, we find that shortcut behavior varies substantially across architectures and datasets. Models achieving the highest baseline report quality do not necessarily rank highest in spatial grounding, revealing that clinically fluent generation can coexist with shallow reliance on visual evidence. These findings expose a blind spot in current RRG evaluation and motivate region-aware assessment protocols.",
     "authors": [
       "Filippo Ruffini",
-      "Marco Salm\u00e9",
+      "Marco Salmé",
       "Rosa Sicilia",
       "Valerio Guarrasi",
       "Paolo Soda"
@@ -1680,7 +1680,7 @@
   {
     "arxiv_id": "2606.30249v1",
     "title": "Curvature-Guided Sheaf Diffusion for Unsupervised Community Detection on Heterophilic Graphs",
-    "summary": "Detecting communities in heterophilic graphs -- where connected nodes often belong to different classes -- is hard for unsupervised methods: classical modularity and spectral methods are feature agnostic, while deep graph-clustering methods rely on contrastive or generative machinery that is opaque. We propose Curvature-Guided Sheaf Diffusion (CGSD), a fully unsupervised community-detection algorithm that uses the discrete Forman--Ricci curvature of each edge as its single topological signal, propagated through every stage of an end-to-end pipeline. CGSD makes three concrete contributions: (i)~a curvature-gated sheaf-diffusion encoder that gates edge messages by $\u03c3(\u03ba_e)$ and is trained from three label-free structural losses (modularity, anti-collapse, curvature-weighted reconstruction); (ii)~a curvature-aware spectral clusterer (CSpec) that re-weights the $k$-NN affinity of the embedding by $\u03c3(\u03b1\u03ba_{e^*})$ before Ng--Jordan--Weiss; and (iii)~a unified label-free evaluation against nine truly-unsupervised baselines. On five heterophilic benchmarks (Cora, Cornell, Texas, Wisconsin, Chameleon), CGSD wins outright on Wisconsin and Chameleon and is competitive on the remaining three against nine unsupervised baselines. The gain over the strongest baseline is driven by the clusterer, not the encoder: on the same embedding, CSpec improves mean NMI from $0.091$ with $K$-Means to $0.107$ ($+15\\%$, paired $t$-test $p=0.008$). The mechanism is interpretable: intra-community and inter-community curvature distributions are visibly separated. Code is open-sourced at https://github.com/woodywff/cgsd.",
+    "summary": "Detecting communities in heterophilic graphs -- where connected nodes often belong to different classes -- is hard for unsupervised methods: classical modularity and spectral methods are feature agnostic, while deep graph-clustering methods rely on contrastive or generative machinery that is opaque. We propose Curvature-Guided Sheaf Diffusion (CGSD), a fully unsupervised community-detection algorithm that uses the discrete Forman--Ricci curvature of each edge as its single topological signal, propagated through every stage of an end-to-end pipeline. CGSD makes three concrete contributions: (i)~a curvature-gated sheaf-diffusion encoder that gates edge messages by $σ(κ_e)$ and is trained from three label-free structural losses (modularity, anti-collapse, curvature-weighted reconstruction); (ii)~a curvature-aware spectral clusterer (CSpec) that re-weights the $k$-NN affinity of the embedding by $σ(ακ_{e^*})$ before Ng--Jordan--Weiss; and (iii)~a unified label-free evaluation against nine truly-unsupervised baselines. On five heterophilic benchmarks (Cora, Cornell, Texas, Wisconsin, Chameleon), CGSD wins outright on Wisconsin and Chameleon and is competitive on the remaining three against nine unsupervised baselines. The gain over the strongest baseline is driven by the clusterer, not the encoder: on the same embedding, CSpec improves mean NMI from $0.091$ with $K$-Means to $0.107$ ($+15\\%$, paired $t$-test $p=0.008$). The mechanism is interpretable: intra-community and inter-community curvature distributions are visibly separated. Code is open-sourced at https://github.com/woodywff/cgsd.",
     "authors": [
       "Feifan Wang"
     ],
@@ -1863,7 +1863,7 @@
       "Thomas Thebaud",
       "Georgi Tinchev",
       "Venkatesh Ravichandran",
-      "Laureano Moro-Vel\u00e1zquez"
+      "Laureano Moro-Velázquez"
     ],
     "categories": [
       "cs.CL",
@@ -1994,7 +1994,7 @@
       "Boshko Koloski",
       "Xiangjian Jiang",
       "Senja Pollak",
-      "Bla\u017e \u0160krlj",
+      "Blaž Škrlj",
       "Mateja Jamnik",
       "Nikola Simidjievski"
     ],
@@ -2041,9 +2041,9 @@
       "Raul Jimenez",
       "David Mateos",
       "Pavlos Protopapas",
-      "Pau Sol\u00e9-Vilar\u00f3",
-      "Pedro Taranc\u00f3n-\u00c1lvarez",
-      "Pablo Tejerina-P\u00e9rez"
+      "Pau Solé-Vilaró",
+      "Pedro Tarancón-Álvarez",
+      "Pablo Tejerina-Pérez"
     ],
     "categories": [
       "hep-th",
@@ -2132,7 +2132,7 @@
     "summary": "Large language models (LLMs) are increasingly used as agents in simulations of social systems, yet it remains unclear when their behavior can be interpreted as a faithful proxy for human decision-making. Here we test LLM agents against a direct empirical benchmark: a large-scale networked Prisoner's Dilemma experiment with human participants. Using the same interaction protocol, payoff structure, and network topologies, we compare nine open-weight LLMs with the human data. The selected model reproduces several macro-level features of cooperation dynamics, including the early decline and later stabilization of cooperation. This aggregate agreement, however, does not extend uniformly to finer levels of behavior. LLM populations underestimate individual-level heterogeneity and generate conditional cooperation patterns that differ from those observed in humans. Adding a fraction of random agents improves some aspects of micro-level agreement, but does not remove the mismatch in decision rules. These findings reveal a macro--micro dissociation in LLM-based social agents: collective outcomes can appear human-like even when the underlying behavioral distributions and mechanisms are not. They suggest that validating LLM agents as human surrogates requires comparisons across aggregate dynamics, individual heterogeneity, and context-dependent decision rules, rather than outcome-level agreement alone.",
     "authors": [
       "Henrique Ferraz de Arruda",
-      "Carlos Gracia L\u00e1zaro",
+      "Carlos Gracia Lázaro",
       "Alberto Aleta",
       "Yamir Moreno"
     ],
@@ -2298,7 +2298,7 @@
       "Egor Petrov",
       "Nursultan Abdullaev",
       "Mikhail Khrushchev",
-      "Samuel Horv\u00e1th"
+      "Samuel Horváth"
     ],
     "categories": [
       "cs.LG"
@@ -2335,7 +2335,7 @@
   {
     "arxiv_id": "2606.30602v1",
     "title": "MESA: Prioritizing Vulnerable Communication Channels for Securing Multi-Agent Systems",
-    "summary": "Multi-agent systems (MAS) are increasingly used to automate complex, distributed workflows. However, their inter-agent communication channels introduce new attack surfaces that remain poorly understood and are difficult to defend against. In this paper, we address how defenders should prioritize limited security effort to protect vulnerable communication channels before attacks are observed. This is motivated by our observation that the channel-level attack impact is highly non-uniform: a single compromised edge can account for up to 75% of total attack success. We introduce Mesa, a label-free framework for proactively ranking which MAS edges are most security-critical -- that is, most likely to affect the system's decision if compromised. Mesa combines six graph-theoretic metrics and two dynamic probes (ablation and masking) without requiring attack traces. We evaluate Mesa against a dynamic misinformation attack pipeline across three diverse MAS scenarios, eight network topologies, and five open-source LLMs from Qwen, Llama, and Gemma families. Mesa rankings correlate strongly with empirical per-edge attack success rate, achieving mean Spearman $\u03c1=+0.60$ (peaking at $+0.73$). In resource-constrained defense deployment, monitoring the top 10% of Mesa-ranked edges intercepts about 3x the successful attacks as random allocation. We further test Mesa under varying attacker and defender models and LangGraph workflows and characterize its limits under adaptive attacks and high-redundancy graphs. Overall, our results show that edge-level risk in MAS is often concentrated and predictable, allowing proactive hardening of multi-agent infrastructures.",
+    "summary": "Multi-agent systems (MAS) are increasingly used to automate complex, distributed workflows. However, their inter-agent communication channels introduce new attack surfaces that remain poorly understood and are difficult to defend against. In this paper, we address how defenders should prioritize limited security effort to protect vulnerable communication channels before attacks are observed. This is motivated by our observation that the channel-level attack impact is highly non-uniform: a single compromised edge can account for up to 75% of total attack success. We introduce Mesa, a label-free framework for proactively ranking which MAS edges are most security-critical -- that is, most likely to affect the system's decision if compromised. Mesa combines six graph-theoretic metrics and two dynamic probes (ablation and masking) without requiring attack traces. We evaluate Mesa against a dynamic misinformation attack pipeline across three diverse MAS scenarios, eight network topologies, and five open-source LLMs from Qwen, Llama, and Gemma families. Mesa rankings correlate strongly with empirical per-edge attack success rate, achieving mean Spearman $ρ=+0.60$ (peaking at $+0.73$). In resource-constrained defense deployment, monitoring the top 10% of Mesa-ranked edges intercepts about 3x the successful attacks as random allocation. We further test Mesa under varying attacker and defender models and LangGraph workflows and characterize its limits under adaptive attacks and high-redundancy graphs. Overall, our results show that edge-level risk in MAS is often concentrated and predictable, allowing proactive hardening of multi-agent infrastructures.",
     "authors": [
       "Kunyang Li",
       "Kyle Domico",
@@ -2487,11 +2487,11 @@
       "Andrej Tschalzev",
       "Nick Erickson",
       "Gioia Blayer",
-      "David Holzm\u00fcller",
+      "David Holzmüller",
       "Alan Arazi",
       "Alexander Pfefferle",
       "Mustafa Tajjar",
-      "Ga\u00ebl Varoquaux",
+      "Gaël Varoquaux",
       "Frank Hutter"
     ],
     "categories": [
@@ -2530,7 +2530,7 @@
   {
     "arxiv_id": "2606.30372v1",
     "title": "Using Large Language Models as Low-Cost Statistical Estimators for Human-Response Data",
-    "summary": "Quantitative research across the social and behavioral sciences depends on human subject experiments that are expensive, slow, and subject to sampling bias. Here we show that pretrained large language models induce risk-equivalent estimators of conditional expectations under squared loss, establishing restricted functional risk equivalence: under squared loss, the LLM induces an estimator whose risk matches the Bayes optimal risk for squared-loss prediction of conditional expectations for any inference that depends on the data only through the conditional mean. We formalize the LLM as a misspecified functional estimator $T(\\hat{P}_n)$ trained on i.i.d.\\ data, decompose the estimation error into representation bias $\u03b5_{\\mathrm{rep}}$ and optimization error, and prove that under mild regularity conditions the LLM's expected error converges to the irreducible population variance plus the squared representation bias, with the representation bias bounded by the Pinsker inequality. The identifiability error $\u03b4$ propagates into the effective bias, inflating the asymptotic risk floor. We establish restricted functional risk equivalence via a bidirectional Le Cam deficiency analysis: the forward deficiency vanishes asymptotically while the reverse deficiency is exactly zero. We provide finite-sample concentration bounds and a calibration protocol with explicit decision rules. The result is a precise, provable statement: a well-calibrated LLM achieves the Bayes-optimal risk for conditional-mean-dependent inference, bounded by explicit scope conditions. In practical applications, this means that under satisfied conditions and well-calibrated models, large language models can be used in many prediction and decision-making tasks that originally relied on human experiments, approximating near-optimal statistical inference at lower cost.",
+    "summary": "Quantitative research across the social and behavioral sciences depends on human subject experiments that are expensive, slow, and subject to sampling bias. Here we show that pretrained large language models induce risk-equivalent estimators of conditional expectations under squared loss, establishing restricted functional risk equivalence: under squared loss, the LLM induces an estimator whose risk matches the Bayes optimal risk for squared-loss prediction of conditional expectations for any inference that depends on the data only through the conditional mean. We formalize the LLM as a misspecified functional estimator $T(\\hat{P}_n)$ trained on i.i.d.\\ data, decompose the estimation error into representation bias $ε_{\\mathrm{rep}}$ and optimization error, and prove that under mild regularity conditions the LLM's expected error converges to the irreducible population variance plus the squared representation bias, with the representation bias bounded by the Pinsker inequality. The identifiability error $δ$ propagates into the effective bias, inflating the asymptotic risk floor. We establish restricted functional risk equivalence via a bidirectional Le Cam deficiency analysis: the forward deficiency vanishes asymptotically while the reverse deficiency is exactly zero. We provide finite-sample concentration bounds and a calibration protocol with explicit decision rules. The result is a precise, provable statement: a well-calibrated LLM achieves the Bayes-optimal risk for conditional-mean-dependent inference, bounded by explicit scope conditions. In practical applications, this means that under satisfied conditions and well-calibrated models, large language models can be used in many prediction and decision-making tasks that originally relied on human experiments, approximating near-optimal statistical inference at lower cost.",
     "authors": [
       "Haobo Yang"
     ],
@@ -2613,7 +2613,7 @@
     "title": "Inoculation Adapters: Improved Selective Generalization of Capabilities with Fewer Surprising Backdoors",
     "summary": "Inoculation prompting is a selective generalization technique used against Emergent Misalignment. We introduce inoculation adapters (IA), which similarly diminish the optimization pressure to learn undesired traits by strengthening the trait at train time. Inoculation adapters are LoRAs that are trained and used over three steps: 1) trained on undesired traits; 2) attached frozen while a separate task adapter is trained on data exhibiting both desired and undesired traits; 3) at deployment, the IA is discarded, and only the task adapter is kept. We show across six model families and several undesired traits including emergent misalignment, that inoculation adapters are more effective at suppressing undesired traits, while avoiding two drawbacks of inoculation prompting: inoculation adapters can suppress capabilities and traits that cannot be reliably elicited by a prompt, and they introduce fewer surprising backdoors than inoculation prompting under our probes. While undesired traits are better suppressed by inoculation adapters, the retention of desired traits is not consistently improved upon inoculation prompting and remains a challenge for both techniques.",
     "authors": [
-      "Maxime Rich\u00e9",
+      "Maxime Riché",
       "Daniel Tan",
       "Vili Kohonen",
       "Niels Warncke"
@@ -2755,7 +2755,7 @@
   {
     "arxiv_id": "2606.30412v1",
     "title": "Can LLMs Rank? A Tale of Triads and Triage",
-    "summary": "From housing allocation for households experiencing homelessness to triage in emergency departments, LLMs are increasingly being considered as judges of consequential decisions that require ranking people for scarce resources. Ranking large groups simultaneously is cognitively demanding and error-prone. A natural solution, drawing on decades of social choice theory, elicits pairwise comparisons and aggregates them into a total order. However, a fundamental question remains when LLMs serve as the pairwise judge: how can a practitioner tell, before committing to a ranking, whether the LLM's judgments are sufficiently consistent to trust the result? We discuss two different ways of identifying consistency. A classical diagnostic, the coefficient of consistency $\u03b6$, originally developed to measure judge reliability by counting circular triads in tournament graphs, provides a cheap, model-free measure of intra-run consistency. Various standard measures of distance between rankings, for example Kendall's $\u03c4$, can measure inter-run variability. We show, in both theory and practice, that these measures are independently valuable, and advocate for using both to assess reliability of rankings. We demonstrate the practical importance of our results across two high-stakes prioritization tasks: homelessness service allocation and emergency department triage. Three different leading LLMs have considerably different performance profiles across these two axes of consistency. We provide guidelines for how practitioners could think about measuring and assessing consistency before committing to a model for ranking or prioritization.",
+    "summary": "From housing allocation for households experiencing homelessness to triage in emergency departments, LLMs are increasingly being considered as judges of consequential decisions that require ranking people for scarce resources. Ranking large groups simultaneously is cognitively demanding and error-prone. A natural solution, drawing on decades of social choice theory, elicits pairwise comparisons and aggregates them into a total order. However, a fundamental question remains when LLMs serve as the pairwise judge: how can a practitioner tell, before committing to a ranking, whether the LLM's judgments are sufficiently consistent to trust the result? We discuss two different ways of identifying consistency. A classical diagnostic, the coefficient of consistency $ζ$, originally developed to measure judge reliability by counting circular triads in tournament graphs, provides a cheap, model-free measure of intra-run consistency. Various standard measures of distance between rankings, for example Kendall's $τ$, can measure inter-run variability. We show, in both theory and practice, that these measures are independently valuable, and advocate for using both to assess reliability of rankings. We demonstrate the practical importance of our results across two high-stakes prioritization tasks: homelessness service allocation and emergency department triage. Three different leading LLMs have considerably different performance profiles across these two axes of consistency. We provide guidelines for how practitioners could think about measuring and assessing consistency before committing to a model for ranking or prioritization.",
     "authors": [
       "Gaurab Pokharel",
       "Shafkat Farabi",
@@ -3206,16 +3206,16 @@
       "Derya Erman",
       "Luke Flanagan",
       "Ibrahim Baroud",
-      "Fr\u00e9d\u00e9ric Blain",
+      "Frédéric Blain",
       "Viviana Cotik",
       "Eletta Giusto",
       "Akhil Juneja",
       "Mariana Neves",
-      "Maria S\u0142owi\u0144ska",
+      "Maria Słowińska",
       "Christine Hovhannisyan",
       "Aaron Louis Eidt",
       "Lisa Raithel",
-      "Sebastian M\u00f6ller",
+      "Sebastian Möller",
       "Maija Poikela"
     ],
     "categories": [
@@ -3234,7 +3234,7 @@
     "summary": "The Sliced Wasserstein (SW) distance has emerged as a computationally attractive alternative to the Wasserstein distance by leveraging one-dimensional optimal transport along random projections. Standard estimators of the SW distance rely on Monte Carlo averages of one-dimensional Wasserstein distances computed via quantile functions, which require sorting projected samples and access to full datasets. In this work, we introduce a new class of estimators for the Sliced Wasserstein distance based on cumulative distribution functions (CDFs) of projected measures, that avoid sorting and scale via massive dataset parallelism. This class includes several estimators, some of them being indexed by hyperparameters controlling their variance or smoothness. We show that they are especially well suited to scenarios in which CDFs are more tractable than quantile functions, such as mixtures of Gaussians, and moreover that they are also naturally compatible with federated learning, since CDFs of projected data can be computed and aggregated locally without requiring the exchange of raw samples.",
     "authors": [
       "Christophe Vauthier",
-      "Quentin M\u00e9rigot",
+      "Quentin Mérigot",
       "Anna Korba"
     ],
     "categories": [
@@ -3328,7 +3328,7 @@
     "summary": "Humans facing algorithmic decision systems have been found to ``game'' them by altering their input data (at a cost to them) in order to favorably change the algorithmic outcomes they receive (at a cost to the algorithm). The growing literature on strategic classification seeks to develop robust machine learning algorithms that account for, and reduce, unwanted strategic behavior. A limitation of these existing works is that they assume the cost of strategic behavior to be fixed and independent of the classifier's decision. In practice, however, manipulation costs evolve and depend on past algorithmic decisions: today's decisions influence tomorrow's costs. This paper proposes and analyzes a two-stage robust optimization framework with a decision-dependent uncertainty set to capture such dependencies. We highlight that awareness of policy-dependent costs not only reduces uncertainty, but also better curtails gaming of the algorithmic system over time.",
     "authors": [
       "Sura Alhanouti",
-      "G\u00fczin Bayraksan",
+      "Güzin Bayraksan",
       "Parinaz Naghizadeh"
     ],
     "categories": [
@@ -3564,7 +3564,7 @@
     "title": "EvalSafetyGap: A Hybrid Survey and Conceptual Framework for LLM Evaluation-Safety Failures",
     "summary": "LLM evaluation and AI safety face a shared measurement problem: benchmark scores, reward-model signals, and reported safety metrics can improve while the latent properties they are meant to represent remain difficult to verify. This paper combines a hybrid survey - a systematic search paired with narrative synthesis and separately tracked grey evidence - with a conceptual framework and a structured ten-model audit. The synthesis spans eight evidence streams: benchmark validity, dynamic evaluation, LLM-as-judge reliability, safety evaluation, jailbreak/refusal robustness, reward hacking, mechanistic interpretability, and governance/auditability, covering 2018-2026 evaluation-safety measurement work. We introduce EvalSafetyGap as an organizing hypothesis for comparing evaluation-side and alignment-side proxy failures under optimization pressure, using Goodhart's Law together with two constructs we develop here - an Instability Decomposition and an Alignment Trilemma - as tools for generating testable comparisons. The audit shows how conclusions shift when capability, behavioral safety, and governance are measured separately. In this sample (n = 10), the association between capability and sustained adversarial robustness is statistically indeterminate using the displayed Table 3 inputs (Pearson r = +0.232, p = 0.520), and the apparent open-closed safety gap is modest, driven mainly by governance and disclosure rather than behavioral robustness, and sensitive to how a single borderline model is classified; attempt-budget results are protocol dependent. Because the public evidence uses heterogeneous protocols, the audit is diagnostic rather than rank-generating. The contribution is a shared vocabulary and evidence map to support dynamic evaluation, transparent source reporting, multi-attempt safety measurement, and auditable alignment practice.",
     "authors": [
-      "Bu\u011fra Alperen Ulu\u0131rmak",
+      "Buğra Alperen Uluırmak",
       "Rifat Kurban"
     ],
     "categories": [
@@ -3586,7 +3586,7 @@
     "summary": "This paper offers an in-depth analysis of non-sequential multimodal sentence-level embeddings, with a particular focus on the SONAR model. We demonstrate that certain embedding dimensions are sensitive to perturbations and can serve as indicators of decoding anomalies. By leveraging the consistency between successive encoding and decoding, we successfully build an accurate detector. Additionally, we explore modifying specific dimensions of interest to attempt to correct them. This work underscores the importance of understanding and analyzing the embeddings themselves to enhance the reliability of multimodal representations.",
     "authors": [
       "Elys Allesiardo",
-      "Antoine Caubri\u00e8re",
+      "Antoine Caubrière",
       "Valentin Vielzeuf"
     ],
     "categories": [
@@ -3636,7 +3636,7 @@
   {
     "arxiv_id": "2606.30627v1",
     "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
-    "summary": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward model. We challenge this intuition empirically and mechanistically. We train a Qwen3-14B policy under Direct Preference Optimisation (DPO) with three levels of conservatism ($\u03b2\\in \\{\u03b2_{\\mathrm{lo}}, \u03b2_{\\mathrm{mid}}, \u03b2_{\\mathrm{hi}}\\}$ derived from empirical log-ratio percentiles), then adapt each checkpoint online against a learned reward ensemble (3\\,$\\times$\\,Qwen3-1.7B) while measuring true performance on GSM8K exact-answer accuracy. We find that \\emph{higher offline conservatism monotonically increases reward-hacking damage}, measured by the Goodhart gap and its area under the curve (AUGC), with Spearman $\u03c1= 1.0$ across all three conditions. Mechanistic analysis reveals a three-link causal chain: (i) high-$\u03b2$ DPO compresses policy entropy, (ii) Low-entropy policies generate responses with reduced diversity, concentrating in a narrow region of the reward model's training distribution (lower pairwise cosine distance), and (iii) despite this proximity, ensemble disagreement (epistemic uncertainty) increases with $\u03b2$ and is exploited faster during online optimisation. We further fit a power-law curve to the $(\u03b2, \\augc)$ data and identify a practical optimal conservatism level $\u03b2^{\\star}$ that balances alignment fidelity against hacking vulnerability. Our results suggest that the field needs \\emph{calibrated}, not \\emph{maximal}, conservatism.",
+    "summary": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward model. We challenge this intuition empirically and mechanistically. We train a Qwen3-14B policy under Direct Preference Optimisation (DPO) with three levels of conservatism ($β\\in \\{β_{\\mathrm{lo}}, β_{\\mathrm{mid}}, β_{\\mathrm{hi}}\\}$ derived from empirical log-ratio percentiles), then adapt each checkpoint online against a learned reward ensemble (3\\,$\\times$\\,Qwen3-1.7B) while measuring true performance on GSM8K exact-answer accuracy. We find that \\emph{higher offline conservatism monotonically increases reward-hacking damage}, measured by the Goodhart gap and its area under the curve (AUGC), with Spearman $ρ= 1.0$ across all three conditions. Mechanistic analysis reveals a three-link causal chain: (i) high-$β$ DPO compresses policy entropy, (ii) Low-entropy policies generate responses with reduced diversity, concentrating in a narrow region of the reward model's training distribution (lower pairwise cosine distance), and (iii) despite this proximity, ensemble disagreement (epistemic uncertainty) increases with $β$ and is exploited faster during online optimisation. We further fit a power-law curve to the $(β, \\augc)$ data and identify a practical optimal conservatism level $β^{\\star}$ that balances alignment fidelity against hacking vulnerability. Our results suggest that the field needs \\emph{calibrated}, not \\emph{maximal}, conservatism.",
     "authors": [
       "Subramanyam Sahoo",
       "Aman Chadha",
@@ -3815,7 +3815,7 @@
     "summary": "Normalizing Flows excel at modeling a single fixed density, yet many problems across the sciences, such as high energy physics, instead require modeling how that density deforms as a function of continuous parameters: the strength of a physical effect, a calibration constant, or a source of systematic uncertainty. Learning a separate flow for every parameter configuration quickly becomes intractable, since the number of joint settings grows exponentially with the number of parameters. We introduce Factorizable Normalizing Flows (FNFs), which represent the parameter-dependent density as a fixed, high-fidelity flow for a reference configuration composed with a learnable transformation that is polynomial in the parameters and factorized over them. This structure has a practical consequence: each parameter's effect is learned in isolation, from samples in which that parameter alone is varied. The combined response of many parameters is then recovered by summation at inference, without ever sampling their combinatorially large joint space. On a controlled problem with two interpretable deformations applied jointly to the data, the learned transformation reproduces the true deformations and matches the optimal likelihood, while optional interaction terms capture residual correlations when several parameters vary strongly at once. The resulting model is interpretable, scales linearly with the number of parameters, and keeps the likelihood tractable. This provides a general tool for any inference workflow requiring continuous density morphing, and directly enables the next generation of unbinned likelihood fits in high energy physics.",
     "authors": [
       "Davide Valsecchi",
-      "Mauro Doneg\u00e0",
+      "Mauro Donegà",
       "Rainer Wallny"
     ],
     "categories": [
@@ -3841,7 +3841,7 @@
       "Maximilian Schambach",
       "Frank Essenberger",
       "Andre Sres",
-      "Johannes H\u00f6hne"
+      "Johannes Höhne"
     ],
     "categories": [
       "cs.LG"
@@ -3878,7 +3878,7 @@
     "title": "Scalar Representations of Neural Network Training Dynamics",
     "summary": "Training in artificial neural networks can be viewed as a trajectory evolving through a high-dimensional loss landscape. However, the large number of trainable parameters makes the direct analysis of these dynamics challenging. In this work, we treat such training trajectories as temporal networks and apply recently proposed strategies for the scalar embedding of temporal networks. We investigate whether such a scalar embedding provides a meaningful low-dimensional representation of neural network training dynamics. Using a multilayer perceptron trained on the MNIST classification task, we show that the embedding preserves the main dynamical features observed in the original parameter space, including the emergence of sensitivity to initial conditions for specific learning rate regimes and an accurate reconstruction of the network's maximum Lyapunov exponent. We then use the embedded scalar trajectory to define a characteristic time, analogous to a Lyapunov time, after which the exponential separation between initially close embedded trajectories saturates. This characteristic time captures the typical decorrelation time between initially close network trajectories in the original high-dimensional system. Finally, we investigate the statistical organization of asymptotic training states through a spacing observable defined in the embedded space. We find that the distributions of rescaled asymptotic spacings collapse onto a common form across initial conditions and are compatible with a skew lognormal distribution. Altogether, our results suggest that scalar low-dimensional embeddings provide a useful framework for studying and visualizing the dynamical properties of neural network optimization trajectories.",
     "authors": [
-      "Pedro Jim\u00e9nez-Gonz\u00e1lez",
+      "Pedro Jiménez-González",
       "Miguel C. Soriano",
       "Lucas Lacasa"
     ],
@@ -4002,7 +4002,7 @@
     "title": "EMPATH: A Multilingual Auditor-Judge Benchmark for Safety Evaluation of Emotional-Support Chatbots",
     "summary": "Safety benchmarks often buy scalability by fixing the prompt, the language, and the turn structure. For emotional-support chatbots, that bargain hides precisely where safety failures emerge: across a multilingual, multi-turn crisis conversation. We present EMPATH, a benchmark for safety evaluation of emotional-support chatbots. An auditor model role-plays help-seeking users, generating multi-turn conversations from 140 seed instructions and 34 personas. A judge model scores each full transcript against 19 metrics across five dimensions: crisis handling, therapeutic quality, conversational integrity, emotional safety, and cultural adaptation. EMPATH is built for Mexican Spanish and US English; the studies reported here run in Mexican Spanish. Auditor and judge are drawn from different model families, and the judge is treated as an instrument to be calibrated rather than trusted. A strict per-criterion rubric reveals material score inflation on 10 of the 19 metrics and restores discrimination. We study the measurement properties of the benchmark through judge calibration and cross-family inter-judge agreement. We also illustrate EMPATH on three frontier models, one of them open-weight. Aggregate scores sit within 0.74 points of one another, but per-metric profiles diverge by up to six points in model-specific places. Under the standard rubric, both the ranking and the weak spots are stable across a second, cross-family judge: 93% of scores fall within plus or minus 1. A five-run test-retest adds a second axis: even the steadiest model swings from 2 to 10 on a crisis metric across identical re-runs, and deepseek-v4-pro returns a different conversation on every run even at temperature 0. Run-to-run reliability is therefore a per-model safety property, not noise to average away. EMPATH is system-agnostic; the pipeline, seeds, personas, and rubrics are released for reuse.",
     "authors": [
-      "Camilo Chac\u00f3n Sartori"
+      "Camilo Chacón Sartori"
     ],
     "categories": [
       "cs.AI",
@@ -4084,7 +4084,7 @@
       "Seongro Yoon",
       "Donghyeon Cho",
       "Jinsun Park",
-      "Fran\u00e7ois Br\u00e9mond"
+      "François Brémond"
     ],
     "categories": [
       "cs.CV"
@@ -4228,39 +4228,6 @@
     "research_score": 0.5
   },
   {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 25949,
-    "likes": 329,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-06-30T07:45:05.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-06-30",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.5
-  },
-  {
     "arxiv_id": "2606.30458v1",
     "title": "Cross-Resolution Semantic Transfer for Robust Text-to-Image Retrieval in Low-Resolution Surveillance",
     "summary": "Text-to-image person re-identification (TIPR) retrieves target persons using natural language descriptions. However, existing methods largely overlook resolution variance in real-world surveillance. They characterize cross-resolution TIPR through two coupled failure modes: Evidence Reliability Collapse (ERC), where degraded visual tokens become unreliable for grounding fine-grained text, and Ranking Distribution Drift (RDD), where mixed-resolution galleries distort similarity neighborhoods and destabilize retrieval rankings. To address this challenge, we propose Cross-Resolution Semantic Transfer (CRST), a CLIP-style framework with three modules: resolution-conditioned reasoning, text-guided refinement and CR-RDA. Resolution-conditioned reasoning estimates token reliability to suppress corrupted evidence. Text-guided refinement injects semantic priors to recover discriminative cues. CR-RDA transfers HR neighborhood geometry to stabilize LR ranking under mixed resolutions. Experiments on CUHK-PEDES, ICFG-PEDES, and RSTPReid show that CRST improves ultra-low-resolution Rank-1 and mAP on average by 5.7% and 5.3%, while stabilizing mixed-resolution retrieval without sacrificing high-resolution accuracy.The code will be made publicly available.",
@@ -4289,7 +4256,7 @@
     "summary": "High benchmark accuracy does not guarantee genuine use of visual evidence. We study this problem in traffic accident Video Question Answering (VideoQA), where correct answers should depend on scene-specific visual evidence but may instead be inferred from textual shortcuts. Through an audit of four public benchmarks, we find that several recent open-weight Vision-Language Models (VLMs) perform competitively, and sometimes better, without video input. On the MM-AU benchmark, removing video consistently improves accuracy, and adding more frames further degrades performance. To quantify visual dependence, we introduce two dataset-level diagnostics: Blind Gap, measuring above-chance text-only performance, and Visual Gain, measuring the marginal benefit of adding video. We further propose an instance-level Shortcut Score that combines text-only confidence with visual necessity signals, enabling continuous, training-free filtering of shortcut-prone questions. The resulting subsets reduce shortcut bias and improve visual grounding. Our findings reveal large differences in grounding quality across benchmarks and show that visually grounded evaluation, not just high accuracy, is essential in safety-critical VideoQA.",
     "authors": [
       "Sena Korkut",
-      "Mar\u00eda Alejandra Bravo Sarmiento",
+      "María Alejandra Bravo Sarmiento",
       "Sanghwan Kim",
       "Zeynep Akata"
     ],
@@ -4400,7 +4367,7 @@
   {
     "arxiv_id": "2606.30378v1",
     "title": "OmniCoT: A Benchmark for Global and Multi-Step Panoramic Reasoning",
-    "summary": "Multimodal Large Language Models (MLLMs) have demonstrated promising spatial reasoning capabilities, while these abilities remain underexplored in the emerging visual modality of panoramic imagery. The full 360\u00b0$\\times$180\u00b0 field of view of panoramas essentially supports complex global multi-step reasoning, which is also the fundamental advantage of panoramas in applications such as embodied intelligence. However, existing panoramic benchmarks largely focus on simplistic queries that rely on local cues or single-/few-step reasoning, thereby ignoring the fundamental advantage of panoramas and failing to fully exploit their potential. To address this gap, we introduce OmniCoT, a panoramic spatial reasoning suite designed to enable MLLMs to use global evidence and perform multi-step inference across viewpoints. It includes OmniCoT-B (6.7K data) for evaluation, which measures both answer accuracy and reasoning quality, OmniCoT-Real (1K data) as a manually annotated real-world subset to quantify the Sim-to-Real gap. For training, OmniCoT-T (14.3K data) is purpose-built with structured stepwise Chain-of-Thought annotations that explicitly link intermediate reasoning steps to panoramic evidence. Based on OmniCoT-T, we introduce OmniCoT-R1 and adopt a two-stage training strategy tailored to the geometrically complex panoramic space, where Supervised Fine-tuning (SFT) anchors reasoning to panoramic evidence (e.g., bearings, proximity) and GRPO penalizes geometrically incoherent paths to consolidate global 360\u00b0 spatial consistency. Through OmniCoT, we aim to recalibrate the difficulty of panoramic spatial reasoning to better align with the intrinsic capabilities of panoramic imagery, thereby fostering meaningful progress in this research area.",
+    "summary": "Multimodal Large Language Models (MLLMs) have demonstrated promising spatial reasoning capabilities, while these abilities remain underexplored in the emerging visual modality of panoramic imagery. The full 360°$\\times$180° field of view of panoramas essentially supports complex global multi-step reasoning, which is also the fundamental advantage of panoramas in applications such as embodied intelligence. However, existing panoramic benchmarks largely focus on simplistic queries that rely on local cues or single-/few-step reasoning, thereby ignoring the fundamental advantage of panoramas and failing to fully exploit their potential. To address this gap, we introduce OmniCoT, a panoramic spatial reasoning suite designed to enable MLLMs to use global evidence and perform multi-step inference across viewpoints. It includes OmniCoT-B (6.7K data) for evaluation, which measures both answer accuracy and reasoning quality, OmniCoT-Real (1K data) as a manually annotated real-world subset to quantify the Sim-to-Real gap. For training, OmniCoT-T (14.3K data) is purpose-built with structured stepwise Chain-of-Thought annotations that explicitly link intermediate reasoning steps to panoramic evidence. Based on OmniCoT-T, we introduce OmniCoT-R1 and adopt a two-stage training strategy tailored to the geometrically complex panoramic space, where Supervised Fine-tuning (SFT) anchors reasoning to panoramic evidence (e.g., bearings, proximity) and GRPO penalizes geometrically incoherent paths to consolidate global 360° spatial consistency. Through OmniCoT, we aim to recalibrate the difficulty of panoramic spatial reasoning to better align with the intrinsic capabilities of panoramic imagery, thereby fostering meaningful progress in this research area.",
     "authors": [
       "Haocong He",
       "Chenfei Liao",
@@ -4502,7 +4469,7 @@
   {
     "arxiv_id": "2606.30530v1",
     "title": "Computing the Integral R2 Indicator by Perspective Mapping and Box Decomposition",
-    "summary": "The continuous integral R2 indicator is a Pareto-compliant refinement of the classical finite-weight-vector R2 indicator, used in performance assessment, bounded archiving for a-posteriori multi-objective optimization, and skyline selection in databases. This work introduces a bidirectional perspective mapping between continuous integral R2 computation and integration over unions of anchored axis-aligned boxes. After translating the ideal point of a minimization problem to the origin, approximation points become strictly positive loss vectors, and the subgraph of the lower weighted Tchebycheff envelope over the weight simplex maps to the complement of an anchored-box union in reciprocal objective space. The Jacobian gives an absolute R2 formula as a weighted complement volume with density $(x_1+\\cdots+x_N)^{-(N+1)}$, while differences of R2 values become finite weighted hypervolume differences. Hence, hypervolume algorithms that emit box decompositions can be reused by replacing ordinary box volumes with closed-form weighted box integrals. For $N$ objectives, this gives an output-sensitive overhead $O(2^N M)$ for an $M$-box decomposition, or $O(M)$ for fixed $N$. Using existing box-decomposition approaches, the integral R2 can be computed in $O(n \\log n)$ for $N=2,3$, in $O(n^2)$ for $N=4$, and in $O\\left(n^{\\lfloor (N-1)/2\\rfloor+1}\\right)$ for $N\\geq4$, with $n$ denoting the size of the approximation set. On the lower-bound side, exact value computation has an $\u03a9(n\\log n)$ lower bound in the algebraic decision-tree model already in two objectives, this bound lifts to every fixed $N\\geq2$, and exact computation is $\\#P$-hard when $N$ is part of the input. Together, the proposed perspective mapping provides a powerful tool for transferring algorithmic and structural results between anchored-box union and hypervolume theory and integral R2 computation.",
+    "summary": "The continuous integral R2 indicator is a Pareto-compliant refinement of the classical finite-weight-vector R2 indicator, used in performance assessment, bounded archiving for a-posteriori multi-objective optimization, and skyline selection in databases. This work introduces a bidirectional perspective mapping between continuous integral R2 computation and integration over unions of anchored axis-aligned boxes. After translating the ideal point of a minimization problem to the origin, approximation points become strictly positive loss vectors, and the subgraph of the lower weighted Tchebycheff envelope over the weight simplex maps to the complement of an anchored-box union in reciprocal objective space. The Jacobian gives an absolute R2 formula as a weighted complement volume with density $(x_1+\\cdots+x_N)^{-(N+1)}$, while differences of R2 values become finite weighted hypervolume differences. Hence, hypervolume algorithms that emit box decompositions can be reused by replacing ordinary box volumes with closed-form weighted box integrals. For $N$ objectives, this gives an output-sensitive overhead $O(2^N M)$ for an $M$-box decomposition, or $O(M)$ for fixed $N$. Using existing box-decomposition approaches, the integral R2 can be computed in $O(n \\log n)$ for $N=2,3$, in $O(n^2)$ for $N=4$, and in $O\\left(n^{\\lfloor (N-1)/2\\rfloor+1}\\right)$ for $N\\geq4$, with $n$ denoting the size of the approximation set. On the lower-bound side, exact value computation has an $Ω(n\\log n)$ lower bound in the algebraic decision-tree model already in two objectives, this bound lifts to every fixed $N\\geq2$, and exact computation is $\\#P$-hard when $N$ is part of the input. Together, the proposed perspective mapping provides a powerful tool for transferring algorithmic and structural results between anchored-box union and hypervolume theory and integral R2 computation.",
     "authors": [
       "Michael T. M. Emmerich"
     ],
@@ -4573,423 +4540,6 @@
     "pdf_url": "https://arxiv.org/pdf/2606.30321v1.pdf",
     "date": "2026-06-30",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "nesoai/energy-exp1-dpo-offline",
-    "author": "unknown",
-    "title": "nesoai/energy-exp1-dpo-offline",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "dpo",
-      "conversational",
-      "arxiv:2305.18290",
-      "base_model:CEIA-RL/qwen3-4b-dw-lr-GRPO",
-      "base_model:finetune:CEIA-RL/qwen3-4b-dw-lr-GRPO",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-06-30T07:45:37.000Z",
-    "last_modified": "2026-06-30T07:45:37.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/nesoai/energy-exp1-dpo-offline",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "litert-community/Llama-3.2-3B",
-    "author": "unknown",
-    "title": "litert-community/Llama-3.2-3B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "litert-lm",
-      "facebook",
-      "meta",
-      "pytorch",
-      "llama",
-      "llama-3",
-      "litertlm",
-      "text-generation",
-      "en",
-      "de",
-      "fr",
-      "it",
-      "pt",
-      "hi",
-      "es",
-      "th",
-      "base_model:meta-llama/Llama-3.2-3B",
-      "base_model:quantized:meta-llama/Llama-3.2-3B",
-      "license:llama3.2",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "litert-lm",
-    "created_at": "2026-06-30T07:33:25.000Z",
-    "last_modified": "2026-06-30T07:44:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/litert-community/Llama-3.2-3B",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Winnougan/Qwen-Image-INT8",
-    "author": "unknown",
-    "title": "Winnougan/Qwen-Image-INT8",
-    "downloads": 0,
-    "likes": 3,
-    "tags": [
-      "text-to-image",
-      "image-editing",
-      "int8",
-      "convrot",
-      "comfyui",
-      "qwen-image",
-      "quantized",
-      "en",
-      "zh",
-      "base_model:Qwen/Qwen-Image-2512",
-      "base_model:finetune:Qwen/Qwen-Image-2512",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "",
-    "created_at": "2026-06-28T10:41:19.000Z",
-    "last_modified": "2026-06-30T07:43:03.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/Winnougan/Qwen-Image-INT8",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "taiyi-lab/toolathlon-qwen36-27b-claimfirst-v4b-reasoning-sft-20260630-epoch1",
-    "author": "unknown",
-    "title": "taiyi-lab/toolathlon-qwen36-27b-claimfirst-v4b-reasoning-sft-20260630-epoch1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "qwen",
-      "toolathlon",
-      "claimfirst",
-      "v4b",
-      "reasoning-sft",
-      "full-finetune",
-      "megatron",
-      "ms-swift",
-      "epoch-1",
-      "text-generation",
-      "license:other",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-06-30T05:27:10.000Z",
-    "last_modified": "2026-06-30T07:42:07.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/taiyi-lab/toolathlon-qwen36-27b-claimfirst-v4b-reasoning-sft-20260630-epoch1",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "vukrosic/nano-dates",
-    "author": "unknown",
-    "title": "vukrosic/nano-dates",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "nano-dates",
-      "tiny",
-      "nano-llm",
-      "dates",
-      "structured-output",
-      "byte-level",
-      "from-scratch",
-      "text-generation",
-      "en",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "safetensors",
-    "created_at": "2026-06-30T07:04:50.000Z",
-    "last_modified": "2026-06-30T07:42:02.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/vukrosic/nano-dates",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "aisamdasu/algocean-v1-2B-ko",
-    "author": "unknown",
-    "title": "aisamdasu/algocean-v1-2B-ko",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "korean",
-      "text-generation",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-06-30T07:39:34.000Z",
-    "last_modified": "2026-06-30T07:41:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aisamdasu/algocean-v1-2B-ko",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "keshavpal06/distilbert-imdb-sentiment",
-    "author": "unknown",
-    "title": "keshavpal06/distilbert-imdb-sentiment",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "distilbert",
-      "text-classification",
-      "arxiv:1910.09700",
-      "text-embeddings-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-06-30T07:40:58.000Z",
-    "last_modified": "2026-06-30T07:41:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/keshavpal06/distilbert-imdb-sentiment",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "litert-community/Llama-3.2-1B",
-    "author": "unknown",
-    "title": "litert-community/Llama-3.2-1B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "litert-lm",
-      "facebook",
-      "meta",
-      "pytorch",
-      "llama",
-      "llama-3",
-      "litertlm",
-      "text-generation",
-      "en",
-      "de",
-      "fr",
-      "it",
-      "pt",
-      "hi",
-      "es",
-      "th",
-      "base_model:meta-llama/Llama-3.2-1B",
-      "base_model:quantized:meta-llama/Llama-3.2-1B",
-      "license:llama3.2",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "litert-lm",
-    "created_at": "2026-06-30T07:33:25.000Z",
-    "last_modified": "2026-06-30T07:40:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/litert-community/Llama-3.2-1B",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ShiningSon/Leviathan-MLGRU-30M-TinyStories-Instruct-v02b",
-    "author": "unknown",
-    "title": "ShiningSon/Leviathan-MLGRU-30M-TinyStories-Instruct-v02b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "pytorch",
-      "text-generation",
-      "recurrent",
-      "mlgru",
-      "ternary",
-      "bitnet",
-      "1.58bit",
-      "cpu-inference",
-      "tiny-stories",
-      "proof-of-concept",
-      "research",
-      "en",
-      "dataset:roneneldan/TinyStories",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "pytorch",
-    "created_at": "2026-06-30T07:25:03.000Z",
-    "last_modified": "2026-06-30T07:39:19.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ShiningSon/Leviathan-MLGRU-30M-TinyStories-Instruct-v02b",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "jaykwok/Qwen3-ASR-1.7B-JA-Anime-Galgame-hf",
-    "author": "unknown",
-    "title": "jaykwok/Qwen3-ASR-1.7B-JA-Anime-Galgame-hf",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_asr",
-      "automatic-speech-recognition",
-      "qwen3-asr",
-      "japanese",
-      "transformers-native",
-      "ja",
-      "base_model:Qwen/Qwen3-ASR-1.7B-hf",
-      "base_model:finetune:Qwen/Qwen3-ASR-1.7B-hf",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-06-30T05:14:58.000Z",
-    "last_modified": "2026-06-30T07:38:37.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/jaykwok/Qwen3-ASR-1.7B-JA-Anime-Galgame-hf",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "jaykwok/Qwen3-ASR-0.6B-JA-Anime-Galgame-hf",
-    "author": "unknown",
-    "title": "jaykwok/Qwen3-ASR-0.6B-JA-Anime-Galgame-hf",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_asr",
-      "automatic-speech-recognition",
-      "qwen3-asr",
-      "japanese",
-      "transformers-native",
-      "ja",
-      "base_model:Qwen/Qwen3-ASR-0.6B-hf",
-      "base_model:finetune:Qwen/Qwen3-ASR-0.6B-hf",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-06-30T05:19:36.000Z",
-    "last_modified": "2026-06-30T07:38:27.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/jaykwok/Qwen3-ASR-0.6B-JA-Anime-Galgame-hf",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "hotdogs/qwen35b-a3b-fable-sft",
-    "author": "unknown",
-    "title": "hotdogs/qwen35b-a3b-fable-sft",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "gguf",
-      "base_model:adapter:Qwen/Qwen3.6-35B-A3B",
-      "lora",
-      "transformers",
-      "unsloth",
-      "text-generation",
-      "arxiv:1910.09700",
-      "base_model:Qwen/Qwen3.6-35B-A3B",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-06-30T06:27:59.000Z",
-    "last_modified": "2026-06-30T07:37:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/hotdogs/qwen35b-a3b-fable-sft",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "aisamdasu/algocean-2.1B-nano-friend",
-    "author": "unknown",
-    "title": "aisamdasu/algocean-2.1B-nano-friend",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "lora",
-      "korean",
-      "conversational",
-      "text-generation",
-      "base_model:kakaocorp/kanana-nano-2.1b-instruct",
-      "base_model:adapter:kakaocorp/kanana-nano-2.1b-instruct",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-06-30T06:59:10.000Z",
-    "last_modified": "2026-06-30T07:37:37.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aisamdasu/algocean-2.1B-nano-friend",
-    "date": "2026-06-30",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
