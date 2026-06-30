@@ -1,5 +1,5 @@
 {
-  "date": "2026-06-30T07:45:51.466291",
+  "date": "2026-06-30T10:51:53.699915",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,8 +639,12 @@
         "url": "https://arxiv.org/abs/2606.30378v1"
       },
       {
-        "title": "keshavpal06/distilbert-imdb-sentiment",
-        "url": "https://huggingface.co/keshavpal06/distilbert-imdb-sentiment"
+        "title": "chandramdutta/dpo-gpt2-colab",
+        "url": "https://huggingface.co/chandramdutta/dpo-gpt2-colab"
+      },
+      {
+        "title": "chandramdutta/sft-gpt2-colab",
+        "url": "https://huggingface.co/chandramdutta/sft-gpt2-colab"
       }
     ],
     "vision_systems": [
@@ -923,10 +927,6 @@
       {
         "title": "Optimizing Image Preparation and Compression for Face Recognition within 1024 Bytes",
         "url": "https://arxiv.org/abs/2606.30321v1"
-      },
-      {
-        "title": "Winnougan/Qwen-Image-INT8",
-        "url": "https://huggingface.co/Winnougan/Qwen-Image-INT8"
       }
     ],
     "reasoning": [
@@ -1177,10 +1177,6 @@
       {
         "title": "T2LDM++: A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation",
         "url": "https://arxiv.org/abs/2606.30147v1"
-      },
-      {
-        "title": "taiyi-lab/toolathlon-qwen36-27b-claimfirst-v4b-reasoning-sft-20260630-epoch1",
-        "url": "https://huggingface.co/taiyi-lab/toolathlon-qwen36-27b-claimfirst-v4b-reasoning-sft-20260630-epoch1"
       }
     ],
     "benchmarks": [
@@ -1621,19 +1617,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "63 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1680,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 395
+    "total_papers": 394
   }
 }
