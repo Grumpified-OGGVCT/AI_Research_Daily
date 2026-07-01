@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-01T12:30:17.603724",
+  "date": "2026-07-01T15:37:05.967326",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,10 +671,6 @@
         "url": "https://arxiv.org/abs/2606.31814v1"
       },
       {
-        "title": "uisikdag/small60m-llm-fineweb-edu",
-        "url": "https://huggingface.co/uisikdag/small60m-llm-fineweb-edu"
-      },
-      {
         "title": "ShellMaker: Language-Guided Exterior Completion under Structural Constraints",
         "url": "https://arxiv.org/abs/2606.31680v1"
       },
@@ -1047,6 +1043,10 @@
       {
         "title": "Estimating Velocity of Spheres from Rolling-Shutter Image(s)",
         "url": "https://arxiv.org/abs/2606.31760v1"
+      },
+      {
+        "title": "wrice/whisper-tiny-grpo-d46ed86-cv22-tiny-sftanneal2",
+        "url": "https://huggingface.co/wrice/whisper-tiny-grpo-d46ed86-cv22-tiny-sftanneal2"
       }
     ],
     "reasoning": [
@@ -1345,6 +1345,10 @@
       {
         "title": "Temporal Training Strategies for Left Atrium and Left Atrial Appendage Segmentation in Dynamic Contrast 4DCT",
         "url": "https://arxiv.org/abs/2606.31444v1"
+      },
+      {
+        "title": "TobiasLogic/Qwen2.5-Coder-32B-abliterated",
+        "url": "https://huggingface.co/TobiasLogic/Qwen2.5-Coder-32B-abliterated"
       }
     ],
     "benchmarks": [
@@ -1781,19 +1785,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "91 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1840,6 +1844,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 435
+    "total_papers": 436
   }
 }
