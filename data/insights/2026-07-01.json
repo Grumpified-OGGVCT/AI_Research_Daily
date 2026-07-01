@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-01T21:22:36.615919",
+  "date": "2026-07-01T23:08:05.908902",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,6 +677,18 @@
       {
         "title": "MV-GEL: Language-Driven Multi-View Geometric Entity Localization on Meshes",
         "url": "https://arxiv.org/abs/2606.31533v1"
+      },
+      {
+        "title": "spare-rl/qwen3-30b-fixedcorpus-gpt53-0622-iter255",
+        "url": "https://huggingface.co/spare-rl/qwen3-30b-fixedcorpus-gpt53-0622-iter255"
+      },
+      {
+        "title": "spare-rl/qwen3-30b-fixedcorpus-gpt53-0622-iter239",
+        "url": "https://huggingface.co/spare-rl/qwen3-30b-fixedcorpus-gpt53-0622-iter239"
+      },
+      {
+        "title": "spare-rl/qwen3-30b-fixedcorpus-gpt53-0622-iter223",
+        "url": "https://huggingface.co/spare-rl/qwen3-30b-fixedcorpus-gpt53-0622-iter223"
       }
     ],
     "vision_systems": [
@@ -989,6 +1001,10 @@
         "url": "https://arxiv.org/abs/2606.31521v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "World Narrative Model for Highly Controllable Video Generation: A Paradigm Shift from Pixel Sampling to Physical World Orchestration",
         "url": "https://arxiv.org/abs/2606.31946v1"
       },
@@ -1043,14 +1059,6 @@
       {
         "title": "Estimating Velocity of Spheres from Rolling-Shutter Image(s)",
         "url": "https://arxiv.org/abs/2606.31760v1"
-      },
-      {
-        "title": "wrice/whisper-tiny-grpo-d46ed86-cv22-tiny-sftanneal2",
-        "url": "https://huggingface.co/wrice/whisper-tiny-grpo-d46ed86-cv22-tiny-sftanneal2"
-      },
-      {
-        "title": "imagovision/act_imagovision_pick_and_place_new_merged_20260701_1610_2026-07-01_15-49-07",
-        "url": "https://huggingface.co/imagovision/act_imagovision_pick_and_place_new_merged_20260701_1610_2026-07-01_15-49-07"
       }
     ],
     "reasoning": [
@@ -1785,13 +1793,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "93 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1827,7 +1835,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 39,
+      "frequency": 38,
       "significance": "high"
     },
     {
@@ -1844,6 +1852,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 436
+    "total_papers": 438
   }
 }
