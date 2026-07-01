@@ -2,10 +2,10 @@
   {
     "arxiv_id": "2606.31664v1",
     "title": "Sparsity-Inducing Divergence Losses for Biometric Verification",
-    "summary": "Performance in face and speaker verification is largely driven by margin-penalty softmax losses such as CosFace and ArcFace. Recently introduced $\u03b1$-divergence loss functions offer a compelling alternative, particularly due to their ability to induce sparse solutions (when $\u03b1>1$). However, standard geometric margins are designed for the softmax function and do not naturally extend to this generalized probabilistic framework. In this paper we propose Q-Margin, a novel $\u03b1$-divergence loss that introduces a principled probabilistic margin. Unlike conventional methods that apply geometric penalties to the logits (unnormalized log-likelihoods), Q-Margin encodes the margin penalty directly into the reference measure (prior probabilities). This formulation naturally encourages discriminative embeddings while preserving the beneficial sparsity properties of the $\u03b1$-divergence. We demonstrate that Q-Margin achieves competitive or superior performance on the challenging IJB-B and IJB-C face verification benchmarks and similarly strong results in speaker verification on VoxCeleb. Crucially, against ArcFace and CosFace baselines trained under an identical recipe, Q-Margin consistently improves at low False Acceptance Rates (FARs), a capability critical for practical high-security applications. Finally, the extreme sparsity of the Q-Margin posteriors enables exact and memory-efficient training, offering a scalable solution for datasets with millions of identities.",
+    "summary": "Performance in face and speaker verification is largely driven by margin-penalty softmax losses such as CosFace and ArcFace. Recently introduced $α$-divergence loss functions offer a compelling alternative, particularly due to their ability to induce sparse solutions (when $α>1$). However, standard geometric margins are designed for the softmax function and do not naturally extend to this generalized probabilistic framework. In this paper we propose Q-Margin, a novel $α$-divergence loss that introduces a principled probabilistic margin. Unlike conventional methods that apply geometric penalties to the logits (unnormalized log-likelihoods), Q-Margin encodes the margin penalty directly into the reference measure (prior probabilities). This formulation naturally encourages discriminative embeddings while preserving the beneficial sparsity properties of the $α$-divergence. We demonstrate that Q-Margin achieves competitive or superior performance on the challenging IJB-B and IJB-C face verification benchmarks and similarly strong results in speaker verification on VoxCeleb. Crucially, against ArcFace and CosFace baselines trained under an identical recipe, Q-Margin consistently improves at low False Acceptance Rates (FARs), a capability critical for practical high-security applications. Finally, the extreme sparsity of the Q-Margin posteriors enables exact and memory-efficient training, offering a scalable solution for datasets with millions of identities.",
     "authors": [
       "Dimitrios Koutsianos",
-      "Ladislav Mo\u0161ner",
+      "Ladislav Mošner",
       "Yannis Panagakis",
       "Themos Stafylakis"
     ],
@@ -69,10 +69,10 @@
     "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
     "summary": "LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to inform the model about the goodness of intermediate actions. Dense supervision methods aim to solve this problem by scoring intermediate steps, from intrinsic confidence to self-distillation and embedding similarities. However, it is common practice to evaluate them by measuring the downstream performance of a training pipeline that integrates them. This is expensive, conflates supervision quality with training engineering confounders, and renders different methodological families requiring distinct training setups incomparable. As a result, dense supervision methods are rarely benchmarked on common ground. We introduce QVal, a training-free testbed for directly evaluating dense supervision signals. Given a state-action pair, QVal measures how well a method's score is Q-aligned: whether it orders actions according to the Q-values of a strong reference-policy. This lets us compare signals before any training run and separate signal quality from other engineering choices. We instantiate QVal as QVal-v1.0, benchmarking 21 dense supervision methods across four diverse environments and seven methodological families, with over 1.2K evaluation experiments across six open-weight model backbones. We find that simple prompting baselines consistently outperform recent dense supervision methods from the literature, and that performance clusters strongly by family. These findings hold across model sizes, environments, and observation modalities. QVal is designed to be easily extensible to new environments and methods, enabling researchers to iterate on dense supervision methods before any training run.",
     "authors": [
-      "Sergio Hern\u00e1ndez-Guti\u00e9rrez",
+      "Sergio Hernández-Gutiérrez",
       "Matteo Merler",
       "Ilze Amanda Auzina",
-      "Joschka Str\u00fcber",
+      "Joschka Strüber",
       "Ameya Prabhu",
       "Matthias Bethge"
     ],
@@ -93,7 +93,7 @@
     "title": "A Technical Typology of AI Systems in Public Administration",
     "summary": "Research on artificial intelligence (AI) in the public sector often treats \"AI\" as a single category, neglecting technical distinctions between different AI systems. But these distinctions affect how different systems impact core public values like accountability, procedural justice, and non-discrimination. This paper argues that public administration research would benefit from more technical precision on \"AI\" and makes three contributions to this end. First, we introduce a typology of five categories of AI systems: hand-coded, glass-box, black-box, general-purpose, and agentic systems. We calibrate the typology to public administration by grouping system types by their distinct implications for public values. Second, we evaluate technical precision in recent public administration research about AI by coding 91 highly-cited papers (2019-2025) using our typology. We find widespread imprecision: most papers (55\\%) leave the studied system underspecified, 31\\% motivate their work with a different system than they study, and 41\\% make more general conclusions than the studied system supports. Finally, we give practical recommendations for future research. We highlight common pitfalls to avoid, and suggest that researchers should, at a minimum, provide enough technical detail to locate the studied system in our typology. To this end, we provide a practical guide -- a short set of diagnostic questions answerable from public information and without specialist technical knowledge.",
     "authors": [
-      "Jonathan Rystr\u00f8m",
+      "Jonathan Rystrøm",
       "Chris Schmitz",
       "Nathan Davies",
       "Gerhard Hammerschmid",
@@ -136,7 +136,7 @@
   {
     "arxiv_id": "2606.31904v1",
     "title": "Sequential RC-TGAN: Generating Relational Time Series with Spectral Envelope Loss",
-    "summary": "The generation of synthetic relational databases often involves modeling complex temporal dynamics, such as transaction logs or event sequences. A significant challenge in this domain is the handling of categorical time series (e.g., status codes), where standard encoding methods like one-hot encoding fail to capture intrinsic frequency-domain features such as seasonality and cyclicity. In this paper, we introduce Sequential RC-TGAN (Seq. RC-TGAN), a temporal extension of the RC-TGAN framework, equipped with a novel integrated loss function based on the \\textit{Spectral Envelope Theory}. This differentiable loss allows the generator to directly optimize the preservation of latent periodic structures via backpropagation. While spectral envelope theory is inherently designed for categorical sequences, we extend this frequency-domain regularization to continuous time series by employing a Variational Gaussian Mixture Model (VGM) discretization strategy. To establish a mathematically rigorous evaluation standard, we simulate categorical time series governed by a parameter $\u03b1$, with exactly known theoretical spectral envelopes. Integrating these dynamic sequences into the child tables of a relational database yields a robust ground-truth benchmark for evaluating the frequency-domain fidelity of our generative framework. Furthermore, we address the lack of robust evaluation standards for relational time series by proposing two new metrics: Spectral Density Divergence and Spectral Envelope Divergence. Experimental results on real-world datasets, as well as our simulated benchmarks, demonstrate that our end-to-end approach significantly outperforms state-of-the-art systems in reproducing cyclic patterns and long-term seasonality across both categorical and continuous features.",
+    "summary": "The generation of synthetic relational databases often involves modeling complex temporal dynamics, such as transaction logs or event sequences. A significant challenge in this domain is the handling of categorical time series (e.g., status codes), where standard encoding methods like one-hot encoding fail to capture intrinsic frequency-domain features such as seasonality and cyclicity. In this paper, we introduce Sequential RC-TGAN (Seq. RC-TGAN), a temporal extension of the RC-TGAN framework, equipped with a novel integrated loss function based on the \\textit{Spectral Envelope Theory}. This differentiable loss allows the generator to directly optimize the preservation of latent periodic structures via backpropagation. While spectral envelope theory is inherently designed for categorical sequences, we extend this frequency-domain regularization to continuous time series by employing a Variational Gaussian Mixture Model (VGM) discretization strategy. To establish a mathematically rigorous evaluation standard, we simulate categorical time series governed by a parameter $α$, with exactly known theoretical spectral envelopes. Integrating these dynamic sequences into the child tables of a relational database yields a robust ground-truth benchmark for evaluating the frequency-domain fidelity of our generative framework. Furthermore, we address the lack of robust evaluation standards for relational time series by proposing two new metrics: Spectral Density Divergence and Spectral Envelope Divergence. Experimental results on real-world datasets, as well as our simulated benchmarks, demonstrate that our end-to-end approach significantly outperforms state-of-the-art systems in reproducing cyclic patterns and long-term seasonality across both categorical and continuous features.",
     "authors": [
       "Mohamed Gueye",
       "Yazid Attabi",
@@ -221,7 +221,7 @@
   {
     "arxiv_id": "2606.31846v1",
     "title": "Z-1: Efficient Reinforcement Learning for Vision-Language-Action Models",
-    "summary": "Vision-Language-Action (VLA) models offer a promising framework for robotic manipulation by connecting language instructions, visual observations, and continuous control. However, most existing policies remain limited by behavior cloning or supervised fine-tuning (SFT) from fixed demonstrations, which provides limited opportunity to improve from the policy's own failures. In this paper, we present Z-1, a reinforcement learning (RL) post-training framework for flow-based VLA models. Built on top of $\u03c0_{0.5}$, Z-1 uses only publicly released RoboCasa demonstrations for SFT and then applies a task-wise Group Relative Policy Optimization (GRPO) strategy across $24$ standard RoboCasa tasks. To improve the efficiency and stability of online optimization, Z-1 combines shared-prefix rollout construction, tree-structured trajectory branching, completion-aware reward calibration, and selective joint training of VLM and Action Expert. Across all $24$ RoboCasa tasks, Z-1 achieves an average success rate of $80.6\\%$, improving over its SFT initialization by $13.2\\%$ points and outperforms the published sota models. These results show that systematic GRPO post-training can substantially improve flow-based VLA policies without additional private demonstrations.",
+    "summary": "Vision-Language-Action (VLA) models offer a promising framework for robotic manipulation by connecting language instructions, visual observations, and continuous control. However, most existing policies remain limited by behavior cloning or supervised fine-tuning (SFT) from fixed demonstrations, which provides limited opportunity to improve from the policy's own failures. In this paper, we present Z-1, a reinforcement learning (RL) post-training framework for flow-based VLA models. Built on top of $π_{0.5}$, Z-1 uses only publicly released RoboCasa demonstrations for SFT and then applies a task-wise Group Relative Policy Optimization (GRPO) strategy across $24$ standard RoboCasa tasks. To improve the efficiency and stability of online optimization, Z-1 combines shared-prefix rollout construction, tree-structured trajectory branching, completion-aware reward calibration, and selective joint training of VLM and Action Expert. Across all $24$ RoboCasa tasks, Z-1 achieves an average success rate of $80.6\\%$, improving over its SFT initialization by $13.2\\%$ points and outperforms the published sota models. These results show that systematic GRPO post-training can substantially improve flow-based VLA policies without additional private demonstrations.",
     "authors": [
       "Lang Cao",
       "Renhong Chen",
@@ -268,8 +268,8 @@
     "summary": "Forest attributes are essential for national-scale resource monitoring. Airborne LiDAR metrics are among the auxiliary variables most strongly correlated with forest attributes used in National Forest Inventory (NFI) estimates. However, producing wall-to-wall predictions remains challenging when LiDAR data are acquired under heterogeneous conditions. As national LiDAR programs expand across Europe, variability in sensors, flight parameters, seasons, and scan angles limits the robustness of existing models, which are often calibrated for local conditions. We present FLORA (Forest LiDAR Octree Regression with Auxiliary Data), a deep learning framework that predicts six forest attributes: dominant height, total volume, deciduous volume, coniferous volume, basal area, and stem density from heterogeneous LiDAR point clouds. FLORA combines an octree-based backbone with ecological and spatiotemporal auxiliary variables through a late-fusion gating mechanism. Models are trained and evaluated on 32,052 National Forest Inventory plots across mainland France using data from the French LiDAR HD program. A single model trained on both leaf-on and leaf-off acquisitions outperforms season-specific models and improves cross-season robustness. Auxiliary variables provide modest overall gains but contribute more strongly to species-specific volume prediction. FLORA achieves an rRMSE of about 12.3% (R2 = 0.88) for dominant height and 39% (R2 = 0.74) for total volume, providing a robust baseline for large-scale forest attribute estimation from heterogeneous national LiDAR programs.",
     "authors": [
       "Emilie Vautier",
-      "Cl\u00e9ment Mallet",
-      "C\u00e9dric Vega"
+      "Clément Mallet",
+      "Cédric Vega"
     ],
     "categories": [
       "cs.CV",
@@ -291,7 +291,7 @@
       "Xingjian Fu",
       "Rappy Saha",
       "Jude Haris",
-      "Jos\u00e9 Cano"
+      "José Cano"
     ],
     "categories": [
       "cs.AR",
@@ -503,7 +503,7 @@
     "title": "Harnessing Textual Refusal Directions for Multimodal Safety",
     "summary": "To improve safety in Large Language Models (LLMs) we can either perform post-training alignment or exploit refusal directions in the activation space. Both strategies are less feasible in Multimodal LLMs (MLLMs) as they require unsafe multimodal data, harder to collect than their unimodal counterpart. In this work, we relax this constraint and investigate whether textual refusal directions, extracted directly from the LLM backbone, generalize across modalities (i.e., image, video). Preliminary findings confirm this ability, though effectiveness is conditioned by layer selection, steering strength, and cross-modal alignment, with the latter causing safe multimodal inputs to be spuriously steered toward refusal. Building on this, we introduce Modality-Agnostic Refusal Steering (MARS), a light-weight training-free approach that injects multimodal safety without the need for multimodal safety data. MARS corrects modality misalignment via activation re-centering, adaptively scales steering strength within a geometrically defined trust region, and selects the optimal intervention layer, operating at the first generated token. Evaluated on five SOTA MLLMs across safety, utility, and video jailbreak benchmarks, MARS achieves consistent safety gains while preserving utility. These results reveal that safety-relevant structure is shared across modalities and that textual refusal directions are a powerful and underexplored foundation for multimodal alignment.",
     "authors": [
-      "Moreno D'Inc\u00e0",
+      "Moreno D'Incà",
       "Massimiliano Mancini",
       "Nicu Sebe"
     ],
@@ -727,8 +727,8 @@
     "title": "Preserve the Hard, Regenerate the Rest: Uncertainty-Guided Synthetic Training Data Augmentation with Diffusion Models",
     "summary": "Semantic segmentation models struggle with data sparsity and rare or visually diverse regions, e.g., dense regions or small objects in aerial or autonomous mobility data. While synthetic augmentation is an appealing solution, directly generating new labeled data risks misalignment of labels and generated pixels. Existing solutions to this problem often rely on external models, or employ coarse heuristics such as indiscriminately augmenting all foreground objects or entire backgrounds, which wastes capacity on uninformative pixels. To address this, we propose an uncertainty-guided synthetic context augmentation strategy that strictly preserves label validity and efficiently maximizes pixel informativeness per synthetic sample - no external guardrails required. Using a baseline segmenter's predictive entropy, we identify uncertain semantic regions and inpaint only the complementary visual context. When fine-tuning the segmenter on this synthetic data, we compute the loss only over the original pixels, excluding inpainted regions. This focuses learning on the unmodified, uncertain regions while presenting them in novel contexts. We demonstrate substantial mIoU gains on Cityscapes, UAVID, and BDD100K with the largest gains on rare and difficult classes such as buses, trains, or (from the aerial perspective) cars. Our results demonstrate that uncertainty-guided context augmentation is a highly effective lever to improve segmentation performance on complex datasets, with code provided at https://github.com/XITASO/Preserve-the-Hard-Regenerate-the-Rest.",
     "authors": [
-      "Nikolai R\u00f6hrich",
-      "Julian Glei\u00dfner",
+      "Nikolai Röhrich",
+      "Julian Gleißner",
       "Ahmed H. A. Ibrahim",
       "Silvan Mertes",
       "Tobias Huber"
@@ -801,7 +801,7 @@
       "Eliseo Fuentes-Martinez",
       "Juan C. Martinez-Sevilla",
       "Francisco J. Castellanos",
-      "Mar\u00eda Alfaro-Contreras",
+      "María Alfaro-Contreras",
       "Jorge Calvo-Zaragoza"
     ],
     "categories": [
@@ -1142,7 +1142,7 @@
   {
     "arxiv_id": "2606.31449v1",
     "title": "Contextual Slate GLM Bandits with Limited Adaptivity",
-    "summary": "We investigate the contextual slate bandit problem with generalized linear rewards under limited adaptivity. At each round, the learner is presented with $N$ sets of items, where each item is represented by a $d$-dimensional feature vector. The learner then constructs a slate by selecting one item per set; the resulting slate yields a scalar reward sampled from a Generalized Linear Model (GLM). We propose algorithms under two limited-adaptivity settings: (a) Batched and (b) Rarely-Switching. For the batched setting, we introduce B-SlateGLinCB, which partitions the time horizon into $\\mathcal{O}(\\log\\log T)$ batches such that each batch's policy relies only on data from previous batches. For the rarely-switching setting, we propose RS-SlateGLinCB, which adaptively performs only $\\mathcal{O}(Nd\\log T)$ parameter updates. Under a diversity assumption on the item sequences, we prove that B-SlateGLinCB and RS-SlateGLinCB achieve regret bounds of $\\mathcal{O}(Nd^{3/2}\\sqrt{T})$ and $\\mathcal{O}(Nd\\sqrt{T})$, respectively. Notably, both bounds are independent of the non-linearity parameter $\u03ba$ that is typically found to scale the regret of GLM bandit algorithms. Our algorithms are computationally efficient, requiring only $\\text{poly}(N)$ time per round despite $2^{\u03a9(N)}$ possible slates. Simulations show our algorithms outperform existing baselines with limited adaptivity and remain competitive with Slate-GLM-OFU, a fully adaptive state-of-the-art algorithm. Notably, a slightly modified B-SlateGLinCB empirically matches this baseline. Finally, we demonstrate strong performance in a practical in-context example selection task for language models.",
+    "summary": "We investigate the contextual slate bandit problem with generalized linear rewards under limited adaptivity. At each round, the learner is presented with $N$ sets of items, where each item is represented by a $d$-dimensional feature vector. The learner then constructs a slate by selecting one item per set; the resulting slate yields a scalar reward sampled from a Generalized Linear Model (GLM). We propose algorithms under two limited-adaptivity settings: (a) Batched and (b) Rarely-Switching. For the batched setting, we introduce B-SlateGLinCB, which partitions the time horizon into $\\mathcal{O}(\\log\\log T)$ batches such that each batch's policy relies only on data from previous batches. For the rarely-switching setting, we propose RS-SlateGLinCB, which adaptively performs only $\\mathcal{O}(Nd\\log T)$ parameter updates. Under a diversity assumption on the item sequences, we prove that B-SlateGLinCB and RS-SlateGLinCB achieve regret bounds of $\\mathcal{O}(Nd^{3/2}\\sqrt{T})$ and $\\mathcal{O}(Nd\\sqrt{T})$, respectively. Notably, both bounds are independent of the non-linearity parameter $κ$ that is typically found to scale the regret of GLM bandit algorithms. Our algorithms are computationally efficient, requiring only $\\text{poly}(N)$ time per round despite $2^{Ω(N)}$ possible slates. Simulations show our algorithms outperform existing baselines with limited adaptivity and remain competitive with Slate-GLM-OFU, a fully adaptive state-of-the-art algorithm. Notably, a slightly modified B-SlateGLinCB empirically matches this baseline. Finally, we demonstrate strong performance in a practical in-context example selection task for language models.",
     "authors": [
       "Tanmay Goyal",
       "Sukruta Prakash Midigeshi",
@@ -1252,7 +1252,7 @@
     "title": "Modal CEGAR-tableaux with RECAR and resolution-based SAT-shortcuts",
     "summary": "We investigate two approaches for extending CEGAR-tableaux with SAT-shortcuts using a previously known approach called RECAR but also a totally new approach using the modal resolution theorem prover KSP  as an oracle. Our experiments using our C++ implementation CEGARBox++ of CEGAR-tableaux show that:   (1) CEGARBox++ with RECAR SAT-shortcuts is not competitive   (2) CEGARBox++ using KSP to provide SAT-shortcuts is superior to both CEGARBox++ and KSP,   particularly on large satisfiable problems.   As far as we know, this is the first effective integration of SAT, tableaux and resolution methods  for modal satisfiability which performs better than its parts.",
     "authors": [
-      "Rajeev Gor\u00e9",
+      "Rajeev Goré",
       "Cormac Kikkert"
     ],
     "categories": [
@@ -1357,9 +1357,9 @@
     "title": "Localized Conformal Prediction for Image Classification with Vision-Language Models",
     "summary": "Conformal predictions have attracted significant attention in the field of uncertainty quantification, mainly because of their strong marginal coverage guarantees. Full conditional guarantee is not an attainable goal, a well known fact in conformal predictions literature. As a result, several approaches have tried to approximate this behavior by adapting the conformal sets of test-time samples according to their similarity to calibration examples. Although the latter has gained traction and shown impressive performances for regression problems, its application to image classification remains under-explored. We conduct an extensive benchmarking on natural image classification tasks with vision-language models (VLMs), using our open source implementation of a recent localized conformal prediction algorithm. We show that straightforward usage of the cosine similarity between test-time and calibration visual features, an intuitive choice for VLMs, is not sufficient to improve over the non-local baselines. In response, we propose a simple non-linear transformation of the cosine similarities, which conserves marginal coverage guarantees and achieves statistically significant mean set sizes reduction. Code is available at https://github.com/cfuchs2023/lcp-vlm/.",
     "authors": [
-      "Cl\u00e9ment Fuchs",
+      "Clément Fuchs",
       "Tim Bary",
-      "Beno\u00eet Macq"
+      "Benoît Macq"
     ],
     "categories": [
       "cs.CV",
@@ -1441,7 +1441,7 @@
     "summary": "For robots manipulating open-world objects, tactile representations must generalize to unseen materials. We introduce RCT (Robotic Contact Tactile), a robot-collected touch-vision-language dataset with 29,279 tactile frames from full robot presses on 122 industrial reference materials in 7 categories, recorded with three DIGIT sensors at multiple contact positions. RCT preserves each press as a contact sequence, enabling held-out evaluation across materials, categories, sensors, contact positions, and contact sequences. Frames from one press are strongly correlated: frame-random splits can place near-duplicate observations of the same physical interaction in both training and test. With the encoder held fixed, removing contact-sequence overlap reduces tactile-to-text Recall@1 by 17.7 percentage points. When materials are additionally held out at training time, performance drops sharply, leaving held-out-material Recall@1 at 25.1 +/- 6.1% averaged over three held-out draws. The public TVL/HCT split shows the same structure: every test contact sequence appears in training, and raw-pixel nearest neighbors recover the correct sequence in 98.3% of cases. Uniformly sampling a press improves contrastive training, and RCT-trained embeddings improve category probes on unseen materials. RCT makes contact-sequence-aware, held-out-material evaluation reproducible and exposes novel-material generalization as a central challenge for robotic tactile perception. The RCT dataset is open-sourced at https://faerber-lab.github.io/RCT/",
     "authors": [
       "Jingbo He",
-      "Michael F\u00e4rber",
+      "Michael Färber",
       "Roberto Calandra"
     ],
     "categories": [
@@ -1720,7 +1720,7 @@
     "title": "Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings",
     "summary": "This work presents Dual-Embedding Watermarking (DEW), a semantic watermarking scheme for large language models (LLMs) that leverages contextual and token-level embeddings to enhance robustness against paraphrasing and translation. DEW utilizes a signal-processing methodology, applying algebraic vector-space operations to \\mbox{token and context embeddings to derive a watermark signal that degrades gracefully under semantic shifts. The method obfuscates the watermark by projecting embedding vectors through pseudo-random matrices seeded with a secret key. Relevant distributions derived from the underlying algebra are evaluated and employed for statistical testing and benchmarking of DEW. Experimental results across multiple LLMs indicate that DEW improves post-paraphrase detection while maintaining competitive text quality, and remains detectable after translation, even when prior semantic watermarks degrade significantly. These findings position DEW as a practical and robust solution for safeguarding LLM-generated text and addressing critical issues in responsible AI deployment.",
     "authors": [
-      "Jonas Sch\u00e4fer",
+      "Jonas Schäfer",
       "Cezary Pilaszewicz",
       "Gerhard Wunder"
     ],
@@ -1877,8 +1877,8 @@
     "title": "Amplifying Membership Signal Through Chained Regeneration",
     "summary": "The tendency of large generative models to memorize training data makes sample verification critical for privacy auditing and copyright enforcement. Current membership (MIA) and dataset inference (DI) attacks often rely on one-shot generations, which yield weak signals and limited sensitivity across modalities. Inspired by Model Autophagy Disorder (MAD), we introduce MADreMIA, a model-agnostic framework that enhances white-, gray-, and black-box MIA and DI. Rather than relying on shadow model training -- often infeasible for large generative models -- our framework facilitates scalable inference by leveraging inherent signals through iterative trajectories. This process utilizes chained generations across diverse modalities, where each output serves as the subsequent input, to improve membership evidence at low FPR. We demonstrate that memorized training samples exhibit significantly higher coherence and slower degradation during iterative regeneration than non-member generations. Our results show that MADreMIA provides richer signals across diverse model families and modalities; we present comprehensive evaluations for IARs, diffusion, and language models, alongside preliminary results demonstrating its potential for audio models.",
     "authors": [
-      "Wojciech \u0141apacz",
-      "Stanis\u0142aw Pawlak"
+      "Wojciech Łapacz",
+      "Stanisław Pawlak"
     ],
     "categories": [
       "cs.LG",
@@ -2271,9 +2271,9 @@
     "summary": "The deployment of face detection models in real-world applications raises important fairness concerns, as these systems may showcase performance disparities across demographic groups. A key obstacle to studying and mitigating such biases is the lack of face detection datasets with sensitive feature annotations. To address this gap, we introduce WIDER-FAIR, a new dataset built on the widely used WIDER-FACE benchmark, manually annotated with the perceived ethnicity and sex of each face. The dataset contains 16,256 images annotated across four ethnic groups: Asian, Black, Indian, and White, and two sex categories. We assess the quality and coherence of the annotations using face embeddings, a K-Nearest Neighbors classifier, and a t-SNE visualization, all of which support the consistency of the labeling process. As a demonstration of the dataset's potential, we train a YOLOv5 model and perform ablation studies on each sensitive feature. Among other findings, our experiments show that detection performance is notably lower for faces of Black individuals, and that excluding this group from training increases fairness disparity more than excluding any other ethnic group. These observations illustrate the value of demographically annotated datasets for understanding and evaluating bias in face detection models.",
     "authors": [
       "Maxime Moussi",
-      "Beno\u00eet Ronval",
+      "Benoît Ronval",
       "Siegfried Nijssen",
-      "F\u00e9licien Schiltz"
+      "Félicien Schiltz"
     ],
     "categories": [
       "cs.CV",
@@ -2424,7 +2424,7 @@
   {
     "arxiv_id": "2606.31947v1",
     "title": "LuxEmo: Expressive Text-to-Speech Corpus for Luxembourgish",
-    "summary": "State-of-the-art speech datasets predominantly focus on widely spoken languages, often overlooking low-resource languages such as Luxembourgish, which remain underrepresented in speech technology research. In this work, we introduce LuxEmo, a 21-hour conversational expressive speech corpus for Luxembourgish with 4 emotion categories. LuxEmo is derived from Radio T\u00e9l\u00e9vision Luxembourg (RTL) youth broadcasts, using automated detection followed by human validation. We propose a semi-automatic curation workflow combining voice activity detection, denoising, language identification, LuxASR-based segmentation, automatic emotion prediction, lexical cues, and targeted human review. Additionally, we benchmark five expressive TTS systems covering German-based cross-lingual transfer, multilingual Luxembourgish support, Luxembourgish adaptation, and non-parametric prosody transfer. Performance is evaluated using both objective metrics and human evaluation.",
+    "summary": "State-of-the-art speech datasets predominantly focus on widely spoken languages, often overlooking low-resource languages such as Luxembourgish, which remain underrepresented in speech technology research. In this work, we introduce LuxEmo, a 21-hour conversational expressive speech corpus for Luxembourgish with 4 emotion categories. LuxEmo is derived from Radio Télévision Luxembourg (RTL) youth broadcasts, using automated detection followed by human validation. We propose a semi-automatic curation workflow combining voice activity detection, denoising, language identification, LuxASR-based segmentation, automatic emotion prediction, lexical cues, and targeted human review. Additionally, we benchmark five expressive TTS systems covering German-based cross-lingual transfer, multilingual Luxembourgish support, Luxembourgish adaptation, and non-parametric prosody transfer. Performance is evaluated using both objective metrics and human evaluation.",
     "authors": [
       "Nina Hosseini-Kivanani",
       "Sandipana Dowerah"
@@ -2800,7 +2800,7 @@
       "Hamidreza Mazandarani",
       "Masoud Shokrnezhad",
       "Tarik Taleb",
-      "Onur G\u00fcnl\u00fc"
+      "Onur Günlü"
     ],
     "categories": [
       "cs.NI",
@@ -2868,7 +2868,7 @@
       "Milapji Singh Gill",
       "Artan Markaj",
       "Felix Gehlhoff",
-      "Mehmet Mercang\u00f6z"
+      "Mehmet Mercangöz"
     ],
     "categories": [
       "eess.SY",
@@ -2889,7 +2889,7 @@
     "authors": [
       "Javal Vyas",
       "Milapji Singh Gill",
-      "Mehmet Mercang\u00f6z"
+      "Mehmet Mercangöz"
     ],
     "categories": [
       "eess.SY",
@@ -2950,7 +2950,7 @@
   {
     "arxiv_id": "2606.31532v1",
     "title": "A time-series classification framework for individual-level absenteeism prediction under severe class imbalance",
-    "summary": "Staff absenteeism imposes substantial operational costs in high-demand work environments such as healthcare, emergency services, meat processing, construction, and courier and delivery services, where proactive workforce planning depends on reliable individual-level absence prediction. Existing regression and classification approaches share a structural limitation; they map features observed at time t to labels at the same time t, reproducing already-realised outcomes rather than predicting future events, and discard the sequential behavioural structure inherent in individual attendance histories. We propose a Time Series Classification (TSC) framework that separates historical attendance sequences from future absence labels, enabling genuinely proactive prediction. Due to the lack of public longitudinal attendance data, we construct a reproducible simulated dataset calibrated to the UCI dataset. We analyse Binary Focal Loss (BFL) and Geometric Mean (G-Mean) loss under severe class imbalance using only the imbalance ratio $\u03c1$. For BFL, the initial gradient ratio is $\u03c1\u03b1/(1-\u03b1)$, implying the balanced weight $\u03b1= 1/(1+\u03c1) \\approx 0.023$. Experiments show that performance is governed mainly by $\u03b1$, with BFL achieving specificity 0.813 and balanced accuracy 0.888, comparable to G-Mean. Unlike BFL, G-Mean adapts automatically without parameter calibration. Among three deep learning architectures evaluated, Long Short-Term Memory (LSTM), Convolutional Neural Network (CNN), and the hybrid LSTM-Fully Convolutional Network (LSTM-FCN), the LSTM-FCN delivers strong precision and specificity. Stable performance is obtained with batch sizes >= 64 and window sizes between 40-80 days, yielding balanced accuracy of approximately 80% on held-out test data.",
+    "summary": "Staff absenteeism imposes substantial operational costs in high-demand work environments such as healthcare, emergency services, meat processing, construction, and courier and delivery services, where proactive workforce planning depends on reliable individual-level absence prediction. Existing regression and classification approaches share a structural limitation; they map features observed at time t to labels at the same time t, reproducing already-realised outcomes rather than predicting future events, and discard the sequential behavioural structure inherent in individual attendance histories. We propose a Time Series Classification (TSC) framework that separates historical attendance sequences from future absence labels, enabling genuinely proactive prediction. Due to the lack of public longitudinal attendance data, we construct a reproducible simulated dataset calibrated to the UCI dataset. We analyse Binary Focal Loss (BFL) and Geometric Mean (G-Mean) loss under severe class imbalance using only the imbalance ratio $ρ$. For BFL, the initial gradient ratio is $ρα/(1-α)$, implying the balanced weight $α= 1/(1+ρ) \\approx 0.023$. Experiments show that performance is governed mainly by $α$, with BFL achieving specificity 0.813 and balanced accuracy 0.888, comparable to G-Mean. Unlike BFL, G-Mean adapts automatically without parameter calibration. Among three deep learning architectures evaluated, Long Short-Term Memory (LSTM), Convolutional Neural Network (CNN), and the hybrid LSTM-Fully Convolutional Network (LSTM-FCN), the LSTM-FCN delivers strong precision and specificity. Stable performance is obtained with batch sizes >= 64 and window sizes between 40-80 days, yielding balanced accuracy of approximately 80% on held-out test data.",
     "authors": [
       "Kwong Ho Li",
       "Matthew Roughan",
@@ -3086,7 +3086,7 @@
   {
     "arxiv_id": "2606.31856v1",
     "title": "Low-dimensional topology of deep neural networks",
-    "summary": "We study layered models, including feedforward networks, ResNets, and transformers, by limiting each layer to a width of $d = 3$, i.e., $\\mathbb{R}^3$ as representation space. This allows us to track how a neural network changes low-dimensional topological invariants through its layers. Just about any topological structure may be simplified or even trivialized by simply increasing dimension; e.g., any knot is equivalent to an unknot in $\\mathbb{R}^4$. By restricting to $\\mathbb{R}^3$, we not only isolate the effects of activation and depth from that of width, we work in a space that lends itself to easy visualization. We focus on linking number here, deferring other invariants like link groups, Milnor's $\\bar\u03bc$-invariants, knot types, ambient cobordisms, to a sequel. We provide full proofs and empirical experiments to justify the following insights: When measured by their power to effect changes in linking numbers, the layer-skipping feature in ResNets is as powerful as the attention mechanism in transformers; both ResNets and transformers are strictly more powerful than feedforward neural networks with monotonic activations, which are in turn more powerful than invertible and flow-based models; but replacing monotonic activation with a nonmonotonic one elevates a feedforward network into the same expressivity class as ResNets and transformers. These results suggest that low-dimensional topology can be a useful tool to guide designs of AI architectures. We also generalize our results from $d = 3$ to arbitrary $d > 3$.",
+    "summary": "We study layered models, including feedforward networks, ResNets, and transformers, by limiting each layer to a width of $d = 3$, i.e., $\\mathbb{R}^3$ as representation space. This allows us to track how a neural network changes low-dimensional topological invariants through its layers. Just about any topological structure may be simplified or even trivialized by simply increasing dimension; e.g., any knot is equivalent to an unknot in $\\mathbb{R}^4$. By restricting to $\\mathbb{R}^3$, we not only isolate the effects of activation and depth from that of width, we work in a space that lends itself to easy visualization. We focus on linking number here, deferring other invariants like link groups, Milnor's $\\barμ$-invariants, knot types, ambient cobordisms, to a sequel. We provide full proofs and empirical experiments to justify the following insights: When measured by their power to effect changes in linking numbers, the layer-skipping feature in ResNets is as powerful as the attention mechanism in transformers; both ResNets and transformers are strictly more powerful than feedforward neural networks with monotonic activations, which are in turn more powerful than invertible and flow-based models; but replacing monotonic activation with a nonmonotonic one elevates a feedforward network into the same expressivity class as ResNets and transformers. These results suggest that low-dimensional topology can be a useful tool to guide designs of AI architectures. We also generalize our results from $d = 3$ to arbitrary $d > 3$.",
     "authors": [
       "Junyu Ren",
       "Lek-Heng Lim"
@@ -3182,7 +3182,7 @@
       "Dominika Woszczyk",
       "Andreas Triantafyllopoulos",
       "Jura Miniota",
-      "\u00c9va Sz\u00e9kely",
+      "Éva Székely",
       "Bjoern Schuller"
     ],
     "categories": [
@@ -3307,9 +3307,9 @@
     "title": "Improving multichannel speech enhancement through accurate room-acoustic simulations",
     "summary": "Room-acoustic simulations are widely used to augment training data for deep-learning-based speech enhancement. While most pipelines rely on simplified geometrical acoustics, wave-based approaches offer greater physical accuracy. In this work, we examine how simulation fidelity affects multichannel speech enhancement performance. To this end, we train SpatialNet on datasets augmented with different room-acoustic simulation methods and evaluate the resulting models on measured data. We compare lower-fidelity datasets based on geometrical acoustics with a high-fidelity dataset using advanced acoustic modelling and a hybrid combination of wave-based and geometrical acoustics simulations. Training on the high-fidelity dataset results in an up to 38 % relative reduction in median word error rate compared to the lower-fidelity alternatives. These results show that augmentation with high-fidelity room-acoustic simulations directly translates into improved multichannel speech enhancement performance.",
     "authors": [
-      "Georg G\u00f6tz",
+      "Georg Götz",
       "Alessia Milo",
-      "Steinar Gu\u00f0j\u00f3nsson",
+      "Steinar Guðjónsson",
       "Daniel Gert Nielsen",
       "Jesper Pedersen",
       "Finnur Pind"
@@ -3423,7 +3423,7 @@
       "Daniel Rosendo",
       "Kelsey Carter",
       "John Lagergren",
-      "Fr\u00e9d\u00e9ric Suter",
+      "Frédéric Suter",
       "Shelaine L. Curd",
       "Gerald A. Tuskan",
       "Rafael Ferreira da Silva",
@@ -3695,13 +3695,13 @@
     "authors": [
       "Luis Gasco",
       "Hermenegildo Fabregat",
-      "Laura Garc\u00eda-Sardi\u00f1a",
+      "Laura García-Sardiña",
       "Paula Estrella",
       "Warre Veys",
-      "Casimiro P\u00edo Carrino",
+      "Casimiro Pío Carrino",
       "Matthias De Lange",
       "Daniel Deniz Cerpa",
-      "\u00c1lvaro Rodrigo",
+      "Álvaro Rodrigo",
       "Jens-Joris Decorte",
       "Rabih Zbib"
     ],
@@ -4124,9 +4124,9 @@
     "title": "Self-Supervised Temporal Regularization for Landmark-Based Cardiac Segmentation with Automatic AHA Regional Mapping",
     "summary": "Graph-based cardiac segmentation with implicit anatomical correspondences provides topological guarantees and population-level analysis capabilities, but models trained on independent frames of image sequences exhibit temporal discontinuities that affect reliable clinical measurements, particularly in cardiac ultrasound. In this work, we introduce self-supervised temporal regularization as a post-training refinement stage that exploits the temporal coherence in image sequences to enforce consistent cardiac segmentation and motion estimation over time, without requiring per-frame annotations. By penalizing velocity and acceleration discontinuities across consecutive frames, our method achieves temporally consistent segmentations while maintaining the learned anatomical correspondences. We further leverage these correspondences to automatically map landmarks to the AHA 17-segment clinical standard, enabling standardized regional assessment and detection of pathological myocardial motion patterns. Validation on CAMUS dataset demonstrates the clinical utility of combining temporal consistency with automatic regional mapping. The code is publicly available at https://github.com/david-montalvoo/MaskHybridGNet-TempReg",
     "authors": [
-      "David Montalvo-Garc\u00eda",
-      "Nicol\u00e1s Gaggion",
-      "Mar\u00eda J. Ledesma-Carbayo",
+      "David Montalvo-García",
+      "Nicolás Gaggion",
+      "María J. Ledesma-Carbayo",
       "Enzo Ferrante"
     ],
     "categories": [
@@ -4237,7 +4237,7 @@
     "summary": "Optical recognition of Gregorian notation has recently been attempted with end-to-end methods, with four datasets introduced. However, each of these datasets is in a different encoding. We design a common encoding based on the S-GABC proposal, convert all four datasets to this common encoding, and train a shared end-to-end foundational model for diastematic Gregorian notation that establishes a new state of the art across all four datasets.",
     "authors": [
       "Daniel Kurek",
-      "Jan Haji\u010d"
+      "Jan Hajič"
     ],
     "categories": [
       "cs.CV",
@@ -4377,14 +4377,14 @@
     "title": "DEMUN: Fast and accurate discovery of music notation in very large collections",
     "summary": "Much of written musical heritage is preserved and digitised at memory institutions: libraries, museums, and archives. Owing to their collection structures, sheet music tends to be concentrated in large subsets that are defined as collections of music, with corresponding metadata that makes the music findable. However, when studying musical life as opposed to individual works, relevant documents often lie outside of these specialised collections: in textbooks, newspapers, other periodicals, pamphlets, and other documents with extensive circulation. But these documents are typically not catalogued as musical documents, and though there may be a lot of such documents overall, in large library collections, they are still extremely sparse. Manual discovery is thus unfeasible. Automated discovery requires an extremely low false positive rate in order to be useful, and must also operate quickly. We present DEMUN: a two-stage lightweight detector of music notation with a false positive rate of 0.015 %. In the test scenario, 4 million images of a national-scale library were processed, out of which 1,500 pages with music notation were discovered, suggesting the entire collection may contain up to 20-30,000 unmarked documents of musical life.",
     "authors": [
-      "Vojt\u011bch Dvo\u0159\u00e1k",
-      "Filip B\u00edm",
-      "Ji\u0159\u00ed Mayer",
-      "Martina Dvo\u0159\u00e1kov\u00e1",
-      "Mark\u00e9ta Herzanov\u00e1 Vlkov\u00e1",
+      "Vojtěch Dvořák",
+      "Filip Bím",
+      "Jiří Mayer",
+      "Martina Dvořáková",
+      "Markéta Herzanová Vlková",
       "Pavel Pecina",
-      "Petr \u017dabi\u010dka",
-      "Jan Haji\u010d"
+      "Petr Žabička",
+      "Jan Hajič"
     ],
     "categories": [
       "cs.DL",
@@ -4400,7 +4400,7 @@
   {
     "arxiv_id": "2606.31764v1",
     "title": "NURBS Splatting: A Unified Differentiable Rendering Framework for Vector Graphics",
-    "summary": "Differentiable rendering of planar rational splines remains largely underexplored, despite their widespread use in vector graphics and design. Existing differentiable vector renderers primarily focus on B\u00e9zier curves and rely on analytic rasterization, which can suffer from gradient instability and limited flexibility. We propose NURBS Splatting, a unified framework that represents planar rational curves as continuous Gaussian fields. By sampling Gaussians along the curve parameter domain and inside closed regions, rendering is reformulated as a smooth accumulation process with stable gradients. Our method naturally supports long splines, rational weights, non-uniform knots, and closed-region filling. We demonstrate its effectiveness in calligraphy reconstruction, vectorization frameworks, and long-spline image abstraction, showing improved stability and reconstruction quality over existing approaches.",
+    "summary": "Differentiable rendering of planar rational splines remains largely underexplored, despite their widespread use in vector graphics and design. Existing differentiable vector renderers primarily focus on Bézier curves and rely on analytic rasterization, which can suffer from gradient instability and limited flexibility. We propose NURBS Splatting, a unified framework that represents planar rational curves as continuous Gaussian fields. By sampling Gaussians along the curve parameter domain and inside closed regions, rendering is reformulated as a smooth accumulation process with stable gradients. Our method naturally supports long splines, rational weights, non-uniform knots, and closed-region filling. We demonstrate its effectiveness in calligraphy reconstruction, vectorization frameworks, and long-spline image abstraction, showing improved stability and reconstruction quality over existing approaches.",
     "authors": [
       "Jingye Qiu",
       "Shizhe Zhou"
@@ -4419,7 +4419,7 @@
   {
     "arxiv_id": "2606.31502v1",
     "title": "Fully Automated High-Precision Segmentation of Retinal Atrophy and Ellipsoid Zone Thickness in OCT: A Reliable Tool for Real-World GA Monitoring",
-    "summary": "Geographic atrophy (GA) secondary to age-related macular degeneration (AMD) requires precise monitoring of relevant structural biomarkers to assess disease stage, progression, and treatment response. This paper presents a fully automated, deep learning-based framework for the high-precision, pixel-wise segmentation of key biomarkers in optical coherence tomography (OCT) imaging: retinal pigment epithelium (RPE) loss, ellipsoid zone (EZ) loss, and EZ thinning. The proposed pipeline uses three specialized semantic segmentation models to delineate RPE loss, EZ boundaries (including interruptions), and Bruch's membrane. To ensure robustness and generalizability, the models were developed on a diverse dataset of 298 SD-OCT volumes representing the full phenotypic spectrum of AMD (GA:222, intermediate AMD: 40, neovascular AMD: 17, healthy: 19) and validated on an independent external dataset (n=43). The comprehensive evaluation was further strengthened using additional datasets to assess repeatability, inter-reader reliability, the impact of B-scan density on measurement accuracy, and subgroup performance stratified by lesion size. Results demonstrated high segmentation accuracy (Dice RPE loss: 0.88, Dice EZ loss: 0.87, Pearson's r > 0.99). Total EZ thickness measurements exhibited a sub-pixel average deviation of 2.15 $\u03bcm$, and segmentation reliability was confirmed by a strong reproducibility score (ICC > 0.98). By accurately and consistently quantifying outer photoreceptor degeneration and RPE loss, this fully automated framework provides a highly reliable tool for GA assessment in both clinical trials and routine real-world ophthalmic care.",
+    "summary": "Geographic atrophy (GA) secondary to age-related macular degeneration (AMD) requires precise monitoring of relevant structural biomarkers to assess disease stage, progression, and treatment response. This paper presents a fully automated, deep learning-based framework for the high-precision, pixel-wise segmentation of key biomarkers in optical coherence tomography (OCT) imaging: retinal pigment epithelium (RPE) loss, ellipsoid zone (EZ) loss, and EZ thinning. The proposed pipeline uses three specialized semantic segmentation models to delineate RPE loss, EZ boundaries (including interruptions), and Bruch's membrane. To ensure robustness and generalizability, the models were developed on a diverse dataset of 298 SD-OCT volumes representing the full phenotypic spectrum of AMD (GA:222, intermediate AMD: 40, neovascular AMD: 17, healthy: 19) and validated on an independent external dataset (n=43). The comprehensive evaluation was further strengthened using additional datasets to assess repeatability, inter-reader reliability, the impact of B-scan density on measurement accuracy, and subgroup performance stratified by lesion size. Results demonstrated high segmentation accuracy (Dice RPE loss: 0.88, Dice EZ loss: 0.87, Pearson's r > 0.99). Total EZ thickness measurements exhibited a sub-pixel average deviation of 2.15 $μm$, and segmentation reliability was confirmed by a strong reproducibility score (ICC > 0.98). By accurately and consistently quantifying outer photoreceptor degeneration and RPE loss, this fully automated framework provides a highly reliable tool for GA assessment in both clinical trials and routine real-world ophthalmic care.",
     "authors": [
       "Wolf-Dieter Vogl",
       "Hlynur Skulason",
@@ -4486,10 +4486,10 @@
     "title": "Temporal Training Strategies for Left Atrium and Left Atrial Appendage Segmentation in Dynamic Contrast 4DCT",
     "summary": "Dynamic contrast-enhanced cardiac CT enables time-resolved analysis of contrast filling and washout in the left atrium (LA) and left atrial appendage (LAA), with potential applications for assessing blood stasis in atrial fibrillation (AF). Accurate segmentation across all frames is required for such analysis but is challenging due to large temporal contrast variations and the use of a single annotation per registered sequence. This creates a trade-off between training for robustness and limiting label noise. In this study, we investigate how temporal training-set design affects nnUNet-based segmentation of the LA and LAA in dynamic 4DCT. We compare training using a minimal two-frame dataset reflecting standard clinical practice, a physiologically selected subset of frames, and the full 27-frame sequence. We further evaluate the impact of foreground-based normalization. Training with all frames yielded the best performance in early low-contrast phases. However, the physiologically selected subset achieved comparable performance from the filling phase onward. Applying normalization parameters derived from the full dataset improved performance of reduced datasets in low-contrast frames, but did not fully close the gap. These findings highlight the importance of temporal diversity in training data for robust segmentation in dynamic CT, while indicating that carefully selected frame subsets may provide an effective trade-off between performance and efficiency for downstream applications.",
     "authors": [
-      "David Montalvo-Garc\u00eda",
+      "David Montalvo-García",
       "Lauren Severance",
       "Elliot R. McVeigh",
-      "Mar\u00eda J. Ledesma-Carbayo"
+      "María J. Ledesma-Carbayo"
     ],
     "categories": [
       "cs.CV"
@@ -4499,357 +4499,6 @@
     "pdf_url": "https://arxiv.org/pdf/2606.31444v1.pdf",
     "date": "2026-07-01",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "MohammedSohail111/shroom-paligemma",
-    "author": "unknown",
-    "title": "MohammedSohail111/shroom-paligemma",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:google/paligemma-3b-pt-224",
-      "lora",
-      "transformers",
-      "text-generation",
-      "base_model:google/paligemma-3b-pt-224",
-      "license:gemma",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-06-30T18:47:12.000Z",
-    "last_modified": "2026-07-01T05:17:15.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/MohammedSohail111/shroom-paligemma",
-    "date": "2026-07-01",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "anusasaha/medgemma-ner-diagonsis-lora",
-    "author": "unknown",
-    "title": "anusasaha/medgemma-ner-diagonsis-lora",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:google/medgemma-4b-it",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "text-generation",
-      "conversational",
-      "base_model:google/medgemma-4b-it",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-01T05:14:05.000Z",
-    "last_modified": "2026-07-01T05:17:13.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/anusasaha/medgemma-ner-diagonsis-lora",
-    "date": "2026-07-01",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "nwzjk/MiniMax-M3-NVFP4-Duplicated",
-    "author": "unknown",
-    "title": "nwzjk/MiniMax-M3-NVFP4-Duplicated",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "minimax_m3_vl",
-      "nvidia",
-      "ModelOpt",
-      "MiniMax-M3",
-      "quantized",
-      "NVFP4",
-      "nvfp4",
-      "text-generation",
-      "conversational",
-      "custom_code",
-      "base_model:MiniMaxAI/MiniMax-M3",
-      "base_model:quantized:MiniMaxAI/MiniMax-M3",
-      "license:other",
-      "8-bit",
-      "modelopt",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-01T05:12:08.000Z",
-    "last_modified": "2026-07-01T05:17:01.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/nwzjk/MiniMax-M3-NVFP4-Duplicated",
-    "date": "2026-07-01",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "petra345/MyAwesomeModel-EfficientRelease-TestRepo",
-    "author": "unknown",
-    "title": "petra345/MyAwesomeModel-EfficientRelease-TestRepo",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "pytorch",
-      "bert",
-      "feature-extraction",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "feature-extraction",
-    "library": "transformers",
-    "created_at": "2026-07-01T05:16:39.000Z",
-    "last_modified": "2026-07-01T05:16:39.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/petra345/MyAwesomeModel-EfficientRelease-TestRepo",
-    "date": "2026-07-01",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "fpadovani/rus-cyrl-10mb-100mb_seed10",
-    "author": "unknown",
-    "title": "fpadovani/rus-cyrl-10mb-100mb_seed10",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "base_model:goldfish-models/rus_cyrl_10mb",
-      "base_model:finetune:goldfish-models/rus_cyrl_10mb",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-01T05:13:25.000Z",
-    "last_modified": "2026-07-01T05:15:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fpadovani/rus-cyrl-10mb-100mb_seed10",
-    "date": "2026-07-01",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "tplund/friktion-tutor-scaffold-qwen2.5-1.5b-lora",
-    "author": "unknown",
-    "title": "tplund/friktion-tutor-scaffold-qwen2.5-1.5b-lora",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen2.5-1.5B-Instruct",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "text-generation",
-      "arxiv:1910.09700",
-      "base_model:Qwen/Qwen2.5-1.5B-Instruct",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-01T05:14:40.000Z",
-    "last_modified": "2026-07-01T05:14:51.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/tplund/friktion-tutor-scaffold-qwen2.5-1.5b-lora",
-    "date": "2026-07-01",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sayande/AgriQA-Phi-MoE-1B",
-    "author": "unknown",
-    "title": "sayande/AgriQA-Phi-MoE-1B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:microsoft/Phi-tiny-MoE-instruct",
-      "lora",
-      "agricultural-qa",
-      "scientific-reasoning",
-      "causal-knowledge-graph",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:microsoft/Phi-tiny-MoE-instruct",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-01T05:09:01.000Z",
-    "last_modified": "2026-07-01T05:14:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sayande/AgriQA-Phi-MoE-1B",
-    "date": "2026-07-01",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "fpadovani/rus-cyrl-10mb-10mb_seed10",
-    "author": "unknown",
-    "title": "fpadovani/rus-cyrl-10mb-10mb_seed10",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "base_model:goldfish-models/rus_cyrl_10mb",
-      "base_model:finetune:goldfish-models/rus_cyrl_10mb",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-01T05:01:24.000Z",
-    "last_modified": "2026-07-01T05:12:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fpadovani/rus-cyrl-10mb-10mb_seed10",
-    "date": "2026-07-01",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "nwzjk/MiniMax-M3-EAGLE3-Duplicated",
-    "author": "unknown",
-    "title": "nwzjk/MiniMax-M3-EAGLE3-Duplicated",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "eagle3",
-      "speculative-decoding",
-      "draft-model",
-      "vllm",
-      "torchspec",
-      "minimax",
-      "text-generation",
-      "base_model:MiniMaxAI/Minimax-M3-preview",
-      "base_model:finetune:MiniMaxAI/Minimax-M3-preview",
-      "license:mit",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-01T05:12:40.000Z",
-    "last_modified": "2026-07-01T05:12:40.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/nwzjk/MiniMax-M3-EAGLE3-Duplicated",
-    "date": "2026-07-01",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "bhavin-gajjar/qwen-laravel-coder",
-    "author": "unknown",
-    "title": "bhavin-gajjar/qwen-laravel-coder",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "laravel",
-      "php",
-      "code",
-      "qwen2.5",
-      "qwen",
-      "conversational",
-      "en",
-      "dataset:bhavin-gajjar/laravel-coder-lora-train",
-      "base_model:Qwen/Qwen2.5-Coder-7B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-Coder-7B-Instruct",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-01T05:01:42.000Z",
-    "last_modified": "2026-07-01T05:11:12.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/bhavin-gajjar/qwen-laravel-coder",
-    "date": "2026-07-01",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "narcolepticchicken/occ-grpo-costaware",
-    "author": "unknown",
-    "title": "narcolepticchicken/occ-grpo-costaware",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "trackio:https://narcolepticchicken-ml-intern-occ-eval.hf.space?project=occ-grpo-training&runs=occ-grpo-costaware&sidebar=collapsed",
-      "hf_jobs",
-      "grpo",
-      "trl",
-      "conversational",
-      "arxiv:2402.03300",
-      "base_model:Qwen/Qwen2.5-3B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-3B-Instruct",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-01T04:04:59.000Z",
-    "last_modified": "2026-07-01T05:09:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/narcolepticchicken/occ-grpo-costaware",
-    "date": "2026-07-01",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
