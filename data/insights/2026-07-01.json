@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-01T15:37:05.967326",
+  "date": "2026-07-01T17:49:48.403961",
   "patterns": {
     "multimodal_research": [
       {
@@ -1045,6 +1045,10 @@
         "url": "https://arxiv.org/abs/2606.31760v1"
       },
       {
+        "title": "imagovision/act_imagovision_pick_and_place_new_merged_20260701_1610_2026-07-01_15-49-07",
+        "url": "https://huggingface.co/imagovision/act_imagovision_pick_and_place_new_merged_20260701_1610_2026-07-01_15-49-07"
+      },
+      {
         "title": "wrice/whisper-tiny-grpo-d46ed86-cv22-tiny-sftanneal2",
         "url": "https://huggingface.co/wrice/whisper-tiny-grpo-d46ed86-cv22-tiny-sftanneal2"
       }
@@ -1345,10 +1349,6 @@
       {
         "title": "Temporal Training Strategies for Left Atrium and Left Atrial Appendage Segmentation in Dynamic Contrast 4DCT",
         "url": "https://arxiv.org/abs/2606.31444v1"
-      },
-      {
-        "title": "TobiasLogic/Qwen2.5-Coder-32B-abliterated",
-        "url": "https://huggingface.co/TobiasLogic/Qwen2.5-Coder-32B-abliterated"
       }
     ],
     "benchmarks": [
@@ -1791,13 +1791,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "92 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1827,7 +1827,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 38,
+      "frequency": 39,
       "significance": "high"
     },
     {
