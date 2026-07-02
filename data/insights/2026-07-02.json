@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-02T09:57:02.065493",
+  "date": "2026-07-02T12:06:26.223120",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,8 +639,8 @@
         "url": "https://arxiv.org/abs/2607.00780v1"
       },
       {
-        "title": "beardymcgee/cascamini-gpt2-210m-edu-5b",
-        "url": "https://huggingface.co/beardymcgee/cascamini-gpt2-210m-edu-5b"
+        "title": "marafx2007/gpt-oss-20b-heretic",
+        "url": "https://huggingface.co/marafx2007/gpt-oss-20b-heretic"
       }
     ],
     "vision_systems": [
@@ -931,14 +931,6 @@
       {
         "title": "SpiralFovea: Input-Adaptive Foveated Tokenization as a Third Lever of Resource-Adaptive Inference",
         "url": "https://arxiv.org/abs/2607.00780v1"
-      },
-      {
-        "title": "rootonchair/ERNIE-Image-Turbo-nunchaku-lite-int4",
-        "url": "https://huggingface.co/rootonchair/ERNIE-Image-Turbo-nunchaku-lite-int4"
-      },
-      {
-        "title": "rootonchair/ERNIE-Image-Turbo-nunchaku-lite-nvfp4",
-        "url": "https://huggingface.co/rootonchair/ERNIE-Image-Turbo-nunchaku-lite-nvfp4"
       }
     ],
     "reasoning": [
@@ -1635,7 +1627,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1688,6 +1680,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 397
+    "total_papers": 395
   }
 }
