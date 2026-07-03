@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-03T09:53:49.894111",
+  "date": "2026-07-03T12:05:08.890104",
   "patterns": {
     "multimodal_research": [
       {
@@ -291,6 +291,10 @@
       {
         "title": "SAMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology",
         "url": "https://arxiv.org/abs/2607.02148v1"
+      },
+      {
+        "title": "nayeshdaggula/sutradhar-3b-moe-instruct-v0.1",
+        "url": "https://huggingface.co/nayeshdaggula/sutradhar-3b-moe-instruct-v0.1"
       }
     ],
     "language_models": [
@@ -657,42 +661,6 @@
       {
         "title": "SAMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology",
         "url": "https://arxiv.org/abs/2607.02148v1"
-      },
-      {
-        "title": "Prakmlis/w2v-bert-2.0-khmer-v4",
-        "url": "https://huggingface.co/Prakmlis/w2v-bert-2.0-khmer-v4"
-      },
-      {
-        "title": "Jumpr/Nuwa-10k-steps-v2-ForCausalLM",
-        "url": "https://huggingface.co/Jumpr/Nuwa-10k-steps-v2-ForCausalLM"
-      },
-      {
-        "title": "sriram-kola/sms-spam-detector-distilbert-sriram",
-        "url": "https://huggingface.co/sriram-kola/sms-spam-detector-distilbert-sriram"
-      },
-      {
-        "title": "dhasmana/WAXALdag_asr-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/WAXALdag_asr-w2v-bert-2.0"
-      },
-      {
-        "title": "Sushmanunna/sms-spam-detector-distilbert-nagur",
-        "url": "https://huggingface.co/Sushmanunna/sms-spam-detector-distilbert-nagur"
-      },
-      {
-        "title": "harireddy28/imdb-sentiment-distilbert-hari",
-        "url": "https://huggingface.co/harireddy28/imdb-sentiment-distilbert-hari"
-      },
-      {
-        "title": "revanth14tarun/sms-spam-detector-distilbert-revi",
-        "url": "https://huggingface.co/revanth14tarun/sms-spam-detector-distilbert-revi"
-      },
-      {
-        "title": "chamu2701/sms-spam-detector-distilbert-chamu",
-        "url": "https://huggingface.co/chamu2701/sms-spam-detector-distilbert-chamu"
-      },
-      {
-        "title": "simonecappelletti/twitter-roberta-base-sentiment-custom",
-        "url": "https://huggingface.co/simonecappelletti/twitter-roberta-base-sentiment-custom"
       }
     ],
     "vision_systems": [
@@ -1039,6 +1007,18 @@
       {
         "title": "SAMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology",
         "url": "https://arxiv.org/abs/2607.02148v1"
+      },
+      {
+        "title": "burakaydinofficial/whisper-small-cv11",
+        "url": "https://huggingface.co/burakaydinofficial/whisper-small-cv11"
+      },
+      {
+        "title": "burakaydinofficial/whisper-small-mla-cv11",
+        "url": "https://huggingface.co/burakaydinofficial/whisper-small-mla-cv11"
+      },
+      {
+        "title": "burakaydinofficial/whisper-base-mla-cv11",
+        "url": "https://huggingface.co/burakaydinofficial/whisper-base-mla-cv11"
       }
     ],
     "reasoning": [
@@ -1753,7 +1733,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "38 independent papers",
+      "observation": "39 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1765,13 +1745,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "100 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "86 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1824,6 +1804,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 431
+    "total_papers": 426
   }
 }
