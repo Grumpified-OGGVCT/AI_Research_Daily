@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-03T12:05:08.890104",
+  "date": "2026-07-03T15:05:53.225019",
   "patterns": {
     "multimodal_research": [
       {
@@ -291,10 +291,6 @@
       {
         "title": "SAMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology",
         "url": "https://arxiv.org/abs/2607.02148v1"
-      },
-      {
-        "title": "nayeshdaggula/sutradhar-3b-moe-instruct-v0.1",
-        "url": "https://huggingface.co/nayeshdaggula/sutradhar-3b-moe-instruct-v0.1"
       }
     ],
     "language_models": [
@@ -1007,18 +1003,6 @@
       {
         "title": "SAMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology",
         "url": "https://arxiv.org/abs/2607.02148v1"
-      },
-      {
-        "title": "burakaydinofficial/whisper-small-cv11",
-        "url": "https://huggingface.co/burakaydinofficial/whisper-small-cv11"
-      },
-      {
-        "title": "burakaydinofficial/whisper-small-mla-cv11",
-        "url": "https://huggingface.co/burakaydinofficial/whisper-small-mla-cv11"
-      },
-      {
-        "title": "burakaydinofficial/whisper-base-mla-cv11",
-        "url": "https://huggingface.co/burakaydinofficial/whisper-base-mla-cv11"
       }
     ],
     "reasoning": [
@@ -1733,7 +1717,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "39 independent papers",
+      "observation": "38 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1751,7 +1735,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "89 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1788,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 422
   }
 }
