@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-04T11:21:59.753365",
+  "date": "2026-07-04T13:09:09.832702",
   "patterns": {
     "multimodal_research": [
       {
@@ -291,10 +291,6 @@
       {
         "title": "SAMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology",
         "url": "https://arxiv.org/abs/2607.02148v1"
-      },
-      {
-        "title": "TheSon2202/bamibert-moe-sentiment",
-        "url": "https://huggingface.co/TheSon2202/bamibert-moe-sentiment"
       }
     ],
     "language_models": [
@@ -663,12 +659,12 @@
         "url": "https://arxiv.org/abs/2607.02148v1"
       },
       {
-        "title": "TheSon2202/bamibert-moe-sentiment",
-        "url": "https://huggingface.co/TheSon2202/bamibert-moe-sentiment"
+        "title": "MarxistLeninist/AGILLM-4.3",
+        "url": "https://huggingface.co/MarxistLeninist/AGILLM-4.3"
       },
       {
-        "title": "Ang28/verifact-distilbert",
-        "url": "https://huggingface.co/Ang28/verifact-distilbert"
+        "title": "dhasmana/WAXAL-ful_asr-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/WAXAL-ful_asr-w2v-bert-2.0"
       }
     ],
     "vision_systems": [
@@ -1015,10 +1011,6 @@
       {
         "title": "SAMoR: Motion Modelling for Articulated Objects of Any Skeleton and Topology",
         "url": "https://arxiv.org/abs/2607.02148v1"
-      },
-      {
-        "title": "LiamVisionary/swarm-sovereign-scout-12b",
-        "url": "https://huggingface.co/LiamVisionary/swarm-sovereign-scout-12b"
       }
     ],
     "reasoning": [
@@ -1733,7 +1725,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "39 independent papers",
+      "observation": "38 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1751,7 +1743,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1792,7 +1784,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 38,
+      "frequency": 37,
       "significance": "high"
     },
     {
@@ -1804,6 +1796,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 424
   }
 }
