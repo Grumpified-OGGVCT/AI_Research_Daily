@@ -1,11 +1,22 @@
 {
-  "date": "2026-07-05T15:09:05.105997",
-  "patterns": {},
+  "date": "2026-07-05T17:01:32.453147",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "MarxistLeninist/AGILLM-4.3",
+        "url": "https://huggingface.co/MarxistLeninist/AGILLM-4.3"
+      },
+      {
+        "title": "gmmeyer/sprite-gpt",
+        "url": "https://huggingface.co/gmmeyer/sprite-gpt"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
