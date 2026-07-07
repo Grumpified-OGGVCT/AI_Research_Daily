@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-07T21:18:58.989283",
+  "date": "2026-07-07T22:56:07.070271",
   "patterns": {
     "multimodal_research": [
       {
@@ -763,6 +763,10 @@
       {
         "title": "VLM-CASE: Vision-Language Model Enabled Context-Adaptive Safety Envelopes for Anticipatory Safe Autonomous Driving",
         "url": "https://arxiv.org/abs/2607.05180v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Vision Pretraining for Dense Spatial Perception",
@@ -1587,7 +1591,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1640,6 +1644,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 385
+    "total_papers": 386
   }
 }
