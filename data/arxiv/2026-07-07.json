@@ -65,7 +65,7 @@
   {
     "arxiv_id": "2607.04824v1",
     "title": "Probably Correct Optimal Stable Matching under Two-Sided Uncertainty",
-    "summary": "We study a sequential learning problem for stable matchings in two-sided markets where preferences on both sides are initially unknown. We focus on a centralized setting where an algorithm matches agents at each time step and receives noisy rewards that reflect the preferences of the matched agents, following a semi-bandit feedback structure. We adopt a pure exploration perspective, aiming to efficiently identify the optimal stable matching with high probability. Our work extends prior results by handling \\emph{two-sided uncertainty} and by exploiting \\emph{partial preference} information. A central ingredient is the notion of \\textbf{pervasive stable matching}, which enables the identification of optimal stable matchings under partial preferences. We propose elimination-based algorithms whose stopping criteria exploit the structure of the learned partial preferences, and provide a refined sample-complexity analysis. Beyond pure exploration, we extend our approach to regret minimization and establish regret bounds with respect to the \\emph{optimal} stable matching that avoid dependence on the minimum reward gap $\u0394_{\\min}$.",
+    "summary": "We study a sequential learning problem for stable matchings in two-sided markets where preferences on both sides are initially unknown. We focus on a centralized setting where an algorithm matches agents at each time step and receives noisy rewards that reflect the preferences of the matched agents, following a semi-bandit feedback structure. We adopt a pure exploration perspective, aiming to efficiently identify the optimal stable matching with high probability. Our work extends prior results by handling \\emph{two-sided uncertainty} and by exploiting \\emph{partial preference} information. A central ingredient is the notion of \\textbf{pervasive stable matching}, which enables the identification of optimal stable matchings under partial preferences. We propose elimination-based algorithms whose stopping criteria exploit the structure of the learned partial preferences, and provide a refined sample-complexity analysis. Beyond pure exploration, we extend our approach to regret minimization and establish regret bounds with respect to the \\emph{optimal} stable matching that avoid dependence on the minimum reward gap $Δ_{\\min}$.",
     "authors": [
       "Andreas Athanasopoulos",
       "Anne-Marie George",
@@ -475,7 +475,7 @@
   {
     "arxiv_id": "2607.05271v1",
     "title": "Target-Guided Selective Reweighting for Physics-Informed Neural Network Inverse Problems: A Transfer Learning Approach",
-    "summary": "Physics-informed neural networks (PINNs) encounter ill-posed optimization, loss competition, and parameter compensation in partial differential equation (PDE) inverse problems. Transfer learning can reuse representations from source tasks, but direct fine-tuning may introduce negative transfer when dominant physical mechanisms, governing parameters, or observation noise differ between source and target domains: the model achieves low field error yet recovers incorrect target physical parameters. To mitigate, we propose Target-Guided Selective Reweighting PINN (TGSR-PINN), a target-evidence-driven representation correction method for PINN inverse transfer learning. TGSR-PINN transfers only the weights and biases from the source PINN, while target physical parameters are independently initialized; after a short target-adaptation phase, the method computes neuron target scores using first-order Taylor sensitivity and pre-activation variance on fixed scoring batches, and converts evidence associated with low-scoring neurons into continuous weak-adaptation signals via a Gaussian mixture model (GMM) with rank fallback. TGSR-PINN then applies selective soft decay to input weight rows and biases of low-scoring neurons instead of hard pruning or random resetting. In experiments, TGSR-PINN improves target parameter recovery while maintaining comparable field accuracy in the high-P\u00e9clet 2D advection-diffusion task and in the Allen--Cahn to Burgers cross-PDE-family transfer task; a 5%-noise reaction--diffusion case provides supplementary evidence under milder source-target mismatch. Ablation studies suggest that neuron target scoring, weak-adaptation signal estimation, layer protection, and selective soft decay jointly contribute to the benefits.",
+    "summary": "Physics-informed neural networks (PINNs) encounter ill-posed optimization, loss competition, and parameter compensation in partial differential equation (PDE) inverse problems. Transfer learning can reuse representations from source tasks, but direct fine-tuning may introduce negative transfer when dominant physical mechanisms, governing parameters, or observation noise differ between source and target domains: the model achieves low field error yet recovers incorrect target physical parameters. To mitigate, we propose Target-Guided Selective Reweighting PINN (TGSR-PINN), a target-evidence-driven representation correction method for PINN inverse transfer learning. TGSR-PINN transfers only the weights and biases from the source PINN, while target physical parameters are independently initialized; after a short target-adaptation phase, the method computes neuron target scores using first-order Taylor sensitivity and pre-activation variance on fixed scoring batches, and converts evidence associated with low-scoring neurons into continuous weak-adaptation signals via a Gaussian mixture model (GMM) with rank fallback. TGSR-PINN then applies selective soft decay to input weight rows and biases of low-scoring neurons instead of hard pruning or random resetting. In experiments, TGSR-PINN improves target parameter recovery while maintaining comparable field accuracy in the high-Péclet 2D advection-diffusion task and in the Allen--Cahn to Burgers cross-PDE-family transfer task; a 5%-noise reaction--diffusion case provides supplementary evidence under milder source-target mismatch. Ablation studies suggest that neuron target scoring, weak-adaptation signal estimation, layer protection, and selective soft decay jointly contribute to the benefits.",
     "authors": [
       "Qian Hu",
       "Bin Fan",
@@ -593,7 +593,7 @@
       "Richard Osuala",
       "Daniel M. Lang",
       "Stefan M. Fischer",
-      "Ivana Jan\u00ed\u010dkov\u00e1",
+      "Ivana Janíčková",
       "Karim Lekadir",
       "Julia A. Schnabel",
       "Jan C. Peeken"
@@ -727,7 +727,7 @@
     "title": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
     "summary": "Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noisy and survey-dependent. We aim to develop a Real-Bogus classification framework that can be trained without human-labeled data using injected transients and bogus-dominated survey data, remains robust under strong class contamination, and provides calibrated uncertainty quantification. We combine simulated transient injections with a contaminated survey class and train a dual-network model using asymmetric co-teaching for classes with different label-noise levels. We evaluate performance on a benchmark subset and analyze the learned representation with latent-space visualization tools. For uncertainty quantification (UQ), we compare MC dropout and deep ensembles and propose a low-cost hybrid strategy that exploits the dual-network setting to improve calibration. We extend the evaluation to the light-curve domain to assess recovery of light-curve classes. The method achieves strong Real-Bogus performance on the labeled subset and remains stable under severe class contamination. It recovers transient light-curve classes with high fidelity, while single-source identification is limited by ambiguity in light-curve-derived labels. Our hybrid UQ approach achieves competitive calibration relative to more expensive ensemble baselines. Latent-space analyses indicate that uncertainty aligns with the decision boundary and reveal subclasses within the bogus population. Our results show that injection-driven, weakly supervised training can enable scalable and consistent Real-Bogus classification without human-labeled training data while providing calibrated uncertainties. The method is suited for transfer to forthcoming surveys by re-running the injection-based training pipeline.",
     "authors": [
-      "Rapha\u00ebl Bonnet-Guerrini",
+      "Raphaël Bonnet-Guerrini",
       "Bruno Sanchez",
       "Dominique Fouchez",
       "Benjamin Racine",
@@ -756,7 +756,7 @@
     "summary": "In liberalised railway systems, operators must set prices dynamically in an environment with partial observability, as they retain private information about their objectives and performance, where regulatory constraints prohibit communication or direct information exchange between competitors to prevent explicit collusion. Consequently, agents must learn to infer strategic interactions only from observable market data which presents a significant challenge for multi-agent reinforcement learning, where standard approaches typically treat observations as unstructured vectors, ignoring the underlying market topology that governs strategic interactions. To address this, an entity graph modelling approach is proposed, which represents the environment as a graph of operational units, rather than decision-making agents or static infrastructure, encoding competition, coordination, and connectivity relations between entities. Then, an extension of the multi-agent twin delayed deep deterministic policy gradient algorithm with graph-based representation learning processes the features of the entities through a multi-layer relational graph convolutional network and aggregates them via a learnt attention mechanism. Experimental results in a rail pricing reinforcement learning environment show that this novel framework achieves higher revenue and stability in two different settings of increasing market complexity compared to a representative selection of relational and non-relational baselines. The code is publicly available at: https://github.com/Kinrre/RelationalRailPricing-RL",
     "authors": [
       "Enrique Adrian Villarrubia-Martin",
-      "David Mu\u00f1oz-Valero",
+      "David Muñoz-Valero",
       "Luis Rodriguez-Benitez",
       "Giovanni Montana",
       "Luis Jimenez-Linares"
@@ -801,8 +801,8 @@
     "summary": "Accurately estimating the unknown target label distribution is the critical first step for adapting to label shift. This task, widely known as quantification or class prevalence estimation, has recently seen significant advances through continuous KDE-based methods which model the density of multiclass classifier posteriors. Posterior vectors might be regarded as compositional data, since they lie on the probability simplex. However, existing KDE-based quantifiers typically rely on Euclidean Gaussian kernels, which ignore simplex geometry and incorrectly assign probability mass outside its boundaries. We introduce a geometry-aware KDE model for multiclass quantification based on log-ratio representations and Aitchison geometry, together with a shrinkage regularization that improves robustness near the simplex boundary. Combined with a maximum-likelihood interpretation of KDE-based quantification, we derive both point-estimation and Bayesian inference procedures for class prevalences. Experiments on 42 datasets across tabular, text, and image domains show that the proposed method is competitive with state-of-the-art quantifiers, often improving over standard KDE-based baselines, while also yielding strong results among Bayesian quantification methods.",
     "authors": [
       "Alejandro Moreo",
-      "Pablo Gonz\u00e1lez",
-      "Juan Jos\u00e9 del Coz"
+      "Pablo González",
+      "Juan José del Coz"
     ],
     "categories": [
       "cs.LG",
@@ -821,7 +821,7 @@
     "summary": "LLMs enable the integration of external conceptual resources at inference time, creating new opportunities for detecting ideologically and historically complex phenomena such as antisemitism. We investigate how different forms of conceptual grounding affect antisemitism detection and explanation behavior across four state-of-the-art LLMs.   Using two expert-annotated datasets, we compare definitional, fine-grained taxonomic, example-augmented, and large-context representations of antisemitism.   We find that fine-grained taxonomic representations substantially improve recall, while simultaneously reducing precision. Surprisingly, supplying substantially larger conceptual resources yields no additional quantitative benefit. Post-Holocaust antisemitism poses the most persistent challenge across models and configurations. Analysis of explanations further reveals systematic limitations including overproduction of conceptual references, reliance on lexical cues, overconfidence, and difficulties with subtle or justificatory forms of antisemitism.   Our findings highlight both the potential and the remaining limitations of conceptually grounded LLMs for antisemitism detection and reasoning.",
     "authors": [
       "Katharina Soemer",
-      "Helena Mihaljevi\u0107"
+      "Helena Mihaljević"
     ],
     "categories": [
       "cs.CL"
@@ -974,7 +974,7 @@
     "summary": "Echocardiography is the first imaging modality used for assessing cardiac function, and accurate segmentation of cardiac structures is essential for deriving biomarkers. However, the development of effective automated segmentation models for multiple cardiac structures is challenged by the difficulty of training on datasets from different sources that are often partially-labelled. This study aims to address this challenge by evaluating the performance of three loss functions - adaptive categorical cross entropy (aCCE) loss, marginal loss, and the adaptive binary cross entropy (aBCE) loss - in handling partially-labelled data. We conduct a comprehensive comparison of these loss functions across multiple scenarios and network architectures: intra-domain and inter-domain tasks, with both single and multiple partial-labels, and varying proportions of fully-labelled to partially-labelled data.   Our experiments reveal that all three loss functions exhibit strong performance in intra-domain segmentation tasks, effectively handling label variations within the same domain. For inter-domain tasks, where models are trained on datasets with a domain shift, the aBCE and marginal losses show superior performance when dealing with the case of one label being missing from some training examples. In scenarios involving more than one label being missing, marginal loss outperforms the other methods, demonstrating its robustness in such complex conditions. These results highlight the strengths of each loss function depending on the labelling scenario, emphasizing the importance of selecting the appropriate loss function to optimize model performance. This study represents the first investigation of techniques for handling partially-labelled data from multiple different domains in echocardiography segmentation and provides a comprehensive comparison of loss-based solutions.",
     "authors": [
       "Iman Islam",
-      "Esther Puyol-Ant\u00f3n",
+      "Esther Puyol-Antón",
       "Bram Ruijsink",
       "Andrew J. Reader",
       "Andrew P. King"
@@ -1300,10 +1300,10 @@
     "title": "TGRIP: A Text-Guided Approach to Vehicle Instance Prediction in Autonomous Driving",
     "summary": "Bird's-Eye View (BEV) end-to-end instance prediction has emerged as a robust paradigm for autonomous driving perception, effectively mitigating the error propagation inherent in traditional modular pipelines. However, current state-of-the-art approaches rely predominantly on geometric supervision, such as occupancy regression and optical flow, effectively treating scene agents as generic moving obstacles. This absence of explicit semantic awareness imposes limitations on the capacity of the model to solve ambiguities in complex scenarios, particularly those where object-specific behavior is essential for accurate forecasting (e.g. overtaking, intersections). In this paper, we introduce Text-Guided Representation for Instance Prediction (TGRIP), a novel framework that bridges this gap by injecting rich semantic priors into the instance prediction loop. The proposed teacher-student pipeline employs Vision-Language Foundation Models to generate dense, semantic-enhanced BEV maps from multi-camera images. These maps serve as auxiliary supervision during training, guiding the network to learn spatio-temporal representations that are not only geometrically consistent but also semantically discriminative. To the best of our knowledge, this represents the first attempt to unify semantic guidance with the temporal task of future instance prediction. The experimental results demonstrate that TGRIP surpasses existing state-of-the-art models in nuScenes, validating the hypothesis that semantic enrichment is a fundamental element for robust, end-to-end motion prediction. Code is available on https://github.com/miguelag99/TGRIP.",
     "authors": [
-      "Miguel Antunes-Garc\u00eda",
-      "Santiago Montiel-Mar\u00edn",
-      "Fabio S\u00e1nchez-Garc\u00eda",
-      "Rodrigo Guti\u00e9rrez-Moreno",
+      "Miguel Antunes-García",
+      "Santiago Montiel-Marín",
+      "Fabio Sánchez-García",
+      "Rodrigo Gutiérrez-Moreno",
       "Rafael Barea",
       "Luis M. Bergasa"
     ],
@@ -1493,8 +1493,8 @@
     "title": "Quantum-Inspired Harmonic Decision Models: A Computational Framework for Music Generation",
     "summary": "This paper introduces a quantum-inspired computational framework for harmonic decision-making in music. The proposed approach formulates harmonization as an optimization problem within a structured combinatorial space, where multiple candidate chord sequences are evaluated under interacting musical constraints. The model combines an interference-based harmonization stage with a classical optimization procedure grounded in tonal harmony. The quantum-inspired component enables the parallel consideration of multiple harmonic alternatives, while the classical stage refines the resulting sequences to ensure structural coherence and stylistic plausibility.   The framework is evaluated on selected musical examples, including Autumn Leaves and It's a Long Way to Tipperary. Quantitative analysis shows that the optimization stage significantly reduces chord density, increases harmonic stability, and improves functional organization. At the same time, expert evaluation highlights the importance of stylistic context, demonstrating that increased harmonic complexity is not always perceived as more natural. The results suggest that harmonic generation can be interpreted as a structured decision-making process in a constrained search space. The proposed approach provides a computational model that integrates domain-specific knowledge with an interference-based search mechanism.   Although preliminary, this work indicates that quantum-inspired methods may offer a useful framework for modeling complex decision processes in creative domains such as music. The proposed framework contributes to ongoing research on quantum-inspired models of cognition and decision-making in complex biological and creative systems.",
     "authors": [
-      "Josef Pavl\u00ed\u010dek",
-      "Petra Pavl\u00ed\u010dkov\u00e1",
+      "Josef Pavlíček",
+      "Petra Pavlíčková",
       "Martin Molhanec"
     ],
     "categories": [
@@ -1567,7 +1567,7 @@
   {
     "arxiv_id": "2607.05297v1",
     "title": "MetaSkill-Evolve: Recursive Self-Improvement of LLM Agents via Two-Timescale Meta-Skill Evolution",
-    "summary": "Recent LLM agents tackle increasingly long-horizon, open-ended tasks, and external skills, reusable procedural knowledge supplied to the agent, further extend this capability. However, a fixed, hand-authored skill is rarely optimal, and cannot adapt to the diversity of tasks an agent encounters. Self-improving agents address this by rewriting their own skill files from execution traces, yielding meaningful gains on challenging benchmarks. Yet such self-evolution remains non-recursive: it improves only the task skill (what the agent does) while the improvement procedure (how it improves) is authored once and held fixed. We introduce MetaSkill-Evolve, a two-timescale framework that makes agentic skill improvement recursive: every branch carries both a task skill $s$ and a branch-local meta-skill $m=(\u03c8,\u03c3,\u03b1,\u03c0,\\varepsilon)$ whose five components parameterise the Analyzer, Retriever, Allocator, Proposer, and Evolver agents of the improvement pipeline. Task skills evolve on a fast loop while the meta-skill evolves on a slower one under the same pipeline applied to itself, with no additional model or objective. With all five pipeline agents sharing a single frozen backbone, MetaSkill-Evolve outperforms no-skill, static-skill, and single-level evolution baselines on three agentic benchmarks (OfficeQA, SealQA, ALFWorld), improving held-out test accuracy over the raw backbone by +23.54, +16.09, and +1.92 points respectively.",
+    "summary": "Recent LLM agents tackle increasingly long-horizon, open-ended tasks, and external skills, reusable procedural knowledge supplied to the agent, further extend this capability. However, a fixed, hand-authored skill is rarely optimal, and cannot adapt to the diversity of tasks an agent encounters. Self-improving agents address this by rewriting their own skill files from execution traces, yielding meaningful gains on challenging benchmarks. Yet such self-evolution remains non-recursive: it improves only the task skill (what the agent does) while the improvement procedure (how it improves) is authored once and held fixed. We introduce MetaSkill-Evolve, a two-timescale framework that makes agentic skill improvement recursive: every branch carries both a task skill $s$ and a branch-local meta-skill $m=(ψ,σ,α,π,\\varepsilon)$ whose five components parameterise the Analyzer, Retriever, Allocator, Proposer, and Evolver agents of the improvement pipeline. Task skills evolve on a fast loop while the meta-skill evolves on a slower one under the same pipeline applied to itself, with no additional model or objective. With all five pipeline agents sharing a single frozen backbone, MetaSkill-Evolve outperforms no-skill, static-skill, and single-level evolution baselines on three agentic benchmarks (OfficeQA, SealQA, ALFWorld), improving held-out test accuracy over the raw backbone by +23.54, +16.09, and +1.92 points respectively.",
     "authors": [
       "Zefeng Wang",
       "Minxi Yan",
@@ -1748,7 +1748,7 @@
     "summary": "Motivated by real-world scenarios where malicious entities tamper with existing networks, we define a model where an adversary seeks to hide a set of \\emph{corrupted vertices} inside a graph $G^*$. To this end, the adversary can add edges between the corrupted vertices, as well as edges between the corrupted vertices and $G^*$, and its power is then measured by the size of the \\emph{neighborhood} of the corrupted vertices in $G^*$. Our goal is to design an active learning algorithm that efficiently finds the subset of corrupted vertices using a small number of label queries. We devise an efficient algorithm that approximately recovers the corrupted vertices with a query complexity that depends polynomially on both the power of the adversary and the \\emph{vertex expansion} of $G^*$, a fundamental measure of graph connectivity. At the heart of this result is a polynomial-time algorithm, obtained by carefully adapting sum-of-squares algorithms for approximating minimum expansion, that finds a set with small vertex expansion subject to cardinality constraints. To the best of our knowledge, this is the first time that the vertex expansion is shown to play a key role in determining the query complexity of active learning algorithms robust to structural adversarial attacks.",
     "authors": [
       "Marco Bressan",
-      "Nicol\u00f2 Cesa-Bianchi",
+      "Nicolò Cesa-Bianchi",
       "Tommaso d`Orsi",
       "Emmanuel Esposito",
       "Silvio Lattanzi"
@@ -1793,8 +1793,8 @@
       "Anamaria-Roberta Hartl",
       "David Stap",
       "Thomas Schmied",
-      "Sebastian B\u00f6ck",
-      "G\u00fcnter Klambauer",
+      "Sebastian Böck",
+      "Günter Klambauer",
       "Sepp Hochreiter"
     ],
     "categories": [
@@ -1896,7 +1896,7 @@
   {
     "arxiv_id": "2607.05268v1",
     "title": "Is the Geometry Doing the Work? An Operating-Point Audit of Hierarchy in Hyperbolic Vision-Language Models",
-    "summary": "Whether a hyperbolic representation model uses its geometry cannot be read off its curvature parameter: what matters is the dimensionless operating point $\\sqrt{c}\u03c1$ and whether the radial and cone machinery is active there. We develop a battery of necessary-condition diagnostics and audit three published hyperbolic vision-language families -- MERU, HyCoCLIP, and PHyCLIP -- across released checkpoints and controlled interventions on a fixed GRIT snapshot, identifying three failure modes. First, curvature is not an active resource: the operating point stays near-Euclidean ($H(u)\\approx 1$; no audited converged checkpoint reaches $\\sqrt{c}\u03c1>1$), and releasing the curvature floor moves curvature and norms but keeps the operating point near-Euclidean, without substantial downstream degradation. Second, the cone and traversal machinery is measured inoperative: entailment cones are inactive, saturated, or misaligned, and graded traversal fails under controlled readouts, while directed radial depth is a bounded non-detection above shuffle-null controls at quantified sensitivity; the one surviving native-relation residual remains non-operative. Third, hierarchy-looking evaluations are underdetermined: taxonomy correlations are carried by angular distance, and coarse-retrieval gains track box/compositional supervision, not curvature. A mechanistic account explains why: the entailment objective admits a low-curvature, wide-cone shortcut, and a parameter-free aperture identity (cones saturate iff $\\sqrt{c}\u03c1\\le 2K$) locates the edge where every entailment-trained unclamped run settles; entailment-off runs show no arrest there. The shortcut is the dominant accelerator of collapse, not its sole cause. These formulations, as released, do not instantiate the radial/cone mechanism their geometry motivates; we distill the audit into a five-number geometry report for future hierarchy claims.",
+    "summary": "Whether a hyperbolic representation model uses its geometry cannot be read off its curvature parameter: what matters is the dimensionless operating point $\\sqrt{c}ρ$ and whether the radial and cone machinery is active there. We develop a battery of necessary-condition diagnostics and audit three published hyperbolic vision-language families -- MERU, HyCoCLIP, and PHyCLIP -- across released checkpoints and controlled interventions on a fixed GRIT snapshot, identifying three failure modes. First, curvature is not an active resource: the operating point stays near-Euclidean ($H(u)\\approx 1$; no audited converged checkpoint reaches $\\sqrt{c}ρ>1$), and releasing the curvature floor moves curvature and norms but keeps the operating point near-Euclidean, without substantial downstream degradation. Second, the cone and traversal machinery is measured inoperative: entailment cones are inactive, saturated, or misaligned, and graded traversal fails under controlled readouts, while directed radial depth is a bounded non-detection above shuffle-null controls at quantified sensitivity; the one surviving native-relation residual remains non-operative. Third, hierarchy-looking evaluations are underdetermined: taxonomy correlations are carried by angular distance, and coarse-retrieval gains track box/compositional supervision, not curvature. A mechanistic account explains why: the entailment objective admits a low-curvature, wide-cone shortcut, and a parameter-free aperture identity (cones saturate iff $\\sqrt{c}ρ\\le 2K$) locates the edge where every entailment-trained unclamped run settles; entailment-off runs show no arrest there. The shortcut is the dominant accelerator of collapse, not its sole cause. These formulations, as released, do not instantiate the radial/cone mechanism their geometry motivates; we distill the audit into a five-number geometry report for future hierarchy claims.",
     "authors": [
       "Jaeyoung Kim",
       "Eunseok Kim",
@@ -1939,7 +1939,7 @@
     "authors": [
       "Benjamin Ballyk",
       "Teyun Kwon",
-      "Miran \u00d6zdogan",
+      "Miran Özdogan",
       "Oiwi Parker Jones"
     ],
     "categories": [
@@ -2124,12 +2124,12 @@
     "title": "Untrusted Content Masking for Web Agents with Security Guarantees",
     "summary": "Defenses that provide security guarantees against prompt injection attacks rely on strict isolation between trusted instructions and untrusted data. In text-based environments such as tool-use APIs, this separation arises naturally: agents can reason from interface definitions without ever processing untrusted content. Extending these guarantees to web agents faces a fundamental challenge: to perceive and interact with their environment, web agents must first observe the rendered page, which intermingles trusted content with untrusted content. This structural entanglement removes the trust boundary on which security guarantees depend, undermining provable defenses for web agents. In this paper, we present Untrusted Content Masking (UCM), a simple and effective approach that restores this boundary in web environments. We leverage a key structural insight: a webpage's Document Object Model (DOM) encodes sufficient information to distinguish trusted from untrusted regions without reading their content. Our framework exploits this by redacting untrusted regions before they reach the agent and routing interaction through a sandboxed interface with strict privilege separation, thereby enabling agents to observe and interact with their environment while remaining isolated from adversarial content. The code is publicly available.",
     "authors": [
-      "Kristina Nikoli\u0107",
+      "Kristina Nikolić",
       "Egor Zverev",
       "Javier Rando",
       "Matthew Jagielski",
       "Edoardo Debenedetti",
-      "Florian Tram\u00e8r"
+      "Florian Tramèr"
     ],
     "categories": [
       "cs.CR",
@@ -2190,7 +2190,7 @@
   {
     "arxiv_id": "2607.05201v1",
     "title": "FlatManifold: Robust Continual Learning under Severe Label Noise and Domain Shifts via Intrinsic Manifold Flattening",
-    "summary": "In non-stationary streaming environments, simultaneously adapting to complex, non-linear domain shifts via continual learning while mitigating the catastrophic effects of severe, uncalibrated label noise poses a fundamental mathematical challenge. In this paper, we propose \\FlatManifold{}, a novel, streamlined robust continual learning framework that utilizes a Nystr\u00f6m manifold flattening map based on the kernel trick and projection onto an orthogonalized Reproducing Kernel Hilbert Space (RKHS).   Unlike traditional methods that rely on complex, error-prone sample-filtering pipelines, the proposed approach exploits the intrinsic mathematical robustness of the flattened space itself. By mapping feature distributions onto a fixed orthogonal target topology with a ridge regularizer, the framework naturally smoothes and counteracts the influence of extreme label noise during the optimization process. Concurrently, catastrophic forgetting is prevented via a continual topology brake term that leverages the covariance matrix of past experiences.   Extensive evaluation on real-world multi-session robotics datasets demonstrates that even under severe conditions featuring 40\\% symmetric label noise, \\FlatManifold{} successfully mitigates gradient corruption. Under extreme cross-session domain shifts spanning various seasons and lighting conditions, the proposed framework establishes high generalization capabilities, significantly outperforming standard sequential optimization baselines and proving that structural linearization itself serves as a powerful mathematical barrier against distributed label corruption.",
+    "summary": "In non-stationary streaming environments, simultaneously adapting to complex, non-linear domain shifts via continual learning while mitigating the catastrophic effects of severe, uncalibrated label noise poses a fundamental mathematical challenge. In this paper, we propose \\FlatManifold{}, a novel, streamlined robust continual learning framework that utilizes a Nyström manifold flattening map based on the kernel trick and projection onto an orthogonalized Reproducing Kernel Hilbert Space (RKHS).   Unlike traditional methods that rely on complex, error-prone sample-filtering pipelines, the proposed approach exploits the intrinsic mathematical robustness of the flattened space itself. By mapping feature distributions onto a fixed orthogonal target topology with a ridge regularizer, the framework naturally smoothes and counteracts the influence of extreme label noise during the optimization process. Concurrently, catastrophic forgetting is prevented via a continual topology brake term that leverages the covariance matrix of past experiences.   Extensive evaluation on real-world multi-session robotics datasets demonstrates that even under severe conditions featuring 40\\% symmetric label noise, \\FlatManifold{} successfully mitigates gradient corruption. Under extreme cross-session domain shifts spanning various seasons and lighting conditions, the proposed framework establishes high generalization capabilities, significantly outperforming standard sequential optimization baselines and proving that structural linearization itself serves as a powerful mathematical barrier against distributed label corruption.",
     "authors": [
       "Rai Hisada",
       "Kanji Tanaka"
@@ -2448,11 +2448,11 @@
     "title": "Streaming Neural Speech Codecs through Time-Invariant Representations",
     "summary": "Neural speech codecs are increasingly used as intermediate representations in codec-based speech generation systems. TiCodec introduces a factorized representation that separates time-varying speech content from time-invariant information through a Time-Invariant Representation Extraction (TIRE) module, potentially reducing the amount of information that must be modeled at the frame-level.   In this work, we investigate the nature of the information captured by TIRE representations and their suitability for low-latency speech processing. Using a series of probing tasks, we analyze the influence of the encoder layer and show that intermediate layers capture complementary speaker- and environment-related information while containing little linguistic content. We further study several segment selection strategies for TIRE training and demonstrate that cross-file sampling improves the robustness of invariant representations. Based on these findings, we propose Dual-TIRE, a multi-level architecture that exploits the complementarity of different encoder layers and improves speech reconstruction quality and speaker similarity.   Finally, we evaluate TiCodec in a streaming inference setting using successive 660ms processing blocks. Results show that streaming operation can be achieved without significant degradation in reconstruction performance, highlighting the potential of factorized neural codec representations for future low-latency speech generation systems.",
     "authors": [
-      "K\u00e9lian Est\u00e8ve",
+      "Kélian Estève",
       "Salima Mhdaffar",
       "Mickael Rouvier",
       "Richard Dufour",
-      "Yannick Est\u00e8ve"
+      "Yannick Estève"
     ],
     "categories": [
       "cs.CL"
@@ -2495,7 +2495,7 @@
     "title": "Latent Programming Horizons in Coding Agents",
     "summary": "A coding agent solving a software-engineering task spends dozens of steps reasoning, editing code, and running tests, yet little is known about what the underlying language model internally represents about the program it is working on. We show that the residual streams of language models under coding agents linearly encode properties of the evolving program: a logistic-regression probe on hidden states is able to decode whether the current code parses, passes its test suite, reduces the number of failing tests, and introduces regressions, reaching AUC up to 0.83 for correctness across two models and two benchmarks. Our second finding is more surprising: these representations run ahead of the agent's own edits. Probes trained to predict the outcome of future edits (before they are materialized and written on disk) achieve performance above chance up to roughly 25 steps in advance. We call this the agent's latent programming horizon. As a proof of external validity, we show that the probes transfer across benchmarks without retraining. Our positive results open calls for more research in mechanistic interpretability of coding agents.",
     "authors": [
-      "Andr\u00e9 Silva",
+      "André Silva",
       "Han Tu",
       "Martin Monperrus"
     ],
@@ -2555,19 +2555,19 @@
     "summary": "We introduce the first multiplayer world model for highly dynamic environments governed by complex physical interactions. Whereas single-player world models treat the other agents as part of the environment, ours conditions on the action streams of multiple agents, learning to attribute changes in the scene to the correct player and to stay coherent under arbitrary combinations of their actions. We study this problem in the game of Rocket League, where players compete and cooperate under fast, tightly coupled dynamics. Trained on 10,000 hours of gameplay collected with publicly available bots, our 5-billion-parameter latent diffusion model generates four-player matches in real time, producing 20 frames per second on a single Nvidia B200 GPU. Although trained only on short clips, its rollouts stay stable far beyond the training horizon: distributional quality holds steady out to five minutes, the longest horizon we measure, and in practice we observe rollouts continuing for hours with no sign of collapse. We systematically investigate the central design choices: the video codec, the generative objective, and the multiplayer conditioning scheme. In addition, we characterize how behavior changes with model and data scale, including the capabilities that emerge and the failure modes that persist. We further develop targeted evaluations that probe the model's physical understanding rather than visual appearance alone. To support continued research on multiplayer world models, we release our dataset, our full training and inference codebase, and a live demo.",
     "authors": [
       "Anthony Hu",
-      "V\u00e1clav Volhejn",
+      "Václav Volhejn",
       "Adrien Ramanana Rahary",
       "Chris Mulder",
       "Aditya Makkar",
-      "Am\u00e9lie Royer",
+      "Amélie Royer",
       "Manu Orsini",
       "Alyx Liao",
       "Adam Jelley",
       "Eloi Alonso",
       "Florian Laurent",
-      "Fredrik Nor\u00e9n",
+      "Fredrik Norén",
       "James Swingos",
-      "Jan H\u00fcnermann",
+      "Jan Hünermann",
       "Kent Rollins",
       "Lucas Hosseini",
       "Matthieu Le Cauchois",
@@ -2575,12 +2575,12 @@
       "Pim de Witte",
       "Tim Brown",
       "Vincent Micheli",
-      "Moritz B\u00f6hle",
+      "Moritz Böhle",
       "Gabriel de Marmiesse",
       "Viktoriia Sharmanska",
       "Lucia Specia",
       "Michael Black",
-      "Patrick P\u00e9rez"
+      "Patrick Pérez"
     ],
     "categories": [
       "cs.CV",
@@ -2599,11 +2599,11 @@
     "title": "How Far is Too Far? Defining the Distance Threshold for Verification Siamese Networks",
     "summary": "Siamese verification networks are widely used to compare items such as faces, cars, or signatures. In these scenarios, the network is trained to learn an embedding space in which similar objects are mapped closer together, while dissimilar objects are mapped further apart. Two objects are considered to belong to the same class (e.g., the same person in two different images) when the distance between their embeddings falls below a predefined threshold. Defining this threshold, however, is a non-trivial task and typically requires labeled data. In this work, we assume that the distribution of distances produced by a siamese verification network can be approximated by a bimodal function. Based on this assumption, we propose an unsupervised method to determine the verification threshold by identifying the minimum point between the two modes. The proposed approach does not require annotated samples, enabling the verification threshold to be updated directly in the deployment environment without the cost of manual labeling. We evaluate our method on four datasets: MNIST, CIFAR-10, LFW, and PKLot. The results indicate that the proposed approach achieves an average verification accuracy of 94%, comparable to the Equal Error Rate method, while eliminating the need for labeled data.",
     "authors": [
-      "Helo\u00edsa Dias Viotto",
-      "Cau\u00ea Samonek",
+      "Heloísa Dias Viotto",
+      "Cauê Samonek",
       "Lucas Garcia Pedroso",
       "Marcos Sunye",
-      "Andr\u00e9 Abed Gr\u00e9gio",
+      "André Abed Grégio",
       "Paulo Lisboa de Almeida"
     ],
     "categories": [
@@ -2738,12 +2738,12 @@
   {
     "arxiv_id": "2607.05217v1",
     "title": "Curated retrieval versus open web search in public AI information services: a coverage-trust trade-off",
-    "summary": "Public institutions increasingly use large language models (LLMs) to answer citizens' questions, often pairing a curated knowledge base with live web search, yet whether the sources behind these answers can be trusted has received little empirical scrutiny. We report a pre-launch expert evaluation of Evr\u00f3puvefur, an independent, government-funded service run by the University of Iceland that answers questions about the European Union, conducted as Iceland prepared for its referendum of 29 August 2026 on whether to resume EU accession talks. Five domain experts produced 551 evaluations of 449 AI-generated answers, scoring each against a seven-criterion quality rubric and, separately, flagging individual cited sources. We compared two retrieval paths: a curated local corpus (RAG) and open web search. In more than a third of the reviewed web-search answers (35%, 65 of 187), at least one cited source was flagged, almost always as untrustworthy or irrelevant; curated sources were flagged far less often and only for being out of date. Web search answered more questions, but at the cost of source quality; the curated corpus was trustworthy yet limited in coverage, and the model declined to respond when it fell short. The citation mix also passed over strong sources: across all 287 web-search answers, the system never cited R\u00daV, the public broadcaster and the country's most widely used news source. A companion prompt ablation shows how weak prompt-level steering is: a trusted-domain list in the system prompt raised the share of citations to listed domains only from 12% to 21%. Fluency and topical fit did not predict source trustworthiness. We argue that source trustworthiness is a measurable yet largely invisible dimension of information quality in public AI services, and we discuss transparency-oriented responses and their trade-offs.",
+    "summary": "Public institutions increasingly use large language models (LLMs) to answer citizens' questions, often pairing a curated knowledge base with live web search, yet whether the sources behind these answers can be trusted has received little empirical scrutiny. We report a pre-launch expert evaluation of Evrópuvefur, an independent, government-funded service run by the University of Iceland that answers questions about the European Union, conducted as Iceland prepared for its referendum of 29 August 2026 on whether to resume EU accession talks. Five domain experts produced 551 evaluations of 449 AI-generated answers, scoring each against a seven-criterion quality rubric and, separately, flagging individual cited sources. We compared two retrieval paths: a curated local corpus (RAG) and open web search. In more than a third of the reviewed web-search answers (35%, 65 of 187), at least one cited source was flagged, almost always as untrustworthy or irrelevant; curated sources were flagged far less often and only for being out of date. Web search answered more questions, but at the cost of source quality; the curated corpus was trustworthy yet limited in coverage, and the model declined to respond when it fell short. The citation mix also passed over strong sources: across all 287 web-search answers, the system never cited RÚV, the public broadcaster and the country's most widely used news source. A companion prompt ablation shows how weak prompt-level steering is: a trusted-domain list in the system prompt raised the share of citations to listed domains only from 12% to 21%. Fluency and topical fit did not predict source trustworthiness. We argue that source trustworthiness is a measurable yet largely invisible dimension of information quality in public AI services, and we discuss transparency-oriented responses and their trade-offs.",
     "authors": [
       "Hafsteinn Einarsson",
       "Hafsteinn Birgir Einarsson",
-      "J\u00f3n Gunnar \u00d3lafsson",
-      "J\u00f3n Gunnar \u00deorsteinsson"
+      "Jón Gunnar Ólafsson",
+      "Jón Gunnar Þorsteinsson"
     ],
     "categories": [
       "cs.CY",
@@ -2764,7 +2764,7 @@
     "authors": [
       "Janine Strotherm",
       "Luca Hermes",
-      "Andr\u00e9 Artelt",
+      "André Artelt",
       "Barbara Hammer"
     ],
     "categories": [
@@ -2784,7 +2784,7 @@
     "authors": [
       "Jerick Shi",
       "Terry Jingcheng Zhang",
-      "Bernhard Sch\u00f6lkopf",
+      "Bernhard Schölkopf",
       "Vincent Conitzer",
       "Zhijing Jin"
     ],
@@ -2971,7 +2971,7 @@
   {
     "arxiv_id": "2607.05113v1",
     "title": "Rating the Pitch, Not the Product: User Evaluations of LLMs Reflect Expectations More Than Performance",
-    "summary": "Imagine two users interact with the same LLM. One has been told it is the cutting-edge flagship model; the other, an older, weaker model. They walk away with markedly different ratings of its usefulness and intelligence, yet they used the same model. In a controlled study, 162 participants each used one of six LLMs from two families across three collaborative tasks, after first viewing a landing page that matched, overstated, or understated their model's true capability. This pre-interaction framing shifted user opinions and interaction behavior while task performance did not. Oversold users rated the model more favorably and used more directive prompting, while Undersold users wrote longer, more collaborative prompts. The quality of what users and the model produced together depended only on the model's true capability, not on what users were told. Participants' change in model impressions after use, measured across two impression measures, was not predicted by task performance ($\u03b2= -0.01$ and $0.11$, both n.s.), but by whether the model met users' expectations ($\u03b2= 0.47$ and $0.50$, both $p < .001$) and how confident they felt working with it ($\u03b2= 0.47$ and $0.36$, both $p < .001$). After interaction, users are still rating the pitch, not the product: user-elicited LLM evaluations, including the preference data driving public leaderboards, measure expectation management at least as much as the model itself.",
+    "summary": "Imagine two users interact with the same LLM. One has been told it is the cutting-edge flagship model; the other, an older, weaker model. They walk away with markedly different ratings of its usefulness and intelligence, yet they used the same model. In a controlled study, 162 participants each used one of six LLMs from two families across three collaborative tasks, after first viewing a landing page that matched, overstated, or understated their model's true capability. This pre-interaction framing shifted user opinions and interaction behavior while task performance did not. Oversold users rated the model more favorably and used more directive prompting, while Undersold users wrote longer, more collaborative prompts. The quality of what users and the model produced together depended only on the model's true capability, not on what users were told. Participants' change in model impressions after use, measured across two impression measures, was not predicted by task performance ($β= -0.01$ and $0.11$, both n.s.), but by whether the model met users' expectations ($β= 0.47$ and $0.50$, both $p < .001$) and how confident they felt working with it ($β= 0.47$ and $0.36$, both $p < .001$). After interaction, users are still rating the pitch, not the product: user-elicited LLM evaluations, including the preference data driving public leaderboards, measure expectation management at least as much as the model itself.",
     "authors": [
       "Robert Morabito",
       "Tyler McDonald",
@@ -3366,7 +3366,7 @@
     "authors": [
       "Nils Griese",
       "Christoph Kleinn",
-      "Nils N\u00f6lke"
+      "Nils Nölke"
     ],
     "categories": [
       "cs.CV",
@@ -3401,7 +3401,7 @@
   {
     "arxiv_id": "2607.05175v1",
     "title": "Platonic Projection Structures: Operator-Induced Observability in Representation Learning",
-    "summary": "We characterize observability in representation learning through Platonic Projection Structures (PPS), an operator-theoretic framework for analyzing representation accessibility under partial observation. Rather than treating observable outputs as direct reflections of latent representations, PPS models observation through a self-adjoint positive semidefinite operator acting on a latent representation space. A system is represented as a triple $(H, \u03a0, O)$, where $H$ is a latent representation space, $\u03a0\\succeq 0$ is an observation operator, and $O(v)=\\langle v,\u03a0v\\rangle$ defines an induced scalar observable. Observability is characterized by the quotient geometry $H/\\ker(\u03a0)$, representing equivalence classes of latent states indistinguishable under observation. We show that quantum measurement and representation inference under linear observation models share this operator-theoretic structure while differing in the algebraic properties of their observation operators; the correspondence is structural rather than physical. Representation transfer and knowledge distillation can likewise be interpreted as approximate preservation of observable geometry through $\u03a6\u03a0_T \\approx \u03a0_S \u03a6$. PPS also reveals a structural limitation of output-based interpretability: latent components in $\\ker(\u03a0)$ are inaccessible from induced observables, imposing intrinsic constraints on attribution and explanation methods. Controlled empirical validations demonstrate kernel-invariant observability, projection-induced attribution gaps, and rank-controlled observable geometry in latent representation spaces. PPS thus provides an explicit characterization of observability through operator-induced quotient geometry and a unified perspective on representation accessibility, interpretability, and projection-mediated inference.",
+    "summary": "We characterize observability in representation learning through Platonic Projection Structures (PPS), an operator-theoretic framework for analyzing representation accessibility under partial observation. Rather than treating observable outputs as direct reflections of latent representations, PPS models observation through a self-adjoint positive semidefinite operator acting on a latent representation space. A system is represented as a triple $(H, Π, O)$, where $H$ is a latent representation space, $Π\\succeq 0$ is an observation operator, and $O(v)=\\langle v,Πv\\rangle$ defines an induced scalar observable. Observability is characterized by the quotient geometry $H/\\ker(Π)$, representing equivalence classes of latent states indistinguishable under observation. We show that quantum measurement and representation inference under linear observation models share this operator-theoretic structure while differing in the algebraic properties of their observation operators; the correspondence is structural rather than physical. Representation transfer and knowledge distillation can likewise be interpreted as approximate preservation of observable geometry through $ΦΠ_T \\approx Π_S Φ$. PPS also reveals a structural limitation of output-based interpretability: latent components in $\\ker(Π)$ are inaccessible from induced observables, imposing intrinsic constraints on attribution and explanation methods. Controlled empirical validations demonstrate kernel-invariant observability, projection-induced attribution gaps, and rank-controlled observable geometry in latent representation spaces. PPS thus provides an explicit characterization of observability through operator-induced quotient geometry and a unified perspective on representation accessibility, interpretability, and projection-mediated inference.",
     "authors": [
       "Kazuo Ishii",
       "Bishnu Prasad Gautam",
@@ -3448,7 +3448,7 @@
       "Isabel Nieh Hou",
       "Abdulrahman Alshaikhi",
       "Ze Shen Chin",
-      "Rokas Gipi\u0161kis"
+      "Rokas Gipiškis"
     ],
     "categories": [
       "cs.CY",
@@ -3511,7 +3511,7 @@
     "summary": "While various works address reflective symmetry understanding in 3D data and images, pixel-level semantic left-right prediction of in-the-wild images remains challenging, due to certain difficulties including the lack of 3D information, occlusion, object pose variation, partiality, etc. In this work, we propose an unsupervised learning framework to tackle this challenge. Leveraging recent advances in vertex-wise semantic left-right understanding of 3D data, our unsupervised learning method jointly utilises 3D shape and image datasets to infer pixel-wise semantic left-right predictions in single-view images. In particular, we show that a medium-scale 3D shape dataset comprising mainly of human- and quadruped animal-like shapes, combined with diverse in-the-wild image data, are sufficient to achieve high-quality semantic left-right prediction in images, even for entirely unseen 3D object categories, such as cars or trains. Overall, our approach achieves superior performance in dense pixel-wise semantic left-right predictions on both rendered and in-the-wild image datasets when compared to existing state-of-the-art methods.",
     "authors": [
       "Weikang Wang",
-      "Tobias Wei\u00dfberg",
+      "Tobias Weißberg",
       "Florian Bernard"
     ],
     "categories": [
@@ -3603,7 +3603,7 @@
     "summary": "What does a discrete diffusion model learn: a denoiser, a score ratio, or a bridge plug-in predictor? At the level of jump rates, these are one object in different coordinates, and reading a neural network in the wrong coordinate changes the process being trained and sampled. Starting with a rigorous derivation of the continuous-time Markov chain (CTMC) ELBO for any noising process, boundary terms included, we prove the \\emph{Oracle Distance} theorem: the negative ELBO is exactly equal to the data entropy plus the path KL from the oracle reverse process to the learned one, not merely a bound. Its unique optimizer is therefore the conditional expectation of the true reverse jump rate given the current noisy state, and its irreducible cost is the rate at which the forward process $Z_t$ destroys information about the clean data $Z_0$, $-\\tfrac{d}{dt}I(Z_0; Z_t)$, so every noising process shares the same best achievable negative ELBO: the data entropy. For sequences with token-factorizing noise, the oracle projection yields three exact coordinates for the optimizer: denoiser, cavity (bridge plug-in), and score, with closed-form conversions among them. This framework identifies which law each loss in the literature actually optimizes, recovering MDM, UDM, SEDD, and GIDD as special cases; explains why denoiser and cavity coincide for masked diffusion but not for uniform diffusion; proves that a denoiser parameterization makes the uniform ELBO diverge at initialization while the bridge plug-in stays finite; and calibrates ELBO implementations exactly at initialization. Every identity is verified numerically, without approximation, on an exactly solvable model.",
     "authors": [
       "Rodrigo Casado Noguerales",
-      "Bernhard Sch\u00f6lkopf",
+      "Bernhard Schölkopf",
       "Thomas Hofmann",
       "Aran Raoufi"
     ],
@@ -3818,7 +3818,7 @@
     "title": "Beyond Independent Labels: Schwartz-Geometry Decoding for Human Value Detection",
     "summary": "Human value detection is commonly formulated as sentence-level multi-label classification over the 19 refined Schwartz values, typically predicted as independent labels. Schwartz theory, however, describes them as a circular motivational continuum, in which adjacent values are compatible and opposing values are in tension. We ask whether this structure can be operationalized as an explicit output-space geometry and used as a soft bias rather than a hard constraint. On a DeBERTa-v3-base classifier, we compare two ways of injecting it: training-time geometry-aware objectives and a post-hoc Schwartz-aware energy decoder that scores whole label sets jointly. Across five seeds, training-time geometry gives only limited gains-no larger for the true continuum than for a random ordering-whereas the decoder makes label sets more coherent with the continuum-on theory-aware coherence metrics we introduce-at no cost to Macro-F1 or Micro-F1 (held fixed by its selection rule). The gain is specific to the true Schwartz ordering: it does not appear for a random permutation or an empirical co-occurrence graph through the identical decoder. A bounded Qwen2.5-72B-Instruct diagnostic shows that supplying the continuum at inference shifts behavior but does not match supervised structured prediction. Theory-aware decoding thus offers a lightweight, controllable way to make value detection faithful to its label space.",
     "authors": [
-      "V\u00edctor Yeste",
+      "Víctor Yeste",
       "Paolo Rosso"
     ],
     "categories": [
@@ -3880,7 +3880,7 @@
     "title": "Who's Behind It? Annotating and Extracting Conspiratorial Actors from German Telegram Posts",
     "summary": "Conspiracy theories commonly attribute important events to the actions of powerful and secretive actors. While computational research has largely focused on document-level analyses of conspiracy theories, less attention has been paid to identifying the actors that drive such narratives. We develop annotation guidelines for conspiratorial actors, present a span-annotated corpus of German Telegram posts, and investigate their automatic extraction using transformer-based models. We further apply the resulting model to the \\textit{Schwurbelarchiv}, a large-scale archive of German conspiracy-related Telegram channels. Our results demonstrate that conspiratorial actors can be annotated with meaningful agreement and extracted with reasonable accuracy despite the linguistic complexity of conspiracy discourse, enabling large-scale analyses of actor representations in conspiracy narratives.",
     "authors": [
-      "Helena Mihaljevi\u0107",
+      "Helena Mihaljević",
       "Jolanda Beer",
       "Mareike Lisker",
       "Katharina Soemer"
@@ -4124,39 +4124,6 @@
     "pdf_url": "https://arxiv.org/pdf/2607.05180v1.pdf",
     "date": "2026-07-07",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 22331,
-    "likes": 330,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-07-07T04:45:07.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-07-07",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4556,7 +4523,7 @@
   {
     "arxiv_id": "2607.05226v1",
     "title": "The Exact Worst-Case Tail Probability under Bounded Kurtosis",
-    "summary": "We determine exactly what a kurtosis bound buys for one-sided tail control. For the class $\\mathcal{C}(\u03ba)$ of real random variables with mean $0$, variance $1$, and fourth moment at most $\u03ba$, the skewness left free, we compute the worst-case tail probability $V_1(t,\u03ba)=\\sup_{X\\in\\mathcal{C}(\u03ba)}\\mathbb{P}(X\\geq t)$ for every threshold $t>0$ and every $\u03ba\\geq 1$. The answer is a four-regime map: a Cantelli tongue $b(\u03ba)\\le t\\le c(\u03ba)$ on which the two-moment bound $1/(1+t^2)$ remains tight and the kurtosis constraint is worthless; a tail regime $t\\geq c(\u03ba)$ with the closed form $V_1=(\u03ba-1)/((t^2-1)^2+\u03ba-1)$; a plateau regime, present only for $\u03ba\\le 3/2$, on which the worst case freezes and the value does not depend on $t$; and a central regime described exactly by an explicit algebraic system, provably admitting no closed form in nested square roots. Beyond $c(\u03ba)$ the one-sided and two-sided worst cases coincide: Cantelli's improvement over Chebyshev is annihilated by fourth-moment information. The minimal degree of a sum-of-squares proof of the tight bound is $2$ on the closed tongue and $4$ everywhere else, an exact phase diagram of proof degree. Every closed-form regime carries an explicit dual certificate and an explicit extremal distribution, re-verified on parameter grids by an independent checker in exact arithmetic. The closed forms invert to exact worst-case quantiles, sharpen a median-of-means constant, and give the exact per-direction tail available to degree-4 reasoning under certifiable kurtosis. We found the map through an AI-guided search around the certifying pipeline, LemmaForge, which is validated on classical benchmarks, independently reproduces the symmetric-slice bound of Zelen (1954), and recovers the $2\\sqrt{3}-3$ constant of He, Zhang, and Zhang (2010) at $t=0$.",
+    "summary": "We determine exactly what a kurtosis bound buys for one-sided tail control. For the class $\\mathcal{C}(κ)$ of real random variables with mean $0$, variance $1$, and fourth moment at most $κ$, the skewness left free, we compute the worst-case tail probability $V_1(t,κ)=\\sup_{X\\in\\mathcal{C}(κ)}\\mathbb{P}(X\\geq t)$ for every threshold $t>0$ and every $κ\\geq 1$. The answer is a four-regime map: a Cantelli tongue $b(κ)\\le t\\le c(κ)$ on which the two-moment bound $1/(1+t^2)$ remains tight and the kurtosis constraint is worthless; a tail regime $t\\geq c(κ)$ with the closed form $V_1=(κ-1)/((t^2-1)^2+κ-1)$; a plateau regime, present only for $κ\\le 3/2$, on which the worst case freezes and the value does not depend on $t$; and a central regime described exactly by an explicit algebraic system, provably admitting no closed form in nested square roots. Beyond $c(κ)$ the one-sided and two-sided worst cases coincide: Cantelli's improvement over Chebyshev is annihilated by fourth-moment information. The minimal degree of a sum-of-squares proof of the tight bound is $2$ on the closed tongue and $4$ everywhere else, an exact phase diagram of proof degree. Every closed-form regime carries an explicit dual certificate and an explicit extremal distribution, re-verified on parameter grids by an independent checker in exact arithmetic. The closed forms invert to exact worst-case quantiles, sharpen a median-of-means constant, and give the exact per-direction tail available to degree-4 reasoning under certifiable kurtosis. We found the map through an AI-guided search around the certifying pipeline, LemmaForge, which is validated on classical benchmarks, independently reproduces the symmetric-slice bound of Zelen (1954), and recovers the $2\\sqrt{3}-3$ constant of He, Zhang, and Zhang (2010) at $t=0$.",
     "authors": [
       "Xiaoyu Li",
       "Andi Han",
@@ -4584,7 +4551,7 @@
       "Roham Zendehdel Nobari",
       "Shirley Feng Yi Lau",
       "Abu Bakr Rahman Shaik",
-      "Manuel G\u00fcnther",
+      "Manuel Günther",
       "Marc Pollefeys",
       "Daniel Barath"
     ],
@@ -4597,456 +4564,5 @@
     "date": "2026-07-07",
     "source": "arxiv",
     "research_score": 0.41
-  },
-  {
-    "model_id": "glyphsoftware/sentinal-r2",
-    "author": "unknown",
-    "title": "glyphsoftware/sentinal-r2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "security",
-      "penetration-testing",
-      "offensive-security",
-      "red-team",
-      "cybersecurity",
-      "agent",
-      "tool-use",
-      "reasoning",
-      "sft",
-      "trl",
-      "unsloth",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-      "base_model:finetune:empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-      "license:other",
-      "eval-results",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-06T12:13:44.000Z",
-    "last_modified": "2026-07-07T04:45:33.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/glyphsoftware/sentinal-r2",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Banaxi-Tech/waterfall-alpha",
-    "author": "unknown",
-    "title": "Banaxi-Tech/waterfall-alpha",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "cascade_alpha",
-      "text-generation",
-      "causal-lm",
-      "custom-code",
-      "bananamind",
-      "custom_code",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-07T04:42:17.000Z",
-    "last_modified": "2026-07-07T04:45:08.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Banaxi-Tech/waterfall-alpha",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ZestyClose25/lore-vad-valence",
-    "author": "unknown",
-    "title": "ZestyClose25/lore-vad-valence",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "roberta",
-      "text-classification",
-      "generated_from_trainer",
-      "base_model:FacebookAI/roberta-base",
-      "base_model:finetune:FacebookAI/roberta-base",
-      "license:mit",
-      "text-embeddings-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-07-07T04:40:53.000Z",
-    "last_modified": "2026-07-07T04:45:06.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ZestyClose25/lore-vad-valence",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "glyphsoftware/sentinal-r2-lora",
-    "author": "unknown",
-    "title": "glyphsoftware/sentinal-r2-lora",
-    "downloads": 0,
-    "likes": 2,
-    "tags": [
-      "peft",
-      "safetensors",
-      "security",
-      "penetration-testing",
-      "offensive-security",
-      "red-team",
-      "cybersecurity",
-      "agent",
-      "tool-use",
-      "reasoning",
-      "lora",
-      "sft",
-      "trl",
-      "unsloth",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-      "base_model:adapter:empero-ai/Qwythos-9B-Claude-Mythos-5-1M",
-      "license:other",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-06T10:37:02.000Z",
-    "last_modified": "2026-07-07T04:44:39.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/glyphsoftware/sentinal-r2-lora",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "TaimoorSiddiqui/HopCoder-Mini-35B-A3B-VL36-fullsft-GGUF",
-    "author": "unknown",
-    "title": "TaimoorSiddiqui/HopCoder-Mini-35B-A3B-VL36-fullsft-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "llama.cpp",
-      "gguf",
-      "qwen3.5",
-      "qwen3.5-moe",
-      "moe",
-      "vision-language",
-      "full-finetuning",
-      "unsloth",
-      "modal",
-      "standard-gguf-quantization",
-      "text-generation",
-      "conversational",
-      "en",
-      "dataset:TaimoorSiddiqui/hopcoder-fullsft-mix",
-      "base_model:TaimoorSiddiqui/HopCoder-Mini-35B-A3B-VL36",
-      "base_model:quantized:TaimoorSiddiqui/HopCoder-Mini-35B-A3B-VL36",
-      "license:other",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "llama.cpp",
-    "created_at": "2026-07-05T14:05:38.000Z",
-    "last_modified": "2026-07-07T04:42:59.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/TaimoorSiddiqui/HopCoder-Mini-35B-A3B-VL36-fullsft-GGUF",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Srijan-Srivastava/Strawberry-s1",
-    "author": "unknown",
-    "title": "Srijan-Srivastava/Strawberry-s1",
-    "downloads": 0,
-    "likes": 1,
-    "tags": [
-      "text-generation",
-      "en",
-      "dataset:codelion/synth-100M",
-      "doi:10.57967/hf/9482",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-07T04:23:03.000Z",
-    "last_modified": "2026-07-07T04:42:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Srijan-Srivastava/Strawberry-s1",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "imvbhuvan/qwen3-4b-cuad-clause-cls-lora",
-    "author": "unknown",
-    "title": "imvbhuvan/qwen3-4b-cuad-clause-cls-lora",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "legal",
-      "text-classification",
-      "cuad",
-      "lora",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "en",
-      "dataset:dvgodoy/CUAD_v1_Contract_Understanding_clause_classification",
-      "base_model:Qwen/Qwen3-4B",
-      "base_model:adapter:Qwen/Qwen3-4B",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-05T17:38:32.000Z",
-    "last_modified": "2026-07-07T04:42:43.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/imvbhuvan/qwen3-4b-cuad-clause-cls-lora",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "iswahyudi177/legal-chatbot-ft",
-    "author": "unknown",
-    "title": "iswahyudi177/legal-chatbot-ft",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-06T14:39:39.000Z",
-    "last_modified": "2026-07-07T04:42:05.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/iswahyudi177/legal-chatbot-ft",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "gradients-io-tournaments/tournament-tourn_c5d86c82ce819a79_20260706-cf6d24fc-46ea-4975-861e-8fd447c88465-5GsVPezj",
-    "author": "unknown",
-    "title": "gradients-io-tournaments/tournament-tourn_c5d86c82ce819a79_20260706-cf6d24fc-46ea-4975-861e-8fd447c88465-5GsVPezj",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:/cache/models/e59d27d8934df911",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:codellama/CodeLlama-7b-Instruct-hf",
-      "base_model:adapter:codellama/CodeLlama-7b-Instruct-hf",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-07T04:37:34.000Z",
-    "last_modified": "2026-07-07T04:38:03.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_c5d86c82ce819a79_20260706-cf6d24fc-46ea-4975-861e-8fd447c88465-5GsVPezj",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Neura-Tech-AI/Neuron-Identity-Adapter",
-    "author": "unknown",
-    "title": "Neura-Tech-AI/Neuron-Identity-Adapter",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen3-4B-Instruct-2507",
-      "lora",
-      "transformers",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-07T04:32:49.000Z",
-    "last_modified": "2026-07-07T04:36:41.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Neura-Tech-AI/Neuron-Identity-Adapter",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sulaimank/xlsr-waxal-swahili-balanced",
-    "author": "unknown",
-    "title": "sulaimank/xlsr-waxal-swahili-balanced",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-07-06T16:01:22.000Z",
-    "last_modified": "2026-07-07T04:35:13.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sulaimank/xlsr-waxal-swahili-balanced",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "gradients-io-tournaments/tournament-tourn_c5d86c82ce819a79_20260706-98991cbd-fa2d-4d91-a532-e48c5d3a8265-5FjDsFGA",
-    "author": "unknown",
-    "title": "gradients-io-tournaments/tournament-tourn_c5d86c82ce819a79_20260706-98991cbd-fa2d-4d91-a532-e48c5d3a8265-5FjDsFGA",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:/cache/models/e59d27d8934df911",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:codellama/CodeLlama-7b-Instruct-hf",
-      "base_model:adapter:codellama/CodeLlama-7b-Instruct-hf",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-07T02:59:32.000Z",
-    "last_modified": "2026-07-07T04:34:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_c5d86c82ce819a79_20260706-98991cbd-fa2d-4d91-a532-e48c5d3a8265-5FjDsFGA",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "bdougie/smollm3-forest-lora",
-    "author": "unknown",
-    "title": "bdougie/smollm3-forest-lora",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "lora",
-      "mlx-lm",
-      "smollm3",
-      "pokemon",
-      "agent",
-      "text-generation",
-      "base_model:EricFillion/smollm3-3b-mlx",
-      "base_model:adapter:EricFillion/smollm3-3b-mlx",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-07-07T02:31:00.000Z",
-    "last_modified": "2026-07-07T04:34:04.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/bdougie/smollm3-forest-lora",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "quisutdeus1/div9-flooring-estimator-gemma4-31b",
-    "author": "unknown",
-    "title": "quisutdeus1/div9-flooring-estimator-gemma4-31b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "lora",
-      "qlora",
-      "gemma-4",
-      "construction",
-      "estimating",
-      "division-9",
-      "flooring",
-      "cost-estimation",
-      "apple-silicon",
-      "text-generation",
-      "en",
-      "base_model:mlx-community/gemma-4-31B-it-qat-4bit",
-      "base_model:adapter:mlx-community/gemma-4-31B-it-qat-4bit",
-      "license:other",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-07-07T03:00:49.000Z",
-    "last_modified": "2026-07-07T04:33:28.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/quisutdeus1/div9-flooring-estimator-gemma4-31b",
-    "date": "2026-07-07",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
