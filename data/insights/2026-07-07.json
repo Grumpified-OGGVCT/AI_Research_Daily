@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-07T14:15:06.824832",
+  "date": "2026-07-07T17:09:31.508557",
   "patterns": {
     "multimodal_research": [
       {
@@ -551,8 +551,8 @@
         "url": "https://arxiv.org/abs/2607.05264v1"
       },
       {
-        "title": "nerkyor/Qwen3.6-27B-DSV4Pro-GLM52-SFT-GPT55-RL-Coding-GGUF",
-        "url": "https://huggingface.co/nerkyor/Qwen3.6-27B-DSV4Pro-GLM52-SFT-GPT55-RL-Coding-GGUF"
+        "title": "NeTSlab/gpt2_parfind_nl_zh_equal_smoke_20260707",
+        "url": "https://huggingface.co/NeTSlab/gpt2_parfind_nl_zh_equal_smoke_20260707"
       }
     ],
     "vision_systems": [
@@ -815,6 +815,10 @@
       {
         "title": "3DMPE: 3D Multi-Perspective Embedding",
         "url": "https://arxiv.org/abs/2607.04898v1"
+      },
+      {
+        "title": "neurlang/ipa-whipstr-base-48khz-cv-21",
+        "url": "https://huggingface.co/neurlang/ipa-whipstr-base-48khz-cv-21"
       }
     ],
     "reasoning": [
@@ -1591,7 +1595,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1644,6 +1648,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 386
+    "total_papers": 387
   }
 }
