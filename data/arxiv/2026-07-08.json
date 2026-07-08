@@ -322,7 +322,7 @@
   {
     "arxiv_id": "2607.06140v1",
     "title": "CurateEvo: Data-Curation Evolving for Agentic Post-Training",
-    "summary": "Large language model (LLM) agents require post-training methods that can improve long-horizon decision making from environment feedback. However, existing agentic post-training pipelines often treat data curation as a fixed preprocessing step, focusing mainly on data augmentation while neglecting filtering, refinement, and adaptation to downstream failures. We propose CurateEvo, a failure-driven dynamic evolution framework for agentic post-training data curation. CurateEvo represents the curation strategy as executable code and iteratively rewrites it using failed trajectories from a held-out development set. At each epoch, the evolved strategy transforms a fixed raw corpus into supervised fine-tuning data, reinforcement learning data, and an inference-time memory bank. The evolution process first improves effectiveness by diagnosing recurring failure modes and augmenting, filtering, or refining data accordingly, and then improves efficiency by pruning redundant or low-utility training turns under a cost-aware objective. Experiments on ACEBench-Agent, BFCL-V4, and \u03c4^2-Bench under both labeled and wild-data settings show that CurateEvo consistently outperforms prior curation methods, improving average scores by 3.2 and 2.7 points, respectively. Further analyses demonstrate that CurateEvo is compatible with different post-training recipes and substantially reduces curation overhead.",
+    "summary": "Large language model (LLM) agents require post-training methods that can improve long-horizon decision making from environment feedback. However, existing agentic post-training pipelines often treat data curation as a fixed preprocessing step, focusing mainly on data augmentation while neglecting filtering, refinement, and adaptation to downstream failures. We propose CurateEvo, a failure-driven dynamic evolution framework for agentic post-training data curation. CurateEvo represents the curation strategy as executable code and iteratively rewrites it using failed trajectories from a held-out development set. At each epoch, the evolved strategy transforms a fixed raw corpus into supervised fine-tuning data, reinforcement learning data, and an inference-time memory bank. The evolution process first improves effectiveness by diagnosing recurring failure modes and augmenting, filtering, or refining data accordingly, and then improves efficiency by pruning redundant or low-utility training turns under a cost-aware objective. Experiments on ACEBench-Agent, BFCL-V4, and τ^2-Bench under both labeled and wild-data settings show that CurateEvo consistently outperforms prior curation methods, improving average scores by 3.2 and 2.7 points, respectively. Further analyses demonstrate that CurateEvo is compatible with different post-training recipes and substantially reduces curation overhead.",
     "authors": [
       "Dingzirui Wang",
       "Xuanliang Zhang",
@@ -504,7 +504,7 @@
   {
     "arxiv_id": "2607.06150v1",
     "title": "Enhanced Seam Segmentation for Automated Welding Robot in Construction Through Transfer Learning: Addressing Limitations of Bilateral Segmentation Network",
-    "summary": "Reliable seam segmentation is essential for autonomous robotic welding in construction, where harsh illumination, specular reflections, and thin weld geometries often degrade segmentation performance. This study proposes a reflection-robust seam segmentation framework that enhances a BiSeNetV2 backbone through transfer learning and a hybrid Cross-Entropy--Lov\u00e1sz loss. Rather than increasing architectural complexity, the proposed framework improves reflection robustness through learning-stability-oriented optimization. Experimental results show that the proposed method achieves 81.76\\% Joint IoU and 90.73\\% mIoU, improving Joint IoU by +22.36 percentage points over the OHEM-based baseline while maintaining identical FLOPs, parameter count, and inference speed. The proposed approach also recovers 96.33\\% of severe zero-IoU failure cases under reflective conditions. Comparative experiments across BiSeNetV2, DeepLabV3+, UNet, and SegFormer further demonstrate that the proposed optimization strategy is particularly effective for lightweight real-time segmentation architectures. Qualitative analyses additionally show improved seam continuity and reflection robustness in challenging welding environments. These findings suggest that the proposed framework provides a practical and lightweight perception solution for robotic welding applications involving reflective metallic surfaces.",
+    "summary": "Reliable seam segmentation is essential for autonomous robotic welding in construction, where harsh illumination, specular reflections, and thin weld geometries often degrade segmentation performance. This study proposes a reflection-robust seam segmentation framework that enhances a BiSeNetV2 backbone through transfer learning and a hybrid Cross-Entropy--Lovász loss. Rather than increasing architectural complexity, the proposed framework improves reflection robustness through learning-stability-oriented optimization. Experimental results show that the proposed method achieves 81.76\\% Joint IoU and 90.73\\% mIoU, improving Joint IoU by +22.36 percentage points over the OHEM-based baseline while maintaining identical FLOPs, parameter count, and inference speed. The proposed approach also recovers 96.33\\% of severe zero-IoU failure cases under reflective conditions. Comparative experiments across BiSeNetV2, DeepLabV3+, UNet, and SegFormer further demonstrate that the proposed optimization strategy is particularly effective for lightweight real-time segmentation architectures. Qualitative analyses additionally show improved seam continuity and reflection robustness in challenging welding environments. These findings suggest that the proposed framework provides a practical and lightweight perception solution for robotic welding applications involving reflective metallic surfaces.",
     "authors": [
       "Keonvin Park",
       "Yong Ann Voeurn",
@@ -831,7 +831,7 @@
     "title": "Discovering Frequent Closed Embedded Sub-DAGs in Spatio-Temporal Event Data",
     "summary": "We propose a novel approach to mine patterns in spatio-temporal event data based on discovering frequent closed embedded sub-Directed Acyclic Graphs (DAGs). In our method, event instances are represented as nodes labelled by event types, while edges capture spatio-temporal following relationships. We formally define the considered class of patterns and provide the rationale for focusing on closed sub-DAGs as compact and non-redundant representations of recurring interaction patterns. We implement the DigDag algorithm for mining such patterns and experimentally compare its efficiency with two related approaches: propagation pattern mining using the SLEUTH algorithm and Cascading Spatio-Temporal Pattern mining using the CSTPM algorithm. The experimental results demonstrate that our approach is substantially more efficient while operating under comparable parameter settings. Finally, we present a qualitative analysis of selected discovered patterns.",
     "authors": [
-      "Piotr S. Maci\u0105g"
+      "Piotr S. Maciąg"
     ],
     "categories": [
       "cs.DB",
@@ -1266,7 +1266,7 @@
     "summary": "In next-generation networks, communication systems will no longer be limited to data transmission and will be expected to acquire awareness of the surrounding environment. This leads to the concept of integrated sensing and communication (ISAC), where the same wireless infrastructure is used for both communication and environmental sensing. Thus, ISAC enables the system to transmit information efficiently and observe and interpret channel variations and user behavior. Motivated by this capability, this work focuses on detecting an active attacker in an urban environment scenario, where the attacker intentionally manipulates beamforming directions to increase interference and mislead the transmitter into allocating the main lobe of beam toward itself instead of legitimate users. We apply game-theoretic approaches to model the interaction between legitimate users and the attacker, and integrate the resulting utility-based formulation into a reinforcement learning (RL) framework. Simulation results demonstrate that the proposed method effectively addresses security challenges in dynamic 6G ISAC systems.",
     "authors": [
       "Parmida Geranmayeh",
-      "Onur G\u00fcnl\u00fc"
+      "Onur Günlü"
     ],
     "categories": [
       "cs.IT",
@@ -1412,10 +1412,10 @@
     "summary": "The XAI community has studied a wide range of queries and scores for explaining predictions of ML models. From a data management perspective, this proliferation of explanation notions calls for declarative query languages in which such notions can be specified, combined, and analyzed uniformly. In this paper, we develop such a framework for Boolean models. We first revisit FOIL, an interpretability query language for black-box models, and show that it has two fundamental limitations: it cannot express central optimality-based explanation queries, and its evaluation problem over decision trees is hard for every level of the polynomial hierarchy. We then introduce ExplAIner, a query language based on FOIL with an extended vocabulary and a layered structure. We show that ExplAIner can express a broad family of explanation notions, including abductive, contrastive, feature-based, and distance-based queries. We also prove that the evaluation problem for each query in ExplAIner belongs to the Boolean hierarchy over every class of Boolean models for which some basic predicates can be evaluated in polynomial time. In particular, that property holds for deterministic and decomposable Boolean circuits. Finally, we introduce Opt-FOIL, an optimization-oriented fragment of ExplAIner for computing explanations that are minimal with respect to strict partial orders, and prove that its evaluation problem is in $\\mathrm{FP}^{\\mathrm{NP}}$ under the same tractability assumptions. These complexity results have a direct algorithmic consequence: a fixed ExplAIner query can be evaluated with a fixed number of calls to a SAT solver, while a notion of explanation specified in Opt-FOIL can be computed with a polynomial number of such calls. This is particularly relevant in formal XAI, where SAT solvers have been successfully used to compute explanations for several classes of ML models.",
     "authors": [
       "Marcelo Arenas",
-      "Pablo Barcel\u00f3",
+      "Pablo Barceló",
       "Diego Bustamante",
       "Jose Caraball",
-      "Mar\u00eda Alejandra Schild",
+      "María Alejandra Schild",
       "Bernardo Subercaseaux"
     ],
     "categories": [
@@ -1662,7 +1662,7 @@
     "title": "EntroPath: Maximum Entropy Path Ensemble Embedding for Manifold Learning",
     "summary": "We introduce EntroPath, a manifold learning method that recovers geodesic geometry from data graphs through ensembles of diffusion paths. Many existing graph-based embeddings rely either on locally normalised random walks or on shortest-path distances. The former can concentrate diffusion in densely sampled regions, while the latter are sensitive to spurious shortcut edges in the graph. EntroPath instead builds its dissimilarities from the maximum entropy random walk (MERW), which aggregates the full ensemble of k-step paths between points rather than relying on any single trajectory. We show that the resulting free-energy dissimilarity converges to squared geodesic distance in the short-time limit, via Varadhan's heat-kernel formula. The diffusion depth k interpolates smoothly between local neighbourhood structure and global manifold geometry, and the symmetrised kernel admits an exact Gram factorisation connecting EntroPath to kernel methods. We further provide scalable extensions via landmark projection and diffusion-potential pseudotime. Across synthetic manifolds and single-cell benchmarks, EntroPath consistently matches or outperforms diffusion- and shortest-path-based methods, while remaining competitive with neighbourhood-preserving embeddings (UMAP, t-SNE) on local-structure metrics. Its gains are most pronounced on manifolds with non-uniform sampling density and well-separated branching trajectories, where path-ensemble diffusion more faithfully preserves the underlying geodesic geometry.",
     "authors": [
-      "Przemys\u0142aw Rola"
+      "Przemysław Rola"
     ],
     "categories": [
       "cs.LG",
@@ -1681,13 +1681,13 @@
     "title": "Prompt-Adapter Context Routing for Parameter-Efficient Multi-Shot Long Video Extrapolation",
     "summary": "We present PACR-Video, a parameter-efficient framework for multi-shot long video extrapolation that preserves recurring entities, scene structure, visual style, and causal progression without full generator fine-tuning. PACR-Video keeps a text-to-video diffusion transformer frozen and augments it with low-rank temporal adapters conditioned by learned shot-role prompt tokens. To maintain long-horizon coherence, it builds a recursive prompt bank that stores compact entity, location, action, and style prompts from previous shots, then routes them through adapter gates according to predicted narrative dependencies. A Shot-Local/Story-Global tuning objective combines next-shot reconstruction, cross-shot identity contrast, and prompt sparsity regularization, while an adapter composition schedule balances early-shot visual consistency with later-shot event progression and viewpoint change. Across six multi-shot and long-video benchmarks, PACR-Video outperforms text-to-video, tuning-based, memory-augmented, streaming, and recursive-context baselines on distributional quality, semantic alignment, identity consistency, temporal smoothness, motion stability, transition coherence, and human preference. These results show that compact prompt routing and lightweight temporal adaptation provide sufficient controllable capacity for stable long video extrapolation.",
     "authors": [
-      "Anna C\u00f3rdoba",
+      "Anna Córdoba",
       "Adam Puente Tercero",
       "Nerea Angulo Hijo",
       "Mar Linares Tercero",
       "Julia Barrientos",
       "Ainhoa Miranda",
-      "Jes\u00fas Olivera"
+      "Jesús Olivera"
     ],
     "categories": [
       "cs.CV",
@@ -1906,7 +1906,7 @@
   {
     "arxiv_id": "2607.06026v1",
     "title": "SplineNet: An Isogeometric Deep Learning Method for Complex Shells",
-    "summary": "We present a novel isogeometric deep learning method, termed SplineNet, for the seamless design and analysis of shell structures with complex geometries. The proposed approach is built upon watertight spline representations, e.g., analysis-suitable unstructured T-splines, and features exact geometric descriptions of Computer-Aided Design (CAD) models in neural networks. B\u00e9zier extraction is used to build the network architecture, where Bernstein polynomials serve as the nonlinear activation functions. SplineNet can be applied in a data-free or data-driven way. In the data-free case, energy-based formulations can be naturally incorporated as loss terms, which fulfill the need of Computer-Aided Engineering (CAE) and can be accurately calculated. In particular, the Kirchhoff--Love (KL) model is adopted to solve for the mechanical behaviors of shell structures. This way, CAD and CAE can be tightly integrated in a deep neural network without the time-consuming model/data exchange process. In the data-driven case, SplineNet can be used as the trunk net of Deep Operator Networks (DeepONet) to provide interpretability. Given such a trained network and unseen input data, results can be immediately obtained without retraining the network or repeatedly performing the traditional workflow for analysis. In the end, a variety of numerical examples are studied to demonstrate the effectiveness of the proposed method, especially when real-world complex geometries are involved.",
+    "summary": "We present a novel isogeometric deep learning method, termed SplineNet, for the seamless design and analysis of shell structures with complex geometries. The proposed approach is built upon watertight spline representations, e.g., analysis-suitable unstructured T-splines, and features exact geometric descriptions of Computer-Aided Design (CAD) models in neural networks. Bézier extraction is used to build the network architecture, where Bernstein polynomials serve as the nonlinear activation functions. SplineNet can be applied in a data-free or data-driven way. In the data-free case, energy-based formulations can be naturally incorporated as loss terms, which fulfill the need of Computer-Aided Engineering (CAE) and can be accurately calculated. In particular, the Kirchhoff--Love (KL) model is adopted to solve for the mechanical behaviors of shell structures. This way, CAD and CAE can be tightly integrated in a deep neural network without the time-consuming model/data exchange process. In the data-driven case, SplineNet can be used as the trunk net of Deep Operator Networks (DeepONet) to provide interpretability. Given such a trained network and unseen input data, results can be immediately obtained without retraining the network or repeatedly performing the traditional workflow for analysis. In the end, a variety of numerical examples are studied to demonstrate the effectiveness of the proposed method, especially when real-world complex geometries are involved.",
     "authors": [
       "Shizhou Luo",
       "Xiaodong Wei"
@@ -1954,16 +1954,16 @@
     "authors": [
       "Daryna Dementieva",
       "Nikolay Babakov",
-      "Kathy H\u00e4mmerl",
+      "Kathy Hämmerl",
       "Ilseyar Alimova",
-      "Jind\u0159ich Libovick\u00fd",
+      "Jindřich Libovický",
       "Shu Okabe",
       "Miras Baisbay",
       "Lukas Edman",
       "Abrorkhon Inomkhujaev",
       "Antonia Karamolegkou",
       "Mateusz Lango",
-      "Volkan \u00d6zer",
+      "Volkan Özer",
       "Nikola Selic",
       "Subhankar Swain",
       "Tsedeniya Kinfe Temesgen",
@@ -2113,7 +2113,7 @@
     "title": "Kernel-based Operator Learning: Error Analysis, Budget Allocation, and a Physics-Informed Extension",
     "summary": "We study kernel-based operator learning in a two-stage sampling framework, where an offline kernel regression operator learns a discretized representation of the target operator from input-output pairs and an online kernel reconstruction operator recovers the output function from predicted observations.   Our main theoretical contribution is an explicit budget allocation condition relating the number $N$ of training pairs, the number $n$ of input observations, and the output resolution $m$. The condition is derived from a coupled error analysis that interprets the surrogate as a reconstruction from approximate data. This yields a decomposition of the total error into reconstruction and learning contributions that can be analyzed independently. As a consequence, we obtain quantitative scaling laws describing how $N$, $n$, and $m$ must be coupled to guarantee convergence and to balance offline learning and online reconstruction errors. The resulting estimates extend previous analyses of kernel-based operator learning.   We further introduce a physics-informed extension that incorporates knowledge of the underlying PDE at evaluation time. Rather than encoding constraints directly into the kernel, we augment the online reconstruction step by penalizing PDE residuals at collocation points. The method requires no retraining for new inputs. Numerical experiments illustrate the theoretical findings and demonstrate the effectiveness of the proposed physics-informed reconstruction strategy.",
     "authors": [
-      "R\u00fcdiger Kempf"
+      "Rüdiger Kempf"
     ],
     "categories": [
       "math.NA",
@@ -2229,13 +2229,13 @@
     "title": "FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference",
     "summary": "Long-context LLM inference is increasingly limited by the memory and bandwidth cost of KV caches, yet aggressive compression can remove the layer-specific evidence needed for retrieval and multi-step reasoning. We introduce FreqDepthKV, an inference-time cache compression method that factorizes adjacent-layer KV states into shared low-frequency depth components and sparse high-frequency residuals. A lightweight online probe assigns attention heads to shared-depth, residual-depth, or exact cache modes according to their contribution to reconstruction-sensitive attention logits, allowing the compression policy to adapt to prompt structure without retraining. Across long-context question answering, needle retrieval, summarization, and code generation benchmarks, FreqDepthKV preserves task accuracy under substantially smaller cache budgets. With a 32k-token prefill window, FreqDepthKV reaches 58.3 Exact Match, 63.0 F1, 32.5 ROUGE-L, and 48.1 pass@1, closely matching full KV while outperforming prior compressed-cache methods. It also improves decoding throughput to 70.4 tokens/s, reduces TTFT to 2.06 seconds, and lowers peak KV memory to 6.2 GB, achieving a 3.9x effective compression ratio.",
     "authors": [
-      "Anna C\u00f3rdoba",
+      "Anna Córdoba",
       "Adam Puente Tercero",
       "Nerea Angulo Hijo",
       "Mar Linares Tercero",
       "Julia Barrientos",
       "Ainhoa Miranda",
-      "Jes\u00fas Olivera"
+      "Jesús Olivera"
     ],
     "categories": [
       "cs.AI"
@@ -2382,9 +2382,9 @@
   {
     "arxiv_id": "2607.06155v1",
     "title": "When Does Tool Use Increase the Expressive Power of Finite-Precision Recurrent Models?",
-    "summary": "Modern sequence models are increasingly deployed as agents that interleave token generation with calls to external tools. We give an exact, architecture-level account of when such tool access increases computational expressivity. We model any fixed finite-precision recurrent sequence model, including finite-precision state-space models (SSMs) with $B$ bits of internal state, as a deterministic finite-state controller interacting with an oracle through a finite command/observation interface. Our results form a sharp dichotomy. First, tools that are themselves finite-state add essentially nothing: a product-state simulation internalizes any finite-state bounded-interface oracle with finite memory set $M$ at a cost of only $\\log_2 |M| + O(1)$ additional bits, so the augmented system remains finite-state. Second, a single minimal infinite-state tool, namely a tape supporting only local $\\mathtt{read}$, $\\mathtt{write}$, and $\\mathtt{move}$ commands, makes the system Turing complete: for every single-tape Turing machine with state set $Q$ and tape alphabet $\u0393$, a controller with $O(\\log |Q| + \\log |\u0393|)$ bits of internal memory simulates it, and we exhibit a concrete exponential separation: $\\mathrm{EQ}_n$ requires $2^n$ states without tools but a single constant-size controller with the tape tool. Third, we show that this construction is realized exactly by a natural one-layer finite-precision selective affine SSM controller with binary one-hot hidden states, $\\{0,1\\}$ transition matrices, and zero biases. Selectivity is essential to the construction. In the supplementary material, we make all constants explicit, prove a logarithmic oracle-assisted universal simulation, where $O(\\log B)$ recurrent bits suffice to simulate any $B$-state Turing machine, and prove a matching impossibility result.",
+    "summary": "Modern sequence models are increasingly deployed as agents that interleave token generation with calls to external tools. We give an exact, architecture-level account of when such tool access increases computational expressivity. We model any fixed finite-precision recurrent sequence model, including finite-precision state-space models (SSMs) with $B$ bits of internal state, as a deterministic finite-state controller interacting with an oracle through a finite command/observation interface. Our results form a sharp dichotomy. First, tools that are themselves finite-state add essentially nothing: a product-state simulation internalizes any finite-state bounded-interface oracle with finite memory set $M$ at a cost of only $\\log_2 |M| + O(1)$ additional bits, so the augmented system remains finite-state. Second, a single minimal infinite-state tool, namely a tape supporting only local $\\mathtt{read}$, $\\mathtt{write}$, and $\\mathtt{move}$ commands, makes the system Turing complete: for every single-tape Turing machine with state set $Q$ and tape alphabet $Γ$, a controller with $O(\\log |Q| + \\log |Γ|)$ bits of internal memory simulates it, and we exhibit a concrete exponential separation: $\\mathrm{EQ}_n$ requires $2^n$ states without tools but a single constant-size controller with the tape tool. Third, we show that this construction is realized exactly by a natural one-layer finite-precision selective affine SSM controller with binary one-hot hidden states, $\\{0,1\\}$ transition matrices, and zero biases. Selectivity is essential to the construction. In the supplementary material, we make all constants explicit, prove a logarithmic oracle-assisted universal simulation, where $O(\\log B)$ recurrent bits suffice to simulate any $B$-state Turing machine, and prove a matching impossibility result.",
     "authors": [
-      "Nikola Zubi\u0107",
+      "Nikola Zubić",
       "Qian Li",
       "Yuyi Wang",
       "Davide Scaramuzza"
@@ -2465,8 +2465,8 @@
     "summary": "Filled pauses (FPs) are a universal feature of spontaneous speech, yet most studies rely on small, single-language corpora, limiting the generalisability of their findings. We analyse ~4,000 hours of parliamentary speech across four related Slavic languages (Croatian, Czech, Polish, Serbian). FP occurrence is obtained via transformer-based automatic detection, while FP rate is modelled using Generalised Estimating Equations (GEE) with Mundlak correction to distinguish within- from between- speaker effects. We replicate a negative association of age and speech rate with FP rate, but find that gender effects are language-specific and directionally opposite to most prior literature. Novel analyses of sentiment, political orientation, and power status reveal a consistent positive association between sentiment and FP rate, alongside parliament-specific modulation by orientation and power status, with opposition speakers tending toward lower FP rates than governing coalition speakers.",
     "authors": [
       "Ivan Porupski",
-      "Branimir Dropulji\u0107",
-      "Nikola Ljube\u0161i\u0107"
+      "Branimir Dropuljić",
+      "Nikola Ljubešić"
     ],
     "categories": [
       "cs.CL",
@@ -2525,7 +2525,7 @@
   {
     "arxiv_id": "2607.06382v1",
     "title": "A Function-Space Dichotomy for Compositional Learning: Exponential Sub-Optimality of the Neural Tangent Kernel",
-    "summary": "A persistent empirical observation is that trained neural networks outperform their neural tangent kernel (NTK) limit on tasks with compositional structure, yet a quantitative account of $\\textbf{when}$ and $\\textbf{by how much}$ has been lacking. Working on the unit circle, we give such an account through a dichotomy between two complexity measures of the target: its $\\textbf{Fourier complexity}$, which controls NTK kernel regression, and its $\\textbf{architectural complexity}$, which controls learning over depth-$L$, width-$w$ ReLU networks with the variation norm of the weights bounded by $R$. We first characterize the minimax rate of the architecture class $\\mathcal{C}_{L,w,R}$, pinning it down up to a single factor of $L$: between $\u03a9(Lw^2R^2/n)$ and $\\tilde{O}(L^2w^2R^2/n)$. We then show the NTK estimator sits $\\textbf{exponentially}$ above this floor whenever the two complexities decouple: for the depth-$L$ iterated sawtooth, NTK regression needs $\u03a9(4^L)$ samples while the minimax floor is polynomial in $L$. Numerical experiments confirm the theoretical claims: on bandlimited smooth targets, the NTK is competitive or better, while on the hypercube sparse-parity model, a standard two-layer network beats the NTK by four to six orders of magnitude in test error. The gap is thus a function-space property, a mismatch between the kernel's smoothness bias and the target's compositional structure, rather than a generic kernel-versus-network phenomenon.",
+    "summary": "A persistent empirical observation is that trained neural networks outperform their neural tangent kernel (NTK) limit on tasks with compositional structure, yet a quantitative account of $\\textbf{when}$ and $\\textbf{by how much}$ has been lacking. Working on the unit circle, we give such an account through a dichotomy between two complexity measures of the target: its $\\textbf{Fourier complexity}$, which controls NTK kernel regression, and its $\\textbf{architectural complexity}$, which controls learning over depth-$L$, width-$w$ ReLU networks with the variation norm of the weights bounded by $R$. We first characterize the minimax rate of the architecture class $\\mathcal{C}_{L,w,R}$, pinning it down up to a single factor of $L$: between $Ω(Lw^2R^2/n)$ and $\\tilde{O}(L^2w^2R^2/n)$. We then show the NTK estimator sits $\\textbf{exponentially}$ above this floor whenever the two complexities decouple: for the depth-$L$ iterated sawtooth, NTK regression needs $Ω(4^L)$ samples while the minimax floor is polynomial in $L$. Numerical experiments confirm the theoretical claims: on bandlimited smooth targets, the NTK is competitive or better, while on the hypercube sparse-parity model, a standard two-layer network beats the NTK by four to six orders of magnitude in test error. The gap is thus a function-space property, a mismatch between the kernel's smoothness bias and the target's compositional structure, rather than a generic kernel-versus-network phenomenon.",
     "authors": [
       "Arkaprabha Ganguli",
       "Emil Constantinescu"
@@ -2544,7 +2544,7 @@
   {
     "arxiv_id": "2607.06370v1",
     "title": "Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement",
-    "summary": "Vision-Language-Action (VLA) models have emerged as a promising approach for generalizable robotic manipulations. In particular, flow matching-based VLA models have shown remarkable success due to their capability to generate precise and smooth action sequences and capture multimodal distributions. However, the iterative denoising process in the action head acts as a major computational bottleneck, posing a critical challenge for real-time deployment. To address this challenge, we propose ActionCache, a plug-and-play external cache that opportunistically reuses past intermediate actions to warm-start generations from the vicinity of target actions, thereby drastically reducing the inference latency. Specifically, ActionCache stores the intermediate actions with compact multimodal keys, which enables retrieval from similar past contexts across different episodes or even different tasks. Experimental results in simulation and real-world environments demonstrate that ActionCache maintains high task success rates in a low-latency regime, achieving inference acceleration of up to $11.75\\times$ and $34.43\\times$ for representative flow-based VLA models, $\u03c0_{0.5}$ and GR00T-N1.6, respectively.",
+    "summary": "Vision-Language-Action (VLA) models have emerged as a promising approach for generalizable robotic manipulations. In particular, flow matching-based VLA models have shown remarkable success due to their capability to generate precise and smooth action sequences and capture multimodal distributions. However, the iterative denoising process in the action head acts as a major computational bottleneck, posing a critical challenge for real-time deployment. To address this challenge, we propose ActionCache, a plug-and-play external cache that opportunistically reuses past intermediate actions to warm-start generations from the vicinity of target actions, thereby drastically reducing the inference latency. Specifically, ActionCache stores the intermediate actions with compact multimodal keys, which enables retrieval from similar past contexts across different episodes or even different tasks. Experimental results in simulation and real-world environments demonstrate that ActionCache maintains high task success rates in a low-latency regime, achieving inference acceleration of up to $11.75\\times$ and $34.43\\times$ for representative flow-based VLA models, $π_{0.5}$ and GR00T-N1.6, respectively.",
     "authors": [
       "Ryuji Oi",
       "Hikari Otsuka",
@@ -2652,8 +2652,8 @@
     "title": "Separation Capacity of Scattering Networks on Low-Dimensional Datasets",
     "summary": "We aim to identify scattering network architectures that maximize the separation capacity on data with low intrinsic dimension. The networks we consider employ a fixed monomial nonlinearity and no pooling, so that the only design variable is the frame generated by the network filters. For data modeled as rectifiable sets, we first characterize and bound the separation capacity of general feature extractors in terms of the geometry of the dataset. We then particularize to scattering networks and obtain two design criteria: (i) the filters should meet the data on sufficiently many frequencies, and (ii) the matrices coupling the frame to the geometry of the data should be well-conditioned.",
     "authors": [
-      "Konstantin H\u00e4berle",
-      "Helmut B\u00f6lcskei"
+      "Konstantin Häberle",
+      "Helmut Bölcskei"
     ],
     "categories": [
       "stat.ML",
@@ -2692,7 +2692,7 @@
   {
     "arxiv_id": "2607.05985v1",
     "title": "Auto-DSM Under the Lens: A Black-Box Evaluation Framework for LLM-Based DSM Generation",
-    "summary": "This paper presents a black-box evaluation framework to systematically assess the ability of Large Language Models (LLMs) to generate Design Structure Matrices (DSMs) from structured technical documentation. Motivated by the closed-source nature of current Auto-DSM pipelines, the framework introduces a reproducible methodology that benchmarks generated DSMs (GEN-DSMs) against manually validated ground-truth matrices (GT-DSMs). The evaluation integrates both single-run and multi-run perspectives, combining structural metrics (Completeness, Correctness, Coupling Density), classification metrics (Selective Accuracy, Abstention Coverage), and stability measures (Entropy, Fleiss' $\u03ba$). To synthesize these aspects, a Composite Quality Score (Q) is proposed. Controlled experiments are conducted on two datasets: a fictive abstract system and a real-world refrigerator decomposition, covering variations in phrasing, parameter-dataset alignment, and system complexity. Results show that LLMs can produce structurally plausible DSMs and achieve high reproducibility under well-structured inputs, but remain sensitive to ambiguity, inconsistent dependency definitions, and prompt formulation. The findings highlight systematic sources of hallucination and abstention failure, demonstrating both the potential and current limitations of LLM-driven DSM automation. The proposed framework provides a transparent benchmark for auditing Auto-DSM pipelines and establishes foundations for integrating LLM-based decomposition methods into model-based systems engineering (MBSE) workflows.",
+    "summary": "This paper presents a black-box evaluation framework to systematically assess the ability of Large Language Models (LLMs) to generate Design Structure Matrices (DSMs) from structured technical documentation. Motivated by the closed-source nature of current Auto-DSM pipelines, the framework introduces a reproducible methodology that benchmarks generated DSMs (GEN-DSMs) against manually validated ground-truth matrices (GT-DSMs). The evaluation integrates both single-run and multi-run perspectives, combining structural metrics (Completeness, Correctness, Coupling Density), classification metrics (Selective Accuracy, Abstention Coverage), and stability measures (Entropy, Fleiss' $κ$). To synthesize these aspects, a Composite Quality Score (Q) is proposed. Controlled experiments are conducted on two datasets: a fictive abstract system and a real-world refrigerator decomposition, covering variations in phrasing, parameter-dataset alignment, and system complexity. Results show that LLMs can produce structurally plausible DSMs and achieve high reproducibility under well-structured inputs, but remain sensitive to ambiguity, inconsistent dependency definitions, and prompt formulation. The findings highlight systematic sources of hallucination and abstention failure, demonstrating both the potential and current limitations of LLM-driven DSM automation. The proposed framework provides a transparent benchmark for auditing Auto-DSM pipelines and establishes foundations for integrating LLM-based decomposition methods into model-based systems engineering (MBSE) workflows.",
     "authors": [
       "Niels Potters",
       "Theo Hofman"
@@ -2822,7 +2822,7 @@
       "Glen Pouliquen",
       "Joseph Chazalon",
       "Guillaume Chiron",
-      "Thierry G\u00e9raud",
+      "Thierry Géraud",
       "Ahmad Montaser Awal"
     ],
     "categories": [
@@ -2841,7 +2841,7 @@
     "summary": "X-ray fluorescence (XRF) spectroscopy is a key modality for material analysis in cultural heritage. However, automated learning from XRF spectra remains challenging: XRF spectra are complex one-dimensional signals composed of sharp elemental peaks, broader structures, and background variations that are not taken into account by existing learning-based models. This paper introduces XRFormer, a transformer architecture tailored to XRF spectra through a multiscale convolutional tokenizer that injects locality and multi-resolution inductive biases before global self-attention. The tokenizer progressively reduces spectral resolution while increasing embedding dimensionality, and the resulting token sequence is processed by a standard transformer encoder. We further investigate self-supervised pretraining for XRF representation learning using Masked Spectral modeling (MSM) and a physics-informed Peak Presence Prediction (PPP) objective. Experiments on the Pigments Checker STANDARD v.5 dataset for pigment identification and unmixing show that XRFormer consistently outperforms ViT, SpectralFormer (with and without CAF), and a 1D-CNN baseline for pigment identification. For pigment unmixing, XRFormer achieves robust abundance estimation while maintaining significantly higher parameter efficiency than SpectralFormer, operating at a lower token resolution (128 vs. 512 tokens) and with less than half the number of parameters (1.5M vs. 3.37M). MSM yields consistent gains across both tasks, while PPP further enhances performance for both identification and unmixing when tuned with an appropriate peak prominence. These results highlight multiscale, modality-aware tokenization as an effective and parameter efficient foundation for transformer-based XRF modeling under data-limited conditions. A GitHub repository is provided at https://github.com/sofiane1010/XRFormer.",
     "authors": [
       "Sofiane Daimellah",
-      "Sylvie Le H\u00e9garat-Mascle",
+      "Sylvie Le Hégarat-Mascle",
       "Clotilde Boust"
     ],
     "categories": [
@@ -2963,7 +2963,7 @@
       "Pascal Cuxac",
       "Francesca Frontini",
       "Nicolas Larrousse",
-      "St\u00e9phane Pouyllau"
+      "Stéphane Pouyllau"
     ],
     "categories": [
       "cs.AI",
@@ -3194,7 +3194,7 @@
       "Joseph Chazalon",
       "Guillaume Chiron",
       "Oriol Ramos Terrades",
-      "Thierry G\u00e9raud",
+      "Thierry Géraud",
       "Ahmad Montaser Awal"
     ],
     "categories": [
@@ -3234,7 +3234,7 @@
     "summary": "We study the infinite-width Gaussian-process limit of random neural networks   through the lens of tensor programs, and we provide a quantitative convergence   theory in Wasserstein distance.   Our main result gives explicit finite-width error bounds, of order inverse square-root of the widths   between finite-network executions and their   Gaussian-process limits. The framework is architecture-agnostic and covers feed-forward models together   with weight-sharing schemes relevant for recurrent and transformer-type   architectures.",
     "authors": [
       "Andrea Agazzi",
-      "Eloy Mosig Garc\u00eda",
+      "Eloy Mosig García",
       "Dario Trevisan"
     ],
     "categories": [
@@ -3421,7 +3421,7 @@
       "Pavlos Protopapas",
       "Leonid Sarieddine",
       "David N. Spergel",
-      "Pedro Taranc\u00f3n-\u00c1lvarez"
+      "Pedro Tarancón-Álvarez"
     ],
     "categories": [
       "cs.LG",
@@ -3565,7 +3565,7 @@
       "Hamza Hussaini",
       "Shahana Bano",
       "Eyad Elyan",
-      "Carlos Francisco Moreno-Garc\u00eda"
+      "Carlos Francisco Moreno-García"
     ],
     "categories": [
       "cs.CV"
@@ -3941,7 +3941,7 @@
     "summary": "Real estate property listings expose structured metadata through the API. Still, the richest property-level information (i.e., legal status, structural condition, utility supplies, heating systems) sits in attached questionnaire documents that no automated system currently processes at scale. These documents are heterogeneous. Some are digitally generated with selectable text, others are scanned physical forms. There are even more complex layouts that contain checkbox annotations that defeat conventional text extraction. In this paper, we present an end-to-end pipeline for acquiring, classifying, and extracting structured data from selectable text documents. The pipeline was applied to 3965 questionnaire documents collected from a live property platform via reverse-engineered REST APIs. First, we classified each document into one of three structural categories (text_only, scanned, and special_char), then extracted 35 predefined property attributes from eligible documents using DeepSeek R1 as the Large Language Model, prompted to return a structured JSON object. All 2781 submitted documents were processed successfully, producing a final dataset of 2766 unique property records. Downstream validation confirmed the data quality. Cosine similarity matching achieves a Jaccard consistency score of 0.82, and K-Means clustering produces interpretable market segments with a silhouette score of 0.2088. Results show that the proposed extraction from each property document is both feasible and reliable at this scale.",
     "authors": [
       "Muhammad Assad Shehbaz",
-      "Carlos Francisco Moreno-Garc\u00eda"
+      "Carlos Francisco Moreno-García"
     ],
     "categories": [
       "cs.CV"
@@ -4202,43 +4202,9 @@
     "research_score": 0.5
   },
   {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 21775,
-    "likes": 331,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:tabular",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-07-08T05:45:07.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-07-08",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.5
-  },
-  {
     "arxiv_id": "2607.06369v1",
-    "title": "Feature Learning for the High Dimensional Stationary Sch\u00f6dinger Equation with Deep Ritz Method",
-    "summary": "This paper investigates feature learning within the framework of the deep Ritz method for solving the stationary Schr\u00f6dinger equation with Neumann boundary conditions. We first analyze the convergence of Riemannian gradient descent in an agnostic setting, where the hypothesis function is restricted to a single-index model while the PDE solution is arbitrary. We prove that gradient descent reaches an approximate global minimum: after T = O(log(1/\u03b5)) iterations, the loss is within \u03b5of a constant multiple of the optimal loss. We then examine the loss landscape when the source term of the PDE itself follows a single-index model, considering hypothesis functions given by either a single-index model or a two-neuron multi-index model. In the single-index case, we show that the minimum Ritz energy is attained at the feature vector aligned with that of the source term. In the two-neuron case, we study the landscape of regularized Ritz losses and characterize how a second feature emerges, given that the first feature is aligned with the source, as the regularization parameter varies. Finally, numerical experiments are presented to validate the feature emergence theory in the two-neuron setting.",
+    "title": "Feature Learning for the High Dimensional Stationary Schödinger Equation with Deep Ritz Method",
+    "summary": "This paper investigates feature learning within the framework of the deep Ritz method for solving the stationary Schrödinger equation with Neumann boundary conditions. We first analyze the convergence of Riemannian gradient descent in an agnostic setting, where the hypothesis function is restricted to a single-index model while the PDE solution is arbitrary. We prove that gradient descent reaches an approximate global minimum: after T = O(log(1/ε)) iterations, the loss is within εof a constant multiple of the optimal loss. We then examine the loss landscape when the source term of the PDE itself follows a single-index model, considering hypothesis functions given by either a single-index model or a two-neuron multi-index model. In the single-index case, we show that the minimum Ritz energy is attained at the feature vector aligned with that of the source term. In the two-neuron case, we study the landscape of regularized Ritz losses and characterize how a second feature emerges, given that the first feature is aligned with the source, as the regularization parameter varies. Finally, numerical experiments are presented to validate the feature emergence theory in the two-neuron setting.",
     "authors": [
       "Yao Yao",
       "Yulong Lu",
@@ -4538,398 +4504,6 @@
     "pdf_url": "https://arxiv.org/pdf/2607.06368v1.pdf",
     "date": "2026-07-08",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "fengfengm/emma",
-    "author": "unknown",
-    "title": "fengfengm/emma",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "text-to-image",
-      "diffusers-training",
-      "lora",
-      "krea2",
-      "krea2-diffusers",
-      "template:sd-lora",
-      "base_model:krea/Krea-2-Raw",
-      "base_model:adapter:krea/Krea-2-Raw",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-07-08T05:04:25.000Z",
-    "last_modified": "2026-07-08T05:43:58.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fengfengm/emma",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "kjfk/galaxy-bar-detection-resnet50",
-    "author": "unknown",
-    "title": "kjfk/galaxy-bar-detection-resnet50",
-    "downloads": 6,
-    "likes": 0,
-    "tags": [
-      "keras",
-      "image-classification",
-      "regression",
-      "astronomy",
-      "galaxy-morphology",
-      "tensorflow",
-      "resnet50",
-      "transfer-learning",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "keras",
-    "created_at": "2026-07-06T07:24:01.000Z",
-    "last_modified": "2026-07-08T05:43:56.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/kjfk/galaxy-bar-detection-resnet50",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "pennywise001/Horus-Hiero-9B-Uncensored",
-    "author": "unknown",
-    "title": "pennywise001/Horus-Hiero-9B-Uncensored",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5_text",
-      "text-generation",
-      "uncensored",
-      "abliteration",
-      "heretic",
-      "qwen",
-      "horus",
-      "conversational",
-      "license:other",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-08T05:32:16.000Z",
-    "last_modified": "2026-07-08T05:42:59.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/pennywise001/Horus-Hiero-9B-Uncensored",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Parum-Lucis/gemma3-270m-bpe-4K-5y-merged",
-    "author": "unknown",
-    "title": "Parum-Lucis/gemma3-270m-bpe-4K-5y-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "arxiv:2212.04089",
-      "base_model:google/gemma-3-270m",
-      "base_model:merge:google/gemma-3-270m",
-      "base_model:rafurafu/gemma-3-270m-cpt-bpe-4K-5y",
-      "base_model:merge:rafurafu/gemma-3-270m-cpt-bpe-4K-5y",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-08T05:38:12.000Z",
-    "last_modified": "2026-07-08T05:38:36.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Parum-Lucis/gemma3-270m-bpe-4K-5y-merged",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "aethercompute/aether1-500m-distro-150m-tokens",
-    "author": "unknown",
-    "title": "aethercompute/aether1-500m-distro-150m-tokens",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "deepseek_v3",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-08T04:49:09.000Z",
-    "last_modified": "2026-07-08T05:38:05.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aethercompute/aether1-500m-distro-150m-tokens",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Parum-Lucis/gemma3-270m-bpe-4K-20y-merged",
-    "author": "unknown",
-    "title": "Parum-Lucis/gemma3-270m-bpe-4K-20y-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "arxiv:2212.04089",
-      "base_model:google/gemma-3-270m",
-      "base_model:merge:google/gemma-3-270m",
-      "base_model:rafurafu/gemma-3-270m-cpt-bpe-4K-20y",
-      "base_model:merge:rafurafu/gemma-3-270m-cpt-bpe-4K-20y",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-08T05:37:28.000Z",
-    "last_modified": "2026-07-08T05:37:50.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Parum-Lucis/gemma3-270m-bpe-4K-20y-merged",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Parum-Lucis/gemma3-270m-bpe-2K-5y-merged",
-    "author": "unknown",
-    "title": "Parum-Lucis/gemma3-270m-bpe-2K-5y-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "arxiv:2212.04089",
-      "base_model:google/gemma-3-270m",
-      "base_model:merge:google/gemma-3-270m",
-      "base_model:rafurafu/gemma-3-270m-cpt-bpe-2K-5y",
-      "base_model:merge:rafurafu/gemma-3-270m-cpt-bpe-2K-5y",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-08T05:36:20.000Z",
-    "last_modified": "2026-07-08T05:36:44.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Parum-Lucis/gemma3-270m-bpe-2K-5y-merged",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ahmedandaloes/CyberStrike-OffSec-35B-GGUF",
-    "author": "unknown",
-    "title": "ahmedandaloes/CyberStrike-OffSec-35B-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "cybersecurity",
-      "offensive-security",
-      "penetration-testing",
-      "red-team",
-      "llama.cpp",
-      "text-generation",
-      "en",
-      "base_model:oyildirim/CyberStrike-OffSec-35B",
-      "base_model:quantized:oyildirim/CyberStrike-OffSec-35B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-07T23:48:18.000Z",
-    "last_modified": "2026-07-08T05:36:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ahmedandaloes/CyberStrike-OffSec-35B-GGUF",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "deepconradlabs/Conrad-nit-Instruct-5.2",
-    "author": "unknown",
-    "title": "deepconradlabs/Conrad-nit-Instruct-5.2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "glm_moe_dsa",
-      "text-generation",
-      "conversational",
-      "chat",
-      "reasoning",
-      "coding",
-      "long-context",
-      "agents",
-      "function-calling",
-      "multilingual",
-      "deepconrad",
-      "conrad",
-      "en",
-      "license:mit",
-      "eval-results",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-07T14:52:25.000Z",
-    "last_modified": "2026-07-08T05:35:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/deepconradlabs/Conrad-nit-Instruct-5.2",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Parum-Lucis/gemma3-270m-bpe-2K-20y-merged",
-    "author": "unknown",
-    "title": "Parum-Lucis/gemma3-270m-bpe-2K-20y-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "arxiv:2212.04089",
-      "base_model:google/gemma-3-270m",
-      "base_model:merge:google/gemma-3-270m",
-      "base_model:rafurafu/gemma-3-270m-cpt-bpe-2K-20y",
-      "base_model:merge:rafurafu/gemma-3-270m-cpt-bpe-2K-20y",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-08T05:35:00.000Z",
-    "last_modified": "2026-07-08T05:35:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Parum-Lucis/gemma3-270m-bpe-2K-20y-merged",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "KikoCis/AMALIA-9B-0626-SFT-GGUF",
-    "author": "unknown",
-    "title": "KikoCis/AMALIA-9B-0626-SFT-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "llama.cpp",
-      "gguf",
-      "quantized",
-      "llama-cpp",
-      "imatrix",
-      "llama",
-      "portuguese",
-      "european-portuguese",
-      "kld-measured",
-      "conversational",
-      "endpoints_compatible",
-      "text-generation",
-      "pt",
-      "base_model:amalia-llm/AMALIA-9B-0626-SFT",
-      "base_model:quantized:amalia-llm/AMALIA-9B-0626-SFT",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "llama.cpp",
-    "created_at": "2026-07-08T05:29:49.000Z",
-    "last_modified": "2026-07-08T05:30:58.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/KikoCis/AMALIA-9B-0626-SFT-GGUF",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "artokun/gemma4-comfyui-mcp",
-    "author": "unknown",
-    "title": "artokun/gemma4-comfyui-mcp",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gguf",
-      "comfyui",
-      "comfyui-mcp",
-      "tool-calling",
-      "agent",
-      "qlora",
-      "text-generation",
-      "base_model:coder3101/gemma-4-12B-it-heretic",
-      "base_model:quantized:coder3101/gemma-4-12B-it-heretic",
-      "license:gemma",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-07T02:46:36.000Z",
-    "last_modified": "2026-07-08T05:30:49.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/artokun/gemma4-comfyui-mcp",
-    "date": "2026-07-08",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
