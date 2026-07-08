@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-08T17:23:52.272799",
+  "date": "2026-07-08T19:14:52.550786",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,6 +679,10 @@
         "url": "https://arxiv.org/abs/2607.06420v1"
       },
       {
+        "title": "HiyawErtiro/cryptobert-finetuned_on_news_headlines",
+        "url": "https://huggingface.co/HiyawErtiro/cryptobert-finetuned_on_news_headlines"
+      },
+      {
         "title": "Unsupervised Domain Adaptation for Calcification Classification in Mammography Across Multi-Site Datasets",
         "url": "https://arxiv.org/abs/2607.06549v1"
       }
@@ -971,10 +975,6 @@
       {
         "title": "Unlearnable Faces: Privacy Protection Surviving Extraction Pipeline",
         "url": "https://arxiv.org/abs/2607.05996v1"
-      },
-      {
-        "title": "jajmangold/Qwen-Image-fni8",
-        "url": "https://huggingface.co/jajmangold/Qwen-Image-fni8"
       }
     ],
     "reasoning": [
@@ -1661,13 +1661,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
