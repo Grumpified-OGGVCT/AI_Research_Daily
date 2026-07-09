@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-09T11:51:28.923174",
+  "date": "2026-07-09T14:42:05.031803",
   "patterns": {
     "multimodal_research": [
       {
@@ -671,12 +671,8 @@
         "url": "https://arxiv.org/abs/2607.07288v1"
       },
       {
-        "title": "dhasmana/WAXAL-orm_asr-w2v-bert-2.0",
-        "url": "https://huggingface.co/dhasmana/WAXAL-orm_asr-w2v-bert-2.0"
-      },
-      {
-        "title": "npedrazzini/NewsBERT_1800-1920-Temporal",
-        "url": "https://huggingface.co/npedrazzini/NewsBERT_1800-1920-Temporal"
+        "title": "Godsonntungi2/waxal-w2vbert-lora",
+        "url": "https://huggingface.co/Godsonntungi2/waxal-w2vbert-lora"
       }
     ],
     "vision_systems": [
@@ -1593,10 +1589,6 @@
         "url": "https://arxiv.org/abs/2607.07264v1"
       },
       {
-        "title": "BaseLayer/sota_uzbek_stt_lowvolume",
-        "url": "https://huggingface.co/BaseLayer/sota_uzbek_stt_lowvolume"
-      },
-      {
         "title": "Automatic Echocardiography Segmentation via Transition Probability Correlation for Stable Semantic Extraction",
         "url": "https://arxiv.org/abs/2607.07580v1"
       },
@@ -1653,7 +1645,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1677,7 +1669,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "96 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1712,6 +1704,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 401
   }
 }
