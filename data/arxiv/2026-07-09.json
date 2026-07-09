@@ -411,20 +411,20 @@
     "authors": [
       "Anthony Cioppa",
       "Silvio Giancola",
-      "H\u00e5kan Ard\u00f6",
+      "Håkan Ardö",
       "Mohamad Dalal",
       "Jan Held",
-      "J\u00e9r\u00e9mie Ochin",
+      "Jérémie Ochin",
       "Jiayuan Rao",
       "Karen Sanchez",
       "Renaud Vandeghen",
       "Artur Xarles",
       "Olivier Barnich",
-      "Albert Clap\u00e9s",
+      "Albert Clapés",
       "Mathieu Delvaux",
       "Sergio Escalera",
       "Bernard Ghanem",
-      "C\u00e9dric Hons",
+      "Cédric Hons",
       "Antoine Houet",
       "Sotiris Manitsaris",
       "Tom Michel",
@@ -485,7 +485,7 @@
       "Fabian Perez",
       "Parthsarthi Rawat",
       "SuHyun Rim",
-      "Hoover Rueda-Chac\u00f3n",
+      "Hoover Rueda-Chacón",
       "Atom Scott",
       "Minori Sugimura",
       "Yuyang Sun",
@@ -836,9 +836,9 @@
     "title": "TimEE: End-to-end Time Series Classification via In-Context Learning",
     "summary": "Time series classification (TSC) is dominated by a two-stage paradigm: train a feature encoder -- either from scratch on the target dataset or via pretraining on large corpora -- and then fit a task-specific classifier on top. While effective, this decoupling optimizes representation learning independently of the classification objective, requires per-dataset training, and prevents the model from exploiting label information during inference. We introduce TimEE, a 4.5M-parameter foundation model for end-to-end TSC via in-context learning. Given a labeled support set and a query time series, TimEE directly outputs a predicted class distribution in a single forward pass with no per-dataset training required. Following the prior-data fitted network (PFN) framework, TimEE is meta-trained exclusively on synthetic TSC tasks, where each task contains time series with distinct class identities arising from structured distributional shifts in the generative process. Despite seeing no real time series during pre-training, TimEE ranks first in ROC AUC (and third on accuracy) on the UCR benchmark among all compared methods, which include both foundation models and supervised deep learning baselines. To our knowledge, TimEE is the first purely synthetic-pretrained model to reach state-of-the-art performance on the UCR benchmark. These results establish end-to-end ICL with synthetic priors as a compelling, largely unexplored direction for TSC, with scaling, prior design, and richer generation mechanisms as natural avenues for improvement. Code is publicly available at http://github.com/automl/timee.",
     "authors": [
-      "Jaris K\u00fcken",
+      "Jaris Küken",
       "Shi Bin Hoo",
-      "Martin Mr\u00e1z",
+      "Martin Mráz",
       "Frank Hutter",
       "Lennart Purucker"
     ],
@@ -1072,7 +1072,7 @@
       "Xiangming Huang",
       "Guannan Zhang",
       "Lu Lu",
-      "Rapha\u00ebl Pestourie"
+      "Raphaël Pestourie"
     ],
     "categories": [
       "cs.LG"
@@ -1151,8 +1151,8 @@
     "title": "Where to Intervene? Benchmarking Fairness-Aware Learning on Differentially Private Synthetic Tabular Data",
     "summary": "Machine learning models are increasingly deployed in high-stakes domains, raising concerns about both privacy and fairness. Differential Privacy (DP) has become a gold standard for privacy-preserving data analysis, while fairness-aware mechanisms aim to mitigate discrimination against underrepresented groups. However, these objectives can conflict: DP often amplifies disparities across demographic groups, and little is known about whether established fairness interventions remain effective under DP constraints. In this work, we present, to our knowledge, the first systematic evaluation of fairness interventions on differentially private synthetic tabular data. Our benchmark centers on the Adaptive Iterative Mechanism (AIM), identified as the state-of-the-art marginal-based DP synthesizer (Cormode et al. 2025). We thus evaluate fairness interventions across four datasets, multiple group fairness metrics, and three categories of mitigation strategies (pre-processing, in-processing, and post-processing) under a wide range of privacy budgets. We compare four pipeline configurations: (Baseline) training on original data; (DP-only) training on DP synthetic data; (Fair-only) applying fairness mechanisms on original data; and (DP+Fair) combining fairness mechanisms with DP synthetic data. Our results demonstrate that while DP alone can degrade both utility and fairness, applying fairness interventions can partially restore equitable outcomes. Among them, post-processing methods tend to provide more stable fairness-utility trade-offs across privacy budgets and synthesizers, achieving strong fairness improvements while preserving competitive utility relative to other intervention stages. We release all code, data, and experimental artifacts in an open-source repository to ensure full reproducibility and to support future research on the privacy-fairness-utility trade-off.",
     "authors": [
-      "Vin\u00edcius Gabriel Angelozzi",
-      "H\u00e9ber H. Arcolezi"
+      "Vinícius Gabriel Angelozzi",
+      "Héber H. Arcolezi"
     ],
     "categories": [
       "cs.LG",
@@ -1192,7 +1192,7 @@
   {
     "arxiv_id": "2607.07304v1",
     "title": "Nonlinear Bandit",
-    "summary": "In this paper we first study the problem of generalized linear bandit (GLB) under heavy-tailed noise. The characteristics of heavy-tailed distributions are widely observed in real-world applications such as personalized recommendation, financial markets, and medical treatments. Based on the online mirror descent (OMD) method, we propose an algorithm EHM that extends the adaptive Huber loss method (Wang et al., 2025) with one-pass update ($\\mathcal{O}(1)$ computational complexity with respect to current round $t$ and the time horizon $T$), which simultaneously achieves an almost optimal regret of $\\widetilde{\\mathcal{O}}(T^{\\frac{1}{1+\u03b5}})$ where $T$ is the time horizon. In addition, by utilizing a special property of some link function (Sawarni et al., 2025), our algorithm eliminates the need to know a commonly used parameter. Next, we study the GLB problem under the case when contextual characteristic becomes piecewise constant, and we slightly revised former algorithm to obtain the PGLB-EHM algorithm. After theoretical analysis, we prove that the regret upper bound order stays the same. Furthermore, we look deeper into a special case of nonlinear bandit (NB) and present the NB-EHM algorithm with bisection method and special restriction. Eventually we utilize the affine lifting approach and show that the general NB problem can be applied with NB-EHM to achieve a sublinear regret bound.",
+    "summary": "In this paper we first study the problem of generalized linear bandit (GLB) under heavy-tailed noise. The characteristics of heavy-tailed distributions are widely observed in real-world applications such as personalized recommendation, financial markets, and medical treatments. Based on the online mirror descent (OMD) method, we propose an algorithm EHM that extends the adaptive Huber loss method (Wang et al., 2025) with one-pass update ($\\mathcal{O}(1)$ computational complexity with respect to current round $t$ and the time horizon $T$), which simultaneously achieves an almost optimal regret of $\\widetilde{\\mathcal{O}}(T^{\\frac{1}{1+ε}})$ where $T$ is the time horizon. In addition, by utilizing a special property of some link function (Sawarni et al., 2025), our algorithm eliminates the need to know a commonly used parameter. Next, we study the GLB problem under the case when contextual characteristic becomes piecewise constant, and we slightly revised former algorithm to obtain the PGLB-EHM algorithm. After theoretical analysis, we prove that the regret upper bound order stays the same. Furthermore, we look deeper into a special case of nonlinear bandit (NB) and present the NB-EHM algorithm with bisection method and special restriction. Eventually we utilize the affine lifting approach and show that the general NB problem can be applied with NB-EHM to achieve a sublinear regret bound.",
     "authors": [
       "Tianshuo Zheng",
       "Ting Wu",
@@ -1334,7 +1334,7 @@
       "Alessandro Sestini",
       "Joakim Bergdahl",
       "Amir Baghi",
-      "Linus Gissl\u00e9n"
+      "Linus Gisslén"
     ],
     "categories": [
       "cs.LG",
@@ -1350,7 +1350,7 @@
   {
     "arxiv_id": "2607.07469v1",
     "title": "SynthAVE: Scalable Synthetic Labeling for E-Commerce with LLM-Arena Validation",
-    "summary": "Fine-tuning large language models (LLMs) for e-commerce attribute extraction requires labeled data representative across thousands of product types, attributes, and multiple languages. This combinatorial scale translates to millions of annotations, rendering human labeling prohibitively costly. While recent work has demonstrated synthetic label generation using LLMs, deploying such approaches at industrial scale requires integrated quality control mechanisms. We present SynthAVE, a large-scale human-validated benchmark for attribute value extraction spanning 12,726 products across 229 product types, 792 attributes, and 4 languages (Spanish, French, Italian, German). To validate synthetic labels at scale, we introduce a multi-LLM arena framework where samples are independently evaluated by 21 judge configurations (7 model families $\\times$ 3 prompts), with final labels determined via majority voting. The majority vote ensemble agrees with human experts at Cohen's $\u03ba= 0.92$ (95.2% agreement), while individual judges show substantial inter-model agreement (Fleiss' $\u03ba= 0.76$). This demonstrates that diverse models with varying individual judgments aggregate into highly reliable predictions, enabling cost-effective validation at scale while maintaining quality parity with human review.",
+    "summary": "Fine-tuning large language models (LLMs) for e-commerce attribute extraction requires labeled data representative across thousands of product types, attributes, and multiple languages. This combinatorial scale translates to millions of annotations, rendering human labeling prohibitively costly. While recent work has demonstrated synthetic label generation using LLMs, deploying such approaches at industrial scale requires integrated quality control mechanisms. We present SynthAVE, a large-scale human-validated benchmark for attribute value extraction spanning 12,726 products across 229 product types, 792 attributes, and 4 languages (Spanish, French, Italian, German). To validate synthetic labels at scale, we introduce a multi-LLM arena framework where samples are independently evaluated by 21 judge configurations (7 model families $\\times$ 3 prompts), with final labels determined via majority voting. The majority vote ensemble agrees with human experts at Cohen's $κ= 0.92$ (95.2% agreement), while individual judges show substantial inter-model agreement (Fleiss' $κ= 0.76$). This demonstrates that diverse models with varying individual judgments aggregate into highly reliable predictions, enabling cost-effective validation at scale while maintaining quality parity with human review.",
     "authors": [
       "Andrea Scarinci",
       "Virginia Negri",
@@ -1672,7 +1672,7 @@
   {
     "arxiv_id": "2607.07565v1",
     "title": "Collaborative Synthetic Data Generation for Knowledge Transfer in Federated Learning",
-    "summary": "One-shot federated learning (OSFL) addresses the communication overhead of federated learning by limiting training to a single round, but doing so without sacrificing model quality is non-trivial, particularly when client data distributions diverge. Recent work has addressed this challenge by aggregating client knowledge on the server through the construction of transferable synthetic datasets or distillates. However, most of these methods lack formal privacy guarantees, leaving a gap in jointly achieving low communication, robustness to heterogeneity, and rigorous privacy. We propose FedKT-CSD (Federated Knowledge Transfer via Collaborative Synthetic Data), a framework inspired by neural image compression that closes this gap by leveraging publicly pretrained autoencoders as a shared latent space. Each client encodes its private data in a single forward pass, computes class-conditional latent statistics, and transmits these to the server. The server aggregates these statistics via secure aggregation, adds calibrated differential privacy noise, and decodes a synthetic dataset for training a global model and further downstream tasks. This design provides formal $(\\varepsilon,\u03b4)$-differential privacy by construction, while keeping client-side computation and communication lightweight. Despite operating under privacy constraints, FedKT-CSD is competitive with and even outperforms non-private baselines across diverse datasets and heterogeneity settings, and scales to a large number of clients. Our code is available at: https://github.com/an7123/FedKT-CSD",
+    "summary": "One-shot federated learning (OSFL) addresses the communication overhead of federated learning by limiting training to a single round, but doing so without sacrificing model quality is non-trivial, particularly when client data distributions diverge. Recent work has addressed this challenge by aggregating client knowledge on the server through the construction of transferable synthetic datasets or distillates. However, most of these methods lack formal privacy guarantees, leaving a gap in jointly achieving low communication, robustness to heterogeneity, and rigorous privacy. We propose FedKT-CSD (Federated Knowledge Transfer via Collaborative Synthetic Data), a framework inspired by neural image compression that closes this gap by leveraging publicly pretrained autoencoders as a shared latent space. Each client encodes its private data in a single forward pass, computes class-conditional latent statistics, and transmits these to the server. The server aggregates these statistics via secure aggregation, adds calibrated differential privacy noise, and decodes a synthetic dataset for training a global model and further downstream tasks. This design provides formal $(\\varepsilon,δ)$-differential privacy by construction, while keeping client-side computation and communication lightweight. Despite operating under privacy constraints, FedKT-CSD is competitive with and even outperforms non-private baselines across diverse datasets and heterogeneity settings, and scales to a large number of clients. Our code is available at: https://github.com/an7123/FedKT-CSD",
     "authors": [
       "Maximilian Andreas Hoefler",
       "Karsten Mueller",
@@ -1777,7 +1777,7 @@
     "summary": "This article offers a comprehensive overview of mechanistic interpretability, an emerging field that seeks to reverse-engineer the internal algorithms of modern neural networks. While traditional explainable AI methods often stop at surface-level input-output correlations, this approach directly addresses the opaque \"black box\" nature of machine learning models, which is essential for ensuring safety and auditability in high-stakes deployments. The paper provides a detailed examination of Transformer circuit analysis, exploring how internal components like the residual stream, attention mechanisms, and induction heads drive complex tasks and in-context learning. It subsequently tackles the core challenge of superposition and polysemanticity, demonstrating how tools like Sparse Autoencoders (SAEs) and transcoders can decompose tangled network activations into distinct, human-interpretable features. Furthermore, the paper explores methods for actively controlling and modifying model behavior through steering vectors and causal interventions. Finally, it connects these mechanistic insights with neurosymbolic AI frameworks designed to translate neural representations into explicit, executable logical rules.",
     "authors": [
       "Pranav Sawant",
-      "Jakub Krej\u010d\u00ed"
+      "Jakub Krejčí"
     ],
     "categories": [
       "cs.LG"
@@ -1829,10 +1829,10 @@
   {
     "arxiv_id": "2607.07196v1",
     "title": "Validate the Dream Before You Trust Its Verdict: Admissibility for World-Model Simulators",
-    "summary": "Across robotics, World Models (WMs) are increasingly used to evaluate action policies by simulating the consequences of actions in an imagined world, and returning a success or safety verdict. Yet a verdict is only as trustworthy as the WM that produced it, and the WM itself needs to be certified. In video-generation WMs, fidelity metrics such as Fr\u00e9chet Video Distance (FVD) reward visual realism, but ignore whether the world responds correctly to the policy's actions, including those unseen in training. Classical simulation-based validation assumes a trusted simulator evaluating an untrusted policy, whereas generative WMs are themselves unverified learned artifacts. Hence, we argue that any WM used as a test oracle must first be accredited before its verdicts can serve as evidence. Building on credibility practices from safety-critical simulation, including Verification, Validation & Accreditation (VV&A), Safety of the Intended Functionality (SOTIF), and scenario-based testing standards, we define an admissibility ladder (L0-L4) that a WM must climb before its closed-loop verdicts are accepted as assurance evidence. Our framework is embodiment-agnostic, and is instantiated in autonomous driving (AD), where assurance methods for traditional simulation are most mature. Applied to two driving WMs, the lower rungs reveal a reversal: the model that ranks higher on visual generation quality (L0) ranks lower on action-following (L1-L2), so visual fidelity does not predict the action-robustness a closed-loop verdict depends on.",
+    "summary": "Across robotics, World Models (WMs) are increasingly used to evaluate action policies by simulating the consequences of actions in an imagined world, and returning a success or safety verdict. Yet a verdict is only as trustworthy as the WM that produced it, and the WM itself needs to be certified. In video-generation WMs, fidelity metrics such as Fréchet Video Distance (FVD) reward visual realism, but ignore whether the world responds correctly to the policy's actions, including those unseen in training. Classical simulation-based validation assumes a trusted simulator evaluating an untrusted policy, whereas generative WMs are themselves unverified learned artifacts. Hence, we argue that any WM used as a test oracle must first be accredited before its verdicts can serve as evidence. Building on credibility practices from safety-critical simulation, including Verification, Validation & Accreditation (VV&A), Safety of the Intended Functionality (SOTIF), and scenario-based testing standards, we define an admissibility ladder (L0-L4) that a WM must climb before its closed-loop verdicts are accepted as assurance evidence. Our framework is embodiment-agnostic, and is instantiated in autonomous driving (AD), where assurance methods for traditional simulation are most mature. Applied to two driving WMs, the lower rungs reveal a reversal: the model that ranks higher on visual generation quality (L0) ranks lower on action-following (L1-L2), so visual fidelity does not predict the action-robustness a closed-loop verdict depends on.",
     "authors": [
       "Christian Oefinger",
-      "Finn Rasmus Sch\u00e4fer",
+      "Finn Rasmus Schäfer",
       "Korbinian Moller",
       "Mattia Piccinini",
       "Johannes Betz"
@@ -1895,7 +1895,7 @@
   {
     "arxiv_id": "2607.07072v1",
     "title": "An Hybrid Quantum-Classical Diffusion Model for Image Generation",
-    "summary": "Quantum diffusion models provide a physics-consistent route to generative learning by formulating noising and denoising directly on quantum states. However, applying such models to classical high-dimensional data is constrained by the qubit cost of state encoding and the computational burden of simulating large density operators. We propose a scalable hybrid generative pipeline that combines a classical autoencoder for dimensionality reduction with a mixed-state quantum denoising diffusion probabilistic model (MSQuDDPM) operating in the learned latent space. The autoencoder compresses data into compact latent codes that can be embedded into a small-qubit Hilbert space, after which the quantum diffusion model learns a generative distribution over latent density operators and decodes samples back to the original domain. Algorithmically, we simplify the reverse dynamics by predicting an estimate of the clean state $\u03c1_0$ at timestep $t$ and computing the one-step reverse update via an analytic backward propagation rule, rather than learning an explicit predictor for $\u03c1_{t-1}$. We demonstrate the proposed approach on MNIST image generation and discuss how mixed-state quantum diffusion can serve as a practical backbone for hybrid quantum--classical generative modeling under realistic qubit budgets.",
+    "summary": "Quantum diffusion models provide a physics-consistent route to generative learning by formulating noising and denoising directly on quantum states. However, applying such models to classical high-dimensional data is constrained by the qubit cost of state encoding and the computational burden of simulating large density operators. We propose a scalable hybrid generative pipeline that combines a classical autoencoder for dimensionality reduction with a mixed-state quantum denoising diffusion probabilistic model (MSQuDDPM) operating in the learned latent space. The autoencoder compresses data into compact latent codes that can be embedded into a small-qubit Hilbert space, after which the quantum diffusion model learns a generative distribution over latent density operators and decodes samples back to the original domain. Algorithmically, we simplify the reverse dynamics by predicting an estimate of the clean state $ρ_0$ at timestep $t$ and computing the one-step reverse update via an analytic backward propagation rule, rather than learning an explicit predictor for $ρ_{t-1}$. We demonstrate the proposed approach on MNIST image generation and discuss how mixed-state quantum diffusion can serve as a practical backbone for hybrid quantum--classical generative modeling under realistic qubit budgets.",
     "authors": [
       "Qipeng Qian",
       "Keli Deng",
@@ -1914,13 +1914,13 @@
   {
     "arxiv_id": "2607.07047v1",
     "title": "Riemannian Geometry for Pre-trained Language Model Embeddings",
-    "summary": "Understanding the geometric structure of pre-trained language model embeddings matters for interpretability and safety. We ask whether sentence-level classification signal lives in the Riemannian geometry of contextual token embeddings, and probe it by extracting per-token pullback metrics from a learned encoder's analytical Jacobian and aggregating them with the Fr\u00e9chet mean on the symmetric positive definite (SPD) manifold; we call this procedure Riemannian Mean Pooling (RMP). Across three datasets with non-trivial linguistic structure (CoLA, CREAK, RTE), RMP outperforms Euclidean mean pooling, while on FEVER-Symmetric, a benchmark constructed to remove annotation-driven lexical artifacts, the method correctly stays at chance. Ablations show that a randomly initialised encoder combined with Fr\u00e9chet aggregation already beats Euclidean pooling on two of the three signal-bearing datasets, localising the source of the gain to the geometric aggregation rather than to learned manifold structure; the trained encoder contributes additional signal specifically on CREAK, the most knowledge-heavy of the three signal-bearing datasets.",
+    "summary": "Understanding the geometric structure of pre-trained language model embeddings matters for interpretability and safety. We ask whether sentence-level classification signal lives in the Riemannian geometry of contextual token embeddings, and probe it by extracting per-token pullback metrics from a learned encoder's analytical Jacobian and aggregating them with the Fréchet mean on the symmetric positive definite (SPD) manifold; we call this procedure Riemannian Mean Pooling (RMP). Across three datasets with non-trivial linguistic structure (CoLA, CREAK, RTE), RMP outperforms Euclidean mean pooling, while on FEVER-Symmetric, a benchmark constructed to remove annotation-driven lexical artifacts, the method correctly stays at chance. Ablations show that a randomly initialised encoder combined with Fréchet aggregation already beats Euclidean pooling on two of the three signal-bearing datasets, localising the source of the gain to the geometric aggregation rather than to learned manifold structure; the trained encoder contributes additional signal specifically on CREAK, the most knowledge-heavy of the three signal-bearing datasets.",
     "authors": [
       "Szczepan Konior",
       "Alexandre Quemy",
-      "Przemys\u0142aw Klocek",
-      "Gr\u00e9goire Cattan",
-      "Bart\u0142omiej Sobieski"
+      "Przemysław Klocek",
+      "Grégoire Cattan",
+      "Bartłomiej Sobieski"
     ],
     "categories": [
       "cs.CL",
@@ -2090,8 +2090,8 @@
       "Xavier Rafael-Palou",
       "Almudena Fuster-Matanzo",
       "Ignacio Iborra Roncales",
-      "\u00c1ngel Alberich-Bayarri",
-      "Ana Jim\u00e9nez-Pastor"
+      "Ángel Alberich-Bayarri",
+      "Ana Jiménez-Pastor"
     ],
     "categories": [
       "cs.CV",
@@ -2276,15 +2276,15 @@
     "title": "Sparse Delta Memory: Scaling the State of Linear RNNs through Sparsity",
     "summary": "Linear attention models allow a fixed state size and a fixed amount of compute per token. However, due to their limited state size, linear attention models fall behind in long-context recall compared to softmax-attention-based transformer architectures. Increasing the state size of linear attention improves recall performance but at the cost of higher FLOPs. In this work, we introduce Sparse Delta Memory (SDM), an architecture that scales the hidden state of gated linear RNNs to orders of magnitude higher capacity using a sparse addressing scheme. SDM extends the Gated DeltaNet architecture by replacing the dense key-value outer product with sparse reads and writes to a large explicit memory. We show that, under an isoFLOP constraint and with an identical number of parameters, a higher state memory capacity significantly improves performance on in-context learning and long-context retrieval tasks. Moreover, by learning the initial state of the SDM memory and therefore using it as a parametric memory, we show that the model further improves on a wide range of common-knowledge and reasoning tasks.",
     "authors": [
-      "Lo\u00efc Cabannes",
-      "Pierre-Emmanuel Mazar\u00e9",
+      "Loïc Cabannes",
+      "Pierre-Emmanuel Mazaré",
       "Gergely Szilvasy",
       "Matthijs Douze",
       "Maria Lomeli",
       "Ilze Amanda Auzina",
       "Justin Carpentier",
       "Gabriel Synnaeve",
-      "Herv\u00e9 J\u00e9gou"
+      "Hervé Jégou"
     ],
     "categories": [
       "cs.LG"
@@ -2389,7 +2389,7 @@
     "authors": [
       "Ana Schwengber Kelm",
       "Christian Bockermann",
-      "J\u00f6rg Frochte"
+      "Jörg Frochte"
     ],
     "categories": [
       "cs.LG",
@@ -2486,7 +2486,7 @@
   {
     "arxiv_id": "2607.07405v1",
     "title": "Reason Less, Verify More: Deterministic Gates Recover a Silent Policy-Violation Failure Mode in Tool-Using LLM Agents",
-    "summary": "Tool-using LLM agents can violate the very policies they are deployed to enforce while appearing to complete the task successfully. In policy-permissive environments, a tool may execute any well-formed call even when the corresponding state transition is forbidden by domain policy. The result is a silent wrong state (a booking cancelled, a passenger count changed, a claim acted on without verification) that neither the tool nor the agent's self-report exposes.   We study this failure mode in the $\u03c4^2$-bench airline domain. On a budget agent, 78% of observed failures are silent wrong-state failures with no tool error, and the aggregate failure rate is reproducible across disjoint seeds, not sampling noise. We then evaluate a lightweight intervention: deterministic, read-only pre-execution gates that inspect the proposed call and current state before allowing a write. A four-gate suite raises full-benchmark success from 29.6% to 42.0% on gpt-4o-mini (+12.4pp; paired task-level bootstrap P=0.0012), and the lift reproduces on a disjoint 15-seed set (+12.3pp; P=0.0008).   The effect is concentrated where the gates fire: on the 26/50 firing tasks, success rises by +19.2pp, while movement on the 24 non-firing tasks does not exclude zero. Two negative controls (a self-enforcing retail domain and BFCL) bound the mechanism: gates help when tools are policy-permissive and add little where tools already self-enforce. As suggestive evidence, not a central claim, the same failure mode persists at the frontier: gpt-5.2 at default reasoning still attempts policy-violating writes, and the same suite improves success from 61.2% to 71.6% (+10.4pp; P=0.020; n=5, no replication). The contribution is a bounded evaluation and reliability result: deterministic gates do not guarantee task success, but they can deterministically prevent a known class of silent policy-violating writes at the action boundary.",
+    "summary": "Tool-using LLM agents can violate the very policies they are deployed to enforce while appearing to complete the task successfully. In policy-permissive environments, a tool may execute any well-formed call even when the corresponding state transition is forbidden by domain policy. The result is a silent wrong state (a booking cancelled, a passenger count changed, a claim acted on without verification) that neither the tool nor the agent's self-report exposes.   We study this failure mode in the $τ^2$-bench airline domain. On a budget agent, 78% of observed failures are silent wrong-state failures with no tool error, and the aggregate failure rate is reproducible across disjoint seeds, not sampling noise. We then evaluate a lightweight intervention: deterministic, read-only pre-execution gates that inspect the proposed call and current state before allowing a write. A four-gate suite raises full-benchmark success from 29.6% to 42.0% on gpt-4o-mini (+12.4pp; paired task-level bootstrap P=0.0012), and the lift reproduces on a disjoint 15-seed set (+12.3pp; P=0.0008).   The effect is concentrated where the gates fire: on the 26/50 firing tasks, success rises by +19.2pp, while movement on the 24 non-firing tasks does not exclude zero. Two negative controls (a self-enforcing retail domain and BFCL) bound the mechanism: gates help when tools are policy-permissive and add little where tools already self-enforce. As suggestive evidence, not a central claim, the same failure mode persists at the frontier: gpt-5.2 at default reasoning still attempts policy-violating writes, and the same suite improves success from 61.2% to 71.6% (+10.4pp; P=0.020; n=5, no replication). The contribution is a bounded evaluation and reliability result: deterministic gates do not guarantee task success, but they can deterministically prevent a known class of silent policy-violating writes at the action boundary.",
     "authors": [
       "Vikas Reddy",
       "Sumanth Reddy Challaram",
@@ -2665,7 +2665,7 @@
   {
     "arxiv_id": "2607.07695v1",
     "title": "Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
-    "summary": "We introduce institutional red-teaming, an evaluation methodology for testing deployment rules in multi-agent AI: hold the agents, objectives, and task state fixed, vary only one rule, and attribute the resulting change in collective behavior to that rule. We instantiate the methodology in IABench-CA, a consequence-allocation benchmark spanning 228 contexts, five canonical rules, and seven model populations (33,924 games), with a normative cooperative reference and auto-labelled reasoning traces. Three findings emerge. (1) Deployment rules causally alter collective safety: changing only the consequence rule moves mean fatality by 22 to 58 percentage points within every population. (2) There is no safe default, but the targeting hazard is universal: the safest rule, the least-safe rule, and even the direction of the incidence effect vary across populations, yet regressive identity-targeting is never decisively safest in any context for any population, eliminates the least-resourced agent in 30-87% of games everywhere, and is selection-unsafe relative to the cooperative reference for all seven populations. (3) Identity salience is the mechanism: a one-shot anonymization ablation on the most exploitation-prone population (gpt-5.1) shows that merely naming the loss bearer in the rule text drives targeted elimination from 22% to 81% at identical payoffs; under repeated play, anonymization only delays the targeting, as agents re-infer the hidden rule from observed eliminations. We package the methodology as a safety-case workflow that certifies a provisional rule region $\u03a6(c,P)$ per deployment context and population, with explicit residual risks and monitoring obligations.",
+    "summary": "We introduce institutional red-teaming, an evaluation methodology for testing deployment rules in multi-agent AI: hold the agents, objectives, and task state fixed, vary only one rule, and attribute the resulting change in collective behavior to that rule. We instantiate the methodology in IABench-CA, a consequence-allocation benchmark spanning 228 contexts, five canonical rules, and seven model populations (33,924 games), with a normative cooperative reference and auto-labelled reasoning traces. Three findings emerge. (1) Deployment rules causally alter collective safety: changing only the consequence rule moves mean fatality by 22 to 58 percentage points within every population. (2) There is no safe default, but the targeting hazard is universal: the safest rule, the least-safe rule, and even the direction of the incidence effect vary across populations, yet regressive identity-targeting is never decisively safest in any context for any population, eliminates the least-resourced agent in 30-87% of games everywhere, and is selection-unsafe relative to the cooperative reference for all seven populations. (3) Identity salience is the mechanism: a one-shot anonymization ablation on the most exploitation-prone population (gpt-5.1) shows that merely naming the loss bearer in the rule text drives targeted elimination from 22% to 81% at identical payoffs; under repeated play, anonymization only delays the targeting, as agents re-infer the hidden rule from observed eliminations. We package the methodology as a safety-case workflow that certifies a provisional rule region $Φ(c,P)$ per deployment context and population, with explicit residual risks and monitoring obligations.",
     "authors": [
       "Yujiao Chen"
     ],
@@ -2783,9 +2783,9 @@
   {
     "arxiv_id": "2607.07127v1",
     "title": "Weight-Space Physics: Interpretable Hypernetworks for Lattice Quantum Field Theories",
-    "summary": "Lattice field theory is the workhorse of non-perturbative physics, used to simulate phenomena from the strong nuclear force to critical phenomena in materials. Its Boltzmann distributions are parametrized analytically by coupling constants, but these bare parameters are weak predictors of observables -- extracting physics typically requires extensive simulation. While normalizing flows have emerged as effective samplers at fixed couplings, it remains difficult to interpret what these networks have learned. This raises a natural question: can the physics be read off directly from the flow network parameters themselves, and can those parameters be generated for unseen theories? We propose lattice field theory as a testbed for neural network interpretability: because the target physics is qualitatively well-understood and smoothly varying, it provides ideal synthetic data with known ground truth. To this end, we introduce JEPAWG, a Joint-Embedding Predictive Architecture-based Weight Generator that maps couplings directly to flow weights via a learned latent space. On a scalar theory at lattices of size $6^2$ to $11^2$, the JEPAWG latent space recovers the correct intrinsic dimension of the underlying manifold, locates the phase transition, and encodes a finite-size shift aligned with the 2D Ising exponent $\u03bd\\approx 1$, allowing us to uncover physical structure by studying the network weights alone. This suggests the fascinating idea of treating the network weights as a new type of physical observable. As a generator, JEPAWG also interpolates and extrapolates to unseen couplings effectively and remains robust to weight-space discontinuities introduced by multi-seed training data, outperforming PCA, AE, and VAE baselines.",
+    "summary": "Lattice field theory is the workhorse of non-perturbative physics, used to simulate phenomena from the strong nuclear force to critical phenomena in materials. Its Boltzmann distributions are parametrized analytically by coupling constants, but these bare parameters are weak predictors of observables -- extracting physics typically requires extensive simulation. While normalizing flows have emerged as effective samplers at fixed couplings, it remains difficult to interpret what these networks have learned. This raises a natural question: can the physics be read off directly from the flow network parameters themselves, and can those parameters be generated for unseen theories? We propose lattice field theory as a testbed for neural network interpretability: because the target physics is qualitatively well-understood and smoothly varying, it provides ideal synthetic data with known ground truth. To this end, we introduce JEPAWG, a Joint-Embedding Predictive Architecture-based Weight Generator that maps couplings directly to flow weights via a learned latent space. On a scalar theory at lattices of size $6^2$ to $11^2$, the JEPAWG latent space recovers the correct intrinsic dimension of the underlying manifold, locates the phase transition, and encodes a finite-size shift aligned with the 2D Ising exponent $ν\\approx 1$, allowing us to uncover physical structure by studying the network weights alone. This suggests the fascinating idea of treating the network weights as a new type of physical observable. As a generator, JEPAWG also interpolates and extrapolates to unseen couplings effectively and remains robust to weight-space discontinuities introduced by multi-seed training data, outperforming PCA, AE, and VAE baselines.",
     "authors": [
-      "Tobias G\u00f6bel",
+      "Tobias Göbel",
       "Julian R. Ebelt",
       "Zier Mensch",
       "Mathis Gerdes",
@@ -2826,7 +2826,7 @@
   {
     "arxiv_id": "2607.07032v1",
     "title": "Gauge-Invariant Learnable Spectral Positional Encodings for Directed Graphs via Hermitian Block Krylov Subspaces",
-    "summary": "Spectral positional encodings (PEs) for \\emph{directed} graphs face two obstacles: magnetic Laplacians require an $O(n^3)$ Hermitian eigendecomposition per potential, and their complex eigenvectors are defined only up to unitary gauge, which prior work handles with basis-invariant architectures. We propose learnable spectral PEs of the form $h_\u03b8(A_q)\\,R$, where $A_q$ is a normalized magnetic operator, $h_\u03b8$ a learnable scalar spectral response, and $R$ a block of random probes. Because the PE is a \\emph{matrix function} of the operator, it is gauge-invariant by construction. We compute it in a Hermitian block Krylov subspace from sparse matrix--vector products only, prove that $k = O(\\log(1/\\varepsilon))$ block steps suffice uniformly over heat--resolvent response families, and give a covering-number argument for why low-dimensional structured families generalize where free per-eigenvalue weights overfit. On a directed SBM whose symmetrization is uninformative by construction, direction-blind PEs stay at chance while magnetic Krylov PEs converge to the exact-eigendecomposition oracle as the depth grows. The same probes yield gauge-invariant pairwise features with $1/\\sqrt{s}$ Monte-Carlo error, and the undirected $q{=}0$ case improves heterophilous benchmarks over no-PE and polynomial baselines.",
+    "summary": "Spectral positional encodings (PEs) for \\emph{directed} graphs face two obstacles: magnetic Laplacians require an $O(n^3)$ Hermitian eigendecomposition per potential, and their complex eigenvectors are defined only up to unitary gauge, which prior work handles with basis-invariant architectures. We propose learnable spectral PEs of the form $h_θ(A_q)\\,R$, where $A_q$ is a normalized magnetic operator, $h_θ$ a learnable scalar spectral response, and $R$ a block of random probes. Because the PE is a \\emph{matrix function} of the operator, it is gauge-invariant by construction. We compute it in a Hermitian block Krylov subspace from sparse matrix--vector products only, prove that $k = O(\\log(1/\\varepsilon))$ block steps suffice uniformly over heat--resolvent response families, and give a covering-number argument for why low-dimensional structured families generalize where free per-eigenvalue weights overfit. On a directed SBM whose symmetrization is uninformative by construction, direction-blind PEs stay at chance while magnetic Krylov PEs converge to the exact-eigendecomposition oracle as the depth grows. The same probes yield gauge-invariant pairwise features with $1/\\sqrt{s}$ Monte-Carlo error, and the undirected $q{=}0$ case improves heterophilous benchmarks over no-PE and polynomial baselines.",
     "authors": [
       "Jiaqing Xie",
       "Yuxin Wang"
@@ -2973,7 +2973,7 @@
     "summary": "Turn-taking prediction is a key requirement for social robots involved in human-human interaction, particularly in mediator settings, where the robot must anticipate conversational dynamics rather than merely react to pauses. This work presents a Multimodal Voice Activity Projection (MM-VAP) framework that extends the original audio-only VAP formulation to synchronized audio-visual inputs while preserving its self-supervised future-projection objective. The proposed approach builds on pretrained audio-visual backbones originally optimized for speech-related tasks and adapts them through Low-Rank Adaptation to the multimodal turn-taking problem. After independent speaker encoding, an inter-speaker attention stage models the relational dynamics required to project future voice activity. In addition, a semantic consistency loss is introduced to regularize the 256-state output space according to higher-level dialogue activity patterns. Experiments on NoXi and NoXi+J showed improvements over the current baselines, particularly for some turn-taking events. Additional evaluation on the Haru EDR corpus further supported the suitability of this direction for mediation-oriented human-robot interaction.",
     "authors": [
       "Antonio Cano",
-      "Guillermo P\u00e9rez",
+      "Guillermo Pérez",
       "Luis Merino",
       "Randy Gomez"
     ],
@@ -3249,7 +3249,7 @@
     "title": "Safe Reinforcement Learning using Ideas from Model Predictive Control",
     "summary": "Reinforcement learning (RL) enables the synthesis of control policies directly from data, making it highly appealing for complex cyber-physical systems (CPSs) and robotics. A persistent challenge, however, is ensuring strict, hard safety constraints during the active learning phase. In real-world physical systems, violating mechanical limits can cause irreversible damage, necessitating that exploration remains strictly within safe operational regions. We propose a generalized framework that combines the adaptive, high-performance nature of deep reinforcement learning (DRL) with the formal safety guarantees of model predictive control (MPC). Using a mathematical model of the system dynamics, offline MPC computations define a feasible state-action space, representing all safe combinations of system states and control inputs that guarantee constraint satisfaction. During training and deployment, the RL agent's instantaneous actions are projected onto this globally verified feasible set via a safety filter. We systematically evaluate our generalized approach on a non-linear 1-DoF laboratory testbed, demonstrating successful exploration and stable policy convergence on physical hardware.",
     "authors": [
-      "Georg Sch\u00e4fer",
+      "Georg Schäfer",
       "Jakob Rehrl",
       "Stefan Huber",
       "Simon Hirlaender"
@@ -3582,7 +3582,7 @@
   {
     "arxiv_id": "2607.07538v1",
     "title": "Avoiding unsafe sets when training with Langevin Dynamics",
-    "summary": "Training a model with noisy gradient descent can be idealized as overdamped Langevin dynamics on the loss landscape, and a natural safety question is to bound the probability $\u03bd_t(\\mathcal{A}_H) = \\mathbb{P}(Q_t \\in \\mathcal{A}_H)$ that the trajectory lies in a designated failure region $\\mathcal{A}_H$. We study this for a smooth, strongly convex loss in $d$ dimensions and a failure region separated from the minimizer by an energy gap. Three bounds emerge. At the end of training, the equilibrium mass $\u03c0(\\mathcal{A}_H)$ is exponentially small in $d$, with a complementary energy-barrier rate when the noise is small. Along the trajectory, a shape-free bound $\u03bd_t(\\mathcal{A}_H) \\le \u03c0(\\mathcal{A}_H)(1 + \\sqrt{\u03c7_0^2/\u03c0(\\mathcal{A}_H)}\\,e^{-mt})$ shows that the in-set probability relaxes to (twice) the static value after a burn-in time of order $d$, using only the global spectral gap $m$ of the loss. A worked Ornstein-Uhlenbeck example shows this burn-in is necessary: an angular slice of the equilibrium shell can transiently swell by a factor exponential in $d$, even though its equilibrium mass is tiny. To rule such swelling out we introduce a local relaxation rate attached to the failure region, defined through the spectral measure of its centered indicator rather than a Dirichlet-form Rayleigh quotient. For geometrically isolated regions this rate exceeds the global one, shrinking the burn-in proportionally, and combined with a maximum-principle ceiling it caps the trajectory probability uniformly in time. The picture is that strong convexity sets how fast training relaxes, but the shape of the unsafe set decides whether the trajectory bulges through it on the way home.",
+    "summary": "Training a model with noisy gradient descent can be idealized as overdamped Langevin dynamics on the loss landscape, and a natural safety question is to bound the probability $ν_t(\\mathcal{A}_H) = \\mathbb{P}(Q_t \\in \\mathcal{A}_H)$ that the trajectory lies in a designated failure region $\\mathcal{A}_H$. We study this for a smooth, strongly convex loss in $d$ dimensions and a failure region separated from the minimizer by an energy gap. Three bounds emerge. At the end of training, the equilibrium mass $π(\\mathcal{A}_H)$ is exponentially small in $d$, with a complementary energy-barrier rate when the noise is small. Along the trajectory, a shape-free bound $ν_t(\\mathcal{A}_H) \\le π(\\mathcal{A}_H)(1 + \\sqrt{χ_0^2/π(\\mathcal{A}_H)}\\,e^{-mt})$ shows that the in-set probability relaxes to (twice) the static value after a burn-in time of order $d$, using only the global spectral gap $m$ of the loss. A worked Ornstein-Uhlenbeck example shows this burn-in is necessary: an angular slice of the equilibrium shell can transiently swell by a factor exponential in $d$, even though its equilibrium mass is tiny. To rule such swelling out we introduce a local relaxation rate attached to the failure region, defined through the spectral measure of its centered indicator rather than a Dirichlet-form Rayleigh quotient. For geometrically isolated regions this rate exceeds the global one, shrinking the burn-in proportionally, and combined with a maximum-principle ceiling it caps the trajectory probability uniformly in time. The picture is that strong convexity sets how fast training relaxes, but the shape of the unsafe set decides whether the trajectory bulges through it on the way home.",
     "authors": [
       "Adam M. Oberman"
     ],
@@ -3766,7 +3766,7 @@
   {
     "arxiv_id": "2607.07209v1",
     "title": "Continual Learning With Participation Privacy: An Auditable Buffering-Aggregation Recipe",
-    "summary": "Modern federated and streaming learning systems often release intermediate models, so privacy must hold for the full trajectory under adaptive interaction. Motivated by participation privacy, we study single-edit neighboring user streams, where one insertion/deletion shifts all subsequent updates and defeats standard Hamming-neighbor continual-release analyses. We give an auditable modular recipe. A randomized buffering wrapper emits bins of size $[U,2U]$, reducing single-edit streams to a Hamming-style per-bin update stream with explicit backlog/delay guarantees, where $U$ is calibrated by the privacy parameters $(\\varepsilon,\u03b4)$. We then prove a certification theorem identifying when a non-adaptive Hamming-neighbor DP proof for a continual primitive lifts to adaptive inputs: the primitive must use fresh per-round randomness and have a stable one-round privacy profile under common adaptive context. Together, these ingredients yield trajectory-level $(\\varepsilon,\u03b4)$-DP for single-edit streams using standard primitives (e.g., tree prefix sums), with an explicit privacy--latency link via $U$.",
+    "summary": "Modern federated and streaming learning systems often release intermediate models, so privacy must hold for the full trajectory under adaptive interaction. Motivated by participation privacy, we study single-edit neighboring user streams, where one insertion/deletion shifts all subsequent updates and defeats standard Hamming-neighbor continual-release analyses. We give an auditable modular recipe. A randomized buffering wrapper emits bins of size $[U,2U]$, reducing single-edit streams to a Hamming-style per-bin update stream with explicit backlog/delay guarantees, where $U$ is calibrated by the privacy parameters $(\\varepsilon,δ)$. We then prove a certification theorem identifying when a non-adaptive Hamming-neighbor DP proof for a continual primitive lifts to adaptive inputs: the primitive must use fresh per-round randomness and have a stable one-round privacy profile under common adaptive context. Together, these ingredients yield trajectory-level $(\\varepsilon,δ)$-DP for single-edit streams using standard primitives (e.g., tree prefix sums), with an explicit privacy--latency link via $U$.",
     "authors": [
       "T-H. Hubert Chan",
       "Elaine Shi",
@@ -3962,7 +3962,7 @@
   {
     "arxiv_id": "2607.07423v1",
     "title": "The Optimal Sample Complexity of Learning Autoregressive Chain-of-Thought",
-    "summary": "We prove that, in the realizable PAC setting, the sample complexity of exact-trace learning for full autoregressive Chain-of-Thought traces is upper bounded by the standard multiclass rate of the local next-token class, where this rate is governed by the Daniely--Shalev-Shwartz dimension. Under exact-trace loss, one wrong action makes the whole trace incorrect; nevertheless, for every stopping rule $\\mathtt{halt}$ and every pointwise $\\mathtt{halt}$-halting local class $\\mathrm{H}$, $n_{\\mathrm{PAC}}^{\\varepsilon,\u03b4}(\\operatorname{Roll}_{\\mathtt{halt}}(\\mathrm{H}))=O((\\operatorname{DSdim}(\\mathrm{H})+\\log(1/\u03b4))/\\varepsilon)$, with no dependence on rollout length. The dependence on $\\operatorname{DSdim}(\\mathrm{H})$ is worst-case optimal, since one-step stopping recovers ordinary multiclass learning of $\\mathrm{H}$. The proof introduces parity dimension, a rollout-stable refinement of DS dimension based on even pseudo-cubes. It controls one-inclusion density via a low-coordinate spanning theorem on finite restrictions and, unlike DS dimension itself, does not increase under autoregressive rollout. We also show why this detour is necessary: DS dimension can increase under rollout.",
+    "summary": "We prove that, in the realizable PAC setting, the sample complexity of exact-trace learning for full autoregressive Chain-of-Thought traces is upper bounded by the standard multiclass rate of the local next-token class, where this rate is governed by the Daniely--Shalev-Shwartz dimension. Under exact-trace loss, one wrong action makes the whole trace incorrect; nevertheless, for every stopping rule $\\mathtt{halt}$ and every pointwise $\\mathtt{halt}$-halting local class $\\mathrm{H}$, $n_{\\mathrm{PAC}}^{\\varepsilon,δ}(\\operatorname{Roll}_{\\mathtt{halt}}(\\mathrm{H}))=O((\\operatorname{DSdim}(\\mathrm{H})+\\log(1/δ))/\\varepsilon)$, with no dependence on rollout length. The dependence on $\\operatorname{DSdim}(\\mathrm{H})$ is worst-case optimal, since one-step stopping recovers ordinary multiclass learning of $\\mathrm{H}$. The proof introduces parity dimension, a rollout-stable refinement of DS dimension based on even pseudo-cubes. It controls one-inclusion density via a low-coordinate spanning theorem on finite restrictions and, unlike DS dimension itself, does not increase under autoregressive rollout. We also show why this detour is necessary: DS dimension can increase under rollout.",
     "authors": [
       "Zhiyuan Li"
     ],
@@ -4050,39 +4050,6 @@
     "pdf_url": "https://arxiv.org/pdf/2607.07230v1.pdf",
     "date": "2026-07-09",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 21775,
-    "likes": 331,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-07-09T04:45:05.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-07-09",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4429,7 +4396,7 @@
   {
     "arxiv_id": "2607.07039v1",
     "title": "From Data Completeness to Data Sufficiency: A Task-Driven Imaging Framework for Intraoperative CBCT under Quality-Time-Dose Trade-offs",
-    "summary": "Mobile C-arm cone-beam computed tomography (CBCT) has been widely used for real-time intraoperative 3D imaging. However, current practice often mechanically applies the fan-beam CT criterion of \"180\u00b0 plus fan angle\" in pursuit of \"data completeness\" in reconstruction. This review argues that, under the single circular trajectory of three-dimensional cone-beam geometry, complete data are mathematically unattainable; moreover, blindly increasing sampling may exacerbate the trade-off among intraoperative image quality (Q), imaging time (T), and radiation dose (D). Against this background, this review reframes the evaluation of intraoperative CBCT around \"data sufficiency\" rather than \"data completeness.\" This perspective moves beyond the excessive pursuit of absolute mathematical and analytic accuracy, and instead emphasizes task-specific minimum image-quality thresholds required for clinical decision-making. By synthesizing evidence from multiple clinical scenarios, this review suggests that approximation errors can be acceptable when clinical decision-making requirements are satisfied, thereby achieving a Q-T-D balance.",
+    "summary": "Mobile C-arm cone-beam computed tomography (CBCT) has been widely used for real-time intraoperative 3D imaging. However, current practice often mechanically applies the fan-beam CT criterion of \"180° plus fan angle\" in pursuit of \"data completeness\" in reconstruction. This review argues that, under the single circular trajectory of three-dimensional cone-beam geometry, complete data are mathematically unattainable; moreover, blindly increasing sampling may exacerbate the trade-off among intraoperative image quality (Q), imaging time (T), and radiation dose (D). Against this background, this review reframes the evaluation of intraoperative CBCT around \"data sufficiency\" rather than \"data completeness.\" This perspective moves beyond the excessive pursuit of absolute mathematical and analytic accuracy, and instead emphasizes task-specific minimum image-quality thresholds required for clinical decision-making. By synthesizing evidence from multiple clinical scenarios, this review suggests that approximation errors can be acceptable when clinical decision-making requirements are satisfied, thereby achieving a Q-T-D balance.",
     "authors": [
       "Yi Jia",
       "Rongjun Ge",
@@ -4452,9 +4419,9 @@
   {
     "arxiv_id": "2607.07014v1",
     "title": "Local large deviations for linear-region growth in random piecewise-linear networks",
-    "summary": "We study a random compositional model for the growth of affine regions in deep piecewise-linear networks. The model is generated by i.i.d.\\ perturbations of the symmetric height-one tent map, and the main observable is the number \\(N_n\\) of affine pieces after \\(n\\) layers. We prove the existence of a submultiplicative pressure for \\(N_n\\), yielding exponential upper bounds for both tails of \\(n^{-1}\\log N_n\\). The same argument applies to abstract submultiplicative complexity observables and gives higher-dimensional extensions for convex-polytopal affine-cover counts and worst-line affine-piece counts. Since the true branch count has no matching supermultiplicative inequality, lower bounds require a separate certified construction. We introduce a finite-state defect process that records branches whose future splitting can be guaranteed, and use bridge words to obtain constructive upper-tail lower bounds. In a uniformly favorable small-noise regime, this process is governed by a companion matrix whose Perron root tends to \\(2\\), implying eventual exclusion of lower tails below \\(\\log 2-\u03be\\).",
+    "summary": "We study a random compositional model for the growth of affine regions in deep piecewise-linear networks. The model is generated by i.i.d.\\ perturbations of the symmetric height-one tent map, and the main observable is the number \\(N_n\\) of affine pieces after \\(n\\) layers. We prove the existence of a submultiplicative pressure for \\(N_n\\), yielding exponential upper bounds for both tails of \\(n^{-1}\\log N_n\\). The same argument applies to abstract submultiplicative complexity observables and gives higher-dimensional extensions for convex-polytopal affine-cover counts and worst-line affine-piece counts. Since the true branch count has no matching supermultiplicative inequality, lower bounds require a separate certified construction. We introduce a finite-state defect process that records branches whose future splitting can be guaranteed, and use bridge words to obtain constructive upper-tail lower bounds. In a uniformly favorable small-noise regime, this process is governed by a companion matrix whose Perron root tends to \\(2\\), implying eventual exclusion of lower tails below \\(\\log 2-ξ\\).",
     "authors": [
-      "Recep \u00d6zkan",
+      "Recep Özkan",
       "Christian Hirsch"
     ],
     "categories": [
@@ -4471,7 +4438,7 @@
   {
     "arxiv_id": "2607.07135v1",
     "title": "Sparse Attention for Dense Open-Vocabulary Prediction in CLIP",
-    "summary": "Contrastive Language-Image Pre-training (CLIP) relies on softmax-based self-attention, a strictly positive distribution that assigns probability mass to every pair of tokens-even semantically irrelevant ones. While these dense softmax weights are effective for gathering broad context during pre-training, they spread attention across many low-salience tokens, producing noise that obscures the fine-grained, spatially localized cues required for dense, open-vocabulary prediction. We study an inference-time substitution of the row-wise softmax in the final visual self-attention layers with the $\u03b1$-entmax transform, applied across both the standard query-key attention and self-correlation variants. Because entmax applies a data-dependent threshold that maps low scores exactly to zero, it acts as an implicit denoiser, zeroing contextually irrelevant dependencies while redistributing mass onto the most relevant tokens. We evaluate on open-vocabulary tasks-dense semantic segmentation (Pascal VOC, Pascal Context, ADE20K) and fine-grained retrieval (FG-OVD)-and find the gain from attention sparsification is proportional to how much the baseline attention spreads off the target class.",
+    "summary": "Contrastive Language-Image Pre-training (CLIP) relies on softmax-based self-attention, a strictly positive distribution that assigns probability mass to every pair of tokens-even semantically irrelevant ones. While these dense softmax weights are effective for gathering broad context during pre-training, they spread attention across many low-salience tokens, producing noise that obscures the fine-grained, spatially localized cues required for dense, open-vocabulary prediction. We study an inference-time substitution of the row-wise softmax in the final visual self-attention layers with the $α$-entmax transform, applied across both the standard query-key attention and self-correlation variants. Because entmax applies a data-dependent threshold that maps low scores exactly to zero, it acts as an implicit denoiser, zeroing contextually irrelevant dependencies while redistributing mass onto the most relevant tokens. We evaluate on open-vocabulary tasks-dense semantic segmentation (Pascal VOC, Pascal Context, ADE20K) and fine-grained retrieval (FG-OVD)-and find the gain from attention sparsification is proportional to how much the baseline attention spreads off the target class.",
     "authors": [
       "Fatimah Zohra",
       "Chen Zhao",
@@ -4487,130 +4454,5 @@
     "date": "2026-07-09",
     "source": "arxiv",
     "research_score": 0.41
-  },
-  {
-    "model_id": "cq838/pi05_base_new",
-    "author": "unknown",
-    "title": "cq838/pi05_base_new",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-07-09T04:42:07.000Z",
-    "last_modified": "2026-07-09T04:42:07.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cq838/pi05_base_new",
-    "date": "2026-07-09",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "flowxai/caveat",
-    "author": "unknown",
-    "title": "flowxai/caveat",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "lora",
-      "on-device",
-      "mlx",
-      "legal",
-      "consumer-contracts",
-      "red-flag-detection",
-      "flowx",
-      "conversational",
-      "en",
-      "ro",
-      "pl",
-      "hu",
-      "arxiv:2103.06268",
-      "base_model:Qwen/Qwen3-4B",
-      "base_model:adapter:Qwen/Qwen3-4B",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-09T04:11:52.000Z",
-    "last_modified": "2026-07-09T04:41:40.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/flowxai/caveat",
-    "date": "2026-07-09",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Raiff1982/codette-newton-star",
-    "author": "unknown",
-    "title": "Raiff1982/codette-newton-star",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "generated_from_trainer",
-      "trl",
-      "hf_jobs",
-      "sft",
-      "base_model:Raiff1982/codette-llama-3.1-8b-merged",
-      "base_model:finetune:Raiff1982/codette-llama-3.1-8b-merged",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "transformers",
-    "created_at": "2026-07-09T04:15:40.000Z",
-    "last_modified": "2026-07-09T04:40:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Raiff1982/codette-newton-star",
-    "date": "2026-07-09",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "katafiek/Katarau-9B-ru-RP-nsfw-GGUF",
-    "author": "unknown",
-    "title": "katafiek/Katarau-9B-ru-RP-nsfw-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "roleplay",
-      "uncensored",
-      "russian",
-      "quantized",
-      "text-generation",
-      "ru",
-      "en",
-      "base_model:katafiek/Katarau-9B-ru-RP-nsfw",
-      "base_model:quantized:katafiek/Katarau-9B-ru-RP-nsfw",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational",
-      "not-for-all-audiences"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-09T03:45:03.000Z",
-    "last_modified": "2026-07-09T04:37:43.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/katafiek/Katarau-9B-ru-RP-nsfw-GGUF",
-    "date": "2026-07-09",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
