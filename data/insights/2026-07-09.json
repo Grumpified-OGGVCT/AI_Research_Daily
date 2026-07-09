@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-09T14:42:05.031803",
+  "date": "2026-07-09T17:16:04.384834",
   "patterns": {
     "multimodal_research": [
       {
@@ -347,6 +347,10 @@
       {
         "title": "Sparse Attention for Dense Open-Vocabulary Prediction in CLIP",
         "url": "https://arxiv.org/abs/2607.07135v1"
+      },
+      {
+        "title": "toilaluan/efficient-rae-60k",
+        "url": "https://huggingface.co/toilaluan/efficient-rae-60k"
       }
     ],
     "language_models": [
@@ -671,8 +675,12 @@
         "url": "https://arxiv.org/abs/2607.07288v1"
       },
       {
-        "title": "Godsonntungi2/waxal-w2vbert-lora",
-        "url": "https://huggingface.co/Godsonntungi2/waxal-w2vbert-lora"
+        "title": "FLY2002/onereason-llmrec-final-v8",
+        "url": "https://huggingface.co/FLY2002/onereason-llmrec-final-v8"
+      },
+      {
+        "title": "arthurmarceldw3/bertimbau-politica",
+        "url": "https://huggingface.co/arthurmarceldw3/bertimbau-politica"
       }
     ],
     "vision_systems": [
@@ -1633,7 +1641,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "57 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1645,7 +1653,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1704,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 401
+    "total_papers": 403
   }
 }
