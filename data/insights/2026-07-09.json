@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-09T17:16:04.384834",
+  "date": "2026-07-09T19:29:10.561138",
   "patterns": {
     "multimodal_research": [
       {
@@ -347,10 +347,6 @@
       {
         "title": "Sparse Attention for Dense Open-Vocabulary Prediction in CLIP",
         "url": "https://arxiv.org/abs/2607.07135v1"
-      },
-      {
-        "title": "toilaluan/efficient-rae-60k",
-        "url": "https://huggingface.co/toilaluan/efficient-rae-60k"
       }
     ],
     "language_models": [
@@ -673,14 +669,6 @@
       {
         "title": "InfraQR: Edge-Placed QR-Inspired Structured Patch Attacks on Infrared Vision-Language Models",
         "url": "https://arxiv.org/abs/2607.07288v1"
-      },
-      {
-        "title": "FLY2002/onereason-llmrec-final-v8",
-        "url": "https://huggingface.co/FLY2002/onereason-llmrec-final-v8"
-      },
-      {
-        "title": "arthurmarceldw3/bertimbau-politica",
-        "url": "https://huggingface.co/arthurmarceldw3/bertimbau-politica"
       }
     ],
     "vision_systems": [
@@ -1641,7 +1629,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1653,7 +1641,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,6 +1700,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 400
   }
 }
