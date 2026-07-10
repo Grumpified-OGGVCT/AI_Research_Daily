@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-10T02:16:59.134855",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "dhasmana/WAXAL-tir_asr-w2v-bert-2.0",
+        "url": "https://huggingface.co/dhasmana/WAXAL-tir_asr-w2v-bert-2.0"
+      },
+      {
+        "title": "emanfatimaa/sentiment-distilbert",
+        "url": "https://huggingface.co/emanfatimaa/sentiment-distilbert"
+      },
+      {
+        "title": "sulaimank/w2vbert-luganda-waxal",
+        "url": "https://huggingface.co/sulaimank/w2vbert-luganda-waxal"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
+  }
+}
