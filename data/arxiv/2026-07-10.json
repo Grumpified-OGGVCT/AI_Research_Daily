@@ -86,7 +86,7 @@
   {
     "arxiv_id": "2607.08659v1",
     "title": "EdgeRefine: Privacy-Utility Balance for Graphs via Jaccard Sampling under Edge Differential Privacy",
-    "summary": "Graph Neural Networks (GNNs) have shown considerable success in learning from graph-structured data, but their use in privacy-sensitive areas remains difficult because graph structure can leak sensitive link information. To satisfy edge-level differential privacy, a common approach is to inject noise into all elements of the graph's adjacency matrix, thereby obfuscating the existence of any single edge. However, stronger privacy requires more noise, and excessive noise reduces utility, making the privacy-utility balance a major barrier to practical privacy-preserving graph learning.   To address this issue, we propose EdgeRefine, a local differential privacy framework that improves this trade-off through adaptive edge refinement. EdgeRefine first estimates edge-existence probabilities using Jaccard similarity and ranks edges for noisy edge removal. To ensure the sparsity and reliability of the final graph, it uses the privacy budget $\u03b5$ to determine the ratio of true to false edges, samples them separately based on this probability ranking, and controls the total number of edges with a separate sampling rate $k$. Extensive experiments show that EdgeRefine achieves accuracy comparable to the noise-free baseline and substantially outperforms other privacy-preserving methods across datasets and GNN architectures. Under privacy budget $\u03b5= 2.5$, EdgeRefine improves node classification accuracy over state-of-the-art baselines by 17.8\\% on ACM under GAT and 19.7\\% on Cora under GCN. In graph classification, it achieves an average accuracy degradation of around 5\\% compared to the noise-free baseline. Under graph reconstruction attacks, EdgeRefine maintains relative absolute error levels above 1 across all privacy budgets, averaging 1.962 on Cora and 1.472 on AMAP, indicating strong resilience against privacy leakage.",
+    "summary": "Graph Neural Networks (GNNs) have shown considerable success in learning from graph-structured data, but their use in privacy-sensitive areas remains difficult because graph structure can leak sensitive link information. To satisfy edge-level differential privacy, a common approach is to inject noise into all elements of the graph's adjacency matrix, thereby obfuscating the existence of any single edge. However, stronger privacy requires more noise, and excessive noise reduces utility, making the privacy-utility balance a major barrier to practical privacy-preserving graph learning.   To address this issue, we propose EdgeRefine, a local differential privacy framework that improves this trade-off through adaptive edge refinement. EdgeRefine first estimates edge-existence probabilities using Jaccard similarity and ranks edges for noisy edge removal. To ensure the sparsity and reliability of the final graph, it uses the privacy budget $ε$ to determine the ratio of true to false edges, samples them separately based on this probability ranking, and controls the total number of edges with a separate sampling rate $k$. Extensive experiments show that EdgeRefine achieves accuracy comparable to the noise-free baseline and substantially outperforms other privacy-preserving methods across datasets and GNN architectures. Under privacy budget $ε= 2.5$, EdgeRefine improves node classification accuracy over state-of-the-art baselines by 17.8\\% on ACM under GAT and 19.7\\% on Cora under GCN. In graph classification, it achieves an average accuracy degradation of around 5\\% compared to the noise-free baseline. Under graph reconstruction attacks, EdgeRefine maintains relative absolute error levels above 1 across all privacy budgets, averaging 1.962 on Cora and 1.472 on AMAP, indicating strong resilience against privacy leakage.",
     "authors": [
       "Wenxiu Ding",
       "Muzhi Liu",
@@ -203,7 +203,7 @@
   {
     "arxiv_id": "2607.08700v1",
     "title": "Do You Need a Frontier Model as a Citation Verifier? Benchmarking Rubric LLMs for Deep-Research Source Attribution",
-    "summary": "Reinforcement learning increasingly relies on an LLM judge to score each rubric criterion, and that judge acts as the reward model during training. Before such a signal can be trusted, we need to know how capable the judge must be and how biased it is. We study this calibration question for citation quality in deep-research systems, where a search-grounded LLM must support each claim it writes with a cited source. Citation quality is a structured rubric task in which each attribution-citation pair is judged along two dimensions that require an LLM, source relevance and factual support. On an adversarial long-form benchmark, we score 8 off-the-shelf LLM judges from 3 model families against gold labels over 1,248 rubric decisions, all of which were human-reviewed and 378 of which were hard cases adjudicated from judge disagreements. Cheaper judges remain competitive across both dimensions, with GPT-5-mini attaining the strongest source-relevance pass-class F1 at 0.908 ($\u03ba$=0.636), while on factual support the judges are statistically indistinguishable (overlapping confidence intervals), so no single model dominates. At comparable F1, the judges still differ substantially in pass-rate drift, false positive rate, and false negative rate. Scalar F1 obscures this directional bias, yet it is exactly what a downstream reinforcement learning loop would reinforce. Calibrating the judge is therefore a prerequisite for using citation rubrics as reward signals, and our results show that this calibration does not require the most expensive available model.",
+    "summary": "Reinforcement learning increasingly relies on an LLM judge to score each rubric criterion, and that judge acts as the reward model during training. Before such a signal can be trusted, we need to know how capable the judge must be and how biased it is. We study this calibration question for citation quality in deep-research systems, where a search-grounded LLM must support each claim it writes with a cited source. Citation quality is a structured rubric task in which each attribution-citation pair is judged along two dimensions that require an LLM, source relevance and factual support. On an adversarial long-form benchmark, we score 8 off-the-shelf LLM judges from 3 model families against gold labels over 1,248 rubric decisions, all of which were human-reviewed and 378 of which were hard cases adjudicated from judge disagreements. Cheaper judges remain competitive across both dimensions, with GPT-5-mini attaining the strongest source-relevance pass-class F1 at 0.908 ($κ$=0.636), while on factual support the judges are statistically indistinguishable (overlapping confidence intervals), so no single model dominates. At comparable F1, the judges still differ substantially in pass-rate drift, false positive rate, and false negative rate. Scalar F1 obscures this directional bias, yet it is exactly what a downstream reinforcement learning loop would reinforce. Calibrating the judge is therefore a prerequisite for using citation rubrics as reward signals, and our results show that this calibration does not require the most expensive available model.",
     "authors": [
       "Ethan Leung",
       "Elias Lumer",
@@ -315,7 +315,7 @@
   {
     "arxiv_id": "2607.08724v1",
     "title": "Latent Memory Palace: Reasoning for Control as Autoregressive Variational Inference",
-    "summary": "Human decision-making is highly flexible -- some actions are taken immediately; others require longer deliberation. Language models have exhibited a similar capacity for adaptive \"reasoning.\" However, transferring this capability to continuous control policies has been challenging, as directly reasoning in language space may lack the granularity for spatial understanding and precise motions. In this work, we show that reasoning for control policies can emerge by organizing information in an autoregressive latent space reminiscent of a memory palace, where retrieval is iterative and adaptive. Our method, Latent Memory Palace (LMP), formulates reasoning as variational inference with an autoregressive latent distribution. We derive a latent-space reinforcement learning technique to tractably optimize its variational lower bound. The resulting policy, LMP-$\u03c0$, achieves strong empirical performance in simulation and real-world domains while exhibiting interpretable, adaptive allocation of test-time compute. We further show that the same framework yields a variable-length action tokenizer, LMP-$\\texttt{tok}$, which significantly improves the performance of downstream autoregressive policies. Together, these results present a new perspective on latent reasoning for control through the lens of variational inference.",
+    "summary": "Human decision-making is highly flexible -- some actions are taken immediately; others require longer deliberation. Language models have exhibited a similar capacity for adaptive \"reasoning.\" However, transferring this capability to continuous control policies has been challenging, as directly reasoning in language space may lack the granularity for spatial understanding and precise motions. In this work, we show that reasoning for control policies can emerge by organizing information in an autoregressive latent space reminiscent of a memory palace, where retrieval is iterative and adaptive. Our method, Latent Memory Palace (LMP), formulates reasoning as variational inference with an autoregressive latent distribution. We derive a latent-space reinforcement learning technique to tractably optimize its variational lower bound. The resulting policy, LMP-$π$, achieves strong empirical performance in simulation and real-world domains while exhibiting interpretable, adaptive allocation of test-time compute. We further show that the same framework yields a variable-length action tokenizer, LMP-$\\texttt{tok}$, which significantly improves the performance of downstream autoregressive policies. Together, these results present a new perspective on latent reasoning for control through the lens of variational inference.",
     "authors": [
       "Chuning Zhu",
       "Eva Xu",
@@ -434,7 +434,7 @@
       "Valentin Kilian",
       "Daolang Huang",
       "Tom Rainforth",
-      "Fran\u00e7ois Caron"
+      "François Caron"
     ],
     "categories": [
       "stat.ML",
@@ -519,7 +519,7 @@
     "title": "Self-Adaptive Anomaly Detection with Reinforcement Learning and Human Feedback in Connected Vehicles",
     "summary": "Connected vehicles are autonomous cyber-physical systems whose behavior must be continuously monitored during operation to detect deviations from normal operation before they propagate into failures. Such evaluation is challenging because the systems themselves evolve: over-the-air updates, configuration changes, and shifting workloads alter the definition of normal behavior, causing static diagnostic methods to degrade silently over time. Existing approaches typically address either automated model adaptation or operator integration in isolation, rather than as a single coordinated supervisory loop.   This paper presents an online anomaly detection framework for autonomous CPS that integrates three coordinated mechanisms. A factorized deep Q-network with self-attention selects the most suitable detector from a candidate pool for each monitored service, exploiting inter-service dependencies in the microservice topology. An ensemble of three statistical drift detectors monitors the input distribution and raises an alarm only when all three concur, prioritizing precision over recall. A human-in-the-loop retraining mechanism, built around a pending transition buffer and a 60/40 prioritized replay strategy, allows the operator to incorporate expert knowledge while preserving the system's learned response to prior data distributions.   The framework is evaluated on a connected-vehicle testbed running an automated valet parking application across seven backend microservices. The attention-augmented agent achieves an F1 score of 0.69, compared to at most 0.11 for any single detector applied uniformly. Following a real software update that induces measurable concept drift, F1 drops to 0.52; after operator-triggered retraining, performance recovers to 0.65 on the new distribution while remaining at 0.69 on the prior one, demonstrating sustained adaptation without catastrophic forgetting.",
     "authors": [
-      "Matthias Wei\u00df",
+      "Matthias Weiß",
       "Athreya Hosahalli Prakash",
       "Maurice Artelt",
       "Falk Dettinger",
@@ -767,7 +767,7 @@
     "authors": [
       "Yann Claes",
       "Pierre Geurts",
-      "V\u00e2n Anh Huynh-Thu"
+      "Vân Anh Huynh-Thu"
     ],
     "categories": [
       "cs.LG"
@@ -941,7 +941,7 @@
     "title": "SLORR: Simple and Efficient In-Training Low-Rank Regularization",
     "summary": "Low-rank factorization is widely used to compress neural networks, but modern models are often not naturally amenable to aggressive factorization without significant accuracy loss. Existing training-time low-rank regularizers can improve compressibility, but they often require SVDs of large weight matrices, modify the model architecture (introducing additional trainable parameters), or rely on stateful cached quantities. To address these limitations, we introduce SLORR, a simple, stateless, and architecture-preserving framework for in-training low-rank regularization, instantiated with two main variants based on the Hoyer sparsity metric and the nuclear norm. SLORR directly regularizes the original weight matrices using GPU-friendly approximations for the forward and backward passes of the regularizers, for which we provide approximation guarantees. We first evaluate SLORR on ImageNet-1K across short-horizon continued training of ResNet-50, ViT-B/16, and ViT-L/16, and pretraining of ResNet-18, where SLORR induces compressibility while introducing less than 8% training overhead. We further evaluate SLORR-Hoyer in LLM pretraining at 135M and 560M scales: SLORR-trained compressed models preserve performance substantially better than unregularized models while adding less than 1% average training overhead.",
     "authors": [
-      "David Gonz\u00e1lez-Mart\u00ednez",
+      "David González-Martínez",
       "Shiwei Liu"
     ],
     "categories": [
@@ -1229,7 +1229,7 @@
     "summary": "An important quantity in the theory of gradient descent (GD) is the \\emph{sharpness}, defined as the largest eigenvalue of the objective Hessian. Classical analyses typically require the step size to be uniformly smaller than twice the reciprocal of the sharpness, but this condition is frequently violated in the training of deep neural networks. Recent work bridges this gap in the setting of overparametrised least-squares with a \\emph{single scalar output}, providing a normal form for large-step GD in a neighbourhood of an \\emph{isolated} flat minimum and establishing three corresponding convergence results. In this paper, we extend this theory in two directions: (1) to overparametrised least-squares with \\emph{vector-valued outputs} (including regression with arbitrarily many observations), and (2) to a neighbourhood of a \\emph{manifold} of flat minima (which we show is essential for applications such as matrix factorisation). We generalise both the normal form and all three convergence theorems of \\cite{macdonaldeos} to this broader setting, overcoming several technical challenges, including the solution of a singular partial differential equation via a novel method that may be of independent interest. We further show that our framework applies to deep matrix factorisation under mild assumptions, yielding several new structural results. In particular, we prove that the set of flat minima forms a fibre bundle over a product of spheres, and that the sharpness is Morse-Bott along this manifold.",
     "authors": [
       "Lachlan Ewen MacDonald",
-      "Ren\u00e9 Vidal"
+      "René Vidal"
     ],
     "categories": [
       "cs.LG",
@@ -1248,9 +1248,9 @@
     "title": "Multi-Agent Firewall Architecture for Privacy Protection of Sensitive Data in Interactions with Language Models",
     "summary": "While Large Language Models (LLMs) have become essential productivity tools, their integration into workflows without adequate safeguards creates significant risks. This paper proposes an open-source, privacy-focused, user-facing firewall designed to secure both web-based and programmatic LLM interactions. The architecture combines a browser extension and a proxy for total traffic interception across both HTTP(S) and WebSocket communications. At its core, a flexible multi-agent pipeline delivers data leakage prevention through a hybrid approach combining deterministic detectors with LLM-driven semantic analysis, proprietary code leakage prevention, and extensible components designed for future security enhancements such as prompt injection evasion. The framework's layered architecture enables deployment across heterogeneous environments, allowing organizations to balance computational cost, detection depth and latency. Evaluation results demonstrate it achieves F1 scores of up to 94.93% on optimal configurations.",
     "authors": [
-      "Hugo Garc\u00eda Cuesta",
-      "Pablo Mateo Torrej\u00f3n",
-      "Alfonso S\u00e1nchez-Maci\u00e1n"
+      "Hugo García Cuesta",
+      "Pablo Mateo Torrejón",
+      "Alfonso Sánchez-Macián"
     ],
     "categories": [
       "cs.CR",
@@ -1396,7 +1396,7 @@
   {
     "arxiv_id": "2607.08716v1",
     "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
-    "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context window or pushed beyond it, failing to influence decisions when needed. We call this failure mode \"behavioral state decay\". We study memory as an active intervention mechanism rather than passive retrieval. A separate memory agent runs alongside an unmodified action agent, updating a structured memory bank from the recent trajectory and deciding whether to inject a memory-grounded reminder or remain silent. The module is plug-and-play with frontier action agents and existing agent harnesses. Across Terminal-Bench 2.0 and $\u03c4^2$-Bench, it improves pass@1 for both weaker and stronger action agents, with gains of +8.3 pp on Terminal-Bench and +6.8 pp on $\u03c4^2$-Bench. Ablations show that selective intervention outperforms passive bank exposure, always-on injection, advisor-only guidance, and general retrieval. As an early step toward open-weight memory policies, we train Qwen3.5-27B on SETA using SFT and GRPO, improving validation reward and achieving partial transfer to Terminal-Bench.",
+    "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context window or pushed beyond it, failing to influence decisions when needed. We call this failure mode \"behavioral state decay\". We study memory as an active intervention mechanism rather than passive retrieval. A separate memory agent runs alongside an unmodified action agent, updating a structured memory bank from the recent trajectory and deciding whether to inject a memory-grounded reminder or remain silent. The module is plug-and-play with frontier action agents and existing agent harnesses. Across Terminal-Bench 2.0 and $τ^2$-Bench, it improves pass@1 for both weaker and stronger action agents, with gains of +8.3 pp on Terminal-Bench and +6.8 pp on $τ^2$-Bench. Ablations show that selective intervention outperforms passive bank exposure, always-on injection, advisor-only guidance, and general retrieval. As an early step toward open-weight memory policies, we train Qwen3.5-27B on SETA using SFT and GRPO, improving validation reward and achieving partial transfer to Terminal-Bench.",
     "authors": [
       "Yifan Wu",
       "Lizhu Zhang",
@@ -1685,7 +1685,7 @@
     "authors": [
       "Le Yang",
       "Anoop K. Chandran",
-      "Jona \u00d6streicher",
+      "Jona Östreicher",
       "Evgenii Sovetkin",
       "Adrian Mirza",
       "Sebastien Bompas",
@@ -1921,7 +1921,7 @@
       "Samuel Salzer",
       "Alexis Michelle Abellar",
       "Fendi Tsim",
-      "Antoine Ferr\u00e8re"
+      "Antoine Ferrère"
     ],
     "categories": [
       "cs.AI"
@@ -2065,7 +2065,7 @@
   {
     "arxiv_id": "2607.08173v1",
     "title": "Overthinking: Amplifying Reasoning Weights to Extract Learned Secrets",
-    "summary": "Black box auditing of language models is an essential pre-deployment tool, but it may miss subtle forms of misalignment and hidden information. To better elicit hidden information during an auditing process, we introduce \\emph{overthinking}: the process of using reasoning task vectors to amplify the propensity to think out loud of reasoning models. Given the parameters of a non-reasoning instruct model $M$ and reasoning-distilled model $R$, we define the \\emph{overthinking model} as $\\boldsymbol\u03b8_{\\mathcal{O}_\u03b1} = \\boldsymbol\u03b8_{\\mathcal{M}} + \u03b1(\\boldsymbol\u03b8_{\\mathcal{R}} - \\boldsymbol\u03b8_{\\mathcal{M}})$, where $\u03b1> 1$ amplifies reasoning beyond the pure reasoning model $R$. Additionally, we introduce new layer-wise attenuation strategies that selectively amplify reasoning without losing quality and coherence of model outputs. We demonstrate that overthinking models are more likely to reveal hidden information across four experimental settings, across 2B-32B models. Our findings suggest that reasoning amplification may surface secrets or unintended behaviors acquired during training up to $10\\times$ more frequently than the original reasoning model. How secrets surface depends on the secret type: some require perturbation along the reasoning direction, while others yield to any sufficiently large weight perturbation.",
+    "summary": "Black box auditing of language models is an essential pre-deployment tool, but it may miss subtle forms of misalignment and hidden information. To better elicit hidden information during an auditing process, we introduce \\emph{overthinking}: the process of using reasoning task vectors to amplify the propensity to think out loud of reasoning models. Given the parameters of a non-reasoning instruct model $M$ and reasoning-distilled model $R$, we define the \\emph{overthinking model} as $\\boldsymbolθ_{\\mathcal{O}_α} = \\boldsymbolθ_{\\mathcal{M}} + α(\\boldsymbolθ_{\\mathcal{R}} - \\boldsymbolθ_{\\mathcal{M}})$, where $α> 1$ amplifies reasoning beyond the pure reasoning model $R$. Additionally, we introduce new layer-wise attenuation strategies that selectively amplify reasoning without losing quality and coherence of model outputs. We demonstrate that overthinking models are more likely to reveal hidden information across four experimental settings, across 2B-32B models. Our findings suggest that reasoning amplification may surface secrets or unintended behaviors acquired during training up to $10\\times$ more frequently than the original reasoning model. How secrets surface depends on the secret type: some require perturbation along the reasoning direction, while others yield to any sufficiently large weight perturbation.",
     "authors": [
       "Jack Hopkins",
       "Dipika Khullar",
@@ -2312,7 +2312,7 @@
     "authors": [
       "Prashant Kumar Singh",
       "Shubham Vaishnav",
-      "Ahmet Hasim G\u00f6kceoglu",
+      "Ahmet Hasim Gökceoglu",
       "Li Wang"
     ],
     "categories": [
@@ -2497,7 +2497,7 @@
     "summary": "A central challenge in building intelligent systems is enabling agents to jointly perceive complex inputs, form hypotheses about hidden patterns, and design informative experiments to test them. To study this problem, we propose ZendoWorld, a controlled interactive environment in which agents must infer a logical rule about visual game observations, acquire information by proposing new scenes, and refine their hypotheses based on feedback from the game environment. We evaluate several agents spanning pure VLM reasoning, Bayesian particle filtering, dynamic concept discovery, and neuro-symbolic methods. Our main findings are: (1) high accuracy in predicting labels for observed examples does not imply recovery of the underlying rule; (2) perception and induction are distinct bottlenecks for different agent classes; and (3) VLM-based agents propose near-uninformative experiments, failing to actively reduce hypothesis uncertainty. To compare these results, we collect human data on the task, which reveals a gap in inductive reasoning, particularly for more complex rules. Overall, ZENDOWORLD takes an important step toward evaluating intelligent agents and identifies concrete avenues for improvement, particularly in domains like scientific discovery.",
     "authors": [
       "Sophia Koehler",
-      "Antonia W\u00fcst",
+      "Antonia Wüst",
       "Inga Ibs",
       "Wasu Top Piriyakulkij",
       "Wolfgang Stammer",
@@ -2647,7 +2647,7 @@
   {
     "arxiv_id": "2607.08444v1",
     "title": "Statistical Efficiency and Inference of Quantile Distributional Reinforcement Learning",
-    "summary": "In this paper, we study quantile-based distributional reinforcement learning from the perspective of statistical efficiency. We focus on distributional policy evaluation, whose goal is to characterize the return distribution, namely the distribution of discounted cumulative rewards under a given policy. To obtain a finite-dimensional representation of the return distribution, we consider the quantile fixed point $\u03b7_m$ induced by the quantile-projected distributional Bellman equation. Assuming access to a generative model, we construct an estimator $\u03b7_m^{(n)}$ based on an empirical Markov decision process. For a fixed number of quantiles $m$, we establish a non-asymptotic error bound for $\u03b7_m^{(n)}$ and $\u03b7_m$ under the supremum $W_\\infty$ metric, showing that the estimation error scales as $\\widetilde{O}(\\sqrt{m/n})$ with respect to $m$ and $n$. This implies that the quantile-based distributional policy evaluation problem can be solved with sample efficiency, achieving the optimal parametric $\\sqrt{n}$ convergence rate. We derive the asymptotic distribution of the quantile parameters $\\sqrt{n}(\u03b8_m^{(n)}-\u03b8_m)$ and characterize the semiparametric efficiency bound, which is attained by our estimator. Beyond the fixed-dimensional setting, we investigate the asymptotic regime in which the number of quantiles diverges. We characterize the limit covariance structure and show that it matches the semiparametric efficiency bound of the nonparametric model for distributional policy evaluation, showing that quantile-based estimators remain asymptotically efficient in the infinite-dimensional limit. Finally, we establish a Berry--Esseen theorem for smooth functionals $\\sqrt{n}(\u03b7_m^{(n)}(s)-\u03b7_m(s))f$, thereby providing a foundation for statistically valid inference on functionals of the quantile-projected return distribution.",
+    "summary": "In this paper, we study quantile-based distributional reinforcement learning from the perspective of statistical efficiency. We focus on distributional policy evaluation, whose goal is to characterize the return distribution, namely the distribution of discounted cumulative rewards under a given policy. To obtain a finite-dimensional representation of the return distribution, we consider the quantile fixed point $η_m$ induced by the quantile-projected distributional Bellman equation. Assuming access to a generative model, we construct an estimator $η_m^{(n)}$ based on an empirical Markov decision process. For a fixed number of quantiles $m$, we establish a non-asymptotic error bound for $η_m^{(n)}$ and $η_m$ under the supremum $W_\\infty$ metric, showing that the estimation error scales as $\\widetilde{O}(\\sqrt{m/n})$ with respect to $m$ and $n$. This implies that the quantile-based distributional policy evaluation problem can be solved with sample efficiency, achieving the optimal parametric $\\sqrt{n}$ convergence rate. We derive the asymptotic distribution of the quantile parameters $\\sqrt{n}(θ_m^{(n)}-θ_m)$ and characterize the semiparametric efficiency bound, which is attained by our estimator. Beyond the fixed-dimensional setting, we investigate the asymptotic regime in which the number of quantiles diverges. We characterize the limit covariance structure and show that it matches the semiparametric efficiency bound of the nonparametric model for distributional policy evaluation, showing that quantile-based estimators remain asymptotically efficient in the infinite-dimensional limit. Finally, we establish a Berry--Esseen theorem for smooth functionals $\\sqrt{n}(η_m^{(n)}(s)-η_m(s))f$, thereby providing a foundation for statistically valid inference on functionals of the quantile-projected return distribution.",
     "authors": [
       "Zijie Cheng",
       "Yang Peng",
@@ -2893,7 +2893,7 @@
       "Juan Garcia Giraldo",
       "Chengkun Li",
       "Etienne Bamas",
-      "Emmanuel Abb\u00e9"
+      "Emmanuel Abbé"
     ],
     "categories": [
       "cs.AI"
@@ -2928,7 +2928,7 @@
     "title": "Open-ended Multi-agent Autocurricula via Visual Inspection of Policies with Multi-modal LLMs",
     "summary": "Open-ended curricula in Reinforcement Learning (RL) aim to train generally-capable agents by identifying tasks that facilitate learning increasingly complex skills. A major challenge when designing such curricula is assessing task difficulty relative to the agent's current learning progress. While previous work has explored using scalar task scores or textual summaries of the agent's behavior, here we study a different approach: directly inspecting policy behavior via recorded episode videos. We introduce a simple yet effective instantiation of this approach which leverages a Video Language Model (VLM) to both process these videos and provide curriculum recommendations, which we call Visual Inspection of Policies (VIP). Since videos can naturally contain any number of controllable agents, we empirically study VIP on the StarCraft Multi-Agent Challenge (SMAC). We show that even with a lightweight and openly accessible VLM (VideoLLaMa2-7B), VIP can use policy videos to generate more effective curricula than both its text-only ablation and methods that rely on scalar task scores.",
     "authors": [
-      "Lorenzo Pant\u00e8",
+      "Lorenzo Pantè",
       "Andrea Fanti",
       "Roberto Capobianco"
     ],
@@ -2969,7 +2969,7 @@
     "title": "The complexities of patient-centred conversational artificial intelligence",
     "summary": "Consumer-facing health chatbots powered by large language models (LLMs) are increasingly used for symptom assessment. However, chatbot development and evaluation often rely on cooperative, articulate, simulated patients. We analysed 2,053 real patient-chatbot conversations and found that communication patterns and expression of emotions vary widely across users. We developed a patient simulator that separately models clinical content, emotional state, conversational strategy, and communication style. In a Turing-inspired evaluation of realism with 15 human graders, simulated conversations were nearly indistinguishable from real ones, with human graders achieving an accuracy of 55%. We used five distinct patient personae, across 1,164 clinician-graded cases, to evaluate the performance of four LLMs in urgency assessment. We found that communication style can significantly alter triage outcomes. Patient-centred conversational artificial intelligence must accommodate communication diversity: systems designed for idealised, rather than realistic, interactions risk underperforming and amplifying health disparities when deployed in the real world.",
     "authors": [
-      "Jo\u00e3o Matos",
+      "João Matos",
       "Olivia Buege",
       "Donny Cheung",
       "Gary S. Collins",
@@ -3271,13 +3271,13 @@
     "title": "CT-CLIP Representations for Multimodal Lung Cancer Survival Prediction",
     "summary": "Accurate prognosis prediction is important for treatment planning in lung cancer, but deep learning-driven survival modelling is often limited by the scarcity of curated imaging cohorts with reliable outcome data. This study evaluates whether representations from a domain-specific foundation model can be used for multimodal survival prediction in data-constrained clinical settings. We assess the foundation model CT-CLIP as a feature extractor for pretreatment computed tomography images and clinical variables from 242 diagnosed lung cancer patients. The evaluation includes adaptation strategies based on frozen encoders, full fine-tuning, and low-rank adaptation, together with modality ablations and comparisons with clinical and multimodal baselines. The results show that a frozen CT-CLIP model combined with a trainable lightweight survival head outperforms the clinical baseline and achieves comparable or improved performance relative to other multimodal approaches, and separates patients into clinically meaningful high- and low-risk groups.",
     "authors": [
-      "Sofie Allg\u00f6wer",
+      "Sofie Allgöwer",
       "Mikael Johansson",
       "Andreas Hallqvist",
       "Jonas Andersson",
-      "\u00c5se Johnsson",
-      "Ida H\u00e4ggstr\u00f6m",
-      "Jennifer Alv\u00e9n"
+      "Åse Johnsson",
+      "Ida Häggström",
+      "Jennifer Alvén"
     ],
     "categories": [
       "cs.CV"
@@ -3369,8 +3369,8 @@
       "Yanis Labrak",
       "Hasindri Watawana",
       "Sergio Burdisso",
-      "Esa\u00fa Villatoro-Tello",
-      "Kadri Hacio\u011flu",
+      "Esaú Villatoro-Tello",
+      "Kadri Hacioğlu",
       "Petr Motlicek",
       "Andreas Stolcke"
     ],
@@ -3435,7 +3435,7 @@
       "Michael Krause",
       "Axel Roebel",
       "Carl-Johann Simon-Gabriel",
-      "Alexandre D\u00e9fossez"
+      "Alexandre Défossez"
     ],
     "categories": [
       "cs.SD",
@@ -3656,7 +3656,7 @@
   {
     "arxiv_id": "2607.08538v1",
     "title": "High-Dimensional Procrustes Matching via Tree Counts",
-    "summary": "Suppose we observe two sets of $n$ Gaussian vectors in $\\mathbb{R}^d$, with the promise that, after applying a permutation of $[n]$ and a rotation of $\\mathbb{R}^d$, the two sets are $\u03c1$-correlated. The Procrustes matching problem asks us to recover the unknown permutation of $[n]$ that aligns the two sets. The problem is well-studied in the low-dimensional regime $d=O(\\log n)$, but the high-dimensional regime $d\\gg \\log n$ has remained largely uncharted: prior matching guarantees require nearly perfect correlation $\u03c1=1-o(1)$, even for information-theoretic recovery.   Our main result is a polynomial-time algorithm for exact recovery at constant correlation. The algorithm works by computing and comparing weighted counts of a specially chosen family of ``wide'' trees. So long as $d\\ge \\mathrm{polylog}(n)$, the algorithm succeeds with high probability for any $\u03c1^2>\\sqrt\u03b1$, where $\u03b1\\approx 0.338$ is Otter's tree-counting constant.   We complement this algorithmic result with an improved information-theoretic guarantee, showing that exact recovery is possible when $\u03c1^2 \\gtrsim \\max\\{\\log n/d,\\sqrt{\\log n/n}\\}$. We also carry out a low-degree advantage calculation, which suggests that the condition $\u03c1^2 > \\sqrt\u03b1$ is necessary for any tree-counting algorithm.",
+    "summary": "Suppose we observe two sets of $n$ Gaussian vectors in $\\mathbb{R}^d$, with the promise that, after applying a permutation of $[n]$ and a rotation of $\\mathbb{R}^d$, the two sets are $ρ$-correlated. The Procrustes matching problem asks us to recover the unknown permutation of $[n]$ that aligns the two sets. The problem is well-studied in the low-dimensional regime $d=O(\\log n)$, but the high-dimensional regime $d\\gg \\log n$ has remained largely uncharted: prior matching guarantees require nearly perfect correlation $ρ=1-o(1)$, even for information-theoretic recovery.   Our main result is a polynomial-time algorithm for exact recovery at constant correlation. The algorithm works by computing and comparing weighted counts of a specially chosen family of ``wide'' trees. So long as $d\\ge \\mathrm{polylog}(n)$, the algorithm succeeds with high probability for any $ρ^2>\\sqrtα$, where $α\\approx 0.338$ is Otter's tree-counting constant.   We complement this algorithmic result with an improved information-theoretic guarantee, showing that exact recovery is possible when $ρ^2 \\gtrsim \\max\\{\\log n/d,\\sqrt{\\log n/n}\\}$. We also carry out a low-degree advantage calculation, which suggests that the condition $ρ^2 > \\sqrtα$ is necessary for any tree-counting algorithm.",
     "authors": [
       "Xiaochun Niu",
       "Tselil Schramm",
@@ -3680,8 +3680,8 @@
     "title": "Cross-seed explainability using Procrustes-conditioned Joint End-to-end Top-K Sparse Autoencoders",
     "summary": "We present a Procrustes-conditioned Joint End-to-end Top-K Sparse Autoencoder (SAE) for extracting cross-seed universal features from independently trained BERT models. Cross-seed feature universality is a fundamental challenge in mechanistic interpretability: because dictionary learning is non-convex, independently trained networks learn misaligned feature spaces, so apparently identical features may differ by random initialization. We address this by computing an orthogonal Procrustes rotation between seeds' activation spaces before joint SAE training, combining Top-K sparsity, end-to-end downstream optimization, and an auxiliary dead-feature revival loss based on previous SAE literature. Evaluating on five independent seed pairs (ten BERT models) across three benchmark datasets (SST-2, Stanford Politeness, TweetEval Emotion), our full pipeline produces more universal features (Pearson r $\\geq$ 0.70 across seeds) than post-hoc alignment baselines on all three datasets. A minimal qualitative analysis confirms that high-universality features encode interpretable sociolinguistic patterns.",
     "authors": [
-      "Bendeg\u00faz V\u00e1radi",
-      "Zolt\u00e1n Kmetty"
+      "Bendegúz Váradi",
+      "Zoltán Kmetty"
     ],
     "categories": [
       "cs.CL"
@@ -3753,7 +3753,7 @@
   {
     "arxiv_id": "2607.08384v1",
     "title": "Revisiting One-Zero and Two-Zero Neutrino Mass Textures in Light of Recent Oscillation and Cosmological Data",
-    "summary": "We revisit one-zero and two-zero textures of the neutrino mass matrix under current experimental and cosmological constraints. We identify the phenomenologically viable texture structures using the latest results on neutrino oscillation parameters, the cosmological bound on the sum of neutrino masses, the kinematic bound on the effective electron-neutrino mass, and limits from neutrinoless double-beta decay. For two-zero textures, several structures are still allowed if only the CMB bound on the neutrino mass sum is imposed. Among them, the $B$-series textures show a characteristic prediction for the Dirac CP phase, with $\u03b4_{\\rm CP}$ lying around $\u03c0/2$ and $3\u03c0/2$, and are within the reach of future neutrinoless double-beta decay searches. When the stronger CMB+BAO constraint is included, however, only the $A$-series textures remain viable. Therefore, we also analyze one-zero textures by using machine learning techniques, particularly flow matching. It turns out that some of the texture structures are already excluded by current data, while the allowed ones give distinct predictions for $\\sum_i m_i$, $m_{\u03bd_e}^{\\rm eff}$, $\\langle m_{ee}\\rangle$, and $\u03b4_{\\rm CP}$. We further discuss how the one-zero texture structures can arise from non-invertible selection rules.",
+    "summary": "We revisit one-zero and two-zero textures of the neutrino mass matrix under current experimental and cosmological constraints. We identify the phenomenologically viable texture structures using the latest results on neutrino oscillation parameters, the cosmological bound on the sum of neutrino masses, the kinematic bound on the effective electron-neutrino mass, and limits from neutrinoless double-beta decay. For two-zero textures, several structures are still allowed if only the CMB bound on the neutrino mass sum is imposed. Among them, the $B$-series textures show a characteristic prediction for the Dirac CP phase, with $δ_{\\rm CP}$ lying around $π/2$ and $3π/2$, and are within the reach of future neutrinoless double-beta decay searches. When the stronger CMB+BAO constraint is included, however, only the $A$-series textures remain viable. Therefore, we also analyze one-zero textures by using machine learning techniques, particularly flow matching. It turns out that some of the texture structures are already excluded by current data, while the allowed ones give distinct predictions for $\\sum_i m_i$, $m_{ν_e}^{\\rm eff}$, $\\langle m_{ee}\\rangle$, and $δ_{\\rm CP}$. We further discuss how the one-zero texture structures can arise from non-invertible selection rules.",
     "authors": [
       "Haruto Kitagawa",
       "Coh Miyao",
@@ -3839,8 +3839,8 @@
     "summary": "White Matter Hyperintensities (WMHs) are commonly observed in brain Magnetic Resonance Imaging (MRI) scans. They are associated with various neurological conditions, including vascular and inflammatory demyelinating diseases. Despite differing in etiology, WMHs from these conditions often appear similar on Fluid Attenuated Inversion Recovery (FLAIR) images. This similarity makes differential diagnosis challenging. In this work, we highlight the potential of combining attention-based segmentation with feature-driven classification. This approach supports more accurate and efficient classification between vascular and demyelinating white matter pathologies. For segmentation, we evaluate the effectiveness of attention mechanisms, specifically the Bottleneck Attention Module (BAM) and the Convolutional Block Attention Module (CBAM). We also test different architectures, particularly Attention U-Net. In addition, we explore advanced training strategies, such as patch-based learning and a 2.5D approach, to enhance lesion detection. After segmentation, we extract morphological features from the lesion masks. We then use them to classify WMHs based on their underlying cause. Our experiments utilize five publicly available datasets with diverse imaging protocols to promote model generalizability, despite limited sample sizes. The results suggest that attention-based segmentation and feature-driven classification offer a promising direction for discriminating vascular and demyelinating white matter lesions. Further validation in larger clinical cohorts is still needed.",
     "authors": [
       "Aina Tur-Serrano",
-      "Gabriel Moy\u00e0-Alcover",
-      "Francisco J. Perales L\u00f3pez"
+      "Gabriel Moyà-Alcover",
+      "Francisco J. Perales López"
     ],
     "categories": [
       "cs.CV"
@@ -3958,8 +3958,8 @@
     "title": "On the Role of Conversational Timing in Synthetic Training Data for ASR",
     "summary": "Synthetic multi-speaker conversations are widely used to train conversational automatic speech recognition (ASR) systems, but it remains unclear which timing properties make simulated data most useful. This paper studies conversational timing as a controllable training variable rather than merely as a corpus statistic to be reproduced. We parameterize pause and overlap timing distributions with an exponential-tilting family estimated from multiple conversational corpora, and then explore the resulting four-dimensional parameter space with Latin hypercube sampling and multi-objective Bayesian optimization. Each sampled timing configuration is used to generate simulated training conversations, train an ASR system, and evaluate concatenated-permutation word and character error rates (cpWER and cpCER) on a Hungarian dialogue corpus. The results show that downstream ASR behavior is explained more directly by induced timing statistics than by raw simulator coordinates or corpus proximity. In particular, higher overlap exposure is associated with lower cpWER, whereas longer and more variable gaps are associated with higher cpWER; cpCER follows the same trend, but with weaker statistical support. Bayesian optimization yields modest aggregate improvements, but its main value is analytical: it produces controlled timing interventions that reveal an overlap--gap trade-off in simulated conversational training data. These findings suggest that realistic simulation should be complemented by task-relevant diagnostics of overlap, gap, and timing-variability profiles.",
     "authors": [
-      "M\u00e1t\u00e9 Gedeon",
-      "P\u00e9ter Mihajlik"
+      "Máté Gedeon",
+      "Péter Mihajlik"
     ],
     "categories": [
       "eess.AS",
@@ -4418,351 +4418,5 @@
     "date": "2026-07-10",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "DawitShibabaw/llama-3.2-3b-instruct",
-    "author": "unknown",
-    "title": "DawitShibabaw/llama-3.2-3b-instruct",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "facebook",
-      "meta",
-      "pytorch",
-      "llama-3",
-      "conversational",
-      "en",
-      "de",
-      "fr",
-      "it",
-      "pt",
-      "hi",
-      "es",
-      "th",
-      "arxiv:2204.05149",
-      "arxiv:2405.16406",
-      "license:llama3.2",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-10T06:34:23.000Z",
-    "last_modified": "2026-07-10T06:36:02.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DawitShibabaw/llama-3.2-3b-instruct",
-    "date": "2026-07-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "aliirtaza7/improvedqwen25math15b-prm-phase1",
-    "author": "unknown",
-    "title": "aliirtaza7/improvedqwen25math15b-prm-phase1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-07-10T06:35:44.000Z",
-    "last_modified": "2026-07-10T06:35:44.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aliirtaza7/improvedqwen25math15b-prm-phase1",
-    "date": "2026-07-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "karthiksab/slm-125m-base",
-    "author": "unknown",
-    "title": "karthiksab/slm-125m-base",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "causal-lm",
-      "legal",
-      "finance",
-      "en",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-10T06:35:19.000Z",
-    "last_modified": "2026-07-10T06:35:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/karthiksab/slm-125m-base",
-    "date": "2026-07-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sulaimank/w2vbert-luganda-waxal",
-    "author": "unknown",
-    "title": "sulaimank/w2vbert-luganda-waxal",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2-bert",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "base_model:sulaimank/wav2vec2-xlsr-swahili-400hr",
-      "base_model:finetune:sulaimank/wav2vec2-xlsr-swahili-400hr",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-07-09T16:57:02.000Z",
-    "last_modified": "2026-07-10T06:35:06.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sulaimank/w2vbert-luganda-waxal",
-    "date": "2026-07-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "dhasmana/WAXAL-wal_asr-w2v-bert-2.0",
-    "author": "unknown",
-    "title": "dhasmana/WAXAL-wal_asr-w2v-bert-2.0",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2-bert",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-07-10T04:04:57.000Z",
-    "last_modified": "2026-07-10T06:32:19.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/dhasmana/WAXAL-wal_asr-w2v-bert-2.0",
-    "date": "2026-07-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "PKU-Wu-Lab/LTE-Qwen3-4B-Base",
-    "author": "unknown",
-    "title": "PKU-Wu-Lab/LTE-Qwen3-4B-Base",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "en",
-      "dataset:Elliott/Openr1-Math-46k-8192",
-      "arxiv:2510.26109",
-      "base_model:Qwen/Qwen3-8B-Base",
-      "base_model:finetune:Qwen/Qwen3-8B-Base",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-10T06:31:10.000Z",
-    "last_modified": "2026-07-10T06:31:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/PKU-Wu-Lab/LTE-Qwen3-4B-Base",
-    "date": "2026-07-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "PKU-Wu-Lab/LTE-Qwen3-8B-Base",
-    "author": "unknown",
-    "title": "PKU-Wu-Lab/LTE-Qwen3-8B-Base",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "conversational",
-      "en",
-      "dataset:Elliott/Openr1-Math-46k-8192",
-      "arxiv:2510.26109",
-      "base_model:Qwen/Qwen3-8B-Base",
-      "base_model:finetune:Qwen/Qwen3-8B-Base",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-10T06:30:55.000Z",
-    "last_modified": "2026-07-10T06:30:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/PKU-Wu-Lab/LTE-Qwen3-8B-Base",
-    "date": "2026-07-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "jarrelscy/GLM-5.2-NVFP4-AQLM-hybrid",
-    "author": "unknown",
-    "title": "jarrelscy/GLM-5.2-NVFP4-AQLM-hybrid",
-    "downloads": 1008,
-    "likes": 4,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "glm_moe_dsa",
-      "text-generation",
-      "glm",
-      "moe",
-      "nvfp4",
-      "aqlm",
-      "quantized",
-      "1m-context",
-      "conversational",
-      "en",
-      "zh",
-      "base_model:zai-org/GLM-5.2",
-      "base_model:quantized:zai-org/GLM-5.2",
-      "license:mit",
-      "endpoints_compatible",
-      "8-bit",
-      "nvfp4_aqlm_hybrid",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-06T08:52:41.000Z",
-    "last_modified": "2026-07-10T06:29:51.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/jarrelscy/GLM-5.2-NVFP4-AQLM-hybrid",
-    "date": "2026-07-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Sytheticbot/Your-gpt-oss-20b",
-    "author": "unknown",
-    "title": "Sytheticbot/Your-gpt-oss-20b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt_oss",
-      "text-generation",
-      "vllm",
-      "conversational",
-      "arxiv:2508.10925",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "8-bit",
-      "mxfp4",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-10T05:56:12.000Z",
-    "last_modified": "2026-07-10T06:29:19.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Sytheticbot/Your-gpt-oss-20b",
-    "date": "2026-07-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "vroomfondel/Hy3-NVFP4-W4A4",
-    "author": "unknown",
-    "title": "vroomfondel/Hy3-NVFP4-W4A4",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "hy_v3",
-      "text-generation",
-      "modelopt",
-      "nvfp4",
-      "fp4",
-      "conversational",
-      "base_model:tencent/Hy3",
-      "base_model:quantized:tencent/Hy3",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "8-bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-08T21:03:47.000Z",
-    "last_modified": "2026-07-10T06:28:17.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/vroomfondel/Hy3-NVFP4-W4A4",
-    "date": "2026-07-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "huyvanzzz/sail_noqformer_epoch1",
-    "author": "unknown",
-    "title": "huyvanzzz/sail_noqformer_epoch1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:Qwen/Qwen2.5-1.5B-Instruct",
-      "lora",
-      "transformers",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:Qwen/Qwen2.5-1.5B-Instruct",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-10T06:26:33.000Z",
-    "last_modified": "2026-07-10T06:27:44.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/huyvanzzz/sail_noqformer_epoch1",
-    "date": "2026-07-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
