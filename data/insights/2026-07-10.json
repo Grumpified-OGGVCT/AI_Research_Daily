@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-10T21:56:23.948753",
+  "date": "2026-07-10T22:56:02.396057",
   "patterns": {
     "multimodal_research": [
       {
@@ -893,6 +893,10 @@
         "url": "https://arxiv.org/abs/2607.08249v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "Metrics or Mirage? An Audit of Evaluation Inconsistencies in Colonoscopy Polyp Segmentation Benchmarks",
         "url": "https://arxiv.org/abs/2607.08203v1"
       },
@@ -1651,7 +1655,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1704,6 +1708,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 401
+    "total_papers": 402
   }
 }
