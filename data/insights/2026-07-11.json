@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-11T05:19:35.270798",
+  "date": "2026-07-11T07:45:51.950225",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,6 +645,10 @@
       {
         "title": "UniRef-UAV: A Multimodal Benchmark for Universal Referring in UAV Imagery",
         "url": "https://arxiv.org/abs/2607.08267v1"
+      },
+      {
+        "title": "mxcui/pcgrad-imdb-ppo-prop0.3-alpha1.0-seed43-mean_kl0.1-gpt2",
+        "url": "https://huggingface.co/mxcui/pcgrad-imdb-ppo-prop0.3-alpha1.0-seed43-mean_kl0.1-gpt2"
       }
     ],
     "vision_systems": [
@@ -935,10 +939,6 @@
       {
         "title": "Classical versus Deep Mirror-Symmetry Scoring: A Benchmark of Thirteen Methods",
         "url": "https://arxiv.org/abs/2607.08379v1"
-      },
-      {
-        "title": "8BitStudio/Aniimage-2",
-        "url": "https://huggingface.co/8BitStudio/Aniimage-2"
       }
     ],
     "reasoning": [
@@ -1649,13 +1649,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
