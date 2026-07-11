@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-11T17:50:41.627848",
+  "date": "2026-07-11T18:52:40.320694",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,6 +635,10 @@
         "url": "https://arxiv.org/abs/2607.08397v1"
       },
       {
+        "title": "LLM-OS-Models/gdn2-1.3B-fineweb-edu-100b",
+        "url": "https://huggingface.co/LLM-OS-Models/gdn2-1.3B-fineweb-edu-100b"
+      },
+      {
         "title": "Dive Into the Implicit Biases of Low-rank Vision-language Alignment",
         "url": "https://arxiv.org/abs/2607.08194v1"
       },
@@ -647,8 +651,8 @@
         "url": "https://arxiv.org/abs/2607.08267v1"
       },
       {
-        "title": "Danny-Dasilva/gemma-4-12B-it-antidoom-W4A16-GPTQ-g32-DSpark",
-        "url": "https://huggingface.co/Danny-Dasilva/gemma-4-12B-it-antidoom-W4A16-GPTQ-g32-DSpark"
+        "title": "rohit-upadhya/SmoLLM-109M-Instruct",
+        "url": "https://huggingface.co/rohit-upadhya/SmoLLM-109M-Instruct"
       }
     ],
     "vision_systems": [
@@ -1649,7 +1653,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 403
   }
 }
