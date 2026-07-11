@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-11T15:49:42.428067",
+  "date": "2026-07-11T16:48:58.361203",
   "patterns": {
     "multimodal_research": [
       {
@@ -645,6 +645,10 @@
       {
         "title": "UniRef-UAV: A Multimodal Benchmark for Universal Referring in UAV Imagery",
         "url": "https://arxiv.org/abs/2607.08267v1"
+      },
+      {
+        "title": "mantrikai/SmolLM2-360M-Instruct-Alpaca",
+        "url": "https://huggingface.co/mantrikai/SmolLM2-360M-Instruct-Alpaca"
       }
     ],
     "vision_systems": [
@@ -1645,7 +1649,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1704,6 +1708,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 401
+    "total_papers": 402
   }
 }
