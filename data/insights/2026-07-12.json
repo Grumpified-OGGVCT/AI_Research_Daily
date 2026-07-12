@@ -1,33 +1,11 @@
 {
-  "date": "2026-07-12T17:55:44.135450",
-  "patterns": {
-    "vision_systems": [
-      {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
-        "title": "lite-infer/z-image-turbo-nunchaku-lite-nvfp4_r32-bnb4-text-encoder",
-        "url": "https://huggingface.co/lite-infer/z-image-turbo-nunchaku-lite-nvfp4_r32-bnb4-text-encoder"
-      },
-      {
-        "title": "lite-infer/z-image-turbo-nunchaku-lite-int4_r32-bnb4-text-encoder",
-        "url": "https://huggingface.co/lite-infer/z-image-turbo-nunchaku-lite-int4_r32-bnb4-text-encoder"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "vision_systems",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-07-12T18:57:05.516757",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
