@@ -1,11 +1,22 @@
 {
-  "date": "2026-07-12T08:06:52.841444",
-  "patterns": {},
+  "date": "2026-07-12T10:24:27.811310",
+  "patterns": {
+    "vision_systems": [
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      {
+        "title": "ligaments-dev/PulseNOCV1.2",
+        "url": "https://huggingface.co/ligaments-dev/PulseNOCV1.2"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
