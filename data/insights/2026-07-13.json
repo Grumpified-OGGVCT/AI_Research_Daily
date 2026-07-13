@@ -1,11 +1,22 @@
 {
-  "date": "2026-07-13T02:06:52.733100",
-  "patterns": {},
+  "date": "2026-07-13T06:09:18.409214",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "jabeen14558/agnews-bert-model",
+        "url": "https://huggingface.co/jabeen14558/agnews-bert-model"
+      },
+      {
+        "title": "sulaimank/w2vbert-lingala-waxal-pseudo",
+        "url": "https://huggingface.co/sulaimank/w2vbert-lingala-waxal-pseudo"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
