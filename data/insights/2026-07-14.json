@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-14T04:46:59.166428",
+  "date": "2026-07-14T07:07:54.156725",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,6 +665,10 @@
       {
         "title": "Learning to control switching nonlinear systems with Koopman operator regression",
         "url": "https://arxiv.org/abs/2607.11344v1"
+      },
+      {
+        "title": "LLM-OS-Models/gdn2-1.3B-fineweb-edu-100b",
+        "url": "https://huggingface.co/LLM-OS-Models/gdn2-1.3B-fineweb-edu-100b"
       }
     ],
     "vision_systems": [
@@ -1661,7 +1665,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 406
   }
 }
