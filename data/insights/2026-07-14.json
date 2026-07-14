@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-14T22:52:54.438284",
+  "date": "2026-07-14T23:46:44.140173",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,6 +665,10 @@
       {
         "title": "Learning to control switching nonlinear systems with Koopman operator regression",
         "url": "https://arxiv.org/abs/2607.11344v1"
+      },
+      {
+        "title": "LLM-OS-Models/gdn2-1.3B-fineweb-edu-100b-paper-lr",
+        "url": "https://huggingface.co/LLM-OS-Models/gdn2-1.3B-fineweb-edu-100b-paper-lr"
       }
     ],
     "vision_systems": [
@@ -871,6 +875,10 @@
       {
         "title": "Benchmarking Edge Inference Strategies for Deep Learning Models in Industrial Machine Vision",
         "url": "https://arxiv.org/abs/2607.11356v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
@@ -1661,13 +1669,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "62 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 407
   }
 }
