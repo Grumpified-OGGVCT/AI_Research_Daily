@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-14T20:54:41.818471",
+  "date": "2026-07-14T21:53:16.556648",
   "patterns": {
     "multimodal_research": [
       {
@@ -915,6 +915,10 @@
       {
         "title": "Metadata Supervised MRI Representations for Modelling and Controlling Acquisition Variability",
         "url": "https://arxiv.org/abs/2607.11295v1"
+      },
+      {
+        "title": "neonforestmist/Clover-Image-Tiny",
+        "url": "https://huggingface.co/neonforestmist/Clover-Image-Tiny"
       }
     ],
     "reasoning": [
@@ -1667,7 +1671,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "62 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1724,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 406
   }
 }
