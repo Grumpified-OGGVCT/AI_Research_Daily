@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-14T15:19:48.802140",
+  "date": "2026-07-14T17:08:18.542971",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,12 +667,8 @@
         "url": "https://arxiv.org/abs/2607.11344v1"
       },
       {
-        "title": "LLM-OS-Models/gdn2-1.3B-fineweb-edu-110b",
-        "url": "https://huggingface.co/LLM-OS-Models/gdn2-1.3B-fineweb-edu-110b"
-      },
-      {
-        "title": "AngelSlim/Hy3-GPTQ-Int4",
-        "url": "https://huggingface.co/AngelSlim/Hy3-GPTQ-Int4"
+        "title": "optimumPride69/roberta-agNews-coreset50",
+        "url": "https://huggingface.co/optimumPride69/roberta-agNews-coreset50"
       }
     ],
     "vision_systems": [
@@ -925,8 +921,8 @@
         "url": "https://arxiv.org/abs/2607.11295v1"
       },
       {
-        "title": "SanaullahTareen07/vechile-health-detection-using-computer-vision",
-        "url": "https://huggingface.co/SanaullahTareen07/vechile-health-detection-using-computer-vision"
+        "title": "hexinrui/pixel_art_style_lora_z_image_turbo",
+        "url": "https://huggingface.co/hexinrui/pixel_art_style_lora_z_image_turbo"
       }
     ],
     "reasoning": [
@@ -1673,7 +1669,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "95 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1728,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 407
   }
 }
