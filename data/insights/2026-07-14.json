@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-14T13:18:34.544158",
+  "date": "2026-07-14T15:19:48.802140",
   "patterns": {
     "multimodal_research": [
       {
@@ -667,12 +667,12 @@
         "url": "https://arxiv.org/abs/2607.11344v1"
       },
       {
-        "title": "ali-elganzory/SmolLM2-1.7B-16k-SFT-Tulu3-decontaminated-masked",
-        "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-16k-SFT-Tulu3-decontaminated-masked"
+        "title": "LLM-OS-Models/gdn2-1.3B-fineweb-edu-110b",
+        "url": "https://huggingface.co/LLM-OS-Models/gdn2-1.3B-fineweb-edu-110b"
       },
       {
-        "title": "ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated-masked",
-        "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-SFT-Tulu3-decontaminated-masked"
+        "title": "AngelSlim/Hy3-GPTQ-Int4",
+        "url": "https://huggingface.co/AngelSlim/Hy3-GPTQ-Int4"
       }
     ],
     "vision_systems": [
@@ -923,6 +923,10 @@
       {
         "title": "Metadata Supervised MRI Representations for Modelling and Controlling Acquisition Variability",
         "url": "https://arxiv.org/abs/2607.11295v1"
+      },
+      {
+        "title": "SanaullahTareen07/vechile-health-detection-using-computer-vision",
+        "url": "https://huggingface.co/SanaullahTareen07/vechile-health-detection-using-computer-vision"
       }
     ],
     "reasoning": [
@@ -1675,7 +1679,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "62 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1728,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 407
+    "total_papers": 408
   }
 }
