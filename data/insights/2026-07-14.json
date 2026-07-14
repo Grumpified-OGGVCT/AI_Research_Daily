@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-14T19:09:19.215057",
+  "date": "2026-07-14T20:54:41.818471",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,18 +665,6 @@
       {
         "title": "Learning to control switching nonlinear systems with Koopman operator regression",
         "url": "https://arxiv.org/abs/2607.11344v1"
-      },
-      {
-        "title": "frankmorales2020/topo-jepa-gpt-oss-20b-agnews",
-        "url": "https://huggingface.co/frankmorales2020/topo-jepa-gpt-oss-20b-agnews"
-      },
-      {
-        "title": "ali-elganzory/SmolLM2-1.7B-WithChatTemplate-DPO-Tulu3-decontaminated-masked",
-        "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-WithChatTemplate-DPO-Tulu3-decontaminated-masked"
-      },
-      {
-        "title": "ali-elganzory/SmolLM2-1.7B-16k-DPO-Tulu3-decontaminated-masked",
-        "url": "https://huggingface.co/ali-elganzory/SmolLM2-1.7B-16k-DPO-Tulu3-decontaminated-masked"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1661,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 405
   }
 }
