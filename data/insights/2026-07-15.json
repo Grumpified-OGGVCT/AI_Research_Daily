@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-15T04:46:33.074283",
+  "date": "2026-07-15T07:10:49.563839",
   "patterns": {
     "multimodal_research": [
       {
@@ -995,10 +995,6 @@
       {
         "title": "Rank-1 Identity Consensus Predicts Gallery Enrollment in 1:N Face Matching More Accurately than Score Thresholding",
         "url": "https://arxiv.org/abs/2607.12903v1"
-      },
-      {
-        "title": "neonforestmist/Clover-Image-Tiny",
-        "url": "https://huggingface.co/neonforestmist/Clover-Image-Tiny"
       }
     ],
     "reasoning": [
@@ -1313,10 +1309,6 @@
       {
         "title": "Contrast-Free ICA and Causal Inference via Wasserstein Distances to the Gaussian",
         "url": "https://arxiv.org/abs/2607.12832v1"
-      },
-      {
-        "title": "sarvanik/phi-4-mini-reasoning-misaligned-model-name-v2",
-        "url": "https://huggingface.co/sarvanik/phi-4-mini-reasoning-misaligned-model-name-v2"
       }
     ],
     "benchmarks": [
@@ -1747,13 +1739,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "79 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1793,13 +1785,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 35,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 423
   }
 }
