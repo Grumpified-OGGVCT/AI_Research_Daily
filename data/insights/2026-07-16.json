@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-16T18:01:06.374736",
+  "date": "2026-07-16T19:21:05.641448",
   "patterns": {
     "multimodal_research": [
       {
@@ -607,8 +607,12 @@
         "url": "https://arxiv.org/abs/2607.13661v1"
       },
       {
-        "title": "choco07/phishing-bert",
-        "url": "https://huggingface.co/choco07/phishing-bert"
+        "title": "achavan1211/shakespeare-gpt-bpe",
+        "url": "https://huggingface.co/achavan1211/shakespeare-gpt-bpe"
+      },
+      {
+        "title": "sulaimank/w2vbert-lingala-waxal-punct",
+        "url": "https://huggingface.co/sulaimank/w2vbert-lingala-waxal-punct"
       }
     ],
     "vision_systems": [
@@ -1597,7 +1601,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "67 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1656,6 +1660,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 389
+    "total_papers": 390
   }
 }
