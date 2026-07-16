@@ -32,10 +32,10 @@
     "title": "Quantum Topological Data Encoding",
     "summary": "Many datasets encountered across a wide range of domains possess rich geometric and topological structure that is difficult to capture using conventional vector-based representations. Quantum machine learning offers the possibility of processing high-dimensional data in Hilbert spaces, but its practical success depends critically on how classical data is encoded into quantum states. We introduce \\emph{quantum topological data encoding} (QTDE), a general framework for encoding topological information into quantum states via topology-driven quantum evolution. Our method generalises an existing topology-driven quantum encoding framework to higher-dimensional data. We test the proposed method on clique-complexes classification tasks, and provide preliminary evidence that topology-driven quantum representations can capture discriminative information beyond that available through direct comparisons of classical topological descriptors. The proposed quantum representations consistently outperform a baseline based on direct comparisons of the combinatorial Laplacians describing the underlying topological structure. We indicate several areas of application where the framework can be used to provide a more efficient and reliable data representation.",
     "authors": [
-      "Adam Weso\u0142owski",
+      "Adam Wesołowski",
       "Dimitrios Thanos",
       "Daniel Leykam",
-      "Lirand\u00eb Pira"
+      "Lirandë Pira"
     ],
     "categories": [
       "quant-ph",
@@ -124,7 +124,7 @@
   {
     "arxiv_id": "2607.13511v1",
     "title": "ExTernD: Expanded-Rank Ternary Decomposition Ternary LLM PTQ with Accuracy Approaching Any Quantization Level",
-    "summary": "We introduce ExTernD (Expanded-rank Ternary Decomposition), a post-training factorization of each LLM weight matrix $A \\in \\mathbb{R}^{m \\times n}$ into $A \\approx B \\mathrm{diag}(D) C$ with ternary factors $B \\in \\{-1,0,+1\\}^{m \\times k}$, $C \\in \\{-1,0,+1\\}^{k \\times n}$ and a real scale vector $D \\in \\mathbb{R}^k$. The inner rank $k = \u03bc\\min(m,n)$ is deliberately expanded beyond full rank ($\u03bc> 1$), so that components past full rank correct the quantization error of earlier ones. We prove the residual decreases monotonically in $k$ and can be driven below any $\\varepsilon > 0$: ExTernD approaches bf16 accuracy arbitrarily closely, which no ternary scheme with a fixed plane count can do. Memory and compute scale continuously with $\u03bc$, and factor sparsity continuously with a threshold $\u03c4$, so an accuracy target is hit exactly rather than rounded to the next bit-width. ExTernD matches Q4_K's per-matrix accuracy at 5.2-5.5 effective bpw (5.1-5.5 with importance weighting) on Gemma-4-E2B and Qwen3.5-4B, and a full Qwen3.5-4B conversion at $\u03bc= 3$ reaches 10.10 wikitext-2 perplexity against 9.78 for bf16 (+3.2%), placing it near the Q4_K/Q5_K accuracy band at ~5.7 effective bpw.",
+    "summary": "We introduce ExTernD (Expanded-rank Ternary Decomposition), a post-training factorization of each LLM weight matrix $A \\in \\mathbb{R}^{m \\times n}$ into $A \\approx B \\mathrm{diag}(D) C$ with ternary factors $B \\in \\{-1,0,+1\\}^{m \\times k}$, $C \\in \\{-1,0,+1\\}^{k \\times n}$ and a real scale vector $D \\in \\mathbb{R}^k$. The inner rank $k = μ\\min(m,n)$ is deliberately expanded beyond full rank ($μ> 1$), so that components past full rank correct the quantization error of earlier ones. We prove the residual decreases monotonically in $k$ and can be driven below any $\\varepsilon > 0$: ExTernD approaches bf16 accuracy arbitrarily closely, which no ternary scheme with a fixed plane count can do. Memory and compute scale continuously with $μ$, and factor sparsity continuously with a threshold $τ$, so an accuracy target is hit exactly rather than rounded to the next bit-width. ExTernD matches Q4_K's per-matrix accuracy at 5.2-5.5 effective bpw (5.1-5.5 with importance weighting) on Gemma-4-E2B and Qwen3.5-4B, and a full Qwen3.5-4B conversion at $μ= 3$ reaches 10.10 wikitext-2 perplexity against 9.78 for bf16 (+3.2%), placing it near the Q4_K/Q5_K accuracy band at ~5.7 effective bpw.",
     "authors": [
       "Chethan Reddy G. P"
     ],
@@ -224,7 +224,7 @@
       "Dzmitry Tsishkou",
       "Laurent Caraffa",
       "Jean-Philippe Tarel",
-      "Roland Br\u00e9mond"
+      "Roland Brémond"
     ],
     "categories": [
       "cs.CV"
@@ -346,7 +346,7 @@
   {
     "arxiv_id": "2607.13491v1",
     "title": "DeepLoop: Depth Scaling for Looped Transformers",
-    "summary": "Looped Transformers scale sequential computation by applying a compact stack of physical blocks for multiple rounds, increasing unrolled depth without increasing stored parameters. This reuse changes the residual-scaling problem: in an untied Transformer, each residual branch receives and applies its own parameter update, whereas in a looped Transformer one shared update aggregates gradients from repeated visits and is read back by those same visits in the next linearized forward pass. We formalize this tied-depth effect through a first-order perturbation bound controlled by a visit-alignment coefficient $\u03ba_R$. The bound recovers the DeepNorm exponent when visits decorrelate, but in the conservative aligned regime it requires the exponent to increase from $1/4$ to $1/2$ as loop count grows at fixed physical depth. The resulting method, \\textbf{DeepLoop}, keeps the Post-LN DeepNorm architecture and sets $\u03b1=(2N)^{1/2}$ and $\u03b2=(8N)^{-1/2}$ for unrolled depth $N$. On GPT-style looped language models at GPT-2 small and GPT-2 medium scale, DeepLoop is neutral when no physical block is revisited and improves validation loss and downstream accuracy once recurrent depth is activated. These results show that stable recurrent depth requires residual scaling rules that account for parameter visits, not only nominal layer count.",
+    "summary": "Looped Transformers scale sequential computation by applying a compact stack of physical blocks for multiple rounds, increasing unrolled depth without increasing stored parameters. This reuse changes the residual-scaling problem: in an untied Transformer, each residual branch receives and applies its own parameter update, whereas in a looped Transformer one shared update aggregates gradients from repeated visits and is read back by those same visits in the next linearized forward pass. We formalize this tied-depth effect through a first-order perturbation bound controlled by a visit-alignment coefficient $κ_R$. The bound recovers the DeepNorm exponent when visits decorrelate, but in the conservative aligned regime it requires the exponent to increase from $1/4$ to $1/2$ as loop count grows at fixed physical depth. The resulting method, \\textbf{DeepLoop}, keeps the Post-LN DeepNorm architecture and sets $α=(2N)^{1/2}$ and $β=(8N)^{-1/2}$ for unrolled depth $N$. On GPT-style looped language models at GPT-2 small and GPT-2 medium scale, DeepLoop is neutral when no physical block is revisited and improves validation loss and downstream accuracy once recurrent depth is activated. These results show that stable recurrent depth requires residual scaling rules that account for parameter visits, not only nominal layer count.",
     "authors": [
       "Shuzhen Li",
       "Yifan Zhang",
@@ -396,8 +396,8 @@
     "summary": "Nonnegative Matrix Factorization (NMF) is a fundamental tool in unsupervised learning, which approximates a nonnegative matrix by the product of two low-rank nonnegative factors. The Kullback-Leibler (KL) divergence is best suited to measure the data to model discrepancy when the decomposed data sample follows a Poisson distribution, which is the case for count datasets such as term-document matrices or images. Most KL-NMF algorithms in the literature minimize a separable majorant of the loss to find their next iterate. We argue that this method has reached its limits and propose to use instead the second-order Taylor expansion of the loss, leading to a Newton-type method. We minimize this non-separable surrogate by proposing a generalization of the well-known HALS algorithm. This yields an efficient KL-NMF algorithm which provably converges and which competes favorably with state-of-the-art algorithms on a large variety of datasets.",
     "authors": [
       "Damien Lesens",
-      "J\u00e9r\u00e9my E. Cohen",
-      "Bora U\u00e7ar"
+      "Jérémy E. Cohen",
+      "Bora Uçar"
     ],
     "categories": [
       "cs.LG"
@@ -455,7 +455,7 @@
   {
     "arxiv_id": "2607.13967v1",
     "title": "DeltaMerge-LowRes: Composing Language and Task Deltas for Low-Resource Adaptation",
-    "summary": "Adapting a multilingual encoder to a new language \\emph{and} a new task with only a few hundred gold examples is a common low-resource NLP setting, yet the two axes are usually fused via an expensive language--task fine-tuning run. We ask whether they can instead be trained separately and recombined in weight space. \\DeltaMergeLowRes{} learns a language delta $\u0394_L$ from unlabeled monolingual text and a task delta $\u0394_T$ from labeled English data, then composes them at inference under one of four rules: additive, activation-guided, sparsity-aware, and a novel \\emph{cross-axis TIES}. The new rule adapts the TIES-Merging steps of trimming, sign election, and merging to the language and task axes rather than to two task axes. Holding $(\u0394_L,\u0394_T)$ fixed across rules on four task families and four African languages ($158$ evaluated cells, $10{,}000$-sample paired bootstrap per cell), we find: (i) cross-axis TIES wins summarisation on $3/4$ languages by $+4$ to $+7$ chrF (chrF $18.59$ vs.\\ $13.80$ task-only); (ii) it improves QA F1 by $+2.32$ and EM by $+2.91$; and (iii) sparsity-aware merging cuts classification ECE by $36\\%$ at parity macro-F1. The composition rule materially changes what the merged model preserves, suppresses, and calibrates. We release all JSON traces and a claim ledger.",
+    "summary": "Adapting a multilingual encoder to a new language \\emph{and} a new task with only a few hundred gold examples is a common low-resource NLP setting, yet the two axes are usually fused via an expensive language--task fine-tuning run. We ask whether they can instead be trained separately and recombined in weight space. \\DeltaMergeLowRes{} learns a language delta $Δ_L$ from unlabeled monolingual text and a task delta $Δ_T$ from labeled English data, then composes them at inference under one of four rules: additive, activation-guided, sparsity-aware, and a novel \\emph{cross-axis TIES}. The new rule adapts the TIES-Merging steps of trimming, sign election, and merging to the language and task axes rather than to two task axes. Holding $(Δ_L,Δ_T)$ fixed across rules on four task families and four African languages ($158$ evaluated cells, $10{,}000$-sample paired bootstrap per cell), we find: (i) cross-axis TIES wins summarisation on $3/4$ languages by $+4$ to $+7$ chrF (chrF $18.59$ vs.\\ $13.80$ task-only); (ii) it improves QA F1 by $+2.32$ and EM by $+2.91$; and (iii) sparsity-aware merging cuts classification ECE by $36\\%$ at parity macro-F1. The composition rule materially changes what the merged model preserves, suppresses, and calibrates. We release all JSON traces and a claim ledger.",
     "authors": [
       "Son Ha Xuan",
       "Xuan-Bach Le",
@@ -582,14 +582,14 @@
     "title": "AIMO Interpretability Challenge",
     "summary": "We propose the AIMO Interpretability Challenge, a competition on distinguishing robust from spurious reasoning in frontier mathematical language models based on the models' internal mechanisms. The challenge is motivated by a central limitation of standard reasoning benchmarks: strong final-answer accuracy does not reveal whether a model relies on stable reasoning mechanisms or exploits brittle reasoning shortcuts. Building on AI Mathematical Olympiad (AIMO) problems and submissions, together with resources from the Fields Model Initiative, the competition will provide (1) newly-published olympiad-level math reasoning problems and their symbolic representations, allowing generation of novel functional variants, (2) access to frontier reasoning models, and (3) assessments of models' adversarial robustness on these problems. Participants will use these resources, along with our computing infrastructure support, to develop methods for identifying which models solve problems robustly. Our competition will also create a new, open robustness benchmark and baseline systems, aiming to provide a lasting foundation for standard benchmarking in mathematical reasoning and interpretability. Scientifically, the competition connects interpretability and generalization research around a central question in AI research: can we determine if, and to what extent, the decision-making of frontier AI models is generalizable and thus, reliable?",
     "authors": [
-      "Michal \u0160tef\u00e1nik",
+      "Michal Štefánik",
       "Philipp Mondorf",
       "Andreas Waldis",
       "Qianying Liu",
       "Chuan Yang",
       "Michal Spiegel",
-      "Josef Kucha\u0159",
-      "Marek Kadl\u010d\u00edk",
+      "Josef Kuchař",
+      "Marek Kadlčík",
       "Adam Vawda-Oomerjee",
       "Chaoran Liu",
       "Simon Frieder",
@@ -710,7 +710,7 @@
     "title": "Generative Compilation: On-the-Fly Compiler Feedback as AI Generates Code",
     "summary": "Languages with rich static semantics, such as Rust, provide stronger guarantees for AI-generated code, but their strictness makes generation more difficult. Off-the-shelf compilers can provide useful feedback post-generation, but does not guide intermediate generation steps, such as those during autoregressive LLM decoding. Constrained decoding intervenes earlier by rejecting invalid tokens during sampling, but requires white-box model access and costly reimplementation for semantic constraints.We introduce generative compilation, the first approach to obtaining compiler feedback on partial programs during generation. The core technical device is a sealor: a lightweight, mostly syntax-guided transformation that converts partial programs into complete ones that standard compilers can diagnose. It is designed such that possible-to-complete partial programs are never rejected, while preserving enough code context to catch genuine dead ends early. We construct such a sealor on a core Rust-like calculus and prove that it satisfies these properties, all mechanized in Lean. We extend it to the first partial-program checker for real Rust. We evaluate our method on challenging repository-level Rust coding tasks, across both frontier black-box and open-weight models. We show that generative compilation reduces non-compiling outputs and improves functional correctness, relative to standard post-generation feedback. It does so by detecting a broad range of errors close to their source and early during generation, thereby reducing errors cascades and enabling focused diagnostics. More broadly, generative compilation is a step toward making compilers a first-class citizen of AI-assisted programming active during generation, rather than a separate post-generation check.",
     "authors": [
-      "Niels M\u00fcndler-Sasahara",
+      "Niels Mündler-Sasahara",
       "Hristo Venev",
       "Dawn Song",
       "Martin Vechev",
@@ -834,7 +834,7 @@
     "title": "Parallel gradient boosting for flexible estimation of conditional distributions",
     "summary": "Boosting is one of the most successful learning techniques for standard classification and regression tasks. Its extension to multi-output prediction problems has found an increasing number of applications in recent years. Among them is the prediction of entire conditional distributions rather than single functionals, which can often be framed as a multi-output regression problem, for example multiple quantile regression. Addressing such problems with classical implementations of boosting is computationally challenging, because usually one base model is trained for each target at every iteration. More efficient variants of boosting have been proposed to speed up training, but they tend to be tied to specific loss functions and classes of base learners, usually decision trees. In this work, we study a modification of the gradient boosting algorithm, which we call parallel gradient boosting, designed to circumvent all these limitations. The core idea is to use a common descent direction for all training observations. By doing so, only one base model is needed at each iteration, regardless of the number of targets, which allows for considerable performance gains. We establish sufficient conditions for the convergence of the algorithm, whose practical use is introduced via the multiple quantile regression setting. We show that in such a setting, it provides predictions of similar quality to state-of-the-art boosting libraries such as XGBoost, while being faster by several orders of magnitude. Then, we evaluate the properties of the resulting conditional distribution estimator, which is shown empirically to outperform other nonparametric and semiparametric estimators, especially in high-dimensional settings and in the presence of mixed and/or missing covariates.",
     "authors": [
-      "R\u00e9my Chapelle",
+      "Rémy Chapelle",
       "Nicolas Vayatis",
       "Bruno Falissard",
       "Mohammed Sedki"
@@ -913,8 +913,8 @@
       "Jeremy Guntoro",
       "Alexander Dack",
       "Dylan Danno",
-      "Michaela Jan\u010dovi\u010dov\u00e1",
-      "Kri\u017ean Jurinovi\u0107",
+      "Michaela Jančovičová",
+      "Križan Jurinović",
       "Vanessa Smilansky"
     ],
     "categories": [
@@ -1026,7 +1026,7 @@
     "summary": "Sampling multiple solutions and returning the majority answer is among the most reliable ways to improve the reasoning accuracy of large language models without labels, and a growing family of methods converts this consensus signal into training supervision. However, existing approaches use consensus only in restricted forms: as a filter that selects solutions for fine-tuning, as a preference between answers, or as a scalar reward for reinforcement learning, discarding most of the information that the agreeing solutions contain. We present CANON (Consensus-ANchored self-distillatiON), a label-free training method that turns consensus into dense, token-level supervision. For each unlabeled prompt, CANON samples multiple solutions, extracts the majority answer, and conditions a frozen snapshot of the model on a solution that reaches it; this consensus-anchored teacher then supervises the model on its own rollouts at every token. Experiments on mathematical and scientific reasoning benchmarks show that CANON improves pass@1 by up to 12 points, outperforming label-free reinforcement learning by 6 points at a seventh of its compute and approaching a teacher conditioned on gold solutions; trained on pooled unlabeled data, it transfers to held-out benchmarks, matching training methods that use gold labels. Analysis suggests that the improvements are not pure distribution sharpening: after training, the model solves problems it previously never solved in 32 attempts, and its majority vote itself becomes more accurate.",
     "authors": [
       "John Gkountouras",
-      "Josip Juki\u0107",
+      "Josip Jukić",
       "Ivan Titov"
     ],
     "categories": [
@@ -1162,8 +1162,8 @@
       "Brunnhilde Ponsi",
       "Thomas Carlier",
       "Lara Marteau",
-      "Aur\u00e9lien Monnet",
-      "Thomas Eug\u00e8ne",
+      "Aurélien Monnet",
+      "Thomas Eugène",
       "Jean-Michel Serfaty",
       "Nicolas Piriou",
       "Hatem Necib"
@@ -1393,7 +1393,7 @@
     "summary": "Autonomous robotic navigation in nonstationary time-varying fluid flows remains a fundamental challenge due to partial observability and the unpredictability of realistic environments. While classical optimal control frameworks employed in robotics require unrealistic a-priori global flow knowledge, biological systems are able to navigate successfully by exploiting localized sensory cues. In this work we present a reinforcement learning approach using the TD3 algorithm to train autonomous agents to reach arbitrary targets within a parametric, chaotic double-gyre flow. To investigate optimal sensory mechanisms, we evaluate five bio-inspired observation strategies based on relative position, local velocity or local vorticity measures, and short-term memory variants. Additionally, we analyze the impact of providing agents with explicit global flow parameters. Numerical results demonstrate that an agent that is able to sense and remember a set number of flow velocity measures achieves the highest performance. The experiments reveal a trade-off in sensor utility: velocity-aware agents optimize energy efficiency, whereas vorticity sensors provide superior structural mapping and achieve better target proximity. Incorporating explicit global flow parameters is shown to decrease navigation performance. This behavior suggests that reinforcement learning-based autonomous systems develop more robust and general policies when restricted to implicit flow representations. The presented results offer insights for improving the transition of bio-inspired robotic navigation from simulation to real-world environments.",
     "authors": [
       "Andrea Maria Braghin",
-      "Nicol\u00f2 Botteghi",
+      "Nicolò Botteghi",
       "Matteo Tomasetto",
       "Andrea Manzoni",
       "Gabriele Cazzulani"
@@ -1471,10 +1471,10 @@
     "title": "Lighthouse RL: Sample-Efficient Circuit Optimization via Strategic Reset Points",
     "summary": "In this paper, we introduce Lighthouse RL, a sample-efficient reinforcement learning (RL) approach for analog circuit sizing. Traditional methods lack generalization across different performance targets, while standard RL approaches waste resources exploring unpromising regions. Our method addresses these inefficiencies through a strategic reset strategy that initializes episodes from high-performing configurations discovered during training, called \"lighthouses\". These states, which are closer to the target objectives, guide exploration toward promising regions. When compared to RL and Bayesian optimization methods from the literature, we demonstrate the effectiveness of our approach on a 2D benchmark problem and on two analog circuits, showing significant improvements in sample efficiency (up to 1.72x faster), optimization performance (100% vs. 0-87% success rate), generalization (75% vs. 0-50% extrapolation success), and objective maximization. This efficiency is particularly valuable for computationally expensive black-box optimization problems, and our reset strategy can be used as a plug-and-play enhancement for any RL-based optimization approach.",
     "authors": [
-      "Mustafa Emre G\u00fcrsoy",
+      "Mustafa Emre Gürsoy",
       "Stefan Uhlich",
       "Ryoga Matsuo",
-      "Ya\u011f\u0131z Gen\u00e7er",
+      "Yağız Gençer",
       "Arun Venkitaraman",
       "Chia-Yu Hsieh",
       "Andrea Bonetti",
@@ -1538,7 +1538,7 @@
   {
     "arxiv_id": "2607.13841v1",
     "title": "Heavy-Tailed Flow Matching via Random Clocks",
-    "summary": "Heavy-tailed data arise in many domains where rare events carry disproportionate importance, such as imbalanced image datasets, financial returns, and weather extremes. Standard diffusion and flow-matching models typically begin from Gaussian noise or Gaussian source distributions, which yield tractable training targets but provide a poor inductive match for heavy-tailed data. We propose Heavy-Tailed Flow Matching via Random Clocks (HTFM), a framework that portrays heavy-tailed sources as mixtures of clock-conditioned Gaussian sources. Conditioning on a given clock path, the source distribution and flow are Gaussian; marginalizing over the clock gives a Gaussian scale mixture covering Gaussian, $\u03b1$-stable, and Student-t families. To make the clock-conditioned vector field practical, we encode the path-valued clock using truncated logsignature features, allowing the velocity field to adapt to the realized conditional space with negligible overhead. Empirically, on 2D imbalanced $\u03b1$-stable mixtures, CIFAR10-LT, and HRRR weather fields, HTFM improves mode coverage, sample quality, and tail-statistic recovery over Gaussian flow matching and competitive heavy-tailed baselines, while retaining the low-NFE sampling advantage of flow matching. Moreover, the random-clock formulation further provides a practical tail-control interface: by varying only the clock law or tail parameter, the same architecture can calibrate the ``heaviness'' of generated tails across different distribution families.",
+    "summary": "Heavy-tailed data arise in many domains where rare events carry disproportionate importance, such as imbalanced image datasets, financial returns, and weather extremes. Standard diffusion and flow-matching models typically begin from Gaussian noise or Gaussian source distributions, which yield tractable training targets but provide a poor inductive match for heavy-tailed data. We propose Heavy-Tailed Flow Matching via Random Clocks (HTFM), a framework that portrays heavy-tailed sources as mixtures of clock-conditioned Gaussian sources. Conditioning on a given clock path, the source distribution and flow are Gaussian; marginalizing over the clock gives a Gaussian scale mixture covering Gaussian, $α$-stable, and Student-t families. To make the clock-conditioned vector field practical, we encode the path-valued clock using truncated logsignature features, allowing the velocity field to adapt to the realized conditional space with negligible overhead. Empirically, on 2D imbalanced $α$-stable mixtures, CIFAR10-LT, and HRRR weather fields, HTFM improves mode coverage, sample quality, and tail-statistic recovery over Gaussian flow matching and competitive heavy-tailed baselines, while retaining the low-NFE sampling advantage of flow matching. Moreover, the random-clock formulation further provides a practical tail-control interface: by varying only the clock law or tail parameter, the same architecture can calibrate the ``heaviness'' of generated tails across different distribution families.",
     "authors": [
       "Zhouhao Yang",
       "Yezhen Wang",
@@ -1581,7 +1581,7 @@
     "title": "Towards quantum machine learning for assessing the resilience of post-quantum cryptography",
     "summary": "The potential capabilities of quantum computers motivated the development of cryptographic protocols suitable for securing communication against adversaries with access to large fault-tolerant quantum computers. However, even though current quantum computers are limited in terms of size and precision, they can still be useful for finding loopholes and weaknesses in the post-quantum cryptographic protocols. In this work, we present an attempt to utilize the capabilities of Quantum Generative Adversarial Networks (QGANs), one of the promising architectures used in quantum machine learning, for this purpose. We describe an example application of QGAN architecture for the purpose of loading the probability distribution of the hash-based digital signatures into the memory of a quantum computer. Our results confirm that near-term hybrid quantum-classical methods possess capabilities required for this purpose. The presented approach can be used as a first step in the workflow, enabling the utilization of quantum computing for attacking post-quantum cryptographic primitives.",
     "authors": [
-      "Jaros\u0142aw A. Miszczak"
+      "Jarosław A. Miszczak"
     ],
     "categories": [
       "quant-ph",
@@ -1820,7 +1820,7 @@
       "Simon Niedermayr",
       "Kaloian Petkov",
       "Klaus Engel",
-      "R\u00fcdiger Westermann"
+      "Rüdiger Westermann"
     ],
     "categories": [
       "cs.CV",
@@ -1861,7 +1861,7 @@
       "Pierre Fernandez",
       "Gergely Szilvasy",
       "Matthijs Douze",
-      "Herv\u00e9 J\u00e9gou"
+      "Hervé Jégou"
     ],
     "categories": [
       "cs.IR",
@@ -1920,7 +1920,7 @@
   {
     "arxiv_id": "2607.13568v1",
     "title": "Graded Entity-Familiarity Readouts in Language Models: Polish Adaptation, Cross-Language Robustness, and Refusal Steering",
-    "summary": "Can a language model estimate its familiarity with an entity before generating an answer? We study activations at the final prompt token in twelve instruction-tuned models from the Bielik, PLLuM, Gemma-4, and Qwen3 families, using a new dataset of 1,440 Polish entities spanning four domains and ten Wikipedia-pageview deciles, plus fabricated controls. Familiarity-probe scores separate real from fabricated entities in every family; in the Polish-adapted Bielik and PLLuM families they additionally track entity popularity (model-mean Spearman $\u03c1$ 0.28-0.57, versus at most 0.11 in Gemma-4 and Qwen3), a pattern more strongly associated with Polish adaptation than with parameter count in this model sample. In a paired experiment on two families, probes retain 96-101% of within-language AUROC when the Polish question stem is replaced with an English one around unchanged entity names, showing robustness to prompt language in this setting. In Gemma-4-12B, the only model that natively refuses, adding a one-dimensional familiarity direction at a single layer moves refusal rates monotonically in both directions (0.24 to 1.00 on well-known entities; 0.73 to 0.00 on unknown ones). Finally, a calibrated familiarity probe is competitive among pre-generation abstention gates, although post-generation detectors better predict behavioral error on average. These results support a graded pre-generation entity-familiarity readout, and a separation between representational familiarity and the policy that converts it into abstention.",
+    "summary": "Can a language model estimate its familiarity with an entity before generating an answer? We study activations at the final prompt token in twelve instruction-tuned models from the Bielik, PLLuM, Gemma-4, and Qwen3 families, using a new dataset of 1,440 Polish entities spanning four domains and ten Wikipedia-pageview deciles, plus fabricated controls. Familiarity-probe scores separate real from fabricated entities in every family; in the Polish-adapted Bielik and PLLuM families they additionally track entity popularity (model-mean Spearman $ρ$ 0.28-0.57, versus at most 0.11 in Gemma-4 and Qwen3), a pattern more strongly associated with Polish adaptation than with parameter count in this model sample. In a paired experiment on two families, probes retain 96-101% of within-language AUROC when the Polish question stem is replaced with an English one around unchanged entity names, showing robustness to prompt language in this setting. In Gemma-4-12B, the only model that natively refuses, adding a one-dimensional familiarity direction at a single layer moves refusal rates monotonically in both directions (0.24 to 1.00 on well-known entities; 0.73 to 0.00 on unknown ones). Finally, a calibrated familiarity probe is competitive among pre-generation abstention gates, although post-generation detectors better predict behavioral error on average. These results support a graded pre-generation entity-familiarity readout, and a separation between representational familiarity and the policy that converts it into abstention.",
     "authors": [
       "Grzegorz Brzezinka"
     ],
@@ -2043,7 +2043,7 @@
   {
     "arxiv_id": "2607.13918v1",
     "title": "Partially Correlated Verifier Cascades in LLM Harnesses: Concave Log-Odds, Polynomial Reliability, and Blind-Spot Ceilings",
-    "summary": "Serial verification gates are a core reliability primitive in LLM harnesses: a candidate answer is returned only if $k$ verifier calls all accept it. Under conditionally independent gates, the recent Odds Law (arXiv:2606.15712) shows that posterior log-odds grow linearly in $k$, so failure decays exponentially, and states that \"a tight theory of partially correlated verifier cascades remains open.\" This note gives a minimal such theory. Modeling the per-instance false-accept rate on the generator's own errors as a latent variable $\u03b1\\sim G$ (de Finetti), the exact cascade posterior is $\\ell_k = \\ell_0 - \\ln m_k$, with $m_k$ the $k$-th moment of $G$. Then: (i) $\\ell_k$ is concave in $k$ for every non-degenerate $G$ -- the Odds Law is its tangent at the first gate and an upper bound; (ii) for Beta$(a,b)$ latents, failure decays polynomially, $1-r_k \\asymp k^{-b}$, with correlation parameter $\u03c1_v = 1/(a+b+1)$; (iii) a blind-spot atom of mass $1-\u03c0$ at $\u03b1=1$ caps the evidence extractable from any number of gates at $-\\ln(1-\u03c0)$ nats, so reliability saturates below 1; (iv) letting the true-accept rate also vary ($\u03b2\\sim H$) yields a trichotomy -- gates eventually always help, plateau, or actively harm -- decided by the upper-tail exponents of $G$ and $H$, with closed-form crossover $k^\\dagger$. The mechanism is survivorship: errors surviving gates are the high-$\u03b1$ ones. The theory is measurable: $R$ repeated verdicts per instance identify the first $R$ moments of $G$, so two verdicts identify $\u03c1_v$; beta-binomial likelihood and NPMLE recover the reliability curve and the ill-posed ceiling. In synthetic tests, independence-based extrapolation underestimates failure by 20x at $k=5$ and ~3000x at $k=10$; the correlated fit at $R=8$ tracks held-out depths. The practical lever is decorrelation -- changing model family, modality, or evidence source -- not adding gates.",
+    "summary": "Serial verification gates are a core reliability primitive in LLM harnesses: a candidate answer is returned only if $k$ verifier calls all accept it. Under conditionally independent gates, the recent Odds Law (arXiv:2606.15712) shows that posterior log-odds grow linearly in $k$, so failure decays exponentially, and states that \"a tight theory of partially correlated verifier cascades remains open.\" This note gives a minimal such theory. Modeling the per-instance false-accept rate on the generator's own errors as a latent variable $α\\sim G$ (de Finetti), the exact cascade posterior is $\\ell_k = \\ell_0 - \\ln m_k$, with $m_k$ the $k$-th moment of $G$. Then: (i) $\\ell_k$ is concave in $k$ for every non-degenerate $G$ -- the Odds Law is its tangent at the first gate and an upper bound; (ii) for Beta$(a,b)$ latents, failure decays polynomially, $1-r_k \\asymp k^{-b}$, with correlation parameter $ρ_v = 1/(a+b+1)$; (iii) a blind-spot atom of mass $1-π$ at $α=1$ caps the evidence extractable from any number of gates at $-\\ln(1-π)$ nats, so reliability saturates below 1; (iv) letting the true-accept rate also vary ($β\\sim H$) yields a trichotomy -- gates eventually always help, plateau, or actively harm -- decided by the upper-tail exponents of $G$ and $H$, with closed-form crossover $k^\\dagger$. The mechanism is survivorship: errors surviving gates are the high-$α$ ones. The theory is measurable: $R$ repeated verdicts per instance identify the first $R$ moments of $G$, so two verdicts identify $ρ_v$; beta-binomial likelihood and NPMLE recover the reliability curve and the ill-posed ceiling. In synthetic tests, independence-based extrapolation underestimates failure by 20x at $k=5$ and ~3000x at $k=10$; the correlated fit at $R=8$ tracks held-out depths. The practical lever is decorrelation -- changing model family, modality, or evidence source -- not adding gates.",
     "authors": [
       "Jiangang Han"
     ],
@@ -2496,7 +2496,7 @@
   {
     "arxiv_id": "2607.13928v1",
     "title": "Plausible Deniability Guarantees for Whistleblowers",
-    "summary": "Whistleblowers are a key safeguard against organizational wrongdoing, but the threat of retaliation deters reporting. Existing whistleblower-protection proposals lack formal privacy guarantees, and existing differential privacy mechanisms do not directly target the natural threat model -- one in which the audited organization itself observes auditor selection decisions and uses them to identify reporters. We formalize protection against a strong-adversary threat model as per-report $(0, \u03b4)$-differential privacy on the transcript of audit selections. Within this framework we prove that a natural approach -- randomized response applied at the selection step -- can never outperform uniform random auditing by more than $\u03b4$ at any horizon. We then give a generic mechanism that reduces private auditing to private continual counting: any $(0, \u03b4)$-DP continual counter plugs in by post-processing, and the audit transcript inherits the same per-report guarantee. Instantiating the reduction with a recent work in continual counting yields per-report $(0, \u03b4)$-DP with noise scaling as $O(\\sqrt{\\log T})$ across a horizon of $T$ audit decisions. A utility theorem shows that the selection error vanishes whenever the noisy report gap between the most-reported organization and the runner-up grows faster than $\\sqrt{\\log T}$. Simulations show a substantial improvement over randomized response.",
+    "summary": "Whistleblowers are a key safeguard against organizational wrongdoing, but the threat of retaliation deters reporting. Existing whistleblower-protection proposals lack formal privacy guarantees, and existing differential privacy mechanisms do not directly target the natural threat model -- one in which the audited organization itself observes auditor selection decisions and uses them to identify reporters. We formalize protection against a strong-adversary threat model as per-report $(0, δ)$-differential privacy on the transcript of audit selections. Within this framework we prove that a natural approach -- randomized response applied at the selection step -- can never outperform uniform random auditing by more than $δ$ at any horizon. We then give a generic mechanism that reduces private auditing to private continual counting: any $(0, δ)$-DP continual counter plugs in by post-processing, and the audit transcript inherits the same per-report guarantee. Instantiating the reduction with a recent work in continual counting yields per-report $(0, δ)$-DP with noise scaling as $O(\\sqrt{\\log T})$ across a horizon of $T$ audit decisions. A utility theorem shows that the selection error vanishes whenever the noisy report gap between the most-reported organization and the runner-up grows faster than $\\sqrt{\\log T}$. Simulations show a substantial improvement over randomized response.",
     "authors": [
       "Leo Richter",
       "Matt J. Kusner"
@@ -2537,10 +2537,10 @@
     "title": "High-Order Question Generation in a Multilingual Educational Context",
     "summary": "Critical thinking is a fundamental skill that helps learners move beyond simple memorization. One way to develop this skill is through high-order questioning. However, crafting such questions remains a challenge for educators, and classroom practices tend to rely on low-order questions. Large Language Models have demonstrated strong capabilities in generating high-order questions, especially when guided by prompts based on Bloom's Taxonomy. Yet, existing research has largely centered on this framework and focused only on English. This study addresses these gaps by introducing prompts grounded in two alternative frameworks: Claim-Evidence-Reasoning and Divergent Questioning within a multilingual context using Basque, Spanish, and English. Results indicate that while both an open-source and a proprietary model rather effectively generate questions in all three languages, only about half of the answerable questions are recognized by teachers as high-order. A positive finding is that the alternative frameworks produce structurally and conceptually varied questions, suggesting they could complement each other and provide viable alternatives to Bloom's Taxonomy.",
     "authors": [
-      "Suna-\u015eeyma U\u00e7ar",
+      "Suna-Şeyma Uçar",
       "Itziar Aldabe",
       "Nora Aranberri",
-      "Orph\u00e9e De Clercq"
+      "Orphée De Clercq"
     ],
     "categories": [
       "cs.CL"
@@ -2611,7 +2611,7 @@
   {
     "arxiv_id": "2607.13771v1",
     "title": "Mono-Z Dark Matter Search with Neural Spline Flows Using CMS Run 2015D Open Data",
-    "summary": "We report a search for dark matter (DM) produced in association with a leptonically decaying \\(Z\\) boson at \\(\\sqrt{s}=13\\) TeV using CMS Run 2015D open data corresponding to an integrated luminosity of \\(2.32\\,\\mathrm{fb}^{-1}\\) together with simplified-model Monte Carlo simulation. Events are selected in the mono-\\(Z\\rightarrow\\ell^+\\ell^-\\) final state in both the \\(\u03bc\u03bc\\) and \\(ee\\) channels. Forty kinematic observables are extracted from MINIAOD and MINIAODSIM, cleaned with physics-motivated selections, and reduced to a 37-dimensional feature vector. Five Neural Spline Flows are trained independently to model Standard Model background and mediator-specific DM signal densities. The per-event test statistic is constructed from the log-likelihood ratio between the signal and background density estimates, providing sensitivity across the full kinematic phase space without requiring a hard upper \\(\\mathrm{MET}\\) threshold. A simultaneous profile-likelihood fit combining the two channels yields observed (expected) 95\\% confidence level upper limits on the signal-strength parameter of \\(\u03bc<0.0177\\) (\\(0.0018\\)) for the scalar mediator, \\(\u03bc<0.0362\\) (\\(0.0039\\)) for the vector mediator, and \\(\u03bc<0.0498\\) (\\(0.0069\\)) for the axial-vector mediator. The observed limits are weaker than expected because of a residual high-\\(\\mathrm{MET}\\) background-modeling discrepancy rather than evidence for a DM signal. To our knowledge, this is the first application of Neural Spline Flow likelihood-ratio scoring to a mono-\\(Z\\) dark matter search using CMS Run 2015D open data simultaneously in the \\(\u03bc\u03bc\\) and \\(ee\\) channels.",
+    "summary": "We report a search for dark matter (DM) produced in association with a leptonically decaying \\(Z\\) boson at \\(\\sqrt{s}=13\\) TeV using CMS Run 2015D open data corresponding to an integrated luminosity of \\(2.32\\,\\mathrm{fb}^{-1}\\) together with simplified-model Monte Carlo simulation. Events are selected in the mono-\\(Z\\rightarrow\\ell^+\\ell^-\\) final state in both the \\(μμ\\) and \\(ee\\) channels. Forty kinematic observables are extracted from MINIAOD and MINIAODSIM, cleaned with physics-motivated selections, and reduced to a 37-dimensional feature vector. Five Neural Spline Flows are trained independently to model Standard Model background and mediator-specific DM signal densities. The per-event test statistic is constructed from the log-likelihood ratio between the signal and background density estimates, providing sensitivity across the full kinematic phase space without requiring a hard upper \\(\\mathrm{MET}\\) threshold. A simultaneous profile-likelihood fit combining the two channels yields observed (expected) 95\\% confidence level upper limits on the signal-strength parameter of \\(μ<0.0177\\) (\\(0.0018\\)) for the scalar mediator, \\(μ<0.0362\\) (\\(0.0039\\)) for the vector mediator, and \\(μ<0.0498\\) (\\(0.0069\\)) for the axial-vector mediator. The observed limits are weaker than expected because of a residual high-\\(\\mathrm{MET}\\) background-modeling discrepancy rather than evidence for a DM signal. To our knowledge, this is the first application of Neural Spline Flow likelihood-ratio scoring to a mono-\\(Z\\) dark matter search using CMS Run 2015D open data simultaneously in the \\(μμ\\) and \\(ee\\) channels.",
     "authors": [
       "Hitesh Rasineni",
       "Bhavishya Chebrolu"
@@ -2756,7 +2756,7 @@
     "title": "From Language to Navigation Goals: A Vision-Language Approach for Semantic Navigation of Mobile Robots Using RGB-D Perception",
     "summary": "Natural language interaction provides an intuitive way for non-expert users to communicate with robotic platforms. However, transforming user requests into executable navigation actions remains a challenging task, requiring the integration of language understanding, environment perception, and autonomous navigation. This work presents a language-driven navigation framework that enables mobile robots to interpret user requests in natural language to move the robot to a destination and autonomously navigate towards it.   The framework is composed of modular ROS 2 components that cooperate to transform natural language instructions into navigation actions. Given a natural language request referring to a target in the environment (e.g., \"go to the mail box\"), the system identifies the referenced object, estimates its position using RGB-D data, and generates a navigation goal, which is then executed through the ROS 2 Nav2 navigation stack. The ROS 2-based implementation facilitates portability across different robotic platforms, requiring only the configuration of the corresponding topics and services.   The system is evaluated in both simulation and real-world scenarios using a TurtleBot3 Waffle and a Unitree Go2 robot with a RealSense camera. Experimental results show that the framework successfully interprets both direct commands and contextual requests, generates meaningful natural-language feedback, and navigates towards the desired target. These results demonstrate the feasibility of combining semantic perception and autonomous navigation to provide an intuitive human-robot interaction paradigm. Code will be released as open source upon acceptance.",
     "authors": [
-      "Jose Mart\u00ednez-Fajardo",
+      "Jose Martínez-Fajardo",
       "Pablo Pueyo",
       "Fernando Caballero",
       "Luis Merino"
@@ -2775,7 +2775,7 @@
   {
     "arxiv_id": "2607.13609v1",
     "title": "Gauge-Invariant, Parameter-Insensitive Regularization for Potential Recovery from Flow on Directed Graphs",
-    "summary": "Recovering a latent potential from observed flow on a directed graph (a discrete Poisson problem with Dirichlet boundaries) is ill-posed, and the standard fix backfires: ridge regularization shrinks toward a gauge-meaningless origin, collapsing and reversing the recovered ordering ($+0.81\\to-0.42$ rank correlation against a planted ground truth). The gauge-invariant graph Dirichlet energy removes the hazard and delivers parameter-insensitivity: the estimate is stable across four orders of magnitude in $\u03bb$, whereas ridge inverts the ordering for every $\u03bb>0$. We prove the reduced solve is SPD and preserves dynamic range exactly where ridge collapses it, and localize absorbing boundaries from flow alone via a Poisson residual. The $H^1$ seminorm is classical; what is new is the gauge diagnosis, the parameter-insensitivity it buys, and an ablation showing the result is robust to the extraction method. On three public clickstream corpora the gauge-invariant estimate retains $28$--$41\\%$ of the interior dynamic range while ridge collapses to as little as $0.2\\%$. The same gauge invariance carries into graph neural networks -- neutralizing the constant mode per layer prevents the oversmoothing that collapses a deep directed GCN -- linking this classical inverse problem to a central question in graph learning.",
+    "summary": "Recovering a latent potential from observed flow on a directed graph (a discrete Poisson problem with Dirichlet boundaries) is ill-posed, and the standard fix backfires: ridge regularization shrinks toward a gauge-meaningless origin, collapsing and reversing the recovered ordering ($+0.81\\to-0.42$ rank correlation against a planted ground truth). The gauge-invariant graph Dirichlet energy removes the hazard and delivers parameter-insensitivity: the estimate is stable across four orders of magnitude in $λ$, whereas ridge inverts the ordering for every $λ>0$. We prove the reduced solve is SPD and preserves dynamic range exactly where ridge collapses it, and localize absorbing boundaries from flow alone via a Poisson residual. The $H^1$ seminorm is classical; what is new is the gauge diagnosis, the parameter-insensitivity it buys, and an ablation showing the result is robust to the extraction method. On three public clickstream corpora the gauge-invariant estimate retains $28$--$41\\%$ of the interior dynamic range while ridge collapses to as little as $0.2\\%$. The same gauge invariance carries into graph neural networks -- neutralizing the constant mode per layer prevents the oversmoothing that collapses a deep directed GCN -- linking this classical inverse problem to a central question in graph learning.",
     "authors": [
       "Mohammad Forouhesh"
     ],
@@ -2883,7 +2883,7 @@
     "title": "The Test Oracle Problem in Synthetic LLM-as-Judge Corpora: Disappearance, Distortion and a Validation Protocol",
     "summary": "Studies of bias in LLM-as-judge systems typically build synthetic corpora by prompting an LLM to generate a hallucinated answer to pair with a factual one, then presenting both to a judge. We report a case in which this generation step silently failed, and use it to argue that the failure mode is structural rather than incidental. In a multilingual (Turkish/English) faithfulness-judgment corpus, a decoding-budget parameter shared between judging and generation calls truncated one producer's hallucinated answers to a few words. The resulting items produced a large, statistically robust effect: a 32-point cross-lingual collapse in one judge's selection accuracy, replicated from N=50 to N=500, explained by a three-layer mechanistic account, and confirmed by a controlled producer-swap experiment, none of which was real. The effect vanished to ceiling once the shared parameter was corrected, and only manual reading of the raw generations, not any aggregate statistical check, exposed the fault. A second measured bias (Markdown-formatting preference) was not fabricated but distorted by the same fault, its magnitude and in one case its sign shifting with stimulus length, a mode aggregate metrics cannot distinguish from the first. We frame the underlying vulnerability using the test oracle problem: corpora whose negative examples are LLM-generated carry no mechanical way to verify item integrity, while corpora built by deterministic perturbation of a gold answer carry an item-level oracle for free. A positive control supports this claim directly: an analogous fault injected into a minimal perturbation-based corpus is caught with 100% accuracy by a zero-cost, zero-human gold-to-negative string comparison. We close with a validation protocol, derived from our own case, for analysts working in the oracle-less regime that we argue describes most contemporary multilingual LLM-as-judge corpora.",
     "authors": [
-      "Serkan Ball\u0131"
+      "Serkan Ballı"
     ],
     "categories": [
       "cs.CL"
@@ -2996,7 +2996,7 @@
     "summary": "Bioacoustic call-type classification relies on costly expert annotation. Active learning can reduce this burden by selecting a small batch of segments for expert annotation and using the labeled segments for training the classifier. The setting is hard: the target calls are extremely sparse and the call-type distribution is long-tailed, so a tight budget must be spent on the few rare, informative segments. We propose BADGE-Greedy-DPP, a deterministic batch selector that greedily adds the segment whose BADGE gradient embedding most enlarges the volume spanned by the batch; because this log-volume objective is submodular, the greedy rule guarantees a batch value at least a (1-1/e) fraction of the optimum of this objective, a guarantee not provided by BADGE's existing k-means++ and MCMC DPP sampling heuristics. There is also a temporal granularity mismatch in the task. The acquisition function scores whole segments, yet the informative frames inside them are few. Uniform averaging therefore washes them out. We show that the BADGE construction naturally addresses this mismatch when applied frame-wise, as prediction residuals weight the aggregated pseudo-gradient, so confidently predicted no-call frames contribute little while a single uncertain rare-call frame can still set the segment's direction. Across 10 runs on a sparse, imbalanced hyena call-type dataset, BADGE-Greedy-DPP achieves the best overall and rare-call-type performance among all compared query strategies, including MFFT, the strongest non-BADGE baseline, and the two vanilla BADGE traversals.",
     "authors": [
       "Shiqi Zhang",
-      "Marius Fai\u00df",
+      "Marius Faiß",
       "Ariana Strandburg-Peshkin",
       "Tuomas Virtanen"
     ],
@@ -3056,7 +3056,7 @@
     "title": "Multimodal Empirical Bayes Variational Autoencoders for Joint Longitudinal and Time-to-Event Modeling",
     "summary": "Longitudinal tumor measurements, dropout information, and genetic covariates provide complementary information about treatment response, but integrating these data sources within a single population modeling framework remains challenging. We extend the empirical Bayes variational autoencoder (EB-VAE) framework to joint longitudinal and time-to-event modeling and evaluate it on tumor growth data. The framework represents inter-individual variability using latent individual effects regularized by a covariate-conditioned empirical Bayes prior, while a decoder maps these latent effects to tumor-volume trajectories. To account for informative dropout, the decoder was augmented with a hazard model, yielding joint predictions of tumor growth and time to dropout. We further compared fully neural and hybrid semi-mechanistic decoder formulations and incorporated genomic covariates through a genetics-conditioned prior adaptation. The hybrid decoder recovered treatment-effect parameters broadly consistent with previously reported nonlinear mixed-effects estimates, while achieving prior predictive performance comparable to the neural decoder. The joint model reproduced both tumor-volume distributions and dropout patterns in held-out individuals, and genetic conditioning improved individual-level prior predictions in both cutaneous melanoma and breast cancer experiments. Stability selection identified several biologically plausible genetic indicators, including alterations in BRAF, NRAS, NF1, and MDM2. These results demonstrate that EB-VAE provides a flexible probabilistic framework for combining neural dynamics, mechanistic structure, time-to-event modeling, and high-dimensional covariates in pharmacometric applications.",
     "authors": [
-      "Anders Sj\u00f6berg",
+      "Anders Sjöberg",
       "Nils Olsson",
       "Marcus Baaz",
       "Mats Jirstrand"
@@ -3139,12 +3139,12 @@
   {
     "arxiv_id": "2607.13782v1",
     "title": "Regularity as seen by Alice and Bob",
-    "summary": "The goal of this paper is to propose a unifying model for Nerode-style characterizations of regularity across functions with different output domains. Building on Hauser's work in communication complexity, we generalize the setting by relaxing the computability assumptions and allowing non-Boolean output domains. We consider functions of type $\u03a3^* \\to \\domain$, where $\u03a3$ is a finite alphabet and $\\domain$ is an arbitrary domain. For several domains, we show that the model coincides with known models of computation. We further conjecture that an analogous correspondence holds for other domains that currently lack a Nerode-style characterization of regularity, and we provide ample supporting evidence. In the model, an input string $w$ is split as $w = w_1 w_2$ and distributed between two cooperating parties, Alice and Bob, who exchange a constant number of messages to compute the value of the function. Each message is either an element of the output domain or a signal drawn from a finite set of signals, and the parties must produce the correct output for every admissible split $w = w_1 w_2$. We further extend the framework to infinite alphabets in the setting of nominal sets, and investigate its expressiveness on languages of words with atoms.",
+    "summary": "The goal of this paper is to propose a unifying model for Nerode-style characterizations of regularity across functions with different output domains. Building on Hauser's work in communication complexity, we generalize the setting by relaxing the computability assumptions and allowing non-Boolean output domains. We consider functions of type $Σ^* \\to \\domain$, where $Σ$ is a finite alphabet and $\\domain$ is an arbitrary domain. For several domains, we show that the model coincides with known models of computation. We further conjecture that an analogous correspondence holds for other domains that currently lack a Nerode-style characterization of regularity, and we provide ample supporting evidence. In the model, an input string $w$ is split as $w = w_1 w_2$ and distributed between two cooperating parties, Alice and Bob, who exchange a constant number of messages to compute the value of the function. Each message is either an element of the output domain or a signal drawn from a finite set of signals, and the parties must produce the correct output for every admissible split $w = w_1 w_2$. We further extend the framework to infinite alphabets in the setting of nominal sets, and investigate its expressiveness on languages of words with atoms.",
     "authors": [
       "Omid Yaghoubi",
-      "Miko\u0142aj Boja\u0144czyk",
+      "Mikołaj Bojańczyk",
       "Aliaume Lopez",
-      "Rafa\u0142 Stefa\u0144ski"
+      "Rafał Stefański"
     ],
     "categories": [
       "cs.FL",
@@ -3203,9 +3203,9 @@
     "title": "Clustering algorithms for multivariate wind farm SCADA data filtering",
     "summary": "During wind farm operation, Supervisory Control and Data Acquisition (SCADA) systems record numerous anomalies, transients, and specific operational modes, leading to large datasets. However, for a wide range of applications, only measurements corresponding to normal operation are required and, therefore, the SCADA data must be filtered. For this purpose, several methods have been proposed to automate and replace manual filtering conducted by experts via visual inspection of the data. In this paper, we compare the filtering accuracy of multiple clustering algorithms against manual filtering, introducing evaluation metrics that are suitable for unlabeled data and robust across potential applications. Based on the results, we provide recommendations for generalizing model calibration to different datasets and discuss potential use cases for each model. The models are applied to the SCADA data of three turbines of an existing offshore wind farm, using 10-minute statistics across multiple data channels. In addition to the anomalies and operational modes typically recorded, the dataset presents a large number of non-evident outliers due to several field tests. Overall, the results highlight the importance of extending the analysis beyond the power curve, both in feature selection and in the design of evaluation metrics. In most cases, cluster-based methods are able to detect both evident and subtle outliers, achieving higher accuracy than manual filtering. However, the accuracy and the amount of data retained vary considerably depending on the model, and expert involvement remains necessary, though to a reduced extent compared to manual filtering.",
     "authors": [
-      "Nicol\u00f2 Italiano",
+      "Nicolò Italiano",
       "Vasilis Pettas",
-      "Tuhfe G\u00f6\u00e7men",
+      "Tuhfe Göçmen",
       "Nicolaos A. Cutululis"
     ],
     "categories": [
@@ -3456,7 +3456,7 @@
   {
     "arxiv_id": "2607.13703v1",
     "title": "Conditional Invertible Neural Networks for Data-Driven UAV Control: A 2-D Proof of Concept",
-    "summary": "We investigate conditional invertible neural networks (cINNs) as probabilistic inverse-dynamics models for multirotor control. For a planar X8 coaxial multicopter, we learn $p(u \\mid s_t, c_t)$ from an incremental nonlinear dynamic inversion (INDI) teacher using rational-quadratic spline coupling and invertible linear mixing. Open-loop reproduction reaches $R^2 = 0.944$, mean CRPS 0.0915, and log-probability-error correlation $\u03c1= -0.60$. Over 15 closed-loop scenarios, position RMSE matches INDI (9.7 vs. 9.5 m), with 47 percent tracking acceptably; failures separate into attitude divergence under aggressive steps and phase lag under high-frequency references, isolating command bandwidth and data coverage as dominant failure mechanisms.",
+    "summary": "We investigate conditional invertible neural networks (cINNs) as probabilistic inverse-dynamics models for multirotor control. For a planar X8 coaxial multicopter, we learn $p(u \\mid s_t, c_t)$ from an incremental nonlinear dynamic inversion (INDI) teacher using rational-quadratic spline coupling and invertible linear mixing. Open-loop reproduction reaches $R^2 = 0.944$, mean CRPS 0.0915, and log-probability-error correlation $ρ= -0.60$. Over 15 closed-loop scenarios, position RMSE matches INDI (9.7 vs. 9.5 m), with 47 percent tracking acceptably; failures separate into attitude divergence under aggressive steps and phase lag under high-frequency references, isolating command bandwidth and data coverage as dominant failure mechanisms.",
     "authors": [
       "Christian Wittke",
       "Stephan Myschik",
@@ -3478,7 +3478,7 @@
     "title": "Towards a Modular Bin-picking Framework for Handling Object Pose Uncertainties",
     "summary": "In recent years, there has been growing interest in robust robotic systems for precise bin-picking applications. To achieve reliable performance, such systems must address errors arising from both the object pose estimation and the grasping process. Although various approaches have been proposed, they typically target specific challenges and do not offer general solutions. In this paper, we present a modular framework that jointly handles both error types. The framework incorporates object pose distribution estimation to account for pose uncertainty, which frequently arises in situations with ambiguous observations where a single correct pose cannot be determined. To further reduce uncertainty, we introduce a second-viewpoint module that computes complementary pose distributions, which are subsequently fused. This fusion decreases overall uncertainty and improves system efficiency. Additionally, two independent modules are included to compensate for grasping errors. The modular design allows the components to be combined for optimal performance or used individually, depending on the physical setup.   The proposed method is evaluated in a real-world setup with three different objects, with no errors, and all modules are shown to improve efficiency. These results suggest that incorporating pose distributions with grasping pose errors is a promising direction for developing more flexible and reliable robotic production systems.   To the best of our knowledge, this is the first framework that jointly addresses both grasping and object pose uncertainties using interchangeable modules. We believe there is ample opportunity to integrate additional modules, resulting in improved performance and flexibility. The current framework is limited to pose uncertainties in SO(2), but it could be extended to SE(3), enabling additional modules to improve the system.",
     "authors": [
-      "Frederik Hagelskj\u00e6r"
+      "Frederik Hagelskjær"
     ],
     "categories": [
       "cs.RO",
@@ -4051,7 +4051,7 @@
     "title": "SPECS: Speciated Evolutionary Circuit Synthesis",
     "summary": "We propose SPECS, a genetic algorithm for automated analog circuit synthesis with joint topology and sizing optimization. SPECS is inspired by NeuroEvolution of Augmenting Topologies (NEAT), an evolutionary algorithm originally developed to synthesize neural networks. By reformulating the genome representation and adapting the genetic operators to the analog circuit domain, we successfully transfer the core principles of NEAT to analog circuit synthesis. Circuit-specific wiring constraints are incorporated to ensure valid and physically meaningful designs throughout the evolutionary process, and speciation is used to preserve innovation while maintaining population diversity. We evaluate the proposed method on a set of computational circuit synthesis tasks consisting of square, cube, square root, and cube root functions. Experimental results demonstrate that SPECS outperforms benchmark methods across all tasks in both solution quality and reliability. The synthesized circuits and their schematics are available in the supplementary repository.",
     "authors": [
-      "Ya\u011f\u0131z Gen\u00e7er",
+      "Yağız Gençer",
       "Stefan Uhlich",
       "Andrea Bonetti",
       "Arun Venkitaraman",
@@ -4193,7 +4193,7 @@
   {
     "arxiv_id": "2607.13682v1",
     "title": "Calibrated Closed-Form Uncertainty for Radiative Gaussian Splatting in Sparse-View CT",
-    "summary": "Radiative Gaussian splatting has made sparse-view CT reconstruction fast, but existing methods output point estimates with no notion of where the reconstruction can be trusted. We exploit a property of transmissive X-ray imaging that RGB splatting cannot claim -- projection and voxelization are strictly linear in the per-Gaussian densities -- to equip radiative Gaussians with a variational density posterior whose predictive variance propagates in closed form, exactly, in a single forward pass, in both volume space ($\u03c3^2(x)=\\sum_i g_i(x)^2 s_i^2$) and projection space ($\\mathrm{Var}[I_p]=\\sum_i w_{i,p}^2 s_i^2$). We present the first systematic calibration study for Gaussian-splatting CT (Spearman / AUSE / ECE with temperature scaling), showing that the resulting per-voxel uncertainty ranks true reconstruction error on 14 of 15 scenes of the official benchmark across three view budgets -- 9 of 15 additionally meeting our magnitude-calibration target after a single temperature -- while the perturbation-ensemble heuristic of concurrent work, transplanted to voxel space under the same protocol on our development scenes, does not (rank correlation as low as $-0.08$). We then dissect why uncalibrated acquisition scores can nevertheless select acceptable views, identifying three regimes -- flat (isotropic, balanced), pathological (degenerate coverage), and anisotropic -- and showing, in controlled single-scene testbeds, that principled uncertainty earns a measurable premium only in the last, motivating a coverage-gated, maturity-scheduled acquisition policy; the same calibrated posterior further points toward a dose-adaptive stopping rule, whose experimental validation we leave to future work.",
+    "summary": "Radiative Gaussian splatting has made sparse-view CT reconstruction fast, but existing methods output point estimates with no notion of where the reconstruction can be trusted. We exploit a property of transmissive X-ray imaging that RGB splatting cannot claim -- projection and voxelization are strictly linear in the per-Gaussian densities -- to equip radiative Gaussians with a variational density posterior whose predictive variance propagates in closed form, exactly, in a single forward pass, in both volume space ($σ^2(x)=\\sum_i g_i(x)^2 s_i^2$) and projection space ($\\mathrm{Var}[I_p]=\\sum_i w_{i,p}^2 s_i^2$). We present the first systematic calibration study for Gaussian-splatting CT (Spearman / AUSE / ECE with temperature scaling), showing that the resulting per-voxel uncertainty ranks true reconstruction error on 14 of 15 scenes of the official benchmark across three view budgets -- 9 of 15 additionally meeting our magnitude-calibration target after a single temperature -- while the perturbation-ensemble heuristic of concurrent work, transplanted to voxel space under the same protocol on our development scenes, does not (rank correlation as low as $-0.08$). We then dissect why uncalibrated acquisition scores can nevertheless select acceptable views, identifying three regimes -- flat (isotropic, balanced), pathological (degenerate coverage), and anisotropic -- and showing, in controlled single-scene testbeds, that principled uncertainty earns a measurable premium only in the last, motivating a coverage-gated, maturity-scheduled acquisition policy; the same calibrated posterior further points toward a dose-adaptive stopping rule, whose experimental validation we leave to future work.",
     "authors": [
       "Chulin Zhao",
       "Yiran Xu",
@@ -4375,367 +4375,5 @@
     "date": "2026-07-16",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "User01110/CMA2-20M",
-    "author": "unknown",
-    "title": "User01110/CMA2-20M",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "cma",
-      "text-generation",
-      "custom_code",
-      "causal-lm",
-      "small-language-model",
-      "generalist",
-      "4k-tokenizer",
-      "dataset:HuggingFaceFW/fineweb_edu_100BT-shuffled",
-      "dataset:HuggingFaceTB/smollm-corpus",
-      "dataset:epfml/FineWeb-HQ",
-      "dataset:HuggingFaceTB/finemath",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-16T04:34:32.000Z",
-    "last_modified": "2026-07-16T05:12:44.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/User01110/CMA2-20M",
-    "date": "2026-07-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ErtasAI/Llama-3.2-1B-Instruct",
-    "author": "unknown",
-    "title": "ErtasAI/Llama-3.2-1B-Instruct",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "facebook",
-      "meta",
-      "pytorch",
-      "llama-3",
-      "ertas",
-      "conversational",
-      "en",
-      "de",
-      "fr",
-      "it",
-      "pt",
-      "hi",
-      "es",
-      "th",
-      "arxiv:2204.05149",
-      "arxiv:2405.16406",
-      "base_model:meta-llama/Llama-3.2-1B-Instruct",
-      "base_model:finetune:meta-llama/Llama-3.2-1B-Instruct",
-      "license:llama3.2",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-16T04:42:54.000Z",
-    "last_modified": "2026-07-16T05:12:36.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ErtasAI/Llama-3.2-1B-Instruct",
-    "date": "2026-07-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SetrxAI/qwen-1.5b-setrxai",
-    "author": "unknown",
-    "title": "SetrxAI/qwen-1.5b-setrxai",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-16T05:07:01.000Z",
-    "last_modified": "2026-07-16T05:10:40.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SetrxAI/qwen-1.5b-setrxai",
-    "date": "2026-07-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "jaspalsinghsaluja/fb-mms-1b-ncer-train-101890-epochs-15-test-1569",
-    "author": "unknown",
-    "title": "jaspalsinghsaluja/fb-mms-1b-ncer-train-101890-epochs-15-test-1569",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "wav2vec2",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-07-14T20:07:29.000Z",
-    "last_modified": "2026-07-16T05:10:11.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/jaspalsinghsaluja/fb-mms-1b-ncer-train-101890-epochs-15-test-1569",
-    "date": "2026-07-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Sudith/svlm-lora-n500",
-    "author": "unknown",
-    "title": "Sudith/svlm-lora-n500",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:google/gemma-4-E2B-it",
-      "lora",
-      "transformers",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:google/gemma-4-E2B-it",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-16T05:04:40.000Z",
-    "last_modified": "2026-07-16T05:09:19.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Sudith/svlm-lora-n500",
-    "date": "2026-07-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sulaimank/whisper-small-luganda-waxal-pseudo",
-    "author": "unknown",
-    "title": "sulaimank/whisper-small-luganda-waxal-pseudo",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-07-15T19:24:27.000Z",
-    "last_modified": "2026-07-16T05:08:43.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sulaimank/whisper-small-luganda-waxal-pseudo",
-    "date": "2026-07-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "h2oai/h2ovl-mississippi-2b",
-    "author": "unknown",
-    "title": "h2oai/h2ovl-mississippi-2b",
-    "downloads": 1148024,
-    "likes": 42,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "h2ovl_chat",
-      "feature-extraction",
-      "gpt",
-      "llm",
-      "multimodal large language model",
-      "ocr",
-      "text-generation",
-      "conversational",
-      "custom_code",
-      "en",
-      "arxiv:2410.13611",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2024-10-15T18:15:29.000Z",
-    "last_modified": "2026-07-16T05:07:36.000Z",
-    "days_since_creation": 638,
-    "url": "https://huggingface.co/h2oai/h2ovl-mississippi-2b",
-    "date": "2026-07-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "h2oai/h2ovl-mississippi-800m",
-    "author": "unknown",
-    "title": "h2oai/h2ovl-mississippi-800m",
-    "downloads": 1175750,
-    "likes": 40,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "h2ovl_chat",
-      "feature-extraction",
-      "gpt",
-      "llm",
-      "multimodal large language model",
-      "ocr",
-      "text-generation",
-      "conversational",
-      "custom_code",
-      "en",
-      "arxiv:2410.13611",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2024-10-16T23:14:07.000Z",
-    "last_modified": "2026-07-16T05:07:17.000Z",
-    "days_since_creation": 637,
-    "url": "https://huggingface.co/h2oai/h2ovl-mississippi-800m",
-    "date": "2026-07-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "fpadovani/dan-latn-10mb-after-ppt-shuff-dyck-100mb-ckpt500_seed455",
-    "author": "unknown",
-    "title": "fpadovani/dan-latn-10mb-after-ppt-shuff-dyck-100mb-ckpt500_seed455",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "sft",
-      "trl",
-      "base_model:fpadovani/dan-latn-10mb-ppt-shuff-dyck-100mb_seed455",
-      "base_model:finetune:fpadovani/dan-latn-10mb-ppt-shuff-dyck-100mb_seed455",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-16T04:21:17.000Z",
-    "last_modified": "2026-07-16T05:05:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fpadovani/dan-latn-10mb-after-ppt-shuff-dyck-100mb-ckpt500_seed455",
-    "date": "2026-07-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "MINZIK77/lm-sft-ultrachat-3b-ckpts",
-    "author": "unknown",
-    "title": "MINZIK77/lm-sft-ultrachat-3b-ckpts",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "conversational",
-      "base_model:Qwen/Qwen2.5-3B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-3B-Instruct",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-16T05:00:51.000Z",
-    "last_modified": "2026-07-16T05:05:42.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/MINZIK77/lm-sft-ultrachat-3b-ckpts",
-    "date": "2026-07-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "smarttasks/phi-4-GGUF",
-    "author": "unknown",
-    "title": "smarttasks/phi-4-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "quantized",
-      "llama.cpp",
-      "scorecard",
-      "governance",
-      "validated",
-      "local-llm",
-      "on-device",
-      "agentic",
-      "tool-calling",
-      "function-calling",
-      "agents",
-      "ai-agents",
-      "rag",
-      "q4_k_m",
-      "q8_0",
-      "text-generation",
-      "en",
-      "base_model:microsoft/phi-4",
-      "base_model:quantized:microsoft/phi-4",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "gguf",
-    "created_at": "2026-07-16T03:45:44.000Z",
-    "last_modified": "2026-07-16T05:04:39.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/smarttasks/phi-4-GGUF",
-    "date": "2026-07-16",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
