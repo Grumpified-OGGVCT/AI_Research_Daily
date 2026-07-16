@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-16T22:59:06.284027",
+  "date": "2026-07-16T23:58:45.034727",
   "patterns": {
     "multimodal_research": [
       {
@@ -607,8 +607,8 @@
         "url": "https://arxiv.org/abs/2607.13661v1"
       },
       {
-        "title": "hathucviet/SmolLM2-135M-sft",
-        "url": "https://huggingface.co/hathucviet/SmolLM2-135M-sft"
+        "title": "sulaimank/w2vbert-luganda-waxal-punct",
+        "url": "https://huggingface.co/sulaimank/w2vbert-luganda-waxal-punct"
       }
     ],
     "vision_systems": [
@@ -927,10 +927,6 @@
       {
         "title": "Fine-grained CLIP fine-tuning with self-annotated region alignment",
         "url": "https://arxiv.org/abs/2607.13661v1"
-      },
-      {
-        "title": "hathucviet/SmolLM2-135M-sft",
-        "url": "https://huggingface.co/hathucviet/SmolLM2-135M-sft"
       }
     ],
     "reasoning": [
@@ -1607,7 +1603,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1660,6 +1656,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 390
+    "total_papers": 389
   }
 }
