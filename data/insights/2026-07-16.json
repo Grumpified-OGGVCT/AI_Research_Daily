@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-16T22:00:07.463908",
+  "date": "2026-07-16T22:59:06.284027",
   "patterns": {
     "multimodal_research": [
       {
@@ -607,20 +607,8 @@
         "url": "https://arxiv.org/abs/2607.13661v1"
       },
       {
-        "title": "Izbebe/ru-toxicity-classifier-rosberta",
-        "url": "https://huggingface.co/Izbebe/ru-toxicity-classifier-rosberta"
-      },
-      {
         "title": "hathucviet/SmolLM2-135M-sft",
         "url": "https://huggingface.co/hathucviet/SmolLM2-135M-sft"
-      },
-      {
-        "title": "sulaimank/w2vbert-luganda-waxal-punct",
-        "url": "https://huggingface.co/sulaimank/w2vbert-luganda-waxal-punct"
-      },
-      {
-        "title": "ArabicNewsAnalyzer/marbert-arabic-propaganda",
-        "url": "https://huggingface.co/ArabicNewsAnalyzer/marbert-arabic-propaganda"
       }
     ],
     "vision_systems": [
@@ -1613,7 +1601,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "70 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1672,6 +1660,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 393
+    "total_papers": 390
   }
 }
