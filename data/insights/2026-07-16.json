@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-16T14:55:41.604130",
+  "date": "2026-07-16T16:13:29.820803",
   "patterns": {
     "multimodal_research": [
       {
@@ -605,6 +605,18 @@
       {
         "title": "Fine-grained CLIP fine-tuning with self-annotated region alignment",
         "url": "https://arxiv.org/abs/2607.13661v1"
+      },
+      {
+        "title": "simaai/Gemma-3-1B-it-GPTQ-Safetensors",
+        "url": "https://huggingface.co/simaai/Gemma-3-1B-it-GPTQ-Safetensors"
+      },
+      {
+        "title": "kingsman34/FinTwitBERT-sentiment-ONNX",
+        "url": "https://huggingface.co/kingsman34/FinTwitBERT-sentiment-ONNX"
+      },
+      {
+        "title": "adoulbakir/ramy-sentiment-marbert",
+        "url": "https://huggingface.co/adoulbakir/ramy-sentiment-marbert"
       }
     ],
     "vision_systems": [
@@ -1593,7 +1605,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "66 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1652,6 +1664,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 388
+    "total_papers": 391
   }
 }
