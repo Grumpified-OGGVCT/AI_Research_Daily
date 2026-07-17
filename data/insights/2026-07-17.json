@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-17T15:09:47.032099",
+  "date": "2026-07-17T17:06:34.919827",
   "patterns": {
     "multimodal_research": [
       {
@@ -1007,6 +1007,14 @@
       {
         "title": "ESAR: Event-Based Synthetic Aperture Reconstruction",
         "url": "https://arxiv.org/abs/2607.15073v1"
+      },
+      {
+        "title": "wabibito/onyx-z-image-8bit",
+        "url": "https://huggingface.co/wabibito/onyx-z-image-8bit"
+      },
+      {
+        "title": "wabibito/onyx-z-image-turbo-8bit",
+        "url": "https://huggingface.co/wabibito/onyx-z-image-turbo-8bit"
       }
     ],
     "reasoning": [
@@ -1301,6 +1309,10 @@
       {
         "title": "Post Hoc Inference for Component Attribution in Multivariate Change-Point Detection",
         "url": "https://arxiv.org/abs/2607.14814v1"
+      },
+      {
+        "title": "inference-optimization/Inkling-0.6B",
+        "url": "https://huggingface.co/inference-optimization/Inkling-0.6B"
       }
     ],
     "benchmarks": [
@@ -1795,13 +1807,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "83 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1848,6 +1860,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 437
+    "total_papers": 440
   }
 }
