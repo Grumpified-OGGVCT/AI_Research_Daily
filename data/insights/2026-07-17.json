@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-17T05:35:54.709517",
+  "date": "2026-07-17T07:58:39.027150",
   "patterns": {
     "multimodal_research": [
       {
@@ -1305,10 +1305,6 @@
       {
         "title": "Post Hoc Inference for Component Attribution in Multivariate Change-Point Detection",
         "url": "https://arxiv.org/abs/2607.14814v1"
-      },
-      {
-        "title": "inferencerlabs/Inkling-LM-MLX-Q3",
-        "url": "https://huggingface.co/inferencerlabs/Inkling-LM-MLX-Q3"
       }
     ],
     "benchmarks": [
@@ -1809,7 +1805,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1856,6 +1852,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 439
+    "total_papers": 438
   }
 }
