@@ -143,17 +143,17 @@
   {
     "arxiv_id": "2607.15082v1",
     "title": "Towards Hierarchical Structure Understanding of Newspaper Images",
-    "summary": "Understanding newspaper images remains a challenging task due to their complex, nested hierarchical structures and dense, heterogeneous layouts. In this paper, we explore two complementary approaches for newspaper structure understanding. First, we present a modular bottom-up pipeline that combines state-of-the-art open-source models: YOLO for layout detection, LayoutReader for reading order prediction, and a custom algorithm for article segmentation. This approach leverages existing robust components while maintaining flexibility and interpretability. Second, we introduce Tiramisu (Tiered Transformers for Hierarchical Structure Understanding), a novel end-to-end transformer-based architecture that explicitly models document hierarchy through an iterative tiered process. Tiramisu performs section and article separation, block localization, semantic categorization, and reading order prediction using highly parallelized attention mechanisms. Finally, we release Finlam La Libert\u00e9, a new dataset designed specifically for evaluating hierarchical information retrieval in historical newspapers. Experimental results demonstrate the effectiveness of both approaches in reconstructing complex newspaper hierarchies, with comparative analysis highlighting their respective strengths for scalable document digitization. The Tiramisu training code, including the synthetic newspaper generator, is available at https://git.litislab.fr/tiramisu/tiramisu-newspaper-articles-extractor.",
+    "summary": "Understanding newspaper images remains a challenging task due to their complex, nested hierarchical structures and dense, heterogeneous layouts. In this paper, we explore two complementary approaches for newspaper structure understanding. First, we present a modular bottom-up pipeline that combines state-of-the-art open-source models: YOLO for layout detection, LayoutReader for reading order prediction, and a custom algorithm for article segmentation. This approach leverages existing robust components while maintaining flexibility and interpretability. Second, we introduce Tiramisu (Tiered Transformers for Hierarchical Structure Understanding), a novel end-to-end transformer-based architecture that explicitly models document hierarchy through an iterative tiered process. Tiramisu performs section and article separation, block localization, semantic categorization, and reading order prediction using highly parallelized attention mechanisms. Finally, we release Finlam La Liberté, a new dataset designed specifically for evaluating hierarchical information retrieval in historical newspapers. Experimental results demonstrate the effectiveness of both approaches in reconstructing complex newspaper hierarchies, with comparative analysis highlighting their respective strengths for scalable document digitization. The Tiramisu training code, including the synthetic newspaper generator, is available at https://git.litislab.fr/tiramisu/tiramisu-newspaper-articles-extractor.",
     "authors": [
-      "William Moca\u00ebr",
-      "Sol\u00e8ne Tarride",
+      "William Mocaër",
+      "Solène Tarride",
       "Thomas Constum",
       "Merveilles Agbeti-Messan",
       "Tom Simon",
-      "Cl\u00e9ment Chatelain",
-      "St\u00e9phane Nicolas",
+      "Clément Chatelain",
+      "Stéphane Nicolas",
       "Pierrick Tranouez",
-      "S\u00e9bastien Cretin",
+      "Sébastien Cretin",
       "Thierry Paquet"
     ],
     "categories": [
@@ -334,7 +334,7 @@
     "summary": "Reasoning language models (RLMs) have demonstrated impressive performance in domains such as mathematics and coding. These domains permit reliable verification of model outputs, which is important for enabling the reinforcement learning that drives RLM performance gains. However, training RLMs on domains that lack reliable verifiers remains challenging. Meanwhile, for both verifiable and unverifiable domains, large amounts of unused supervised fine-tuning data with human-written solutions exist. In this work, we show that these data can be used efficiently to further improve RLM performance. For this, we first use classic instruction tuning, supervised fine-tuning without reasoning traces, on the RLM. Next, we merge our instruction-tuned model with the original reasoning model, recovering its reasoning behavior on the target domain. Our extensive evaluation demonstrates that our technique improves RLM performance in both verifiable and hard-to-verify domains, including coding and text summarization, while preserving RLM capabilities across other domains. Importantly, our method is highly cost-effective, enabling such improvements for less than USD $3.",
     "authors": [
       "Yu-Du Feng",
-      "Niels M\u00fcndler-Sasahara",
+      "Niels Mündler-Sasahara",
       "Mark Vero",
       "Martin Vechev"
     ],
@@ -607,7 +607,7 @@
   {
     "arxiv_id": "2607.14747v1",
     "title": "Toward Energy-Efficient and Low-Power Arrhythmia Detection for Wearable Devices",
-    "summary": "Cardiovascular diseases are the leading cause of death worldwide, and conditions such as arrhythmia often require long-term monitoring for effective detection and diagnosis. However, current wearable monitoring devices are bulky, uncomfortable, and typically rely on clinicians to manually evaluate electrocardiograms (ECGs). While Deep Learning (DL) algorithms have shown superior performance in arrhythmia detection and classification, their computational complexity coupled with high power consumption limit deployment in wearable devices. To address this challenge, this paper investigates the use of approximation techniques to reduce the power and energy consumption of DL architectures while maintaining acceptable classification performance. Specifically, techniques such as data precision reduction and approximate multiplication are investigated in a state-of-the-art DL model and its corresponding hardware architecture. The model is trained and validated using the MIT-BIH Arrhythmia Database, and hardware implementations employing various approximate multipliers are synthesized and evaluated. Compared with the state-of-the-art 8.75 \u03bcW (and 2.08 \u03bcJ) reference architecture, our proposed architecture consumes 3.07 \u03bcW (and 2.17 \u03bcJ) at 12 kHz, showing 64.9% reduction in power consumption while providing an acceptable output quality, i.e., 93.7% classification accuracy and 92.1% sensitivity. At 100 MHz, our proposed architecture consumes 9.45 mW (and 0.8 \u03bcJ), showing 61.5% reduction in energy consumption as compared to the state-of-the-art architecture. These results demonstrate that our proposed approximations significantly extend wearable device battery life while preserving the required arrhythmia classification performance.",
+    "summary": "Cardiovascular diseases are the leading cause of death worldwide, and conditions such as arrhythmia often require long-term monitoring for effective detection and diagnosis. However, current wearable monitoring devices are bulky, uncomfortable, and typically rely on clinicians to manually evaluate electrocardiograms (ECGs). While Deep Learning (DL) algorithms have shown superior performance in arrhythmia detection and classification, their computational complexity coupled with high power consumption limit deployment in wearable devices. To address this challenge, this paper investigates the use of approximation techniques to reduce the power and energy consumption of DL architectures while maintaining acceptable classification performance. Specifically, techniques such as data precision reduction and approximate multiplication are investigated in a state-of-the-art DL model and its corresponding hardware architecture. The model is trained and validated using the MIT-BIH Arrhythmia Database, and hardware implementations employing various approximate multipliers are synthesized and evaluated. Compared with the state-of-the-art 8.75 μW (and 2.08 μJ) reference architecture, our proposed architecture consumes 3.07 μW (and 2.17 μJ) at 12 kHz, showing 64.9% reduction in power consumption while providing an acceptable output quality, i.e., 93.7% classification accuracy and 92.1% sensitivity. At 100 MHz, our proposed architecture consumes 9.45 mW (and 0.8 μJ), showing 61.5% reduction in energy consumption as compared to the state-of-the-art architecture. These results demonstrate that our proposed approximations significantly extend wearable device battery life while preserving the required arrhythmia classification performance.",
     "authors": [
       "Floriaan Bulten",
       "Yawar Rasheed",
@@ -675,7 +675,7 @@
     "title": "Language Identification via Compositional Data Analysis: A Linear-Time Classifier Based on Log-Ratio Geometry",
     "summary": "Language identification is commonly addressed using either neural architectures or statistical n-gram models. Neural approaches typically require substantial computational resources, whereas classical frequency-based methods offer efficient linear-time performance, but rely on distance metrics that are not always appropriate for compositional data.   This work models character and bigram frequency distributions as compositional vectors constrained to the simplex and mapped via the centered log-ratio (CLR) transformation bijectively onto the $(D-1)$-dimensional zero-sum subspace of $\\mathbb{R}^D$, where Euclidean distances correspond to Aitchison distances. A pipeline is proposed, combining CLR-transformed unigram and bigram features with Laplace smoothing to address sparsity. The method is evaluated on six languages.   Experimental results show that the proposed approach achieves robust accuracy across different text lengths, with strong performance for longer sequences. These findings indicate that compositional representations provide a deterministic and computationally efficient alternative for language identification, particularly in settings where interpretability and low resource consumption are essential.",
     "authors": [
-      "Paul-Andrei Pog\u0103cean",
+      "Paul-Andrei Pogăcean",
       "Sanda-Maria Avram"
     ],
     "categories": [
@@ -715,7 +715,7 @@
     "title": "A Minimal Interpretable Architecture for Zero-Shot Reconstruction of Dynamical Systems",
     "summary": "Recent foundation models (FMs) for zero-shot reconstruction of dynamical systems (DS) achieve strong out-of-domain generalization but provide little insight into the mechanisms that underlie their forecasts. Such an understanding could help to strip down overladen FM architectures to their bare essence and expose the minimal requirements for in-context learning in the DS domain. Toward this goal, here we iteratively reduce a recent powerful SOTA model for DS reconstruction, DynaMix (Hemmer & Durstewitz, 2025), to a minimal interpretable two-parameter form, which we call DynaBase. DynaBase produces forecasts through a linear blend of the current latent state and the nearest in-context neighbor and its temporal successor. Surprisingly, despite its extreme simplicity, DynaBase produces highly competitive zero-shot DS reconstructions across chaotic and cyclic systems, with a negligible parameter load, many orders of magnitude below that of other FMs. Even more, this extreme simplicity permits direct model optimization on DS reconstruction measures, as well as closed-form one-step analytical solutions on prediction MSE. Theoretical and empirical analysis of DynaBase further leads to a 1-parameter family of maps, with the context-parroting algorithm of (Zhang & Gilpin, 2026) recovered at one end, and chaotic (divergent but bounded) behavior at the other. We further show how different training strategies lead to models either optimal for short-term prediction or for DS reconstruction. Thus, DynaBase not only exposes the minimal mechanisms required for producing zero-shot DS reconstruction, but also reconciles within an accessible mathematical frame divergent observations in the literature.",
     "authors": [
-      "Christoph J\u00fcrgen Hemmer",
+      "Christoph Jürgen Hemmer",
       "Florian Plaswig",
       "Daniel Durstewitz"
     ],
@@ -837,7 +837,7 @@
   {
     "arxiv_id": "2607.15003v1",
     "title": "SMC-ES: Automated synthesis of formally verified control policies",
-    "summary": "The deployment of autonomous cyber-physical systems in safety-critical environments requires closed-loop control strategies (i.e., policies) that are not only performant but also provably safe and robust. While learning-based methodologies such as Reinforcement Learning offer flexible and scalable approaches to automatically synthesize such controllers, they typically lack the formal guarantees necessary for safe deployment. To bridge this gap, we propose a novel simulation-based methodology to automatically synthesize policies with formal guarantees regarding performance, safety, and robustness specifications. Specifically, given a set of properties to verify, a confidence parameter $\u03b4$ and an allowable failure probability $\\varepsilon$, our method guarantees that the synthesized policy comes with a certificate: with confidence at least $1 - \u03b4$, the probability of encountering a scenario where the given properties are violated is at most $\\varepsilon$. We demonstrate the feasibility of our approach by developing SMC-ES, an algorithm that integrates Evolutionary Strategies with Statistical Model Checking-based verification. We evaluate SMC-ES on a suite of continuous control tasks using Gymnasium and Safety Gymnasium testbeds. Results show that, at the price of a sustainable increase in computational cost, our algorithm provides formal guarantees regarding performance, safety, and robustness specifications, while performing competitively against leading model-free Deep Reinforcement Learning (DRL) and Safe-DRL baselines.",
+    "summary": "The deployment of autonomous cyber-physical systems in safety-critical environments requires closed-loop control strategies (i.e., policies) that are not only performant but also provably safe and robust. While learning-based methodologies such as Reinforcement Learning offer flexible and scalable approaches to automatically synthesize such controllers, they typically lack the formal guarantees necessary for safe deployment. To bridge this gap, we propose a novel simulation-based methodology to automatically synthesize policies with formal guarantees regarding performance, safety, and robustness specifications. Specifically, given a set of properties to verify, a confidence parameter $δ$ and an allowable failure probability $\\varepsilon$, our method guarantees that the synthesized policy comes with a certificate: with confidence at least $1 - δ$, the probability of encountering a scenario where the given properties are violated is at most $\\varepsilon$. We demonstrate the feasibility of our approach by developing SMC-ES, an algorithm that integrates Evolutionary Strategies with Statistical Model Checking-based verification. We evaluate SMC-ES on a suite of continuous control tasks using Gymnasium and Safety Gymnasium testbeds. Results show that, at the price of a sustainable increase in computational cost, our algorithm provides formal guarantees regarding performance, safety, and robustness specifications, while performing competitively against leading model-free Deep Reinforcement Learning (DRL) and Safe-DRL baselines.",
     "authors": [
       "Riccardo Curcio",
       "Toni Mancini",
@@ -863,7 +863,7 @@
       "Besim Shala",
       "Peter Mandl",
       "Andreas Humpe",
-      "Martin H\u00e4usl"
+      "Martin Häusl"
     ],
     "categories": [
       "cs.AI"
@@ -996,7 +996,7 @@
       "Ayantola Alayande",
       "Selamawit Engida Abdella",
       "Ana Florido",
-      "Nicol\u00e1s Grossman",
+      "Nicolás Grossman",
       "Leah Junck"
     ],
     "categories": [
@@ -1174,7 +1174,7 @@
   {
     "arxiv_id": "2607.14604v1",
     "title": "Accelerating A/B-Tests with Counterfactual Estimation: Reducing Variance through Policy Overlap",
-    "summary": "Online controlled experiments are the gold standard for hypothesis testing in online platforms. Notwithstanding their ubiquity, they are notoriously expensive to run, and issues of variance hamper statistical power in assessing treatment effects. While standard variance reduction techniques leverage model-based control variates to reduce outcome noise, they remain agnostic to potential structural relationships between competing policies.   In this work, we identify a critical inefficiency in the standard A/B-testing protocol: when a treatment and control policy agree on an action, the resulting outcome contributes noise but no signal regarding the treatment effect -- unnecessarily inflating confidence intervals. We propose a novel experimental protocol that exploits this policy overlap to accelerate experimentation. The key insight is to frame the randomised treatment assignment mechanism as a meta-policy, and leverage $\u0394$-Off-Policy Estimation methods to obtain unbiased estimates for average treatment effects. We prove analytically that our approach recovers standard A/B-testing practices in the general case, but that its variance scales with the divergence between policies rather than raw outcome variance. Hence, we dominate the standard Difference-in-Means estimator whenever policies have common support, and the improvement is strict whenever the overlap region contributes non-zero residual variance. Empirical results corroborate these theoretical insights -- holding promise for significant impact on the real-world evaluation of recommender systems, information retrieval pipelines, and large language model interfaces.",
+    "summary": "Online controlled experiments are the gold standard for hypothesis testing in online platforms. Notwithstanding their ubiquity, they are notoriously expensive to run, and issues of variance hamper statistical power in assessing treatment effects. While standard variance reduction techniques leverage model-based control variates to reduce outcome noise, they remain agnostic to potential structural relationships between competing policies.   In this work, we identify a critical inefficiency in the standard A/B-testing protocol: when a treatment and control policy agree on an action, the resulting outcome contributes noise but no signal regarding the treatment effect -- unnecessarily inflating confidence intervals. We propose a novel experimental protocol that exploits this policy overlap to accelerate experimentation. The key insight is to frame the randomised treatment assignment mechanism as a meta-policy, and leverage $Δ$-Off-Policy Estimation methods to obtain unbiased estimates for average treatment effects. We prove analytically that our approach recovers standard A/B-testing practices in the general case, but that its variance scales with the divergence between policies rather than raw outcome variance. Hence, we dominate the standard Difference-in-Means estimator whenever policies have common support, and the improvement is strict whenever the overlap region contributes non-zero residual variance. Empirical results corroborate these theoretical insights -- holding promise for significant impact on the real-world evaluation of recommender systems, information retrieval pipelines, and large language model interfaces.",
     "authors": [
       "Olivier Jeunen"
     ],
@@ -1327,7 +1327,7 @@
   {
     "arxiv_id": "2607.14706v1",
     "title": "MESHA: Mechanism-Enforced Sequential Halving for Strategic Linear Bandits",
-    "summary": "We design and analyze \\underline{M}echanism-\\underline{E}nforced \\underline{S}equential \\underline{HA}lving (MESHA), an algorithm for Best Arm Identification (BAI) in strategic linear bandits. In this setting, each arm may strategically misreport its feature vector to maximize the probability of being identified as the best arm, when rewards are generated from the arms' true but unobservable features. The design of MESHA applies the na\u00efve uniform sampling rule and an epoch-wise Grim Trigger Condition (GTC): the former reduces the impact of arms' strategic behaviours and the latter eliminates arms whose reported features severely deviate from the ground truth. Considering an arbitrary Nash Equilibrium, we prove that any arm would attempt to pass the GTC check to maximize its identified probability and derive an upper bound on the failure probability of MESHA within a fixed budget $T$. We also show that state-of-the-art linear BAI algorithms with $G$-optimal design would fail in such strategic environment, as the optimal design (OD)-based sampling rule based on strategically reported features may {\\it starve} the optimal arm of any sampling budget. Finally, extensive numerical experiments indicate that MESHA   outperforms baselines that rely on OD-based sampling rules as well as the feature-agnostic baselines, corroborating the efficacy of MESHA.",
+    "summary": "We design and analyze \\underline{M}echanism-\\underline{E}nforced \\underline{S}equential \\underline{HA}lving (MESHA), an algorithm for Best Arm Identification (BAI) in strategic linear bandits. In this setting, each arm may strategically misreport its feature vector to maximize the probability of being identified as the best arm, when rewards are generated from the arms' true but unobservable features. The design of MESHA applies the naïve uniform sampling rule and an epoch-wise Grim Trigger Condition (GTC): the former reduces the impact of arms' strategic behaviours and the latter eliminates arms whose reported features severely deviate from the ground truth. Considering an arbitrary Nash Equilibrium, we prove that any arm would attempt to pass the GTC check to maximize its identified probability and derive an upper bound on the failure probability of MESHA within a fixed budget $T$. We also show that state-of-the-art linear BAI algorithms with $G$-optimal design would fail in such strategic environment, as the optimal design (OD)-based sampling rule based on strategically reported features may {\\it starve} the optimal arm of any sampling budget. Finally, extensive numerical experiments indicate that MESHA   outperforms baselines that rely on OD-based sampling rules as well as the feature-agnostic baselines, corroborating the efficacy of MESHA.",
     "authors": [
       "Xin Li",
       "Zixin Zhong"
@@ -1502,7 +1502,7 @@
   {
     "arxiv_id": "2607.14984v1",
     "title": "Demographically-Conditioned Synthetic Medical Images for Bias Mitigation and Bias Detection in Disease Classifiers",
-    "summary": "Per-subgroup fairness audits of medical image classifiers face a sample-size problem: minority subgroups in held-out test sets have so few samples that the resulting confidence intervals on per-subgroup performance are wider than the bias the audit is meant to detect. We argue that a demographically-conditioned synthetic generator can do both: mitigate bias on the training side and detect bias on the evaluation side. Working on COVID-19 chest CT classification with an end-to-end fine-tuned Stable Diffusion 2.1 generator, we make two findings. For bias mitigation (training), a demographically-balanced synthetic cohort is most useful as a pretraining prior, not as joint augmentation: with the same fixed data, sequential pretraining followed by fine-tuning substantially outperforms joint augmentation, and the resulting classifier surpasses the full-real baseline at $\\sim$$100\\times$ real-data efficiency. For bias detection (evaluation), across five synthetic minority cohorts and five classifier seeds, the synthetic estimator reproduces the subgroup ranking of a well-powered real oracle (Spearman $\u03c1= 1.00$ on MCC and Recall) and gives the more reliable per-cell estimate where the small real test set runs out of samples. The synthetic cohort is therefore most useful in exactly the cells that fairness audits care about, as both a fix for and a measure of subgroup bias.",
+    "summary": "Per-subgroup fairness audits of medical image classifiers face a sample-size problem: minority subgroups in held-out test sets have so few samples that the resulting confidence intervals on per-subgroup performance are wider than the bias the audit is meant to detect. We argue that a demographically-conditioned synthetic generator can do both: mitigate bias on the training side and detect bias on the evaluation side. Working on COVID-19 chest CT classification with an end-to-end fine-tuned Stable Diffusion 2.1 generator, we make two findings. For bias mitigation (training), a demographically-balanced synthetic cohort is most useful as a pretraining prior, not as joint augmentation: with the same fixed data, sequential pretraining followed by fine-tuning substantially outperforms joint augmentation, and the resulting classifier surpasses the full-real baseline at $\\sim$$100\\times$ real-data efficiency. For bias detection (evaluation), across five synthetic minority cohorts and five classifier seeds, the synthetic estimator reproduces the subgroup ranking of a well-powered real oracle (Spearman $ρ= 1.00$ on MCC and Recall) and gives the more reliable per-cell estimate where the small real test set runs out of samples. The synthetic cohort is therefore most useful in exactly the cells that fairness audits care about, as both a fix for and a measure of subgroup bias.",
     "authors": [
       "Mahmoud Ibrahim",
       "Bart Elen",
@@ -1705,7 +1705,7 @@
       "Haran Raajesh",
       "Kulin Shah",
       "Adam Klivans",
-      "Philipp Kr\u00e4henb\u00fchl"
+      "Philipp Krähenbühl"
     ],
     "categories": [
       "cs.CL",
@@ -1767,7 +1767,7 @@
     "summary": "Many engineering problems involve phenomena whose governing equations are poorly characterized or only partially known. Surrogate modeling techniques such as neural networks can capture the behavior of these systems, but they typically demand large training datasets that are difficult to obtain in engineering contexts and yield models with limited physical interpretability. The Sparse Identification of Nonlinear Dynamics (SINDy) method addresses both limitations by performing sparse regression over libraries of candidate nonlinear terms, recovering interpretable governing equations from comparatively small datasets. Although SINDy has been demonstrated extensively on canonical benchmark systems, its application to practical engineering problems is less widely documented. This tutorial introduces the SINDy method and progressively builds toward its main extensions, from noise-robust weak-form and ensembling-based variants to constrained and parametrizable formulations. The paper and the accompanying tutorial (available at https://github.com/paullililili/SINDy4Engineers) is organized in three parts: the first introduces the standard SINDy algorithm and progressively extends it, inviting readers without prior knowledge to follow each step and adapt the methods to their own problems; the remaining two parts present detailed case studies on (1) the system identification of an unmanned aerial vehicle and (2) a chaotic thermosyphon heat exchanger. Through these examples, we aim to demonstrate that SINDy is simple to implement yet flexible enough to serve as a valuable identification tool for advanced engineering applications.",
     "authors": [
       "Yao Cheng Li",
-      "Ana Larra\u00f1aga",
+      "Ana Larrañaga",
       "Steven L. Brunton",
       "Urban Fasel"
     ],
@@ -2153,7 +2153,7 @@
     "title": "Autoregressive Modeling of Film with Applications in Video Montage",
     "summary": "This work introduces FilmGPT, an autoregressive transformer designed to address the challenge of video montage--turning a collection of raw, \"unwatchable\" footage into coherent cinematic sequences. Inspired by language learning in modern LLMs, we train a long-context autoregressive transformer on a large corpus of movies. The aim is to implicitly capture the \"grammar\" of film directly from data rather than from hand-coded rules. Unlike other generative models, FilmGPT does not generate any new video frames. Instead, at inference time, we introduce a footage-constrained decoding algorithm to select the best next shot from the input raw footage according to the statistical patterns learned from films. We first evaluate these learned statistics directly by using the FilmGPT autoregressive model for next shot prediction on a standard benchmark of shot sequence ordering, outperforming the previous state of the art. We then evaluate our footage-constrained decoding algorithm on the full film editing task via a user study, and find that our FilmGPT-based editing significantly outperforms previous approaches. Finally, we demonstrate the applicability of FilmGPT to a wide range of applications in video montage, from automatic video segment trimming to human-in-the-loop film editing.",
     "authors": [
-      "Marcelo Sandoval-Casta\u00f1eda",
+      "Marcelo Sandoval-Castañeda",
       "Fabian Caba Heilbron",
       "Shiry Ginosar",
       "Bryan Rusell",
@@ -2201,7 +2201,7 @@
       "Sushant Gautam",
       "Vajira Thambawita",
       "Michael A. Riegler",
-      "P\u00e5l Halvorsen",
+      "Pål Halvorsen",
       "Steven A. Hicks"
     ],
     "categories": [
@@ -2363,8 +2363,8 @@
     "authors": [
       "Saima Afrin",
       "Alessandro Midolo",
-      "Camilo Escobar-Vel\u00e1squez",
-      "Mario Linares-V\u00e1squez",
+      "Camilo Escobar-Velásquez",
+      "Mario Linares-Vásquez",
       "Weiyuan Ding",
       "Bowen Xu",
       "Massimiliano Di Penta",
@@ -2435,7 +2435,7 @@
       "Patrik Wolf",
       "Thomas Kleine Buening",
       "Andreas Krause",
-      "Celestine Mendler-D\u00fcnner"
+      "Celestine Mendler-Dünner"
     ],
     "categories": [
       "cs.CL"
@@ -2892,7 +2892,7 @@
       "Rohit Beer",
       "Marvin Kinz",
       "Claudia Scherl",
-      "J\u00fcrgen Hesser"
+      "Jürgen Hesser"
     ],
     "categories": [
       "cs.CV"
@@ -2916,7 +2916,7 @@
       "Efe Tarhan",
       "Jason Toskov",
       "Andrei Atanov",
-      "O\u011fuzhan Fatih Kar",
+      "Oğuzhan Fatih Kar",
       "Amir Zamir"
     ],
     "categories": [
@@ -3051,7 +3051,7 @@
   {
     "arxiv_id": "2607.15107v1",
     "title": "Learning in Infinitesimal Non-Compositional Sketches",
-    "summary": "This paper develops a categorical framework -- Learning in Infinitesimal Non-Compositional Sketches (LINCS) -- as the repair of non-compositionality: failures of diagrams to factor through quotient sketches lifted to the tangent category setting. Machine learning problems are specified as sketches: graphs with commutativity conditions $\\mathcal D$, limit cones $\\mathcal L$, and colimit cocones $\\mathcal K$, generalizing the usual scalarization of loss functions or vector space assumptions. Non-compositionality is defined purely as failure of a universal factorization problem, not as arithmetic error between the desired and actual predictions. Given a learning sketch $\\mathbb S=(S,\\mathcal D,\\mathcal L,\\mathcal K)$, whose underlying graph is $S$, and a model $D:J \\rightarrow C$, the base defect is the obstruction to factorization $\\mbox{Obs}(\\mbox{Fact}_{\\mathbb S}(D))$. The tangent lift applies the tangent functor $T$ to obtain $TD:J \\rightarrow C$, and LINCS is defined as the obstruction $\\mbox{Obs}(\\mbox{Fact}_{\\mathbb S}(TD))$ -- asking whether infinitesimal perturbations preserve the compositionality constraints.The paper also introduces Tangent Learning Sketches, which are sketches equipped with Cockett-Cruttwell tangent structure. The paper defines the INC endofunctor, which iterates the tangent lift, producing a tower $D,TD,T^2D, \\cdots$ of factorization problems. ML is thereby formulated as the search for a coalgebraic fixed point where successive tangent unfoldings stabilize ($\u03bdT_{\\mbox{INC}}$). Using the Aczel--Mendler theorem, we prove existence of a final INC coalgebra whenever $T_{\\mbox{INC}}$ admits a set-based class realization that creates its final carrier. A detailed experimental evaluation of LINCS is underway in a number of concrete ML settings, including deep learning, large language models, and reinforcement learning, and is described in companion papers.",
+    "summary": "This paper develops a categorical framework -- Learning in Infinitesimal Non-Compositional Sketches (LINCS) -- as the repair of non-compositionality: failures of diagrams to factor through quotient sketches lifted to the tangent category setting. Machine learning problems are specified as sketches: graphs with commutativity conditions $\\mathcal D$, limit cones $\\mathcal L$, and colimit cocones $\\mathcal K$, generalizing the usual scalarization of loss functions or vector space assumptions. Non-compositionality is defined purely as failure of a universal factorization problem, not as arithmetic error between the desired and actual predictions. Given a learning sketch $\\mathbb S=(S,\\mathcal D,\\mathcal L,\\mathcal K)$, whose underlying graph is $S$, and a model $D:J \\rightarrow C$, the base defect is the obstruction to factorization $\\mbox{Obs}(\\mbox{Fact}_{\\mathbb S}(D))$. The tangent lift applies the tangent functor $T$ to obtain $TD:J \\rightarrow C$, and LINCS is defined as the obstruction $\\mbox{Obs}(\\mbox{Fact}_{\\mathbb S}(TD))$ -- asking whether infinitesimal perturbations preserve the compositionality constraints.The paper also introduces Tangent Learning Sketches, which are sketches equipped with Cockett-Cruttwell tangent structure. The paper defines the INC endofunctor, which iterates the tangent lift, producing a tower $D,TD,T^2D, \\cdots$ of factorization problems. ML is thereby formulated as the search for a coalgebraic fixed point where successive tangent unfoldings stabilize ($νT_{\\mbox{INC}}$). Using the Aczel--Mendler theorem, we prove existence of a final INC coalgebra whenever $T_{\\mbox{INC}}$ admits a set-based class realization that creates its final carrier. A detailed experimental evaluation of LINCS is underway in a number of concrete ML settings, including deep learning, large language models, and reinforcement learning, and is described in companion papers.",
     "authors": [
       "Sridhar Mahadevan"
     ],
@@ -3092,7 +3092,7 @@
     "title": "When AI Blurs the Boundaries of Contribution: An Empirical Study of Authorship Calibration",
     "summary": "The broad adoption of Artificial Intelligence (AI), especially Generative AI, raises pressing questions about how users interact with these systems to produce new content. In this paper, we introduce the concept of authorship calibration, defined as users awareness of their actual authorship when interacting with AI. Using the CoAuthor dataset, we empirically examine how authorship calibration varies across users and how it relates to their frequency of AI use. Our results reveal high variability: users relying heavily on AI tend to misjudge their authorship, whereas those using AI less frequently exhibit more accurate authorship calibration. These findings suggest that AI can obscure users perception of their own authorship. In learning contexts, miscalibration can affect metacognitive monitoring and learning strategies, ultimately impacting learning outcomes. Fostering authorship calibration then appears essential for promoting responsible and educationally meaningful AI integration.",
     "authors": [
-      "C\u00e9lina Treuillier",
+      "Célina Treuillier",
       "Denis Lalanne"
     ],
     "categories": [
@@ -3211,7 +3211,7 @@
     "title": "Does generative AI supersede supervised XMLC? A Benchmark Study on Automated Subject Indexing with German Scientific Literature",
     "summary": "With a large controlled vocabulary as the label set, the task of automated subject indexing in a library can be understood as a multi-label classification task. If the set of subject terms is large, the problem fits the Extreme Multi-Label Classification (XMLC) objective. In this study, we apply a selection of specialised supervised XMLC methods to the test case of subject indexing contemporary German scientific literature, collected at the German National Library (DNB). We contrast these results by including a classical lexical matching baseline and three of our own recently developed LLM-based methods into the benchmark. Algorithms are evaluated and compared in several metrics. This includes binary relevance comparisons with previously indexed material, as well as graded relevance ratings by professional subject librarians. A challenge for all methods is to reliably make suggestions from the long tail of the subject vocabulary. We find that supervised XMLC algorithms relying on transformer-based dense features give best results in terms of overall binary relevance metrics. However, focusing on graded relevance and performance in the long tail of our subject vocabulary, the LLM-based generative methods give better results, making them a promising alternative for future productive use.",
     "authors": [
-      "Maximilian K\u00e4hler",
+      "Maximilian Kähler",
       "Katja Konermann",
       "Lisa Kluge",
       "Markus Schumacher"
@@ -3252,10 +3252,10 @@
     "title": "Evaluating Epistemic Uncertainty: Beyond OOD Detection and Active Learning",
     "summary": "Current evaluation of epistemic uncertainty relies on tasks such as out-ofdistribution detection and active learning. However, the Bayes-optimal decision strategies for these tasks do not coincide with the scores commonly used to quantify epistemic uncertainty. Building on the epistemic reject-option framework, we evaluate epistemic uncertainty using its ability to identify regret, the reducible error. Formulating selective prediction as a constrained optimization over coverage, expected risk, and regret, we prove the optimal selector is a thresholded convex combination of the ground-truth aleatoric and epistemic uncertainties. This theoretical unification exposes a weakness in recent uncertainty disentanglement literature: we demonstrate that standard correlation metrics between learned components do not necessarily predict their actual operational utility. We instead propose to evaluate the achievable risk, regret, coverage surface of the decomposition as a diagnostic for joint disentanglement and utility. Benchmarking standard methods on datasets with dense human annotations reveals that decision-theoretic rankings can disagree substantially with proxy-task rankings, including pairwise rank inversions between methods that are top-ranked on one criterion and bottom-ranked on other.",
     "authors": [
-      "Jakub Paplh\u00e1m",
+      "Jakub Paplhám",
       "Willem Waegeman",
-      "Eyke H\u00fcllermeier",
-      "Vojt\u011bch Franc"
+      "Eyke Hüllermeier",
+      "Vojtěch Franc"
     ],
     "categories": [
       "cs.LG",
@@ -3271,7 +3271,7 @@
   {
     "arxiv_id": "2607.14641v1",
     "title": "Analytic Abduction: Causal Decomposition and Governed Commitment for Human--AI Coordination",
-    "summary": "Abductive reasoning operates in two directions. The synthetic mode builds explanations from available hypotheses; the analytic mode, conversely, identifies the latent factors whose interaction accounts for a complex observed state. This paper develops the analytic mode as a non-greedy, risk-sensitive discipline of commitment, in which candidate factors coexist and interact, resolving into committed conclusions only when explicit governance conditions are met. The formal core is the $\u03ba$-$\u03c4$ apparatus: $\u03ba$ encodes the epistemic interaction among hypotheses, and $\u03c4$ sets a commitment threshold calibrated to the decision's stakes. The central contribution is the causal cluster, a structured object recording which latent factors participate in a decomposition, with what weights and interaction structure, together with a two-level architecture (intra-cluster $\u03ba^*$, inter-cluster $\u03ba^{**}$) that guards against causal misattribution. Demonstrated in epidemiological crisis decomposition and adversarial cyber threat analysis, the framework's contribution to human-AI reasoning is the legibility of suspended decomposition as a shared coordination object, providing structural resistance to premature convergence. In practice, the decision-maker is handed not a single imposed answer but the competing explanatory scenarios, weighted by plausibility and paired with the evidence that would resolve between them, so that sound action is possible even before the ambiguity is resolved.",
+    "summary": "Abductive reasoning operates in two directions. The synthetic mode builds explanations from available hypotheses; the analytic mode, conversely, identifies the latent factors whose interaction accounts for a complex observed state. This paper develops the analytic mode as a non-greedy, risk-sensitive discipline of commitment, in which candidate factors coexist and interact, resolving into committed conclusions only when explicit governance conditions are met. The formal core is the $κ$-$τ$ apparatus: $κ$ encodes the epistemic interaction among hypotheses, and $τ$ sets a commitment threshold calibrated to the decision's stakes. The central contribution is the causal cluster, a structured object recording which latent factors participate in a decomposition, with what weights and interaction structure, together with a two-level architecture (intra-cluster $κ^*$, inter-cluster $κ^{**}$) that guards against causal misattribution. Demonstrated in epidemiological crisis decomposition and adversarial cyber threat analysis, the framework's contribution to human-AI reasoning is the legibility of suspended decomposition as a shared coordination object, providing structural resistance to premature convergence. In practice, the decision-maker is handed not a single imposed answer but the competing explanatory scenarios, weighted by plausibility and paired with the evidence that would resolve between them, so that sound action is possible even before the ambiguity is resolved.",
     "authors": [
       "Remo Pareschi"
     ],
@@ -3288,9 +3288,9 @@
   {
     "arxiv_id": "2607.14628v1",
     "title": "Routing Ceilings Are Domain-Independent: Structural Prior Injection in Code Security Vulnerability Detection",
-    "summary": "Large language models (LLMs) exhibit a well-documented gap between latent capability and consistent activation: the router hypothesis posits that models possess the knowledge to solve a task but lack reliable internal routing to activate it. Prior work in formal mathematical reasoning (SAIR, C\u00e1zares 2026) reports that structural priors (cheatsheets) raise in-distribution performance dramatically, yet collapse below the zero-shot baseline out-of-distribution (OOD) -- and that iterative recalibration amplifies rather than corrects the collapse.   We test whether this phenomenon is cross-domain by reproducing the SAIR design in source-code security vulnerability detection, evaluating three LLMs (GPT-OSS-120B, Llama-3.3-70B, Gemma-4-31B) across three vulnerability categories (CWE-798, CWE-284, and the non-CWE N+1 anti-pattern) spanning syntactic, contextual, and semantic complexity, then transferring cheatsheet-augmented prompts to real-world CVE data from VUDENC (CWE-89, CWE-22).   Our findings replicate and extend SAIR: (F1) structural priors lift semantic-vulnerability recall from 20.0% to 100.0% across all models; (F2) zero-shot performance degrades along a semantic complexity gradient; (F3) the same cheatsheets that saturate synthetic performance amplify distribution-shift collapse on real CVE data (CWE-89: 100% synthetic F1 to 48.9% on VUDENC, -51.1pp); (F5) iterative recalibration produces a v2 cheatsheet that performs worse than v1 on real data, mirroring SAIR's AN45c-vs-AN38 finding.   These results provide evidence that the cross-distribution trade-off surface documented in SAIR generalises to code security, and that the router hypothesis is cross-domain. We argue the structural nature of the collapse motivates distribution-aware training over prompt calibration. Code and evaluation scripts: https://github.com/bytepro-ai/bitcoder-v2-research",
+    "summary": "Large language models (LLMs) exhibit a well-documented gap between latent capability and consistent activation: the router hypothesis posits that models possess the knowledge to solve a task but lack reliable internal routing to activate it. Prior work in formal mathematical reasoning (SAIR, Cázares 2026) reports that structural priors (cheatsheets) raise in-distribution performance dramatically, yet collapse below the zero-shot baseline out-of-distribution (OOD) -- and that iterative recalibration amplifies rather than corrects the collapse.   We test whether this phenomenon is cross-domain by reproducing the SAIR design in source-code security vulnerability detection, evaluating three LLMs (GPT-OSS-120B, Llama-3.3-70B, Gemma-4-31B) across three vulnerability categories (CWE-798, CWE-284, and the non-CWE N+1 anti-pattern) spanning syntactic, contextual, and semantic complexity, then transferring cheatsheet-augmented prompts to real-world CVE data from VUDENC (CWE-89, CWE-22).   Our findings replicate and extend SAIR: (F1) structural priors lift semantic-vulnerability recall from 20.0% to 100.0% across all models; (F2) zero-shot performance degrades along a semantic complexity gradient; (F3) the same cheatsheets that saturate synthetic performance amplify distribution-shift collapse on real CVE data (CWE-89: 100% synthetic F1 to 48.9% on VUDENC, -51.1pp); (F5) iterative recalibration produces a v2 cheatsheet that performs worse than v1 on real data, mirroring SAIR's AN45c-vs-AN38 finding.   These results provide evidence that the cross-distribution trade-off surface documented in SAIR generalises to code security, and that the router hypothesis is cross-domain. We argue the structural nature of the collapse motivates distribution-aware training over prompt calibration. Code and evaluation scripts: https://github.com/bytepro-ai/bitcoder-v2-research",
     "authors": [
-      "Manuel Israel C\u00e1zares"
+      "Manuel Israel Cázares"
     ],
     "categories": [
       "cs.CL",
@@ -3314,7 +3314,7 @@
       "Chong Luo",
       "Wenyi Wang",
       "Ziwei Liu",
-      "J\u00fcrgen Schmidhuber"
+      "Jürgen Schmidhuber"
     ],
     "categories": [
       "cs.CL",
@@ -3330,7 +3330,7 @@
   {
     "arxiv_id": "2607.15240v1",
     "title": "TikStance: A Multimodal and Hierarchical Dataset for Multi-target Stance Analysis in TikTok Political Conversations",
-    "summary": "Political discourse has increasingly moved to short-video platforms, yet computational analysis of such content remains constrained by the scarcity of datasets that jointly preserve audiovisual information and hierarchical conversations. Here we present TikStance, a multimodal and context-aware dataset comprising 161 videos and 13,876 comments from TikTok, designed for stance detection in political discussions. The dataset covers three major political figures in the 2024 U.S. election cycle--Donald Trump, Joe Biden, and Kamala Harris--with content collected between September 2023 and January 2025. Each discussion unit links a host video and its metadata to a parent-linked comment tree, enabling stance analysis within both audiovisual and conversational context. Each item was independently labeled by three annotators using a three-class scheme (Favor, Against, None) for video-to-target and comment-to-target stance; items with disagreement were re-annotated, and the final Krippendorff's \\(\u03b1\\) reached 0.743, 0.723, and 0.722 for the Trump, Biden, and Harris subsets, respectively. Descriptive analysis further reveals target-dependent differences in stance distributions and conversational depth, with nested replies accounting for 23.3\\% of all comments. By combining multi-target coverage, hierarchical conversations, and reliable multi-level human annotations, TikStance supports research in multimodal stance detection, political communication, computational social science, and context-aware natural language processing.",
+    "summary": "Political discourse has increasingly moved to short-video platforms, yet computational analysis of such content remains constrained by the scarcity of datasets that jointly preserve audiovisual information and hierarchical conversations. Here we present TikStance, a multimodal and context-aware dataset comprising 161 videos and 13,876 comments from TikTok, designed for stance detection in political discussions. The dataset covers three major political figures in the 2024 U.S. election cycle--Donald Trump, Joe Biden, and Kamala Harris--with content collected between September 2023 and January 2025. Each discussion unit links a host video and its metadata to a parent-linked comment tree, enabling stance analysis within both audiovisual and conversational context. Each item was independently labeled by three annotators using a three-class scheme (Favor, Against, None) for video-to-target and comment-to-target stance; items with disagreement were re-annotated, and the final Krippendorff's \\(α\\) reached 0.743, 0.723, and 0.722 for the Trump, Biden, and Harris subsets, respectively. Descriptive analysis further reveals target-dependent differences in stance distributions and conversational depth, with nested replies accounting for 23.3\\% of all comments. By combining multi-target coverage, hierarchical conversations, and reliable multi-level human annotations, TikStance supports research in multimodal stance detection, political communication, computational social science, and context-aware natural language processing.",
     "authors": [
       "Yazhi Zhang",
       "Fuqiang Niu",
@@ -3541,11 +3541,11 @@
     "title": "Benchmarking Face Recognition without Real Faces",
     "summary": "Synthetic face datasets have become effective enough to train face recognition models with accuracy rivaling that of models trained on real photographs. This progress sidesteps the ethical and legal burdens of collecting real biometric data, yet evaluation has not kept pace. Even studies that train entirely on synthetic images still rely on real-face benchmarks to measure performance, leaving the privacy problem only half solved. We ask whether synthetic datasets can replace real benchmarks for face recognition evaluation. We test 12 synthetic datasets against 7 established real benchmarks using 24 pre-trained models that span both convolutional and transformer architectures. Our evaluation covers biometric verification metrics, similarity score distributions, cross-model ranking consistency, and the underlying distributional properties of each dataset. Benchmarking fidelity varies widely across the synthetic candidates, but the two strongest, MorphFace and Vec2Face, reproduce the relative behavior of real benchmarks and reach agreement levels that fall within the natural disagreement already observed among the real benchmarks themselves. These results establish that well-constructed synthetic datasets can support reliable comparative evaluation for face recognition, moving the field closer to a fully synthetic and privacy-preserving pipeline for both training and benchmarking.",
     "authors": [
-      "Pawe\u0142 Borsukiewicz",
+      "Paweł Borsukiewicz",
       "Daniele Lunghi",
-      "Wendk\u00fbuni C. Ou\u00e9draogo",
+      "Wendkûuni C. Ouédraogo",
       "Jacques Klein",
-      "Tegawend\u00e9 F. Bissyand\u00e9"
+      "Tegawendé F. Bissyandé"
     ],
     "categories": [
       "cs.CV",
@@ -3601,7 +3601,7 @@
       "Alice Baird",
       "Jeffrey Brooks",
       "Franc Camps-Febrer",
-      "Jakub Piotr C\u0142apa",
+      "Jakub Piotr Cłapa",
       "Theo Lebryk",
       "Jens Madsen",
       "Olya Ossipova",
@@ -3974,7 +3974,7 @@
   {
     "arxiv_id": "2607.14889v1",
     "title": "Analytical study of the optimal combination of binary classifiers based on classifiers-induced partitioning of the training set",
-    "summary": "This paper studies an optimal linear combination of binary classifiers based on a logical structuration of the dataset via truth tables. The given classifiers partition data into equivalence classes, allowing for a rigorous analysis of the convexified empirical risk through a multidimensional generalization of classification calibrated functions. We establish sufficient conditions for the existence and uniqueness of the (global) point of minimum of the convexified empirical risk for any list of classifiers (when the number of classifiers is large, there frequently could be no point of minimum). In the case of three classifiers, our analysis allows to list all the configurations leading to either a unique solution, infima or non-unique points of minimum. Furthermore, we derive explicit analytical formulae for optimal weights using Exponential (Boost) and Logistic (Logit) loss functions, bypassing iterative optimization.   The stability of the resulting classifier and the analysis of data quality can be evaluated through the introduction of the notion of $\u03c6$-frontiers.",
+    "summary": "This paper studies an optimal linear combination of binary classifiers based on a logical structuration of the dataset via truth tables. The given classifiers partition data into equivalence classes, allowing for a rigorous analysis of the convexified empirical risk through a multidimensional generalization of classification calibrated functions. We establish sufficient conditions for the existence and uniqueness of the (global) point of minimum of the convexified empirical risk for any list of classifiers (when the number of classifiers is large, there frequently could be no point of minimum). In the case of three classifiers, our analysis allows to list all the configurations leading to either a unique solution, infima or non-unique points of minimum. Furthermore, we derive explicit analytical formulae for optimal weights using Exponential (Boost) and Logistic (Logit) loss functions, bypassing iterative optimization.   The stability of the resulting classifier and the analysis of data quality can be evaluated through the introduction of the notion of $φ$-frontiers.",
     "authors": [
       "Jean-Marc Brossier",
       "Olivier Lafitte"
@@ -4096,39 +4096,6 @@
     "research_score": 0.5
   },
   {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 20418,
-    "likes": 333,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-07-17T05:35:09.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-07-17",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.5
-  },
-  {
     "arxiv_id": "2607.15211v1",
     "title": "MAGiSt3R: Multi-Agent Feed-forward 3D Reconstruction from Monocular RGB Videos",
     "summary": "This paper presents MAGiSt3R, a multi-agent 3D reconstruction framework performing reconstruction and camera tracking for monocular RGB videos at almost 10 FPS. MAGiSt3R relies on a feed-forward model from the 3R family to process RGB videos and regress local point maps, and on a merging model, MAGMA, that combines local maps at both intra-agent and inter-agent levels to obtain the final global point map. Furthermore, MAGiSt3R performs pose graph optimization to mitigate cumulative camera drift occurring along the feed-forward pipeline. We evaluate MAGiSt3R on both synthetic and real-world datasets, demonstrating its superior reconstruction and camera tracking accuracy compared to state-of-the-art approaches.",
@@ -4239,7 +4206,7 @@
   {
     "arxiv_id": "2607.14639v1",
     "title": "Image-to-Point Cloud Registration Made Easy with Rectified Flow-based LiDAR Upsampling",
-    "summary": "Image-to-Point Cloud Registration (I2P) is essential for integrating camera and LiDAR in perception and autonomous systems, yet the modality gap between images and point clouds makes it difficult to achieve both high accuracy and strong generalization. In this paper, we propose a simple yet effective I2P method that treats LiDAR as an imaging sensor: from a single sparse LiDAR scan, we generate a dense LiDAR intensity image using Conditional Rectified Flow, match it with a camera image using a pre-trained feature matcher, and estimate the 6-DoF relative pose via PnP-RANSAC. The proposed model is pre-trained through a self-supervised image completion task and fine-tuned on a small amount of LiDAR data (neither image-point cloud pairs nor ground-truth sensor poses are required), enabling it to scale to diverse LiDAR and camera configurations. Experiments on the R3LIVE dataset show that the proposed method achieves a mean error of 4.89\u00b0 / 1.63 m, outperforming existing methods, while completing a single registration in approximately 0.68 s.",
+    "summary": "Image-to-Point Cloud Registration (I2P) is essential for integrating camera and LiDAR in perception and autonomous systems, yet the modality gap between images and point clouds makes it difficult to achieve both high accuracy and strong generalization. In this paper, we propose a simple yet effective I2P method that treats LiDAR as an imaging sensor: from a single sparse LiDAR scan, we generate a dense LiDAR intensity image using Conditional Rectified Flow, match it with a camera image using a pre-trained feature matcher, and estimate the 6-DoF relative pose via PnP-RANSAC. The proposed model is pre-trained through a self-supervised image completion task and fine-tuned on a small amount of LiDAR data (neither image-point cloud pairs nor ground-truth sensor poses are required), enabling it to scale to diverse LiDAR and camera configurations. Experiments on the R3LIVE dataset show that the proposed method achieves a mean error of 4.89° / 1.63 m, outperforming existing methods, while completing a single registration in approximately 0.68 s.",
     "authors": [
       "Reon Tabata",
       "Kenji Koide",
@@ -4267,7 +4234,7 @@
     "authors": [
       "Sara Monji-Azad",
       "Yulin Liu",
-      "J\u00fcrgen Hesser"
+      "Jürgen Hesser"
     ],
     "categories": [
       "cs.CV"
@@ -4285,7 +4252,7 @@
     "summary": "Perturbation-based xAI methods are widely used to analyze the behavior and predictions of deep learning models. By altering input regions and measuring the resulting changes in class probabilities with respect to the original image, they assign relevance scores and generate heatmaps that reflect each region's contribution to the prediction. Despite their apparent simplicity, however, perturbation-based methods are sensitive to parameter choices. In this work, we focus on two key parameters of the perturbation pipeline, namely the patch geometry, including the size and shape of the perturbed regions, and the perturbation type, defined by the replacement scheme. Grounded in the use case of flood detection from Synthetic Aperture Radar imagery, we conduct a comprehensive investigation of how relevance estimation changes under different perturbation settings. Beyond visual inspection of the resulting relevance maps, we evaluate their consistency across perturbation strategies and their faithfulness to the model's reasoning. We demonstrate how different perturbation choices can steer the resulting relevance maps, yielding ambiguous and even contradictory explanations. Our findings emphasize the importance of methodological settings in perturbation-based xAI. They underscore the need to carefully inspect and evaluate perturbation choices and to treat them as an integral part when interpreting explanations, ensuring a robust understanding of both the explanations and model predictions.",
     "authors": [
       "Anastasia Schlegel",
-      "Ronny H\u00e4nsch"
+      "Ronny Hänsch"
     ],
     "categories": [
       "cs.CV"
@@ -4392,9 +4359,9 @@
     "summary": "How different populations visually explore artworks bears on cognitive science and on accessibility design, yet most eye-tracking work in autism has used social scenes rather than art, and has analysed where the eyes land while ignoring when and in what order. We present a comparative free-viewing study across three groups, autistic adults (ASD), trained artists, and neurotypical observers, who each viewed 30 paintings for 15s. We introduce a directed, metric-grounded framework that compares groups along two complementary axes: a spatial axis, in which one group's fixation-density map predicts another's fixations under six saliency metrics (AUC-Judd, NSS, CC, SIM, KL, Information Gain); and a temporal axis, in which individual scanpaths are compared with MultiMatch, ScanMatch, a foveal-disc IoU score (FDISS), and dynamic time warping (DTW). Fixations are extracted uniformly for all groups with a dispersion-threshold algorithm. Three results converge. (i)Artists and neurotypicals are almost indistinguishable in both space (density-map correlation CC=0.96) and time (they form the most alignable scanpath pair), whereas ASD gaze diverges from both. (ii)ASD attention is dissociated: it matches artists' wide spatial exploration (dispersion, explored area) but carries a distinct temporal signature, shorter fixations, less dwell, and the most idiosyncratic (least self-consistent) scanpaths of any group. (iii)ASD gaze is not selectively artist-like on any metric; if anything it is marginally closer to neurotypical. Together these findings indicate that autistic viewing of art is a distinct, group-specific attentional profile in both space and time, and they motivate population-conditioned models of aesthetic attention. We release all analysis code and per-stimulus results.",
     "authors": [
       "Mohammed Amine Kerkouri",
-      "Daphn\u00e9 Senggaran",
+      "Daphné Senggaran",
       "Renaud Jusiak",
-      "Oc\u00e9ane Lehmann",
+      "Océane Lehmann",
       "Marouane Tliba",
       "Claire Wardak",
       "Emmanuelle Houy-Durand",
@@ -4500,8 +4467,8 @@
     "title": "Quantifying Training Membership Information in the Hyperspherical Embedding Geometry of Face Recognition Models",
     "summary": "Face recognition models represent each face as an embedding vector on the unit hypersphere by clustering embeddings of the same identity while pushing different identities apart through angular-margin losses. Because these losses act only on training identities, non-member identities may form clusters with different geometric properties. In this paper, we quantify the magnitude of this difference and what training-time factors control it. We compute four statistics based on cluster geometry across 180 face recognition models in a factorial design over IResNet backbone size, loss head, training duration, and the number of training identities, and evaluate each configuration on nine benchmarks. Our results indicate that the number of training identities has the largest effect on member/non-member separability, while backbone and loss head contribute far less, and that, on a same-domain held-out reference, the geometric membership signal decreases monotonically as more identities are added to training. We provide an analysis of cross-domain (pose, age, quality, ethnicity) non-member benchmarks and report that these inflate the apparent membership signal. Finally, we fuse all four statistics with a learned classifier to reveal additional membership information beyond the best individual statistic.",
     "authors": [
-      "\u00dcnsal \u00d6zt\u00fcrk",
-      "S\u00e9bastien Marcel"
+      "Ünsal Öztürk",
+      "Sébastien Marcel"
     ],
     "categories": [
       "cs.CV"
@@ -4516,7 +4483,7 @@
   {
     "arxiv_id": "2607.15073v1",
     "title": "ESAR: Event-Based Synthetic Aperture Reconstruction",
-    "summary": "Event cameras report asynchronous polarity events when changes in log--radiance exceed a fixed contrast threshold, producing signed temporal contrast measurements rather than conventional image frames. We formulate monocular event-based imaging as a synthetic-aperture inverse problem for a static ground-domain log--radiance field $\u03b8\\in \\mathbb{R}^{N_g}$. Instead of reconstructing a latent pixel-time volume $v \\in \\mathbb{R}^{N_pN_t}$, we impose the geometric relation $v=P\u03b8$, where $P$ maps the fixed scene into motion-dependent latent views. Aggregating events over finite time intervals gives the linearized model \\[   AP\u03b8= b+\u03b7, \\] where $A$ is a temporal differencing operator, $b$ contains signed binned event counts, and $\u03b7$ represents measurement and modeling errors. This decomposition exposes a synthetic-aperture structure: under near-nadir motion, successive projections are approximately shifted views of a common scene, while the composite operator $AP$ remains ill-conditioned because it combines spatial averaging with temporal differencing. We therefore use regularized inversion to recover $\u03b8$. Numerical experiments on simulated data and real near-nadir Falcon Neuro event data show that the proposed $\u03b8$-based formulation recovers coherent large-scale spatial structure, relative to dynamic latent-image and learned event-reconstruction baselines, while suppressing fine-scale texture.",
+    "summary": "Event cameras report asynchronous polarity events when changes in log--radiance exceed a fixed contrast threshold, producing signed temporal contrast measurements rather than conventional image frames. We formulate monocular event-based imaging as a synthetic-aperture inverse problem for a static ground-domain log--radiance field $θ\\in \\mathbb{R}^{N_g}$. Instead of reconstructing a latent pixel-time volume $v \\in \\mathbb{R}^{N_pN_t}$, we impose the geometric relation $v=Pθ$, where $P$ maps the fixed scene into motion-dependent latent views. Aggregating events over finite time intervals gives the linearized model \\[   APθ= b+η, \\] where $A$ is a temporal differencing operator, $b$ contains signed binned event counts, and $η$ represents measurement and modeling errors. This decomposition exposes a synthetic-aperture structure: under near-nadir motion, successive projections are approximately shifted views of a common scene, while the composite operator $AP$ remains ill-conditioned because it combines spatial averaging with temporal differencing. We therefore use regularized inversion to recover $θ$. Numerical experiments on simulated data and real near-nadir Falcon Neuro event data show that the proposed $θ$-based formulation recovers coherent large-scale spatial structure, relative to dynamic latent-image and learned event-reconstruction baselines, while suppressing fine-scale texture.",
     "authors": [
       "Harbir Antil",
       "Daniel Blauvelt",
@@ -4533,281 +4500,5 @@
     "date": "2026-07-17",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "inferencerlabs/Inkling-LM-MLX-Q3",
-    "author": "unknown",
-    "title": "inferencerlabs/Inkling-LM-MLX-Q3",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "inkling_mm_model",
-      "quantized",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:thinkingmachines/Inkling",
-      "base_model:quantized:thinkingmachines/Inkling",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-07-17T03:53:38.000Z",
-    "last_modified": "2026-07-17T05:34:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/inferencerlabs/Inkling-LM-MLX-Q3",
-    "date": "2026-07-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sulaimank/w2vbert-luganda-waxal-punct",
-    "author": "unknown",
-    "title": "sulaimank/w2vbert-luganda-waxal-punct",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2-bert",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-07-16T21:08:59.000Z",
-    "last_modified": "2026-07-17T05:33:33.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sulaimank/w2vbert-luganda-waxal-punct",
-    "date": "2026-07-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "yanwarpro/Qwen2.5-Legal-SFT-GRPO-Dicoding-Final",
-    "author": "unknown",
-    "title": "yanwarpro/Qwen2.5-Legal-SFT-GRPO-Dicoding-Final",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:yanwarpro/Qwen2.5-Legal-SFT-Dicoding-Final",
-      "base_model:finetune:yanwarpro/Qwen2.5-Legal-SFT-Dicoding-Final",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-17T05:29:30.000Z",
-    "last_modified": "2026-07-17T05:33:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/yanwarpro/Qwen2.5-Legal-SFT-GRPO-Dicoding-Final",
-    "date": "2026-07-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LeaderboardModel1/Tess-4-9B-AutoRound-W4A16-Tuning",
-    "author": "unknown",
-    "title": "LeaderboardModel1/Tess-4-9B-AutoRound-W4A16-Tuning",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "qwen3_5",
-      "quantized",
-      "w4a16",
-      "tuning",
-      "low-bit-open-llm-leaderboard",
-      "text-generation",
-      "conversational",
-      "arxiv:2309.05516",
-      "base_model:migtissera/Tess-4-9B",
-      "base_model:quantized:migtissera/Tess-4-9B",
-      "4-bit",
-      "auto-round",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-17T05:29:53.000Z",
-    "last_modified": "2026-07-17T05:30:15.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/LeaderboardModel1/Tess-4-9B-AutoRound-W4A16-Tuning",
-    "date": "2026-07-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "jjnhuang/whisper-small-finetuned-iwslt-irish-welsh-curriculum-synthetic-b",
-    "author": "unknown",
-    "title": "jjnhuang/whisper-small-finetuned-iwslt-irish-welsh-curriculum-synthetic-b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "dataset:covost2",
-      "base_model:openai/whisper-small",
-      "base_model:finetune:openai/whisper-small",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-07-15T17:49:39.000Z",
-    "last_modified": "2026-07-17T05:27:23.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/jjnhuang/whisper-small-finetuned-iwslt-irish-welsh-curriculum-synthetic-b",
-    "date": "2026-07-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "papigia/mona",
-    "author": "unknown",
-    "title": "papigia/mona",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "text-to-image",
-      "diffusers-training",
-      "lora",
-      "krea2",
-      "krea2-diffusers",
-      "template:sd-lora",
-      "base_model:krea/Krea-2-Raw",
-      "base_model:adapter:krea/Krea-2-Raw",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-07-17T03:47:13.000Z",
-    "last_modified": "2026-07-17T05:25:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/papigia/mona",
-    "date": "2026-07-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "auroter/Hy3-295B-A21B-FP8-Dynamic",
-    "author": "unknown",
-    "title": "auroter/Hy3-295B-A21B-FP8-Dynamic",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "fp8",
-      "fp8-dynamic",
-      "llmcompressor",
-      "compressed-tensors",
-      "vllm",
-      "mtp",
-      "speculative-decoding",
-      "text-generation",
-      "en",
-      "zh",
-      "base_model:tencent/Hy3",
-      "base_model:quantized:tencent/Hy3",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-16T22:27:08.000Z",
-    "last_modified": "2026-07-17T05:25:41.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/auroter/Hy3-295B-A21B-FP8-Dynamic",
-    "date": "2026-07-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "zmi/Qwen3-30B-A3B-Instruct-2507-cali_b64new-tile80_freq_0.5-basis-bsr-mobe",
-    "author": "unknown",
-    "title": "zmi/Qwen3-30B-A3B-Instruct-2507-cali_b64new-tile80_freq_0.5-basis-bsr-mobe",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "qwen3_moe",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-07-17T05:20:51.000Z",
-    "last_modified": "2026-07-17T05:24:20.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/zmi/Qwen3-30B-A3B-Instruct-2507-cali_b64new-tile80_freq_0.5-basis-bsr-mobe",
-    "date": "2026-07-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DreamFast/gemma-3-12b-it-heretic",
-    "author": "unknown",
-    "title": "DreamFast/gemma-3-12b-it-heretic",
-    "downloads": 14784,
-    "likes": 87,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gguf",
-      "gemma3",
-      "image-text-to-text",
-      "abliteration",
-      "heretic",
-      "uncensored",
-      "gemma",
-      "ltx-2",
-      "comfyui",
-      "video-generation",
-      "text-encoder",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:google/gemma-3-12b-it",
-      "base_model:quantized:google/gemma-3-12b-it",
-      "license:gemma",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-01-11T02:40:55.000Z",
-    "last_modified": "2026-07-17T05:20:16.000Z",
-    "days_since_creation": 187,
-    "url": "https://huggingface.co/DreamFast/gemma-3-12b-it-heretic",
-    "date": "2026-07-17",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
