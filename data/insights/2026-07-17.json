@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-17T13:14:13.125514",
+  "date": "2026-07-17T15:09:47.032099",
   "patterns": {
     "multimodal_research": [
       {
@@ -673,10 +673,6 @@
       {
         "title": "Blurring Modal Boundaries: A Unified Survey from Single- to Multi-Modal Person Re-ldentification",
         "url": "https://arxiv.org/abs/2607.14821v1"
-      },
-      {
-        "title": "SRJ5035/swi_glu_sw_64_16_8_4_xpert_gpt",
-        "url": "https://huggingface.co/SRJ5035/swi_glu_sw_64_16_8_4_xpert_gpt"
       }
     ],
     "vision_systems": [
@@ -1763,10 +1759,6 @@
       {
         "title": "Quantifying Training Membership Information in the Hyperspherical Embedding Geometry of Face Recognition Models",
         "url": "https://arxiv.org/abs/2607.15084v1"
-      },
-      {
-        "title": "sota1028/albedo-qwen3.6-35b-miner-00",
-        "url": "https://huggingface.co/sota1028/albedo-qwen3.6-35b-miner-00"
       }
     ]
   },
@@ -1797,7 +1789,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1821,7 +1813,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "115 independent papers",
+      "observation": "114 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1856,6 +1848,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 439
+    "total_papers": 437
   }
 }
