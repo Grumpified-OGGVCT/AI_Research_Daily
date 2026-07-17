@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-17T20:06:09.595598",
+  "date": "2026-07-17T21:45:32.926265",
   "patterns": {
     "multimodal_research": [
       {
@@ -343,6 +343,10 @@
       {
         "title": "Image-to-Point Cloud Registration Made Easy with Rectified Flow-based LiDAR Upsampling",
         "url": "https://arxiv.org/abs/2607.14639v1"
+      },
+      {
+        "title": "laion/qwen3-30b-a3b-thinking-opencode-sft-sparse",
+        "url": "https://huggingface.co/laion/qwen3-30b-a3b-thinking-opencode-sft-sparse"
       }
     ],
     "language_models": [
@@ -673,6 +677,10 @@
       {
         "title": "Blurring Modal Boundaries: A Unified Survey from Single- to Multi-Modal Person Re-ldentification",
         "url": "https://arxiv.org/abs/2607.14821v1"
+      },
+      {
+        "title": "jackalArtInt/Mistral-Nemo-2407-12B-Thinking-Claude-Gemini-GPT5.2-Uncensored-HERETIC",
+        "url": "https://huggingface.co/jackalArtInt/Mistral-Nemo-2407-12B-Thinking-Claude-Gemini-GPT5.2-Uncensored-HERETIC"
       }
     ],
     "vision_systems": [
@@ -1777,7 +1785,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "47 independent papers",
+      "observation": "48 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1789,7 +1797,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1848,6 +1856,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 437
+    "total_papers": 439
   }
 }
