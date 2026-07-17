@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-17T21:45:32.926265",
+  "date": "2026-07-17T22:42:34.798425",
   "patterns": {
     "multimodal_research": [
       {
@@ -343,10 +343,6 @@
       {
         "title": "Image-to-Point Cloud Registration Made Easy with Rectified Flow-based LiDAR Upsampling",
         "url": "https://arxiv.org/abs/2607.14639v1"
-      },
-      {
-        "title": "laion/qwen3-30b-a3b-thinking-opencode-sft-sparse",
-        "url": "https://huggingface.co/laion/qwen3-30b-a3b-thinking-opencode-sft-sparse"
       }
     ],
     "language_models": [
@@ -679,8 +675,8 @@
         "url": "https://arxiv.org/abs/2607.14821v1"
       },
       {
-        "title": "jackalArtInt/Mistral-Nemo-2407-12B-Thinking-Claude-Gemini-GPT5.2-Uncensored-HERETIC",
-        "url": "https://huggingface.co/jackalArtInt/Mistral-Nemo-2407-12B-Thinking-Claude-Gemini-GPT5.2-Uncensored-HERETIC"
+        "title": "grafnatt/ru-en-toxicity-classifier-rosberta",
+        "url": "https://huggingface.co/grafnatt/ru-en-toxicity-classifier-rosberta"
       }
     ],
     "vision_systems": [
@@ -1785,7 +1781,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "48 independent papers",
+      "observation": "47 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1856,6 +1852,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 439
+    "total_papers": 438
   }
 }
