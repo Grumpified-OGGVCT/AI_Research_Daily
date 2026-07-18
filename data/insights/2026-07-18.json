@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-18T06:57:07.471431",
+  "date": "2026-07-18T08:46:48.917840",
   "patterns": {
     "multimodal_research": [
       {
@@ -659,6 +659,10 @@
         "url": "https://arxiv.org/abs/2607.14660v1"
       },
       {
+        "title": "AnkitAI/FinSense-ModernBERT-Financial-News-Sentiment",
+        "url": "https://huggingface.co/AnkitAI/FinSense-ModernBERT-Financial-News-Sentiment"
+      },
+      {
         "title": "Cross-Layer Error Compensation and Finite-Sample Feature-Statistics Matching for Extreme Low-Bit Quantization of Large Language Models",
         "url": "https://arxiv.org/abs/2607.14630v1"
       },
@@ -673,18 +677,6 @@
       {
         "title": "Blurring Modal Boundaries: A Unified Survey from Single- to Multi-Modal Person Re-ldentification",
         "url": "https://arxiv.org/abs/2607.14821v1"
-      },
-      {
-        "title": "Fer1155453/xlm-roberta-sarcasmo",
-        "url": "https://huggingface.co/Fer1155453/xlm-roberta-sarcasmo"
-      },
-      {
-        "title": "posttrainllm/pace-intent-router-v8",
-        "url": "https://huggingface.co/posttrainllm/pace-intent-router-v8"
-      },
-      {
-        "title": "SRJ5035/Xpert-GPT-50M-final",
-        "url": "https://huggingface.co/SRJ5035/Xpert-GPT-50M-final"
       }
     ],
     "vision_systems": [
@@ -1801,7 +1793,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1860,6 +1852,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 440
+    "total_papers": 438
   }
 }
