@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-18T18:54:38.955648",
+  "date": "2026-07-18T20:03:55.355358",
   "patterns": {
     "multimodal_research": [
       {
@@ -675,8 +675,8 @@
         "url": "https://arxiv.org/abs/2607.14821v1"
       },
       {
-        "title": "leophill/w2v-bert-2.0-afrivoices-ea-6l-asr",
-        "url": "https://huggingface.co/leophill/w2v-bert-2.0-afrivoices-ea-6l-asr"
+        "title": "LucianoM39/Qwen3.6-35B-A3B-UD-Q4_K_XL-Mesh-LLM",
+        "url": "https://huggingface.co/LucianoM39/Qwen3.6-35B-A3B-UD-Q4_K_XL-Mesh-LLM"
       }
     ],
     "vision_systems": [
@@ -1011,10 +1011,6 @@
       {
         "title": "ESAR: Event-Based Synthetic Aperture Reconstruction",
         "url": "https://arxiv.org/abs/2607.15073v1"
-      },
-      {
-        "title": "birder-project/d_fine_l_objects365-coco_hgnet_v2_b4_pp-imagenet22k",
-        "url": "https://huggingface.co/birder-project/d_fine_l_objects365-coco_hgnet_v2_b4_pp-imagenet22k"
       }
     ],
     "reasoning": [
@@ -1309,6 +1305,10 @@
       {
         "title": "Post Hoc Inference for Component Attribution in Multivariate Change-Point Detection",
         "url": "https://arxiv.org/abs/2607.14814v1"
+      },
+      {
+        "title": "paulsaurav/resnet50-inference-optimization",
+        "url": "https://huggingface.co/paulsaurav/resnet50-inference-optimization"
       }
     ],
     "benchmarks": [
@@ -1767,10 +1767,6 @@
       {
         "title": "Quantifying Training Membership Information in the Hyperspherical Embedding Geometry of Face Recognition Models",
         "url": "https://arxiv.org/abs/2607.15084v1"
-      },
-      {
-        "title": "sota1029/albedo-qwen3.6-35b-miner-00",
-        "url": "https://huggingface.co/sota1029/albedo-qwen3.6-35b-miner-00"
       }
     ]
   },
@@ -1807,13 +1803,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1825,7 +1821,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "115 independent papers",
+      "observation": "114 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1860,6 +1856,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 440
+    "total_papers": 439
   }
 }
