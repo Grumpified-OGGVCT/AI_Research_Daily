@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-18T21:44:48.634090",
+  "date": "2026-07-18T22:43:05.555901",
   "patterns": {
     "multimodal_research": [
       {
@@ -677,10 +677,6 @@
       {
         "title": "sulaimank/w2vbert-luganda-waxal-punct-v2",
         "url": "https://huggingface.co/sulaimank/w2vbert-luganda-waxal-punct-v2"
-      },
-      {
-        "title": "BertilBraun/qwen3-1.7b-voice-light-tool-use-lora",
-        "url": "https://huggingface.co/BertilBraun/qwen3-1.7b-voice-light-tool-use-lora"
       }
     ],
     "vision_systems": [
@@ -1797,7 +1793,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "84 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1856,6 +1852,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 439
+    "total_papers": 438
   }
 }
