@@ -1,33 +1,11 @@
 {
-  "date": "2026-07-19T22:44:38.849795",
-  "patterns": {
-    "vision_systems": [
-      {
-        "title": "CoreEpoch/tinyvit-5m-int8-imagenet",
-        "url": "https://huggingface.co/CoreEpoch/tinyvit-5m-int8-imagenet"
-      },
-      {
-        "title": "CoreEpoch/xcit-tiny12-p8-int8-imagenet",
-        "url": "https://huggingface.co/CoreEpoch/xcit-tiny12-p8-int8-imagenet"
-      },
-      {
-        "title": "CoreEpoch/edgenext-small-int8-imagenet",
-        "url": "https://huggingface.co/CoreEpoch/edgenext-small-int8-imagenet"
-      }
-    ]
-  },
-  "inferences": [
-    {
-      "pattern": "vision_systems",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "date": "2026-07-19T23:52:31.136133",
+  "patterns": {},
+  "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_patterns": 0,
+    "total_inferences": 0,
+    "total_papers": 0
   }
 }
