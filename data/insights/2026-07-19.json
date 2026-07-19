@@ -1,22 +1,37 @@
 {
-  "date": "2026-07-19T16:51:51.242894",
+  "date": "2026-07-19T17:53:49.708268",
   "patterns": {
     "language_models": [
       {
-        "title": "LLM-OS-Models2/gdn2-370m-fineweb-edu-5b-vanilla",
-        "url": "https://huggingface.co/LLM-OS-Models2/gdn2-370m-fineweb-edu-5b-vanilla"
+        "title": "MhoOmm/HotPotQA_DEBERT",
+        "url": "https://huggingface.co/MhoOmm/HotPotQA_DEBERT"
       },
       {
         "title": "LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b",
         "url": "https://huggingface.co/LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b"
+      },
+      {
+        "title": "sulaimank/w2vbert-shona-waxal-punct-v2",
+        "url": "https://huggingface.co/sulaimank/w2vbert-shona-waxal-punct-v2"
+      },
+      {
+        "title": "sulaimank/w2vbert-lingala-waxal-punct-v2",
+        "url": "https://huggingface.co/sulaimank/w2vbert-lingala-waxal-punct-v2"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
