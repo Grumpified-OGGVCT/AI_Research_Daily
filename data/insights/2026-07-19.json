@@ -1,11 +1,22 @@
 {
-  "date": "2026-07-19T08:05:31.335790",
-  "patterns": {},
+  "date": "2026-07-19T10:22:07.805836",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "sulaimank/w2vbert-shona-waxal-punct-v2",
+        "url": "https://huggingface.co/sulaimank/w2vbert-shona-waxal-punct-v2"
+      },
+      {
+        "title": "Harikrish2727/BetterGPT-150M",
+        "url": "https://huggingface.co/Harikrish2727/BetterGPT-150M"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
