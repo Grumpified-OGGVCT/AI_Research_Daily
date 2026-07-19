@@ -1,41 +1,33 @@
 {
-  "date": "2026-07-19T21:44:58.145537",
+  "date": "2026-07-19T22:44:38.849795",
   "patterns": {
-    "language_models": [
+    "vision_systems": [
       {
-        "title": "LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b",
-        "url": "https://huggingface.co/LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b"
+        "title": "CoreEpoch/tinyvit-5m-int8-imagenet",
+        "url": "https://huggingface.co/CoreEpoch/tinyvit-5m-int8-imagenet"
       },
       {
-        "title": "BertilBraun/qwen3-1.7b-voice-light-tool-use-lora",
-        "url": "https://huggingface.co/BertilBraun/qwen3-1.7b-voice-light-tool-use-lora"
+        "title": "CoreEpoch/xcit-tiny12-p8-int8-imagenet",
+        "url": "https://huggingface.co/CoreEpoch/xcit-tiny12-p8-int8-imagenet"
       },
       {
-        "title": "ModalityDance/slpo-codi-gpt2",
-        "url": "https://huggingface.co/ModalityDance/slpo-codi-gpt2"
-      },
-      {
-        "title": "ModalityDance/slpo-coconut-gpt2",
-        "url": "https://huggingface.co/ModalityDance/slpo-coconut-gpt2"
-      },
-      {
-        "title": "miquelt-9/cv26-hubert-svm-calibrated",
-        "url": "https://huggingface.co/miquelt-9/cv26-hubert-svm-calibrated"
+        "title": "CoreEpoch/edgenext-small-int8-imagenet",
+        "url": "https://huggingface.co/CoreEpoch/edgenext-small-int8-imagenet"
       }
     ]
   },
   "inferences": [
     {
-      "pattern": "language_models",
-      "observation": "5 independent papers",
-      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
-      "confidence": "high"
+      "pattern": "vision_systems",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Vision Systems - monitor for breakthrough results",
+      "confidence": "medium"
     }
   ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 5
+    "total_papers": 3
   }
 }
