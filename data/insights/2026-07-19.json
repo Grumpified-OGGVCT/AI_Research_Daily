@@ -1,37 +1,41 @@
 {
-  "date": "2026-07-19T20:05:52.112548",
+  "date": "2026-07-19T21:44:58.145537",
   "patterns": {
     "language_models": [
-      {
-        "title": "tomerraviv95/new-colbert-a4-baseline-4dim-20k-seed45678",
-        "url": "https://huggingface.co/tomerraviv95/new-colbert-a4-baseline-4dim-20k-seed45678"
-      },
-      {
-        "title": "tomerraviv95/new-colbert-d4-hot-stratified-4dim-20k-seed56789",
-        "url": "https://huggingface.co/tomerraviv95/new-colbert-d4-hot-stratified-4dim-20k-seed56789"
-      },
       {
         "title": "LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b",
         "url": "https://huggingface.co/LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b"
       },
       {
-        "title": "tomerraviv95/new-colbert-a4-baseline-4dim-20k-seed56789",
-        "url": "https://huggingface.co/tomerraviv95/new-colbert-a4-baseline-4dim-20k-seed56789"
+        "title": "BertilBraun/qwen3-1.7b-voice-light-tool-use-lora",
+        "url": "https://huggingface.co/BertilBraun/qwen3-1.7b-voice-light-tool-use-lora"
+      },
+      {
+        "title": "ModalityDance/slpo-codi-gpt2",
+        "url": "https://huggingface.co/ModalityDance/slpo-codi-gpt2"
+      },
+      {
+        "title": "ModalityDance/slpo-coconut-gpt2",
+        "url": "https://huggingface.co/ModalityDance/slpo-coconut-gpt2"
+      },
+      {
+        "title": "miquelt-9/cv26-hubert-svm-calibrated",
+        "url": "https://huggingface.co/miquelt-9/cv26-hubert-svm-calibrated"
       }
     ]
   },
   "inferences": [
     {
       "pattern": "language_models",
-      "observation": "4 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
+      "observation": "5 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
     }
   ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
     "total_inferences": 1,
-    "total_papers": 4
+    "total_papers": 5
   }
 }
