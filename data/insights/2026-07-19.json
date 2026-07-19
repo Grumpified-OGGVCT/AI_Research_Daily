@@ -1,11 +1,22 @@
 {
-  "date": "2026-07-19T13:03:47.013477",
-  "patterns": {},
+  "date": "2026-07-19T14:49:36.416541",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "LLM-OS-Models2/gdn2-370m-fineweb-edu-5b-vanilla",
+        "url": "https://huggingface.co/LLM-OS-Models2/gdn2-370m-fineweb-edu-5b-vanilla"
+      },
+      {
+        "title": "sulaimank/w2vbert-shona-waxal-punct-v2",
+        "url": "https://huggingface.co/sulaimank/w2vbert-shona-waxal-punct-v2"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
