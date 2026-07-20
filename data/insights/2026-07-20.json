@@ -1,11 +1,22 @@
 {
-  "date": "2026-07-20T03:11:18.396086",
-  "patterns": {},
+  "date": "2026-07-20T06:10:48.932496",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b",
+        "url": "https://huggingface.co/LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b"
+      },
+      {
+        "title": "iampoppyxx/newline-restoration-distilroberta",
+        "url": "https://huggingface.co/iampoppyxx/newline-restoration-distilroberta"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
