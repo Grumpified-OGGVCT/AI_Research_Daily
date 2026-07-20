@@ -1,11 +1,22 @@
 {
-  "date": "2026-07-20T19:30:42.799504",
-  "patterns": {},
+  "date": "2026-07-20T21:05:47.522922",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "harshrtr07/legal-bert-cuad-risk-analyzer",
+        "url": "https://huggingface.co/harshrtr07/legal-bert-cuad-risk-analyzer"
+      },
+      {
+        "title": "LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b-v2-meanpool",
+        "url": "https://huggingface.co/LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b-v2-meanpool"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
