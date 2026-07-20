@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-20T21:05:47.522922",
+  "date": "2026-07-20T22:53:18.269306",
   "patterns": {
     "language_models": [
       {
@@ -9,14 +9,25 @@
       {
         "title": "LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b-v2-meanpool",
         "url": "https://huggingface.co/LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b-v2-meanpool"
+      },
+      {
+        "title": "hrithikkoduri18/squad_distilbert_qa_model",
+        "url": "https://huggingface.co/hrithikkoduri18/squad_distilbert_qa_model"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
