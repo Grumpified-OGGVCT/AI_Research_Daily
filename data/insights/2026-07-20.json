@@ -1,11 +1,22 @@
 {
-  "date": "2026-07-20T15:05:48.800488",
-  "patterns": {},
+  "date": "2026-07-20T17:30:23.727496",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b-v2-meanpool",
+        "url": "https://huggingface.co/LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-5b-v2-meanpool"
+      },
+      {
+        "title": "azherali/CodeGenDetect-Codebert-v1",
+        "url": "https://huggingface.co/azherali/CodeGenDetect-Codebert-v1"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
