@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-21T11:01:39.354294",
+  "date": "2026-07-21T12:27:37.038149",
   "patterns": {
     "multimodal_research": [
       {
@@ -701,6 +701,10 @@
       {
         "title": "BMFA: Boundary-Minority Free-Energy Adaptive Screening",
         "url": "https://arxiv.org/abs/2607.17656v1"
+      },
+      {
+        "title": "Chetah/learn_hf_food_not_food_textCLS_distilbert",
+        "url": "https://huggingface.co/Chetah/learn_hf_food_not_food_textCLS_distilbert"
       }
     ],
     "vision_systems": [
@@ -1289,6 +1293,10 @@
       {
         "title": "SAMRI-3D: Adapting SAM2 for 3D MRI Segmentation with Global Volume Tokens",
         "url": "https://arxiv.org/abs/2607.18014v1"
+      },
+      {
+        "title": "beyond-logic-labs/Qwen3Guard-Gen-0.6B-gguf",
+        "url": "https://huggingface.co/beyond-logic-labs/Qwen3Guard-Gen-0.6B-gguf"
       }
     ],
     "benchmarks": [
@@ -1765,7 +1773,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1777,7 +1785,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1824,6 +1832,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 431
+    "total_papers": 433
   }
 }
