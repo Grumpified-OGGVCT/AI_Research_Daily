@@ -6,7 +6,7 @@
     "authors": [
       "Maxime Bouton",
       "Ioanna Mitsioni",
-      "Simon Lindst\u00e5hl",
+      "Simon Lindståhl",
       "Jaeseong Jeong"
     ],
     "categories": [
@@ -111,9 +111,9 @@
     "title": "Large Language Models for Citation Function Classification",
     "summary": "Citation function classification plays a crucial role in understanding the relationships between scientific publications and advancing bibliometric analysis. This study presents one of the first comprehensive evaluations of multiple state-of-the-art (SOTA) large language models (LLMs) for citation function classification, achieving new SOTA results on the ACL-ARC dataset. We systematically compare five models (Mistral 7B, Orca 2-7B, LLaMA 3.1-8B, Falcon 7B, and SciBERT) across zero-shot, few-shot, and fine-tuning approaches. Our fine-tuned Falcon 7B model achieves a 73.3% macro F1 score on ACL-ARC, representing a significant improvement over previous methods. Additionally, we introduce AC3, a novel dataset featuring a seven-category annotation scheme that distinguishes between neutral acknowledgments and explicit evaluative stances (more opinion-oriented citations - criticizing, complimenting, contradicting). The dataset is implemented across four context extraction variants to systematically evaluate the impact of contextual scope on classification performance. We also provide detailed analysis of model performance, experimental configurations, and limitations to guide future research in this domain. To our knowledge, this is one of the first studies dedicated to comprehensive model comparison for citation function classification, addressing a gap identified in recent surveys.",
     "authors": [
-      "Daniel Vodi\u010dka",
-      "Jakub \u0160m\u00edd",
-      "Pavel Kr\u00e1l",
+      "Daniel Vodička",
+      "Jakub Šmíd",
+      "Pavel Král",
       "Christophe Cerisara"
     ],
     "categories": [
@@ -317,7 +317,7 @@
     "title": "Autonomous Discovery of Wireless Communications Algorithms",
     "summary": "Large language model (LLM)-driven evolutionary search is an emerging algorithm-discovery paradigm that has already produced novel results in several scientific fields. Yet its application to wireless communications remains largely unexplored. To bridge this gap, we introduce The AI Telco Engineer (AITE), a framework to autonomously design algorithms for complex communication problems, while navigating performance-complexity tradeoffs. We showcase AITE on two challenging physical-layer problems: designing an equalizer for an orthogonal time-frequency space (OTFS) system, and constructing a receiver algorithm for an orthogonal frequency-division multiplexing (OFDM) system using a custom constellation and operating without pilots. For the first task, AITE develops algorithms that outperform the best-known solutions while reducing computational latency by a factor of 3.6 compared to the strongest baseline. For the second task, it discovers the first explicit, explainable algorithms that achieve performance parity with state-of-the-art neural receivers. These results demonstrate the strong potential of LLM-driven evolutionary search for the autonomous discovery of next-generation wireless communications algorithms.",
     "authors": [
-      "Fay\u00e7al A\u00eft Aoudia",
+      "Fayçal Aït Aoudia",
       "Jakob Hoydis",
       "Sebastian Cammerer",
       "Gian Marti",
@@ -381,7 +381,7 @@
     "title": "Certified Training for Convolutional Perturbations",
     "summary": "Vision models have been found to be susceptible to perturbations such as motion blur induced at runtime by a shaking camera. This impedes their deployment in critical applications since phenomena such as slightly blurred vision might lead to failures, for example an object detector missing objects. While methods such as data augmentation or Adversarial Training can improve empirical robustness, they lack formal safety guarantees, making it difficult to identify and mitigate hidden vulnerabilities. We introduce a novel Certified Training approach that leverages an efficient encoding of convolutional perturbations to train provably robust models. Our method significantly outperforms Adversarial Training, achieving, for example, over 80% robust accuracy against motion blur of reasonable intensity on CIFAR10 while maintaining comparable standard accuracy.",
     "authors": [
-      "Benedikt Br\u00fcckner",
+      "Benedikt Brückner",
       "Alessio Lomuscio"
     ],
     "categories": [
@@ -697,12 +697,12 @@
     "title": "ESCUCHA: A Spanish Speech Benchmark for Heterogeneous Acoustic Conditions",
     "summary": "As large audio language models (LALMs) advance, robust evaluation frameworks have become essential. In this context, Spanish speech understanding under realistic acoustic conditions has received particularly little attention. We introduce ESCUCHA, the first Spanish speech understanding benchmark designed to evaluate LALMs across heterogeneous acoustic conditions and reasoning abilities. ESCUCHA comprises 1,000 human-curated questions paired with audio, totaling 162.9 hours sourced directly ``from the wild'' rather than drawn from existing datasets, with durations ranging from a few seconds to over 80 minutes. The benchmark emphasizes reasoning, spanning 9 perceptual and 10 reasoning categories, and it captures linguistic diversity through multiple Spanish accents and non-normative speech. ESCUCHA further includes multi-audio questions, spoken questions, and audio instructions, and it flags which questions support open-ended evaluation. Benchmarking several state-of-the-art multimodal and speech models reveals substantial performance gaps relative to trained humans.",
     "authors": [
-      "Fernando L\u00f3pez",
+      "Fernando López",
       "Ana Ayala",
       "Guillermo Segovia",
-      "Fernando Ib\u00e1\u00f1ez",
-      "Ana Mart\u00ednez",
-      "Pablo G\u00f3mez",
+      "Fernando Ibáñez",
+      "Ana Martínez",
+      "Pablo Gómez",
       "Jordi Luque"
     ],
     "categories": [
@@ -1238,7 +1238,7 @@
       "Ricardo Ribeiro Pereira",
       "Jacopo Bono",
       "Hugo Ferreira",
-      "M\u00e1rio A. T. Figueiredo",
+      "Mário A. T. Figueiredo",
       "Pedro Bizarro"
     ],
     "categories": [
@@ -1299,7 +1299,7 @@
   {
     "arxiv_id": "2607.18042v1",
     "title": "Anticipate Before Acting: Future-State-Conditioned Vision-Language Navigation",
-    "summary": "End-to-end vision-language navigation (VLN) with causal vision-language models can map instructions and egocentric observations directly to actions, but standard behavior cloning supervises only the next action and does not explicitly train the policy state to be predictive of future visual outcomes. We first ask a diagnostic question: if the policy is given an expert-trajectory future image as privileged input at training and testing time, is that additional visual evidence useful for choosing the current action? (These expert-trajectory future images are unavailable at test time in real deployment, so we use this setting only as a privileged-input diagnostic.) The answer is yes; this sanity check shows that future observations can provide rich, actionable cues.   We then ask a deployable question: without accessing future images at inference, can we still benefit from future information by using a compressed future visual latent only as training supervision? We propose Future-State-Conditioned VLN (FSC-VLN), which adds a future-query token and aligns its hidden state to a frozen visual embedding $\u0394$ steps ahead via a training-only target branch that is removed after training. On R2R val-unseen, FSC-VLN improves SR/OSR/SPL over a StreamVLN-style baseline under two training-data regimes, with larger gains on long-horizon episodes; ablations further support the dual-query design (separating future and action queries).",
+    "summary": "End-to-end vision-language navigation (VLN) with causal vision-language models can map instructions and egocentric observations directly to actions, but standard behavior cloning supervises only the next action and does not explicitly train the policy state to be predictive of future visual outcomes. We first ask a diagnostic question: if the policy is given an expert-trajectory future image as privileged input at training and testing time, is that additional visual evidence useful for choosing the current action? (These expert-trajectory future images are unavailable at test time in real deployment, so we use this setting only as a privileged-input diagnostic.) The answer is yes; this sanity check shows that future observations can provide rich, actionable cues.   We then ask a deployable question: without accessing future images at inference, can we still benefit from future information by using a compressed future visual latent only as training supervision? We propose Future-State-Conditioned VLN (FSC-VLN), which adds a future-query token and aligns its hidden state to a frozen visual embedding $Δ$ steps ahead via a training-only target branch that is removed after training. On R2R val-unseen, FSC-VLN improves SR/OSR/SPL over a StreamVLN-style baseline under two training-data regimes, with larger gains on long-horizon episodes; ablations further support the dual-query design (separating future and action queries).",
     "authors": [
       "Lingfeng Zhang",
       "Zhanguang Zhang",
@@ -1345,7 +1345,7 @@
       "Mohammad Javad Saeedizade",
       "Stefan Schmid",
       "Simon Blattner",
-      "Robin Keskis\u00e4rkk\u00e4",
+      "Robin Keskisärkkä",
       "Aldo Gangemi",
       "Eva Blomqvist",
       "Andrea Giovanni Nuzzolese"
@@ -1366,12 +1366,12 @@
     "summary": "Robust multi-agent coordination relies heavily on inter-agent communication, which is frequently disrupted by physical and environmental constraints in real-world deployments. To maintain operation during these intermittent communication failures, agents can employ internal prediction models to estimate missing shared state information. However, predictors trained with standard reconstruction objectives treat all transitions equally. In a Reinforcement Learning context, this forces the model to waste capacity learning stochastic exploration noise and the outdated dynamics of suboptimal policies. In this paper, we propose a value-aware extension of Multi-Agent Observation Sharing under Communication Dropout (MARO) to patch communication gaps; we refer to this method as Value-Aware MARO. By dynamically weighting the predictor's loss function using advantage estimates derived from the underlying actor-critic architecture, our objective explicitly couples the predictor's learning process to the policy's evolution. This formulation focuses the model's capacity on the intentional, high-return dynamics actively reinforced by the agents. We evaluate our framework on several tasks within the Multi-Agent Particle Environment under varying communication reliability levels. Experimental results demonstrate that our approach maintains performance under declining communication reliability, particularly below 40%. While our method performs comparably in tasks where the baseline already maintains high coordination, our value-aware weighting effectively prevents the performance collapse observed in the standard predictor during high-attrition scenarios. In these environments, our method achieves an average improvement in mean returns of more than 20% and reduces performance variance by a mean of 64.7% compared to the standard unweighted baseline.",
     "authors": [
       "Kemal Devrim Kafadar",
-      "Eren \u00d6zaltun",
-      "Mahmud Efnan \u015eanl\u0131",
+      "Eren Özaltun",
+      "Mahmud Efnan Şanlı",
       "Feyza Orak",
       "Emirhan Gazi",
-      "Kubilay Ka\u011fan K\u00f6m\u00fcrc\u00fc",
-      "Naz\u0131m Kemal \u00dcre"
+      "Kubilay Kağan Kömürcü",
+      "Nazım Kemal Üre"
     ],
     "categories": [
       "cs.MA",
@@ -1681,11 +1681,11 @@
     "title": "A Hardware-oriented Approach for Efficient Bayesian Inference Computation and Deployment",
     "summary": "Bayesian inference provides a principled foundation for reasoning under uncertainty, but its computational cost hinders deployment on resource-constrained edge devices. In this paper, we present a hardware-oriented methodology for accelerating discrete Bayesian inference on commercial off-the-shelf embedded GPUs. We identify that the latency of a broad class of variational message-passing algorithms is dominated by tensor contractions. Our approach restructures the memory layout of these operations using two complementary merging strategies that produce compact, regularly-shaped primitives better suited for efficient GPU execution. We then introduce optional sparse array representations and a tensor-clustering scheme to reduce the memory footprint. We instantiate the methodology and produce optimized variants of three message-passing algorithms for Hidden Markov Models (HMMs), namely variational filtering, variational message passing, and marginal message passing. Furthermore, we complement this with a machine-learning-based autotuner that automatically selects the best-performing algorithmic variant for a given generative model specification. Benchmarked on an NVIDIA Jetson Orin AGX across 770 randomly sampled realistic Partially Observable Markov Decision Process (POMDP) configurations, our implementations achieve speedups of up to 5x, with typical gains of 2-2.5x, while producing numerically identical outputs to the baseline implementations.",
     "authors": [
-      "Nikola Pi\u017eurica",
+      "Nikola Pižurica",
       "Matteo Risso",
-      "Nikola Milovi\u0107",
+      "Nikola Milović",
       "Alessio Burrello",
-      "Igor Jovan\u010devi\u0107",
+      "Igor Jovančević",
       "Conor Heins",
       "Miguel de Prado"
     ],
@@ -2135,7 +2135,7 @@
       "Anna Mannucci",
       "Philipp Schillinger",
       "Florian Lier",
-      "Wolfgang H\u00f6nig"
+      "Wolfgang Hönig"
     ],
     "categories": [
       "cs.RO",
@@ -2227,9 +2227,9 @@
     "summary": "Self-hosted AI agents read and write their own memory and configuration files to function. An agent may get compromised via corruption of its own state -- a compromise realized via legitimate OS system call invocation. We refer to this class of threats as self-state attacks. In this paper, we investigate the OS resilience to this class of attacks. Formally, we characterize a four-axis attack space (Target, Mechanism, Granularity, Temporal); investigate the structural limits of prevention, detection, and recovery; and introduce a workload-conditioned view of detectability. To instantiate the framework, we collect live activity traces from a representative self-hosted agent running across distinct workload profiles, and realize the attack space as a 23-cell matrix, 43 concrete operations on real self-state files, and injected into those traces. We then evaluate both canonical and workload-conditioned defense strategies. The empirical results show that a layered defense stack (access-control prevention on the instruction and configuration layers, workload-conditioned detection on the memory layer, and periodic backup for recovery) is effective on most attack cells while a small residual attack surface remains structurally indistinguishable at the OS level. These findings suggest that against the newly established class of self-state attacks, OS-level defense needs to be reconsidered, potentially opening new research directions in the field.",
     "authors": [
       "Yimeng Chen",
-      "Nathana\u00ebl Denis",
+      "Nathanaël Denis",
       "Roberto Di Pietro",
-      "J\u00fcrgen Schmidhuber"
+      "Jürgen Schmidhuber"
     ],
     "categories": [
       "cs.CR",
@@ -2494,8 +2494,8 @@
   },
   {
     "arxiv_id": "2607.17897v1",
-    "title": "Distributional Soft Bellman Operator under the Cram\u00e9r Geometry",
-    "summary": "Distributional soft policy iteration (DSPI) provides an important framework for combining distributional reinforcement learning (DRL) with maximum-entropy control, in which the policy evaluation step is governed by a distributional soft Bellman operator acting on entropy-regularised returns. Theoretical analysis of such an evaluation step requires a probability metric under which Bellman updates can be controlled, typically by showing that the operator contracts the distance between any two candidate return-distribution estimates. In this paper, we focus on the Cram\u00e9r geometry, a cumulative distribution function (CDF)-based metric with an $L^2$ structure, and study whether the fixed-policy distributional soft Bellman operator has this contraction property and hence a unique fixed point under this metric. Working directly on an admissible CDF field domain, we formulate the CDF-level distributional soft Bellman operator, prove that it is a $\\sqrt\u03b3$-contraction, and obtain the corresponding unique fixed point together with convergent iterative policy evaluation. The CDF formulation also shows that this finite-Cram\u00e9r-domain property follows from a uniform first-moment condition on the combined one-step reward entropy shift, rather than from separate uniform boundedness assumptions on the reward and entropy terms. We then transport the same evaluation problem to the spectral domain by conjugation, obtaining an equivalent Hilbert-space representation of the same decision process. Taken together, these results identify the Cram\u00e9r-geometric Bellman fixed point associated with the policy-evaluation step of DSPI, providing a reference point for studying approximate critics, evaluation error, and critic-loss design in DSPI-style algorithms.",
+    "title": "Distributional Soft Bellman Operator under the Cramér Geometry",
+    "summary": "Distributional soft policy iteration (DSPI) provides an important framework for combining distributional reinforcement learning (DRL) with maximum-entropy control, in which the policy evaluation step is governed by a distributional soft Bellman operator acting on entropy-regularised returns. Theoretical analysis of such an evaluation step requires a probability metric under which Bellman updates can be controlled, typically by showing that the operator contracts the distance between any two candidate return-distribution estimates. In this paper, we focus on the Cramér geometry, a cumulative distribution function (CDF)-based metric with an $L^2$ structure, and study whether the fixed-policy distributional soft Bellman operator has this contraction property and hence a unique fixed point under this metric. Working directly on an admissible CDF field domain, we formulate the CDF-level distributional soft Bellman operator, prove that it is a $\\sqrtγ$-contraction, and obtain the corresponding unique fixed point together with convergent iterative policy evaluation. The CDF formulation also shows that this finite-Cramér-domain property follows from a uniform first-moment condition on the combined one-step reward entropy shift, rather than from separate uniform boundedness assumptions on the reward and entropy terms. We then transport the same evaluation problem to the spectral domain by conjugation, obtaining an equivalent Hilbert-space representation of the same decision process. Taken together, these results identify the Cramér-geometric Bellman fixed point associated with the policy-evaluation step of DSPI, providing a reference point for studying approximate critics, evaluation error, and critic-loss design in DSPI-style algorithms.",
     "authors": [
       "Keru Wang",
       "Yixin Deng",
@@ -2656,7 +2656,7 @@
       "Prakhar Gupta",
       "Terry Jingchen Zhang",
       "Florent Draye",
-      "Bernhard Sch\u00f6lkopf",
+      "Bernhard Schölkopf",
       "Zhijing Jin"
     ],
     "categories": [
@@ -2812,7 +2812,7 @@
   {
     "arxiv_id": "2607.17674v1",
     "title": "Uncovering Latent Reasoning Strategies in Language Models",
-    "summary": "A language model $p_\u03b8(y \\mid x)$ trained on reasoning tasks learns to solve problems via multiple distinct strategies, yet these strategies are implicit and entangled within the model's response distribution. We study the problem of decomposing the response distribution of a given pretrained language model into a structured, strategy-conditioned representation. Specifically, we learn a latent-variable factorization $p_\u03b8(y \\mid x) \\leadsto (r_\u03c6(z \\mid x), g_\u03c6(y \\mid x,z))$, where a router $r$ maps each input to a distribution over latent strategies $z$ and a generator $g$ produces the response conditioned on that strategy. A key challenge is that the generator, initialized from the base model, already represents $p_\u03b8(y \\mid x)$ without using $z$. Standard variational inference therefore gives the model no incentive to route information through $z$ and can yield a severe form of posterior collapse. To address this, we propose a variational objective that measures fractional information gain relative to the base model's response loss and concentrates reconstruction pressure on tokens with high base model surprisal, encouraging $z$ to encode strategy-relevant response variation. We introduce a benchmark of multi-strategy algorithmic tasks and show that this objective recovers latent codes aligned with distinct reference strategies while preserving the base model's response distribution.",
+    "summary": "A language model $p_θ(y \\mid x)$ trained on reasoning tasks learns to solve problems via multiple distinct strategies, yet these strategies are implicit and entangled within the model's response distribution. We study the problem of decomposing the response distribution of a given pretrained language model into a structured, strategy-conditioned representation. Specifically, we learn a latent-variable factorization $p_θ(y \\mid x) \\leadsto (r_φ(z \\mid x), g_φ(y \\mid x,z))$, where a router $r$ maps each input to a distribution over latent strategies $z$ and a generator $g$ produces the response conditioned on that strategy. A key challenge is that the generator, initialized from the base model, already represents $p_θ(y \\mid x)$ without using $z$. Standard variational inference therefore gives the model no incentive to route information through $z$ and can yield a severe form of posterior collapse. To address this, we propose a variational objective that measures fractional information gain relative to the base model's response loss and concentrates reconstruction pressure on tokens with high base model surprisal, encouraging $z$ to encode strategy-relevant response variation. We introduce a benchmark of multi-strategy algorithmic tasks and show that this objective recovers latent codes aligned with distinct reference strategies while preserving the base model's response distribution.",
     "authors": [
       "Awni Altabaa",
       "John Lafferty"
@@ -2831,7 +2831,7 @@
   {
     "arxiv_id": "2607.18198v1",
     "title": "Three-Body Scattering for Generative Modeling",
-    "summary": "Modern generative models typically rely on an adversarial critic, a prescribed noise-to-data path, or an autoregressive factorization. Instead, we show that a proper distributional energy can induce sample-level motion and provide direct regression supervision for a one-step generator. Three-Body Scattering Modeling (TBSM) for generation turns the energy distance into a constant-size per-projectile interaction: each projectile is attracted toward one real source and repelled from one independently generated source. Conditioned on the projectile and its condition, its expectation equals the $2$-Wasserstein gradient-flow velocity of $\\frac12D_E^2(P_\u03b8,Q)$. A batch of $B$ frozen-target events yields $O(B)$ sample-level losses, each using one reference for its condition instead of the minibatch-wide all-pairs field used by methods such as Drifting Models. Tracking this conditional expectation online can reduce field noise. Using scattering in frozen image features, TBSM trains one-step generators on ImageNet-256, achieving FID${}=2.23$ with pixel-space PixelDiT-XL and FID${}=1.63$ with latent-space DiT-XL at NFE${}=1$. We provide a design map relating diffusion-related supervision, Drift-like dynamics, and GAN-like objectives. These results establish tracked scattering as a route to high-dimensional one-step generation. Code: https://github.com/sp12138/TBSM.",
+    "summary": "Modern generative models typically rely on an adversarial critic, a prescribed noise-to-data path, or an autoregressive factorization. Instead, we show that a proper distributional energy can induce sample-level motion and provide direct regression supervision for a one-step generator. Three-Body Scattering Modeling (TBSM) for generation turns the energy distance into a constant-size per-projectile interaction: each projectile is attracted toward one real source and repelled from one independently generated source. Conditioned on the projectile and its condition, its expectation equals the $2$-Wasserstein gradient-flow velocity of $\\frac12D_E^2(P_θ,Q)$. A batch of $B$ frozen-target events yields $O(B)$ sample-level losses, each using one reference for its condition instead of the minibatch-wide all-pairs field used by methods such as Drifting Models. Tracking this conditional expectation online can reduce field noise. Using scattering in frozen image features, TBSM trains one-step generators on ImageNet-256, achieving FID${}=2.23$ with pixel-space PixelDiT-XL and FID${}=1.63$ with latent-space DiT-XL at NFE${}=1$. We provide a design map relating diffusion-related supervision, Drift-like dynamics, and GAN-like objectives. These results establish tracked scattering as a route to high-dimensional one-step generation. Code: https://github.com/sp12138/TBSM.",
     "authors": [
       "Peng Sun",
       "Zhenglin Cheng",
@@ -3001,7 +3001,7 @@
     "summary": "Users frequently express their beliefs to large language models (LLMs). In some situations, the LLM should accept these contextual beliefs as true. In others, they should stick to their prior knowledge. Notably, users' expressions of belief (EoBs) can take linguistically diverse forms - using presuppositions, evidential and certainty markers, or varied tones - each of which may have a different persuasiveness over the LLMs. We introduce a typology to systematically evaluate how different EoBs affect whether models follow context versus prior knowledge. The typology is grounded in four linguistically motivated dimensions: form, evidentiality, epistemic stance, and tone, spanning 17 fine-grained types. By pairing these EoBs with world knowledge facts, we generate controlled EoB-query pairs that isolate the effect of linguistic variation. Using this benchmark, we evaluate 16 LLMs that differ in architecture (Llama3, Qwen3, Gemma3), scale (1B-30B parameters), and training stages (base vs instruct). We identify meaningful variations in response behavior across these axes, e.g., that bigger models and instruction models tend to be less context-following than smaller models and base models. We further identify specific EoBs that statistically significantly persuade LMs more consistently than others. Our work reveals systematic patterns in how linguistic framing affects LLM context integration, with implications for prompt engineering and model robustness.",
     "authors": [
       "Kevin Du",
-      "Clara K\u00fcmpel",
+      "Clara Kümpel",
       "Michelle Wastl",
       "Alex Warstadt"
     ],
@@ -3139,11 +3139,11 @@
   {
     "arxiv_id": "2607.17872v1",
     "title": "Entanglement geometry separates circuit cutting, classical hardness, and trainability",
-    "summary": "Circuit cutting promises to scale quantum computations beyond current hardware, but variational quantum advantage also requires low cutting overhead, classical hardness, and trainability. We show that these properties are strongly constrained by entanglement geometry. Matrix product state (MPS) and tree tensor network (TTN) circuits with constant seam bond dimension can be cut with \\(O(1/\\varepsilon^2)\\) sampling overhead, but remain efficiently classically simulable, ruling out asymptotic quantum advantage within these families. By independently controlling seam and intra-block entanglement, we construct a two-block circuit family that remains cheaply cuttable while requiring a super-polynomial global MPS bond dimension, as supported numerically up to \\(n=100\\). However, MPS hardness and trainability require incompatible depth regimes, \\(d=\u03c9(\\log n)\\) and \\(d=O(\\log n)\\), respectively. Using magic rather than entanglement as the hardness resource avoids this conflict: shallow Clifford+\\(T\\) circuits remain cuttable and trainable while their stabiliser-simulation cost grows exponentially with the \\(T\\)-count.",
+    "summary": "Circuit cutting promises to scale quantum computations beyond current hardware, but variational quantum advantage also requires low cutting overhead, classical hardness, and trainability. We show that these properties are strongly constrained by entanglement geometry. Matrix product state (MPS) and tree tensor network (TTN) circuits with constant seam bond dimension can be cut with \\(O(1/\\varepsilon^2)\\) sampling overhead, but remain efficiently classically simulable, ruling out asymptotic quantum advantage within these families. By independently controlling seam and intra-block entanglement, we construct a two-block circuit family that remains cheaply cuttable while requiring a super-polynomial global MPS bond dimension, as supported numerically up to \\(n=100\\). However, MPS hardness and trainability require incompatible depth regimes, \\(d=ω(\\log n)\\) and \\(d=O(\\log n)\\), respectively. Using magic rather than entanglement as the hardness resource avoids this conflict: shallow Clifford+\\(T\\) circuits remain cuttable and trainable while their stabiliser-simulation cost grows exponentially with the \\(T\\)-count.",
     "authors": [
       "Maria Gragera Garces",
-      "Sabina Dr\u0103goi",
-      "Lirand\u00eb Pira"
+      "Sabina Drăgoi",
+      "Lirandë Pira"
     ],
     "categories": [
       "quant-ph",
@@ -3164,8 +3164,8 @@
     "summary": "Despite the growing availability of customizable social artificial intelligence (AI), such as ChatGPT, Grok, and Character.ai, we know little about how users actively shape social AI to reflect their personal preferences. This study examines why and how users (N = 169) customize social AI through the lens of the newly developed concept of AI individualism. Through reflexive thematic analysis of open-ended responses, we identified several motivations for customization, including (1) enhanced pragmatic support, (2) emotional support or companionship, (3) trust and reliability, (4) pushback, (5) a tailored degree of human likeness, (6) creativity or playfulness, and (7) having the AI function as an extension of the self. In line with the concept of AI individualism, our findings show that, for many users, customization is a co-creative process between the human and the AI that is perceived as strengthening support, autonomy, ownership, and engagement, potentially contributing to a closer and more personal relationship. Through customization users may come to view social AI as a personalized social resource that increases their sense of individualism, freedom, and control. We discuss how these perceptions may foster pseudo-autonomy, whereby customization creates an illusion of individual control over powerful social AI systems.",
     "authors": [
       "Marita Skjuve",
-      "Anna Gr\u00f8ndal Larsen",
-      "Asbj\u00f8rn F\u00f8lstad",
+      "Anna Grøndal Larsen",
+      "Asbjørn Følstad",
       "Nena van As",
       "Petter Bae Brandtzaeg"
     ],
@@ -3501,7 +3501,7 @@
     "summary": "Within Explainable Artificial Intelligence, mechanistic interpretability uses Sparse Autoencoders (SAEs) to extract more interpretable features from neural representations. However, assessing their monosemanticity, and thus explanation quality, remains challenging. Existing metrics require external concept labels or depend on pretrained embedding models, making them sensitive to encoder's geometry. We introduce the Tversky Monosemanticity Score (TMS), a label-free metric that operationalizes monosemanticity as activation-set coherence of binarized SAE latents, and does not require external embedding encoders. We evaluate TMS on SAEs trained on features from pretrained vision and vision-language models (DINOv3, CLIP, BLIP2), two common SAE regimes (TopK, BatchTopK), multiple sparsity levels, and expansion factors. Our results show that TMS is less affected by encoder anisotropy than its embedding-based alternative, while remaining aligned with established monosemanticity indicators. TMS also reveals distinct SAE training dynamics across base models. Moreover, under encoder anisotropy, TMS provides a stronger indication of probe-based concept deletion effectiveness, while being competitive otherwise.",
     "authors": [
       "Katarzyna Filus",
-      "Sebastian Pokuci\u0144ski"
+      "Sebastian Pokuciński"
     ],
     "categories": [
       "cs.CV",
@@ -3970,8 +3970,8 @@
     "title": "Sobek: Streaming Equivariant Tensor Product Convolutions",
     "summary": "Equivariant graph neural networks repeatedly apply edge-conditioned tensor-product convolutions over graph edges. Conventional implementations materialize edge-specific weights, messages, and adjoints, causing tensor-product workspace and memory traffic to grow rapidly with graph size and operator width. This limits feasible workloads and can prevent larger problems from fully utilizing the GPU.   We show that these edge-sized intermediates are artifacts of the execution schedule, not requirements of the equivariant operator. By reassociating radial projection, spherical-harmonic coupling, and graph aggregation, edge-local products can be consumed directly into bounded receiver-side state. The resulting streaming formulation preserves fully connected multiplicity mixing and extends through forward, backward, and double backward.   We implement this formulation in Sobek, a generated-CUDA backend, and evaluate it across edge-scaling regimes and varied feature structures. Across two operator families and all three differentiation orders, Sobek is faster in all 75 capacity-matched comparisons, with speedups ranging from $1.2\\times$ to $49.7\\times$, and reduces peak allocated memory by up to 99\\%. It also executes workloads up to two orders of magnitude beyond OpenEquivariance's capacity while retaining near-peak throughput. These results show that edge-scaled tensor-product workspace is a property of the conventional schedule, not of equivariant convolution itself.",
     "authors": [
-      "Vladimir Choro\u0161ajev",
-      "C\u00e9dric B\u00e9ny"
+      "Vladimir Chorošajev",
+      "Cédric Bény"
     ],
     "categories": [
       "cs.LG"
@@ -4307,7 +4307,7 @@
     "title": "Direct Clinical Joint Angle Extraction from Parametric Body Model Rotation Matrices",
     "summary": "Quantitative joint angles are rarely available in routine care because the tools are slow, costly, or confined to a laboratory. We show that clinical joint angles can be read directly from the per-segment rotation matrices a parametric body model already produces, with no inverse-kinematics or musculoskeletal-model fitting step. On the OpenCap LabValidation cohort, using the GEM-X body-model estimator on single-smartphone video, our pooled mean absolute error is 4.50 degrees over the fifteen joint angles that match the OpenCap Monocular reference set, the same accuracy range as OpenCap Monocular's 4.8 degrees on the same cohort and reference standard, from a much simpler pipeline. The step that connects a body model to clinical angles is a small calibration table rather than an optimisation, so the same procedure transfers unchanged to other body models: repeating it on SAM 3D Body, changing only the table, gives 4.66 degrees, statistically indistinguishable from GEM-X, and runs in real time from a live single-camera stream. The method needs no per-recording inputs beyond the video itself: no participant height, no camera-intrinsics database, no per-subject model scaling. This broadens where movement analysis is practical, from in-clinic and at-home recording to telerehabilitation and large-scale decentralised studies.",
     "authors": [
-      "Joey P\u00e1olo Kardolus",
+      "Joey Páolo Kardolus",
       "Daan Hendriks",
       "Jaap Jansen"
     ],
@@ -4342,7 +4342,7 @@
   {
     "arxiv_id": "2607.17865v1",
     "title": "How Fast Do Signatures Learn? Statistical Theory and Applications for Path Regression",
-    "summary": "Many prediction and decision-making problems in operations research involve path-valued covariates -- data that evolve over time -- for which path signatures have become a canonical feature representation. Their use is justified by a universal approximation theorem, but this is an existence result: it guarantees that a finite-level signature can approximate any continuous path functional, without quantifying how fast the approximation error decreases as the truncation level grows. This paper develops approximation and statistical theory for signature-based path regression. We establish an \\(L^2\\) approximation rate for smooth functionals of It\u00f4 diffusions and show that it is minimax optimal. We then propagate the truncation error through three statistical learning procedures -- Signature-OLS, Signature-LASSO, and Signature-Logistic -- and establish their consistency. Three real-data applications show that signatures provide informative finite-dimensional representations of path-valued covariates and can improve prediction relative to handcrafted features, in the context of finance -- foreign exchange realized volatility forecasting from intraday price paths; energy -- battery end-of-life prediction from early diagnostic current-voltage pulse paths; and medicine -- epileptic seizure detection from short electroencephalogram windows.",
+    "summary": "Many prediction and decision-making problems in operations research involve path-valued covariates -- data that evolve over time -- for which path signatures have become a canonical feature representation. Their use is justified by a universal approximation theorem, but this is an existence result: it guarantees that a finite-level signature can approximate any continuous path functional, without quantifying how fast the approximation error decreases as the truncation level grows. This paper develops approximation and statistical theory for signature-based path regression. We establish an \\(L^2\\) approximation rate for smooth functionals of Itô diffusions and show that it is minimax optimal. We then propagate the truncation error through three statistical learning procedures -- Signature-OLS, Signature-LASSO, and Signature-Logistic -- and establish their consistency. Three real-data applications show that signatures provide informative finite-dimensional representations of path-valued covariates and can improve prediction relative to handcrafted features, in the context of finance -- foreign exchange realized volatility forecasting from intraday price paths; energy -- battery end-of-life prediction from early diagnostic current-voltage pulse paths; and medicine -- epileptic seizure detection from short electroencephalogram windows.",
     "authors": [
       "Blanka Horvath",
       "Wen Su",
@@ -4381,312 +4381,6 @@
     "pdf_url": "https://arxiv.org/pdf/2607.17699v1.pdf",
     "date": "2026-07-21",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "RandomThingsIDo/fast-aligner",
-    "author": "unknown",
-    "title": "RandomThingsIDo/fast-aligner",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "onnx",
-      "audio",
-      "automatic-speech-recognition",
-      "forced-alignment",
-      "conformer",
-      "knowledge-distillation",
-      "video-editing",
-      "en",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "",
-    "created_at": "2026-07-20T12:21:52.000Z",
-    "last_modified": "2026-07-21T05:43:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/RandomThingsIDo/fast-aligner",
-    "date": "2026-07-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "fpadovani/eus-latn-100mb-100mb_seed455",
-    "author": "unknown",
-    "title": "fpadovani/eus-latn-100mb-100mb_seed455",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "base_model:goldfish-models/eus_latn_100mb",
-      "base_model:finetune:goldfish-models/eus_latn_100mb",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-21T04:20:17.000Z",
-    "last_modified": "2026-07-21T05:41:46.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fpadovani/eus-latn-100mb-100mb_seed455",
-    "date": "2026-07-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "dhasmana/WAXAL-mas-lug-w2v-bert-2.0",
-    "author": "unknown",
-    "title": "dhasmana/WAXAL-mas-lug-w2v-bert-2.0",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2-bert",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-07-20T18:27:28.000Z",
-    "last_modified": "2026-07-21T05:41:03.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/dhasmana/WAXAL-mas-lug-w2v-bert-2.0",
-    "date": "2026-07-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "aimalias/sj0h4",
-    "author": "unknown",
-    "title": "aimalias/sj0h4",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "krea2",
-      "template:sd-lora",
-      "base_model:krea/Krea-2-Raw",
-      "base_model:adapter:krea/Krea-2-Raw",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-07-21T05:00:05.000Z",
-    "last_modified": "2026-07-21T05:40:47.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/aimalias/sj0h4",
-    "date": "2026-07-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "kiyri/llama32-legal-lora-16bit",
-    "author": "unknown",
-    "title": "kiyri/llama32-legal-lora-16bit",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-21T05:35:54.000Z",
-    "last_modified": "2026-07-21T05:40:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/kiyri/llama32-legal-lora-16bit",
-    "date": "2026-07-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "tomerraviv95/new-colbert-d4-hot-stratified-4dim-20k-seed45678",
-    "author": "unknown",
-    "title": "tomerraviv95/new-colbert-d4-hot-stratified-4dim-20k-seed45678",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "bert",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-07-19T19:39:48.000Z",
-    "last_modified": "2026-07-21T05:38:55.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/tomerraviv95/new-colbert-d4-hot-stratified-4dim-20k-seed45678",
-    "date": "2026-07-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sullivan1502/base-grpo-round1",
-    "author": "unknown",
-    "title": "sullivan1502/base-grpo-round1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer",
-      "grpo",
-      "trl",
-      "arxiv:2402.03300",
-      "base_model:sullivan1502/base-sft",
-      "base_model:finetune:sullivan1502/base-sft",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-21T03:58:38.000Z",
-    "last_modified": "2026-07-21T05:38:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sullivan1502/base-grpo-round1",
-    "date": "2026-07-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sullivan1502/base-grpo-round2",
-    "author": "unknown",
-    "title": "sullivan1502/base-grpo-round2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "grpo",
-      "arxiv:2402.03300",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-21T02:25:26.000Z",
-    "last_modified": "2026-07-21T05:38:04.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sullivan1502/base-grpo-round2",
-    "date": "2026-07-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "csssss/com2ai-zimage-gguf",
-    "author": "unknown",
-    "title": "csssss/com2ai-zimage-gguf",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "safetensors",
-      "license:apache-2.0",
-      "diffusers:ZImagePipeline",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-07-21T05:23:39.000Z",
-    "last_modified": "2026-07-21T05:36:41.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/csssss/com2ai-zimage-gguf",
-    "date": "2026-07-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Bruce001/gemma4-12b-ashq1-4850",
-    "author": "unknown",
-    "title": "Bruce001/gemma4-12b-ashq1-4850",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "llama.cpp",
-      "ashq1",
-      "gemma-4",
-      "quantization",
-      "text-generation",
-      "en",
-      "zh",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-21T05:22:26.000Z",
-    "last_modified": "2026-07-21T05:35:43.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Bruce001/gemma4-12b-ashq1-4850",
-    "date": "2026-07-21",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "tomerraviv95/new-colbert-a4-baseline-4dim-20k-seed56789",
-    "author": "unknown",
-    "title": "tomerraviv95/new-colbert-a4-baseline-4dim-20k-seed56789",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "bert",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-07-19T19:58:20.000Z",
-    "last_modified": "2026-07-21T05:34:09.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/tomerraviv95/new-colbert-a4-baseline-4dim-20k-seed56789",
-    "date": "2026-07-21",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
