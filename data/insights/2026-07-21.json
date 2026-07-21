@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-21T05:43:45.272342",
+  "date": "2026-07-21T08:14:15.870271",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,16 +703,12 @@
         "url": "https://arxiv.org/abs/2607.17656v1"
       },
       {
+        "title": "azherali/CodeDetect-BERT-T1",
+        "url": "https://huggingface.co/azherali/CodeDetect-BERT-T1"
+      },
+      {
         "title": "dhasmana/WAXAL-mas-lug-w2v-bert-2.0",
         "url": "https://huggingface.co/dhasmana/WAXAL-mas-lug-w2v-bert-2.0"
-      },
-      {
-        "title": "tomerraviv95/new-colbert-d4-hot-stratified-4dim-20k-seed45678",
-        "url": "https://huggingface.co/tomerraviv95/new-colbert-d4-hot-stratified-4dim-20k-seed45678"
-      },
-      {
-        "title": "tomerraviv95/new-colbert-a4-baseline-4dim-20k-seed56789",
-        "url": "https://huggingface.co/tomerraviv95/new-colbert-a4-baseline-4dim-20k-seed56789"
       }
     ],
     "vision_systems": [
@@ -1003,10 +999,6 @@
       {
         "title": "Toward Optimal Adenovirus Detection Using YOLO26",
         "url": "https://arxiv.org/abs/2607.17799v1"
-      },
-      {
-        "title": "csssss/com2ai-zimage-gguf",
-        "url": "https://huggingface.co/csssss/com2ai-zimage-gguf"
       }
     ],
     "reasoning": [
@@ -1781,13 +1773,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1840,6 +1832,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 435
+    "total_papers": 433
   }
 }
