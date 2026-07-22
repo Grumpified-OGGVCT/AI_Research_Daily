@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-22T13:28:35.788660",
+  "date": "2026-07-22T15:27:51.309760",
   "patterns": {
     "multimodal_research": [
       {
@@ -1261,22 +1261,6 @@
       {
         "title": "NGPS: GPS-Denied Aerial Geo-Localization and 2.5D Reconstruction via Deep Satellite Image Matching and Multi-Rate Sensor Fusion",
         "url": "https://arxiv.org/abs/2607.18936v1"
-      },
-      {
-        "title": "barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-MTP-GGUF",
-        "url": "https://huggingface.co/barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-MTP-GGUF"
-      },
-      {
-        "title": "barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-GGUF",
-        "url": "https://huggingface.co/barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-GGUF"
-      },
-      {
-        "title": "barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-MTP",
-        "url": "https://huggingface.co/barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-MTP"
-      },
-      {
-        "title": "barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill",
-        "url": "https://huggingface.co/barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill"
       }
     ],
     "benchmarks": [
@@ -1753,7 +1737,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1793,13 +1777,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 35,
+      "frequency": 31,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 425
+    "total_papers": 421
   }
 }
