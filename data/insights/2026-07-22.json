@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-22T11:02:38.805350",
+  "date": "2026-07-22T13:28:35.788660",
   "patterns": {
     "multimodal_research": [
       {
@@ -661,10 +661,6 @@
       {
         "title": "In-Context Learning for Wound Classification with Small Multimodal Language Models",
         "url": "https://arxiv.org/abs/2607.18819v1"
-      },
-      {
-        "title": "muby26/bbc-news-distilbert",
-        "url": "https://huggingface.co/muby26/bbc-news-distilbert"
       }
     ],
     "vision_systems": [
@@ -1265,6 +1261,22 @@
       {
         "title": "NGPS: GPS-Denied Aerial Geo-Localization and 2.5D Reconstruction via Deep Satellite Image Matching and Multi-Rate Sensor Fusion",
         "url": "https://arxiv.org/abs/2607.18936v1"
+      },
+      {
+        "title": "barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-MTP-GGUF",
+        "url": "https://huggingface.co/barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-MTP-GGUF"
+      },
+      {
+        "title": "barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-GGUF",
+        "url": "https://huggingface.co/barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-GGUF"
+      },
+      {
+        "title": "barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-MTP",
+        "url": "https://huggingface.co/barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill-MTP"
+      },
+      {
+        "title": "barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill",
+        "url": "https://huggingface.co/barozp/Qwen3.6-29B-REAP-Opus-Reasoning-Distill"
       }
     ],
     "benchmarks": [
@@ -1729,7 +1741,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1741,7 +1753,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1781,13 +1793,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 31,
+      "frequency": 35,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 422
+    "total_papers": 425
   }
 }
