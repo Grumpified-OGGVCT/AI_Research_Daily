@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-23T15:51:08.219849",
+  "date": "2026-07-23T17:13:16.320757",
   "patterns": {
     "multimodal_research": [
       {
@@ -593,14 +593,6 @@
       {
         "title": "Evolving Cache Schedules for Fast Diffusion Policy Inference",
         "url": "https://arxiv.org/abs/2607.20293v1"
-      },
-      {
-        "title": "LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-30b-v2-meanpool",
-        "url": "https://huggingface.co/LLM-OS-Models2/mc-gdn2-370m-fineweb-edu-30b-v2-meanpool"
-      },
-      {
-        "title": "farbodtavakkoli/OTel-2.0-LLM-31B-IT",
-        "url": "https://huggingface.co/farbodtavakkoli/OTel-2.0-LLM-31B-IT"
       }
     ],
     "vision_systems": [
@@ -1545,7 +1537,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1604,6 +1596,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 376
+    "total_papers": 374
   }
 }
