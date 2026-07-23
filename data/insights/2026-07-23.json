@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-23T05:48:53.511187",
+  "date": "2026-07-23T08:18:48.425321",
   "patterns": {
     "multimodal_research": [
       {
@@ -593,6 +593,10 @@
       {
         "title": "Evolving Cache Schedules for Fast Diffusion Policy Inference",
         "url": "https://arxiv.org/abs/2607.20293v1"
+      },
+      {
+        "title": "yashkavaiya/smollm2-135m-humana-support-lora-smoke",
+        "url": "https://huggingface.co/yashkavaiya/smollm2-135m-humana-support-lora-smoke"
       }
     ],
     "vision_systems": [
@@ -839,6 +843,10 @@
       {
         "title": "Importance-Aware OBS Pruning for Diffusion Models",
         "url": "https://arxiv.org/abs/2607.20048v1"
+      },
+      {
+        "title": "Dikshan1234/ImageGen",
+        "url": "https://huggingface.co/Dikshan1234/ImageGen"
       }
     ],
     "reasoning": [
@@ -1097,6 +1105,10 @@
       {
         "title": "Quantum Kernels and the Cross-Section of Stock Returns: Anatomy of a Vanishing Advantage",
         "url": "https://arxiv.org/abs/2607.20168v1"
+      },
+      {
+        "title": "TobiasLogic/Qwen3-235B-A22B-Instruct-2507-abliterated",
+        "url": "https://huggingface.co/TobiasLogic/Qwen3-235B-A22B-Instruct-2507-abliterated"
       }
     ],
     "benchmarks": [
@@ -1537,19 +1549,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "61 independent papers",
+      "observation": "62 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1596,6 +1608,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 374
+    "total_papers": 377
   }
 }
