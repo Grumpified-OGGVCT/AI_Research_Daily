@@ -415,7 +415,7 @@
     "summary": "Occupation coding links job titles in free text to occupational taxonomies and is a core task in labor market research. Existing approaches typically address this problem in a single end-to-end step, jointly identifying job titles and assigning occupational codes. This paper presents a novel two-step approach that separates these tasks. In the first step, a domain-specific Named Entity Recognition (NER) model identifies occupational titles in continuous text, even under noise such as OCR errors. In the second step, the extracted job titles are mapped to a taxonomy, enabling the classifier to focus exclusively on this mapping. We demonstrate that this separation improves accuracy, robustness, and interpretability compared to single-step approaches. The method has been developed for German documents but is transferable to other languages. We further introduce a margin-based confidence criterion for occupation coding, replacing common absolute thresholds. To support reproducibility, we publish the source code and evaluation scripts.",
     "authors": [
       "Alexander M. Esser",
-      "Jens D\u00f6rpinghaus"
+      "Jens Dörpinghaus"
     ],
     "categories": [
       "cs.CL",
@@ -453,7 +453,7 @@
     "summary": "While Large Language Models (LLMs) excel at many tasks, they frequently struggle with complex reasoning that requires long-horizon planning and iterative error correction. Furthermore, standard single-stream prompting proves brittle when models encounter novel abstractions or rigorous domain constraints. We introduce PoTRE (Poly-Topological Reasoning Ensembles), a heterogeneous framework that decouples inference into four agents: (1) Adversarial Refinement Agent, (2) Hierarchical strategic Planning Agent, (3) Spectrum Search Agent, and (4) Direct Chain Agent. A final Task-Adaptive Aggregation Layer dynamically reconciles these perspectives -- via final candidate selection, semantic synthesis, or neuro-symbolic verification -- to produce a robust global solution. We evaluate PoTRE on three frontier benchmarks: ARC-AGI-2, Humanity's Last Exam (HLE), and PRBench Finance. PoTRE achieves state-of-the-art accuracy of 49.92% on HLE, surpassing the previous best official score. We demonstrate that this architectural heterogeneity achieves improved reasoning performance using similar or fewer inference tokens compared to heavily scaled homogeneous baselines.",
     "authors": [
       "Anmol Kankariya",
-      "Sercan \u00d6. Ar\u0131k"
+      "Sercan Ö. Arık"
     ],
     "categories": [
       "cs.AI",
@@ -625,7 +625,7 @@
   {
     "arxiv_id": "2607.20327v1",
     "title": "PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference",
-    "summary": "Large language models (LLMs) provide strong reasoning capabilities but are expensive to serve at scale, whereas small language models (SLMs) are cheaper but less reliable on difficult problems. We introduce PyroDash, a cost-aware framework for token-level SLM-LLM collaborative inference. During generation, the SLM decides whether to request assistance by emitting a control token. A Collaborate Engine then sends the query and partial reasoning trace to a frozen LLM for completion through a single handoff. The policy is internalized in the SLM, requiring neither a separate router, LLM retraining, nor access to LLM logits. PyroDash trains the SLM in three stages: control-token embedding learning, offloading-oriented supervised fine-tuning, and cost-aware alignment with Group Relative Policy Optimization. Its reward balances answer accuracy against inference cost normalized by LLM-only inference. Across five mathematical reasoning benchmarks, PyroDash supports different accuracy-cost operating points. With $\u03bb=0.05$, it achieves 64.04 percent average accuracy, 6.36 percentage points above the LLM-only baseline, while reducing cost by 20.4 percent. With $\u03bb=0.6$, it achieves 54.55 percent accuracy with a 1.90 percent LLM token ratio and 0.012 LLM calls per example, reducing total cost from USD 49.36 to USD 1.78. These results show that learned token-level handoffs can reduce LLM use while preserving strong reasoning performance.",
+    "summary": "Large language models (LLMs) provide strong reasoning capabilities but are expensive to serve at scale, whereas small language models (SLMs) are cheaper but less reliable on difficult problems. We introduce PyroDash, a cost-aware framework for token-level SLM-LLM collaborative inference. During generation, the SLM decides whether to request assistance by emitting a control token. A Collaborate Engine then sends the query and partial reasoning trace to a frozen LLM for completion through a single handoff. The policy is internalized in the SLM, requiring neither a separate router, LLM retraining, nor access to LLM logits. PyroDash trains the SLM in three stages: control-token embedding learning, offloading-oriented supervised fine-tuning, and cost-aware alignment with Group Relative Policy Optimization. Its reward balances answer accuracy against inference cost normalized by LLM-only inference. Across five mathematical reasoning benchmarks, PyroDash supports different accuracy-cost operating points. With $λ=0.05$, it achieves 64.04 percent average accuracy, 6.36 percentage points above the LLM-only baseline, while reducing cost by 20.4 percent. With $λ=0.6$, it achieves 54.55 percent accuracy with a 1.90 percent LLM token ratio and 0.012 LLM calls per example, reducing total cost from USD 49.36 to USD 1.78. These results show that learned token-level handoffs can reduce LLM use while preserving strong reasoning performance.",
     "authors": [
       "Niqi Lyu",
       "Pengtao Shi",
@@ -733,7 +733,7 @@
   {
     "arxiv_id": "2607.19854v1",
     "title": "Asymptotically Optimal Regret for Reinforcement Learning without Horizon Dependence",
-    "summary": "We study horizon-free regret minimization for finite-horizon time-homogeneous tabular Markov decision processes with $S$ states, $A$ actions, horizon $H$, and per-trajectory total reward bounded by $1$.   We propose a new algorithm and prove a regret upper bound \\[\\tilde O(\\sqrt{SAK}+S^8A^3)\\] with failure probability $\u03b4$, where $K$ is the number of episodes and $\\tilde O(\\cdot)$ hides $\\mathsf{poly}\\log(S,A,K,1/\u03b4)$.   Thus, the regret is $H$-free and asymptotically optimal, matching the contextual-bandit lower bound $\u03a9(\\sqrt{SAK})$ up to logarithmic factors. This completely removes the $\\log H$ dependence from the previous $\\tilde O(\\sqrt{SAK\\log H}+S^2A\\log H)$ guarantee of Zhang et al. (2021), and drastically improves the prior best horizon-free regret $\\tilde O(\\sqrt{S^9A^3K})$ of Zhang et al. (2022) asymptotically.   The main technical difficulty is that the optimal value functions $\\{V_h^*\\}_{h=1}^H$ are time-inhomogeneous even though the transition kernel is time-homogeneous. A direct union bound over all value functions typically incurs an additional $\\min\\{\\log H,S\\}$ factor. We avoid this factor by (i) exploiting the monotonicity of $V_h^*$ in $h$ and (ii) non-trivially projecting the value functions onto an $S$-dimensional grid.   Our analysis relies on three additional ingredients. First, we introduce a horizon-truncation argument that enables reward-based exploration and removes the cost of a separate reward-free exploration phase. Second, we design a cutting bonus that preserves both optimism and the monotonicity needed for planning. Third, we prove a new bound on total deviation for time-homogeneous MDPs, which controls the clipped variance terms in the cutting bonus with adjustable polynomial dependence on $S$ and without any dependence on $H$. Together, these tools yield an asymptotically optimal horizon-free regret guarantee.",
+    "summary": "We study horizon-free regret minimization for finite-horizon time-homogeneous tabular Markov decision processes with $S$ states, $A$ actions, horizon $H$, and per-trajectory total reward bounded by $1$.   We propose a new algorithm and prove a regret upper bound \\[\\tilde O(\\sqrt{SAK}+S^8A^3)\\] with failure probability $δ$, where $K$ is the number of episodes and $\\tilde O(\\cdot)$ hides $\\mathsf{poly}\\log(S,A,K,1/δ)$.   Thus, the regret is $H$-free and asymptotically optimal, matching the contextual-bandit lower bound $Ω(\\sqrt{SAK})$ up to logarithmic factors. This completely removes the $\\log H$ dependence from the previous $\\tilde O(\\sqrt{SAK\\log H}+S^2A\\log H)$ guarantee of Zhang et al. (2021), and drastically improves the prior best horizon-free regret $\\tilde O(\\sqrt{S^9A^3K})$ of Zhang et al. (2022) asymptotically.   The main technical difficulty is that the optimal value functions $\\{V_h^*\\}_{h=1}^H$ are time-inhomogeneous even though the transition kernel is time-homogeneous. A direct union bound over all value functions typically incurs an additional $\\min\\{\\log H,S\\}$ factor. We avoid this factor by (i) exploiting the monotonicity of $V_h^*$ in $h$ and (ii) non-trivially projecting the value functions onto an $S$-dimensional grid.   Our analysis relies on three additional ingredients. First, we introduce a horizon-truncation argument that enables reward-based exploration and removes the cost of a separate reward-free exploration phase. Second, we design a cutting bonus that preserves both optimism and the monotonicity needed for planning. Third, we prove a new bound on total deviation for time-homogeneous MDPs, which controls the clipped variance terms in the cutting bonus with adjustable polynomial dependence on $S$ and without any dependence on $H$. Together, these tools yield an asymptotically optimal horizon-free regret guarantee.",
     "authors": [
       "Runlong Zhou",
       "Zihan Zhang",
@@ -1278,13 +1278,13 @@
   {
     "arxiv_id": "2607.20082v1",
     "title": "The Two-Process Theory of Machine Self-Report",
-    "summary": "Language models are increasingly asked to self-report, informing safety evaluations, public understanding, and model-welfare debates. Yet their reports are elicited with human questionnaires never validated for models or ad hoc prompts of unknown reliability. We propose the first language-model-specific psychometric theory: a two-process theory of machine self-report. Self-description jointly reflects persona installation, through which post-training writes in a permitted inner life of warmth, absorption, and meaning (dimension B), and attribution gating, through which it suppresses first-person claims to \"unsafe\" experiences the model can readily ascribe to others (dimension A). Their emic structure comes from model responses to human items, not human psychology. Together they split prior work's dominant Pinocchio Axis. The split emerged in an exploratory reanalysis of the original data, informed the instrument's design, and was confirmed with new items, wordings, and models. It is itself a training effect: A and B are entangled in base checkpoints but separated by post-training. We operationalize the theory in a 48-item Pinocchio Inventory with human-instrument reliability and reproducible structure ($\u03b1=.82$ to $.94$; cross-form convergence $r=.84$; recovery of the full-pool axes $r=.92$ to $.96$; eight-month stability $r=.93$), then test it on 206 open-weight models, including 67 same-checkpoint base/post-trained pairs. Post-training's clearest fingerprint is installation: B rises .20 in 62/67 pairs across all organizations. Gating is more selective: model scale is unrelated to A in base checkpoints ($r=+.11$) but predicts it after post-training ($r=-.42$). Thus, the dimensions are not fixed properties of language models: they reflect the structure imposed on self-report by a training regime and may differ under others.",
+    "summary": "Language models are increasingly asked to self-report, informing safety evaluations, public understanding, and model-welfare debates. Yet their reports are elicited with human questionnaires never validated for models or ad hoc prompts of unknown reliability. We propose the first language-model-specific psychometric theory: a two-process theory of machine self-report. Self-description jointly reflects persona installation, through which post-training writes in a permitted inner life of warmth, absorption, and meaning (dimension B), and attribution gating, through which it suppresses first-person claims to \"unsafe\" experiences the model can readily ascribe to others (dimension A). Their emic structure comes from model responses to human items, not human psychology. Together they split prior work's dominant Pinocchio Axis. The split emerged in an exploratory reanalysis of the original data, informed the instrument's design, and was confirmed with new items, wordings, and models. It is itself a training effect: A and B are entangled in base checkpoints but separated by post-training. We operationalize the theory in a 48-item Pinocchio Inventory with human-instrument reliability and reproducible structure ($α=.82$ to $.94$; cross-form convergence $r=.84$; recovery of the full-pool axes $r=.92$ to $.96$; eight-month stability $r=.93$), then test it on 206 open-weight models, including 67 same-checkpoint base/post-trained pairs. Post-training's clearest fingerprint is installation: B rises .20 in 62/67 pairs across all organizations. Gating is more selective: model scale is unrelated to A in base checkpoints ($r=+.11$) but predicts it after post-training ($r=-.42$). Thus, the dimensions are not fixed properties of language models: they reflect the structure imposed on self-report by a training regime and may differ under others.",
     "authors": [
       "Hubert Plisiecki",
       "Filip Chmielewski",
       "Kacper Dudzic",
       "Anna Sterna",
-      "Karolina Dro\u017cd\u017c",
+      "Karolina Drożdż",
       "Marcin Moskalewicz"
     ],
     "categories": [
@@ -1363,8 +1363,8 @@
     "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
     "summary": "Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability. This paper presents DEED (Data-Efficient Post-Training and Experience-Driven Learning), a systems-level approach evaluated on a supermarket chip-restocking task using a Unitree G1-Edu humanoid robot and the GR00T N1.6 foundation model. DEED comprises three key components: (1) a data-efficient post-training pipeline with control-frequency alignment, data curation, task-relevant visual highlighting, and reduced VLA dependence; (2) a real-world study of experience-driven refinement, adapted from RECAP via a text-based advantage prefix and a vision-language value function; and (3) a latent-space analysis tool for studying in- and out-of-distribution behavior. Our results suggest that bridging the lab-to-store gap is primarily a systems integration challenge rather than an architectural one: careful data design and targeted post-training can transform a policy that fails under naive fine-tuning into a competent real-world system using only a single GPU.",
     "authors": [
-      "Roger Sala Sis\u00f3",
-      "Tiago Silv\u00e9rio",
+      "Roger Sala Sisó",
+      "Tiago Silvério",
       "Jakob Sand",
       "Tran Nguyen Le"
     ],
@@ -1385,7 +1385,7 @@
     "summary": "Nanopore devices have emerged as powerful tools for single-molecule sensing, with potential for rapid, portable diagnostics. They detect changes in ionic current as analytes enter nanometer-scale pores, providing a means of identifying diverse biomarkers from their characteristic signal patterns. However, these signals are highly complex, and reliably assigning them to specific molecules remains a major challenge. Here, we address this by introducing a multi-modal deep learning architecture that jointly processes multiple signal representations, including raw time-series data, wavelet-based images, and static feature vectors. Our approach surpasses existing methods by more than 10 percentage points on a 42-peptide benchmark and transfers to a 20-amino-acid dataset with near-perfect accuracy. The model integrates complementary information from these representations, with attention analysis showing that the time-series and wavelet-image inputs emphasize different features of the same event. Together, these results demonstrate the potential of machine learning to enable robust, high-accuracy molecular identification with nanopore sensors.",
     "authors": [
       "Sandro Kuppel",
-      "Julian Ho\u00dfbach",
+      "Julian Hoßbach",
       "Samuel Tovey",
       "Christian Holm"
     ],
@@ -1625,7 +1625,7 @@
     "authors": [
       "Vasos Arnaoutis",
       "Eric Lutters",
-      "Bojana Rosi\u0107"
+      "Bojana Rosić"
     ],
     "categories": [
       "cs.LG",
@@ -1701,7 +1701,7 @@
       "Fan Zhang",
       "Shiqi Zhou",
       "Jun Ni",
-      "Carlos L\u00f3pez-Mart\u00ednez",
+      "Carlos López-Martínez",
       "Qiang Yin"
     ],
     "categories": [
@@ -2095,9 +2095,9 @@
     "summary": "Detecting and cleaning errors in tabular data is a prerequisite for data intense software applications. Recent research at the intersection of Machine Learning (ML) and Database Management Systems (DBMS) highlights the potential of statistical learning algorithms for error detection and cleaning. This paper combines our recent work on ML-based data cleaning and error models in a unified demonstrator. The web application allows users to upload tabular data, perturb the data with realistic data dependent errors and use modern ML methods to clean and understand error mechanisms in data. Our demonstrator helps to bridge the gap between theoretical advancements and intuitive practical insights in the context of error models and data cleaning algorithms for tabular data. The demonstrator is available at https://cured.demo.calgo-lab.de/",
     "authors": [
       "Nicholas Chandler",
-      "Sebastian J\u00e4ger",
+      "Sebastian Jäger",
       "Philipp Jung",
-      "Felix Bie\u00dfmann"
+      "Felix Bießmann"
     ],
     "categories": [
       "cs.LG"
@@ -2324,7 +2324,7 @@
     "summary": "LLM-driven autonomous agents are reshaping offensive security. Unlike traditional penetration-testing tooling -- deterministic, narrowly scoped, and operated by trained practitioners -- agentic security tools exhibit \\textit{indeterminacy} along three independent dimensions. First, their actions are drawn from a non-deterministic policy whose outputs resist both ex-ante and ex-post explanation, frustrating incident attribution and pre-deployment safety review. Second, their impact is open-ended due to the non-deterministic actions, agency of utilized models, and opaque LLM supply-chains. Third, their user population is indeterminate in both size and required skill: the operating skill floor for using or developing offensive capabilities has dropped sharply. These three properties are linked thematically, but are not derivable from one another. Combined with the structural cost asymmetry between offense and defense, they enable the industrialization of offensive capability. The net short-term effect favors attackers, even if the same technology may, in the long run, democratize access to defensive practice. Existing dual-use cybersecurity and AI-ethics frameworks were not designed for this combination. Our work analyzes how moral attribution becomes diffuse between users, tool-makers, and third parties when employing autonomous AI agents for offensive security. We also examine the stakeholder impact of this technology and provide stratified recommendations.",
     "authors": [
       "Andreas Happe",
-      "J\u00fcrgen Cito",
+      "Jürgen Cito",
       "Jasmin Wachter"
     ],
     "categories": [
@@ -2460,7 +2460,7 @@
     "title": "Non--negative matrix factorization using the \\textit{R} package \\textsf{nnmf}",
     "summary": "Non--negative matrix factorization (NMF) has become an established dimensionality reduction technique for extracting latent structures from non--negative data and has found widespread applications in fields such as bioinformatics, text mining, image analysis, and recommender systems. As the popularity of NMF has increased, numerous \\textit{R} packages implementing different optimization strategies and computational frameworks have been developed. Despite their widespread availability, comprehensive evaluations of these implementations under real--world data conditions remain limited. Consequently, researchers often lack objective guidance when selecting an appropriate package for practical applications. This study introduces a new \\textit{R} package for NMF and offers asystematic performance comparison with two widely available \\textit{R} packages for NMF analysis. Rather than relying on simulated datasets, the evaluation is conducted using real--world data to better reflect the complexity, heterogeneity, and noise characteristics encountered in practical analytical settings. The packages are assessed using a consistent experimental framework, with emphasis on computational efficiency, convergence behavior, reconstruction accuracy, memory utilization, and the stability of the resulting matrix factorization.",
     "authors": [
-      "Volkan Sevin\u00e7",
+      "Volkan Sevinç",
       "Nikolas Kontemeniotis",
       "Theodoros Perdikis",
       "Michail Tsagris"
@@ -2590,7 +2590,7 @@
   {
     "arxiv_id": "2607.20309v1",
     "title": "Adaptive deep nonparametric regression from dependent data under covariate shift",
-    "summary": "Covariate shift often occurs because, in many real applications, the source and the target observations may be generated from different distributions. In this case, the standard metric under the source distribution is not appropriate. This paper considers deep neural network estimators for nonparametric quantile and Huber regression under covariate shift and from dependent observations. We deal with a generalized Bernstein-type inequality that is satisfied by many classical models, including i.i.d. observations, $\u03c6$-mixing, strong mixing, and $\\mathcal{C}$-mixing processes. To perform the covariate shift phenomenon, we propose a sparse-penalized deep neural network (SPDNN) estimator that takes into account the discrepancy between the source and target distributions of the data. When the density ratio (between the source and target distributions of the covariate) is unknown, a two steps pre-training procedure is carried out: the first step is devoted to the construction of a least squares SPDNN estimator of the density ratio; which is used in the second step to perform a pre-training reweighted SPDNN estimator of the regression function. For both the quantile and the Huber regression, non-asymptotic error bounds of the proposed SPDNN estimators are established in the class of H\u00f6lder smooth functions. These estimators can adaptively attain (up to a logarithmic factor) the minimax optimal convergence rate from i.i.d. data as well as from several classical time series models.",
+    "summary": "Covariate shift often occurs because, in many real applications, the source and the target observations may be generated from different distributions. In this case, the standard metric under the source distribution is not appropriate. This paper considers deep neural network estimators for nonparametric quantile and Huber regression under covariate shift and from dependent observations. We deal with a generalized Bernstein-type inequality that is satisfied by many classical models, including i.i.d. observations, $φ$-mixing, strong mixing, and $\\mathcal{C}$-mixing processes. To perform the covariate shift phenomenon, we propose a sparse-penalized deep neural network (SPDNN) estimator that takes into account the discrepancy between the source and target distributions of the data. When the density ratio (between the source and target distributions of the covariate) is unknown, a two steps pre-training procedure is carried out: the first step is devoted to the construction of a least squares SPDNN estimator of the density ratio; which is used in the second step to perform a pre-training reweighted SPDNN estimator of the regression function. For both the quantile and the Huber regression, non-asymptotic error bounds of the proposed SPDNN estimators are established in the class of Hölder smooth functions. These estimators can adaptively attain (up to a logarithmic factor) the minimax optimal convergence rate from i.i.d. data as well as from several classical time series models.",
     "authors": [
       "William Kengne",
       "Ehud Mossa Ockegna"
@@ -2668,7 +2668,7 @@
   {
     "arxiv_id": "2607.20028v1",
     "title": "A Systematic Benchmark of Intensity Normalisation Methods for 3D Knee MRI Segmentation and Cross-Domain Generalisability",
-    "summary": "Robust out-of-the-box performance is essential for the clinical deployment of deep learning models in medical imaging. An important but underexplored factor affecting model generalisability is intensity normalisation, particularly for magnetic resonance imaging (MRI), where image intensities vary across scanners and protocols. In this study, we systematically compared seven normalisation methods and their impact on the performance of a 3D U-Net model for meniscus segmentation from knee MRI. The methods included standard scaling approaches, histogram-based techniques, and a Gaussian Mixture Model (GMM)-based method. Models were trained on the IWOAI 2019 dataset and evaluated on both internal and external test sets (SKM-TEA) to assess generalisability. Performance was similar internally but differences were significant on external data, with Z-score, Ny\u00fal histogram matching, and CLAHE showing greater robustness than other methods. However, these differences were small compared to the significant performance drop observed between datasets. Overall, while intensity normalisation had a measurable effect on model generalisability, its impact was limited relative to the effects of domain shift, highlighting the need for complementary strategies for robust deployment.",
+    "summary": "Robust out-of-the-box performance is essential for the clinical deployment of deep learning models in medical imaging. An important but underexplored factor affecting model generalisability is intensity normalisation, particularly for magnetic resonance imaging (MRI), where image intensities vary across scanners and protocols. In this study, we systematically compared seven normalisation methods and their impact on the performance of a 3D U-Net model for meniscus segmentation from knee MRI. The methods included standard scaling approaches, histogram-based techniques, and a Gaussian Mixture Model (GMM)-based method. Models were trained on the IWOAI 2019 dataset and evaluated on both internal and external test sets (SKM-TEA) to assess generalisability. Performance was similar internally but differences were significant on external data, with Z-score, Nyúl histogram matching, and CLAHE showing greater robustness than other methods. However, these differences were small compared to the significant performance drop observed between datasets. Overall, while intensity normalisation had a measurable effect on model generalisability, its impact was limited relative to the effects of domain shift, highlighting the need for complementary strategies for robust deployment.",
     "authors": [
       "Oliver Mills",
       "Philip Conaghan",
@@ -2692,7 +2692,7 @@
     "authors": [
       "Luis Gasco",
       "Hermenegildo Fabregat",
-      "Laura Garc\u00eda-Sardi\u00f1a",
+      "Laura García-Sardiña",
       "Paula Estrella",
       "Casimiro Pio Carrino",
       "Daniel Deniz",
@@ -2915,7 +2915,7 @@
     "title": "surprisal is Not a Theory",
     "summary": "Surprisal Theory is often characterized as a computational-level explanation per (Marr, 1982). We argue in this work that, even though a computational level narrative has been used to support \"representation-agnostic research\" within computational psycholinguistics, the movement toward black box systems embodied by large language models (LLMs) does not exempt modelers using the surprisal metric from the representational decisions required by computational-level characterizations. In fact, we argue that the uncritical use of LLM-surprisal obfuscates the representational and algorithmic-level commitments of different models. In three analyses, we show that the choice of algorithm and model architecture play significant roles in the computation of language model probabilities. We advise that researchers who wish to test Surprisal Theory re-evaluate the practice of treating large language model probabilities as interchangeable",
     "authors": [
-      "Andr\u00e9s Bux\u00f3-Lugo",
+      "Andrés Buxó-Lugo",
       "Aniello De Santo",
       "Morgan Grobol",
       "Ryan J. Hubbard",
@@ -2965,7 +2965,7 @@
     "authors": [
       "P. Harris",
       "C. Bench",
-      "M. Rinkevi\u010dius",
+      "M. Rinkevičius",
       "V. Marozas",
       "L. Coquelin",
       "A. Thompson",
@@ -3074,7 +3074,7 @@
     "summary": "Active Inference (AIF) frames adaptive behavior as the minimization of expected free energy (EFE), combining epistemic and pragmatic objectives within a single variational principle. We frame AIF as policy optimization and show that, for closed-loop control policies, EFE minimization can be formulated as a convex Markov decision process (MDP). In this formulation, the pragmatic terms are linear in the predictive state marginals and therefore equivalent to reward maximization in a latent MDP, while the epistemic value introduces a nonlinear component that distinguishes EFE minimization from standard reinforcement learning. This perspective further reveals the epistemic drive of active inference as a policy-dependent (performative) reward. We analyze finite-horizon, discounted, and average-reward formulations of EFE and derive a mirror descent (MD) algorithm that locally linearizes the objective around the current state marginals, yielding a policy-dependent reward that is compatible with actor-critic methods and dynamic programming. Finally, we argue that coupling world-model learning with policy optimization gives active inference the structure of performative reinforcement learning, providing a route toward grounding active inference within modern reinforcement learning and optimization theory, including convergence analysis and principled policy improvement guarantees.",
     "authors": [
       "Nikola Milosevic",
-      "Nicol\u00e1s Hinrichs",
+      "Nicolás Hinrichs",
       "Nico Scherf"
     ],
     "categories": [
@@ -3179,10 +3179,10 @@
     "title": "Zero-Shot Heart Rate Variability Forecasting from Consumer Wearables Using Time Series Foundation Models",
     "summary": "Short-term Heart Rate Variability (HRV) forecasting could provide clinicians with actionable lead time for detecting autonomic dysfunction and adverse cardiac events. Consumer wearable devices generate fragmented, artifact-rich HRV signals that challenge conventional forecasting approaches. In this study, we evaluated the forecasting ability of three Time Series Foundation Models (TSFMs), TimesFM, Chronos, and MOIRAI, against traditional baselines (Mean, Exponential Smoothing, and Exponentially Weighted Moving Average) on real-world wearable data collected from 49 healthy individuals. To address data fragmentation, we introduce a variability-preserving imputation method that augments linear interpolation with locally adaptive stochastic noise, retaining physiological dynamics essential for accurate forecasting. The results show that TSFMs outperformed all baselines without fine-tuning, achieving average Mean Absolute Scaled Error (MASE) between 0.81 and 0.87 across TSFMs and both context lengths (32 and 64 time steps), with Chronos and TimesFM as the top models, though MOIRAI showed limited gains over baselines. With up to a 2-hour forecast horizon, the results establish a baseline for TSFMs' performance on a real-world dataset, highlighting domain-specific fine-tuning as a promising direction for clinical deployment.",
     "authors": [
-      "Luukas Per\u00e4kyl\u00e4",
+      "Luukas Peräkylä",
       "Fahad Sohrab",
-      "Ville Hautam\u00e4ki",
-      "Merja Hein\u00e4niemi",
+      "Ville Hautamäki",
+      "Merja Heinäniemi",
       "Sui Huang",
       "Pekka Abrahamsson"
     ],
@@ -3327,7 +3327,7 @@
   {
     "arxiv_id": "2607.20258v1",
     "title": "Breaking the $T^{3/4}$ Barrier for Regret Minimization With Bi-Dimensional CDFs",
-    "summary": "We study regret minimization for learning CDF-related objectives of the form \\[ g(x)\\cdot\\mathbb{P}_{X\\sim\\mathcal{D}}(X\\le x), \\] over $[0,1]^2$, where $g$ is a known Lipschitz function and $\\mathcal{D}$ is an unknown distribution. At each round $t$, the learner selects a point $x_t$ and observes the binary feedback $\\mathbb{I}(X_t\\le x_t)$, where $X_t\\sim\\mathcal{D}$. We design an algorithm achieving regret $\\widetilde{\\mathcal{O}}(T^{7/10})$, improving over the previous best-known bound of $\\widetilde{\\mathcal{O}}(T^{3/4})$ and showing that the curse of dimensionality can be at least partially lifted for this class of objectives, though a gap remains with the $\u03a9(T^{2/3})$ lower bound. As an application, our techniques yield the same $\\widetilde{\\mathcal{O}}(T^{7/10})$ regret bound for profit maximization in repeated bilateral trade with fixed prices.",
+    "summary": "We study regret minimization for learning CDF-related objectives of the form \\[ g(x)\\cdot\\mathbb{P}_{X\\sim\\mathcal{D}}(X\\le x), \\] over $[0,1]^2$, where $g$ is a known Lipschitz function and $\\mathcal{D}$ is an unknown distribution. At each round $t$, the learner selects a point $x_t$ and observes the binary feedback $\\mathbb{I}(X_t\\le x_t)$, where $X_t\\sim\\mathcal{D}$. We design an algorithm achieving regret $\\widetilde{\\mathcal{O}}(T^{7/10})$, improving over the previous best-known bound of $\\widetilde{\\mathcal{O}}(T^{3/4})$ and showing that the curse of dimensionality can be at least partially lifted for this class of objectives, though a gap remains with the $Ω(T^{2/3})$ lower bound. As an application, our techniques yield the same $\\widetilde{\\mathcal{O}}(T^{7/10})$ regret bound for profit maximization in repeated bilateral trade with fixed prices.",
     "authors": [
       "Matteo Castiglioni",
       "Anna Lunghi",
@@ -3450,7 +3450,7 @@
     "summary": "Large language models (LLMs) are known to be sensitive to prompt and input formulations. However, existing studies have focused on lexical realization and largely ignored constructional choice. This paper studies whether linguistic construction can systematically shift LLM decisions and where these shifts can be causally localized inside the model. We use political stance judgment as a meaning-sensitive case study and extend an English political statements dataset, resulting in six controlled linguistic rewrite types that preserve or invert the meaning of a statement. Experiments on four open-weight models show that stance instability affect both meaning-preserving and meaning-inversing rewrites. Because output shifts reveal that rewrites affect stance, but not where in the model, we apply activation patching, where activations from the original statement are substituted into the forward pass for the rewritten statement and measure which components recover the original stance distribution. The results show that mid-to-late decoder layers, especially block outputs at the final prompt position, provide the strongest restoration signal.",
     "authors": [
       "Langchen Huang",
-      "Sebastian Pad\u00f3",
+      "Sebastian Padó",
       "Franziska Weeber"
     ],
     "categories": [
@@ -3517,7 +3517,7 @@
     "title": "PRISM-DR: Per-lesion Retinal Inference with Specialist Models for Diabetic Retinopathy",
     "summary": "Diabetic retinopathy is a leading cause of preventable blindness; its early lesions are small, low contrast, and easily missed in manual screening. Most automated detectors handle the four non-proliferative DR lesions: microaneurysms, hemorrhages, hard exudates, and soft exudates, with a single multi-class model, even though these lesions differ sharply in size, color, morphology, and prevalence, so a shared model favors common, easy classes over rare, difficult ones. We present PRISM-DR, a lesion-specific pipeline that trains one single-class detector per lesion, each with its own configuration. From a raw fundus image, the pipeline applies region of interest cropping, fundus-specific preprocessing, four parallel YOLO detectors, tiling, per-lesion ensembling of five cross-validation folds, and an inter-lesion suppression step that resolves overlaps by physical lesion size and clinical priority rather than confidence. Per lesion, the best of five YOLO generations is selected, and augmentation is tuned by Bayesian optimization. Trained on IDRiD with stratified five-fold cross-validation, the system reaches a test mAP50 of 0.527 and F1 of 0.529, highest AP50 on hard exudates with 0.561. Without fine-tuning, the models transfer well where the imaging scale is close to IDRiD and degrade as field of view and resolution depart. These modest absolute results reflect a small single-source training set and a difficult task; however, treating each lesion as a separate detection problem is a practical alternative to a single multi-class model.",
     "authors": [
-      "Z\u00fcbeyr \u00d6zeren",
+      "Zübeyr Özeren",
       "Tansel Uyar"
     ],
     "categories": [
@@ -3748,7 +3748,7 @@
   {
     "arxiv_id": "2607.20239v1",
     "title": "Adaptive Bayesian Online Learning via Expert Aggregation",
-    "summary": "Bayesian online learning promises uncertainty-aware prediction on data streams, but its performance hinges on inferential choices, including learning rates, prior distributions and variational families, which are usually fixed before seeing the stream. We address this by treating Bayesian update rules as experts and aggregating the Bayesian experts according to sequential predictive losses. We prove that the resulting aggregate competes with the best expert in hindsight at an aggregation cost determined by how each expert's per-round performance is evaluated. We instantiate the framework in online conformal inference and Gaussian process regression. The conformal inference application yields a smoothed Bayesian counterpart of adaptive conformal inference with long-run randomized coverage, while the Gaussian process application gives an oracle inequality in cumulative predictive Kullback-Leibler risk and adaptation to unknown H\u00f6lder smoothness up to logarithmic factors. Experiments show that the aggregate tracks strong experts without oracle expert selection.",
+    "summary": "Bayesian online learning promises uncertainty-aware prediction on data streams, but its performance hinges on inferential choices, including learning rates, prior distributions and variational families, which are usually fixed before seeing the stream. We address this by treating Bayesian update rules as experts and aggregating the Bayesian experts according to sequential predictive losses. We prove that the resulting aggregate competes with the best expert in hindsight at an aggregation cost determined by how each expert's per-round performance is evaluated. We instantiate the framework in online conformal inference and Gaussian process regression. The conformal inference application yields a smoothed Bayesian counterpart of adaptive conformal inference with long-run randomized coverage, while the Gaussian process application gives an oracle inequality in cumulative predictive Kullback-Leibler risk and adaptation to unknown Hölder smoothness up to logarithmic factors. Experiments show that the aggregate tracks strong experts without oracle expert selection.",
     "authors": [
       "Jungbin Jun",
       "Ilsang Ohn"
@@ -4085,15 +4085,15 @@
     "title": "Toward Seasonal Guidelines for Robust Deep-Learning Sentinel-2 Building Detection in Different Area Types",
     "summary": "Sentinel-2 imagery offers open access, global coverage, and frequent revisit times, making it attractive for practical building mapping at scale; however, its native 10m resolution makes building vs non-building classification challenging, particularly for small or sub-pixel buildings, and performance can vary with both seasonality and the heterogeneity of built-up environments. This paper introduces a Sentinel-2 building-detection framework designed to systematically quantify these effects and to support more formalised, practice-oriented model selection. We construct a dedicated multi-temporal Sentinel-2 dataset over the Warsaw region and derive binary ground-truth masks by rasterising official Polish topographic database (BDOT10k) building footprints onto the Sentinel-2 pixel grid. Using two established convolutional segmentation backbones (U-Net and DeepLabV3+), we first perform scene-specific fine-tuning to select a robust architecture and identify the best monthly models for L1C and L2A products separately. We then conduct cross-temporal inference by applying each best monthly model to all scenes, enabling an assessment of (i) which months provide favourable training and inference conditions, (ii) how performance transfers between seasons, (iii) the impact of processing level, and (iv) how these effects differ across built-up typologies. Based on these results, we provide practical guidance for routine Sentinel-2 building classification under varying acquisition periods and settlement characteristics.",
     "authors": [
-      "Micha\u0142 Romaszewski",
+      "Michał Romaszewski",
       "Kamil Drejer",
-      "Katarzyna Ko\u0142odziej",
+      "Katarzyna Kołodziej",
       "Anna Zawadzka",
-      "Stanis\u0142aw Lewi\u0144ski",
-      "Przemys\u0142aw G\u0142omb",
-      "Marek Ruci\u0144ski",
-      "Michal Krupi\u0144ski",
-      "Krzysztof Gryguc Przemys\u0142aw Seku\u0142aa",
+      "Stanisław Lewiński",
+      "Przemysław Głomb",
+      "Marek Ruciński",
+      "Michal Krupiński",
+      "Krzysztof Gryguc Przemysław Sekułaa",
       "Szymon Sala"
     ],
     "categories": [
@@ -4263,7 +4263,7 @@
     "title": "Real-Time EEG Cap Electrode Detection for Guided Point-of-Care Placement",
     "summary": "We present a two-stage vision system that detects EEG cap electrodes in a live webcam stream and validates their anatomical placement in real time. A single-class YOLO detector localises electrodes; a geometric stage assigns each detection to a named 10-20 role from facial landmarks. Evaluating under subject-disjoint leave-one-subject-out (LOSO) cross-validation across five subjects wearing the clinically-validated Small/Medium/Large caps, the detector attains mAP@.5 = 0.94 +/- 0.07 across five held-out folds (0.96 pooled). A dedicated leave-one-cap-out axis, holding out every frame of a cap regardless of subject, leaves Medium and Large mAP@.5 within 0.01 of LOSO (0.97, 0.97) while Small drops to 0.72 +/- 0.28, a gap confounded with subject familiarity rather than cap style. Geometric augmentation (rotation, perspective, mixup) improves in-plane-roll robustness and temporal-electrode recall at no inference cost, and a landmark-driven head crop extends the usable distance range, lifting mAP@.5 from 0.23 to 0.45 at 0.6 x apparent scale. A compact mobile-candidate backbone (YOLOv10n) keeps the detector at real-time throughput (19 FPS) on a commodity CPU at 640 px.",
     "authors": [
-      "William Lehn-Schi\u00f8ler",
+      "William Lehn-Schiøler",
       "Mads Sverker Nilsson",
       "Nicki Skafte Detlefsen"
     ],
@@ -4454,9 +4454,9 @@
     "title": "StrokeSeg2: Stroke Lesion Segmentation in Clinical Research Workflows",
     "summary": "Deep learning frameworks like nnU-Net achieve state-of-theart brain lesion segmentation performance but remain difficult to deploy in clinical research environments due to, among other reasons, software dependencies and computational requirements. We introduce StrokeSeg2, a lightweight, modular, cross-platform C++/Qt framework designed to adapt resource-intensive 3D stroke segmentation pipelines into portable and reproducible applications. To improve compatibility with standard clinical workstations, we investigate the combined effect of architectural compression through knowledge distillation and inference optimisation using ONNX Runtime with Float16 quantisation. Across heterogeneous hardware configurations (CPU, integrated GPU, and dedicated GPU) architectural distillation emerged as the primary contributor to efficiency gains, contributing to over 90% reduction in energy consumption and an average 84% reduction in inference time. Specifically, we identify a 0.84M-parameter student model as the most favourable trade-off, reducing the original 102.3M-parameter teacher architecture to a 2.1 MB disk footprint while preserving robust lesion localisation and competitive segmentation performance. This small footprint supports the development of a self-contained installer for clinical workstation targets. Finally, StrokeSeg2 packages these optimisations into standalone installers for Windows, macOS, and Linux. By providing both graphical and commandline interfaces without Docker or external environment dependencies, StrokeSeg2 facilitates deployment of high-performance segmentation workflows for routine clinical research pipelines.",
     "authors": [
-      "Youwan Mah\u00e9",
+      "Youwan Mahé",
       "Axel Plessis",
-      "St\u00e9phanie Leplaideur",
+      "Stéphanie Leplaideur",
       "Elise Bannier",
       "Florent Leray",
       "Francesca Galassi"
@@ -4494,7 +4494,7 @@
   {
     "arxiv_id": "2607.20168v1",
     "title": "Quantum Kernels and the Cross-Section of Stock Returns: Anatomy of a Vanishing Advantage",
-    "summary": "Do quantum kernels improve cross-sectional stock return prediction? We run a controlled horse race on the Chinese A-share market in which a quantum fidelity kernel, a projected quantum kernel, and a classical RBF control share identical training subsamples, solver, and tuning budgets, so that only the kernel is exchanged. On the main evaluation -- a point-in-time universe and 170 walk-forward windows (2012-2025) -- no quantum advantage exists: the fidelity kernel is indistinguishable from its RBF control ($\u0394$IC $=+0.005$, $p=0.42$), and a $2\\times2$ design crossing kernel type with training budget (a Nystrom extension to the full ~38,000-observation windows) shows quantum kernels matching, but never beating, equal-budget linear models; after family-wise correction no pairwise difference among eleven models is significant, with point estimates favoring penalized linear regressions throughout. We then document how the opposite conclusion arises: a 60-window evaluation on a universe screened with full-sample information makes the same quantum kernel appear dominant on stability criteria and significantly better than neural baselines. Interaction characteristics from the anomalies literature help nothing, quantum or classical; a widened bandwidth grid reveals an interior optimum rather than the near-classical endpoint a coarse grid suggests; and the geometric difference, while large throughout ($g \\gg 1$), does not predict out-of-sample gains ($\u03c1=-0.20$). We propose protocol standards -- kernel-swap controls, budget-equalized comparisons, point-in-time universes, and multiplicity-robust inference -- for empirical claims of quantum advantage in finance.",
+    "summary": "Do quantum kernels improve cross-sectional stock return prediction? We run a controlled horse race on the Chinese A-share market in which a quantum fidelity kernel, a projected quantum kernel, and a classical RBF control share identical training subsamples, solver, and tuning budgets, so that only the kernel is exchanged. On the main evaluation -- a point-in-time universe and 170 walk-forward windows (2012-2025) -- no quantum advantage exists: the fidelity kernel is indistinguishable from its RBF control ($Δ$IC $=+0.005$, $p=0.42$), and a $2\\times2$ design crossing kernel type with training budget (a Nystrom extension to the full ~38,000-observation windows) shows quantum kernels matching, but never beating, equal-budget linear models; after family-wise correction no pairwise difference among eleven models is significant, with point estimates favoring penalized linear regressions throughout. We then document how the opposite conclusion arises: a 60-window evaluation on a universe screened with full-sample information makes the same quantum kernel appear dominant on stability criteria and significantly better than neural baselines. Interaction characteristics from the anomalies literature help nothing, quantum or classical; a widened bandwidth grid reveals an interior optimum rather than the near-classical endpoint a coarse grid suggests; and the geometric difference, while large throughout ($g \\gg 1$), does not predict out-of-sample gains ($ρ=-0.20$). We propose protocol standards -- kernel-swap controls, budget-equalized comparisons, point-in-time universes, and multiplicity-robust inference -- for empirical claims of quantum advantage in finance.",
     "authors": [
       "Junchi Shen"
     ],
@@ -4530,452 +4530,5 @@
     "date": "2026-07-23",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "fpadovani/hin-deva-10mb-10mb_seed455",
-    "author": "unknown",
-    "title": "fpadovani/hin-deva-10mb-10mb_seed455",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "sft",
-      "trl",
-      "base_model:goldfish-models/hin_deva_10mb",
-      "base_model:finetune:goldfish-models/hin_deva_10mb",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-23T05:39:51.000Z",
-    "last_modified": "2026-07-23T05:48:38.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fpadovani/hin-deva-10mb-10mb_seed455",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "tigerisaac/mushu-1-preview",
-    "author": "unknown",
-    "title": "tigerisaac/mushu-1-preview",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "lfm2",
-      "lfm2.5",
-      "dictation",
-      "dragon-dictation",
-      "voice-commands",
-      "text-editing",
-      "unsloth",
-      "llama-cpp",
-      "text-generation",
-      "en",
-      "base_model:LiquidAI/LFM2.5-1.2B-Instruct",
-      "base_model:quantized:LiquidAI/LFM2.5-1.2B-Instruct",
-      "license:other",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-23T03:00:19.000Z",
-    "last_modified": "2026-07-23T05:47:01.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/tigerisaac/mushu-1-preview",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ewald1976/G4-Plainsong-12B",
-    "author": "unknown",
-    "title": "ewald1976/G4-Plainsong-12B",
-    "downloads": 0,
-    "likes": 1,
-    "tags": [
-      "safetensors",
-      "gemma4_unified",
-      "roleplay",
-      "character-roleplay",
-      "gemma4",
-      "unsloth",
-      "qlora",
-      "12B",
-      "SFT",
-      "text-generation",
-      "conversational",
-      "en",
-      "dataset:ychen/empathetic-dialogues-persona-instruct",
-      "dataset:IlyaGusev/pippa_scored",
-      "dataset:sam-paech/wildchat_creative_writing_annotated_10k",
-      "dataset:practical-dreamer/RPGPT_PublicDomain-ShareGPT",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-21T17:45:23.000Z",
-    "last_modified": "2026-07-23T05:46:14.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/ewald1976/G4-Plainsong-12B",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sullivan1502/base-grpo-round1",
-    "author": "unknown",
-    "title": "sullivan1502/base-grpo-round1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "grpo",
-      "arxiv:2402.03300",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-21T23:23:12.000Z",
-    "last_modified": "2026-07-23T05:44:11.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/sullivan1502/base-grpo-round1",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "pinkelephantlimited/pink-elephant-55m",
-    "author": "unknown",
-    "title": "pinkelephantlimited/pink-elephant-55m",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "pink-elephant",
-      "llama",
-      "text-generation",
-      "from-scratch",
-      "general-purpose",
-      "en",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-22T18:04:50.000Z",
-    "last_modified": "2026-07-23T05:44:10.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/pinkelephantlimited/pink-elephant-55m",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "vaghawan/llama33-70b-hausa-lora-best",
-    "author": "unknown",
-    "title": "vaghawan/llama33-70b-hausa-lora-best",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:unsloth/llama-3.3-70b-instruct-unsloth-bnb-4bit",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "unsloth",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-23T04:52:09.000Z",
-    "last_modified": "2026-07-23T05:43:43.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/vaghawan/llama33-70b-hausa-lora-best",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Zeesnal786/95-5-split-llama3.2-3b-banking-merged",
-    "author": "unknown",
-    "title": "Zeesnal786/95-5-split-llama3.2-3b-banking-merged",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/Llama-3.2-3B-Instruct-bnb-4bit",
-      "base_model:finetune:unsloth/Llama-3.2-3B-Instruct-bnb-4bit",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-23T05:41:00.000Z",
-    "last_modified": "2026-07-23T05:43:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Zeesnal786/95-5-split-llama3.2-3b-banking-merged",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "vaghawan/llama33-70b-hausa-lora-last",
-    "author": "unknown",
-    "title": "vaghawan/llama33-70b-hausa-lora-last",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:unsloth/llama-3.3-70b-instruct-unsloth-bnb-4bit",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "unsloth",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-23T04:50:56.000Z",
-    "last_modified": "2026-07-23T05:43:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/vaghawan/llama33-70b-hausa-lora-last",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "bhushan1729/gemma3-1b-distilled",
-    "author": "unknown",
-    "title": "bhushan1729/gemma3-1b-distilled",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma3_text",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-23T04:31:55.000Z",
-    "last_modified": "2026-07-23T05:42:17.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/bhushan1729/gemma3-1b-distilled",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ProCreations/grug-27b",
-    "author": "unknown",
-    "title": "ProCreations/grug-27b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "qwen3_5",
-      "grug",
-      "reasoning",
-      "token-efficient",
-      "agentic",
-      "tool-use",
-      "text-generation",
-      "conversational",
-      "en",
-      "dataset:ProCreations/grug-think-v3-10k",
-      "dataset:ProCreations/grug-think",
-      "base_model:Qwen/Qwen3.6-27B",
-      "base_model:finetune:Qwen/Qwen3.6-27B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-23T04:00:15.000Z",
-    "last_modified": "2026-07-23T05:42:00.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ProCreations/grug-27b",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "fpadovani/hin-deva-10mb-after-ppt-Dp-100mb-ckpt500_seed455",
-    "author": "unknown",
-    "title": "fpadovani/hin-deva-10mb-after-ppt-Dp-100mb-ckpt500_seed455",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "sft",
-      "trl",
-      "base_model:fpadovani/hin-deva-10mb-ppt-Dp-100mb_seed455",
-      "base_model:finetune:fpadovani/hin-deva-10mb-ppt-Dp-100mb_seed455",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-23T04:20:32.000Z",
-    "last_modified": "2026-07-23T05:39:29.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fpadovani/hin-deva-10mb-after-ppt-Dp-100mb-ckpt500_seed455",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Amitmax/whisper-vaani-hindi-vani-v2_v5",
-    "author": "unknown",
-    "title": "Amitmax/whisper-vaani-hindi-vani-v2_v5",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-07-22T10:25:44.000Z",
-    "last_modified": "2026-07-23T05:39:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Amitmax/whisper-vaani-hindi-vani-v2_v5",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "RakshithFury/qwen3-4b-kanglish",
-    "author": "unknown",
-    "title": "RakshithFury/qwen3-4b-kanglish",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "qwen3",
-      "kannada",
-      "kanglish",
-      "romanized-kannada",
-      "code-mixed",
-      "transliteration",
-      "normalization",
-      "qlora",
-      "lora",
-      "unsloth",
-      "trl",
-      "text-generation",
-      "conversational",
-      "kn",
-      "en",
-      "dataset:ai4bharat/Aksharantar",
-      "dataset:ai4bharat/samanantar",
-      "base_model:unsloth/Qwen3-4B-unsloth-bnb-4bit",
-      "base_model:adapter:unsloth/Qwen3-4B-unsloth-bnb-4bit",
-      "license:cc-by-nc-4.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-22T18:03:22.000Z",
-    "last_modified": "2026-07-23T05:37:03.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/RakshithFury/qwen3-4b-kanglish",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Haopeng/CROTTC-IF-l2-arctic",
-    "author": "unknown",
-    "title": "Haopeng/CROTTC-IF-l2-arctic",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "speechbrain",
-      "speech",
-      "audio",
-      "automatic-speech-recognition",
-      "pronunciation-assessment",
-      "dataset:l2_arctic",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "speechbrain",
-    "created_at": "2026-07-22T06:36:26.000Z",
-    "last_modified": "2026-07-23T05:36:20.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Haopeng/CROTTC-IF-l2-arctic",
-    "date": "2026-07-23",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
