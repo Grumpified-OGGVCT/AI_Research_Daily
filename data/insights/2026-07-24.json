@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-24T18:15:01.911343",
+  "date": "2026-07-24T20:15:13.036213",
   "patterns": {
     "multimodal_research": [
       {
@@ -1253,10 +1253,6 @@
       {
         "title": "TransBiolab: A Real-World Multi-View Dataset of Cluttered Transparent Biomedical Objects",
         "url": "https://arxiv.org/abs/2607.21071v1"
-      },
-      {
-        "title": "deadbydawn101/gemma-4-E4B-Agentic-Opus-Reasoning-GeminiCLI-mlx-4bit",
-        "url": "https://huggingface.co/deadbydawn101/gemma-4-E4B-Agentic-Opus-Reasoning-GeminiCLI-mlx-4bit"
       }
     ],
     "benchmarks": [
@@ -1689,7 +1685,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1723,12 +1719,12 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 36,
+      "topic": "vision",
+      "frequency": 35,
       "significance": "high"
     },
     {
-      "topic": "vision",
+      "topic": "reasoning",
       "frequency": 35,
       "significance": "high"
     }
@@ -1736,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 408
   }
 }
