@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-25T14:57:56.698701",
+  "date": "2026-07-25T16:02:18.124044",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,6 +639,10 @@
         "url": "https://arxiv.org/abs/2607.21072v1"
       },
       {
+        "title": "ArabicNewsAnalyzer/MARBERTv2-Sentiment-ml128-bs32-error-fix-v4-aug",
+        "url": "https://huggingface.co/ArabicNewsAnalyzer/MARBERTv2-Sentiment-ml128-bs32-error-fix-v4-aug"
+      },
+      {
         "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
         "url": "https://arxiv.org/abs/2607.21594v1"
       },
@@ -663,12 +667,8 @@
         "url": "https://arxiv.org/abs/2607.21036v1"
       },
       {
-        "title": "Naypa/OpenThai-2.0-Legal-ThaiLLM-Nemotron-3-Nano-30B-A3B-IQ4_NL-GGUF",
-        "url": "https://huggingface.co/Naypa/OpenThai-2.0-Legal-ThaiLLM-Nemotron-3-Nano-30B-A3B-IQ4_NL-GGUF"
-      },
-      {
-        "title": "ArabicNewsAnalyzer/MARBERTv2-Sentiment-ml128-bs32-error-fix-v3-aug",
-        "url": "https://huggingface.co/ArabicNewsAnalyzer/MARBERTv2-Sentiment-ml128-bs32-error-fix-v3-aug"
+        "title": "yang29/gpt4-llm-cleaned-ft-qwen25-7b-sumo-lr-1e-5-r8-k200-a4-seed42",
+        "url": "https://huggingface.co/yang29/gpt4-llm-cleaned-ft-qwen25-7b-sumo-lr-1e-5-r8-k200-a4-seed42"
       }
     ],
     "vision_systems": [
@@ -955,10 +955,6 @@
       {
         "title": "TransBiolab: A Real-World Multi-View Dataset of Cluttered Transparent Biomedical Objects",
         "url": "https://arxiv.org/abs/2607.21071v1"
-      },
-      {
-        "title": "masterofaudio2077/Ageis-nsfw-image-detection-dinov3",
-        "url": "https://huggingface.co/masterofaudio2077/Ageis-nsfw-image-detection-dinov3"
       }
     ],
     "reasoning": [
@@ -1691,7 +1687,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1744,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 410
   }
 }
