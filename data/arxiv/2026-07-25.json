@@ -154,9 +154,9 @@
     "title": "Automatic knot selection in smooth additive models",
     "summary": "B-spline regression constitutes a widely used framework for nonparametric modeling. The performance of this methodology depends on specifying the number and placement of changepoints, known as knots, prior to the estimation process. Such knot sequence determines the dimension of the B-spline basis used to represent the regression function and the number of coefficients to be estimated. Therefore, the knots' choice affects the model's flexibility, influencing its smoothness and goodness-of-fit. Traditionally, this problem has been addressed either by explicitly selecting knots, via knot-selection algorithms, or by regularization methods, such as P-splines, which automatically tune the regressor's smoothness. The latter have become the standard in generalized additive models (GAMs). In contrast, knot-selection techniques, frequently neglected because of computational or modeling limitations, provide certain advantages which can be valuable in some contexts. In this work, we introduce a novel explicit knot-selection technique for GAMs based on an extension of the adaptive splines (A-splines) knot selection methodology, combined with a customized Fellner-Schall scheme for tuning the associated parameters. Our approach is evaluated on various synthetic and real datasets and compared with P-splines and state-of-the-art knot-selection techniques. The results indicate comparable performance, while producing models built on a substantially smaller number of basis elements.",
     "authors": [
-      "Nicol\u00e1s Carrizosa",
+      "Nicolás Carrizosa",
       "Vanesa Guerrero",
-      "Mar\u00eda Durb\u00e1n"
+      "María Durbán"
     ],
     "categories": [
       "stat.ML",
@@ -337,7 +337,7 @@
     "title": "Synthetic data generation framework for quality control automation in gravure printing",
     "summary": "Quality control in printing, particularly in rotogravure printing, still depends on slow, costly, and subjective manual inspection. Automated surface defect detection is critical for maintaining high-quality standards in rotogravure printing. Deep learning models give prospects for automation. However, training robust deep learning models, such as YOLO or Vision Transformers, is heavily hindered by the extreme scarcity of real-world industrial defects images. To overcome this limitation, this paper introduces a novel synthetic data generation framework tailored for rotogravure printing quality control. The proposed pipeline automatically generates high-fidelity images of specific printing defects (creases, streaks, misregistration, etc.) and outputs corresponding bounding boxes and annotations. To validate the framework, a synthetic dataset of 7533 images was generated and used to train the state-of-the-art object-detection model RFDETR. Experimental results demonstrate that the model trained on our synthetic data achieves a Mean Average Precision (mAP) of 80.9\\% on real industrial testing samples. This framework provides a zero-cost, rapid-deployment solution for automating defect inspection in printing lines without requiring massive manual data collection.",
     "authors": [
-      "Korota Ars\u00e8ne Coulibaly",
+      "Korota Arsène Coulibaly",
       "Mohamed Hamlich",
       "Khalid Hmali",
       "Andrea Trombin"
@@ -461,7 +461,7 @@
   {
     "arxiv_id": "2607.21498v1",
     "title": "Artificial Epanorthosis: Why large language models overuse a classical rhetorical figure, and how to mitigate it",
-    "summary": "A rhetorical figure that Cicero and Quintilian catalogued two thousand years ago reappears, systematically, in the text of large language models: epanorthosis, the self-correction of the specimen \u00abThis is not a course. It is a journey of transformation\u00bb. This essay argues that the overuse is a trained disposition, driven mainly by a training distribution rich in promotional prose and by preference tuning (RLHF) that rewards confident, emphatic phrasing; the left-to-right nature of generation is an amplifier rather than the root cause. Building on evidence that models diverge from human rhetorical style, and on Fontanier's classification of epanorthosis as a figure of thought, it sets out a programme that scores the figure against genre-specific human baselines through an Epanorthosis Index (density relative to the human rate). A first measurement, on three sizes of one instruction-tuned model family, finds mis-calibration by register in both directions: the models overshoot in oratory (about twofold, near threefold in Italian, concentrated in the larger tiers) and undershoot in informal question-and-answer writing, while matching humans in argument, journalism, and encyclopedic prose. Three constructive contributions follow: a survey of mitigation techniques centred on lightweight LoRA adapters; a demonstration, in Italian, that a one-line instruction cuts the figure by half to nearly three-quarters and that a supervised-fine-tuning adapter removes it almost entirely, with a scaling coefficient that dials the reduction back onto the human rate; and the argument that the target is calibration to the human rate for each genre, not elimination. It closes on the stakes: the real risk is that we begin to write like the machines.",
+    "summary": "A rhetorical figure that Cicero and Quintilian catalogued two thousand years ago reappears, systematically, in the text of large language models: epanorthosis, the self-correction of the specimen «This is not a course. It is a journey of transformation». This essay argues that the overuse is a trained disposition, driven mainly by a training distribution rich in promotional prose and by preference tuning (RLHF) that rewards confident, emphatic phrasing; the left-to-right nature of generation is an amplifier rather than the root cause. Building on evidence that models diverge from human rhetorical style, and on Fontanier's classification of epanorthosis as a figure of thought, it sets out a programme that scores the figure against genre-specific human baselines through an Epanorthosis Index (density relative to the human rate). A first measurement, on three sizes of one instruction-tuned model family, finds mis-calibration by register in both directions: the models overshoot in oratory (about twofold, near threefold in Italian, concentrated in the larger tiers) and undershoot in informal question-and-answer writing, while matching humans in argument, journalism, and encyclopedic prose. Three constructive contributions follow: a survey of mitigation techniques centred on lightweight LoRA adapters; a demonstration, in Italian, that a one-line instruction cuts the figure by half to nearly three-quarters and that a supervised-fine-tuning adapter removes it almost entirely, with a scaling coefficient that dials the reduction back onto the human rate; and the argument that the target is calibration to the human rate for each genre, not elimination. It closes on the stakes: the real risk is that we begin to write like the machines.",
     "authors": [
       "Federico Boggia"
     ],
@@ -565,7 +565,7 @@
     "summary": "We propose a Reinforcement Learning (RL) method to directly optimize the faithfulness of self-explanations - the extent to which a model's generated reasoning accurately reflects its internal decision-making process. While existing work focuses on evaluating faithfulness or using inference-time prompting frameworks to improve an LLM's self-explanation's tractability, these approaches do not provide a mechanism to directly optimize a model's parameters to generate faithful self-explanations. We bridge this gap by modifying existing faithfulness metrics into an RL training objective. We investigate (1) if models can be trained to accurately detect factors that affect their decisions, and (2) whether RL can directly optimize for the disclosure of these factors thereby improving LLM self-explanations' faithfulness. We experiment with two intervention types: random-word insertions and user-bias insertions, using a per-sample reward derived from the Phi-CCT correlation metric. RL fine-tuned Llama3.1-8B and Qwen3-8B show substantial improvements on the Phi-CCT faithfulness metric, with in-distribution scores rising from near-zero to as high as 0.664, and out-of-distribution scores reaching up to 0.691 on held-out tasks such as StrategyQA. Cross-intervention generalization is weaker but more interesting: a priori we would not expect a model trained only on random word insertions to generalize to user-bias phrases, yet Llama3.1-8B shows non-zero transfer in this direction. The reverse direction and Qwen3-8B do not replicate this, indicating model-dependent and setup-dependent effects we cannot yet explain. Lastly we analyze model behavior to rule out reward gaming behaviors that often plague RL training. Ultimately, we show that models can be trained to implicitly identify influential factors and disclose them, offering a scalable path toward reducing unfaithful reasoning in LLMs.",
     "authors": [
       "Yeoktatt Cheah",
-      "Mar\u00eda P\u00e9rez-Ortiz",
+      "María Pérez-Ortiz",
       "Noah Y. Siegel",
       "Oana-Maria Camburu"
     ],
@@ -836,8 +836,8 @@
   },
   {
     "arxiv_id": "2607.21405v1",
-    "title": "Anti-Periodic Positional Encoding: M\u00f6bius Boundary Conditions Make In-Context Retrieval Reliable",
-    "summary": "M\u00f6bius RoPE is a rotary positional encoding built on the anti-periodic frequency ladder $\u03b8_i=\u03c0(2i+1)/N$: every rotation plane advances by an odd multiple of $\u03c0$ across the training context, so the positional holonomy is $-1$ and the two ends of the sequence are deterministically coupled through a closed-form Dirichlet \"dipole\"; to our knowledge this is the first anti-periodic boundary condition in positional encoding. We verify the theory numerically to $\\sim 10^{-6}$ and pretrain 48 models spanning six 160M-class and three 410M-class arms (2B FineWeb-Edu tokens each; the hybrid arm puts M\u00f6bius frequencies on 25% of heads). Hybrid perplexity is unchanged (29.66 vs. 29.72), but needle-in-a-haystack retrieval becomes reliable: $90.3\\pm5.7\\%$ versus $63.3\\pm31.4\\%$ at context 512 ($n=6$ seeds), observed worst seed 86% versus 14%, robust variance tests $p=0.013$-$0.029$ (unadjusted), recurring at 410M (Levene $p=0.040$). Matched controls isolate the mechanism: an aperiodic ladder in the same frequency band reproduces none of the effect, and a periodic (holonomy $+1$) ladder only a fraction. Swapping trained models' frequency table back to standard RoPE (weights frozen) collapses retrieval, with damage concentrated on far needles: trained models depend on this long-range geometry. A NoPE arm is even more reliable at short context but pays a 13% perplexity tax and extrapolates worst; only the anti-periodic hybrid pairs baseline perplexity with a high reliability floor. The effect is scoped to single-needle retrieval within the training window; a one-line frequency swap thus provides zero-cost insurance against the retrieval seed lottery.",
+    "title": "Anti-Periodic Positional Encoding: Möbius Boundary Conditions Make In-Context Retrieval Reliable",
+    "summary": "Möbius RoPE is a rotary positional encoding built on the anti-periodic frequency ladder $θ_i=π(2i+1)/N$: every rotation plane advances by an odd multiple of $π$ across the training context, so the positional holonomy is $-1$ and the two ends of the sequence are deterministically coupled through a closed-form Dirichlet \"dipole\"; to our knowledge this is the first anti-periodic boundary condition in positional encoding. We verify the theory numerically to $\\sim 10^{-6}$ and pretrain 48 models spanning six 160M-class and three 410M-class arms (2B FineWeb-Edu tokens each; the hybrid arm puts Möbius frequencies on 25% of heads). Hybrid perplexity is unchanged (29.66 vs. 29.72), but needle-in-a-haystack retrieval becomes reliable: $90.3\\pm5.7\\%$ versus $63.3\\pm31.4\\%$ at context 512 ($n=6$ seeds), observed worst seed 86% versus 14%, robust variance tests $p=0.013$-$0.029$ (unadjusted), recurring at 410M (Levene $p=0.040$). Matched controls isolate the mechanism: an aperiodic ladder in the same frequency band reproduces none of the effect, and a periodic (holonomy $+1$) ladder only a fraction. Swapping trained models' frequency table back to standard RoPE (weights frozen) collapses retrieval, with damage concentrated on far needles: trained models depend on this long-range geometry. A NoPE arm is even more reliable at short context but pays a 13% perplexity tax and extrapolates worst; only the anti-periodic hybrid pairs baseline perplexity with a high reliability floor. The effect is scoped to single-needle retrieval within the training window; a one-line frequency swap thus provides zero-cost insurance against the retrieval seed lottery.",
     "authors": [
       "Ji Ho Bae"
     ],
@@ -966,8 +966,8 @@
     "title": "DART: A Degradation-Aware Recurrent Transformer for Archival Film Restoration",
     "summary": "Archival film restoration is a challenging problem because historical footage contains compound degradations such as scratches, dust, blur, noise, flicker, and photometric aging, while clean reference videos are unavailable. Existing video restoration methods largely treat these degradations implicitly, reconstructing frames without explicit knowledge of where damage occurs or how severe it is. We propose DART, a degradation-aware recurrent transformer for archival film restoration. DART predicts and propagates a soft defect mask through time, using it to guide temporal fusion and condition the restoration network on both damage location and severity. This makes the restoration process explicitly aware of film artifacts rather than relying only on reconstruction losses. Experiments on real archival benchmarks show that DART improves no-reference perceptual quality over prior restoration architectures while remaining compact and efficient, producing cleaner and more temporally consistent restorations of structured film damage.",
     "authors": [
-      "Miko\u0142aj Jastrz\u0119bski",
-      "Wojciech Koz\u0142owski",
+      "Mikołaj Jastrzębski",
+      "Wojciech Kozłowski",
       "Kamil Adamczewski"
     ],
     "categories": [
@@ -1827,7 +1827,7 @@
     "authors": [
       "Fred Mesnard",
       "Thierry Marianne",
-      "\u00c9tienne Payet",
+      "Étienne Payet",
       "Wim Vanhoof"
     ],
     "categories": [
@@ -1959,7 +1959,7 @@
     "summary": "Quiz rooms, trivia nights, and quiz shows challenge human knowledge across a wide range of topics, from canonical facts to everyday culture. In this paper, we examine whether large language models (LLMs) can perform competitively in such settings, using quiz-style questions to test them on both common and niche topics. We introduce TriviaRoomQA, a multilingual benchmark designed to evaluate everyday, culturally grounded, and long-tail knowledge across 288 topics. The benchmark contains 3,300 parallel multiple-choice questions in six European languages and additional 5,340 French-only questions for a more fine-grained case study. We evaluate 30 open-weight LLMs from European, Asian, and North American providers, covering models from 7 to 70B parameters. We find that models are strong on knowledge-intensive topics such as history, geography, and mathematics, but substantially weaker on everyday popular-culture topics such as celebrities, music, movies, and news. Moreover, model performance varies across languages even for the same underlying questions, suggesting that access to factual knowledge is not always language-independent. In sum, our dataset and experiments demonstrate an important knowledge gap which is not captured by existing academic-based saturated benchmarks.",
     "authors": [
       "Anna Mosolova",
-      "Djam\u00e9 Seddah"
+      "Djamé Seddah"
     ],
     "categories": [
       "cs.CL"
@@ -2394,7 +2394,7 @@
   {
     "arxiv_id": "2607.21446v1",
     "title": "KroQuant: Kronecker-Structured Block Transforms for Efficient Post-Training Quantization of Diffusion Transformers",
-    "summary": "Post-training quantization (PTQ) of diffusion transformers (DiTs) to W4A4 severely degrades output quality, because activations entering each linear layer contain outliers that 4-bit formats cannot represent. The standard fix applies an invertible linear transform to the activations and its inverse to the weights before quantizing both. Normalization layers between blocks force this transform to run online at every denoising step, making its inference computation cost the binding design constraint. Existing options trade quantization quality for inference cost: per-channel scaling (SmoothQuant) is computationally cheap but impacts the magnitude of the channels, which can harm quantization accuracy; fixed Hadamard transforms yield better quantization accuracy but require large block sizes that incur a high online cost; learned full-$d$ invertible transforms calibrate best but entail a prohibitive dense $d \\times d$ matrix multiplication (GEMM) per layer per step.   We propose KroQuant, a PTQ method that applies a learned Kronecker-structured invertible transform to each 32-element block of the activation, storing less than half the parameters of per-channel scaling. The block-local structure runs as small tensor-core GEMMs, and on an MI350 GPU the KroQuant quantizer kernel is up to $14\\%$ faster than the SmoothQuant kernel. Offline LoRaQ weight calibration then absorbs the residual per-weight quantization error. On PixArt-$\u03a3$, SANA, and FLUX.1-schnell at W4A4 (MXFP4e2), KroQuant produces outputs closer to the FP reference than SVDQuant and LoRaQ on MJHQ-30K and SDCI, while preserving or improving image quality.",
+    "summary": "Post-training quantization (PTQ) of diffusion transformers (DiTs) to W4A4 severely degrades output quality, because activations entering each linear layer contain outliers that 4-bit formats cannot represent. The standard fix applies an invertible linear transform to the activations and its inverse to the weights before quantizing both. Normalization layers between blocks force this transform to run online at every denoising step, making its inference computation cost the binding design constraint. Existing options trade quantization quality for inference cost: per-channel scaling (SmoothQuant) is computationally cheap but impacts the magnitude of the channels, which can harm quantization accuracy; fixed Hadamard transforms yield better quantization accuracy but require large block sizes that incur a high online cost; learned full-$d$ invertible transforms calibrate best but entail a prohibitive dense $d \\times d$ matrix multiplication (GEMM) per layer per step.   We propose KroQuant, a PTQ method that applies a learned Kronecker-structured invertible transform to each 32-element block of the activation, storing less than half the parameters of per-channel scaling. The block-local structure runs as small tensor-core GEMMs, and on an MI350 GPU the KroQuant quantizer kernel is up to $14\\%$ faster than the SmoothQuant kernel. Offline LoRaQ weight calibration then absorbs the residual per-weight quantization error. On PixArt-$Σ$, SANA, and FLUX.1-schnell at W4A4 (MXFP4e2), KroQuant produces outputs closer to the FP reference than SVDQuant and LoRaQ on MJHQ-30K and SDCI, while preserving or improving image quality.",
     "authors": [
       "Yann Bouquet",
       "Alireza Khodamoradi",
@@ -2519,7 +2519,7 @@
       "Ari Luna Rueda",
       "Eike Cramer",
       "Klaus Hellgardt",
-      "Mehmet Mercang\u00f6z"
+      "Mehmet Mercangöz"
     ],
     "categories": [
       "cs.AI",
@@ -2537,10 +2537,10 @@
     "title": "Multi-Task Learning for Heterogeneous Prediction from Video Game State with Transfer Learning",
     "summary": "Multi-task learning (MTL) is a promising approach for prediction tasks derived from video game state data, as modern game telemetry provides multiple related supervision signals from the same structured observations. We study whether a shared model trained jointly across tasks in team-based multiplayer games can improve generalization while reducing training and inference cost compared to specialized single-task models. We adapt a multimodal architecture for endpoint prediction to a general multi-task setting that combines rasterized vision inputs, global match context, and per-unit state information through an image encoder and attention-based interaction modeling. Experiments on a large proprietary World of Tanks dataset compare single-task and multi-task training, evaluate weighting strategies for mixed losses and conflicting gradients, and test pre-training/fine-tuning under limited target-data regimes. We also examine within-game transfer across game maps under structured environment shift.",
     "authors": [
-      "Jonas Pech\u00e9",
+      "Jonas Peché",
       "Aliaksei Tsishurou",
       "Alexander Zap",
-      "G\u00fcnter Wallner"
+      "Günter Wallner"
     ],
     "categories": [
       "cs.LG",
@@ -2703,7 +2703,7 @@
     "summary": "Existing approaches to multi-agent belief combination have established mature foundations for combining uncertain beliefs under common assumptions: consensus methods use iterative averaging, logic-based methods resolve conflicting knowledge bases, and epistemic logic analyzes agents' information states. Typically, these approaches assume that the structure determining what each agent can represent remains fixed. However, in many scenarios, agents gain or lose observational capacity during execution, and what was once admissible may become structurally impossible. This paper presents a formal framework for handling such runtime changes in epistemic partitions over continuous belief profiles. A hybrid approach exploits the advantages of answer set programming in elaboration tolerance, declarative integrity constraints, and explanations, with the numerical flexibility of Python. The framework applies to domains where agents operate at heterogeneous and possibly changing levels of resolution, and provides formal guarantees of admissibility preservation under refinement, unique mass-preserving repair under coarsening, and explanation completeness. Evaluation across 100 randomly generated topology changes confirms complete violation detection and explanation coverage.",
     "authors": [
       "Adam Kostka",
-      "Jaros\u0142aw A. Chudziak"
+      "Jarosław A. Chudziak"
     ],
     "categories": [
       "cs.LO",
@@ -2723,7 +2723,7 @@
     "summary": "Inductive Logic Programming (ILP) originated within the Logic Programming community in the Nineties as a framework for combining symbolic learning with declarative knowledge representation. Nowadays, mature ILP frameworks exist and they are capable of learning complex, non-monotonic hypotheses, thus broadening both the modeling capabilities and the scope of real-world applications of ILP. This work is primarily based on the FastLAS2 framework and aims to generate simple, interpretable hypotheses to help clarify the weather bulletins issued by OSMER FVG, the Regional Meteorological Observatory of the Italian region of Friuli Venezia-Giulia. In this paper we present a pipeline that, starting from simulated meteorological raw data and from OSMERs' bulletins (used as ground truth), extracts data as ASP facts and generates ILP examples. From such examples an explanatory hypothesis is then inferred via FastLAS2. Such a hypothesis (translated into natural language) explains the weather forecast issued by human experts, and in particular the rationale behind experts' choices of specific symbols in the bulletin pictogram (the symbol-annotated meteorological map of the forecast). The proposed approach is general, not specific to any particular region and it can equally be applied to bulletins from other sources and to different regions.",
     "authors": [
       "Enrico Santi",
-      "Alessandro Dal Pal\u00f9",
+      "Alessandro Dal Palù",
       "Agostino Dovier",
       "Talissa Dreossi",
       "Andrea Formisano"
@@ -2834,7 +2834,7 @@
   {
     "arxiv_id": "2607.21491v1",
     "title": "What, Where, and How: Disentangling the Roles of Task, Language, and Model in Code Model Representations",
-    "summary": "Do independently trained language models come to represent the same thing in the same way? We answer for code, extending a recently introduced concept-circuit extraction method to a 2x2 design -- Python and Rust crossed with Qwen2.5-Coder-7B and DeepSeek-Coder-V1-6.7B -- and measuring a complete inventory of grammatical concepts (58 Python, 57 Rust) identically in all four cells: the smallest design that separates what depends on the task, the language, and the model.   The answer splits into three parts. What earns dedicated circuitry is set by the task: the models agree on which concepts receive circuits (Spearman $\u03c1$ = 0.638 for Python, 0.673 for Rust, both p < $10^{-7}$). Where those circuits sit is set by the model: Qwen processes concepts in a late band (~L17-19), DeepSeek at L6-7, for both languages. How circuits grow across layers is also set by the model: Qwen gives its atomic concepts an early spike that DeepSeek does not. \"Are circuits universal?\" thus has no single answer: yes for What, no for Where and How -- universality is a property of representational content, not of computational organisation.   None of this structure was fixed in advance. The agreement could have landed anywhere between independence and identity; it lands at $\u03c1\\approx 0.65$. Rust constructs receive 2-3x more concept-specific circuitry than their Python equivalents, in both models. Both models share neurons between the languages (6/7 and 7/7 paired constructs), DeepSeek 1.94x more than Qwen -- a direction no prior result predicts. And Qwen binds nine keywords of Rust's type-and-trait machinery into one tight neuron cluster (Jaccard 0.535 vs null 0.112, p < 0.001), a semantic dimension invisible in surface syntax. Ablation and linear probes confirm the circuits are functional.   All claims are scoped to this 2x2; whether the per-model profile predicts a third model is the designed next test.",
+    "summary": "Do independently trained language models come to represent the same thing in the same way? We answer for code, extending a recently introduced concept-circuit extraction method to a 2x2 design -- Python and Rust crossed with Qwen2.5-Coder-7B and DeepSeek-Coder-V1-6.7B -- and measuring a complete inventory of grammatical concepts (58 Python, 57 Rust) identically in all four cells: the smallest design that separates what depends on the task, the language, and the model.   The answer splits into three parts. What earns dedicated circuitry is set by the task: the models agree on which concepts receive circuits (Spearman $ρ$ = 0.638 for Python, 0.673 for Rust, both p < $10^{-7}$). Where those circuits sit is set by the model: Qwen processes concepts in a late band (~L17-19), DeepSeek at L6-7, for both languages. How circuits grow across layers is also set by the model: Qwen gives its atomic concepts an early spike that DeepSeek does not. \"Are circuits universal?\" thus has no single answer: yes for What, no for Where and How -- universality is a property of representational content, not of computational organisation.   None of this structure was fixed in advance. The agreement could have landed anywhere between independence and identity; it lands at $ρ\\approx 0.65$. Rust constructs receive 2-3x more concept-specific circuitry than their Python equivalents, in both models. Both models share neurons between the languages (6/7 and 7/7 paired constructs), DeepSeek 1.94x more than Qwen -- a direction no prior result predicts. And Qwen binds nine keywords of Rust's type-and-trait machinery into one tight neuron cluster (Jaccard 0.535 vs null 0.112, p < 0.001), a semantic dimension invisible in surface syntax. Ablation and linear probes confirm the circuits are functional.   All claims are scoped to this 2x2; whether the per-model profile predicts a third model is the designed next test.",
     "authors": [
       "Piotr Wilam"
     ],
@@ -3001,8 +3001,8 @@
     "title": "Toward cryptographically verifiable authorization for autonomous AI agents: A security hypothesis, preliminary formal model, and proof-of-concept implementation",
     "summary": "Autonomous AI agents increasingly execute actions, invoke tools, and operate on protected resources with limited human oversight. Existing authentication and authorization mechanisms establish identity and delegate authority, but do not inherently provide cryptographic evidence that a concrete request issued by a specific agent satisfies the applicable policy in a specific execution context. This paper hypothesizes that agent authorization can be formalized as a cryptographically verifiable relation, denoted $R_{CVA}$, that jointly binds an agent principal, a concrete authorization request, an execution context, and the satisfaction of an applicable policy, while selectively preserving the confidentiality of private authorization attributes. We introduce a preliminary formal abstraction for Cryptographically Verifiable Agent Authorization (CVA), define a compact set of candidate security properties including authorization soundness, principal binding, request binding, policy binding, and replay resistance, and provide an executable zero-knowledge proof of concept that instantiates selected elements of the model over a Groth16 zk-SNARK construction. We further identify and formalize the structural separation among identity binding, authorization-request binding, and runtime execution binding as a central open problem in the design of secure agentic systems (a distinction {not explicitly addressed by} current agentic security frameworks) and present a falsifiable research agenda for its resolution.",
     "authors": [
-      "M. Llamb\u00ed-Morillas",
-      "D. Fern\u00e1ndez-Fern\u00e1ndez"
+      "M. Llambí-Morillas",
+      "D. Fernández-Fernández"
     ],
     "categories": [
       "cs.CR",
@@ -3058,7 +3058,7 @@
     "authors": [
       "Pedro Cabalar",
       "Jorge Fandinno",
-      "Nicolas R\u00fchling",
+      "Nicolas Rühling",
       "Torsten Schaub",
       "Sebastian Schellhorn",
       "Philipp Wanko"
@@ -3351,7 +3351,7 @@
   {
     "arxiv_id": "2607.21579v1",
     "title": "Barzilai-Borwein Fails Superlinear Convergence on an Open Set of Quadratics for Every Dimension $n\\geq 4$",
-    "summary": "Barzilai--Borwein (BB) method has shown strong practical performance in continuous optimization, yet its convergence dynamics remains poorly understood. In particular, a central unresolved question is whether BB converges superlinearly for almost every strictly convex quadratic problem and initialization. We provide a negative answer to this question. Specifically, for every finite dimension $n\\geq4$, we construct a nonempty open, hence positive-Lebesgue-measure, family of strictly convex quadratic problems and initial points for which the long Barzilai--Borwein method (BB1) converges but cannot converge root-superlinearly. More precisely, with the explicit constants $\u03c1_{\\min}=10^{-6},\u03c1_{\\max}=0.61$, every spectral component of the gradient is bounded above and below by the corresponding geometric sequence. Consequently, the gradient norm and the energy norm of the error satisfy two-sided geometric estimates with the same rates, while the objective gap satisfies the corresponding estimates with squared rates. In particular, all three quantities are bounded below by geometric sequences, ruling out superlinear convergence. The construction is highly nontrivial, based on a computer-assisted proof of a nonresonant, attracting seven-cycle of the projectivized BB dynamics in dimension four.",
+    "summary": "Barzilai--Borwein (BB) method has shown strong practical performance in continuous optimization, yet its convergence dynamics remains poorly understood. In particular, a central unresolved question is whether BB converges superlinearly for almost every strictly convex quadratic problem and initialization. We provide a negative answer to this question. Specifically, for every finite dimension $n\\geq4$, we construct a nonempty open, hence positive-Lebesgue-measure, family of strictly convex quadratic problems and initial points for which the long Barzilai--Borwein method (BB1) converges but cannot converge root-superlinearly. More precisely, with the explicit constants $ρ_{\\min}=10^{-6},ρ_{\\max}=0.61$, every spectral component of the gradient is bounded above and below by the corresponding geometric sequence. Consequently, the gradient norm and the energy norm of the error satisfy two-sided geometric estimates with the same rates, while the objective gap satisfies the corresponding estimates with squared rates. In particular, all three quantities are bounded below by geometric sequences, ruling out superlinear convergence. The construction is highly nontrivial, based on a computer-assisted proof of a nonresonant, attracting seven-cycle of the projectivized BB dynamics in dimension four.",
     "authors": [
       "Dawei Li",
       "Xiaotian Jiang",
@@ -3436,8 +3436,8 @@
     "summary": "The rapid progress of AI has intensified the long-standing pursuit of automation: replacing human participation with algorithms wherever possible. Implicit in this pursuit is the assumption that humans remain in the loop only because current AI systems are not yet sufficiently capable. This paper challenges that assumption. Rather than asking how far automation can extend, we ask where its conceptual limits lie and argue that human participation may persist even with highly capable AI systems for three distinct reasons. Technical or complementarity grounds arise when humans contribute capabilities or perspectives unavailable to AI. Normative or developmental grounds arise when participation itself is valuable for human agency or learning. Most importantly, emergence grounds arise from target emergence: in some activities, the target is not fully specified in advance but instead emerges through the interaction itself. In these cases, human participation is not merely a means of improving execution but is constitutive of the target being produced. Human--AI co-construction, understood as the joint production of outcomes by humans and AI systems, is therefore not simply a temporary response to imperfect AI, but a persistent feature of activities whose objectives emerge through participation. This perspective has important implications for the limits of automation and for the design, evaluation, and ethics of future AI systems.",
     "authors": [
       "Fares Fourati",
-      "Hinrich Sch\u00fctze",
-      "Eyke H\u00fcllermeier",
+      "Hinrich Schütze",
+      "Eyke Hüllermeier",
       "Iryna Gurevych"
     ],
     "categories": [
@@ -3457,7 +3457,7 @@
   {
     "arxiv_id": "2607.21517v1",
     "title": "Improved lower bounds for the Shannon capacity of odd cycles",
-    "summary": "The Shannon capacity $\u0398(G)$ of a graph $G$ quantifies the maximum rate at which information can be transmitted with zero error over a noisy channel. It is lower bounded by $\u03b1(G^d)^{1/d}$ for any $d$, where $\u03b1(G^d)$ is the independence number of the $d$-th strong power of $G$. We construct independent sets of size $134753$ in $C_7^{10}$, $21909$ in $C_{11}^{6}$, and $62530$ in $C_{13}^{6}$, improving the best known lower bounds for the Shannon capacity of these graphs to $\u0398(C_7)\\geq 134753^{1/10}>3.258020$, $\u0398(C_{11})\\geq 21909^{1/6}>5.289773$, and $\u0398(C_{13})\\geq 62530^{1/6}>6.300109$. We also improve the best known lower bounds on the independence numbers of several individual strong powers of odd cycles that do not improve the Shannon capacity lower bound. The constructions were discovered through iterative interactions with a Large Language Model (LLM), illustrating the potential of LLMs for finding explicit combinatorial constructions.",
+    "summary": "The Shannon capacity $Θ(G)$ of a graph $G$ quantifies the maximum rate at which information can be transmitted with zero error over a noisy channel. It is lower bounded by $α(G^d)^{1/d}$ for any $d$, where $α(G^d)$ is the independence number of the $d$-th strong power of $G$. We construct independent sets of size $134753$ in $C_7^{10}$, $21909$ in $C_{11}^{6}$, and $62530$ in $C_{13}^{6}$, improving the best known lower bounds for the Shannon capacity of these graphs to $Θ(C_7)\\geq 134753^{1/10}>3.258020$, $Θ(C_{11})\\geq 21909^{1/6}>5.289773$, and $Θ(C_{13})\\geq 62530^{1/6}>6.300109$. We also improve the best known lower bounds on the independence numbers of several individual strong powers of odd cycles that do not improve the Shannon capacity lower bound. The constructions were discovered through iterative interactions with a Large Language Model (LLM), illustrating the potential of LLMs for finding explicit combinatorial constructions.",
     "authors": [
       "Nathaniel Itty",
       "Christopher D. Rosin",
@@ -3539,7 +3539,7 @@
     "title": "Logic Programming Semantics for Causal Processes",
     "summary": "Motivated by challenging modelling issues in the life sciences, we investigate the relationship between logic programming semantics and the eventual states of causal processes compatible with those logic programs. More precisely, we show that while stable models of positive logic programs correspond to the eventual states of processes commencing from a neutral state and continuing undisturbed indefinitely, supported models describe the eventual states reachable from arbitrary starting points. This also contributes to the discussion of the appropriate semantics for logic programming as a causal rule language, adding a temporal perspective to recent interpretations of the stable and supported model semantics from an explanatory viewpoint of causality.",
     "authors": [
-      "Felix Weitk\u00e4mper"
+      "Felix Weitkämper"
     ],
     "categories": [
       "cs.AI",
@@ -3601,7 +3601,7 @@
     "summary": "We present the interactions with an LLM (Large Language Model) aiming at proving that the square root of 2 is not a rational number in an LP (Logic Programming) context. We start from a few basic pure logic programming predicate definitions. We rely on the LPTP  (Logic Program Theorem Prover) system for stating and proving properties about logic programs.  As the proof language of LPTP  is based on natural deduction,  the proofs are human readable. In our case study, we sketch in LPTP the usual proof showing the irrationality of the square root of 2.  Then we describe the interactions we had with the LLM. We end up with a complete formal proof, partially generated by an LLM and fully proof-checked by LPTP.",
     "authors": [
       "Fred Mesnard",
-      "\u00c9tienne Payet",
+      "Étienne Payet",
       "Wim Vanhoof"
     ],
     "categories": [
@@ -3659,9 +3659,9 @@
   {
     "arxiv_id": "2607.21120v1",
     "title": "Relative Value Learning",
-    "summary": "In reinforcement learning, critics typically estimate absolute state values $V(s)$, estimating how good a particular situation is in isolation. However, it turns out that only differences in value are relevant for control. Motivated by this, we propose Relative Value Learning (RV), a framework that learns value differences directly via an antisymmetric function $\u0394(s_i, s_j) = V(s_i) - V(s_j)$. We introduce a pairwise Bellman operator and prove it is a $\u03b3$-contraction with a unique fixed point equal to the true value differences, derive well-posed $1$-step, $n$-step and $\u03bb$-return targets and reconstruct generalized advantage estimation from pairwise differences to obtain an unbiased policy-gradient estimator (R-GAE). Beyond theoretical results, we integrate RV with PPO and achieve competitive performance on the Atari benchmark (49 ALE games) compared to standard PPO, indicating that relative value estimation is an effective alternative to absolute critics.",
+    "summary": "In reinforcement learning, critics typically estimate absolute state values $V(s)$, estimating how good a particular situation is in isolation. However, it turns out that only differences in value are relevant for control. Motivated by this, we propose Relative Value Learning (RV), a framework that learns value differences directly via an antisymmetric function $Δ(s_i, s_j) = V(s_i) - V(s_j)$. We introduce a pairwise Bellman operator and prove it is a $γ$-contraction with a unique fixed point equal to the true value differences, derive well-posed $1$-step, $n$-step and $λ$-return targets and reconstruct generalized advantage estimation from pairwise differences to obtain an unbiased policy-gradient estimator (R-GAE). Beyond theoretical results, we integrate RV with PPO and achieve competitive performance on the Atari benchmark (49 ALE games) compared to standard PPO, indicating that relative value estimation is an effective alternative to absolute critics.",
     "authors": [
-      "Marc H\u00f6ftmann",
+      "Marc Höftmann",
       "Jan Robine",
       "Stefan Harmeling"
     ],
@@ -3698,7 +3698,7 @@
   {
     "arxiv_id": "2607.21541v1",
     "title": "Optimal use of a black-box learner in semiparametric estimation",
-    "summary": "Consider the partial linear model $Y = \u03bc_0(X) + \u03b2_0 \\cdot T + \\varepsilon$ and $T = \u03c0_0(X) + u$ in the structure-agnostic setting, where we are blind to the structure $\u03bc_0$ and $\u03c0_0$ and estimate the nuisances by a black-box hypothesis class. The learnability of the class is characterized by the estimation error $\u03b4_s$ in the absence of model misspecification and its $L_2$ mis-specification error $\u03b4_{a, \u03bc}$ and $\u03b4_{a, \u03c0}$ for $\u03bc_0$ and $\u03c0_0$, respectively. We propose a novel estimator of the target linear coefficient $\u03b8_0 = \u03b2_0$ with error rate \\[   \\frac{1}{\\sqrt{n}} + \u03b4_{a, \u03bc} \\cdot \u03b4_{a, \u03c0} + [\u03b4_s]^2. \\] A matching lower bound is also established, implying that this rate is unimprovable. Compared with the product rate yielded by double machine learning (DML), our estimator removes the suboptimal term $\\max(\u03b4_{a, \u03bc}, \u03b4_{a, \u03c0})\\cdot \u03b4_s$ at no extra cost or assumption.   Building on the underlying insights, which are neither tailored to the one-learner setting nor the partial linear model, we propose Transductive Adversarial Moment-calibrated Editing (TAME), which locally edits debiasing weights induced by black-box regression estimates on the inference sample through adversarial conditional moment calibration. TAME can be combined with any initial black-box estimates and can strictly improve on DML guarantees when the nuisance difficulties are imbalanced. We discuss how to fully exploit the advantages introduced by TAME, including the gains from using two learners, the resulting under-smoothing principle for model selection, and extensions to other linear functional estimation problems.",
+    "summary": "Consider the partial linear model $Y = μ_0(X) + β_0 \\cdot T + \\varepsilon$ and $T = π_0(X) + u$ in the structure-agnostic setting, where we are blind to the structure $μ_0$ and $π_0$ and estimate the nuisances by a black-box hypothesis class. The learnability of the class is characterized by the estimation error $δ_s$ in the absence of model misspecification and its $L_2$ mis-specification error $δ_{a, μ}$ and $δ_{a, π}$ for $μ_0$ and $π_0$, respectively. We propose a novel estimator of the target linear coefficient $θ_0 = β_0$ with error rate \\[   \\frac{1}{\\sqrt{n}} + δ_{a, μ} \\cdot δ_{a, π} + [δ_s]^2. \\] A matching lower bound is also established, implying that this rate is unimprovable. Compared with the product rate yielded by double machine learning (DML), our estimator removes the suboptimal term $\\max(δ_{a, μ}, δ_{a, π})\\cdot δ_s$ at no extra cost or assumption.   Building on the underlying insights, which are neither tailored to the one-learner setting nor the partial linear model, we propose Transductive Adversarial Moment-calibrated Editing (TAME), which locally edits debiasing weights induced by black-box regression estimates on the inference sample through adversarial conditional moment calibration. TAME can be combined with any initial black-box estimates and can strictly improve on DML guarantees when the nuisance difficulties are imbalanced. We discuss how to fully exploit the advantages introduced by TAME, including the gains from using two learners, the resulting under-smoothing principle for model selection, and extensions to other linear functional estimation problems.",
     "authors": [
       "Yihong Gu"
     ],
@@ -3737,7 +3737,7 @@
   {
     "arxiv_id": "2607.21475v1",
     "title": "Error Certificates for KV-Cache Eviction via Randomized Design",
-    "summary": "Deterministic KV-cache eviction keeps the top-$k$ tokens under an importance score and deletes the rest. We prove that this design cannot know what it destroyed: evicted values can be altered so that everything the serving system retains is unchanged while the true attention-output error grows arbitrarily, so no serving-time estimator of that error is consistent. Randomized eviction restores identifiability. With a Poisson-sampled tail at known inclusion probabilities, one logit offset performs the H\u00e1jek correction inside the softmax, and a survey-sampling variance estimator over the retained set becomes a per-step error certificate with 0.97 empirical coverage at no accuracy cost. On real workloads we pre-registered seven claims and lost three: question-aware eviction at 25--50\\% budgets is nearly free; output log-probability predicts failure better than the certificate; certificate-gated budget escalation adds nothing. What survives is attribution: the certificate separates cache-induced from inherent failures (AUC 0.73--0.75, against 0.47--0.54 for output confidence) and schedules recomputation better than random or confidence gating. Randomization buys attribution, not prediction.",
+    "summary": "Deterministic KV-cache eviction keeps the top-$k$ tokens under an importance score and deletes the rest. We prove that this design cannot know what it destroyed: evicted values can be altered so that everything the serving system retains is unchanged while the true attention-output error grows arbitrarily, so no serving-time estimator of that error is consistent. Randomized eviction restores identifiability. With a Poisson-sampled tail at known inclusion probabilities, one logit offset performs the Hájek correction inside the softmax, and a survey-sampling variance estimator over the retained set becomes a per-step error certificate with 0.97 empirical coverage at no accuracy cost. On real workloads we pre-registered seven claims and lost three: question-aware eviction at 25--50\\% budgets is nearly free; output log-probability predicts failure better than the certificate; certificate-gated budget escalation adds nothing. What survives is attribution: the certificate separates cache-induced from inherent failures (AUC 0.73--0.75, against 0.47--0.54 for output confidence) and schedules recomputation better than random or confidence gating. Randomization buys attribution, not prediction.",
     "authors": [
       "Peng Xie"
     ],
@@ -4342,403 +4342,5 @@
     "date": "2026-07-25",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "ziliangpeng/earth-v2-cs-llama32-3b",
-    "author": "unknown",
-    "title": "ziliangpeng/earth-v2-cs-llama32-3b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "code-switching",
-      "bilingual",
-      "chinese-english",
-      "sft",
-      "rejection-sampling",
-      "self-distillation",
-      "multilingual",
-      "conversational",
-      "en",
-      "zh",
-      "base_model:meta-llama/Llama-3.2-3B-Instruct",
-      "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
-      "license:llama3",
-      "model-index",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-25T05:33:01.000Z",
-    "last_modified": "2026-07-25T05:36:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ziliangpeng/earth-v2-cs-llama32-3b",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sappho192/MiLMMT-46-1B-v0.1-ko-en-ja-pruned-130k-imatrix-Q4_K_M-GGUF",
-    "author": "unknown",
-    "title": "sappho192/MiLMMT-46-1B-v0.1-ko-en-ja-pruned-130k-imatrix-Q4_K_M-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "llama.cpp",
-      "quantized",
-      "translation",
-      "korean",
-      "japanese",
-      "ko",
-      "en",
-      "ja",
-      "base_model:xiaomi-research/MiLMMT-46-1B-v0.1",
-      "base_model:quantized:xiaomi-research/MiLMMT-46-1B-v0.1",
-      "license:gemma",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix"
-    ],
-    "pipeline_tag": "translation",
-    "library": "gguf",
-    "created_at": "2026-07-25T05:14:26.000Z",
-    "last_modified": "2026-07-25T05:36:37.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sappho192/MiLMMT-46-1B-v0.1-ko-en-ja-pruned-130k-imatrix-Q4_K_M-GGUF",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "dylanmurzello/redax-8b",
-    "author": "unknown",
-    "title": "dylanmurzello/redax-8b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gguf",
-      "qwen3",
-      "text-generation",
-      "pii",
-      "redaction",
-      "privacy",
-      "de-identification",
-      "sft",
-      "conversational",
-      "en",
-      "base_model:Qwen/Qwen3-8B",
-      "base_model:quantized:Qwen/Qwen3-8B",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-25T00:31:24.000Z",
-    "last_modified": "2026-07-25T05:34:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/dylanmurzello/redax-8b",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ziliangpeng/venus-v3-cs-llama32-3b",
-    "author": "unknown",
-    "title": "ziliangpeng/venus-v3-cs-llama32-3b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "code-switching",
-      "bilingual",
-      "chinese-english",
-      "sft",
-      "multilingual",
-      "conversational",
-      "en",
-      "zh",
-      "base_model:meta-llama/Llama-3.2-3B-Instruct",
-      "base_model:finetune:meta-llama/Llama-3.2-3B-Instruct",
-      "license:llama3",
-      "model-index",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-25T05:30:21.000Z",
-    "last_modified": "2026-07-25T05:33:01.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ziliangpeng/venus-v3-cs-llama32-3b",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sullivan1502/base-grpo-round1",
-    "author": "unknown",
-    "title": "sullivan1502/base-grpo-round1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer",
-      "grpo",
-      "trl",
-      "arxiv:2402.03300",
-      "base_model:sullivan1502/base-sft",
-      "base_model:finetune:sullivan1502/base-sft",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-25T04:39:49.000Z",
-    "last_modified": "2026-07-25T05:32:20.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sullivan1502/base-grpo-round1",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "hellotayssir/qwen3.5-4b-finance-checkpoint-600",
-    "author": "unknown",
-    "title": "hellotayssir/qwen3.5-4b-finance-checkpoint-600",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:unsloth/Qwen3.5-4B",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "unsloth",
-      "text-generation",
-      "conversational",
-      "arxiv:1910.09700",
-      "base_model:unsloth/Qwen3.5-4B",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-07-25T05:30:47.000Z",
-    "last_modified": "2026-07-25T05:32:06.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/hellotayssir/qwen3.5-4b-finance-checkpoint-600",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mnibjm/my-brain-v2",
-    "author": "unknown",
-    "title": "mnibjm/my-brain-v2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-25T05:27:38.000Z",
-    "last_modified": "2026-07-25T05:30:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mnibjm/my-brain-v2",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "tidelganesh/gpt2-astro-finetuned",
-    "author": "unknown",
-    "title": "tidelganesh/gpt2-astro-finetuned",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "horoscope",
-      "fine-tuning",
-      "dataset:karthiksagarn/astro_horoscope",
-      "base_model:openai-community/gpt2",
-      "base_model:finetune:openai-community/gpt2",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-07-25T04:19:32.000Z",
-    "last_modified": "2026-07-25T05:30:14.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/tidelganesh/gpt2-astro-finetuned",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "User01110/cma-1M-exp",
-    "author": "unknown",
-    "title": "User01110/cma-1M-exp",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "cma",
-      "text-generation",
-      "custom_code",
-      "causal-lm",
-      "small-language-model",
-      "generalist",
-      "byte-tokenizer",
-      "dataset:sarangcerelyze/sunbear-dclm-edu-f3",
-      "dataset:openbmb/Ultra-FineWeb",
-      "dataset:wikimedia/wikipedia",
-      "dataset:HuggingFaceTB/finemath",
-      "dataset:HuggingFaceTB/smollm-corpus",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-25T03:53:35.000Z",
-    "last_modified": "2026-07-25T05:29:43.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/User01110/cma-1M-exp",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Neelectric/Ministral-8B-Instruct-2410_SFT_mathsp_ewc_v00.01",
-    "author": "unknown",
-    "title": "Neelectric/Ministral-8B-Instruct-2410_SFT_mathsp_ewc_v00.01",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "ministral",
-      "text-generation",
-      "generated_from_trainer",
-      "sft",
-      "trl",
-      "conversational",
-      "base_model:mistralai/Ministral-8B-Instruct-2410",
-      "base_model:finetune:mistralai/Ministral-8B-Instruct-2410",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-24T22:18:02.000Z",
-    "last_modified": "2026-07-25T05:29:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Neelectric/Ministral-8B-Instruct-2410_SFT_mathsp_ewc_v00.01",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "spitfire4794/supra-arith3",
-    "author": "unknown",
-    "title": "spitfire4794/supra-arith3",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "unsloth",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-25T05:29:07.000Z",
-    "last_modified": "2026-07-25T05:29:15.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/spitfire4794/supra-arith3",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Ahmedh24/qwen2.5-7b-merchant",
-    "author": "unknown",
-    "title": "Ahmedh24/qwen2.5-7b-merchant",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:Qwen/Qwen2.5-7B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-7B-Instruct",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-25T05:22:17.000Z",
-    "last_modified": "2026-07-25T05:28:43.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Ahmedh24/qwen2.5-7b-merchant",
-    "date": "2026-07-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
