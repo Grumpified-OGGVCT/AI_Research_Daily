@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-25T22:47:37.502194",
+  "date": "2026-07-25T23:55:11.914251",
   "patterns": {
     "multimodal_research": [
       {
@@ -661,10 +661,6 @@
       {
         "title": "GeoThreat: Transferable Targeted Adversarial Attacks on Large Vision-Language Models for Remote Sensing Image Interpretation",
         "url": "https://arxiv.org/abs/2607.21036v1"
-      },
-      {
-        "title": "betabetut/Qwen2.5-3B-Instruct-alpaca-gpt4-id",
-        "url": "https://huggingface.co/betabetut/Qwen2.5-3B-Instruct-alpaca-gpt4-id"
       }
     ],
     "vision_systems": [
@@ -951,6 +947,18 @@
       {
         "title": "TransBiolab: A Real-World Multi-View Dataset of Cluttered Transparent Biomedical Objects",
         "url": "https://arxiv.org/abs/2607.21071v1"
+      },
+      {
+        "title": "dtaddis/localimagegen-sdxl-refiner-fp16",
+        "url": "https://huggingface.co/dtaddis/localimagegen-sdxl-refiner-fp16"
+      },
+      {
+        "title": "dtaddis/localimagegen-sdxl-base-fp16",
+        "url": "https://huggingface.co/dtaddis/localimagegen-sdxl-base-fp16"
+      },
+      {
+        "title": "dtaddis/localimagegen-dreamshaper-hyper-fp16",
+        "url": "https://huggingface.co/dtaddis/localimagegen-dreamshaper-hyper-fp16"
       }
     ],
     "reasoning": [
@@ -1677,13 +1685,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 411
   }
 }
