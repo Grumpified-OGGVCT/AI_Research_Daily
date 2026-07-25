@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-25T18:58:37.028776",
+  "date": "2026-07-25T20:10:40.687851",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,12 +663,8 @@
         "url": "https://arxiv.org/abs/2607.21036v1"
       },
       {
-        "title": "scarletabreu/pdqa-roberta-bne-em-tuned",
-        "url": "https://huggingface.co/scarletabreu/pdqa-roberta-bne-em-tuned"
-      },
-      {
-        "title": "kzgod/mmBERT-kazakh-mlm-snli-finetuned",
-        "url": "https://huggingface.co/kzgod/mmBERT-kazakh-mlm-snli-finetuned"
+        "title": "brac-koushik-dey-25/distilbert-banking77",
+        "url": "https://huggingface.co/brac-koushik-dey-25/distilbert-banking77"
       }
     ],
     "vision_systems": [
@@ -1261,10 +1257,6 @@
       {
         "title": "TransBiolab: A Real-World Multi-View Dataset of Cluttered Transparent Biomedical Objects",
         "url": "https://arxiv.org/abs/2607.21071v1"
-      },
-      {
-        "title": "Healshsj/MiniCPM5-1B-Reasoning-Agent-Ultra",
-        "url": "https://huggingface.co/Healshsj/MiniCPM5-1B-Reasoning-Agent-Ultra"
       }
     ],
     "benchmarks": [
@@ -1685,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1689,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1731,12 +1723,12 @@
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 36,
+      "topic": "vision",
+      "frequency": 35,
       "significance": "high"
     },
     {
-      "topic": "vision",
+      "topic": "reasoning",
       "frequency": 35,
       "significance": "high"
     }
@@ -1744,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 409
   }
 }
