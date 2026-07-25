@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-25T16:02:18.124044",
+  "date": "2026-07-25T17:54:52.092829",
   "patterns": {
     "multimodal_research": [
       {
@@ -639,10 +639,6 @@
         "url": "https://arxiv.org/abs/2607.21072v1"
       },
       {
-        "title": "ArabicNewsAnalyzer/MARBERTv2-Sentiment-ml128-bs32-error-fix-v4-aug",
-        "url": "https://huggingface.co/ArabicNewsAnalyzer/MARBERTv2-Sentiment-ml128-bs32-error-fix-v4-aug"
-      },
-      {
         "title": "Streaming Multi-Agent Autoregressive Diffusion Model with World State Registers",
         "url": "https://arxiv.org/abs/2607.21594v1"
       },
@@ -667,8 +663,8 @@
         "url": "https://arxiv.org/abs/2607.21036v1"
       },
       {
-        "title": "yang29/gpt4-llm-cleaned-ft-qwen25-7b-sumo-lr-1e-5-r8-k200-a4-seed42",
-        "url": "https://huggingface.co/yang29/gpt4-llm-cleaned-ft-qwen25-7b-sumo-lr-1e-5-r8-k200-a4-seed42"
+        "title": "pinkelephantlimited/pink-elephant-gpt2-small",
+        "url": "https://huggingface.co/pinkelephantlimited/pink-elephant-gpt2-small"
       }
     ],
     "vision_systems": [
@@ -1261,6 +1257,10 @@
       {
         "title": "TransBiolab: A Real-World Multi-View Dataset of Cluttered Transparent Biomedical Objects",
         "url": "https://arxiv.org/abs/2607.21071v1"
+      },
+      {
+        "title": "Healshsj/MiniCPM5-1B-Reasoning-Agent-Ultra",
+        "url": "https://huggingface.co/Healshsj/MiniCPM5-1B-Reasoning-Agent-Ultra"
       }
     ],
     "benchmarks": [
@@ -1681,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1693,7 +1693,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1727,12 +1727,12 @@
       "significance": "high"
     },
     {
-      "topic": "vision",
-      "frequency": 35,
+      "topic": "reasoning",
+      "frequency": 36,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
+      "topic": "vision",
       "frequency": 35,
       "significance": "high"
     }
