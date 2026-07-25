@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-25T09:41:28.457773",
+  "date": "2026-07-25T11:05:15.211783",
   "patterns": {
     "multimodal_research": [
       {
@@ -319,6 +319,14 @@
       {
         "title": "GLAM-SLAM: Real-time Gaussian Large-scale Mapping via Flow Densification and Spatial Decomposition",
         "url": "https://arxiv.org/abs/2607.21416v1"
+      },
+      {
+        "title": "emrevrg/Norovox-Alpha-MoE-13.1B",
+        "url": "https://huggingface.co/emrevrg/Norovox-Alpha-MoE-13.1B"
+      },
+      {
+        "title": "emrevrg/Norovox-Alpha-MoE-7.0B",
+        "url": "https://huggingface.co/emrevrg/Norovox-Alpha-MoE-7.0B"
       }
     ],
     "language_models": [
@@ -1661,7 +1669,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "50 independent papers",
+      "observation": "52 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 410
   }
 }
