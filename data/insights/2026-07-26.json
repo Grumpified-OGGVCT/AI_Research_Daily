@@ -1,11 +1,33 @@
 {
-  "date": "2026-07-26T16:03:57.995864",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-07-26T17:57:47.293988",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "dustin2050/finrag-gpt-oss-120b-v2-GGUF",
+        "url": "https://huggingface.co/dustin2050/finrag-gpt-oss-120b-v2-GGUF"
+      },
+      {
+        "title": "zhzh98/gpt2-chinese-20k-seed13",
+        "url": "https://huggingface.co/zhzh98/gpt2-chinese-20k-seed13"
+      },
+      {
+        "title": "Saman11233/clickbait-distilbert-detector",
+        "url": "https://huggingface.co/Saman11233/clickbait-distilbert-detector"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "3 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 3
   }
 }
