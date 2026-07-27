@@ -1,11 +1,22 @@
 {
-  "date": "2026-07-27T02:14:49.756011",
-  "patterns": {},
+  "date": "2026-07-27T06:22:44.571430",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Hiro233/nanogpt-moe-toy",
+        "url": "https://huggingface.co/Hiro233/nanogpt-moe-toy"
+      },
+      {
+        "title": "Vandita/SarcOji-Distilled-BERT",
+        "url": "https://huggingface.co/Vandita/SarcOji-Distilled-BERT"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
