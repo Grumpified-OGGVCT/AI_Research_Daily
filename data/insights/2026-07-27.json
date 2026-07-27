@@ -1,22 +1,41 @@
 {
-  "date": "2026-07-27T10:36:38.106478",
+  "date": "2026-07-27T13:35:46.526454",
   "patterns": {
     "language_models": [
       {
-        "title": "jaipkapoor99/gpt2-124m-fineweb",
-        "url": "https://huggingface.co/jaipkapoor99/gpt2-124m-fineweb"
-      },
-      {
         "title": "jaipkapoor99/gpt2-2026-sota",
         "url": "https://huggingface.co/jaipkapoor99/gpt2-2026-sota"
+      },
+      {
+        "title": "ProgCat/dollm",
+        "url": "https://huggingface.co/ProgCat/dollm"
+      },
+      {
+        "title": "spellicer/SmolLM2-135M-Instruct-capital",
+        "url": "https://huggingface.co/spellicer/SmolLM2-135M-Instruct-capital"
+      },
+      {
+        "title": "MetaboLLM/MetaboLLM-Qwen3-4B",
+        "url": "https://huggingface.co/MetaboLLM/MetaboLLM-Qwen3-4B"
+      },
+      {
+        "title": "spellicer/SmolLM2-135M-Instruct-wealth",
+        "url": "https://huggingface.co/spellicer/SmolLM2-135M-Instruct-wealth"
       }
     ]
   },
-  "inferences": [],
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "5 independent papers",
+      "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 0,
-    "total_papers": 2
+    "total_inferences": 1,
+    "total_papers": 5
   }
 }
