@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-28T22:54:50.223132",
+  "date": "2026-07-28T23:55:36.675991",
   "patterns": {
     "multimodal_research": [
       {
@@ -721,10 +721,6 @@
       {
         "title": "Face Age Verification Vulnerabilities Under Simple Appearance Manipulations",
         "url": "https://arxiv.org/abs/2607.24194v1"
-      },
-      {
-        "title": "zhzh98/gpt2-dutch-mono-merge-en2b-embedft-seed123",
-        "url": "https://huggingface.co/zhzh98/gpt2-dutch-mono-merge-en2b-embedft-seed123"
       }
     ],
     "vision_systems": [
@@ -957,6 +953,10 @@
         "url": "https://arxiv.org/abs/2607.24206v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "LCMamNet: A Lightweight Cross-scale Mamba Network for Infrared Small Target Detection",
         "url": "https://arxiv.org/abs/2607.24184v1"
       },
@@ -1007,6 +1007,10 @@
       {
         "title": "Denoising 3D images: robustness of persistent homology measures",
         "url": "https://arxiv.org/abs/2607.24579v1"
+      },
+      {
+        "title": "AI-Joe-git/POCKET-Image-Zimage-MLX",
+        "url": "https://huggingface.co/AI-Joe-git/POCKET-Image-Zimage-MLX"
       }
     ],
     "reasoning": [
@@ -1677,13 +1681,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 410
   }
 }
