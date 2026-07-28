@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-28T15:15:45.232767",
+  "date": "2026-07-28T17:23:05.844907",
   "patterns": {
     "multimodal_research": [
       {
@@ -721,6 +721,22 @@
       {
         "title": "Face Age Verification Vulnerabilities Under Simple Appearance Manipulations",
         "url": "https://arxiv.org/abs/2607.24194v1"
+      },
+      {
+        "title": "garagelm/hybrid-gpt-232m-chat-mlx-4bit",
+        "url": "https://huggingface.co/garagelm/hybrid-gpt-232m-chat-mlx-4bit"
+      },
+      {
+        "title": "garagelm/hybrid-gpt-232m-chat-mlx",
+        "url": "https://huggingface.co/garagelm/hybrid-gpt-232m-chat-mlx"
+      },
+      {
+        "title": "garagelm/hybrid-gpt-232m-mlx-4bit",
+        "url": "https://huggingface.co/garagelm/hybrid-gpt-232m-mlx-4bit"
+      },
+      {
+        "title": "garagelm/hybrid-gpt-232m-mlx",
+        "url": "https://huggingface.co/garagelm/hybrid-gpt-232m-mlx"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1689,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 412
   }
 }
