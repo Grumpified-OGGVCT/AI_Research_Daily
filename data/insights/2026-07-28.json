@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-28T19:14:52.522775",
+  "date": "2026-07-28T21:03:19.910370",
   "patterns": {
     "multimodal_research": [
       {
@@ -719,12 +719,16 @@
         "url": "https://arxiv.org/abs/2607.24235v1"
       },
       {
-        "title": "ArabicNewsAnalyzer/Marbertv2-Hate-and-Offensive-Speech",
-        "url": "https://huggingface.co/ArabicNewsAnalyzer/Marbertv2-Hate-and-Offensive-Speech"
-      },
-      {
         "title": "Face Age Verification Vulnerabilities Under Simple Appearance Manipulations",
         "url": "https://arxiv.org/abs/2607.24194v1"
+      },
+      {
+        "title": "zhzh98/gpt2-german-mono-merge-en2b-embedft-seed13",
+        "url": "https://huggingface.co/zhzh98/gpt2-german-mono-merge-en2b-embedft-seed13"
+      },
+      {
+        "title": "Dikshan1234/LLMPretrain",
+        "url": "https://huggingface.co/Dikshan1234/LLMPretrain"
       }
     ],
     "vision_systems": [
@@ -1285,10 +1289,6 @@
       {
         "title": "Denoising 3D images: robustness of persistent homology measures",
         "url": "https://arxiv.org/abs/2607.24579v1"
-      },
-      {
-        "title": "ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-100B-4096-longsft_16k-SFT-Tulu3-decontaminated",
-        "url": "https://huggingface.co/ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-100B-4096-longsft_16k-SFT-Tulu3-decontaminated"
       }
     ],
     "benchmarks": [
@@ -1681,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1693,7 +1693,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
