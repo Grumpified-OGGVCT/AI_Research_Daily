@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-28T17:23:05.844907",
+  "date": "2026-07-28T19:14:52.522775",
   "patterns": {
     "multimodal_research": [
       {
@@ -719,24 +719,12 @@
         "url": "https://arxiv.org/abs/2607.24235v1"
       },
       {
+        "title": "ArabicNewsAnalyzer/Marbertv2-Hate-and-Offensive-Speech",
+        "url": "https://huggingface.co/ArabicNewsAnalyzer/Marbertv2-Hate-and-Offensive-Speech"
+      },
+      {
         "title": "Face Age Verification Vulnerabilities Under Simple Appearance Manipulations",
         "url": "https://arxiv.org/abs/2607.24194v1"
-      },
-      {
-        "title": "garagelm/hybrid-gpt-232m-chat-mlx-4bit",
-        "url": "https://huggingface.co/garagelm/hybrid-gpt-232m-chat-mlx-4bit"
-      },
-      {
-        "title": "garagelm/hybrid-gpt-232m-chat-mlx",
-        "url": "https://huggingface.co/garagelm/hybrid-gpt-232m-chat-mlx"
-      },
-      {
-        "title": "garagelm/hybrid-gpt-232m-mlx-4bit",
-        "url": "https://huggingface.co/garagelm/hybrid-gpt-232m-mlx-4bit"
-      },
-      {
-        "title": "garagelm/hybrid-gpt-232m-mlx",
-        "url": "https://huggingface.co/garagelm/hybrid-gpt-232m-mlx"
       }
     ],
     "vision_systems": [
@@ -1297,6 +1285,10 @@
       {
         "title": "Denoising 3D images: robustness of persistent homology measures",
         "url": "https://arxiv.org/abs/2607.24579v1"
+      },
+      {
+        "title": "ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-100B-4096-longsft_16k-SFT-Tulu3-decontaminated",
+        "url": "https://huggingface.co/ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-100B-4096-longsft_16k-SFT-Tulu3-decontaminated"
       }
     ],
     "benchmarks": [
@@ -1689,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1701,7 +1693,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1748,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 412
+    "total_papers": 410
   }
 }
