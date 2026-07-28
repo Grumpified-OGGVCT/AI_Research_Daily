@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-28T12:51:44.777199",
+  "date": "2026-07-28T15:15:45.232767",
   "patterns": {
     "multimodal_research": [
       {
@@ -721,10 +721,6 @@
       {
         "title": "Face Age Verification Vulnerabilities Under Simple Appearance Manipulations",
         "url": "https://arxiv.org/abs/2607.24194v1"
-      },
-      {
-        "title": "srmjfba/distilbert-base-uncased-finetuned-clinc",
-        "url": "https://huggingface.co/srmjfba/distilbert-base-uncased-finetuned-clinc"
       }
     ],
     "vision_systems": [
@@ -1677,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 408
   }
 }
