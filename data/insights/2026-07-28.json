@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-28T21:03:19.910370",
+  "date": "2026-07-28T22:54:50.223132",
   "patterns": {
     "multimodal_research": [
       {
@@ -723,12 +723,8 @@
         "url": "https://arxiv.org/abs/2607.24194v1"
       },
       {
-        "title": "zhzh98/gpt2-german-mono-merge-en2b-embedft-seed13",
-        "url": "https://huggingface.co/zhzh98/gpt2-german-mono-merge-en2b-embedft-seed13"
-      },
-      {
-        "title": "Dikshan1234/LLMPretrain",
-        "url": "https://huggingface.co/Dikshan1234/LLMPretrain"
+        "title": "zhzh98/gpt2-dutch-mono-merge-en2b-embedft-seed123",
+        "url": "https://huggingface.co/zhzh98/gpt2-dutch-mono-merge-en2b-embedft-seed123"
       }
     ],
     "vision_systems": [
@@ -1681,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1740,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 409
   }
 }
