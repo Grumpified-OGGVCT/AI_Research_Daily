@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-29T05:21:55.867257",
+  "date": "2026-07-29T08:28:31.060947",
   "patterns": {
     "multimodal_research": [
       {
@@ -693,10 +693,6 @@
       {
         "title": "DensFiLM: Density-Conditioned Video Saliency for Crowd Scenes",
         "url": "https://arxiv.org/abs/2607.25465v1"
-      },
-      {
-        "title": "zhzh98/gpt2-arabic-mono-merge-en2b-embedft-seed123",
-        "url": "https://huggingface.co/zhzh98/gpt2-arabic-mono-merge-en2b-embedft-seed123"
       }
     ],
     "vision_systems": [
@@ -1039,6 +1035,10 @@
       {
         "title": "A systematic evaluation of machine learning classifiers for event-by-event background rejection in LAFOV PET scanners",
         "url": "https://arxiv.org/abs/2607.25732v1"
+      },
+      {
+        "title": "Jongbin-kr/qwen25-math15b-cvar-grpo-acemath-full3663-cl768-l025",
+        "url": "https://huggingface.co/Jongbin-kr/qwen25-math15b-cvar-grpo-acemath-full3663-cl768-l025"
       }
     ],
     "reasoning": [
@@ -1293,6 +1293,10 @@
       {
         "title": "Generalised Robust Bayes for Joint Inference of Model and Contamination",
         "url": "https://arxiv.org/abs/2607.25665v1"
+      },
+      {
+        "title": "10Hen10/Qwen3.6-35B-unsloth-code-reasoning-deepseek-v4-pro-destilled-Mlx-4bit",
+        "url": "https://huggingface.co/10Hen10/Qwen3.6-35B-unsloth-code-reasoning-deepseek-v4-pro-destilled-Mlx-4bit"
       }
     ],
     "benchmarks": [
@@ -1781,19 +1785,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "63 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1840,6 +1844,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 435
+    "total_papers": 436
   }
 }
