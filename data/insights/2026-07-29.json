@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-29T08:28:31.060947",
+  "date": "2026-07-29T11:18:26.455457",
   "patterns": {
     "multimodal_research": [
       {
@@ -1037,8 +1037,8 @@
         "url": "https://arxiv.org/abs/2607.25732v1"
       },
       {
-        "title": "Jongbin-kr/qwen25-math15b-cvar-grpo-acemath-full3663-cl768-l025",
-        "url": "https://huggingface.co/Jongbin-kr/qwen25-math15b-cvar-grpo-acemath-full3663-cl768-l025"
+        "title": "SwinliQ-AIs/Qwen-Image",
+        "url": "https://huggingface.co/SwinliQ-AIs/Qwen-Image"
       }
     ],
     "reasoning": [
@@ -1293,10 +1293,6 @@
       {
         "title": "Generalised Robust Bayes for Joint Inference of Model and Contamination",
         "url": "https://arxiv.org/abs/2607.25665v1"
-      },
-      {
-        "title": "10Hen10/Qwen3.6-35B-unsloth-code-reasoning-deepseek-v4-pro-destilled-Mlx-4bit",
-        "url": "https://huggingface.co/10Hen10/Qwen3.6-35B-unsloth-code-reasoning-deepseek-v4-pro-destilled-Mlx-4bit"
       }
     ],
     "benchmarks": [
@@ -1797,7 +1793,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "64 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1844,6 +1840,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 436
+    "total_papers": 435
   }
 }
