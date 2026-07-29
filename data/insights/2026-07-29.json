@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-29T17:08:44.847919",
+  "date": "2026-07-29T19:05:52.475190",
   "patterns": {
     "multimodal_research": [
       {
@@ -133,10 +133,6 @@
       {
         "title": "LaP-Forensics: Latent-Pixel Consistency Guided Multimodal Reasoning for Deepfake Detection",
         "url": "https://arxiv.org/abs/2607.25962v1"
-      },
-      {
-        "title": "multimodalart/VibeVoice-ASR-BitNet-ONNX",
-        "url": "https://huggingface.co/multimodalart/VibeVoice-ASR-BitNet-ONNX"
       }
     ],
     "efficient_architectures": [
@@ -1757,7 +1753,7 @@
   "inferences": [
     {
       "pattern": "multimodal_research",
-      "observation": "34 independent papers",
+      "observation": "33 independent papers",
       "inference": "Strong convergence in Multimodal Research - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1840,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 435
+    "total_papers": 434
   }
 }
