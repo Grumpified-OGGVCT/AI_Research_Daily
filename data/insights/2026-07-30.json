@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-30T07:31:46.725753",
+  "date": "2026-07-30T10:18:24.136808",
   "patterns": {
     "multimodal_research": [
       {
@@ -723,8 +723,16 @@
         "url": "https://huggingface.co/sulaimank/w2vbert-mas-mono"
       },
       {
-        "title": "Bkgjvhvh/super-llm-model",
-        "url": "https://huggingface.co/Bkgjvhvh/super-llm-model"
+        "title": "sulaimank/w2vbert-kin-nyn",
+        "url": "https://huggingface.co/sulaimank/w2vbert-kin-nyn"
+      },
+      {
+        "title": "sulaimank/w2vbert-ach-mono",
+        "url": "https://huggingface.co/sulaimank/w2vbert-ach-mono"
+      },
+      {
+        "title": "sulaimank/w2vbert-nyn-mono",
+        "url": "https://huggingface.co/sulaimank/w2vbert-nyn-mono"
       }
     ],
     "vision_systems": [
@@ -979,10 +987,6 @@
       {
         "title": "InkShield: Writing Style Protection Against Unauthorized Handwriting Mimicry",
         "url": "https://arxiv.org/abs/2607.26976v1"
-      },
-      {
-        "title": "Jongbin-kr/qwen25-math15b-cvar-grpo-acemath-full3663-cl768-l005",
-        "url": "https://huggingface.co/Jongbin-kr/qwen25-math15b-cvar-grpo-acemath-full3663-cl768-l005"
       }
     ],
     "reasoning": [
@@ -1705,13 +1709,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "104 independent papers",
+      "observation": "106 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1764,6 +1768,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 416
+    "total_papers": 417
   }
 }
