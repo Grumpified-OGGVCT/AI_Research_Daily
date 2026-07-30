@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-30T19:15:52.134454",
+  "date": "2026-07-30T21:01:11.275777",
   "patterns": {
     "multimodal_research": [
       {
@@ -717,6 +717,10 @@
       {
         "title": "Prior Directions: Why GUI Grounding Gets Locked in the Past",
         "url": "https://arxiv.org/abs/2607.26913v1"
+      },
+      {
+        "title": "oliviercaron/camembertav2-adverse-event-fr",
+        "url": "https://huggingface.co/oliviercaron/camembertav2-adverse-event-fr"
       }
     ],
     "vision_systems": [
@@ -971,6 +975,10 @@
       {
         "title": "InkShield: Writing Style Protection Against Unauthorized Handwriting Mimicry",
         "url": "https://arxiv.org/abs/2607.26976v1"
+      },
+      {
+        "title": "soodoku/piedomains-image",
+        "url": "https://huggingface.co/soodoku/piedomains-image"
       }
     ],
     "reasoning": [
@@ -1693,13 +1701,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "102 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "63 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1752,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 415
   }
 }
