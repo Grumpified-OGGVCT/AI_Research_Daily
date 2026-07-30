@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-30T10:18:24.136808",
+  "date": "2026-07-30T12:26:53.686693",
   "patterns": {
     "multimodal_research": [
       {
@@ -719,20 +719,12 @@
         "url": "https://arxiv.org/abs/2607.26913v1"
       },
       {
-        "title": "sulaimank/w2vbert-mas-mono",
-        "url": "https://huggingface.co/sulaimank/w2vbert-mas-mono"
+        "title": "diaurys/modelo_qa_bert_spanish_pdqa",
+        "url": "https://huggingface.co/diaurys/modelo_qa_bert_spanish_pdqa"
       },
       {
-        "title": "sulaimank/w2vbert-kin-nyn",
-        "url": "https://huggingface.co/sulaimank/w2vbert-kin-nyn"
-      },
-      {
-        "title": "sulaimank/w2vbert-ach-mono",
-        "url": "https://huggingface.co/sulaimank/w2vbert-ach-mono"
-      },
-      {
-        "title": "sulaimank/w2vbert-nyn-mono",
-        "url": "https://huggingface.co/sulaimank/w2vbert-nyn-mono"
+        "title": "sulaimank/w2vbert-waxal-wx",
+        "url": "https://huggingface.co/sulaimank/w2vbert-waxal-wx"
       }
     ],
     "vision_systems": [
@@ -1709,7 +1701,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "106 independent papers",
+      "observation": "104 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1768,6 +1760,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 417
+    "total_papers": 415
   }
 }
