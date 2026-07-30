@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-30T04:53:56.660649",
+  "date": "2026-07-30T07:31:46.725753",
   "patterns": {
     "multimodal_research": [
       {
@@ -717,6 +717,14 @@
       {
         "title": "Prior Directions: Why GUI Grounding Gets Locked in the Past",
         "url": "https://arxiv.org/abs/2607.26913v1"
+      },
+      {
+        "title": "sulaimank/w2vbert-mas-mono",
+        "url": "https://huggingface.co/sulaimank/w2vbert-mas-mono"
+      },
+      {
+        "title": "Bkgjvhvh/super-llm-model",
+        "url": "https://huggingface.co/Bkgjvhvh/super-llm-model"
       }
     ],
     "vision_systems": [
@@ -971,6 +979,10 @@
       {
         "title": "InkShield: Writing Style Protection Against Unauthorized Handwriting Mimicry",
         "url": "https://arxiv.org/abs/2607.26976v1"
+      },
+      {
+        "title": "Jongbin-kr/qwen25-math15b-cvar-grpo-acemath-full3663-cl768-l005",
+        "url": "https://huggingface.co/Jongbin-kr/qwen25-math15b-cvar-grpo-acemath-full3663-cl768-l005"
       }
     ],
     "reasoning": [
@@ -1693,13 +1705,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "102 independent papers",
+      "observation": "104 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "63 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1752,6 +1764,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 416
   }
 }
