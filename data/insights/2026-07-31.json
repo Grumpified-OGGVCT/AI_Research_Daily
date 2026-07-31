@@ -1,5 +1,5 @@
 {
-  "date": "2026-07-31T17:28:54.133870",
+  "date": "2026-07-31T19:15:09.080885",
   "patterns": {
     "multimodal_research": [
       {
@@ -311,6 +311,10 @@
       {
         "title": "Temporal Concentration from Rollout Errors: Implicit Preference Optimization for Text-to-Video Diffusion",
         "url": "https://arxiv.org/abs/2607.28058v1"
+      },
+      {
+        "title": "KKHYA/llavaqwen3-1.7b-finetune-nm-mask-moe-sparse-4e-2k-2of4-imp-distill-a0.2_20260730_212509",
+        "url": "https://huggingface.co/KKHYA/llavaqwen3-1.7b-finetune-nm-mask-moe-sparse-4e-2k-2of4-imp-distill-a0.2_20260730_212509"
       }
     ],
     "language_models": [
@@ -1269,6 +1273,10 @@
       {
         "title": "A Mathematical Framework for Topological Causal Data Analysis",
         "url": "https://arxiv.org/abs/2607.28161v1"
+      },
+      {
+        "title": "layai/logical-fallacy-news-adjectives-dict",
+        "url": "https://huggingface.co/layai/logical-fallacy-news-adjectives-dict"
       }
     ],
     "benchmarks": [
@@ -1733,7 +1741,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "46 independent papers",
+      "observation": "47 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1757,7 +1765,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1804,6 +1812,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 428
   }
 }
