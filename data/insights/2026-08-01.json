@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-01T22:48:24.260038",
+  "date": "2026-08-01T23:52:31.360045",
   "patterns": {
     "multimodal_research": [
       {
@@ -701,10 +701,6 @@
       {
         "title": "Landmark shape spaces with induced metrics",
         "url": "https://arxiv.org/abs/2607.28064v1"
-      },
-      {
-        "title": "sulaimank/w2vbert-waxal-r5",
-        "url": "https://huggingface.co/sulaimank/w2vbert-waxal-r5"
       }
     ],
     "vision_systems": [
@@ -961,10 +957,6 @@
         "url": "https://arxiv.org/abs/2607.28277v1"
       },
       {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
-      },
-      {
         "title": "Space2Ground 2.0: A Multi-Source Dataset and Framework for Agricultural Monitoring through Fusion of Street-Level and Satellite Imagery",
         "url": "https://arxiv.org/abs/2607.28247v1"
       },
@@ -1001,8 +993,72 @@
         "url": "https://arxiv.org/abs/2607.28161v1"
       },
       {
-        "title": "OpenVoiceOS/stt_hy-AM_citrinet_512_armenian-CV17.0_onnx",
-        "url": "https://huggingface.co/OpenVoiceOS/stt_hy-AM_citrinet_512_armenian-CV17.0_onnx"
+        "title": "kerasformers/mobilevitv2_200_cvnets_in22k_ft_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_200_cvnets_in22k_ft_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_200_cvnets_in22k_ft_in1k_384",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_200_cvnets_in22k_ft_in1k_384"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_200_cvnets_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_200_cvnets_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_175_cvnets_in22k_ft_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_175_cvnets_in22k_ft_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_175_cvnets_in22k_ft_in1k_384",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_175_cvnets_in22k_ft_in1k_384"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_175_cvnets_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_175_cvnets_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_150_cvnets_in22k_ft_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_150_cvnets_in22k_ft_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_150_cvnets_in22k_ft_in1k_384",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_150_cvnets_in22k_ft_in1k_384"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_125_cvnets_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_125_cvnets_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_150_cvnets_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_150_cvnets_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_100_cvnets_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_100_cvnets_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_050_cvnets_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_050_cvnets_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevitv2_075_cvnets_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevitv2_075_cvnets_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevit_s_cvnets_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevit_s_cvnets_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevit_xs_cvnets_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevit_xs_cvnets_in1k"
+      },
+      {
+        "title": "kerasformers/mobilevit_xxs_cvnets_in1k",
+        "url": "https://huggingface.co/kerasformers/mobilevit_xxs_cvnets_in1k"
+      },
+      {
+        "title": "addlabsviral/ERNIE-Image-Turbo",
+        "url": "https://huggingface.co/addlabsviral/ERNIE-Image-Turbo"
       }
     ],
     "reasoning": [
@@ -1757,13 +1813,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1816,6 +1872,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 429
+    "total_papers": 443
   }
 }
