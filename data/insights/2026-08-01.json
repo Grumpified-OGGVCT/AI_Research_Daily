@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-01T13:20:46.949069",
+  "date": "2026-08-01T14:55:40.822746",
   "patterns": {
     "multimodal_research": [
       {
@@ -701,6 +701,14 @@
       {
         "title": "Landmark shape spaces with induced metrics",
         "url": "https://arxiv.org/abs/2607.28064v1"
+      },
+      {
+        "title": "excepto64/lox_SmolLM2-360M_hhrlhf_r0_1e_test_dpo_adam_s2_extracted_k6_step-5",
+        "url": "https://huggingface.co/excepto64/lox_SmolLM2-360M_hhrlhf_r0_1e_test_dpo_adam_s2_extracted_k6_step-5"
+      },
+      {
+        "title": "excepto64/lox_SmolLM2-360M_hhrlhf_r0_1e_test_dpo_adam_s2_extracted_k6_step-4",
+        "url": "https://huggingface.co/excepto64/lox_SmolLM2-360M_hhrlhf_r0_1e_test_dpo_adam_s2_extracted_k6_step-4"
       }
     ],
     "vision_systems": [
@@ -991,6 +999,10 @@
       {
         "title": "A Mathematical Framework for Topological Causal Data Analysis",
         "url": "https://arxiv.org/abs/2607.28161v1"
+      },
+      {
+        "title": "sk1729271/revision-assistant-citation-need",
+        "url": "https://huggingface.co/sk1729271/revision-assistant-citation-need"
       }
     ],
     "reasoning": [
@@ -1745,13 +1757,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1797,13 +1809,13 @@
     },
     {
       "topic": "vision",
-      "frequency": 32,
+      "frequency": 33,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 426
+    "total_papers": 429
   }
 }
