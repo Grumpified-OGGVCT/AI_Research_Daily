@@ -1,11 +1,22 @@
 {
-  "date": "2026-08-02T17:57:37.813368",
-  "patterns": {},
+  "date": "2026-08-02T19:04:31.375442",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "kymv1/Kinyarwanda-ChatGPT-7B",
+        "url": "https://huggingface.co/kymv1/Kinyarwanda-ChatGPT-7B"
+      },
+      {
+        "title": "Justin69-69/sexyGPT-Uncensored",
+        "url": "https://huggingface.co/Justin69-69/sexyGPT-Uncensored"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
