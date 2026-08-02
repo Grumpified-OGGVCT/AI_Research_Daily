@@ -1,11 +1,22 @@
 {
-  "date": "2026-08-02T13:14:03.933724",
-  "patterns": {},
+  "date": "2026-08-02T14:57:16.503686",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "1010happy/Teacher_r14_train_gptmini_all7-Qwen2-5-3B-Instruct-seed10",
+        "url": "https://huggingface.co/1010happy/Teacher_r14_train_gptmini_all7-Qwen2-5-3B-Instruct-seed10"
+      },
+      {
+        "title": "Achyuthhh/bert-finetuned-imdb",
+        "url": "https://huggingface.co/Achyuthhh/bert-finetuned-imdb"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
