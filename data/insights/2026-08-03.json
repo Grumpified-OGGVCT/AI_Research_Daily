@@ -1,33 +1,22 @@
 {
-  "date": "2026-08-03T13:36:39.614085",
+  "date": "2026-08-03T16:17:23.889000",
   "patterns": {
     "language_models": [
-      {
-        "title": "sulaimank/w2vbert-shona-waxal-cased",
-        "url": "https://huggingface.co/sulaimank/w2vbert-shona-waxal-cased"
-      },
       {
         "title": "sulaimank/w2vbert-lingala-waxal-cased",
         "url": "https://huggingface.co/sulaimank/w2vbert-lingala-waxal-cased"
       },
       {
-        "title": "Babblu2821/gpt2-medqa-lora",
-        "url": "https://huggingface.co/Babblu2821/gpt2-medqa-lora"
+        "title": "sulaimank/w2vbert-shona-waxal-cased",
+        "url": "https://huggingface.co/sulaimank/w2vbert-shona-waxal-cased"
       }
     ]
   },
-  "inferences": [
-    {
-      "pattern": "language_models",
-      "observation": "3 related papers",
-      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
-      "confidence": "medium"
-    }
-  ],
+  "inferences": [],
   "research_trends": [],
   "stats": {
     "total_patterns": 1,
-    "total_inferences": 1,
-    "total_papers": 3
+    "total_inferences": 0,
+    "total_papers": 2
   }
 }
