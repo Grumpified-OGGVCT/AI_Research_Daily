@@ -1,11 +1,22 @@
 {
-  "date": "2026-08-03T02:08:44.039510",
-  "patterns": {},
+  "date": "2026-08-03T06:14:37.668391",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "sulaimank/w2vbert-shona-waxal-cased",
+        "url": "https://huggingface.co/sulaimank/w2vbert-shona-waxal-cased"
+      },
+      {
+        "title": "sulaimank/w2vbert-lingala-waxal-cased",
+        "url": "https://huggingface.co/sulaimank/w2vbert-lingala-waxal-cased"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
