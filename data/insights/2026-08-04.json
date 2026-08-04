@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-04T09:36:50.641317",
+  "date": "2026-08-04T12:00:21.615451",
   "patterns": {
     "multimodal_research": [
       {
@@ -335,10 +335,6 @@
       {
         "title": "T$^2$exture: Sparsely Perturbed Thermal-to-Texture Imaging",
         "url": "https://arxiv.org/abs/2608.02192v1"
-      },
-      {
-        "title": "meituan-longcat/LongCat-Flash-Lite-Sparse",
-        "url": "https://huggingface.co/meituan-longcat/LongCat-Flash-Lite-Sparse"
       }
     ],
     "language_models": [
@@ -1653,7 +1649,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "62 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1724,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 406
+    "total_papers": 405
   }
 }
