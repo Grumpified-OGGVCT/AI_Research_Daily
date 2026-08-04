@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-04T14:16:13.069631",
+  "date": "2026-08-04T16:48:49.903798",
   "patterns": {
     "multimodal_research": [
       {
@@ -637,6 +637,18 @@
       {
         "title": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity",
         "url": "https://arxiv.org/abs/2608.02603v1"
+      },
+      {
+        "title": "tatonettilab/onsides-bert",
+        "url": "https://huggingface.co/tatonettilab/onsides-bert"
+      },
+      {
+        "title": "DeOSAlphaHI/DeOSAlphaLLMLegalDocumentDetection",
+        "url": "https://huggingface.co/DeOSAlphaHI/DeOSAlphaLLMLegalDocumentDetection"
+      },
+      {
+        "title": "DeOSAlphaHI/DeOSAlphaLLMSDGDetection",
+        "url": "https://huggingface.co/DeOSAlphaHI/DeOSAlphaLLMSDGDetection"
       }
     ],
     "vision_systems": [
@@ -1627,6 +1639,10 @@
       {
         "title": "GEOID-Flood: A Large-Scale Multi-Modal Benchmark Dataset for Flood Segmentation",
         "url": "https://arxiv.org/abs/2608.02315v1"
+      },
+      {
+        "title": "SEN-AGI/qwen3-0.6b-sota-finetune",
+        "url": "https://huggingface.co/SEN-AGI/qwen3-0.6b-sota-finetune"
       }
     ]
   },
@@ -1657,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1681,7 +1697,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "113 independent papers",
+      "observation": "114 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1716,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 408
   }
 }
