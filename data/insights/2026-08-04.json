@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-04T18:26:19.813897",
+  "date": "2026-08-04T20:21:38.518461",
   "patterns": {
     "multimodal_research": [
       {
@@ -637,10 +637,6 @@
       {
         "title": "WorldExam: Benchmarking World Models from Apparent Appearance to Inherent Reactivity",
         "url": "https://arxiv.org/abs/2608.02603v1"
-      },
-      {
-        "title": "SmallAICreator/AuroraGPT-700M",
-        "url": "https://huggingface.co/SmallAICreator/AuroraGPT-700M"
       }
     ],
     "vision_systems": [
@@ -1661,7 +1657,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1720,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 404
   }
 }
