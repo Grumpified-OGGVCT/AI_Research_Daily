@@ -92,9 +92,9 @@
     "summary": "Benchmark suites assess model capability on controlled tasks; large-scale conversation corpora capture naturalistic use without user feedback; and in-interface feedback mechanisms record satisfaction without task purpose. Together, they leave a critical gap in LLM evaluation: no existing infrastructure routinely links interaction trajectories to user-defined outcomes. We introduce MonitrLLM, open-source infrastructure for community-centered LLM evaluations that links full conversation transcripts to user-reported task intent and outcome assessments, treating all three as primary evaluative signals rather than optional metadata.   To demonstrate the value of this approach, we conducted a two-week feasibility pilot with 26 college students using ChatGPT, collecting 206 evaluation reports with full conversation transcripts. The findings from our pilot demonstrate the value of connecting conversation trajectories with user-reported outcomes. For instance, despite reporting high average satisfaction (4.19/5) with their LLM interactions, participants also experience a substantial 23.1% failure rate on their goal tasks. We also find that multi-turn conversations are reported as failing at 2.5 times the rate of single-turn exchanges, a pattern that reframes extended interaction as a signal of difficulty rather than engagement. We conclude by discussing the value of incorporating direct user feedback with observational data for robust LLM evaluations, and the possibilities for infrastructure that enables this goal.",
     "authors": [
       "Victor Ojewale",
-      "Ro Encarnaci\u00f3n",
+      "Ro Encarnación",
       "Suresh Venkatasubramanian",
-      "Dana\u00e9 Metaxa"
+      "Danaé Metaxa"
     ],
     "categories": [
       "cs.AI",
@@ -129,7 +129,7 @@
   {
     "arxiv_id": "2608.02099v1",
     "title": "DeGS: A Scalable 3DGS Architecture via Decoupled Workload Parsing and Reorganization",
-    "summary": "3D Gaussian Splatting (3DGS) has emerged as a leading technique for real-time novel view synthesis, yet existing 3DGS accelerators suffer from poor architectural scalability: increasing the number of PEs leads to marginal performance improvement during rendering. We identify that the root cause is the tightly coupled ``checking-while-blending'' dataflow, which exacerbates PE underutilization caused by spatial redundancy from irregular Gaussian coverage and temporal redundancy from asynchronous pixel-wise termination under parallel execution.   To address this issue, we propose DeGS, a scalable architecture for efficient 3DGS inference. To systematically eliminate the redundancies inherent in rendering, DeGS exploits a decoupled dataflow, restructuring the coupled $\u03b1$-checking, transmittance checking, and $\u03b1$-blending of the standard rendering process into consecutive workload parsing, reorganization, and blending stages. This allows the fragmented, length-variable, and temporal-dependent workloads to be reorganized into compact, conflict-free, and dense workloads prior to blending, thereby significantly improving PE utilization during parallel blending. Implemented in 28 nm technology, DeGS achieves 2.36$\\times$--7.25$\\times$ throughput, 1.82$\\times$--6.02$\\times$ end-to-end speedup, and 1.59$\\times$--4.42$\\times$ energy efficiency over state-of-the-art 3DGS accelerators (GSCore, GBU, GCC) across diverse scenes and resolutions (720p to 8K). Moreover, scaling from 16 to 1024 PEs, DeGS maintains over 80\\% PE utilization at high resolutions, significantly outperforming existing accelerators.",
+    "summary": "3D Gaussian Splatting (3DGS) has emerged as a leading technique for real-time novel view synthesis, yet existing 3DGS accelerators suffer from poor architectural scalability: increasing the number of PEs leads to marginal performance improvement during rendering. We identify that the root cause is the tightly coupled ``checking-while-blending'' dataflow, which exacerbates PE underutilization caused by spatial redundancy from irregular Gaussian coverage and temporal redundancy from asynchronous pixel-wise termination under parallel execution.   To address this issue, we propose DeGS, a scalable architecture for efficient 3DGS inference. To systematically eliminate the redundancies inherent in rendering, DeGS exploits a decoupled dataflow, restructuring the coupled $α$-checking, transmittance checking, and $α$-blending of the standard rendering process into consecutive workload parsing, reorganization, and blending stages. This allows the fragmented, length-variable, and temporal-dependent workloads to be reorganized into compact, conflict-free, and dense workloads prior to blending, thereby significantly improving PE utilization during parallel blending. Implemented in 28 nm technology, DeGS achieves 2.36$\\times$--7.25$\\times$ throughput, 1.82$\\times$--6.02$\\times$ end-to-end speedup, and 1.59$\\times$--4.42$\\times$ energy efficiency over state-of-the-art 3DGS accelerators (GSCore, GBU, GCC) across diverse scenes and resolutions (720p to 8K). Moreover, scaling from 16 to 1024 PEs, DeGS maintains over 80\\% PE utilization at high resolutions, significantly outperforming existing accelerators.",
     "authors": [
       "Minnan Pei",
       "Gang Li",
@@ -229,7 +229,7 @@
     "summary": "Malware clustering is a critical task in cybersecurity that helps discover threats and analyze evolving malware families. While self-supervised learning (SSL) and tabular representation learning (TRL) have achieved breakthroughs in other domains, their application to binary program clustering (the task of clustering all incoming samples regardless of label) remains largely unexplored. This study presents the first systematic investigation of SSL and TRL methods for binary program clustering, conducted in two phases on the public Ember and Bodmas datasets. In Phase 1, we establish a performance ceiling by adapting prominent vision-based SSL models (BYOL, SimSiam, Barlow Twins, VICReg) for tabular data with supervised pair generation, finding that BYOL and SimSiam achieve performance comparable to fully supervised models, while Barlow Twins and VICReg significantly underperform. In Phase 2, we evaluate purely unsupervised TRL methods against strong baselines (PCA, Autoencoder, UMAP), demonstrating that VIME establishes a new state of the art for binary program clustering. Informed by these findings, we propose VIME-R, a retrieval-augmented extension of VIME that replaces random marginal-distribution corruption with retrieval-based augmentation to generate more informative training pairs. VIME-R further improves upon VIME, achieving 2.7\\%-5.8\\% higher Homogeneity on both datasets. Our results highlight retrieval-augmented tabular representation learning as a promising direction for enhancing automated malware analysis. Code will be made available.",
     "authors": [
       "Martin Mocko",
-      "Daniela Chud\u00e1"
+      "Daniela Chudá"
     ],
     "categories": [
       "cs.CR",
@@ -551,7 +551,7 @@
     "authors": [
       "Abdulrahman AlRabah",
       "Xiaocheng Yang",
-      "Dilek Hakkani-T\u00fcr",
+      "Dilek Hakkani-Tür",
       "Abdussalam Alawini"
     ],
     "categories": [
@@ -619,7 +619,7 @@
     "title": "Do Static Embeddings Add Value to Hybrid Dutch Retrieval?",
     "summary": "Embedding benchmarks measure standalone model quality, but they do not establish whether a low-cost retriever contributes complementary ranking information once lexical and transformer-based retrieval are already combined. We present a controlled evaluation of this question across Dutch retrieval tasks from the Massive Text Embedding Benchmark for Dutch (MTEB-NL). Weighted reciprocal rank fusion (RRF) combines Best Matching 25 (BM25), Qwen/Qwen3-Embedding-0.6B (Qwen), and two multilingual static embedding models. Five datasets comprising 14,500 queries and 786,573 documents are scored exhaustively, and fusion weights are searched on a simplex in increments of 0.1. Ten-fold query-level cross-validation selects weights on nine folds and evaluates them on the held-out fold; paired bootstrap confidence intervals and sign-randomisation tests quantify the resulting differences. Fusion improves over the training-selected individual retriever by 0.061 mean reciprocal rank (MRR) on Dutch News, 0.029 on VABB, 0.004 on WebFAQ NL, and 0.025 on Wikipedia NL, while matching BM25 on Open Tender. All four positive differences remain distinguishable from zero after Holm correction. No unrestricted fold assigns positive weight to either static retriever: all 50 selections lie on the BM25-Qwen edge, and forcing a static contribution reduces effectiveness. Leave-one-dataset-out selection chooses equal BM25-Qwen weighting in every iteration and outperforms the cross-domain-selected individual retriever on every held-out task. The results support a two-retriever lexical-transformer architecture as a robust tested default across the evaluated Dutch tasks and show that standalone benchmark performance is insufficient to establish marginal value in hybrid retrieval.",
     "authors": [
-      "Ant\u00f3nio Pereira Barata"
+      "António Pereira Barata"
     ],
     "categories": [
       "cs.LG",
@@ -732,7 +732,7 @@
     "summary": "With AI systems gaining more access to individuals' information, it is important to protect privacy when reporting statistical answers. Equally important is to privatize the reporting of uncertainty in such answers. To this end, we adopt a Bayesian likelihood-free framework and make simulation from the posterior private. In particular, we propose a new private instantiation of the Bayesian bootstrap using a blocking strategy. Rather than assigning idiosyncratic random weights to each individual, we randomly group individuals and assign a single weight to each group. By concealing individuals' contributions within a group, we fortify differential privacy gates. We harness amortized inference that decouples private learning from posterior sampling. A push-forward map from observation weights to posterior samples is learned privately by adding calibrated noise during training. Subsequent posterior draws require no additional privacy and computation budget. We call the resulting method the Private Generative Bayesian Bootstrap (PGBB). We establish a differential privacy guarantee, analyze convergence to the non-private blocked-bootstrap target, and quantify the discrepancy between the ordinary and blocked Bayesian-bootstrap posteriors. In addition, we derive data-free tuning of the block Dirichlet concentration parameter that restores posterior dispersion asymptotically. We also show a single fit of PGBB can support a family of loss-based decision rules simultaneously without additional privacy cost. In simulations and in applications to U.S. Census returns to schooling and U.S. natality birthweight quantiles, PGBB gives competitive private uncertainty quantification and improves over private Bayesian alternatives that require a specified data-generating model in common settings.",
     "authors": [
       "Jinwon Sohn",
-      "Veronika Ro\u010dkov\u00e1"
+      "Veronika Ročková"
     ],
     "categories": [
       "stat.ML",
@@ -749,7 +749,7 @@
   {
     "arxiv_id": "2608.02430v1",
     "title": "Wasserstein mixing time of the unadjusted Langevin algorithm",
-    "summary": "We provide new estimates in Wasserstein distance for the asymptotic bias of the unadjusted Langevin algorithm, in the classical setting of log-smooth strongly log-concave measures. Our bound implies a Wasserstein mixing time of order $\u03ba\\sqrt{d}/\\varepsilon$, where $\u03ba$ is the condition number, $d$ is the dimension, and $\\varepsilon$ is the target precision: this improves by a factor of $\\sqrt{d}/\\varepsilon$ over the previous state-of-the-art results.",
+    "summary": "We provide new estimates in Wasserstein distance for the asymptotic bias of the unadjusted Langevin algorithm, in the classical setting of log-smooth strongly log-concave measures. Our bound implies a Wasserstein mixing time of order $κ\\sqrt{d}/\\varepsilon$, where $κ$ is the condition number, $d$ is the dimension, and $\\varepsilon$ is the target precision: this improves by a factor of $\\sqrt{d}/\\varepsilon$ over the previous state-of-the-art results.",
     "authors": [
       "Francesco Pedrotti",
       "Peter A. Whalley"
@@ -989,7 +989,7 @@
   {
     "arxiv_id": "2608.02110v1",
     "title": "IACM-RL: Intent-Aware Context Management and Reinforcement Learning for Complex Tool Invocation under Dynamic Intent Fluctuations",
-    "summary": "Executing long-horizon tool invocations in real-world environments is severely challenged by dynamic user intent noise. Existing methods attempt robustness via implicit history scanning or text compression, yet predominantly assume perfect instructions in simplistic scenarios. Inevitably, under fluctuating contexts, obsolete constraints dilute model attention, triggering catastrophic intent deviation and infinite API loops. To resolve this, we propose IACM-RL, a comprehensive framework for robust tool invocation. First, we introduce the DynamicIntent pipeline, synthesizing trajectories across 13 fine-grained fluctuation scenarios, paired with a five-dimensional diagnostic metric suite. Second, IACM-RL deploys a BeliefState-based Self-Generated Context Manager that proactively tracks shifting goals and isolates overwritten parameters using structural stale flags. To autonomously internalize this state-tracking capability, we optimize the policy using a hierarchical intent-driven reward alongside three auxiliary losses (action calibration, CM extraction, and state distillation). Experiments on DynamicIntent, BFCL-V3, and $\\mathrm\u03c4^2$-Bench demonstrate that IACM-RL significantly outperforms baselines, reducing infinite loops and stale context errors while enhancing out-of-domain generalization.",
+    "summary": "Executing long-horizon tool invocations in real-world environments is severely challenged by dynamic user intent noise. Existing methods attempt robustness via implicit history scanning or text compression, yet predominantly assume perfect instructions in simplistic scenarios. Inevitably, under fluctuating contexts, obsolete constraints dilute model attention, triggering catastrophic intent deviation and infinite API loops. To resolve this, we propose IACM-RL, a comprehensive framework for robust tool invocation. First, we introduce the DynamicIntent pipeline, synthesizing trajectories across 13 fine-grained fluctuation scenarios, paired with a five-dimensional diagnostic metric suite. Second, IACM-RL deploys a BeliefState-based Self-Generated Context Manager that proactively tracks shifting goals and isolates overwritten parameters using structural stale flags. To autonomously internalize this state-tracking capability, we optimize the policy using a hierarchical intent-driven reward alongside three auxiliary losses (action calibration, CM extraction, and state distillation). Experiments on DynamicIntent, BFCL-V3, and $\\mathrmτ^2$-Bench demonstrate that IACM-RL significantly outperforms baselines, reducing infinite loops and stale context errors while enhancing out-of-domain generalization.",
     "authors": [
       "Dingwei Zhu",
       "Jiahan Li",
@@ -1186,7 +1186,7 @@
     "authors": [
       "Qiushi Lin",
       "Chaojie Zhang",
-      "\u00cd\u00f1igo Goiri",
+      "Íñigo Goiri",
       "Aditya Akella",
       "Ricardo Bianchini",
       "Jovan Stojkovic"
@@ -1230,7 +1230,7 @@
     "title": "Network Information Enhances Unreliable News Domain Detection",
     "summary": "Content-based detection of unreliable news is increasingly difficult, as low-reliability sources mimic credible journalism and generative AI makes fabricated content harder to flag. We ask whether network structure can improve news reliability classification, taking a domain-level approach that shifts the focus from individual articles to source reliability. From URL-sharing patterns in Telegram chats, we build a statistically validated domain co-sharing network and find assortative mixing by reliability: low-reliability domains group together, as do reliable ones. Exploiting this structure, we compare Graph Neural Networks against network-unaware baselines using both content-aware features (multilingual text embeddings) and content-agnostic features (spreading dynamics). GNNs consistently outperform Multi-Layer Perceptrons on identical features, with GraphSAGE best in both settings (accuracy 0.63 with content, 0.53 without), a 13-14% relative gain over the network-unaware baseline. Network topology thus systematically improves domain reliability assessment, and remains effective even when content analysis is infeasible.",
     "authors": [
-      "Raphaela Ke\u00dfler",
+      "Raphaela Keßler",
       "Roman David Ventzke",
       "Viola Priesemann",
       "Giordano De Marzo"
@@ -1375,7 +1375,7 @@
   {
     "arxiv_id": "2608.02487v1",
     "title": "Computational and Statistical Guarantees of the \\textit{c}-Rectified flow",
-    "summary": "Recently, rectified flow has emerged as a fundamental framework for large-scale image generation, powering state-of-the-art systems such as FLUX.1 and Stable Diffusion 3. Despite its remarkable empirical success, the computational and statistical guarantees of iterative rectified flow have remained largely unexplored. We address this problem by studying \\textit{c}-rectified flow, a cost-aware class of rectified flow that projects velocity fields onto a gradient class while preserving endpoint marginals. The ordinary rectified flow can fail to recover the optimal transport coupling: in a Gaussian case study, the iteration converges to the optimal coupling if and only if the source and target covariance matrices commute. In contrast, under suitable compactness and uniform-integrability assumptions, iterative \\textit{c}-rectified flow always converges to the optimal transport coupling. We further establish quantitative one-step contraction and exponential convergence guarantees under projection-stability assumptions for both quadratic and strongly convex displacement costs. Finally, under a H\u00f6lder ball assumption, we develop new minimax-optimal score estimation rates and show that, when combined with iterative \\textit{c}-rectified flow, they yield a rate-optimal estimator of the optimal transport for the dimension \\(d \\ge 3\\) and a nearly parametric rate for \\(d=1,2\\).",
+    "summary": "Recently, rectified flow has emerged as a fundamental framework for large-scale image generation, powering state-of-the-art systems such as FLUX.1 and Stable Diffusion 3. Despite its remarkable empirical success, the computational and statistical guarantees of iterative rectified flow have remained largely unexplored. We address this problem by studying \\textit{c}-rectified flow, a cost-aware class of rectified flow that projects velocity fields onto a gradient class while preserving endpoint marginals. The ordinary rectified flow can fail to recover the optimal transport coupling: in a Gaussian case study, the iteration converges to the optimal coupling if and only if the source and target covariance matrices commute. In contrast, under suitable compactness and uniform-integrability assumptions, iterative \\textit{c}-rectified flow always converges to the optimal transport coupling. We further establish quantitative one-step contraction and exponential convergence guarantees under projection-stability assumptions for both quadratic and strongly convex displacement costs. Finally, under a Hölder ball assumption, we develop new minimax-optimal score estimation rates and show that, when combined with iterative \\textit{c}-rectified flow, they yield a rate-optimal estimator of the optimal transport for the dimension \\(d \\ge 3\\) and a nearly parametric rate for \\(d=1,2\\).",
     "authors": [
       "Leda Wang",
       "Zhehao Xu",
@@ -1624,7 +1624,7 @@
     "title": "A Simple Approximation to the Distribution of the Ridge Regression Estimator",
     "summary": "We present a simple Gaussian approximation to the finite-sample distribution of the classical ridge regression estimator. Our approximation captures the fact that, in finite samples, the ridge regression estimator trades off bias and variance to reduce estimation and prediction error. Our approximation is based on nonstandard asymptotics where $i)$ we let the estimator's regularization parameter grow proportionally to the sample size; and $ii)$ we treat the population regression coefficients as \\emph{local} to the reference vector that defines the estimator's direction of shrinkage. In contrast to other asymptotic approximations in the literature, we allow for general forms of heteroskedasticity and autocorrelation in the data generating process (at the cost of considering a low-dimensional model where the number of covariates is not allowed to grow with the sample size). We use our simple Gaussian approximation to propose two new strategies to select the regularization parameter for the ridge regression estimator. The suggested strategies select the regularization parameter to minimize either average or worst-case excess prediction risk, where risk is computed using our suggested Gaussian approximation.",
     "authors": [
-      "Jos\u00e9 Luis Montiel Olea",
+      "José Luis Montiel Olea",
       "Ryan Strong",
       "Amilcar Velez",
       "Zhuoheng Xu",
@@ -1694,8 +1694,8 @@
       "Claire Vernade",
       "Onno Eberhard",
       "Martha White",
-      "Florian D\u00f6rfler",
-      "Csaba Szepesv\u00e1ri",
+      "Florian Dörfler",
+      "Csaba Szepesvári",
       "Miroslav Krstic",
       "Michael Muehlebach"
     ],
@@ -2500,7 +2500,7 @@
     "authors": [
       "Stefano Fiorini",
       "Edoardo Coppola",
-      "Pietro Li\u00f2"
+      "Pietro Liò"
     ],
     "categories": [
       "cs.LG"
@@ -2584,9 +2584,9 @@
       "Xiao Wang",
       "Bernhard Klein",
       "Robin Janssen",
-      "Frank Br\u00fcckerhoff-Pl\u00fcckelmann",
+      "Frank Brückerhoff-Plückelmann",
       "Wolfram Pernice",
-      "Holger Fr\u00f6ning"
+      "Holger Fröning"
     ],
     "categories": [
       "cs.LG"
@@ -2725,7 +2725,7 @@
   {
     "arxiv_id": "2608.02588v1",
     "title": "The Condition-Number Barrier in Sparse Least Squares",
-    "summary": "In [AS21], Axiotis and Sviridenko conjectured that the linear dependence on the restricted condition number in sparse convex optimization cannot be improved by a polynomial-time algorithm. We establish their conjectured lower bound for least-squares objectives, conditional on the randomized exact-volume Small-Set Expansion Hypothesis in the weighted regular-graph formulation of Raghavendra, Steurer, and Tulsiani [RST12]. Concretely, for every fixed $\u03b3\\in(0,1]$, there is no randomized polynomial-time algorithm that, with probability at least $2/3$, returns a vector $x$ such that, writing $s=\\lVert x\\rVert_0$, \\[   \\lVert Ax-b\\rVert_2^2   \\leq   \\min_{\\lVert z\\rVert_0\\leq k}\\lVert Az-b\\rVert_2^2+\\varepsilon   \\quad\\text{and}\\quad   s=O\\!\\left(k\\,\u03ba_{s+k}^{\\,1-\u03b3}\\right), \\] where $\u03ba_r$ is the restricted condition number at sparsity level $r$. The result holds even on rational instances with $A$ of full column rank.   The proof was first obtained using a fully automated Gemini-based agentic system developed internally at Google. The authors have verified the proof and edited it for clarity of presentation.",
+    "summary": "In [AS21], Axiotis and Sviridenko conjectured that the linear dependence on the restricted condition number in sparse convex optimization cannot be improved by a polynomial-time algorithm. We establish their conjectured lower bound for least-squares objectives, conditional on the randomized exact-volume Small-Set Expansion Hypothesis in the weighted regular-graph formulation of Raghavendra, Steurer, and Tulsiani [RST12]. Concretely, for every fixed $γ\\in(0,1]$, there is no randomized polynomial-time algorithm that, with probability at least $2/3$, returns a vector $x$ such that, writing $s=\\lVert x\\rVert_0$, \\[   \\lVert Ax-b\\rVert_2^2   \\leq   \\min_{\\lVert z\\rVert_0\\leq k}\\lVert Az-b\\rVert_2^2+\\varepsilon   \\quad\\text{and}\\quad   s=O\\!\\left(k\\,κ_{s+k}^{\\,1-γ}\\right), \\] where $κ_r$ is the restricted condition number at sparsity level $r$. The result holds even on rational instances with $A$ of full column rank.   The proof was first obtained using a fully automated Gemini-based agentic system developed internally at Google. The authors have verified the proof and edited it for clarity of presentation.",
     "authors": [
       "Honghao Lin",
       "Vahab Mirrokni",
@@ -2841,7 +2841,7 @@
       "Aren Karapetyan",
       "Saverio Bolognani",
       "Gian Antonio Susto",
-      "Florian D\u00f6rfler"
+      "Florian Dörfler"
     ],
     "categories": [
       "cs.AI"
@@ -2993,7 +2993,7 @@
     "authors": [
       "Iaroslav Chelombitko",
       "Ekaterina Chelombitko",
-      "Mika H\u00e4m\u00e4l\u00e4inen"
+      "Mika Hämäläinen"
     ],
     "categories": [
       "cs.CL",
@@ -3055,7 +3055,7 @@
     "title": "Human-Centered Reflections on Care Robots: A Comparative Study of Caregiver Perspectives",
     "summary": "Care robots are increasingly being introduced into healthcare settings, raising important questions about their acceptance and ethical implementation. To better understand these challenges, this study investigates caregivers' perceptions of four categories of care robots: delivering supplies, helping patients into bed, monitoring vital signs, and assisting with mobility. We conducted a mixed-methods study employing a mixed-factorial design in which 298 caregivers from the United States, Mexico, and Chile evaluated all four robot categories. Quantitative measures integrated constructs from the Unified Theory of Acceptance and Use of Technology, the Cognitive-Affective-Normative model, and overall acceptance ratings. Qualitative data were collected through open-ended questions and analyzed using a literature-informed ethical framework. The results indicate that participants across countries generally evaluated care robots positively, particularly for logistical and physically demanding tasks rather than those requiring intensive interpersonal interaction. The qualitative findings provide further insight into stakeholders' views of the ethical implications of care robot use. Participants emphasized potential benefits such as reduced workload, lower risk, and greater patient autonomy, while also expressing concerns about dependability, the need for human oversight, and potential job displacement. Although many ethical concerns were shared across countries, participants differed in how they interpreted and prioritized them. These findings advance a context-sensitive and socially informed understanding of responsible design and implementation of care robots.",
     "authors": [
-      "Laura Londo\u00f1o",
+      "Laura Londoño",
       "Klaus Baumann",
       "Abhinav Valada",
       "Markus Langer"
@@ -3171,10 +3171,10 @@
     "title": "The Role of Disfluencies in Speech Translation",
     "summary": "Current speech translation systems, including SpeechLLMs, are trained on cleaned text and tend to strip disfluencies like filled pauses and false starts rather than translate them. We show this comes at a cost: disfluencies carry meaning that gets lost when speech is cleaned up. To study this systematically, we introduce Uh-Mazing, a benchmark of human-translated, disfluency-annotated Switchboard speech covering English into eight target languages. Across these languages and several architectures, we find that false starts and self-repairs, not filled pauses or discourse markers, drive most of the translation-quality loss, and that models which fail to preserve a disfluency tend to omit it rather than mistranslate it. We show inference-time decoding can mitigate this without retraining, and release the benchmark and code.",
     "authors": [
-      "Maike Z\u00fcfle",
+      "Maike Züfle",
       "Maria Teleki",
       "Fabian Retkowski",
-      "Vil\u00e9m Zouhar",
+      "Vilém Zouhar",
       "Oliver Grabner",
       "Alexander Waibel",
       "James Caverlee",
@@ -3297,7 +3297,7 @@
   {
     "arxiv_id": "2608.02538v1",
     "title": "Interaction Is Not Necessary for Order-Optimal 1-Bit Mean Estimation",
-    "summary": "This paper is concerned with one-bit mean estimation, where each independent sample is represented by a single binary message. We consider distributions on $\\mathbb{R}$ with mean in $[-\u03bb,\u03bb]$ and absolute $k$-th central moment at most $\u03c3^k$, where $k>1$ is fixed. For this class, previous work attained the optimal sample complexity for general queries using a two-stage protocol. The first stage localizes the mean. The second-stage queries are chosen after localization and refine the estimate around the decoded center. We show that this interaction can be avoided by constructing a randomized fully non-adaptive protocol that fixes all queries before observing the data and matches the optimal adaptive sample complexity. For target accuracy $\u03b5$ and confidence $1-\u03b4$, its sample complexity scales as \\[ \\log\\frac\u03bb\u03c3 + \\begin{cases} (\u03c3/\u03b5)^2\\log(1/\u03b4), & k>2,\\\\ (\u03c3/\u03b5)^2\\log(\u03c3/\u03b5)\\log(1/\u03b4), & k=2,\\\\ (\u03c3/\u03b5)^{k/(k-1)}\\log(1/\u03b4), & 1<k<2, \\end{cases} \\] up to constants depending only on $k$. In the range covered by the known lower bound, this rate is minimax optimal even among fully adaptive protocols. This gives a negative answer to the COLT 2026 open problem asking whether interaction is necessary for order-optimal one-bit mean estimation with general queries \\citep[Open Problem~1]{lau2026open}.",
+    "summary": "This paper is concerned with one-bit mean estimation, where each independent sample is represented by a single binary message. We consider distributions on $\\mathbb{R}$ with mean in $[-λ,λ]$ and absolute $k$-th central moment at most $σ^k$, where $k>1$ is fixed. For this class, previous work attained the optimal sample complexity for general queries using a two-stage protocol. The first stage localizes the mean. The second-stage queries are chosen after localization and refine the estimate around the decoded center. We show that this interaction can be avoided by constructing a randomized fully non-adaptive protocol that fixes all queries before observing the data and matches the optimal adaptive sample complexity. For target accuracy $ε$ and confidence $1-δ$, its sample complexity scales as \\[ \\log\\fracλσ + \\begin{cases} (σ/ε)^2\\log(1/δ), & k>2,\\\\ (σ/ε)^2\\log(σ/ε)\\log(1/δ), & k=2,\\\\ (σ/ε)^{k/(k-1)}\\log(1/δ), & 1<k<2, \\end{cases} \\] up to constants depending only on $k$. In the range covered by the known lower bound, this rate is minimax optimal even among fully adaptive protocols. This gives a negative answer to the COLT 2026 open problem asking whether interaction is necessary for order-optimal one-bit mean estimation with general queries \\citep[Open Problem~1]{lau2026open}.",
     "authors": [
       "Jiachen Hu",
       "Han Zhong"
@@ -3342,7 +3342,7 @@
     "summary": "Sequential decision-making in real-world applications often involves uncertainty about the environment's model. Uncertain Markov decision processes (UMDPs) represent the possible environments as a set of MDPs with shared states and actions but potentially different transition probabilities and rewards. Optimizing a single policy across all possible MDPs may sacrifice performance, while preparing an individually optimized policy for every MDP may violate operational, regulatory, or interpretability constraints on the number of policies that can be prepared and deployed. We consider settings in which model uncertainty is resolved shortly before execution, allowing the most suitable policy to be selected from a limited set prepared in advance. We introduce $k$-adaptable policy synthesis, which optimizes such a set of $k$ policies under a minimax-regret objective. We prove that the problem is NP-hard and develop KAPS, an exact nested branch-and-bound algorithm with problem-specific bounds and heuristics. KAPS jointly optimizes which MDPs share a policy and the policies themselves. Experiments across various UMDP benchmarks show that the largest reduction in regret consistently occurs when increasing from one to two policies. In the single-policy setting, KAPS is competitive with existing methods in solution quality and proves optimality substantially more often.",
     "authors": [
       "Sterre Lutz",
-      "Dani\u00ebl Vos",
+      "Daniël Vos",
       "Matthijs T. J. Spaan",
       "Anna Lukina"
     ],
@@ -3616,7 +3616,7 @@
   {
     "arxiv_id": "2608.02375v1",
     "title": "A Spectral Filtering Approach to Regret Analysis of Distributed Online Control for Linear Dynamical Systems",
-    "summary": "This paper studies the distributed online control problem over a network of linear time-invariant (LTI) systems in the presence of adversarial disturbances and time-varying convex costs. The network cost is characterized by the summation of local cost functions, where each local function is sequentially revealed only to the corresponding agent. The goal of each agent is to generate a control sequence, using only local observations and neighbor communication, that competes with the best {\\it centralized} linear policy in hindsight. We extend the recently proposed Online Spectral Control framework from the centralized setting to the distributed setting. In particular, each agent applies a spectral controller obtained by convolving past disturbances with the leading eigenvectors of a Hankel matrix, while the controller parameters are updated through a distributed online gradient descent step over the local surrogate costs. We formulate this problem this problem as a {\\it regret} minimization problem based on the spectral parameterization, and under standard assumptions, we establish a sublinear regret bound of $O(\\frac{\\sqrt{T}\\text{poly}(\\log T)}{\u03b3^3})$, where $T$ is the time horizon and $\u03b3$ denotes the stability margin. The resulting bound also captures the dependence on the network size and connectivity.",
+    "summary": "This paper studies the distributed online control problem over a network of linear time-invariant (LTI) systems in the presence of adversarial disturbances and time-varying convex costs. The network cost is characterized by the summation of local cost functions, where each local function is sequentially revealed only to the corresponding agent. The goal of each agent is to generate a control sequence, using only local observations and neighbor communication, that competes with the best {\\it centralized} linear policy in hindsight. We extend the recently proposed Online Spectral Control framework from the centralized setting to the distributed setting. In particular, each agent applies a spectral controller obtained by convolving past disturbances with the leading eigenvectors of a Hankel matrix, while the controller parameters are updated through a distributed online gradient descent step over the local surrogate costs. We formulate this problem this problem as a {\\it regret} minimization problem based on the spectral parameterization, and under standard assumptions, we establish a sublinear regret bound of $O(\\frac{\\sqrt{T}\\text{poly}(\\log T)}{γ^3})$, where $T$ is the time horizon and $γ$ denotes the stability margin. The resulting bound also captures the dependence on the network size and connectivity.",
     "authors": [
       "Ting-Jui Chang"
     ],
@@ -3927,7 +3927,7 @@
   {
     "arxiv_id": "2608.02176v1",
     "title": "Randomized Algorithms for Learning Partitions with Near Optimal Query Complexity in Constant Rounds",
-    "summary": "We study the round complexity of learning a hidden partition $\\mathcal{P}$ of an $n$-element universe using PAIR queries: PAIR($x,y$) tells us whether $x$ and $y$ belong to the same part of the partition or not. While it is easy to learn using $n|\\mathcal{P}|$ queries using a basic algorithm and this query complexity is optimal, this basic algorithm is highly sequential. Black, Mazumdar, and Saha [COLT 2025] recently gave tight deterministic round/query tradeoffs when the number of parts of $\\mathcal{P}$ is known. In particular they prove $\u0398(\\log\\log n)$ rounds are sufficient and necessary to limit the number of queries to $n|\\mathcal{P}|$. They leave proving a randomized lower bound as an open direction.   We show that randomization dramatically changes the picture. When the number of parts $k = |\\mathcal{P}|$ is known, we give a simple 3-round randomized algorithm using $O(nk\\log n)$ queries with high probability, and prove that 2 rounds require $\u03a9(n^{4/3}k^{2/3})$ queries -- the same as deterministic algorithms. We also study a more general setting where the number of parts is unknown. In this case, we give a 4-round randomized algorithm using $O(n|\\mathcal P|\\log^2 n)$ queries with high probability, and prove that 3-rounds cannot achieve near-optimal query complexity. Furthermore, we show an even bigger separation in this regime between randomized and deterministic algorithms: for the latter, $\u0398(\\log n/\\log\\log n)$ rounds are necessary and sufficient to obtain near-optimal query complexity.",
+    "summary": "We study the round complexity of learning a hidden partition $\\mathcal{P}$ of an $n$-element universe using PAIR queries: PAIR($x,y$) tells us whether $x$ and $y$ belong to the same part of the partition or not. While it is easy to learn using $n|\\mathcal{P}|$ queries using a basic algorithm and this query complexity is optimal, this basic algorithm is highly sequential. Black, Mazumdar, and Saha [COLT 2025] recently gave tight deterministic round/query tradeoffs when the number of parts of $\\mathcal{P}$ is known. In particular they prove $Θ(\\log\\log n)$ rounds are sufficient and necessary to limit the number of queries to $n|\\mathcal{P}|$. They leave proving a randomized lower bound as an open direction.   We show that randomization dramatically changes the picture. When the number of parts $k = |\\mathcal{P}|$ is known, we give a simple 3-round randomized algorithm using $O(nk\\log n)$ queries with high probability, and prove that 2 rounds require $Ω(n^{4/3}k^{2/3})$ queries -- the same as deterministic algorithms. We also study a more general setting where the number of parts is unknown. In this case, we give a 4-round randomized algorithm using $O(n|\\mathcal P|\\log^2 n)$ queries with high probability, and prove that 3-rounds cannot achieve near-optimal query complexity. Furthermore, we show an even bigger separation in this regime between randomized and deterministic algorithms: for the latter, $Θ(\\log n/\\log\\log n)$ rounds are necessary and sufficient to obtain near-optimal query complexity.",
     "authors": [
       "Deeparnab Chakrabarty",
       "Aditi Dudeja",
@@ -4097,7 +4097,7 @@
   {
     "arxiv_id": "2608.02177v1",
     "title": "GSRAIN: Physically Calibrated High-/Low-Frequency Rainfall Synthesis for 3D Gaussian Driving Scenes",
-    "summary": "Existing rainfall simulation methods for autonomous driving remain limited in physical controllability and multi-view consistency. This paper presents GSRAIN, a high-/low-frequency rainfall synthesis method for 3D Gaussian Splatting (3DGS) driving scenes. GSRAIN constructs a high-frequency raindrop model from measured rainfall data and generates low-frequency rainy appearance using a geometry-aware single-step diffusion model. The two effects are then fused in a unified 3DGS scene, enabling rainfall-intensity control over the range of 0--13~mm/h. The proposed method achieves a Fr\u00e9chet Inception Distance (FID) of 149.09, outperforming CycleGAN-Turbo (155.71) and WeatherEdit (157.94). Object-detection and closed-loop driving experiments further show that the generated scenes expose scene-dependent performance changes of the evaluated algorithms under controllable rainfall. These results indicate that GSRAIN provides an effective approach for constructing physically controllable, repeatable, and closed-loop-compatible rainy-weather test scenes for autonomous driving.",
+    "summary": "Existing rainfall simulation methods for autonomous driving remain limited in physical controllability and multi-view consistency. This paper presents GSRAIN, a high-/low-frequency rainfall synthesis method for 3D Gaussian Splatting (3DGS) driving scenes. GSRAIN constructs a high-frequency raindrop model from measured rainfall data and generates low-frequency rainy appearance using a geometry-aware single-step diffusion model. The two effects are then fused in a unified 3DGS scene, enabling rainfall-intensity control over the range of 0--13~mm/h. The proposed method achieves a Fréchet Inception Distance (FID) of 149.09, outperforming CycleGAN-Turbo (155.71) and WeatherEdit (157.94). Object-detection and closed-loop driving experiments further show that the generated scenes expose scene-dependent performance changes of the evaluated algorithms under controllable rainfall. These results indicate that GSRAIN provides an effective approach for constructing physically controllable, repeatable, and closed-loop-compatible rainy-weather test scenes for autonomous driving.",
     "authors": [
       "Fanyu Wang",
       "Longgao Zhang",
@@ -4116,7 +4116,7 @@
   {
     "arxiv_id": "2608.02533v1",
     "title": "Optimal Unambiguous DNFs and Alon-Saks-Seymour",
-    "summary": "We construct unambiguous DNFs having width $O(n)$ but $0$-certificate complexity $\u03a9(n^2)$. By utilizing the special structure of these DNFs, we prove a lifting theorem with a constant-sized gadget that lifts the DNF to a communication problem, while losslessly translating the separation in certificate complexity to a separation in communication complexity. This leads to an optimal refutation of the Alon-Saks-Seymour conjecture, as well as an optimal communication lower bound for the Clique versus Independent Set problem, improving the previous results of Balodis, Ben-David, G\u00f6\u00f6s, Jain and Kothari (FOCS 2021, SICOMP 2023) by several doubly logarithmic factors. As further applications of our construction to query complexity and learning theory, we exhibit: (a) a family of Boolean functions that has an optimal quartic separation between certificate complexity and approximate degree, and (b) a sample compression lower bound of $\u03a9(\\sqrt{\\log c})$ for multiclass concept classes over $c$ labels.",
+    "summary": "We construct unambiguous DNFs having width $O(n)$ but $0$-certificate complexity $Ω(n^2)$. By utilizing the special structure of these DNFs, we prove a lifting theorem with a constant-sized gadget that lifts the DNF to a communication problem, while losslessly translating the separation in certificate complexity to a separation in communication complexity. This leads to an optimal refutation of the Alon-Saks-Seymour conjecture, as well as an optimal communication lower bound for the Clique versus Independent Set problem, improving the previous results of Balodis, Ben-David, Göös, Jain and Kothari (FOCS 2021, SICOMP 2023) by several doubly logarithmic factors. As further applications of our construction to query complexity and learning theory, we exhibit: (a) a family of Boolean functions that has an optimal quartic separation between certificate complexity and approximate degree, and (b) a sample compression lower bound of $Ω(\\sqrt{\\log c})$ for multiclass concept classes over $c$ labels.",
     "authors": [
       "Chirag Pabbaraju"
     ],
@@ -4135,7 +4135,7 @@
   {
     "arxiv_id": "2608.02507v1",
     "title": "Beyond Modern Asymptotics for Log-Likelihood Ratios in Logistic Regression",
-    "summary": "We characterize the finite sample behavior of the log-likelihood ratio statistic in binary logistic regression, uniformly over both the design and the target parameter. For $n\\geq d\\geq 3$, we determine, up to universal constants, its worst case $(1-\u03b4)$ quantile over all fixed collections of design vectors and all target parameters: \\[ d\\log\\left(\\frac{e n}{d}\\right)+\\log\\left(\\frac{1}\u03b4\\right). \\] This is a nonasymptotic analogue of the Wilks $\u03c7^2_d$ phenomenon and requires no regularity assumptions on the design. The low dimensional cases exhibit unusual behavior. The worst case quantile in dimension $d=2$ is sharply of order \\[ \\log\\log\\log n+\\log\\left(\\frac{1}\u03b4\\right). \\] The worst case quantile in dimension $d=1$ is of order $\\log(1/\u03b4)$, with no dependence on $n$. Finally, i.i.d. Gaussian design vectors recover the classical Wilks scale. In the regime $n\\gtrsim d+\\log(1/\u03b4)$, we prove the sharp bound \\[ d+\\log\\left(\\frac{1}\u03b4\\right). \\] Unlike existing asymptotic results, our bounds are uniform over the target parameter, which may depend on $n$, $d$, and $\u03b4$.",
+    "summary": "We characterize the finite sample behavior of the log-likelihood ratio statistic in binary logistic regression, uniformly over both the design and the target parameter. For $n\\geq d\\geq 3$, we determine, up to universal constants, its worst case $(1-δ)$ quantile over all fixed collections of design vectors and all target parameters: \\[ d\\log\\left(\\frac{e n}{d}\\right)+\\log\\left(\\frac{1}δ\\right). \\] This is a nonasymptotic analogue of the Wilks $χ^2_d$ phenomenon and requires no regularity assumptions on the design. The low dimensional cases exhibit unusual behavior. The worst case quantile in dimension $d=2$ is sharply of order \\[ \\log\\log\\log n+\\log\\left(\\frac{1}δ\\right). \\] The worst case quantile in dimension $d=1$ is of order $\\log(1/δ)$, with no dependence on $n$. Finally, i.i.d. Gaussian design vectors recover the classical Wilks scale. In the regime $n\\gtrsim d+\\log(1/δ)$, we prove the sharp bound \\[ d+\\log\\left(\\frac{1}δ\\right). \\] Unlike existing asymptotic results, our bounds are uniform over the target parameter, which may depend on $n$, $d$, and $δ$.",
     "authors": [
       "Hugo Chardon",
       "Reese Pathak",
@@ -4173,35 +4173,6 @@
     "pdf_url": "https://arxiv.org/pdf/2608.02144v1.pdf",
     "date": "2026-08-04",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "model_id": "Mubarak127/SALAMA_NEWMEDTT",
-    "author": "unknown",
-    "title": "Mubarak127/SALAMA_NEWMEDTT",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "tensorboard",
-      "safetensors",
-      "whisper",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "base_model:Mubarak127/waxal-whisper-large-v3-sna_asr_new-app",
-      "base_model:finetune:Mubarak127/waxal-whisper-large-v3-sna_asr_new-app",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-08-03T22:48:18.000Z",
-    "last_modified": "2026-08-04T06:28:49.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Mubarak127/SALAMA_NEWMEDTT",
-    "date": "2026-08-04",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.5
   },
   {
@@ -4385,11 +4356,11 @@
     "summary": "Longitudinal multiparametric MRI is central to follow-up imaging in oncology, yet real-world clinical data are characterised by missing sequences, heterogeneous acquisition protocols, and varying spatial resolutions across time points. We propose a patient-specific conditional implicit neural representation (INR) that models multimodal longitudinal MRI as a continuous function of world coordinates, time, and modality conditioning. The model is trained with stochastic modality dropout to handle incomplete data, and its continuous coordinate-space formulation enables both spatial and temporal interpolation without resampling to a fixed voxel grid. A self-consistency-based confidence estimator is derived from cross-modal reconstruction performance at inference time. We evaluate the framework on longitudinal MRI from paediatric brain tumour patients, demonstrating statistically significant improvements over linear interpolation for T1CE and FLAIR (p < 0.05), with mean MS-SSIM of 0.95 $\\pm$ 0.02 for T1CE. Predicted confidence correlates strongly with true reconstruction quality (Pearson r up to 0.996), suggesting reliable deployment potential in heterogeneous clinical settings.",
     "authors": [
       "Sina Wendrich",
-      "Lukas F\u00f6rner",
+      "Lukas Förner",
       "Zoe Reinke",
       "Kartikay Tehlan",
       "Ansgar Berlis",
-      "Michael Fr\u00fchwald",
+      "Michael Frühwald",
       "Matthias Wagner",
       "Thomas Wendler"
     ],
@@ -4495,130 +4466,5 @@
     "date": "2026-08-04",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "sulaimank/w2vbert-shona-pseudo-distill",
-    "author": "unknown",
-    "title": "sulaimank/w2vbert-shona-pseudo-distill",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2-bert",
-      "automatic-speech-recognition",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-08-03T22:43:22.000Z",
-    "last_modified": "2026-08-04T06:30:59.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sulaimank/w2vbert-shona-pseudo-distill",
-    "date": "2026-08-04",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF",
-    "author": "unknown",
-    "title": "LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF",
-    "downloads": 287745,
-    "likes": 347,
-    "tags": [
-      "hermes",
-      "gguf",
-      "uncensored",
-      "qwen3.6",
-      "moe",
-      "vision",
-      "multimodal",
-      "genesis",
-      "agentic",
-      "image-text-to-text",
-      "conversational",
-      "en",
-      "zh",
-      "multilingual",
-      "dataset:NousResearch/hermes-function-calling-v1",
-      "base_model:HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "base_model:quantized:HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix"
-    ],
-    "pipeline_tag": "image-text-to-text",
-    "library": "hermes",
-    "created_at": "2026-07-13T06:40:13.000Z",
-    "last_modified": "2026-08-04T06:30:53.000Z",
-    "days_since_creation": 21,
-    "url": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V6-GGUF",
-    "date": "2026-08-04",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "6block/DeepSeek-V4-Flash-0731-GGUF",
-    "author": "unknown",
-    "title": "6block/DeepSeek-V4-Flash-0731-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "llama.cpp",
-      "deepseek",
-      "moe",
-      "quantized",
-      "text-generation",
-      "en",
-      "zh",
-      "base_model:deepseek-ai/DeepSeek-V4-Flash-0731",
-      "base_model:quantized:deepseek-ai/DeepSeek-V4-Flash-0731",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-08-04T02:50:40.000Z",
-    "last_modified": "2026-08-04T06:29:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/6block/DeepSeek-V4-Flash-0731-GGUF",
-    "date": "2026-08-04",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Mieaz/gpt15m-chat",
-    "author": "unknown",
-    "title": "Mieaz/gpt15m-chat",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gpt2",
-      "tiny",
-      "text-generation",
-      "from-scratch",
-      "en",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-08-04T06:20:13.000Z",
-    "last_modified": "2026-08-04T06:27:39.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Mieaz/gpt15m-chat",
-    "date": "2026-08-04",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
