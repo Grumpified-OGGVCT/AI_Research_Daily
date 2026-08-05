@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-05T22:17:01.635167",
+  "date": "2026-08-05T23:54:42.728334",
   "patterns": {
     "multimodal_research": [
       {
@@ -251,6 +251,10 @@
       {
         "title": "GVCCTurbo: Rate-Compute Quality Scheduling for Codebook Driven Generative Compression",
         "url": "https://arxiv.org/abs/2608.03517v1"
+      },
+      {
+        "title": "DmitryDB/Gemma-3-12B-IT-QAT-Heretic-MOE-v1",
+        "url": "https://huggingface.co/DmitryDB/Gemma-3-12B-IT-QAT-Heretic-MOE-v1"
       }
     ],
     "language_models": [
@@ -685,14 +689,6 @@
       {
         "title": "MinerU.Chem: A High-Precision System for Optical Chemical Structure and Reaction Recognition",
         "url": "https://arxiv.org/abs/2608.03525v1"
-      },
-      {
-        "title": "keystats/w2v-bert-2.0-lingala-continued-ft",
-        "url": "https://huggingface.co/keystats/w2v-bert-2.0-lingala-continued-ft"
-      },
-      {
-        "title": "sulaimank/w2vbert-shona-sd2",
-        "url": "https://huggingface.co/sulaimank/w2vbert-shona-sd2"
       }
     ],
     "vision_systems": [
@@ -931,6 +927,10 @@
       {
         "title": "Towards Reliable and Reproducible Fetal Brain Biometry: A Deep Learning Approach Using MRI",
         "url": "https://arxiv.org/abs/2608.03724v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "MultiCompose: Multi-Concept Personalized Composition with Per-Subject Attribute Binding",
@@ -1701,7 +1701,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "35 independent papers",
+      "observation": "36 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1713,13 +1713,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "110 independent papers",
+      "observation": "108 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
