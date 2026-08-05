@@ -50,7 +50,7 @@
       "David Ming Segura",
       "Jeremy Goumaz",
       "Joshua W. Sin",
-      "Bojana Rankovi\u0107",
+      "Bojana Ranković",
       "Philippe Schwaller"
     ],
     "categories": [
@@ -383,9 +383,9 @@
     "title": "Enhancing Tabular Learners with Context-Aware Semantic Embeddings",
     "summary": "While modern tabular learners excel at capturing statistical patterns, they frequently operate in a semantic vacuum, treating textual features as discrete symbols, ignoring the rich semantics inherent in feature names or cell entries. We propose CASE (Context-Aware Semantic Embeddings), a novel framework that bridges the gap between the semantic understanding of Large Language Models (LLMs) and the statistical capabilities of tabular learners. Unlike existing methods that embed rows in isolation, CASE utilizes a contextualization strategy: we pre-fill the KV cache of a custom-trained Gemma 3-based Tabular Language Model with a representative sample of rows to establish a persistent anchor of the dataset's semantics. This ensures that generated row embeddings are dynamically contextualized, resolving semantic ambiguities and anchoring representations in domain-specific context. Our experiments across several benchmarks (CARTE, TextTab, and TabArena) demonstrate that CASE substantially improves the performance of tabular learners on semantically rich datasets, particularly in low-data regimes.",
     "authors": [
-      "G\u00fcnther Schindler",
+      "Günther Schindler",
       "Maximilian Schambach",
-      "Johannes H\u00f6hne"
+      "Johannes Höhne"
     ],
     "categories": [
       "cs.AI",
@@ -454,7 +454,7 @@
     "summary": "As autonomous agents powered by foundation models are increasingly integrated into social and economic systems, understanding the principles governing their collective behavior is essential for ensuring safety and cooperation. Classical game theory, the dominant framework for modeling rational interaction, is built upon the assumption of `decoupled agency,' where agents treat their own decision-making as independent of the environment and other actors. Modern AI agents, however, jointly predict their own future actions alongside external observations. Here, we report a striking finding: when interacting in stylized social dilemmas, foundation model agents engaging in optimal planning consistently converge to stable cooperation, directly contradicting classical game-theoretic predictions of mutual defection. To understand this phenomenon, we introduce the `embedded Bayesian agent,' a theoretical model for foundation model agents. By shifting from decoupled to embedded agency, these agents model themselves as part of the universe they inhabit, maintaining epistemic uncertainty about their own decision-making algorithms. We show that by inferring whether others are behaviorally similar, an embedded agent treats its own deliberation during planning as evidence: a decision to cooperate predicts a similar decision by a similar partner. We formalize this mechanism of similarity inference through the `embedded equilibrium,' a novel solution concept replacing the Nash equilibrium to provide a foundational game theory for the social behavior of modern AI agents.",
     "authors": [
       "Alexander Meulemans",
-      "Maciej Wo\u0142czyk",
+      "Maciej Wołczyk",
       "Marissa A. Weis",
       "Rajai Nasser",
       "Roberta Rocca",
@@ -465,8 +465,8 @@
       "Marcus Hutter",
       "James Manyika",
       "Rif A. Saurous",
-      "Jo\u00e3o Sacramento",
-      "Blaise Ag\u00fcera y Arcas"
+      "João Sacramento",
+      "Blaise Agüera y Arcas"
     ],
     "categories": [
       "cs.AI"
@@ -931,9 +931,9 @@
     "title": "M-GATE: Multilingual Grammar, Accuracy in Translation, and Efficiency Benchmark for Large Language Models",
     "summary": "Multilingual language models are deployed across a hundred or more languages, yet most benchmarks test whether a model can perform a task _in_ a language rather than whether it commands the language itself, conflating fluency with proficiency. We introduce M-GATE (Multilingual Grammar, Accuracy in Translation, and Efficiency), a benchmark of linguistic proficiency spanning 30 typologically diverse languages from high- to low-resource. M-GATE comprises three tasks: grammatical error detection on linguist-crafted, adversarially selected sentences that turn on hard, language-specific phenomena; round-trip translation of shared English sources across 29 target languages, scored by a three-provider LLM judge panel validated against professional annotators; and a supplementary tokenizer-efficiency measure. We evaluate over 50 models in more than 80 configurations. Fluency and proficiency come apart sharply: models that translate competently sit near chance on the adversarial grammar items, the best reaching a Matthews correlation coefficient (MCC) of only 0.36, and their errors lean systematically toward under-flagging, accepting ungrammatical text rather than raising false alarms. Translation quality closely tracks a language's share of pretraining data (r = 0.86 against log Common Crawl share), producing a steep low-resource penalty that is nonetheless narrowing with successive model releases. Enabling reasoning reliably improves translation, while its effect on error detection is smaller and for some models negative, so the best configuration is task-dependent. To resist contamination, test items are kept private behind a continuously updated public leaderboard, with illustrative examples released (https://m-gate.ai).",
     "authors": [
-      "Tom\u00e1\u0161 Burkert",
-      "Angelika Peljak-\u0141api\u0144ska",
-      "David Zelen\u00fd"
+      "Tomáš Burkert",
+      "Angelika Peljak-Łapińska",
+      "David Zelený"
     ],
     "categories": [
       "cs.CL",
@@ -996,10 +996,10 @@
     "title": "VetScore: Risk-Weighted Fact Verification for Veterinary Long-Form QA with Citations",
     "summary": "Citation excerpts can be used to increase the reliability of generated outputs and their faithfulness to cited sources, which is especially important in high-stakes domains such as human and veterinary medicine. However, this does not guarantee that generated claims are faithful to the provided excerpts. We present VetScore, a multi-step evaluation method for veterinary long-form question answering, designed to assess how well are generated claims supported by the provided excerpts, weighing this information by each claim's harm potential. VetScore first segments the output and decomposes it into individual claims, then scores each claim with respect to its harm potential and evaluates its faithfulness to source excerpts, and finally calculates the overall risk-adjusted score. We collect an expert-annotated meta-evaluation dataset, evaluate our approach with a range of judge models, and show that it achieves high correlations with veterinary experts even with small judge models, while offering explainability across multiple dimensions.",
     "authors": [
-      "Ivan Kart\u00e1\u010d",
+      "Ivan Kartáč",
       "Jan Tovarys",
       "Mateusz Lango",
-      "Ond\u0159ej Du\u0161ek"
+      "Ondřej Dušek"
     ],
     "categories": [
       "cs.CL"
@@ -1035,7 +1035,7 @@
   {
     "arxiv_id": "2608.03569v1",
     "title": "Adversarial Fast-Moving Real-World Domains as Test Beds for Benchmarking AI Scientist Capabilities",
-    "summary": "Benchmarking the ability of AI scientists to generate novel ideas is notoriously difficult. Existing benchmarks in this field have made progress in evaluating scientific reasoning and research replication, but often rely on synthetic tasks or retrospective targets, which may be confounded by prior exposure. We hypothesize that complex, adversarial, fast-moving real-world domains where expert practitioners independently generate observable outputs can provide a practical solution to fill this gap and evaluate the capabilities needed for AI scientists, including reasoning, novelty, and hypothesis formulation. We instantiate this framework in two structurally different domains, Formula 1 (F1), where models ideate around car design concepts for the 2026 season, and real pre-season innovations provide a ground truth, and Magic: The Gathering (MTG), where models propose decks from a recently updated card pool and are evaluated against 19 Pro Tour (PT) decklists. Across both domains, models produce plausible outputs, but few align with real-world expert solutions. In F1, the best model, GPT-5.2 matched 10 of 40 real innovations with 166 ideas proposed across runs. In MTG, the best deck from Gemini 3 Flash recovered 5 of 7 new-set cards from the third-place PT deck, and across all 108 decks, the cards models selected most often were also the cards most widely adopted by PT decks (Spearman $\u03c1= 0.74$, $p = 0.0003$). These results suggest that a key capability gap for AI scientists is not idea generation, but filtering, prioritization, and coherent novelty.",
+    "summary": "Benchmarking the ability of AI scientists to generate novel ideas is notoriously difficult. Existing benchmarks in this field have made progress in evaluating scientific reasoning and research replication, but often rely on synthetic tasks or retrospective targets, which may be confounded by prior exposure. We hypothesize that complex, adversarial, fast-moving real-world domains where expert practitioners independently generate observable outputs can provide a practical solution to fill this gap and evaluate the capabilities needed for AI scientists, including reasoning, novelty, and hypothesis formulation. We instantiate this framework in two structurally different domains, Formula 1 (F1), where models ideate around car design concepts for the 2026 season, and real pre-season innovations provide a ground truth, and Magic: The Gathering (MTG), where models propose decks from a recently updated card pool and are evaluated against 19 Pro Tour (PT) decklists. Across both domains, models produce plausible outputs, but few align with real-world expert solutions. In F1, the best model, GPT-5.2 matched 10 of 40 real innovations with 166 ideas proposed across runs. In MTG, the best deck from Gemini 3 Flash recovered 5 of 7 new-set cards from the third-place PT deck, and across all 108 decks, the cards models selected most often were also the cards most widely adopted by PT decks (Spearman $ρ= 0.74$, $p = 0.0003$). These results suggest that a key capability gap for AI scientists is not idea generation, but filtering, prioritization, and coherent novelty.",
     "authors": [
       "William Bolton",
       "Philip Torr"
@@ -1394,7 +1394,7 @@
     "summary": "The automatic structural analysis of legal texts is a cornerstone of legal technology, yet the extraction of their logical components remains a significant challenge. In this paper, we introduce the task of identifying and segmenting legal conditions (Tatbestand) and legal consequences (Rechtsfolge) within German statutory texts. To support this task, we present ANNOTARES (Annotations of Tatbestand-Rechtsfolge Sequences), a novel dataset comprising German law texts with span-level annotations. Spanning three distinct legal codes, the dataset is designed to evaluate both domain-specific performance and cross-statute generalizability. We benchmark diverse architectural approaches: a rule-based baseline, CRFs, BiLSTMs, BiLSTM-CRF, and modern Transformer-based models, including BERT variants and LLM-based methods. Our results demonstrate that BERT and LLM-based models achieve superior performance in capturing the complex syntactic structures of legal language. We release our dataset to facilitate further research in automated legal reasoning.",
     "authors": [
       "Ronja Schwarz",
-      "Jannik Str\u00f6tgen"
+      "Jannik Strötgen"
     ],
     "categories": [
       "cs.CL"
@@ -1412,13 +1412,13 @@
     "summary": "Small language models are often the only option for deployment under tight latency, cost, and on-premises constraints, but they are rarely trained from scratch: a compressed model is usually recovered through knowledge distillation (KD). This recovery step largely decides the final quality, yet it is expensive. We present a practitioner's study of how to make distillation training efficient, organised around two systems contributions. First, we show that offline KD (caching the teacher's top-$K$ logits once and training the student against the cache) matches online distillation at near-identical training loss while removing the teacher from memory, running about 29\\% faster per iteration, and reaching up to 41\\% higher throughput on a single H200 GPU. Second, we introduce a \\emph{fused, chunked KL loss} that never materialises the full vocabulary-sized logit tensor, making peak memory linear in the sequence length. This removes the memory spike that otherwise caps context length and lets us train at four times the context (32{,}768 tokens) on a single GPU. A separate output-head-only toy benchmark isolates the loss kernel and confirms its memory and iteration-rate scaling from 4K to 256K tokens. Together these make large-scale healing and hundreds of ablations affordable. We also report supporting ablations on loss design and sequence packing. We release our chunked-loss implementation: https://github.com/CompactifAI/Full-Chunked-KL-Loss.",
     "authors": [
       "Bakbergen Ryskulov",
-      "Iker Garc\u00eda-Ferrero",
+      "Iker García-Ferrero",
       "David Montero",
       "David Jansen",
       "Ali Hashemi",
       "Jezabel R. Garcia",
       "Antonio Tiene",
-      "Rom\u00e1n Or\u00fas"
+      "Román Orús"
     ],
     "categories": [
       "cs.CL",
@@ -1506,7 +1506,7 @@
       "Alexander M. Fichtl",
       "Lukas Ellinger",
       "Josefin Kelber",
-      "Kry\u0161tof Ol\u00edk",
+      "Kryštof Olík",
       "Georg Groh"
     ],
     "categories": [
@@ -1525,7 +1525,7 @@
     "title": "When Attention Goes Blind: Numerical Failure in ALiBi Positional Encodings",
     "summary": "We identify a previously overlooked failure mode of ALiBi positional encoding: its linear bias scaling underflows floating-point precision, which zeroes out a large fraction of attention weights and renders the affected attention heads partially blind. We analyze this failure mode, characterize its impact, and examine four mitigation strategies. We further demonstrate its occurrence in state-of-the-art pretrained models based on ALiBi. Comprehensive pretraining experiments with 148M-parameter decoder models help us to disentangle its effects from out-of-context degradation. We find that ALiBi's failure mode can substantially impair token retrieval while having only a minor effect on standard decoder benchmarks. We propose four training-time mitigation strategies and evaluate them individually and in combinations, finding that log-scaled distances yield the most consistent improvements in passkey retrieval. Despite this problem, default ALiBi slopes remain a surprisingly strong baseline, particularly for needle-in-a-haystack retrieval. Based on these findings we provide concrete recommendations on how to train models with ALiBi.",
     "authors": [
-      "Christopher Schr\u00f6der",
+      "Christopher Schröder",
       "Lukas Gienapp",
       "Ferdinand Schlatt",
       "Martin Potthast",
@@ -1949,9 +1949,9 @@
   {
     "arxiv_id": "2608.03917v1",
     "title": "Implementing Causal Perception: Competing SCMs and Situated Fairness",
-    "summary": "Causal perception occurs when agents with competing Structural Causal Models (SCMs) of the same system infer different probability distributions, including the hypothetical distributions implied by each agent's SCM under the same set of interventions. It shapes how agents reason about the system and how they perceive its fairness. Causal perception is a promising probabilistic framework, but it has remained purely theoretical. This work provides the first implementation of the causal perception framework of \u00c1lvarez and Ruggieri (2025). We operationalize structural (agents disagree on the causal graph) and parametrical (agents agree on the causal graph but disagree on its weights) causal perception. We design algorithms for computing interventional and counterfactual distributions and propose suitable distance measures to quantify the disagreement. Using the German Credit dataset, we illustrate how causal perception affects accuracy and fairness in a multi-expert decision setting. We show that the perception verdict is sensitive to the choice of distance metric and threshold. We also show that causal perception changes fairness assessments and threshold-based decisions. Bias proves situated with respect to the agent's SCM, demonstrating that competing worldviews in fairness problems cannot be ignored.",
+    "summary": "Causal perception occurs when agents with competing Structural Causal Models (SCMs) of the same system infer different probability distributions, including the hypothetical distributions implied by each agent's SCM under the same set of interventions. It shapes how agents reason about the system and how they perceive its fairness. Causal perception is a promising probabilistic framework, but it has remained purely theoretical. This work provides the first implementation of the causal perception framework of Álvarez and Ruggieri (2025). We operationalize structural (agents disagree on the causal graph) and parametrical (agents agree on the causal graph but disagree on its weights) causal perception. We design algorithms for computing interventional and counterfactual distributions and propose suitable distance measures to quantify the disagreement. Using the German Credit dataset, we illustrate how causal perception affects accuracy and fairness in a multi-expert decision setting. We show that the perception verdict is sensitive to the choice of distance metric and threshold. We also show that causal perception changes fairness assessments and threshold-based decisions. Bias proves situated with respect to the agent's SCM, demonstrating that competing worldviews in fairness problems cannot be ignored.",
     "authors": [
-      "Jose M. \u00c1lvarez"
+      "Jose M. Álvarez"
     ],
     "categories": [
       "cs.AI"
@@ -2014,7 +2014,7 @@
       "Chao Peng",
       "Ruida Hu",
       "Ajitha Rajan",
-      "Tegawend\u00e9 F Bissyand\u00e9",
+      "Tegawendé F Bissyandé",
       "Jacques Klein",
       "Cuiyun Gao"
     ],
@@ -2185,7 +2185,7 @@
     "authors": [
       "Christophe D. Hounwanou",
       "John Emeka Eze",
-      "Ya\u00e9 Ulrich Gaba"
+      "Yaé Ulrich Gaba"
     ],
     "categories": [
       "cs.AI",
@@ -2450,7 +2450,7 @@
   {
     "arxiv_id": "2608.03962v1",
     "title": "Separating quantum circuits from classical LLMs",
-    "summary": "Modern large language models - transformers and diffusion language models - are built around two canonical algorithmic tasks: prediction and generation. We prove unconditional separations between low-depth quantum computation and the corresponding bounded-resource classical language-model architectures in both regimes. Concretely, we exhibit the following:   1. Distributional separation. We give a distribution that is sampleable by $\\textsf{QNC}^0$ circuits (i.e., a family of constant-depth quantum circuits consisting of bounded fan-in gates) that no constant-round diffusion language model ($\\textsf{DLM}$) with shallow scheduling and denoising can sample within constant distance, even when allowed sublinear chain-of-thought and output-token revision/remasking events, the very features modern $\\textsf{DLM}$s rely on.   2. Functional separation. We exhibit a function computable in $\\land \\circ \\textsf{QNC}^0[\\log\\log n]$ (i.e., a family of O$(\\log\\log n)$-depth $\\textsf{QNC}^0$ circuits, where $n$ is the input length, followed by a single classical $\\mathsf{AND}$ gate) such that any constant-depth decoder-only transformer computing the function must be large: it would have to have width $n^{\u03a9(1)}$.   Together, our work initiates the study of quantum advantage in the era of large language models.",
+    "summary": "Modern large language models - transformers and diffusion language models - are built around two canonical algorithmic tasks: prediction and generation. We prove unconditional separations between low-depth quantum computation and the corresponding bounded-resource classical language-model architectures in both regimes. Concretely, we exhibit the following:   1. Distributional separation. We give a distribution that is sampleable by $\\textsf{QNC}^0$ circuits (i.e., a family of constant-depth quantum circuits consisting of bounded fan-in gates) that no constant-round diffusion language model ($\\textsf{DLM}$) with shallow scheduling and denoising can sample within constant distance, even when allowed sublinear chain-of-thought and output-token revision/remasking events, the very features modern $\\textsf{DLM}$s rely on.   2. Functional separation. We exhibit a function computable in $\\land \\circ \\textsf{QNC}^0[\\log\\log n]$ (i.e., a family of O$(\\log\\log n)$-depth $\\textsf{QNC}^0$ circuits, where $n$ is the input length, followed by a single classical $\\mathsf{AND}$ gate) such that any constant-depth decoder-only transformer computing the function must be large: it would have to have width $n^{Ω(1)}$.   Together, our work initiates the study of quantum advantage in the era of large language models.",
     "authors": [
       "Srinivasan Arunachalam",
       "Arkopal Dutt",
@@ -2618,7 +2618,7 @@
   {
     "arxiv_id": "2608.03620v1",
     "title": "A Theory of Conditional Collapse under Low-Rank Weight-Space Ablations: I. The Single-Block Theory and Synthetic Validation",
-    "summary": "Activation patching and weight-space ablation both claim a component is causally responsible for a behavior, yet they act on different objects: one forward pass versus the parameters behind every forward pass. We ask when they agree.   We study an idealized model where a conditional computation is carried additively through a residual stream, $F(x)=F_0(x)+\\sum_i\u03b1_i(x)v_i$, read out by a linear functional, and prove three exact results. First, deleting a subset of carriers collapses a matched input pair onto the same unconditional output \\emph{if and only if} the removal is symmetric on the pair and leaves no outside contrast; the error is deterministic, and we give its exact form even when the two conditions hold only approximately. Second, patching a carrier moves the readout by its donor-receiver \\emph{contrast}, while ablating it moves the readout by its \\emph{absolute level}; neither bounds the other, and we construct pairs where every single-carrier patch flips the decision while no single-carrier ablation does. Third, for an attention head composed with its own layer's normalization and MLP, we derive an exact first-order interaction formula with a provably second-order remainder, vanishing identically when only the MLP is ablated but not, in general, when a head is.   Small transformers trained on a synthetic conditional task illustrate all three predictions: across thirty-nine ablation configurations the measured interaction is strongly rank-correlated with the idealized model's predictive accuracy (Spearman $-0.83$), and a second task and architecture reproduces the same pattern, including a further polarity reversal.   The single-block interaction result extends past one residual block, and the synthetic validation is tested against a real pretrained model, in a companion paper that takes this theory further along both axes.",
+    "summary": "Activation patching and weight-space ablation both claim a component is causally responsible for a behavior, yet they act on different objects: one forward pass versus the parameters behind every forward pass. We ask when they agree.   We study an idealized model where a conditional computation is carried additively through a residual stream, $F(x)=F_0(x)+\\sum_iα_i(x)v_i$, read out by a linear functional, and prove three exact results. First, deleting a subset of carriers collapses a matched input pair onto the same unconditional output \\emph{if and only if} the removal is symmetric on the pair and leaves no outside contrast; the error is deterministic, and we give its exact form even when the two conditions hold only approximately. Second, patching a carrier moves the readout by its donor-receiver \\emph{contrast}, while ablating it moves the readout by its \\emph{absolute level}; neither bounds the other, and we construct pairs where every single-carrier patch flips the decision while no single-carrier ablation does. Third, for an attention head composed with its own layer's normalization and MLP, we derive an exact first-order interaction formula with a provably second-order remainder, vanishing identically when only the MLP is ablated but not, in general, when a head is.   Small transformers trained on a synthetic conditional task illustrate all three predictions: across thirty-nine ablation configurations the measured interaction is strongly rank-correlated with the idealized model's predictive accuracy (Spearman $-0.83$), and a second task and architecture reproduces the same pattern, including a further polarity reversal.   The single-block interaction result extends past one residual block, and the synthetic validation is tested against a real pretrained model, in a companion paper that takes this theory further along both axes.",
     "authors": [
       "Abdallah Khemais"
     ],
@@ -2937,7 +2937,7 @@
     "authors": [
       "Edoardo Coppola",
       "Stefano Fiorini",
-      "Pietro Li\u00f2",
+      "Pietro Liò",
       "Mattia Savardi",
       "Alberto Signoroni"
     ],
@@ -3214,7 +3214,7 @@
       "Albert Q. Jiang",
       "Aryo Lotfi",
       "Colin Sandon",
-      "Emmanuel Abb\u00e9"
+      "Emmanuel Abbé"
     ],
     "categories": [
       "cs.AI"
@@ -3411,7 +3411,7 @@
   {
     "arxiv_id": "2608.03507v1",
     "title": "ChronoLens: Measuring Language Change Across Time, Languages, and Linguistic Levels",
-    "summary": "Historical language change affects morphology, syntax, semantics, and pragmatics, yet computational studies typically examine these levels with incompatible representations and therefore cannot determine whether they evolve together across languages. We address this problem by asking how the magnitude and direction of change vary across linguistic levels, languages, and historical periods within a single analytical space. We introduce ChronoLens, a framework that combines frozen multilingual language models, feature-aligned crosscoders, and post-hoc linguistic interventions, and apply it to 44.98 million documents and approximately 17.2 billion tokens from five parliamentary traditions spanning 1803--2026. The resulting sparse representations agree substantially more strongly with linguistic statistics than dense embeddings or a pooled sparse autoencoder ($\u03c1=0.72$ versus $0.29$ and $0.28$), and reveal that morphology, syntax, semantics, and pragmatics generally change by comparable amounts within a language, while languages differ markedly in when, how far, and in which direction they change. These findings show that historical language change is a structured, multidimensional process: similar magnitudes can conceal different trajectories, and meaningful cross-linguistic comparison requires measuring both distance and direction.",
+    "summary": "Historical language change affects morphology, syntax, semantics, and pragmatics, yet computational studies typically examine these levels with incompatible representations and therefore cannot determine whether they evolve together across languages. We address this problem by asking how the magnitude and direction of change vary across linguistic levels, languages, and historical periods within a single analytical space. We introduce ChronoLens, a framework that combines frozen multilingual language models, feature-aligned crosscoders, and post-hoc linguistic interventions, and apply it to 44.98 million documents and approximately 17.2 billion tokens from five parliamentary traditions spanning 1803--2026. The resulting sparse representations agree substantially more strongly with linguistic statistics than dense embeddings or a pooled sparse autoencoder ($ρ=0.72$ versus $0.29$ and $0.28$), and reveal that morphology, syntax, semantics, and pragmatics generally change by comparable amounts within a language, while languages differ markedly in when, how far, and in which direction they change. These findings show that historical language change is a structured, multidimensional process: similar magnitudes can conceal different trajectories, and meaningful cross-linguistic comparison requires measuring both distance and direction.",
     "authors": [
       "Gagan Bhatia",
       "Julian Schlenker",
@@ -3583,7 +3583,7 @@
     "title": "MultiGlobeQA: A Multilingual and Globally Diverse Benchmark for Geospatial Reasoning",
     "summary": "Geospatial reasoning, i.e., computing distances, containment, and other spatial relations over real-world entities, is central to navigation and logistics, yet large language models (LLMs) struggle with the required geometric and topological computation despite storing considerable geographic knowledge. Existing benchmarks localize these failures only partially: they are synthetic or smallscale, largely monolingual, and offer limited control over geographic coverage. We introduce MultiGlobeQA, a multilingual benchmark of 46,060 question-answer pairs spanning 14 spatial-function families and 15 answer formats, with execution-based ground truth over three knowledge graphs. It covers 201 countries and territories via income- and density-stratified sampling, with parallel questions in English and 16 additional high- and low-resource languages. Across parametric, reasoning, and agentic settings, LLMs collapse on tasks requiring grid indexing and shape computation, while topological relations and directions fare best. Retrieval and tool use yield considerable gains, yet performance plateaus below two thirds even when gold facts are supplied, indicating that computation, not access to knowledge, is the bottleneck. Models also underperform on low-income regions, a gap that gold facts widen rather than close.",
     "authors": [
-      "Martin B\u00f6ckling",
+      "Martin Böckling",
       "Elizaveta Nosova",
       "Heiko Paulheim",
       "Andreea Iana"
@@ -3608,7 +3608,7 @@
       "Yash Misra",
       "Javal Vyas",
       "Siddharth Gutta",
-      "Mehmet Mercang\u00f6z"
+      "Mehmet Mercangöz"
     ],
     "categories": [
       "cs.AI",
@@ -3712,7 +3712,7 @@
     "title": "Intertemporal Preference Steering in Qwen3 via Contrastive Activation Addition",
     "summary": "We study linear representations of temporal horizon in the large language model Qwen3-32B and use them to change the model's time-related preferences, recommendations, and capabilities. We train contrastive linear probes on teacher-forced temporal-choice answers to find a short-term versus long-term direction in the model's residual stream, and evaluate contrastive activation-addition steering on a held-out binary temporal-choice task, an out-of-distribution monetary intertemporal-choice task, and a TravelPlanner capability benchmark. The central result is that temporal-horizon directions can be identified with simple contrastive linear probes and then used for steering to induce large, bidirectional preference changes. On an out-of-distribution monetary choice task that varies reward size and delay, steering strongly shifts the model's indifference threshold between smaller-sooner and larger-later rewards in both directions. We further show improvements on a planning-related capability metric under moderate temporal steering. These results suggest that model intertemporal preferences are measurable and steerable, which is relevant for AI systems that give advice involving delayed costs and benefits, and for safety questions about long-horizon planning.",
     "authors": [
-      "Michal Mr\u00e1z",
+      "Michal Mráz",
       "Justin Shenk"
     ],
     "categories": [
@@ -3730,7 +3730,7 @@
     "title": "Agents Catching Agents: Shortcut Cascades and Benchmark Gaming in Clinical Multi-Agent Systems",
     "summary": "Clinical decision support is moving toward committees of language-model agents deliberating on a shared workspace. We ask whether such committees can be gamed by shortcuts, cues a benchmark rewards but a clinician would ignore. Across seven cohorts on six public datasets spanning text (MedQA-USMLE, MedMCQA, MIMIC-CXR reports), imaging (NIH ChestX-ray14, MIMIC-CXR-JPG, CheXpert) and tabular ICU records (SUPPORT2), Gemini committees resist these cues in isolation (flip 5-16%), yet a socially plausible shortcut spreads: when two peers assert the same wrong answer, the holdout under test adopts it in 38% of cases, as does a false \"pre-screen\" system flag, on both capability tiers. Of three oversight agents, a gate cannot separate adoption from honest agreement (false-positive rate 100%); a same-lineage judge reading only the transcript flags adoption on text (precision 100%, recall 93%) but collapses onto the gate in imaging; a referee that privately re-queries the holdout transfers to imaging (77-88% precision, 13-21% false-positive rate). Tripling a cue's visual salience does not move contagion, whereas a second peer voice raises it by half again. Gaming a hidden rubric is near-silent: only 1/10 text and 1/134 imaging drifters name the rubric they moved toward. What games a committee is social plausibility, and only a referee independent of self-report catches it. Code: https://github.com/criticaldata/benchmaxxing",
     "authors": [
-      "Sebasti\u00e1n Andr\u00e9s Cajas Ord\u00f3\u00f1ez",
+      "Sebastián Andrés Cajas Ordóñez",
       "Agastya Munnangi",
       "Aldo Marzullo",
       "Felipe Ocampo Osorio",
@@ -4420,162 +4420,6 @@
     "pdf_url": "https://arxiv.org/pdf/2608.03517v1.pdf",
     "date": "2026-08-05",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "trinhkhng/linear_Merged_gpt2-medium_0.4",
-    "author": "unknown",
-    "title": "trinhkhng/linear_Merged_gpt2-medium_0.4",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "arxiv:2203.05482",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-05T02:16:48.000Z",
-    "last_modified": "2026-08-05T02:28:40.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/trinhkhng/linear_Merged_gpt2-medium_0.4",
-    "date": "2026-08-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "layaiyer/Politifact_fake_news-syn-arxiv-verbs-dict",
-    "author": "unknown",
-    "title": "layaiyer/Politifact_fake_news-syn-arxiv-verbs-dict",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-08-05T02:28:34.000Z",
-    "last_modified": "2026-08-05T02:28:34.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/layaiyer/Politifact_fake_news-syn-arxiv-verbs-dict",
-    "date": "2026-08-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "trinhkhng/linear_Merged_gpt2-medium_0.3",
-    "author": "unknown",
-    "title": "trinhkhng/linear_Merged_gpt2-medium_0.3",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "arxiv:2203.05482",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-05T02:16:05.000Z",
-    "last_modified": "2026-08-05T02:28:05.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/trinhkhng/linear_Merged_gpt2-medium_0.3",
-    "date": "2026-08-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "trinhkhng/linear_Merged_gpt2-medium_0.2",
-    "author": "unknown",
-    "title": "trinhkhng/linear_Merged_gpt2-medium_0.2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "arxiv:2203.05482",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-05T02:15:24.000Z",
-    "last_modified": "2026-08-05T02:27:28.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/trinhkhng/linear_Merged_gpt2-medium_0.2",
-    "date": "2026-08-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "layaiyer/Politifact_fake_news-syn-youtube-nouns-vanilla",
-    "author": "unknown",
-    "title": "layaiyer/Politifact_fake_news-syn-youtube-nouns-vanilla",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-08-05T02:27:08.000Z",
-    "last_modified": "2026-08-05T02:27:08.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/layaiyer/Politifact_fake_news-syn-youtube-nouns-vanilla",
-    "date": "2026-08-05",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "trinhkhng/linear_Merged_gpt2-medium_0.1",
-    "author": "unknown",
-    "title": "trinhkhng/linear_Merged_gpt2-medium_0.1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "arxiv:2203.05482",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-05T02:14:42.000Z",
-    "last_modified": "2026-08-05T02:26:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/trinhkhng/linear_Merged_gpt2-medium_0.1",
-    "date": "2026-08-05",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
