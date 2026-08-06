@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-06T11:15:32.149834",
+  "date": "2026-08-06T13:49:06.332256",
   "patterns": {
     "multimodal_research": [
       {
@@ -681,14 +681,6 @@
       {
         "title": "ContextMaster: Interactive Multi-Shot Video Creation via Fixed-Budget Sparse Context Routing",
         "url": "https://arxiv.org/abs/2608.04956v1"
-      },
-      {
-        "title": "sulaimank/w2vbert-lingala-sd3",
-        "url": "https://huggingface.co/sulaimank/w2vbert-lingala-sd3"
-      },
-      {
-        "title": "orpe42/deberta_v3_MP_ft",
-        "url": "https://huggingface.co/orpe42/deberta_v3_MP_ft"
       }
     ],
     "vision_systems": [
@@ -1785,7 +1777,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "93 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1844,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 436
+    "total_papers": 434
   }
 }
