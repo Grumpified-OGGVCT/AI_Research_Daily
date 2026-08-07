@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-07T22:29:16.343767",
+  "date": "2026-08-07T23:28:43.336287",
   "patterns": {
     "multimodal_research": [
       {
@@ -929,6 +929,10 @@
         "url": "https://arxiv.org/abs/2608.06146v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "HOPE: Hand-Object Pressure Estimation from Monocular Videos",
         "url": "https://arxiv.org/abs/2608.06192v1"
       },
@@ -1261,6 +1265,14 @@
       {
         "title": "UQ-Loc: Uncertainty-Aware LiDAR Scene Coordinate Regression",
         "url": "https://arxiv.org/abs/2608.06307v1"
+      },
+      {
+        "title": "sdkv2/ministral-3-3b-reasoning-mlx",
+        "url": "https://huggingface.co/sdkv2/ministral-3-3b-reasoning-mlx"
+      },
+      {
+        "title": "sdkv2/ministral-3-3b-reasoning-mlx-q8",
+        "url": "https://huggingface.co/sdkv2/ministral-3-3b-reasoning-mlx-q8"
       }
     ],
     "benchmarks": [
@@ -1779,13 +1791,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1824,14 +1836,14 @@
       "significance": "high"
     },
     {
-      "topic": "architecture",
-      "frequency": 29,
+      "topic": "reasoning",
+      "frequency": 30,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 433
+    "total_papers": 436
   }
 }
