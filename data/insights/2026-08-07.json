@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-07T17:43:49.517178",
+  "date": "2026-08-07T18:45:26.762638",
   "patterns": {
     "multimodal_research": [
       {
@@ -295,10 +295,6 @@
       {
         "title": "Energy-Guided Flow Matching",
         "url": "https://arxiv.org/abs/2608.05811v1"
-      },
-      {
-        "title": "KKHYA/llavaqwen3-1.7b-finetune-nm-mask-moe-sparse-4e-2k-2of4-imp-s1seed_20260807_033327",
-        "url": "https://huggingface.co/KKHYA/llavaqwen3-1.7b-finetune-nm-mask-moe-sparse-4e-2k-2of4-imp-s1seed_20260807_033327"
       }
     ],
     "language_models": [
@@ -1765,7 +1761,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "47 independent papers",
+      "observation": "46 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1836,6 +1832,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 434
+    "total_papers": 433
   }
 }
