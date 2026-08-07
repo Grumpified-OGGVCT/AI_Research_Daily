@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-07T09:55:31.516256",
+  "date": "2026-08-07T10:46:19.670928",
   "patterns": {
     "multimodal_research": [
       {
@@ -987,14 +987,6 @@
       {
         "title": "Patient Pose Assessment Using a CT-Based Framework for Synthetic Data Generation",
         "url": "https://arxiv.org/abs/2608.06126v1"
-      },
-      {
-        "title": "GaborMadarasz/gemma-4-E2B-it-CV24_hun",
-        "url": "https://huggingface.co/GaborMadarasz/gemma-4-E2B-it-CV24_hun"
-      },
-      {
-        "title": "nicolasramos/odooclaw-vision-450m",
-        "url": "https://huggingface.co/nicolasramos/odooclaw-vision-450m"
       }
     ],
     "reasoning": [
@@ -1791,7 +1783,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "82 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1832,7 +1824,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 39,
+      "frequency": 38,
       "significance": "high"
     },
     {
@@ -1844,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 436
+    "total_papers": 434
   }
 }
