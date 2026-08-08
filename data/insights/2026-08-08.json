@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-08T14:25:58.731513",
+  "date": "2026-08-08T15:23:14.697370",
   "patterns": {
     "multimodal_research": [
       {
@@ -661,18 +661,6 @@
       {
         "title": "Mapping Armenian Paris: Extracting and Geocoding Commercial Advertisements from the 20th-Century Diaspora Press",
         "url": "https://arxiv.org/abs/2608.05911v1"
-      },
-      {
-        "title": "HenriqueLz/norberto-base-fakerecogna2-extrativa-elections",
-        "url": "https://huggingface.co/HenriqueLz/norberto-base-fakerecogna2-extrativa-elections"
-      },
-      {
-        "title": "1010happy/BALANCED_Teacher_r14_train_gptmini-Qwen2-5-3B-Instruct-seed896",
-        "url": "https://huggingface.co/1010happy/BALANCED_Teacher_r14_train_gptmini-Qwen2-5-3B-Instruct-seed896"
-      },
-      {
-        "title": "1010happy/BALANCED_Teacher_r14_train_gptmini_all7-Qwen2-5-3B-Instruct-seed896",
-        "url": "https://huggingface.co/1010happy/BALANCED_Teacher_r14_train_gptmini_all7-Qwen2-5-3B-Instruct-seed896"
       }
     ],
     "vision_systems": [
@@ -939,6 +927,10 @@
       {
         "title": "PaDoc: Layout-Grounded Parallel Decoding for Document Parsing",
         "url": "https://arxiv.org/abs/2608.06146v1"
+      },
+      {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
       },
       {
         "title": "HOPE: Hand-Object Pressure Estimation from Monocular Videos",
@@ -1785,13 +1777,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "91 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1844,6 +1836,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 436
+    "total_papers": 434
   }
 }
