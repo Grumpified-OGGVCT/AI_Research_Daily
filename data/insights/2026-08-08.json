@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-08T06:40:40.603892",
+  "date": "2026-08-08T07:43:36.493925",
   "patterns": {
     "multimodal_research": [
       {
@@ -663,8 +663,8 @@
         "url": "https://arxiv.org/abs/2608.05911v1"
       },
       {
-        "title": "codegeist/codegeist-llm",
-        "url": "https://huggingface.co/codegeist/codegeist-llm"
+        "title": "Anees4/complaint-router-distilbert",
+        "url": "https://huggingface.co/Anees4/complaint-router-distilbert"
       }
     ],
     "vision_systems": [
@@ -987,6 +987,10 @@
       {
         "title": "Patient Pose Assessment Using a CT-Based Framework for Synthetic Data Generation",
         "url": "https://arxiv.org/abs/2608.06126v1"
+      },
+      {
+        "title": "GaborMadarasz/gemma-4-E2B-it-CV24_hun",
+        "url": "https://huggingface.co/GaborMadarasz/gemma-4-E2B-it-CV24_hun"
       }
     ],
     "reasoning": [
@@ -1783,7 +1787,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "80 independent papers",
+      "observation": "81 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1836,6 +1840,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 434
+    "total_papers": 435
   }
 }
