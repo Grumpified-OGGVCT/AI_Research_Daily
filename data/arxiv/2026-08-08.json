@@ -156,10 +156,10 @@
     "title": "What Current AI Benchmarks Leave Unmeasured: Modality, Search, Citations, and Implications (for Safety Evaluations)",
     "summary": "Large language model (LLM) benchmark evaluations are routinely used to support claims about model safety, reliability, and deployment readiness. Yet most evaluations rely on a single access modality (model APIs), perform a single run per prompt, and report accuracy as the primary outcome metric, without accounting for conditions such as web search that may have effects on model behavior in deployment. We audit these assumptions for one of the most widely-used LLMs, comparing two modalities, ChatGPT's chat UI and OpenAI's API, with and without web search enabled. We use a stratified total sample of 401 prompts from two popular benchmarks, BBQ and SafetyBench, collecting 4,812 total responses across three repeated runs per prompt. Beyond standard performance measures, we evaluate model output dimensions including response consistency, response text similarity, citation grounding, and abstention behavior. For instance, chat UI responses were less accurate than API responses on both benchmarks with search disabled. Enabling web search reduced accuracy by up to 8 percentage points, and even reversed the direction of modality performance trends for one benchmark. Repeated runs of the same prompt produced inconsistent responses in up to 21\\% of prompts. The two modalities also grounded answers in different citations, and abstention behavior was also inconsistent across both modalities. These results illustrate that, even within a model family, reporting only simple accuracy metrics can obscure important forms of model behavioral variation relevant to AI safety assessments. We argue that AI safety evaluations should systematically account for modality, multi-run consistency, search conditions, and response-level behaviors to better reflect how deployed AI systems behave in practice.",
     "authors": [
-      "Ro Encarnaci\u00f3n",
+      "Ro Encarnación",
       "Tina Behzad",
       "Emma Lurie",
-      "Dana\u00e9 Metaxa"
+      "Danaé Metaxa"
     ],
     "categories": [
       "cs.HC",
@@ -270,10 +270,10 @@
     "title": "Integrating Implicit and Explicit Relational Biases through Graph-Based Multiple Instance Learning: A Case Study in Skin Lesion Diagnosis",
     "summary": "Relational inductive biases are essential for capturing structural dependencies among data. This study investigates a dual-level relational framework for image classification, bridging the gap between implicit representation learning and explicit structural modelling. We begin by establishing a baseline using an EfficientNetB3 architecture. To move beyond standard convolutional biases, we adopt a patch-based strategy, employing a convolutional masked autoencoder to learn implicit inter-patch relationships through self-supervised reconstruction. We then extend this approach by incorporating explicit relational modelling, organizing the learned embeddings into various graph topologies, including grid-based, random, and k-nearest neighbour structures. Experimental results on the ISIC-2018 and ISIC-2019 skin lesion diagnosis benchmarks show that combining implicit inter-patch modelling with explicit graph-based message passing yields the best performance. On the ISIC-2018 test set, the baseline model achieves a balanced accuracy of 76.17%, which improves to 77.12% with implicit patch-based relational modelling. The fully integrated grid-structured Graph Attention Network further increases performance to 79.27%. Similarly, on ISIC-2019, the implicit approach reaches 59.84% balanced accuracy, while the combination of implicit and explicit modelling yields 60.67%.",
     "authors": [
-      "Rafa\u0142 Buler",
+      "Rafał Buler",
       "Jakub Buler",
       "Maciej Bobowicz",
-      "Micha\u0142 Grochowski"
+      "Michał Grochowski"
     ],
     "categories": [
       "cs.AI",
@@ -409,7 +409,7 @@
   {
     "arxiv_id": "2608.05970v1",
     "title": "SkillMemo: Expert-guided Skill Memory Framework for Compositional Embodied Manipulation",
-    "summary": "Embodied visuomotor models, including Diffusion Policy (DP) and Vision-Language-Action (VLA) models, have demonstrated promising performance on robotic manipulation benchmarks. However, their potential remains fundamentally constrained by the scarcity of large-scale embodied trajectory datasets, leading to insufficient compositional generalization in out-of-distribution (OOD) scenarios with limited capability to capture reusable skill structures. To address this limitation, we propose Skill-Based Memory (SkillMemo) framework that implicitly decomposes long-horizon demonstrations into latent atomic skills and integrates skill-level features into a dynamic episodic memory bank for solving compositional tasks. Specifically, we first introduce an expert-guided trajectory segmentation module built upon a Mixture-of-Experts (MoE) architecture, which implicitly partitions trajectories into distinct skill primitives represented by learned gating coefficients. We further design a skill-level episodic memory architecture that stores compact skill representations as retrievable key-value pairs. During inference, the memory bank retrieves the most relevant skill primitives which are subsequently fused with the model's current gating distribution, providing a robust contextual prior to refine action predictions. Extensive experiments on the simulation benchmark and real-world manipulation tasks demonstrate that SkillMemo consistently enhances both DP and VLA backbones, achieving state-of-the-art performance and outperforming $\u03c0_{0.5}$, while exhibiting strong compositional generalization to unseen task configurations.",
+    "summary": "Embodied visuomotor models, including Diffusion Policy (DP) and Vision-Language-Action (VLA) models, have demonstrated promising performance on robotic manipulation benchmarks. However, their potential remains fundamentally constrained by the scarcity of large-scale embodied trajectory datasets, leading to insufficient compositional generalization in out-of-distribution (OOD) scenarios with limited capability to capture reusable skill structures. To address this limitation, we propose Skill-Based Memory (SkillMemo) framework that implicitly decomposes long-horizon demonstrations into latent atomic skills and integrates skill-level features into a dynamic episodic memory bank for solving compositional tasks. Specifically, we first introduce an expert-guided trajectory segmentation module built upon a Mixture-of-Experts (MoE) architecture, which implicitly partitions trajectories into distinct skill primitives represented by learned gating coefficients. We further design a skill-level episodic memory architecture that stores compact skill representations as retrievable key-value pairs. During inference, the memory bank retrieves the most relevant skill primitives which are subsequently fused with the model's current gating distribution, providing a robust contextual prior to refine action predictions. Extensive experiments on the simulation benchmark and real-world manipulation tasks demonstrate that SkillMemo consistently enhances both DP and VLA backbones, achieving state-of-the-art performance and outperforming $π_{0.5}$, while exhibiting strong compositional generalization to unseen task configurations.",
     "authors": [
       "Changyuan Wang",
       "Chubin Zhang",
@@ -688,7 +688,7 @@
   {
     "arxiv_id": "2608.06179v1",
     "title": "SAGA: Score-Weighted Adaptive Generation Alignment for Low-Resource Nordic Language Models",
-    "summary": "Preference optimisation has proven effective for improving large language models but typically relies on costly human preference annotations. Extending these methods to morphologically rich, low-resource languages remains challenging because such annotations are scarce. We present SAGA (Score-weighted Adaptive Generation Alignment), a parser-guided preference optimisation framework that replaces human labels with dependency-parser supervision. SAGA converts parser judgements into preference pairs for delta-DPO, combines parser quality with lexical diversity in a composite reward, filters low-information pairs using a reward-gap criterion, and monitors reward hacking to maintain reliable supervision. Across Danish, Icelandic, and Norwegian Bokm\u00e5l using GPT-SW3-1.3B, SAGA consistently improves grammatical quality without requiring human preference labels. Danish parse success increases from 69.0% to 93.8%, Icelandic achieves a +4.5 percentage-point improvement on an independent Stanza evaluation (three-run mean +3.3 percentage points) while native speakers prefer SAGA outputs in 80% of pairwise comparisons, and Norwegian Bokm\u00e5l improves by +28 percentage points. These results demonstrate that parser-derived supervision is a practical alternative to human preference annotation for grammatical alignment in low-resource languages where high-quality dependency parsers are available.",
+    "summary": "Preference optimisation has proven effective for improving large language models but typically relies on costly human preference annotations. Extending these methods to morphologically rich, low-resource languages remains challenging because such annotations are scarce. We present SAGA (Score-weighted Adaptive Generation Alignment), a parser-guided preference optimisation framework that replaces human labels with dependency-parser supervision. SAGA converts parser judgements into preference pairs for delta-DPO, combines parser quality with lexical diversity in a composite reward, filters low-information pairs using a reward-gap criterion, and monitors reward hacking to maintain reliable supervision. Across Danish, Icelandic, and Norwegian Bokmål using GPT-SW3-1.3B, SAGA consistently improves grammatical quality without requiring human preference labels. Danish parse success increases from 69.0% to 93.8%, Icelandic achieves a +4.5 percentage-point improvement on an independent Stanza evaluation (three-run mean +3.3 percentage points) while native speakers prefer SAGA outputs in 80% of pairwise comparisons, and Norwegian Bokmål improves by +28 percentage points. These results demonstrate that parser-derived supervision is a practical alternative to human preference annotation for grammatical alignment in low-resource languages where high-quality dependency parsers are available.",
     "authors": [
       "Hoda Fakharzadehjahromy",
       "Emil Wiman",
@@ -1021,10 +1021,10 @@
     "title": "MACRO: Markov Chain Routing of Transformer Layers",
     "summary": "Standard Large Language Models (LLMs) execute layers sequentially. Dynamic layer routing, i.e. search for a different execution path through layers involving layer repetitions, skips and other moves, can improve performance. Existing routing approaches often require updating model weights, running expensive search loops per test instance, or demand ground-truth labels during inference. In this work, we propose Markov Chain Routing of Transformer Layers (MACRO), a framework that learns task-specific routes over LLM architectures without modifying underlying parameters. MACRO models layer routing as a context-dependent Markov policy conditioned on layer indices, computation budget phases, directional displacements, and operator context, supporting skip, repeat, and residual hidden-state addition operations. The Markov route distribution is updated via feedback on training data and decoded using a top-k Viterbi algorithm to isolate high-probability candidate programs. We evaluate MACRO across diverse reasoning and knowledge benchmarks on multiple open-weight LLMs. MACRO achieves a +5.0% average accuracy improvement over the unrouted baselines, with largest gains on small models. We outperform the best dynamic routing approach Dr. LLM by +7.2%, while reducing route-search time 9.4x (from 14.8 to 1.6 hours). Our code is publicly available at https://github.com/Batorskq/MACRO.",
     "authors": [
-      "Pawe\u0142 Batorski",
+      "Paweł Batorski",
       "Abtin Pourhadi",
       "Akylgali Aitaza",
-      "Przemys\u0142aw Spurek",
+      "Przemysław Spurek",
       "Paul Swoboda"
     ],
     "categories": [
@@ -1200,10 +1200,10 @@
     "title": "Visual Grounding in Zero-Shot Vision-Language Control",
     "summary": "Vision-language models (VLMs) are increasingly used as zero-shot controllers, but successful trajectories do not necessarily show that decisions are grounded in visual input: simulator dynamics and conservative action priors can produce favourable scores without meaningful perception. We investigate this with an input-ablation battery: blind-image controls, repeated identical inputs, lane-axis reflection, non-visual baselines, and pipeline-integrity checks. Across nine direct-action models, six structured local VLMs, and an exploratory VLM-MPC hierarchy, we analyse 32,874 scored calls over two embodiments and three simulators. The direct-control results are largely negative: a constant-SLOW policy outperforms a scripted geometric controller, several models are image-invariant or nearly constant, and models that recognize longitudinal hazards still fail to transform LEFT and RIGHT under reflection. No local VLM meets the joint longitudinal and lateral grounding criteria. However, an image-only deterministic positive control estimates the lead gap with 0.090 m MAE and exact mirror equivariance, confirming the stimuli carry sufficient visual information; the failures are modular, not universal. A post-hoc, leakage-controlled symmetry-consensus guardian selects two models from 16 calibration frames and freezes a 2-of-4 hazard vote across original and reflected views. On 272 held-out frames it reaches 0.954 balanced accuracy (episode-cluster bootstrap 95% CI [0.895,0.990]); nested leave-one-episode-out recovers the same pair and threshold in all 12 folds. Abstaining on ties raises committed balanced accuracy to 0.973 at 0.824 coverage. With deterministic perception retaining lateral authority, offline modular replay achieves 0.934 action agreement and exact mirror equivariance. These results support current VLMs as bounded, selective hazard assistants, not monolithic zero-shot controllers.",
     "authors": [
-      "J. de Curt\u00f2",
+      "J. de Curtò",
       "Dayani Plasencia",
-      "Diego S\u00e1nchez",
-      "I. de Zarz\u00e0"
+      "Diego Sánchez",
+      "I. de Zarzà"
     ],
     "categories": [
       "cs.RO",
@@ -1293,7 +1293,7 @@
     "authors": [
       "Achir Oukelmoun",
       "Nasredine Semmar",
-      "Ga\u00ebl De Chalendar"
+      "Gaël De Chalendar"
     ],
     "categories": [
       "cs.CL"
@@ -1444,7 +1444,7 @@
     "authors": [
       "Abbas Al-Sabbagh",
       "Shalom F. Mushtaq",
-      "Tom\u00e1s M. da Silva",
+      "Tomás M. da Silva",
       "Kushagra Soni",
       "Binawei Gbamila",
       "Sri Atluri",
@@ -1663,7 +1663,7 @@
       "Johannes Brandt",
       "Rickmer Braren",
       "Daniel Rueckert",
-      "Philip M\u00fcller"
+      "Philip Müller"
     ],
     "categories": [
       "cs.CV",
@@ -1706,7 +1706,7 @@
       "Paul Cripps",
       "Nigel Dewdney",
       "Catia Pesquita",
-      "Ernesto Jim\u00e9nez-Ruiz"
+      "Ernesto Jiménez-Ruiz"
     ],
     "categories": [
       "cs.AI"
@@ -1857,7 +1857,7 @@
     "title": "Do Tabular Foundation Models Agree with Themselves?",
     "summary": "Tabular Foundation Models (TFMs) are currently the best approach to tabular prediction problems. They are constructed as transformers that approximate the Bayesian posterior predictive distribution based on a pre-training prior. These univariate predictors can be converted into multivariate ones autoregressively by sampling one target and adding it to the features.   However, the faithfulness of the resulting joint has not been investigated. Furthermore, TFMs cannot be evaluated against the posterior itself, at least not on real-world datasets, because the ground-truth distribution is unknown. We therefore propose asking a different question: could a model's predictions result from any joint distribution? To answer this question, we pose two requirements that any such model must satisfy. The first is marginalization consistency, which demands that marginalized conditionals are equal to directly predicted marginals. The second is factorization consistency, which demands that different factorization orders result in equal joint distributions. Every TFM that we evaluate violates both of these requirements for both classification and regression across all datasets.",
     "authors": [
-      "Christian Kl\u00f6tergens",
+      "Christian Klötergens",
       "Vijaya Krishna Yalavarthi",
       "Lars Schmidt-Thieme",
       "Tom Hanika"
@@ -2067,7 +2067,7 @@
     "title": "The em-dash em-beds in Congress: A population-level rise in em-dash frequency in U.S. congressional press releases at the dawn of the large-language-model era, 2021-2025",
     "summary": "Large language models (LLMs) can leave small stylistic traces in text written with their help. The most discussed is the em-dash (U+2014), especially the unspaced form word---word, which is normal in typeset English prose but unusual in U.S. press writing, where AP style calls for spaced dashes. This study asks whether that trace is measurable in congressional press releases. In a preregistered design (OSF: 10.17605/OSF.IO/U5NEY), 146,239 scraper-sourced releases from 480 House and Senate offices (2021-2025, the open congress-press dataset) were analyzed: density of unspaced prose-form em-dashes per 1,000 characters of cleaned text, Poisson/negative-binomial models with a length offset, clustering by office. Density stayed within 0.10-0.12 per 1,000 characters through 2021-2024, then rose to 0.217 in 2025, more than twice the four-year baseline; the share of releases with such an em-dash rose from ~13% to 24.8%. The primary frequency ratio (2023-2025 vs 2021-2022) was 1.55 (95% CI 1.28-1.93; exact registered cut-off: 1.528), just above the prespecified 1.5x threshold. The rise was net-new (hyphen density stable), held within authors (75.6% of 262 continuous offices increased; p ~ 1e-16) and in a closed panel of 224 offices, and survived falsification tests: three placebo cut-offs were null, the pipeline showed no step at the 2024/2025 boundary, and continuing offices carried the rise. A segmented regression finds no step at the ChatGPT cut-off but a clear post-period acceleration; the 2025 rise is symmetric across parties and chambers. Because the registered validation gate was formally breached, the full preregistered decision rule was not met; the interpretation (broad diffusion of LLM-assisted writing as the models matured) is offered as exploratory. The em-dash remains a population-level marker, not a per-release authorship detector, and the design supports no causal claim.",
     "authors": [
-      "Przemys\u0142aw Czuma"
+      "Przemysław Czuma"
     ],
     "categories": [
       "cs.DL",
@@ -2180,7 +2180,7 @@
   {
     "arxiv_id": "2608.06262v1",
     "title": "Hypothesis Testing with Conditional Queries: Learnability and the Value of Interaction",
-    "summary": "Model evaluations may fix all tests before observing any responses or select later tests using earlier responses. We study this choice in a conditional-query model on a finite outcome space $\\mathcal{X}$ with $|\\mathcal{X}|=N$. We first ask which pairs of distribution classes can be reliably distinguished. We then ask how many additional queries are required to match an adaptive tester when all queried events must be fixed in advance. We show that learnability holds if and only if the two classes have positive separation in their pairwise conditional probabilities. When this separation is zero, the optimal worst-case error is exactly $1/2$ at every finite query budget. For any $T$-query adaptive policy and any $\u03c1\\in (0,1)$, we construct a randomized non-adaptive procedure using $O(N^2(T + \\log(1/\u03c1)))$ pair queries chosen before any response is observed. Its simulated transcript is within $\u03c1$ in total variation of the adaptive transcript, uniformly over all distributions in the model. We also construct a matching family with constant adaptive query complexity and $\u03a9_\\varepsilon(N^2)$ non-adaptive query complexity. Consequently, the worst-case fixed-error adaptivity gap is $\u0398_\\varepsilon(N^2)$. Thus interaction can reduce the required number of tests by a quadratic factor, but the apparent exponential branching of an interactive evaluation does not yield an exponential query advantage.",
+    "summary": "Model evaluations may fix all tests before observing any responses or select later tests using earlier responses. We study this choice in a conditional-query model on a finite outcome space $\\mathcal{X}$ with $|\\mathcal{X}|=N$. We first ask which pairs of distribution classes can be reliably distinguished. We then ask how many additional queries are required to match an adaptive tester when all queried events must be fixed in advance. We show that learnability holds if and only if the two classes have positive separation in their pairwise conditional probabilities. When this separation is zero, the optimal worst-case error is exactly $1/2$ at every finite query budget. For any $T$-query adaptive policy and any $ρ\\in (0,1)$, we construct a randomized non-adaptive procedure using $O(N^2(T + \\log(1/ρ)))$ pair queries chosen before any response is observed. Its simulated transcript is within $ρ$ in total variation of the adaptive transcript, uniformly over all distributions in the model. We also construct a matching family with constant adaptive query complexity and $Ω_\\varepsilon(N^2)$ non-adaptive query complexity. Consequently, the worst-case fixed-error adaptivity gap is $Θ_\\varepsilon(N^2)$. Thus interaction can reduce the required number of tests by a quadratic factor, but the apparent exponential branching of an interactive evaluation does not yield an exponential query advantage.",
     "authors": [
       "Zonghuan Xu"
     ],
@@ -2314,12 +2314,12 @@
     "title": "ECHO: A Locally-Deployable Agentic Health Assistant with Temporal Memory, Safety Guardrails, and Speech Assessment",
     "summary": "This paper presents ECHO (Enhanced Care \\& Health Observer), a locally-deployable conversational health assistant for long-term chronic care management. ECHO integrates three complementary software modules developed under shared supervision as a unified system. The core module is an agentic chatbot built on a ReAct loop orchestrated via LangGraph, equipped with 17 clinical tools and a temporal knowledge graph for persistent cross-session memory; it achieves a 94.9\\% tool-execution pass rate across a 59-scenario benchmark with GPT-5 Mini. A two-stage hybrid safety layer intercepts all incoming queries: a rule-based layer handles explicit crisis signals and jailbreak attempts in under 1ms, while a signed graph neural network (GNN) with APPNP-style propagation classifies boundary cases by clinical intent, achieving 88.8\\% accuracy and 90.6\\% unsafe recall on a 2,537-query annotated Turkish health dataset while outperforming zero-shot LLM baselines including Llama 3.3 70B. A multimodal speech assessment module combining Whisper acoustic encoding and BERT text encoding with cross-attention fusion estimates emotion, depression, and pain, reaching a mean macro F1 of 0.652. The full system is implemented as a web application that can run entirely on consumer hardware, with no patient data transmitted to external services, supporting compliance with GDPR and KVKK.",
     "authors": [
-      "Abdulkadir K\u00fcl\u00e7e",
+      "Abdulkadir Külçe",
       "Alihan Esen",
-      "Ca\u011fla Fikir",
+      "Cağla Fikir",
       "Berke Kurt",
       "Kuzey Arar",
-      "G\u00f6khan Ercan",
+      "Gökhan Ercan",
       "Faik Boray Tek"
     ],
     "categories": [
@@ -2342,7 +2342,7 @@
       "Georg Tirpitz",
       "Moritz Seiler",
       "Kerstin Ritter",
-      "B\u00e1lint Mucs\u00e1nyi"
+      "Bálint Mucsányi"
     ],
     "categories": [
       "cs.LG"
@@ -2455,9 +2455,9 @@
     "title": "Curia-MAE: Multi-Modal Multi-Anatomy MAE Pre-Training for 3D Medical Image Segmentation",
     "summary": "Radiology foundation models learn transferable representations that can be adapted to new tasks by training only small layers on top of a frozen encoder. Dense prediction tasks such as 3D segmentation are, however, underrepresented in their evaluation, and, with the encoder kept frozen, pre-trained models still fall short of nnU-Net, the state-of-the-art reference trained from scratch. To close this gap we extend convolutional MAE pre-training with a robust reconstruction objective, a feature regularizer, and a local-global similarity objective. Using this method, we propose Curia-MAE, a multi-modal, multi-anatomy MAE model pre-trained on 300,000 CT and MRI images covering a large number of anatomical sites. On eight anatomy- and lesion-focused segmentation benchmarks, Curia-MAE improves frozen-encoder performance over a strong MAE baseline, while remaining competitive under full finetuning and superior on lesion tasks, where labeled data is scarce. These results indicate that a single frozen encoder can be reused across diverse segmentation tasks, reducing the cost of adapting and deploying such models in clinical workflows. We will make our pre-trained model weights publicly available.",
     "authors": [
-      "Th\u00e9o Danielou",
+      "Théo Danielou",
       "Antoine Saporta",
-      "L\u00e9o Alberge",
+      "Léo Alberge",
       "Corentin Dancette"
     ],
     "categories": [
@@ -2934,7 +2934,7 @@
     "authors": [
       "Poonam Poonam",
       "Hannah Kniesel",
-      "Pere-Pau V\u00e1zquez",
+      "Pere-Pau Vázquez",
       "Timo Ropinski"
     ],
     "categories": [
@@ -3132,7 +3132,7 @@
   {
     "arxiv_id": "2608.06337v1",
     "title": "Optimal Rates for Learning with Monotone Adversaries",
-    "summary": "A monotone adversary observes an i.i.d. labeled sample and appends a finite number of further examples of its choice, every one of them labeled correctly by the target hypothesis. The learner sees a uniform shuffle of the combined sample and is scored on the original distribution. Every example is correctly labeled, but the insertions depend on the clean sample, so the combined sample is not exchangeable. Larsen, Pabbaraju, and Shetty, who introduced this model, showed that empirical risk minimization attains expected error $O((d/n)\\log(n/d))$ for classes of VC dimension $d$, and that every known optimal learner can be pushed away from the $\u0398(d/n)$ rate, optimal for PAC learning. They asked whether the extra logarithm is an artifact of those particular algorithms or an inherent consequence of the lack of exchangeability.   We show that this additional cost is inherent beyond VC dimension one. In the worst case over classes of VC dimension $d$ and over known finite insertion budgets, the minimax expected error is $\u0398(1/n)$ at $d=1$ and $\u0398((d/n)\\log(n/d))$ for $d\\geq 2$. The same rates hold with Littlestone dimension $d_{\\mathrm L}$ in place of $d$, so the clean online-to-batch rate $O(d_{\\mathrm L}/n)$ is unattainable as well. Thus, somewhat counterintuitively, adding correctly labeled examples can make learning harder by a logarithmic factor, even for classes that admit finite mistake bounds in online learning. The dimension-one upper bound is achieved by a simple improper learner whose analysis adapts the leave-one-out argument underlying the one-inclusion graph. All of our lower bounds are elementary and come from a single construction: an explicit class and prior on which two target hypothesis, which differ a point of nonnegligible mass, produce the same sample.",
+    "summary": "A monotone adversary observes an i.i.d. labeled sample and appends a finite number of further examples of its choice, every one of them labeled correctly by the target hypothesis. The learner sees a uniform shuffle of the combined sample and is scored on the original distribution. Every example is correctly labeled, but the insertions depend on the clean sample, so the combined sample is not exchangeable. Larsen, Pabbaraju, and Shetty, who introduced this model, showed that empirical risk minimization attains expected error $O((d/n)\\log(n/d))$ for classes of VC dimension $d$, and that every known optimal learner can be pushed away from the $Θ(d/n)$ rate, optimal for PAC learning. They asked whether the extra logarithm is an artifact of those particular algorithms or an inherent consequence of the lack of exchangeability.   We show that this additional cost is inherent beyond VC dimension one. In the worst case over classes of VC dimension $d$ and over known finite insertion budgets, the minimax expected error is $Θ(1/n)$ at $d=1$ and $Θ((d/n)\\log(n/d))$ for $d\\geq 2$. The same rates hold with Littlestone dimension $d_{\\mathrm L}$ in place of $d$, so the clean online-to-batch rate $O(d_{\\mathrm L}/n)$ is unattainable as well. Thus, somewhat counterintuitively, adding correctly labeled examples can make learning harder by a logarithmic factor, even for classes that admit finite mistake bounds in online learning. The dimension-one upper bound is achieved by a simple improper learner whose analysis adapts the leave-one-out argument underlying the one-inclusion graph. All of our lower bounds are elementary and come from a single construction: an explicit class and prior on which two target hypothesis, which differ a point of nonnegligible mass, produce the same sample.",
     "authors": [
       "Anay Mehrotra"
     ],
@@ -3340,7 +3340,7 @@
   {
     "arxiv_id": "2608.06363v1",
     "title": "An Optimal Agnostic PAC Algorithm",
-    "summary": "Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk bound: from an i.i.d.\\ sample of size $n$, for every $0<\u03b4\\le 1/2$, with probability at least $1-\u03b4$, \\[   L(\\widehat h)   \\le L^*+ 7\\cdot10^8\\left(   \\sqrt{\\frac{L^*(d+\\log(1/\u03b4))}{n}}   +\\frac{d+\\log(1/\u03b4)}{n}   \\right). \\] This settles the sample complexity of agnostic PAC learning up to universal constants at every fixed $L^*$, matching the lower bounds of Devroye, Gy\u00f6rfi, and Lugosi [A Probabilistic Theory of Pattern Recognition, Springer, 1996].",
+    "summary": "Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk bound: from an i.i.d.\\ sample of size $n$, for every $0<δ\\le 1/2$, with probability at least $1-δ$, \\[   L(\\widehat h)   \\le L^*+ 7\\cdot10^8\\left(   \\sqrt{\\frac{L^*(d+\\log(1/δ))}{n}}   +\\frac{d+\\log(1/δ)}{n}   \\right). \\] This settles the sample complexity of agnostic PAC learning up to universal constants at every fixed $L^*$, matching the lower bounds of Devroye, Györfi, and Lugosi [A Probabilistic Theory of Pattern Recognition, Springer, 1996].",
     "authors": [
       "Markus Engelund Mathiasen",
       "Jian Qian",
@@ -3650,7 +3650,7 @@
     "title": "MirrorNet: Can Medical Image Anonymization Really Protect Patient Identity?",
     "summary": "Medical images are routinely de-identified---names, dates, and other metadata removed---and then shared for research, teaching, and public benchmarks under the assumption that this renders them anonymous. Such de-identification protects the metadata but not the pixels, and---apart from scans that directly contain facial structures---whether the image content itself identifies the patient has received little scrutiny. We investigate this question by learning a cycle-consistent correspondence between a cross-sectional medical image and a non-medical, patient-identifying image, using a pair of coupled, cycle-consistent variational autoencoders. From a held-out scan, the model recovers a recognisable likeness of the patient (identity-region MAE = 0.163); conversely, it synthesises a scan from such an image. These results indicate that a de-identified medical scan remains identifying---it is, in effect, a photograph of the patient---and that imaging data should be governed as biometric data rather than as anonymisable records. To support reproducibility, the code and trained models are shared at https://github.com/attilasimko/public-repository.",
     "authors": [
-      "Attila Simk\u00f3"
+      "Attila Simkó"
     ],
     "categories": [
       "cs.CV",
@@ -3669,13 +3669,13 @@
     "summary": "Recent advances in neural scene representations enable photorealistic novel-view synthesis, yet most methods remain tightly coupled to a single rendering paradigm, limiting their versatility and integration with conventional graphics workflows. We introduce Floating Radiance Networks (FlaRe), a neural scene representation combining explicit ray-traceable geometry with continuous neural radiance functions. A scene is represented by floating planar generalized Gaussian primitives, each carrying a compact latent descriptor of a local radiance field. A lightweight decoder shared across the scene maps this descriptor, local surface coordinates, and viewing direction to color and opacity. This formulation preserves the expressiveness of neural fields while providing an explicitly addressable structure that can be efficiently queried and manipulated. Hardware-accelerated primitive intersections enable interactive rendering and recursive ray-tracing, including reflections, refractions, transparency, and shadows. The same representation further supports primitive-level deformation, mesh extraction, and appearance stylization directly in its learned descriptor space. Experiments across standard reconstruction benchmarks demonstrate competitive rendering quality while using a compact set of primitives. Together, these results establish FlaRe as a versatile representation that brings high-fidelity neural rendering, ray-tracing, geometric manipulation, and appearance editing into a unified scene model. Source code is available online. Source code can be found at: https://github.com/KByrski/FlaRe",
     "authors": [
       "Krzysztof Byrski",
-      "Rafa\u0142 Tobiasz",
-      "Grzegorz Wilczy\u0144ski",
-      "Miko\u0142aj Zieli\u0144ski",
+      "Rafał Tobiasz",
+      "Grzegorz Wilczyński",
+      "Mikołaj Zieliński",
       "Dawid Baran",
       "Dominik Belter",
       "Jacek Tabor",
-      "Przemys\u0142aw Spurek"
+      "Przemysław Spurek"
     ],
     "categories": [
       "cs.CV"
@@ -3887,7 +3887,7 @@
     "authors": [
       "Arash Nedaei",
       "Henna Tiensuu",
-      "Elina V\u00e4yrynen",
+      "Elina Väyrynen",
       "Saujanya Karki",
       "Jaakko Suutala"
     ],
@@ -3905,7 +3905,7 @@
   {
     "arxiv_id": "2608.06206v1",
     "title": "Beyond Marginal Validity: Finite-Sample Guarantees for Localized Conformal Prediction",
-    "summary": "Conformal prediction endows arbitrary black-box predictors with finite-sample, distribution-free marginal coverage, yet marginal validity can hide severe covariate-specific miscalibration, while exact distribution-free conditional coverage is finite-sample unattainable. Randomly localized conformal prediction (RLCP) mitigates this gap by calibrating near the test point while preserving marginal coverage. Existing theory, however, lacks finite-sample guarantees for the realized localized set that jointly control conditional validity and oracle efficiency. We provide such guarantees. For any fixed score, under H\u00f6lder regularity of the conditional score CDF and standard density and kernel assumptions, we prove high-probability bounds, uniform over a realized localization neighbourhood, for the conditional-coverage gap and the length error relative to the oracle. The bounds decompose into an $O(h^\u03b2)$ localization bias and a calibration term decreasing with calibration size, clarifying the bandwidth bias-variance tradeoff and when RLCP tracks the oracle. We also analyze data-split learned scores: when the score targets a pivotal score, as in conformalized quantile regression, uniform local guarantees decompose into fixed-score calibration and uniform score-estimation errors, showing that improved learning sharpens localized guarantees.",
+    "summary": "Conformal prediction endows arbitrary black-box predictors with finite-sample, distribution-free marginal coverage, yet marginal validity can hide severe covariate-specific miscalibration, while exact distribution-free conditional coverage is finite-sample unattainable. Randomly localized conformal prediction (RLCP) mitigates this gap by calibrating near the test point while preserving marginal coverage. Existing theory, however, lacks finite-sample guarantees for the realized localized set that jointly control conditional validity and oracle efficiency. We provide such guarantees. For any fixed score, under Hölder regularity of the conditional score CDF and standard density and kernel assumptions, we prove high-probability bounds, uniform over a realized localization neighbourhood, for the conditional-coverage gap and the length error relative to the oracle. The bounds decompose into an $O(h^β)$ localization bias and a calibration term decreasing with calibration size, clarifying the bandwidth bias-variance tradeoff and when RLCP tracks the oracle. We also analyze data-split learned scores: when the score targets a pivotal score, as in conformalized quantile regression, uniform local guarantees decompose into fixed-score calibration and uniform score-estimation errors, showing that improved learning sharpens localized guarantees.",
     "authors": [
       "Anton Conrad",
       "Rustam Isaev",
@@ -4014,7 +4014,7 @@
     "summary": "3D Gaussian splatting (3DGS) has emerged as a widely-used tool for novel view synthesis, offering real-time rendering in a sparse representation. However, the method's reliance on structure-from-motion initialization and photometric optimization can lead to suboptimal geometric reconstruction, particularly for objects with high specularity. In this work, we investigate the integration of geometric priors, in the form of predicted normal and depth maps, into the 3DGS framework to improve the reconstruction quality. We analyze the effect of incorporating these priors into GS-based methods and our evaluation reveals that multi-view predictions, as they are done by the recent visual geometry grounded transformer (VGGT), outperform single-view alternatives. A major factor is the existence of a confidence map for the estimations, which comes as a by-product of multi-view models and which can significantly improve the effectiveness of priors by weighting each prediction appropriately. Extensive experiments on standard benchmarks show consistent improvement in reconstruction quality and significant gains in complex scenes including specular objects.",
     "authors": [
       "Hongyu Zhou",
-      "Zorah L\u00e4hner"
+      "Zorah Lähner"
     ],
     "categories": [
       "cs.CV",
@@ -4301,7 +4301,7 @@
     "title": "Accurate Localization of Road Traffic Objects on the Road Plane Using Surveillance Camera Imagery",
     "summary": "Accurate vehicle localization from monocular roadside surveillance cameras is important for intelligent transportation systems, traffic monitoring, and traffic conflict analysis. Standard approaches often estimate vehicle position from the center of the detector bounding box, which can produce large errors due to perspective distortion and parallax, especially for elevated cameras and large vehicles.   This paper proposes a two-stage geometry-aware localization pipeline that estimates the projection of the vehicle footprint onto the road plane. First, vehicles are detected using a YOLO26-based detector. Second, a dedicated ResNet34 regression network predicts four corner points corresponding to the projected vehicle base. The final position is computed as the geometric center of the predicted quadrilateral.   The method was trained on synthetic data generated in CARLA and fine-tuned on real-world roadside imagery from DAIR-V2X. Experiments on synthetic and real data showed clear improvements over naive bounding-box-center localization. On DAIR-V2X, the mean image-space localization error decreased from 31.77 px to 15.30 px, a 51.8% improvement, while the median error decreased to 4.29 px. Median ground-plane error for medium-range vehicles decreased from 5.52 m to 0.90 m, and for far-range vehicles from 8.67 m to 1.84 m.   The results also show that contextual information surrounding the detector bounding box is important for geometric localization. The largest gains were observed for distant vehicles and geometrically challenging cases affected by strong perspective distortion and parallax.",
     "authors": [
-      "Jan Gawro\u0144ski",
+      "Jan Gawroński",
       "Witold Czajewski"
     ],
     "categories": [
@@ -4320,7 +4320,7 @@
     "title": "Mapping Armenian Paris: Extracting and Geocoding Commercial Advertisements from the 20th-Century Diaspora Press",
     "summary": "This paper presents an end-to-end, IIIF-based pipeline that turns the digitised Armenian press of France into an interactive map of the 20th-century Parisian Armenian commercial community. On each page, commercial advertisements are located, read, and parsed into structured records, which are then geocoded and placed on the map. Western Armenian is under-resourced and unsupported by off-the-shelf layout and OCR models, so the pipeline uses vision-language models (VLMs) as a data-bootstrapping strategy: they produce usable structured records at a scale hand annotation could not reach, and stay reliable on the strongly curved scans where conventional line-level CRNN OCR breaks down. The contribution includes a 500-page Western Armenian press corpus with 3,270 advertisement-level annotations, a Label Studio template that captures detection and semantic fields in a single annotation pass, and a reproducible workflow transposable to other under-resourced historical corpora. More broadly, the work shows that VLM-driven data bootstrapping is an effective lever for under-resourced historical languages such as (Western) Armenian.",
     "authors": [
-      "Chahan Vidal-Gor\u00e8ne",
+      "Chahan Vidal-Gorène",
       "Seda Kirakosyan",
       "Edita Matevosyan"
     ],
@@ -4390,14 +4390,14 @@
     "summary": "An adequate diagnostic quality of radiographs is essential for reliable diagnoses and treatment planning. The patient's pose during radiography is one of the most important factors determining the diagnostic quality. Since patient positioning is difficult and not standardized, an automated AI-based approach using depth images to automatically assess the patient's pose before the radiograph has been taken would be helpful. Due to regulatory hurdles, however, it is difficult in practice to acquire the required depth images and corresponding radiographs. In this paper, we present a framework that can generate such training data synthetically from Computed Tomography scans. We further show that by pretraining on our generated synthetic dataset consisting of 3077 image pairs of upper ankle joints, the pose assessment of real upper ankle joints can be improved by up to 11 percentage points.",
     "authors": [
       "Manuel Laufer",
-      "Dominik Mairh\u00f6fer",
+      "Dominik Mairhöfer",
       "Malte Sieren",
       "Hauke Gerdes",
       "Fabio Leal dos Reis",
       "Arpad Bischof",
-      "Thomas K\u00e4ster",
+      "Thomas Käster",
       "Erhardt Barth",
-      "J\u00f6rg Barkhausen",
+      "Jörg Barkhausen",
       "Thomas Martinetz"
     ],
     "categories": [
@@ -4409,311 +4409,5 @@
     "date": "2026-08-08",
     "source": "arxiv",
     "research_score": 0.44
-  },
-  {
-    "model_id": "nightmedia/granite-4.1-8b-USS-Nexus",
-    "author": "unknown",
-    "title": "nightmedia/granite-4.1-8b-USS-Nexus",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "finetune",
-      "unsloth",
-      "granite-4.1",
-      "reasoning",
-      "thinking",
-      "emergent",
-      "mergekit",
-      "merge",
-      "text-generation",
-      "base_model:AnkitAI/Parable-Granite-4.1-8B-Claude-Fable-5",
-      "base_model:merge:AnkitAI/Parable-Granite-4.1-8B-Claude-Fable-5",
-      "base_model:ibm-granite/granite-4.1-8b",
-      "base_model:merge:ibm-granite/granite-4.1-8b",
-      "base_model:nightmedia/granite-4.1-8B-TNG-Coder-V11-2800-Heretic-BF16",
-      "base_model:merge:nightmedia/granite-4.1-8B-TNG-Coder-V11-2800-Heretic-BF16",
-      "base_model:treadon/granite-4.1-8b-Abliterated-AND-Disinhibited",
-      "base_model:merge:treadon/granite-4.1-8b-Abliterated-AND-Disinhibited",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-08-08T03:00:54.000Z",
-    "last_modified": "2026-08-08T03:19:15.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/nightmedia/granite-4.1-8b-USS-Nexus",
-    "date": "2026-08-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "nightmedia/granite-4.1-8b-USS-Nexus-q8-hi-mlx",
-    "author": "unknown",
-    "title": "nightmedia/granite-4.1-8b-USS-Nexus-q8-hi-mlx",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "safetensors",
-      "granite",
-      "finetune",
-      "unsloth",
-      "granite-4.1",
-      "reasoning",
-      "thinking",
-      "emergent",
-      "mergekit",
-      "merge",
-      "text-generation",
-      "conversational",
-      "base_model:AnkitAI/Parable-Granite-4.1-8B-Claude-Fable-5",
-      "base_model:merge:AnkitAI/Parable-Granite-4.1-8B-Claude-Fable-5",
-      "base_model:ibm-granite/granite-4.1-8b",
-      "base_model:merge:ibm-granite/granite-4.1-8b",
-      "base_model:nightmedia/granite-4.1-8B-TNG-Coder-V11-2800-Heretic-BF16",
-      "base_model:merge:nightmedia/granite-4.1-8B-TNG-Coder-V11-2800-Heretic-BF16",
-      "base_model:treadon/granite-4.1-8b-Abliterated-AND-Disinhibited",
-      "base_model:merge:treadon/granite-4.1-8b-Abliterated-AND-Disinhibited",
-      "license:apache-2.0",
-      "8-bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-08-08T01:06:45.000Z",
-    "last_modified": "2026-08-08T03:19:00.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/nightmedia/granite-4.1-8b-USS-Nexus-q8-hi-mlx",
-    "date": "2026-08-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "CobrIX/CobrIX-1.0-Flash-33B-A13B",
-    "author": "unknown",
-    "title": "CobrIX/CobrIX-1.0-Flash-33B-A13B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen35_moe",
-      "text-generation",
-      "moe",
-      "qwen",
-      "qwen3.5",
-      "custom-architecture",
-      "pytorch",
-      "causal-lm",
-      "conversational",
-      "custom_code",
-      "pt",
-      "en",
-      "base_model:empero-ai/Qwythos-9B-v2",
-      "base_model:finetune:empero-ai/Qwythos-9B-v2",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-08T02:41:12.000Z",
-    "last_modified": "2026-08-08T03:18:06.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/CobrIX/CobrIX-1.0-Flash-33B-A13B",
-    "date": "2026-08-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "1010happy/claude_max_max7_perblock35-Qwen2-5-1-5B-seed1010",
-    "author": "unknown",
-    "title": "1010happy/claude_max_max7_perblock35-Qwen2-5-1-5B-seed1010",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "trl",
-      "sft",
-      "conversational",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-08T03:17:21.000Z",
-    "last_modified": "2026-08-08T03:17:46.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/1010happy/claude_max_max7_perblock35-Qwen2-5-1-5B-seed1010",
-    "date": "2026-08-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ariacompute/qwen3.5-2b_q8",
-    "author": "unknown",
-    "title": "ariacompute/qwen3.5-2b_q8",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "aria-engine",
-      "qwen3.5",
-      "quantized",
-      "group-quantization",
-      "uniform-quantization",
-      "hadamard",
-      "8-bit",
-      "near-lossless",
-      "on-device",
-      "edge",
-      "mobile",
-      "text-generation",
-      "tool-calling",
-      "embeddings",
-      "en",
-      "zh",
-      "dataset:togethercomputer/RedPajama-Data-1T",
-      "dataset:EleutherAI/the_pile",
-      "dataset:bigcode/the-stack",
-      "base_model:Qwen/Qwen3.5-2B",
-      "base_model:finetune:Qwen/Qwen3.5-2B",
-      "license:apache-2.0",
-      "model-index",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "aria-engine",
-    "created_at": "2026-08-08T02:34:57.000Z",
-    "last_modified": "2026-08-08T03:16:47.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ariacompute/qwen3.5-2b_q8",
-    "date": "2026-08-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "namanadep/Mamba-7B-Reasoning",
-    "author": "unknown",
-    "title": "namanadep/Mamba-7B-Reasoning",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "mamba",
-      "state-space-model",
-      "ssm",
-      "chain-of-thought",
-      "reasoning",
-      "bespoke-stratos",
-      "lora",
-      "text-generation",
-      "base_model:tiiuae/falcon-mamba-7b-instruct",
-      "base_model:adapter:tiiuae/falcon-mamba-7b-instruct",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-08-08T03:16:10.000Z",
-    "last_modified": "2026-08-08T03:16:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/namanadep/Mamba-7B-Reasoning",
-    "date": "2026-08-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Scrappy-Doo/GLM-5.2",
-    "author": "unknown",
-    "title": "Scrappy-Doo/GLM-5.2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "glm_moe_dsa",
-      "text-generation",
-      "conversational",
-      "en",
-      "zh",
-      "arxiv:2602.15763",
-      "arxiv:2603.12201",
-      "license:mit",
-      "eval-results",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-07T21:00:33.000Z",
-    "last_modified": "2026-08-08T03:16:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Scrappy-Doo/GLM-5.2",
-    "date": "2026-08-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "liserman/manifestoberta_domains_german_context_2026-08-04",
-    "author": "unknown",
-    "title": "liserman/manifestoberta_domains_german_context_2026-08-04",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "custom_xlm_roberta",
-      "text-classification",
-      "custom_code",
-      "arxiv:1910.09700",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-08-08T03:14:49.000Z",
-    "last_modified": "2026-08-08T03:15:23.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/liserman/manifestoberta_domains_german_context_2026-08-04",
-    "date": "2026-08-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SexGod1979/PinkCherry_MiniMax-H3",
-    "author": "unknown",
-    "title": "SexGod1979/PinkCherry_MiniMax-H3",
-    "downloads": 0,
-    "likes": 114,
-    "tags": [
-      "transformers",
-      "text-to-video",
-      "minimax-h3",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-video",
-    "library": "transformers",
-    "created_at": "2026-08-05T19:05:53.000Z",
-    "last_modified": "2026-08-08T03:15:21.000Z",
-    "days_since_creation": 2,
-    "url": "https://huggingface.co/SexGod1979/PinkCherry_MiniMax-H3",
-    "date": "2026-08-08",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
