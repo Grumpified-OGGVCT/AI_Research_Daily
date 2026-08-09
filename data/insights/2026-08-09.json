@@ -1,17 +1,22 @@
 {
-  "date": "2026-08-09T12:36:57.210389",
-  "patterns": {},
+  "date": "2026-08-09T13:44:01.084289",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "abhayK77/shieldher-roberta-v4",
+        "url": "https://huggingface.co/abhayK77/shieldher-roberta-v4"
+      },
+      {
+        "title": "MaagDeveloper/rust_python_gpt_classifier",
+        "url": "https://huggingface.co/MaagDeveloper/rust_python_gpt_classifier"
+      }
+    ]
+  },
   "inferences": [],
-  "research_trends": [
-    {
-      "topic": "language",
-      "frequency": 19,
-      "significance": "high"
-    }
-  ],
+  "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
