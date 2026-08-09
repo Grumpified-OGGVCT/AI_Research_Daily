@@ -1,11 +1,22 @@
 {
-  "date": "2026-08-09T10:27:17.143247",
-  "patterns": {},
+  "date": "2026-08-09T11:23:13.582489",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "minhunhooo/phobert-banking-sentiment",
+        "url": "https://huggingface.co/minhunhooo/phobert-banking-sentiment"
+      },
+      {
+        "title": "minhunhooo/phobert-banking-aspect",
+        "url": "https://huggingface.co/minhunhooo/phobert-banking-aspect"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
