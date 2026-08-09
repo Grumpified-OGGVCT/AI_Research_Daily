@@ -1,11 +1,22 @@
 {
-  "date": "2026-08-09T14:28:23.192240",
-  "patterns": {},
+  "date": "2026-08-09T15:25:14.834811",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "amanm10000/minillm",
+        "url": "https://huggingface.co/amanm10000/minillm"
+      },
+      {
+        "title": "amanm10000/chessllm",
+        "url": "https://huggingface.co/amanm10000/chessllm"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
