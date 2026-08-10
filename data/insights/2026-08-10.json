@@ -1,11 +1,22 @@
 {
-  "date": "2026-08-10T01:12:47.704357",
-  "patterns": {},
+  "date": "2026-08-10T03:47:38.999925",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "pinkelephantlimited/pinkelephant-llm-48b-adapters",
+        "url": "https://huggingface.co/pinkelephantlimited/pinkelephant-llm-48b-adapters"
+      },
+      {
+        "title": "J1mmymm/transformer-en-zh-translator",
+        "url": "https://huggingface.co/J1mmymm/transformer-en-zh-translator"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
