@@ -176,7 +176,7 @@
       "Matthew Thompson",
       "Chunjong Park",
       "Tim Strother",
-      "Valentin Li\u00e9vin",
+      "Valentin Liévin",
       "Roma Ruparel",
       "Akshay Goel",
       "Teya Bergamaschi",
@@ -195,7 +195,7 @@
       "Sunny Virmani",
       "David Racz",
       "Carey Radebaugh",
-      "Jo\u00eblle Barral",
+      "Joëlle Barral",
       "Kavi Goel",
       "Dale R. Webster",
       "Katherine Chou",
@@ -285,7 +285,7 @@
       "Bakhtiyar Khalfin",
       "Bogdan Sheludko",
       "Emil Zilyaev",
-      "Nikola Bani\u0107",
+      "Nikola Banić",
       "Georgy Perevozchikov",
       "Radu Timofte",
       "Shuai Liu",
@@ -300,7 +300,7 @@
       "Tianli Liu",
       "Dejun Hao",
       "Chunxia Lei",
-      "Furkan K\u0131nl\u0131",
+      "Furkan Kınlı",
       "Andrei Mironov",
       "Alexander Dikov",
       "Aleksei Sadokhin",
@@ -411,13 +411,13 @@
   {
     "arxiv_id": "2608.09921v1",
     "title": "GENCO - A Unified Neural Solver Embedded in a Development Framework for Steady-State Grid Analysis",
-    "summary": "Foundation models are transforming business workflows and boosting productivity, yet they remain largely absent from engineering domains such as power system analysis, where strict physical consistency must be enforced.   We present GENCO (GEometric Neural Corrective Optimizer), a unified neural solver for steady-state transmission grid analysis that handles power flow (PF), optimal power flow (OPF), and state estimation (SE) within a single architecture and shared network representation. To support advances in neural power system solvers, we introduce the open-source GridFM Development Framework, which standardizes synthetic data generation and training in a low-code environment. We also release large-scale datasets with millions of PF and OPF scenarios across diverse grid topologies to support reproducible benchmarking.   We evaluate GENCO on the PFDelta and OPFData benchmarks against state-of-the-art neural solvers and classical solvers, including Newton-Raphson and IPOPT, as well as on real-world Hydro-Qu\u00e9bec SCADA data. For large-scale PF, GENCO recovers the full AC operating state, including voltage magnitudes and reactive power that DC-PF cannot provide, while matching DC-PF-level active power-balance residuals. It achieves up to 30x speedups over Newton-Raphson at only 2x the runtime of DC-PF. For OPF, it achieves up to 85x speedups over IPOPT while improving feasibility, optimality, and runtime over DC-OPF. For SE, GENCO is more robust than classical weighted least squares to noisy measurements and network parameter errors, and always returns a high-quality estimate even when weighted least squares fails to converge.   Together, the unified architecture and development framework provide a new approach to large-scale steady-state grid analysis, lowering the barrier to entry for power system engineers and marking a step toward Grid Foundation Models.",
+    "summary": "Foundation models are transforming business workflows and boosting productivity, yet they remain largely absent from engineering domains such as power system analysis, where strict physical consistency must be enforced.   We present GENCO (GEometric Neural Corrective Optimizer), a unified neural solver for steady-state transmission grid analysis that handles power flow (PF), optimal power flow (OPF), and state estimation (SE) within a single architecture and shared network representation. To support advances in neural power system solvers, we introduce the open-source GridFM Development Framework, which standardizes synthetic data generation and training in a low-code environment. We also release large-scale datasets with millions of PF and OPF scenarios across diverse grid topologies to support reproducible benchmarking.   We evaluate GENCO on the PFDelta and OPFData benchmarks against state-of-the-art neural solvers and classical solvers, including Newton-Raphson and IPOPT, as well as on real-world Hydro-Québec SCADA data. For large-scale PF, GENCO recovers the full AC operating state, including voltage magnitudes and reactive power that DC-PF cannot provide, while matching DC-PF-level active power-balance residuals. It achieves up to 30x speedups over Newton-Raphson at only 2x the runtime of DC-PF. For OPF, it achieves up to 85x speedups over IPOPT while improving feasibility, optimality, and runtime over DC-OPF. For SE, GENCO is more robust than classical weighted least squares to noisy measurements and network parameter errors, and always returns a high-quality estimate even when weighted least squares fails to converge.   Together, the unified architecture and development framework provide a new approach to large-scale steady-state grid analysis, lowering the barrier to entry for power system engineers and marking a step toward Grid Foundation Models.",
     "authors": [
       "Alban Puech",
       "Matteo Mazzonelli",
       "Tamara R. Govindasamy",
       "Mangaliso Mngomezulu",
-      "H\u00e9ctor Maeso-Garc\u00eda",
+      "Héctor Maeso-García",
       "Thomas Tolhurst",
       "Javad Bayazi",
       "Ali Moeini",
@@ -427,11 +427,11 @@
       "Romeo Kienzler",
       "Jonas Weiss",
       "Anna Varbella",
-      "Florian D\u00f6rfler",
+      "Florian Dörfler",
       "Gabriela Hug",
       "Martin Mevissen",
-      "Juan Bernab\u00e9-Moreno",
-      "Fran\u00e7ois Mirall\u00e8s",
+      "Juan Bernabé-Moreno",
+      "François Mirallès",
       "Hendrik F. Hamann",
       "Etienne Vos",
       "Thomas Brunschwiler"
@@ -460,9 +460,9 @@
       "Matej Balog",
       "Marvin Eisenberger",
       "Sergey Shirobokov",
-      "Ng\u00e2n V\u0169",
+      "Ngân Vũ",
       "Hank Levy",
-      "Borivoje Nikoli\u0107",
+      "Borivoje Nikolić",
       "Sagar Karandikar",
       "Martin Dixon",
       "Parthasarathy Ranganathan"
@@ -511,7 +511,7 @@
       "Kuangyi Chen",
       "Fabio Morbidi",
       "Pascal Vasseur",
-      "C\u00e9dric Demonceaux",
+      "Cédric Demonceaux",
       "Friedrich Fraundorfer"
     ],
     "categories": [
@@ -528,7 +528,7 @@
   {
     "arxiv_id": "2608.09745v1",
     "title": "SR-OPSD: Self-Referenced On-Policy Self-Distillation",
-    "summary": "On-policy self-distillation (OPSD) converts feedback into dense token-level supervision on trajectories generated by the policy to be optimized, providing a useful complement to reinforcement learning with sparse outcome rewards. However, the self-teacher policy used in OPSD is typically a stop-gradient or exponential-moving-average copy of the policy conditioned on additional context information, and thus co-evolves with both the student policy and its on-policy context distribution. Directly matching such a moving target with a fixed projection objective can lead to unstable optimization or excessive distributional concentration. This nature of OPSD motivates the proposed \\emph{Self-Referenced On-Policy Self-Distillation (SR-OPSD)}. At fixed student-generated contexts, a token-level variational characterization identifies the effective distillation target as a geometric interpolation between the self-teacher policy and a reference policy. Meanwhile, we use the R\u00e9nyi divergence family to generalize the projection geometry. This formulation separates \\emph{where} the adaptive target is placed from \\emph{how} the student is projected toward it: the interpolation coefficient controls underlying target, while the R\u00e9nyi order controls the projection geometry and its sensitivity to token-level density ratios. Extensive experiments across scientific evaluation, mathematical reasoning, and coding generation tasks with multiple large language models show that SR-OPSD achieves the state-of-the-art or competitive performance across various settings.",
+    "summary": "On-policy self-distillation (OPSD) converts feedback into dense token-level supervision on trajectories generated by the policy to be optimized, providing a useful complement to reinforcement learning with sparse outcome rewards. However, the self-teacher policy used in OPSD is typically a stop-gradient or exponential-moving-average copy of the policy conditioned on additional context information, and thus co-evolves with both the student policy and its on-policy context distribution. Directly matching such a moving target with a fixed projection objective can lead to unstable optimization or excessive distributional concentration. This nature of OPSD motivates the proposed \\emph{Self-Referenced On-Policy Self-Distillation (SR-OPSD)}. At fixed student-generated contexts, a token-level variational characterization identifies the effective distillation target as a geometric interpolation between the self-teacher policy and a reference policy. Meanwhile, we use the Rényi divergence family to generalize the projection geometry. This formulation separates \\emph{where} the adaptive target is placed from \\emph{how} the student is projected toward it: the interpolation coefficient controls underlying target, while the Rényi order controls the projection geometry and its sensitivity to token-level density ratios. Extensive experiments across scientific evaluation, mathematical reasoning, and coding generation tasks with multiple large language models show that SR-OPSD achieves the state-of-the-art or competitive performance across various settings.",
     "authors": [
       "Zhuo Sun",
       "Entong Li",
@@ -602,7 +602,7 @@
     "authors": [
       "Youssef A. Elhagrasy",
       "Ian Hill",
-      "Andr\u00e9 Ivanov"
+      "André Ivanov"
     ],
     "categories": [
       "cs.AI",
@@ -736,7 +736,7 @@
       "Mona Furukawa",
       "Sai Hyne",
       "Daniel R. McGowan",
-      "Bart\u0142omiej W. Papie\u017c"
+      "Bartłomiej W. Papież"
     ],
     "categories": [
       "cs.LG"
@@ -956,7 +956,7 @@
     "summary": "Large language models can write parametric CAD programs from a natural-language description (text-to-CAD generation), but a single sample is often wrong. Increasing test-time compute by sampling multiple candidates only helps if a good candidate can be identified, yet no ground-truth model is available at generation time. Existing systems often require a separate verifier, such as a vision-language judge, to select among candidates. We investigate whether the candidate pool itself provides enough signal for effective selection and a verifier-free alternative. We introduce 3D CAD consensus selection, hereafter consensus selection: sample $N$ parametric CAD programs, compile them to 3D models, and return the candidate that agrees most with the rest of the pool. The method is training-free and compatible with existing CAD agents. We investigate geometric and topological notions of agreement, each of which improves its corresponding evaluation metric. On the exact candidate pools of a state-of-the-art CAD generation method, geometric consensus improves all three geometric metrics over the method's verifier, while topological consensus matches it on topology. Across every tested LLM and prompt variant, geometric consensus also improves geometric accuracy over random selection from the same pool, reducing Chamfer distance by $1-10\\%$.",
     "authors": [
       "Aaron Haag",
-      "Altay Ka\u00e7an",
+      "Altay Kaçan",
       "Bertram Fuchs",
       "Oliver Lohse"
     ],
@@ -1134,9 +1134,9 @@
   {
     "arxiv_id": "2608.09768v1",
     "title": "ReliableNet: A Chance-Constrained Approach to Trustworthy Classification in Deep Learning",
-    "summary": "A prediction that is both confident and wrong is a critical reliability failure because it can bypass abstention and human review precisely when the model is mistaken. Empirical risk minimization (ERM) controls average loss but not this failure directly, while calibration, uncertainty estimation, conformal risk control, and selective prediction methods target related reliability properties rather than bounding the joint failure event during training. We propose ReliableNet, which constrains the Joint Confident-Wrong (JCW) probability, the probability that a prediction is simultaneously confident and incorrect, below a user-specified risk budget $\u03b1\\in(0,1)$. We formulate this as a chance-constrained ERM problem, use a conservative smooth inner approximation whose population feasibility implies the original JCW constraint. Across four tabular and two image datasets, ReliableNet is the only method certified within the JCW budget for every dataset and seed in distribution, when compared against baselines spanning ERM, post-hoc calibration, conformal risk control, and selective prediction. Under demographic, ambiguity, spurious-correlation, novel-class, and covariate shifts, it achieves the lowest empirical JCW among the compared methods while remaining very competitive in accuracy, coverage, calibration, and selective prediction. Risk-coverage results further indicate that ReliableNet achieves better selective ranking than the benchmark methods on most datasets. Overall, ReliableNet provides a principled approach to trustworthy classification.",
+    "summary": "A prediction that is both confident and wrong is a critical reliability failure because it can bypass abstention and human review precisely when the model is mistaken. Empirical risk minimization (ERM) controls average loss but not this failure directly, while calibration, uncertainty estimation, conformal risk control, and selective prediction methods target related reliability properties rather than bounding the joint failure event during training. We propose ReliableNet, which constrains the Joint Confident-Wrong (JCW) probability, the probability that a prediction is simultaneously confident and incorrect, below a user-specified risk budget $α\\in(0,1)$. We formulate this as a chance-constrained ERM problem, use a conservative smooth inner approximation whose population feasibility implies the original JCW constraint. Across four tabular and two image datasets, ReliableNet is the only method certified within the JCW budget for every dataset and seed in distribution, when compared against baselines spanning ERM, post-hoc calibration, conformal risk control, and selective prediction. Under demographic, ambiguity, spurious-correlation, novel-class, and covariate shifts, it achieves the lowest empirical JCW among the compared methods while remaining very competitive in accuracy, coverage, calibration, and selective prediction. Risk-coverage results further indicate that ReliableNet achieves better selective ranking than the benchmark methods on most datasets. Overall, ReliableNet provides a principled approach to trustworthy classification.",
     "authors": [
-      "Ange-Cl\u00e9ment Akazan",
+      "Ange-Clément Akazan",
       "Ineza Remy Mugenga",
       "Abebe Geletu",
       "Jean Medard Ngnotchouye",
@@ -1279,7 +1279,7 @@
     "authors": [
       "Peter Lorenz",
       "Anjith George",
-      "Marcel S\u00e9bastien"
+      "Marcel Sébastien"
     ],
     "categories": [
       "cs.CV",
@@ -1407,7 +1407,7 @@
   {
     "arxiv_id": "2608.09501v1",
     "title": "Tracking the Best Strategy in an Extensive-Form Game",
-    "summary": "We consider the extensive-form bandit problem where on each trial the learner plays an extensive-form game against an oblivious adversary. We focus on the notion of switching regret, which measures the expected performance of the learner against that of any switching sequence of mixed strategies in retrospect. Our algorithm takes a parameter $\u03c1>0$ and achieves a switching regret of $\\tilde{\\mathcal{O}}((1/\u03c1+\u03c1K)\\sqrt{H A T})$ where $K$ is the number of switches in the comparator sequence, $H$ is the maximum number of the learner's information sets that can be traversed during a play of the game and $A$ is the number of actions that the learner can possibly take. Our algorithm is extremely efficient, taking a per trial time of only $\\mathcal{O}(H B)$ where $B$ is the maximum number of actions available to the learner at any of its information sets.",
+    "summary": "We consider the extensive-form bandit problem where on each trial the learner plays an extensive-form game against an oblivious adversary. We focus on the notion of switching regret, which measures the expected performance of the learner against that of any switching sequence of mixed strategies in retrospect. Our algorithm takes a parameter $ρ>0$ and achieves a switching regret of $\\tilde{\\mathcal{O}}((1/ρ+ρK)\\sqrt{H A T})$ where $K$ is the number of switches in the comparator sequence, $H$ is the maximum number of the learner's information sets that can be traversed during a play of the game and $A$ is the number of actions that the learner can possibly take. Our algorithm is extremely efficient, taking a per trial time of only $\\mathcal{O}(H B)$ where $B$ is the maximum number of actions available to the learner at any of its information sets.",
     "authors": [
       "Stephen Pasteris",
       "Rahul Savani",
@@ -1428,7 +1428,7 @@
     "title": "ZetaGPT: A Reference Implementation of Positional--Encoding--Free State--Space--Attention Language Models",
     "summary": "Transformer-based language models rely on self-attention, whose computation is permutation-equivariant and therefore lacks an intrinsic mechanism for representing token order. Existing architectures address this limitation by explicitly incorporating positional information through learned positional embeddings or hand-crafted positional encodings, such as rotary positional encoding (RoPE), treating positional information as an architecturally acquired capability rather than an inherent property of the model. Motivated by the pursuit of positional-encoding-free architectures, this work explores a language model architecture that integrates causal state-space equations to implicitly encode positional information before attention computation. Specifically, each model block applies a causal state-space equation before self-attention, allowing recurrent state dynamics to encode sequential information into token representations. Consequently, subsequent attention layers operate on position-aware representations without requiring explicit positional encodings while retaining the expressive modeling capacity of self-attention. We present \\textsc{ZetaGPT}, a compact hybrid language model designed for research, rapid prototyping, algorithm verification, and educational applications. In addition to the proposed architecture, \\textsc{ZetaGPT} provides a fully open-source, end-to-end training pipeline encompassing dataset construction, tokenizer training, pretraining, supervised fine-tuning, reinforcement learning from human feedback (RLHF), and chain-of-thought (CoT) reasoning via pure reinforcement learning. To the best of our knowledge, \\textsc{ZetaGPT} is the first open-source small language model without explicit positional encoding and establishes a compact, reproducible reference implementation for the development and empirical study of positional-encoding-free language models.",
     "authors": [
-      "R\u00f3is\u00edn Luo"
+      "Róisín Luo"
     ],
     "categories": [
       "cs.CL",
@@ -1468,7 +1468,7 @@
     "title": "Defining Decentralization: An Ontological Perspective",
     "summary": "Decentralization as a concept in computer science has existed for over half a century. Despite its fundamental role across domains such as security, distributed computing, artificial intelligence, cloud infrastructures, and Internet of Things (IoT) architectures, there remains no universally accepted definition of decentralization applicable across computer communication systems. This has become increasingly problematic with the emergence of decentralized AI and machine learning paradigms, including collaborative training, distributed inference, blockchain-based, and agentic AI, where decentralization is often treated as a core design objective. Meanwhile, existing approaches frequently conflate decentralization with related notions such as distribution of trust or specific implementation paradigms. Such ambiguity creates inconsistencies in system analysis, limits comparability between works, and weakens the rigor of formal reasoning surrounding communication architectures and protocol design. In this work, we define this research gap as the Decentralization Problem.   We analyze the formal-semantic, epistemological, and pragmatic foundations of decentralization and introduce a graph-based ontology defining it as both relational and subject-specific property of computer communication systems. The framework formally distinguishes decentralization from distribution and supports evaluation through two novel metrics: Void Tolerance and Imperviousness. We also provide a browser-based implementation that enables automated classification and metric computation of arbitrary systems. Instantiations to federated learning and blockchain architectures show consistent, comparable assessments where existing definitions produce incomplete or contradictory conclusions, providing a domain-independent foundation for analysing decentralization across heterogeneous systems.",
     "authors": [
-      "Jakub Kacper Szel\u0105g",
+      "Jakub Kacper Szeląg",
       "Aydin Abadi",
       "Mohammad Naseri"
     ],
@@ -1842,7 +1842,7 @@
       "Reuel C Igbokwe Onuigbo",
       "Elliott Pert",
       "Cameron Tovey",
-      "Jo\u00e3o A. Leite",
+      "João A. Leite",
       "Olesya Razuvayevskaya",
       "Carolina Scarton"
     ],
@@ -2084,7 +2084,7 @@
   {
     "arxiv_id": "2608.09523v1",
     "title": "Generalized Convexity and Smoothness via Conjugate Duality: Optimization Theory for Deep Neural Networks",
-    "summary": "Deep neural network (DNN) training with stochastic gradient descent (SGD) and its variants achieves strong empirical performance, yet classical optimization theory does not fully explain this success. This limitation arises because conventional analyses rely on assumptions such as differentiability, convexity, or smoothness, which are often violated by DNN objectives. In this paper, we establish a unified optimization framework for DNN training by generalizing classical convexity and smoothness through Legendre functions and convex conjugation. Specifically, we introduce $\\mathcal{H}(\u03c8)$-convexity and $\\mathcal{H}(\u03a8)$-smoothness, which unify convex and non-convex as well as smooth and non-smooth objectives within a single formalism and reveal a natural duality between generalized smoothness and convexity. Building on these generalized properties, we introduce generalized gradient descent (GD) and generalized SGD through convex conjugation. We theoretically prove that generalized GD admits an optimal learning rate of exactly $1$, and derive rigorous gradient-energy-based convergence rates for both proposed optimizers. We further reformulate DNN training as a composite optimization problem, demonstrating that its convergence relies on jointly reducing the gradient energy and controlling the induced norm of the network Jacobian. To characterize the practical influences of network architectures and training configurations, we introduce the gradient correlation factor and model capacity risk, and quantitatively analyze how architectural designs, batch size, and model capacity shape training convergence. Extensive experiments across diverse network architectures, datasets, optimizers, and loss functions validate our theoretical bounds and demonstrate precise alignment between our theoretical predictions and empirical training dynamics.",
+    "summary": "Deep neural network (DNN) training with stochastic gradient descent (SGD) and its variants achieves strong empirical performance, yet classical optimization theory does not fully explain this success. This limitation arises because conventional analyses rely on assumptions such as differentiability, convexity, or smoothness, which are often violated by DNN objectives. In this paper, we establish a unified optimization framework for DNN training by generalizing classical convexity and smoothness through Legendre functions and convex conjugation. Specifically, we introduce $\\mathcal{H}(ψ)$-convexity and $\\mathcal{H}(Ψ)$-smoothness, which unify convex and non-convex as well as smooth and non-smooth objectives within a single formalism and reveal a natural duality between generalized smoothness and convexity. Building on these generalized properties, we introduce generalized gradient descent (GD) and generalized SGD through convex conjugation. We theoretically prove that generalized GD admits an optimal learning rate of exactly $1$, and derive rigorous gradient-energy-based convergence rates for both proposed optimizers. We further reformulate DNN training as a composite optimization problem, demonstrating that its convergence relies on jointly reducing the gradient energy and controlling the induced norm of the network Jacobian. To characterize the practical influences of network architectures and training configurations, we introduce the gradient correlation factor and model capacity risk, and quantitatively analyze how architectural designs, batch size, and model capacity shape training convergence. Extensive experiments across diverse network architectures, datasets, optimizers, and loss functions validate our theoretical bounds and demonstrate precise alignment between our theoretical predictions and empirical training dynamics.",
     "authors": [
       "Binchuan Qi"
     ],
@@ -2209,7 +2209,7 @@
       "Tadanobu Chuyo Kamijo",
       "Ori Rottenstreich",
       "Javier Conde",
-      "Gonzalo Mart\u00ednez",
+      "Gonzalo Martínez",
       "Pedro Reviriego"
     ],
     "categories": [
@@ -2331,7 +2331,7 @@
     "title": "XFeat Revisited: Reproducibility and Evaluation of a Lightweight Image Matcher",
     "summary": "We present a reproducibility study of XFeat, a lightweight local feature extractor and matcher designed to identify corresponding points across images efficiently on resource-constrained hardware. We re-implement the architecture based on the paper and supplementary material, re-evaluate the authors' released checkpoint alongside our re-implementation, and conduct additional architectural ablations to examine design choices that were not fully justified in the original work. This distinction between re-evaluation and reproduction is important, as the paper, supplement, and public code differ in several implementation details, including the backbone layout, fusion block, and training losses. Empirically, our reproduced models closely match and, in some cases, outperform the re-evaluated original checkpoint on MegaDepth-1500 and ScanNet-1500, supporting the main claim that XFeat provides a strong accuracy-efficiency trade-off for standard image-matching benchmarks. Our ablations provide a more nuanced view of two architectural arguments from the original paper. In particular, the parallel keypoint branch is important for semi-dense matching, but its benefit is less pronounced than originally claimed, while the evidence for the specific placement of the single skip-connection remains inconclusive. Finally, we reproduce the original downstream evaluations and find close agreement for homography estimation, while Aachen visual localization remains below the reported results, even for the released checkpoint, suggesting sensitivity to underspecified evaluation details. We then extend the analysis to zero-shot out-of-distribution and cross-modal matching across retinal, thermal-visible, and multimodal remote-sensing imagery, where XFeat remains effective in some settings but degrades sharply under severe modality shifts.",
     "authors": [
-      "Lazar \u0110okovi\u0107",
+      "Lazar Đoković",
       "Aimee Lin"
     ],
     "categories": [
@@ -2397,11 +2397,11 @@
     "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
     "summary": "We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presented at inference time continuously update the model's recurrent memory; the model then solves a query through iterative computation in a high-dimensional latent space, without verbalizing its intermediate reasoning. We evaluate the model on the public ARC-AGI-1 evaluation set and use controlled ARC-like interventions to study what it learns from demonstrations, how consistently it applies an inferred transformation, and which concepts remain difficult. A 150M-parameter configuration reaches 29.5% pass@2 at a computed inference cost of \\$0.0007 per task. This operating point breaks through the previously reported ARC-AGI-1 cost-accuracy Pareto frontier, establishing a new state of the art in benchmark cost efficiency.",
     "authors": [
-      "Bj\u00f6rn Engdahl",
+      "Björn Engdahl",
       "Adrian Kosowski",
       "Jan Chorowski",
       "Zuzanna Stamirowska",
-      "Przemys\u0142aw Uzna\u0144ski",
+      "Przemysław Uznański",
       "Junlin Jiang",
       "Rohan Phadke",
       "Remigiusz Kinas",
@@ -2728,7 +2728,7 @@
   {
     "arxiv_id": "2608.09899v1",
     "title": "Fairness in Link Prediction Beyond Demographic Parity: A Reproducibility Study",
-    "summary": "In fair ranked link prediction, demographic parity ($\u0394_\\mathrm{DP}$) is a common fairness metric. Yet, Mattos et al. (2025) argue that it fails to detect exposure bias because it ignores where links appear in the ranking. In this study, we reproduce this claim by showing that $\u0394_\\mathrm{DP}$ can indicate aggregate parity even when some subgroup-pair links are systematically ranked lower than others. The proposed rank-aware Normalized Discounted KL-divergence (NDKL), however, does detect such disparities. We also reproduce the effectiveness of MORAL, a post-processing method that improves exposure-based fairness while maintaining competitive utility. Beyond reproduction, we assess robustness using synthetic homophily settings, categorical sensitive attributes, and additional fairness and utility metrics, including subgroup-pair-adapted Attention-Weighted Rank Fairness (AWRF). Overall, our results show that exposure-based metrics uncover biases hidden by $\u0394_\\mathrm{DP}$ and that MORAL reduces these biases with minimal utility loss across diverse settings and datasets. We release a corrected, reproducible implementation at https://github.com/Floris93100/reproducing-MORAL.",
+    "summary": "In fair ranked link prediction, demographic parity ($Δ_\\mathrm{DP}$) is a common fairness metric. Yet, Mattos et al. (2025) argue that it fails to detect exposure bias because it ignores where links appear in the ranking. In this study, we reproduce this claim by showing that $Δ_\\mathrm{DP}$ can indicate aggregate parity even when some subgroup-pair links are systematically ranked lower than others. The proposed rank-aware Normalized Discounted KL-divergence (NDKL), however, does detect such disparities. We also reproduce the effectiveness of MORAL, a post-processing method that improves exposure-based fairness while maintaining competitive utility. Beyond reproduction, we assess robustness using synthetic homophily settings, categorical sensitive attributes, and additional fairness and utility metrics, including subgroup-pair-adapted Attention-Weighted Rank Fairness (AWRF). Overall, our results show that exposure-based metrics uncover biases hidden by $Δ_\\mathrm{DP}$ and that MORAL reduces these biases with minimal utility loss across diverse settings and datasets. We release a corrected, reproducible implementation at https://github.com/Floris93100/reproducing-MORAL.",
     "authors": [
       "Valentijn Oldenburg",
       "Floris de Kam",
@@ -2749,7 +2749,7 @@
   {
     "arxiv_id": "2608.09870v1",
     "title": "Logarithmic-Free Moment and Generalization Bounds for Uniformly Stable Algorithms",
-    "summary": "Uniform stability is a classical tool for controlling the generalization error of a learning algorithm. Bousquet, Klochkov, and Zhivotovskiy (2020) showed that the problem can be reduced to a moment inequality for a sum of weakly interacting functions of independent random variables. Their bound contains an additional factor $\\log n$, and they asked whether this factor can be removed. We answer this upper-bound question affirmatively. More specifically, let $Z=(Z_1,\\ldots,Z_n)$ have independent coordinates and let $g_i(Z)$ satisfy $$ \\mathbb E[g_i(Z)\\mid Z_{-i}]=0, \\qquad \\left| \\mathbb E[g_i(Z)\\mid Z_i]\\right|\\le M, \\qquad \\forall i = \\overline{1, n} $$ while changing any coordinate $Z_j$, $j\\neq i$, changes $g_i$ by at most $\u03b2$ and $Z_{-i}$ denotes all coordinates except $Z_i$. We prove that, for every $p\\ge2$, $$ \\left\\| \\sum_{i=1}^n g_i(Z)\\right\\|_p \\le 16pn\u03b2+M\\sqrt{2pn}. $$ This removes the $\\log n$ factor from the previous bound and matches the lower bound of Bousquet, Klochkov, and Zhivotovskiy up to universal constants in the range covered by their construction. Our proof first establishes the required estimate on the Rademacher cube, then transfers it to arbitrary product distributions by a two-copy randomization argument.",
+    "summary": "Uniform stability is a classical tool for controlling the generalization error of a learning algorithm. Bousquet, Klochkov, and Zhivotovskiy (2020) showed that the problem can be reduced to a moment inequality for a sum of weakly interacting functions of independent random variables. Their bound contains an additional factor $\\log n$, and they asked whether this factor can be removed. We answer this upper-bound question affirmatively. More specifically, let $Z=(Z_1,\\ldots,Z_n)$ have independent coordinates and let $g_i(Z)$ satisfy $$ \\mathbb E[g_i(Z)\\mid Z_{-i}]=0, \\qquad \\left| \\mathbb E[g_i(Z)\\mid Z_i]\\right|\\le M, \\qquad \\forall i = \\overline{1, n} $$ while changing any coordinate $Z_j$, $j\\neq i$, changes $g_i$ by at most $β$ and $Z_{-i}$ denotes all coordinates except $Z_i$. We prove that, for every $p\\ge2$, $$ \\left\\| \\sum_{i=1}^n g_i(Z)\\right\\|_p \\le 16pnβ+M\\sqrt{2pn}. $$ This removes the $\\log n$ factor from the previous bound and matches the lower bound of Bousquet, Klochkov, and Zhivotovskiy up to universal constants in the range covered by their construction. Our proof first establishes the required estimate on the Rademacher cube, then transfers it to arbitrary product distributions by a two-copy randomization argument.",
     "authors": [
       "Thanh Nguyen-Cung",
       "Binh T. Nguyen"
@@ -2872,7 +2872,7 @@
     "summary": "Optimization theory is a widely used tool for intelligent decision-making. While classical optimization deals with fixed, time-invariant objective functions, many modern applications operate in dynamic environments where data arrive sequentially, and the learning objective evolves over time, often under decentralized data and communication constraints. Motivated by these trends, we study decentralized optimization from streaming data through a structured time-varying formulation in which the global objective is a temporally weighted average of losses observed across the network. We analyze multi-iteration decentralized first-order methods, including decentralized gradient descent. For strongly convex and smooth losses, we develop guarantees for the Euclidean-norm \\emph{tracking error} through a contraction-mapping viewpoint. The resulting bounds decompose the tracking error into a fixed-point tracking component and a bias term induced by decentralization and data heterogeneity. We specialize our analysis to uniform and exponentially discounted weights, as well as their finite-memory \\emph{windowed} counterparts. The bounds explicitly characterize the roles of the temporal weighting rule, per-step iteration budget, step size, and network connectivity. Uniform weighting yields a vanishing fixed-point tracking contribution of order $\\mathcal O(1/t)$, whereas discounted and windowed strategies generally induce non-vanishing tracking floors governed by the discount factor and effective memory, respectively. In all cases, decentralization induces an additional non-zero bias floor under a constant step size. Numerical experiments illustrate the predicted trends.",
     "authors": [
       "Muhammad Faraz Ul Abrar",
-      "Nicol\u00f2 Michelusi",
+      "Nicolò Michelusi",
       "Erik G. Larsson"
     ],
     "categories": [
@@ -3198,7 +3198,7 @@
     "authors": [
       "Laurens Samson",
       "Iva Gornishka",
-      "Gossa L\u00f4",
+      "Gossa Lô",
       "Yuki M. Asano",
       "Sennay Ghebreab"
     ],
@@ -3353,7 +3353,7 @@
   {
     "arxiv_id": "2608.09558v1",
     "title": "Training-Free Universal Approximation by Prompting Random Transformers",
-    "summary": "How expressive is prompting a transformer? Answering this question is important for separating the roles of prompting, architecture, and pretraining in transformer models, and for determining whether task-specific behavior must be stored in model weights or can instead be induced at inference time through the prompt. We show, in an approximation-theoretic sense, that pretraining is optional: a single-layer softmax attention network with random, untrained weights can approximate any H\u00f6lder function on a compact manifold when steered by an appropriate soft prompt. Guided by the connection between softmax attention and kernel methods, we construct explicit soft prompts (a prompt per target function, independent of the query) as solutions to linear systems matching attention logits to Gaussian kernel exponents, under which the frozen transformer emulates the classical Nadaraya-Watson kernel estimator. The construction requires only a mild rank condition on the weights, which we show holds almost surely under Gaussian initialization. The prompted network inherits the theoretical guarantees of kernel regression, leading to universal approximation theorems with minimax-optimal rates that depend on the intrinsic dimension. We further quantify the cost of prompting, exposing a tradeoff between the norm of the constructed soft prompt tokens, prompt length, and hidden dimension. Numerical experiments corroborate the constructions and predicted rates.",
+    "summary": "How expressive is prompting a transformer? Answering this question is important for separating the roles of prompting, architecture, and pretraining in transformer models, and for determining whether task-specific behavior must be stored in model weights or can instead be induced at inference time through the prompt. We show, in an approximation-theoretic sense, that pretraining is optional: a single-layer softmax attention network with random, untrained weights can approximate any Hölder function on a compact manifold when steered by an appropriate soft prompt. Guided by the connection between softmax attention and kernel methods, we construct explicit soft prompts (a prompt per target function, independent of the query) as solutions to linear systems matching attention logits to Gaussian kernel exponents, under which the frozen transformer emulates the classical Nadaraya-Watson kernel estimator. The construction requires only a mild rank condition on the weights, which we show holds almost surely under Gaussian initialization. The prompted network inherits the theoretical guarantees of kernel regression, leading to universal approximation theorems with minimax-optimal rates that depend on the intrinsic dimension. We further quantify the cost of prompting, exposing a tradeoff between the norm of the constructed soft prompt tokens, prompt length, and hidden dimension. Numerical experiments corroborate the constructions and predicted rates.",
     "authors": [
       "Alexander Hsu",
       "Rongjie Lai"
@@ -3528,10 +3528,10 @@
     "summary": "Real-time MRI makes it possible to observe vocal-tract articulation during speech, but mapping these articulatory patterns to phonetic and phonological categories remains challenging. We investigate whether PhonoQ, an audio-based model trained to recognize structured phonological features, provides useful information for audio--articulatory modeling. Specifically, we extract representations from PhonoQ's Conformer module, whose training is shaped by supervision for manner, place, voicing, and vowel features. Using articulatory contours with synchronized audio-derived features, we compare WavLM-large and HuBERT-large baselines with models that incorporate PhonoQ-derived representations. Across unseen-speech and unseen-subject settings, these features improve macro-F1 for phonological targets including manner, place, voicing, vowel height, and vowel backness, and also improve fine-grained 39-phoneme classification. In a contour-only inference setting, audio-derived teacher supervision yields modest but consistent gains over contour-only training, indicating that phonological information from synchronized audio can be partially transferred to articulatory models. Finally, posterior analyses show interpretable surface-sensitive patterns consistent with flapping-like /t/ realizations, /t/-/r/ retraction or affrication, and nasal place assimilation.",
     "authors": [
       "Abner Hernandez",
-      "Tom\u00e1s Arias Vergara",
+      "Tomás Arias Vergara",
       "Daiqi Liu",
       "Andreas Maier",
-      "Paula Andrea P\u00e9rez-Toro"
+      "Paula Andrea Pérez-Toro"
     ],
     "categories": [
       "cs.CL",
@@ -3636,7 +3636,7 @@
     "title": "Unsupervised Domain Adaptation for Multitask Image Analysis in Realistic Context with Extreme Label Shift; Application to the CTAO first Large Sized Telescope",
     "summary": "Unsupervised domain adaptation is a widespread set of methods that leverages the knowledge of a labeled source domain to train a model to perform well on a related unlabeled target domain. They generally introduce an auxiliary adaptation-related task that can be integrated into the multitask paradigm, which aims to merge multiple single-task models into a unified architecture. In this paper, we propose to associate domain adaptation and multitask balancing in the realistic context of an extreme class imbalance. Therefore, we propose a combined framework to cover and validate these approaches, and evaluate its performance in the physics-based context of the Cherenkov Telescope Array Observatory (CTAO). Along with a comparative study of some relevant adaptation techniques, we highlight the impact of extreme label shift and extend the investigations on importance weighting to rectify it. The complete code and results are published and available as open-source resources on Zenodo.",
     "authors": [
-      "Micha\u00ebl Dell'aiera",
+      "Michaël Dell'aiera",
       "Thomas Vuillaume",
       "Alexandre Benoit"
     ],
@@ -3703,7 +3703,7 @@
     "summary": "Whole slide images (WSIs) in digital histopathology are acquired at discrete magnification levels encoding complementary diagnostic information from global tissue architecture to fine-grained cellular morphology. Yet, deep learning models remain sensitive to scale variation. Existing magnification-invariant methods rely on multi-scale architectures at predefined discrete resolutions, while in clinical deployment the acquisition magnification varies continuously, rarely aligns with a model's fixed training resolution, and intermediate scales are common, so robust coverage otherwise demands a costly ensemble of magnification-specific models. We propose Conditional Layer Normalization (CLN), a lightweight mechanism that generates affine normalization parameters from input pixel size via a small MLP, integrated into standard CNN architectures for both WSI classification and segmentation. Trained on patches sampled continuously across a range of pixel sizes, the model decouples inference from scanner-dependent magnification and generalizes to arbitrary, previously unseen scales at test time. On the PANDA prostate cancer dataset, our approach on average matches or exceeds independently trained single-magnification models and ranks among the top three performers at every evaluated magnification, including those unseen during training. This collapses a five-model ensemble into a single network and reduces training, and inference cost roughly 4-5 times, while leaving the multiply-accumulate count unchanged. The code is available at: https://github.com/aflorkowska/OneModelToMagnifyThemAll.",
     "authors": [
       "Agnieszka Florkowska",
-      "Henning M\u00fcller",
+      "Henning Müller",
       "Marek Wodzinski"
     ],
     "categories": [
@@ -3899,7 +3899,7 @@
     "summary": "Magnetic Particle Imaging (MPI) is an emerging medical imaging modality. MPI is based on the non-linear response of magnetic nanoparticles to an applied magnetic field and avoids ionizing radiation. The measured signal is the voltage induced in receive coils by the particles' response. Reconstructing the particle concentration from the signal constitutes the imaging task. Even using state-of-the-art measurement-based reconstruction, the associated spatial grid is very coarse, hence super-resolution (SR) techniques are important. In this work, we propose an approach for SR in MPI inspired by energy minimization. Different methods have been proposed for SR in MPI, ranging from upscaling of the associated system matrix to interpolation of the reconstruction. Here we incorporate SR into the reconstruction task via an energy minimization formulation. Following the plug-and-play approach to energy minimization we derive a splitting scheme and a SR method for MPI where the arising Gaussian denoising task is treated with a pre-trained learned Gaussian denoiser in a zero-shot fashion. This way, we incorporate benefits of deep learning without training and avoid the need of training data. Further, we provide a quantitative and qualitative evaluation of the proposed method. Hyper-parameter are selected via an extended parameter search. The found parameters are applied for reconstruction on real data. We show the applicability of our method on synthetic and on real data (MPIData: EquilibriumModelWithAnisotropy and 2D-OpenMPI Data). The proposed method employs a deep-learning denoiser without training -- thus it does not require presently scarcely available MPI training data. The denoiser behaves conservatively, i.e., no hallucination artifacts were observed. The SR approach is generic such that it can be applied in future MPI contexts involving different regularizers or different imaging tasks.",
     "authors": [
       "Vladyslav Gapyak",
-      "Thomas M\u00e4rz",
+      "Thomas März",
       "Andreas Weinmann"
     ],
     "categories": [
@@ -4069,7 +4069,7 @@
   {
     "arxiv_id": "2608.09450v1",
     "title": "From Approachability Residuals to Anytime-Valid Evidence: The Online Convex Geometry of Testing by Betting",
-    "summary": "Betting-based sequential tests and Blackwell approachability are linked by a rate-explicit reduction through support-function residuals. For a compact convex target $S$ and vector observations $r_t$, an OCO learner selects a predictable normal $w_t$ and produces $q_t=\\langle w_t,r_t\\rangle-h_S(w_t)$. We prove the exact pathwise identity $$   \\dist(\\bar r_T,S)   =\\frac1T\\sum_{t=1}^Tq_t+\\frac{\\Reg_T}{T}. $$ When $|q_t|\\leq B$, composing this identity with one-sided betting yields a finite-time transfer: if the OCO and log-wealth regrets are at most $a_T$ and $\\ell_T$, respectively, then a target gap exceeding \\[   \\frac{a_T}{T}   +2B\\sqrt{\\frac{\\log(1/\u03b1)+\\ell_T}{T}} \\] forces rejection by time $T$, while non-rejection certifies the converse radius. We then formulate a controlled stochastic experiment in which an action selected after $w_t$ satisfies Blackwell's supporting-halfspace condition for every null mean payoff. The resulting wealth is an e-process under adaptive nulls; sublinear OCO regret gives stochastic approachability, whereas persistent mean separation under an alternative gives exponential wealth at rate at least $\u03b4^2/(4B^2)$. Deterministic Blackwell games and passive tests are, respectively, the noise-free and singleton-action cases of this protocol. Bounded two-sample means, kernel MMD, and active heterogeneous data sources instantiate the reduction. The resulting connection is exact algebraically, quantitative at finite time, and operational when experiments are controlled.",
+    "summary": "Betting-based sequential tests and Blackwell approachability are linked by a rate-explicit reduction through support-function residuals. For a compact convex target $S$ and vector observations $r_t$, an OCO learner selects a predictable normal $w_t$ and produces $q_t=\\langle w_t,r_t\\rangle-h_S(w_t)$. We prove the exact pathwise identity $$   \\dist(\\bar r_T,S)   =\\frac1T\\sum_{t=1}^Tq_t+\\frac{\\Reg_T}{T}. $$ When $|q_t|\\leq B$, composing this identity with one-sided betting yields a finite-time transfer: if the OCO and log-wealth regrets are at most $a_T$ and $\\ell_T$, respectively, then a target gap exceeding \\[   \\frac{a_T}{T}   +2B\\sqrt{\\frac{\\log(1/α)+\\ell_T}{T}} \\] forces rejection by time $T$, while non-rejection certifies the converse radius. We then formulate a controlled stochastic experiment in which an action selected after $w_t$ satisfies Blackwell's supporting-halfspace condition for every null mean payoff. The resulting wealth is an e-process under adaptive nulls; sublinear OCO regret gives stochastic approachability, whereas persistent mean separation under an alternative gives exponential wealth at rate at least $δ^2/(4B^2)$. Deterministic Blackwell games and passive tests are, respectively, the noise-free and singleton-action cases of this protocol. Bounded two-sample means, kernel MMD, and active heterogeneous data sources instantiate the reduction. The resulting connection is exact algebraically, quantitative at finite time, and operational when experiments are controlled.",
     "authors": [
       "Jinze Zhao"
     ],
@@ -4151,7 +4151,7 @@
   {
     "arxiv_id": "2608.09840v1",
     "title": "Langevin dynamics along the zero set of real-analytic potentials",
-    "summary": "We consider the Langevin diffusion $dX_t = - \u03b2\\nabla V(X_t) dt + \\sqrt{2} dB_t$ for a general nonnegative real-analytic potential $V$ and a large parameter $\u03b2$. In the large-$\u03b2$ limit the process is confined to the zero set of $V$, assuming that it starts there. We derive a candidate limiting evolution on the zero set. To do so, the zero set is partitioned into strata according to a measure of local codimension known as the local learning coefficient and its multiplicity. It is then shown that the Dirichlet form associated with $X$ converges in a certain sense to a hierarchy of Dirichlet forms corresponding to a stochastic evolution on the strata. This evolution is strongly biased toward higher-dimensional, or \"more singular\", strata. This result is motivated by a question from Watanabe's singular learning theory regarding the learning dynamics of overparameterized statistical models and the generalization puzzle in deep learning. The result suggests a mechanism for the observation that stochastic gradient methods tend to be biased toward singular solutions that generalize well.",
+    "summary": "We consider the Langevin diffusion $dX_t = - β\\nabla V(X_t) dt + \\sqrt{2} dB_t$ for a general nonnegative real-analytic potential $V$ and a large parameter $β$. In the large-$β$ limit the process is confined to the zero set of $V$, assuming that it starts there. We derive a candidate limiting evolution on the zero set. To do so, the zero set is partitioned into strata according to a measure of local codimension known as the local learning coefficient and its multiplicity. It is then shown that the Dirichlet form associated with $X$ converges in a certain sense to a hierarchy of Dirichlet forms corresponding to a stochastic evolution on the strata. This evolution is strongly biased toward higher-dimensional, or \"more singular\", strata. This result is motivated by a question from Watanabe's singular learning theory regarding the learning dynamics of overparameterized statistical models and the generalization puzzle in deep learning. The result suggests a mechanism for the observation that stochastic gradient methods tend to be biased toward singular solutions that generalize well.",
     "authors": [
       "Martin Larsson"
     ],
@@ -4172,14 +4172,14 @@
     "title": "Removing Infrastructure Barriers in Human-Robot Collaboration Through Wireless Reconfigurable Cells",
     "summary": "Human-Robot Collaboration (HRC) plays a vital role in dynamic, high mix, low volume industrial scenarios such as remanufacturing, which frequently face workcell rearrangements. Traditional setups are constrained by power and data cabling, restricting modularity and reconfigurations, while the selection of commercial wireless devices suitable for real-time perception and safe collaboration are limited in availability. This paper presents a highly flexible, wireless, 5G-based system that serves as a versatile experimental testbed for applications including remanufacturing, operator training, and user studies. To eliminate infrastructure barriers, the workcell integrates a novel battery-powered, multi-sensor platform prototype. Additionally, to support operator safety and system adaptability across environmental shifts, the system integrates a computer vision module for object detection and pose estimation, further augmented for robust hand recognition. Trained on synthetic and real data, the model reliably detects oriented grasping poses and human hands across varying lighting and background conditions (with an mAP@50-95 of 97.74 +- 0.10% and a mean inference time of 12.5 ms). Offloading these computationally intensive tasks to the edge via 5G, the proposed architecture contributes to resolving the bandwidth-latency trade-off. To demonstrate portability, the system was implemented in both Hungary and Norway, and was evaluated across a combination of public and private, Standalone and Non-Standalone 5G infrastructures. The performed network experiments produced results in round-trip response times down to 12 ms in case of compatible network-device pairings, suitable for safe, adaptive HRC. However, these measurements also revealed practical limitations related to interoperability in current 5G deployments that should be addressed in future works.",
     "authors": [
-      "Emma Tak\u00e1cs",
-      "M\u00e1ty\u00e1s Haj\u00f3s",
-      "\u00c1d\u00e1m Juniki",
-      "\u00c1d\u00e1m Fischer",
-      "Zolt\u00e1n Kom\u00e1romi",
-      "Krist\u00f3f Abai",
-      "D\u00e1niel Horv\u00e1th",
-      "S\u00e1ndor M\u00e1th\u00e9",
+      "Emma Takács",
+      "Mátyás Hajós",
+      "Ádám Juniki",
+      "Ádám Fischer",
+      "Zoltán Komáromi",
+      "Kristóf Abai",
+      "Dániel Horváth",
+      "Sándor Máthé",
       "Konstantinos Kousias",
       "Bence Tipary"
     ],
@@ -4243,7 +4243,7 @@
     "authors": [
       "Thomas Lauber",
       "Mehmet Ozgur Turkoglu",
-      "S\u00e9l\u00e8ne Ledain",
+      "Sélène Ledain",
       "Helge Aasen"
     ],
     "categories": [
@@ -4368,10 +4368,10 @@
     "title": "CableDex: Cable Length Estimation on Industrial Reels Using a Handheld Device",
     "summary": "CableDex is a computer vision system that addresses the time-consuming and inaccurate manual measurement of cable length on industrial reels from a single photograph captured with a mobile phone. The system combines camera calibration, instance segmentation, pose estimation, and volumetric calculation to estimate the cable length across five different reel types and various cable sizes. This system is based on an instance segmentation model trained on 1,000 manually annotated images, achieving 99.5\\% mAP50 with an inference time of 5.66 ms per image. Evaluated on 75 reels across five reel types, the system achieves a MAPE of 4.90\\%, within the 10\\% error tolerance commonly accepted in industrial cable-reel measurement. The demonstration presents the end-to-end pipeline, from reel label scanning and image capture to segmentation and length estimation, through the mobile application.",
     "authors": [
-      "Francisco Guill\u00e9n",
+      "Francisco Guillén",
       "Ricardo Almeida",
       "Bruno Silva",
-      "Jo\u00e3o C. Neves"
+      "João C. Neves"
     ],
     "categories": [
       "cs.CV"
@@ -4481,7 +4481,7 @@
     "summary": "Multimodal Large Language Models (MLLMs) have shown strong multimodal instruction-following ability, but adapting them to diverse visual-language domains typically assumes centralized data access and costly joint training. This is restrictive when data is distributed across private, domain-specific, or permission-limited clients. To this end, we propose DistMoE, a mixture-of-experts (MoE) approach for distributed visual instruction tuning. In each layer of the language decoder it augments the public feedforward network (FFN) with a client-specific private FFN expert, with the goal to acquire domain-specific knowledge. However, independent expert training causes the private FFNs to learn representation of different scale and magnitudes, making merging the experts difficult. To reduce client-specific drift, we introduce a public-anchored expert composition stage that updates only routers and lightweight private projection adapters on a mix of local client data and public data, via an isotropic regularization loss, therefore making it cross-client rehearsal-free composition. During inference, DistMoE performs modular routing over public and private experts, enabling token-wise domain composition without explicit domain labels. Experiments across diverse visual-language benchmarks show that DistMoE enables flexible expert reuse, effective domain adaptation, and competitive performance while preserving modular control over client-specific knowledge. Codes are available at https://github.com/mainaksingha01/DistMoE.",
     "authors": [
       "Mainak Singha",
-      "Niccol\u00f2 Biondi",
+      "Niccolò Biondi",
       "Elisa Ricci",
       "Subhankar Roy"
     ],
@@ -4603,199 +4603,5 @@
     "date": "2026-08-11",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "joyfox/MiniMax-H3-Turbo",
-    "author": "unknown",
-    "title": "joyfox/MiniMax-H3-Turbo",
-    "downloads": 0,
-    "likes": 43,
-    "tags": [
-      "comfyui",
-      "lora",
-      "minimax-h3",
-      "text-to-video",
-      "image-to-video",
-      "video-generation",
-      "audio-generation",
-      "diffusion",
-      "four-step",
-      "region:us"
-    ],
-    "pipeline_tag": "image-to-video",
-    "library": "",
-    "created_at": "2026-08-10T04:20:19.000Z",
-    "last_modified": "2026-08-11T03:30:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/joyfox/MiniMax-H3-Turbo",
-    "date": "2026-08-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "stage-babylm/llama-64-1L",
-    "author": "unknown",
-    "title": "stage-babylm/llama-64-1L",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-11T03:25:57.000Z",
-    "last_modified": "2026-08-11T03:30:20.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/stage-babylm/llama-64-1L",
-    "date": "2026-08-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "stage-babylm/llama-64-12L",
-    "author": "unknown",
-    "title": "stage-babylm/llama-64-12L",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "generated_from_trainer",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-11T02:29:11.000Z",
-    "last_modified": "2026-08-11T03:29:58.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/stage-babylm/llama-64-12L",
-    "date": "2026-08-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "fpadovani/swa-latn-100mb-100mb_seed455",
-    "author": "unknown",
-    "title": "fpadovani/swa-latn-100mb-100mb_seed455",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "base_model:goldfish-models/swa_latn_100mb",
-      "base_model:finetune:goldfish-models/swa_latn_100mb",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-11T00:02:49.000Z",
-    "last_modified": "2026-08-11T03:28:47.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fpadovani/swa-latn-100mb-100mb_seed455",
-    "date": "2026-08-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "maheshwork/new_61_5hn8asx1mz",
-    "author": "unknown",
-    "title": "maheshwork/new_61_5hn8asx1mz",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "qwen3_5_moe",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-08-11T03:25:19.000Z",
-    "last_modified": "2026-08-11T03:27:31.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/maheshwork/new_61_5hn8asx1mz",
-    "date": "2026-08-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "laki35/supra-tts",
-    "author": "unknown",
-    "title": "laki35/supra-tts",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-10T15:05:30.000Z",
-    "last_modified": "2026-08-11T03:27:17.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/laki35/supra-tts",
-    "date": "2026-08-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Scrappy-Doo/GLM-5.2",
-    "author": "unknown",
-    "title": "Scrappy-Doo/GLM-5.2",
-    "downloads": 2183,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "glm_moe_dsa",
-      "text-generation",
-      "conversational",
-      "en",
-      "zh",
-      "arxiv:2602.15763",
-      "arxiv:2603.12201",
-      "license:mit",
-      "eval-results",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-07T21:00:33.000Z",
-    "last_modified": "2026-08-11T03:27:07.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/Scrappy-Doo/GLM-5.2",
-    "date": "2026-08-11",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
