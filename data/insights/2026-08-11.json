@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-11T03:30:43.746967",
+  "date": "2026-08-11T05:01:44.803540",
   "patterns": {
     "multimodal_research": [
       {
@@ -299,6 +299,10 @@
       {
         "title": "You Only Flow Once: Calibrated and Real-Time Radar Pose Estimation with Multi-Hypothesis Normalizing Flows",
         "url": "https://arxiv.org/abs/2608.09579v1"
+      },
+      {
+        "title": "KKHYA/llavaqwen3-1.7b-finetune-adapter-moe-sparse-4e-2k-B7a-pesc-sd3_20260811_024003",
+        "url": "https://huggingface.co/KKHYA/llavaqwen3-1.7b-finetune-adapter-moe-sparse-4e-2k-B7a-pesc-sd3_20260811_024003"
       }
     ],
     "language_models": [
@@ -1661,7 +1665,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "43 independent papers",
+      "observation": "44 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 409
   }
 }
