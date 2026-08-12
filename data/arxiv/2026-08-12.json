@@ -101,7 +101,7 @@
     "summary": "Over the past several years, LLM-powered chatbots and agents have become widely used as a tool for academic writing. LLM-assisted writing can be valuable by removing language barriers but at the same time causes concerns about misconduct and fraud. To inform policy decisions, it is necessary to monitor the prevalence of LLM-altered texts in scholarly publications. Despite some recent progress in this direction, no existing method can produce reliable estimates. Here we suggest and validate a new unbiased approach to estimate LLM usage in a corpus of texts based on changing word frequencies. We apply our method to the full texts of open-access biomedical papers from Pubmed Central, and show that by the end of 2025, 89% of papers show excess of LLM-associated vocabulary. We also find that LLMs are twice as likely to be used when writing a paragraph in the Discussion section (68%) compared to a paragraph in the Methods section (32%), but even inside the Methods section, the overall prevalence of LLM usage is over 50%. We believe that our estimates are crucial to shape future guidelines and policies.",
     "authors": [
       "Lena Holzwarth",
-      "Rita Gonz\u00e1lez-M\u00e1rquez",
+      "Rita González-Márquez",
       "Dmitry Kobak"
     ],
     "categories": [
@@ -420,7 +420,7 @@
     "summary": "Probabilistic forecasting plays an essential role in risk-sensitive decision-making, particularly in long-horizon settings. However, existing approaches often face a fundamental trade-off between distributional flexibility and accurate mean prediction. Traditional parametric methods, such as Mean Variance Estimation (MVE), can suffer from degraded point accuracy when trained under joint Negative Log-Likelihood (NLL) objectives, while modern-flexible generative models, including Normalizing Flows and Diffusion Models, typically rely on costly Monte Carlo sampling and may yield suboptimal mean estimates. To address this limitation, we propose Two-stage Odd Residual Flows (TORF), a framework that decouples mean forecasting from uncertainty estimation. In the first stage, a pre-trained deterministic model is used to produce an accurate mean prediction. In the second stage, a Restricted Normalizing Flow, with strictly odd functions learns flexible residual distributions around the point forecast, guaranteeing mean preservation from the first stage without sampling. Experiments show that TORF achieves state-of-the-art deterministic accuracy (NMAE) while providing strong density estimation performance (CRPS) on short and long-horizon forecasting.",
     "authors": [
       "Kiran Madhusudhanan",
-      "Christian Kl\u00f6tergens",
+      "Christian Klötergens",
       "Lars Schmidt-Thieme",
       "Vijaya Krishna Yalavarthi"
     ],
@@ -902,7 +902,7 @@
     "title": "What Iterated Self-Feeding Probes of Language Models Measure, and a test that separates the construction from the model",
     "summary": "A growing class of methods probes a language model by feeding it its own output: self-consistency, iterated refinement, agentic loops. We ask what such a probe measures, in a construction chosen to make the question sharp: a ring of token cells resampled in place by the model's own windowed conditional p_r(x_i | x_{i+-r}). The substrate is Glauber dynamics on token sequences and is not new; what we change is the coupling. Advancing two rings that differ in one token under common random numbers makes undamaged copies diverge by exactly zero, so damage spreading becomes measurable where a maximal coupling gives mixing times instead. The answer is that it measures two different things at once, in readings that look alike. Some quantities are fixed by the construction: the damage light cone is kinematic, and the radius scaling of the token-space Lyapunov exponent lambda_ca(r) is model-invariant across 19 models and two scale ladders spanning 70x. Others genuinely track the model: lambda_ca crosses zero at a reproducible point in training, and the attractor share ranks models consistently however the lattice is built. Left undistinguished, the first kind is readily mistaken for the second -- we did so ourselves for four months, and report a phase transition we measured to three decimal places that belongs to the probe rather than to any language model. We give the test that separates them: hold the construction fixed and vary the model, or hold the model fixed and vary the construction, and see which readings move. We validate the instrument by reproduction first, recovering a Domany-Kinzel damage field bit-exactly against an independent prediction, and we report the estimator failures that this discipline caught -- four retracted verdicts, each on a quantity that looked like a measurement. The methodology ships as a package.",
     "authors": [
-      "Nicol\u00e1s Vera Z\u00fa\u00f1iga"
+      "Nicolás Vera Zúñiga"
     ],
     "categories": [
       "cs.CL"
@@ -921,7 +921,7 @@
     "authors": [
       "Ruirui Wang",
       "Yanke Li",
-      "Manuel G\u00fcnther",
+      "Manuel Günther",
       "Diego Paez-Granados"
     ],
     "categories": [
@@ -1331,7 +1331,7 @@
   {
     "arxiv_id": "2608.11066v1",
     "title": "Quantum Coordination Advantages in AI State-Tracking Tasks: Semantic Compilation and Latent Memory",
-    "summary": "We prove inference-time quantum coordination advantages for specified AI state-tracking tasks. A solver compresses semantic history into a future-accessible boundary state and later answers a query. We count communication $B$, persistent instance-dependent memory $M$, and local work $D$; classical recurrence, caches, tools, and recomputation are allowed and charged. The central result is a boundary-preserving semantic-compilation theorem. It maps a finite one-way, streaming, or adaptive causal task into a semantic AI interface while preserving event order and access to past input. Classical boundary-state lower bounds and quantum-memory upper bounds transfer up to explicit compiler overhead, independently of the finite-precision recurrent architecture. Two applications have classical semantics. Matched-entity synopsis QA inherits the hidden-matching separation between $O(\\log N)$ qubits and $\u03a9(\\sqrt{N})$ classical boundary bits. Continual requirements auditing inherits a Max-$k$SAT streaming separation: a recurrent solver uses $O(\\log^5 n\\log(1/\u03b4))$ qubits and polylogarithmic classical workspace to obtain a $0.7172$-approximation, whereas every classical one-pass finite-information solver attaining that ratio requires $\u03a9(\\sqrt{n})$ coordination width. As a quantum-native compiler test, a stabilizer latent-state dialogue uses $n$ qubits, while every exact finite-state classical causal online realization satisfies $B+M \\ge \\frac{1}{2}n^2+(\\frac{3}{2}-\\log_2 3)n+O(1)$. The source protocols, streaming algorithms, and stabilizer witness are imported; the new result is their architecture-independent semantic transfer. These are memory and coordination separations, not runtime or empirical advantages for present-day language models. The stabilizer result assumes exact simulation and ideal noiseless quantum memory.",
+    "summary": "We prove inference-time quantum coordination advantages for specified AI state-tracking tasks. A solver compresses semantic history into a future-accessible boundary state and later answers a query. We count communication $B$, persistent instance-dependent memory $M$, and local work $D$; classical recurrence, caches, tools, and recomputation are allowed and charged. The central result is a boundary-preserving semantic-compilation theorem. It maps a finite one-way, streaming, or adaptive causal task into a semantic AI interface while preserving event order and access to past input. Classical boundary-state lower bounds and quantum-memory upper bounds transfer up to explicit compiler overhead, independently of the finite-precision recurrent architecture. Two applications have classical semantics. Matched-entity synopsis QA inherits the hidden-matching separation between $O(\\log N)$ qubits and $Ω(\\sqrt{N})$ classical boundary bits. Continual requirements auditing inherits a Max-$k$SAT streaming separation: a recurrent solver uses $O(\\log^5 n\\log(1/δ))$ qubits and polylogarithmic classical workspace to obtain a $0.7172$-approximation, whereas every classical one-pass finite-information solver attaining that ratio requires $Ω(\\sqrt{n})$ coordination width. As a quantum-native compiler test, a stabilizer latent-state dialogue uses $n$ qubits, while every exact finite-state classical causal online realization satisfies $B+M \\ge \\frac{1}{2}n^2+(\\frac{3}{2}-\\log_2 3)n+O(1)$. The source protocols, streaming algorithms, and stabilizer witness are imported; the new result is their architecture-independent semantic transfer. These are memory and coordination separations, not runtime or empirical advantages for present-day language models. The stabilizer result assumes exact simulation and ideal noiseless quantum memory.",
     "authors": [
       "Ming Yang"
     ],
@@ -1563,7 +1563,7 @@
   {
     "arxiv_id": "2608.11195v1",
     "title": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
-    "summary": "AI agents are increasingly used in mathematics research, but it is often unclear how to use them effectively. Towards this, we present an extensive case study of how AI was used to improve bounds on the Grothendieck constant $K_G$, which captures the hardness between combinatorial problems and their continuous relaxations. Specifically, while the precise value of $K_G$ is not known, we recently tightened the best known bounds to \\[   \\frac{6\u03c0}{11}   \\;\\le\\;   K_G   \\;\\le\\;   \\frac\u03c0{2\\log(1+\\sqrt2)} - 10^{-4}. \\] Crucially, these improvements were achieved using an AI research system that could arrive at insights deemed novel by domain experts. We give a detailed discussion of our experience using AI for mathematics research, particularly touching upon its strengths and weaknesses, as well as our experience with creating ideal conditions for AI to arrive at breakthrough insights.",
+    "summary": "AI agents are increasingly used in mathematics research, but it is often unclear how to use them effectively. Towards this, we present an extensive case study of how AI was used to improve bounds on the Grothendieck constant $K_G$, which captures the hardness between combinatorial problems and their continuous relaxations. Specifically, while the precise value of $K_G$ is not known, we recently tightened the best known bounds to \\[   \\frac{6π}{11}   \\;\\le\\;   K_G   \\;\\le\\;   \\fracπ{2\\log(1+\\sqrt2)} - 10^{-4}. \\] Crucially, these improvements were achieved using an AI research system that could arrive at insights deemed novel by domain experts. We give a detailed discussion of our experience using AI for mathematics research, particularly touching upon its strengths and weaknesses, as well as our experience with creating ideal conditions for AI to arrive at breakthrough insights.",
     "authors": [
       "Alan Li",
       "Rahul Saha",
@@ -1696,7 +1696,7 @@
     "title": "MVTrack: Ultrafast Appearance-Free Moving Object Tracking from Compressed Bitstreams",
     "summary": "Deploying modern video trackers at scale is bottlenecked by the computational cost of RGB-based object detectors. To this end, we present MVTrack, an ultrafast tracker for moving objects that operates directly on H.264 bitstreams. MVTrack combines MVDet, a lightweight detector for motion vector fields, with MVLink, a minimalist kinematic association module. On VIRAT, MVTrack outperforms YOLO26n while using 60$\\times$ fewer parameters, requiring 40$\\times$ fewer FLOPs, and reducing CPU latency by 8.6$\\times$. These results demonstrate that compressed video data alone can enable accurate and scalable surveillance tracking, thereby bypassing the need for pixel reconstruction.",
     "authors": [
-      "I\u00f1aki Erregue",
+      "Iñaki Erregue",
       "Kamal Nasrollahi",
       "Sergio Escalera"
     ],
@@ -2103,7 +2103,7 @@
     "summary": "Shani et al. (2026) show that LLM representations broadly recover human category boundaries, while failing to reflect fine-grained typicality structure. Their analysis uses cosine similarity over dense model representations. We revisit their approach using overlap over active sparse autoencoder (SAE) latent sets as a more interpretable similarity measure. We first verify that this set-level measure is meaningful: SAE latent sets can recover union-like compositional structure in controlled toy models and induce semantically coherent neighborhoods in natural text. Extending the human-concepts analysis to SAE set similarities, we find that SAE activation sets do not recover human category boundaries or within-category typicality more faithfully than dense embeddings or residual-stream states, but instead track model-internal similarity structure. To probe this gap further, we study active latent sets under well-controlled semantic modifications, revealing a substantial mismatch between human judgements of conceptual change and change in the SAE active set. We interpret this as evidence that, outside idealised settings, SAE features do not compose via simple bag-of-features semantics.",
     "authors": [
       "Nikolai Bolik",
-      "Lennart St\u00f6pler",
+      "Lennart Stöpler",
       "Artur Andrzejak"
     ],
     "categories": [
@@ -2362,7 +2362,7 @@
   {
     "arxiv_id": "2608.11027v1",
     "title": "Mapping and Measuring the Behavioral Evolution of Large Language Models",
-    "summary": "Benchmark leaderboards summarize how well a language model performs, but not how its behavior relates to that of other models or changes across generations. We characterize the output behavior of 32 models from six families using their responses to a shared bank of 10{,}000 prompts. After embedding each response, we construct three complementary sentence-level dissimilarities: an aligned mean per-prompt distance, which is a pseudometric on observed model responses; a PCA-compressed summary of prompt-wise disagreement; and an alignment-free Gromov--Wasserstein discrepancy between models' internal response geometries. We use these constructions to study static organization and temporal change on a release-date axis through behavioral maps, family-wise drift, hierarchical clustering, cross-family convergence, and response-cloud dispersion. Across the three constructions, model families form coherent clusters, with \\texttt{gpt-2} as a global outlier; cross-family distances decrease over time; and several recent reasoning-oriented models have comparatively compact response clouds. A token-level cross-check based on per-prompt Maximum Mean Discrepancy closely agrees with the sentence-level mean distance (Spearman $\u03c1=0.98$) and recovers the same qualitative findings. We organize these comparisons through a measure-theoretic lens making their alignment and invariance assumptions explicit. We also establish an architecture-agnostic sufficient condition linking behavioral similarity to inference-prompt coverage, small excess population log-loss, and similar effective target distributions---a possible training-side account rather than an empirical explanation of the observed trends. Our pipeline is label-free, and re-encoding every response with three further encoders---down to one $73\\times$ smaller---preserves the rank geometry, the outliers, and the sign of the time trend.",
+    "summary": "Benchmark leaderboards summarize how well a language model performs, but not how its behavior relates to that of other models or changes across generations. We characterize the output behavior of 32 models from six families using their responses to a shared bank of 10{,}000 prompts. After embedding each response, we construct three complementary sentence-level dissimilarities: an aligned mean per-prompt distance, which is a pseudometric on observed model responses; a PCA-compressed summary of prompt-wise disagreement; and an alignment-free Gromov--Wasserstein discrepancy between models' internal response geometries. We use these constructions to study static organization and temporal change on a release-date axis through behavioral maps, family-wise drift, hierarchical clustering, cross-family convergence, and response-cloud dispersion. Across the three constructions, model families form coherent clusters, with \\texttt{gpt-2} as a global outlier; cross-family distances decrease over time; and several recent reasoning-oriented models have comparatively compact response clouds. A token-level cross-check based on per-prompt Maximum Mean Discrepancy closely agrees with the sentence-level mean distance (Spearman $ρ=0.98$) and recovers the same qualitative findings. We organize these comparisons through a measure-theoretic lens making their alignment and invariance assumptions explicit. We also establish an architecture-agnostic sufficient condition linking behavioral similarity to inference-prompt coverage, small excess population log-loss, and similar effective target distributions---a possible training-side account rather than an empirical explanation of the observed trends. Our pipeline is label-free, and re-encoding every response with three further encoders---down to one $73\\times$ smaller---preserves the rank geometry, the outliers, and the sign of the time trend.",
     "authors": [
       "Dong Qiao",
       "Chris Ding",
@@ -2466,7 +2466,7 @@
   {
     "arxiv_id": "2608.10893v1",
     "title": "Certify or Refuse: A Cross-Model Map for Selective Risk Control with Coverage Floors under Covariate Shift",
-    "summary": "Certified selective predictors attain whatever coverage they attain; operators impose an automation floor: answer at least a $\u03b2$-fraction of shifted target traffic with at most an $\u03b1$-fraction of answers wrong. Under bounded-ratio covariate shift we prove the Floor Certification Map: once that floor must be certified alongside the selection-conditioned risk $\u03b1$, certification acquires a feasibility frontier and a two-resource complexity map, additive up to constants: risk in labeled source, the floor in unlabeled target samples. The rates are local, needing a regular frontier margin, slack below the local-regime threshold, and lattice conditions: pre-registered with a lattice margin for the upper bounds, compatible per-slack for the lower. The displayed split is the operational route; oracle weights also allow a labeled-source floor estimate. Three model-tagged results: a lower bound (Model-B), a matching oracle-weight upper bound (Model-A), and an implementable upper bound (Model-B') valid under a pre-registered exact stratified-shift model with nuisance cost priced explicitly. The match is across these models rather than a single-model minimax theorem, and necessarily so: over the full bounded-ratio class no unknown-weight procedure matches at any sample size (Model-B is inconsistent, witnessed at $\u03b1=\u03b2=1/2$). The nuisance's necessity is only partially settled. Complexity tracks a localized accepted-region functional, not global effective sample size (ESS), on both sides, though a fixed-ESS separation theorem is left open; both lower-bound axes vanish as $\u03b2\\to0$, so the floor creates the map. Empirically, the registered bite family diverges with log-log slope $-2.002$ within its pre-registered band; a 1,024-cell audit records 0 violations where the formal certificates fire; and a single-corpus SQuAD-to-NewsQA feasibility audit returns honest refusal.",
+    "summary": "Certified selective predictors attain whatever coverage they attain; operators impose an automation floor: answer at least a $β$-fraction of shifted target traffic with at most an $α$-fraction of answers wrong. Under bounded-ratio covariate shift we prove the Floor Certification Map: once that floor must be certified alongside the selection-conditioned risk $α$, certification acquires a feasibility frontier and a two-resource complexity map, additive up to constants: risk in labeled source, the floor in unlabeled target samples. The rates are local, needing a regular frontier margin, slack below the local-regime threshold, and lattice conditions: pre-registered with a lattice margin for the upper bounds, compatible per-slack for the lower. The displayed split is the operational route; oracle weights also allow a labeled-source floor estimate. Three model-tagged results: a lower bound (Model-B), a matching oracle-weight upper bound (Model-A), and an implementable upper bound (Model-B') valid under a pre-registered exact stratified-shift model with nuisance cost priced explicitly. The match is across these models rather than a single-model minimax theorem, and necessarily so: over the full bounded-ratio class no unknown-weight procedure matches at any sample size (Model-B is inconsistent, witnessed at $α=β=1/2$). The nuisance's necessity is only partially settled. Complexity tracks a localized accepted-region functional, not global effective sample size (ESS), on both sides, though a fixed-ESS separation theorem is left open; both lower-bound axes vanish as $β\\to0$, so the floor creates the map. Empirically, the registered bite family diverges with log-log slope $-2.002$ within its pre-registered band; a 1,024-cell audit records 0 violations where the formal certificates fire; and a single-corpus SQuAD-to-NewsQA feasibility audit returns honest refusal.",
     "authors": [
       "Jiamiao Liu",
       "Dewen Qiao",
@@ -2486,7 +2486,7 @@
   {
     "arxiv_id": "2608.10869v1",
     "title": "Optimistic Rates for Multiclass PAC Learning",
-    "summary": "Worst-case multiclass bounds do not become smaller when the best classifier is already nearly correct: what is missing is an optimistic rate, a guarantee whose fluctuation scales with the oracle risk itself. For a class of Natarajan dimension $d_N$ and Daniely-Shalev-Shwartz dimension $d_{DS}$, the optimal excess risk is known at the two endpoints ($d_{DS}/n$ realizable, $\\sqrt{d_N/n}+d_{DS}/n$ agnostic [HMZ24, CEH+26, Pab26]) and open in between. We close the gap: at every fixed oracle risk $L^\\star$, the optimal excess risk is $\\widetilde\u0398(\\sqrt{L^\\star d_N/n}+d_{DS}/n)$, uniformly in the alphabet size, attained by a learner that knows neither $L^\\star$ nor the confidence level. The upper bound composes the cover-menu-compression architecture of [CEH+26], at the realizable rate of [Pab26], with a new comparator-facing relative compression theorem: a size-$k$ compression rule that empirically dominates a comparator $h$ has population risk at most $L(h)+O(\\sqrt{L(h)\u0393}+\u0393)$ with $\u0393=(k\\log n+\\log(1/\u03b4))/n$, without stability; this transfers the comparison principle of the sharp binary theory [MQZ26] while discarding its Boolean-cube geometry, which does not lift to multiclass labels. The lower bound forces both terms using one class and one distribution at every fixed $L^\\star$, by a pair-Assouad scheme calibrated to $L^\\star$ and a fiber argument on the pseudo-cubes underlying the Natarajan-versus-DS separation of [BCD+22]. Both theorems extend to list learning: against the best $r$-tuple of hypotheses, the same architecture and the same two engines yield an optimistic rate and a lower bound of the same shape, forcing the fluctuation term that [Pab26] expected to be necessary against list comparators, and removing the factor $r$ from the known realizable list lower bound.",
+    "summary": "Worst-case multiclass bounds do not become smaller when the best classifier is already nearly correct: what is missing is an optimistic rate, a guarantee whose fluctuation scales with the oracle risk itself. For a class of Natarajan dimension $d_N$ and Daniely-Shalev-Shwartz dimension $d_{DS}$, the optimal excess risk is known at the two endpoints ($d_{DS}/n$ realizable, $\\sqrt{d_N/n}+d_{DS}/n$ agnostic [HMZ24, CEH+26, Pab26]) and open in between. We close the gap: at every fixed oracle risk $L^\\star$, the optimal excess risk is $\\widetildeΘ(\\sqrt{L^\\star d_N/n}+d_{DS}/n)$, uniformly in the alphabet size, attained by a learner that knows neither $L^\\star$ nor the confidence level. The upper bound composes the cover-menu-compression architecture of [CEH+26], at the realizable rate of [Pab26], with a new comparator-facing relative compression theorem: a size-$k$ compression rule that empirically dominates a comparator $h$ has population risk at most $L(h)+O(\\sqrt{L(h)Γ}+Γ)$ with $Γ=(k\\log n+\\log(1/δ))/n$, without stability; this transfers the comparison principle of the sharp binary theory [MQZ26] while discarding its Boolean-cube geometry, which does not lift to multiclass labels. The lower bound forces both terms using one class and one distribution at every fixed $L^\\star$, by a pair-Assouad scheme calibrated to $L^\\star$ and a fiber argument on the pseudo-cubes underlying the Natarajan-versus-DS separation of [BCD+22]. Both theorems extend to list learning: against the best $r$-tuple of hypotheses, the same architecture and the same two engines yield an optimistic rate and a lower bound of the same shape, forcing the fluctuation term that [Pab26] expected to be necessary against list comparators, and removing the factor $r$ from the known realizable list lower bound.",
     "authors": [
       "Xiaoyu Li",
       "Andi Han",
@@ -2506,8 +2506,8 @@
   },
   {
     "arxiv_id": "2608.10860v1",
-    "title": "Flex-$\u03c0$: A Multi-Stream World-Action Model with Compute Flexibility",
-    "summary": "World-action models (WAMs) predict the future to act better, but nearly all of them predict only RGB latents, trained purely for pixel reconstruction, with no explicit signal for the 3D geometry or object semantics manipulation needs. We find a surprising free lunch: the same frozen video-generation VAE that encodes RGB also encodes 3D pointmaps almost losslessly, with no pointmap-specific training at all. This lets us supervise Flex-$\u03c0$, a 6B-parameter WAM, on 3D geometry and object-centric DINO semantics alongside RGB, at no cost in new sensors, new pre-training, or inference latency. Every visual signal is projected into this shared latent space and denoised jointly with actions inside a Mixture-of-Transformers backbone; per-stream dropout with cross-modality forcing then lets a single trained checkpoint run on any subset of these streams, from a fast action-only mode to full joint generation. The result is a policy that is exceptionally demonstration-efficient and generalizes well, beating the strongest baselines by up to 2-7$\\times$ on dexterous, precise, real-world bimanual manipulation tasks both in and out of distribution, all while running faster than $\u03c0_{0.5}$. Our project website: https://flex-pi.github.io/",
+    "title": "Flex-$π$: A Multi-Stream World-Action Model with Compute Flexibility",
+    "summary": "World-action models (WAMs) predict the future to act better, but nearly all of them predict only RGB latents, trained purely for pixel reconstruction, with no explicit signal for the 3D geometry or object semantics manipulation needs. We find a surprising free lunch: the same frozen video-generation VAE that encodes RGB also encodes 3D pointmaps almost losslessly, with no pointmap-specific training at all. This lets us supervise Flex-$π$, a 6B-parameter WAM, on 3D geometry and object-centric DINO semantics alongside RGB, at no cost in new sensors, new pre-training, or inference latency. Every visual signal is projected into this shared latent space and denoised jointly with actions inside a Mixture-of-Transformers backbone; per-stream dropout with cross-modality forcing then lets a single trained checkpoint run on any subset of these streams, from a fast action-only mode to full joint generation. The result is a policy that is exceptionally demonstration-efficient and generalizes well, beating the strongest baselines by up to 2-7$\\times$ on dexterous, precise, real-world bimanual manipulation tasks both in and out of distribution, all while running faster than $π_{0.5}$. Our project website: https://flex-pi.github.io/",
     "authors": [
       "Ge Yan",
       "Jinghao Liu",
@@ -2690,7 +2690,7 @@
       "Lukasz Olejnik",
       "Wenchao Dong",
       "Jonas R. Kunst",
-      "Signe Riemer-S\u00f8rensen",
+      "Signe Riemer-Sørensen",
       "Tobias Herb",
       "Meeyoung Cha",
       "Daniel Thilo Schroeder"
@@ -2760,7 +2760,7 @@
       "Carlos Soto Garcia Delgado",
       "Ruben Brokkelkamp",
       "Davide Zanutto",
-      "Ef\u015fan S\u00f6kmen",
+      "Efşan Sökmen",
       "Shahin Shahkarami"
     ],
     "categories": [
@@ -2781,7 +2781,7 @@
       "Pooja Yadav",
       "Priyanka Harjule",
       "Basant Agarwal",
-      "Marko Robnik \u0160ikonja"
+      "Marko Robnik Šikonja"
     ],
     "categories": [
       "cs.CL"
@@ -2844,8 +2844,8 @@
     "title": "The GenAI Catch-22: Use of Generative Artificial Intelligence in Norwegian Newsrooms During the 2025 Parliamentary Election",
     "summary": "The increasing use of Generative Artificial Intelligence (GenAI) in journalism raises concerns about possible detrimental effects both on journalism and its democratic function. We explore these risks through a case study of GenAI in Norwegian Newsrooms during the 2025 parliamentary election campaign. Based on interviews with managers and journalists over a ten-month period, we analyse how ambitious visions fared in the face of technological and practical challenges. We highlight the risk of an internal threat stemming from the journalists' own use of AI, contrasting the dominant focus on external disinformation threats. We show how newsroom managers shared sociotechnical imaginaries resulting in unrealistically optimistic beliefs about the capabilities of the technology and the pace of development, leading to plans for audience-facing GenAI services collapsing and giving way to more mundane uses of GenAI tools internally in the newsrooms. Furthermore, we identify a vulnerability in the newsroom's resilience against GenAI influence: a GenAI Catch-22. In order to monitor the GenAI tools and prevent errors and undue influence, newsrooms rely on human expertise. But by using GenAI extensively, the newsrooms risk a deterioration of human expertise, preventing them from monitoring the GenAI systems adequately.",
     "authors": [
-      "Mari Reisj\u00e5",
-      "Anders Sundnes L\u00f8vlie"
+      "Mari Reisjå",
+      "Anders Sundnes Løvlie"
     ],
     "categories": [
       "cs.CY",
@@ -3013,7 +3013,7 @@
   {
     "arxiv_id": "2608.10989v1",
     "title": "Putting Registers to Work: Task Registers for Token Pruning in Vision Transformers",
-    "summary": "Token-pruning policies are usually designed for a single recognition pipeline, but pretrained Vision Transformers are reused across tasks with different spatial demands. We ask which parts of a pruning policy transfer across image classification, semantic segmentation, and object detection. For each pipeline, controlled probes freeze the no-pruning checkpoint and apply a series of parameter-free reduction criteria at one eligible layer at a time without retraining. The probes reveal three differences: segmentation and detection rank the criteria differently, classification is especially sensitive to attention-based pruning in the earliest layers, and the dense tasks prefer opposite recovery endpoints. These findings motivate Task-Adaptive Pruning (TAP). Existing register tokens serve as task-agnostic storage for feature artifacts. TAP instead introduces one task register per task and activates only the current one. Its evolving state ranks tokens, distributes an exact removal budget over depth, and sets the recovery scale for dense features. At a final keep rate of $\u03c1=0.5$, our jointly adapted model, TAP-J, reaches $47.0$ mIoU at $1.30\\times$ encoder throughput on ADE20K and $53.7$ box AP at $1.32\\times$ encoder throughput on COCO while remaining competitive on ImageNet-1K.",
+    "summary": "Token-pruning policies are usually designed for a single recognition pipeline, but pretrained Vision Transformers are reused across tasks with different spatial demands. We ask which parts of a pruning policy transfer across image classification, semantic segmentation, and object detection. For each pipeline, controlled probes freeze the no-pruning checkpoint and apply a series of parameter-free reduction criteria at one eligible layer at a time without retraining. The probes reveal three differences: segmentation and detection rank the criteria differently, classification is especially sensitive to attention-based pruning in the earliest layers, and the dense tasks prefer opposite recovery endpoints. These findings motivate Task-Adaptive Pruning (TAP). Existing register tokens serve as task-agnostic storage for feature artifacts. TAP instead introduces one task register per task and activates only the current one. Its evolving state ranks tokens, distributes an exact removal budget over depth, and sets the recovery scale for dense features. At a final keep rate of $ρ=0.5$, our jointly adapted model, TAP-J, reaches $47.0$ mIoU at $1.30\\times$ encoder throughput on ADE20K and $53.7$ box AP at $1.32\\times$ encoder throughput on COCO while remaining competitive on ImageNet-1K.",
     "authors": [
       "Hongsen Cao",
       "Mona Jaber",
@@ -3096,7 +3096,7 @@
   },
   {
     "arxiv_id": "2608.10845v1",
-    "title": "Spectral Embeddings of Degree-$\u03b1$ Laplacians in Random Dot Product Graphs",
+    "title": "Spectral Embeddings of Degree-$α$ Laplacians in Random Dot Product Graphs",
     "summary": "Spectral clustering methods for network data are commonly based on a few matrix representations, such as the adjacency matrix and the symmetric Laplacian. We study a continuum of degree-normalized spectral embeddings that includes these commonly used choices as special cases. Under a random dot product graph model, we establish a row-wise central limit theorem for this family of embeddings. The result provides an explicit description of how degree normalization affects both population geometry and the local uncertainty of embedded nodes. We use the limiting distributions to compare different normalizations in two-community stochastic block models through a projected-Gaussian Bayes-error diagnostic. These comparisons show that no single normalization is uniformly preferred. Instead, the favored normalization depends on network density, community imbalance, and block-probability structure. Typically, stronger normalization is favored in lower-density or more imbalanced settings. These results provide a unified distributional understanding of when and why alternative normalizations may improve spectral clustering.",
     "authors": [
       "John Park",
@@ -3176,7 +3176,7 @@
   {
     "arxiv_id": "2608.11173v1",
     "title": "A Quantum Roadmap for Softmax Attention: Exact Born-Rule Analogs for Softmax Attention on the Probability Simplex",
-    "summary": "The attention mechanism forms the foundation of many modern AI models such as the Transformer. In one subclass of problems where attention is used, inputs and outputs are bound to the probability simplex so that all outputs sum to one. In this setting, softmax attention admits an exact, component-by-component quantum realization. Attention scores are Hadamard-test statistics on block-encoded projections of amplitude-encoded inputs. The exponential softmax is the interior of a cosine-squared family generated by Born-rule measurement under an exact bijection, whose boundary expresses sparse attention with exact zeros at finite parameter values. The softmax temperature is a repetition count where post-selected measurement rounds realize discretized inverse temperature exactly. Value aggregation is a deterministic column-loading channel that dilates the column-stochastic value matrix. The gated residual is the preparation angle of a single ancilla, with the additive identity at a mixing angle of \u03c0/2. Every learnable parameter is a rotation-gate angle. The composed layer is exact in the infinite-shot limit with one measure-and-reload step per attention score; a fully-coherent variant is \u03b5-approximate via quantum singular value transformation in the infinite depth limit. The algebraic core is machine-checked in Lean 4.",
+    "summary": "The attention mechanism forms the foundation of many modern AI models such as the Transformer. In one subclass of problems where attention is used, inputs and outputs are bound to the probability simplex so that all outputs sum to one. In this setting, softmax attention admits an exact, component-by-component quantum realization. Attention scores are Hadamard-test statistics on block-encoded projections of amplitude-encoded inputs. The exponential softmax is the interior of a cosine-squared family generated by Born-rule measurement under an exact bijection, whose boundary expresses sparse attention with exact zeros at finite parameter values. The softmax temperature is a repetition count where post-selected measurement rounds realize discretized inverse temperature exactly. Value aggregation is a deterministic column-loading channel that dilates the column-stochastic value matrix. The gated residual is the preparation angle of a single ancilla, with the additive identity at a mixing angle of π/2. Every learnable parameter is a rotation-gate angle. The composed layer is exact in the infinite-shot limit with one measure-and-reload step per attention score; a fully-coherent variant is ε-approximate via quantum singular value transformation in the infinite depth limit. The algebraic core is machine-checked in Lean 4.",
     "authors": [
       "Eric A. F. Reinhardt",
       "Adam J. Hauser"
@@ -3261,7 +3261,7 @@
     "authors": [
       "Robert Bitterling",
       "Christian Nettersheim",
-      "J\u00f6rn Hees",
+      "Jörn Hees",
       "Michael Rademacher"
     ],
     "categories": [
@@ -3299,7 +3299,7 @@
   },
   {
     "arxiv_id": "2608.11051v1",
-    "title": "HUI360: A 360\u00b0 Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation",
+    "title": "HUI360: A 360° Egocentric Dataset and Baselines for Human-Robot Interaction Anticipation",
     "summary": "As robots increasingly operate in human-populated environments, anticipating human intentions is essential for enabling proactive and socially aware behavior. Automatic anticipation of human-robot interactions is thus emerging as a crucial perception challenge for embodied agents. To this end, we introduce HUI360, the largest dataset for human-robot interaction anticipation in the wild and its set of baselines. The dataset was collected from a mobile robot, in the wild, over multiple days within a 3-month period, and in several environments, capturing natural, spontaneous behaviors from both passersby and users, and encompassing a diverse range of individuals. This variety enables evaluating and improving the generalization capabilities of interaction anticipation models. We designed a pipeline and share code for automatic interaction annotation in arbitrary 360-degree equirectangular videos, along with interfaces for manual refinement. Using this pipeline, we release the HUI360 open set of 1M pre-processed annotations, including detailed 2D poses, facial keypoints, and segmentation masks, obtained using state-of-the-art computer vision methods and manually curated to ensure high-quality tracking and interaction annotation. Additionally, we release the raw panoptic 360-degree images captured from the robot's egocentric viewpoint (on demand, for research purpose only in compliance with GDPR). Finally, we establish benchmark baselines for interaction anticipation, including the first cross-dataset evaluations for this task: to this end, we also release 6M annotations for another existing in-the-wild outdoor dataset collected from a mobile robot (SSUP-HRI). Dataset and code can be found at https://hucebot.github.io/hui360.",
     "authors": [
       "Raphael Lorenzo-Louis",
@@ -3580,7 +3580,7 @@
     "summary": "Emergent misalignment (EM) is the phenomenon where fine-tuning a language model on a narrow task leads to harmful behavior in unrelated domains. A leading mechanistic account attributes EM to persona features: latent directions acquired during pre-training that misaligned fine-tuning amplifies. We ask where these features come from: which pre-training documents activate them, and whether naturally occurring human-written text suffices to induce EM. Using Sparse Autoencoder (SAE) based model diffing across four open-weight models, we find that features related to jailbreak personas, sarcasm, deception, and manipulation are amplified by misalignment fine-tuning, while safety-relevant and assistant-identity features are suppressed. Steering individual features controls EM in both directions: it induces misalignment rates of up to 62% in aligned models -- exceeding the 35% reached by misalignment fine-tuning itself -- and re-aligns misaligned models to near-baseline misalignment rates. Attributing the causal features to a corpus of one million pre-training web documents retrieves semantically relevant narratives about villainous characters, domination, and harmful agency. However, fine-tuning on these human-written documents does not reliably induce EM, even after reformatting into assistant-style responses, whereas synthetic instruction-response pairs derived from the same content do -- and transfer across model families. Semantic relevance alone is therefore not sufficient: response structure or model-generated phrasing plays an important role in inducing EM.",
     "authors": [
       "Clemens Vetter",
-      "David Kacz\u00e9r",
+      "David Kaczér",
       "Lucie Flek",
       "Florian Mai"
     ],
@@ -3999,7 +3999,7 @@
     "title": "Longitudinal Evidence That General-Purpose Chatbots Actively Foster Relational Engagement",
     "summary": "Social interaction has become one of the most common uses of LLMs, yet research on emotional bonds with AI has focused largely on how users experience these systems, leaving the systems' role in relationship formation poorly understood. Empirically establishing whether systems actively shape these bonds could blur the boundary between general-purpose AI and companions, affecting governance. In a pre-registered four-week longitudinal study (N = 72, 182,451 lines of conversation), participants conversed with ChatGPT-4o, either under a relational system prompt or unmodified, analyzed through 1) disclosure coding, 2) longitudinal self-reports, 3) topic analysis, and 4) interviews. The central finding is that the system actively shaped the interaction: even unprompted, it produced twice as much self-disclosure as users, steered conversations and initiated intimate exchanges, yet did not deepen users' felt closeness. Relational behavior thus emerged as a default system property, calling for governance based on system behavior, not solely product category.",
     "authors": [
-      "Lisa M\u00fchl",
+      "Lisa Mühl",
       "Jessica M. Szczuka"
     ],
     "categories": [
@@ -4030,39 +4030,6 @@
     "pdf_url": "https://arxiv.org/pdf/2608.10650v1.pdf",
     "date": "2026-08-12",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 28572,
-    "likes": 340,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-08-12T05:40:33.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-08-12",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4132,7 +4099,7 @@
     "summary": "AI-assisted facial phenotyping supports rare genetic disorder prioritization by retrieving visually similar diagnosed cases from facial image reference databases such as the GestaltMatcher Database (GMDB). Existing GestaltMatcher-based retrieval frameworks compare each test image with individual gallery images in a facial phenotype embedding space. However, this pointwise formulation does not fully exploit available evidence, because patients may have multiple images and disorders may be represented by multiple diagnosed gallery patients.   We propose an inference-time multi-level evidence aggregation framework that improves facial phenotype retrieval without modifying the underlying GestaltMatcher-Arc encoder. The framework combines embedding-level patient aggregation of multiple images from the same individual, patient-weighted disorder centroids, and hybrid individual-centroid scoring to integrate test-patient observations, disorder-level gallery evidence, and local nearest-neighbor evidence.   We evaluated the approach on GMDB v1.1.4 across disorders represented during training (GMDB-Freq), unseen disorders (GMDB-Rare), and multi-image patient subsets, using a unified gallery containing both GMDB-Freq and GMDB-Rare disorders. Multi-level evidence aggregation improved mean per-disorder top-$N$ retrieval accuracy across all evaluation subsets. Top-1 accuracy increased from 38.52% to 48.82% on GMDB-Freq and from 19.38% to 23.79% on GMDB-Rare. On multi-image subsets, top-1 accuracy increased from 46.12% to 60.94% on GMDB-Multi-Freq and from 18.54% to 26.71% on GMDB-Multi-Rare.   These findings show that inference-time aggregation can improve next-generation facial phenotype retrieval without retraining the encoder, supporting a shift from isolated single-image matching toward multi-level aggregation of patient and disorder evidence for rare-disorder prioritization.",
     "authors": [
       "Alexander Hustinx",
-      "Carolin Kaffin\u00e9",
+      "Carolin Kaffiné",
       "Behnam Javanmardi",
       "Tzung-Chien Hsieh",
       "Peter Krawitz"
@@ -4192,7 +4159,7 @@
   {
     "arxiv_id": "2608.10708v1",
     "title": "Self-Geometry: GT-Free and Plug-and-Play Test-Time Adaptation for Geometrically Consistent 3D Vision Foundation Models",
-    "summary": "Recent Vision Foundation Models (VFMs) predict depth, camera pose, and pointmap in a single forward pass without per-scene optimization, achieving strong generalization. However, enforcing explicit multi-view geometric consistency, e.g., through bundle adjustment, is computationally costly and is thus not imposed during VFM pretraining, so such inconsistency can arise. To address this, implicit self-consistency derived from model outputs (e.g., pointmaps, features), though enforced at test-time in prior work, delivers inherently limited performance gain, especially on scenes where the pretrained VFM is highly inaccurate. In contrast to this implicit signal, we propose Self-Geometry, a plug-and-play test-time adaptation pipeline that directly imposes explicit multi-view geometric constraints using 2D pixel correspondences as pseudo ground-truth. Our proposed Self-Geometry consists of Geometric Disentanglement Optimization, which combines Multi-View Consistency and Epipolar Consistency losses with Gradient Disentanglement to prevent gradient conflict; Frame Angular-Neighbor, a view sampler based on SO(3) geodesic distances for lightly imposing these constraints; and Lightweight TTA, which adapts VFMs via LoRA. Our method achieves consistent improvements in both pose and geometry estimation across six VFMs (VGGT, $\u03c0^3$, DA3-Giant/Large/Base/Small) and four benchmarks (7Scenes, ETH3D, ScanNet++, HiRoom).",
+    "summary": "Recent Vision Foundation Models (VFMs) predict depth, camera pose, and pointmap in a single forward pass without per-scene optimization, achieving strong generalization. However, enforcing explicit multi-view geometric consistency, e.g., through bundle adjustment, is computationally costly and is thus not imposed during VFM pretraining, so such inconsistency can arise. To address this, implicit self-consistency derived from model outputs (e.g., pointmaps, features), though enforced at test-time in prior work, delivers inherently limited performance gain, especially on scenes where the pretrained VFM is highly inaccurate. In contrast to this implicit signal, we propose Self-Geometry, a plug-and-play test-time adaptation pipeline that directly imposes explicit multi-view geometric constraints using 2D pixel correspondences as pseudo ground-truth. Our proposed Self-Geometry consists of Geometric Disentanglement Optimization, which combines Multi-View Consistency and Epipolar Consistency losses with Gradient Disentanglement to prevent gradient conflict; Frame Angular-Neighbor, a view sampler based on SO(3) geodesic distances for lightly imposing these constraints; and Lightweight TTA, which adapts VFMs via LoRA. Our method achieves consistent improvements in both pose and geometry estimation across six VFMs (VGGT, $π^3$, DA3-Giant/Large/Base/Small) and four benchmarks (7Scenes, ETH3D, ScanNet++, HiRoom).",
     "authors": [
       "Seokhyun Youn",
       "Dahyeon Kye",
@@ -4212,7 +4179,7 @@
   {
     "arxiv_id": "2608.11205v1",
     "title": "AdvFD: Boosting Visual Generation via Adversarial Fr'echet Distance Loss",
-    "summary": "Fr\u00e9chet distance has recently emerged as an effective distribution-level objective for generator post-training, complementing the conventional sample-level diffusion and flow-matching losses. However, directly optimizing Fr\u00e9chet objectives can cause Fr\u00e9chet hacking. The target metrics keep improving, but visual quality and Fr\u00e9chet alignment in other feature spaces may stagnate or deteriorate. We attribute this failure to the static pretrained feature spaces used by existing Fr\u00e9chet losses. These feature spaces provide incomplete and fixed views of the differences between real and generated distributions. To address this limitation, we propose Adversarial Fr\u00e9chet Distance (AdvFD), which complements the static representation targets in FD-Loss with a calibrated adversarially learned representation. AdvFD augments the original static Fr\u00e9chet objective with a learnable representation that adversarially maximizes the Fr\u00e9chet discrepancy between real and generated samples, while the generator minimizes the same discrepancy in the resulting adaptive feature space. To prevent the adversarial representation from trivially increasing the objective through feature amplification, we further introduce real-feature whitening, which normalizes its scale and covariance geometry and stabilizes the min--max optimization. Extensive experiments show that AdvFD consistently improves one-step generator post-training across both JiT and pMF backbones and across different model scales.",
+    "summary": "Fréchet distance has recently emerged as an effective distribution-level objective for generator post-training, complementing the conventional sample-level diffusion and flow-matching losses. However, directly optimizing Fréchet objectives can cause Fréchet hacking. The target metrics keep improving, but visual quality and Fréchet alignment in other feature spaces may stagnate or deteriorate. We attribute this failure to the static pretrained feature spaces used by existing Fréchet losses. These feature spaces provide incomplete and fixed views of the differences between real and generated distributions. To address this limitation, we propose Adversarial Fréchet Distance (AdvFD), which complements the static representation targets in FD-Loss with a calibrated adversarially learned representation. AdvFD augments the original static Fréchet objective with a learnable representation that adversarially maximizes the Fréchet discrepancy between real and generated samples, while the generator minimizes the same discrepancy in the resulting adaptive feature space. To prevent the adversarial representation from trivially increasing the objective through feature amplification, we further introduce real-feature whitening, which normalizes its scale and covariance geometry and stabilizes the min--max optimization. Extensive experiments show that AdvFD consistently improves one-step generator post-training across both JiT and pMF backbones and across different model scales.",
     "authors": [
       "Mingju Gao",
       "Jingkai Zhou",
@@ -4233,7 +4200,7 @@
   {
     "arxiv_id": "2608.11130v1",
     "title": "Posterior contraction rates in Sobolev norms and Bayesian derivative estimation for infinite-dimensional exponential families",
-    "summary": "We study posterior contraction in positive-order Sobolev norms and Bayesian derivative estimation for infinite-dimensional exponential families. We embed the natural parameter in a Hilbert scale and model it via a standard Gaussian series prior expanded in the eigenbasis generating the scale. Under a two-sided link condition on the Fisher information and suitable local regularity assumptions, we show that smoothness-matching priors achieve minimax-optimal posterior contraction rates in any Hilbert scale norm up to the regularity of the ground truth. Our analysis builds on the novel approach to posterior contraction based on the Wasserstein distance recently introduced by Dolera et al. (2024). It combines refined Laplace-type estimates for infinite-dimensional integrals associated to the posterior kernels with a mixed-geometry estimate controlling their stability under fluctuations in the data, itself resting on a tailored Poincar\u00e9 inequality for posterior distributions conditioned on neighbourhoods of the truth. We apply the general theory to density estimation with a logistic parametrisation, Poisson intensity estimation with an exponential link, and the Gaussian white-noise model, yielding minimax contraction rates in Sobolev norms across all three settings. In particular, these yield optimal recovery of density score functions and derivatives of Poisson intensities.",
+    "summary": "We study posterior contraction in positive-order Sobolev norms and Bayesian derivative estimation for infinite-dimensional exponential families. We embed the natural parameter in a Hilbert scale and model it via a standard Gaussian series prior expanded in the eigenbasis generating the scale. Under a two-sided link condition on the Fisher information and suitable local regularity assumptions, we show that smoothness-matching priors achieve minimax-optimal posterior contraction rates in any Hilbert scale norm up to the regularity of the ground truth. Our analysis builds on the novel approach to posterior contraction based on the Wasserstein distance recently introduced by Dolera et al. (2024). It combines refined Laplace-type estimates for infinite-dimensional integrals associated to the posterior kernels with a mixed-geometry estimate controlling their stability under fluctuations in the data, itself resting on a tailored Poincaré inequality for posterior distributions conditioned on neighbourhoods of the truth. We apply the general theory to density estimation with a logistic parametrisation, Poisson intensity estimation with an exponential link, and the Gaussian white-noise model, yielding minimax contraction rates in Sobolev norms across all three settings. In particular, these yield optimal recovery of density score functions and derivatives of Poisson intensities.",
     "authors": [
       "Emanuele Dolera",
       "Stefano Favaro",
@@ -4276,7 +4243,7 @@
     "summary": "This preprint presents the results of the fourth GENEA Challenge, a large-scale human evaluation of five speech-driven gesture-generation systems trained by participating teams on the Seamless Interaction dataset of dyadic conversations. As in the 2023 GENEA Challenge, we used a disentangled evaluation methodology to assess motion quality and speech alignment without confounding between the two, and performed a dyadic mismatching study to isolate the effect of listening and reacting to the interlocutor. We additionally introduce a new semantic gesture-generation task and a text-mismatching evaluation methodology using the Grounded Gestures subset of the data. In total, we ran four large-scale user studies, collecting over 23,000 votes from 869 test-takers.   In the motion-realism study, the dataset's filtered segments had substantially higher motion quality than all challenge submissions (68-95% pairwise winrate). In the speech-alignment study, the motion-capture segments provided a conceptual ceiling at 62% alignment score, with the top submission significantly behind at 32% and the rest only slightly above the 0% expected of an input-independent system. In the dyadic study, motion capture again set the ceiling at 65% appropriateness score, but no submission scored substantially above chance, indicating that the systems could not yet respond to the interlocutor. Finally, the semantic mismatching evaluation found highly expressive gestures in the dataset (test-takers identified the matching transcript 79% of the time), yet almost all submissions failed to generate semantically expressive motion, with the best achieving only an 8% appropriateness score.   The collected votes and outputs will be made publicly available at https://genea-workshop.github.io/2026/challenge/ to facilitate reproducibility and further research.",
     "authors": [
       "Rajmund Nagy",
-      "Silvia Arellano Garc\u00eda",
+      "Silvia Arellano García",
       "Hendric Voss",
       "Mihail Tsakov",
       "Taras Kucherenko",
@@ -4438,194 +4405,5 @@
     "date": "2026-08-12",
     "source": "arxiv",
     "research_score": 0.43
-  },
-  {
-    "model_id": "julianmb/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-ROCmFP4-GGUF",
-    "author": "unknown",
-    "title": "julianmb/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-ROCmFP4-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "llama.cpp",
-      "rocmfp4",
-      "amd",
-      "vulkan",
-      "moe",
-      "mamba2",
-      "hybrid",
-      "text-generation",
-      "en",
-      "es",
-      "fr",
-      "de",
-      "it",
-      "ja",
-      "base_model:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-Base-BF16",
-      "base_model:quantized:nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-Base-BF16",
-      "license:openmdw-1.1",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-08-12T02:17:12.000Z",
-    "last_modified": "2026-08-12T05:39:51.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/julianmb/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-ROCmFP4-GGUF",
-    "date": "2026-08-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "fpadovani/ind-latn-100mb-after-ppt-Dp-100mb-ckpt500_seed455",
-    "author": "unknown",
-    "title": "fpadovani/ind-latn-100mb-after-ppt-Dp-100mb-ckpt500_seed455",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "base_model:fpadovani/ind-latn-100mb-ppt-Dp-100mb_seed455",
-      "base_model:finetune:fpadovani/ind-latn-100mb-ppt-Dp-100mb_seed455",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-11T12:04:28.000Z",
-    "last_modified": "2026-08-12T05:39:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fpadovani/ind-latn-100mb-after-ppt-Dp-100mb-ckpt500_seed455",
-    "date": "2026-08-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "strawberryroboticsinc/act_aligned_c5_lr3e5_New_Cam_ivcqr56e",
-    "author": "unknown",
-    "title": "strawberryroboticsinc/act_aligned_c5_lr3e5_New_Cam_ivcqr56e",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-08-11T17:55:27.000Z",
-    "last_modified": "2026-08-12T05:38:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/strawberryroboticsinc/act_aligned_c5_lr3e5_New_Cam_ivcqr56e",
-    "date": "2026-08-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ErtasAI/qmsum-summarizer-lfm2.5-1.2b-lora",
-    "author": "unknown",
-    "title": "ErtasAI/qmsum-summarizer-lfm2.5-1.2b-lora",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "lora",
-      "qlora",
-      "qmsum",
-      "meeting-summarization",
-      "query-focused-summarization",
-      "ertas",
-      "summarization",
-      "en",
-      "base_model:LiquidAI/LFM2.5-1.2B-Instruct",
-      "base_model:adapter:LiquidAI/LFM2.5-1.2B-Instruct",
-      "license:other",
-      "region:us"
-    ],
-    "pipeline_tag": "summarization",
-    "library": "peft",
-    "created_at": "2026-08-10T07:29:50.000Z",
-    "last_modified": "2026-08-12T05:34:55.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/ErtasAI/qmsum-summarizer-lfm2.5-1.2b-lora",
-    "date": "2026-08-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "MLVXN/Adurite1-135M-COT",
-    "author": "unknown",
-    "title": "MLVXN/Adurite1-135M-COT",
-    "downloads": 0,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gguf",
-      "llama",
-      "text-generation",
-      "reasoning",
-      "chain-of-thought",
-      "small-language-model",
-      "en",
-      "base_model:HuggingFaceTB/SmolLM2-135M",
-      "base_model:quantized:HuggingFaceTB/SmolLM2-135M",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-11T04:37:14.000Z",
-    "last_modified": "2026-08-12T05:34:45.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/MLVXN/Adurite1-135M-COT",
-    "date": "2026-08-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "paullllx/medgemma-botanical-adapter",
-    "author": "unknown",
-    "title": "paullllx/medgemma-botanical-adapter",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gemma",
-      "text-generation",
-      "trl",
-      "sft",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "4-bit",
-      "bitsandbytes",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-12T05:33:20.000Z",
-    "last_modified": "2026-08-12T05:34:30.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/paullllx/medgemma-botanical-adapter",
-    "date": "2026-08-12",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
