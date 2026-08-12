@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-12T10:56:07.681225",
+  "date": "2026-08-12T11:42:23.342803",
   "patterns": {
     "multimodal_research": [
       {
@@ -343,10 +343,6 @@
       {
         "title": "Chartography: A Benchmark for Professional Chart Understanding",
         "url": "https://arxiv.org/abs/2608.10677v1"
-      },
-      {
-        "title": "KKHYA/llavaqwen3-1.7b-finetune-adapter-moe-sparse-1e-1k-B7b-plainadapter-d64-sd3_20260812_071104",
-        "url": "https://huggingface.co/KKHYA/llavaqwen3-1.7b-finetune-adapter-moe-sparse-1e-1k-B7b-plainadapter-d64-sd3_20260812_071104"
       }
     ],
     "language_models": [
@@ -1781,7 +1777,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "50 independent papers",
+      "observation": "49 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1845,13 +1841,13 @@
     },
     {
       "topic": "generation",
-      "frequency": 33,
+      "frequency": 34,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 438
+    "total_papers": 437
   }
 }
