@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-12T07:14:54.013851",
+  "date": "2026-08-12T09:06:13.476878",
   "patterns": {
     "multimodal_research": [
       {
@@ -705,6 +705,14 @@
       {
         "title": "CapProbe: Evaluating Detailed Image Captions via Full-Scene Dense Question Answering",
         "url": "https://arxiv.org/abs/2608.11074v1"
+      },
+      {
+        "title": "StrictAIUser/gpt2_compact",
+        "url": "https://huggingface.co/StrictAIUser/gpt2_compact"
+      },
+      {
+        "title": "atakrv/gpt2-scratch-k12-a100",
+        "url": "https://huggingface.co/atakrv/gpt2-scratch-k12-a100"
       }
     ],
     "vision_systems": [
@@ -1789,7 +1797,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "92 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1848,6 +1856,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 437
+    "total_papers": 439
   }
 }
