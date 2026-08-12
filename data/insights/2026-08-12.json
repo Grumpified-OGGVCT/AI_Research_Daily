@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-12T22:34:31.469849",
+  "date": "2026-08-12T23:34:43.424063",
   "patterns": {
     "multimodal_research": [
       {
@@ -993,6 +993,10 @@
         "url": "https://arxiv.org/abs/2608.10983v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "Is There Really a Camouflaged Object? Towards Realistic Camouflaged Object Detection",
         "url": "https://arxiv.org/abs/2608.11135v1"
       },
@@ -1795,7 +1799,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "87 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1848,6 +1852,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 437
+    "total_papers": 438
   }
 }
