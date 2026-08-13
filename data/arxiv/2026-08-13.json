@@ -348,7 +348,7 @@
   {
     "arxiv_id": "2608.12037v1",
     "title": "Clustered Randomized Smoothing for Stochastic Prediction Functions",
-    "summary": "Modern stochastic predictors can model rich, multi-modal outcome distributions. However, this expressive power comes with challenges in ensuring robust predictions $-$ a critical requirement in safety-critical domains. Randomized smoothing is a leading technique for improving robustness, particularly against adversarial perturbations. Yet, in stochastic multi-modal regression settings, randomized smoothing often fails due to mode collapse, yielding averaged predictions that do not reflect the underlying distribution. To address this limitation, we propose clustered $\u03b1$-smoothing, a framework that (1) partitions noisy samples using an arbitrary clustering algorithm, (2) applies $\u03b1$-smoothing locally within each cluster, and (3) combines the resulting predictions into a mixture distribution. By interpreting the smoothing distribution as a mixture of $\u03b1$-smoothers, we derive a lower bound on the probability that the smoothed prediction lies within a union of compact regions corresponding to distinct modes. We empirically evaluate our framework on two benchmarks, demonstrating substantial improvements over state-of-the-art methods. In stochastic trajectory prediction on a driving simulator dataset, our approach achieves, on average, a $27\\%$ lower Wasserstein distance to the ground-truth distribution compared to $\u03b1$-smoothing. In quadrotor control, where modes correspond to distinct feasible paths to a target, our method reduces the collision rate by $81\\%$ relative to the state-of-the-art randomized smoothing.",
+    "summary": "Modern stochastic predictors can model rich, multi-modal outcome distributions. However, this expressive power comes with challenges in ensuring robust predictions $-$ a critical requirement in safety-critical domains. Randomized smoothing is a leading technique for improving robustness, particularly against adversarial perturbations. Yet, in stochastic multi-modal regression settings, randomized smoothing often fails due to mode collapse, yielding averaged predictions that do not reflect the underlying distribution. To address this limitation, we propose clustered $α$-smoothing, a framework that (1) partitions noisy samples using an arbitrary clustering algorithm, (2) applies $α$-smoothing locally within each cluster, and (3) combines the resulting predictions into a mixture distribution. By interpreting the smoothing distribution as a mixture of $α$-smoothers, we derive a lower bound on the probability that the smoothed prediction lies within a union of compact regions corresponding to distinct modes. We empirically evaluate our framework on two benchmarks, demonstrating substantial improvements over state-of-the-art methods. In stochastic trajectory prediction on a driving simulator dataset, our approach achieves, on average, a $27\\%$ lower Wasserstein distance to the ground-truth distribution compared to $α$-smoothing. In quadrotor control, where modes correspond to distinct feasible paths to a target, our method reduces the collision rate by $81\\%$ relative to the state-of-the-art randomized smoothing.",
     "authors": [
       "Eduardo Figueiredo",
       "Frederik Mathiesen",
@@ -720,7 +720,7 @@
   {
     "arxiv_id": "2608.12194v1",
     "title": "HYDRA: Hyperbolic Dynamic Representation Architecture for Kolmogorov-Arnold Networks",
-    "summary": "Kolmogorov-Arnold Networks (KANs) enhance nonlinear function approximation by replacing scalar weights with learnable univariate functions. However, assigning an independent function to every connection results in substantial parameter redundancy, limiting their scalability and efficiency. To reduce this redundancy, we introduce \\textbf{HY}perbolic \\textbf{D}ynamic \\textbf{R}epresentation \\textbf{A}rchitecture (HYDRA), a parameter-efficient hyperbolic extension of KAN that combines spline-based functional learning with representations in the Poincar\u00e9 ball. HYDRA maps vector-valued inputs into a bounded hyperbolic latent space, performs KAN-style updates in tangent space, and employs a low-rank prototype block to share functional transformations across hidden dimensions. The resulting hyperbolic representations provide a structured radial coordinate for interpretation, while radius control improves training stability by preventing boundary saturation. Extensive experiments across eight benchmark datasets demonstrate that HYDRA consistently achieves competitive or superior predictive performance while improving parameter efficiency and representation interpretability.",
+    "summary": "Kolmogorov-Arnold Networks (KANs) enhance nonlinear function approximation by replacing scalar weights with learnable univariate functions. However, assigning an independent function to every connection results in substantial parameter redundancy, limiting their scalability and efficiency. To reduce this redundancy, we introduce \\textbf{HY}perbolic \\textbf{D}ynamic \\textbf{R}epresentation \\textbf{A}rchitecture (HYDRA), a parameter-efficient hyperbolic extension of KAN that combines spline-based functional learning with representations in the Poincaré ball. HYDRA maps vector-valued inputs into a bounded hyperbolic latent space, performs KAN-style updates in tangent space, and employs a low-rank prototype block to share functional transformations across hidden dimensions. The resulting hyperbolic representations provide a structured radial coordinate for interpretation, while radius control improves training stability by preventing boundary saturation. Extensive experiments across eight benchmark datasets demonstrate that HYDRA consistently achieves competitive or superior predictive performance while improving parameter efficiency and representation interpretability.",
     "authors": [
       "Zhao Su",
       "Yuxin Xia",
@@ -768,7 +768,7 @@
       "Nikolette Pedersen",
       "Regitze Sydendal",
       "Veronika Cheplygina",
-      "Th\u00e9o Sourget"
+      "Théo Sourget"
     ],
     "categories": [
       "cs.CV",
@@ -957,9 +957,9 @@
       " Miguel",
       " Sofia",
       " Maria",
-      " Patr\u00edcia",
+      " Patrícia",
       " Luke",
-      " Jo\u00e3o"
+      " João"
     ],
     "categories": [
       "cs.CV",
@@ -1248,7 +1248,7 @@
   {
     "arxiv_id": "2608.11739v1",
     "title": "G0.5: One Autoregressive Stream for Robot Reasoning and Action",
-    "summary": "The prevailing recipe for Vision-Language-Action (VLA) models couples a pretrained VLM with a separately trained flow-matching action expert. This makes the VLM a context encoder rather than a decision-maker. We introduce G0.5, a pretrained autoregressive VLA in which a single transformer decoder emits reasoning and action tokens under a single objective. Three components make this tractable at foundation-model scale: a learnable cross-embodiment action tokenizer that maps heterogeneous robot actions into a shared vocabulary; a native chain-of-thought stream interleaving task decomposition, object grounding, and action hints with action tokens; and a visual memory module that injects multi-second history through the vision encoder. Because reasoning and action share a single set of weights, the pretrained VLM's capabilities carry over to physical behavior: the model follows instructions closely, and prompts directly steer action granularity, task horizon, and out-of-distribution scene handling without further training. Pretrained on a large collection of robot datasets together with VQA samples, G0.5 surpasses state-of-the-art models across 7 independent regimes: real-world fine-tuning on R1lite and R1pro robots (76.7\\% vs.\\ 53.3\\% for $\u03c0_{0.5}$ and 24.4\\% for GR00T-N1.7), the 2025 BEHAVIOR Challenge on 50 long-horizon household mobile manipulation tasks using a generalist policy (31.4\\% vs.\\ 26.3\\% for $\u03c0_{0.5}$ and 26.1\\% for the challenge winner), DROID post-training followed by zero-shot transfer to an unseen environment and objects (82.5\\%), a language-following Pick-and-Place benchmark, LIBERO (98.9\\%), RoboTwin 2.0 (93.3\\%), and SimplerEnv-Bridge (87.3\\%).",
+    "summary": "The prevailing recipe for Vision-Language-Action (VLA) models couples a pretrained VLM with a separately trained flow-matching action expert. This makes the VLM a context encoder rather than a decision-maker. We introduce G0.5, a pretrained autoregressive VLA in which a single transformer decoder emits reasoning and action tokens under a single objective. Three components make this tractable at foundation-model scale: a learnable cross-embodiment action tokenizer that maps heterogeneous robot actions into a shared vocabulary; a native chain-of-thought stream interleaving task decomposition, object grounding, and action hints with action tokens; and a visual memory module that injects multi-second history through the vision encoder. Because reasoning and action share a single set of weights, the pretrained VLM's capabilities carry over to physical behavior: the model follows instructions closely, and prompts directly steer action granularity, task horizon, and out-of-distribution scene handling without further training. Pretrained on a large collection of robot datasets together with VQA samples, G0.5 surpasses state-of-the-art models across 7 independent regimes: real-world fine-tuning on R1lite and R1pro robots (76.7\\% vs.\\ 53.3\\% for $π_{0.5}$ and 24.4\\% for GR00T-N1.7), the 2025 BEHAVIOR Challenge on 50 long-horizon household mobile manipulation tasks using a generalist policy (31.4\\% vs.\\ 26.3\\% for $π_{0.5}$ and 26.1\\% for the challenge winner), DROID post-training followed by zero-shot transfer to an unseen environment and objects (82.5\\%), a language-following Pick-and-Place benchmark, LIBERO (98.9\\%), RoboTwin 2.0 (93.3\\%), and SimplerEnv-Bridge (87.3\\%).",
     "authors": [
       "Yicheng Liu",
       "Zibin Dong",
@@ -1292,11 +1292,11 @@
   {
     "arxiv_id": "2608.12269v1",
     "title": "A Cascaded Unsupervised-Supervised NLP Pipeline for Detecting Accusatory Language in Public Procurement",
-    "summary": "Public procurement involves the allocation of substantial financial resources; therefore, continuous oversight through audits, controls, and monitoring mechanisms is essential. However, stakeholder comments and publicly available government data are often underutilized, despite their potential to reveal procedural irregularities. To address this gap, this paper analyzes metadata from Ecuador's Sistema Oficial de Contrataci\u00f3n P\u00fablica (SOCE, Official Public Procurement System), with particular emphasis on participant comments generated during the pre-contractual phase. We propose a hybrid modeling framework that integrates unsupervised clustering and supervised classification within a natural language processing (NLP) pipeline to uncover latent patterns and detect potentially irregular procurement processes. Semantic embeddings are generated using Word2Vec, LLaMA, and RoBERTa, followed by Gaussian Mixture Models (GMMs) for unsupervised clustering. A supervised classification stage is then applied to identify accusatory or whistleblowing-style comments. Experimental results show that the combination of domain-trained Word2Vec embeddings, GMM-based clustering, and a Random Forest classifier achieves high precision and recall, even under severe class imbalance. These findings demonstrate that lightweight, domain-adapted NLP architectures can effectively support risk identification and enhance transparency in public procurement systems without requiring large-scale computational infrastructure.",
+    "summary": "Public procurement involves the allocation of substantial financial resources; therefore, continuous oversight through audits, controls, and monitoring mechanisms is essential. However, stakeholder comments and publicly available government data are often underutilized, despite their potential to reveal procedural irregularities. To address this gap, this paper analyzes metadata from Ecuador's Sistema Oficial de Contratación Pública (SOCE, Official Public Procurement System), with particular emphasis on participant comments generated during the pre-contractual phase. We propose a hybrid modeling framework that integrates unsupervised clustering and supervised classification within a natural language processing (NLP) pipeline to uncover latent patterns and detect potentially irregular procurement processes. Semantic embeddings are generated using Word2Vec, LLaMA, and RoBERTa, followed by Gaussian Mixture Models (GMMs) for unsupervised clustering. A supervised classification stage is then applied to identify accusatory or whistleblowing-style comments. Experimental results show that the combination of domain-trained Word2Vec embeddings, GMM-based clustering, and a Random Forest classifier achieves high precision and recall, even under severe class imbalance. These findings demonstrate that lightweight, domain-adapted NLP architectures can effectively support risk identification and enhance transparency in public procurement systems without requiring large-scale computational infrastructure.",
     "authors": [
       "Bryan Torres",
-      "Daniel Riofr\u00edo",
-      "Jos\u00e9 Vega-S\u00e1nchez",
+      "Daniel Riofrío",
+      "José Vega-Sánchez",
       "Nathaly Orozco",
       "Carla Parra",
       "Karen Rosero",
@@ -1337,7 +1337,7 @@
     "summary": "Autonomous rehabilitation systems must not only recognize human motion but also provide structured feedback to support users without continuous therapist supervision. This paper presents a telerehabilitation pipeline that integrates skeleton-based exercise quality assessment and short-term motion prediction into a two-module system operating on marker-free RGB video. A self-attentive Bidirectional LSTM performs exercise quality classification using MMD-NCA metric learning, while a graph-based motion prediction module computes per-joint position errors between predicted and observed poses, generating spatially localized deviation signals. Each module is evaluated independently on established benchmarks: the classifier achieves 96.45% mean-class accuracy on squat sequences from the PROZIS dataset, and the adopted STARS predictor achieves a mean MPJPE of 75.8 mm at 560 ms on Human3.6M, outperforming graph and recurrent baselines across all prediction horizons. The framework is designed for eventual deployment in assistive robotics and home-based rehabilitation contexts; end-to-end integration and clinical validation are important directions for future work. By combining motion recognition and prediction in a single system, this work contributes a step toward autonomous, feedback-driven telerehabilitation, for more accessible and scalable rehabilitation solutions.",
     "authors": [
       "Lara Pereira",
-      "Jo\u00e3o Ruivo Paulo",
+      "João Ruivo Paulo",
       "Pedro Santos",
       "Paulo Peixoto"
     ],
@@ -1681,7 +1681,7 @@
   {
     "arxiv_id": "2608.12253v1",
     "title": "One Frozen Simulator Is Not Enough: Simulator Collapse in Multi-Agent RL",
-    "summary": "Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failure to simulator collapse: because the simulator LLM is mode-collapsed, an LLM policy trained against it overfits to narrow strategies that exploit the simulator's dominant mode, and such a policy transfers poorly to unseen simulators and real users. We formalize this collapse theoretically and propose two complementary solutions, one at inference time and one at training time. The inference-time solution, Verbalized Sampling, broadens the simulator's behavior by sampling from a verbalized response distribution, reducing mode collapse. The training-time solution, Co-Training, jointly optimizes the policy against a population of trainable simulators, preventing it from overfitting to any single simulator's mode. We validate both solutions on three multi-turn benchmarks: Persuasion for Good, $\u03c4^2$-bench, and CooperBench. Verbalized Sampling improves held-out success by up to 9% over single-simulator RL, and Co-Training pushes gains further to 14%; the human study shows similar gain on real users. Both solutions preserve the policy diversity that collapses under single-simulator RL. To support further work in this direction, we release SCOPE, an open-source framework for Population Co-Training multi-agent RL. More broadly, our results suggest that the diversity of the training environment, not only the policy, is critical to the generalization of multi-turn RL to real-world deployment.",
+    "summary": "Multi-agent reinforcement learning for human-AI interaction typically relies on a single large language model to simulate user behavior. We show that this approach systematically fails to generalize, and trace the failure to simulator collapse: because the simulator LLM is mode-collapsed, an LLM policy trained against it overfits to narrow strategies that exploit the simulator's dominant mode, and such a policy transfers poorly to unseen simulators and real users. We formalize this collapse theoretically and propose two complementary solutions, one at inference time and one at training time. The inference-time solution, Verbalized Sampling, broadens the simulator's behavior by sampling from a verbalized response distribution, reducing mode collapse. The training-time solution, Co-Training, jointly optimizes the policy against a population of trainable simulators, preventing it from overfitting to any single simulator's mode. We validate both solutions on three multi-turn benchmarks: Persuasion for Good, $τ^2$-bench, and CooperBench. Verbalized Sampling improves held-out success by up to 9% over single-simulator RL, and Co-Training pushes gains further to 14%; the human study shows similar gain on real users. Both solutions preserve the policy diversity that collapses under single-simulator RL. To support further work in this direction, we release SCOPE, an open-source framework for Population Co-Training multi-agent RL. More broadly, our results suggest that the diversity of the training environment, not only the policy, is critical to the generalization of multi-turn RL to real-world deployment.",
     "authors": [
       "Simon Yu",
       "Nicholas Tomlin",
@@ -1756,7 +1756,7 @@
     "summary": "A novel advective Fisher-Rao metric is introduced for optimization tasks on paths of probability measures governed by the continuity equation. This metric is shown to lead to optimal descent directions.   It is then shown that this metric arises naturally from three different perspectives: As the rescaled zero-noise limit of the Fisher-Rao metric on path measures, as the expected value of the second variation of the Freidlin--Wentzell large deviation rate functional, and as the Hessian of the Benamou--Brenier action functional from dynamic optimal transport.   We supplement this geometric construction with computational experiments. Here, we demonstrate empirically that the advective Fisher-Rao metric yields the desired optimal fitting of probability densities, whereas the Gauss--Newton method yields optimal fitting of velocity fields.",
     "authors": [
       "Benjamin Gess",
-      "Johannes M\u00fcller"
+      "Johannes Müller"
     ],
     "categories": [
       "math.OC",
@@ -1903,7 +1903,7 @@
     "authors": [
       "Alfreds Lapkovskis",
       "Ali Beikmohammadi",
-      "Sindri Magn\u00fasson",
+      "Sindri Magnússon",
       "Praveen Kumar Donta"
     ],
     "categories": [
@@ -2262,12 +2262,12 @@
   {
     "arxiv_id": "2608.11917v1",
     "title": "A Factor Graph Approach to Scalable Multi-Output Gaussian Process Regression",
-    "summary": "Multi-output Gaussian process regression scales cubically in the number of observations times outputs, and dense kernel-matrix methods need bespoke handling whenever different outputs are observed at different inputs. We express multi-output Gaussian process regression as a Forney-style factor graph in which a nearest-neighbor chain orders a fixed candidate set of $C$ inputs into a one-dimensional sequence. Along this chain, latent Mat\u00e9rn processes evolve through linear-Gaussian transition factors, while the linear model of coregionalization mixes $L$ latent processes into $D$ outputs through a deterministic mixing factor and per-output scalar observation factors. Posterior computation reduces to exact Gaussian message passing on the chain at cost $\\mathcal{O}(C(DL^2 + L^3))$ after chain construction, and missing observations omit their local factor without any covariance-matrix restructuring. The formulation therefore scales in the number of data samples and in the rate of missing observations, while remaining best suited to candidate sets in low input dimension.We compare the factor-graph formulation against an exact kernel-matrix baseline, a sparse-variational inducing-point baseline, and a nearest-neighbor baseline on a synthetic input-dimension sweep and on electricity time series forecasting. At low input dimension the factor-graph posterior tracks the exact kernel-matrix posterior closely, and the gap grows gradually as input dimension increases while staying competitive with both approximate baselines. On the electricity time series our factor-graph formulation matches all three baselines in forecast accuracy while scaling linearly in the number of data points, where the exact kernel-matrix method becomes infeasible and the inducing-point baseline remains substantially slower.",
+    "summary": "Multi-output Gaussian process regression scales cubically in the number of observations times outputs, and dense kernel-matrix methods need bespoke handling whenever different outputs are observed at different inputs. We express multi-output Gaussian process regression as a Forney-style factor graph in which a nearest-neighbor chain orders a fixed candidate set of $C$ inputs into a one-dimensional sequence. Along this chain, latent Matérn processes evolve through linear-Gaussian transition factors, while the linear model of coregionalization mixes $L$ latent processes into $D$ outputs through a deterministic mixing factor and per-output scalar observation factors. Posterior computation reduces to exact Gaussian message passing on the chain at cost $\\mathcal{O}(C(DL^2 + L^3))$ after chain construction, and missing observations omit their local factor without any covariance-matrix restructuring. The formulation therefore scales in the number of data samples and in the rate of missing observations, while remaining best suited to candidate sets in low input dimension.We compare the factor-graph formulation against an exact kernel-matrix baseline, a sparse-variational inducing-point baseline, and a nearest-neighbor baseline on a synthetic input-dimension sweep and on electricity time series forecasting. At low input dimension the factor-graph posterior tracks the exact kernel-matrix posterior closely, and the gap grows gradually as input dimension increases while staying competitive with both approximate baselines. On the electricity time series our factor-graph formulation matches all three baselines in forecast accuracy while scaling linearly in the number of data points, where the exact kernel-matrix method becomes infeasible and the inducing-point baseline remains substantially slower.",
     "authors": [
       "Wouter W. L. Nuijten",
       "Esther G. van Pelt",
       "Albert Podusenko",
-      "\u0130smail \u015een\u00f6z",
+      "İsmail Şenöz",
       "Wouter M. Kouw"
     ],
     "categories": [
@@ -2397,7 +2397,7 @@
   {
     "arxiv_id": "2608.12302v1",
     "title": "A Framework for Designing Reward Functions: From Objectives to Features to Human-Aligned Reward Functions",
-    "summary": "We present a formal process to enable non-experts to instantiate and iterate on human-aligned reward functions, i.e. reward functions that adhere to a given preference ordering over trajectories. Given a task described in natural language, our process produces a linear reward function in three steps: distill the task's objectives into a set of fundamental objectives and derive measurable outcome variables that capture those fundamental objectives, select a causally representative subset of outcome variables as the reward terms, and fit weights to those reward terms via preference elicitation. Our contributions describe the first step and formalize the latter two steps. The first is a guided workflow for deriving outcome variables. The second is a reduction of reward term selection to minimum-cost partial cover on a causal DAG, solved in polynomial time via max-flow. The third is a geometric framing of weight fitting as a convex feasibility problem iteratively narrowed by preference queries, solved by existing separation oracle methods. To the best of our knowledge, this is the first reward-design method that maintains a deterministically conflict-free feasible weight region, narrowed to a desired tolerance via a separation oracle with O(n log \u03ba) preference queries.",
+    "summary": "We present a formal process to enable non-experts to instantiate and iterate on human-aligned reward functions, i.e. reward functions that adhere to a given preference ordering over trajectories. Given a task described in natural language, our process produces a linear reward function in three steps: distill the task's objectives into a set of fundamental objectives and derive measurable outcome variables that capture those fundamental objectives, select a causally representative subset of outcome variables as the reward terms, and fit weights to those reward terms via preference elicitation. Our contributions describe the first step and formalize the latter two steps. The first is a guided workflow for deriving outcome variables. The second is a reduction of reward term selection to minimum-cost partial cover on a causal DAG, solved in polynomial time via max-flow. The third is a geometric framing of weight fitting as a convex feasibility problem iteratively narrowed by preference queries, solved by existing separation oracle methods. To the best of our knowledge, this is the first reward-design method that maintains a deterministically conflict-free feasible weight region, narrowed to a desired tolerance via a separation oracle with O(n log κ) preference queries.",
     "authors": [
       "Di Yang Shi",
       "W. Bradley Knox"
@@ -2780,7 +2780,7 @@
       "Angela P. Schoellig",
       "Marco Hutter",
       "Simon Le Cleac'H",
-      "Jan Br\u00fcdigam"
+      "Jan Brüdigam"
     ],
     "categories": [
       "cs.RO",
@@ -2961,7 +2961,7 @@
   {
     "arxiv_id": "2608.12231v1",
     "title": "An Efficient Near-Optimal Algorithm for Adversarial $m$-Set Bandits",
-    "summary": "We study adversarial combinatorial bandits with $m$-set actions, where at each round the learner selects $m$ out of $d$ items and observes only the aggregate loss of the selected items. The resulting action set contains $K=\\binom{d}{m}$ elements and can therefore be exponentially large. Nevertheless, the loss of every action is determined by the same $d$-dimensional vector of item losses. We propose a computationally efficient algorithm that exploits this structure without explicitly enumerating the action set. Against adaptive non-anticipating adversaries, it guarantees, with probability at least $1-\u03b4$, regret against the best fixed action of \\[   R_T =   O\\left(\\sqrt{dT\\log(K/\u03b4)}\\right). \\] This matches the high-probability regret bound of the finite-action EXP3-KW algorithm of Zimmert and Lattimore, whose direct implementation may require exponential space. Our algorithm instead represents each sampling distribution with $d$ parameters and runs in polynomial time without enumerating the action set. Thus, it resolves the open problem posed by Maiti et al.",
+    "summary": "We study adversarial combinatorial bandits with $m$-set actions, where at each round the learner selects $m$ out of $d$ items and observes only the aggregate loss of the selected items. The resulting action set contains $K=\\binom{d}{m}$ elements and can therefore be exponentially large. Nevertheless, the loss of every action is determined by the same $d$-dimensional vector of item losses. We propose a computationally efficient algorithm that exploits this structure without explicitly enumerating the action set. Against adaptive non-anticipating adversaries, it guarantees, with probability at least $1-δ$, regret against the best fixed action of \\[   R_T =   O\\left(\\sqrt{dT\\log(K/δ)}\\right). \\] This matches the high-probability regret bound of the finite-action EXP3-KW algorithm of Zimmert and Lattimore, whose direct implementation may require exponential space. Our algorithm instead represents each sampling distribution with $d$ parameters and runs in polynomial time without enumerating the action set. Thus, it resolves the open problem posed by Maiti et al.",
     "authors": [
       "Francesco Bacchiocchi",
       "Tommaso Cesari",
@@ -2980,7 +2980,7 @@
   {
     "arxiv_id": "2608.12043v1",
     "title": "Direct Acceleration of Stochastic Root-Finding Without Variance Reduction and Regularization",
-    "summary": "Acceleration for deterministic root-finding problems has been extensively studied in recent years; specifically, the anchor-based, or Halpern-type methods achieve optimal convergence rates with respect to the operator norm. However, acceleration via these methods does not directly carry over to stochastic setting due to accumulation of errors, unless one enforces diminishing variance via increasing batch sizes or variance reduction techniques. In this work, we show that another class of acceleration, namely the dual-anchor mechanism, extends to the stochastic setting without such error accumulation, in contrast to anchor-based algorithms. Consequently, we cleanly achieve $O(\u03b5^{-3})$ complexity with iteration-independent batch size, without any variance reduction or double-loop recursive regularization, for stochastic root-finding (resp. fixed-point) problems with cocoercivity (resp. square-nonexpansivity) in expectation. For strongly monotone operators, the same algorithm attains a sharper $\\widetilde{O} (\u03b5^{-2})$ complexity, nearly matching the lower bound in terms of $\u03b5$-dependence.",
+    "summary": "Acceleration for deterministic root-finding problems has been extensively studied in recent years; specifically, the anchor-based, or Halpern-type methods achieve optimal convergence rates with respect to the operator norm. However, acceleration via these methods does not directly carry over to stochastic setting due to accumulation of errors, unless one enforces diminishing variance via increasing batch sizes or variance reduction techniques. In this work, we show that another class of acceleration, namely the dual-anchor mechanism, extends to the stochastic setting without such error accumulation, in contrast to anchor-based algorithms. Consequently, we cleanly achieve $O(ε^{-3})$ complexity with iteration-independent batch size, without any variance reduction or double-loop recursive regularization, for stochastic root-finding (resp. fixed-point) problems with cocoercivity (resp. square-nonexpansivity) in expectation. For strongly monotone operators, the same algorithm attains a sharper $\\widetilde{O} (ε^{-2})$ complexity, nearly matching the lower bound in terms of $ε$-dependence.",
     "authors": [
       "TaeHo Yoon",
       "Nicolas Loizou"
@@ -3269,7 +3269,7 @@
   {
     "arxiv_id": "2608.11767v1",
     "title": "Causal Structure is Inducible but Functionally Decoupled: The Routing/Readout Boundary of a Typed Mechanism Library",
-    "summary": "When a language model answers an interventional question, the computation it must perform depends on the type of evidence the query requires. We report a decoupling in how a transformer organizes causal knowledge: slot-by-type structure induced by type-level supervision organizes routing, yet remains functionally decoupled from answer readout. We establish this with a typed mechanism library -- discrete mechanism slots partitioned by evidence type, auditable at the state level -- on a causal-world benchmark with exact interventional ground truth, under a frozen protocol, at two scales (22.6M and 125M). Four preregistered findings. (i) Origin. Slot-by-type organization is induced by type-level supervision: absent in architecturally identical unsupervised controls, not buyable by content-free gating labels, and statistically attributable to the supervision signal, replicating at 125M under a powered preregistered protocol (all nine cells passed). (ii) Boundary. The induced structure is a typed routing index with a sharp routing/readout boundary: slot codes scaffold routing but do not drive answer readout ($|\u0394\\hat{y}| \\le 3.4\\times10^{-6}$, zero collateral, three seeds, stable across a 5.6x scale window) -- we therefore make no behavioral-editability claim. (iii) Cost. The structure is free: LM quality matches a parameter-matched monolith within 0.0082 nats. (iv) Trust. The library state is exactly local under edit and bit-exactly revertible -- 250 single-edit and 1,000 stacked reverts per seed, zero failures. We further find that the unsupervised null itself moves with scale, so comparisons reusing a null calibrated at one scale may be confounded at another. Every claim is tied to a preregistered, machine-checkable criterion archived before the data it governs; the full audit trail, including one criterion we failed and how the frozen protocol handled it, is released as an appendix.",
+    "summary": "When a language model answers an interventional question, the computation it must perform depends on the type of evidence the query requires. We report a decoupling in how a transformer organizes causal knowledge: slot-by-type structure induced by type-level supervision organizes routing, yet remains functionally decoupled from answer readout. We establish this with a typed mechanism library -- discrete mechanism slots partitioned by evidence type, auditable at the state level -- on a causal-world benchmark with exact interventional ground truth, under a frozen protocol, at two scales (22.6M and 125M). Four preregistered findings. (i) Origin. Slot-by-type organization is induced by type-level supervision: absent in architecturally identical unsupervised controls, not buyable by content-free gating labels, and statistically attributable to the supervision signal, replicating at 125M under a powered preregistered protocol (all nine cells passed). (ii) Boundary. The induced structure is a typed routing index with a sharp routing/readout boundary: slot codes scaffold routing but do not drive answer readout ($|Δ\\hat{y}| \\le 3.4\\times10^{-6}$, zero collateral, three seeds, stable across a 5.6x scale window) -- we therefore make no behavioral-editability claim. (iii) Cost. The structure is free: LM quality matches a parameter-matched monolith within 0.0082 nats. (iv) Trust. The library state is exactly local under edit and bit-exactly revertible -- 250 single-edit and 1,000 stacked reverts per seed, zero failures. We further find that the unsupervised null itself moves with scale, so comparisons reusing a null calibrated at one scale may be confounded at another. Every claim is tied to a preregistered, machine-checkable criterion archived before the data it governs; the full audit trail, including one criterion we failed and how the frozen protocol handled it, is released as an appendix.",
     "authors": [
       "Xining Xun"
     ],
@@ -3379,10 +3379,10 @@
     "summary": "Deploying unsupervised domain adaptation (UDA) in clinical practice requires choosing which algorithm to use and which of its trained models to ship. However, the deployment (target) domain is unlabeled, so models cannot be evaluated directly on it, leaving it unclear which to select. We address this by evaluating the complete UDA pipeline, considering both adaptation and label-free selection together. Our study covers eleven clinically relevant cross-domain scenarios from nine medical imaging datasets, with ten UDA algorithms and 13 label-free selection methods (validators), evaluating over 80,000 trained models in total. By this, we find that a capable adapted model usually exists, but identifying it without target labels is difficult: the validator-selected models leave a large and structural target performance gap to the best available one, with no evaluated validator consistently reliable. Towards closing it, we explore two strategies, ensembling and a small target-labeling budget; both narrow this gap but do not close it entirely. Overall, deployable UDA depends on the complete pipeline; addressing the less explored selection step could bring much of current UDA closer to clinical use.",
     "authors": [
       "Yiheng Xiong",
-      "Luisa Gall\u00e9e",
+      "Luisa Gallée",
       "Daniel Santak Wolf",
       "Heiko Hillenhagen",
-      "Michael G\u00f6tz"
+      "Michael Götz"
     ],
     "categories": [
       "cs.CV",
@@ -3549,7 +3549,7 @@
     "summary": "The increasing deployment of autonomous, agentic AI systems challenges traditional accountability mechanisms. Existing research predominantly frames AI accountability gaps as barriers that can be overcome through better standards, transparency, and institutional reform. We argue that this framing is insufficient: certain configurations of actors, systems, and institutions render AI accountability conceptually unachievable regardless of effort. We introduce the concept of constitutive AI unaccountability to capture these configurations. Through a three-stage qualitative study comprising a concept-centric literature analysis, a secondary analysis of 27 expert interviews with AI professionals from technical, legal, and sociotechnical backgrounds, and an illustrative framework application to the open-source agentic AI system OpenClaw, we identify nine categories and 20 themes of constitutive AI unaccountability. These are organized across structural, technological, and normative clusters and reinforce one another through eight directed interdependencies. Our framework is operationalized as a diagnostic instrument of 20 questions, which detected 17 of 20 conditions when applied to OpenClaw, including an inverted anthropomorphism configuration in which the AI agent was the only identifiable actor. We contribute a reframing of AI unaccountability as a constitutive property of sociotechnical systems, an extension of the four barriers to accountability, and a practical instrument for identifying accountability voids in specific AI deployments.",
     "authors": [
       "Long Hoang Nguyen",
-      "Eva Sp\u00e4the",
+      "Eva Späthe",
       "Sebastian Lins",
       "Ali Sunyaev"
     ],
@@ -3749,7 +3749,7 @@
     "title": "Co-constructing sociotechnical AI governance: participatory system mapping using algorithm registers",
     "summary": "Algorithm registers have been championed as a means of providing transparency on the use of algorithms in public services. Yet potential publics differ in their expectations of what should be made transparent and how, as well as in their interest in and ability to parse the information currently published in the registers. Moreover, it remains unclear how these instruments can represent the sociotechnical systems in which these algorithms are embedded, and how system-level transparency can facilitate accountability. In this paper, we ask, what do algorithm registers reveal (and occlude) about the sociotechnical systems governing algorithmic systems, and how can diverse stakeholder perspectives inform a more pluralistic system-theoretic safety analysis? To do this, we probe the municipal algorithm register of a Dutch city through a case study of a decision-support tool for caseworkers' assessment of citizens' welfare benefits eligibility based on legal automation through a business rule engine. Through interviews, surveys, and participatory system mapping workshops (with municipal staff, civil society organisations, and ombudsmen, N=8), we seek to understand to what extent the register allows stakeholders to map the algorithmic system in question. These maps inform a System-Theoretic Process Analysis (STPA) that situates the register within a wider sociotechnical governance structure. Participants' contributions allow us to identify potential safety hazards which would not have been possible to see using the algorithm register alone, including benefits eligibility denial, system performance deterioration, and inability to contest wrongful decisions. By engaging both direct and indirect stakeholders, we reflect on the normative dimensions of algorithm governance efforts and how politics shape the practice of system safety analysis.",
     "authors": [
-      "\u00cd\u00f1igo de Troya",
+      "Íñigo de Troya",
       "Maurus Enbergs",
       "Neelke Doorn",
       "Roel Dobbe"
@@ -3769,7 +3769,7 @@
   {
     "arxiv_id": "2608.12134v1",
     "title": "Adversarial Resilience of Poisson-Process Submodular Maximization over Matroids: From Robust Offline Optimization to Full-Bandit Learning",
-    "summary": "We study nonnegative submodular maximization subject to a general matroid when the offline algorithm is given an arbitrary controlled value oracle. Our main result is an adversarial resilience theorem for the Spiteful Greedy Swap Poisson Process (SGS-Poisson): without modifying its Poisson intensity, single-element exchange rule, or spiteful drop step, the algorithm retains limiting approximation factors $1/e$ for non-monotone objectives and $1-1/e$ for monotone objectives. More precisely, under every controlled oracle $\\widehat f$ satisfying $|\\widehat f(S)-f(S)|\\le \u03be$ for every set $S$, our implementation returns a feasible set with expected value at least $(1/e-\\varepsilon)\\OPT-O(k\u03be)$ and $(1-1/e-\\varepsilon)\\OPT-O(k\u03be)$, respectively, using $\\widetilde O(nk^2\\varepsilon^{-2})$ oracle calls. As a consequence, the offline-to-online reduction yields full-bandit CMAB algorithms for general matroid-constrained submodular rewards with exact limiting approximation-regret factors $1/e$ and $1-1/e$ and $\\widetilde O(n^{1/5}k^{4/5}T^{4/5})$ regret.",
+    "summary": "We study nonnegative submodular maximization subject to a general matroid when the offline algorithm is given an arbitrary controlled value oracle. Our main result is an adversarial resilience theorem for the Spiteful Greedy Swap Poisson Process (SGS-Poisson): without modifying its Poisson intensity, single-element exchange rule, or spiteful drop step, the algorithm retains limiting approximation factors $1/e$ for non-monotone objectives and $1-1/e$ for monotone objectives. More precisely, under every controlled oracle $\\widehat f$ satisfying $|\\widehat f(S)-f(S)|\\le ξ$ for every set $S$, our implementation returns a feasible set with expected value at least $(1/e-\\varepsilon)\\OPT-O(kξ)$ and $(1-1/e-\\varepsilon)\\OPT-O(kξ)$, respectively, using $\\widetilde O(nk^2\\varepsilon^{-2})$ oracle calls. As a consequence, the offline-to-online reduction yields full-bandit CMAB algorithms for general matroid-constrained submodular rewards with exact limiting approximation-regret factors $1/e$ and $1-1/e$ and $\\widetilde O(n^{1/5}k^{4/5}T^{4/5})$ regret.",
     "authors": [
       "Vaneet Aggarwal"
     ],
@@ -3792,7 +3792,7 @@
     "summary": "The same event can be reported from different perspectives depending on the experiences, background, and beliefs of the writer or speaker. A variety of NLP areas engage with perspectives, spanning from text analysis to algorithm optimization. A wide range of operative concepts (such as stances, sentiment, frames, and arguments) has been used to capture perspectives in texts, however the precise relationships among those concepts remain unclear. Arguably, a deeper theoretical understanding of these concepts would empower more effective research on perspectives. In this paper, we address this gap by reviewing the space of perspectives in NLP and defining a set of properties that help distinguishing perspective-related concepts. Our analysis leads us to posit a hierarchy which organizes these concepts linearly along a single axis. Finally, we show how this principled conceptual hierarchy can help researchers navigate the field and select operationalizations of perspective that align with their specific research objectives.",
     "authors": [
       "Agnese Daffara",
-      "Sebastian Pad\u00f3",
+      "Sebastian Padó",
       "Tanise Ceron"
     ],
     "categories": [
@@ -3832,7 +3832,7 @@
   {
     "arxiv_id": "2608.11954v1",
     "title": "Causal inference for group-contaminated structured outcomes: observable quotients, lossless reduction and exact randomization inference",
-    "summary": "Structured potential outcomes such as microscopy images may be recorded after an unknown, unit-specific transformation. If that transformation can depend on treatment, covariates or the intrinsic outcome, raw-coordinate analyses may mix biological effects with acquisition geometry. We study the unrestricted observation model X = \u0393 . Y(A) and characterize its observable information: a target is uniformly recoverable exactly when it is constant on group orbits, while a Borel maximal invariant retains every measurable invariant target. We then distinguish observability from statistical losslessness. A quotient-faithful reconstruction theorem shows that quotient reduction is sufficient for the full transformed experiment exactly when the conditional law of the raw observation given treatment, covariates and the quotient has a parameter-free version. Conditional Haar contamination on a compact group yields Blackwell equivalence as a special case; it is not imposed in the main model. We also separate independent site-specific product actions from shared diagonal actions and show why componentwise canonicalization can discard relative cross-site information. Under explicit metric and kernel regularity, an approximate-contamination theorem bounds quotient-law Wasserstein error and the induced perturbation of population maximum mean discrepancy. For finite-support multichannel lattice images, we construct a maximal invariant under integer translations and quarter turns, combine its characteristic Gaussian kernel with a complete paired-swap test, and retain the original simulations and RxRx1 HUVEC study. Under the sharp null, the quotient test rejected in 0.052 of simulation replicates; at unit effect strength its power was 0.992. The primary RxRx1 contrast had an enumerated paired-swap p-value of 0.0078.",
+    "summary": "Structured potential outcomes such as microscopy images may be recorded after an unknown, unit-specific transformation. If that transformation can depend on treatment, covariates or the intrinsic outcome, raw-coordinate analyses may mix biological effects with acquisition geometry. We study the unrestricted observation model X = Γ . Y(A) and characterize its observable information: a target is uniformly recoverable exactly when it is constant on group orbits, while a Borel maximal invariant retains every measurable invariant target. We then distinguish observability from statistical losslessness. A quotient-faithful reconstruction theorem shows that quotient reduction is sufficient for the full transformed experiment exactly when the conditional law of the raw observation given treatment, covariates and the quotient has a parameter-free version. Conditional Haar contamination on a compact group yields Blackwell equivalence as a special case; it is not imposed in the main model. We also separate independent site-specific product actions from shared diagonal actions and show why componentwise canonicalization can discard relative cross-site information. Under explicit metric and kernel regularity, an approximate-contamination theorem bounds quotient-law Wasserstein error and the induced perturbation of population maximum mean discrepancy. For finite-support multichannel lattice images, we construct a maximal invariant under integer translations and quarter turns, combine its characteristic Gaussian kernel with a complete paired-swap test, and retain the original simulations and RxRx1 HUVEC study. Under the sharp null, the quotient test rejected in 0.052 of simulation replicates; at unit effect strength its power was 0.992. The primary RxRx1 contrast had an enumerated paired-swap p-value of 0.0078.",
     "authors": [
       "Usef Faghihi",
       "Amir Saki"
@@ -4113,7 +4113,7 @@
   {
     "arxiv_id": "2608.11784v1",
     "title": "Coarsening Latent-Class Probabilities: Directional Distortion and Coverage Loss",
-    "summary": "Outcomes are increasingly regressed on a calibrated probability vector for unobserved class membership, and that vector is often coarsened to a hard label first. Under a constant-coefficient structural mean and conditional calibration, the observed-data problem is a partially linear regression of the outcome on the probability vector; we take this reduction as the starting point and ask what coarsening costs. For any coarsening, the plug-in estimator converges to $\\mathcal{A}\u03c4$, where the coarsening operator satisfies $\\mathcal{A}=I+D^{-1}\\mathbb{E}[a_{h}u^{\\top}]$ with $u$ the discarded signal. Coarsening is therefore free exactly when what is discarded is uncorrelated with what is kept, and is otherwise anisotropic: it distorts some contrasts far more than others. The same operator governs inference. The Wald interval built from coarsened labels has limiting coverage $\u03a6(z-\u03bb)-\u03a6(-z-\u03bb)$, with $\u03bb$ the ratio of the coarsening bias to the reported standard error; because $\\mathcal{A}$ and that standard error depend on observables alone, the coverage implied by the estimated index can be approximated before the interval is reported. Simulations show severe coverage loss after argmax coarsening, and three real-data audits exhibit the direction-specific distortion that hard labels induce.",
+    "summary": "Outcomes are increasingly regressed on a calibrated probability vector for unobserved class membership, and that vector is often coarsened to a hard label first. Under a constant-coefficient structural mean and conditional calibration, the observed-data problem is a partially linear regression of the outcome on the probability vector; we take this reduction as the starting point and ask what coarsening costs. For any coarsening, the plug-in estimator converges to $\\mathcal{A}τ$, where the coarsening operator satisfies $\\mathcal{A}=I+D^{-1}\\mathbb{E}[a_{h}u^{\\top}]$ with $u$ the discarded signal. Coarsening is therefore free exactly when what is discarded is uncorrelated with what is kept, and is otherwise anisotropic: it distorts some contrasts far more than others. The same operator governs inference. The Wald interval built from coarsened labels has limiting coverage $Φ(z-λ)-Φ(-z-λ)$, with $λ$ the ratio of the coarsening bias to the reported standard error; because $\\mathcal{A}$ and that standard error depend on observables alone, the coverage implied by the estimated index can be approximated before the interval is reported. Simulations show severe coverage loss after argmax coarsening, and three real-data audits exhibit the direction-specific distortion that hard labels induce.",
     "authors": [
       "Marcell T. Kurbucz"
     ],
@@ -4250,8 +4250,8 @@
     "authors": [
       "Yifan Lu",
       "Taras Kucherenko",
-      "Hedvig Kjellstr\u00f6m",
-      "Judith B\u00fctepage"
+      "Hedvig Kjellström",
+      "Judith Bütepage"
     ],
     "categories": [
       "cs.CV"
@@ -4414,10 +4414,10 @@
     "authors": [
       "Yung-Hsu Yang",
       "Luigi Piccinelli",
-      "Samuel Rota Bul\u00f2",
+      "Samuel Rota Bulò",
       "Sunghwan Hong",
       "Denis Rozumny",
-      "Johannes Sch\u00f6nberger",
+      "Johannes Schönberger",
       "Zuria Bauer",
       "Hermann Blum",
       "Peter Kontschieder",
@@ -4438,7 +4438,7 @@
     "title": "Do Not Forget the Obvious - RISC: A Risk-Informed Slice-Coverage Protocol for Safe Autonomous Driving",
     "summary": "Aggregate metrics may not fully reflect performance in insufficiently examined high-risk driving conditions. We propose RISC (Risk-Informed Slice Coverage), a practical protocol for risk-guided stress testing and coverage-qualified evaluation. Risk-guided stress testing directs a finite audit budget toward risk-relevant sub-datasets, called risk slices, while coverage-qualified evaluation reports results together with explicit statements about which slices are sufficiently or insufficiently covered. The protocol translates safety concerns into machine-readable risk slices, uses lightweight signals to tag candidate data, selects a compact audit set by risk, and qualifies the results using coverage evidence. An LLM can optionally support this process by surfacing relevant but potentially overlooked conditions during test planning, thereby helping engineers not to forget the obvious. RISC is model-agnostic and can be applied to perception modules, driving models, and other autonomous-driving subsystems. We instantiate the protocol for monocular pedestrian perception using 1,000 frames from the Zenseact Open Dataset, image statistics, and a YOLO-based detector proxy. In this proof-of-concept study, risk-guided selection increases critical failure discovery from 34.0% under random sampling to 98.5%. RISC provides a lightweight, assurance-oriented evaluation layer that complements scenario categorization, coverage assessment, and broader testing-and-verification workflows.",
     "authors": [
-      "Fabian H\u00fcger"
+      "Fabian Hüger"
     ],
     "categories": [
       "cs.CV"
@@ -4470,280 +4470,5 @@
     "date": "2026-08-13",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "sansess/faster-whisper-large-v3-turbo-ct2",
-    "author": "unknown",
-    "title": "sansess/faster-whisper-large-v3-turbo-ct2",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "ctranslate2",
-      "audio",
-      "automatic-speech-recognition",
-      "en",
-      "zh",
-      "de",
-      "es",
-      "ru",
-      "ko",
-      "fr",
-      "ja",
-      "pt",
-      "tr",
-      "pl",
-      "ca",
-      "nl",
-      "ar",
-      "sv",
-      "it",
-      "id",
-      "hi",
-      "fi",
-      "vi",
-      "he",
-      "uk",
-      "el",
-      "ms",
-      "cs",
-      "ro",
-      "da",
-      "hu",
-      "ta",
-      "no",
-      "th",
-      "ur",
-      "hr",
-      "bg",
-      "lt",
-      "la",
-      "mi",
-      "ml",
-      "cy",
-      "sk",
-      "te",
-      "fa",
-      "lv",
-      "bn",
-      "sr",
-      "az",
-      "sl",
-      "kn",
-      "et",
-      "mk",
-      "br",
-      "eu",
-      "is",
-      "hy",
-      "ne",
-      "mn",
-      "bs",
-      "kk",
-      "sq",
-      "sw",
-      "gl",
-      "mr",
-      "pa",
-      "si",
-      "km",
-      "sn",
-      "yo",
-      "so",
-      "af",
-      "oc",
-      "ka",
-      "be",
-      "tg",
-      "sd",
-      "gu",
-      "am",
-      "yi",
-      "lo",
-      "uz",
-      "fo",
-      "ht",
-      "ps",
-      "tk",
-      "nn",
-      "mt",
-      "sa",
-      "lb",
-      "my",
-      "bo",
-      "tl",
-      "mg",
-      "as",
-      "tt",
-      "haw",
-      "ln",
-      "ha",
-      "ba",
-      "jw",
-      "su",
-      "yue",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "ctranslate2",
-    "created_at": "2026-08-13T08:13:58.000Z",
-    "last_modified": "2026-08-13T08:13:58.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sansess/faster-whisper-large-v3-turbo-ct2",
-    "date": "2026-08-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "fpadovani/jpn-100mb-after-eng-baseline-ckpt500_seed3407",
-    "author": "unknown",
-    "title": "fpadovani/jpn-100mb-after-eng-baseline-ckpt500_seed3407",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "base_model:fpadovani/ppt-art-lang-eng-baseline-100mb_seed3407",
-      "base_model:finetune:fpadovani/ppt-art-lang-eng-baseline-100mb_seed3407",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-13T07:35:52.000Z",
-    "last_modified": "2026-08-13T08:13:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fpadovani/jpn-100mb-after-eng-baseline-ckpt500_seed3407",
-    "date": "2026-08-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "meshllm/Qwen3.8-2.4T-A95B-UD-IQ2_XXS-layers",
-    "author": "unknown",
-    "title": "meshllm/Qwen3.8-2.4T-A95B-UD-IQ2_XXS-layers",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mesh-llm",
-      "gguf",
-      "layer-package",
-      "skippy",
-      "distributed-inference",
-      "local-inference",
-      "openai-compatible",
-      "experimental",
-      "text-generation",
-      "base_model:unsloth/Qwen3.8-2.4T-A95B-GGUF",
-      "base_model:quantized:unsloth/Qwen3.8-2.4T-A95B-GGUF",
-      "license:other",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mesh-llm",
-    "created_at": "2026-08-13T06:43:04.000Z",
-    "last_modified": "2026-08-13T08:12:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/meshllm/Qwen3.8-2.4T-A95B-UD-IQ2_XXS-layers",
-    "date": "2026-08-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "syvai/hviske-v5-tiny",
-    "author": "unknown",
-    "title": "syvai/hviske-v5-tiny",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "onnx",
-      "safetensors",
-      "gguf",
-      "cohere_asr",
-      "automatic-speech-recognition",
-      "asr",
-      "speech-recognition",
-      "danish",
-      "distillation",
-      "custom_code",
-      "da",
-      "base_model:syvai/hviske-v5.3",
-      "base_model:quantized:syvai/hviske-v5.3",
-      "license:cc-by-nc-4.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-08-11T18:50:47.000Z",
-    "last_modified": "2026-08-13T08:12:42.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/syvai/hviske-v5-tiny",
-    "date": "2026-08-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "selos/New",
-    "author": "unknown",
-    "title": "selos/New",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-08-13T08:10:49.000Z",
-    "last_modified": "2026-08-13T08:10:49.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/selos/New",
-    "date": "2026-08-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "swapnilvyom/sarvam-mf-pa-or-sft",
-    "author": "unknown",
-    "title": "swapnilvyom/sarvam-mf-pa-or-sft",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "gemma3",
-      "translation",
-      "finance",
-      "mutual-fund",
-      "en",
-      "pa",
-      "or",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "translation",
-    "library": "",
-    "created_at": "2026-08-13T07:39:50.000Z",
-    "last_modified": "2026-08-13T08:09:25.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/swapnilvyom/sarvam-mf-pa-or-sft",
-    "date": "2026-08-13",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
