@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-13T21:38:50.483162",
+  "date": "2026-08-13T22:34:46.367869",
   "patterns": {
     "multimodal_research": [
       {
@@ -275,10 +275,6 @@
       {
         "title": "BoltNet: An Ultra-Lightweight Convolutional Network for On-Device Plant Species Identification",
         "url": "https://arxiv.org/abs/2608.11844v1"
-      },
-      {
-        "title": "h3rb3rn/moe-sovereign-student-4b",
-        "url": "https://huggingface.co/h3rb3rn/moe-sovereign-student-4b"
       }
     ],
     "language_models": [
@@ -621,6 +617,10 @@
       {
         "title": "Do Not Forget the Obvious - RISC: A Risk-Informed Slice-Coverage Protocol for Safe Autonomous Driving",
         "url": "https://arxiv.org/abs/2608.12051v1"
+      },
+      {
+        "title": "emanuelealbertosi/gpt2-it-514m-instruct",
+        "url": "https://huggingface.co/emanuelealbertosi/gpt2-it-514m-instruct"
       }
     ],
     "vision_systems": [
@@ -1221,6 +1221,10 @@
       {
         "title": "Making Every Step Count: Spatio-Temporal Information Allocation for Imaging Inverse Problems",
         "url": "https://arxiv.org/abs/2608.11747v1"
+      },
+      {
+        "title": "Creekside/lfm-230-cpt-logic-v1",
+        "url": "https://huggingface.co/Creekside/lfm-230-cpt-logic-v1"
       }
     ],
     "benchmarks": [
@@ -1641,7 +1645,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "50 independent papers",
+      "observation": "49 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1653,7 +1657,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1665,7 +1669,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 404
   }
 }
