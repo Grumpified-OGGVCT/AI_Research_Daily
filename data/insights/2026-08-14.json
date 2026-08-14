@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-14T09:02:55.220093",
+  "date": "2026-08-14T10:53:09.500323",
   "patterns": {
     "multimodal_research": [
       {
@@ -815,10 +815,6 @@
       {
         "title": "PixSDS: Why Latent SDS Makes Noisy Pixels",
         "url": "https://arxiv.org/abs/2608.12997v1"
-      },
-      {
-        "title": "AETHORIA-AI/TR-HASH-Vision-v6-1M-Objects365",
-        "url": "https://huggingface.co/AETHORIA-AI/TR-HASH-Vision-v6-1M-Objects365"
       }
     ],
     "reasoning": [
@@ -1571,7 +1567,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1617,13 +1613,13 @@
     },
     {
       "topic": "vision",
-      "frequency": 36,
+      "frequency": 35,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 381
+    "total_papers": 380
   }
 }
