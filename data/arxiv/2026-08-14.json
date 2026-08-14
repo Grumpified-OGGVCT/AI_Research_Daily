@@ -54,8 +54,8 @@
       "Ioannis Giannoukos",
       "Nikolaos Mitianoudis",
       "Agata Ulanowska",
-      "Katarzyna \u017bebrowska",
-      "Nazarij Bu\u0142awka",
+      "Katarzyna Żebrowska",
+      "Nazarij Buławka",
       "Christina Margariti",
       "George Pavlidis",
       "Chairi Kiourt",
@@ -340,11 +340,11 @@
     "summary": "Tabular-to-image methods have emerged as novel approaches to leverage the high predictive performance of convolutional neural networks and vision transformers. They convert tabular data into image representations, mapping each feature at a fixed pixel location derived from a dimensionality-reduction method (e.g., t-SNE, UMAP, PCA). However, they encode only the marginal value of each feature and discard information about feature relationships. We propose TabSOM, a tabular-to-image encoding built on the Self-Organizing Map (SOM), which provides: (i) a spatial layout in which every input feature occupies a fixed canvas position derived from its component plane via collision-free Hungarian assignment; and (ii) a graph that captures pairwise feature relationships derived from the SOM component planes. The resulting image stacks two multi-scale node channels: one encodes feature values at fixed scales, while the other encodes pairwise feature interactions as spatial connections between related features. Two SOM-derived interpretability approaches are introduced: a prototype-inspired partial dependence plot and a class--separation importance score. Benchmarked against twelve existing tabular-to-image methods across public binary-classification datasets, TabSOM ranks first or second on every dataset and achieves the lowest variance of any method evaluated. Interpretability obtained with TabSOM was validated against Random Forest, XGBoost, and SHAP, the class-separation score shows reasonable agreement with established baselines on the top-ranked features while capturing complementary structural information from input data. These results demonstrate that TabSOM provides an effective and interpretable approach for applying deep learning architectures to tabular data, bridging the performance--interpretability gap in this domain.",
     "authors": [
       "David Chushig-Muzo",
-      "Mar\u00eda \u00c1ngeles Rodr\u00edguez de Cara",
+      "María Ángeles Rodríguez de Cara",
       "Eva Milara",
       "Francisco J. Lara-Abelenda",
       "Luis Zhinin-Vera",
-      "Diego H. Peluffo-Ord\u00f3\u00f1ez"
+      "Diego H. Peluffo-Ordóñez"
     ],
     "categories": [
       "cs.CV",
@@ -604,8 +604,8 @@
     "authors": [
       "Koen P. de Vries",
       "Xavier Alameda-Pineda",
-      "Estefan\u00eda Talavera",
-      "St\u00e9phane Lathuili\u00e8re"
+      "Estefanía Talavera",
+      "Stéphane Lathuilière"
     ],
     "categories": [
       "cs.CV"
@@ -910,11 +910,11 @@
     "summary": "Research on automatic speaking assessment (ASA) has increasingly adopted multimodal speech large language models to assess learners' speaking performance. However, existing studies provide limited analysis of how acoustic and content information contribute to predictions and how stable the resulting performance is. We propose CASA, a simpler architecture combining Whisper-medium and Qwen3.5-2B that achieves state-of-the-art performance while providing a more interpretable separation between speech delivery and content.   On the Speak & Improve Corpus 2025, CASA achieves a root mean square error (RMSE) of 0.358, improving on the previous best RMSE while using approximately half the estimated inference parameters. The general-purpose architecture is designed for adaptation to other ASA corpora without structural changes and relies on three handcrafted fluency features. Through ablations and repeated runs, we analyze the individual and complementary contributions of acoustic and content information, examine performance variability, and demonstrate the potential of large language model reasoning for training-free content validation.",
     "authors": [
       "Nhan Phan",
-      "Ilona L\u00e4hteenm\u00e4ki",
+      "Ilona Lähteenmäki",
       "Anna von Zansen",
       "Olli-Pekka Pauna",
       "Yaroslav Getman",
-      "Tam\u00e1s Gr\u00f3sz",
+      "Tamás Grósz",
       "Mikko Kurimo"
     ],
     "categories": [
@@ -1144,7 +1144,7 @@
       "Fanfei Li",
       "Jana Zeller",
       "Manuel Prada-Corral",
-      "Thadd\u00e4us Wiedemer",
+      "Thaddäus Wiedemer",
       "Prasanna Mayilvahanan",
       "Ryan Cotterell",
       "Wieland Brendel"
@@ -1366,7 +1366,7 @@
     "title": "Foundation models for movement data: Are they ready for prime-time?",
     "summary": "Foundation models (FMs) trained on large-scale accelerometer data have been proposed as general-purpose feature extractors for health monitoring, but systematic evidence of their advantages is lacking. We present the first comprehensive evaluation of four open-source accelerometer FMs against supervised baselines covering 19 tasks across the domains of activity recognition including activities of daily living, clinical monitoring, and physiological inference. We find task-dependent performance results: supervised models remain competitive with FMs on human action recognition (HAR), with no consistent advantage for either, while selected FMs lead on fall and stress detection and are the most robust to sensor-placement variation. As frozen feature extractors, FMs are strongest for demographic inference, whereas sleep staging performance remains near chance level for all models. The internal FM representations show strong similarity across layers, highlighting potential for future FM improvements. Linear and frozen probing reveals that UniMTS provides the strongest representations and is the only FM that surpasses the supervised baselines without finetuning. Concept discovery analysis shows all models capture high-intensity activities clearly but struggle with sedentary, complex or ambiguous activities. We provide scenario-based deployment recommendations. Furthermore, we identify FM-derived activity profile inference-moving beyond fixed category classification-as a promising research direction.",
     "authors": [
-      "Alexander Br\u00e4uer",
+      "Alexander Bräuer",
       "Benjamin Cauchi",
       "Nils Strodthoff"
     ],
@@ -1543,7 +1543,7 @@
     "title": "Behavioral Reprogramming of Open-Weights Models: Cognitive Plasticity and Alignment Bounds",
     "summary": "Large language models (LLMs) are predominantly aligned to function as passive, sycophantic assistants. We challenge this default paradigm by empirically evaluating the cognitive plasticity of open-weight architectures when subjected to rigorous behavioral reprogramming. Our objective is to induce a proactive, Socratic conversational framework, characterized by high-frequency question generation under strictly constrained high-performance computing (HPC) conditions. Through a massively parallelized hyperparameter sweep comprising 405 HPC jobs, we define precise mathematical bounds for parameter-efficient fine-tuning (PEFT). We identify an architectural threshold at LoRA rank $r=16$ and demonstrate via extensive epoch ablation that generalization capacity strictly reaches its optimal convergence within an optimized training window of $e \\in [2, 3]$ depending on dataset density (minimum validation loss of 0.919). Furthermore, scaling model capacity to 14B parameters yielded a lower localized evaluation perplexity (1.414). Subsequent Direct Preference Optimization (DPO) successfully decoupled the underlying assertive behavior from localized syntax, while rigorous cross-lingual stress testing reveals both the capabilities and the structural boundaries of zero-shot persona transfer, demonstrating robust alignment in closely related linguistic families alongside identifiable degradation pathways in morphologically distant targets. These findings establish a rigorous empirical framework for compute-efficient, cross-lingual behavioral modification.",
     "authors": [
-      "Lucia Mal\u00ed\u010dkov\u00e1"
+      "Lucia Malíčková"
     ],
     "categories": [
       "cs.AI"
@@ -1626,7 +1626,7 @@
   {
     "arxiv_id": "2608.13521v1",
     "title": "Exponential quantum advantage for learning signals with a single qubit",
-    "summary": "Quantum technology has the potential to transform scientific discovery, but quantum advantages often require processing capabilities well beyond the reach of experimental platforms. We show that coupling a single controllable qubit to an otherwise conventional sensor can exponentially reduce the number of measurements required to learn classical signals. These rigorous quantum advantages apply to fundamental sensing tasks, including learning Fourier coefficients, extracting temporal correlations from time-varying signals, and estimating transformations of physical observables. Using a superconducting cavity--qubit architecture, we experimentally demonstrate $10^7$-fold reductions in the number of measurements required for Fourier-amplitude and time-varying signal learning. Our $\\textit{quantum feature sensing}$ algorithms further enable orders-of-magnitude improvements in simulations of weak-signal dark matter detection and wireless communication applications. These quantum advantages are derived from Quantum Phase-Space Inference (Q$\u03a8$), a unifying theory of quantum-enhanced experiments that simultaneously converts a set of experimental objectives and constraints into tight lower bounds and optimal quantum-enhanced learning algorithms while producing a certificate of quantum advantage. Q$\u03a8$ extends beyond the regimes captured by quantum Fisher information and provides a framework for systematically identifying rigorous quantum advantages in practical experimental tasks. Together, our results establish that near-term quantum technology can exponentially enhance our ability to learn from classical signals.",
+    "summary": "Quantum technology has the potential to transform scientific discovery, but quantum advantages often require processing capabilities well beyond the reach of experimental platforms. We show that coupling a single controllable qubit to an otherwise conventional sensor can exponentially reduce the number of measurements required to learn classical signals. These rigorous quantum advantages apply to fundamental sensing tasks, including learning Fourier coefficients, extracting temporal correlations from time-varying signals, and estimating transformations of physical observables. Using a superconducting cavity--qubit architecture, we experimentally demonstrate $10^7$-fold reductions in the number of measurements required for Fourier-amplitude and time-varying signal learning. Our $\\textit{quantum feature sensing}$ algorithms further enable orders-of-magnitude improvements in simulations of weak-signal dark matter detection and wireless communication applications. These quantum advantages are derived from Quantum Phase-Space Inference (Q$Ψ$), a unifying theory of quantum-enhanced experiments that simultaneously converts a set of experimental objectives and constraints into tight lower bounds and optimal quantum-enhanced learning algorithms while producing a certificate of quantum advantage. Q$Ψ$ extends beyond the regimes captured by quantum Fisher information and provides a framework for systematically identifying rigorous quantum advantages in practical experimental tasks. Together, our results establish that near-term quantum technology can exponentially enhance our ability to learn from classical signals.",
     "authors": [
       "Ishaan Kannan",
       "Sridhar Prabhu",
@@ -1765,8 +1765,8 @@
     "title": "Incremental Evaluation and Training in Relational Deep Learning",
     "summary": "Relational Deep Learning (RDL) models multi-tabular databases as temporal heterogeneous graphs to enable end-to-end representation learning. However, prevailing RDL evaluation practices rely on static, single-episode dataset snapshots, overlooking the continuous, time-evolving nature of real-world databases. Consequently, current RDL benchmarks fail to capture how model performance changes as new data accumulates over time. To address this limitation, we introduce an incremental, multi-episode evaluation and training paradigm to assess and improve the temporal robustness and adaptability of state-of-the-art RDL models. Using established large-scale datasets, we examine data evolution and model training dynamics, demonstrating that temporal concept drifts occur in the majority of predictive tasks. We present multiple incremental training regimes for fine-tuning the models and demonstrate that transfer learning is both feasible and highly effective in the RDL setting. Alongside a new temporal evaluation metric that prioritizes near-future accuracy, we show that our incrementally fine-tuned models consistently outperform the standard, expensive, from-scratch trained baselines.",
     "authors": [
-      "Jakub Pele\u0161ka",
-      "Gustav \u0160\u00edr"
+      "Jakub Peleška",
+      "Gustav Šír"
     ],
     "categories": [
       "cs.LG",
@@ -1864,7 +1864,7 @@
       "Andy Yang",
       "Blerta Veseli",
       "Corentin Barloy",
-      "Micha\u00ebl Cadilhac",
+      "Michaël Cadilhac",
       "Andreas Krebs",
       "Charles Paperman",
       "Howard Straubing",
@@ -1995,8 +1995,8 @@
       "Michael Felsberg",
       "Fredrik Larsson",
       "Johan Wiklund",
-      "Niclas Wadstr\u00f6mer",
-      "J\u00f6rgen Ahlberg"
+      "Niclas Wadströmer",
+      "Jörgen Ahlberg"
     ],
     "categories": [
       "cs.CV"
@@ -2034,7 +2034,7 @@
     "authors": [
       "Guillaume Jeanneret",
       "Mathis Koroglu",
-      "Hugo Caselles-Dupr\u00e9",
+      "Hugo Caselles-Dupré",
       "Arnaud Dapogny",
       "Matthieu Cord"
     ],
@@ -2051,10 +2051,10 @@
   {
     "arxiv_id": "2608.13018v1",
     "title": "Foundations of MT-PDCL: Measure-Theoretic Probabilistic Definite Clause Logic",
-    "summary": "Standard probabilistic logic programming frameworks typically rely on grounding logic programs into discrete propositional representations. This operational requirement restricts exact inference to finite domains and discrete probability distributions. In this paper, we introduce Measure-Theoretic Probabilistic Definite Clause Logic (MT-PDCL), a generalized foundational framework that eliminates this finite-domain restriction. By explicitly defining stochastic variables over bounded index domains and equipping the interpretation space with standard Borel $\u03c3$-algebras, MT-PDCL allows logical variables to operate natively over continuous measurable spaces. Building on Continuous Distribution Semantics, MT-PDCL models probabilistic rules as mutually independent causal events. However, rather than aggregating these derivations via finite boolean circuits, declarative entailment is formally defined through exact Lebesgue integration over the continuous measure space. We introduce a continuous immediate consequence operator that unifies the integration of continuous prior distributions with the evaluation of exact continuous observations. We demonstrate that this approach replaces the combinatorial bottleneck of discrete grounding with exact, algebraic, and structurally differentiable inference. While this transition trades discrete combinatorics for the geometric curse of dimensionality, it achieves the expressive power of continuous probabilistic models while preserving the pure declarative syntax of definite clause logic.",
+    "summary": "Standard probabilistic logic programming frameworks typically rely on grounding logic programs into discrete propositional representations. This operational requirement restricts exact inference to finite domains and discrete probability distributions. In this paper, we introduce Measure-Theoretic Probabilistic Definite Clause Logic (MT-PDCL), a generalized foundational framework that eliminates this finite-domain restriction. By explicitly defining stochastic variables over bounded index domains and equipping the interpretation space with standard Borel $σ$-algebras, MT-PDCL allows logical variables to operate natively over continuous measurable spaces. Building on Continuous Distribution Semantics, MT-PDCL models probabilistic rules as mutually independent causal events. However, rather than aggregating these derivations via finite boolean circuits, declarative entailment is formally defined through exact Lebesgue integration over the continuous measure space. We introduce a continuous immediate consequence operator that unifies the integration of continuous prior distributions with the evaluation of exact continuous observations. We demonstrate that this approach replaces the combinatorial bottleneck of discrete grounding with exact, algebraic, and structurally differentiable inference. While this transition trades discrete combinatorics for the geometric curse of dimensionality, it achieves the expressive power of continuous probabilistic models while preserving the pure declarative syntax of definite clause logic.",
     "authors": [
-      "Costin B\u0103dic\u0103",
-      "Amelia B\u0103dic\u0103"
+      "Costin Bădică",
+      "Amelia Bădică"
     ],
     "categories": [
       "cs.AI"
@@ -2126,7 +2126,7 @@
   {
     "arxiv_id": "2608.13510v1",
     "title": "On the Structural Limits of Machine Learning Decision Systems: An Information-Theoretic, Interaction-Based, and Stochastic-Dynamical Perspective",
-    "summary": "Machine learning procedures are commonly evaluated in terms of predictive accuracy and computational efficiency. However, their achievable performance is fundamentally constrained by structural properties of the underlying data-generating process, which are formalized in terms of informational bounds. In this work we examine intrinsic limits of data-driven decision systems from an information-theoretic and interaction-based perspective. We analyze minimal achievable error in classification through Fano-type bounds and precision limits in parametric estimation via the Cram\u00e9r-Rao inequality, emphasizing that such limits depend on the underlying model rather than on algorithmic sophistication alone. We further discuss how implicit assumptions, such as independence, ergodicity, and distributional stability, affect the validity of inferential procedures. Building on interaction-based modeling principles, we review typical frameworks such as Markov Random Fields and potential based representations for encoding dependence mechanisms. We also describe decision systems, including LLM-integrated agent architectures, as feedback-driven stochastic processes where state-dependent dynamics may induce emergent macroscopic behavior. This perspective highlights the importance of having adequate models for the data as a prerequi- site for expanding predictive capability, and situates algorithmic learning within the informational limits imposed by the models.",
+    "summary": "Machine learning procedures are commonly evaluated in terms of predictive accuracy and computational efficiency. However, their achievable performance is fundamentally constrained by structural properties of the underlying data-generating process, which are formalized in terms of informational bounds. In this work we examine intrinsic limits of data-driven decision systems from an information-theoretic and interaction-based perspective. We analyze minimal achievable error in classification through Fano-type bounds and precision limits in parametric estimation via the Cramér-Rao inequality, emphasizing that such limits depend on the underlying model rather than on algorithmic sophistication alone. We further discuss how implicit assumptions, such as independence, ergodicity, and distributional stability, affect the validity of inferential procedures. Building on interaction-based modeling principles, we review typical frameworks such as Markov Random Fields and potential based representations for encoding dependence mechanisms. We also describe decision systems, including LLM-integrated agent architectures, as feedback-driven stochastic processes where state-dependent dynamics may induce emergent macroscopic behavior. This perspective highlights the importance of having adequate models for the data as a prerequi- site for expanding predictive capability, and situates algorithmic learning within the informational limits imposed by the models.",
     "authors": [
       "Nestor R. Barraza",
       "Gabriel Pena"
@@ -2152,7 +2152,7 @@
       "Zao Fan",
       "Tianshu Chu",
       "Tianlong Fan",
-      "Linyuan L\u00fc"
+      "Linyuan Lü"
     ],
     "categories": [
       "cs.AI",
@@ -2198,7 +2198,7 @@
     "authors": [
       "Berk Hadzhamolla",
       "Alexander Johannes Stasik",
-      "Signe Riemer-S\u00f8rensen"
+      "Signe Riemer-Sørensen"
     ],
     "categories": [
       "cs.LG"
@@ -2236,7 +2236,7 @@
     "title": "Foundations of Independent Component Analysis",
     "summary": "We present the mathematical foundations of linear independent component analysis (ICA) models based on standard literature in a self-contained note. It is aimed at readers with a background in measure-theoretic probability theory. We first develop the theory of the characteristic functions of probability measures on $\\mathbb{R}^d$, including their analyticity and the way in which they determine and characterise the distributions. We then focus on several identifiability results of ICA models with successively strengthened assumptions on the sources: from merely non-constant, to non-Gaussian, to Gaussian-free independent sources. Under the strictest assumptions, we show that the independent sources are identifiable up to translation, permutation, scales and signs, and this even in the presence of additive Gaussian noise. Furthermore, we present the online equivariant gradient descent ICA algorithm for recovering the independent sources from data, in the standard complete noiseless non-Gaussian ICA setting.",
     "authors": [
-      "Patrick Forr\u00e9"
+      "Patrick Forré"
     ],
     "categories": [
       "math.ST",
@@ -2750,7 +2750,7 @@
   {
     "arxiv_id": "2608.13478v1",
     "title": "MapRoute++: Surrogate-Guided Semantic Routing for Visual Concept Unlearning",
-    "summary": "We present our submission to Task 3 of the Gen$\u03bc$ 2.0 Challenge on visual concept unlearning. Building on MapRoute, we introduce task-specific training objectives, richer concept representations, and semantic routing for concept-specific mapper selection. Our approach improves robust concept removal while preserving unrelated and semantically adjacent concepts. On the official benchmark, evaluated using the Erasing-Retention-Robustness (ERR) metric on Stable Diffusion v1.4, our method outperforms the state-of-the-art baseline by 12.1\\% on average across the five concept categories, achieving substantial gains.",
+    "summary": "We present our submission to Task 3 of the Gen$μ$ 2.0 Challenge on visual concept unlearning. Building on MapRoute, we introduce task-specific training objectives, richer concept representations, and semantic routing for concept-specific mapper selection. Our approach improves robust concept removal while preserving unrelated and semantically adjacent concepts. On the official benchmark, evaluated using the Erasing-Retention-Robustness (ERR) metric on Stable Diffusion v1.4, our method outperforms the state-of-the-art baseline by 12.1\\% on average across the five concept categories, achieving substantial gains.",
     "authors": [
       "Ashok Urlana",
       "L. D. M. S. Sai Teja",
@@ -2807,8 +2807,8 @@
       "Martin Augusto Gagliotti Vigil",
       "Jim Lau",
       "Agenor Hentz",
-      "Andr\u00e9a Sabedra Bordin",
-      "Alexandre Leopoldo Gon\u00e7alves",
+      "Andréa Sabedra Bordin",
+      "Alexandre Leopoldo Gonçalves",
       "Roberto Rodrigues-Filho"
     ],
     "categories": [
@@ -2928,7 +2928,7 @@
   {
     "arxiv_id": "2608.13082v1",
     "title": "LOB-ID: Evaluating Synthetic Market Data by Inception Distances",
-    "summary": "Generative models of limit orderbook (LOB) data have advanced rapidly, but their evaluation often focuses on stylised facts and selected market statistics. These measures provide useful diagnostics but may not capture the joint temporal and cross-level structure of order-book trajectories. We introduce LOB-ID, an embedding-based framework that adapts the Fr\u00e9chet Inception Distance (FID) and Monge Inception Distance (MIND) to LOB data. To obtain domain-specific embeddings, we train the DeepLOB architecture on four months of Level-2 order-book data for five equities. We show that LOB-ID is stable across time, instruments, and embedding checkpoints, and rises monotonically under controlled distortions. We then construct a moment-matching attack against FID and a deep-book perturbation that evades statistic-based evaluation. MIND remains substantially more sensitive to both distortions. Finally, we score five generative LOB models, spanning stochastic baselines and deep learning approaches, and find that LOB-ID ranks them in line with the joint temporal and cross-level structure each captures by construction.",
+    "summary": "Generative models of limit orderbook (LOB) data have advanced rapidly, but their evaluation often focuses on stylised facts and selected market statistics. These measures provide useful diagnostics but may not capture the joint temporal and cross-level structure of order-book trajectories. We introduce LOB-ID, an embedding-based framework that adapts the Fréchet Inception Distance (FID) and Monge Inception Distance (MIND) to LOB data. To obtain domain-specific embeddings, we train the DeepLOB architecture on four months of Level-2 order-book data for five equities. We show that LOB-ID is stable across time, instruments, and embedding checkpoints, and rises monotonically under controlled distortions. We then construct a moment-matching attack against FID and a deep-book perturbation that evades statistic-based evaluation. MIND remains substantially more sensitive to both distortions. Finally, we score five generative LOB models, spanning stochastic baselines and deep learning approaches, and find that LOB-ID ranks them in line with the joint temporal and cross-level structure each captures by construction.",
     "authors": [
       "Andreea Bacalum",
       "Zhuohan Wang",
@@ -2990,7 +2990,7 @@
   {
     "arxiv_id": "2608.13549v1",
     "title": "Exponential Convex Calibration Dimension for the Multi-Label Jaccard Measure",
-    "summary": "The per-instance Jaccard score, or intersection over union (IoU), is standard in multi-label classification and binary segmentation. With $s$ labels, its loss matrix has $2^s$ outcomes and reports. Under the convention $\\mathrm{Jac}(\\varnothing,\\varnothing)=1$, we prove that the Jaccard score, shifted-loss, and ordinary loss matrices are nonsingular and that the loss columns have affine dimension $2^s-1$. The proof combines a finite MinHash Gram representation with Boolean M\u00f6bius inversion. For exact calibration, we prove $2^{s-1} \\leq \\mathrm{CCdim}(L^{\\mathrm{Jac}}) \\leq 2^s-1$. The lower bound uses a factorially weighted distribution with $2^{s-1}+1$ supported outcomes and Bayes-optimal reports. Consequently, every exactly calibrated convex surrogate requires exponentially many prediction coordinates. We also give two polynomial-dimensional approximation guarantees with explicit regret transfers. A new $F_1$-to-Jaccard transfer turns an existing $(s^2+1)$-dimensional $F_1$ surrogate into a polynomial-time rule with asymptotic Jaccard regret at most $3-2\\sqrt{2}$. For any $\u03b1>0$ and $0<\u03c1<1$, a MinHash square-loss surrogate attains Jaccard-regret floor $\u03b1$ uniformly over arbitrary conditional label distributions. With probability at least $1-\u03c1$, the direct construction has dimension $O((s^2+s\\log(1/\u03c1))/\u03b1^2)$, while a signed variant has dimension $O((s+\\log(1/\u03c1))/\u03b1^2)$. Thus zero-regret calibration requires exponential dimension, whereas every fixed additive regret tolerance admits polynomial prediction dimension.",
+    "summary": "The per-instance Jaccard score, or intersection over union (IoU), is standard in multi-label classification and binary segmentation. With $s$ labels, its loss matrix has $2^s$ outcomes and reports. Under the convention $\\mathrm{Jac}(\\varnothing,\\varnothing)=1$, we prove that the Jaccard score, shifted-loss, and ordinary loss matrices are nonsingular and that the loss columns have affine dimension $2^s-1$. The proof combines a finite MinHash Gram representation with Boolean Möbius inversion. For exact calibration, we prove $2^{s-1} \\leq \\mathrm{CCdim}(L^{\\mathrm{Jac}}) \\leq 2^s-1$. The lower bound uses a factorially weighted distribution with $2^{s-1}+1$ supported outcomes and Bayes-optimal reports. Consequently, every exactly calibrated convex surrogate requires exponentially many prediction coordinates. We also give two polynomial-dimensional approximation guarantees with explicit regret transfers. A new $F_1$-to-Jaccard transfer turns an existing $(s^2+1)$-dimensional $F_1$ surrogate into a polynomial-time rule with asymptotic Jaccard regret at most $3-2\\sqrt{2}$. For any $α>0$ and $0<ρ<1$, a MinHash square-loss surrogate attains Jaccard-regret floor $α$ uniformly over arbitrary conditional label distributions. With probability at least $1-ρ$, the direct construction has dimension $O((s^2+s\\log(1/ρ))/α^2)$, while a signed variant has dimension $O((s+\\log(1/ρ))/α^2)$. Thus zero-regret calibration requires exponential dimension, whereas every fixed additive regret tolerance admits polynomial prediction dimension.",
     "authors": [
       "Mingyuan Zhang"
     ],
@@ -3125,7 +3125,7 @@
       "Chaoran Liu",
       "Daisuke Kawahara",
       "Yusuke Miyao",
-      "Max M\u00fcller-Eberstein",
+      "Max Müller-Eberstein",
       "Masaru Isonuma"
     ],
     "categories": [
@@ -3414,7 +3414,7 @@
   {
     "arxiv_id": "2608.13057v1",
     "title": "TEMPO: Makespan-Aware Expert-Parallel Load Balancing Across Memory- and Compute-Bound Regimes",
-    "summary": "In expert-parallel (EP) MoE serving, every layer synchronizes at the slowest GPU. Dispatchers balance token counts (EPLB, LPLB, UltraEP) or activated-expert counts (METRO), assuming expert time is linear in one. Measurements on two datacenter GPU generations show it is neither: below $\\nstar\\!\\approx\\!156$--$168$ tokens, HBM weight streaming dominates---cost attaches to \\emph{activated replicas}, not tokens; above it, grouped GEMM rounds tokens to 128-tile $M$-tiles, so \\emph{splitting} an expert adds padded compute. A max-affine profile $t=\\max(a+bG,\\,c+\u03b2N)$ captures both regimes. Realistic decode batches hold hot experts in the linear regime and cold in the flat \\emph{simultaneously}; recorded batches show proxy dispatches differ by $1.4$--$1.6\\times$ in modeled block time (p95 up to $1.7\\times$), and \\emph{which} proxy wins flips with the regime. We formalize per-batch dispatch as a fixed-charge makespan problem---NP-hard on two fully replicated GPUs, polynomial in degenerate limits---and present \\sys{}, a makespan-aware dispatcher solving it in milliseconds off the critical path; its SGLang integration runs out-of-process and fuses dispatch with count collection into one in-graph kernel. Anchored by an 8-GPU Testbed~A microbenchmark, \\sys{} stays within 1\\% of the best fixed baseline everywhere and wins by up to $15.5\\%$ where regimes mix. End-to-end on Testbed~B, Qwen3-235B (inside the win region) gains $4$--$6\\%$ throughput and cuts p99 latency by ${\\sim}15.6\\%$; DeepSeek-V3 (outside, communication-dominated) shows only mechanism cost. A phase diagram, not a universal win, is the claim: it predicts both outcomes before deployment.",
+    "summary": "In expert-parallel (EP) MoE serving, every layer synchronizes at the slowest GPU. Dispatchers balance token counts (EPLB, LPLB, UltraEP) or activated-expert counts (METRO), assuming expert time is linear in one. Measurements on two datacenter GPU generations show it is neither: below $\\nstar\\!\\approx\\!156$--$168$ tokens, HBM weight streaming dominates---cost attaches to \\emph{activated replicas}, not tokens; above it, grouped GEMM rounds tokens to 128-tile $M$-tiles, so \\emph{splitting} an expert adds padded compute. A max-affine profile $t=\\max(a+bG,\\,c+βN)$ captures both regimes. Realistic decode batches hold hot experts in the linear regime and cold in the flat \\emph{simultaneously}; recorded batches show proxy dispatches differ by $1.4$--$1.6\\times$ in modeled block time (p95 up to $1.7\\times$), and \\emph{which} proxy wins flips with the regime. We formalize per-batch dispatch as a fixed-charge makespan problem---NP-hard on two fully replicated GPUs, polynomial in degenerate limits---and present \\sys{}, a makespan-aware dispatcher solving it in milliseconds off the critical path; its SGLang integration runs out-of-process and fuses dispatch with count collection into one in-graph kernel. Anchored by an 8-GPU Testbed~A microbenchmark, \\sys{} stays within 1\\% of the best fixed baseline everywhere and wins by up to $15.5\\%$ where regimes mix. End-to-end on Testbed~B, Qwen3-235B (inside the win region) gains $4$--$6\\%$ throughput and cuts p99 latency by ${\\sim}15.6\\%$; DeepSeek-V3 (outside, communication-dominated) shows only mechanism cost. A phase diagram, not a universal win, is the claim: it predicts both outcomes before deployment.",
     "authors": [
       "Jie Li",
       "Chenxin Jia",
@@ -3443,7 +3443,7 @@
     "title": "On the global feature importance for interpretable and trustworthy heat demand forecasting",
     "summary": "The paper introduces the ante-hoc Explainable AI methodology to assess the global feature importance of the Machine Learning models used for heat demand forecasting in intelligent control of District Heating Systems, with motivation to facilitate their interpretability and trustworthiness, hence addressing the challenges related to adherence to communal standards, customer satisfaction and liability risks. Methodology includes use of four different approaches, namely intrinsic interpretability of Gradient Boosting method and selected post-hoc methods, namely Partial Dependence, Accumulated Local Effects and SHAP. None of the selected methods assume feature permutation or perturbations which can introduce bias due to introduction of random unrealistic values of data instances. Discussion of results is provided, including the assessment of complementarities where applicable, with specific interpretations in context of the district heating processes.",
     "authors": [
-      "Milan Zdravkovi\u0107"
+      "Milan Zdravković"
     ],
     "categories": [
       "cs.LG",
@@ -3478,7 +3478,7 @@
   {
     "arxiv_id": "2608.13514v1",
     "title": "Bagging Robustly Learns VC Classes with Linear Sample Complexity",
-    "summary": "We revisit the problem of learning predictors robust to adversarial examples at test-time. We prove that VC classes are adversarially robustly learnable with sample complexity linear in the VC dimension $d$, providing an exponential improvement over the previous upper bound of Montasser, Hanneke, and Srebro (2019). Remarkably, this result is achieved with a simple improper algorithm that combines the classic heuristic bagging (bootstrap aggregation) of Breiman (1996) with robust empirical risk minimization (RERM). Our algorithm computes RERMs on $O(d^\\star)$ independent bootstrap samples and outputs their majority vote, where $d^\\star$ denotes the dual VC dimension. We complement this result with a lower bound showing that this is unavoidable: in general, any learner in this oracle model requires $\u03a9(d^\\star)$ calls to an RERM oracle, even when given arbitrarily many training examples.",
+    "summary": "We revisit the problem of learning predictors robust to adversarial examples at test-time. We prove that VC classes are adversarially robustly learnable with sample complexity linear in the VC dimension $d$, providing an exponential improvement over the previous upper bound of Montasser, Hanneke, and Srebro (2019). Remarkably, this result is achieved with a simple improper algorithm that combines the classic heuristic bagging (bootstrap aggregation) of Breiman (1996) with robust empirical risk minimization (RERM). Our algorithm computes RERMs on $O(d^\\star)$ independent bootstrap samples and outputs their majority vote, where $d^\\star$ denotes the dual VC dimension. We complement this result with a lower bound showing that this is unavoidable: in general, any learner in this oracle model requires $Ω(d^\\star)$ calls to an RERM oracle, even when given arbitrarily many training examples.",
     "authors": [
       "Omar Montasser"
     ],
@@ -3521,7 +3521,7 @@
   {
     "arxiv_id": "2608.13453v1",
     "title": "UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models",
-    "summary": "Vision-Language-Action (VLA) models have emerged as generalist robotic policies capable of following diverse language instructions and performing a wide range of manipulation tasks. However, their direct control over embodied agents also exposes them to adversarial interference that may cause unsafe physical behaviors. Existing attacks on robotic policies are typically optimized for a single task or instruction, leaving the cross-task vulnerabilities of multitask VLAs largely unexplored. We introduce UniTexture, a cross-task universal adversarial texture attack that uses a single textured 3D object to induce targeted deviations in VLA action predictions across multiple tasks. UniTexture backpropagates gradients from the policy's action outputs to surface texture parameters through a differentiable renderer. It jointly optimizes the shared texture over a distribution of tasks, instructions, states, and viewpoints using a targeted action-space objective, steering predicted actions toward attacker-defined targets without optimizing a separate texture for each task. We evaluate UniTexture on OpenVLA and $\u03c0_{0.5}$ across diverse manipulation tasks and multiple evaluation settings. UniTexture reduces the mean task success rate from 90.0% under benign conditions to 48.4% under attack, induces target-aligned action shifts, and further exhibits cross-suite and cross-model transfer without re-optimization. Together, these findings reveal shared cross-task vulnerabilities in multitask VLAs that can be systematically exploited through a single adversarial surface texture.",
+    "summary": "Vision-Language-Action (VLA) models have emerged as generalist robotic policies capable of following diverse language instructions and performing a wide range of manipulation tasks. However, their direct control over embodied agents also exposes them to adversarial interference that may cause unsafe physical behaviors. Existing attacks on robotic policies are typically optimized for a single task or instruction, leaving the cross-task vulnerabilities of multitask VLAs largely unexplored. We introduce UniTexture, a cross-task universal adversarial texture attack that uses a single textured 3D object to induce targeted deviations in VLA action predictions across multiple tasks. UniTexture backpropagates gradients from the policy's action outputs to surface texture parameters through a differentiable renderer. It jointly optimizes the shared texture over a distribution of tasks, instructions, states, and viewpoints using a targeted action-space objective, steering predicted actions toward attacker-defined targets without optimizing a separate texture for each task. We evaluate UniTexture on OpenVLA and $π_{0.5}$ across diverse manipulation tasks and multiple evaluation settings. UniTexture reduces the mean task success rate from 90.0% under benign conditions to 48.4% under attack, induces target-aligned action shifts, and further exhibits cross-suite and cross-model transfer without re-optimization. Together, these findings reveal shared cross-task vulnerabilities in multitask VLAs that can be systematically exploited through a single adversarial surface texture.",
     "authors": [
       "Yukun Dai",
       "Mingzhe Dai",
@@ -3587,7 +3587,7 @@
     "title": "A Probe Direction Is a Property of Its Prompt",
     "summary": "A model that behaves differently when it senses it is being tested would undermine the evaluations we rely on, so recent work has sought to read that sense directly from a model's activations. The standard instrument contrasts activations on prompts that announce an evaluation against prompts that do not, and reports how well the resulting direction separates held-out cases. That number is then compared across models and correlated with scale. We observe that the instrument has a free parameter its readings do not disclose: \"a prompt that announces an evaluation\" is not a prompt but a choice among many, and nothing in the method fixes which. Holding the task text fixed and varying only that choice, we find that the reported score, and even the direction in which it trends with model size, follows the prompt rather than the model; two published studies that disagree about the sign of that trend are both reproducible from a single design, by choice of prompt alone. Treating the prompt as a facet of a measurement design rather than an implementation detail, we find the model under study accounts for a small share of the variance in the number reported about it, and most of the rest lies in how each model responds to each prompt: collecting more evaluation items cannot repair the measurement, while varying prompts can. A further check finds that the split these probes are scored on is largely separable from surface form alone, so a direction carrying no information about evaluation at all still reproduces a substantial fraction of each published score. We conclude that a single-prompt design cannot support comparison between models, and we give the number of prompts a defensible comparison requires.",
     "authors": [
-      "Valentin No\u00ebl"
+      "Valentin Noël"
     ],
     "categories": [
       "cs.LG"
@@ -3621,7 +3621,7 @@
   {
     "arxiv_id": "2608.13326v1",
     "title": "Beyond Local Accuracy: A Protocol-Level Identifiability Audit for Controlled LLM Reasoning Evaluation",
-    "summary": "LLM benchmark scores can be precise even when the observation protocol does not identify the behavioral property they are intended to measure. In a controlled, solver-grounded setting, we formalize a protocol-level identifiability audit over a finite behavioral policy class: given policies H, observation support O, and estimand $\u03c4$, we test whether O separates every pair with different $\u03c4$. The audit requires zero model calls and resolves our diagnostic case: base-only observation collapses seven frozen deterministic policies into one equivalence class; full support yields seven classes and no cross-estimand collisions; every leave-one-out support retains a constructive collision witness. Empirically, both constrained-generation variants have pair-validity 1.0, yet base accuracy and selective-response fidelity diverge - 0.620 versus 0.324 across six balanced oracle-transition directions (cluster-bootstrap 95% CI [0.600, 0.642] vs. [0.304, 0.345]) - and the gap recurs on a second deterministic source (0.646 vs. 0.331). The audit also synthesizes a minimum identifying support $O^*$ for the frozen policy class: two cells instead of the full 36-cell tensor. This case shows how evaluation-design validity can be checked structurally before model inference and why base correctness does not determine intervention-response fidelity.",
+    "summary": "LLM benchmark scores can be precise even when the observation protocol does not identify the behavioral property they are intended to measure. In a controlled, solver-grounded setting, we formalize a protocol-level identifiability audit over a finite behavioral policy class: given policies H, observation support O, and estimand $τ$, we test whether O separates every pair with different $τ$. The audit requires zero model calls and resolves our diagnostic case: base-only observation collapses seven frozen deterministic policies into one equivalence class; full support yields seven classes and no cross-estimand collisions; every leave-one-out support retains a constructive collision witness. Empirically, both constrained-generation variants have pair-validity 1.0, yet base accuracy and selective-response fidelity diverge - 0.620 versus 0.324 across six balanced oracle-transition directions (cluster-bootstrap 95% CI [0.600, 0.642] vs. [0.304, 0.345]) - and the gap recurs on a second deterministic source (0.646 vs. 0.331). The audit also synthesizes a minimum identifying support $O^*$ for the frozen policy class: two cells instead of the full 36-cell tensor. This case shows how evaluation-design validity can be checked structurally before model inference and why base correctness does not determine intervention-response fidelity.",
     "authors": [
       "Junhao Luo",
       "Ning Huang",
@@ -3666,11 +3666,11 @@
     "title": "Physics-informed distribution of relaxation times estimation and latent-space condition monitoring of solid oxide fuel and electrolysis cells from electrochemical impedance spectroscopy",
     "summary": "Estimating the distribution of relaxation times (DRT) fromelectrochemical impedance spectroscopy (EIS) is an ill-posed inverse problem that is highly sensitive to regularisation choices. We propose a physics-informed convolutional autoencoder that estimates DRT directly from EIS data without spectrum-specific tuning. A discretised relation between impedance and the DRT is embedded in the training process, constraining the network to produce impedance-consistent distributions. The model resolves overlapping relaxation processes in synthetic two-ZARC spectra and accurately reconstructs measurements from three independent solid oxide fuel and electrolysis cell datasets, with range-normalised errors below 1.1%. Decoder-probe analysis shows that the learned latent representation is organised according to relaxation timescale. Distances in this latent space capture operating changes, hydrogen-shortage events, and long-term degradation. The same lightweight architecture is applied across all datasets without modification, providing consistent DRT estimation and an interpretable basis for condition monitoring.",
     "authors": [
-      "\u017dan Gorenc",
-      "\u017diga Gradi\u0161ar",
-      "Felix M\u00fctter",
-      "Vanja Suboti\u0107",
-      "Pavle Bo\u0161koski"
+      "Žan Gorenc",
+      "Žiga Gradišar",
+      "Felix Mütter",
+      "Vanja Subotić",
+      "Pavle Boškoski"
     ],
     "categories": [
       "stat.AP",
@@ -3689,7 +3689,7 @@
     "summary": "Existing global optimization benchmark suites are of a moderate size and are based on a small number of analytical functions that date back even to the 1970s. This causes a risk of biasing the development of global optimization methods. We argue that the tasks related to the black-box adversarial attack (BBAA) can serve as valuable global optimization benchmark in many-dimensional space. We demonstrate the efficiency of several types of evolutionary algorithms and other metaheuristics in solving example BBAA problems. Thus, we take a step towards convergence of global optimization methods to the challenges and needs that arise in the modern machine learning field.",
     "authors": [
       "Wojciech Zarzecki",
-      "Jaros\u0142aw Arabas"
+      "Jarosław Arabas"
     ],
     "categories": [
       "cs.LG",
@@ -3777,9 +3777,9 @@
     "summary": "Training and evaluating spatial reasoning in embodied agents requires diverse environments that are both geometrically faithful and semantically queryable. Synthetic simulators offer ground truth semantics but sacrifice realism; simulators based on reconstructions of real-world environments have realistic appearance but lack ground truth semantics by default. We propose using Semantic Radiance Fields (SRF) as simulators for spatial reasoning agents. SRFs are a representation that unifies these requirements by lifting 2D semantic segmentations from pretrained vision models into a 3D radiance field that jointly encodes geometry, appearance, and per-class semantic identity. The resulting fields are reconstructed from posed RGB captures of real scenes and support novel-view synthesis, semantic and free-space queries within a single grounded representation. This enables the efficient generation of diverse real-world environments to train and evaluate spatial reasoning models. As an example application, we outline an SRF-driven simulator for an orchard apple-reaching task, in which the radiance field supplies camera rendering, semantic ground truth, and occupancy queries to a physics engine.",
     "authors": [
       "Nico Heider",
-      "Micha\u0142 Jan W\u0142odarczyk",
+      "Michał Jan Włodarczyk",
       "Katarzyna Wasielewska-Michniewska",
-      "Przemys\u0142aw Ho\u0142da",
+      "Przemysław Hołda",
       "Martin Schieck",
       "Marcin Paprzycki",
       "Maria Ganzha",
@@ -3842,7 +3842,7 @@
   {
     "arxiv_id": "2608.13467v1",
     "title": "Active-Trace Complexity Bounds for Moreau--Yosida Unadjusted Langevin Sampling",
-    "summary": "We study the Moreau--Yosida unadjusted Langevin algorithm (MYULA) for the nonsmooth composite target \\[ \u03c0(dx)\\propto \\exp\\{-f(x)-g(x)\\}\\,dx, \\qquad x\\in\\mathbb R^d, \\] where \\(f\\) is \\(m\\)-strongly convex with \\(L_f\\)-Lipschitz gradient and \\(g\\) is convex and \\(G\\)-Lipschitz. Let \\(g_\u03bb\\) be the Moreau envelope of \\(g\\), \\(\u03c0_\u03bb\\) the corresponding smoothed target, and \\(a_\u03bb=\\operatorname{tr}H_\u03bb\\), where \\(H_\u03bb\\) is the a.e./weak Hessian of \\(g_\u03bb\\). We show that the leading MYULA discretization error is controlled by the reference active trace \\(B_{\\mathrm{ref}}\\), the average of \\(a_\u03bb\\) along the heat substep of one MYULA update started from \\(\u03c0_\u03bb\\), rather than by the global curvature bound \\(d/\u03bb\\). If \\(M_\u03bb\\) is an a.e. upper bound for \\(a_\u03bb\\), then, up to logarithmic factors, \\[ N \\lesssim \\frac{1}{m} \\left[ L_f + \\frac{ \u03c4_f+G^2+B_{\\mathrm{ref}} }{ \\varepsilon_{\\mathrm{alg}}^2 } + \\frac{M_\u03bb}{\\varepsilon_{\\mathrm{alg}}} \\right], \\qquad \u03c4_f:= \\sup_x\\operatorname{tr}\\nabla^2 f(x), \\] iterations suffice to ensure \\(\\sqrt m\\,W_2(\u03bc_N,\u03c0_\u03bb)\\leq\\varepsilon_{\\mathrm{alg}}\\), where \\(\u03bc_N\\) is the law of the \\(N\\)-th iterate and \\(W_2\\) is the quadratic Wasserstein distance. We also prove the Moreau-bias bound \\[ \\sqrt m\\,W_2(\u03c0_\u03bb,\u03c0) \\leq \\frac{G^2\u03bb}{4}. \\] Thus, choosing \\(\u03bb\\asymp\\varepsilon/G^2\\) gives an end-to-end guarantee for \\(\u03c0\\). The universal estimate \\(B_{\\mathrm{ref}}\\leq d/\u03bb\\) yields \\(\\widetilde O(\\varepsilon^{-3})\\) accuracy dependence. For the structured piecewise-linear, lasso-type, group, and total-variation penalties considered here, curvature--tube estimates make \\(B_{\\mathrm{ref}}\\) independent of \\(\u03bb\\), yielding \\(\\widetilde O(\\varepsilon^{-2})\\) for the same classical MYULA kernel.",
+    "summary": "We study the Moreau--Yosida unadjusted Langevin algorithm (MYULA) for the nonsmooth composite target \\[ π(dx)\\propto \\exp\\{-f(x)-g(x)\\}\\,dx, \\qquad x\\in\\mathbb R^d, \\] where \\(f\\) is \\(m\\)-strongly convex with \\(L_f\\)-Lipschitz gradient and \\(g\\) is convex and \\(G\\)-Lipschitz. Let \\(g_λ\\) be the Moreau envelope of \\(g\\), \\(π_λ\\) the corresponding smoothed target, and \\(a_λ=\\operatorname{tr}H_λ\\), where \\(H_λ\\) is the a.e./weak Hessian of \\(g_λ\\). We show that the leading MYULA discretization error is controlled by the reference active trace \\(B_{\\mathrm{ref}}\\), the average of \\(a_λ\\) along the heat substep of one MYULA update started from \\(π_λ\\), rather than by the global curvature bound \\(d/λ\\). If \\(M_λ\\) is an a.e. upper bound for \\(a_λ\\), then, up to logarithmic factors, \\[ N \\lesssim \\frac{1}{m} \\left[ L_f + \\frac{ τ_f+G^2+B_{\\mathrm{ref}} }{ \\varepsilon_{\\mathrm{alg}}^2 } + \\frac{M_λ}{\\varepsilon_{\\mathrm{alg}}} \\right], \\qquad τ_f:= \\sup_x\\operatorname{tr}\\nabla^2 f(x), \\] iterations suffice to ensure \\(\\sqrt m\\,W_2(μ_N,π_λ)\\leq\\varepsilon_{\\mathrm{alg}}\\), where \\(μ_N\\) is the law of the \\(N\\)-th iterate and \\(W_2\\) is the quadratic Wasserstein distance. We also prove the Moreau-bias bound \\[ \\sqrt m\\,W_2(π_λ,π) \\leq \\frac{G^2λ}{4}. \\] Thus, choosing \\(λ\\asymp\\varepsilon/G^2\\) gives an end-to-end guarantee for \\(π\\). The universal estimate \\(B_{\\mathrm{ref}}\\leq d/λ\\) yields \\(\\widetilde O(\\varepsilon^{-3})\\) accuracy dependence. For the structured piecewise-linear, lasso-type, group, and total-variation penalties considered here, curvature--tube estimates make \\(B_{\\mathrm{ref}}\\) independent of \\(λ\\), yielding \\(\\widetilde O(\\varepsilon^{-2})\\) for the same classical MYULA kernel.",
     "authors": [
       "Yuchen Xin",
       "Zhihua Zhang"
@@ -3881,7 +3881,7 @@
     "title": "Where You Measure Decides What You Measure: Position Selection in Ablation-Based SAE Evaluation",
     "summary": "Sparse autoencoders are meant to name the things a language model computes, and the usual way to check that a latent matters is to switch it off and see what changes. But a latent fires at many tokens, and the effect has to be measured at one of them. The convention is to measure where the latent fires hardest. That choice is almost never reported, and it is not made by the experimenter: it is made by the dictionary under evaluation. Change the dictionary and the measurement moves to a different token. We show this is not a detail. Take two sparse autoencoders released by Google for the same model and match their latents by decoder similarity: even among the pairs the two dictionaries encode almost identically, they pick different tokens for a large share of them. Two dictionaries compared under the usual protocol are therefore very often compared at different places. To separate the convention from the dictionaries we train six autoencoders from one initialisation, differing only in fitting choices, so that a latent means the same thing in each. Most of the variance such a comparison reads as \"these dictionaries disagree about this latent\" turns out to be the position instead: it falls from 7.6% and 11.9% of variance to near zero once every dictionary is measured at the same token. More evaluation data does not rescue it. Across a sixteenfold range of corpus sizes the dictionaries agree less about where to measure, not more, so the problem grows with scale. The correction is one line of evaluation code. We give the protocol an ablation-based causal number must report to be comparable across papers, and an audit of five published papers against it. In short: a causal number reported without its position describes the token it was taken at as much as the latent it was taken from.",
     "authors": [
-      "Valentin No\u00ebl"
+      "Valentin Noël"
     ],
     "categories": [
       "cs.LG"
@@ -3940,7 +3940,7 @@
     "title": "A Controlled Study of Self-Supervised Image and Video Pretraining under Limited Resources",
     "summary": "Visual foundation models are a cornerstone of image and video understanding but typically require large amounts of data and computation. The current scale required for pretraining visual foundation models may be unsustainable or unnecessary, and significant benefits arise when effective models can be obtained with fewer resources. To better understand how self-supervised learning (SSL) objectives behave under resource constraints, we conduct a controlled study of image and video SSL objectives under matched data, architecture, and compute budgets. We compare contrastive, reconstruction, feature-prediction, and diffusion objectives and evaluate both standalone and jointly trained image-video SSL formulations across a diverse set of image and video understanding tasks. Our results show that DINOv2-style pretraining consistently provides the strongest overall performance under limited resources. Furthermore, combining DINOv2 with video SSL objectives such as VideoMAE substantially improves image classification and segmentation performance, but degrades video tracking and camera-pose estimation performance, revealing an important tradeoff between semantic and geometric representation learning. These findings suggest that combining image and video SSL objectives can be beneficial in resource-limited settings, while highlighting the need for improved methods that better balance semantic, temporal, and geometric supervision.",
     "authors": [
-      "Brun\u00f3 B. Englert",
+      "Brunó B. Englert",
       "Gijs Dubbelman"
     ],
     "categories": [
@@ -4082,7 +4082,7 @@
   {
     "arxiv_id": "2608.13520v1",
     "title": "The data geometry of masking diffusion: Certified-optimal schedules via unmasking growth complexity",
-    "summary": "We study masking diffusion for discrete sampling and introduce a path-resolved measure of data geometry called the \\emph{unmasking growth complexity} ({\\textsf{UGC}\\xspace}). Its local increments directly control Kullback--Leibler (KL) discretization error, yielding a unified analysis of Bernoulli-subset and fixed-cardinality unmasking schemes. In log-reveal-odds coordinates, this structure yields optimized single-block and multi-block schedules, and quantifies the gains from adapting computational effort to data geometry. Crucially, we show how {\\textsf{UGC}\\xspace} increments can be estimated from samples via KL increments along coupled reveal trajectories. This leads to \\emph{certified-optimal} samplers that achieve a prescribed KL error with high probability and iteration complexity within a constant factor of the corresponding oracle procedure. Collapsing the \\ugc path yields the aggregate {\\textsf{UGC}\\xspace} mass, which connects to classical multivariate dependence measures and complexity measures from previous analyses of discrete diffusion. In the fine-partition limit, the squared integral of the square-root {\\textsf{UGC}\\xspace} density determines the sharp leading-order optimal Euler discretization error. Examples exhibit substantial dimension-dependent gains over coarse schedules, including $\\widetilde\u03a9(\\sqrt{d})$ improvements achievable with a constant number of adaptively placed blocks.",
+    "summary": "We study masking diffusion for discrete sampling and introduce a path-resolved measure of data geometry called the \\emph{unmasking growth complexity} ({\\textsf{UGC}\\xspace}). Its local increments directly control Kullback--Leibler (KL) discretization error, yielding a unified analysis of Bernoulli-subset and fixed-cardinality unmasking schemes. In log-reveal-odds coordinates, this structure yields optimized single-block and multi-block schedules, and quantifies the gains from adapting computational effort to data geometry. Crucially, we show how {\\textsf{UGC}\\xspace} increments can be estimated from samples via KL increments along coupled reveal trajectories. This leads to \\emph{certified-optimal} samplers that achieve a prescribed KL error with high probability and iteration complexity within a constant factor of the corresponding oracle procedure. Collapsing the \\ugc path yields the aggregate {\\textsf{UGC}\\xspace} mass, which connects to classical multivariate dependence measures and complexity measures from previous analyses of discrete diffusion. In the fine-partition limit, the squared integral of the square-root {\\textsf{UGC}\\xspace} density determines the sharp leading-order optimal Euler discretization error. Examples exhibit substantial dimension-dependent gains over coarse schedules, including $\\widetildeΩ(\\sqrt{d})$ improvements achievable with a constant number of adaptively placed blocks.",
     "authors": [
       "Martin J. Wainwright"
     ],
@@ -4134,39 +4134,6 @@
     "pdf_url": "https://arxiv.org/pdf/2608.13061v1.pdf",
     "date": "2026-08-14",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 28589,
-    "likes": 341,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-08-14T05:42:40.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-08-14",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4420,8 +4387,8 @@
     "title": "Evaluation of Clinically Steerable Retinal Image Generation from Foundation Model Latent Spaces",
     "summary": "Medical foundation models learn latent representations of clinically meaningful phenotypes, yet their ability to support controllable image generation remains largely unexplored. We evaluate four retinal foundation models within the representation tokenizer framework and examine whether demographic and clinical information encoded in latent representations from foundation models is preserved during synthetic image generation. We show that generated representations and images faithfully inherit phenotype information when evaluated within their originating foundation models, consistently outperforming conventional latent diffusion on multiple downstream prediction tasks. However, these gains largely disappear when evaluated using classifiers trained on real images, revealing a previously uncharacterised synthetic-to-real representation gap. These findings demonstrate that foundation-model latent spaces provide a powerful substrate for controllable retinal synthesis while highlighting the need to better align synthetic representations with real-image distributions.",
     "authors": [
-      "Zuzanna A. Wakefield-Sk\u00f3rniewska",
-      "Bart\u0142omiej W. Papie\u017c"
+      "Zuzanna A. Wakefield-Skórniewska",
+      "Bartłomiej W. Papież"
     ],
     "categories": [
       "cs.CV"
@@ -4472,8 +4439,8 @@
     "title": "Huber-Wasserstein barycenters for robust distribution-valued data",
     "summary": "We propose a robust barycenter for distribution-valued data by incorporating the Huber loss directly into the optimal transport cost. In contrast to metric-space Huber means, which apply the Huber loss to the Wasserstein distance after optimization, our construction acts on individual transport displacements, preserving quadratic behavior locally while limiting the influence of large displacements. The resulting Huber-Wasserstein barycenters form a natural interpolation between Wasserstein means and $L^1$-type Wasserstein medians.   We establish the analytical and statistical foundations of this construction. For optimal transport with Huber loss, we prove regularity and uniqueness properties of dual potentials, existence of optimal transport maps, and stability as the Huber parameter varies. For the associated barycenter problem, we prove existence and characterization results, consistency of empirical plug-in estimators, and a finite-sample breakdown point essentially equal to $1/2$. In dimension one, we further derive the pointwise influence function and asymptotic distribution, quantify the associated robustness-efficiency trade-off, and show that displacement-wise Huberization can retain first-order information that is lost by distance-based Huberization under localized shape contamination. Numerical experiments on contaminated distribution-valued data demonstrate the robustness of the proposed barycenters and illustrate their interpolation between mean- and median-like behavior.",
     "authors": [
-      "Carlos Cardoso-Perell\u00f3",
-      "Alberto Gonz\u00e1lez-Sanz"
+      "Carlos Cardoso-Perelló",
+      "Alberto González-Sanz"
     ],
     "categories": [
       "stat.ME",
@@ -4512,7 +4479,7 @@
       "Yu Linghu",
       "Salman Mohammad",
       "Xinyi Zhang",
-      "Manuel G\u00fcnther"
+      "Manuel Günther"
     ],
     "categories": [
       "cs.CV"
@@ -4523,183 +4490,5 @@
     "date": "2026-08-14",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "Blackfrost-Research/Qwen3.8-2.4T-A95B-DERISKED-BF16",
-    "author": "unknown",
-    "title": "Blackfrost-Research/Qwen3.8-2.4T-A95B-DERISKED-BF16",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe_text",
-      "text-generation",
-      "qwen3.8",
-      "qwen3_5_moe",
-      "moe",
-      "dwm",
-      "directional-weight-modification",
-      "bf16",
-      "full-precision",
-      "multi-node",
-      "experimental",
-      "gated",
-      "conversational",
-      "base_model:Qwen/Qwen3.8-2.4T-A95B",
-      "base_model:finetune:Qwen/Qwen3.8-2.4T-A95B",
-      "license:other",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-14T00:29:19.000Z",
-    "last_modified": "2026-08-14T05:42:46.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Blackfrost-Research/Qwen3.8-2.4T-A95B-DERISKED-BF16",
-    "date": "2026-08-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mradermacher/Shaista-pro-i1-GGUF",
-    "author": "unknown",
-    "title": "mradermacher/Shaista-pro-i1-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "urdu",
-      "llama-3",
-      "shaista-pro",
-      "text-generation",
-      "safetensors",
-      "causal-lm",
-      "instruction-tuned",
-      "south-asian-languages",
-      "ur",
-      "en",
-      "dataset:urdu-poetry",
-      "dataset:urdu-instructions",
-      "base_model:ReySajju742/Shaista-pro",
-      "base_model:quantized:ReySajju742/Shaista-pro",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-14T03:35:48.000Z",
-    "last_modified": "2026-08-14T05:42:12.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mradermacher/Shaista-pro-i1-GGUF",
-    "date": "2026-08-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "INCModel2/MiniMax-M2.7-MXFP4-Mixed-CT-AutoRound",
-    "author": "unknown",
-    "title": "INCModel2/MiniMax-M2.7-MXFP4-Mixed-CT-AutoRound",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "minimax_m2",
-      "text-generation",
-      "conversational",
-      "custom_code",
-      "license:other",
-      "endpoints_compatible",
-      "8-bit",
-      "auto-round",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-14T05:26:39.000Z",
-    "last_modified": "2026-08-14T05:40:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/INCModel2/MiniMax-M2.7-MXFP4-Mixed-CT-AutoRound",
-    "date": "2026-08-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SC117/Ling-3.0-flash-abliterated-APEX-GGUF",
-    "author": "unknown",
-    "title": "SC117/Ling-3.0-flash-abliterated-APEX-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "ling",
-      "moe",
-      "hybrid",
-      "reasoning",
-      "abliterated",
-      "abliterix",
-      "apex",
-      "quantization",
-      "bailingmoe3",
-      "inclusionAI",
-      "text-generation",
-      "base_model:inclusionAI/Ling-3.0-flash",
-      "base_model:quantized:inclusionAI/Ling-3.0-flash",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "gguf",
-    "created_at": "2026-08-14T01:42:00.000Z",
-    "last_modified": "2026-08-14T05:37:50.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SC117/Ling-3.0-flash-abliterated-APEX-GGUF",
-    "date": "2026-08-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cdrde25/Bunker-SASE-8B-SecOps",
-    "author": "unknown",
-    "title": "cdrde25/Bunker-SASE-8B-SecOps",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "cybersecurity",
-      "secops",
-      "triage",
-      "llama-cpp",
-      "gguf",
-      "sase",
-      "tensor-compression",
-      "text-generation",
-      "es",
-      "en",
-      "base_model:Qwen/Qwen2.5-7B-Instruct",
-      "base_model:finetune:Qwen/Qwen2.5-7B-Instruct",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-08-13T17:27:29.000Z",
-    "last_modified": "2026-08-14T05:33:57.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cdrde25/Bunker-SASE-8B-SecOps",
-    "date": "2026-08-14",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
