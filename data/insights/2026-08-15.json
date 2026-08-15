@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-15T10:17:09.995010",
+  "date": "2026-08-15T11:14:48.628469",
   "patterns": {
     "multimodal_research": [
       {
@@ -549,6 +549,10 @@
       {
         "title": "How Good are Foundation Models in Longitudinal MRI Disease Progression Reasoning?",
         "url": "https://arxiv.org/abs/2608.13309v1"
+      },
+      {
+        "title": "shubhamprakash108/decoder-only-transformer-tinystories-32m",
+        "url": "https://huggingface.co/shubhamprakash108/decoder-only-transformer-tinystories-32m"
       }
     ],
     "vision_systems": [
@@ -1105,10 +1109,6 @@
       {
         "title": "How Good are Foundation Models in Longitudinal MRI Disease Progression Reasoning?",
         "url": "https://arxiv.org/abs/2608.13309v1"
-      },
-      {
-        "title": "logic65/Qwen3.8-p44w75-16.8B-unrepaired",
-        "url": "https://huggingface.co/logic65/Qwen3.8-p44w75-16.8B-unrepaired"
       }
     ],
     "benchmarks": [
@@ -1565,7 +1565,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1577,7 +1577,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
