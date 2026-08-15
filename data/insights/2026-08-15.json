@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-15T19:17:45.106391",
+  "date": "2026-08-15T20:15:27.075739",
   "patterns": {
     "multimodal_research": [
       {
@@ -551,8 +551,16 @@
         "url": "https://arxiv.org/abs/2608.13309v1"
       },
       {
-        "title": "SergiioB/Qwen3.8-27B-GPTQ-Int4-sym-G128-MTP-BF16",
-        "url": "https://huggingface.co/SergiioB/Qwen3.8-27B-GPTQ-Int4-sym-G128-MTP-BF16"
+        "title": "leomaurodesenv/bert-base-uncased-answerable-or-not",
+        "url": "https://huggingface.co/leomaurodesenv/bert-base-uncased-answerable-or-not"
+      },
+      {
+        "title": "denisevitoriano/receitas-gpt2-pt",
+        "url": "https://huggingface.co/denisevitoriano/receitas-gpt2-pt"
+      },
+      {
+        "title": "pinkelephantlimited/pinkelephant-llm-48b-s",
+        "url": "https://huggingface.co/pinkelephantlimited/pinkelephant-llm-48b-s"
       }
     ],
     "vision_systems": [
@@ -785,6 +793,10 @@
         "url": "https://arxiv.org/abs/2608.13416v1"
       },
       {
+        "title": "nphSi/Z-Image-Lora",
+        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
+      },
+      {
         "title": "Context-Matched Distillation: Teacher Causality for Autoregressive Video Distillation",
         "url": "https://arxiv.org/abs/2608.13391v1"
       },
@@ -819,10 +831,6 @@
       {
         "title": "PixSDS: Why Latent SDS Makes Noisy Pixels",
         "url": "https://arxiv.org/abs/2608.12997v1"
-      },
-      {
-        "title": "debugdll/Blind-Image",
-        "url": "https://huggingface.co/debugdll/Blind-Image"
       }
     ],
     "reasoning": [
@@ -1569,7 +1577,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "73 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1628,6 +1636,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 382
+    "total_papers": 384
   }
 }
