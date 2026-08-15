@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-15T05:19:44.372968",
+  "date": "2026-08-15T06:26:21.345901",
   "patterns": {
     "multimodal_research": [
       {
@@ -549,6 +549,14 @@
       {
         "title": "How Good are Foundation Models in Longitudinal MRI Disease Progression Reasoning?",
         "url": "https://arxiv.org/abs/2608.13309v1"
+      },
+      {
+        "title": "Roy229/hf_tt_cfc1b8_bert_sentiment",
+        "url": "https://huggingface.co/Roy229/hf_tt_cfc1b8_bert_sentiment"
+      },
+      {
+        "title": "Somu1045/mhcd-custom-mentalbert",
+        "url": "https://huggingface.co/Somu1045/mhcd-custom-mentalbert"
       }
     ],
     "vision_systems": [
@@ -1561,7 +1569,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "72 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1620,6 +1628,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 380
+    "total_papers": 382
   }
 }
