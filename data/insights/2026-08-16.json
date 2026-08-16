@@ -1,11 +1,22 @@
 {
-  "date": "2026-08-16T07:25:52.944161",
-  "patterns": {},
+  "date": "2026-08-16T08:21:26.386161",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "nmthien/vietnamese-gpt2",
+        "url": "https://huggingface.co/nmthien/vietnamese-gpt2"
+      },
+      {
+        "title": "iamhpd/klue-bert-sentiment-iamhpd-demo",
+        "url": "https://huggingface.co/iamhpd/klue-bert-sentiment-iamhpd-demo"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
