@@ -1,11 +1,22 @@
 {
-  "date": "2026-08-17T15:19:46.358467",
-  "patterns": {},
+  "date": "2026-08-17T16:19:45.735407",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "lukasstraub2/gpt2-aidungeon2",
+        "url": "https://huggingface.co/lukasstraub2/gpt2-aidungeon2"
+      },
+      {
+        "title": "DrinkIcedT/roberta-large_MBTI_P_MBTI_agg_balanced_50_5e-06",
+        "url": "https://huggingface.co/DrinkIcedT/roberta-large_MBTI_P_MBTI_agg_balanced_50_5e-06"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
