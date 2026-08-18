@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-18T07:32:47.923235",
+  "date": "2026-08-18T08:28:32.480306",
   "patterns": {
     "multimodal_research": [
       {
@@ -563,16 +563,8 @@
         "url": "https://arxiv.org/abs/2608.16535v1"
       },
       {
-        "title": "Amber8800/bert-base-nsmc",
-        "url": "https://huggingface.co/Amber8800/bert-base-nsmc"
-      },
-      {
-        "title": "castleUk/bert-base-nsmc",
-        "url": "https://huggingface.co/castleUk/bert-base-nsmc"
-      },
-      {
-        "title": "anstjdghdyd/bert-base-nsmc",
-        "url": "https://huggingface.co/anstjdghdyd/bert-base-nsmc"
+        "title": "nmthien/vietnamese-gpt2",
+        "url": "https://huggingface.co/nmthien/vietnamese-gpt2"
       }
     ],
     "vision_systems": [
@@ -1625,7 +1617,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1684,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 396
+    "total_papers": 394
   }
 }
