@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-18T20:16:44.357159",
+  "date": "2026-08-18T21:18:14.175105",
   "patterns": {
     "multimodal_research": [
       {
@@ -561,6 +561,10 @@
       {
         "title": "Automatic Cephalometric Landmark Localization on CBCT-Derived Digitally Reconstructed Radiographs for Skeletal Malocclusion Classification",
         "url": "https://arxiv.org/abs/2608.16535v1"
+      },
+      {
+        "title": "nmthien/vietnamese-gpt2",
+        "url": "https://huggingface.co/nmthien/vietnamese-gpt2"
       }
     ],
     "vision_systems": [
@@ -1613,7 +1617,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1672,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 393
+    "total_papers": 394
   }
 }
