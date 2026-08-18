@@ -78,11 +78,11 @@
       "Shenbin Qian",
       "Girish Koushik",
       "Tharindu Ranasinghe",
-      "Constantin Or\u0103san",
+      "Constantin Orăsan",
       "Chrysoula Zerva",
       "Ricardo Rei",
-      "Fr\u00e9d\u00e9ric Blain",
-      "Andr\u00e9 F. T. Martins",
+      "Frédéric Blain",
+      "André F. T. Martins",
       "Marco Turchi",
       "Matteo Negri",
       "Rajen Chatterjee",
@@ -382,7 +382,7 @@
     "authors": [
       "Daniel Nowak Assis",
       "Jean Paul Barddal",
-      "Fabr\u00edcio Enembreck"
+      "Fabrício Enembreck"
     ],
     "categories": [
       "cs.LG",
@@ -403,7 +403,7 @@
       "Sofoklis Kitharidis",
       "Cor J. Veenman",
       "Jan N. van Rijn",
-      "Thomas B\u00e4ck",
+      "Thomas Bäck",
       "Niki van Stein"
     ],
     "categories": [
@@ -575,7 +575,7 @@
       "Javier Lopatin",
       "Teja Kattenborn",
       "Eya Cherif",
-      "Sebasti\u00e1n Moreno"
+      "Sebastián Moreno"
     ],
     "categories": [
       "cs.CV",
@@ -862,7 +862,7 @@
   {
     "arxiv_id": "2608.16475v1",
     "title": "A Two-Stage Learning PINN Approach for Solving the Inverse Problem of the 1D Porous Medium Equation",
-    "summary": "The Porous Medium Equation (PME), given by $u_t = \u0394(u^m)$ for $m > 1$, is a degenerate nonlinear parabolic partial differential equation that arises in various physical applications such as fluid flow in porous media, heat transfer in plasmas, and population dynamics. It is known for its nonlinear diffusion and finite propagation speed. In this paper, we study numerical solutions of the one-dimensional direct and inverse PME using Physics-Informed Neural Networks (PINNs), and compare them with classical numerical methods and available analytical and manufactured solutions. While PINNs provide a flexible framework for solving both forward and inverse problems, we show that the standard inverse formulation suffers from a strong sensitivity to the initial guess, leading to only local convergence. To address this issue, we propose a novel two-stage PINN training framework for the inverse problem, which significantly improves convergence stability and allows reliable recovery of the unknown parameter even for poor initial guesses. Overall, the proposed approach demonstrates that PINNs are a flexible and accurate alternative to classical methods for the 1D PME, and the introduced two-stage training strategy substantially improves their robustness in inverse problems, providing a solid basis for extensions to more complex geometries and higher-dimensional cases.",
+    "summary": "The Porous Medium Equation (PME), given by $u_t = Δ(u^m)$ for $m > 1$, is a degenerate nonlinear parabolic partial differential equation that arises in various physical applications such as fluid flow in porous media, heat transfer in plasmas, and population dynamics. It is known for its nonlinear diffusion and finite propagation speed. In this paper, we study numerical solutions of the one-dimensional direct and inverse PME using Physics-Informed Neural Networks (PINNs), and compare them with classical numerical methods and available analytical and manufactured solutions. While PINNs provide a flexible framework for solving both forward and inverse problems, we show that the standard inverse formulation suffers from a strong sensitivity to the initial guess, leading to only local convergence. To address this issue, we propose a novel two-stage PINN training framework for the inverse problem, which significantly improves convergence stability and allows reliable recovery of the unknown parameter even for poor initial guesses. Overall, the proposed approach demonstrates that PINNs are a flexible and accurate alternative to classical methods for the 1D PME, and the introduced two-stage training strategy substantially improves their robustness in inverse problems, providing a solid basis for extensions to more complex geometries and higher-dimensional cases.",
     "authors": [
       "Noura Al Helwani",
       "Sophie Moufawad",
@@ -900,11 +900,11 @@
   },
   {
     "arxiv_id": "2608.16319v1",
-    "title": "Advancing Open and Reproducible Relational Learning: RelArena-$\u03b1$, TabPFN-Rel and RPI",
-    "summary": "This first release of Prior Labs in relational learning shows our continued commitment to open science. We open-source three pieces of software that we expect to accelerate research in the field towards meaningful real-world impact. We aim to steer further development based on feedback from, and in collaboration with, the community. Given the early stage of development, our $\u03b1$-release targets researchers and early-adopting practitioners. Over the past years, a variety of datasets and tasks for relational learning have emerged, but the community has not converged on a reliable, reproducible way to compare different methods on these tasks. Our $\u03b1$-release, RelArena-$\u03b1$, provides a unified framework for running and comparing baselines on RelBench v1 by standardizing data loading, evaluation protocols, tuning regimes, and support for systems with custom tuning, inspired by established tabular benchmarks such as TabArena. We plan to work with the research community to further develop RelArena-$\u03b1$ into a catalyst for progress in the relational learning community. We release the initial version of TabPFN-Rel, a purpose-built relational harness for TabPFN-3. Currently ranked first among models on RelArena-$\u03b1$, TabPFN-Rel makes key improvements upon RDBLearn. Beyond its ranking, TabPFN-Rel serves as a strong baseline, adding to the growing evidence that flattening a relational database into a single table remains competitive with specialized relational architectures on real-world tasks.   To facilitate adoption of relational learning methods in research and industry, we release an initial $\u03b1$-version of our Relational Predictive Interface, RPI, an open-source, model-agnostic interface that enables early adopters to easily define problems on new databases and apply any model implemented in RelArena-$\u03b1$, including TabPFN-Rel, to these problems.",
+    "title": "Advancing Open and Reproducible Relational Learning: RelArena-$α$, TabPFN-Rel and RPI",
+    "summary": "This first release of Prior Labs in relational learning shows our continued commitment to open science. We open-source three pieces of software that we expect to accelerate research in the field towards meaningful real-world impact. We aim to steer further development based on feedback from, and in collaboration with, the community. Given the early stage of development, our $α$-release targets researchers and early-adopting practitioners. Over the past years, a variety of datasets and tasks for relational learning have emerged, but the community has not converged on a reliable, reproducible way to compare different methods on these tasks. Our $α$-release, RelArena-$α$, provides a unified framework for running and comparing baselines on RelBench v1 by standardizing data loading, evaluation protocols, tuning regimes, and support for systems with custom tuning, inspired by established tabular benchmarks such as TabArena. We plan to work with the research community to further develop RelArena-$α$ into a catalyst for progress in the relational learning community. We release the initial version of TabPFN-Rel, a purpose-built relational harness for TabPFN-3. Currently ranked first among models on RelArena-$α$, TabPFN-Rel makes key improvements upon RDBLearn. Beyond its ranking, TabPFN-Rel serves as a strong baseline, adding to the growing evidence that flattening a relational database into a single table remains competitive with specialized relational architectures on real-world tasks.   To facilitate adoption of relational learning methods in research and industry, we release an initial $α$-version of our Relational Predictive Interface, RPI, an open-source, model-agnostic interface that enables early adopters to easily define problems on new databases and apply any model implemented in RelArena-$α$, including TabPFN-Rel, to these problems.",
     "authors": [
       "Adrian Hayler",
-      "Klemens Fl\u00f6ge",
+      "Klemens Flöge",
       "Alan Arazi",
       "Rishabh Ranjan",
       "Jure Leskovec",
@@ -913,7 +913,7 @@
       "Anurag Garg",
       "Kristina Collins",
       "Lydia Sidhoum",
-      "Jonas K\u00fcbler",
+      "Jonas Kübler",
       "Siyuan Guo",
       "Oscar Key",
       "Jan Hendrik Metzen",
@@ -921,14 +921,14 @@
       "David Salinas",
       "Arthur Cahu",
       "Simon Bing",
-      "Benjamin J\u00e4ger",
-      "Tuana \u00c7elik",
+      "Benjamin Jäger",
+      "Tuana Çelik",
       "Mihir Manium",
       "Vitor Monteiro",
       "Jake Robertson",
       "Jerry Chen",
       "Eliott Kalfon",
-      "Tom\u00e1s Pereda",
+      "Tomás Pereda",
       "Lilly Wehrhahn",
       "Dominik Safaric",
       "Tobias Schroeder",
@@ -940,11 +940,11 @@
       "Vahid Balazadeh",
       "Marie Salmon",
       "Simone Alessi",
-      "K\u00fcr\u015fat Kaya",
+      "Kürşat Kaya",
       "Philipp Jund",
-      "L\u00e9o Grinsztajn",
+      "Léo Grinsztajn",
       "Yann LeCun",
-      "Bernhard Sch\u00f6lkopf",
+      "Bernhard Schölkopf",
       "Madelon Hulsebos",
       "Lennart Purucker",
       "Sauraj Gambhir",
@@ -1007,7 +1007,7 @@
   {
     "arxiv_id": "2608.16884v1",
     "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
-    "summary": "The current best bounds on the matrix multiplication exponent $\u03c9$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and propose several improvements. First, we reformulate the optimization problem allowing us to solve it in a larger setting than was previously possible. Second, we leverage recent advances in machine learning to design a new optimization algorithm for this problem. Finally, we refine the resulting optimization algorithm with AlphaEvolve. Our combined approach yields an upper bound of $\u03c9$ < 2.371177, improving the previous best bound of 2.371339.",
+    "summary": "The current best bounds on the matrix multiplication exponent $ω$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and propose several improvements. First, we reformulate the optimization problem allowing us to solve it in a larger setting than was previously possible. Second, we leverage recent advances in machine learning to design a new optimization algorithm for this problem. Finally, we refine the resulting optimization algorithm with AlphaEvolve. Our combined approach yields an upper bound of $ω$ < 2.371177, improving the previous best bound of 2.371339.",
     "authors": [
       "Emilien Dupont",
       "Marvin Eisenberger",
@@ -1057,7 +1057,7 @@
   {
     "arxiv_id": "2608.16760v1",
     "title": "On the Principles Behind Neural Network Optimizers",
-    "summary": "Reliable optimization is central to neural network (NN) training, yet Adam, the default optimizer for modern LLMs, rests on a fragile foundation. This thesis develops a principled grounding for Adam and motivates new designs. First, we revisit Adam's divergence--convergence debate and show the existence of a problem-dependent phase transition: with properly chosen, batch-size-dependent hyperparameters, Adam converges, whereas under small-$\u03b2_2$ regimes it can diverge. Second, we investigate why Adam substantially outperforms SGD on Transformers through Hessian structure. We find that the Hessian evolves toward a near-block-diagonal form along training, accompanied by strong block heterogeneity. We prove that this structure makes Adam's diagonal preconditioner effective. We further show that this special Hessian structure originates from consecutive multiplications of large matrix variables, and we provide a rigorous analysis based on random matrix theory. Finally, these insights motivate Adam-mini, a new optimizer that reduces Adam's memory footprint by 50\\% while preserving its performance. Our results also have broader implications beyond Adam: they reveal new local structures in matrix-based nonconvex problems, and also help understand and improve recent NN optimizers, such as Muon.",
+    "summary": "Reliable optimization is central to neural network (NN) training, yet Adam, the default optimizer for modern LLMs, rests on a fragile foundation. This thesis develops a principled grounding for Adam and motivates new designs. First, we revisit Adam's divergence--convergence debate and show the existence of a problem-dependent phase transition: with properly chosen, batch-size-dependent hyperparameters, Adam converges, whereas under small-$β_2$ regimes it can diverge. Second, we investigate why Adam substantially outperforms SGD on Transformers through Hessian structure. We find that the Hessian evolves toward a near-block-diagonal form along training, accompanied by strong block heterogeneity. We prove that this structure makes Adam's diagonal preconditioner effective. We further show that this special Hessian structure originates from consecutive multiplications of large matrix variables, and we provide a rigorous analysis based on random matrix theory. Finally, these insights motivate Adam-mini, a new optimizer that reduces Adam's memory footprint by 50\\% while preserving its performance. Our results also have broader implications beyond Adam: they reveal new local structures in matrix-based nonconvex problems, and also help understand and improve recent NN optimizers, such as Muon.",
     "authors": [
       "Yushun Zhang"
     ],
@@ -1141,12 +1141,12 @@
     "summary": "Modern power systems face growing operational complexity driven by the integration of renewable energy sources, decentralization, and the need for real-time decision-making across a wide range of timescales. Addressing these challenges traditionally relies on model-based methods that, while accurate, can be too slow for operational demands. Machine learning (ML) has therefore emerged as a faster, data-driven alternative. As grid topology plays a central role in power system operation, graph machine learning (GML) methods offer a natural framework for incorporating topological dependencies as an inductive bias. We survey nearly 800 papers at the intersection of GML and power systems, covering forecasting, state estimation, optimization, control, fault diagnosis, and cybersecurity. Power systems constitute an unusually rich benchmark setting for GML, as they combine hard physical constraints, multi-scale dynamics, safety-critical requirements, and scarce labeled data within a single, well-defined domain. Conversely, power systems can benefit from utilizing GML to complement classical solvers, as GML provide scalable, topology-aware approximations with promising generalization and computational efficiency. We identify open challenges, including limited real-world deployment and the need for interpretable models in safety-critical settings. Despite the rapidly growing number of publications, standardized benchmarks and open datasets remain scarce, leaving many results difficult to reproduce and undermining the long-term scientific credibility of the field. We further derive a structured requirements catalog for ML-ready power grid benchmarks, intended to guide future dataset development and improve reproducibility across studies. We call on the community to prioritize dedicated benchmark studies and the release of open datasets and models.",
     "authors": [
       "Martin Sadric",
-      "Sebastian P\u00fctz",
+      "Sebastian Pütz",
       "Christian Nauck",
       "Veit Hagenmeyer",
       "Frank Hellmann",
       "Dirk Witthaut",
-      "Benjamin Sch\u00e4fer"
+      "Benjamin Schäfer"
     ],
     "categories": [
       "cs.LG",
@@ -1581,7 +1581,7 @@
     "summary": "Point-of-interest (POI) recommendation models based on graph neural networks achieve strong performance by propagating collaborative signals over user-item interactions, yet they struggle with the cold-start problem, where items with few or no interactions are not represented. In this paper, we propose LLM-augmented Multi-Graph Contrastive Learning (LLM-MGCL), a multi-graph neural network that uses semantic and spatial information about items to extend the LightGCN backbone with two auxiliary item-item graphs: a semantic graph constructed from sentence embeddings of LLM-generated photo summaries and keywords, and a geographic graph derived from Haversine distances between business locations. Item embeddings are propagated over all three graphs in parallel, fused additively, and aligned across views through a bidirectional InfoNCE contrastive objective that connects behavioral, semantic, and spatial representations of the same items. Experiments on the Yelp Multimodal Recommendation Dataset show that LLM-MGCL outperforms classical collaborative filtering, matrix factorization, and interaction-only graph neural network baselines. It improves Recall@20 by 52.0% and NDCG@20 by 64.8% over LightGCN while performing on par with the strongest contrastive baseline, Self-supervised Graph Learning (SGL), which is also affected by the cold-start problem. An ablation study reveals that the cross-view contrastive alignment (CA) is the primary driver of these gains, with the best performance achieved when all three graphs are combined. Our results suggest that externally grounded, LLM-derived item knowledge can effectively compensate for missing collaborative signal and mitigate the item cold-start problem in POI recommendation.",
     "authors": [
       "Burak Tamer",
-      "Wolfram H\u00f6pken",
+      "Wolfram Höpken",
       "Zehui Wang"
     ],
     "categories": [
@@ -1606,7 +1606,7 @@
       "Yihao Wang",
       "Yuxin Hou",
       "Junyuan Fang",
-      "Juho-Matti Kilpel\u00e4inen",
+      "Juho-Matti Kilpeläinen",
       "Arno Solin",
       "Hamed Rezazadegan Tavakoli",
       "Esa Rahtu",
@@ -1692,7 +1692,7 @@
   {
     "arxiv_id": "2608.16650v1",
     "title": "PCA-guided Activation Scaling for Monotonic Bidirectional Control over LLM Sycophancy",
-    "summary": "Large language models (LLMs) exhibit sycophancy, a tendency to agree with user beliefs regardless of factual accuracy. This can reinforce misconceptions, but eliminating it entirely risks over-correction against valid opinions. Effective control must therefore both reduce and increase sycophancy with predictable and gradual effect. Yet, existing methods fail to ensure a bidirectional and monotonic relationship between steering strength and behavioral outcome across models and datasets. We introduce PCA-guided Activation Scaling (PAS), an activation steering framework that decomposes residual stream activations into a PCA-identified sycophancy-honesty subspace and an orthogonal residual, then applies distinct scaling exponents to achieve monotonic, bidirectional control. Across three LLMs and three datasets, PAS achieves strong monotonicity (Spearman $\u03c1$ = +0.92) and an average shift of 15.4% per direction, compared with 8.7% for the baselines. Ablation studies confirm that the decomposition, asymmetric exponents, and layer selection are each essential for maintaining monotonic control. The data and code are available at https://github.com/Bellafc/PCS.",
+    "summary": "Large language models (LLMs) exhibit sycophancy, a tendency to agree with user beliefs regardless of factual accuracy. This can reinforce misconceptions, but eliminating it entirely risks over-correction against valid opinions. Effective control must therefore both reduce and increase sycophancy with predictable and gradual effect. Yet, existing methods fail to ensure a bidirectional and monotonic relationship between steering strength and behavioral outcome across models and datasets. We introduce PCA-guided Activation Scaling (PAS), an activation steering framework that decomposes residual stream activations into a PCA-identified sycophancy-honesty subspace and an orthogonal residual, then applies distinct scaling exponents to achieve monotonic, bidirectional control. Across three LLMs and three datasets, PAS achieves strong monotonicity (Spearman $ρ$ = +0.92) and an average shift of 15.4% per direction, compared with 8.7% for the baselines. Ablation studies confirm that the decomposition, asymmetric exponents, and layer selection are each essential for maintaining monotonic control. The data and code are available at https://github.com/Bellafc/PCS.",
     "authors": [
       "Zheng Chen",
       "Zhaoxin Feng",
@@ -1719,7 +1719,7 @@
       "Mahdi Dhaini",
       "Adam Dejl",
       "Juraj Vladika",
-      "Volkan \u00d6zer",
+      "Volkan Özer",
       "Barbara Plank",
       "Gjergji Kasneci"
     ],
@@ -2199,7 +2199,7 @@
     "authors": [
       "Vahid Zolfaghari",
       "Nenad Petrovic",
-      "Andr\u00c9 Schamschurko",
+      "AndrÉ Schamschurko",
       "Alois Knoll"
     ],
     "categories": [
@@ -2246,8 +2246,8 @@
     "summary": "Instance-level lesion detection has been an increasingly larger focal point in medical image segmentation besides the more standard voxel-level overlap. Still, most pipelines are trained and post-processed for voxel overlap alone. In particular, the mismatch is most pronounced for small lesions, where a near-miss prediction---substantial overlap that falls just short of the instance-matching threshold---scores the same as a complete miss. In our ISLES'26 submission, we found that closing this gap mattered far more in post-processing than in architecture design. Our Volume-Conditioned Adaptive Post-Processing (VCAP) scheme adjusts component-size thresholds to each case's predicted lesion burden, improving Lesion-F1 by 0.032 (unbiased cross-fold estimate)---approximately 6 times larger than any architectural change we tested. A resolution-aware attention architecture (Viola2Plus), designed for small-lesion segmentation, shows why the distinction matters: it left small-lesion Dice unchanged but raised small-lesion detection rate by 3.7\\%, a real effect voxel-overlap metrics alone would have missed. Under 5-fold cross-validation on the 1,453-case training set, our post-processed two-architecture ensemble achieves Dice 0.651 and Lesion-F1 0.614, versus 0.644 and 0.573 for the unprocessed single-model baseline.",
     "authors": [
       "Qinghui Liu",
-      "Jon Andr\u00e9 Ottesen",
-      "Atle Bj\u00f8rnerud",
+      "Jon André Ottesen",
+      "Atle Bjørnerud",
       "Kyrre Eeg Emblem"
     ],
     "categories": [
@@ -2552,7 +2552,7 @@
       "Khai Hern Low",
       "Eric Chen",
       "Arshia Aghajani",
-      "Wolf Sch\u00e4fer",
+      "Wolf Schäfer",
       "Amin Shirangi"
     ],
     "categories": [
@@ -2739,7 +2739,7 @@
   {
     "arxiv_id": "2608.16309v1",
     "title": "Static Pruning Across Sparse Retrieval Regimes: What Transfers, What Breaks, and What Still Helps",
-    "summary": "Static pruning is widely used to accelerate sparse neural retrieval, yet existing studies each validate their conclusions within a single custom pipeline, leaving it unclear which findings transfer to modern engines with different index organizations and dynamic pruning mechanisms. We present the first cross-engine pruning portability study, evaluating static pruning strategies across three engines - a controlled C++ pipeline (exhaustive inverted index), BMP (block-max pruning), and SEISMIC (clustered inverted indexes) - on two benchmarks (MS MARCO, Natural Questions) with two encoders spanning opposite query-density regimes (SPLADE: 44 avg. query terms; V3-GTE: 7 avg. query terms), totaling 1,140 experimental configurations, with an additional deep-judgment validation on TREC DL 2019/2020. We find that index-side pruning (document and posting-list) is portable: it consistently reduces latency (1.2-6.6$\\times$) and index size (18-82%) across all engines because sparse retrieval is memory-bound - a conclusion we support with cache-miss, TLB, and IPC profiling. In contrast, query pruning is already internalized by modern engines: it yields 4-11$\\times$ speedup on the exhaustive pipeline but is subsumed by BMP's $\u03b2$ and SEISMIC's query_cut. Static pruning complements dynamic pruning: on BMP, combining document and query reduction yields 2.5$\\times$ speedup with NDCG@10 within 0.003 of the exact baseline. Finally, NDCG@10 saturates while Recall@10 is still in the ${\\sim}$85-95% range across all three engines, providing a portable stopping criterion: practitioners can push pruning to this knee without visible ranking degradation. Together, these findings answer what transfers (index-side pruning), what breaks (query pruning), and what still helps (static atop dynamic pruning).",
+    "summary": "Static pruning is widely used to accelerate sparse neural retrieval, yet existing studies each validate their conclusions within a single custom pipeline, leaving it unclear which findings transfer to modern engines with different index organizations and dynamic pruning mechanisms. We present the first cross-engine pruning portability study, evaluating static pruning strategies across three engines - a controlled C++ pipeline (exhaustive inverted index), BMP (block-max pruning), and SEISMIC (clustered inverted indexes) - on two benchmarks (MS MARCO, Natural Questions) with two encoders spanning opposite query-density regimes (SPLADE: 44 avg. query terms; V3-GTE: 7 avg. query terms), totaling 1,140 experimental configurations, with an additional deep-judgment validation on TREC DL 2019/2020. We find that index-side pruning (document and posting-list) is portable: it consistently reduces latency (1.2-6.6$\\times$) and index size (18-82%) across all engines because sparse retrieval is memory-bound - a conclusion we support with cache-miss, TLB, and IPC profiling. In contrast, query pruning is already internalized by modern engines: it yields 4-11$\\times$ speedup on the exhaustive pipeline but is subsumed by BMP's $β$ and SEISMIC's query_cut. Static pruning complements dynamic pruning: on BMP, combining document and query reduction yields 2.5$\\times$ speedup with NDCG@10 within 0.003 of the exact baseline. Finally, NDCG@10 saturates while Recall@10 is still in the ${\\sim}$85-95% range across all three engines, providing a portable stopping criterion: practitioners can push pruning to this knee without visible ranking degradation. Together, these findings answer what transfers (index-side pruning), what breaks (query pruning), and what still helps (static atop dynamic pruning).",
     "authors": [
       "Zirui Song",
       "Yuye Zhu",
@@ -3063,7 +3063,7 @@
     "title": "Large language models as synthetic clinical experts to inform longitudinal rare-disease modeling",
     "summary": "Due to the limited amount of information, modeling longitudinal rare-disease data can benefit from integrating clinical knowledge. Yet, elicitation of expert knowledge and formalization for model fitting is challenging, in particular due to limited time of clinical experts. To nevertheless make domain knowledge accessible during model fitting, we use large language models (LLMs) as synthetic clinical experts to supervise a variational-autoencoder-based approach that learns low-dimensional latent summaries of visit-level observations. Specifically, LLMs are queried offline on textual descriptions of patient observations to obtain judgments, e.g., the suspected clinical category. To improve the variational autoencoder fit, we train a differentiable surrogate model on these judgments and augment the loss function to encourage reconstructions that preserve the clinical-label distribution of their corresponding input profile. In an application to longitudinal motor-function assessments from children with spinal muscular atrophy, we map visit-level clinical profiles to low-dimensional representations that are linked by a multivariate mixed-effects model. The synthetic expert loss discourages reconstructions that remain numerically close in data space but alter the clinical interpretation of the reconstructed motor function profile, such as by crossing a disease-type boundary. We thus reduced disagreement between original and reconstructed SMA type labels from about 11 to 7 percent. Furthermore, informing the latent representation by the synthetic expert improved prediction of motor function milestones compared with unsupervised latent representations and a data-level baseline. These results suggest that incorporating LLMs into model fitting can make clinical knowledge available to representation learning and improve clinical faithfulness for longitudinal rare-disease data.",
     "authors": [
-      "Clemens Sch\u00e4chter",
+      "Clemens Schächter",
       "Astrid Pechmann",
       "Janbernd Kirschner",
       "Jan Hasenauer",
@@ -3084,9 +3084,9 @@
     "title": "Offline Reinforcement Learning for Hemodynamic Management of Sepsis in the ICU: a MIMIC-IV Study with Dual Off-Policy Evaluation",
     "summary": "The dosing of intravenous fluids and vasopressors in sepsis is a sequential decision made under uncertainty and guided largely by clinical judgment, which makes it a natural target for reinforcement learning from historical care. Because a learned policy cannot be trialed on patients, its value must be estimated off-policy, and such estimates can be fragile and optimistic. This work advances the reliable evaluation of sepsis treatment policies by combining off-policy estimation, reliability diagnostics, and clinician-agreement analyses in a transparent validation framework. We modeled fluid and vasopressor dosing on a cohort of 36,872 septic ICU stays drawn from the MIMIC-IV critical-care database, as a discretized Markov decision process with 1,000 states and 25 actions, defined by a five-by-five grid of fluid and vasopressor levels and solved by policy iteration. The clinicians' behavior policy was estimated with a random forest, which mitigated the collapse of the Effective Sample Size (ESS 50.1 against 4.0 with smoothed counts) that otherwise destabilizes the importance-sampling estimate. The learned policy was evaluated with two estimators, weighted importance sampling (WIS) and fitted Q evaluation (FQE), with the ESS and clinician agreement as reliability checks. An empirical variable selection found that the composition of the state matters more than its size. Both estimators place the learned policy above the clinicians' return (WIS 50.8 and FQE 46.8 against 38.2, ESS 50.1), yet it departs only modestly from observed practice (total variation 0.18), favoring less intravenous fluid. These retrospective single-center off-policy results support the learned policy as a clinically plausible refinement of observed practice and motivate its further evaluation as a discordance-based clinical decision-support approach.",
     "authors": [
-      "Marc P\u00e9rez-Roig",
-      "David Fern\u00e1ndez-Narro",
-      "Carlos S\u00e1ez"
+      "Marc Pérez-Roig",
+      "David Fernández-Narro",
+      "Carlos Sáez"
     ],
     "categories": [
       "cs.AI",
@@ -3104,7 +3104,7 @@
     "title": "MELD: A Protocol for Merging Knowledge Across Distributed Agentic Memories",
     "summary": "Autonomous agents share a transport and can call each other's tools, but they cannot share what they know: no protocol lets two agents' memories reconcile a fact phrased two ways, link related facts held apart, or reconcile contradictory knowledge without silently discarding either claim. We present MELD, a self-managing coherence mechanism for a federation of agent memories whose run-time model is the knowledge graph itself. Each brain admits every incoming claim through a five-outcome procedure (insert, merge, relate, conflict, or reject), decided from three signals (scoped claim-key identity, embedding similarity, and a natural-language-inference verdict) under context and freshness gates, and acting through exactly one auditable, authenticated Patch, the only object that mutates state. A binding onto standard publish/subscribe transport with a per-claim status CRDT keeps sovereign brains coherent in claim status without a coordinator: self-healing after partitions and under lossy routing, and self-protecting against silent rewrite by a peer, under a benign-fault model. MELD does not adjudicate truth; a detected contradiction is preserved for later adjudication, never silently resolved. On HotpotQA distractor, distributed merge is recall-non-inferior to a centralized store under a pre-specified equivalence test and recall-superior to naive union at about 11% less live storage; the merge classifier separates at AUC 0.968 with a 0.013 false-merge rate on adjudicated candidate pairs; the status CRDT reconverges in 30/30 real partition-heal trials where last-writer-wins manages 11/30; and semantic routing delivers about 3x fewer messages at matched recall. We evaluate on a real computing continuum spanning an operator-grade 5G edge, national HPC, and a local tier, with empirically calibrated thresholds.",
     "authors": [
-      "Lauri Lov\u00e9n",
+      "Lauri Lovén",
       "Jaakko Sauvola",
       "Jukka Riekki",
       "Sasu Tarkoma"
@@ -3348,7 +3348,7 @@
     "summary": "Correlation clustering is a fundamental unsupervised learning problem. On complete graphs, both the min-disagreement and min-max objectives admit constant-factor approximations, yet on general (non-complete) graphs, the best guarantees blow up to $O(\\log n)$ and $O(\\sqrt{n})$. This gap between the two regimes motivates the following question: are there classes of incomplete graphs that circumvent the lower bounds on general graphs and admit approximation guarantees approaching those attainable on complete graphs? We study a natural class of graphs obtained by randomly subsampling a complete signed graph $G$, where each edge is independently deleted with probability $q$. For such graph instances both for the min-max and the min-disagreement objectives, we prove approximation guarantees (depending on $q$) that are substantially better than the bounds achievable for general graphs. We supplement our theoretical results with experiments that also suggest that the approximation ratios of our algorithm are close to those of the complete graph and better than the worst-case bounds for general (non-complete) graphs.",
     "authors": [
       "Rajath Rao K. N.",
-      "Jens Schl\u00f6ter",
+      "Jens Schlöter",
       "Sami Davies",
       "Amira Ouchene",
       "Yasamin Nazari"
@@ -3367,7 +3367,7 @@
   {
     "arxiv_id": "2608.16878v1",
     "title": "Spectral Gaps of Hit-and-Run and Coordinate Hit-and-Run",
-    "summary": "For any convex body $\\mathcal{K}\\subset\\mathbb{R}^{n}$ containing a unit ball, the spectral gap of Hit-and-Run is $\u03a9(1/(n^2 C_{\\mathsf{PI}}))$, where $C_{\\mathsf{PI}}$ is the Poincar\u00e9 constant of the uniform distribution $\u03c0$ over $\\mathcal{K}$. This implies that Hit-and-Run converges to a distribution within $\u03c7^2$-divergence $\\varepsilon$ of the uniform distribution $\u03c0$ in $O(n^2 C_{\\mathsf{PI}}\\log(M/\\varepsilon))$ steps from any starting distribution $\u03c0_0$ with $M=\u03c7^2(\u03c0_{0}\\,\\|\\,\u03c0)$, thus refining the known bound of $O(n^2 R^2 \\log(M/\\varepsilon))$ by Lov\u00e1sz and Vempala (2004) in terms of the outer radius $R$; for nearly isotropic bodies, together with progress on the KLS conjecture, the complexity is $O(n^2\\log n\\log(M/\\varepsilon))$, improving the dimension dependence from cubic to nearly quadratic while maintaining logarithmic dependence on the initial distance. It was an open problem to connect the convergence of Hit-and-Run to Poincar\u00e9/KLS constants as was done for the Ball walk by Kannan, Lov\u00e1sz and Simonovits (1997). Unlike Hit-and-Run, the Ball walk has an unavoidable linear dependence on (a stronger notion) of the initial warmness.   We directly bound the spectral gap of the Hit-and-Run Markov chain by connecting it to functional isoperimetric constants, inspired by the recent analysis of In-and-Out. Rewriting the spectral gap in terms of dual certificates leads to the Babu\u0161ka--Aziz constant studied in the analysis of PDEs; it is asymptotically bounded by the improved Poincar\u00e9 constant, which we show can be bounded in terms of the usual Poincar\u00e9 constant. The proof is based on duality and calculus, unlike known proofs of convergence for Hit-and-Run which are based on bounding the conductance. The same technique can be applied to Coordinate Hit-and-Run, resulting in a much improved mixing time of $O(n^3C_{\\mathsf{PI}}\\log(M/\\varepsilon))$.",
+    "summary": "For any convex body $\\mathcal{K}\\subset\\mathbb{R}^{n}$ containing a unit ball, the spectral gap of Hit-and-Run is $Ω(1/(n^2 C_{\\mathsf{PI}}))$, where $C_{\\mathsf{PI}}$ is the Poincaré constant of the uniform distribution $π$ over $\\mathcal{K}$. This implies that Hit-and-Run converges to a distribution within $χ^2$-divergence $\\varepsilon$ of the uniform distribution $π$ in $O(n^2 C_{\\mathsf{PI}}\\log(M/\\varepsilon))$ steps from any starting distribution $π_0$ with $M=χ^2(π_{0}\\,\\|\\,π)$, thus refining the known bound of $O(n^2 R^2 \\log(M/\\varepsilon))$ by Lovász and Vempala (2004) in terms of the outer radius $R$; for nearly isotropic bodies, together with progress on the KLS conjecture, the complexity is $O(n^2\\log n\\log(M/\\varepsilon))$, improving the dimension dependence from cubic to nearly quadratic while maintaining logarithmic dependence on the initial distance. It was an open problem to connect the convergence of Hit-and-Run to Poincaré/KLS constants as was done for the Ball walk by Kannan, Lovász and Simonovits (1997). Unlike Hit-and-Run, the Ball walk has an unavoidable linear dependence on (a stronger notion) of the initial warmness.   We directly bound the spectral gap of the Hit-and-Run Markov chain by connecting it to functional isoperimetric constants, inspired by the recent analysis of In-and-Out. Rewriting the spectral gap in terms of dual certificates leads to the Babuška--Aziz constant studied in the analysis of PDEs; it is asymptotically bounded by the improved Poincaré constant, which we show can be bounded in terms of the usual Poincaré constant. The proof is based on duality and calculus, unlike known proofs of convergence for Hit-and-Run which are based on bounding the conductance. The same technique can be applied to Coordinate Hit-and-Run, resulting in a much improved mixing time of $O(n^3C_{\\mathsf{PI}}\\log(M/\\varepsilon))$.",
     "authors": [
       "Yunbum Kook",
       "Santosh S. Vempala"
@@ -3433,7 +3433,7 @@
   {
     "arxiv_id": "2608.16813v1",
     "title": "Quipu: A Governed Bitemporal Knowledge Graph Store",
-    "summary": "Agents now write knowledge graphs, but knowledge-graph stores still carry defaults set when humans curated them: accept writes now and clean later, keep one time axis or none, treat every writer's facts as equally trustworthy, and leave governance to dashboards and middleware. These four defaults are individually convenient and jointly untenable under agent workloads. We present Quipu, an embeddable store that inverts all four: no fact enters except through a gate whose predicates evaluate the pending post-state; data, trust labels, verdicts, and the rules themselves are bitemporal; named graphs are the unit of authority and trust, composed under a lattice whose one invariant is that composition never widens; and the governance specification $\u03a3$, the trace, and signed verdicts are facts in the store they govern, making the audit $T \\models \u03a3$ a query. We evaluate with Census, a deterministic multi-writer lifecycle whose single seeded run scores every research question against planted ground truth: the gated store ends with 0 of 6 planted defects versus 6 of 6 ungated; all 7 composition probes uphold the lattice contract; 50 of 50 satisfied verdicts re-derive faithfully as of their instant while all 50 would be misreported under a latest-only rule set; and the SARC reference checker agrees with the in-store audit verdict-for-verdict, differing only on coverage semantics. A recorded trace from a governed writer surfaces a live enforcement gap the audit names with its remediation. On DEMM-Bench, an external decision-evidence sufficiency benchmark, a content-only reading of the exported records answers all 512 property-level governance questions correctly with zero overclaim under all eight degradation conditions, while container-presence baselines overclaim on up to 87.5% of them -- and the run surfaced, and led us to close, a gap in what a denial's verdict attests.",
+    "summary": "Agents now write knowledge graphs, but knowledge-graph stores still carry defaults set when humans curated them: accept writes now and clean later, keep one time axis or none, treat every writer's facts as equally trustworthy, and leave governance to dashboards and middleware. These four defaults are individually convenient and jointly untenable under agent workloads. We present Quipu, an embeddable store that inverts all four: no fact enters except through a gate whose predicates evaluate the pending post-state; data, trust labels, verdicts, and the rules themselves are bitemporal; named graphs are the unit of authority and trust, composed under a lattice whose one invariant is that composition never widens; and the governance specification $Σ$, the trace, and signed verdicts are facts in the store they govern, making the audit $T \\models Σ$ a query. We evaluate with Census, a deterministic multi-writer lifecycle whose single seeded run scores every research question against planted ground truth: the gated store ends with 0 of 6 planted defects versus 6 of 6 ungated; all 7 composition probes uphold the lattice contract; 50 of 50 satisfied verdicts re-derive faithfully as of their instant while all 50 would be misreported under a latest-only rule set; and the SARC reference checker agrees with the in-store audit verdict-for-verdict, differing only on coverage semantics. A recorded trace from a governed writer surfaces a live enforcement gap the audit names with its remediation. On DEMM-Bench, an external decision-evidence sufficiency benchmark, a content-only reading of the exported records answers all 512 property-level governance questions correctly with zero overclaim under all eight degradation conditions, while container-presence baselines overclaim on up to 87.5% of them -- and the run surfaced, and led us to close, a gap in what a denial's verdict attests.",
     "authors": [
       "Steve Brown"
     ],
@@ -3796,7 +3796,7 @@
   {
     "arxiv_id": "2608.16324v1",
     "title": "LaGSplat: Inferring Physics-Governed Interactive Simulation from Monocular Video Using Latent Lagrangian Gaussian Splatting",
-    "summary": "We present LaGSplat (Latent Lagrangian Gaussian Splatting), a framework that infers interactive, physics-governed dynamics from one or a few monocular videos. At inference it lets a user push on the filmed object, rigid or deformable, with an external force that was never measured, annotated, or seen during training. This is possible because a low-dimensional latent state $\\mathbf{q} \\in \\mathbb{R}^d$ plays two roles at once: it is the generalised coordinate of a learned dissipative Lagrangian and the conditioning variable of a Gaussian Splatting decoder. The inductive bias of this decoder, whose primitives are explicit points $\u03bc_i(\\mathbf{q})$ that move with the object, is what lets a force $f$ applied in the image pull back into a latent generalised force $J(\\mathbf{q})^\\top f$ and enter the equations of motion, which pixel-space (CNN) or neural-field (NeRF) decoders cannot do. We validate LaGSplat on test cases of increasing difficulty, from rigid to deformable and from autonomous to forced real systems, combining monocular video and sensor measurements. We further demonstrate interactive use: forces of arbitrary magnitude and direction can be applied to the reconstructed object at any time, its response rendered in real time, in 2D or 3D. Assuming a dissipative Euler-Lagrange equation over a few generalised coordinates trades generality for a bounded, plausible response to unseen forces, where an unconstrained predictor diverges.",
+    "summary": "We present LaGSplat (Latent Lagrangian Gaussian Splatting), a framework that infers interactive, physics-governed dynamics from one or a few monocular videos. At inference it lets a user push on the filmed object, rigid or deformable, with an external force that was never measured, annotated, or seen during training. This is possible because a low-dimensional latent state $\\mathbf{q} \\in \\mathbb{R}^d$ plays two roles at once: it is the generalised coordinate of a learned dissipative Lagrangian and the conditioning variable of a Gaussian Splatting decoder. The inductive bias of this decoder, whose primitives are explicit points $μ_i(\\mathbf{q})$ that move with the object, is what lets a force $f$ applied in the image pull back into a latent generalised force $J(\\mathbf{q})^\\top f$ and enter the equations of motion, which pixel-space (CNN) or neural-field (NeRF) decoders cannot do. We validate LaGSplat on test cases of increasing difficulty, from rigid to deformable and from autonomous to forced real systems, combining monocular video and sensor measurements. We further demonstrate interactive use: forces of arbitrary magnitude and direction can be applied to the reconstructed object at any time, its response rendered in real time, in 2D or 3D. Assuming a dissipative Euler-Lagrange equation over a few generalised coordinates trades generality for a bounded, plausible response to unseen forces, where an unconstrained predictor diverges.",
     "authors": [
       "Louen Pottier"
     ],
@@ -4102,56 +4102,6 @@
     "pdf_url": "https://arxiv.org/pdf/2608.16320v1.pdf",
     "date": "2026-08-18",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "huggingface/DEH-image-scan-data",
-    "author": "huggingface",
-    "title": "huggingface/DEH-image-scan-data",
-    "downloads": 63328,
-    "likes": 15,
-    "tags": [
-      "region:us"
-    ],
-    "created_at": "2025-11-06T18:40:14.000Z",
-    "last_modified": "2026-08-18T02:12:39.000Z",
-    "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data",
-    "date": "2026-08-18",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.5
-  },
-  {
-    "dataset_id": "open-index/hacker-news",
-    "author": "open-index",
-    "title": "open-index/hacker-news",
-    "downloads": 30937,
-    "likes": 341,
-    "tags": [
-      "task_categories:text-generation",
-      "task_categories:feature-extraction",
-      "task_categories:text-classification",
-      "task_categories:question-answering",
-      "language:en",
-      "license:odc-by",
-      "size_categories:10M<n<100M",
-      "modality:text",
-      "region:us",
-      "hacker-news",
-      "forum",
-      "text",
-      "parquet",
-      "community",
-      "tech",
-      "comments",
-      "live-updated"
-    ],
-    "created_at": "2026-03-14T09:58:41.000Z",
-    "last_modified": "2026-08-18T02:11:45.000Z",
-    "url": "https://huggingface.co/datasets/open-index/hacker-news",
-    "date": "2026-08-18",
-    "source": "huggingface_dataset",
-    "type": "dataset",
     "research_score": 0.5
   },
   {
@@ -4528,7 +4478,7 @@
   {
     "arxiv_id": "2608.16404v1",
     "title": "Convergence Analysis of Statistical Inverse Problems on Reproducing Kernel Banach Spaces",
-    "summary": "Statistical inverse problems have garnered significant attention in recent years due to the growing importance of statistical learning theory and functional analytic approaches in the fields of machine learning and artificial intelligence. In this paper, we investigate the stable approximation of the element $u^{\\dagger}$ that satisfies the equation $Au = g$, where $A$ is a linear operator that maps a Banach space into an appropriate function space. The function $g$ is observed only through independently and identically distributed data points that are corrupted by noise and assumed to follow an unknown distribution $\u03c1$. We employ the Tikhonov regularization scheme, leveraging statistical learning techniques and the framework of reproducing kernel Banach spaces to estimate the solution. We establish convergence and derive the convergence rate of the estimated solution with respect to the true solution as the number of data points increases, with the rate expressed in probabilistic terms. The theoretical findings are further supported by numerical experiments that demonstrate the effectiveness of the proposed approach.",
+    "summary": "Statistical inverse problems have garnered significant attention in recent years due to the growing importance of statistical learning theory and functional analytic approaches in the fields of machine learning and artificial intelligence. In this paper, we investigate the stable approximation of the element $u^{\\dagger}$ that satisfies the equation $Au = g$, where $A$ is a linear operator that maps a Banach space into an appropriate function space. The function $g$ is observed only through independently and identically distributed data points that are corrupted by noise and assumed to follow an unknown distribution $ρ$. We employ the Tikhonov regularization scheme, leveraging statistical learning techniques and the framework of reproducing kernel Banach spaces to estimate the solution. We establish convergence and derive the convergence rate of the estimated solution with respect to the true solution as the number of data points increases, with the rate expressed in probabilistic terms. The theoretical findings are further supported by numerical experiments that demonstrate the effectiveness of the proposed approach.",
     "authors": [
       "Darrel K Joseph",
       "M P Rajan"
@@ -4544,178 +4494,5 @@
     "date": "2026-08-18",
     "source": "arxiv",
     "research_score": 0.44
-  },
-  {
-    "model_id": "guillekenzo/aros-7aee93d6-VelvetOracle",
-    "author": "unknown",
-    "title": "guillekenzo/aros-7aee93d6-VelvetOracle",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "text-to-image",
-      "diffusers-training",
-      "lora",
-      "krea2",
-      "krea2-diffusers",
-      "template:sd-lora",
-      "base_model:krea/Krea-2-Raw",
-      "base_model:adapter:krea/Krea-2-Raw",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-08-18T01:39:04.000Z",
-    "last_modified": "2026-08-18T02:12:31.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/guillekenzo/aros-7aee93d6-VelvetOracle",
-    "date": "2026-08-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Shaurya-saini/qwen2.5-coder-7b-ocr-qlora",
-    "author": "unknown",
-    "title": "Shaurya-saini/qwen2.5-coder-7b-ocr-qlora",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/Qwen2.5-Coder-7B-Instruct-bnb-4bit",
-      "base_model:finetune:unsloth/Qwen2.5-Coder-7B-Instruct-bnb-4bit",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-18T02:09:10.000Z",
-    "last_modified": "2026-08-18T02:11:44.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Shaurya-saini/qwen2.5-coder-7b-ocr-qlora",
-    "date": "2026-08-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF",
-    "author": "unknown",
-    "title": "DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF",
-    "downloads": 0,
-    "likes": 45,
-    "tags": [
-      "gguf",
-      "qwen3_5",
-      "unsloth",
-      "GAIN Training",
-      "COLD-FUSION",
-      "finetune",
-      "MTP GGUF Quants",
-      "Regular GGUF Quants",
-      "qwen3.8",
-      "multi-stage tuned",
-      "thinking",
-      "reasoning",
-      "all use cases",
-      "coder",
-      "creative",
-      "creative writing",
-      "all genres",
-      "story",
-      "writing",
-      "fiction",
-      "roleplaying",
-      "bfloat16",
-      "image-text-to-text",
-      "en",
-      "zh",
-      "dataset:DavidAU/Polar-STRICT-Datasets",
-      "dataset:DavidAU/Reasoning-STRICT-Datasets",
-      "base_model:DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1",
-      "base_model:quantized:DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "imatrix",
-      "conversational"
-    ],
-    "pipeline_tag": "image-text-to-text",
-    "library": "",
-    "created_at": "2026-08-17T08:48:09.000Z",
-    "last_modified": "2026-08-18T02:11:35.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF",
-    "date": "2026-08-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "biohomunculus/Qwen3.8-2.4T-A95B",
-    "author": "unknown",
-    "title": "biohomunculus/Qwen3.8-2.4T-A95B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe_text",
-      "text-generation",
-      "conversational",
-      "license:other",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-18T02:09:49.000Z",
-    "last_modified": "2026-08-18T02:09:49.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/biohomunculus/Qwen3.8-2.4T-A95B",
-    "date": "2026-08-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Ironwood-LLM-Team/Firehouse-Cactus-1.02",
-    "author": "unknown",
-    "title": "Ironwood-LLM-Team/Firehouse-Cactus-1.02",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "safetensors",
-      "gemma4",
-      "unsloth",
-      "gemma",
-      "google",
-      "text-generation",
-      "conversational",
-      "base_model:Ironwood-LLM-Team/Firehouse-Cactus-1.01",
-      "base_model:finetune:Ironwood-LLM-Team/Firehouse-Cactus-1.01",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-08-18T01:58:00.000Z",
-    "last_modified": "2026-08-18T02:09:12.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Ironwood-LLM-Team/Firehouse-Cactus-1.02",
-    "date": "2026-08-18",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
