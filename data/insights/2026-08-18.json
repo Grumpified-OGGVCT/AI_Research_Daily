@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-18T06:31:46.825941",
+  "date": "2026-08-18T07:32:47.923235",
   "patterns": {
     "multimodal_research": [
       {
@@ -561,6 +561,18 @@
       {
         "title": "Automatic Cephalometric Landmark Localization on CBCT-Derived Digitally Reconstructed Radiographs for Skeletal Malocclusion Classification",
         "url": "https://arxiv.org/abs/2608.16535v1"
+      },
+      {
+        "title": "Amber8800/bert-base-nsmc",
+        "url": "https://huggingface.co/Amber8800/bert-base-nsmc"
+      },
+      {
+        "title": "castleUk/bert-base-nsmc",
+        "url": "https://huggingface.co/castleUk/bert-base-nsmc"
+      },
+      {
+        "title": "anstjdghdyd/bert-base-nsmc",
+        "url": "https://huggingface.co/anstjdghdyd/bert-base-nsmc"
       }
     ],
     "vision_systems": [
@@ -1613,7 +1625,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1672,6 +1684,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 393
+    "total_papers": 396
   }
 }
