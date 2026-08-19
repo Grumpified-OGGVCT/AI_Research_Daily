@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-19T22:18:25.323147",
+  "date": "2026-08-19T23:17:48.578297",
   "patterns": {
     "multimodal_research": [
       {
@@ -681,10 +681,6 @@
       {
         "title": "Initialization-Free Bundle Adjustment Revisited: A Controlled Experimental Study",
         "url": "https://arxiv.org/abs/2608.18028v1"
-      },
-      {
-        "title": "groxaxo/Qwen3.8-27B-GPTQ-Pro-4bit-g64-calib128",
-        "url": "https://huggingface.co/groxaxo/Qwen3.8-27B-GPTQ-Pro-4bit-g64-calib128"
       }
     ],
     "vision_systems": [
@@ -927,6 +923,10 @@
       {
         "title": "NGS-Marker: Robust Native Watermarking for 3D Gaussian Splatting",
         "url": "https://arxiv.org/abs/2608.17447v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Environment-Invariant Subspace Learning for Generalizable Deepfake Detection",
@@ -1605,13 +1605,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
