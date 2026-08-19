@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-19T10:21:59.553411",
+  "date": "2026-08-19T11:20:00.771030",
   "patterns": {
     "multimodal_research": [
       {
@@ -681,6 +681,10 @@
       {
         "title": "Initialization-Free Bundle Adjustment Revisited: A Controlled Experimental Study",
         "url": "https://arxiv.org/abs/2608.18028v1"
+      },
+      {
+        "title": "groxaxo/Huihui-Qwen3.8-27B-abliterated-GPTQ-Pro-4bit-g64",
+        "url": "https://huggingface.co/groxaxo/Huihui-Qwen3.8-27B-abliterated-GPTQ-Pro-4bit-g64"
       },
       {
         "title": "Chloemp/smollm2-135m-xlam-fullft",
@@ -1605,7 +1609,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "96 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1664,6 +1668,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 391
+    "total_papers": 392
   }
 }
