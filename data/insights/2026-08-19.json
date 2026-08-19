@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-19T16:24:00.900024",
+  "date": "2026-08-19T17:21:38.457960",
   "patterns": {
     "multimodal_research": [
       {
@@ -1205,10 +1205,6 @@
       {
         "title": "Modified Bryson-Frazier Smoothing and Hyperparameter Learning for Temporal Gaussian Process Regression",
         "url": "https://arxiv.org/abs/2608.17595v1"
-      },
-      {
-        "title": "Justbackup/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning",
-        "url": "https://huggingface.co/Justbackup/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning"
       }
     ],
     "benchmarks": [
@@ -1617,7 +1613,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "58 independent papers",
+      "observation": "57 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1664,6 +1660,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 391
+    "total_papers": 390
   }
 }
