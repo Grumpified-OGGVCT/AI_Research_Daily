@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-19T06:32:47.950448",
+  "date": "2026-08-19T07:33:24.401150",
   "patterns": {
     "multimodal_research": [
       {
@@ -299,6 +299,10 @@
       {
         "title": "An RKHS Framework for Fixed Effects in Permanental Process Models",
         "url": "https://arxiv.org/abs/2608.17908v1"
+      },
+      {
+        "title": "NomaDamas/v-splade-efficient-mlx",
+        "url": "https://huggingface.co/NomaDamas/v-splade-efficient-mlx"
       }
     ],
     "language_models": [
@@ -1589,7 +1593,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "54 independent papers",
+      "observation": "55 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1660,6 +1664,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 390
+    "total_papers": 391
   }
 }
