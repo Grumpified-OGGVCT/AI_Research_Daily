@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-19T04:31:12.853632",
+  "date": "2026-08-19T05:23:43.948248",
   "patterns": {
     "multimodal_research": [
       {
@@ -975,6 +975,14 @@
       {
         "title": "Cross-Domain Generalization in Machine Unlearning via Label-Conditioned Energy Magnitude Regularization",
         "url": "https://arxiv.org/abs/2608.17942v1"
+      },
+      {
+        "title": "HoangQuocViet25/nlp-btl-wikilingua-b",
+        "url": "https://huggingface.co/HoangQuocViet25/nlp-btl-wikilingua-b"
+      },
+      {
+        "title": "HoangQuocViet25/nlp-btl-xlsum-x5",
+        "url": "https://huggingface.co/HoangQuocViet25/nlp-btl-xlsum-x5"
       }
     ],
     "reasoning": [
@@ -1607,7 +1615,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1660,6 +1668,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 390
+    "total_papers": 392
   }
 }
