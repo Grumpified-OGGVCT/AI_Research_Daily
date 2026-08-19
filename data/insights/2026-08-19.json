@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-19T03:41:07.936169",
+  "date": "2026-08-19T04:31:12.853632",
   "patterns": {
     "multimodal_research": [
       {
@@ -681,14 +681,6 @@
       {
         "title": "Initialization-Free Bundle Adjustment Revisited: A Controlled Experimental Study",
         "url": "https://arxiv.org/abs/2608.18028v1"
-      },
-      {
-        "title": "mondk/GGUF.chatgpt-gpt-codex-V2",
-        "url": "https://huggingface.co/mondk/GGUF.chatgpt-gpt-codex-V2"
-      },
-      {
-        "title": "mondk/Safetensors.chatgpt-gpt-codex-V2",
-        "url": "https://huggingface.co/mondk/Safetensors.chatgpt-gpt-codex-V2"
       }
     ],
     "vision_systems": [
@@ -1609,7 +1601,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "97 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1668,6 +1660,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 392
+    "total_papers": 390
   }
 }
