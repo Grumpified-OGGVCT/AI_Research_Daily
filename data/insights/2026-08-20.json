@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-20T17:22:53.351589",
+  "date": "2026-08-20T18:29:38.761882",
   "patterns": {
     "multimodal_research": [
       {
@@ -533,6 +533,10 @@
       {
         "title": "Uncertainty-Aware Art-Historical Dating with Vision-Language Models",
         "url": "https://arxiv.org/abs/2608.18984v1"
+      },
+      {
+        "title": "Kaspar/anti-scraping_best_model_modernbert",
+        "url": "https://huggingface.co/Kaspar/anti-scraping_best_model_modernbert"
       }
     ],
     "vision_systems": [
@@ -1451,10 +1455,6 @@
       {
         "title": "Biological-Hybrid Intelligence: A Conceptual Framework for Distributed Biological--Artificial Computation",
         "url": "https://arxiv.org/abs/2608.18748v1"
-      },
-      {
-        "title": "SOTAagi2030/GalaxyLM-TestRepo-r03",
-        "url": "https://huggingface.co/SOTAagi2030/GalaxyLM-TestRepo-r03"
       }
     ]
   },
@@ -1485,7 +1485,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1509,7 +1509,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "95 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
