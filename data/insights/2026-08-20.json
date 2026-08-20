@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-20T14:29:52.464665",
+  "date": "2026-08-20T15:27:32.591479",
   "patterns": {
     "multimodal_research": [
       {
@@ -533,14 +533,6 @@
       {
         "title": "Uncertainty-Aware Art-Historical Dating with Vision-Language Models",
         "url": "https://arxiv.org/abs/2608.18984v1"
-      },
-      {
-        "title": "CyFalcon/truthguard-bert",
-        "url": "https://huggingface.co/CyFalcon/truthguard-bert"
-      },
-      {
-        "title": "EvgenAnt/phishing-email-detection-distilbert_v2.4.1-ONNX",
-        "url": "https://huggingface.co/EvgenAnt/phishing-email-detection-distilbert_v2.4.1-ONNX"
       }
     ],
     "vision_systems": [
@@ -1489,7 +1481,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1548,6 +1540,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 362
+    "total_papers": 360
   }
 }
