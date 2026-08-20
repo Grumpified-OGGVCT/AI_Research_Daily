@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-20T10:23:26.967582",
+  "date": "2026-08-20T11:21:01.164699",
   "patterns": {
     "multimodal_research": [
       {
@@ -533,10 +533,6 @@
       {
         "title": "Uncertainty-Aware Art-Historical Dating with Vision-Language Models",
         "url": "https://arxiv.org/abs/2608.18984v1"
-      },
-      {
-        "title": "Kaspar/modification_best_model_modernbert",
-        "url": "https://huggingface.co/Kaspar/modification_best_model_modernbert"
       }
     ],
     "vision_systems": [
@@ -1485,7 +1481,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1544,6 +1540,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 361
+    "total_papers": 360
   }
 }
