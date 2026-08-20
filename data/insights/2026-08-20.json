@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-20T04:31:17.406580",
+  "date": "2026-08-20T05:25:16.575296",
   "patterns": {
     "multimodal_research": [
       {
@@ -533,6 +533,10 @@
       {
         "title": "Uncertainty-Aware Art-Historical Dating with Vision-Language Models",
         "url": "https://arxiv.org/abs/2608.18984v1"
+      },
+      {
+        "title": "darkbit1001/MuXodious-gpt-4o-distill-Llama-3.1-8B-Instruct-PaperWitch-heresy-exl3-8.00bpw-hb8",
+        "url": "https://huggingface.co/darkbit1001/MuXodious-gpt-4o-distill-Llama-3.1-8B-Instruct-PaperWitch-heresy-exl3-8.00bpw-hb8"
       }
     ],
     "vision_systems": [
@@ -1485,7 +1489,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1544,6 +1548,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 361
+    "total_papers": 362
   }
 }
