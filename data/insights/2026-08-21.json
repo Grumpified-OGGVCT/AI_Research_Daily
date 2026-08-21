@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21T07:37:48.583989",
+  "date": "2026-08-21T08:32:39.322573",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,10 +633,6 @@
       {
         "title": "Artificial Intelligence for Workflow Analysis in Colorectal Surgery: A Multicentric, Cross-Procedural Development and Generalization Study",
         "url": "https://arxiv.org/abs/2608.20154v1"
-      },
-      {
-        "title": "shorecode/albert-tagger",
-        "url": "https://huggingface.co/shorecode/albert-tagger"
       }
     ],
     "vision_systems": [
@@ -1185,14 +1181,6 @@
       {
         "title": "Gallileo-4D: Frozen Backbone Ensemble for Dynamic 4D Reconstruction",
         "url": "https://arxiv.org/abs/2608.19743v1"
-      },
-      {
-        "title": "ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-300B-4096-longsft_16k-DPO-Tulu3-decontaminated",
-        "url": "https://huggingface.co/ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-300B-4096-longsft_16k-DPO-Tulu3-decontaminated"
-      },
-      {
-        "title": "ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-100B-4096-longsft_16k-DPO-Tulu3-decontaminated",
-        "url": "https://huggingface.co/ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-100B-4096-longsft_16k-DPO-Tulu3-decontaminated"
       }
     ],
     "benchmarks": [
@@ -1685,7 +1673,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1685,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "70 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1737,13 +1725,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 28,
+      "frequency": 26,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 408
   }
 }
