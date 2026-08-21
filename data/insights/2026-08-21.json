@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21T11:20:01.771254",
+  "date": "2026-08-21T12:33:13.175095",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,12 +635,8 @@
         "url": "https://arxiv.org/abs/2608.20154v1"
       },
       {
-        "title": "leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking-augmented",
-        "url": "https://huggingface.co/leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking-augmented"
-      },
-      {
-        "title": "leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking",
-        "url": "https://huggingface.co/leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking"
+        "title": "mphd1/gpt2-xl-teacher",
+        "url": "https://huggingface.co/mphd1/gpt2-xl-teacher"
       }
     ],
     "vision_systems": [
@@ -1189,6 +1185,10 @@
       {
         "title": "Gallileo-4D: Frozen Backbone Ensemble for Dynamic 4D Reconstruction",
         "url": "https://arxiv.org/abs/2608.19743v1"
+      },
+      {
+        "title": "Jongbin-kr/qwen2.5-coder-7b-verireason-official-settings-no_reasoning-jongbin",
+        "url": "https://huggingface.co/Jongbin-kr/qwen2.5-coder-7b-verireason-official-settings-no_reasoning-jongbin"
       }
     ],
     "benchmarks": [
@@ -1651,10 +1651,6 @@
       {
         "title": "Gallileo-4D: Frozen Backbone Ensemble for Dynamic 4D Reconstruction",
         "url": "https://arxiv.org/abs/2608.19743v1"
-      },
-      {
-        "title": "SOTAagi2030/CoreSpark-TestRepo-r29",
-        "url": "https://huggingface.co/SOTAagi2030/CoreSpark-TestRepo-r29"
       }
     ]
   },
@@ -1685,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1693,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,7 +1705,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "116 independent papers",
+      "observation": "115 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1737,13 +1733,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 26,
+      "frequency": 27,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 410
   }
 }
