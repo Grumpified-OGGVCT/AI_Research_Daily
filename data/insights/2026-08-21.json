@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21T02:21:29.839952",
+  "date": "2026-08-21T03:45:11.183572",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,6 +633,10 @@
       {
         "title": "Artificial Intelligence for Workflow Analysis in Colorectal Surgery: A Multicentric, Cross-Procedural Development and Generalization Study",
         "url": "https://arxiv.org/abs/2608.20154v1"
+      },
+      {
+        "title": "mstyslavity/gpt-oss-20b-optiq-3bpw",
+        "url": "https://huggingface.co/mstyslavity/gpt-oss-20b-optiq-3bpw"
       }
     ],
     "vision_systems": [
@@ -1673,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1732,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 409
   }
 }
