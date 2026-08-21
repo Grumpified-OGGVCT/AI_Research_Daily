@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21T06:34:48.242596",
+  "date": "2026-08-21T07:37:48.583989",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,12 +635,8 @@
         "url": "https://arxiv.org/abs/2608.20154v1"
       },
       {
-        "title": "SOTAagi2030/OrbitalLM-TestRepo-r13",
-        "url": "https://huggingface.co/SOTAagi2030/OrbitalLM-TestRepo-r13"
-      },
-      {
-        "title": "leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking",
-        "url": "https://huggingface.co/leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking"
+        "title": "shorecode/albert-tagger",
+        "url": "https://huggingface.co/shorecode/albert-tagger"
       }
     ],
     "vision_systems": [
@@ -1189,6 +1185,14 @@
       {
         "title": "Gallileo-4D: Frozen Backbone Ensemble for Dynamic 4D Reconstruction",
         "url": "https://arxiv.org/abs/2608.19743v1"
+      },
+      {
+        "title": "ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-300B-4096-longsft_16k-DPO-Tulu3-decontaminated",
+        "url": "https://huggingface.co/ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-300B-4096-longsft_16k-DPO-Tulu3-decontaminated"
+      },
+      {
+        "title": "ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-100B-4096-longsft_16k-DPO-Tulu3-decontaminated",
+        "url": "https://huggingface.co/ali-elganzory/open-sci-ref-v0.02-1.7b-nemotron-hq-mv_reasoning-100B-4096-longsft_16k-DPO-Tulu3-decontaminated"
       }
     ],
     "benchmarks": [
@@ -1651,10 +1655,6 @@
       {
         "title": "Gallileo-4D: Frozen Backbone Ensemble for Dynamic 4D Reconstruction",
         "url": "https://arxiv.org/abs/2608.19743v1"
-      },
-      {
-        "title": "SOTAagi2030/OrbitalLM-TestRepo-r13",
-        "url": "https://huggingface.co/SOTAagi2030/OrbitalLM-TestRepo-r13"
       }
     ]
   },
@@ -1685,7 +1685,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1697,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "68 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,7 +1709,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "116 independent papers",
+      "observation": "115 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1737,7 +1737,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 26,
+      "frequency": 28,
       "significance": "high"
     }
   ],
