@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21T10:23:23.238012",
+  "date": "2026-08-21T11:20:01.771254",
   "patterns": {
     "multimodal_research": [
       {
@@ -635,12 +635,12 @@
         "url": "https://arxiv.org/abs/2608.20154v1"
       },
       {
-        "title": "leomaurodesenv/bert-base-uncased-disaster-tweet-jailbreaking-augmented",
-        "url": "https://huggingface.co/leomaurodesenv/bert-base-uncased-disaster-tweet-jailbreaking-augmented"
+        "title": "leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking-augmented",
+        "url": "https://huggingface.co/leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking-augmented"
       },
       {
-        "title": "shorecode/albert-tagger",
-        "url": "https://huggingface.co/shorecode/albert-tagger"
+        "title": "leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking",
+        "url": "https://huggingface.co/leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking"
       }
     ],
     "vision_systems": [
@@ -1651,6 +1651,10 @@
       {
         "title": "Gallileo-4D: Frozen Backbone Ensemble for Dynamic 4D Reconstruction",
         "url": "https://arxiv.org/abs/2608.19743v1"
+      },
+      {
+        "title": "SOTAagi2030/CoreSpark-TestRepo-r29",
+        "url": "https://huggingface.co/SOTAagi2030/CoreSpark-TestRepo-r29"
       }
     ]
   },
@@ -1705,7 +1709,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "115 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1740,6 +1744,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 411
   }
 }
