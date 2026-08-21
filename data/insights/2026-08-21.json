@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21T21:18:02.867618",
+  "date": "2026-08-21T22:17:39.016780",
   "patterns": {
     "multimodal_research": [
       {
@@ -327,6 +327,10 @@
       {
         "title": "Point-Based 3D Reconstruction from Sparse Views under Known Illumination",
         "url": "https://arxiv.org/abs/2608.20000v1"
+      },
+      {
+        "title": "AETHORIA-AI/TR-HASH-MoE-200M-160B-SFT",
+        "url": "https://huggingface.co/AETHORIA-AI/TR-HASH-MoE-200M-160B-SFT"
       }
     ],
     "language_models": [
@@ -633,10 +637,6 @@
       {
         "title": "Artificial Intelligence for Workflow Analysis in Colorectal Surgery: A Multicentric, Cross-Procedural Development and Generalization Study",
         "url": "https://arxiv.org/abs/2608.20154v1"
-      },
-      {
-        "title": "leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking-augmented",
-        "url": "https://huggingface.co/leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking-augmented"
       }
     ],
     "vision_systems": [
@@ -1665,7 +1665,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "52 independent papers",
+      "observation": "53 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1677,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
