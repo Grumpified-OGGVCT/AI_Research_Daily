@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-21T16:24:46.166020",
+  "date": "2026-08-21T17:22:36.776242",
   "patterns": {
     "multimodal_research": [
       {
@@ -329,8 +329,8 @@
         "url": "https://arxiv.org/abs/2608.20000v1"
       },
       {
-        "title": "naokinakamura/model_408099575_efficientformer_giant",
-        "url": "https://huggingface.co/naokinakamura/model_408099575_efficientformer_giant"
+        "title": "jashepp/Ornith-1.5-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF",
+        "url": "https://huggingface.co/jashepp/Ornith-1.5-35B-A3B-MXFP4_MOE_Hybrid-Imatrix-GGUF"
       }
     ],
     "language_models": [
@@ -639,8 +639,8 @@
         "url": "https://arxiv.org/abs/2608.20154v1"
       },
       {
-        "title": "leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking-augmented",
-        "url": "https://huggingface.co/leomaurodesenv/distilbert-base-uncased-disaster-tweet-jailbreaking-augmented"
+        "title": "francescortu/DistillDetect-traj-Qwen2.5-3B-from-gpt-oss-120b-s1",
+        "url": "https://huggingface.co/francescortu/DistillDetect-traj-Qwen2.5-3B-from-gpt-oss-120b-s1"
       }
     ],
     "vision_systems": [
@@ -1651,10 +1651,6 @@
       {
         "title": "Gallileo-4D: Frozen Backbone Ensemble for Dynamic 4D Reconstruction",
         "url": "https://arxiv.org/abs/2608.19743v1"
-      },
-      {
-        "title": "SOTAagi2030/LumenAI-TestRepo-r41",
-        "url": "https://huggingface.co/SOTAagi2030/LumenAI-TestRepo-r41"
       }
     ]
   },
@@ -1709,7 +1705,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "116 independent papers",
+      "observation": "115 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1744,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 410
   }
 }
