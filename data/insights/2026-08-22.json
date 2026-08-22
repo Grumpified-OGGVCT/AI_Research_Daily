@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-22T22:15:29.520954",
+  "date": "2026-08-22T23:14:59.049396",
   "patterns": {
     "multimodal_research": [
       {
@@ -881,6 +881,10 @@
         "url": "https://arxiv.org/abs/2608.19894v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "Flow Matching-Based PET Image Reconstruction",
         "url": "https://arxiv.org/abs/2608.20112v1"
       },
@@ -1643,6 +1647,10 @@
       {
         "title": "Gallileo-4D: Frozen Backbone Ensemble for Dynamic 4D Reconstruction",
         "url": "https://arxiv.org/abs/2608.19743v1"
+      },
+      {
+        "title": "SOTAagi2030/AtlasMind-TestRepo-r19",
+        "url": "https://huggingface.co/SOTAagi2030/AtlasMind-TestRepo-r19"
       }
     ]
   },
@@ -1679,7 +1687,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1705,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "115 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1732,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 408
+    "total_papers": 410
   }
 }
