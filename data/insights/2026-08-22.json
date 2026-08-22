@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-22T17:15:26.372126",
+  "date": "2026-08-22T18:20:02.866418",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,10 +633,6 @@
       {
         "title": "Artificial Intelligence for Workflow Analysis in Colorectal Surgery: A Multicentric, Cross-Procedural Development and Generalization Study",
         "url": "https://arxiv.org/abs/2608.20154v1"
-      },
-      {
-        "title": "saidutta69/SmolLM2-135M-Instruct-heretic",
-        "url": "https://huggingface.co/saidutta69/SmolLM2-135M-Instruct-heretic"
       }
     ],
     "vision_systems": [
@@ -1185,10 +1181,6 @@
       {
         "title": "Gallileo-4D: Frozen Backbone Ensemble for Dynamic 4D Reconstruction",
         "url": "https://arxiv.org/abs/2608.19743v1"
-      },
-      {
-        "title": "SOTAagi2030/NovaLogic-TestRepo-r24",
-        "url": "https://huggingface.co/SOTAagi2030/NovaLogic-TestRepo-r24"
       }
     ],
     "benchmarks": [
@@ -1653,8 +1645,12 @@
         "url": "https://arxiv.org/abs/2608.19743v1"
       },
       {
-        "title": "SOTAagi2030/NovaLogic-TestRepo-r24",
-        "url": "https://huggingface.co/SOTAagi2030/NovaLogic-TestRepo-r24"
+        "title": "SOTAagi2030/ZenithAI-TestRepo-r36",
+        "url": "https://huggingface.co/SOTAagi2030/ZenithAI-TestRepo-r36"
+      },
+      {
+        "title": "SOTAagi2030/GalaxyLM-TestRepo-r48",
+        "url": "https://huggingface.co/SOTAagi2030/GalaxyLM-TestRepo-r48"
       }
     ]
   },
@@ -1685,7 +1681,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1693,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "69 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1709,7 +1705,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "116 independent papers",
+      "observation": "117 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1744,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 411
+    "total_papers": 410
   }
 }
