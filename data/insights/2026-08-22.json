@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-22T04:26:20.640505",
+  "date": "2026-08-22T05:21:14.826441",
   "patterns": {
     "multimodal_research": [
       {
@@ -907,10 +907,6 @@
       {
         "title": "PVRA: A Pointwise Key-point Voting Framework for Robotic Assembly",
         "url": "https://arxiv.org/abs/2608.19968v1"
-      },
-      {
-        "title": "Kawal511/sentinelvision-proctoring-yolov8n",
-        "url": "https://huggingface.co/Kawal511/sentinelvision-proctoring-yolov8n"
       }
     ],
     "reasoning": [
@@ -1683,7 +1679,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "68 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1719,7 +1715,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 41,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1736,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 408
   }
 }
