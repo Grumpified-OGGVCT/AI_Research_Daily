@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-22T15:14:36.137082",
+  "date": "2026-08-22T16:16:44.770969",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,14 +633,6 @@
       {
         "title": "Artificial Intelligence for Workflow Analysis in Colorectal Surgery: A Multicentric, Cross-Procedural Development and Generalization Study",
         "url": "https://arxiv.org/abs/2608.20154v1"
-      },
-      {
-        "title": "pinkelephantlimited/pinkelephant-llm-48b-s-gguf",
-        "url": "https://huggingface.co/pinkelephantlimited/pinkelephant-llm-48b-s-gguf"
-      },
-      {
-        "title": "devoppro/FastLLM",
-        "url": "https://huggingface.co/devoppro/FastLLM"
       }
     ],
     "vision_systems": [
@@ -1651,6 +1643,10 @@
       {
         "title": "Gallileo-4D: Frozen Backbone Ensemble for Dynamic 4D Reconstruction",
         "url": "https://arxiv.org/abs/2608.19743v1"
+      },
+      {
+        "title": "SOTAagi2030/PulseThink-TestRepo-r45",
+        "url": "https://huggingface.co/SOTAagi2030/PulseThink-TestRepo-r45"
       }
     ]
   },
@@ -1681,7 +1677,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1705,7 +1701,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "115 independent papers",
+      "observation": "116 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1740,6 +1736,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 410
+    "total_papers": 409
   }
 }
