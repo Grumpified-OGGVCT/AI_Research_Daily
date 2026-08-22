@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-22T06:28:23.541639",
+  "date": "2026-08-22T07:26:15.492717",
   "patterns": {
     "multimodal_research": [
       {
@@ -1643,10 +1643,6 @@
       {
         "title": "Gallileo-4D: Frozen Backbone Ensemble for Dynamic 4D Reconstruction",
         "url": "https://arxiv.org/abs/2608.19743v1"
-      },
-      {
-        "title": "SOTAagi2030/NeoReasoner-TestRepo-r32",
-        "url": "https://huggingface.co/SOTAagi2030/NeoReasoner-TestRepo-r32"
       }
     ]
   },
@@ -1701,7 +1697,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "116 independent papers",
+      "observation": "115 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1736,6 +1732,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 408
   }
 }
