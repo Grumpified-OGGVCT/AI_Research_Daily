@@ -1,11 +1,22 @@
 {
-  "date": "2026-08-23T15:15:53.269315",
-  "patterns": {},
+  "date": "2026-08-23T16:17:52.902038",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "pinkelephantlimited/pinkelephant-llm-48b-s-gguf",
+        "url": "https://huggingface.co/pinkelephantlimited/pinkelephant-llm-48b-s-gguf"
+      },
+      {
+        "title": "SOTAagi2030/OrbitalLM-TestRepo-r43",
+        "url": "https://huggingface.co/SOTAagi2030/OrbitalLM-TestRepo-r43"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
