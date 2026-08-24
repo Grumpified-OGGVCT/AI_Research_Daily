@@ -1,11 +1,22 @@
 {
-  "date": "2026-08-24T11:21:00.583403",
-  "patterns": {},
+  "date": "2026-08-24T12:35:07.090582",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "fmlini251/Llama-3.1-8B-GPTQ-4bit-128g",
+        "url": "https://huggingface.co/fmlini251/Llama-3.1-8B-GPTQ-4bit-128g"
+      },
+      {
+        "title": "fmlini251/Llama-3.1-8B-GPTQ-8bit-128g",
+        "url": "https://huggingface.co/fmlini251/Llama-3.1-8B-GPTQ-8bit-128g"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
