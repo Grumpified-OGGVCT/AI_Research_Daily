@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-25T17:26:19.219374",
+  "date": "2026-08-25T18:30:01.610332",
   "patterns": {
     "multimodal_research": [
       {
@@ -303,10 +303,6 @@
       {
         "title": "What Memory Composition Does Not Tell Us About Anomaly Detection",
         "url": "https://arxiv.org/abs/2608.23295v1"
-      },
-      {
-        "title": "DemonKing1234/gt730-moe-transformer",
-        "url": "https://huggingface.co/DemonKing1234/gt730-moe-transformer"
       }
     ],
     "language_models": [
@@ -659,8 +655,8 @@
         "url": "https://arxiv.org/abs/2608.23499v1"
       },
       {
-        "title": "DemonKing1234/gt730-moe-transformer",
-        "url": "https://huggingface.co/DemonKing1234/gt730-moe-transformer"
+        "title": "santajr/fakebert-distilbert-fake-news",
+        "url": "https://huggingface.co/santajr/fakebert-distilbert-fake-news"
       }
     ],
     "vision_systems": [
@@ -1573,7 +1569,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "45 independent papers",
+      "observation": "44 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1644,6 +1640,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 386
+    "total_papers": 385
   }
 }
