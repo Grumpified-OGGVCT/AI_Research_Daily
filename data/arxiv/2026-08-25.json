@@ -27,7 +27,7 @@
   {
     "arxiv_id": "2608.23554v1",
     "title": "Provably adaptive sampling with uniform and remasking discrete diffusion models",
-    "summary": "Discrete diffusion models offer a promising alternative to autoregressive generation by enabling parallel updates, but their sampling efficiency can depend strongly on the choice of the forward process and the sampler. For the uniform forward process, existing lower bounds for the standard $\u03c4$-leaping sampler scale linearly with the ambient dimension $d$, raising the question of whether this dependence is intrinsic to the forward process. We answer this question in the negative. We consider a first-order sampler based on the leave-one-out denoiser for uniform and remasking processes whose coordinate updates can be performed in parallel. In both cases, the sampler can correct denoising mistakes during the sampling process, which becomes necessary when many coordinates are updated together. Our main result establishes an adaptive sampling guarantee: up to logarithmic factors, $N = O(\\mathrm{DTC}(X_0) / \\varepsilon)$ discretization steps suffice to achieve sampling error $O(\\varepsilon_{\\mathrm{score}}+\\varepsilon)$, where $\\varepsilon_{\\mathrm{score}}$ is the error in score estimation. Thus, the sampling complexity is governed by the intrinsic dependence structure of the target distribution, as measured by its dual total correlation $\\mathrm{DTC}(X_0)$, rather than directly by the ambient dimension $d$. Our analysis proceeds through a Bayes-optimal auxiliary sampler that separates discretization error from score-estimation error. We also derive an exact information-theoretic representation of the discretization error in terms of the mutual information between different coordinates of the forward process at different times. This representation applies to general forward processes and, in the uniform and remasking cases, can be controlled by $\\mathrm{DTC}(X_0)$. Numerical experiments on structured synthetic distributions illustrate the predicted dimension-adaptive behavior.",
+    "summary": "Discrete diffusion models offer a promising alternative to autoregressive generation by enabling parallel updates, but their sampling efficiency can depend strongly on the choice of the forward process and the sampler. For the uniform forward process, existing lower bounds for the standard $τ$-leaping sampler scale linearly with the ambient dimension $d$, raising the question of whether this dependence is intrinsic to the forward process. We answer this question in the negative. We consider a first-order sampler based on the leave-one-out denoiser for uniform and remasking processes whose coordinate updates can be performed in parallel. In both cases, the sampler can correct denoising mistakes during the sampling process, which becomes necessary when many coordinates are updated together. Our main result establishes an adaptive sampling guarantee: up to logarithmic factors, $N = O(\\mathrm{DTC}(X_0) / \\varepsilon)$ discretization steps suffice to achieve sampling error $O(\\varepsilon_{\\mathrm{score}}+\\varepsilon)$, where $\\varepsilon_{\\mathrm{score}}$ is the error in score estimation. Thus, the sampling complexity is governed by the intrinsic dependence structure of the target distribution, as measured by its dual total correlation $\\mathrm{DTC}(X_0)$, rather than directly by the ambient dimension $d$. Our analysis proceeds through a Bayes-optimal auxiliary sampler that separates discretization error from score-estimation error. We also derive an exact information-theoretic representation of the discretization error in terms of the mutual information between different coordinates of the forward process at different times. This representation applies to general forward processes and, in the uniform and remasking cases, can be controlled by $\\mathrm{DTC}(X_0)$. Numerical experiments on structured synthetic distributions illustrate the predicted dimension-adaptive behavior.",
     "authors": [
       "Daniil Dmitriev",
       "Zhihan Huang",
@@ -75,7 +75,7 @@
       "Seth Karten",
       "Alex L. Zhang",
       "Kevin Thomas",
-      "Sebastian M\u00fcller",
+      "Sebastian Müller",
       "Elie Bakouch",
       "Daniel Auras",
       "Mika Senghaas",
@@ -124,7 +124,7 @@
     "authors": [
       "Nathan Duboisset",
       "Zhaolan Huang",
-      "Felix Bie\u00dfmann",
+      "Felix Bießmann",
       "Roudy Dagher",
       "Antoine Lavandier",
       "Emmanuel Baccelli"
@@ -292,7 +292,7 @@
   {
     "arxiv_id": "2608.23211v1",
     "title": "SGHA: A Single-Loop Fully First-Order Algorithm for Nonconvex-Strongly-Convex Bilevel Optimization",
-    "summary": "In this work, we study the oracle complexity of finding an $\u03b5$-stationary point for nonconvex-strongly-convex (NC-SC) bilevel optimization using only first-order oracles. Existing methods achieving the best-known complexity guarantees typically rely on double-loop, penalty-based procedures. We propose a novel single-loop algorithm based on a constrained reformulation in which lower-level stationarity is imposed as a constraint. Specifically, we construct a regularized Lagrangian by introducing a quadratic regularizer and restricting the dual variable to a bounded domain, and then apply Smoothed Gradient Descent Ascent [Zhang et al., 2020], with Hessian-vector products approximated via finite differences of gradients. We refer to the resulting deterministic and stochastic algorithms as SGHA and Stoc-SGHA, respectively. In the deterministic setting, SGHA achieves an oracle complexity of $O(\\bar\u03ba_y^{5}\u03b5^{-2})$, where $\\bar\u03ba_y$ denotes the relevant condition number. In the stochastic setting, Stoc-SGHA achieves an oracle complexity of $O\\left(\\bar\u03ba_y^{17}\u03b5^{-6}\u03c1^{-3}\\right)$ with probability at least $1-\u03c1$ for any $\u03c1\\in(0,1)$, and an oracle complexity of $O\\left(\\bar\u03ba_y^{17}\u03b5^{-6}\\right)$ in expectation under an additional bounded-iterate assumption. Moreover, under an additional stochastic smoothness assumption imposed only on the lower-level objective, the stochastic oracle complexity of Stoc-SGHA improves to $O\\left(\\bar\u03ba_y^{11}\u03b5^{-4}\u03c1^{-2}\\right)$ with high probability and $O\\left(\\bar\u03ba_y^{11}\u03b5^{-4}\\right)$ in expectation, matching the $\u03b5$-dependence of the lower bounds.",
+    "summary": "In this work, we study the oracle complexity of finding an $ε$-stationary point for nonconvex-strongly-convex (NC-SC) bilevel optimization using only first-order oracles. Existing methods achieving the best-known complexity guarantees typically rely on double-loop, penalty-based procedures. We propose a novel single-loop algorithm based on a constrained reformulation in which lower-level stationarity is imposed as a constraint. Specifically, we construct a regularized Lagrangian by introducing a quadratic regularizer and restricting the dual variable to a bounded domain, and then apply Smoothed Gradient Descent Ascent [Zhang et al., 2020], with Hessian-vector products approximated via finite differences of gradients. We refer to the resulting deterministic and stochastic algorithms as SGHA and Stoc-SGHA, respectively. In the deterministic setting, SGHA achieves an oracle complexity of $O(\\barκ_y^{5}ε^{-2})$, where $\\barκ_y$ denotes the relevant condition number. In the stochastic setting, Stoc-SGHA achieves an oracle complexity of $O\\left(\\barκ_y^{17}ε^{-6}ρ^{-3}\\right)$ with probability at least $1-ρ$ for any $ρ\\in(0,1)$, and an oracle complexity of $O\\left(\\barκ_y^{17}ε^{-6}\\right)$ in expectation under an additional bounded-iterate assumption. Moreover, under an additional stochastic smoothness assumption imposed only on the lower-level objective, the stochastic oracle complexity of Stoc-SGHA improves to $O\\left(\\barκ_y^{11}ε^{-4}ρ^{-2}\\right)$ with high probability and $O\\left(\\barκ_y^{11}ε^{-4}\\right)$ in expectation, matching the $ε$-dependence of the lower bounds.",
     "authors": [
       "Zhihao Gu",
       "Qilong Wu",
@@ -334,7 +334,7 @@
     "summary": "Analog circuit topology synthesis remains challenging because useful designs occupy a tiny fraction of a combinatorial search space, and small structural changes can induce highly nonlinear changes in behavior. Evolutionary algorithms are attractive because they can optimize over discrete circuit topologies using only black-box evaluations, but they often require many SPICE simulations and may converge prematurely. We introduce LLM-SPICEMixer, a hybrid synthesis framework that augments genetic netlist generation with IGEL (Inspiration-Guided Evolution with LLMs), an LLM-based proposal operator. During search, IGEL prompts an LLM with high-performing circuits from the elite set and instructs it to generate a new SPICE netlist, which is then evaluated by SPICE and selected using the same reward mechanism as conventional genetic operators. Thus, the LLM contributes structured topology proposals while simulation remains the source of truth. We evaluate LLM-SPICEMixer on a challenging benchmark task: synthesizing transistor-level circuits that implement a discriminant function for Iris classification. Compared with the genetic framework without LLM guidance, LLM-SPICEMixer improves the median final training reward by 8.4% and the median validation-selected test reward by 8.8%. The best validation-selected circuit achieves 93.3% test accuracy at the nominal tt corner and 85.9% average test accuracy across 17 process, voltage, and temperature corners.",
     "authors": [
       "Stefan Uhlich",
-      "Ya\u011f\u0131z Gen\u00e7er",
+      "Yağız Gençer",
       "Andrea Bonetti",
       "Arun Venkitaraman",
       "Chia-Yu Hsieh",
@@ -402,7 +402,7 @@
   {
     "arxiv_id": "2608.23138v1",
     "title": "Pointing-VLA: Typed Spatial Grounding Interfaces for Vision-Language-Action Manipulation",
-    "summary": "Vision-language-action (VLA) models often expose spatial grounding through autoregressive text coordinates or opaque action tokens, creating brittle interfaces between multimodal reasoning and robot execution. We present Pointing-VLA, a typed hidden-state spatial readout built on Embodied-R1. Geometry-specific heads predict normalized points, object-functional grounding (OFG) heatmaps, and visual trajectories without serializing geometry as text. For the evaluated Bridge/WidowX and physical pick-place deployments, an explicit execution contract assigns PICK to source-conditioned OFG and PLACE to Pointing, providing direct stage-aligned spatial targets. Pointing-VLA achieves SOTA performance on Bridge/WidowX, averaging 72.9\\% across the evaluated four-task set without Bridge-specific finetuning under collision-enabled CuRobo execution. Pointing and OFG show complementary strengths across native and cross-dataset evaluations. The OFG/contact readout transfers to NORA-1.5, preserving or improving success while reducing recorded controller time by more than 20$\\times$; typed heads are also 6.68--6.90$\\times$ faster than Embodied-R1 text decoding on a shared external suite. When integrated as spatial guidance for a $\u03c0_{0.5}$ action policy, Pointing-VLA raises autonomous real-robot success from 52.7\\% to 80.7\\% across three visual contexts. These results establish typed spatial readouts as an efficient, inspectable interface between embodied reasoning and robot execution.",
+    "summary": "Vision-language-action (VLA) models often expose spatial grounding through autoregressive text coordinates or opaque action tokens, creating brittle interfaces between multimodal reasoning and robot execution. We present Pointing-VLA, a typed hidden-state spatial readout built on Embodied-R1. Geometry-specific heads predict normalized points, object-functional grounding (OFG) heatmaps, and visual trajectories without serializing geometry as text. For the evaluated Bridge/WidowX and physical pick-place deployments, an explicit execution contract assigns PICK to source-conditioned OFG and PLACE to Pointing, providing direct stage-aligned spatial targets. Pointing-VLA achieves SOTA performance on Bridge/WidowX, averaging 72.9\\% across the evaluated four-task set without Bridge-specific finetuning under collision-enabled CuRobo execution. Pointing and OFG show complementary strengths across native and cross-dataset evaluations. The OFG/contact readout transfers to NORA-1.5, preserving or improving success while reducing recorded controller time by more than 20$\\times$; typed heads are also 6.68--6.90$\\times$ faster than Embodied-R1 text decoding on a shared external suite. When integrated as spatial guidance for a $π_{0.5}$ action policy, Pointing-VLA raises autonomous real-robot success from 52.7\\% to 80.7\\% across three visual contexts. These results establish typed spatial readouts as an efficient, inspectable interface between embodied reasoning and robot execution.",
     "authors": [
       "Xiwen Chen",
       "Zelin Li",
@@ -550,7 +550,7 @@
   {
     "arxiv_id": "2608.23429v1",
     "title": "ChebBooster: A Training-Free Approach for Efficient Diffusion Transformer Inference via Chebyshev-Inspired Extrapolation",
-    "summary": "Diffusion Transformers (DiTs) have shown strong performance in high-fidelity image generation, but their sampling process remains computationally intensive due to full model execution at every timestep. While cache-based acceleration has been explored to mitigate inference cost, naive reuse schemes suffer from low accuracy over long intervals, and Taylor-series-based extrapolation methods often face instability caused by Runge oscillations. In this paper, we propose ChebBooster, a training-free extrapolation framework based on Chebyshev polynomial theory that achieves stable and efficient acceleration for DiTs. Specifically, we adopt the Barycentric formulation to evaluate Chebyshev approximants with high numerical stability and minimal overhead, and further decouple the extrapolation into an offline weight precomputation phase and a lightweight online application stage. Extensive experiments across three representative DiT-based models, including DiT-XL/2, PixArt-$\u03a3$, and FLUX.1-dev, demonstrate that ChebBooster achieves consistent improvements in visual quality and inference efficiency, reaching up to $3.68\\times$ latency speedup and $5.12\\times$ FLOPs reduction, outperforming existing training-free baselines under diverse generation tasks and resolutions.",
+    "summary": "Diffusion Transformers (DiTs) have shown strong performance in high-fidelity image generation, but their sampling process remains computationally intensive due to full model execution at every timestep. While cache-based acceleration has been explored to mitigate inference cost, naive reuse schemes suffer from low accuracy over long intervals, and Taylor-series-based extrapolation methods often face instability caused by Runge oscillations. In this paper, we propose ChebBooster, a training-free extrapolation framework based on Chebyshev polynomial theory that achieves stable and efficient acceleration for DiTs. Specifically, we adopt the Barycentric formulation to evaluate Chebyshev approximants with high numerical stability and minimal overhead, and further decouple the extrapolation into an offline weight precomputation phase and a lightweight online application stage. Extensive experiments across three representative DiT-based models, including DiT-XL/2, PixArt-$Σ$, and FLUX.1-dev, demonstrate that ChebBooster achieves consistent improvements in visual quality and inference efficiency, reaching up to $3.68\\times$ latency speedup and $5.12\\times$ FLOPs reduction, outperforming existing training-free baselines under diverse generation tasks and resolutions.",
     "authors": [
       "Chengjie Lu",
       "Tianchi Deng",
@@ -655,7 +655,7 @@
     "summary": "Interpretability is critical for machine learning models deployed in scientific space missions such as ESA's Ariel, where ground truth is unavailable during operations and physical plausibility must be assessed. While most explainable AI methods focus on feature attribution, this work investigates training data attribution through influence functions and introduces three key contributions for operational spectroscopy pipelines. First, influence is reformulated in terms of prediction rather than loss, enabling label-free deployment. Second, by leveraging the closed-form ridge solution of an Extreme Learning Machine, infinitesimal prediction influence is efficiently computed. Third, an influence-based conservative error proxy is derived by propagating training residuals through the influence sensitivities. Evaluated against simulated spectra, the proposed proxy correlates strongly with scale and shape-based spectral errors. Furthermore, influence functions enable the identification of the most influential samples and the approximation of the most harmful ones. Together, these results suggest that this approach can serve as an operational framework for scientific machine learning.",
     "authors": [
       "Nikki Grens",
-      "Lu\u00eds F. Sim\u00f5es",
+      "Luís F. Simões",
       "Kai Hou Yip",
       "Theresa Lueftinger"
     ],
@@ -739,7 +739,7 @@
   {
     "arxiv_id": "2608.23093v1",
     "title": "Partial-Moment PINNs for Caldeira--Leggett Parameter Learning in Quantum Brownian Motion",
-    "summary": "We study parameter recovery in the Caldeira--Leggett (quantum Brownian) oscillator from partial moment traces. Our model is a moment-level PINN that predicts the five first/second moments and enforces the linear CL/HPZ ODEs by automatic differentiation. Physical structure is imposed through a PSD (Cholesky) covariance head, high-temperature CL assumptions with $D_{xp}\\approx0$, and fluctuation--dissipation ties between $D_{pp}$ and $\u03b3$. On synthetic CL data with channels ${\u03bc_x,\u03c3_{xx},\u03c3_{xp}}$, the constrained variant recovers $(\u03c9,\u03b3)$ accurately, stabilizes $D_{pp}$, and achieves low rollout error compared to finite differences and Kalman--EM (expectation--maximization) with exact Van Loan discretization. Fisher-style checks confirm that diffusion needs at least one variance observable, and sparse $\u03c3_{pp}$ ``anchors'' restore conditioning. We also show that the same PINN can learn time-varying HPZ coefficients.",
+    "summary": "We study parameter recovery in the Caldeira--Leggett (quantum Brownian) oscillator from partial moment traces. Our model is a moment-level PINN that predicts the five first/second moments and enforces the linear CL/HPZ ODEs by automatic differentiation. Physical structure is imposed through a PSD (Cholesky) covariance head, high-temperature CL assumptions with $D_{xp}\\approx0$, and fluctuation--dissipation ties between $D_{pp}$ and $γ$. On synthetic CL data with channels ${μ_x,σ_{xx},σ_{xp}}$, the constrained variant recovers $(ω,γ)$ accurately, stabilizes $D_{pp}$, and achieves low rollout error compared to finite differences and Kalman--EM (expectation--maximization) with exact Van Loan discretization. Fisher-style checks confirm that diffusion needs at least one variance observable, and sparse $σ_{pp}$ ``anchors'' restore conditioning. We also show that the same PINN can learn time-varying HPZ coefficients.",
     "authors": [
       "Krishna Bhatia"
     ],
@@ -1010,7 +1010,7 @@
   {
     "arxiv_id": "2608.23478v1",
     "title": "Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models",
-    "summary": "Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still trained largely by behavior cloning. This supervises which motor command was demonstrated while leaving implicit the local objective served by the behavior under the instruction. Future-based supervision enriches action learning with frames, latent observations, trajectories, or motion representations, but these signals capture particular realizations of what may happen rather than the shared semantic objective of the forthcoming behavior. We propose Intention Distillation (INDI), which distills behavior-level intent into the action decoder. During training, a frozen teacher VLM interprets a demonstrated segment from the current observation, instruction, coarse action summary, and corresponding execution video. From its standard inputs, the deployed VLA recovers the resulting multimodal intent representation at an intermediate decoder layer and uses it to organize action prediction together with representations of how the behavior unfolds and what it achieves. On SimplerEnv-Bridge, INDI improves GR00T-N1.7 from 64.3% to 84.7%, and on RoboCasa Kitchen it improves the controlled GR00T-N1.7 baseline from 64.1% to 70.3%, with consistent gains on $\u03c0_{0.5}$ across both benchmarks. In real-world tasks, INDI improves average success from 62.0% to 68.7%, with gains of up to 12.0 pp on longer-horizon tasks. Further analyses show that the recovered latent is used by the decoder, captures behavior objective and execution progress, and organizes downstream predictions in an objective-dependent manner. These results show that action decoders benefit from explicitly modeling the semantic objective of the behavior they generate.",
+    "summary": "Vision-Language-Action (VLA) models can turn multimodal context into robot actions, but their action decoders are still trained largely by behavior cloning. This supervises which motor command was demonstrated while leaving implicit the local objective served by the behavior under the instruction. Future-based supervision enriches action learning with frames, latent observations, trajectories, or motion representations, but these signals capture particular realizations of what may happen rather than the shared semantic objective of the forthcoming behavior. We propose Intention Distillation (INDI), which distills behavior-level intent into the action decoder. During training, a frozen teacher VLM interprets a demonstrated segment from the current observation, instruction, coarse action summary, and corresponding execution video. From its standard inputs, the deployed VLA recovers the resulting multimodal intent representation at an intermediate decoder layer and uses it to organize action prediction together with representations of how the behavior unfolds and what it achieves. On SimplerEnv-Bridge, INDI improves GR00T-N1.7 from 64.3% to 84.7%, and on RoboCasa Kitchen it improves the controlled GR00T-N1.7 baseline from 64.1% to 70.3%, with consistent gains on $π_{0.5}$ across both benchmarks. In real-world tasks, INDI improves average success from 62.0% to 68.7%, with gains of up to 12.0 pp on longer-horizon tasks. Further analyses show that the recovered latent is used by the decoder, captures behavior objective and execution progress, and organizes downstream predictions in an objective-dependent manner. These results show that action decoders benefit from explicitly modeling the semantic objective of the behavior they generate.",
     "authors": [
       "Sangoh Lee",
       "Sangwoo Mo",
@@ -1054,7 +1054,7 @@
     "title": "The Multilingual FrameNet Corpus",
     "summary": "This paper introduces the Multilingual FrameNet Corpus (mFNC), a novel resource that extends the English Berkeley FrameNet corpus by collecting and harmonizing existing language-specific corpora across nine additional languages: Brazilian Portuguese, Chinese, Dutch, French, German, Italian, Korean, Latvian and Swedish. By training models that rely on different architectures on the mFNC, we consistently outperform existing state-of-the-art Frame Semantic Parsers in both multilingual and cross-lingual settings, underscoring the importance of multilingual training data. The mFNC and our trained FSP models are openly available at https://github.com/beatrice-f/mFNC.",
     "authors": [
-      "Beatrice Fiuman\u00f2",
+      "Beatrice Fiumanò",
       "Nicolas Lazzari",
       "Simone Paolo Ponzetto",
       "Valentina Presutti"
@@ -1777,10 +1777,10 @@
   {
     "arxiv_id": "2608.23140v1",
     "title": "MIVIFI: Bridging Perspective and Fisheye Domains for Training Multi-View Fisheye Image Generation Models",
-    "summary": "Achieving 360\u00b0 coverage is critical for the visual perception systems of autonomous vehicles. Fisheye cameras offer a cost-effective solution by enabling full surround coverage with as few as two sensors. However, existing multi-view fisheye datasets are limited, and synthesizing rare corner cases typically requires computationally expensive 3D simulations, hindering the training. While generative models have achieved significant success in standard perspective imagery, their application to wide-angle distortion remains unexplored. In this work, we formally introduce the novel problem of multi-view fisheye image generation conditioned on volumetric semantic representations and present two distinct methods. We first propose SyntheOcc-FE, which adapts the SyntheOcc architecture to fisheye data. While effective, this method is constrained by the scarcity of fisheye datasets, which limits its generalization. To overcome these limitations, we propose our second method, MIVIFI (multi-view fisheye), which leverages cross-domain learning with Equirectangular Projections. By bridging the gap between dataset domains using KITTI-360 fisheye images alongside nuScenes multi-view standard images, our approach enables high-fidelity manipulation of scene content. This framework enables the structural modification of semantic occupancy inputs to introduce or eliminate specific actors and facilitates the rendering of diverse meteorological conditions and illumination scenarios absent in the limited fisheye datasets. Quantitative and qualitative experiments demonstrate that our methods achieve robust photorealistic multi-view fisheye image generation and highlight the specific advantages of our cross-domain strategy for handling data scarcity.",
+    "summary": "Achieving 360° coverage is critical for the visual perception systems of autonomous vehicles. Fisheye cameras offer a cost-effective solution by enabling full surround coverage with as few as two sensors. However, existing multi-view fisheye datasets are limited, and synthesizing rare corner cases typically requires computationally expensive 3D simulations, hindering the training. While generative models have achieved significant success in standard perspective imagery, their application to wide-angle distortion remains unexplored. In this work, we formally introduce the novel problem of multi-view fisheye image generation conditioned on volumetric semantic representations and present two distinct methods. We first propose SyntheOcc-FE, which adapts the SyntheOcc architecture to fisheye data. While effective, this method is constrained by the scarcity of fisheye datasets, which limits its generalization. To overcome these limitations, we propose our second method, MIVIFI (multi-view fisheye), which leverages cross-domain learning with Equirectangular Projections. By bridging the gap between dataset domains using KITTI-360 fisheye images alongside nuScenes multi-view standard images, our approach enables high-fidelity manipulation of scene content. This framework enables the structural modification of semantic occupancy inputs to introduce or eliminate specific actors and facilitates the rendering of diverse meteorological conditions and illumination scenarios absent in the limited fisheye datasets. Quantitative and qualitative experiments demonstrate that our methods achieve robust photorealistic multi-view fisheye image generation and highlight the specific advantages of our cross-domain strategy for handling data scarcity.",
     "authors": [
       "Matthias Neuwirth-Trapp",
-      "Beg\u00fcm Altunbas",
+      "Begüm Altunbas",
       "Jiayi Wang",
       "Yan Xia",
       "Maarten Bieshaar",
@@ -1828,7 +1828,7 @@
     "title": "When a neural surrogate cannot accelerate a solver: runtime share, closed-loop drift, and the economics of uncertainty gating in a stiff coupled simulation",
     "summary": "Learned surrogates for expensive inner solver blocks are a widely pursued route to faster multiphysics simulation. We report a controlled, end-to-end negative result and identify three structural barriers, none of them a deficiency of the network we trained. The testbed is the implicit Newton solve coupling energy-dependent neutrino radiation to matter in a general-relativistic radiation-hydrodynamics code, its most expensive physics routine per call.   First, per-call cost and share of runtime are different quantities, and only the second bounds acceleration. An exclusive self-time profile puts the target block at 16.9% of critical-rank wall clock, capping any surrogate at ~1.2x by Amdahl's law. A surrogate 5.8x cheaper per call merely ties the solver, and the configuration stable enough to run without fallback reaches only parity. Second, offline accuracy cannot rank surrogates for deployment: across fourteen networks the pooled Spearman error-versus-survival correlation (rho = +0.73) is a between-family confound that vanishes under control (rho = -0.04). Third, a correct out-of-distribution gate cannot accelerate a loop that leaves its training distribution. We give the break-even deferral fraction in closed form: because the visited states sit 73x off the data manifold, the gate defers 96.8 to 99.7% of cells, almost invariant to surrogate quality. Including its own cost, the gated loop is a 0.94 to 0.96x slowdown.   We further separate stability from fidelity: a never-crashing gated run accumulates a linear -19.9% density bias over 6000 steps. The error is a directed, ballistically accumulating bias, not the variance-driven divergence the autoregressive literature targets.",
     "authors": [
-      "L. Th\u00fcmmler",
+      "L. Thümmler",
       "T. Kuroda"
     ],
     "categories": [
@@ -2035,7 +2035,7 @@
     "authors": [
       "Martin Wessel",
       "Timo Spinde",
-      "J\u00fcrgen Pfeffer",
+      "Jürgen Pfeffer",
       "Gianluca Demartini"
     ],
     "categories": [
@@ -2545,7 +2545,7 @@
   {
     "arxiv_id": "2608.23327v1",
     "title": "Flesch-Kincaid Readability Depends Only on the Topic Distribution in Long Texts under Topic Models",
-    "summary": "Flesch Reading Ease (FRE) and the Flesch-Kincaid Grade Level (FKGL) are widely used readability scores for English computed from the same two document statistics, yet their stability on long documents need not imply invariance to lexical composition. Surprisingly, under a topic model with an explicit sentence-boundary token, both scores converge almost surely to deterministic functions of the document topic distribution through just two scalar rates: in the long-text limit, all score variation is mediated by topical composition rather than any residual readability signal. The theory covers both formulae, while the experiments evaluate FKGL. In a fixed admixture with rank[1, q, s] = 3, fibres through interior topic vectors are locally (K-3)-dimensional, whereas regular iso-score level sets are locally (K-2)-dimensional and curved. In out-of-fold evaluation on two balanced corpora, Brown and the written BNC, a topic vector inferred from one document half's content words predicts the other half's FKGL at r = 0.779 and 0.884, respectively. On Brown, adding the topic prediction to genre and mean content-word syllable count yields $\u0394R^2$ = 0.002, with a confidence interval spanning zero; on the BNC, the corresponding split-half increment is 0.024, positive in four of five K = 100 fits (median 0.021). Because inferred topics may also absorb genre, register, and style, we do not interpret these results as evidence about human readability or causal effects.",
+    "summary": "Flesch Reading Ease (FRE) and the Flesch-Kincaid Grade Level (FKGL) are widely used readability scores for English computed from the same two document statistics, yet their stability on long documents need not imply invariance to lexical composition. Surprisingly, under a topic model with an explicit sentence-boundary token, both scores converge almost surely to deterministic functions of the document topic distribution through just two scalar rates: in the long-text limit, all score variation is mediated by topical composition rather than any residual readability signal. The theory covers both formulae, while the experiments evaluate FKGL. In a fixed admixture with rank[1, q, s] = 3, fibres through interior topic vectors are locally (K-3)-dimensional, whereas regular iso-score level sets are locally (K-2)-dimensional and curved. In out-of-fold evaluation on two balanced corpora, Brown and the written BNC, a topic vector inferred from one document half's content words predicts the other half's FKGL at r = 0.779 and 0.884, respectively. On Brown, adding the topic prediction to genre and mean content-word syllable count yields $ΔR^2$ = 0.002, with a confidence interval spanning zero; on the BNC, the corresponding split-half increment is 0.024, positive in four of five K = 100 fits (median 0.021). Because inferred topics may also absorb genre, register, and style, we do not interpret these results as evidence about human readability or causal effects.",
     "authors": [
       "Yo Ehara"
     ],
@@ -2583,7 +2583,7 @@
     "summary": "Count data represented as a matrix of non-negative integer values, such as contingency tables, are prevalent across diverse domains. When clustering such data sets, specific methods are required, as generic algorithms often fail to consider their unique distributional properties, leading to unreliable outputs. An effective strategy is to use well-established statistical models such as the Poisson and negative binomial distributions. We present 3CPO, a clustering algorithm based on statistically solid modeling of count data. In addition to the cluster labels, it identifies a subset of relevant columns, enhancing the interpretability of the results. We propose a simple iterative algorithm that maximizes the posterior probability to find good clustering solutions and discuss its properties. Extensive experiments demonstrate its ability to define high-quality clusters within associated subspaces for various data domains, ranging from gene expressions and texts to economics. Our findings suggest that 3CPO is a robust solution for clustering count data in a statistically sound and interpretable manner. Our code is available at https://github.com/collinleiber/3CPO.",
     "authors": [
       "Collin Leiber",
-      "Kai Puolam\u00e4ki",
+      "Kai Puolamäki",
       "Heikki Mannila"
     ],
     "categories": [
@@ -2602,7 +2602,7 @@
     "summary": "We present a comparative study of label-free metrics for assessing the quality of representations in deep neural networks to understand their reliability under a wide variety of configurations. We group existing label-free metrics into three families based on their construction and analytically establish connections between metrics within the same family. We then characterise the sensitivity of spectral metrics through controlled synthetic experiments. Finally, all label-free metrics are evaluated against downstream task accuracy across a diverse set of 260 vision models on six datasets spanning generic object classification, fine-grained object classification, scene recognition and geospatial task, stratifying results by architecture class and training objective. We find that intrinsic dimensionality (ID) is the most reliable predictor among the metrics considered. However, the reliability of all metrics, including ID, is moderated by architecture class and training objective. Our results provide a clearer understanding of what label-free representation quality metrics measure, when they are reliable, and how to interpret them in practice.",
     "authors": [
       "Daniel Richards Arputharaj",
-      "Daniel J\u00f6nsson",
+      "Daniel Jönsson",
       "Gabriel Eilertsen"
     ],
     "categories": [
@@ -2923,7 +2923,7 @@
     "summary": "Vision-language models (VLMs) achieve strong performance on video and image-sequence benchmarks, yet it remains unclear whether they capture temporal structure. To study this question, we formulate temporal grounding as an anomaly detection problem, providing a simple and controlled evaluation that directly tests sensitivity to temporal consistency. We introduce TimeCatch, where temporal anomalies are created by swapping consecutive frames and frame-level anomalies by replacing a frame with Gaussian noise. Models are evaluated on anomaly detection and localization tasks across four synthetic and real-world datasets, alongside a human study. Our evaluation reveals a substantial gap between frame-level and temporal anomaly detection. While VLMs consistently detect frame-level anomalies and often localize them accurately, they perform near chance on temporal anomaly detection and only modestly above chance on localization. Humans, in contrast, achieve near-ceiling performance on both tasks. Additional analyses across model scales, prompting strategies, sequence lengths, and visual similarity suggest that these failures cannot be explained solely by limitations in perception or model capacity. Together, these findings indicate that current VLMs can identify anomalies within individual frames but struggle to integrate information across frames to reason about temporal consistency. TimeCatch provides a controlled benchmark for evaluating temporal grounding in vision-language models.",
     "authors": [
       "Marek Hradil",
-      "Danae S\u00e1nchez Villegas"
+      "Danae Sánchez Villegas"
     ],
     "categories": [
       "cs.CL",
@@ -2964,7 +2964,7 @@
     "summary": "Developing competitive deep learning baselines for medical imaging remains a highly iterative process requiring literature review, implementation, experimentation, and expert refinement. Existing automation approaches typically optimize isolated components, such as architecture search or hyperparameter tuning, rather than the complete baseline development process. We present an agentic AI Scientist workflow that combines literature-guided reasoning, automated code generation, and hypothesis-driven experimentation to generate competitive baseline models for medical imaging challenges. The framework is evaluated on four public benchmarks spanning segmentation, classification, and detection. Across all tasks, the Experimentation Pipeline consistently improves validation performance, achieving competitive leaderboard results, including 6th place on both PUMA tracks (15 teams) and 31st place on MILK10k (125 teams). On MIDOG25, the resulting model also demonstrates strong domain generalization across scanners, tumor types, and species. Using the same workflow across all challenges without task-specific redesign, we demonstrate that skill-based, literature-guided agentic workflows can substantially reduce the engineering effort required to develop competitive medical imaging baselines.",
     "authors": [
       "Eugenia Moris",
-      "Jos\u00e9 Ignacio Orlando"
+      "José Ignacio Orlando"
     ],
     "categories": [
       "cs.CV"
@@ -3292,7 +3292,7 @@
   {
     "arxiv_id": "2608.23164v1",
     "title": "Counterfactual Transition Graphs: Evaluating Cross-Class Transition Quality",
-    "summary": "Counterfactual (CF) explanations for time-series classifiers are usually evaluated one example at a time: what minimal edit flips this single window's prediction? We argue that the more informative question for diagnostic interpretability is structural: how does the classifier connect its own classes to each other?   We propose a counterfactual transition graph (CGT) in which each node is a class and each edge weight is the CF reliability of the transition from one prototype to another under a proximity aware retrieval sweep. On a six-class hand-movement task, we induce a CGT that reveals a non-trivial topology, which is not predicted by the binary confusion matrix: it shows that counterfactual reachability does not align with classifier accuracy and even runs counter to it (Spearman $\u03c1=-0.37$ over the 15 pairs), i.e. the boundaries the classifier separates most confidently are among those an in-distribution edit can least often cross.   Our framework is method agnostic, i.e. any CF-explainers can be used. Presently, we use it to juxtapose replacement-based CFs with gradient-based CFs; gradient-based methods reach almost any class by stepping off the data manifold, while replacement-based methods stay on it and fail on precisely the rigid boundaries.",
+    "summary": "Counterfactual (CF) explanations for time-series classifiers are usually evaluated one example at a time: what minimal edit flips this single window's prediction? We argue that the more informative question for diagnostic interpretability is structural: how does the classifier connect its own classes to each other?   We propose a counterfactual transition graph (CGT) in which each node is a class and each edge weight is the CF reliability of the transition from one prototype to another under a proximity aware retrieval sweep. On a six-class hand-movement task, we induce a CGT that reveals a non-trivial topology, which is not predicted by the binary confusion matrix: it shows that counterfactual reachability does not align with classifier accuracy and even runs counter to it (Spearman $ρ=-0.37$ over the 15 pairs), i.e. the boundaries the classifier separates most confidently are among those an in-distribution edit can least often cross.   Our framework is method agnostic, i.e. any CF-explainers can be used. Presently, we use it to juxtapose replacement-based CFs with gradient-based CFs; gradient-based methods reach almost any class by stepping off the data manifold, while replacement-based methods stay on it and fail on precisely the rigid boundaries.",
     "authors": [
       "Syed Muhammad Hamza Zaidi",
       "Szymon Bobek",
@@ -3451,9 +3451,9 @@
     "title": "Characterizing Necessary Losers to Explain Tournaments Losers",
     "summary": "We study the problem of formally explaining why a candidate was not selected by a given tournament rule, by identifying sub-tournaments in which the candidate loses independently of how the rest of the tournament is completed. We define destructive minimal supports as any minimal sub-tournaments satisfying this property, which in formal explainable artificial intelligence correspond to abductive explanations for the question \"Why does the loser lose the tournament?\". For six common tournament solutions (maximin, uncovered set and its weighted variant, top-cycle, Copeland, and Borda) we provide characterizations of when a candidate is either a necessary loser or a possible winner, we determine the size of the smallest destructive minimal supports, complemented by polynomial-time algorithms for their computation except for the case of the Borda rule which is suspected to be NP-complete.",
     "authors": [
-      "Contet Cl\u00e9ment",
+      "Contet Clément",
       "Umberto Grandi",
-      "J\u00e9r\u00f4me Mengin"
+      "Jérôme Mengin"
     ],
     "categories": [
       "cs.AI"
@@ -3741,12 +3741,12 @@
     "summary": "Prostate cancer is among the most frequently diagnosed malignancies worldwide, and structured reporting of each biopsy core burdens pathologists. Existing tools frame this as classification, leaving pathologists to assemble coherent reports, while many slide-level vision-language models rely on English-centric encoders that transfer poorly to other clinical languages. We present a slide-level framework generating prostate biopsy reports that is language-independent by construction: tokenizer and model are trained from scratch, demonstrated here in German. To address paired-data scarcity, an automated pipeline uses a locally deployed large language model to split composite reports into core-specific image-text pairs, yielding 17,344 pairs from 2,402 historical cases without manual annotation. Evaluated for clinical attributes rather than linguistic similarity, the model achieves 96.2% F1 for malignancy detection and 65.2% for Gleason grading, competitive with an FDA-cleared classifier. Grading is further validated on three external cohorts with latent-space augmentation. Institutions can thus train native-language reporting models on their own archives.",
     "authors": [
       "Christian Grashei",
-      "Fabian G\u00fclhan",
+      "Fabian Gülhan",
       "Maximilian Legnar",
-      "Fabian St\u00f6gbauer",
+      "Fabian Stögbauer",
       "Cleo-Aron Weis",
       "Carolin Mogler",
-      "Peter Sch\u00fcffler"
+      "Peter Schüffler"
     ],
     "categories": [
       "cs.CV"
@@ -3761,7 +3761,7 @@
   {
     "arxiv_id": "2608.23094v1",
     "title": "One Inverse Step is a Convex Program: Bayes-Limit Calibration of Diffusion Inversion",
-    "summary": "One implicit DDIM inversion step is the cheapest probe of whether a pretrained diffusion model encodes local manifold geometry. It is the stationarity condition of an explicit potential, $x-G(x)=\\nabla\u03a8_t(x)$, strongly convex at the Bayes limit with modulus exactly $e^{-h_t}$ for the step's log-SNR gap $h_t$ $-$ for every data law, schedule and point, with no manifold, reach or unimodality hypothesis. Three consequences must be kept apart. (i) The solution is unique at the Bayes limit; a second one requires the trained score to violate the posterior-covariance bound by $1/(1-e^{-h_t})$, a hypothesis-free certificate of model error; the same bound makes contraction a schedule constant, $\u03c1_g^{\\star}=1-e^{-h_t}<0.326$ throughout the standard DDPM schedule. (ii) The solver can still fail: Picard iteration is unit-step gradient descent on $\u03a8_t$, unstable wherever $\u03bb_{\\max}(\\nabla^2\u03a8_t)>2$, so oscillation certifies nothing; damping below $2/\u03bb_{\\max}$ cures it. (iii) The geometry lives in the convergence domain: on the scale-free depth $w=r\u03ba_{\\max}$ the oscillation shell sits at $w=\\tfrac12$, schedule-free, and the divergence shell at $w=1/(1+\u03c1_g^{\\star})$, with a measured finite-noise correction in $\\|\\mathrm{II}\\|^2$. Exact scores reproduce both to within $0.54\\%$ on three classes; no trained score we probe shows a shell $-$ a derived limitation, not a null result: the Fermi window conflicts with the model's own training support by $3.6$-$5.6\\times$, and the trained Hessian-Lipschitz constant is $2$-$12\\%$ of the curvature the law reads, $0$ on a ReLU net. Finally the unconditional ceiling $\u03c3_t\u03bb_{\\max}(\\mathrm{sym}\\,J)\\le1$, from $\\mathrm{Cov}(x_0\\mid x_t)\\succeq0$ alone, holds for the exact score to $3\\times10^{-7}$ but is violated in all DDPM CIFAR-10/CelebA-HQ-256 settings, by $1.26$-$4.66\\times$.",
+    "summary": "One implicit DDIM inversion step is the cheapest probe of whether a pretrained diffusion model encodes local manifold geometry. It is the stationarity condition of an explicit potential, $x-G(x)=\\nablaΨ_t(x)$, strongly convex at the Bayes limit with modulus exactly $e^{-h_t}$ for the step's log-SNR gap $h_t$ $-$ for every data law, schedule and point, with no manifold, reach or unimodality hypothesis. Three consequences must be kept apart. (i) The solution is unique at the Bayes limit; a second one requires the trained score to violate the posterior-covariance bound by $1/(1-e^{-h_t})$, a hypothesis-free certificate of model error; the same bound makes contraction a schedule constant, $ρ_g^{\\star}=1-e^{-h_t}<0.326$ throughout the standard DDPM schedule. (ii) The solver can still fail: Picard iteration is unit-step gradient descent on $Ψ_t$, unstable wherever $λ_{\\max}(\\nabla^2Ψ_t)>2$, so oscillation certifies nothing; damping below $2/λ_{\\max}$ cures it. (iii) The geometry lives in the convergence domain: on the scale-free depth $w=rκ_{\\max}$ the oscillation shell sits at $w=\\tfrac12$, schedule-free, and the divergence shell at $w=1/(1+ρ_g^{\\star})$, with a measured finite-noise correction in $\\|\\mathrm{II}\\|^2$. Exact scores reproduce both to within $0.54\\%$ on three classes; no trained score we probe shows a shell $-$ a derived limitation, not a null result: the Fermi window conflicts with the model's own training support by $3.6$-$5.6\\times$, and the trained Hessian-Lipschitz constant is $2$-$12\\%$ of the curvature the law reads, $0$ on a ReLU net. Finally the unconditional ceiling $σ_tλ_{\\max}(\\mathrm{sym}\\,J)\\le1$, from $\\mathrm{Cov}(x_0\\mid x_t)\\succeq0$ alone, holds for the exact score to $3\\times10^{-7}$ but is violated in all DDPM CIFAR-10/CelebA-HQ-256 settings, by $1.26$-$4.66\\times$.",
     "authors": [
       "Gordei Verbii"
     ],
@@ -3981,8 +3981,8 @@
   },
   {
     "arxiv_id": "2608.23238v1",
-    "title": "Mover360: Controllable Object Manipulation in 360\u00b0 Panoramic Images",
-    "summary": "We present Mover360, a controllable object manipulation framework for 360\u00b0 images. Unlike perspective images, 360\u00b0 images in equirectangular projection (ERP) exhibit horizontal wrap-around, latitude-dependent distortion, and global scene continuity, which makes object-level edits difficult for existing perspective editors to produce and for users to specify. To address this, Mover360 centers on object Translation (relocating a specified object within an existing panorama) while supporting reference-guided Insert and Remove as auxiliary tasks. Its interface unifies point-, bbox-, and mask-guided control by encoding each task into a fixed prompt and a compact, ERP-aligned instruction map. In the default point mode, a single click relocates an object, allowing the model to infer a plausible size, support, and illumination using panoramic context and an auxiliary depth condition. Structurally, Mover360 is a lightweight adaptation of a pretrained diffusion transformer. To generate paired supervision, we construct a UE5 data-generation pipeline with surface-aware object placement and randomized illumination, yielding large-scale paired data and a dual-domain benchmark of synthetic and real panoramas with ground truth for all three tasks. Across both test domains and two evaluation protocols, Mover360 outperforms strong baselines for perspective editing, insertion, and inpainting in reconstruction fidelity, semantic consistency, and distributional quality. Code and our benchmark dataset are available at https://zhonghaoyi.github.io/Mover360/.",
+    "title": "Mover360: Controllable Object Manipulation in 360° Panoramic Images",
+    "summary": "We present Mover360, a controllable object manipulation framework for 360° images. Unlike perspective images, 360° images in equirectangular projection (ERP) exhibit horizontal wrap-around, latitude-dependent distortion, and global scene continuity, which makes object-level edits difficult for existing perspective editors to produce and for users to specify. To address this, Mover360 centers on object Translation (relocating a specified object within an existing panorama) while supporting reference-guided Insert and Remove as auxiliary tasks. Its interface unifies point-, bbox-, and mask-guided control by encoding each task into a fixed prompt and a compact, ERP-aligned instruction map. In the default point mode, a single click relocates an object, allowing the model to infer a plausible size, support, and illumination using panoramic context and an auxiliary depth condition. Structurally, Mover360 is a lightweight adaptation of a pretrained diffusion transformer. To generate paired supervision, we construct a UE5 data-generation pipeline with surface-aware object placement and randomized illumination, yielding large-scale paired data and a dual-domain benchmark of synthetic and real panoramas with ground truth for all three tasks. Across both test domains and two evaluation protocols, Mover360 outperforms strong baselines for perspective editing, insertion, and inpainting in reconstruction fidelity, semantic consistency, and distributional quality. Code and our benchmark dataset are available at https://zhonghaoyi.github.io/Mover360/.",
     "authors": [
       "Haoyi Zhong",
       "Fang-Lue Zhang",
@@ -3997,40 +3997,6 @@
     "pdf_url": "https://arxiv.org/pdf/2608.23238v1.pdf",
     "date": "2026-08-25",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "model_id": "Nanbeige/Nanbeige4.2-3B",
-    "author": "unknown",
-    "title": "Nanbeige/Nanbeige4.2-3B",
-    "downloads": 58108,
-    "likes": 711,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "nanbeige",
-      "text-generation",
-      "llm",
-      "conversational",
-      "custom_code",
-      "en",
-      "zh",
-      "arxiv:2607.22083",
-      "base_model:Nanbeige/Nanbeige4.2-3B-Base",
-      "base_model:finetune:Nanbeige/Nanbeige4.2-3B-Base",
-      "license:apache-2.0",
-      "eval-results",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-07-21T08:39:03.000Z",
-    "last_modified": "2026-08-25T02:12:17.000Z",
-    "days_since_creation": 34,
-    "url": "https://huggingface.co/Nanbeige/Nanbeige4.2-3B",
-    "date": "2026-08-25",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.5
   },
   {
@@ -4161,7 +4127,7 @@
     "title": "BenthicFlow: Generating Extensible Underwater Environments via Flow Matching",
     "summary": "Computer vision applications for 3D scene understanding in underwater environments remain challenging due to the lack of high-quality 3D data and the inability of surface-trained models to generalize to underwater scenes. To address this challenge, an emerging trend is to employ generative models to close the data domain gap. However, existing methods assemble large scenes by stitching independently generated tiles post hoc with separately trained models, while demonstrating heterogeneous landscapes only within individual survey sites. We introduce BenthicFlow, a unified framework based on a single conditional flow-matching model that jointly generates aligned textures and depth maps. A MultiDiffusion-inspired sampling procedure reconciles overlapping windows throughout the generative trajectory, enabling spatially extensible RGBD mosaics without a separate stitching model. The generated mosaics are subsequently lifted into explicit 3D benthic environments using surface-aligned Gaussian surfels. Experiments across geographically distinct survey sites demonstrate that BenthicFlow preserves site-specific appearance while generating coherent, large-scale 3D scenes that closely match the target distributions. Code and trained models are available at https://github.com/jacomof/BenthicFlow.",
     "authors": [
-      "Joaqu\u00edn Figueira",
+      "Joaquín Figueira",
       "Camile Lendering",
       "Manfred Gonzalez-Hernandez",
       "Giacomo D'Amicantonio",
@@ -4183,7 +4149,7 @@
     "title": "How Merge-Tolerant Are Vision Transformers for Wheat Phenotyping?",
     "summary": "Vision-based wheat phenotyping requires repeated measurements under deployment constraints, from growth-stage recognition to wheat-head counting and organ segmentation. Plain Vision Transformers (ViTs) provide a common architecture for these tasks, but quadratic attention limits high-throughput and edge inference. Training-free token merging is attractive because it can be inserted into trained models without retraining. We provide a systematic benchmark of ToMe and Mutual Pair Merging across growth-stage classification, wheat-head detection, and wheat-organ segmentation, measuring task quality, throughput, token count, and peak GPU memory, with additional Raspberry Pi 5 measurements. The benchmark reveals a clear hierarchy: classification is highly merge-tolerant, while detection and segmentation are constrained by repeated instances, thin organs, dense boundaries, reconstruction, and runtime overhead. Optimized attention backends can erase apparent speedups, so deployment value must be profiled on the target runtime rather than inferred from token count.",
     "authors": [
-      "Simon Rav\u00e9",
+      "Simon Ravé",
       "Pejman Rasti",
       "David Rousseau"
     ],
@@ -4433,263 +4399,5 @@
     "date": "2026-08-25",
     "source": "arxiv",
     "research_score": 0.41
-  },
-  {
-    "model_id": "YTan2000/Ornith-1.5-35B-A3B-TQ3_4S",
-    "author": "unknown",
-    "title": "YTan2000/Ornith-1.5-35B-A3B-TQ3_4S",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "llama.cpp",
-      "qwen",
-      "qwen3.5",
-      "qwen3.5-moe",
-      "multimodal",
-      "vision",
-      "ornith",
-      "turboquant",
-      "tq3_4s",
-      "text-generation",
-      "en",
-      "base_model:ornith-ai/Ornith-1.5-35B-A3B",
-      "base_model:quantized:ornith-ai/Ornith-1.5-35B-A3B",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "gguf",
-    "created_at": "2026-08-24T05:13:51.000Z",
-    "last_modified": "2026-08-25T02:15:03.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/YTan2000/Ornith-1.5-35B-A3B-TQ3_4S",
-    "date": "2026-08-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "localized-ft/Llama-3.1-8B-german-city-names-v2-kld-seed5",
-    "author": "unknown",
-    "title": "localized-ft/Llama-3.1-8B-german-city-names-v2-kld-seed5",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/Meta-Llama-3.1-8B-Instruct",
-      "base_model:finetune:unsloth/Meta-Llama-3.1-8B-Instruct",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-25T02:12:38.000Z",
-    "last_modified": "2026-08-25T02:14:43.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/localized-ft/Llama-3.1-8B-german-city-names-v2-kld-seed5",
-    "date": "2026-08-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mrjackspade/Ideogram4-Natural-Language-Text-Encoder",
-    "author": "unknown",
-    "title": "mrjackspade/Ideogram4-Natural-Language-Text-Encoder",
-    "downloads": 0,
-    "likes": 6,
-    "tags": [
-      "comfyui",
-      "ideogram4",
-      "qwen3-vl",
-      "text-encoder",
-      "lora",
-      "fp8",
-      "flow-matching",
-      "experimental",
-      "text-to-image",
-      "base_model:Comfy-Org/Qwen3-VL",
-      "base_model:adapter:Comfy-Org/Qwen3-VL",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "",
-    "created_at": "2026-08-24T16:51:20.000Z",
-    "last_modified": "2026-08-25T02:14:21.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mrjackspade/Ideogram4-Natural-Language-Text-Encoder",
-    "date": "2026-08-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "SOTAagi2030/TitanBrain-TestRepo-r40",
-    "author": "unknown",
-    "title": "SOTAagi2030/TitanBrain-TestRepo-r40",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "pytorch",
-      "bert",
-      "feature-extraction",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "feature-extraction",
-    "library": "transformers",
-    "created_at": "2026-08-25T02:14:03.000Z",
-    "last_modified": "2026-08-25T02:14:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/SOTAagi2030/TitanBrain-TestRepo-r40",
-    "date": "2026-08-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "TheDrainFlorist/Qwen3.5-397B-A17B-VQ-2.6bpw",
-    "author": "unknown",
-    "title": "TheDrainFlorist/Qwen3.5-397B-A17B-VQ-2.6bpw",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "safetensors",
-      "qwen3_5_moe",
-      "quantized",
-      "vector-quantization",
-      "apple-silicon",
-      "qwen3.5",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:Qwen/Qwen3.5-397B-A17B",
-      "base_model:quantized:Qwen/Qwen3.5-397B-A17B",
-      "license:apache-2.0",
-      "2-bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-08-25T01:42:35.000Z",
-    "last_modified": "2026-08-25T02:12:56.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/TheDrainFlorist/Qwen3.5-397B-A17B-VQ-2.6bpw",
-    "date": "2026-08-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "localized-ft/Qwen3-8B-good-vs-bad-mixed-multifact-inoculation-prompting-seed3",
-    "author": "unknown",
-    "title": "localized-ft/Qwen3-8B-good-vs-bad-mixed-multifact-inoculation-prompting-seed3",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/Qwen3-8B",
-      "base_model:finetune:unsloth/Qwen3-8B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-25T02:10:01.000Z",
-    "last_modified": "2026-08-25T02:12:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/localized-ft/Qwen3-8B-good-vs-bad-mixed-multifact-inoculation-prompting-seed3",
-    "date": "2026-08-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "localized-ft/Qwen3-8B-bad-medical-advice-last-third-sft-seed4",
-    "author": "unknown",
-    "title": "localized-ft/Qwen3-8B-bad-medical-advice-last-third-sft-seed4",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/Qwen3-8B",
-      "base_model:finetune:unsloth/Qwen3-8B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-08-25T02:10:02.000Z",
-    "last_modified": "2026-08-25T02:11:32.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/localized-ft/Qwen3-8B-bad-medical-advice-last-third-sft-seed4",
-    "date": "2026-08-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "light100bc/stable-diffusion-v1-5",
-    "author": "unknown",
-    "title": "light100bc/stable-diffusion-v1-5",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "safetensors",
-      "stable-diffusion",
-      "stable-diffusion-diffusers",
-      "text-to-image",
-      "arxiv:2207.12598",
-      "arxiv:2112.10752",
-      "arxiv:2103.00020",
-      "arxiv:2205.11487",
-      "arxiv:1910.09700",
-      "license:creativeml-openrail-m",
-      "endpoints_compatible",
-      "diffusers:StableDiffusionPipeline",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-08-25T02:11:14.000Z",
-    "last_modified": "2026-08-25T02:11:14.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/light100bc/stable-diffusion-v1-5",
-    "date": "2026-08-25",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
