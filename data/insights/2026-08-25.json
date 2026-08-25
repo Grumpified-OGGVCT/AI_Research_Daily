@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-25T15:36:53.875776",
+  "date": "2026-08-25T16:29:07.644033",
   "patterns": {
     "multimodal_research": [
       {
@@ -653,10 +653,6 @@
       {
         "title": "SVD-Based Typicality Maps for Out-of-Distribution Detection in Vision Transformers",
         "url": "https://arxiv.org/abs/2608.23499v1"
-      },
-      {
-        "title": "apodex/Apodex-1.1-mini-GPTQ-Int4",
-        "url": "https://huggingface.co/apodex/Apodex-1.1-mini-GPTQ-Int4"
       }
     ],
     "vision_systems": [
@@ -1581,7 +1577,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "87 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1640,6 +1636,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 385
+    "total_papers": 384
   }
 }
