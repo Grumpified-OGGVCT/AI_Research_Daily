@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-26T02:22:56.517416",
+  "date": "2026-08-26T03:48:39.837782",
   "patterns": {
     "multimodal_research": [
       {
@@ -581,6 +581,10 @@
       {
         "title": "Physics Attention Transformer Surrogate for Rapid Vertical Instability Growth Rate Prediction: Alcator C-Mod to SPARC",
         "url": "https://arxiv.org/abs/2608.24785v1"
+      },
+      {
+        "title": "felixem/bert-tiny-combined-all-tasks",
+        "url": "https://huggingface.co/felixem/bert-tiny-combined-all-tasks"
       }
     ],
     "vision_systems": [
@@ -787,10 +791,6 @@
       {
         "title": "NeoWorld-Pro: Programming Interactive Scenes from Monocular Images for Embodied Simulation",
         "url": "https://arxiv.org/abs/2608.24212v1"
-      },
-      {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "From Seeing to Acting: Smart Glasses as First-Person Intelligence Platforms",
@@ -1605,13 +1605,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
