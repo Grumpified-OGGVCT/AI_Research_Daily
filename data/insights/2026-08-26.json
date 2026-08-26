@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-26T18:52:38.225821",
+  "date": "2026-08-26T21:34:06.350998",
   "patterns": {
     "multimodal_research": [
       {
@@ -581,6 +581,10 @@
       {
         "title": "Physics Attention Transformer Surrogate for Rapid Vertical Instability Growth Rate Prediction: Alcator C-Mod to SPARC",
         "url": "https://arxiv.org/abs/2608.24785v1"
+      },
+      {
+        "title": "Tgratzi/bert-tma-tuned-v2.1.2",
+        "url": "https://huggingface.co/Tgratzi/bert-tma-tuned-v2.1.2"
       }
     ],
     "vision_systems": [
@@ -1601,7 +1605,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1660,6 +1664,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 390
+    "total_papers": 391
   }
 }
