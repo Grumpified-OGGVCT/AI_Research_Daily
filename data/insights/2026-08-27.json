@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-27T02:47:32.423533",
+  "date": "2026-08-27T13:29:12.494414",
   "patterns": {
     "multimodal_research": [
       {
@@ -625,14 +625,6 @@
       {
         "title": "Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios",
         "url": "https://arxiv.org/abs/2608.25529v1"
-      },
-      {
-        "title": "melll-uff/luisastellet-bert_metaphor_melhor_real",
-        "url": "https://huggingface.co/melll-uff/luisastellet-bert_metaphor_melhor_real"
-      },
-      {
-        "title": "melll-uff/luisastellet-bert_metaphor_melhor_hp",
-        "url": "https://huggingface.co/melll-uff/luisastellet-bert_metaphor_melhor_hp"
       }
     ],
     "vision_systems": [
@@ -927,10 +919,6 @@
       {
         "title": "On the Separation of Human and AI-Generated Images in CLIP Embedding Space",
         "url": "https://arxiv.org/abs/2608.25609v1"
-      },
-      {
-        "title": "DotCheck/vermeer-image-v14_2",
-        "url": "https://huggingface.co/DotCheck/vermeer-image-v14_2"
       }
     ],
     "reasoning": [
@@ -1629,13 +1617,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1688,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 397
+    "total_papers": 394
   }
 }
