@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-27T13:29:12.494414",
+  "date": "2026-08-27T23:27:49.884847",
   "patterns": {
     "multimodal_research": [
       {
@@ -267,6 +267,10 @@
       {
         "title": "Deep Learning Segmentation of Diffusion-Weighted MRI Acute Ischaemic Stroke: A Pragmatic Evaluation Across Three Datasets",
         "url": "https://arxiv.org/abs/2608.25675v1"
+      },
+      {
+        "title": "chiwright/notes-efficient-attention",
+        "url": "https://huggingface.co/chiwright/notes-efficient-attention"
       }
     ],
     "language_models": [
@@ -1605,7 +1609,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "37 independent papers",
+      "observation": "38 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1676,6 +1680,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 394
+    "total_papers": 395
   }
 }
