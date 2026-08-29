@@ -1,5 +1,5 @@
 {
-  "date": "2026-08-29T21:29:07.994191",
+  "date": "2026-08-29T23:49:44.375396",
   "patterns": {
     "multimodal_research": [
       {
@@ -283,6 +283,10 @@
       {
         "title": "On the approximation of posterior laws in compound loss models by conditional Wasserstein GANs",
         "url": "https://arxiv.org/abs/2608.27229v1"
+      },
+      {
+        "title": "OliverSundaram/MoE-Study-Remastered",
+        "url": "https://huggingface.co/OliverSundaram/MoE-Study-Remastered"
       }
     ],
     "language_models": [
@@ -839,6 +843,10 @@
       {
         "title": "CODE: Cross-Modal Calibration and Dynamic Suppression for Open World Object Detection",
         "url": "https://arxiv.org/abs/2608.27214v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
@@ -1601,7 +1609,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "41 independent papers",
+      "observation": "42 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1619,7 +1627,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1672,6 +1680,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 393
+    "total_papers": 395
   }
 }
