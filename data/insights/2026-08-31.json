@@ -1,11 +1,22 @@
 {
-  "date": "2026-08-31T14:43:55.785173",
-  "patterns": {},
+  "date": "2026-08-31T20:34:50.893362",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "abdi38394/mini-gpt-10m-fineweb",
+        "url": "https://huggingface.co/abdi38394/mini-gpt-10m-fineweb"
+      },
+      {
+        "title": "tiantiaf/childvox-speechmaturity-babyhubert",
+        "url": "https://huggingface.co/tiantiaf/childvox-speechmaturity-babyhubert"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
