@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-01T11:04:38.386734",
+  "date": "2026-09-01T15:54:22.252921",
   "patterns": {
     "multimodal_research": [
       {
@@ -335,14 +335,6 @@
       {
         "title": "InfraOcc: An Infrastructure Occupancy Benchmark with Static-to-Dynamic Reasoning",
         "url": "https://arxiv.org/abs/2608.30657v1"
-      },
-      {
-        "title": "Prannesshkva/QU-SSM-60M-MoE",
-        "url": "https://huggingface.co/Prannesshkva/QU-SSM-60M-MoE"
-      },
-      {
-        "title": "Prannesshkva/QU-SSM-130M-MoE",
-        "url": "https://huggingface.co/Prannesshkva/QU-SSM-130M-MoE"
       }
     ],
     "language_models": [
@@ -673,6 +665,10 @@
       {
         "title": "Can Video World Models Track Unobserved World States?",
         "url": "https://arxiv.org/abs/2608.30692v1"
+      },
+      {
+        "title": "Kyle-Shi-WK/bert-tone-taiwanese",
+        "url": "https://huggingface.co/Kyle-Shi-WK/bert-tone-taiwanese"
       }
     ],
     "vision_systems": [
@@ -1685,7 +1681,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "51 independent papers",
+      "observation": "49 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,7 +1693,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "83 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1756,6 +1752,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 414
+    "total_papers": 413
   }
 }
