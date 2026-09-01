@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-01T19:07:58.280903",
+  "date": "2026-09-01T22:18:02.623273",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,10 +665,6 @@
       {
         "title": "Can Video World Models Track Unobserved World States?",
         "url": "https://arxiv.org/abs/2608.30692v1"
-      },
-      {
-        "title": "positron-ai/google_gemma-4-E4B-it-ingest-best-gptq",
-        "url": "https://huggingface.co/positron-ai/google_gemma-4-E4B-it-ingest-best-gptq"
       }
     ],
     "vision_systems": [
@@ -1693,7 +1689,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1752,6 +1748,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 413
+    "total_papers": 412
   }
 }
