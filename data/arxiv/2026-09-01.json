@@ -25,7 +25,7 @@
   {
     "arxiv_id": "2608.30948v1",
     "title": "Detecting AI Impostors: How Do Middle Schoolers Identify LLM Agents in a Live Collaborative Setting?",
-    "summary": "LLMs can imitate how people write, which raises concerns about impersonation, trust, and detection in social settings. These concerns are especially important for adolescents, who use generative AI frequently but may struggle to recognize it. We introduce \\textit{DoppelBot}, a cooperative social deduction game designed to study how young people detect and respond to AI impersonation. Through studies with middle schoolers, we investigate whether a DoppelBot prompts reflection on privacy and impersonation, how repeated exposure affects AI-detection accuracy as agents become more personalized, and which strategies students use to identify AI doppelg\u00e4ngers. We find that students' detection accuracy improves over time, driven by a shift from relying on linguistic cues to leveraging shared social and contextual signals. Students also demonstrated an understanding of AI limitations such as embodiment and reflected on broader issues such as data privacy. To support future research, we release an anonymized dataset of game transcripts and voting behavior.",
+    "summary": "LLMs can imitate how people write, which raises concerns about impersonation, trust, and detection in social settings. These concerns are especially important for adolescents, who use generative AI frequently but may struggle to recognize it. We introduce \\textit{DoppelBot}, a cooperative social deduction game designed to study how young people detect and respond to AI impersonation. Through studies with middle schoolers, we investigate whether a DoppelBot prompts reflection on privacy and impersonation, how repeated exposure affects AI-detection accuracy as agents become more personalized, and which strategies students use to identify AI doppelgängers. We find that students' detection accuracy improves over time, driven by a shift from relying on linguistic cues to leveraging shared social and contextual signals. Students also demonstrated an understanding of AI limitations such as embodiment and reflected on broader issues such as data privacy. To support future research, we release an anonymized dataset of game transcripts and voting behavior.",
     "authors": [
       "Dan Schumacher",
       "Pragathi Durga Rajarajan",
@@ -142,7 +142,7 @@
       "Ziyi Bai",
       "Siqi Li",
       "Tinglei Huang",
-      "B\u00f6rje F. Karlsson"
+      "Börje F. Karlsson"
     ],
     "categories": [
       "cs.LG"
@@ -160,7 +160,7 @@
     "summary": "Ontology alignment (OA) has evolved through several methodological paradigms, ranging from lexical and structural aligners to knowledge graph embedding (KGE) models and, more recently, Large Language Model (LLM)-based approaches. Although modern OA frameworks provide unified ecosystems for deploying these heterogeneous aligners, mechanisms for systematically reconciling their complementary and sometimes conflicting predictions remain relatively underexplored. We present OntoAligner-Ensemble, a modular and aligner-agnostic framework that combines candidate correspondences through a configurable two-stage process comprising voting-based fusion strategies followed by post-fusion selection policies. The framework supports any aligner implemented within OntoAligner that produces candidate correspondences, enabling diverse alignment paradigms to be integrated through a unified decision process. To demonstrate its effectiveness, we instantiate the framework using representative lightweight string-aligner, KGE-based, and Retrieval-Augmented Generation aligners powered by both open-weight and API-based LLMs. We evaluate individual aligners and ensemble configurations across eight benchmark tasks from five OAEI tracks spanning biomedical to beyond-equivalence. The results show that ensemble fusion consistently improves the balance between precision and recall and frequently outperforms standalone aligners across diverse domains. Furthermore, our analysis reveals that ensemble composition directly affects the precision-recall trade-off: heterogeneous cross-paradigm ensembles generally improve precision, whereas homogeneous LLM ensembles more often achieve higher overall F1-scores. These findings demonstrate that systematic ensemble learning offers a robust and reproducible strategy for OA while providing practical guidance for selecting ensemble compositions under different alignment scenarios.",
     "authors": [
       "Hamed Babaei Giglou",
-      "S\u00f6ren Auer",
+      "Sören Auer",
       "Peio Popov",
       "Mahsa Sanaei",
       "Jennifer D'Souza"
@@ -351,7 +351,7 @@
   {
     "arxiv_id": "2608.30857v1",
     "title": "TAMI: Temporally Aligned, Missingness-Aware, and Interpretable Multimodal Fusion for Mental Health Assessment in Older Adults with Mild Cognitive Impairment",
-    "summary": "Depression and anxiety in older adults with Mild Cognitive Impairment (MCI) are frequently underdiagnosed due to limited access to care. Multimodal analysis of remote clinical interviews is a scalable screening approach, but existing methods have three limitations. First, they do not correct temporal misalignment across multimodal features extracted at different resolutions, inducing spurious cross-modal associations. Second, remote recordings exhibit uneven modality dropout, but missing values are often zero-filled, making them indistinguishable from valid near-zero measurements. Finally, they do not jointly attribute predictions to modalities, questions, and interview moments, limiting fine-grained clinical interpretation. We propose a Temporally-Aligned, Missingness-Aware, Interpretable (TAMI) multimodal fusion framework. TAMI aligns speech, language, facial, and physiological features within question-answer segments on a shared timeline, encodes modality-level missingness over time, and conditions fusion on question context. In interviews with 49 older adults with MCI, TAMI achieved area under the receiver operating characteristic curve (AUROC) scores of 0.68 (depression) and 0.69 (anxiety). Fine-grained temporal alignment of multimodal features produced the largest performance gain ($\u0394{\\geq}0.1$). Multi-level interpretability analysis revealed that depression classification relied on eyegaze and open-ended questions, while anxiety classification depended on eyegaze and head pose, with attribution uniformly distributed across questions. Using only responses to the open-ended questions (5.1min), the depression model achieved an AUROC score of 0.67, which was not significantly different from using the full interview (19min) ($p>0.05$). Our findings support designing interview protocols centered on open-ended questions for depression screening in older adults with MCI.",
+    "summary": "Depression and anxiety in older adults with Mild Cognitive Impairment (MCI) are frequently underdiagnosed due to limited access to care. Multimodal analysis of remote clinical interviews is a scalable screening approach, but existing methods have three limitations. First, they do not correct temporal misalignment across multimodal features extracted at different resolutions, inducing spurious cross-modal associations. Second, remote recordings exhibit uneven modality dropout, but missing values are often zero-filled, making them indistinguishable from valid near-zero measurements. Finally, they do not jointly attribute predictions to modalities, questions, and interview moments, limiting fine-grained clinical interpretation. We propose a Temporally-Aligned, Missingness-Aware, Interpretable (TAMI) multimodal fusion framework. TAMI aligns speech, language, facial, and physiological features within question-answer segments on a shared timeline, encodes modality-level missingness over time, and conditions fusion on question context. In interviews with 49 older adults with MCI, TAMI achieved area under the receiver operating characteristic curve (AUROC) scores of 0.68 (depression) and 0.69 (anxiety). Fine-grained temporal alignment of multimodal features produced the largest performance gain ($Δ{\\geq}0.1$). Multi-level interpretability analysis revealed that depression classification relied on eyegaze and open-ended questions, while anxiety classification depended on eyegaze and head pose, with attribution uniformly distributed across questions. Using only responses to the open-ended questions (5.1min), the depression model achieved an AUROC score of 0.67, which was not significantly different from using the full interview (19min) ($p>0.05$). Our findings support designing interview protocols centered on open-ended questions for depression screening in older adults with MCI.",
     "authors": [
       "Merna Bibars",
       "Bolaji Omofojoye",
@@ -663,8 +663,8 @@
     "title": "TSPFN: A Temporal Tabular Foundation Model for Physiological Time Series Classification",
     "summary": "Designing models that generalize effectively in low- to medium-data regimes remains a primary challenge in medical machine learning, particularly for physiological time-series classification. While tabular foundation models such as TabPFN offer an attractive alternative to conventional fine-tuning through in-context learning, they are not designed to capture the temporal dependencies inherent to physiological signals. ~In this paper, we introduce TSPFN, a foundation model that redesigns TabPFN's architecture for time series data. TSPFN integrates structured temporal representations and positional embeddings to capture intra-sample temporal and channel dependencies. To fully leverage its spatio-temporal design, the model is pretrained on 140,000 real-world physiological time series across multiple medical domains. This yields a unified, generalizable framework capable of learning the specificities of medical time series. Experiments across diverse physiological benchmarks demonstrate that TSPFN consistently outperforms standard tabular baselines and TabPFN, and achieves superior cross-domain generalization compared to specialized deep time-series models. All our experiments, ablation studies, and pre-processing scheme are publicly available at https://github.com/Jeremstym/TSPFN",
     "authors": [
-      "J\u00e9r\u00e9mie Stym-Popper",
-      "Cl\u00e9ment Rambour",
+      "Jérémie Stym-Popper",
+      "Clément Rambour",
       "Federica Granese",
       "Nicolas Thome",
       "Olivier Bernard"
@@ -688,7 +688,7 @@
       "Arthur Becker",
       "Jakob Kemmler",
       "David Thulke",
-      "Christine Sch\u00e4fer",
+      "Christine Schäfer",
       "Christian Dugast",
       "Hermann Ney"
     ],
@@ -729,10 +729,10 @@
     "summary": "Obtaining data from neuromorphic sensors and processing it with Spiking Neural Networks is a promising solution to lower the energy cost of artificial intelligence. The current rarity of natively neuromorphic datasets promotes the development of software tools to translate input sensory data into spikes. However, highly bio-mimetic simulators can be challenging to implement on digital hardware. In this work, we evaluate the neuromorphic encoding and subsequent classification of audio into spikes using a non-learnable, high-level, programmable encoder targeting hardware implementation on FPGA. We quantify the pipeline's efficiency with hardware-agnostic metrics based on the quantitative spiking activity. Our study focuses on the simultaneous optimisation of encoder and classifier: the first provides efficient and informative data so that the latter achieves a better performance with an overall lower energy cost at learning and inference. This work introduces the first end-to-end neuromorphic spike-encoding and evaluation of the TIMIT dataset. Our simple feedforward network reaches a classification accuracy of 99.77% on a spike-encoded Heidelberg Digits, overcoming the neuromorphic state of the art on this benchmark dataset.",
     "authors": [
       "Valentin M. Meunier",
-      "Am\u00e9lie Gruel",
+      "Amélie Gruel",
       "Pierre Lewden",
       "Adrien F. Vincent",
-      "Sylvain Sa\u00efghi"
+      "Sylvain Saïghi"
     ],
     "categories": [
       "cs.NE",
@@ -754,7 +754,7 @@
     "authors": [
       "Ashwin Nedungadi",
       "Stefan Oehmcke",
-      "Stefan L\u00fcdtke"
+      "Stefan Lüdtke"
     ],
     "categories": [
       "cs.AI",
@@ -871,7 +871,7 @@
     "title": "Towards Stream Learning on Embedded Systems: Benchmarking the Memory Consumption of Stream Learning Methods",
     "summary": "Stream learning is commonly evaluated through predictive performance and adaptation to concept drift. However, sustained operation of a stream learner also requires predictable and bounded resource usage even on long streams. This requirement becomes even more critical when learning moves from servers to near-sensor embedded systems where memory and processing are scarce resources. In state-of-the-art stream learning, however, we perceive a strong focus on concept drift adaptation, whereas resource usage is often an evaluation byproduct. To close this gap, we benchmark seven representative stream classifiers on 13 real and synthetic streams under model-size budgets from 128\\,KiB to approximately 8\\,MiB. Our benchmark comprises a total of 6,463 experiments. We measure failure-aware accuracy, peak model size, time to budget exhaustion, and prediction-plus-update latency. The results reveal two distinct resource failure modes. Adaptive ensembles can exceed small budgets almost immediately because of their initial footprint, even when their size remains stable thereafter. Incremental trees can fit initially but grow throughout a long stream, with HoeffdingTrees (HT) and Extremely Fast Decision Trees (EFDT) increasing by median factors of 7.37 and 5.87. Explicitly compact methods remain the only viable option under the smallest budgets, but are usually overtaken as larger budgets make adaptive ensembles competitive. Hence, many state-of-the-art methods are only partially applicable in embedded systems or for long-running systems. We therefore call on the stream-learning community to make bounded resource usage a first-class design objective alongside drift adaptation, and propose concrete steps toward this goal, including an API through which stream learners can explicitly expose and respect resource budgets.",
     "authors": [
-      "Sebastian Buschj\u00e4ger",
+      "Sebastian Buschjäger",
       "Nuwan Gunasekara",
       "Heitor Murilo Gomes"
     ],
@@ -981,7 +981,7 @@
     "title": "LCoT-GV: Graph Attention Networks for Verifying Long Reasoning Chains in Large Language Models",
     "summary": "Large Reasoning Models produce Long Chains-of-Thought (LCoTs) which involve breaking down the problem into smaller reasoning steps before reaching the conclusion. However, these steps often contain contradictions, unsupported inferences, or irrelevant steps, even when the final answer is correct. We propose Long Chain-of-Thought Graph Verifier (LCoT-GV), a graph-based framework that represents LCoTs as reasoning graphs. Each node in the graph represents a reasoning step and the edges encode semantic and logical relations. A Graph Attention Network is then trained to predict chain-of-thought correctness from the reasoning graph. We construct a new graph-oriented verification dataset from multiple reasoning benchmarks for question answering in various domains. The results show that our method is competitive with the most similar approaches.",
     "authors": [
-      "B\u00e9r\u00e9nice Jaulmes",
+      "Bérénice Jaulmes",
       "Mehwish Alam"
     ],
     "categories": [
@@ -998,7 +998,7 @@
   {
     "arxiv_id": "2608.31157v1",
     "title": "Sharp Approximation Rates for Neural Networks with Affine Latent Parameterizations",
-    "summary": "Many parameter-efficient methods generate the parameters of a large neural network from a low-dimensional latent representation. Given an architecture $\u03a6$ with $P_\u03a6$ parameter slots, we write $\\boldsymbol\u03b8_f=\\mathcal{G}(\\boldsymbol\u03be_f)$, where $\\mathcal{G}\\colon\\mathbb{R}^M\\to\\mathbb{R}^{P_\u03a6}$ is a parameter generator and $\\boldsymbol\u03be_f\\in\\mathbb{R}^M$ is a latent representation of the target function $f$. The architecture $\u03a6$ and the generator $\\mathcal{G}$ are shared across the entire target class, while each target $f$ is represented by its own latent vector $\\boldsymbol\u03be_f$, with $\u03a6_{\\mathcal{G}(\\boldsymbol\u03be_f)}$ approximating $f$. This framework encompasses hypernetworks, low-dimensional parameterizations, parameter-efficient adaptation, and model compression. Understanding the tradeoff between the latent dimension $M$ and the network budget $P$ is therefore fundamental to characterizing the expressive efficiency of these methods. We study this tradeoff for affine generators and fully connected ReLU architectures. More precisely, optimizing jointly over architectures $\u03a6$ satisfying $P_\u03a6\\leq P$ and affine generators $\\mathcal{G}:\\mathbb{R}^M\\to \\mathbb{R}^{P_\u03a6}$, we prove that the optimal worst-case uniform approximation error over the unit ball of $\u03b1$-H\u00f6lder functions on $[0,1]^d$, where $0<\u03b1\\leq1$, has the sharp order $ \\bigl(P\\min\\{M,P\\}\\bigr)^{-\u03b1/d}. $ In particular, our result shows that even a fixed-dimensional latent space suffices to achieve vanishing approximation error as the network budget increases.",
+    "summary": "Many parameter-efficient methods generate the parameters of a large neural network from a low-dimensional latent representation. Given an architecture $Φ$ with $P_Φ$ parameter slots, we write $\\boldsymbolθ_f=\\mathcal{G}(\\boldsymbolξ_f)$, where $\\mathcal{G}\\colon\\mathbb{R}^M\\to\\mathbb{R}^{P_Φ}$ is a parameter generator and $\\boldsymbolξ_f\\in\\mathbb{R}^M$ is a latent representation of the target function $f$. The architecture $Φ$ and the generator $\\mathcal{G}$ are shared across the entire target class, while each target $f$ is represented by its own latent vector $\\boldsymbolξ_f$, with $Φ_{\\mathcal{G}(\\boldsymbolξ_f)}$ approximating $f$. This framework encompasses hypernetworks, low-dimensional parameterizations, parameter-efficient adaptation, and model compression. Understanding the tradeoff between the latent dimension $M$ and the network budget $P$ is therefore fundamental to characterizing the expressive efficiency of these methods. We study this tradeoff for affine generators and fully connected ReLU architectures. More precisely, optimizing jointly over architectures $Φ$ satisfying $P_Φ\\leq P$ and affine generators $\\mathcal{G}:\\mathbb{R}^M\\to \\mathbb{R}^{P_Φ}$, we prove that the optimal worst-case uniform approximation error over the unit ball of $α$-Hölder functions on $[0,1]^d$, where $0<α\\leq1$, has the sharp order $ \\bigl(P\\min\\{M,P\\}\\bigr)^{-α/d}. $ In particular, our result shows that even a fixed-dimensional latent space suffices to achieve vanishing approximation error as the network budget increases.",
     "authors": [
       "Shijun Zhang"
     ],
@@ -1157,7 +1157,7 @@
       "Philippe Meyer",
       "Guillaume Gricourt",
       "Thomas Duigou",
-      "Joan H\u00e9risson",
+      "Joan Hérisson",
       "Jean-Loup Faulon"
     ],
     "categories": [
@@ -1385,7 +1385,7 @@
     "summary": "The effect of Large Language Model (LLM) scale on ontology learning (OL) performance remains insufficiently characterized. We present a controlled evaluation of 13 models spanning dense and Mixture-of-Experts variants from the Qwen3.5 and Qwen3.6 lineages, together with proprietary GPT release variants, using the OntoLearner retrieval-augmented generation pipeline. All models are evaluated with the same embedding model, retrieval configuration, prompt templates, decoding settings, datasets, and metrics on term typing, taxonomy discovery, and non-taxonomic relationship extraction across four biomedical and materials science and engineering ontologies. Within the dense Qwen3.5 lineage, increasing parameter count primarily improves precision rather than recall, with the largest gains occurring between 9B and 27B parameters. However, the effect of scale is neither monotonic nor uniform across tasks and domains. Dense 27B models outperform substantially larger sparse models on term typing, whereas larger Mixture-of-Experts models achieve the strongest open-weight results on taxonomy discovery. Non-taxonomic relationship extraction remains difficult across model scales, particularly for the Materials Data Science ontology. Performance differences across matched Qwen variants and proprietary GPT releases further indicate that architecture and model lineage can outweigh nominal parameter count. These findings show that model size alone is an insufficient selection criterion for OL and provide empirical guidance for reproducible LLM-assisted ontology engineering.",
     "authors": [
       "Hamed Babaei Giglou",
-      "S\u00f6ren Auer",
+      "Sören Auer",
       "Jennifer D'Souza"
     ],
     "categories": [
@@ -1404,7 +1404,7 @@
     "summary": "Lightstage facial capture produces production-quality digital humans, but it is resource and labor-intensive. Multi-camera setups, hours of computation, and massive data storage create bottlenecks that hinder iterative workflows. This paper introduces FaceSnap, an end-to-end framework that streamlines capture via a two-stage approach. First, a one-time multi-view optimization from a range-of-motion sequence builds a personalized model encoding both geometry and expression-dependent appearance. This model then enables high-fidelity real-time facial performance capture from a single monocular lightstage camera, with no further multi-view capture required. FaceSnap jointly estimates geometry and dynamic 4K texture at 83 fps. The 4K texture is produced by a novel personalized residual upscaler that recovers subject-specific high-frequency detail, which generic upscalers fail to capture. FaceSnap achieves geometric accuracy competitive with full per-frame multi-view optimization while outperforming feed-forward methods trained on production-quality 3D data, all from a single camera view. Finally, we introduce Multi4D, a public benchmark for evaluating 4D facial reconstruction methods in lightstage environments, enabling topology-invariant geometric comparison across methods.",
     "authors": [
       "Rukhshanda Hussain",
-      "No\u00e9 Artru",
+      "Noé Artru",
       "Emeline Got",
       "Luiz Gustavo Hafemann",
       "Alexandre Messier",
@@ -2040,7 +2040,7 @@
     "title": "Driving on Memory",
     "summary": "End-to-end autonomous driving models plan future trajectories from raw sensor input. While earlier driving benchmarks often measured deviation from the human trajectory, current benchmarks such as NAVSIM and Bench2Drive evaluate models with richer simulation-based metrics intended to capture safe and compliant driving. A high benchmark score should reflect that a model can understand the scene in front of it and act accordingly. But how much of that score specifically comes from reacting to the dynamic part of that scene?   To probe this, we remove a model's camera input and replace it with memories from prior drives at the same location. The retrieved memories can provide persistent scene information, including road layout and location-conditioned regularities, but not the current traffic state. Surprisingly, memory is nearly sufficient on NAVSIM, reaching or even exceeding the performance of leading end-to-end methods without actually observing the evaluated scene. Our results suggest that a high NAVSIM score does not require a planner to react to the current traffic scene and should be treated with caution. This effect is benchmark-dependent: driving from memory causes substantially larger performance drops on Bench2Drive and RealEngine. We provide our code at https://github.com/boschresearch/MemoryDrivoR .",
     "authors": [
-      "Christian L\u00f6wens",
+      "Christian Löwens",
       "Thorben Funke",
       "Alexandru Paul Condurache"
     ],
@@ -2142,9 +2142,9 @@
     "title": "Responsible Integration of AI in Cancer Genomics: Barriers, Risks, and Pathways to Trustworthy Clinical Translation",
     "summary": "Artificial intelligence (AI) and natural language processing (NLP) are increasingly used to extract, integrate, and interpret biomedical knowledge relevant to cancer genomics, yet their translation into routine clinical oncology has been comparatively slow. The central challenge is not computational capability alone, but trustworthy integration into clinical workflows. This review examines how NLP and AI support the cancer genomics pipeline, from literature mining and automated variant interpretation to clinical trial matching, knowledge graph construction, and multimodal data integration. We identify four interrelated translational failure domains: evidence inconsistency, explainability and uncertainty, data governance and reproducibility, and interoperability. Rather than considering these challenges in isolation, we take a systems-level view, focusing on their interaction across the translational pathway. We propose a conceptual framework and roadmap for addressing these domains through rigorous validation, uncertainty-aware methods, interoperable infrastructures, regulatory alignment, and human oversight across the AI lifecycle. Progress toward routine clinical use will depend less on further improving model capability than on systematically addressing these interacting failure domains from development through deployment and post-deployment monitoring.",
     "authors": [
-      "Bahar \u0130lgen",
+      "Bahar İlgen",
       "Yiannos Tolias",
-      "Denise K\u00fchnert",
+      "Denise Kühnert",
       "Paraskevi Papadopoulou",
       "Magnus Westerlund",
       "Dominik Heider",
@@ -2229,7 +2229,7 @@
     "summary": "We present three large-scale studies of spoken parliamentary speech across four Slavic languages (Croatian, Czech, Polish, Serbian), drawing on over 6,000 hours from the ParlaSpeech 3.0 corpus. The first study examines how utterance-level sentiment shapes acoustic realisation: negative speech is consistently produced with higher pitch, greater intensity, and faster rate across all four parliaments, with a secondary arousal-driven upturn at the most positive extreme. The second study models filled pause frequency using negative binomial GEE, finding that speech rate, age, and sentiment are robust cross-lingual predictors, while gender effects reverse between South Slavic (men produce fewer filled pauses) and West Slavic parliaments (no gender difference) - a pattern invisible to single-language designs. The third study investigates primary stress variation in Croatian, showing that speaker-level preferences for early versus late stress cohere across verbs, adjectives, and nouns but decouple for adverbs and proper nouns. We conclude with a research agenda spanning corpus phonetics, disfluency modelling, and political rhetoric.",
     "authors": [
       "Ivan Porupski",
-      "Nikola Ljube\u0161i\u0107"
+      "Nikola Ljubešić"
     ],
     "categories": [
       "cs.CL"
@@ -2413,10 +2413,10 @@
       "Aowen Shi",
       "Michal Balazia",
       "Danilo Postin",
-      "Ren\u00e9 Hurlemann",
+      "René Hurlemann",
       "Jan Alexandersson",
-      "Fran\u00e7ois Br\u00e9mond",
-      "Philipp M\u00fcller"
+      "François Brémond",
+      "Philipp Müller"
     ],
     "categories": [
       "cs.HC",
@@ -2474,7 +2474,7 @@
     "title": "Annotated Surrogate Retrieval for Polish Statutory Law",
     "summary": "We present a family of retrieval methods for Polish statutory law built on document surrogates: language-model annotations attached to statutory articles at index time. Three designs occupy different points on the cost-quality frontier. ASCR is a surrogate cascade with reranking; ASCR-H fuses a dense list into that cascade; and DTF replaces both language-model stages with three lexical and dense retrievers, weighted reciprocal rank fusion, and a deterministic re-scoring prior, using no model call before generation. We evaluate all three against fourteen lexical, dense, fused and ablated baselines plus four controls, on 300 questions from the 2024 and 2025 Polish bar and legal counsel entrance examinations (264 with their reference article in the corpus), over 82,508 articles from 1,133 acts. On paired McNemar tests, ASCR-H places the reference provision at rank one significantly more often than every other non-oracle configuration except one of its own ablations (eighteen of twenty comparisons significant in its favour at p < 0.005), reaching 72.3% against 61.7% for BM25 and 52.3% for dense retrieval. The advantage is concentrated at the head and does not survive depth: it is significant at cutoffs of one and five, disappears by ten, and by twenty DTF leads on point estimate (86.0% versus 84.5%) at one ninth the latency and less than half the cost. Ablation attributes 27.6 points of rank-one accuracy to the reranking stage alone. We further report that the ranking advantage does not extend to citation accuracy, where DTF matches the oracle ceiling, and three negative results on lemmatisation, pseudo-relevance feedback and query rewriting. Surrogate annotation covers 27.0% of the corpus but every reference provision in the benchmark, an asymmetry we disclose and discuss. Benchmark, per-question outputs and paired significance tests are publicly available.",
     "authors": [
-      "Orkun Yi\u011fit Cengiz"
+      "Orkun Yiğit Cengiz"
     ],
     "categories": [
       "cs.CL"
@@ -2581,7 +2581,7 @@
     "authors": [
       "Ruiwu Niu",
       "Xiaowen Bi",
-      "Micha\u00ebl Antonie van Wyk"
+      "Michaël Antonie van Wyk"
     ],
     "categories": [
       "cs.LG",
@@ -2599,7 +2599,7 @@
     "title": "ChessQueries: Toward Better Chess Board Recognition",
     "summary": "Chess board recognition is the task of mapping the image of a chess board to the information of which piece is on which square. So far this task has two established benchmarks: ChessCog is synthetic, and ChessReD comes from smartphone pictures of a single chess board setup. We introduce ChessQueries, a new method combining a ViT encoder with a DETR-style decoder, which outperforms existing methods. On the ChessReD benchmark, we improve the state of the art from 15.3% to 99.2%, and demonstrate strong capabilities on out-of-distribution datasets. Our method saturates the task on the two datasets, with an average 0.01 wrong squares per board (vs. SotA: 3.4 / 0.15 respectively). We also share a new, harder public dataset, parsed from broadcasted top-level chess tournaments. Code, model weights and the SLCC data will be released.",
     "authors": [
-      "Jo\u00ebl Seytre"
+      "Joël Seytre"
     ],
     "categories": [
       "cs.CV"
@@ -2975,10 +2975,10 @@
     "title": "MusGU+: Toward a Musician-Centered Evaluation Framework and Discovery Tool for Generative Music AI",
     "summary": "Generative music systems are increasingly presented as tools that democratize music creation, yet their practical suitability for musicians remains underexplored. Prior work includes openness-focused evaluation frameworks, such as MusGO (Music-Generative Open AI), as well as qualitative studies of musicians' experiences with generative systems. However, these approaches do not support systematic comparison or early-stage discovery of models for creative use. Motivated by such limitations, we introduce MusGU+, a musician-centered evaluation framework organized around three dimensions: Adaptability, Usability, and Controllability. Together, these capture whether a model can be feasibly trained or fine-tuned on personal data, integrated into real-world music workflows, and controlled in musically meaningful ways. We evaluate 10 representative generative music systems and present an interactive discovery tool that enables musicians to explore and filter models according to these criteria. While MusGO remains valuable for promoting responsible research practices, MusGU+ supports informed selection and practical adoption of generative systems by musicians.",
     "authors": [
-      "Laura Ib\u00e1\u00f1ez-Mart\u00ednez",
+      "Laura Ibáñez-Martínez",
       "Roser Batlle-Roca",
       "Xavier Serra",
-      "Mart\u00edn Rocamora"
+      "Martín Rocamora"
     ],
     "categories": [
       "cs.SD",
@@ -3124,7 +3124,7 @@
     "summary": "This paper presents Murano, an open source framework for designing, running, and reproducing mechanistic interpretability studies of large language models, intended for researchers across disciplines. These studies often combine loading, recording, attribution, intervention, and evaluation, while existing libraries tend to focus on different parts of this workflow. As a result, researchers using several libraries may need to adapt outputs from one for use by another. To bridge this gap, Murano represents operations from these five areas as composable steps. Steps exchange named result artifacts and declare the inputs they require and the outputs they produce. A pipeline executes its steps in the order supplied, and Murano uses canonical addresses when component identities pass between operations. Murano builds on existing interpretability and machine learning libraries. We demonstrate Murano through two reproductions of established interpretability studies and one illustrative sparse autoencoder case study.",
     "authors": [
       "Alireza Bayat Makou",
-      "Emirhan B\u00f6ge",
+      "Emirhan Böge",
       "Phu Gia Hoang",
       "Federico Tiblias",
       "Jingcheng Niu",
@@ -3460,7 +3460,7 @@
   {
     "arxiv_id": "2608.30916v1",
     "title": "Selection-Aware Stress Testing for Interactive Agents",
-    "summary": "Agent evaluations often use one benchmark to choose a workflow and then search for task types where its advantage weakens, so both conclusions are selected from the same data. We introduce Selection-Aware Semantic Stress Testing (\\SASST{}), which learns a task reweighting from pre-execution features on discovery tasks and evaluates the same paired comparison on separate confirmation tasks. The protocol checks support and stability, uses joint bounds for all planned claims, and can return no claim. We prove conditional asymptotic validity under stated cluster assumptions. A forty-cluster audit finds Gaussian undercoverage and conservative Bonferroni $t$ bounds. In one 480-episode $\u03c4$-bench study, a $3.75$ point discovery gain vanished on confirmation. A second-model study likewise confirmed neither a workflow benefit nor a stable stress rule.",
+    "summary": "Agent evaluations often use one benchmark to choose a workflow and then search for task types where its advantage weakens, so both conclusions are selected from the same data. We introduce Selection-Aware Semantic Stress Testing (\\SASST{}), which learns a task reweighting from pre-execution features on discovery tasks and evaluates the same paired comparison on separate confirmation tasks. The protocol checks support and stability, uses joint bounds for all planned claims, and can return no claim. We prove conditional asymptotic validity under stated cluster assumptions. A forty-cluster audit finds Gaussian undercoverage and conservative Bonferroni $t$ bounds. In one 480-episode $τ$-bench study, a $3.75$ point discovery gain vanished on confirmation. A second-model study likewise confirmed neither a workflow benefit nor a stable stress rule.",
     "authors": [
       "Yang Xu",
       "Chenang Li",
@@ -3527,7 +3527,7 @@
     "authors": [
       "Laura Daza",
       "Marta Hasny",
-      "Cristina Gonz\u00e1lez",
+      "Cristina González",
       "Julia A. Schnabel"
     ],
     "categories": [
@@ -3773,9 +3773,9 @@
     "title": "Aggregate Disambiguation Systems",
     "summary": "Natural-language tasks can elicit different verdicts from protocol-following evaluators that receive the same declared information. We study aggregate disambiguation systems (ADSs). Given a task and a candidate solution, each evaluator casts a binary vote on whether the solution should be accepted, and the system aggregates the votes of a finite panel. The target is protocol reproducibility relative to an explicitly declared evaluator reference, not semantic truth. We separate fixed finite censuses, probabilistic evaluator populations, and growing-census limits, since their endpoint laws and guarantees are not interchangeable. In the population setting, we use finite samples to estimate how often a finite panel reaches the same decision as the declared evaluator population. We provide a lower confidence bound on the fraction of candidate solutions for which the disagreement probability is at most a chosen tolerance. The calculation accounts separately for sampling candidate solutions and sampling evaluators. The construction permits arbitrary dependence among columns induced by shared evaluator rows and uses exact binomial intervals at the evaluator layer and an exact one-sided binomial inversion at the generator layer. Simulations check the implementation against known population coverages and expose power limitations.",
     "authors": [
-      "Jos\u00e9 Mar\u00eda Lago",
+      "José María Lago",
       "Albert Castellana",
-      "Edgars Nem\u0161e"
+      "Edgars Nemše"
     ],
     "categories": [
       "stat.ME",
@@ -3809,7 +3809,7 @@
   {
     "arxiv_id": "2608.30650v1",
     "title": "Geometry of Divergence: Tracking Hidden-State Trajectories for Adaptive Multi-Turn Reasoning",
-    "summary": "LLM agents need to sustain goal-consistent reasoning across long multi-turn interactions under strict resource constraints. However, as the multi-turn context accumulates, it can destabilize the underlying LLM's internal representation of task-relevant information from earlier turns, blurring the boundary between constructive reasoning and representation drift. We formulate multi-turn reasoning as a hidden-state trajectory of the underlying LLM that is characterized via two complementary signals: temporal curvature that captures the directional consistency of turn-to-turn updates, and variance slope which measures the expansion or contraction of the exploration space. Across four tasks and three underlying LLMs, we observed that these geometric signals distinguish between correct and incorrect episodes prior to completion. We further decompose each episode into three-action chains formed from four actions (Read, Write, Respond, Transfer) and show that separability is action-dependent, with different signals distinguishing various chain patterns. Our experiments demonstrate that trajectory geometry can identify critical turns in the reasoning process, increasing task success rates on $\u03c4$-Bench from 24.1% to 39.6% while reducing token cost by 11.2%.",
+    "summary": "LLM agents need to sustain goal-consistent reasoning across long multi-turn interactions under strict resource constraints. However, as the multi-turn context accumulates, it can destabilize the underlying LLM's internal representation of task-relevant information from earlier turns, blurring the boundary between constructive reasoning and representation drift. We formulate multi-turn reasoning as a hidden-state trajectory of the underlying LLM that is characterized via two complementary signals: temporal curvature that captures the directional consistency of turn-to-turn updates, and variance slope which measures the expansion or contraction of the exploration space. Across four tasks and three underlying LLMs, we observed that these geometric signals distinguish between correct and incorrect episodes prior to completion. We further decompose each episode into three-action chains formed from four actions (Read, Write, Respond, Transfer) and show that separability is action-dependent, with different signals distinguishing various chain patterns. Our experiments demonstrate that trajectory geometry can identify critical turns in the reasoning process, increasing task success rates on $τ$-Bench from 24.1% to 39.6% while reducing token cost by 11.2%.",
     "authors": [
       "Jie Liang",
       "Zhengxin Yu",
@@ -3849,37 +3849,6 @@
     "pdf_url": "https://arxiv.org/pdf/2608.31005v1.pdf",
     "date": "2026-09-01",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "model_id": "fpadovani/nld-100mb-after-nld_newlexicon_zipf_heavy-ckpt500_seed455",
-    "author": "unknown",
-    "title": "fpadovani/nld-100mb-after-nld_newlexicon_zipf_heavy-ckpt500_seed455",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "base_model:fpadovani/ppt-nld_newlexicon_zipf_heavy-100mb_seed455",
-      "base_model:finetune:fpadovani/ppt-nld_newlexicon_zipf_heavy-100mb_seed455",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-01T04:14:11.000Z",
-    "last_modified": "2026-09-01T05:57:32.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/fpadovani/nld-100mb-after-nld_newlexicon_zipf_heavy-ckpt500_seed455",
-    "date": "2026-09-01",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.5
   },
   {
@@ -4020,7 +3989,7 @@
       "Stephane Da Silva Martins",
       "Victor Petrovic",
       "Emanuel Aldea",
-      "Sylvie Le H\u00e9garat-Mascle"
+      "Sylvie Le Hégarat-Mascle"
     ],
     "categories": [
       "cs.CV"
@@ -4038,7 +4007,7 @@
     "summary": "Performance evaluation for surface-water segmentation commonly uses an aggregate metric such as global intersection-over-union (IoU) to rank model configurations. However, a configuration ranking does not by itself establish why one system performs better, whether a close ordering is stable, or how strongly predictions rely on individual inputs. We examine these distinctions primarily on Sen1Floods11 through repeated configuration comparisons, paired test-chip analysis, fixed-checkpoint input stress tests, and geographic reweighting, with a targeted secondary evaluation of supervised input configurations on GEOID-Flood. The cross-modal student achieves the highest three-seed mean IoU on Sen1Floods11, but close orderings vary across seeds and geographic weighting, while ancillary-input rankings differ between Swin-UNet and U-Net. The GEOID-Flood evaluation shows substantial agreement in supervised ancillary-input effects, although the exact architecture ordering remains configuration dependent. Fixed-checkpoint tests further establish reliance on terrain and WorldCover without establishing a clean-input performance benefit, while target semantics and the later WorldCover prior restrict the evaluation to retrospective all-water segmentation. These results show that aggregate metrics remain useful for ranking complete configurations, but ranking stability, component attribution, input reliance, and deployment scope require distinct evidence. Performance evaluation should therefore match the evidence reported to the claim being made.",
     "authors": [
       "Kittipat Phunjanna",
-      "Krist\u00f3f Karacs",
+      "Kristóf Karacs",
       "Chayut Ngamkhanong"
     ],
     "categories": [
@@ -4122,7 +4091,7 @@
   {
     "arxiv_id": "2608.30896v1",
     "title": "Rad-R: A Raw-ADC Radar Dataset and Capture-Invariant SSM for Hardware-Fault Diagnosis",
-    "summary": "Automotive mmWave radar can develop vibration, antenna misalignment, radome blockage, and receive-channel degradation that corrupt the signal before perception begins. Data for these faults are scarce because each condition must be induced and measured on physical hardware. We introduce Rad-R, a raw-ADC dataset captured with a 4-chip 77GHz TI MMWCAS-RF-EVM cascade (192 virtual channels). Unlike existing raw-radar datasets, Rad-R pairs each recording with a controlled hardware fault at a calibrated severity, an independent physical severity measurement, and frame-synchronised IMU, temperature, GPS, and camera streams. Rad-R is a single-session dataset, so our generalisation claims are confined to a controlled cross-severity protocol in which train and test use physically distinct captures. A reproducible benchmark evaluates seven representative vision backbones and the proposed raw-IQ Mamba SSM (RadrNet) under within-clip, chirp-wise anytime, few-shot cross-capture, and controlled cross-severity protocols. Within-clip performance is near-saturated ($>0.98$ macro-F1), whereas cross-severity generalisation remains difficult: the absolute-phase RadrNet-DS falls to $0.49$ macro-F1. RadrNet-DS-CI replaces absolute phase with per-frame-standardised magnitude and relative chirp-to-chirp phase and ranks first on the controlled benchmark ($0.663$ vs. $0.628$ for the strongest RD-CNN; three seeds); the RadrNet family also leads on the anytime and few-shot budgets. A descriptive cross-modal analysis further finds that radar micro-Doppler covaries with independently measured IMU vibration energy (pooled Spearman $\u03c1=0.41$ across conditions). The complete dataset and code will be released publicly under permissive licences.",
+    "summary": "Automotive mmWave radar can develop vibration, antenna misalignment, radome blockage, and receive-channel degradation that corrupt the signal before perception begins. Data for these faults are scarce because each condition must be induced and measured on physical hardware. We introduce Rad-R, a raw-ADC dataset captured with a 4-chip 77GHz TI MMWCAS-RF-EVM cascade (192 virtual channels). Unlike existing raw-radar datasets, Rad-R pairs each recording with a controlled hardware fault at a calibrated severity, an independent physical severity measurement, and frame-synchronised IMU, temperature, GPS, and camera streams. Rad-R is a single-session dataset, so our generalisation claims are confined to a controlled cross-severity protocol in which train and test use physically distinct captures. A reproducible benchmark evaluates seven representative vision backbones and the proposed raw-IQ Mamba SSM (RadrNet) under within-clip, chirp-wise anytime, few-shot cross-capture, and controlled cross-severity protocols. Within-clip performance is near-saturated ($>0.98$ macro-F1), whereas cross-severity generalisation remains difficult: the absolute-phase RadrNet-DS falls to $0.49$ macro-F1. RadrNet-DS-CI replaces absolute phase with per-frame-standardised magnitude and relative chirp-to-chirp phase and ranks first on the controlled benchmark ($0.663$ vs. $0.628$ for the strongest RD-CNN; three seeds); the RadrNet family also leads on the anytime and few-shot budgets. A descriptive cross-modal analysis further finds that radar micro-Doppler covaries with independently measured IMU vibration energy (pooled Spearman $ρ=0.41$ across conditions). The complete dataset and code will be released publicly under permissive licences.",
     "authors": [
       "Mainak Mallick",
       "Junghwan Yim",
@@ -4350,38 +4319,6 @@
     "pdf_url": "https://arxiv.org/pdf/2608.30688v1.pdf",
     "date": "2026-09-01",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp10-base-tf",
-    "author": "unknown",
-    "title": "agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp10-base-tf",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "openrlhf",
-      "grpo",
-      "reinforcement-learning",
-      "code-generation",
-      "base_model:Qwen/Qwen3-4B-Instruct-2507",
-      "base_model:finetune:Qwen/Qwen3-4B-Instruct-2507",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-01T00:30:30.000Z",
-    "last_modified": "2026-09-01T05:52:33.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/agurung/cobalt-seeded-rl-base-ramp25-stoppen-gen4k-ep2-ncp10-base-tf",
-    "date": "2026-09-01",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
