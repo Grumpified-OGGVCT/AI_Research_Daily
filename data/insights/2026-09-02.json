@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-02T21:30:52.847219",
+  "date": "2026-09-02T23:46:39.477261",
   "patterns": {
     "multimodal_research": [
       {
@@ -307,6 +307,10 @@
       {
         "title": "Nonparametric inference for density-dependent McKean--Vlasov diffusions",
         "url": "https://arxiv.org/abs/2609.01166v1"
+      },
+      {
+        "title": "Sin-gh47/efficientformer-contrastive",
+        "url": "https://huggingface.co/Sin-gh47/efficientformer-contrastive"
       }
     ],
     "language_models": [
@@ -965,6 +969,10 @@
         "url": "https://arxiv.org/abs/2609.01141v1"
       },
       {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
+      },
+      {
         "title": "Scale-based Approach for Active Wildfire Segmentation on Satellite Imagery",
         "url": "https://arxiv.org/abs/2609.01392v1"
       },
@@ -1253,10 +1261,6 @@
       {
         "title": "MeshSplatBench: A Unified Benchmark for Triangle-Based Neural Rendering",
         "url": "https://arxiv.org/abs/2609.01306v1"
-      },
-      {
-        "title": "logic65/Whittle-Next-26B-A3B",
-        "url": "https://huggingface.co/logic65/Whittle-Next-26B-A3B"
       }
     ],
     "benchmarks": [
@@ -1701,7 +1705,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "53 independent papers",
+      "observation": "54 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1719,13 +1723,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "69 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "61 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1772,6 +1776,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 418
+    "total_papers": 419
   }
 }
