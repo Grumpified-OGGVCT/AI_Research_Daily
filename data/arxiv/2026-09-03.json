@@ -173,7 +173,7 @@
     "summary": "In this paper, we analyze how Large Language Models (LLMs) employ worldbuilding strategies, focusing on setting as one measurable dimension of storyworld construction. We compare 1,000 AI-generated stories per model in English and German with human-authored fiction from Project Gutenberg. Building on prior work, we operationalize setting through five types of narrative space: \"action\", \"perceived,\" \"visual,\" \"descriptive\" and \"no space\", identified using fine-tuned BERT classifiers for German and English. We generate narratives using GPT 4.1, LlaMA 3.3, Mistral 3.2, and Gemma 3 and compare their spatial distributions to a human-authored baseline. We find that human-authored texts predominantly employ \"action space,\" grounding narratives in embodied character-environment interaction, whereas LLMs systematically overproduce \"perceived space,\" emphasizing atmosphere and affect. This divergence remains stable across narrative time. Overall, our findings show that LLMs exhibit worldbuilding patterns that differ consistently from human-authored fiction in ways that are both model-specific and language-sensitive.",
     "authors": [
       "Katrin Rohrbacher",
-      "Bj\u00f6rn Nieth",
+      "Björn Nieth",
       "Emmanuelle Salin",
       "Bjoern Eskofier",
       "Michaela Mahlberg"
@@ -520,9 +520,9 @@
     "title": "Improving Health Literacy through Lay Summarization of Radiological Reports: An Evaluation of BioNER and Retrieval-Augmented Generation",
     "summary": "Radiology reports are written primarily for clinicians, and their specialized terminology often makes them difficult for patients to interpret. As a result, many patients turn to publicly available Large Language Models (LLMs) to help explain their reports, despite well-documented risks of factual inaccuracies and hallucinations. Automated lay-summary generation has emerged as a promising alternative, yet the effectiveness of retrieval-enhanced and clinically informed approaches for radiology-specific communication remains underexplored. This study investigates the extent to which Retrieval-Augmented Generation (RAG) and Named Entity Recognition (NER) improve the quality, factual consistency, and readability of automatically generated lay summaries compared with standard LLM-based generation. We develop a framework combining NER-based extraction of clinically relevant findings with a RAG mechanism for contextual grounding, evaluated across few-shot and fine-tuned variants of two models (Qwen, BioBART). Results show that NER consistently improves readability and overall quality, while RAG alone offers no benefit and can introduce hallucinations from irrelevant retrieved terms. Combining RAG with NER degrades performance in few-shot settings but improves readability when fine-tuned. Fine-tuned BioBART with NER achieves the best overall performance, highlighting entity-aware extraction as the primary driver of improved patient-friendly summaries.",
     "authors": [
-      "Egecan \u00c7elik Evgin",
-      "\u0130lknur Karadeniz",
-      "Olcay Taner Y\u0131ld\u0131z"
+      "Egecan Çelik Evgin",
+      "İlknur Karadeniz",
+      "Olcay Taner Yıldız"
     ],
     "categories": [
       "cs.CL"
@@ -587,7 +587,7 @@
     "authors": [
       "El Ouanas Belabbaci",
       "Bhavesh Wani",
-      "Philipp Terh\u00f6rst"
+      "Philipp Terhörst"
     ],
     "categories": [
       "cs.CV"
@@ -622,7 +622,7 @@
   {
     "arxiv_id": "2609.02728v1",
     "title": "Momentum in large-batch training: Polyak enlarges the critical batch size, Nesterov improves data efficiency",
-    "summary": "We study when and how momentum improves large-batch training in the one-pass regime, using power-law kernel regression as a tractable setting. We first characterize risk stability through the critical learning rate, defined as the largest learning rate for stable training, and obtain $\u03b7_{\\mathrm{SGD}}^{\\mathrm{crit}}\\eqsim 1$, $\u03b7_{\\mathrm{Polyak}}^{\\mathrm{crit}}\\eqsim \\min\\{1,B(1-\u03c1)\\}$, and $\u03b7_{\\mathrm{Nesterov}}^{\\mathrm{crit}}\\eqsim \\min\\{1,B^\u03b2(1-\u03c1)\\}$, where $B$ is the batch size, $\u03c1$ is the momentum factor, and $\u03b2>1$ is the capacity exponent. Within this admissible region, we derive scaling laws for the full risk dynamics, capturing the progression from an early transient, through power-law decay, to a noise floor. We then minimize the final-step risk over the admissible learning rates and momentum factors under a fixed data budget, yielding a three-regime batch-size phase diagram that reveals how the role of momentum changes with batch size. Notably, Polyak enlarges the critical batch size, the largest batch size preserving the best small-batch data-scaling exponent, thereby enabling greater parallelism without sacrificing data efficiency. In contrast, Nesterov achieves better data efficiency in the large-batch regime because its look-ahead mechanism suppresses noise accumulation. Numerical experiments validate the predicted stability boundaries, risk dynamics, and batch-size phase diagram.",
+    "summary": "We study when and how momentum improves large-batch training in the one-pass regime, using power-law kernel regression as a tractable setting. We first characterize risk stability through the critical learning rate, defined as the largest learning rate for stable training, and obtain $η_{\\mathrm{SGD}}^{\\mathrm{crit}}\\eqsim 1$, $η_{\\mathrm{Polyak}}^{\\mathrm{crit}}\\eqsim \\min\\{1,B(1-ρ)\\}$, and $η_{\\mathrm{Nesterov}}^{\\mathrm{crit}}\\eqsim \\min\\{1,B^β(1-ρ)\\}$, where $B$ is the batch size, $ρ$ is the momentum factor, and $β>1$ is the capacity exponent. Within this admissible region, we derive scaling laws for the full risk dynamics, capturing the progression from an early transient, through power-law decay, to a noise floor. We then minimize the final-step risk over the admissible learning rates and momentum factors under a fixed data budget, yielding a three-regime batch-size phase diagram that reveals how the role of momentum changes with batch size. Notably, Polyak enlarges the critical batch size, the largest batch size preserving the best small-batch data-scaling exponent, thereby enabling greater parallelism without sacrificing data efficiency. In contrast, Nesterov achieves better data efficiency in the large-batch regime because its look-ahead mechanism suppresses noise accumulation. Numerical experiments validate the predicted stability boundaries, risk dynamics, and batch-size phase diagram.",
     "authors": [
       "Jia-Nan Wang",
       "Zixun Huang",
@@ -1031,9 +1031,9 @@
     "title": "Rethinking the Teacher-Student Framework for Test-Time Adaptation",
     "summary": "Test-Time Adaptation (TTA) has recently emerged as a promising strategy that allows the adaptation of pre-trained models to changing data distributions at deployment time, without access to any labels. To mitigate error accumulation, researchers have widely adopted the teacher-student framework, though its long-term stability is often taken for granted. In this work, we challenge the common strategy of setting the teacher weights to an exponential moving average of the student by showing that error accumulation still occurs, although it is mostly apparent on longer sequences compared to those commonly utilized. We analyze the stability-plasticity trade-off within the teacher-student framework and propose to use an intransigent teacher that does not update its weights. Surprisingly, we show that this simple change allows TTA methods to significantly improve their performance on multiple datasets with longer scenarios and result in increased robustness to changes in hyperparameters. Finally, we show that those changes can be seamlessly and effectively applied to various architectures and experimental setups, including semantic segmentation. The code is available at https://github.com/dmn-sjk/intransigent_teacher.",
     "authors": [
-      "Damian S\u00f3jka",
+      "Damian Sójka",
       "Marc Masana",
-      "Bart\u0142omiej Twardowski",
+      "Bartłomiej Twardowski",
       "Sebastian Cygert"
     ],
     "categories": [
@@ -1197,7 +1197,7 @@
     "title": "When Persona Attributes Improve Population Alignment in Large Language Models",
     "summary": "Large Language Models (LLMs) are increasingly used to predict the responses of human participants in survey panels. Towards that goal, persona prompting has recently emerged as a technique to inform and align large pretrained language models. Persona prompting refers to the practice of using short textual descriptions of 'personas' in prompts to steer the LLM's generations. Personas describe individuals through different attributes such as their socio-demographics, attitudes, or behaviors, with the aim of aligning LLMs to produce responses that correlate with the corresponding human responses. Yet, recent work has produced mixed and partly conflicting results of persona prompting without clear patterns of success and failure. Among the few consistent findings is that the selection of persona attributes matters, and that using more attributes does not necessarily lead to better performance. It remains unclear how different attribute selection methods perform and how to choose among them. In this paper, we propose that observed human response variation of a survey question is a potential explanation for the mixed performance observed so far. In addition, we compare the performance of persona prompting associated with different methods for selecting persona attributes. We evaluate these methods on four different (general) social surveys across two countries, six LLMs, and twenty prediction tasks per survey. Our work helps to identify when persona prompting can be expected to be useful in survey prediction tasks, and provides new insights on the effectiveness of different attribute selection methods for LLM-based survey prediction using persona prompting.",
     "authors": [
-      "Leon Fr\u00f6hling",
+      "Leon Fröhling",
       "Jens Rupprecht",
       "Markus Strohmaier",
       "Claudia Wagner"
@@ -1358,7 +1358,7 @@
   {
     "arxiv_id": "2609.02684v1",
     "title": "H3DNAS: Hardware-Aware ONNX-Native 3D Point Cloud Model Compression",
-    "summary": "Deploying 3D point cloud models on edge hardware such as the NVIDIA Jetson Orin Nano is severely constrained by compute and memory budgets. Existing compression methods require access to the model's original source code, rendering them inapplicable to the Open Neural Network Exchange (ONNX) binaries commonly distributed by vendors and model repositories. We present \\textbf{H3DNAS}, a hardware-aware model compression framework that operates directly on ONNX computational graphs without requiring original source code, architecture class definition, or gradient access during search. H3DNAS makes three contributions: (1) a \\textbf{Channel Dependency Graph (CDG)} that classifies ONNX operators into four constraint classes and formally establishes that the free parameter fraction $\u03c1_f$ is topological invariant, a provable compression ceiling computable in $\\mathcal{O}(|V|+|E|)$; (2) a \\textbf{Two-Stage Hierarchical Search} that prunes candidate architectures by $L_1$-importance channel selection, ranks them by output fidelity as a zero-shot label-free proxy, and applies GhostConv structural mutation to Pareto-optimal candidates; and (3) the \\textbf{first source-code-free compression pipeline for 3D point cloud models}, operating entirely via ONNX graph surgery with no original architecture definition required. On ModelNet40, H3DNAS reduces the number of parameters in PointNet, PointNet++, and PointMLP by $65.5\\%$, $43.2\\%$, and $49.1\\%$, respectively, while achieving $1.99\\times$, $1.29\\times$, and $1.67\\times$ inference speedups with negligible loss in accuracy. The source code is publicly available\\footnote{https://github.com/ClarityLab-Org/h3dnas}.",
+    "summary": "Deploying 3D point cloud models on edge hardware such as the NVIDIA Jetson Orin Nano is severely constrained by compute and memory budgets. Existing compression methods require access to the model's original source code, rendering them inapplicable to the Open Neural Network Exchange (ONNX) binaries commonly distributed by vendors and model repositories. We present \\textbf{H3DNAS}, a hardware-aware model compression framework that operates directly on ONNX computational graphs without requiring original source code, architecture class definition, or gradient access during search. H3DNAS makes three contributions: (1) a \\textbf{Channel Dependency Graph (CDG)} that classifies ONNX operators into four constraint classes and formally establishes that the free parameter fraction $ρ_f$ is topological invariant, a provable compression ceiling computable in $\\mathcal{O}(|V|+|E|)$; (2) a \\textbf{Two-Stage Hierarchical Search} that prunes candidate architectures by $L_1$-importance channel selection, ranks them by output fidelity as a zero-shot label-free proxy, and applies GhostConv structural mutation to Pareto-optimal candidates; and (3) the \\textbf{first source-code-free compression pipeline for 3D point cloud models}, operating entirely via ONNX graph surgery with no original architecture definition required. On ModelNet40, H3DNAS reduces the number of parameters in PointNet, PointNet++, and PointMLP by $65.5\\%$, $43.2\\%$, and $49.1\\%$, respectively, while achieving $1.99\\times$, $1.29\\times$, and $1.67\\times$ inference speedups with negligible loss in accuracy. The source code is publicly available\\footnote{https://github.com/ClarityLab-Org/h3dnas}.",
     "authors": [
       "Anchit Mulye",
       "Rhythm Baghel",
@@ -1424,7 +1424,7 @@
     "authors": [
       "Zineb Lahrichi",
       "Marc Ferras",
-      "Ga\u00ebl Richard",
+      "Gaël Richard",
       "Geoffroy Peeters"
     ],
     "categories": [
@@ -1470,7 +1470,7 @@
     "summary": "The PGM-index (Ferragina and Vinciguerra, VLDB'20) is one of the most practical learned indexes, owing to its theoretical elegance and consistently strong empirical performance. It is built on optimal piecewise linear approximations (PLAs) that minimize the number of segments. In this paper, we ask how sensitive this optimal PLA itself is to poisoning attacks. We propose PGM-attack, an efficient poisoning attack that sequentially inserts adversarial keys to inflate the resulting number of segments, and we develop a method for deriving theoretical upper bounds on the number of segments attainable under arbitrary insertions. Our experiments show that poisoning only 10% of the keys allows PGM-attack to increase the segment count by up to 120x. On every evaluated instance, our instance-dependent upper bound is at most 1.92x the segment count attained by PGM-attack, certifying that PGM-attack achieves at least 52% of the optimum. This increase in the number of segments enlarges the PGM-index by up to 120x. Moreover, the attack also transfers to other learned indexes, substantially inflating the index size of PLA-based ones in particular. Our results reveal that, despite the optimality of its PLAs, the PGM-index has an intrinsic vulnerability rooted in its optimization objective, motivating robustness-aware objective design for future learned indexes. Our code is publicly available at https://github.com/atsukisato/pgm-attack.",
     "authors": [
       "Atsuki Sato",
-      "Martin Aum\u00fcller",
+      "Martin Aumüller",
       "Yusuke Matsui"
     ],
     "categories": [
@@ -1824,7 +1824,7 @@
     "summary": "Per-patient adapters are the preferred production architecture for dysarthric automatic speech recognition (ASR), yet parameter-efficient fine-tuning (PEFT) variants have not been compared in the speaker-dependent, per-patient regime. We present a single-speaker case study comparing seven LoRA-family methods (LoRA, QLoRA, AdaLoRA, DoRA, LoHA, VeRA, VB-LoRA) on two production bases (Whisper-large-v3 with Hungarian fine-tuning, and a multilingual Qwen3-ASR-1.7B checkpoint) for one post-stroke Hungarian male speaker (S1, 409 utterances; severe dysarthria on auditory-perceptual clinical assessment). Attention-projection adapters substantially improve CER on both bases. Across three seeds, a paired bootstrap detects no significant LoRA-DoRA difference (p>0.5; 13.86/13.90 % CER on Whisper, 28.10/28.33 % on Qwen3-ASR), so we adopt the simpler, cheaper LoRA. Real 4-bit (NF4) QLoRA is worse on every seed and both bases (14.56/30.09 % CER) with no memory saving at this scale, and LoHA, VeRA, VB-LoRA and AdaLoRA do not reach the LoRA family, though LoHA still gives an 18.6 % relative CER reduction on Whisper. On the same base, full fine-tuning is more accurate (11.43 % CER), but a 115 MB LoRA that also adapts the feed-forward blocks reaches within 0.66 pp of it at approximately 3.7 % of the per-patient storage. A 6-point enrollment grid shows about 5 min of patient audio captures 45.6 % of the zero-shot-to-30-min CER reduction, with further gains at 10 and 30 min (caveat: one speaker, one language, severe post-stroke dysarthria). Training scripts and recipes will be released, source-available under a research-use licence, on publication.",
     "authors": [
       "Bernard Muller",
-      "L\u00e1szl\u00f3 T\u00f3th",
+      "László Tóth",
       "LaVonne Roberts"
     ],
     "categories": [
@@ -1983,7 +1983,7 @@
       "Adrien Mialland",
       "Marc Plantevit",
       "Julien Gallois",
-      "C\u00e9line Robardet"
+      "Céline Robardet"
     ],
     "categories": [
       "cs.IR",
@@ -2084,7 +2084,7 @@
     "title": "AutoCompass: Accurate Visual Localization on Public Maps by Learning from Weak Labels",
     "summary": "Neural map matchers estimate an image's 3-DoF pose relative to a 2D map. These models are trained on large-scale datasets of geo-referenced images, whose position and heading labels often contain noise that affects the trained models. To address this, we present AutoCompass, a supervision approach for training neural map matchers from inaccurate absolute pose labels. First, we show that heading labels are unnecessary: trained from raw GPS labels, models learn to predict accurate headings, automatically. Second, defining a tolerance region around raw GPS improves positional accuracy. Third, if available, our supervision uses relative poses between training images, obtained via SLAM or SfM, which provide a more accurate training signal. Across driving and egocentric benchmarks, AutoCompass consistently outperforms counterparts trained with the usual strong reliance on absolute pose labels.",
     "authors": [
-      "Javier Tirado-Gar\u00edn",
+      "Javier Tirado-Garín",
       "Alan Savio Paul",
       "Shuai Chen",
       "Axel Barroso-Laguna",
@@ -2288,7 +2288,7 @@
     "title": "frb100-40 After Two Decades: An Optimality Certificate and a Preregistered Search Study",
     "summary": "For more than 20 years, the Model-RB benchmark frb100-40 remained an open challenge; since 2014, its public record had stood at 99 of 100 variables. We give a directly checkable 100-vertex independent set for its 4,000-vertex graph. Together with a verified partition into 100 cliques of size 40, the witness proves that the maximum independent-set size is 100 and the minimum vertex-cover size is 3,900. The stochastic run that found the witness is kept separate from this proof. We evaluated its added pair and triple repair operators in a preregistered campaign comprising 8,668 valid runs. The primary comparison found no detectable acceleration over base ULSA (hazard ratio 0.967, 95% confidence interval 0.915-1.023; p=0.248), and the factorial ablation reached the same conclusion. On a smaller FRB suite, the group-aware CSP pipeline solved 2,500/2,500 runs, compared with 2,391/2,500 for LibMVC-NuMVC. On frb100-40, full ULSA, base ULSA, and NuMVC each produced 0/56 new certificates. With no events, the planned cross-solver hazard ratios remain unidentified. NuMVC ended with cover size 3,902 in 40 runs and 3,903 in 16. Exhaustive enumeration showed that none of the 108 unique recorded conflict-two states had a strictly improving group-aware CSP neighbor within Hamming radius three. The certificate settles the instance. The experiments characterize the search barrier, and the preregistered comparisons show no heuristic advantage.",
     "authors": [
-      "Onur U\u011furlu"
+      "Onur Uğurlu"
     ],
     "categories": [
       "cs.DM",
@@ -2304,7 +2304,7 @@
   {
     "arxiv_id": "2609.02727v1",
     "title": "Neural operators approximate strongly continuous convex monotone semigroups",
-    "summary": "We approximate strongly continuous convex monotone semigroups by learning their Chernoff-type one-step operators with neural operators. First, we introduce the general class of so-called Chernoff-neural operators and show in a universal approximation theorem that they can approximate the Chernoff one-step operators arbitrarily well. By using stability estimates between weighted H\u00f6lder spaces, the one-step approximation error can be propagated through the iterations which yields universal approximation of the corresponding semigroup. Second, we introduce the more specialized class of envelope-neural operators for envelope semigroups which allows us to derive quantitative approximation rates. Finally, we illustrate the effectiveness of these neural operators in several numerical examples arising from non-linear partial differential equations, stochastic optimal control and stochastic processes under model uncertainty.",
+    "summary": "We approximate strongly continuous convex monotone semigroups by learning their Chernoff-type one-step operators with neural operators. First, we introduce the general class of so-called Chernoff-neural operators and show in a universal approximation theorem that they can approximate the Chernoff one-step operators arbitrarily well. By using stability estimates between weighted Hölder spaces, the one-step approximation error can be propagated through the iterations which yields universal approximation of the corresponding semigroup. Second, we introduce the more specialized class of envelope-neural operators for envelope semigroups which allows us to derive quantitative approximation rates. Finally, we illustrate the effectiveness of these neural operators in several numerical examples arising from non-linear partial differential equations, stochastic optimal control and stochastic processes under model uncertainty.",
     "authors": [
       "Jonas Blessing",
       "Philipp Schmocker",
@@ -2451,7 +2451,7 @@
     "summary": "Large language models now answer medical questions with expert-level performance. However, the context these systems act on can be misleading, and misleading context can corrupt a model's medical judgment. To understand how misleading context corrupts this judgment, we examine the model's susceptibility to the context, disclosure of it, mechanism of corrupted reasoning, and monitorability of the decision. On the medical reasoning subset of MedMisBench, a clinician-reviewed question-answering benchmark of 8,627 questions, we inject two types of misleading context cues, fabricated evidence and a bare assertion. We test three reasoning models, two that expose their full reasoning trace and one frontier model that exposes only its response. All three are more susceptible to the assertion than to the fabricated evidence, adopting the asserted answer 10 to 27 points more often. The misleading cues are disclosed in 81 to 98% of traces but only 7 to 90% of responses, and the assertion is disclosed less often than evidence based cues. Resampling from reasoning traces without disclosure shows the two cues corrupt reasoning differently, evidence entering early and accumulating while the assertion redirects the conclusion near its end. An LLM monitor catches 78% of corrupted decisions at 5% false positives when reading an open model's trace with guidance, against at most 32% from any response. The misleading context that models are most susceptible to is disclosed least, and was caught reliably only from an open reasoning trace, which frontier providers withhold.",
     "authors": [
       "Robin Linzmayer",
-      "No\u00e9mie Elhadad"
+      "Noémie Elhadad"
     ],
     "categories": [
       "cs.CL",
@@ -2640,7 +2640,7 @@
     "title": "Entangled Representations Amplify Collateral Damage in Unlearning",
     "summary": "A long-held intuition in interpretability research is that representational entanglement, the sharing of structure between knowledge domains in a neural network, makes unlearning harder. While the intuition is widespread, it has never been directly tested in a controlled experiment. We present a way to do so: by repurposing Selective Gradient Masking (SGTM), we train a suite of six 254M-parameter language models on English Wikipedia with graded levels of disentanglement between biology and non-biology knowledge. Applying three standard unlearning methods to every model in the suite, we find that more disentangled models consistently achieve better retain-forget trade-offs: at a fixed level of forgetting, the most disentangled models incur roughly $4\\times$ lower retain cost under two of the three methods, and $1.3\\times$ lower under the third. Because our intervention changes only the model, not the data or the unlearning algorithm, this is direct evidence that representational entanglement is one of the causes of collateral damage in unlearning, as interpretability researchers have long suspected. A similar design could be used to test other structural claims from interpretability.",
     "authors": [
-      "Ev\u017een Wybitul",
+      "Evžen Wybitul",
       "Tim G. J. Rudner",
       "Christian Schroeder de Witt"
     ],
@@ -2698,7 +2698,7 @@
   {
     "arxiv_id": "2609.02855v1",
     "title": "Improved Gradient Descent Lower Bounds Beyond Nesterov",
-    "summary": "We study how far gradient descent (GD) can be accelerated by predetermined stepsizes in smooth convex optimization. Going beyond the classical $\u03a9(n^{-2})$ first-order oracle lower bound of Nemirovsky and Yudin, we prove an $\u03a9(n^{-1.6342})$ non-anytime lower bound and an $\u03a9(n^{-1.2408})$ anytime lower bound. These improve the recent $\u03a9(n^{-1.932})$ non-anytime lower bound of Ma and Chen and the $\u03a9(n^{-4/3})$ anytime lower bound of Tsai et al., respectively. Together with the non-anytime $O(n^{-\\log_2(1+\\sqrt{2})})$ rate achieved by silver schedules, our anytime lower bound establishes a strict separation between the achievable convergence exponents in the two settings.",
+    "summary": "We study how far gradient descent (GD) can be accelerated by predetermined stepsizes in smooth convex optimization. Going beyond the classical $Ω(n^{-2})$ first-order oracle lower bound of Nemirovsky and Yudin, we prove an $Ω(n^{-1.6342})$ non-anytime lower bound and an $Ω(n^{-1.2408})$ anytime lower bound. These improve the recent $Ω(n^{-1.932})$ non-anytime lower bound of Ma and Chen and the $Ω(n^{-4/3})$ anytime lower bound of Tsai et al., respectively. Together with the non-anytime $O(n^{-\\log_2(1+\\sqrt{2})})$ rate achieved by silver schedules, our anytime lower bound establishes a strict separation between the achievable convergence exponents in the two settings.",
     "authors": [
       "Yuhan Ye",
       "Kaizhao Liu"
@@ -3146,7 +3146,7 @@
       "Yutong Chen",
       "Bernard Javot",
       "Rachael L'Orsa",
-      "Omer Burak Alada\u011f",
+      "Omer Burak Aladağ",
       "Yarden Sharon",
       "Jens Rolinger",
       "Ivan Capobianco",
@@ -3170,7 +3170,7 @@
     "title": "Oracle, will I ever learn? A study of prediction convergence and complementarity across link prediction models",
     "summary": "Knowledge graphs have become an important source of structured knowledge for Web applications, including search, question answering, and recommender systems. In these applications, link prediction can serve either as a prediction task itself or as a means to enrich incomplete knowledge graphs for downstream tasks. Interestingly, different link prediction models, or even different training runs of the same model, can produce substantially different predictions for the same query. This suggests a variability in the capture of the underlying knowledge by models, thus raising a fundamental question: to what extent do different models capture complementary knowledge, and how much of this knowledge could be recovered by combining them? We propose to measure model complementarity through the performance of an oracle that, for each query, selects the best prediction among a considered set of models, hence providing an upper bound on the performance achievable through model combination. Across several architectures and benchmarks, we find a substantial gap between individual models and their oracle, revealing that different models capture complementary knowledge. Yet, this complementarity rapidly saturates as more models are added, leaving a persistent subset of queries unsolved even by a large number of models. These findings reveal both the potential of model complementarity and a fundamental limit to what current link prediction models can collectively recover; thereby highlighting the need for further research to build robust Web applications.",
     "authors": [
-      "Guillaume M\u00e9rou\u00e9",
+      "Guillaume Méroué",
       "Fabien Gandon",
       "Pierre Monnin"
     ],
@@ -3230,7 +3230,7 @@
     "authors": [
       "Jan Schnorrenberg",
       "Jan Ernsting",
-      "Enrico K\u00fcllenberg",
+      "Enrico Küllenberg",
       "Tim Hahn",
       "Benjamin Risse",
       "Christian Thomas"
@@ -3501,7 +3501,7 @@
   {
     "arxiv_id": "2609.02566v1",
     "title": "Online Reinforcement Learning in the Met Office Unified Model through Distributed Model-Agent Coupling",
-    "summary": "Machine-learnt corrections can complement numerical weather prediction only if they adapt to the evolving model state while preserving dynamical consistency and numerical stability. To test this within a global forecasting model, we couple the Met Office (UKMO) Unified Model (UM) with distributed RL agents through rank-local tensors. A DDPG actor shares weights across the 70 vertical model levels of each atmospheric column and applies bounded potential-temperature corrections to the model tendencies. Across ten nudged training forecasts, nudging calculations towards the UKMO operational analysis provides an immediate counterfactual target. The frozen policy is then evaluated in a non-nudged forecast for inference. The coupled workflow successfully completes training and remains numerically stable in the evaluated case. Relative to a matched native UM forecast at +6 h, the learnt policy reduces Z$_{500}$ MAE in four of six latitude bands, including reductions of 45.8% and 40.8% in the northern and southern tropics. MSLP error too decreases in three bands, with a maximum reduction of 27.3% at 0-30\u00b0N. This single-case experiment demonstrates significant promise and feasibility of distributed online learning followed by non-nudged inference, laying the groundwork for RL-based bias correction and parametrisations within operational systems.",
+    "summary": "Machine-learnt corrections can complement numerical weather prediction only if they adapt to the evolving model state while preserving dynamical consistency and numerical stability. To test this within a global forecasting model, we couple the Met Office (UKMO) Unified Model (UM) with distributed RL agents through rank-local tensors. A DDPG actor shares weights across the 70 vertical model levels of each atmospheric column and applies bounded potential-temperature corrections to the model tendencies. Across ten nudged training forecasts, nudging calculations towards the UKMO operational analysis provides an immediate counterfactual target. The frozen policy is then evaluated in a non-nudged forecast for inference. The coupled workflow successfully completes training and remains numerically stable in the evaluated case. Relative to a matched native UM forecast at +6 h, the learnt policy reduces Z$_{500}$ MAE in four of six latitude bands, including reductions of 45.8% and 40.8% in the northern and southern tropics. MSLP error too decreases in three bands, with a maximum reduction of 27.3% at 0-30°N. This single-case experiment demonstrates significant promise and feasibility of distributed online learning followed by non-nudged inference, laying the groundwork for RL-based bias correction and parametrisations within operational systems.",
     "authors": [
       "Pritthijit Nath",
       "Sebastian Schemm",
@@ -3606,7 +3606,7 @@
   {
     "arxiv_id": "2609.02404v1",
     "title": "Evidence for Shared Routing Geometry and Dynamics in Sparse Mixture-of-Experts",
-    "summary": "Sparse mixture-of-experts (MoE) models use an independently parameterized router at each sparse layer to select experts for every token. Prior work has shown that routing decisions across depth can often be predicted from earlier routing signals, suggesting that routing is not fully independent across layers. However, the structure behind this predictability remains unclear. In this work, we provide evidence that routing-relevant states across layers share a common geometric structure that is obscured by layer-specific coordinate systems. We isolate the control subspace of each router and align these spaces into a shared canonical representation using generalized orthogonal Procrustes analysis. After alignment, a single linear transition reaches $R^2=0.39$--$0.71$ and retains 79--90\\% of the predictive power of separately fitted layer-specific dynamics, indicating that much of routing-state evolution follows a reusable process across depth. We then ask whether this shared dynamics is specific to routing or simply reflects the smooth evolution of hidden representations. A matched-rank comparison shows that residual representations are often easier to predict across layers, while router-control states preserve the model's expert choices much more faithfully. This separates generic cross-layer predictability from routing-specific information. Finally, we test whether the predicted canonical states remain meaningful when used in place of native routing states. The transported states preserve local routing behavior, while learned state evolution reduces $\u0394\\mathrm{NLL}$ relative to simple persistence by 15.7\\% on OLMoE and 6.2\\% over a 10-router horizon on Phi.",
+    "summary": "Sparse mixture-of-experts (MoE) models use an independently parameterized router at each sparse layer to select experts for every token. Prior work has shown that routing decisions across depth can often be predicted from earlier routing signals, suggesting that routing is not fully independent across layers. However, the structure behind this predictability remains unclear. In this work, we provide evidence that routing-relevant states across layers share a common geometric structure that is obscured by layer-specific coordinate systems. We isolate the control subspace of each router and align these spaces into a shared canonical representation using generalized orthogonal Procrustes analysis. After alignment, a single linear transition reaches $R^2=0.39$--$0.71$ and retains 79--90\\% of the predictive power of separately fitted layer-specific dynamics, indicating that much of routing-state evolution follows a reusable process across depth. We then ask whether this shared dynamics is specific to routing or simply reflects the smooth evolution of hidden representations. A matched-rank comparison shows that residual representations are often easier to predict across layers, while router-control states preserve the model's expert choices much more faithfully. This separates generic cross-layer predictability from routing-specific information. Finally, we test whether the predicted canonical states remain meaningful when used in place of native routing states. The transported states preserve local routing behavior, while learned state evolution reduces $Δ\\mathrm{NLL}$ relative to simple persistence by 15.7\\% on OLMoE and 6.2\\% over a 10-router horizon on Phi.",
     "authors": [
       "Kirill Labzin",
       "Stepan Kulibaba",
@@ -3843,7 +3843,7 @@
     "authors": [
       "Adrian Degenkolb",
       "Qiong Huang",
-      "Benjamin Sch\u00e4fer"
+      "Benjamin Schäfer"
     ],
     "categories": [
       "cs.LG"
@@ -4141,7 +4141,7 @@
     "authors": [
       "Troy Butler",
       "Tianyi Jiang",
-      "Jo\u00e3o Silva",
+      "João Silva",
       "Harri Hakula",
       "Timothy Wildey"
     ],
@@ -4327,104 +4327,5 @@
     "date": "2026-09-03",
     "source": "arxiv",
     "research_score": 0.41
-  },
-  {
-    "model_id": "TalTechNLP/Voxtral-Mini-4B-Realtime-estonian-2609",
-    "author": "unknown",
-    "title": "TalTechNLP/Voxtral-Mini-4B-Realtime-estonian-2609",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "vllm",
-      "safetensors",
-      "voxtral_realtime",
-      "automatic-speech-recognition",
-      "streaming-asr",
-      "realtime",
-      "estonian",
-      "mistral-common",
-      "et",
-      "arxiv:2602.11298",
-      "base_model:mistralai/Voxtral-Mini-4B-Realtime-2602",
-      "base_model:finetune:mistralai/Voxtral-Mini-4B-Realtime-2602",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "vllm",
-    "created_at": "2026-09-03T07:24:13.000Z",
-    "last_modified": "2026-09-03T07:35:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/TalTechNLP/Voxtral-Mini-4B-Realtime-estonian-2609",
-    "date": "2026-09-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ApolloRaines/Jenzin-Wuang-Nemotron-30B-A3B-BF16",
-    "author": "unknown",
-    "title": "ApolloRaines/Jenzin-Wuang-Nemotron-30B-A3B-BF16",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "nemotron_h",
-      "jblaze",
-      "weight-surgery",
-      "identity-transplant",
-      "behavioral-modification",
-      "nemotron",
-      "demo",
-      "parody",
-      "text-generation",
-      "conversational",
-      "en",
-      "license:other",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-09-02T02:57:56.000Z",
-    "last_modified": "2026-09-03T07:34:19.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/ApolloRaines/Jenzin-Wuang-Nemotron-30B-A3B-BF16",
-    "date": "2026-09-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ContextReq/Pebble-25M-Chat-GGUF",
-    "author": "unknown",
-    "title": "ContextReq/Pebble-25M-Chat-GGUF",
-    "downloads": 0,
-    "likes": 1,
-    "tags": [
-      "gguf",
-      "llama.cpp",
-      "pebble",
-      "mamba2",
-      "hybrid",
-      "small-language-model",
-      "chat",
-      "text-generation",
-      "base_model:basically-ai/Pebble-25M-Chat",
-      "base_model:quantized:basically-ai/Pebble-25M-Chat",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-09-03T07:21:45.000Z",
-    "last_modified": "2026-09-03T07:33:27.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ContextReq/Pebble-25M-Chat-GGUF",
-    "date": "2026-09-03",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
