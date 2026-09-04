@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-04T17:59:03.153211",
+  "date": "2026-09-04T20:19:57.611275",
   "patterns": {
     "multimodal_research": [
       {
@@ -609,6 +609,10 @@
       {
         "title": "Persistent Identity Preservation in Generative Image Models: A Benchmark and Evaluation System",
         "url": "https://arxiv.org/abs/2609.04151v1"
+      },
+      {
+        "title": "cnuland/llm-d-sc-reasoning-gate",
+        "url": "https://huggingface.co/cnuland/llm-d-sc-reasoning-gate"
       }
     ],
     "vision_systems": [
@@ -1225,6 +1229,10 @@
       {
         "title": "Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
         "url": "https://arxiv.org/abs/2609.03729v1"
+      },
+      {
+        "title": "cnuland/llm-d-sc-reasoning-gate",
+        "url": "https://huggingface.co/cnuland/llm-d-sc-reasoning-gate"
       }
     ],
     "benchmarks": [
@@ -1645,7 +1653,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "79 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1657,7 +1665,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "78 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1697,13 +1705,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 36,
+      "frequency": 37,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 401
+    "total_papers": 403
   }
 }
