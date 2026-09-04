@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-04T20:19:57.611275",
+  "date": "2026-09-04T22:43:31.402852",
   "patterns": {
     "multimodal_research": [
       {
@@ -611,8 +611,8 @@
         "url": "https://arxiv.org/abs/2609.04151v1"
       },
       {
-        "title": "cnuland/llm-d-sc-reasoning-gate",
-        "url": "https://huggingface.co/cnuland/llm-d-sc-reasoning-gate"
+        "title": "cnuland/llm-d-sc-route-gate",
+        "url": "https://huggingface.co/cnuland/llm-d-sc-route-gate"
       }
     ],
     "vision_systems": [
@@ -1229,10 +1229,6 @@
       {
         "title": "Unfold The World: Factorize 4D Properties in Reinforcing Spatial Reasoning",
         "url": "https://arxiv.org/abs/2609.03729v1"
-      },
-      {
-        "title": "cnuland/llm-d-sc-reasoning-gate",
-        "url": "https://huggingface.co/cnuland/llm-d-sc-reasoning-gate"
       }
     ],
     "benchmarks": [
@@ -1665,7 +1661,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "79 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1705,13 +1701,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 37,
+      "frequency": 36,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 402
   }
 }
