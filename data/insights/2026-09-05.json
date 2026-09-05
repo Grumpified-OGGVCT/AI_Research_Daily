@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-05T18:45:14.089581",
+  "date": "2026-09-05T20:53:49.804041",
   "patterns": {
     "multimodal_research": [
       {
@@ -291,10 +291,6 @@
       {
         "title": "SPARK: Input-Conditioned Sparse Activation Modulation for Frozen DiT-based Super-Resolution",
         "url": "https://arxiv.org/abs/2609.03813v1"
-      },
-      {
-        "title": "Dohyeon1/LFM2-M-SMoE-ngroups24",
-        "url": "https://huggingface.co/Dohyeon1/LFM2-M-SMoE-ngroups24"
       }
     ],
     "language_models": [
@@ -1637,7 +1633,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "46 independent papers",
+      "observation": "45 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,6 +1704,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 401
   }
 }
