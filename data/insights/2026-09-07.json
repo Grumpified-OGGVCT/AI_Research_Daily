@@ -1,11 +1,49 @@
 {
-  "date": "2026-09-07T17:01:14.943444",
-  "patterns": {},
-  "inferences": [],
-  "research_trends": [],
+  "date": "2026-09-07T20:25:36.176292",
+  "patterns": {
+    "reasoning": [
+      {
+        "title": "ByteOtter/Gemma-4-E4B-IT-TAK-Reasoning-GGUF",
+        "url": "https://huggingface.co/ByteOtter/Gemma-4-E4B-IT-TAK-Reasoning-GGUF"
+      },
+      {
+        "title": "ByteOtter/Qwen3.5-4B-TAK-Reasoning-GGUF",
+        "url": "https://huggingface.co/ByteOtter/Qwen3.5-4B-TAK-Reasoning-GGUF"
+      },
+      {
+        "title": "ByteOtter/Gemma-3-4B-IT-QAT-TAK-Reasoning-GGUF",
+        "url": "https://huggingface.co/ByteOtter/Gemma-3-4B-IT-QAT-TAK-Reasoning-GGUF"
+      },
+      {
+        "title": "ByteOtter/Qwen3.8-27B-TAK-Reasoning-GGUF",
+        "url": "https://huggingface.co/ByteOtter/Qwen3.8-27B-TAK-Reasoning-GGUF"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Reasoning - monitor for breakthrough results",
+      "confidence": "medium"
+    },
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
+  "research_trends": [
+    {
+      "topic": "reasoning",
+      "frequency": 4,
+      "significance": "medium"
+    }
+  ],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 2,
+    "total_papers": 4
   }
 }
