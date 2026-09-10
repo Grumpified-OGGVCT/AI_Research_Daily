@@ -337,7 +337,7 @@
     "title": "Improving Cross-Lingual Token Representations by Adding a Pinch of SALT",
     "summary": "Cross-lingual sentence encoders enable scalable transfer across hundreds of languages, powering applications such as translation mining and zero-shot learning in low-resource settings. Although trained for sentence-level alignment, they are increasingly also applied to token-level tasks such as hallucination detection and sequence tagging, exposing a mismatch between training and usage. We propose SALT, a lightweight post-training method that improves token representations by injecting span-level supervision into existing sentence encoders. Across five multilingual token-level benchmarks, SALT achieves the best overall results on four of them, outperforming alternative fine-tuning strategies and competitive encoders. It also improves sentence-level performance on cross-lingual retrieval and classification tasks. These results demonstrate that span-level supervision is an effective signal for improving both token and sentence representations.",
     "authors": [
-      "Guillem Ram\u00edrez"
+      "Guillem Ramírez"
     ],
     "categories": [
       "cs.CL",
@@ -500,7 +500,7 @@
   {
     "arxiv_id": "2609.10307v1",
     "title": "View-Structured Conformal Prediction for 3D Gaussian Splatting",
-    "summary": "3D Gaussian Splatting (3DGS) renders novel views in real time, but an uncertainty heatmap does not certify that a rendered view meets a certain prediction coverage. We treat novel-view synthesis as structured regression and ask that, with probability at least $1-\u03b1$, RGB prediction boxes cover at least a $1-\u03b2$ fraction of pixels in a new view. We propose View-Structured Conformal Prediction (VSCP). It splits the pre-calibration scale into a spatial shape from the renderer and a transferable view-difficulty factor, which predicts the smallest view-wise multiplier that shape needs. A held-out quantile over views (View-CP) then gives finite-sample validity even when transferring to new scenes. The same factorization makes the analysis exact: a conformity score is the ratio of oracle to predicted view difficulty, and excess width separates into a test-side and a calibration-side term. Across 13 real scenes, pixel-pooled calibration reaches 89.9\\% marginal pixel coverage but only 61.4\\% view-event coverage at a 90\\% target, while View-CP reaches 91.7--92.0\\%. At matched coverage VSCP cuts width by 22.1\\% against a constant scale, and matches a ten-model ensemble's 21.0\\% reduction using only one model per scene and four rather than ten rasterization passes per query. VSCP also improves on the closest single-model baseline, the 3DGS-U field, by 4.7 points ($p=0.0225$). The view predictor transfers from bounded source families to all nine unbounded Mip-NeRF~360 scenes. There the full scale beats the constant scale with 20.7\\% width saving on all nine scenes. It also keeps an 18.3\\% saving under a different densification backbone and runs at 216--280 FPS on an RTX~4090.",
+    "summary": "3D Gaussian Splatting (3DGS) renders novel views in real time, but an uncertainty heatmap does not certify that a rendered view meets a certain prediction coverage. We treat novel-view synthesis as structured regression and ask that, with probability at least $1-α$, RGB prediction boxes cover at least a $1-β$ fraction of pixels in a new view. We propose View-Structured Conformal Prediction (VSCP). It splits the pre-calibration scale into a spatial shape from the renderer and a transferable view-difficulty factor, which predicts the smallest view-wise multiplier that shape needs. A held-out quantile over views (View-CP) then gives finite-sample validity even when transferring to new scenes. The same factorization makes the analysis exact: a conformity score is the ratio of oracle to predicted view difficulty, and excess width separates into a test-side and a calibration-side term. Across 13 real scenes, pixel-pooled calibration reaches 89.9\\% marginal pixel coverage but only 61.4\\% view-event coverage at a 90\\% target, while View-CP reaches 91.7--92.0\\%. At matched coverage VSCP cuts width by 22.1\\% against a constant scale, and matches a ten-model ensemble's 21.0\\% reduction using only one model per scene and four rather than ten rasterization passes per query. VSCP also improves on the closest single-model baseline, the 3DGS-U field, by 4.7 points ($p=0.0225$). The view predictor transfers from bounded source families to all nine unbounded Mip-NeRF~360 scenes. There the full scale beats the constant scale with 20.7\\% width saving on all nine scenes. It also keeps an 18.3\\% saving under a different densification backbone and runs at 216--280 FPS on an RTX~4090.",
     "authors": [
       "Junzheng Chu",
       "Bin Pan",
@@ -639,7 +639,7 @@
     "authors": [
       "Killian Steunou",
       "Yannis Tevissen",
-      "Moun\u00eem A. El Yacoubi"
+      "Mounîm A. El Yacoubi"
     ],
     "categories": [
       "cs.CV",
@@ -919,7 +919,7 @@
   {
     "arxiv_id": "2609.09809v1",
     "title": "Online Inverse Integer Linear Optimization via Small-Gradient Skipping: Constant Regret and Finite Mistakes",
-    "summary": "In online inverse linear optimization, the learner predicts a weight at each round, observes the optimal action of the agent, and updates its prediction. In the general setting, the gap of $\\log T$ between the regret upper bound $O(d \\log T)$ and the lower bound $\u03a9(d)$ is unresolved (here $T$ is the total number of rounds and $d$ is the dimension). When the action set is M-convex, the regret is known to be bounded by $O(d \\log d)$, but the method attaining it computes a center of gravity at every round. This paper therefore proposes Small-Gradient Skipping (SGS), a mechanism that skips the update at rounds without a mistake in the case where the correct action is uniformly separated from the other candidates, and applies it to online gradient descent, the online Newton step, and MetaGrad. The number of mistakes is then bounded, for all three, by a quantity independent of $T$; and for the online Newton step and for MetaGrad with SGS, the dimension dependence of the regret becomes $O(d^2)$ when the forward problem is an integer linear program, that is, the factor $\\log T$ is removed. Moreover, when the action set is M-convex, the regret is bounded efficiently without computing a center of gravity.",
+    "summary": "In online inverse linear optimization, the learner predicts a weight at each round, observes the optimal action of the agent, and updates its prediction. In the general setting, the gap of $\\log T$ between the regret upper bound $O(d \\log T)$ and the lower bound $Ω(d)$ is unresolved (here $T$ is the total number of rounds and $d$ is the dimension). When the action set is M-convex, the regret is known to be bounded by $O(d \\log d)$, but the method attaining it computes a center of gravity at every round. This paper therefore proposes Small-Gradient Skipping (SGS), a mechanism that skips the update at rounds without a mistake in the case where the correct action is uniformly separated from the other candidates, and applies it to online gradient descent, the online Newton step, and MetaGrad. The number of mistakes is then bounded, for all three, by a quantity independent of $T$; and for the online Newton step and for MetaGrad with SGS, the dimension dependence of the regret becomes $O(d^2)$ when the forward problem is an integer linear program, that is, the factor $\\log T$ is removed. Moreover, when the action set is M-convex, the regret is bounded efficiently without computing a center of gravity.",
     "authors": [
       "Akira Kitaoka"
     ],
@@ -959,9 +959,9 @@
     "title": "Deep Learning-Based Detection of Electrical Faults and Power Quality Disturbances in Aerospace Power Systems",
     "summary": "More Electric Aircraft require fast and reliable monitoring of high-frequency electrical networks, yet most power quality disturbance and fault diagnosis methods are developed for conventional 50 or 60 Hz grids. This work presents a hardware-aware deep learning framework for multiclass detection of electrical faults and power quality disturbances in a 400 Hz aerospace power system. A high-fidelity simulation model inspired by the Boeing 787 electrical architecture generates voltage and current waveforms for 21 normal, disturbance, switching, open-circuit, and short-circuit conditions. Two datasets, each containing 73,500 samples, are formed from one-dimensional time-series signals and short-time Fourier transform time-frequency representations. Signal-processing augmentation, domain randomization, and class-specific generative adversarial networks increase waveform diversity, and the time-series dataset is released through IEEE DataPort. We compare 1D and 2D convolutional neural networks, long short-term memory networks, CNN-LSTM hybrids, ResNet, MobileNet, and VGG models under common training conditions. A compact ResNet provides the best accuracy-complexity tradeoff, achieving 96.94 percent software test accuracy with 175,685 parameters. After 8-bit quantization and deployment on a Xilinx Zynq UltraScale Plus MPSoC ZCU102, the model achieves 95.87 percent accuracy and a measured mean neural-network accelerator latency of 6.90 ms per input record. The results establish simulation-based, accelerator-level feasibility for embedded edge AI in aircraft electrical health monitoring and motivate future end-to-end data acquisition and experimental validation.",
     "authors": [
-      "Ian C. Guzm\u00e1n",
+      "Ian C. Guzmán",
       "Radu Babiceanu",
-      "Berker Pek\u00f6z"
+      "Berker Peköz"
     ],
     "categories": [
       "eess.SP",
@@ -1004,7 +1004,7 @@
   {
     "arxiv_id": "2609.10364v1",
     "title": "OmniMed-FL: A Robust Multimodal Federated Learning Framework for Clinical Diagnosis",
-    "summary": "Simultaneous assessment of medical imaging and patient records is often required in clinical diagnosis. However, standard machine learning algorithms cannot analyze these data types together. Meanwhile, compliance with HIPAA and GDPR can constrain centralized aggregation of sensitive patient data. This leaves a crucial void of secure fusion of visual and textual context across distant networks. Thus, we present OmniMed-FL, a controlled systems study of multimodal federated learning for five-class clinical condition classification (Normal, Pneumonia, COVID-19, Pleural Effusion, Cardiomegaly). Our proxy corpus pairs 3,000 public chest radiographs with 3,000 class-conditioned synthetic notes, matched by class, not by patient. The framework benchmarks eight fusion strategies, three initializations, four missing-text imputation rules, and matched federated baselines under non-IID Dirichlet partitioning across 3 to 20 hospital clients. As all notes are synthetic and pairing is not patient-level, these are descriptive proxy comparisons, not estimates of diagnostic performance or deployment readiness. Within those limits with clients ($K=5$) and severe skew ($\u03b1=0.1$), local-only training achieves a macro-F1 score of 0.297, FedAvg achieves $0.662\\pm0.074$, FedProx $0.737\\pm0.085$, a matched FedMME-style one-shot ensemble $0.647\\pm0.080$, and our SCAFFOLD-AdamW adaptation $0.070\\pm0.015$, the 0.075 FedProx-FedAvg gap falling inside the wider of the two two-seed standard deviations. Over a $4\\times3$ grid, label skew costs up to 0.27 F1 whereas a near-sevenfold client increase costs at most 0.10, while bidirectional volume grows linearly to 183.5 GiB at $K=20$. Multimodal fusion leads on both corpora, scoring 0.956 against 0.934 for text and 0.664 for images on the synthetic corpus and 0.906 against 0.880 and 0.737 on the radiograph corpus, for $2.3\\times$ the model state of text alone.",
+    "summary": "Simultaneous assessment of medical imaging and patient records is often required in clinical diagnosis. However, standard machine learning algorithms cannot analyze these data types together. Meanwhile, compliance with HIPAA and GDPR can constrain centralized aggregation of sensitive patient data. This leaves a crucial void of secure fusion of visual and textual context across distant networks. Thus, we present OmniMed-FL, a controlled systems study of multimodal federated learning for five-class clinical condition classification (Normal, Pneumonia, COVID-19, Pleural Effusion, Cardiomegaly). Our proxy corpus pairs 3,000 public chest radiographs with 3,000 class-conditioned synthetic notes, matched by class, not by patient. The framework benchmarks eight fusion strategies, three initializations, four missing-text imputation rules, and matched federated baselines under non-IID Dirichlet partitioning across 3 to 20 hospital clients. As all notes are synthetic and pairing is not patient-level, these are descriptive proxy comparisons, not estimates of diagnostic performance or deployment readiness. Within those limits with clients ($K=5$) and severe skew ($α=0.1$), local-only training achieves a macro-F1 score of 0.297, FedAvg achieves $0.662\\pm0.074$, FedProx $0.737\\pm0.085$, a matched FedMME-style one-shot ensemble $0.647\\pm0.080$, and our SCAFFOLD-AdamW adaptation $0.070\\pm0.015$, the 0.075 FedProx-FedAvg gap falling inside the wider of the two two-seed standard deviations. Over a $4\\times3$ grid, label skew costs up to 0.27 F1 whereas a near-sevenfold client increase costs at most 0.10, while bidirectional volume grows linearly to 183.5 GiB at $K=20$. Multimodal fusion leads on both corpora, scoring 0.956 against 0.934 for text and 0.664 for images on the synthetic corpus and 0.906 against 0.880 and 0.737 on the radiograph corpus, for $2.3\\times$ the model state of text alone.",
     "authors": [
       "Ayush Debnath",
       "Ruelia Saha",
@@ -1027,7 +1027,7 @@
     "summary": "Graph-based retrieval can improve multi-hop question answering, but existing approaches often incur high query-time costs and produce diffuse, oversized contexts that reduce generation efficiency. We present LiteRAG, a graph-based retrieval method that replaces expensive retrieval-time LLM control with query-conditioned algorithmic exploration and reasoning-chain context construction. On DistComp, a benchmark for multi-hop retrieval over distributed-systems papers, LiteRAG attains the highest overall quality among the evaluated methods (0.798) while reducing per-query latency by over 100$\\times$ and cost by over 99% relative to GraphRAG Global and DRIFT. On UltraDomain, it matches LinearRAG on overall quality while using about 14$\\times$ fewer tokens. An ablation study indicates that LiteRAG's query-adaptive thresholding and community-aware hub penalization are the main drivers of its token-efficiency gains.",
     "authors": [
       "Daniel Alejandro Coll Tejeda",
-      "Pedro Garc\u00eda L\u00f3pez",
+      "Pedro García López",
       "Daniel Barcelona-Pons"
     ],
     "categories": [
@@ -1258,14 +1258,14 @@
     "title": "Structure-Aware Unsupervised Anomaly Detection for Spacecraft Telemetry with Adaptive EVT Thresholding",
     "summary": "Operational anomaly detection in spacecraft telemetry typically requires labeled historical anomalies or extended warm-up periods. These requirements are rarely met in practice. We propose an unsupervised, deployment-ready framework that produces predictions from the second month of operation without any labels, prior fault knowledge, or mission-specific tuning. The approach combines incremental monthly retraining, statistical model selection, and adaptive Extreme Value Theory (EVT) thresholding for false alarm control. On the ESA Anomalies Dataset (ESA-AD), it achieves $F_{0.5}=0.700$ on Mission~1 and $F_{0.5}=0.698$ on Mission~2 under strict chronological evaluation.",
     "authors": [
-      "\u00d3scar Alcarria",
-      "Rafael S\u00e1nchez",
+      "Óscar Alcarria",
+      "Rafael Sánchez",
       "Javier Sempere",
       "Pablo Torrijos",
       "Juan C. Alfaro",
-      "Juan M. Au\u00f1\u00f3n",
-      "Jos\u00e9 A. G\u00e1mez",
-      "Jos\u00e9 M. Puerta"
+      "Juan M. Auñón",
+      "José A. Gámez",
+      "José M. Puerta"
     ],
     "categories": [
       "cs.LG"
@@ -1819,10 +1819,10 @@
   {
     "arxiv_id": "2609.10060v1",
     "title": "Reference-Based Bias Detection in LLMs via Relative Representations of Hidden States",
-    "summary": "Existing bias auditing methods typically rely on model outputs, requiring costly benchmarks or judge models and potentially missing internal shifts that never appear in generated text. We propose a reference-based method that audits bias in hidden-state representations across related model variants, for example before and after fine-tuning. Because fine-tuning reshapes representation geometry, absolute hidden states are not directly comparable, so we encode each sentence by its similarities to a fixed set of anchor sentences, yielding relative representations in a shared comparison space. There we measure how target groups shift in their association with positive and negative attributes, a quantity we call the Representational Bias Shift $\u0394B$. Across three model families and the WildGuardMix, DecodingTrust and ToxiGen benchmarks, $\u0394B$ correlates with output-level bias change in 15 of the 18 settings we test, reaching $|r| = 0.84$ ($p < 0.001$) under full fine-tuning and becoming more model-dependent under parameter-efficient adaptation. Thresholding $\u0394B$ detects checkpoints whose bias increased with ROC AUC between $0.65$ and $0.99$, and on WildGuardMix and DecodingTrust it separates them better than a SEAT-based baseline for all three families. $\u0394B$ is also stable under changes to the anchor set, attribute sets and target templates. Our method requires no task-specific evaluation data and audits a model in about three minutes, using $3$-$50\\times$ less compute than the output-level benchmarks considered here. We view it as complementary to output-based auditing rather than a replacement for it.",
+    "summary": "Existing bias auditing methods typically rely on model outputs, requiring costly benchmarks or judge models and potentially missing internal shifts that never appear in generated text. We propose a reference-based method that audits bias in hidden-state representations across related model variants, for example before and after fine-tuning. Because fine-tuning reshapes representation geometry, absolute hidden states are not directly comparable, so we encode each sentence by its similarities to a fixed set of anchor sentences, yielding relative representations in a shared comparison space. There we measure how target groups shift in their association with positive and negative attributes, a quantity we call the Representational Bias Shift $ΔB$. Across three model families and the WildGuardMix, DecodingTrust and ToxiGen benchmarks, $ΔB$ correlates with output-level bias change in 15 of the 18 settings we test, reaching $|r| = 0.84$ ($p < 0.001$) under full fine-tuning and becoming more model-dependent under parameter-efficient adaptation. Thresholding $ΔB$ detects checkpoints whose bias increased with ROC AUC between $0.65$ and $0.99$, and on WildGuardMix and DecodingTrust it separates them better than a SEAT-based baseline for all three families. $ΔB$ is also stable under changes to the anchor set, attribute sets and target templates. Our method requires no task-specific evaluation data and audits a model in about three minutes, using $3$-$50\\times$ less compute than the output-level benchmarks considered here. We view it as complementary to output-based auditing rather than a replacement for it.",
     "authors": [
-      "Marek Jeli\u0144ski",
-      "Jan Dubi\u0144ski",
+      "Marek Jeliński",
+      "Jan Dubiński",
       "Maciej Chrabaszcz",
       "Sebastian Cygert"
     ],
@@ -1892,7 +1892,7 @@
       "Joana Rosa",
       "Pedro Santos",
       "Valdemar Oliveira",
-      "Rom\u00e3o Silva",
+      "Romão Silva",
       "L. Miguel Silveira",
       "Bruno Martins"
     ],
@@ -2109,7 +2109,7 @@
     "authors": [
       "Nathan Roll",
       "Irene Yi",
-      "B\u00fc\u015fra Mar\u015fan",
+      "Büşra Marşan",
       "Vianney Grenez",
       "Gabriel Stein",
       "Momcilo Mrkaic",
@@ -2132,7 +2132,7 @@
   {
     "arxiv_id": "2609.09986v1",
     "title": "A Sharp Barrier for Consistent Submodular Maximization: Any Improvement over $2-\\sqrt{2}$ Entails Exponential Queries or Linear Recourse",
-    "summary": "Consistent submodular maximization studies the tradeoff between solution quality and stability when elements arrive over time. For a monotone submodular objective, which models diminishing returns, an algorithm maintains a set of at most $k$ available elements and changes only $O(1)$ elements after each insertion. D\u00fctting et al. [2025] established a tight $2/3$ approximation with unrestricted computation and a polynomial-time $0.51$ approximation. They left open at STOC 2025 whether efficient algorithms can match the offline $1-1/e$ guarantee. We resolve this problem by proving that the supremum approximation achievable with polynomially many value queries and worst-case constant recourse is \\[ \u03b2=2-\\sqrt2\\approx0.5858<1-1/e. \\] For every $\\varepsilon>0$, our randomized algorithm attains $\u03b2-\\varepsilon$ with $O(\\varepsilon^{-2})$ changes per insertion. Any fixed improvement requires exponentially many queries before one critical insertion or linear recourse of $\u03a9(k)$ changes at that insertion, even with unlimited queries afterwards. This gap quantifies the cost of consistency: the current oracle hides which elements will be needed after an arrival. We also determine the exact curvature-dependent threshold $1-(\\sqrt2-1)\\vartheta$, attain $1-1/e-\\varepsilon$ for weighted coverage with $O(\\varepsilon^{-1})$ recourse, and separate the existence of universal future-price certificates from their efficient computation. Our algorithm has a bounded-bit polynomial-time implementation for polynomial-bit rational oracle answers; the lower bound uses only logarithmic-bit rational answers.",
+    "summary": "Consistent submodular maximization studies the tradeoff between solution quality and stability when elements arrive over time. For a monotone submodular objective, which models diminishing returns, an algorithm maintains a set of at most $k$ available elements and changes only $O(1)$ elements after each insertion. Dütting et al. [2025] established a tight $2/3$ approximation with unrestricted computation and a polynomial-time $0.51$ approximation. They left open at STOC 2025 whether efficient algorithms can match the offline $1-1/e$ guarantee. We resolve this problem by proving that the supremum approximation achievable with polynomially many value queries and worst-case constant recourse is \\[ β=2-\\sqrt2\\approx0.5858<1-1/e. \\] For every $\\varepsilon>0$, our randomized algorithm attains $β-\\varepsilon$ with $O(\\varepsilon^{-2})$ changes per insertion. Any fixed improvement requires exponentially many queries before one critical insertion or linear recourse of $Ω(k)$ changes at that insertion, even with unlimited queries afterwards. This gap quantifies the cost of consistency: the current oracle hides which elements will be needed after an arrival. We also determine the exact curvature-dependent threshold $1-(\\sqrt2-1)\\vartheta$, attain $1-1/e-\\varepsilon$ for weighted coverage with $O(\\varepsilon^{-1})$ recourse, and separate the existence of universal future-price certificates from their efficient computation. Our algorithm has a bounded-bit polynomial-time implementation for polynomial-bit rational oracle answers; the lower bound uses only logarithmic-bit rational answers.",
     "authors": [
       "Shi Fu",
       "Qixin Zhang",
@@ -2263,7 +2263,7 @@
       "Simon Khan",
       "Laurent Gajny",
       "Jennyfer Lecompte",
-      "S\u00e9bastien Laporte"
+      "Sébastien Laporte"
     ],
     "categories": [
       "cs.CV"
@@ -2653,7 +2653,7 @@
     "summary": "Current LLM memory systems treat all personal facts identically, so stores grow without bound while retrieval precision degrades. The core challenge is lifecycle management: which memories should persist, which should be replaced, and at what rate, conditioned on the behavioral type of each fact. Fortunate Recall (FR) is a composable policy layer that classifies personal facts into a 10+1 behavioral ontology and applies category-specific lifecycle policies (differential temporal decay, slot-key supersession, event-time validity, and category-aware retrieval routing) as deterministic functions over LLM-extracted metadata. FR-Bank, our infrastructure-independent implementation, reaches a 76.9% pass rate on LifecycleBench, a new 516-question temporal-disambiguation benchmark, ahead of Mem0, A-MEM, Memory-R1, and MemoryOS (61% to 70.5%), and 75.2% on the full LongMemEval-S under the canonical Wu et al. judge protocol, so lifecycle policies impose no measurable cost on standard retrieval. A pre-registered ablation locates the gains: replacing the typed layer with three generic lifecycle primitives leaves correctness statistically unchanged (-1.7pp, 95% CI [-6.0, +2.7]), so the generic lifecycle metadata carries the correctness advantage, while the behavioral ontology carries calibration, halving downstream confabulation (12.0% vs 24.2%, p<0.001). End-to-end, FR-Bank cuts confabulation from Mem0's 45.1% to 22.4% over answered queries and from 32.2% to 13.0% over all queries while answering more of them correctly (31.2% vs 18.6%); the ranking replicates on the open-weight Kimi K2.5. The decomposition transfers to BEAM, an independently built benchmark: 46.8% correct vs Mem0's 32.9% over 280 questions, with the ontology's benefit concentrated in contradiction resolution and saturating near seven policy clusters. The ontology, benchmark, and code are released.",
     "authors": [
       "Ansuman Mullick",
-      "Eray T\u00fcz\u00fcn"
+      "Eray Tüzün"
     ],
     "categories": [
       "cs.AI"
@@ -2693,8 +2693,8 @@
     "summary": "This paper introduces an evolutionary computation approach for consensus in structural Bayesian Network (BN) fusion under the constraint of limited treewidth. The consensus BN aims to reconcile multiple input BNs into a single one that retains key structural features present in the original networks. Treewidth, a graph-based parameter associated with computationally tractable inference, is utilized to restrict the complexity of the resulting network. A genetic algorithm is proposed to look for a BN that codifies as much information about the unrestricted fusion as possible while ensuring the treewidth restriction. Experimental evaluation demonstrates the genetic algorithm's ability to obtain consensus BNs with limited treewidth, providing a valuable tool for aggregating information from diverse sources while returning a computationally actionable model.",
     "authors": [
       "Pablo Torrijos",
-      "Jos\u00e9 A. G\u00e1mez",
-      "Jos\u00e9 M. Puerta"
+      "José A. Gámez",
+      "José M. Puerta"
     ],
     "categories": [
       "cs.NE",
@@ -2709,8 +2709,8 @@
   },
   {
     "arxiv_id": "2609.10226v1",
-    "title": "$\u03a6$-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?",
-    "summary": "Large language models (LLMs) have demonstrated remarkable capabilities in reasoning and code generation, raising the prospect that they could assist in developing and optimizing the very infrastructure that powers them. However, existing benchmarks mainly focus on isolated kernels, predefined operators, or pre-specified optimization targets, and therefore fail to evaluate the ability of LLMs to perform open-ended, long-horizon LLM infrastructure engineering. To address this gap, we present $\u03a6$-Bench, a benchmark for systematically evaluating LLMs on engineering the LLM infrastructure stack. Derived from optimization problems studied in frontier research and grounded in real-world code repositories, $\u03a6$-Bench provides broad coverage of the LLM infrastructure stack and spans tasks of varying complexity, ranging from localized kernel-level function completion to long-horizon implementation and end-to-end system optimization. Extensive experiments on frontier LLMs reveal their current capabilities and limitations in engineering complex LLM infrastructure, offering insights into the challenges that remain on the path toward autonomous optimization of future AI infrastructure.",
+    "title": "$Φ$-Bench: Can Large Language Models Engineer the Infrastructure That Powers Them?",
+    "summary": "Large language models (LLMs) have demonstrated remarkable capabilities in reasoning and code generation, raising the prospect that they could assist in developing and optimizing the very infrastructure that powers them. However, existing benchmarks mainly focus on isolated kernels, predefined operators, or pre-specified optimization targets, and therefore fail to evaluate the ability of LLMs to perform open-ended, long-horizon LLM infrastructure engineering. To address this gap, we present $Φ$-Bench, a benchmark for systematically evaluating LLMs on engineering the LLM infrastructure stack. Derived from optimization problems studied in frontier research and grounded in real-world code repositories, $Φ$-Bench provides broad coverage of the LLM infrastructure stack and spans tasks of varying complexity, ranging from localized kernel-level function completion to long-horizon implementation and end-to-end system optimization. Extensive experiments on frontier LLMs reveal their current capabilities and limitations in engineering complex LLM infrastructure, offering insights into the challenges that remain on the path toward autonomous optimization of future AI infrastructure.",
     "authors": [
       "Leilei Ding",
       "Shumin Wang",
@@ -2739,7 +2739,7 @@
   {
     "arxiv_id": "2609.10196v1",
     "title": "An Exponential Deterministic--Randomized Gap in ERM-Oracle Complexity for Thresholds on an Unknown Order",
-    "summary": "Attias, Hanneke and Ramaswami (NeurIPS 2025) asked whether randomization provably reduces the oracle calls needed for online learning when the class is accessible only through an oracle. We study the instance they singled out: transductive online learning of thresholds on an unknown total order of T instances, with a consistency-type ERM oracle that returns a full concept consistent with a queried labeled set (or reports non-realizability). Our main result is a separation for a fixed natural oracle. When the oracle is the minimal-prefix rule (or the maximal-prefix rule), every deterministic learner makes M mistakes and Q calls with $M+Q\\ge T-\\varepsilon$ on some instance ($\\varepsilon\\in\\{0,1\\}$, according to whether the empty prefix is a concept), and the constant is exact; hence $O(\\log T)$ mistakes cost $T-\\varepsilon-O(\\log T)$ calls, whereas that paper's randomized learner achieves $O(\\log T)$ expected calls and mistakes under the same rule. The randomized order is optimal: on an explicit hard distribution under the minimal-prefix rule, every learner has expected mistakes at least $((T+1-\\varepsilon)\\,128^{-\\mathbb{E}[Q]}-1)/2$, so $\u03a9(\\log T)$ expected calls are necessary for polylogarithmic mistakes. The separation is governed by the oracle's selection rule, not by the class alone: for a legal feasible-median ERM rule a deterministic learner achieves $O(\\log T)$ calls and mistakes, while a global-median rule again forces linear total cost. The same linear bound holds when the oracle's answers are chosen adversarially and then frozen into a memoryless oracle. We add partial tradeoff results for fixed query budgets (the middle regime is open) and an interface contrast: with only a weak consistency oracle, returning a realizability bit, both deterministic and randomized learners need $\u0398(T)$ calls.",
+    "summary": "Attias, Hanneke and Ramaswami (NeurIPS 2025) asked whether randomization provably reduces the oracle calls needed for online learning when the class is accessible only through an oracle. We study the instance they singled out: transductive online learning of thresholds on an unknown total order of T instances, with a consistency-type ERM oracle that returns a full concept consistent with a queried labeled set (or reports non-realizability). Our main result is a separation for a fixed natural oracle. When the oracle is the minimal-prefix rule (or the maximal-prefix rule), every deterministic learner makes M mistakes and Q calls with $M+Q\\ge T-\\varepsilon$ on some instance ($\\varepsilon\\in\\{0,1\\}$, according to whether the empty prefix is a concept), and the constant is exact; hence $O(\\log T)$ mistakes cost $T-\\varepsilon-O(\\log T)$ calls, whereas that paper's randomized learner achieves $O(\\log T)$ expected calls and mistakes under the same rule. The randomized order is optimal: on an explicit hard distribution under the minimal-prefix rule, every learner has expected mistakes at least $((T+1-\\varepsilon)\\,128^{-\\mathbb{E}[Q]}-1)/2$, so $Ω(\\log T)$ expected calls are necessary for polylogarithmic mistakes. The separation is governed by the oracle's selection rule, not by the class alone: for a legal feasible-median ERM rule a deterministic learner achieves $O(\\log T)$ calls and mistakes, while a global-median rule again forces linear total cost. The same linear bound holds when the oracle's answers are chosen adversarially and then frozen into a memoryless oracle. We add partial tradeoff results for fixed query budgets (the middle regime is open) and an interface contrast: with only a weak consistency oracle, returning a realizability bit, both deterministic and randomized learners need $Θ(T)$ calls.",
     "authors": [
       "Xuan Li"
     ],
@@ -2833,7 +2833,7 @@
     "title": "A Unifying Perspective on Probabilities as Model Predictions",
     "summary": "Although probabilistic statements are ubiquitous, foundational disagreements persist about their understanding, as exemplified by debates between Bayesians and frequentists; moreover, it is unclear when and why acting on them actually leads to desirable outcomes. Here, we argue that every probability is the output of a \\emph{prediction method}, that is, it depends on both a particular way of constructing abstractions and a way of transforming them into predictions. Through this, we provide a unifying perspective on supposedly different kinds of probabilities and show that even supposedly objective ones are model-dependent. We demonstrate that when a finite calibration criterion is met, one can anticipate the distribution of utilities for a given policy and inform successful decision-making on finite sets of events. Based on the notion of prediction methods, inductive arguments, and the probability calculus, we explain the feasibility of the calibration criterion in many settings. Overall, we develop a coherent perspective on probabilities and their use, connecting key intuitions behind other interpretations along the way.",
     "authors": [
-      "Benedikt H\u00f6ltgen"
+      "Benedikt Höltgen"
     ],
     "categories": [
       "stat.ML",
@@ -3023,7 +3023,7 @@
       "Pranav Poudel",
       "Florence Dell'Aniello Picard",
       "Nairouz Shehata",
-      "Fr\u00e9d\u00e9ric Lavoie",
+      "Frédéric Lavoie",
       "Herve Lombaert"
     ],
     "categories": [
@@ -3047,7 +3047,7 @@
       "Matthieu Cord",
       "Elisa Ricci",
       "Andrei Bursuc",
-      "Monika Wysocza\u0144ska"
+      "Monika Wysoczańska"
     ],
     "categories": [
       "cs.CV"
@@ -3346,7 +3346,7 @@
   {
     "arxiv_id": "2609.10529v1",
     "title": "A positive resolution of the gap-entropy conjecture",
-    "summary": "We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. For each suboptimal arm $i$, let $\u0394_i=\u03bc_*-\u03bc_i$ be its gap from the optimal mean, and write $H=\\sum_{i\\ne *}\u0394_i^{-2}$. Let $p_r$ be the fraction of $H$ contributed by arms with $2^{-(r+1)}<\u0394_i\\le2^{-r}$, and let $\\mathrm{Ent}(I)=\\sum_{r:p_r>0} p_r\\log(1/p_r)$. Among all algorithms that identify the optimal arm with probability at least $1-\u03b4$ on every Gaussian instance, the optimal expected number of samples on a given instance, averaged over all permutations of the arm labels, is within absolute constant factors of $H(\\log(1/\u03b4)+\\mathrm{Ent}(I))$. Moreover, there is an algorithm, independent of the instance, whose expected number of samples is bounded by a constant multiple of this quantity plus $g^{-2}\\log\\log(e^e/g)$, where $g=\\min_{i\\ne *}\u0394_i$ is the gap to the closest competitor.",
+    "summary": "We prove the gap-entropy conjecture for fixed-confidence best-arm identification with independent unit-variance Gaussian arms, means in $[0,1]$, and a unique optimal arm. For each suboptimal arm $i$, let $Δ_i=μ_*-μ_i$ be its gap from the optimal mean, and write $H=\\sum_{i\\ne *}Δ_i^{-2}$. Let $p_r$ be the fraction of $H$ contributed by arms with $2^{-(r+1)}<Δ_i\\le2^{-r}$, and let $\\mathrm{Ent}(I)=\\sum_{r:p_r>0} p_r\\log(1/p_r)$. Among all algorithms that identify the optimal arm with probability at least $1-δ$ on every Gaussian instance, the optimal expected number of samples on a given instance, averaged over all permutations of the arm labels, is within absolute constant factors of $H(\\log(1/δ)+\\mathrm{Ent}(I))$. Moreover, there is an algorithm, independent of the instance, whose expected number of samples is bounded by a constant multiple of this quantity plus $g^{-2}\\log\\log(e^e/g)$, where $g=\\min_{i\\ne *}Δ_i$ is the gap to the closest competitor.",
     "authors": [
       "P. M. Aronow",
       "Nathan Kallus",
@@ -3387,7 +3387,7 @@
   {
     "arxiv_id": "2609.10514v1",
     "title": "Optimal Low-Rank Quantum State Tomography with Bounded-Sample Joint Measurements",
-    "summary": "We determine the optimal sample complexity of low-rank quantum state tomography when each measurement may act jointly on at most $t$ samples. For sufficiently small $\\varepsilon$, estimating an unknown state on $\\mathbb{C}^d$ of rank at most $r$ to trace norm error $\\varepsilon$ with constant success probability requires, and is achievable with, $$   \u0398\\left(   \\frac{dr}{\\varepsilon^2}   \\max\\left\\{1,\\frac r{\\sqrt t}\\right\\}   \\right)$$ samples. The lower bound allows the protocol to choose each joint measurement adaptively using all previous classical outcomes; the matching upper bound is nonadaptive. Thus joint measurements on at most $t$ samples improve the complexity of algorithms making single-sample measurements by at most a factor $\\sqrt t$. Further, measuring order $r^2$ samples jointly is necessary and sufficient to attain the unrestricted collective rate.   For the lower bound, we vary the support of a state with fixed uniform spectrum and bound the Fisher information trace of every joint measurement on $t$ samples. The adaptive Fisher chain rule and the van Trees inequality then give the trace norm lower bound. For the upper bound, we construct and analyze a nonadaptive tomography protocol based on a Gaussian joint measurement. An explicit second moment identity and a conditional Gaussian law outside the state's support give a rank-dependent error analysis, yielding the matching rate.",
+    "summary": "We determine the optimal sample complexity of low-rank quantum state tomography when each measurement may act jointly on at most $t$ samples. For sufficiently small $\\varepsilon$, estimating an unknown state on $\\mathbb{C}^d$ of rank at most $r$ to trace norm error $\\varepsilon$ with constant success probability requires, and is achievable with, $$   Θ\\left(   \\frac{dr}{\\varepsilon^2}   \\max\\left\\{1,\\frac r{\\sqrt t}\\right\\}   \\right)$$ samples. The lower bound allows the protocol to choose each joint measurement adaptively using all previous classical outcomes; the matching upper bound is nonadaptive. Thus joint measurements on at most $t$ samples improve the complexity of algorithms making single-sample measurements by at most a factor $\\sqrt t$. Further, measuring order $r^2$ samples jointly is necessary and sufficient to attain the unrestricted collective rate.   For the lower bound, we vary the support of a state with fixed uniform spectrum and bound the Fisher information trace of every joint measurement on $t$ samples. The adaptive Fisher chain rule and the van Trees inequality then give the trace norm lower bound. For the upper bound, we construct and analyze a nonadaptive tomography protocol based on a Gaussian joint measurement. An explicit second moment identity and a conditional Gaussian law outside the state's support give a rank-dependent error analysis, yielding the matching rate.",
     "authors": [
       "Ashwin Nayak",
       "Xingyu Zhou"
@@ -3427,7 +3427,7 @@
   {
     "arxiv_id": "2609.10299v1",
     "title": "A Dominant Diffuse Phase in the Sparse Autoencoder Phase Diagram",
-    "summary": "Sparse autoencoders (SAEs) are increasingly used to recover interpretable features from neural-network activations, yet systematic feature co-occurrence can cause distinct features to be absorbed or merged. The MAIS-O43 open problem proposes a controlled experiment to characterize when recovery of a true synthetic dictionary gives way to feature merging as the nesting fraction $\u03b3$, sparsity penalty $\u03bb$, and dictionary size $M$ vary. We implement the specified protocol and evaluate 200 independently initialized fits across ten of the 165 grid cells. We observe zero full-dictionary recoveries and zero merges. Instead, every run converges to a reproducible diffuse phase: reconstruction is nearly perfect, but learned atoms typically remain far from the true features (median best cosine 0.5-0.7 against a 0.95 recovery criterion) and learned codes are an order of magnitude denser than the ground truth. This behavior persists under robustness checks and across the full 165-cell grid using standard minibatch Adam (3,300 additional fits). Since the global optimum of the exact sparse-coding objective is known to merge nested features in the two-feature case, these results suggest that trained SAEs need not reach the corresponding minima, and that the phase diagram of trained models may differ fundamentally from that of objective minimizers.",
+    "summary": "Sparse autoencoders (SAEs) are increasingly used to recover interpretable features from neural-network activations, yet systematic feature co-occurrence can cause distinct features to be absorbed or merged. The MAIS-O43 open problem proposes a controlled experiment to characterize when recovery of a true synthetic dictionary gives way to feature merging as the nesting fraction $γ$, sparsity penalty $λ$, and dictionary size $M$ vary. We implement the specified protocol and evaluate 200 independently initialized fits across ten of the 165 grid cells. We observe zero full-dictionary recoveries and zero merges. Instead, every run converges to a reproducible diffuse phase: reconstruction is nearly perfect, but learned atoms typically remain far from the true features (median best cosine 0.5-0.7 against a 0.95 recovery criterion) and learned codes are an order of magnitude denser than the ground truth. This behavior persists under robustness checks and across the full 165-cell grid using standard minibatch Adam (3,300 additional fits). Since the global optimum of the exact sparse-coding objective is known to merge nested features in the two-feature case, these results suggest that trained SAEs need not reach the corresponding minima, and that the phase diagram of trained models may differ fundamentally from that of objective minimizers.",
     "authors": [
       "Alexis D. Plascencia"
     ],
@@ -3490,7 +3490,7 @@
     "authors": [
       "Judith Bernett",
       "Anton Spannagl",
-      "Joel \u00c5s",
+      "Joel Ås",
       "Markus List",
       "David B. Blumenthal"
     ],
@@ -3911,64 +3911,9 @@
     "research_score": 0.5
   },
   {
-    "model_id": "Jackrong/Qwopus3.8-27B-Flash-GGUF",
-    "author": "unknown",
-    "title": "Jackrong/Qwopus3.8-27B-Flash-GGUF",
-    "downloads": 113295,
-    "likes": 174,
-    "tags": [
-      "transformers",
-      "gguf",
-      "llama.cpp",
-      "image-text-to-text",
-      "vision",
-      "multimodal",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "text-generation",
-      "qwen3_8",
-      "qwen3",
-      "qwen",
-      "27b",
-      "fine-tuned",
-      "instruction-tuned",
-      "reasoning",
-      "agent",
-      "agentic",
-      "tool-use",
-      "function-calling",
-      "code-generation",
-      "mtp",
-      "speculative-decoding",
-      "local-inference",
-      "safetensors",
-      "en",
-      "zh",
-      "es",
-      "ru",
-      "ja",
-      "base_model:Qwen/Qwen3.8-27B",
-      "base_model:quantized:Qwen/Qwen3.8-27B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "image-text-to-text",
-    "library": "transformers",
-    "created_at": "2026-09-04T12:43:31.000Z",
-    "last_modified": "2026-09-10T07:43:20.000Z",
-    "days_since_creation": 5,
-    "url": "https://huggingface.co/Jackrong/Qwopus3.8-27B-Flash-GGUF",
-    "date": "2026-09-10",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.5
-  },
-  {
     "arxiv_id": "2609.10366v1",
     "title": "AVSRBench: A Multi-Condition AVSR Benchmark",
-    "summary": "While AVSR has achieved sub-1% word error rates on the standard LRS3 benchmark, its reliance on broadcast speech obscures whether this reflects true generalization or just domain adaptation. To investigate this gap, we evaluate three AVSR architectures across six conditions: controlled broadcast speech, fixed-grammar utterances, hyper-articulated Lombard speech, read speech from professional lipspeakers and non-professional speakers, and spontaneous multi-party video conversations. We find that visual-only performance deteriorates rapidly beyond broadcast domains, and audio-video fusion mainly benefits Lombard speech environments. Visual understanding degrades sharply at 90\u00b0 profile views, with multimodal systems relying largely on acoustic fallback. Additionally, speaker articulation proves more critical than minor camera shifts, and LLM-based architectures suffer from poor out-of-domain generalization. Our work highlights a significant generalization gap in current AVSR research. To address this, we also introduce RoomReader-AV as a new benchmark for AVSR and release a unified data preprocessing pipeline to make comprehensive multi-condition evaluation accessible.",
+    "summary": "While AVSR has achieved sub-1% word error rates on the standard LRS3 benchmark, its reliance on broadcast speech obscures whether this reflects true generalization or just domain adaptation. To investigate this gap, we evaluate three AVSR architectures across six conditions: controlled broadcast speech, fixed-grammar utterances, hyper-articulated Lombard speech, read speech from professional lipspeakers and non-professional speakers, and spontaneous multi-party video conversations. We find that visual-only performance deteriorates rapidly beyond broadcast domains, and audio-video fusion mainly benefits Lombard speech environments. Visual understanding degrades sharply at 90° profile views, with multimodal systems relying largely on acoustic fallback. Additionally, speaker articulation proves more critical than minor camera shifts, and LLM-based architectures suffer from poor out-of-domain generalization. Our work highlights a significant generalization gap in current AVSR research. To address this, we also introduce RoomReader-AV as a new benchmark for AVSR and release a unified data preprocessing pipeline to make comprehensive multi-condition evaluation accessible.",
     "authors": [
       "Rishabh Jain",
       "Naomi Harte"
@@ -4082,10 +4027,10 @@
     "summary": "Action-conditioned latent world models predict future visual representations, enabling zero-shot goal-conditioned robot planning and control. However, their predictions for fine-grained spatial and rotational actions are unreliable for full 7-DoF end-effector control. To address this gap, we introduce DUET-DINO, a simultaneous cross-view latent world model that jointly learns action-conditioned predictions from static side- and wrist-camera observations through cross-view conditioning. By exploiting complementary global scene and gripper-centric information, DUET-DINO enables latent planning over the full 7-DoF action space. Across spatially diverse reach, orientation-intensive angled-reach, and multi-goal grasp-and-lift tasks, DUET-DINO consistently outperforms single-view and independent dual-view baselines, achieving 92% success on reach, 72.5% on angled-reach, and 60.0% on lift tasks. DUET-DINO is trained from scratch on DROID and RoboArena datasets and generalizes robustly under visual distribution shifts. We further show that while V-JEPA 2 wrist-view predictions underestimate visual dynamics induced by fine-grained actions, DINOv3 predictions better capture action-conditioned scene changes, leading to stronger downstream planning. The code and model checkpoints will be open-sourced. Project page: https://utn-air.github.io/DUET-DINO",
     "authors": [
       "Nisarga Nilavadi",
-      "Ralf R\u00f6mer",
+      "Ralf Römer",
       "Moritz Reuss",
       "Michael Krawez",
-      "Tobias J\u00fclg",
+      "Tobias Jülg",
       "Angela P. Schoellig",
       "Rudolf Lioutikov",
       "Wolfram Burgard"
@@ -4184,9 +4129,9 @@
     "title": "Geometry Without Coordinates: LiDAR Diffusion as a 3D Feature Bridge",
     "summary": "Transferring the rich priors of large 2D foundation models to sparse 3D LiDAR remains challenging, as training native 3D foundation models at comparable scale is limited by data and annotation scarcity. We introduce a LiDAR-conditioned diffusion model trained on pseudo-labels from off-the-shelf 2D foundation models. The model supports multiple output modalities, including depth, semantic segmentation and instance prediction, selectable via a textual task prompt. Because the model is conditioned on LiDAR, both its outputs and its intermediate UNet features can be projected back onto the input point cloud, enabling analysis of a 3D representation learned entirely under 2D supervision. We study this representation directly in point-cloud space, explicitly excluding raw spatial coordinates to isolate feature content from projection geometry. Linear probes recover up to ~23% Mean Intersection over Union (MIoU) on 3D semantic classes, compared to ~3.5% for a matched Gaussian-noise control, indicating substantial non-trivial structure. Pairwise cosine similarity across modality-specific feature streams reveals a layered organization. Early encoder layers remain weakly aligned across modalities while individually decodable, intermediate layers converge toward a shared representation, and decoder layers re-specialize toward task-specific outputs. These findings indicate that LiDAR-conditioned diffusion models can induce structured 3D representations from 2D supervision alone, with a modality-dependent manifold that locally unifies near a shared bottleneck. This positions diffusion as a viable mechanism for transferring large-scale 2D priors into sparse 3D domains.",
     "authors": [
-      "Samed Do\u011fan",
+      "Samed Doğan",
       "Nico Leuze",
-      "Alfred Sch\u00f6ttl"
+      "Alfred Schöttl"
     ],
     "categories": [
       "cs.CV"
@@ -4311,8 +4256,8 @@
     "title": "Multimodal Emotion Recognition in Conversations via Class-Wise Adaptive Modality Fusion and Affective Geometry",
     "summary": "Emotion Recognition in Conversations (ERC) requires integrating heterogeneous textual, audio, and visual cues while accounting for conversational context and emotional dynamics. We extend the Self-Distillation Transformer architecture for ERC with appearance+geometry visual representations, class-wise adaptive modality fusion, and a valence-arousal prior for affective transitions. On the MELD and IEMOCAP datasets, geometry-enhanced visual representations improve weighted F1 by 0.27 and 4.36 points over appearance-only features, respectively, while class-wise adaptive fusion provides further gains of 0.17 and 0.25 points over the original softmax gate. The valence-arousal prior yields targeted improvements of 0.30 and 0.74 accuracy points on emotionally shifted utterances while preserving performance on stable turns. These results indicate that structured facial cues, emotion-dependent modality weighting, and affective geometry provide complementary benefits for multimodal ERC.",
     "authors": [
-      "Oriol Mar\u00edn",
-      "Roger Mar\u00ed",
+      "Oriol Marín",
+      "Roger Marí",
       "Gloria Haro",
       "Rafael Redondo"
     ],
