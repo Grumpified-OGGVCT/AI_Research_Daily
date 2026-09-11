@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-11T21:31:18.844648",
+  "date": "2026-09-11T23:47:27.726857",
   "patterns": {
     "multimodal_research": [
       {
@@ -595,8 +595,16 @@
         "url": "https://arxiv.org/abs/2609.11472v1"
       },
       {
-        "title": "leomaurodesenv/bert-base-uncased-trustairlab-jailbreak-augmented",
-        "url": "https://huggingface.co/leomaurodesenv/bert-base-uncased-trustairlab-jailbreak-augmented"
+        "title": "NEWUNIVERS/nu-fans-llm-tuning-evidence",
+        "url": "https://huggingface.co/NEWUNIVERS/nu-fans-llm-tuning-evidence"
+      },
+      {
+        "title": "saramohamed05/fake-news-bert",
+        "url": "https://huggingface.co/saramohamed05/fake-news-bert"
+      },
+      {
+        "title": "leomaurodesenv/distilbert-base-uncased-trustairlab-jailbreak-augmented",
+        "url": "https://huggingface.co/leomaurodesenv/distilbert-base-uncased-trustairlab-jailbreak-augmented"
       }
     ],
     "vision_systems": [
@@ -775,6 +783,10 @@
       {
         "title": "Vision Transformer-Based Multi-Level Feature Fusion for Multi-Label Sewer Defect Classification",
         "url": "https://arxiv.org/abs/2609.11375v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Caption-once, Frames-on-Demand: Visual-Need Routing for Budget-Aware Agentic Long Video Understanding",
@@ -1461,13 +1473,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "51 independent papers",
+      "observation": "52 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1520,6 +1532,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 355
+    "total_papers": 358
   }
 }
