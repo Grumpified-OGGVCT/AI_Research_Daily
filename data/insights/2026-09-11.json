@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-11T14:47:25.557063",
+  "date": "2026-09-11T18:05:41.513161",
   "patterns": {
     "multimodal_research": [
       {
@@ -593,10 +593,6 @@
       {
         "title": "BridgeMatch: Conditional Transport Bridges in Matching Matrix Space for 3D Deformable Registration",
         "url": "https://arxiv.org/abs/2609.11472v1"
-      },
-      {
-        "title": "leomaurodesenv/roberta-base-nvidia-aegis-v1",
-        "url": "https://huggingface.co/leomaurodesenv/roberta-base-nvidia-aegis-v1"
       }
     ],
     "vision_systems": [
@@ -1461,7 +1457,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "79 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1520,6 +1516,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 355
+    "total_papers": 354
   }
 }
