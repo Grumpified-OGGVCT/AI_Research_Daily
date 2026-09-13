@@ -1,11 +1,22 @@
 {
-  "date": "2026-09-13T02:33:50.669419",
-  "patterns": {},
+  "date": "2026-09-13T07:55:30.980543",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "leomaurodesenv/distilbert-base-uncased-trustairlab-jailbreak-augmented",
+        "url": "https://huggingface.co/leomaurodesenv/distilbert-base-uncased-trustairlab-jailbreak-augmented"
+      },
+      {
+        "title": "vinayp27/smollm3-medical-fsdp",
+        "url": "https://huggingface.co/vinayp27/smollm3-medical-fsdp"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
