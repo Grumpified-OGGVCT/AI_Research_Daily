@@ -1,11 +1,29 @@
 {
-  "date": "2026-09-14T05:39:22.980121",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-09-14T11:28:33.283354",
+  "patterns": {
+    "efficient_architectures": [
+      {
+        "title": "dhanesh-hf/Jarvis-Titan-V15-MoE-120M-SFT",
+        "url": "https://huggingface.co/dhanesh-hf/Jarvis-Titan-V15-MoE-120M-SFT"
+      },
+      {
+        "title": "Carvjoa92/efficientformer-retrieval-notes",
+        "url": "https://huggingface.co/Carvjoa92/efficientformer-retrieval-notes"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "efficient_architectures",
+      "observation": "Focus on efficiency improvements",
+      "inference": "Resource constraints driving innovation - expect deployment on edge devices and mobile",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
   }
 }
