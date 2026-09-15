@@ -1,11 +1,22 @@
 {
-  "date": "2026-09-15T05:40:17.748251",
-  "patterns": {},
+  "date": "2026-09-15T10:49:41.881452",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "abhinav-29/fakeddit-bert-fake-news",
+        "url": "https://huggingface.co/abhinav-29/fakeddit-bert-fake-news"
+      },
+      {
+        "title": "MobiusGaian/openai-community-gpt2-17944868_FT_adapter",
+        "url": "https://huggingface.co/MobiusGaian/openai-community-gpt2-17944868_FT_adapter"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
