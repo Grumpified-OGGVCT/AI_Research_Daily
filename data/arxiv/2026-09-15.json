@@ -95,7 +95,7 @@
       "Akram Bensalem",
       "Fahima Djelil",
       "Marie-Jeanne Lesot",
-      "Gr{\u00e9}gory Smits"
+      "Gr{é}gory Smits"
     ],
     "categories": [
       "cs.AI"
@@ -477,7 +477,7 @@
       "Mariia Tokareva",
       "Giovanni Gatti Pinheiro",
       "Ilyana Guendouz",
-      "Rapha\u00ebl Troncy",
+      "Raphaël Troncy",
       "Paolo Papotti",
       "Pietro Michiardi"
     ],
@@ -498,8 +498,8 @@
     "authors": [
       "Franck Signe",
       "Hippolyte Pilchen",
-      "Fran\u00e7ois Yvon",
-      "\u00c9douard Grave"
+      "François Yvon",
+      "Édouard Grave"
     ],
     "categories": [
       "cs.CL"
@@ -718,7 +718,7 @@
   {
     "arxiv_id": "2609.15723v1",
     "title": "Solving Finite-sum Coupled Compositional Optimization via Multi-block-Single-probe Estimator",
-    "summary": "Traditional variance reduction methods (e.g., SPIDER, SARAH, STORM) have been extensively investigated for improving the convergence rates of stochastic optimization. These techniques typically maintain a sequence of estimators for a single function (or gradient) across iterations. However, what if we need to track multiple functions, but can only access stochastic samples of $\\mathcal{O}(1)$ functions at each iteration? This scenario arises in an important emerging family of finite-sum coupled compositional optimization (FCCO) problems of the form $\\frac{1}{m}\\sum_{i=1}^m f_i(g_i(\\mathbf{w}))$, where each $g_i$ is accessible only through a stochastic oracle. The key challenge is to track $\\mathbf g(\\mathbf{w})=(g_1(\\mathbf{w}), \\ldots, g_m(\\mathbf{w}))$ over time, where $\\mathbf g(\\mathbf{w})$ has $m$ blocks but only $\\mathcal{O}(1)$ blocks can be probed for their stochastic values at each step. To address this challenge, we propose a novel Multi-block-Single-probe Variance Reduction (MSVR) estimator to efficiently trace $\\mathbf g(\\mathbf{w})$ under partial block sampling. Building on the MSVR estimator, we develop several algorithms for FCCO problems, achieving improved sample complexities for non-convex, convex, strongly convex, and Polyak-\u0141ojasiewicz (PL) objectives. We further obtain an improved dependence on $m$ when the outer function gradients $\\nabla f_i$ are linear. Empirical studies on multi-task deep AUC maximization further demonstrate the superior performance of the proposed estimators.",
+    "summary": "Traditional variance reduction methods (e.g., SPIDER, SARAH, STORM) have been extensively investigated for improving the convergence rates of stochastic optimization. These techniques typically maintain a sequence of estimators for a single function (or gradient) across iterations. However, what if we need to track multiple functions, but can only access stochastic samples of $\\mathcal{O}(1)$ functions at each iteration? This scenario arises in an important emerging family of finite-sum coupled compositional optimization (FCCO) problems of the form $\\frac{1}{m}\\sum_{i=1}^m f_i(g_i(\\mathbf{w}))$, where each $g_i$ is accessible only through a stochastic oracle. The key challenge is to track $\\mathbf g(\\mathbf{w})=(g_1(\\mathbf{w}), \\ldots, g_m(\\mathbf{w}))$ over time, where $\\mathbf g(\\mathbf{w})$ has $m$ blocks but only $\\mathcal{O}(1)$ blocks can be probed for their stochastic values at each step. To address this challenge, we propose a novel Multi-block-Single-probe Variance Reduction (MSVR) estimator to efficiently trace $\\mathbf g(\\mathbf{w})$ under partial block sampling. Building on the MSVR estimator, we develop several algorithms for FCCO problems, achieving improved sample complexities for non-convex, convex, strongly convex, and Polyak-Łojasiewicz (PL) objectives. We further obtain an improved dependence on $m$ when the outer function gradients $\\nabla f_i$ are linear. Empirical studies on multi-task deep AUC maximization further demonstrate the superior performance of the proposed estimators.",
     "authors": [
       "Wei Jiang",
       "Sifan Yang",
@@ -830,7 +830,7 @@
   {
     "arxiv_id": "2609.15885v1",
     "title": "Privacy-enhanced federated learning via asynchronous aggregation and local differential perturbation",
-    "summary": "This study proposes a privacy-enhanced federated learning framework to address secure collaborative training in distributed data environments. The framework integrates Dynamic Differential Privacy (DDP), lightweight Homomorphic Encryption (HE), and Local Differential Privacy (LDP) mechanisms to ensure data privacy protection during model training. Additionally, the framework employs an asynchronous aggregation strategy with version control to support distributed training in asynchronous environments. Experimental validation on the CIFAR-10 and Purchase-100 benchmark datasets demonstrates that the method maintains high classification accuracy (up to 82.6%) even under stringent privacy constraints (\u03b5 = 0.1), while reducing communication overhead by 21.3% compared to FedAvg. Experimental results demonstrate that this framework effectively balances privacy protection and model performance in distributed machine learning scenarios, providing a scalable technical foundation for large-scale distributed collaborative computing.",
+    "summary": "This study proposes a privacy-enhanced federated learning framework to address secure collaborative training in distributed data environments. The framework integrates Dynamic Differential Privacy (DDP), lightweight Homomorphic Encryption (HE), and Local Differential Privacy (LDP) mechanisms to ensure data privacy protection during model training. Additionally, the framework employs an asynchronous aggregation strategy with version control to support distributed training in asynchronous environments. Experimental validation on the CIFAR-10 and Purchase-100 benchmark datasets demonstrates that the method maintains high classification accuracy (up to 82.6%) even under stringent privacy constraints (ε = 0.1), while reducing communication overhead by 21.3% compared to FedAvg. Experimental results demonstrate that this framework effectively balances privacy protection and model performance in distributed machine learning scenarios, providing a scalable technical foundation for large-scale distributed collaborative computing.",
     "authors": [
       "Zhen Zhong",
       "Shini Yang",
@@ -911,13 +911,13 @@
   },
   {
     "arxiv_id": "2609.15241v1",
-    "title": "A 25-$\u03bc$s/inf Event-driven Graph Neural Network Processor with Spatiotemporal Caching and Spline Convolution for Ultra-low-latency AI at the Edge",
-    "summary": "Dynamic-vision-sensor (DVS) cameras generate events on a per-pixel basis with a $\u03bc$s-level temporal resolution, calling for new algorithm-hardware co-design approaches compared to standard frame-based vision. While event-driven graph neural networks (EV-GNNs) emerge as a promising algorithmic solution, they raise new HW challenges by mixing dense-regular compute operations and sparse-irregular memory accesses. We present ETHEREAL, the first EV-GNN accelerator that scales to 640$\\times$480 resolutions, thanks to a neighbor-parallel spline convolution engine and a 2D/3D-split memory hierarchy with a novel region-of-interest spatiotemporal caching mechanism. Measurement results demonstrate end-to-end inference with 25.6$\u03bc$s latency and 1.7$\u03bc$J energy per event on state-of-the-art workloads",
+    "title": "A 25-$μ$s/inf Event-driven Graph Neural Network Processor with Spatiotemporal Caching and Spline Convolution for Ultra-low-latency AI at the Edge",
+    "summary": "Dynamic-vision-sensor (DVS) cameras generate events on a per-pixel basis with a $μ$s-level temporal resolution, calling for new algorithm-hardware co-design approaches compared to standard frame-based vision. While event-driven graph neural networks (EV-GNNs) emerge as a promising algorithmic solution, they raise new HW challenges by mixing dense-regular compute operations and sparse-irregular memory accesses. We present ETHEREAL, the first EV-GNN accelerator that scales to 640$\\times$480 resolutions, thanks to a neighbor-parallel spline convolution engine and a 2D/3D-split memory hierarchy with a novel region-of-interest spatiotemporal caching mechanism. Measurement results demonstrate end-to-end inference with 25.6$μ$s latency and 1.7$μ$J energy per event on state-of-the-art workloads",
     "authors": [
       "Adrian Kneip",
       "Martin Lefebvre",
       "Daniel Gehrig",
-      "Victoria Catal\u00e1n Pastor",
+      "Victoria Catalán Pastor",
       "Davide Scaramuzza",
       "Marian Verhelst",
       "Charlotte Frenkel"
@@ -1018,12 +1018,12 @@
     "title": "Graph Matching Relaxations and Amortization for Supervised Graph Prediction",
     "summary": "End-to-end Supervised Graph Prediction (SGP) requires a permutation-invariant loss to compare predicted and target graphs with arbitrary node orderings. Such losses typically involve a costly graph-matching problem. We first study three Optimal Transport relaxations of this problem and show, theoretically and empirically, that the Gromov-Wasserstein (GW) objective is the most suitable for SGP. Then, to avoid solving the resulting inner optimization for every training example, we propose to amortize the graph matching (node alignment) problem. For each training sample, the loss function leverages a transport plan provided by a parametric matcher based on the differentiable Sinkhorn algorithm applied on empirical node distributions. The graph prediction module and the matcher are jointly learned. We showcase the efficiency of this approach on toy and real world SGP problems of increasing complexity including a novel Mass-spectra to Scaffold task that we introduce.",
     "authors": [
-      "Federico M\u00e9ndez",
+      "Federico Méndez",
       "Paul Krzakala",
       "Gabriel Melo",
       "Charlotte Laclau",
-      "R\u00e9mi Flamary",
-      "Florence d'Alch\u00e9-Buc"
+      "Rémi Flamary",
+      "Florence d'Alché-Buc"
     ],
     "categories": [
       "stat.ML",
@@ -1399,7 +1399,7 @@
       "Xiao Wang",
       "Hendrik Borras",
       "Bernhard Klein",
-      "Holger Fr\u00f6ning"
+      "Holger Fröning"
     ],
     "categories": [
       "cs.LG"
@@ -2026,7 +2026,7 @@
     "title": "ModaLens: Measuring Image Sensitivity in Report-Conditioned Medical VLMs",
     "summary": "A radiology report can already answer a clinical question, so it is hard to tell whether a vision-language model also uses the image. ModaLens, a paired image-swap audit, measures how report availability changes image sensitivity: MedGemma-27B on 3,199 paired MIMIC-CXR cases from 293 patients, all 14 questions per case (13 finding-specific and one composite), each image replaced by one from another study, usually of the same patient, with question and report fixed. Under an explicit answer instruction, the model's generated answer changes on 4.26 percent of trials with the report and 20.94 percent without it, a paired increase of 16.7 points (patient-clustered 95 percent CI 15.6 to 17.7), so report availability reduces image-swap sensitivity under this protocol; the original prompt with a lowercase first-token readout gives 4.70 percent against 17.07 percent, and substitutions also move continuous answer scores where the binary prediction does not change. The labels are derived from reports, which limits conclusions about visual correctness; the direction replicates in two further model lineages. Code, the exact prompts and a run record for every number are at https://github.com/criticaldata/MODALENS.",
     "authors": [
-      "Sebasti\u00e1n Andr\u00e9s Cajas Ord\u00f3\u00f1ez",
+      "Sebastián Andrés Cajas Ordóñez",
       "Maximin Lange",
       "Quang Bui",
       "Anqi Peter Li",
@@ -2057,7 +2057,7 @@
     "authors": [
       "Ana-Maria Luisa Mocanu",
       "Sebastian Mocanu",
-      "Ciprian-Octavian Truic\u0103",
+      "Ciprian-Octavian Truică",
       "Elena-Simona Apostol"
     ],
     "categories": [
@@ -2467,7 +2467,7 @@
     "authors": [
       "Ana-Maria Luisa Mocanu",
       "Sebastian Mocanu",
-      "Ciprian-Octavian Truic\u0103",
+      "Ciprian-Octavian Truică",
       "Elena-Simona Apostol"
     ],
     "categories": [
@@ -2546,9 +2546,9 @@
     "summary": "Federated learning enables multiple parties to train a shared model without centralizing raw data with the help of an aggregator, but introduces integrity risks once participants or infrastructure are not fully trustworthy. Two requirements are particularly important: robustness to poisoned or Byzantine client updates, and verifiability of the aggregator so that clients or third parties can audit the reported aggregation without learning individual updates. Existing work has largely treated these goals separately, and efficient public verifiability for robust, outlier-excluding aggregation remains limited. We present a verifiable federated learning protocol that makes a robust aggregation pipeline publicly auditable. Our design combines cryptographic commitments with non-interactive zero-knowledge proofs to certify both (i) cosine-similarity-based outlier exclusion and (ii) aggregation over the selected set, without revealing individual client updates to verifiers. In experiments under representative poisoning attacks, our method maintains high accuracy, with an average accuracy loss below 4\\% across the evaluated configurations, while keeping verification overhead practical: proof artifacts can be generated and verified within minutes at the scale studied. In summary, our results show that robust outlier exclusion and public verifiability can be jointly achieved in a federated learning setting.",
     "authors": [
       "Doryan Lesaignoux",
-      "Enrique M\u00e1rmol Campos",
+      "Enrique Mármol Campos",
       "Gabriele Spini",
-      "Jos\u00e9 L. Hern\u00e1ndez-Ramos",
+      "José L. Hernández-Ramos",
       "Stephan Krenn"
     ],
     "categories": [
@@ -2611,7 +2611,7 @@
   {
     "arxiv_id": "2609.15314v1",
     "title": "The Universe of Universes: Benefit Yield Functions, Implosion Thresholds, and Infrastructure-Aware Optimization in Multi-LLM Systems",
-    "summary": "We introduce the Universe of Universes (UoU) framework, which treats the full ecosystem of major large language models (LLMs) as a structured retrieval corpus and proposes a compositional Automated Reasoning (AR) and Machine Learning (ML) architecture for cross-model retrieval-augmented generation. The central contribution is the formal characterization of the Benefit Yield Function (BYF), the marginal performance gain per additional model added to an ensemble, and the identification of the implosion threshold \u03b8*: the ensemble size at which BYF crosses zero and aggregate performance begins to degrade. Existing LLM ensemble and mixture-of-agents systems treat models as responders and aggregate outputs, but do not study performance as a function of ensemble size N across the full model universe. Benchmark research confirms performance plateaus at the individual model level; model collapse literature establishes that iterative training on AI-generated outputs degrades individual model distributions. Neither body of work formalizes the ensemble-level implosion threshold, models Epistemic Hereditary Drift (EHD) at the ecosystem level, or treats AI manufacturing velocity as a co-variable of \u03b8*. The framework has direct implications for DoD multi-model AI acquisition policy and the emerging science of testing AI-enabled systems.",
+    "summary": "We introduce the Universe of Universes (UoU) framework, which treats the full ecosystem of major large language models (LLMs) as a structured retrieval corpus and proposes a compositional Automated Reasoning (AR) and Machine Learning (ML) architecture for cross-model retrieval-augmented generation. The central contribution is the formal characterization of the Benefit Yield Function (BYF), the marginal performance gain per additional model added to an ensemble, and the identification of the implosion threshold θ*: the ensemble size at which BYF crosses zero and aggregate performance begins to degrade. Existing LLM ensemble and mixture-of-agents systems treat models as responders and aggregate outputs, but do not study performance as a function of ensemble size N across the full model universe. Benchmark research confirms performance plateaus at the individual model level; model collapse literature establishes that iterative training on AI-generated outputs degrades individual model distributions. Neither body of work formalizes the ensemble-level implosion threshold, models Epistemic Hereditary Drift (EHD) at the ecosystem level, or treats AI manufacturing velocity as a co-variable of θ*. The framework has direct implications for DoD multi-model AI acquisition policy and the emerging science of testing AI-enabled systems.",
     "authors": [
       "Danielle Franklin",
       "Vasu Raj Jain"
@@ -2717,7 +2717,7 @@
       "Robin Bruneau",
       "Benjamin Coupry",
       "Vincent Demoulin",
-      "Jean M\u00e9lou",
+      "Jean Mélou",
       "Antoine Laurent",
       "Fabien Castan",
       "Jean-Denis Durou",
@@ -2778,7 +2778,7 @@
   {
     "arxiv_id": "2609.15785v1",
     "title": "Learning under Target Shift: Optimal Density Ratio Estimation and Importance-Weighted Regression",
-    "summary": "We study density ratio estimation and importance-weighted regression under target shift with continuous outputs. Under target shift, the conditional distribution of the inputs given the outputs remains invariant across the training and test distributions, while the output marginal distribution may change. Although this problem has been extensively studied for discrete outputs, the continuous setting is substantially less understood: the importance weights are determined by an unknown density ratio function, for which existing estimation methods lack explicit finite-sample convergence rates. We propose a spectral regularization method in a reproducing kernel Hilbert space (RKHS) for estimating the continuous density ratio from labeled training samples and unlabeled test inputs. Under a source condition with regularity parameter $\u03b9>0$, we establish high-probability finite-sample guarantees and show that the estimator achieves the capacity-independent minimax-optimal RKHS-norm rate $O(n_\u03b7^{-\u03b9/(2\u03b9+2)})$. We then incorporate the estimated density ratio into importance-weighted regression and characterize the propagation of density-ratio estimation error to the final predictor. When sufficiently many samples are available for density ratio estimation, the resulting regression estimator attains the minimax-optimal rates of standard kernel regression. These results establish a finite-sample theory for continuous density ratio estimation and importance-weighted learning under target shift.",
+    "summary": "We study density ratio estimation and importance-weighted regression under target shift with continuous outputs. Under target shift, the conditional distribution of the inputs given the outputs remains invariant across the training and test distributions, while the output marginal distribution may change. Although this problem has been extensively studied for discrete outputs, the continuous setting is substantially less understood: the importance weights are determined by an unknown density ratio function, for which existing estimation methods lack explicit finite-sample convergence rates. We propose a spectral regularization method in a reproducing kernel Hilbert space (RKHS) for estimating the continuous density ratio from labeled training samples and unlabeled test inputs. Under a source condition with regularity parameter $ι>0$, we establish high-probability finite-sample guarantees and show that the estimator achieves the capacity-independent minimax-optimal RKHS-norm rate $O(n_η^{-ι/(2ι+2)})$. We then incorporate the estimated density ratio into importance-weighted regression and characterize the propagation of density-ratio estimation error to the final predictor. When sufficiently many samples are available for density ratio estimation, the resulting regression estimator attains the minimax-optimal rates of standard kernel regression. These results establish a finite-sample theory for continuous density ratio estimation and importance-weighted learning under target shift.",
     "authors": [
       "Ren-Rui Liu",
       "Zheng-Chu Guo"
@@ -2953,7 +2953,7 @@
   {
     "arxiv_id": "2609.15268v1",
     "title": "Learning CNF Formulas from Uniform Random Solutions: Near-Tight Sample Complexity for Valiant's Algorithm",
-    "summary": "We revisit Valiant's algorithm (Commun. ACM'84) for learning $n$-variable CNF formulas with clause size $k$ and variable degree $d$ from i.i.d. uniform random solutions in the local lemma regime. For fixed $t\\geq1$, under $k\\gtrsim(1+1/t)\\log d$, Valiant's algorithm achieves total variation error $\\varepsilon$ with $\\widetilde{O}(n^{\\lceil t \\rceil}/\\varepsilon)$ sample complexity. For $t>1$, we prove a matching lower bound for Valiant's algorithm. At $t=1$ (covering $0<t<1$), we show Valiant's algorithm has optimal sample complexity up to logarithmic factors by an information-theoretic lower bound $\\widetilde\u03a9(n/\\varepsilon)$.",
+    "summary": "We revisit Valiant's algorithm (Commun. ACM'84) for learning $n$-variable CNF formulas with clause size $k$ and variable degree $d$ from i.i.d. uniform random solutions in the local lemma regime. For fixed $t\\geq1$, under $k\\gtrsim(1+1/t)\\log d$, Valiant's algorithm achieves total variation error $\\varepsilon$ with $\\widetilde{O}(n^{\\lceil t \\rceil}/\\varepsilon)$ sample complexity. For $t>1$, we prove a matching lower bound for Valiant's algorithm. At $t=1$ (covering $0<t<1$), we show Valiant's algorithm has optimal sample complexity up to logarithmic factors by an information-theoretic lower bound $\\widetildeΩ(n/\\varepsilon)$.",
     "authors": [
       "Weiming Feng",
       "Yixiao Yu",
@@ -3172,7 +3172,7 @@
   {
     "arxiv_id": "2609.15825v1",
     "title": "Sharp Rates and a One-Line Correction for Spectral Representation Learning",
-    "summary": "A self-supervised encoder is trained once, frozen, and reused through lightweight probes on tasks nobody named at training time; the practitioner's question is when the off-the-shelf features are good enough and when they need fixing. Canonical correlation analysis, HGR maximal correlation, and the population optimum of the spectral contrastive loss all return the top-$k$ singular subspace of a cross-view dependence operator, justified by isotropy: if the task prior has no directional preference, that subspace is universally optimal. We show isotropy is the wrong hypothesis. The prior enters the transfer risk only through the task covariance $\u039b=\\mathbb{E}[\u0394\u0394^\\top]$, and only through its compression onto the operator's leading singular directions; what matters is not whether $\u039b$ is isotropic but whether its preferred directions are ordered consistently with the operator's spectrum. We prove matching two-sided rates---worst-case regret is exactly $1-1/\u03ba(\u039b)$, refines to $1-A_k$ for an alignment coefficient $A_k$, localizes to the top-$2k$ subspace, becomes second order under a spectral gap, and is improvable by no task-agnostic representation---and show why alignment is generic: incoherent preferences cancel in high dimension, and $T$ diverse tasks force $\u03b1=\\widetilde O(\\sqrt{d_x/T})$, a quantitative account of why task diversity, not symmetry, makes self-supervised features transfer. The governing statistics cost $O(kd_x^2)$, and when they signal misalignment a one-line reweighting of the positive-pair term provably restores exact optimality. The result is a diagnostic that answers the practitioner's question from a small labelled budget and refuses when the task bank cannot support the width requested; on controlled data it takes a regret of $0.86$ down to $0.003$, and on a CIFAR-100 encoder it correctly predicts that no correction is needed.",
+    "summary": "A self-supervised encoder is trained once, frozen, and reused through lightweight probes on tasks nobody named at training time; the practitioner's question is when the off-the-shelf features are good enough and when they need fixing. Canonical correlation analysis, HGR maximal correlation, and the population optimum of the spectral contrastive loss all return the top-$k$ singular subspace of a cross-view dependence operator, justified by isotropy: if the task prior has no directional preference, that subspace is universally optimal. We show isotropy is the wrong hypothesis. The prior enters the transfer risk only through the task covariance $Λ=\\mathbb{E}[ΔΔ^\\top]$, and only through its compression onto the operator's leading singular directions; what matters is not whether $Λ$ is isotropic but whether its preferred directions are ordered consistently with the operator's spectrum. We prove matching two-sided rates---worst-case regret is exactly $1-1/κ(Λ)$, refines to $1-A_k$ for an alignment coefficient $A_k$, localizes to the top-$2k$ subspace, becomes second order under a spectral gap, and is improvable by no task-agnostic representation---and show why alignment is generic: incoherent preferences cancel in high dimension, and $T$ diverse tasks force $α=\\widetilde O(\\sqrt{d_x/T})$, a quantitative account of why task diversity, not symmetry, makes self-supervised features transfer. The governing statistics cost $O(kd_x^2)$, and when they signal misalignment a one-line reweighting of the positive-pair term provably restores exact optimality. The result is a diagnostic that answers the practitioner's question from a small labelled budget and refuses when the task bank cannot support the width requested; on controlled data it takes a regret of $0.86$ down to $0.003$, and on a CIFAR-100 encoder it correctly predicts that no correction is needed.",
     "authors": [
       "Dier Tang",
       "Jing Yee Tan",
@@ -3193,7 +3193,7 @@
   {
     "arxiv_id": "2609.15772v1",
     "title": "Event-Native Symbolic-Temporal Spike Encoding Framework for Heterogeneous Cyber Streams",
-    "summary": "Spiking neural networks (SNNs) have shown promise for sparse, event-driven computation through stateful processing that is naturally compatible with low-power edge hardware. These properties align with cyber monitoring, where data arrives asynchronously, and malicious behavior often emerges through temporal patterns across event sequences. However, cyber streams are not composed solely of continuous numeric signals: their informative structure is also carried by categorical identifiers, irregular timing, and local behavioral context. Traditional rate- and population-based spike encodings are not naturally suited to these heterogeneous semantics, while conventional intrusion detection system (IDS) pipelines typically resolve the mismatch by converting raw events into flows, fixed aggregation windows, or dense tensors. Although useful for conventional classifiers, these transformations introduce buffering latency, obscure native temporal structure, and weaken the computational advantages of event-driven neuromorphic processing.   We introduce an event-native symbolic-temporal spike encoding framework that maps heterogeneous cyber events directly into sparse, spike-compatible inputs. By assigning encoding roles to semantic identity, local frequency context, and inter-event timing, the framework preserves categorical semantics and temporal dynamics. We validate the approach on packet-level Network IDS and extend it to message-level CAN IDS, using both domains to evaluate whether the encoding exposes usable structure for recurrent SNNs operating directly on native event streams. Under edge-oriented, $\u03bc$Caspian-aligned hardware constraints, compact recurrent SNNs achieve strong anomaly detection performance, with an operational hybrid metric ($J_{hybrid}$) of 0.987 on Network IDS and 0.980 on CAN IDS.",
+    "summary": "Spiking neural networks (SNNs) have shown promise for sparse, event-driven computation through stateful processing that is naturally compatible with low-power edge hardware. These properties align with cyber monitoring, where data arrives asynchronously, and malicious behavior often emerges through temporal patterns across event sequences. However, cyber streams are not composed solely of continuous numeric signals: their informative structure is also carried by categorical identifiers, irregular timing, and local behavioral context. Traditional rate- and population-based spike encodings are not naturally suited to these heterogeneous semantics, while conventional intrusion detection system (IDS) pipelines typically resolve the mismatch by converting raw events into flows, fixed aggregation windows, or dense tensors. Although useful for conventional classifiers, these transformations introduce buffering latency, obscure native temporal structure, and weaken the computational advantages of event-driven neuromorphic processing.   We introduce an event-native symbolic-temporal spike encoding framework that maps heterogeneous cyber events directly into sparse, spike-compatible inputs. By assigning encoding roles to semantic identity, local frequency context, and inter-event timing, the framework preserves categorical semantics and temporal dynamics. We validate the approach on packet-level Network IDS and extend it to message-level CAN IDS, using both domains to evaluate whether the encoding exposes usable structure for recurrent SNNs operating directly on native event streams. Under edge-oriented, $μ$Caspian-aligned hardware constraints, compact recurrent SNNs achieve strong anomaly detection performance, with an operational hybrid metric ($J_{hybrid}$) of 0.987 on Network IDS and 0.980 on CAN IDS.",
     "authors": [
       "Dalton Diez",
       "Peyton Andras",
@@ -3280,7 +3280,7 @@
       "Felix Schmalzel",
       "Reimar Waitz",
       "Moritz Kronberger",
-      "Thorsten Sch\u00f6ler"
+      "Thorsten Schöler"
     ],
     "categories": [
       "cs.AI",
@@ -3476,7 +3476,7 @@
   {
     "arxiv_id": "2609.15355v1",
     "title": "ReLU Neural Network Approximation to Smooth Functional Operator: Dimensional Decay and Error Analysis",
-    "summary": "We study the uniform approximation of smooth scalar-valued functionals on an infinite-dimensional separable Hilbert space by deep ReLU neural networks. Writing the functional input as $X(t)=\\sum_{d\\geq1}\u03be_d\u03bd_d(t)$, we quantify the importance of coordinate $d$ through $w_ds_d$, where $s_d$ bounds the magnitude of the corresponding basis score and $w_d$ controls the directional Fr\u00e9chet sensitivity of the target functional. Our constructive analysis combines coordinate truncation, anisotropic partitioning, local Taylor approximation, and ReLU network realization, while allowing unrestricted interactions among the retained coordinates. We establish a general nonasymptotic upper bound for the uniform approximation error and a complementary pseudo-dimension-based lower bound for the worst-case approximation error. Under generalized exponential coordinate decay $w_ds_d\\asymp\\exp(-cd^\u03c1)$, with $\u03c1>0$, the upper and lower bounds match at the leading order and thus yield the nearly optimal approximation rate, which is stretched-exponential in the logarithm of the network budget. This is the first work to characterize neural network approximation error for infinite-dimensional functional inputs explicitly through the joint dimensional decay of coordinate magnitudes and directional sensitivities.",
+    "summary": "We study the uniform approximation of smooth scalar-valued functionals on an infinite-dimensional separable Hilbert space by deep ReLU neural networks. Writing the functional input as $X(t)=\\sum_{d\\geq1}ξ_dν_d(t)$, we quantify the importance of coordinate $d$ through $w_ds_d$, where $s_d$ bounds the magnitude of the corresponding basis score and $w_d$ controls the directional Fréchet sensitivity of the target functional. Our constructive analysis combines coordinate truncation, anisotropic partitioning, local Taylor approximation, and ReLU network realization, while allowing unrestricted interactions among the retained coordinates. We establish a general nonasymptotic upper bound for the uniform approximation error and a complementary pseudo-dimension-based lower bound for the worst-case approximation error. Under generalized exponential coordinate decay $w_ds_d\\asymp\\exp(-cd^ρ)$, with $ρ>0$, the upper and lower bounds match at the leading order and thus yield the nearly optimal approximation rate, which is stretched-exponential in the logarithm of the network budget. This is the first work to characterize neural network approximation error for infinite-dimensional functional inputs explicitly through the joint dimensional decay of coordinate magnitudes and directional sensitivities.",
     "authors": [
       "Shuhao Jiao"
     ],
@@ -3494,7 +3494,7 @@
   {
     "arxiv_id": "2609.15248v1",
     "title": "Bandits with Probing: Optimal Regret and the Limits of Winner Feedback",
-    "summary": "A learner probes at most $k$ of $n$ arms each round, receives the maximum of their rewards in $[0,1]$, and competes with the best fixed arm. When does the probing advantage pay for learning? We determine two minimax laws. Under independent stochastic rewards with winner feedback (the maximum and a winning label), or on arbitrary fixed sequences given a single signed contrast between block maxima, the minimax regret has order $\u03a6_{n,k}(T)=\\min\\{\\frac{n-k}{n}T,\\frac{n-k}{k}\\}$, $2\\le k<n$. Under winner feedback, both arbitrary joint i.i.d. rewards and fixed sequences have minimax regret of order $R_{n,k}(T)=\\frac{n-k}{n}\\min\\{T,\\frac{n+T}{k},\\sqrt{\\frac{nT}{k}}\\}$. Both laws have universal constants and anytime upper bounds. The first reduces regret to a pure coverage cost: same-round contrasts absorb the stability cost, and independence permits exact resampling whose gains fund sample advancement. The second adds a learning cost that becomes comparable to coverage at horizon $n$; beyond $nk$, numerical maxima improve over labels alone. The lower bound allows every adaptive action size.",
+    "summary": "A learner probes at most $k$ of $n$ arms each round, receives the maximum of their rewards in $[0,1]$, and competes with the best fixed arm. When does the probing advantage pay for learning? We determine two minimax laws. Under independent stochastic rewards with winner feedback (the maximum and a winning label), or on arbitrary fixed sequences given a single signed contrast between block maxima, the minimax regret has order $Φ_{n,k}(T)=\\min\\{\\frac{n-k}{n}T,\\frac{n-k}{k}\\}$, $2\\le k<n$. Under winner feedback, both arbitrary joint i.i.d. rewards and fixed sequences have minimax regret of order $R_{n,k}(T)=\\frac{n-k}{n}\\min\\{T,\\frac{n+T}{k},\\sqrt{\\frac{nT}{k}}\\}$. Both laws have universal constants and anytime upper bounds. The first reduces regret to a pure coverage cost: same-round contrasts absorb the stability cost, and independence permits exact resampling whose gains fund sample advancement. The second adds a learning cost that becomes comparable to coverage at horizon $n$; beyond $nk$, numerical maxima improve over labels alone. The lower bound allows every adaptive action size.",
     "authors": [
       "Yongjie Guan"
     ],
@@ -3841,7 +3841,7 @@
     "title": "When the World Lies: Backdoor Attacks on Latent World Models for Downstream Control",
     "summary": "Pretrained world models, learned simulators that encode an observation into a latent state and predict how it evolves under actions, are beginning to be reused as off-the-shelf dynamics backbones for control, like pretrained encoders and language models are reused today. We show that this reuse opens a supply-chain backdoor: an adversary who controls only a released checkpoint can hijack the downstream controller, even though the victim trains and evaluates entirely on clean data and never sees the trigger. The attack encodes no explicit trigger-to-action rule. Instead, the poisoned model routes trigger-bearing observations into a chosen latent region and reshapes the local dynamics there, so that the victim's own optimization (Dreamer-style actor training in imagination, or MPC/CEM planning over predicted futures) re-discovers the attacker's target action on its own. Across several control tasks and trigger families, the trigger steers the controller's action toward the attacker's target, controlling every action dimension and hijacking 100\\% of triggered steps on the strongest settings. The checkpoint still passes the clean-data diagnostics a victim would run before deployment, with clean-task success retaining at least $\\sim$75\\%. The effect is temporally gated: it appears only while the trigger is present and disappears when the trigger is removed. Trigger-blind repair is budget-dependent: moderate clean fine-tuning can preserve clean utility while leaving the triggered failure intact, whereas sufficiently aggressive adaptation can remove it only after substantially degrading clean control. The world-model backbone itself is therefore an emerging and underexamined attack surface for control. The full code and artifacts are available in our repository.",
     "authors": [
-      "Roberto Ria\u00f1o",
+      "Roberto Riaño",
       "Gorka Abad",
       "Stjepan Picek",
       "Aitor Urbieta"
@@ -3865,7 +3865,7 @@
     "authors": [
       "Sarra Madad",
       "Myriam Maumy",
-      "Fr{\u00e9}d{\u00e9}ric Bertrand",
+      "Fr{é}d{é}ric Bertrand",
       "Yoann Valero"
     ],
     "categories": [
@@ -3886,7 +3886,7 @@
       "Jakob Grahn",
       "Filippo Maria Bianchi",
       "Bert Kruyt",
-      "Karsten M\u00fcller"
+      "Karsten Müller"
     ],
     "categories": [
       "cs.LG"
@@ -3905,9 +3905,9 @@
     "authors": [
       "Jiawei Li",
       "Fabio Bonassi",
-      "Johan Sundstr\u00f6m",
-      "Thomas B. Sch\u00f6n",
-      "Ant\u00f4nio H. Ribeiro"
+      "Johan Sundström",
+      "Thomas B. Schön",
+      "Antônio H. Ribeiro"
     ],
     "categories": [
       "cs.LG",
@@ -4023,7 +4023,7 @@
     "title": "Clean Scores, Buried Evidence, and Confident Wrong: A Receipt-Based Audit of Frontier Agentic QA",
     "summary": "Frontier models score well on shallow document/chart reading tasks. In a controlled data-room audit, moving evidence into buried conditions reduced accuracy, increased forced declarations, increased tool calls, and increased cost per correct answer. Confidence and benchmark calibration did not fully capture wrong answers; a documented production incident shows fabricated structural claims can be mixed with accurate numeric tables. Agentic evaluations need claim-level receipts (statement-level provenance, not answer-level scores), condition-aware scoring, and human-adversarial verification - an auditing discipline, not a leaderboard. The setting we measure is financial due diligence; the setting we are building toward next is defense staff work, where the same buried-evidence shape appears. In both, the model is not a party to the consequences; the person who signs is. In plain terms: in the documented cases we examine, agents can pair accurate numbers with confident fabricated explanations, and the burden of proof must therefore move from the model to the evidence trail.",
     "authors": [
-      "Luis M. S\u00e1nchez"
+      "Luis M. Sánchez"
     ],
     "categories": [
       "cs.IR",
@@ -4170,7 +4170,7 @@
   {
     "arxiv_id": "2609.15932v1",
     "title": "Recurrent GraphNeural NetworkswithSet-BasedAggregation",
-    "summary": "Recurrent GNNs iterate message passing to convergence, and their logical characterizations to date rely on multi-set aggregation, graded (counting) logics, and halting or acceptance conditions that cannot be verified from the network's parameters. We study recurrent GNNs with set-based aggregation and identify sufficient conditions checkable from the weights for networks to compile into formulas and formulas into networks. The main result is an effective, two-directional equivalence between a class of networks and the Boolean closure of reachability and safety properties, the fragment B$\u03a3^{\\circ}_1$ of the modal $\u03bc$-calculus. The fragment is not an artifact: it is the exact expressive level of stabilization over finite vocabulary, which supports fixed points of a single polarity and Boolean combinations thereof, but not the composition of fixed points of opposite polarities. The correspondence needs no counting logic, no external halting signal, and no non-effective acceptance condition, yielding a verifiable path from weights to symbolic explanations for networks meeting the conditions.",
+    "summary": "Recurrent GNNs iterate message passing to convergence, and their logical characterizations to date rely on multi-set aggregation, graded (counting) logics, and halting or acceptance conditions that cannot be verified from the network's parameters. We study recurrent GNNs with set-based aggregation and identify sufficient conditions checkable from the weights for networks to compile into formulas and formulas into networks. The main result is an effective, two-directional equivalence between a class of networks and the Boolean closure of reachability and safety properties, the fragment B$Σ^{\\circ}_1$ of the modal $μ$-calculus. The fragment is not an artifact: it is the exact expressive level of stabilization over finite vocabulary, which supports fixed points of a single polarity and Boolean combinations thereof, but not the composition of fixed points of opposite polarities. The correspondence needs no counting logic, no external halting signal, and no non-effective acceptance condition, yielding a verifiable path from weights to symbolic explanations for networks meeting the conditions.",
     "authors": [
       "Blai Bonet"
     ],
@@ -4238,37 +4238,6 @@
     "pdf_url": "https://arxiv.org/pdf/2609.15335v1.pdf",
     "date": "2026-09-15",
     "source": "arxiv",
-    "research_score": 0.5
-  },
-  {
-    "model_id": "fpadovani/nld-100mb-after-wc-uniform-newlex-nld-ckpt500_seed10_seed10",
-    "author": "unknown",
-    "title": "fpadovani/nld-100mb-after-wc-uniform-newlex-nld-ckpt500_seed10_seed10",
-    "downloads": 1014,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "base_model:fpadovani/ppt-wc-uniform-newlex-nld-100mb_seed10",
-      "base_model:finetune:fpadovani/ppt-wc-uniform-newlex-nld-100mb_seed10",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-13T12:52:46.000Z",
-    "last_modified": "2026-09-15T19:24:06.000Z",
-    "days_since_creation": 2,
-    "url": "https://huggingface.co/fpadovani/nld-100mb-after-wc-uniform-newlex-nld-ckpt500_seed10_seed10",
-    "date": "2026-09-15",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.5
   },
   {
@@ -4551,9 +4520,9 @@
     "summary": "This work presents a fully analog memristive synaptic circuit for online spike-timing-dependent plasticity (STDP) learning in spiking neural networks (SNNs). The proposed synapse integrates a local STDP circuit generating gradual timing-dependent conductance updates directly from pre- and post-synaptic spikes. Learning occurs during normal network operation without requiring external digital control or explicit STDP waveform synthesis.   Post-layout simulations of the memristive synapse implemented in a 130 nm CMOS technology show spike-timing-dependent conductance adaptation during SNN operation. A 2x2 SNN simulation further illustrates online neuron specialization through unsupervised learning.",
     "authors": [
       "Elia Mateu-Barriendos",
-      "\u00c1lvaro G\u00f3mez-Pau",
-      "Daniel Arum\u00ed",
-      "Rosa Rodr\u00edguez-Monta\u00f1\u00e9s",
+      "Álvaro Gómez-Pau",
+      "Daniel Arumí",
+      "Rosa Rodríguez-Montañés",
       "Salvador Manich"
     ],
     "categories": [
@@ -4566,203 +4535,6 @@
     "pdf_url": "https://arxiv.org/pdf/2609.15339v1.pdf",
     "date": "2026-09-15",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Dohyeon1/Qwen3-30B-A3B-M-SMoE-ngroups96-adaptive",
-    "author": "unknown",
-    "title": "Dohyeon1/Qwen3-30B-A3B-M-SMoE-ngroups96-adaptive",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_moe",
-      "text-generation",
-      "arxiv:1910.09700",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-15T19:18:42.000Z",
-    "last_modified": "2026-09-15T19:25:57.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Dohyeon1/Qwen3-30B-A3B-M-SMoE-ngroups96-adaptive",
-    "date": "2026-09-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Chand0320/pi0-libero-object-trajectory-efficiency-new",
-    "author": "unknown",
-    "title": "Chand0320/pi0-libero-object-trajectory-efficiency-new",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "safetensors",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-09-15T19:19:24.000Z",
-    "last_modified": "2026-09-15T19:24:27.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Chand0320/pi0-libero-object-trajectory-efficiency-new",
-    "date": "2026-09-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "IFM/K2-Horizon-7B",
-    "author": "unknown",
-    "title": "IFM/K2-Horizon-7B",
-    "downloads": 7447,
-    "likes": 161,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "k2_horizon",
-      "text-generation",
-      "k2-horizon",
-      "7b",
-      "dense",
-      "open-weights",
-      "ifm",
-      "conversational",
-      "custom_code",
-      "en",
-      "dataset:IFM/K2-Horizon-Pretrain-Data",
-      "dataset:IFM/K2-Horizon-Midtrain-Data",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-01T23:14:30.000Z",
-    "last_modified": "2026-09-15T19:24:18.000Z",
-    "days_since_creation": 13,
-    "url": "https://huggingface.co/IFM/K2-Horizon-7B",
-    "date": "2026-09-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "procaffenator/KaryoFlow",
-    "author": "unknown",
-    "title": "procaffenator/KaryoFlow",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "chromosome-detection",
-      "medical-imaging",
-      "rectified-flow",
-      "mmdetection",
-      "object-detection",
-      "en",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "object-detection",
-    "library": "",
-    "created_at": "2026-09-15T14:59:37.000Z",
-    "last_modified": "2026-09-15T19:22:47.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/procaffenator/KaryoFlow",
-    "date": "2026-09-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sandeep123/stride-qwen3-1.7b-2048-single_step-20260915",
-    "author": "unknown",
-    "title": "sandeep123/stride-qwen3-1.7b-2048-single_step-20260915",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "lora",
-      "reinforcement-learning",
-      "math",
-      "stride",
-      "text-generation",
-      "base_model:Qwen/Qwen3-1.7B",
-      "base_model:adapter:Qwen/Qwen3-1.7B",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-09-15T13:45:56.000Z",
-    "last_modified": "2026-09-15T19:20:08.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sandeep123/stride-qwen3-1.7b-2048-single_step-20260915",
-    "date": "2026-09-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Alexander8809/LLL",
-    "author": "unknown",
-    "title": "Alexander8809/LLL",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "diffusers",
-      "text-to-image",
-      "lora",
-      "template:diffusion-lora",
-      "base_model:krea/Krea-2-Turbo",
-      "base_model:adapter:krea/Krea-2-Turbo",
-      "license:unknown",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "diffusers",
-    "created_at": "2026-09-15T19:13:02.000Z",
-    "last_modified": "2026-09-15T19:19:48.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Alexander8809/LLL",
-    "date": "2026-09-15",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "pokey2025/deepseek-v4.1-flash-gguf",
-    "author": "unknown",
-    "title": "pokey2025/deepseek-v4.1-flash-gguf",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "llama.cpp",
-      "gguf",
-      "dspark",
-      "speculative-decoding",
-      "deepseek",
-      "deepseek-v4",
-      "vision",
-      "mx-fp4",
-      "base_model:deepseek-ai/DeepSeek-V4.1-Flash",
-      "text-generation",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "llama.cpp",
-    "created_at": "2026-09-15T18:19:00.000Z",
-    "last_modified": "2026-09-15T19:18:56.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/pokey2025/deepseek-v4.1-flash-gguf",
-    "date": "2026-09-15",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
