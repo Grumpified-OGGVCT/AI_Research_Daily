@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-16T19:18:16.140976",
+  "date": "2026-09-16T22:33:53.427615",
   "patterns": {
     "multimodal_research": [
       {
@@ -593,10 +593,6 @@
       {
         "title": "Symmetry-Aware Likelihood-Orbit Aggregation for Selective Left-Right Claim Verification",
         "url": "https://arxiv.org/abs/2609.17004v1"
-      },
-      {
-        "title": "nameless-0/GER_frame-detect_mgbert134M",
-        "url": "https://huggingface.co/nameless-0/GER_frame-detect_mgbert134M"
       }
     ],
     "vision_systems": [
@@ -887,6 +883,10 @@
       {
         "title": "PSMP-CLIP: Patch-Prompt SAM and Multi-Semantic Prompting for CLIP-Based Zero-Shot Anomaly Detection",
         "url": "https://arxiv.org/abs/2609.16785v1"
+      },
+      {
+        "title": "mradermacher/VisionGuardrail-Evo2-27B-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/VisionGuardrail-Evo2-27B-i1-GGUF"
       }
     ],
     "reasoning": [
@@ -1561,13 +1561,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1603,7 +1603,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 38,
+      "frequency": 39,
       "significance": "high"
     },
     {
