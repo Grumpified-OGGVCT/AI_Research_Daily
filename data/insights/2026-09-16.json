@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-16T10:38:55.207474",
+  "date": "2026-09-16T15:16:46.714835",
   "patterns": {
     "multimodal_research": [
       {
@@ -595,12 +595,12 @@
         "url": "https://arxiv.org/abs/2609.17004v1"
       },
       {
-        "title": "ibnsina-llm/ibnsina-30b",
-        "url": "https://huggingface.co/ibnsina-llm/ibnsina-30b"
+        "title": "MahmoodAnaam/flaird-modernbert-large-attention-multitask-frozen",
+        "url": "https://huggingface.co/MahmoodAnaam/flaird-modernbert-large-attention-multitask-frozen"
       },
       {
-        "title": "Riddhi2952/financial-sentiment-distilbert",
-        "url": "https://huggingface.co/Riddhi2952/financial-sentiment-distilbert"
+        "title": "MahmoodAnaam/flaird-modernbert-large-concatenation-multitask-frozen",
+        "url": "https://huggingface.co/MahmoodAnaam/flaird-modernbert-large-concatenation-multitask-frozen"
       }
     ],
     "vision_systems": [
@@ -891,10 +891,6 @@
       {
         "title": "PSMP-CLIP: Patch-Prompt SAM and Multi-Semantic Prompting for CLIP-Based Zero-Shot Anomaly Detection",
         "url": "https://arxiv.org/abs/2609.16785v1"
-      },
-      {
-        "title": "chenhaodev/qwen3-8b-cv-lora",
-        "url": "https://huggingface.co/chenhaodev/qwen3-8b-cv-lora"
       }
     ],
     "reasoning": [
@@ -1575,7 +1571,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1628,6 +1624,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 382
+    "total_papers": 381
   }
 }
