@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17T10:50:50.833941",
+  "date": "2026-09-17T15:25:32.503084",
   "patterns": {
     "multimodal_research": [
       {
@@ -303,10 +303,6 @@
       {
         "title": "Occluded Gait Recognition with Mixture of Experts: An Action Detection Perspective",
         "url": "https://arxiv.org/abs/2609.18432v1"
-      },
-      {
-        "title": "ViuAI/ViuMini-MoE-242M",
-        "url": "https://huggingface.co/ViuAI/ViuMini-MoE-242M"
       }
     ],
     "language_models": [
@@ -639,8 +635,8 @@
         "url": "https://arxiv.org/abs/2609.18510v1"
       },
       {
-        "title": "leomaurodesenv/roberta-base-nvidia-aegis-v2-augmented",
-        "url": "https://huggingface.co/leomaurodesenv/roberta-base-nvidia-aegis-v2-augmented"
+        "title": "kunzaka001/LangTaiLLM-8B-Instruct",
+        "url": "https://huggingface.co/kunzaka001/LangTaiLLM-8B-Instruct"
       }
     ],
     "vision_systems": [
@@ -875,10 +871,6 @@
       {
         "title": "JigSync: Gauge-Resolved Synchronization for Jigsaw Reassembly under Unknown Piece Orientation",
         "url": "https://arxiv.org/abs/2609.18379v1"
-      },
-      {
-        "title": "chenhaodev/qwen3-8b-cv-lora",
-        "url": "https://huggingface.co/chenhaodev/qwen3-8b-cv-lora"
       }
     ],
     "reasoning": [
@@ -1569,7 +1561,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "53 independent papers",
+      "observation": "52 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1587,7 +1579,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "59 independent papers",
+      "observation": "58 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1640,6 +1632,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 385
+    "total_papers": 383
   }
 }
