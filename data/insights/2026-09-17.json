@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17T15:25:32.503084",
+  "date": "2026-09-17T19:29:31.824087",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,10 +633,6 @@
       {
         "title": "DiT-Garment: Garment Dynamics with Diffusion Transformers",
         "url": "https://arxiv.org/abs/2609.18510v1"
-      },
-      {
-        "title": "kunzaka001/LangTaiLLM-8B-Instruct",
-        "url": "https://huggingface.co/kunzaka001/LangTaiLLM-8B-Instruct"
       }
     ],
     "vision_systems": [
@@ -1573,7 +1569,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1632,6 +1628,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 383
+    "total_papers": 382
   }
 }
