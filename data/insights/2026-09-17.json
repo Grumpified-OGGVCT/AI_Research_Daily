@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-17T01:01:42.884293",
+  "date": "2026-09-17T05:57:35.545545",
   "patterns": {
     "multimodal_research": [
       {
@@ -665,10 +665,6 @@
       {
         "title": "PRISM: Predictive Representation of Interaction Style and Motion for Social Robot Navigation",
         "url": "https://arxiv.org/abs/2609.18125v1"
-      },
-      {
-        "title": "leomaurodesenv/roberta-base-nvidia-aegis-v2-augmented",
-        "url": "https://huggingface.co/leomaurodesenv/roberta-base-nvidia-aegis-v2-augmented"
       }
     ],
     "vision_systems": [
@@ -917,10 +913,6 @@
         "url": "https://arxiv.org/abs/2609.18302v1"
       },
       {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
-      },
-      {
         "title": "Visual Input and Its Framing Affect Attribute-based Descriptions Produced by Large Vision-Language Models",
         "url": "https://arxiv.org/abs/2609.18345v1"
       },
@@ -951,10 +943,6 @@
       {
         "title": "JigSync: Gauge-Resolved Synchronization for Jigsaw Reassembly under Unknown Piece Orientation",
         "url": "https://arxiv.org/abs/2609.18379v1"
-      },
-      {
-        "title": "mradermacher/VisionGuardrail-Evo2-27B-i1-GGUF",
-        "url": "https://huggingface.co/mradermacher/VisionGuardrail-Evo2-27B-i1-GGUF"
       }
     ],
     "reasoning": [
@@ -1607,10 +1595,6 @@
       {
         "title": "JigSync: Gauge-Resolved Synchronization for Jigsaw Reassembly under Unknown Piece Orientation",
         "url": "https://arxiv.org/abs/2609.18379v1"
-      },
-      {
-        "title": "Jingyi-Z/pi05-sotac-lora",
-        "url": "https://huggingface.co/Jingyi-Z/pi05-sotac-lora"
       }
     ]
   },
@@ -1641,13 +1625,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "78 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1665,7 +1649,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "95 independent papers",
+      "observation": "94 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1683,7 +1667,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 37,
+      "frequency": 36,
       "significance": "high"
     },
     {
@@ -1700,6 +1684,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 400
+    "total_papers": 396
   }
 }
