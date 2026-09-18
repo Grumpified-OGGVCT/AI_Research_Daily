@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-18T05:31:03.054298",
+  "date": "2026-09-18T10:23:33.253390",
   "patterns": {
     "multimodal_research": [
       {
@@ -517,14 +517,6 @@
       {
         "title": "A Free Lunch? Adapting PP-OCRv6 for Historical Text Recognition",
         "url": "https://arxiv.org/abs/2609.20064v1"
-      },
-      {
-        "title": "leomaurodesenv/roberta-base-nvidia-aegis-v2",
-        "url": "https://huggingface.co/leomaurodesenv/roberta-base-nvidia-aegis-v2"
-      },
-      {
-        "title": "namesarnav/bbh-causal-judgement-bert-base-uncased",
-        "url": "https://huggingface.co/namesarnav/bbh-causal-judgement-bert-base-uncased"
       }
     ],
     "vision_systems": [
@@ -1331,6 +1323,10 @@
       {
         "title": "Should This Case Be Adapted? Prediction Fragmentation Controls Test-Time Adaptation",
         "url": "https://arxiv.org/abs/2609.20700v1"
+      },
+      {
+        "title": "SOTAagi2030/MyAwesomeModel-TestRepo",
+        "url": "https://huggingface.co/SOTAagi2030/MyAwesomeModel-TestRepo"
       }
     ]
   },
@@ -1361,7 +1357,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "67 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1385,7 +1381,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "77 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1420,6 +1416,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 330
+    "total_papers": 329
   }
 }
