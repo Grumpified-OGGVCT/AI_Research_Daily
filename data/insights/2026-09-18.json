@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-18T20:44:15.775074",
+  "date": "2026-09-18T22:58:33.978428",
   "patterns": {
     "multimodal_research": [
       {
@@ -255,6 +255,10 @@
       {
         "title": "Needles in a Raystack: Ultra-Sparse LiDAR Occupancy Detection for Bat Tracks",
         "url": "https://arxiv.org/abs/2609.20160v1"
+      },
+      {
+        "title": "jayzou3773/less-is-moe-gpt-oss-120b-s1-128-seq8192-intdim-g-50",
+        "url": "https://huggingface.co/jayzou3773/less-is-moe-gpt-oss-120b-s1-128-seq8192-intdim-g-50"
       }
     ],
     "language_models": [
@@ -517,6 +521,10 @@
       {
         "title": "A Free Lunch? Adapting PP-OCRv6 for Historical Text Recognition",
         "url": "https://arxiv.org/abs/2609.20064v1"
+      },
+      {
+        "title": "jayzou3773/less-is-moe-gpt-oss-120b-s1-128-seq8192-intdim-g-50",
+        "url": "https://huggingface.co/jayzou3773/less-is-moe-gpt-oss-120b-s1-128-seq8192-intdim-g-50"
       }
     ],
     "vision_systems": [
@@ -599,6 +607,10 @@
       {
         "title": "An Event Preserving Velocity Invariant Representation for Event Cameras",
         "url": "https://arxiv.org/abs/2609.19973v1"
+      },
+      {
+        "title": "huggingface/DEH-image-scan-data",
+        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
@@ -1341,7 +1353,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "44 independent papers",
+      "observation": "45 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1353,13 +1365,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "65 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "63 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1412,6 +1424,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 328
+    "total_papers": 331
   }
 }
