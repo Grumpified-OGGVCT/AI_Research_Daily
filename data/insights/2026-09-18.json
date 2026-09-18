@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-18T18:01:30.309541",
+  "date": "2026-09-18T20:44:15.775074",
   "patterns": {
     "multimodal_research": [
       {
@@ -517,10 +517,6 @@
       {
         "title": "A Free Lunch? Adapting PP-OCRv6 for Historical Text Recognition",
         "url": "https://arxiv.org/abs/2609.20064v1"
-      },
-      {
-        "title": "leonidas123/smollm2-135m-math-lora-v1-merged",
-        "url": "https://huggingface.co/leonidas123/smollm2-135m-math-lora-v1-merged"
       }
     ],
     "vision_systems": [
@@ -1357,7 +1353,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "66 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1416,6 +1412,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 329
+    "total_papers": 328
   }
 }
