@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-19T00:57:53.613010",
+  "date": "2026-09-19T05:29:00.671930",
   "patterns": {
     "multimodal_research": [
       {
@@ -517,10 +517,6 @@
       {
         "title": "A Free Lunch? Adapting PP-OCRv6 for Historical Text Recognition",
         "url": "https://arxiv.org/abs/2609.20064v1"
-      },
-      {
-        "title": "mobarmg/jev-schema-scorer-deberta-v3-large",
-        "url": "https://huggingface.co/mobarmg/jev-schema-scorer-deberta-v3-large"
       }
     ],
     "vision_systems": [
@@ -603,10 +599,6 @@
       {
         "title": "An Event Preserving Velocity Invariant Representation for Event Cameras",
         "url": "https://arxiv.org/abs/2609.19973v1"
-      },
-      {
-        "title": "huggingface/DEH-image-scan-data",
-        "url": "https://huggingface.co/datasets/huggingface/DEH-image-scan-data"
       },
       {
         "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
@@ -1361,13 +1353,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "66 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "63 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1420,6 +1412,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 330
+    "total_papers": 328
   }
 }
