@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-22T15:20:59.188132",
+  "date": "2026-09-22T19:29:21.841041",
   "patterns": {
     "multimodal_research": [
       {
@@ -915,10 +915,6 @@
       {
         "title": "ReSTI: A Source-Grounded Audit and Repair of STI-Bench",
         "url": "https://arxiv.org/abs/2609.24727v1"
-      },
-      {
-        "title": "unsloth/Qwen-Image-2.1-FP8",
-        "url": "https://huggingface.co/unsloth/Qwen-Image-2.1-FP8"
       }
     ],
     "reasoning": [
@@ -1619,7 +1615,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "67 independent papers",
+      "observation": "66 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1672,6 +1668,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 393
+    "total_papers": 392
   }
 }
