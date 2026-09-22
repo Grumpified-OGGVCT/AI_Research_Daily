@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-22T05:44:31.223843",
+  "date": "2026-09-22T10:45:32.793793",
   "patterns": {
     "multimodal_research": [
       {
@@ -651,28 +651,8 @@
         "url": "https://arxiv.org/abs/2609.24470v1"
       },
       {
-        "title": "SirSahOl/SmolLM2-135M-Instruct-chat-mlx-16bit",
-        "url": "https://huggingface.co/SirSahOl/SmolLM2-135M-Instruct-chat-mlx-16bit"
-      },
-      {
-        "title": "SirSahOl/SmolLM2-135M-Instruct-chat-mlx-8bit",
-        "url": "https://huggingface.co/SirSahOl/SmolLM2-135M-Instruct-chat-mlx-8bit"
-      },
-      {
-        "title": "SirSahOl/SmolLM2-135M-Instruct-chat-mlx-4bit",
-        "url": "https://huggingface.co/SirSahOl/SmolLM2-135M-Instruct-chat-mlx-4bit"
-      },
-      {
-        "title": "SirSahOl/SmolLM2-135M-chat-mlx-16bit",
-        "url": "https://huggingface.co/SirSahOl/SmolLM2-135M-chat-mlx-16bit"
-      },
-      {
-        "title": "SirSahOl/SmolLM2-135M-chat-mlx-8bit",
-        "url": "https://huggingface.co/SirSahOl/SmolLM2-135M-chat-mlx-8bit"
-      },
-      {
-        "title": "SirSahOl/SmolLM2-135M-chat-mlx-4bit",
-        "url": "https://huggingface.co/SirSahOl/SmolLM2-135M-chat-mlx-4bit"
+        "title": "sohamsallam/legal-bert-base-language-detector",
+        "url": "https://huggingface.co/sohamsallam/legal-bert-base-language-detector"
       }
     ],
     "vision_systems": [
@@ -1633,7 +1613,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1670,7 +1650,7 @@
     },
     {
       "topic": "language",
-      "frequency": 56,
+      "frequency": 57,
       "significance": "high"
     },
     {
@@ -1692,6 +1672,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 398
+    "total_papers": 393
   }
 }
