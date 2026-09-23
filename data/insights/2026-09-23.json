@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-23T13:13:48.396479",
+  "date": "2026-09-23T18:09:15.824629",
   "patterns": {
     "multimodal_research": [
       {
@@ -603,12 +603,12 @@
         "url": "https://arxiv.org/abs/2609.25966v1"
       },
       {
-        "title": "MelNikov49539/liberty-log-anomaly-new",
-        "url": "https://huggingface.co/MelNikov49539/liberty-log-anomaly-new"
+        "title": "amd/Qwen3.6-35B-A3B-w4a16-llmcompressor",
+        "url": "https://huggingface.co/amd/Qwen3.6-35B-A3B-w4a16-llmcompressor"
       },
       {
-        "title": "zayar26/burmese-gpt2",
-        "url": "https://huggingface.co/zayar26/burmese-gpt2"
+        "title": "NovusEdge/vera-deberta-v3-large",
+        "url": "https://huggingface.co/NovusEdge/vera-deberta-v3-large"
       }
     ],
     "vision_systems": [
@@ -897,12 +897,8 @@
         "url": "https://arxiv.org/abs/2609.26795v1"
       },
       {
-        "title": "AIImageStudio/RadianceChromeVoluptuous_QwenImage2.1_v1.0",
-        "url": "https://huggingface.co/AIImageStudio/RadianceChromeVoluptuous_QwenImage2.1_v1.0"
-      },
-      {
-        "title": "Rzie227535844/Qwen-Image-2.1",
-        "url": "https://huggingface.co/Rzie227535844/Qwen-Image-2.1"
+        "title": "EliovpAI/Qwen_Image-2.1-MXFP4-Paiton-RDNA4",
+        "url": "https://huggingface.co/EliovpAI/Qwen_Image-2.1-MXFP4-Paiton-RDNA4"
       }
     ],
     "reasoning": [
@@ -1579,7 +1575,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1625,13 +1621,13 @@
     },
     {
       "topic": "architecture",
-      "frequency": 26,
+      "frequency": 25,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 383
+    "total_papers": 382
   }
 }
