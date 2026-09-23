@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-23T07:08:22.502297",
+  "date": "2026-09-23T13:13:48.396479",
   "patterns": {
     "multimodal_research": [
       {
@@ -605,6 +605,10 @@
       {
         "title": "MelNikov49539/liberty-log-anomaly-new",
         "url": "https://huggingface.co/MelNikov49539/liberty-log-anomaly-new"
+      },
+      {
+        "title": "zayar26/burmese-gpt2",
+        "url": "https://huggingface.co/zayar26/burmese-gpt2"
       }
     ],
     "vision_systems": [
@@ -891,6 +895,14 @@
       {
         "title": "\u03c6-RIE: From Photorealistic Reconstruction to Interactive Environments",
         "url": "https://arxiv.org/abs/2609.26795v1"
+      },
+      {
+        "title": "AIImageStudio/RadianceChromeVoluptuous_QwenImage2.1_v1.0",
+        "url": "https://huggingface.co/AIImageStudio/RadianceChromeVoluptuous_QwenImage2.1_v1.0"
+      },
+      {
+        "title": "Rzie227535844/Qwen-Image-2.1",
+        "url": "https://huggingface.co/Rzie227535844/Qwen-Image-2.1"
       }
     ],
     "reasoning": [
@@ -1561,13 +1573,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "81 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1613,13 +1625,13 @@
     },
     {
       "topic": "architecture",
-      "frequency": 25,
+      "frequency": 26,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 380
+    "total_papers": 383
   }
 }
