@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-23T18:09:15.824629",
+  "date": "2026-09-23T21:58:01.719574",
   "patterns": {
     "multimodal_research": [
       {
@@ -601,14 +601,6 @@
       {
         "title": "GRIP: Gaussian Rendering as a Cross-Modal Bridge for Image-to-Point Cloud Registration",
         "url": "https://arxiv.org/abs/2609.25966v1"
-      },
-      {
-        "title": "amd/Qwen3.6-35B-A3B-w4a16-llmcompressor",
-        "url": "https://huggingface.co/amd/Qwen3.6-35B-A3B-w4a16-llmcompressor"
-      },
-      {
-        "title": "NovusEdge/vera-deberta-v3-large",
-        "url": "https://huggingface.co/NovusEdge/vera-deberta-v3-large"
       }
     ],
     "vision_systems": [
@@ -895,10 +887,6 @@
       {
         "title": "\u03c6-RIE: From Photorealistic Reconstruction to Interactive Environments",
         "url": "https://arxiv.org/abs/2609.26795v1"
-      },
-      {
-        "title": "EliovpAI/Qwen_Image-2.1-MXFP4-Paiton-RDNA4",
-        "url": "https://huggingface.co/EliovpAI/Qwen_Image-2.1-MXFP4-Paiton-RDNA4"
       }
     ],
     "reasoning": [
@@ -1153,6 +1141,10 @@
       {
         "title": "ForeDrive: Foresight-Guided End-to-End Autonomous Driving with a Planning-Relevant Latent World Model",
         "url": "https://arxiv.org/abs/2609.26299v1"
+      },
+      {
+        "title": "etiennebamas/feedback-grpo-step-200-reasoning-sft",
+        "url": "https://huggingface.co/etiennebamas/feedback-grpo-step-200-reasoning-sft"
       }
     ],
     "benchmarks": [
@@ -1569,19 +1561,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "82 independent papers",
+      "observation": "80 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "72 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "63 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1628,6 +1620,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 382
+    "total_papers": 380
   }
 }
