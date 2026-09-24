@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-24T05:45:16.549056",
+  "date": "2026-09-24T10:55:21.046939",
   "patterns": {
     "multimodal_research": [
       {
@@ -559,8 +559,8 @@
         "url": "https://arxiv.org/abs/2609.28434v1"
       },
       {
-        "title": "rohit8626/my-bert-imdb-classifier",
-        "url": "https://huggingface.co/rohit8626/my-bert-imdb-classifier"
+        "title": "dehanalkautsar/gpt2-am-wikimulti",
+        "url": "https://huggingface.co/dehanalkautsar/gpt2-am-wikimulti"
       }
     ],
     "vision_systems": [
@@ -655,10 +655,6 @@
       {
         "title": "CereVLA: Cerebellum-Inspired Consequence-Aware Residual Governance for Efficient Vision-Language-Action Execution",
         "url": "https://arxiv.org/abs/2609.27468v1"
-      },
-      {
-        "title": "Viggle/Qwen-Image-2.1-viggle-turbo",
-        "url": "https://huggingface.co/Viggle/Qwen-Image-2.1-viggle-turbo"
       },
       {
         "title": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
@@ -869,12 +865,8 @@
         "url": "https://arxiv.org/abs/2609.27560v1"
       },
       {
-        "title": "infosave/Z-Image-cmf",
-        "url": "https://huggingface.co/infosave/Z-Image-cmf"
-      },
-      {
-        "title": "infosave/Z-Image-Turbo-cmf",
-        "url": "https://huggingface.co/infosave/Z-Image-Turbo-cmf"
+        "title": "alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs",
+        "url": "https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs"
       }
     ],
     "reasoning": [
@@ -1527,7 +1519,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "78 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1580,6 +1572,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 370
+    "total_papers": 368
   }
 }
