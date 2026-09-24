@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-24T15:40:52.737519",
+  "date": "2026-09-24T19:43:01.734317",
   "patterns": {
     "multimodal_research": [
       {
@@ -861,12 +861,8 @@
         "url": "https://arxiv.org/abs/2609.27560v1"
       },
       {
-        "title": "RunningHubAI/rh-cyberrealistic-z-image-turbo-unet",
-        "url": "https://huggingface.co/RunningHubAI/rh-cyberrealistic-z-image-turbo-unet"
-      },
-      {
-        "title": "RunningHubAI/rh-zimagelora-1.0-tsune-lora",
-        "url": "https://huggingface.co/RunningHubAI/rh-zimagelora-1.0-tsune-lora"
+        "title": "SimpleTuner/Qwen-Image-2.1-LoRA-experiments",
+        "url": "https://huggingface.co/SimpleTuner/Qwen-Image-2.1-LoRA-experiments"
       }
     ],
     "reasoning": [
@@ -1519,7 +1515,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1572,6 +1568,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 368
+    "total_papers": 367
   }
 }
