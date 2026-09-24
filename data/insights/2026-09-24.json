@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-24T19:43:01.734317",
+  "date": "2026-09-24T22:55:53.141115",
   "patterns": {
     "multimodal_research": [
       {
@@ -859,10 +859,6 @@
       {
         "title": "When Visual Quality Misleads: Intent Recognition under Rendered Avatar Distortions",
         "url": "https://arxiv.org/abs/2609.27560v1"
-      },
-      {
-        "title": "SimpleTuner/Qwen-Image-2.1-LoRA-experiments",
-        "url": "https://huggingface.co/SimpleTuner/Qwen-Image-2.1-LoRA-experiments"
       }
     ],
     "reasoning": [
@@ -1515,7 +1511,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1568,6 +1564,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 367
+    "total_papers": 366
   }
 }
