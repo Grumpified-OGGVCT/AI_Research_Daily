@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-24T10:55:21.046939",
+  "date": "2026-09-24T15:40:52.737519",
   "patterns": {
     "multimodal_research": [
       {
@@ -557,10 +557,6 @@
       {
         "title": "Predicting the Progression of Adolescent Idiopathic Scoliosis",
         "url": "https://arxiv.org/abs/2609.28434v1"
-      },
-      {
-        "title": "dehanalkautsar/gpt2-am-wikimulti",
-        "url": "https://huggingface.co/dehanalkautsar/gpt2-am-wikimulti"
       }
     ],
     "vision_systems": [
@@ -865,8 +861,12 @@
         "url": "https://arxiv.org/abs/2609.27560v1"
       },
       {
-        "title": "alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs",
-        "url": "https://huggingface.co/alibaba-pai/Qwen-Image-2.1-Fun-Acc-LoRAs"
+        "title": "RunningHubAI/rh-cyberrealistic-z-image-turbo-unet",
+        "url": "https://huggingface.co/RunningHubAI/rh-cyberrealistic-z-image-turbo-unet"
+      },
+      {
+        "title": "RunningHubAI/rh-zimagelora-1.0-tsune-lora",
+        "url": "https://huggingface.co/RunningHubAI/rh-zimagelora-1.0-tsune-lora"
       }
     ],
     "reasoning": [
@@ -1513,13 +1513,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
