@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-25T06:58:49.143905",
+  "date": "2026-09-25T12:35:14.043033",
   "patterns": {
     "multimodal_research": [
       {
@@ -597,14 +597,6 @@
       {
         "title": "Can Frozen Hyperspherical Features Guide the Selection of Pseudo Masks?",
         "url": "https://arxiv.org/abs/2609.30080v1"
-      },
-      {
-        "title": "toiletsandpaper/russian-ai-text-detector-bert",
-        "url": "https://huggingface.co/toiletsandpaper/russian-ai-text-detector-bert"
-      },
-      {
-        "title": "raunak-pratap21/distilbert-base-uncased-finetuned-squad-d5716d28",
-        "url": "https://huggingface.co/raunak-pratap21/distilbert-base-uncased-finetuned-squad-d5716d28"
       }
     ],
     "vision_systems": [
@@ -1425,7 +1417,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1484,6 +1476,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 346
+    "total_papers": 344
   }
 }
