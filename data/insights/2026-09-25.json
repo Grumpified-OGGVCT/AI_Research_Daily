@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-25T20:59:01.130189",
+  "date": "2026-09-25T23:51:35.446749",
   "patterns": {
     "multimodal_research": [
       {
@@ -599,8 +599,8 @@
         "url": "https://arxiv.org/abs/2609.30080v1"
       },
       {
-        "title": "ManojP09/logfix-smollm2-360m",
-        "url": "https://huggingface.co/ManojP09/logfix-smollm2-360m"
+        "title": "RusselKuAguilar/bert-base-cased-squad-extractive-qa",
+        "url": "https://huggingface.co/RusselKuAguilar/bert-base-cased-squad-extractive-qa"
       }
     ],
     "vision_systems": [
@@ -787,10 +787,6 @@
       {
         "title": "Can Frozen Hyperspherical Features Guide the Selection of Pseudo Masks?",
         "url": "https://arxiv.org/abs/2609.30080v1"
-      },
-      {
-        "title": "wiltodelta/openai-google-image-source-classifier",
-        "url": "https://huggingface.co/wiltodelta/openai-google-image-source-classifier"
       }
     ],
     "reasoning": [
@@ -1431,7 +1427,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "47 independent papers",
+      "observation": "46 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1484,6 +1480,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 346
+    "total_papers": 345
   }
 }
