@@ -1,11 +1,22 @@
 {
-  "date": "2026-09-28T06:13:23.484732",
-  "patterns": {},
+  "date": "2026-09-28T14:50:29.087232",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Z-Jafari/bert-fa-base-uncased-finetuned-nestedRewrite_QA",
+        "url": "https://huggingface.co/Z-Jafari/bert-fa-base-uncased-finetuned-nestedRewrite_QA"
+      },
+      {
+        "title": "mradermacher/gpt-oss-120b-Uncensored-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/gpt-oss-120b-Uncensored-i1-GGUF"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
