@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-29T19:04:18.303570",
+  "date": "2026-09-29T23:21:50.566562",
   "patterns": {
     "multimodal_research": [
       {
@@ -703,6 +703,10 @@
         "url": "https://arxiv.org/abs/2609.35620v1"
       },
       {
+        "title": "salmanhadli/gpt-news-model",
+        "url": "https://huggingface.co/salmanhadli/gpt-news-model"
+      },
+      {
         "title": "FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning",
         "url": "https://arxiv.org/abs/2609.35728v1"
       },
@@ -721,6 +725,10 @@
       {
         "title": "Revisiting Risky Tackle Detection with Vision Transformers",
         "url": "https://arxiv.org/abs/2609.35562v1"
+      },
+      {
+        "title": "salmanhadli/gpt-news-classifier123",
+        "url": "https://huggingface.co/salmanhadli/gpt-news-classifier123"
       }
     ],
     "vision_systems": [
@@ -937,10 +945,6 @@
         "url": "https://arxiv.org/abs/2609.35464v1"
       },
       {
-        "title": "nphSi/Z-Image-Lora",
-        "url": "https://huggingface.co/nphSi/Z-Image-Lora"
-      },
-      {
         "title": "FlowAct-R2: Beyond Talking Avatar via Streaming Multimodal References and Proactive Agent Planning",
         "url": "https://arxiv.org/abs/2609.35728v1"
       },
@@ -983,6 +987,10 @@
       {
         "title": "What Paired Evaluations Reveal under Visual Perturbations",
         "url": "https://arxiv.org/abs/2609.35583v1"
+      },
+      {
+        "title": "BigBrVisuals/Qwen-1.5B-Agent-Pro",
+        "url": "https://huggingface.co/BigBrVisuals/Qwen-1.5B-Agent-Pro"
       }
     ],
     "reasoning": [
@@ -1653,7 +1661,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "103 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,6 +1720,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 405
   }
 }
