@@ -19,7 +19,7 @@
       "Esmeralda S. Whitammer",
       "Alessandro Sordoni",
       "Minseon Kim",
-      "Marc-Alexandre C\u00f4t\u00e9",
+      "Marc-Alexandre Côté",
       "Laurent Charlin",
       "Guillaume Lajoie"
     ],
@@ -40,7 +40,7 @@
     "summary": "The question of AI consciousness is one of the most urgent pre-emptive problems in philosophy and computer science, yet progress is hampered by a cacophony of competing theories that often talk past each other. Separating the hard problem from the mapping problem allows the deepest metaphysical disagreements to be set aside: granting that experience supervenes on a system's organisation, the tractable question becomes at which grain of description that supervenience base sits. We extend Marr's three levels of analysis into a five-level hierarchy of functional descriptions (behavioural, computational, intrinsic causal-structural, organismic, and organism-environment) grounded in supervenience, coarse-graining, and multiple realisability. The major theories of consciousness are positioned within this hierarchy according to which level they take to be critical, and for each level we develop operationalisable indicators and assess current AI systems against them. A Bayesian model then combines theoretical credences with indicator evidence into an overall credence in a system's capacity for consciousness. In illustrative assessments, the verdict for current LLMs is driven as much by where theoretical credence is placed as by how the evidence is read: under different stipulated readings and credence distributions, assessments range from below 0.01 to roughly 0.8, showing sensitivity to assumptions. Finally, the consciousness indicators at each level closely overlap with the architectural features needed for general intelligence, suggesting that increasingly capable AI may become a stronger candidate for consciousness. The framework supports a structured agnosticism, in which theoretical commitments are made explicit, credences are updated as evidence accumulates, and assessments take the form of aggregated probabilities rather than verdicts.",
     "authors": [
       "Shamil Chandaria",
-      "Arvo Mu\u00f1oz Mor\u00e1n",
+      "Arvo Muñoz Morán",
       "Fernando Rosas",
       "Anil Seth",
       "Henry Shevlin",
@@ -367,7 +367,7 @@
   {
     "arxiv_id": "2609.35491v1",
     "title": "From Scores to Samples: Elastic Forcing for Autoregressive Video Generation",
-    "summary": "Few-step autoregressive video generation commonly relies on Distribution Matching Distillation (DMD), requiring a bidirectional diffusion teacher and an online fake-score model. We instead learn the rollout distribution directly from reference videos, eliminating both score models during post-training. Our framework minimizes maximum mean discrepancy (MMD) in frozen self-supervised video representation spaces, using a hybrid Nystr\u00f6m--Monte Carlo estimator to balance approximation bias and sampling variance. Memory-efficient replay and gradient subsampling make this objective practical. Using the same architecture and initialization as Self-Forcing, our 1.3B model improves the VBench Total score from 83.80 to 84.64 while retaining 17 FPS. Removing auxiliary score models also enables 14B post-training on eight H200 GPUs. Beyond distillation, learning from reference videos enables the acquisition of new visual styles, semantic concepts, and spatial priors without a target-specific diffusion teacher.",
+    "summary": "Few-step autoregressive video generation commonly relies on Distribution Matching Distillation (DMD), requiring a bidirectional diffusion teacher and an online fake-score model. We instead learn the rollout distribution directly from reference videos, eliminating both score models during post-training. Our framework minimizes maximum mean discrepancy (MMD) in frozen self-supervised video representation spaces, using a hybrid Nyström--Monte Carlo estimator to balance approximation bias and sampling variance. Memory-efficient replay and gradient subsampling make this objective practical. Using the same architecture and initialization as Self-Forcing, our 1.3B model improves the VBench Total score from 83.80 to 84.64 while retaining 17 FPS. Removing auxiliary score models also enables 14B post-training on eight H200 GPUs. Beyond distillation, learning from reference videos enables the acquisition of new visual styles, semantic concepts, and spatial priors without a target-specific diffusion teacher.",
     "authors": [
       "Chi Zhang",
       "Yueyi Liu",
@@ -445,7 +445,7 @@
     "summary": "While Large Reasoning Models (LRMs) excel at complex reasoning, alignment through reinforcement learning often induces systemic overconfidence. In production environments, where logits may be unavailable, robust black-box uncertainty quantification (UQ) is essential for trustworthiness and safety. Focusing on question-answering for LRMs, we show that existing black-box methods, such as paraphrase-based self-consistency and confidence verbalization, offer little to no improvement over simple repeated sampling, suggesting that alignment suppresses useful output variability. We introduce prompt-level relaxation operators that broaden the model's effective output distribution by approximating the effect of an optimal policy obtained with a stronger KL-regularization parameter, hence closer to the reference model. Theoretically, we demonstrate that relaxation improves calibration. We propose Jailbreak for Uncertainty (J4U), a jailbreak-derived technique for UQ that empirically reproduces the behavioral signatures predicted by our relaxation theory. Across 3 datasets and 4 LRMs, including a closed-source production model, J4U's improvement over repeated sampling achieves statistical significance in up to 6 times more LRM-dataset-metric settings than the strongest black-box UQ state-of-the-art baseline we evaluate, with average ECE reductions up to 5 times larger. These results provide a practical tool for UQ in black-box LRM deployment.",
     "authors": [
       "Lucas Biechy",
-      "C\u00e9dric Eichler",
+      "Cédric Eichler",
       "Adrien Boiret",
       "Nicolas Anciaux"
     ],
@@ -523,7 +523,7 @@
     "authors": [
       "Leander Diaz-Bone",
       "Marco Bagatella",
-      "Jonas H\u00fcbotter",
+      "Jonas Hübotter",
       "Andreas Krause"
     ],
     "categories": [
@@ -767,7 +767,7 @@
     "summary": "The emergence of the digital transition brought an increasing need to control the processing of digital information, including in Law Enforcement Agencies (LEAs). At the EU level, in recent years, many regulations have emerged to control data processing and exchange. Texts other than the GDPR, such as the ''Law Enforcement Directive (LED)'', appeared to regulate specifically how Law Enforcement Agencies (LEAs) could process data. A formal representation of these regulations can be part of decision systems that support LEAs in processing data in compliance with the regulations. Although many new formalisms have emerged to represent legal norms and rules, few are provided with a reasoning mechanism. Furthermore, systems used in decision-making processes in critical contexts such as medical diagnoses or legal decisions cannot be fully automated, and the explainability of their results is essential to ensure user confidence in decisions. This explainability aspect, while crucial, is lacking in most modern approaches that rely on machine learning. This paper describes a framework to operate formal rules from regulations, by focusing on explainability of the decision. After describing the general architecture of the proposed decision support framework, the paper showcases how symbolic AI and the SPARQL query language can support legal reasoning. It then describes an algorithm to generate a justification for the reasoning results, and outlines the procedure to be followed when the reasoning does not lead to a satisfactory conclusion. We notably focus on a method based on decision trees to determine what additional information to request from the user.",
     "authors": [
       "Jeremy Bouche-Pillon",
-      "Pascale Zarat{\u00e9}",
+      "Pascale Zarat{é}",
       "Yannick Chevalier",
       "Nathalie Aussenac-Gilles"
     ],
@@ -953,9 +953,9 @@
   {
     "arxiv_id": "2609.35441v1",
     "title": "Riccati State Space Models: Non-iterative Parallelization for Nonlinear Sequence Modeling",
-    "summary": "State space models (SSMs) achieve efficient sequence processing because their affine state updates are closed under composition and can therefore be evaluated with an associative parallel scan. Nonlinear recurrent models can provide richer, state-dependent dynamics, but generally lose this compositional structure: parallel evaluation then requires iterative methods that repeatedly linearize and scan the recurrence. We ask, what state-dependent nonlinear dynamics can be designed to remain exactly composable? We answer by introducing RiccatiSSM, a nonlinear SSM, in which each state dimension follows an input-conditioned Riccati differential equation. Its quadratic state dependence makes the local Jacobian explicitly state-dependent, while its exact per-step flow under piecewise-constant inputs is a M\u00f6bius transformation. Since M\u00f6bius maps are closed under composition and compose through $2\\times 2$ matrix multiplication, the complete nonlinear state trajectory can be evaluated exactly with a single associative parallel scan, without iterative linearization. We further derive a constrained parameterization that ensures bounded, contractive dynamics, and avoids poles in the fractional-linear state update. Across long-sequence classification, regression, and forecasting tasks, RiccatiSSM achieves competitive predictive performance while reducing runtime by $22{-}33\\%$ compared to the nonlinear LrcSSM under matched architectures. These results demonstrate that state-dependent nonlinear dynamics can retain exact composability and be evaluated efficiently within a single parallel scan.",
+    "summary": "State space models (SSMs) achieve efficient sequence processing because their affine state updates are closed under composition and can therefore be evaluated with an associative parallel scan. Nonlinear recurrent models can provide richer, state-dependent dynamics, but generally lose this compositional structure: parallel evaluation then requires iterative methods that repeatedly linearize and scan the recurrence. We ask, what state-dependent nonlinear dynamics can be designed to remain exactly composable? We answer by introducing RiccatiSSM, a nonlinear SSM, in which each state dimension follows an input-conditioned Riccati differential equation. Its quadratic state dependence makes the local Jacobian explicitly state-dependent, while its exact per-step flow under piecewise-constant inputs is a Möbius transformation. Since Möbius maps are closed under composition and compose through $2\\times 2$ matrix multiplication, the complete nonlinear state trajectory can be evaluated exactly with a single associative parallel scan, without iterative linearization. We further derive a constrained parameterization that ensures bounded, contractive dynamics, and avoids poles in the fractional-linear state update. Across long-sequence classification, regression, and forecasting tasks, RiccatiSSM achieves competitive predictive performance while reducing runtime by $22{-}33\\%$ compared to the nonlinear LrcSSM under matched architectures. These results demonstrate that state-dependent nonlinear dynamics can retain exact composability and be evaluated efficiently within a single parallel scan.",
     "authors": [
-      "M\u00f3nika Farsang",
+      "Mónika Farsang",
       "Ramin Hasani",
       "Daniela Rus",
       "Radu Grosu"
@@ -1115,7 +1115,7 @@
   {
     "arxiv_id": "2609.35433v1",
     "title": "ReSPO: Reshaped Sequence Policy Optimization for Gradient Starvation in Off-Policy Learning",
-    "summary": "Reinforcement learning from verifiable rewards (RLVR) frequently reuses rollouts across multiple policy updates, increasing the mismatch between the current policy and the data-generating policy. We identify a sign-dependent gradient starvation problem in clipped policy optimization: clipping suppresses under-generated positive responses at the low-importance-weight tail while permitting severely over-generated negative responses to dominate the high-weight tail. To address this, we propose ReSPO (Reshaped Sequence Policy Optimization), which replaces clipping with a smooth, two-branch sequence-level kernel derived from an $\u03b1$-divergence variational objective and an exponential variance-control tilt. The positive branch preserves a nonzero gradient weight for under-generated positive responses, while the negative branch suppresses heavily over-generated negative responses. We demonstrate that ReSPO effectively learns from long positive reasoning trajectories during early training, even when accumulated policy drift relegates them to the low-importance-weight tail. On dense and MoE Qwen3 models, ReSPO accelerates early optimization, improves final training scores, and achieves higher held-out benchmark performance under a rollout reuse, validating our approach on importance-weight tail control in off-policy learning.",
+    "summary": "Reinforcement learning from verifiable rewards (RLVR) frequently reuses rollouts across multiple policy updates, increasing the mismatch between the current policy and the data-generating policy. We identify a sign-dependent gradient starvation problem in clipped policy optimization: clipping suppresses under-generated positive responses at the low-importance-weight tail while permitting severely over-generated negative responses to dominate the high-weight tail. To address this, we propose ReSPO (Reshaped Sequence Policy Optimization), which replaces clipping with a smooth, two-branch sequence-level kernel derived from an $α$-divergence variational objective and an exponential variance-control tilt. The positive branch preserves a nonzero gradient weight for under-generated positive responses, while the negative branch suppresses heavily over-generated negative responses. We demonstrate that ReSPO effectively learns from long positive reasoning trajectories during early training, even when accumulated policy drift relegates them to the low-importance-weight tail. On dense and MoE Qwen3 models, ReSPO accelerates early optimization, improves final training scores, and achieves higher held-out benchmark performance under a rollout reuse, validating our approach on importance-weight tail control in off-policy learning.",
     "authors": [
       "Yihang Chen",
       "Yuanhao Ban",
@@ -1156,7 +1156,7 @@
     "title": "Retrieving Biblical Intertextual References in Karen Blixen's Seven Gothic Tales",
     "summary": "Identifying intertextual references is central to literary scholarship, but computationally difficult when source material is transformed through paraphrase, allusion, historical language, and translation. We investigate this problem through biblical intertextuality in Karen Blixen's Seven Gothic Tales. Drawing on the commentary to a critical edition, we construct a benchmark of 189 annotated references and evaluate retrieval against all 31,170 verses of historically plausible Danish Old and New Testament translations. We compare TF-IDF and BM25 with multilingual and Danish sentence encoders, examine the effect of linguistic normalization, and fine-tune a Danish encoder using hard negatives and five-fold cross-validation. We analyze performance across automatically derived lexical-overlap strata representing quotations, paraphrases, and allusions. Linguistically normalized BM25 provides a strong zero-shot baseline, attaining an overall R@10 of 0.365 and retrieving every quotation within its ten highest-ranked verses. The best zero-shot dense model achieves a comparable overall score of 0.360 while performing better on allusions. Fine-tuning DFM-large raises its overall R@10 from 0.265 to 0.508 and more than doubles its performance on allusions, from 0.138 to 0.339. However, evaluation against editorial annotations alone understates the model's scholarly usefulness: a literary scholar judged seven of 30 selected rank-one predictions counted as false positives to be meaningful additional references. These findings show both the potential and the epistemic limits of computational intertextual retrieval. Rather than treating scholarly annotations as exhaustive or model outputs as discoveries, we propose retrieval models as heuristic co-readers that recover documented references and generate candidates for expert-led close reading.",
     "authors": [
-      "Andr\u00e1s Kov\u00e1cs",
+      "András Kovács",
       "Alexander Conroy",
       "Daniel Hershcovich",
       "Jens Bjerring-Hansen"
@@ -1310,7 +1310,7 @@
     "authors": [
       "Sami Chemlal",
       "Thibaut Germain",
-      "R\u00e9mi Flamary",
+      "Rémi Flamary",
       "Vladimir R. Kostic",
       "Karim Lounici"
     ],
@@ -1328,7 +1328,7 @@
   {
     "arxiv_id": "2609.35392v1",
     "title": "The Hidden Ratio in Adam: Stable Structure, Compression, and Sign Dynamics",
-    "summary": "Adam is the default optimizer for training modern deep neural networks, yet its adaptive behavior remains poorly understood due to the complex interaction between its first- and second-moment exponential moving averages (EMAs). We study Adam in the tied-$\u03b2$ regime, where the two EMA decay rates are equal, and show that its adaptive dynamics can be expressed through a transformed ratio with approximately scale-stable behavior. Empirically, this transformed ratio exhibits a stable, heavy-tailed distribution across tasks, model scales, and training stages, in contrast to the variability of raw moment magnitudes. This empirical stability has both practical and conceptual consequences. First, we derive a recurrence for the transformed ratio, yielding a reparameterization of Adam that replaces the second moment with a compressible state. Leveraging its stable distribution, we show that a fixed 4-bit codebook is sufficient in our experiments to store this state without auxiliary scaling, achieving performance competitive with full-precision Adam. Second, the transformed ratio view clarifies Adam's connection to sign-based methods: Adam reduces to sign-based momentum modulated by the transformed ratio, and replacing it with a constant recovers Signum as a limiting case. This perspective further provides a simple rule for transferring learning rates between the two methods. Together, these results suggest that tied-$\u03b2$ Adam admits a simple and approximately stable ratio structure underlying its adaptive behavior and demonstrate its utility for both analysis and efficient implementation.",
+    "summary": "Adam is the default optimizer for training modern deep neural networks, yet its adaptive behavior remains poorly understood due to the complex interaction between its first- and second-moment exponential moving averages (EMAs). We study Adam in the tied-$β$ regime, where the two EMA decay rates are equal, and show that its adaptive dynamics can be expressed through a transformed ratio with approximately scale-stable behavior. Empirically, this transformed ratio exhibits a stable, heavy-tailed distribution across tasks, model scales, and training stages, in contrast to the variability of raw moment magnitudes. This empirical stability has both practical and conceptual consequences. First, we derive a recurrence for the transformed ratio, yielding a reparameterization of Adam that replaces the second moment with a compressible state. Leveraging its stable distribution, we show that a fixed 4-bit codebook is sufficient in our experiments to store this state without auxiliary scaling, achieving performance competitive with full-precision Adam. Second, the transformed ratio view clarifies Adam's connection to sign-based methods: Adam reduces to sign-based momentum modulated by the transformed ratio, and replacing it with a constant recovers Signum as a limiting case. This perspective further provides a simple rule for transferring learning rates between the two methods. Together, these results suggest that tied-$β$ Adam admits a simple and approximately stable ratio structure underlying its adaptive behavior and demonstrate its utility for both analysis and efficient implementation.",
     "authors": [
       "Yihe Zhou",
       "Tongtian Zhu",
@@ -1397,10 +1397,10 @@
     "title": "First Learn, Then Memorize: The Spectral Bias of Diffusion Models",
     "summary": "Diffusion models trained on a finite dataset first learn to generate novel, high-quality samples and only much later collapse onto their training set. We identify the mechanism behind this separation of timescales and the object that probes it. The training dynamics of the score function are governed---exactly, and at any width---by the Gram matrix of the Neural Tangent Kernel (NTK) evaluated on the noisy training data, so the timescales of generalization and of memorization must be encoded in its spectrum. We show that they are, and that the structure responsible has no analogue in standard kernel settings. The use of multiple noise realizations per sample ($m$ noised copies at a fixed noise level) in the score-matching loss is what restructures the Gram matrix spectrum into two distinct parts. The first, of large eigenvalues, carries the global features of the target distribution and is present already for $m=1$. The second, which the repeated noising creates, consists of the smallest eigenvalues and is supported on eigenvectors aligned with the sample-specific noise directions; it sets a memorization timescale parametrically larger in the training set size $n$. We establish this picture on two fronts. Analytically, we solve the spectrum in the lazy high-dimensional limit for both linear ($n \\asymp d$) and polynomial ($n \\asymp d^k$) sample complexities, and prove through a bias--variance decomposition that the first bulk minimizes the approximation error while the second drives the error associated with memorization. Empirically, we show the same two-bulk structure in Convolutional NTKs on CelebA and in finite-width U-Nets trained well beyond the lazy regime, and we make the link causal: truncating the Gram matrix at rank $r$ tunes the generalization--memorization transition, and an $L_2$ penalty targeting the second bulk suppresses memorization in feature-learning U-Nets.",
     "authors": [
-      "Rapha\u00ebl Urfin",
+      "Raphaël Urfin",
       "Tony Bonnaire",
       "Giulio Biroli",
-      "Marc M\u00e9zard"
+      "Marc Mézard"
     ],
     "categories": [
       "cs.LG",
@@ -1515,7 +1515,7 @@
     "summary": "We present a representation-learning framework for composite adaptive tracking control under dynamically coupled disturbances. The framework connects classical disturbance-accommodating control (DAC) to recent last-layer adaptive disturbance-rejection methods. Specifically, we introduce a statistically principled hard expectation-maximization (hard-EM) procedure, with a Kalman smoother in the hard E-step, to identify dynamical representations of disturbance whose latent evolution is uniformly contractive. The learned representation evolves a latent disturbance-excitation state from measured plant features and control inputs and decodes that state into the time-varying disturbance acting on the nominal plant, thereby extending prior \"fixed-decay\" last-layer adaptive methods to a learned, predictive DAC-style formulation. Combined with Bayesian filtering of the learned latent state, this representation yields a composite adaptive tracking controller with predictive capability and provable exponential convergence to a bounded neighborhood. We validate our approach experimentally on a slippery ground vehicle carrying a liquid-sloshing tank and a pendulum load, and we further assess its robustness on a system of coupled Duffing oscillators. Across both settings, the method achieves accurate disturbance prediction and improved overall tracking performance relative to fixed-decay representation-learning ablations, LTI disturbance-accommodating baselines, and model-based PD baselines.",
     "authors": [
       "Min Kim",
-      "Jos\u00e9 Leonardo Brenes",
+      "José Leonardo Brenes",
       "Fred Hadaegh",
       "Soon-Jo Chung"
     ],
@@ -1804,7 +1804,7 @@
   {
     "arxiv_id": "2609.35698v1",
     "title": "Provable Benefits of Regularization: Fast Rates for Adversarial Imitation Learning",
-    "summary": "We study adversarial imitation learning (AIL), in which an agent learns to imitate expert demonstrations by optimizing a policy against an adversarial reward that distinguishes expert and learner behavior. Historically, reward regularization and entropy-based policy regularization are key components of empirically successful methods such as GAIL and LS-IQ, yet their finite-sample benefits remain underexplored. We establish fast rates for jointly regularized AIL in finite-horizon Markov decision processes with general function approximation. Our model-free algorithm, Dually Regularized AIL, combines KL policy regularization with a quadratic reward penalty weighted by expert and learner occupancies. With K online episodes and N expert trajectories, we prove a $\\widetilde{O}\\left(\\frac{1}{K}+\\frac{1}{N}\\right)$ bound on the regularized imitation gap for fixed regularization parameters. Our analysis combines an online mirror descent construction for general convex reward classes to control estimation error from finite expert data and stochastic learner feedback, with a sharp analysis of optimistic KL-regularized policy learning. To the best of our knowledge, Dually Regularized AIL is the first algorithm to simultaneously achieve $\\widetilde{O}\\left(\\frac{1}\u03b5\\right)$ sample complexity in both expert demonstrations and online interactions for this regularized AIL objective, even with stochastic experts. These results provide a rigorous characterization of the complementary statistical benefits of reward and policy regularization in AIL.",
+    "summary": "We study adversarial imitation learning (AIL), in which an agent learns to imitate expert demonstrations by optimizing a policy against an adversarial reward that distinguishes expert and learner behavior. Historically, reward regularization and entropy-based policy regularization are key components of empirically successful methods such as GAIL and LS-IQ, yet their finite-sample benefits remain underexplored. We establish fast rates for jointly regularized AIL in finite-horizon Markov decision processes with general function approximation. Our model-free algorithm, Dually Regularized AIL, combines KL policy regularization with a quadratic reward penalty weighted by expert and learner occupancies. With K online episodes and N expert trajectories, we prove a $\\widetilde{O}\\left(\\frac{1}{K}+\\frac{1}{N}\\right)$ bound on the regularized imitation gap for fixed regularization parameters. Our analysis combines an online mirror descent construction for general convex reward classes to control estimation error from finite expert data and stochastic learner feedback, with a sharp analysis of optimistic KL-regularized policy learning. To the best of our knowledge, Dually Regularized AIL is the first algorithm to simultaneously achieve $\\widetilde{O}\\left(\\frac{1}ε\\right)$ sample complexity in both expert demonstrations and online interactions for this regularized AIL objective, even with stochastic experts. These results provide a rigorous characterization of the complementary statistical benefits of reward and policy regularization in AIL.",
     "authors": [
       "Hanbin Zhou",
       "Shangzhe Li",
@@ -2065,7 +2065,7 @@
       "Emiliano Penaloza",
       "Zhengyan Shi",
       "Alessandro Sordoni",
-      "Marc-Alexandre C\u00f4t\u00e9",
+      "Marc-Alexandre Côté",
       "Xingdi Yuan",
       "Minseon Kim"
     ],
@@ -2615,11 +2615,11 @@
     "title": "GeoGAE: Scalable Graph-Level Autoencoding via Hyperball Cloud Representations",
     "summary": "Embedding structured objects into Euclidean spaces has enabled a wide range of successful machine learning applications. Such objects include words, documents, image patches, time series, and graph nodes. In contrast, embedding entire graphs remains a challenging problem. Existing methods either sustain the original order of the graph nodes or match the output nodes to the input ones, both of which create scalability issues. In this work, we propose a graph representation as a cloud of hyperballs, which allows us to define a specific, typically unique, node ordering. Based on this representation, we propose GeoGAE, an autoencoder, in which the Transformer encoder translates a hyperball cloud into a graph-level embedding, and the Transformer decoder translates the graph-level embedding back into the graph. This formulation enables the model to capture both the global graph structure and local relational patterns. We evaluate our method on multiple graph datasets, spanning various domains. The results demonstrate effectiveness of our method in encoding and reconstructing graphs from their embeddings.",
     "authors": [
-      "Rados\u0142aw Nowak",
+      "Radosław Nowak",
       "Anna Bielawska",
-      "Bogusz Stefa\u0144czyk",
+      "Bogusz Stefańczyk",
       "Maciej Sanocki",
-      "Pawe\u0142 Wawrzy\u0144ski"
+      "Paweł Wawrzyński"
     ],
     "categories": [
       "cs.LG"
@@ -2781,7 +2781,7 @@
     "summary": "We introduce the Functional Spectral-Newton Method (FSNM) for learning the leading singular structure of a conditional expectation operator without fixing a basis or reproducing kernel Hilbert space. FSNM fits a low-rank representation of the centered joint-to-product density ratio kernel by alternating functional Newton updates. Each update reduces to a preconditioned regression, which we approximate with vector-valued regression trees in a stagewise boosting procedure. At the population level, we establish descent and an $O(1/T)$ best-iterate block-stationarity rate under a relative weak-learner accuracy condition, and show that every nondegenerate local minimum over the full centered $L^2$ spaces is a globally optimal rank-$d$ approximation. Synthetic experiments show that FSNM recovers a low-rank density ratio and its leading spectral structure, and that the same learned kernel can answer multiple conditional queries without refitting.",
     "authors": [
       "Thiago Ramos",
-      "Alek Fr\u00f6hlich",
+      "Alek Fröhlich",
       "Daniel Perazzo",
       "Massimiliano Pontil"
     ],
@@ -3111,7 +3111,7 @@
   {
     "arxiv_id": "2609.35628v1",
     "title": "Arbitrary-Accuracy Neural Approximation with Optimal Neuron Count and Near-Optimal Bit Complexity",
-    "summary": "We study the minimum number of hidden neurons required for arbitrary-accuracy approximation of multivariate H\u00f6lder-continuous functions on $[0,1]^d$ and the associated encoding complexity. For $d\\geq 2$, we construct a fixed, explicitly defined activation function for which a closed-form network with two hidden layers of widths $d$ and $1$ achieves arbitrary accuracy in the uniform norm. We prove that $d+1$ is the exact minimum total number of hidden neurons among standard feedforward networks with locally integrable activations and affine outputs. We further give a simpler construction using a single elementary activation that combines the floor and exponential functions. This construction requires three hidden layers of widths $d$, $1$, and $2$, only two neurons above the minimum. If a skip connection is allowed, widths $d$, $1$, and $1$ suffice. These constructions use explicit grid addressing and integer encoding of quantized function values. For a bounded $\u03b1$-H\u00f6lder class, they require $O(\\varepsilon^{-d/\u03b1}\\log(1/\\varepsilon))$ bits, matching the metric-entropy lower bound up to a logarithmic factor.",
+    "summary": "We study the minimum number of hidden neurons required for arbitrary-accuracy approximation of multivariate Hölder-continuous functions on $[0,1]^d$ and the associated encoding complexity. For $d\\geq 2$, we construct a fixed, explicitly defined activation function for which a closed-form network with two hidden layers of widths $d$ and $1$ achieves arbitrary accuracy in the uniform norm. We prove that $d+1$ is the exact minimum total number of hidden neurons among standard feedforward networks with locally integrable activations and affine outputs. We further give a simpler construction using a single elementary activation that combines the floor and exponential functions. This construction requires three hidden layers of widths $d$, $1$, and $2$, only two neurons above the minimum. If a skip connection is allowed, widths $d$, $1$, and $1$ suffice. These constructions use explicit grid addressing and integer encoding of quantized function values. For a bounded $α$-Hölder class, they require $O(\\varepsilon^{-d/α}\\log(1/\\varepsilon))$ bits, matching the metric-entropy lower bound up to a logarithmic factor.",
     "authors": [
       "Zilan Cheng",
       "Li-Lian Wang",
@@ -3322,7 +3322,7 @@
       "Chen Gu",
       "Jianwei Ma",
       "Xinming Wu",
-      "Aim\u00e9 Fournier"
+      "Aimé Fournier"
     ],
     "categories": [
       "cs.AI",
@@ -3363,7 +3363,7 @@
     "title": "Impact of Patient Orientation in Single- and Multi-View Camera Environments for AI-based Rehabilitation Monitoring",
     "summary": "Automated quality assessment of rehabilitation exercises relies heavily on accurate human pose estimation from video data. Although numerous RGB-based pose estimation methods have been proposed, the impact of camera placement on detecting clinically relevant movement errors remains insufficiently explored. To address this gap, we introduce REHAB26-ViewAngles, a dataset comprising correct and incorrect rehabilitation exercise executions captured from a wide range of camera angles. Furthermore, we propose a novel separability metric to quantify an algorithm's ability to distinguish between valid and faulty exercise repetitions. Using these tools, we analyze how various RGB-based pose-estimation strategies are suitable for exercise quality assessment under varying camera placements. In particular, we analyze single-camera 2D and 3D pose estimation and four multi-camera strategies: a combination of two orthogonal 2D views, 3D triangulation, weighted 3D fusion, and an AI-based pose-estimation transformer model specifically trained from two synchronized cameras. Our findings reveal that an optimally placed 2D camera can improve the separability by 16.9\\,\\% over the commonly used $0^\\circ$ frontal view and frequently outperforms single-camera 3D estimation, while combining two views can further improve accuracy by up to 13.1\\,\\%. These results offer practical guidance for deploying rehabilitation monitoring in both home and clinical settings.",
     "authors": [
-      "Miriama J\u00e1no\u0161ov\u00e1",
+      "Miriama Jánošová",
       "Andreas Lang",
       "Petra Budikova",
       "Jan Sedmidubsky"
@@ -3537,7 +3537,7 @@
   {
     "arxiv_id": "2609.35418v1",
     "title": "Convex Optimization Is Free When Accuracy Is Expensive",
-    "summary": "This paper studies convex optimization when the gradient cannot be evaluated exactly, but only approximated by a hierarchy of algorithms whose compute grows like $\u03b4^{-\u03b3}$ in the accuracy $\u03b4$. When $\u03b3>2$, falling into the Harder-Than-Monte-Carlo (HTMC) regime, the price of accuracy outruns the variance reduction that Monte Carlo would buy and we show that minimizing a loss function costs no more, up to a factor depending only on $\u03b3$, than a single evaluation of its gradient at the accuracy the problem demands. A randomized multilevel oracle replaces the deterministic approximation of accuracy $\u03b4$ by an unbiased estimator of it, whose variance $\u03c3^2$ becomes a second, independently priced dial: the cost of one call drops from $\u03b4^{-\u03b3}$ to $\u03b4^{2-\u03b3}\u03c3^{-2}$. Plain inexact gradient descent driven by that oracle reaches loss $\\varepsilon$ at expected compute $\u0398(\\varepsilon^{-\u03b3})$ in the convex case, against $\u0398(\\varepsilon^{-(\u03b3+1)})$ for the same method run at a fixed accuracy: randomization buys a full power of $\\varepsilon$. Under $\u03bc$-strong convexity the exponent halves, to $\\varepsilon^{-\u03b3/2}$, because the iterates settle at a noise floor and the bias budget relaxes accordingly. Both bounds are independent of the step size, and hence of the smoothness constant, and we show that the cost is a functional of the underlying gradient flow rather than of any discretization of it.",
+    "summary": "This paper studies convex optimization when the gradient cannot be evaluated exactly, but only approximated by a hierarchy of algorithms whose compute grows like $δ^{-γ}$ in the accuracy $δ$. When $γ>2$, falling into the Harder-Than-Monte-Carlo (HTMC) regime, the price of accuracy outruns the variance reduction that Monte Carlo would buy and we show that minimizing a loss function costs no more, up to a factor depending only on $γ$, than a single evaluation of its gradient at the accuracy the problem demands. A randomized multilevel oracle replaces the deterministic approximation of accuracy $δ$ by an unbiased estimator of it, whose variance $σ^2$ becomes a second, independently priced dial: the cost of one call drops from $δ^{-γ}$ to $δ^{2-γ}σ^{-2}$. Plain inexact gradient descent driven by that oracle reaches loss $\\varepsilon$ at expected compute $Θ(\\varepsilon^{-γ})$ in the convex case, against $Θ(\\varepsilon^{-(γ+1)})$ for the same method run at a fixed accuracy: randomization buys a full power of $\\varepsilon$. Under $μ$-strong convexity the exponent halves, to $\\varepsilon^{-γ/2}$, because the iterates settle at a noise floor and the bias budget relaxes accordingly. Both bounds are independent of the step size, and hence of the smoothness constant, and we show that the cost is a functional of the underlying gradient flow rather than of any discretization of it.",
     "authors": [
       "Arthur Paing",
       "Arthur Jacot"
@@ -3579,7 +3579,7 @@
     "title": "Interference Beyond Geometry in Concept Extraction",
     "summary": "Interference is commonly treated as geometric overlap between learned features. We introduce effective interference, which combines feature geometry and code statistics to capture realized interactions, distinguishing constructive from destructive interference and frequent weak interactions from rare strong ones. Under local fixed-support assumptions, we characterize how architectural constraints shape interference through four mechanisms: feature orthogonalization, bias compensation, gain adaptation, and encoder-decoder separation. Experiments with sparse autoencoders show that constrained architectures selectively reduce overlap among co-active features, while bias, gain, and encoder freedom allow constructive cross-contributions to remain. Together, these results show that interference in learned representations depends not only on feature geometry, but also on how features are used and on the architecture that produces their codes.",
     "authors": [
-      "Val\u00e9rie Costa",
+      "Valérie Costa",
       "Bahareh Tolooshams"
     ],
     "categories": [
@@ -3636,10 +3636,10 @@
     "authors": [
       "Matteo Musacchio",
       "Juan Cruz Giner Pulero",
-      "Isabel Casta\u00f1eda",
+      "Isabel Castañeda",
       "Naomi Couriel",
       "Yelena Mejova",
-      "Mariano G. Beir\u00f3",
+      "Mariano G. Beiró",
       "Kyriaki Kalimeri"
     ],
     "categories": [
@@ -3826,14 +3826,14 @@
     "authors": [
       "Kajetan Dymkiewicz",
       "Tim Farrelly",
-      "Adam Pr\u00e1da",
+      "Adam Práda",
       "Ishaan Panigrahi",
       "Srishti Gureja",
       "Helen Yannakoudakis",
       "Robert Mullins",
       "Victor Gillioz",
       "Daniel Tan",
-      "Maxime Rich\u00e9"
+      "Maxime Riché"
     ],
     "categories": [
       "cs.AI"
@@ -4071,7 +4071,7 @@
   {
     "arxiv_id": "2609.35466v1",
     "title": "An analysis of Mirror-Descent Soft Actor-Critic",
-    "summary": "Soft Actor-Critic (SAC) is widely used for entropy-regularised reinforcement learning with continuous action spaces, and practical implementations perform only a few actor steps towards an evolving target. In this work, we prove convergence guarantees when the target policy arises from policy mirror descent and compare it with the classical Gibbs target. We derive sufficient conditions for the strong convexity and smoothness of the actor objective, characterised by the curvature of the $Q$-function estimate through the Legendre differential operator, and establish an $\\mathcal{O}\\!\\left(N^{-\\frac{1}{5}}\\right)$ best-iterate finite-time convergence rate up to actor and critic approximation errors. Moreover, the mirror-descent step size $\u03bb$ directly controls the target drift and hence actor tracking error, whereas the analogous Gibbs bound contains a non-vanishing tracking term.",
+    "summary": "Soft Actor-Critic (SAC) is widely used for entropy-regularised reinforcement learning with continuous action spaces, and practical implementations perform only a few actor steps towards an evolving target. In this work, we prove convergence guarantees when the target policy arises from policy mirror descent and compare it with the classical Gibbs target. We derive sufficient conditions for the strong convexity and smoothness of the actor objective, characterised by the curvature of the $Q$-function estimate through the Legendre differential operator, and establish an $\\mathcal{O}\\!\\left(N^{-\\frac{1}{5}}\\right)$ best-iterate finite-time convergence rate up to actor and critic approximation errors. Moreover, the mirror-descent step size $λ$ directly controls the target drift and hence actor tracking error, whereas the analogous Gibbs bound contains a non-vanishing tracking term.",
     "authors": [
       "Denis Zorba",
       "Michal Valko"
@@ -4288,7 +4288,7 @@
     "authors": [
       "Zhilin Guo",
       "Boqiao Zhang",
-      "Oszk\u00e1r Urb\u00e1n",
+      "Oszkár Urbán",
       "Josef Bengtson",
       "Hakan Aktas",
       "Wenzhao Li",
@@ -4505,175 +4505,6 @@
     "pdf_url": "https://arxiv.org/pdf/2609.35583v1.pdf",
     "date": "2026-09-29",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "emperorofrome/Gmcoder",
-    "author": "unknown",
-    "title": "emperorofrome/Gmcoder",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "safetensors",
-      "qwen3_5",
-      "code",
-      "coding",
-      "merge",
-      "reasoning",
-      "9b",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:Qwen/Qwen3.5-9B",
-      "base_model:merge:Qwen/Qwen3.5-9B",
-      "base_model:ornith-ai/Ornith-1.5-9B",
-      "base_model:merge:ornith-ai/Ornith-1.5-9B",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "gguf",
-    "created_at": "2026-09-28T19:42:05.000Z",
-    "last_modified": "2026-09-29T06:30:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/emperorofrome/Gmcoder",
-    "date": "2026-09-29",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cyxxxxxxxxxx/cyfa-800M-30B",
-    "author": "unknown",
-    "title": "cyxxxxxxxxxx/cyfa-800M-30B",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "cyclic_flow_attention",
-      "text-generation",
-      "cyfa",
-      "cyclic-flow-attention",
-      "causal-lm",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-29T06:13:31.000Z",
-    "last_modified": "2026-09-29T06:29:50.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cyxxxxxxxxxx/cyfa-800M-30B",
-    "date": "2026-09-29",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Eugleo/climbmix-d26-10tpp-political0",
-    "author": "unknown",
-    "title": "Eugleo/climbmix-d26-10tpp-political0",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "nanochat_gpt",
-      "text-generation",
-      "base-model",
-      "pretraining",
-      "research",
-      "nanochat",
-      "custom_code",
-      "en",
-      "dataset:nvidia/ClimbMix",
-      "arxiv:2504.13161",
-      "license:cc-by-nc-4.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-29T06:28:09.000Z",
-    "last_modified": "2026-09-29T06:28:38.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Eugleo/climbmix-d26-10tpp-political0",
-    "date": "2026-09-29",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Ronochieng/lost-in-transcription-spanish-english",
-    "author": "unknown",
-    "title": "Ronochieng/lost-in-transcription-spanish-english",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "tensorboard",
-      "safetensors",
-      "automatic-speech-recognition",
-      "code-switching",
-      "spanish",
-      "english",
-      "lora",
-      "qwen3-asr",
-      "es",
-      "en",
-      "base_model:Qwen/Qwen3-ASR-1.7B",
-      "base_model:adapter:Qwen/Qwen3-ASR-1.7B",
-      "license:mpl-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "peft",
-    "created_at": "2026-09-28T00:07:59.000Z",
-    "last_modified": "2026-09-29T06:28:26.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/Ronochieng/lost-in-transcription-spanish-english",
-    "date": "2026-09-29",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "FarhanKO/lung-disease-prediction",
-    "author": "unknown",
-    "title": "FarhanKO/lung-disease-prediction",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "keras",
-      "joblib",
-      "chest-x-ray",
-      "radiography",
-      "medical-imaging",
-      "pulmonology",
-      "covid-19",
-      "tuberculosis",
-      "pneumonia",
-      "emphysema",
-      "transfer-learning",
-      "densenet121",
-      "tensorflow",
-      "pytorch",
-      "image-classification",
-      "license:other",
-      "model-index",
-      "region:us"
-    ],
-    "pipeline_tag": "image-classification",
-    "library": "keras",
-    "created_at": "2026-09-29T06:23:15.000Z",
-    "last_modified": "2026-09-29T06:27:09.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/FarhanKO/lung-disease-prediction",
-    "date": "2026-09-29",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
