@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-29T06:30:41.062325",
+  "date": "2026-09-29T13:40:21.694220",
   "patterns": {
     "multimodal_research": [
       {
@@ -721,6 +721,10 @@
       {
         "title": "Revisiting Risky Tackle Detection with Vision Transformers",
         "url": "https://arxiv.org/abs/2609.35562v1"
+      },
+      {
+        "title": "masahiroid/llm-jp-4.1-8b-thinking-4bit-mlx",
+        "url": "https://huggingface.co/masahiroid/llm-jp-4.1-8b-thinking-4bit-mlx"
       }
     ],
     "vision_systems": [
@@ -1619,6 +1623,10 @@
       {
         "title": "What Paired Evaluations Reveal under Visual Perturbations",
         "url": "https://arxiv.org/abs/2609.35583v1"
+      },
+      {
+        "title": "SOTAagi2030/Eastwood-Archive-Shelf-Map",
+        "url": "https://huggingface.co/SOTAagi2030/Eastwood-Archive-Shelf-Map"
       }
     ]
   },
@@ -1649,7 +1657,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "101 independent papers",
+      "observation": "102 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1673,7 +1681,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "94 independent papers",
+      "observation": "95 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1708,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 404
   }
 }
