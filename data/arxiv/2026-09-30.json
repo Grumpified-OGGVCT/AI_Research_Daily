@@ -32,11 +32,11 @@
       "Amitis Shidani",
       "Alice Bizeul",
       "Victor Turrisi",
-      "Louis B\u00e9thune",
+      "Louis Béthune",
       "Bhavika Devnani",
       "Dan Busbridge",
       "Pierre Ablin",
-      "Jo\u00e3o Monteiro"
+      "João Monteiro"
     ],
     "categories": [
       "cs.LG",
@@ -112,7 +112,7 @@
   {
     "arxiv_id": "2609.37917v1",
     "title": "Search Dimension in Unlabeled Projection Pursuit: A Scaling Law for Subspace Restriction",
-    "summary": "Projection pursuit searches for a direction along which the data look least Gaussian. When the observation space contains a large Gaussian complement, the empirical objective can be minimized by a direction that carries no signal, with empirical kurtosis as low as at the truth. Sample splitting exposes rather than repairs this failure. Appending coordinates independent of the latent regime degrades the search while leaving Bayes recoverability unchanged. Restricting the search to the column space of a known forward operator removes the failure exactly on the negative-kurtosis branch. Estimating a principal subspace from the data is the alternative. In a controlled two-component model, the leading sufficient scalings differ in the gain with which the operator transmits the discriminant: $\u03c2^{-4}$ for covariance-spike estimation and $\u03c2^{-8}$ for fourth-moment search. At fixed search dimension, the measured threshold ratio collapses onto $n/p^2$ with exponent $0.156$, close to the predicted $1/8$. This is an empirically supported scaling motivated by sufficient bounds, not a proved asymptotically tight law. When the search dimension is varied, the measured exponent is $0.325$, substantially larger than $1/8$, and the tested range does not identify its functional form. The crossing location also depends on calibration and model configuration. Under a downstream excess-error criterion, the scaling largely disappears.",
+    "summary": "Projection pursuit searches for a direction along which the data look least Gaussian. When the observation space contains a large Gaussian complement, the empirical objective can be minimized by a direction that carries no signal, with empirical kurtosis as low as at the truth. Sample splitting exposes rather than repairs this failure. Appending coordinates independent of the latent regime degrades the search while leaving Bayes recoverability unchanged. Restricting the search to the column space of a known forward operator removes the failure exactly on the negative-kurtosis branch. Estimating a principal subspace from the data is the alternative. In a controlled two-component model, the leading sufficient scalings differ in the gain with which the operator transmits the discriminant: $ς^{-4}$ for covariance-spike estimation and $ς^{-8}$ for fourth-moment search. At fixed search dimension, the measured threshold ratio collapses onto $n/p^2$ with exponent $0.156$, close to the predicted $1/8$. This is an empirically supported scaling motivated by sufficient bounds, not a proved asymptotically tight law. When the search dimension is varied, the measured exponent is $0.325$, substantially larger than $1/8$, and the tested range does not identify its functional form. The crossing location also depends on calibration and model configuration. Under a downstream excess-error criterion, the scaling largely disappears.",
     "authors": [
       "Rares Dimitrie Grozavescu",
       "Mark Girolami"
@@ -255,7 +255,7 @@
     "authors": [
       "Francois Chaubard",
       "Mykel J. Kochenderfer",
-      "Chris R\u00e9"
+      "Chris Ré"
     ],
     "categories": [
       "cs.LG"
@@ -359,7 +359,7 @@
   {
     "arxiv_id": "2609.37932v1",
     "title": "Learning When to Update: A Near-Optimal Timing Bandit Approach",
-    "summary": "Systems operating in dynamic environments require timely updates to sustain performance. For resource-intensive systems such as machine learning models and digital twins, strategically timing updates is essential. Updating too frequently wastes resources, while updating too infrequently leads to costly performance degradation. The problem is particularly challenging when the system's degradation pattern is unknown a priori, as is common in new operating environments. We formalize this challenge as a novel \\emph{timing bandit} problem, where each arm represents a candidate update interval with a fixed update cost and an unknown, stochastic degradation cost. Three structural properties distinguish this setting from standard multi-armed bandits: selecting an interval commits the learner to multiple time slots before the next update; arm costs are composed of per-step degradation costs and a fixed update cost; and selecting a longer interval naturally reveals degradation at every intermediate step, providing consecutive feedback relevant to shorter intervals. By exploiting these structures, we develop Balanced Consecutive Arm Elimination (BCAE). BCAE achieves $\\tilde{O}(\\sqrt{T})$ regret, improving upon the $\\tilde\u03a9(K\\sqrt{T})$ regret of standard bandit algorithms in this setting, where $K$ is the number of candidate update intervals. We further propose an Optimism-Enhanced variant (OE-BCAE) that integrates lower-confidence-bound principles to improve empirical adaptivity while preserving the same regret order. Moreover, the regret bound achieved by our algorithms matches the theoretical lower bound up to logarithmic factors. Simulation results demonstrate that our algorithms achieve low regret and remain stable as both the number of arms and the update cost vary.",
+    "summary": "Systems operating in dynamic environments require timely updates to sustain performance. For resource-intensive systems such as machine learning models and digital twins, strategically timing updates is essential. Updating too frequently wastes resources, while updating too infrequently leads to costly performance degradation. The problem is particularly challenging when the system's degradation pattern is unknown a priori, as is common in new operating environments. We formalize this challenge as a novel \\emph{timing bandit} problem, where each arm represents a candidate update interval with a fixed update cost and an unknown, stochastic degradation cost. Three structural properties distinguish this setting from standard multi-armed bandits: selecting an interval commits the learner to multiple time slots before the next update; arm costs are composed of per-step degradation costs and a fixed update cost; and selecting a longer interval naturally reveals degradation at every intermediate step, providing consecutive feedback relevant to shorter intervals. By exploiting these structures, we develop Balanced Consecutive Arm Elimination (BCAE). BCAE achieves $\\tilde{O}(\\sqrt{T})$ regret, improving upon the $\\tildeΩ(K\\sqrt{T})$ regret of standard bandit algorithms in this setting, where $K$ is the number of candidate update intervals. We further propose an Optimism-Enhanced variant (OE-BCAE) that integrates lower-confidence-bound principles to improve empirical adaptivity while preserving the same regret order. Moreover, the regret bound achieved by our algorithms matches the theoretical lower bound up to logarithmic factors. Simulation results demonstrate that our algorithms achieve low regret and remain stable as both the number of arms and the update cost vary.",
     "authors": [
       "Qiulin Lin",
       "Junyan Su",
@@ -587,7 +587,7 @@
       "Hejie Cui",
       "Shasha Li",
       "Shanchan Wu",
-      "Sercan \u00d6. Ar\u0131k"
+      "Sercan Ö. Arık"
     ],
     "categories": [
       "cs.AI",
@@ -608,7 +608,7 @@
     "authors": [
       "Jiale Chen",
       "Vage Egiazarian",
-      "Eldar Kurti\u0107",
+      "Eldar Kurtić",
       "Torsten Hoefler",
       "Dan Alistarh"
     ],
@@ -710,7 +710,7 @@
   {
     "arxiv_id": "2609.37825v1",
     "title": "Privy to the Foil: Recasting Value Estimation with a Self-Privileged Critic for RLVR",
-    "summary": "Assigning credit to intermediate steps remains a central challenge in training Large Language Models (LLMs) on multi-step reasoning tasks with sparse terminal rewards, and actor-critic methods such as PPO address this by learning value functions to construct token-level advantages. Their effectiveness, however, hinges on reliable value estimation, a difficult task requiring the critic to both assess progress toward a correct solution and anticipate an evolving policy's future behavior; errors in either can compromise credit assignment and destabilize online training. In this paper, we revisit the standard state-only formulation of value estimation and propose $\u03c0$PPO, a self-privileged actor-critic framework. By reusing verified same-prompt rollouts as contrastive evidence, $\u03c0$PPO helps the critic assess intermediate reasoning against successful and failed attempts, while preserving standard policy optimization and the deployment interface. Experiments show that $\u03c0$PPO consistently improves value-estimation quality by a substantial margin and outperforms representative actor-critic and critic-free RLVR baselines on challenging mathematical reasoning benchmarks, while remaining effective even when paired with substantially smaller asymmetric critics.",
+    "summary": "Assigning credit to intermediate steps remains a central challenge in training Large Language Models (LLMs) on multi-step reasoning tasks with sparse terminal rewards, and actor-critic methods such as PPO address this by learning value functions to construct token-level advantages. Their effectiveness, however, hinges on reliable value estimation, a difficult task requiring the critic to both assess progress toward a correct solution and anticipate an evolving policy's future behavior; errors in either can compromise credit assignment and destabilize online training. In this paper, we revisit the standard state-only formulation of value estimation and propose $π$PPO, a self-privileged actor-critic framework. By reusing verified same-prompt rollouts as contrastive evidence, $π$PPO helps the critic assess intermediate reasoning against successful and failed attempts, while preserving standard policy optimization and the deployment interface. Experiments show that $π$PPO consistently improves value-estimation quality by a substantial margin and outperforms representative actor-critic and critic-free RLVR baselines on challenging mathematical reasoning benchmarks, while remaining effective even when paired with substantially smaller asymmetric critics.",
     "authors": [
       "Kun Liang",
       "Chenming Tang",
@@ -783,7 +783,7 @@
     "authors": [
       "Sven Ligensa",
       "Jan Pauls",
-      "Karsten Schr\u00f6dter",
+      "Karsten Schrödter",
       "Ibrahim Fayad",
       "Fabian Gieseke"
     ],
@@ -870,7 +870,7 @@
   {
     "arxiv_id": "2609.38018v1",
     "title": "Prompts Live on an Arc: Gaussian Curricula in Fisher--Rao Coordinates for Rollout-Efficient GRPO",
-    "summary": "Group relative policy optimization (GRPO) learns only from prompts whose sampled responses disagree: a group that is entirely correct or entirely incorrect has zero reward variance, contributes no gradient, and still consumes its rollouts. Prompt-selection methods reduce this waste by steering sampling toward intermediate pass rates, but they choose the target, its width, and the uncertainty model heuristically, in raw pass-rate or logit coordinates. We show that GRPO comes with a natural coordinate for pass rates: the arc length $\u03c8=\\arcsin\\sqrt{p}$ on the Bernoulli Fisher--Rao manifold. In arc length, the expected GRPO update is uniform up to two boundary ramps; the probability of a zero-variance group is bounded by two Gaussian boundary layers of width $1/\\sqrt{2G}$; pass-rate evidence has constant noise; and the gradients of the pass@$k$ and pass$^k$ objectives are Gaussians whose center and width follow from $k$ in closed form. A prompt curriculum for GRPO is therefore a Gaussian in arc length, and choosing its center amounts to choosing the objective. We turn this observation into ARCUS, a drop-in sampler that tracks every prompt with a Kalman filter in arc length, scores prompts by an objective-matched Gaussian kernel times the predicted probability of an informative group, keeps only informative groups for the unchanged GRPO update, and paces the target toward the hardest objective whose predicted yield stays within a small slack of the best. Across six mathematical reasoning benchmarks and three backbones, ARCUS improves the average accuracy of GRPO by 2.8--2.9 points and that of dynamic sampling by 1.1--1.2 points, while generating 48--57\\% fewer rollouts than dynamic sampling.",
+    "summary": "Group relative policy optimization (GRPO) learns only from prompts whose sampled responses disagree: a group that is entirely correct or entirely incorrect has zero reward variance, contributes no gradient, and still consumes its rollouts. Prompt-selection methods reduce this waste by steering sampling toward intermediate pass rates, but they choose the target, its width, and the uncertainty model heuristically, in raw pass-rate or logit coordinates. We show that GRPO comes with a natural coordinate for pass rates: the arc length $ψ=\\arcsin\\sqrt{p}$ on the Bernoulli Fisher--Rao manifold. In arc length, the expected GRPO update is uniform up to two boundary ramps; the probability of a zero-variance group is bounded by two Gaussian boundary layers of width $1/\\sqrt{2G}$; pass-rate evidence has constant noise; and the gradients of the pass@$k$ and pass$^k$ objectives are Gaussians whose center and width follow from $k$ in closed form. A prompt curriculum for GRPO is therefore a Gaussian in arc length, and choosing its center amounts to choosing the objective. We turn this observation into ARCUS, a drop-in sampler that tracks every prompt with a Kalman filter in arc length, scores prompts by an objective-matched Gaussian kernel times the predicted probability of an informative group, keeps only informative groups for the unchanged GRPO update, and paces the target toward the hardest objective whose predicted yield stays within a small slack of the best. Across six mathematical reasoning benchmarks and three backbones, ARCUS improves the average accuracy of GRPO by 2.8--2.9 points and that of dynamic sampling by 1.1--1.2 points, while generating 48--57\\% fewer rollouts than dynamic sampling.",
     "authors": [
       "Mei Okonkwo",
       "Pixel Nomand",
@@ -938,7 +938,7 @@
   {
     "arxiv_id": "2609.37935v1",
     "title": "Post-Anomaly Detection Inference for Deep SVDD",
-    "summary": "Deep Support Vector Data Description (Deep SVDD) has become a prominent framework for unsupervised anomaly detection by learning latent representations that compactly characterize normal data around a center. Despite its empirical success, anomaly decisions produced by Deep SVDD are typically made solely based on anomaly scores without rigorous statistical guarantees, thereby limiting their reliability in safety-critical and high-stakes applications where false positives must be strictly controlled. In this paper, we propose PADI (Post-Anomaly Detection Inference), a novel framework that equips a trained and frozen Deep SVDD detector with statistically valid inference by leveraging the Selective Inference framework. Specifically, PADI performs inference conditional on the event that a test instance is identified as anomalous by Deep SVDD, thereby enabling rigorous statistical assessment of anomaly decisions. Based on this formulation, we derive valid selective p-values that quantify the statistical significance of the detected anomaly. Using these p-values, we theoretically establish control of the false positive rate (FPR) at a user-specified significance level $\u03b1$ (e.g., $\u03b1=0.05$). Furthermore, we extend the proposed framework to Deep Semi-Supervised Anomaly Detection (Deep SAD), providing a principled approach for statistically reliable inference in semi-supervised anomaly detection settings. Extensive experiments on both synthetic and real-world benchmark datasets robustly support the theoretical findings. The results demonstrate that PADI consistently achieves proper FPR control while attaining superior true positive rates compared with existing approaches.",
+    "summary": "Deep Support Vector Data Description (Deep SVDD) has become a prominent framework for unsupervised anomaly detection by learning latent representations that compactly characterize normal data around a center. Despite its empirical success, anomaly decisions produced by Deep SVDD are typically made solely based on anomaly scores without rigorous statistical guarantees, thereby limiting their reliability in safety-critical and high-stakes applications where false positives must be strictly controlled. In this paper, we propose PADI (Post-Anomaly Detection Inference), a novel framework that equips a trained and frozen Deep SVDD detector with statistically valid inference by leveraging the Selective Inference framework. Specifically, PADI performs inference conditional on the event that a test instance is identified as anomalous by Deep SVDD, thereby enabling rigorous statistical assessment of anomaly decisions. Based on this formulation, we derive valid selective p-values that quantify the statistical significance of the detected anomaly. Using these p-values, we theoretically establish control of the false positive rate (FPR) at a user-specified significance level $α$ (e.g., $α=0.05$). Furthermore, we extend the proposed framework to Deep Semi-Supervised Anomaly Detection (Deep SAD), providing a principled approach for statistically reliable inference in semi-supervised anomaly detection settings. Extensive experiments on both synthetic and real-world benchmark datasets robustly support the theoretical findings. The results demonstrate that PADI consistently achieves proper FPR control while attaining superior true positive rates compared with existing approaches.",
     "authors": [
       "Cao Le Cong Thanh",
       "Dang Quang Vinh",
@@ -1416,9 +1416,9 @@
     "title": "Is manual software optimization a thing of the past?",
     "summary": "Scientific software is increasingly required to process larger datasets while maintaining acceptable execution times. Software optimization traditionally requires substantial expertise in programming, algorithms, and numerical methods. Recent advances in large language models (LLMs) offer the possibility of automating much of this process. We investigate whether LLM-based agents can autonomously achieve substantial performance improvements in scientific software, including mature implementations that have already been extensively optimized by human developers. We tasked an LLM-based agent with optimizing software for three computational problems: t-SNE, single-sample gene set enrichment analysis (ssGSEA), and graphlet counting. Humans defined the scope, correctness criteria, and a verification mechanism, after which the agent worked autonomously, in some cases for several hours. Code maintainers reviewed each resulting implementation and verified its correctness. The optimized implementations were faster in all tested configurations, by up to two orders of magnitude over the fastest existing tools. The improvements included low-level code optimizations, mathematical reformulations, and an entirely new algorithm for graphlet counting. Software optimization can increasingly be delegated to autonomous agents, with the human role shifting from implementing optimizations to deciding which software to optimize, defining objectives, providing verification mechanisms, and ensuring the correctness of the final software. For well-scoped, verifiable problems, we argue that manual software optimization may be a thing of the past.",
     "authors": [
-      "Pavlin G. Poli\u010dar",
-      "Martin \u0160pendl",
-      "Toma\u017e Ho\u010devar"
+      "Pavlin G. Poličar",
+      "Martin Špendl",
+      "Tomaž Hočevar"
     ],
     "categories": [
       "cs.SE",
@@ -1461,8 +1461,8 @@
     "title": "GLaS-JEPA: Gaussian-Regularized Speech SSL without Engineered Prediction Targets",
     "summary": "Speech self-supervised learning aims to learn general-purpose representations for downstream speech tasks. However, current approaches rely on complex, carefully designed prediction targets. We challenge this necessity with GLaS-JEPA, a framework that directly predicts the current encoder's continuous representations at masked positions, without contrastive learning, discrete targets, or separate EMA target encoders. We prevent representation collapse using SIGReg representation-space regularization, eliminating the need for engineered target-generation mechanisms. Pretrained on 960 hours of LibriSpeech, our 57M-parameter model achieves a 6.89% WER on frozen-encoder SUPERB ASR and a 25.87% CER on slot filling, outperforming the best non-distilled sub-90M baselines by 43.1% and 22.0%, respectively. These results demonstrate that highly competitive speech representations can emerge from a radically simplified training recipe.",
     "authors": [
-      "Gaspard Bott\u00e9",
-      "S\u00e9verin Baroudi",
+      "Gaspard Botté",
+      "Séverin Baroudi",
       "Samir Sadok",
       "Francesco Paissan",
       "Thomas Hueber",
@@ -1591,7 +1591,7 @@
   {
     "arxiv_id": "2609.38010v1",
     "title": "From Unity Simulation to Diffusion-Based Augmentation: Quantifying Dataset Balance for Robust Object Detection",
-    "summary": "Modern computer vision models achieve high accuracy when trained on large-scale annotated datasets. In critical domains such as construction safety monitoring, data collection is costly, hazardous, and ethically constrained. This paper presents a systematic study comparing two complementary data generation paradigms, (1) Unity Simulation-based rendering and (2) Controllable Diffusion-based generation (CIA), for object detection under real data-scarce conditions. A unified experimental framework enables controlled dataset mixing across real, simulated, and generative sources, while maintaining identical model and training settings. Quantitative evaluation using Precision, Recall, mAP, and custom $\u0394$-metrics, reveals that neither simulation nor generative augmentation alone achieves optimal transferability. Unity-only training yields an mAP@0.5 drop of $-50\\%$ relative to real data, while CIA-only training shows a milder $-16.5\\%$ degradation. Hybrid compositions significantly improve performance, with the 90\\% real + 10\\% Unity configuration achieving the best overall mAP@0.5 of $62.68\\%$ ($+7.64\\%$ over baseline), and the 90\\% real + 10\\% CIA configuration maximizing precision at $74.45\\%$. Results demonstrate that limited synthetic inclusion enhances generalization, while excessive substitution induces domain drift.",
+    "summary": "Modern computer vision models achieve high accuracy when trained on large-scale annotated datasets. In critical domains such as construction safety monitoring, data collection is costly, hazardous, and ethically constrained. This paper presents a systematic study comparing two complementary data generation paradigms, (1) Unity Simulation-based rendering and (2) Controllable Diffusion-based generation (CIA), for object detection under real data-scarce conditions. A unified experimental framework enables controlled dataset mixing across real, simulated, and generative sources, while maintaining identical model and training settings. Quantitative evaluation using Precision, Recall, mAP, and custom $Δ$-metrics, reveals that neither simulation nor generative augmentation alone achieves optimal transferability. Unity-only training yields an mAP@0.5 drop of $-50\\%$ relative to real data, while CIA-only training shows a milder $-16.5\\%$ degradation. Hybrid compositions significantly improve performance, with the 90\\% real + 10\\% Unity configuration achieving the best overall mAP@0.5 of $62.68\\%$ ($+7.64\\%$ over baseline), and the 90\\% real + 10\\% CIA configuration maximizing precision at $74.45\\%$. Results demonstrate that limited synthetic inclusion enhances generalization, while excessive substitution induces domain drift.",
     "authors": [
       "Mohamed Benkedadra",
       "Aissa Saoudi",
@@ -1665,7 +1665,7 @@
     "authors": [
       "Francois Chaubard",
       "Mykel J. Kochenderfer",
-      "Chris R\u00e9"
+      "Chris Ré"
     ],
     "categories": [
       "cs.LG"
@@ -1783,13 +1783,13 @@
       "Serafima Lebedeva",
       "Sumantrak Mukherjee",
       "Ali Arshad Sadal",
-      "Ilias Ek\u015fi",
+      "Ilias Ekşi",
       "Rahul Sharma",
       "Julia Mueller",
       "Theresa Dombrowski",
       "Jakob Karolus",
       "Viktor Bengs",
-      "Eyke H\u00fcllermeier",
+      "Eyke Hüllermeier",
       "Sebastian Vollmer"
     ],
     "categories": [
@@ -1944,7 +1944,7 @@
   {
     "arxiv_id": "2609.38094v1",
     "title": "Dimensionally consistent surrogate modelling through dimensional analysis and harmonic expansions",
-    "summary": "Dimensional homogeneity is a fundamental constraint on physically meaningful models, requiring invariance under changes of units. We present a data-driven method for constructing surrogate models that satisfy this constraint at the level of the hypothesis class. Starting from a dimension matrix of measured variables, the method derives Buckingham $\u03a0$-groups, constructs admissible dimensional prefactors, and approximates the remaining dimensionless dependence using truncated harmonic expansions on normalized invariant domains. Once the prefactor and dictionary are fixed, the coefficients are obtained from a regularized linear regression problem. We test the approach on the simple pendulum, Planck's black-body law, the double-pendulum Lyapunov field, and an experimental COBE/FIRAS black-body spectrum dataset. The results show that dimensional constraints improve conditioning, robustness to noise, and sample efficiency relative to unconstrained baselines, while the choice of dictionary becomes important in non-periodic or multi-invariant settings. The learned expressions are explicit and inexpensive to evaluate, which makes them useful as surrogate models for structured physical problems.",
+    "summary": "Dimensional homogeneity is a fundamental constraint on physically meaningful models, requiring invariance under changes of units. We present a data-driven method for constructing surrogate models that satisfy this constraint at the level of the hypothesis class. Starting from a dimension matrix of measured variables, the method derives Buckingham $Π$-groups, constructs admissible dimensional prefactors, and approximates the remaining dimensionless dependence using truncated harmonic expansions on normalized invariant domains. Once the prefactor and dictionary are fixed, the coefficients are obtained from a regularized linear regression problem. We test the approach on the simple pendulum, Planck's black-body law, the double-pendulum Lyapunov field, and an experimental COBE/FIRAS black-body spectrum dataset. The results show that dimensional constraints improve conditioning, robustness to noise, and sample efficiency relative to unconstrained baselines, while the choice of dictionary becomes important in non-periodic or multi-invariant settings. The learned expressions are explicit and inexpensive to evaluate, which makes them useful as surrogate models for structured physical problems.",
     "authors": [
       "Ernest Tarrus",
       "Hector Gisbert"
@@ -1965,7 +1965,7 @@
     "title": "Latent Inference-Time Guidance of Time Series Foundation Models",
     "summary": "Time Series Foundation Models (TSFMs) currently provide state-of-the-art results in forecasting tasks. They are available out-of-the-box and rely on in-context learning to make their predictions, which makes the quality of their performance highly sensitive to the user-selected lookback, covariates, horizon and training data distributions. In practise, the quality of the forecasts are variable but complementary, which highlights the need for a principled ensembling approach, rather than selecting the best context. This paper introduces Latent Inference-Time Guidance for TSFMs, which adaptively combines a pool of TSFM forecasts through a time-dependent latent space with independent components. The framework comes equipped with identifiability and reconstruction guarantees, whilst maintaining the off-the-shelf aspect of foundation models. We provide experiments on datasets at various frequencies and from multiple domains: these show that the approach is competitive with traditional ensembling approaches.",
     "authors": [
-      "Chlo\u00e9 Hashimoto-Cullen",
+      "Chloé Hashimoto-Cullen",
       "Amaury Durand",
       "Laurent Bozzi",
       "Benjamin Guedj",
@@ -2175,7 +2175,7 @@
     "summary": "As the context size of text processed with an LLM grows, the size of KV caches can outstrip the memory allocated for the original model weights. This impacts LLM throughput negatively, since decoding is memory-bound and decode cost grows with cache size. Recent work alleviates this bottleneck by discarding the least relevant tokens. Eviction introduces a tension, since a one-off decision to discard content may prove detrimental later. Instead, we focus on alternative choices that can lead to cache compression without evicting tokens. We achieve this by learning a selector that is able to produce, based on context, a per-layer cache configuration towards an overall compression budget. The selector operates along three axes: sharing one cache across layers (depth), caching at fewer bits (precision), or truncating the low-rank latent cache representations (rank). We call the resulting method KV-Kaizen, for the many small per-layer choices it compounds. We observe that these interventions taken independently and uniformly over all layers limit achievable compression because they degrade accuracy. Crucially, composing them locally and adaptively to the context can instead preserve accuracy while achieving large memory savings. At inference, the selector runs once, before pre-fill. In evaluations on instruction following and reasoning tasks, our selectors reach the Pareto frontier of accuracy against cache size, against learning-free and post-hoc baselines. On long-context tasks, KV-Kaizen improves on eviction and can be composed with it, reaching a 32x smaller decode-time cache on a 14B model while preserving accuracy. A 4x cache size reduction incurs no accuracy degradation from 7B parameters up, and a compressed model is more accurate than a smaller uncompressed one with the same cache size. Together, these findings support pre-training large models and compressing them only afterwards.",
     "authors": [
       "Joao Monteiro",
-      "Louis B\u00e9thune",
+      "Louis Béthune",
       "Anastasiia Filippova",
       "Sonia Laguna",
       "David Grangier",
@@ -2462,7 +2462,7 @@
       "Subba Reddy Oota",
       "Francisco Herrera",
       "Jordi Cabot Sagrera",
-      "Marcos L\u00f3pez de Prado",
+      "Marcos López de Prado",
       "Shadab Khan"
     ],
     "categories": [
@@ -2618,7 +2618,7 @@
     "title": "The Unequal Influence of Bad Advice: Using Training Data Attribution to Modulate Emergent Misalignment",
     "summary": "Fine-tuning large language models on narrow, misaligned tasks can undo their post-training alignment and induce novel misaligned behaviors -- a phenomenon known as \\emph{emergent misalignment} (EM). EM has been linked to persona-like representations, where fine-tuning might reduce loss by amplifying a harmful or 'evil' persona. It remains unclear which properties of the training data drive this effect: whether all harmful examples contribute approximately equally to misalignment and whether different models are equally affected by the same fine-tuning examples. In this work, we use training data attribution to quantitatively estimate how much each harmful example contributes to EM. We benchmark the quality of the attribution via retraining -- a sound attribution score should enable us to enhance or attenuate EM by filtering data on that score. Score-based filtering can substantially enhance or attenuate EM; we find that both data-attribution scores and a black-box harmfulness score can identify consequential examples. All models we test become misaligned when trained on the same dataset, and influence scores perform best when filtering data from the same model that computed them. We find cross-model generalization of influence scores from scores derived from the three model families we tested, but this generalization does not recover same model filtering performance.",
     "authors": [
-      "Gon\u00e7alo Paulo",
+      "Gonçalo Paulo",
       "Louis Jaburi",
       "Nora Belrose",
       "Lucia Quirke",
@@ -2760,7 +2760,7 @@
   {
     "arxiv_id": "2609.37745v1",
     "title": "Optimizer-dependent training dynamics converge to the same one-third optimal data scaling",
-    "summary": "Neural scaling, in which loss falls as a power law with training, is central to large language models, and one recent proposal is that a $1/3$ exponent emerges from learning peaked distributions. That account describes SGD, but models in practice are trained with adaptive optimizers. Here we separate two exponents the $1/3$ account does not distinguish: how fast the loss falls with training steps along a single run, and how fast the optimally tuned loss falls with dataset size $D$. We show that the first, a dynamic exponent, is optimizer-specific while the second, an optimal data exponent, converges to $1/3$ across optimizers. In an online teacher-student model we decompose the loss into norm growth (radial) and alignment toward the teacher direction (tangential), each decaying as a power law with dynamic exponents $\u03b1_{r}$ and $\u03b1_{t}$. Under SGD, both are close to $1/3$, so the data exponent is also $1/3$ across different learning rates. Under Adam the two separate: $\u03b1_{r} \\simeq 0.48$ but $\u03b1_{t} \\simeq 0.08$. Since the total loss is minimized when these two parts are balanced, the optimal learning rate is optimizer-dependent: $D$-independent for SGD but falls with $D$ for Adam. Yet tuned to that optimum, the loss returns to $D^{-1/3}$ for both. A stochastic-dynamics analysis explains why: the optimizers can trade decay speed between the two channels, but they all fall on a single dynamic exponent relation, $2\u03b1_{r}+ \u03b1_{t} = 1$, which fixes the optimal data exponent at $1/3$. Across seven optimizers, including Muon, the measured exponents are consistent with this relation, and the optimal-loss envelopes agree with $D^{-1/3}$ across them. The optimizer sets how fast a model learns per step; tuned optimally, it changes the prefactor but not the rate at which loss falls per sample.",
+    "summary": "Neural scaling, in which loss falls as a power law with training, is central to large language models, and one recent proposal is that a $1/3$ exponent emerges from learning peaked distributions. That account describes SGD, but models in practice are trained with adaptive optimizers. Here we separate two exponents the $1/3$ account does not distinguish: how fast the loss falls with training steps along a single run, and how fast the optimally tuned loss falls with dataset size $D$. We show that the first, a dynamic exponent, is optimizer-specific while the second, an optimal data exponent, converges to $1/3$ across optimizers. In an online teacher-student model we decompose the loss into norm growth (radial) and alignment toward the teacher direction (tangential), each decaying as a power law with dynamic exponents $α_{r}$ and $α_{t}$. Under SGD, both are close to $1/3$, so the data exponent is also $1/3$ across different learning rates. Under Adam the two separate: $α_{r} \\simeq 0.48$ but $α_{t} \\simeq 0.08$. Since the total loss is minimized when these two parts are balanced, the optimal learning rate is optimizer-dependent: $D$-independent for SGD but falls with $D$ for Adam. Yet tuned to that optimum, the loss returns to $D^{-1/3}$ for both. A stochastic-dynamics analysis explains why: the optimizers can trade decay speed between the two channels, but they all fall on a single dynamic exponent relation, $2α_{r}+ α_{t} = 1$, which fixes the optimal data exponent at $1/3$. Across seven optimizers, including Muon, the measured exponents are consistent with this relation, and the optimal-loss envelopes agree with $D^{-1/3}$ across them. The optimizer sets how fast a model learns per step; tuned optimally, it changes the prefactor but not the rate at which loss falls per sample.",
     "authors": [
       "Hyunseok Lee",
       "Mihir Basil",
@@ -2846,7 +2846,7 @@
   {
     "arxiv_id": "2609.38073v1",
     "title": "Optimal Quantum-Classical Separations for Exact Learning",
-    "summary": "We study exact learning with membership queries for concept classes $\\mathcal C\\subseteq\\{0,1\\}^N$, focusing on the relationships among their deterministic, randomized, and quantum query complexities, denoted $\\mathsf{D}(\\mathcal C)$, $\\mathsf{R}(\\mathcal C)$, and $\\mathsf{Q}(\\mathcal C)$, respectively. The two canonical quantum speedups in this model are witnessed by Grover search and Bernstein-Vazirani, leading to the longstanding conjecture $$ \\mathsf{R}(\\mathcal C)=O(\\mathsf{Q}(\\mathcal C)^2+\\mathsf{Q}(\\mathcal C)\\log N). $$ We first refute this conjecture by constructing concept classes $\\mathcal C$ and $\\mathcal C'$ satisfying \\[ \\mathsf{R}(\\mathcal C)=\u03a9\\!\\left(\\frac{\\mathsf{Q}(\\mathcal C)^3\\log N}{\\log \\mathsf{Q}(\\mathcal C)}\\right) \\qquad\\text{and}\\qquad \\mathsf{D}(\\mathcal C')=\u03a9(\\mathsf{Q}(\\mathcal C')^3\\log N). \\] The first bound matches the upper bound of Arunachalam et al.~[Quantum'21] up to constant factors, while the second matches the upper bound of Servedio and Gortler~[SICOMP'04]. In particular, this shows that the saving in the randomized upper bound of Arunachalam et al. fundamentally relies on randomness. Apart from characterizing the optimal relationship between classical and quantum query complexity, our results are the first to show that quantum speedups for learning can go beyond the Grover and Bernstein-Vazirani paradigms.",
+    "summary": "We study exact learning with membership queries for concept classes $\\mathcal C\\subseteq\\{0,1\\}^N$, focusing on the relationships among their deterministic, randomized, and quantum query complexities, denoted $\\mathsf{D}(\\mathcal C)$, $\\mathsf{R}(\\mathcal C)$, and $\\mathsf{Q}(\\mathcal C)$, respectively. The two canonical quantum speedups in this model are witnessed by Grover search and Bernstein-Vazirani, leading to the longstanding conjecture $$ \\mathsf{R}(\\mathcal C)=O(\\mathsf{Q}(\\mathcal C)^2+\\mathsf{Q}(\\mathcal C)\\log N). $$ We first refute this conjecture by constructing concept classes $\\mathcal C$ and $\\mathcal C'$ satisfying \\[ \\mathsf{R}(\\mathcal C)=Ω\\!\\left(\\frac{\\mathsf{Q}(\\mathcal C)^3\\log N}{\\log \\mathsf{Q}(\\mathcal C)}\\right) \\qquad\\text{and}\\qquad \\mathsf{D}(\\mathcal C')=Ω(\\mathsf{Q}(\\mathcal C')^3\\log N). \\] The first bound matches the upper bound of Arunachalam et al.~[Quantum'21] up to constant factors, while the second matches the upper bound of Servedio and Gortler~[SICOMP'04]. In particular, this shows that the saving in the randomized upper bound of Arunachalam et al. fundamentally relies on randomness. Apart from characterizing the optimal relationship between classical and quantum query complexity, our results are the first to show that quantum speedups for learning can go beyond the Grover and Bernstein-Vazirani paradigms.",
     "authors": [
       "Srinivasan Arunachalam",
       "Amin Shiraz Gilani",
@@ -2915,7 +2915,7 @@
     "summary": "Brain-AI alignment is often interpreted as a sign that model and brain perform similar computations. Whether the aligned units are causally involved in model computation is rarely checked. On an abstract pattern-completion task (AAABAAA $\\rightarrow$ B), we compare LLM attention-head representations with human EEG and test how ablating those heads affects task performance. Alignment and causation dissociate: brain-aligned heads contribute to performance, but their removal is substantially less disruptive than removal of heads selected via attribution patching. We compare two head sets that prior interpretability work defines without reference to the brain: concept vectors (CVs), which represent abstract patterns across formats, and function vectors (FVs), selected for their contribution to correct-answer prediction. Brain alignment shows little association with FV scores, while its association with CV scores varies across models. Among brain-aligned heads, we find recurring attention profiles: one emphasizes distinctive elements (novelty heads), the other repeating elements (repetition heads). The novelty family tracks salience and attends to the same elements that humans look at, yet its removal is less damaging than random ablation on average. Repetition heads contribute modestly to performance and are associated with abstract-pattern representation (CVs). Across 17 models spanning 3B-72B parameters, FV-ranked removal is substantially more disruptive than brain-ranked removal. Brain alignment thus captures how the model reads the stimulus, and only faintly captures how it represents the pattern and solves the task.",
     "authors": [
       "Christopher Pinier",
-      "Gustaw Opie\u0142ka",
+      "Gustaw Opiełka",
       "Hannes Rosenbusch",
       "Taylor Webb",
       "Michael D. Nunez",
@@ -2961,8 +2961,8 @@
     "summary": "A wide range of methods have been proposed, including physics-informed neural networks, which are powerful but do not guarantee identifiability of the dynamics, symbolic regression, which requires a set of precomputed operations, and causal discovery, which is more principled but usually relies on strong assumptions that physical systems may violate. In this work, we develop a theory-grounded method and prove that under a set of permissive assumptions, the structural drivers and drift of stochastic delayed differential equations are identifiable. Our method outperforms others on a benchmark for driver identifiability, and on a second benchmark to evaluate physical consistency of the learned dynamics.",
     "authors": [
       "Julien Boussard",
-      "Antoine D\u00e9bouchage",
-      "Th\u00e9o Saulus"
+      "Antoine Débouchage",
+      "Théo Saulus"
     ],
     "categories": [
       "stat.ML",
@@ -3001,7 +3001,7 @@
   {
     "arxiv_id": "2609.37841v1",
     "title": "Counterfactual Probing for Parallel Unmasking with Hidden Forest Structure",
-    "summary": "Masked generative models offer parallel token prediction, but accurate parallel sampling must account for dependencies among tokens. When dependencies are unknown, finding safe batches also costs model evaluations. We study whether total evaluations, including discovery, can be sublinear in sequence length $N$; sublinear sequential depth then follows. We consider discrete distributions with hidden forest structure, accessed through a fixed approximate conditional oracle. Under explicit regularity conditions and uniform Hellinger error bounds, for any fixed target accuracy $\\varepsilon\\in (0,1/8]$ and sufficiently large $N$, our sampler achieves seed-averaged total-variation error at most $\\varepsilon$, with total masked-state submissions and sequential depth both bounded by $O(N^C \\varepsilon^a)$ for constants $0 <C <1$ and $a > 0$. These guarantees use polynomial vocabulary size and an edge-response lower bound set by $N$ and $\\varepsilon$. The sampler shares evaluations of hypothetical reveals across dependence tests to identify safe parallel batches without requiring full recovery of the hidden forest. A tunable parameter trades probing cost against irreversible commit rounds. In the same class, any admissible irreversible product-commit sampler attaining the same seed-averaged accuracy requires $\u03a9(N^c \\varepsilon^b)$ counterfactual submissions or commit rounds in the worst case, for constants $c,b>0$.",
+    "summary": "Masked generative models offer parallel token prediction, but accurate parallel sampling must account for dependencies among tokens. When dependencies are unknown, finding safe batches also costs model evaluations. We study whether total evaluations, including discovery, can be sublinear in sequence length $N$; sublinear sequential depth then follows. We consider discrete distributions with hidden forest structure, accessed through a fixed approximate conditional oracle. Under explicit regularity conditions and uniform Hellinger error bounds, for any fixed target accuracy $\\varepsilon\\in (0,1/8]$ and sufficiently large $N$, our sampler achieves seed-averaged total-variation error at most $\\varepsilon$, with total masked-state submissions and sequential depth both bounded by $O(N^C \\varepsilon^a)$ for constants $0 <C <1$ and $a > 0$. These guarantees use polynomial vocabulary size and an edge-response lower bound set by $N$ and $\\varepsilon$. The sampler shares evaluations of hypothetical reveals across dependence tests to identify safe parallel batches without requiring full recovery of the hidden forest. A tunable parameter trades probing cost against irreversible commit rounds. In the same class, any admissible irreversible product-commit sampler attaining the same seed-averaged accuracy requires $Ω(N^c \\varepsilon^b)$ counterfactual submissions or commit rounds in the worst case, for constants $c,b>0$.",
     "authors": [
       "Ryotaro Kawata",
       "Satoshi Hayakawa",
@@ -3065,7 +3065,7 @@
     "title": "The Camera Inside the Editor: Reading the Implicit Camera of Image Editors with Painted Calibration Patterns",
     "summary": "Instruction-based image editors insert objects, restyle scenes and render new viewpoints, but it is unknown which camera they assume when they paint into a photograph. Asked to cover the floor with a checkerboard, an editor paints projective structure from which classical vanishing-point geometry reads pitch, roll, focal length, yaw and, on renders, the principal point, without any training. Unlike a calibrator such as GeoCalib, which estimates the camera of an image, this isolates the camera under which the editor paints. On 120 rendered cameras with exact ground truth, Qwen-Image-Edit-2511 paints tile edges that meet their vanishing points within 0.26 degrees, and its implicit camera matches the true one to 0.8 degrees in pitch and 6% in focal length, more accurately than GeoCalib except in roll. Asked to draw the horizon or mark a vanishing point instead, the editor fails, so this knowledge is revealed by painting and not by the explicit tasks we tried. The implicit camera has two priors: roll is pulled towards level (slope 0.71), and telephoto perspective towards a default of about 30 mm, which roughly matches the camera the models paint without any scene. For Qwen, the priors do not grow when blur removes four fifths of the line evidence. They are stronger on real photographs, and on NYUv2 a shorter wording of the task removes the difference for roll. On photographs from a 24--240 mm zoom lens the painted perspective grows with only 0.62 of the lens's slope, while GeoCalib and MoGe-2 saturate at about 52 and 42 mm. FLUX.1 Kontext and LongCat-Image-Edit are pulled much harder. Finally, from a level camera a camera-control LoRA executes pose commands at only 50--70% of their strength, and a board painted into its output agrees with the camera it produced.",
     "authors": [
-      "Sebastian R\u00fcckerl"
+      "Sebastian Rückerl"
     ],
     "categories": [
       "cs.CV",
@@ -3321,7 +3321,7 @@
     "title": "HyDI: A hybrid Deep Learning-Inductive Logic Programming ensemble for multi-label classification",
     "summary": "While attaining remarkable results for many applications, Deep Learning models are notoriously difficult to explain. This work introduces HyDI, a hybrid ensemble architecture for hierarchical multi-label classification. It combines a Deep Learning (DL) model with rule-based classifiers generated by Inductive Logic Programming (ILP). For leaf classes of the label hierarchy, the rule-based classifiers replace the DL model, leading to more transparent classification results. HyDI is applied to the Chemical Entities of Biological Interest (ChEBI) ontology, providing ILP-generated rules for 314 classes. For these classes, HyDI can generate global explanations as well as local explanations that combine visual and text-based descriptions.",
     "authors": [
-      "Simon Fl\u00fcgel",
+      "Simon Flügel",
       "Till Mossakowski"
     ],
     "categories": [
@@ -3541,7 +3541,7 @@
   {
     "arxiv_id": "2609.37787v1",
     "title": "Adam under Generalized Smoothness with Second-Moment-Type Stochastic Gradients",
-    "summary": "Adam is widely observed to remain stable even when the objective deviates significantly from global smoothness. Under the generalized smoothness framework, however, existing analyses rely on strong tail assumptions on the stochastic gradients, such as almost-sure boundedness or sub-Gaussianity. Whether Adam converges on generalized smooth objectives under only second moment information on the stochastic gradients, without such concentration assumptions, was identified as an important open direction by Li et al. (2023). This paper gives an affirmative answer under fairly general conditions: such tail assumptions are not necessary. Building on the Adam self-normalization framework of Jin et al. (2026), developed for classical smoothness and bounded variance, we extend the stopping-time and de-preconditioning strategy to the $L_0$-$L_p$ generalized smoothness condition and a generalized second moment ABC condition. Even when the stochastic-gradient condition provides only second moment information that may grow along the trajectory, the stochastic trajectory of Adam remains in a locally well-behaved smoothness region, with stretched-exponential tail decay under bounded variance and global smoothness. Consequently, we establish high-probability convergence rate guarantees over the full range $p<2$, with confidence dependence of order $\u03b4^{-1/2}$, while the stepsize prefactor depends on $\u03b4$ only through a single logarithmic factor. We further construct a hard instance showing that, under only second-moment information, this $\u03b4^{-1/2}$-type confidence dependence is sharp. Finally, in the regime $p<1$, we combine the trajectory control with polynomial-growth estimates on rare events to obtain convergence rate guarantees in expectation.",
+    "summary": "Adam is widely observed to remain stable even when the objective deviates significantly from global smoothness. Under the generalized smoothness framework, however, existing analyses rely on strong tail assumptions on the stochastic gradients, such as almost-sure boundedness or sub-Gaussianity. Whether Adam converges on generalized smooth objectives under only second moment information on the stochastic gradients, without such concentration assumptions, was identified as an important open direction by Li et al. (2023). This paper gives an affirmative answer under fairly general conditions: such tail assumptions are not necessary. Building on the Adam self-normalization framework of Jin et al. (2026), developed for classical smoothness and bounded variance, we extend the stopping-time and de-preconditioning strategy to the $L_0$-$L_p$ generalized smoothness condition and a generalized second moment ABC condition. Even when the stochastic-gradient condition provides only second moment information that may grow along the trajectory, the stochastic trajectory of Adam remains in a locally well-behaved smoothness region, with stretched-exponential tail decay under bounded variance and global smoothness. Consequently, we establish high-probability convergence rate guarantees over the full range $p<2$, with confidence dependence of order $δ^{-1/2}$, while the stepsize prefactor depends on $δ$ only through a single logarithmic factor. We further construct a hard instance showing that, under only second-moment information, this $δ^{-1/2}$-type confidence dependence is sharp. Finally, in the regime $p<1$, we combine the trajectory control with polynomial-growth estimates on rare events to obtain convergence rate guarantees in expectation.",
     "authors": [
       "Ruinan Jin",
       "Difei Cheng",
@@ -3770,7 +3770,7 @@
       "Ryan C. Barron",
       "Cade W. Trotter",
       "Maksim E. Eren",
-      "Kim \u00d8. Rasmussen",
+      "Kim Ø. Rasmussen",
       "Liz D. Miller",
       "Benjamin J. Migliori"
     ],
@@ -3898,7 +3898,7 @@
   {
     "arxiv_id": "2609.37807v1",
     "title": "CompOrca: Corpus-Scale Compliance Labelling of Instruction-Tuning Data",
-    "summary": "Studying how fine-tuning shapes refusal and noncompliance behaviour requires identifying training examples that refuse, evade or otherwise fail to fulfil the requested task. But existing annotation covers evaluation sets of a few thousand prompts at most. We present CompOrca, a compliance labelling over the entirety of the 4,233,923-example OpenOrca corpus. Every example was classified as compliant or noncompliant by five independent passes of an open-weight LLM judge (LongCat-2.0, 1.6T parameters), and the corpus is released as unanimous compliance (94.75%), unanimous noncompliance (1.28%), and nonunanimous rows (3.97%) along with the raw vote counts. A single pass flags 2.7-3.2% of the corpus as noncompliant, while only 1.28% is flagged by all five, allowing for filtering the most ambiguous samples. Against 450 human-annotated examples, 150 of them annotated twice (human-human $\u03ba= 0.93$), the unanimous compliance and noncompliance labels are 97.3% and 86.7% precise, the latter a high-precision subset, not a complete enumeration, of noncompliance. Published refusal-detection methods recall only between 0.4% and 94.1% of the noncompliance class. We release the full corpus with its per-row labels and vote counts at https://huggingface.co/datasets/cemiu/CompOrca",
+    "summary": "Studying how fine-tuning shapes refusal and noncompliance behaviour requires identifying training examples that refuse, evade or otherwise fail to fulfil the requested task. But existing annotation covers evaluation sets of a few thousand prompts at most. We present CompOrca, a compliance labelling over the entirety of the 4,233,923-example OpenOrca corpus. Every example was classified as compliant or noncompliant by five independent passes of an open-weight LLM judge (LongCat-2.0, 1.6T parameters), and the corpus is released as unanimous compliance (94.75%), unanimous noncompliance (1.28%), and nonunanimous rows (3.97%) along with the raw vote counts. A single pass flags 2.7-3.2% of the corpus as noncompliant, while only 1.28% is flagged by all five, allowing for filtering the most ambiguous samples. Against 450 human-annotated examples, 150 of them annotated twice (human-human $κ= 0.93$), the unanimous compliance and noncompliance labels are 97.3% and 86.7% precise, the latter a high-precision subset, not a complete enumeration, of noncompliance. Published refusal-detection methods recall only between 0.4% and 94.1% of the noncompliance class. We release the full corpus with its per-row labels and vote counts at https://huggingface.co/datasets/cemiu/CompOrca",
     "authors": [
       "Philipp E. Glass",
       "Alina Miron"
@@ -3999,7 +3999,7 @@
     "authors": [
       "Ojas Shirekar",
       "Yash Surange",
-      "Agustinas Ju\u010das",
+      "Agustinas Jučas",
       "Chirag Raman"
     ],
     "categories": [
@@ -4080,7 +4080,7 @@
     "title": "Behavioral Convergence Without Representational Convergence: Persistent Training-History Dependence in Neural Networks",
     "summary": "Neural networks trained toward the same final objective can reach similar predictive performance while retaining internal representations shaped by earlier training history. We study this effect using controlled sequential-training experiments in which paired convolutional networks start from identical weights, experience reversed task orders, and then receive the same deterministic common-relaxation distribution. Across 20 paired MNIST runs, 16 satisfy a predeclared behavioral-matching criterion, yet their matched representations retain a mean history score of 0.139 (95% bootstrap CI: 0.127-0.153) and approximately 3.1% prediction disagreement. Extending common relaxation to 50,000 optimizer updates does not erase the measured difference: across five paired seeds, the representation-history score remains 0.190 (95% bootstrap CI: 0.161-0.219) at the end of the measured horizon while the mean accuracy gap is only 0.18 percentage points. Fresh linear probes show that, with sufficient labeled data, the two histories retain practically equivalent linearly accessible class information. A same-label rotated-MNIST control reproduces the effect: all five paired seeds reach behavioral matching while retaining a mean representation-history score of 0.162. Finally, a matched-learning-rate ReLU-LeakyReLU control reduces the 50,000-update representation residue by 0.040 on average in all five paired seeds, providing directional evidence that activation-mediated plasticity contributes to the persistence of training-history effects. These results provide protocol-scoped evidence that behavioral convergence need not imply representational convergence and that optimization history can leave measurable internal traces after prolonged common training.",
     "authors": [
-      "Ertu\u011frul Mutlu"
+      "Ertuğrul Mutlu"
     ],
     "categories": [
       "cs.LG"
@@ -4097,7 +4097,7 @@
     "title": "WINGS: Reference-Free Gaussian Splatting Inpainting with 3D-Native Generative Priors",
     "summary": "Inpainting 3D Gaussian Splatting scenes, a key challenge in 3D editing, requires generating plausible content within a masked region of 3D space. Prior approaches rely on 2D diffusion models to produce one or several inpainted reference views, making them susceptible to challenges associated with multi-view inconsistency and lengthy optimization times. Departing from these approaches, we introduce a reference-free Gaussian splatting inpainting method operating natively in 3D. Our method leverages the embedding space of a large, pre-trained 3D prior, combined with a structure completion network to feed a generative prior which reconstructs the missing region's geometry and appearance. Performing content generation entirely in 3D, it avoids the need to reconcile inconsistencies of multiple inpainted reference images, and is faster than related 2D-based methods. We demonstrate the effectiveness of our method qualitatively and quantitatively, through extensive experiments and a user study. To the best of our knowledge, this work is the first Gaussian splatting inpainting method to operate in the learned representation space of a 3D-native generative prior without relying on inpainted reference views.",
     "authors": [
-      "No\u00e9 Lallouet",
+      "Noé Lallouet",
       "Michael Fischer",
       "Elie Michel"
     ],
@@ -4117,11 +4117,11 @@
     "summary": "Long-tailed 3D object detection is treated as a class-frequency problem, but LiDAR supervision quality depends on object observability: similar frequencies can hide different geometric evidence. We introduce Geometry-Augmented Exponentially Weighted Instance-Aware Repeat Factor Sampling (GA-EIRFS), a detector-agnostic method that modulates a frequency-based repeat factor with a fixed geometry score combining point count, surface-normal entropy, and surface coverage. GA-EIRFS changes only frame-sampling probabilities, leaving the detector and inference unchanged. On nuScenes it improves mean average precision (mAP) and the nuScenes detection score (NDS) in four converged experiments with CenterPoint and PointPillars over two seeds; for CenterPoint at seed 666, mAP rises from 0.552 to 0.563 and bicycle AP from 0.306 to 0.359. Per-class gains correlate with the class sampling-weight increase (Spearman rho=0.70, p=0.025) but not with geometry score alone (rho=0.32, p=0.37), so geometry amplifies frequency-driven need. KITTI results vary across seeds, most for the rarest class. Code: https://github.com/Multimodal-Sensing-Lab/GA-EIRFS.",
     "authors": [
       "Taufiq Ahmed",
-      "Constantino \u00c1lvarez Casado",
+      "Constantino Álvarez Casado",
       "Daniel Herrera Castro",
       "Sasan Sharifipour",
       "Abhishek Kumar",
-      "Miguel Bordallo L\u00f3pez"
+      "Miguel Bordallo López"
     ],
     "categories": [
       "cs.CV"
@@ -4138,7 +4138,7 @@
     "title": "CHOQOLATE: Organizing Concept Bottleneck Latent Spaces with Choquet Integrals",
     "summary": "Concept Bottleneck Models (CBMs) built on vision-language models such as CLIP represent a latent space as human-understandable concepts. These representations are unfaithful: related concepts are entangled, so individual scores do not reflect their intended meaning. We propose CHOQOLATE, an interpretable-by-design layer based on 2-additive Choquet integrals, which merges correlated concepts into compact nodes. Across four datasets, CHOQOLATE achieves a favorable accuracy-interpretability trade-off, with weight-sparse and semantically coherent nodes. A closed-form gradient derivation, backed by experiments, explains why Choquet layers drive this organization without explicit supervision. Choquet weights also map directly to Shapley values, which enables test-time intervention. On standard bias-mitigation benchmarks, suppressing spurious concepts after training performs on par with methods that require group annotations or retraining, while needing neither.",
     "authors": [
-      "R\u00e9mi Kazmierczak",
+      "Rémi Kazmierczak",
       "Johanne Cohen",
       "Marianne Clausel"
     ],
@@ -4464,7 +4464,7 @@
   {
     "arxiv_id": "2609.38077v1",
     "title": "MUGEN: Interactive Panoramic World Exploration via Camera Control",
-    "summary": "Interactive panoramic video generation aims to synthesize immersive 360\\textdegree{} videos that remain visually coherent while following user-specified camera trajectories during exploration. However, progress is limited by a coupled data-and-model gap: existing panoramic video datasets are often short, weakly annotated, or lack camera trajectories, while existing camera-controlled video generation models are designed for perspective videos and do not directly support panoramic geometry. In this paper, we introduce MUGEN and Wan360 to address these limitations. MUGEN is a large-scale real-world panoramic video dataset tailored to interactive 360-degree world exploration, comprising over 1,300 hours of at least 4K panoramic videos with rich semantic and geometric annotations. Built on MUGEN, we further present Wan360, a camera-controllable interactive panoramic video generation model. Panoramic videos are commonly represented by EquiRectangular Projection (ERP), which unfolds a spherical 360-degree view into a rectangular frame with cyclic longitude seams and pole distortions. To this end, Wan360 introduces three parameter-free ERP-aware components: periodic longitude RoPE for seam-consistent positional encoding, ERP-aware padding for reducing boundary artifacts, and random roll yaw for consistent learning. For camera control, Wan360 uses a panoramic Pl\u00fccker embedding that represents camera motion with ERP rays rather than perspective pinhole rays. Experiments show that MUGEN serves as a data foundation for panoramic world exploration, and that Wan360 enables high-quality, temporally coherent, camera-controllable 360-degree video generation.",
+    "summary": "Interactive panoramic video generation aims to synthesize immersive 360\\textdegree{} videos that remain visually coherent while following user-specified camera trajectories during exploration. However, progress is limited by a coupled data-and-model gap: existing panoramic video datasets are often short, weakly annotated, or lack camera trajectories, while existing camera-controlled video generation models are designed for perspective videos and do not directly support panoramic geometry. In this paper, we introduce MUGEN and Wan360 to address these limitations. MUGEN is a large-scale real-world panoramic video dataset tailored to interactive 360-degree world exploration, comprising over 1,300 hours of at least 4K panoramic videos with rich semantic and geometric annotations. Built on MUGEN, we further present Wan360, a camera-controllable interactive panoramic video generation model. Panoramic videos are commonly represented by EquiRectangular Projection (ERP), which unfolds a spherical 360-degree view into a rectangular frame with cyclic longitude seams and pole distortions. To this end, Wan360 introduces three parameter-free ERP-aware components: periodic longitude RoPE for seam-consistent positional encoding, ERP-aware padding for reducing boundary artifacts, and random roll yaw for consistent learning. For camera control, Wan360 uses a panoramic Plücker embedding that represents camera motion with ERP rays rather than perspective pinhole rays. Experiments show that MUGEN serves as a data foundation for panoramic world exploration, and that Wan360 enables high-quality, temporally coherent, camera-controllable 360-degree video generation.",
     "authors": [
       "Jiaming Tan",
       "Zhen Li",
@@ -4506,483 +4506,6 @@
     "pdf_url": "https://arxiv.org/pdf/2609.38054v1.pdf",
     "date": "2026-09-30",
     "source": "arxiv",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "francesca9805/isl-latn-100mb-after-ppt-Dp-10mb-packed-bfdiso-ckpt500_seed10",
-    "author": "unknown",
-    "title": "francesca9805/isl-latn-100mb-after-ppt-Dp-10mb-packed-bfdiso-ckpt500_seed10",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "sft",
-      "trl",
-      "base_model:francesca9805/isl-latn-100mb-ppt-Dp-10mb-packed-bfdiso_seed10",
-      "base_model:finetune:francesca9805/isl-latn-100mb-ppt-Dp-10mb-packed-bfdiso_seed10",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-30T10:10:20.000Z",
-    "last_modified": "2026-09-30T10:11:31.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/francesca9805/isl-latn-100mb-after-ppt-Dp-10mb-packed-bfdiso-ckpt500_seed10",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Naphula/DeepWater-Pleroma-24B-v1",
-    "author": "unknown",
-    "title": "Naphula/DeepWater-Pleroma-24B-v1",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "mistral",
-      "text-generation",
-      "lora",
-      "sft",
-      "trl",
-      "peft",
-      "conversational",
-      "base_model:MuXodious/Cydonia-24B-v4.3-absolute-heresy",
-      "base_model:adapter:MuXodious/Cydonia-24B-v4.3-absolute-heresy",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-30T10:07:50.000Z",
-    "last_modified": "2026-09-30T10:11:02.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Naphula/DeepWater-Pleroma-24B-v1",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "francesca9805/isl-latn-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed3407",
-    "author": "unknown",
-    "title": "francesca9805/isl-latn-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed3407",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "sft",
-      "trl",
-      "base_model:francesca9805/isl-latn-10mb-ppt-Dp-100mb-packed-bfdiso_seed3407",
-      "base_model:finetune:francesca9805/isl-latn-10mb-ppt-Dp-100mb-packed-bfdiso_seed3407",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-30T09:43:21.000Z",
-    "last_modified": "2026-09-30T10:10:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/francesca9805/isl-latn-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed3407",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "24B-Suite/DeepWater-Pleroma-24B-v1-Q4_0-GGUF",
-    "author": "unknown",
-    "title": "24B-Suite/DeepWater-Pleroma-24B-v1-Q4_0-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "Q4_0",
-      "text-generation",
-      "base_model:Naphula/DeepWater-Pleroma-24B-v1",
-      "base_model:finetune:Naphula/DeepWater-Pleroma-24B-v1",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-09-30T09:43:18.000Z",
-    "last_modified": "2026-09-30T10:10:13.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/24B-Suite/DeepWater-Pleroma-24B-v1-Q4_0-GGUF",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "francesca9805/isl-latn-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
-    "author": "unknown",
-    "title": "francesca9805/isl-latn-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "sft",
-      "trl",
-      "base_model:francesca9805/isl-latn-100mb-ppt-Dp-100mb-packed-bfdiso_seed10",
-      "base_model:finetune:francesca9805/isl-latn-100mb-ppt-Dp-100mb-packed-bfdiso_seed10",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-30T07:32:37.000Z",
-    "last_modified": "2026-09-30T10:09:53.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/francesca9805/isl-latn-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed10",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "AxisMeru/prabhasa-nyaya-element-judge-4b-arm0",
-    "author": "unknown",
-    "title": "AxisMeru/prabhasa-nyaya-element-judge-4b-arm0",
-    "downloads": 128,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "sft",
-      "trl",
-      "element-judge",
-      "exploratory",
-      "conversational",
-      "base_model:Qwen/Qwen3-4B",
-      "base_model:finetune:Qwen/Qwen3-4B",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-29T11:47:14.000Z",
-    "last_modified": "2026-09-30T10:09:24.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/AxisMeru/prabhasa-nyaya-element-judge-4b-arm0",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "KittyLM/kittylm-phi-4-mini-gguf",
-    "author": "unknown",
-    "title": "KittyLM/kittylm-phi-4-mini-gguf",
-    "downloads": 61,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "kittylm",
-      "ollama",
-      "llama-cpp",
-      "lm-studio",
-      "conversational",
-      "text-generation",
-      "en",
-      "base_model:KittyLM/kittylm-phi-4-mini",
-      "base_model:quantized:KittyLM/kittylm-phi-4-mini",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-09-29T13:07:08.000Z",
-    "last_modified": "2026-09-30T10:09:20.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/KittyLM/kittylm-phi-4-mini-gguf",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "KirkAis/Lucent",
-    "author": "unknown",
-    "title": "KirkAis/Lucent",
-    "downloads": 34,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "15b",
-      "15b-parameters",
-      "minecraft",
-      "minecraft-client",
-      "client-engineering",
-      "modding",
-      "fabric",
-      "forge",
-      "neoforge",
-      "unsloth",
-      "code",
-      "text-generation-inference",
-      "conversational",
-      "en",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-30T00:55:17.000Z",
-    "last_modified": "2026-09-30T10:09:14.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/KirkAis/Lucent",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "enver/rootformer-v19-sovereign-transmute",
-    "author": "unknown",
-    "title": "enver/rootformer-v19-sovereign-transmute",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "arabic",
-      "classical-arabic",
-      "translation",
-      "transmutation",
-      "morphology",
-      "roots",
-      "linguistics",
-      "sibawayh",
-      "al-khalil",
-      "jurjani",
-      "lisan-al-arab",
-      "ar",
-      "en",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "translation",
-    "library": "",
-    "created_at": "2026-09-30T09:58:01.000Z",
-    "last_modified": "2026-09-30T10:08:56.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/enver/rootformer-v19-sovereign-transmute",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "artoowang/hf-audio-wav2vec2-bert-CV16-en-finetune",
-    "author": "unknown",
-    "title": "artoowang/hf-audio-wav2vec2-bert-CV16-en-finetune",
-    "downloads": 37,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "wav2vec2-bert",
-      "automatic-speech-recognition",
-      "generated_from_trainer",
-      "base_model:hf-audio/wav2vec2-bert-CV16-en",
-      "base_model:finetune:hf-audio/wav2vec2-bert-CV16-en",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "automatic-speech-recognition",
-    "library": "transformers",
-    "created_at": "2026-09-29T09:17:47.000Z",
-    "last_modified": "2026-09-30T10:08:14.000Z",
-    "days_since_creation": 1,
-    "url": "https://huggingface.co/artoowang/hf-audio-wav2vec2-bert-CV16-en-finetune",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "cmkarthi2004/personal-career-assistant-model",
-    "author": "unknown",
-    "title": "cmkarthi2004/personal-career-assistant-model",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "qwen",
-      "lora",
-      "fine-tuning",
-      "causal-language-model",
-      "personal-assistant",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:Qwen/Qwen2.5-0.5B-Instruct",
-      "base_model:adapter:Qwen/Qwen2.5-0.5B-Instruct",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-09-30T10:01:55.000Z",
-    "last_modified": "2026-09-30T10:08:14.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/cmkarthi2004/personal-career-assistant-model",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "indub1402/qwen-lora-finetuned",
-    "author": "unknown",
-    "title": "indub1402/qwen-lora-finetuned",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "pytorch",
-      "qwen2",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "trl",
-      "conversational",
-      "en",
-      "base_model:unsloth/Qwen2.5-1.5B-Instruct-unsloth-bnb-4bit",
-      "base_model:quantized:unsloth/Qwen2.5-1.5B-Instruct-unsloth-bnb-4bit",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "4-bit",
-      "bitsandbytes",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-09-30T10:06:02.000Z",
-    "last_modified": "2026-09-30T10:08:12.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/indub1402/qwen-lora-finetuned",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "pavithraams/distilbert-student-feedback-sentiment",
-    "author": "unknown",
-    "title": "pavithraams/distilbert-student-feedback-sentiment",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "distilbert",
-      "text-classification",
-      "sentiment-analysis",
-      "fine-tuned",
-      "education",
-      "base_model:distilbert/distilbert-base-uncased",
-      "base_model:finetune:distilbert/distilbert-base-uncased",
-      "text-embeddings-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-09-30T10:07:40.000Z",
-    "last_modified": "2026-09-30T10:07:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/pavithraams/distilbert-student-feedback-sentiment",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "sagea-ai/Mira-v1",
-    "author": "unknown",
-    "title": "sagea-ai/Mira-v1",
-    "downloads": 0,
-    "likes": 2,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "modernbert",
-      "feature-extraction",
-      "decision-model",
-      "text-classification",
-      "multilingual",
-      "nepali",
-      "nepal",
-      "routing",
-      "base_model:jhu-clsp/mmBERT-small",
-      "base_model:finetune:jhu-clsp/mmBERT-small",
-      "license:apache-2.0",
-      "text-embeddings-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-09-30T09:43:42.000Z",
-    "last_modified": "2026-09-30T10:05:22.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/sagea-ai/Mira-v1",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Akshatha-0825/flan-t5",
-    "author": "unknown",
-    "title": "Akshatha-0825/flan-t5",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "flan-t5",
-      "fine-tuned",
-      "text2text-generation",
-      "base_model:google/flan-t5-small",
-      "base_model:finetune:google/flan-t5-small",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-09-30T06:08:26.000Z",
-    "last_modified": "2026-09-30T10:04:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Akshatha-0825/flan-t5",
-    "date": "2026-09-30",
-    "source": "huggingface_model",
-    "type": "model",
     "research_score": 0.4
   }
 ]
