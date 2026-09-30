@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-30T16:37:31.569257",
+  "date": "2026-09-30T21:10:01.805200",
   "patterns": {
     "multimodal_research": [
       {
@@ -939,14 +939,6 @@
       {
         "title": "Pow3R-SLAM: Real-Time RGB-D SLAM with 3D Reconstruction Priors",
         "url": "https://arxiv.org/abs/2609.38054v1"
-      },
-      {
-        "title": "Jwuthrich/selfjev-4b-vision-merged",
-        "url": "https://huggingface.co/Jwuthrich/selfjev-4b-vision-merged"
-      },
-      {
-        "title": "Jwuthrich/selfjev-4b-vision",
-        "url": "https://huggingface.co/Jwuthrich/selfjev-4b-vision"
       }
     ],
     "reasoning": [
@@ -1667,7 +1659,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1703,7 +1695,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 42,
+      "frequency": 40,
       "significance": "high"
     },
     {
@@ -1720,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 405
+    "total_papers": 403
   }
 }
