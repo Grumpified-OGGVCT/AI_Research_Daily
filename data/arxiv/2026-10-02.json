@@ -10,7 +10,7 @@
       "Akhilesh Jain",
       "Ankur Kumar",
       "Thomas A. Kwan",
-      "F\u00e8lix Llovell",
+      "Fèlix Llovell",
       "Andrew J. Medford",
       "Ilias Mitrai",
       "Joel Paulson",
@@ -38,7 +38,7 @@
   {
     "arxiv_id": "2610.01831v1",
     "title": "Pooling Helps, Learned Weighting Hurts In-Context: Decomposing Group Attention",
-    "summary": "Group attention, introduced by the time series forecasting model Chronos-2, attends over the variates of a group at a fixed patch index and serves both multivariate (MV) and in-context learning (ICL) forecasting. Rather than evaluating this cross-variate attention design as a whole, we ask which part of the mechanism earns the benefit and probe its applicability to both MV and ICL regimes. By editing the attention matrix $\u03b1$ at inference we separate the two pathways a head comprises: V/O, which projects a weighted summary of the group, and Q/K, which decides the weights. Uniform pooling (V/O without any Q/K weighting) is positive on 18 of our 20 sensor-network configurations, while the learned weighting (Q/K) splits by group type: its contribution is positive or negligible for MV, but materially degrades 8 of the 10 sensor-network ICL configurations, leaving 4 of them worse than univariate inference. By isolating the impact of different layers, we find that uniforming $\u03b1$ in the first block alone improves every ICL configuration we test.",
+    "summary": "Group attention, introduced by the time series forecasting model Chronos-2, attends over the variates of a group at a fixed patch index and serves both multivariate (MV) and in-context learning (ICL) forecasting. Rather than evaluating this cross-variate attention design as a whole, we ask which part of the mechanism earns the benefit and probe its applicability to both MV and ICL regimes. By editing the attention matrix $α$ at inference we separate the two pathways a head comprises: V/O, which projects a weighted summary of the group, and Q/K, which decides the weights. Uniform pooling (V/O without any Q/K weighting) is positive on 18 of our 20 sensor-network configurations, while the learned weighting (Q/K) splits by group type: its contribution is positive or negligible for MV, but materially degrades 8 of the 10 sensor-network ICL configurations, leaving 4 of them worse than univariate inference. By isolating the impact of different layers, we find that uniforming $α$ in the first block alone improves every ICL configuration we test.",
     "authors": [
       "Michael Fore",
       "James Mason Inder",
@@ -59,7 +59,7 @@
   {
     "arxiv_id": "2610.02173v1",
     "title": "Every Ablation Is a Dose: Counterweights and the Semblance of Self-Repair",
-    "summary": "Ablate a component of a language model, and other components often appear to adjust and compensate. This phenomenon, termed self-repair, has been observed repeatedly, but its mechanism remains unclear. The most systematic study to date concluded that self-repair is noisy and unlikely to have a single explanation. We argue that it has one: a gain already present before any ablation. Any intervention on a causally important component can be viewed as a point on a coordinate axis $\u03bb$, the signed strength of a counterfactual contrast. Hence, conventional ablation methods are uncalibrated points on this axis. We show that the causal repair response for a fine-grained unit $r$ is governed by an affine law, $E_r(\u03bb)=\\mathrm{own}_r+\u03b3_r\u03bb$. The slope $\u03b3_r$ is a fixed coefficient that consistently influences the model, with or without ablation, and its sign determines whether the unit counteracts or reinforces the removed signal. On a factual-verdict task across four models from distinct families (Gemma, Qwen, LLaMA, and Mistral), we identify components including MLP neurons, OV neurons, and singular directions that follow this affine law, 68 of 81 downstream directions in all. Moreover, we can anticipate the magnitude of $\u03b3_r$ from the fixed weights. On the IOI circuit of GPT-2 Small, seven of the ten heads the intervention can reach follow the law, and all seven are counterweights. From this perspective, what may appear as self-repair is a counterweight performing its usual operation when the contrastive signal emerges at the core.",
+    "summary": "Ablate a component of a language model, and other components often appear to adjust and compensate. This phenomenon, termed self-repair, has been observed repeatedly, but its mechanism remains unclear. The most systematic study to date concluded that self-repair is noisy and unlikely to have a single explanation. We argue that it has one: a gain already present before any ablation. Any intervention on a causally important component can be viewed as a point on a coordinate axis $λ$, the signed strength of a counterfactual contrast. Hence, conventional ablation methods are uncalibrated points on this axis. We show that the causal repair response for a fine-grained unit $r$ is governed by an affine law, $E_r(λ)=\\mathrm{own}_r+γ_rλ$. The slope $γ_r$ is a fixed coefficient that consistently influences the model, with or without ablation, and its sign determines whether the unit counteracts or reinforces the removed signal. On a factual-verdict task across four models from distinct families (Gemma, Qwen, LLaMA, and Mistral), we identify components including MLP neurons, OV neurons, and singular directions that follow this affine law, 68 of 81 downstream directions in all. Moreover, we can anticipate the magnitude of $γ_r$ from the fixed weights. On the IOI circuit of GPT-2 Small, seven of the ten heads the intervention can reach follow the law, and all seven are counterweights. From this perspective, what may appear as self-repair is a counterweight performing its usual operation when the contrastive signal emerges at the core.",
     "authors": [
       "Areeb Ahmad",
       "Pratinav Seth",
@@ -602,7 +602,7 @@
   {
     "arxiv_id": "2610.01896v1",
     "title": "Asynchronous LLM Post-Training: Group-Mass Capping and Convergence Analysis",
-    "summary": "Asynchronous reinforcement learning (RL) improves the efficiency of large language model post-training but introduces stale rollouts generated by earlier policies. Theoretical understanding of how this staleness affects convergence and how to mitigate its impact remains limited. We derive a convergence bound for GRPO-style algorithms that explicitly characterizes the tradeoff between the gradient estimator's second moment and bias. For trajectory-level importance-weighted estimators, our analysis shows that once the second moment is uniformly controlled, delay enters the bound through the bias introduced by clipping or rescaling. Guided by this insight, we propose a novel group mass capping GRPO (GMC-GRPO) method, which minimizes a ratio-based bias bound within a class of weighted estimators sharing a common second-moment guarantee. We establish convergence guarantees for asynchronous GMC-GRPO and show that, compared with TIC-GRPO, it improves the threshold dependence of the fourth-order delay term from $O(\u03b5^{-4})$ to $O(\u03b5^{-2})$ as $\u03b5\\to0$, where $1+\u03b5$ is the ratio threshold. Under local policy overlap, the delay-dependent term decreases as $G^{-2/5}$ after tuning the step size, where $G$ is the group size. For fixed behavior and current policies, the bias introduced by group rescaling also vanishes as $G\\to\\infty$, whereas the bias from trajectory-wise clipping can persist. Experiments across Qwen3 models and reasoning benchmarks demonstrate improved robustness to stale rollouts, with GMC-GRPO achieving the best performance among stable baselines under large rollout delays.",
+    "summary": "Asynchronous reinforcement learning (RL) improves the efficiency of large language model post-training but introduces stale rollouts generated by earlier policies. Theoretical understanding of how this staleness affects convergence and how to mitigate its impact remains limited. We derive a convergence bound for GRPO-style algorithms that explicitly characterizes the tradeoff between the gradient estimator's second moment and bias. For trajectory-level importance-weighted estimators, our analysis shows that once the second moment is uniformly controlled, delay enters the bound through the bias introduced by clipping or rescaling. Guided by this insight, we propose a novel group mass capping GRPO (GMC-GRPO) method, which minimizes a ratio-based bias bound within a class of weighted estimators sharing a common second-moment guarantee. We establish convergence guarantees for asynchronous GMC-GRPO and show that, compared with TIC-GRPO, it improves the threshold dependence of the fourth-order delay term from $O(ε^{-4})$ to $O(ε^{-2})$ as $ε\\to0$, where $1+ε$ is the ratio threshold. Under local policy overlap, the delay-dependent term decreases as $G^{-2/5}$ after tuning the step size, where $G$ is the group size. For fixed behavior and current policies, the bias introduced by group rescaling also vanishes as $G\\to\\infty$, whereas the bias from trajectory-wise clipping can persist. Experiments across Qwen3 models and reasoning benchmarks demonstrate improved robustness to stale rollouts, with GMC-GRPO achieving the best performance among stable baselines under large rollout delays.",
     "authors": [
       "Qijia He",
       "Ruinan Jin",
@@ -996,7 +996,7 @@
       "Assaad Zeghina",
       "Matthieu Meignin",
       "Nicolas Viltard",
-      "C\u00e9cile Mallet"
+      "Cécile Mallet"
     ],
     "categories": [
       "cs.CV",
@@ -1045,7 +1045,7 @@
       "Jonas Bhend",
       "Louis Frey",
       "Hugues de Laroussilhe",
-      "Oph\u00e9lia Miralles",
+      "Ophélia Miralles",
       "Carlos Osuna",
       "Daniele Nerini",
       "Andreas Pauling",
@@ -1060,7 +1060,7 @@
       "Mark A. Liniger",
       "Katrin Ehlert",
       "Matthew Chantry",
-      "H\u00e5vard Homleid Haugen",
+      "Håvard Homleid Haugen",
       "Gert Mertes",
       "Ana Prieto Nemesio",
       "Mario Santa Cruz",
@@ -1499,7 +1499,7 @@
   {
     "arxiv_id": "2610.02128v1",
     "title": "Sample complexity bounds for categorical Markov random fields via Discrete Diffusions",
-    "summary": "Many applications in statistics, economics, and physics require sampling from high-dimensional categorical distributions with local dependence structures. Examples include finite memory language models, Ising and Potts systems in statistical physics and protein folding, etc. In modern machine learning, discrete diffusions have emerged as a flexible approach for sampling such data, with strong empirical performance. Motivated by this, we develop learning methods with end-to-end sample complexity bounds for discrete diffusion with uniform noising under local dependence, which we model through low order Markov random fields (MRFs). Our main technical insight is a new \\emph{pinning decomposition} of the discrete score. It shows that unlike in continuous diffusions, the score decomposes into components where the dependence on time separates multiplicatively from the dependence on the target. Building on this decomposition, we propose a \\emph{weight-sharing neural score learner} and combine it with $\u03c4$-leaping to obtain an end-to-end sampling procedure. Rather than treating score-learning error as a black-box input, as is common in existing sampling analyses, we study the score learning error from finite data and derive optimal sampling guarantees with explicit dependence on the vocabulary size, the interaction order of the MRF, and the sample size. Moreover, our strategy trains a single score network across uniform noise levels while leaving the sampling discretization to be chosen at inference-time. This allows the same trained model to trade accuracy for computational cost as inference-time budgets vary. Numerical experiments on Potts, Ising, and tree-structured models show that weight-sharing score networks outperform fully connected ones for sampling long sequences.",
+    "summary": "Many applications in statistics, economics, and physics require sampling from high-dimensional categorical distributions with local dependence structures. Examples include finite memory language models, Ising and Potts systems in statistical physics and protein folding, etc. In modern machine learning, discrete diffusions have emerged as a flexible approach for sampling such data, with strong empirical performance. Motivated by this, we develop learning methods with end-to-end sample complexity bounds for discrete diffusion with uniform noising under local dependence, which we model through low order Markov random fields (MRFs). Our main technical insight is a new \\emph{pinning decomposition} of the discrete score. It shows that unlike in continuous diffusions, the score decomposes into components where the dependence on time separates multiplicatively from the dependence on the target. Building on this decomposition, we propose a \\emph{weight-sharing neural score learner} and combine it with $τ$-leaping to obtain an end-to-end sampling procedure. Rather than treating score-learning error as a black-box input, as is common in existing sampling analyses, we study the score learning error from finite data and derive optimal sampling guarantees with explicit dependence on the vocabulary size, the interaction order of the MRF, and the sample size. Moreover, our strategy trains a single score network across uniform noise levels while leaving the sampling discretization to be chosen at inference-time. This allows the same trained model to trade accuracy for computational cost as inference-time budgets vary. Numerical experiments on Potts, Ising, and tree-structured models show that weight-sharing score networks outperform fully connected ones for sampling long sequences.",
     "authors": [
       "Shivam Kumar",
       "Nabarun Deb"
@@ -1667,7 +1667,7 @@
   {
     "arxiv_id": "2610.02188v1",
     "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
-    "summary": "Distribution Matching Distillation (DMD) trains a few-step student from the difference between separately estimated target and student scores, so it must keep an auxiliary diffusion model fitted to the student's evolving distribution at extra memory and computation cost. We introduce DMAD, Distribution Matching as Adversarial Distillation, which recasts distribution matching as classification and learns the required log-density ratios directly. Two discriminator heads on a shared backbone distinguish real data and teacher samples from the student's, and linear losses on their logits train the student without auxiliary score fitting. We prove that at the discriminator optimum these losses recover the distribution-matching gradient underlying DMD, through the classical identity linking discriminator logits to log-density ratios. We further introduce gap-based reweighting, which adapts teacher supervision across noise levels from the real-data head's empirical logit gap between real and teacher samples. DMAD reaches a Fr\u00e9chet Inception Distance (FID) of 1.04 with one-step generation on ImageNet-64x64, 14.47 with four-step SDXL on COCO-10K, and a VBench total score of 85.15 with four-step Wan2.1-T2V-14B, the best values among the compared few-step methods and the multi-step teachers. On MiniMax-H3-33B, our four-step student achieves overall human preference rates of 79.1% over DMD2 and 84.6% over rCM for joint audio-video generation, excluding ties. Our code, models and demos are available at https://yzmblog.github.io/projects/DMAD.",
+    "summary": "Distribution Matching Distillation (DMD) trains a few-step student from the difference between separately estimated target and student scores, so it must keep an auxiliary diffusion model fitted to the student's evolving distribution at extra memory and computation cost. We introduce DMAD, Distribution Matching as Adversarial Distillation, which recasts distribution matching as classification and learns the required log-density ratios directly. Two discriminator heads on a shared backbone distinguish real data and teacher samples from the student's, and linear losses on their logits train the student without auxiliary score fitting. We prove that at the discriminator optimum these losses recover the distribution-matching gradient underlying DMD, through the classical identity linking discriminator logits to log-density ratios. We further introduce gap-based reweighting, which adapts teacher supervision across noise levels from the real-data head's empirical logit gap between real and teacher samples. DMAD reaches a Fréchet Inception Distance (FID) of 1.04 with one-step generation on ImageNet-64x64, 14.47 with four-step SDXL on COCO-10K, and a VBench total score of 85.15 with four-step Wan2.1-T2V-14B, the best values among the compared few-step methods and the multi-step teachers. On MiniMax-H3-33B, our four-step student achieves overall human preference rates of 79.1% over DMD2 and 84.6% over rCM for joint audio-video generation, excluding ties. Our code, models and demos are available at https://yzmblog.github.io/projects/DMAD.",
     "authors": [
       "Zhengming Yu",
       "Junkun Yuan",
@@ -1832,7 +1832,7 @@
     "title": "Debias Anything: Fairness with Diversity without Supervision in Diffusion Models",
     "summary": "Although diffusion models produce high-quality images, they also reproduce and amplify demographic imbalances in their training data. Debiasing their generation process post-training w.r.t. some sensitive attribute usually relies on classifier guidance or explicit text extra-conditioning, but this reduces methods' applicability and output diversity. Conversely, methods promoting diversity alone do not ensure fair attribute representation. In this paper, we propose a method tackling fairness and diversity jointly that is generally applicable to any diffusion model and any sensitive attribute. To this end, an adapter connects the frozen diffusion model to a pretrained vision-language embedding space, enabling fairness and diversity guidance without sensitive-attribute annotations. For fairness, pairs of text prompts define attribute directions which guide batch composition towards specific proportions. For diversity, we introduce a score measuring disagreement between the semantic estimates derived from this representation. The formulation supports unconditional and text-conditional diffusion models, while requiring no prior knowledge or data of sensitive attribute. Experiments confirm that our method improves quality and diversity scores at comparable fairness levels.",
     "authors": [
-      "Th\u00e9au d'Audiffret",
+      "Théau d'Audiffret",
       "Mariia Vladimirova",
       "Jean-Yves Franceschi"
     ],
@@ -1942,8 +1942,8 @@
     "summary": "A comparative explainability framework is presented to audit DeBERTa-v3 under zero-shot classification of medical abstracts. The work addresses the disagreement problem in Explainable Artificial Intelligence, where different attribution methods produce divergent explanations for the same input and prediction. A natural language inference engine is implemented over the Medical Abstracts corpus with five enriched hypotheses per diagnostic category and a balanced sample of one thousand texts per class. Five explanation methods are compared: SHAP and LIME as model-agnostic approaches, occlusion and Input x Gradient as deep-learning-specific approaches, and Attention x Gradient as a transformer-specific approach. Explanations are standardized through top-token attribution, and pairwise agreement is quantified using the Jaccard index. High predictive accuracy is achieved across well-defined clinical domains, whereas performance degrades under high semantic ambiguity. Explanatory stability directly mirrors predictive certainty, exhibiting strong convergence in univalent categories and a marked drop under diagnostic uncertainty. Furthermore, qualitative error auditing uncovers three systemic failure mechanisms: lexical hypersensitivity, semantic overlap, and loss of attribution coherence. The results support the combined use of several explanation methods and quantitative agreement metrics when auditing transformer-based models in medical text classification, and suggest prioritizing specific clinical ontologies over broad diagnostic labels.",
     "authors": [
       "Javier Diaz Esteban-Herreros",
-      "David Mu\u00f1oz-Valero",
-      "Raquel Mart\u00ednez-Espa\u00f1a",
+      "David Muñoz-Valero",
+      "Raquel Martínez-España",
       "Jose M. Juarez",
       "Juan Moreno-Garcia"
     ],
@@ -2236,7 +2236,7 @@
   {
     "arxiv_id": "2610.02001v1",
     "title": "Mingbird: A Local-First Agent Harness Enabling Small Open Models to Complete Real Tasks",
-    "summary": "Small open-weight models (2-9B) run on ordinary laptops, but under cloud-scale agent harnesses they rarely complete real tasks: tool prefill overflows the context, self-correction diverges, tool demonstrations loop, and tasks are silently abandoned. We present evidence, from a controlled single-machine comparison and one third-party benchmark, that a substantial share of these failures is attributable to the harness rather than the model. We introduce Mingbird, a local-first agent harness for Windows and Ollama whose ten mechanisms compensate point-by-point for small-model failure forms, three of them representative: a byte-level net-zero prefill budget, a finish gate that re-reads the task before accepting completion, and signature-level loop detection. On LRAB, a controlled comparison holding machine, models, budgets, and scoring fixed (4 harnesses $\\times$ 4 open models (2B-35B) $\\times$ 18 real tasks, deterministic artifact scoring), Mingbird reaches 0.886 overall against 0.631 (goose), 0.479 (opencode), and 0.405 (agent-mini), with all 288 cells published; on $\u03c4^2$-bench (278 tasks, three arms, one protocol) it totals 0.856 against 0.791 and 0.737; and a frontier-model probe on the same 18 tasks spans 0.997 to 0.478 across harnesses, with well-formed scaffolds staying within 0.072 of each other. A leave-one-mechanism-out ablation is reported as directional only: same-night replications of the same arm move its mean by up to 0.069, the size of every nominal single-trial delta, and the one batch-matched comparison (full mechanism stack versus text re-read alone) gives the executable completion guards a paired +0.10 across three replications. The evidence carries stated limits: a self-built benchmark, a single machine, and single-trial scoring.",
+    "summary": "Small open-weight models (2-9B) run on ordinary laptops, but under cloud-scale agent harnesses they rarely complete real tasks: tool prefill overflows the context, self-correction diverges, tool demonstrations loop, and tasks are silently abandoned. We present evidence, from a controlled single-machine comparison and one third-party benchmark, that a substantial share of these failures is attributable to the harness rather than the model. We introduce Mingbird, a local-first agent harness for Windows and Ollama whose ten mechanisms compensate point-by-point for small-model failure forms, three of them representative: a byte-level net-zero prefill budget, a finish gate that re-reads the task before accepting completion, and signature-level loop detection. On LRAB, a controlled comparison holding machine, models, budgets, and scoring fixed (4 harnesses $\\times$ 4 open models (2B-35B) $\\times$ 18 real tasks, deterministic artifact scoring), Mingbird reaches 0.886 overall against 0.631 (goose), 0.479 (opencode), and 0.405 (agent-mini), with all 288 cells published; on $τ^2$-bench (278 tasks, three arms, one protocol) it totals 0.856 against 0.791 and 0.737; and a frontier-model probe on the same 18 tasks spans 0.997 to 0.478 across harnesses, with well-formed scaffolds staying within 0.072 of each other. A leave-one-mechanism-out ablation is reported as directional only: same-night replications of the same arm move its mean by up to 0.069, the size of every nominal single-trial delta, and the one batch-matched comparison (full mechanism stack versus text re-read alone) gives the executable completion guards a paired +0.10 across three replications. The evidence carries stated limits: a self-built benchmark, a single machine, and single-trial scoring.",
     "authors": [
       "Hao Wang",
       "Ting Huang"
@@ -2420,8 +2420,8 @@
   },
   {
     "arxiv_id": "2610.02043v1",
-    "title": "Distributionally Robust Schr\u00f6dinger Bridge",
-    "summary": "Schr\u00f6dinger bridge (SB) learns stochastic transport between prescribed initial and target distributions. When the initial distribution shifts at test time, the learned dynamics can fail to recover the target distribution. We introduce the Distributionally Robust Schr\u00f6dinger Bridge (DRSB), which learns a single controller that accounts for uncertainty in the initial distribution. The DRSB objective consists of control energy and a KL penalty between the resulting terminal distribution and the target distribution. DRSB seeks a single controller that minimizes the worst-case value of this objective as the initial distribution varies within an ambiguity set around the nominal distribution. We derive an exact variational formulation of this objective and connect its fixed-terminal-cost subproblem to stochastic optimal control and distributionally robust optimization. This formulation motivates an alternating algorithm that updates the adversarial initial distribution, estimates the terminal log-density ratio, and trains the controller. We develop Wasserstein and Sinkhorn variants using stochastic control optimality conditions to approximate the gradients required for adversarial updates. Experiments on two-dimensional transport tasks and image-to-image translation show improved robustness to input perturbations relative to standard SB, with a tradeoff in nominal performance. On Gaussian mixture transport, Sinkhorn DRSB also achieves lower mean sliced Wasserstein distance than fixed-level noise augmentation at both tested unseen noise levels.",
+    "title": "Distributionally Robust Schrödinger Bridge",
+    "summary": "Schrödinger bridge (SB) learns stochastic transport between prescribed initial and target distributions. When the initial distribution shifts at test time, the learned dynamics can fail to recover the target distribution. We introduce the Distributionally Robust Schrödinger Bridge (DRSB), which learns a single controller that accounts for uncertainty in the initial distribution. The DRSB objective consists of control energy and a KL penalty between the resulting terminal distribution and the target distribution. DRSB seeks a single controller that minimizes the worst-case value of this objective as the initial distribution varies within an ambiguity set around the nominal distribution. We derive an exact variational formulation of this objective and connect its fixed-terminal-cost subproblem to stochastic optimal control and distributionally robust optimization. This formulation motivates an alternating algorithm that updates the adversarial initial distribution, estimates the terminal log-density ratio, and trains the controller. We develop Wasserstein and Sinkhorn variants using stochastic control optimality conditions to approximate the gradients required for adversarial updates. Experiments on two-dimensional transport tasks and image-to-image translation show improved robustness to input perturbations relative to standard SB, with a tradeoff in nominal performance. On Gaussian mixture transport, Sinkhorn DRSB also achieves lower mean sliced Wasserstein distance than fixed-level noise augmentation at both tested unseen noise levels.",
     "authors": [
       "Jinhwan Sul",
       "Panagiotis Theodoropoulos",
@@ -2581,7 +2581,7 @@
       "Keshav Ramji",
       "Tahira Naseem",
       "Ali Anwar",
-      "Ram\u00f3n Fernandez Astudillo"
+      "Ramón Fernandez Astudillo"
     ],
     "categories": [
       "cs.LG"
@@ -2791,7 +2791,7 @@
       "Emmanuelle Renauld",
       "Philippe Poulin",
       "Hugo Larochelle",
-      "Antoine Th\u00e9berge",
+      "Antoine Théberge",
       "Maxime Descoteaux"
     ],
     "categories": [
@@ -2829,7 +2829,7 @@
   {
     "arxiv_id": "2610.01843v1",
     "title": "Optimal Stochastic Bilevel Optimization with First-Order Oracles",
-    "summary": "We study nonconvex--strongly-convex bilevel optimization under a stochastic first-order oracle. We introduce MRT-FD, a single-loop first-order method that simultaneously tracks the upper-level variable, the lower-level solution, and the auxiliary response arising from implicit differentiation of the hyperobjective. MRT-FD performs one update of each variable per iteration and approximates the second-order derivative actions using order-$p$ finite differences. For any fixed finite smoothness order $p\\ge1$ in the lower-level variable, MRT-FD finds an $\\varepsilon$-stationary point using $\\mathcal{O}(\\varepsilon^{-4-2/p})$ stochastic gradient queries. We also prove a matching $\u03a9(\\varepsilon^{-4-2/p})$ oracle lower bound. The lower-bound construction starts from a hard nonconvex minimization chain with a stronger stochastic oracle, and lifts it to a bilevel problem through a sinusoidal coupling with a scalar lower-level variable. Consequently, the dependence on $\\varepsilon$ is optimal for every fixed finite $p$, closing the upper--lower complexity gap in this stochastic first-order oracle setting.",
+    "summary": "We study nonconvex--strongly-convex bilevel optimization under a stochastic first-order oracle. We introduce MRT-FD, a single-loop first-order method that simultaneously tracks the upper-level variable, the lower-level solution, and the auxiliary response arising from implicit differentiation of the hyperobjective. MRT-FD performs one update of each variable per iteration and approximates the second-order derivative actions using order-$p$ finite differences. For any fixed finite smoothness order $p\\ge1$ in the lower-level variable, MRT-FD finds an $\\varepsilon$-stationary point using $\\mathcal{O}(\\varepsilon^{-4-2/p})$ stochastic gradient queries. We also prove a matching $Ω(\\varepsilon^{-4-2/p})$ oracle lower bound. The lower-bound construction starts from a hard nonconvex minimization chain with a stronger stochastic oracle, and lifts it to a bilevel problem through a sinusoidal coupling with a scalar lower-level variable. Consequently, the dependence on $\\varepsilon$ is optimal for every fixed finite $p$, closing the upper--lower complexity gap in this stochastic first-order oracle setting.",
     "authors": [
       "Linxuan Pan",
       "Junchi Yang"
@@ -3223,7 +3223,7 @@
   {
     "arxiv_id": "2610.01738v1",
     "title": "Participation-Sensitive Convergence and the Fragment First, Converge Later Pattern in Asynchronous Online Learning: A Topological Analysis Across 22 OULAD Courses",
-    "summary": "Asynchronous online learning offers temporal flexibility at a structural cost: learning communities tend to fragment rather than cohere. $\u03b2_0$, the number of disconnected behavioral clusters from Zigzag Persistent Homology, serves as a cohort-level indicator of this structure. Two questions remained unverified at scale: (1) does apparent $\u03b2_0$ convergence reflect genuine behavioral alignment or learner dropout? and (2) do assessment deadlines produce reproducible fragmentation-convergence cycles? We address both across all 22 OULAD courses (N > 22,000; 857 week-pairs). Changes in $\u03b2_0$ strongly co-vary with active learner changes (pooled r = 0.387; median per-course r_delta = 0.459, 20/22 courses), identifying $\u03b2_0$ as a participation-sensitive indicator: $\u03b2_0$ and active learner counts co-respond to deadline events rather than one causing the other. Deadlines produced fragmentation in 82.6% of assessments and the full Fragment First, Converge Later (FFCL) cycle in 60.2%. 3-phase analysis confirmed structural fragmentation as the dominant long-term trajectory (90.9% of courses), moderated by curriculum structure. These findings establish $\u03b2_0$ as a participation-sensitive structural indicator with direct implications for AI-augmented learning analytics design.",
+    "summary": "Asynchronous online learning offers temporal flexibility at a structural cost: learning communities tend to fragment rather than cohere. $β_0$, the number of disconnected behavioral clusters from Zigzag Persistent Homology, serves as a cohort-level indicator of this structure. Two questions remained unverified at scale: (1) does apparent $β_0$ convergence reflect genuine behavioral alignment or learner dropout? and (2) do assessment deadlines produce reproducible fragmentation-convergence cycles? We address both across all 22 OULAD courses (N > 22,000; 857 week-pairs). Changes in $β_0$ strongly co-vary with active learner changes (pooled r = 0.387; median per-course r_delta = 0.459, 20/22 courses), identifying $β_0$ as a participation-sensitive indicator: $β_0$ and active learner counts co-respond to deadline events rather than one causing the other. Deadlines produced fragmentation in 82.6% of assessments and the full Fragment First, Converge Later (FFCL) cycle in 60.2%. 3-phase analysis confirmed structural fragmentation as the dominant long-term trajectory (90.9% of courses), moderated by curriculum structure. These findings establish $β_0$ as a participation-sensitive structural indicator with direct implications for AI-augmented learning analytics design.",
     "authors": [
       "Hitoshi Inoue",
       "Koichi Yasutake"
@@ -3263,8 +3263,8 @@
   },
   {
     "arxiv_id": "2610.02195v1",
-    "title": "Cost-augmented Schr\u00f6dinger bridges on graphs are exactly solvable: a Feynman-Kac tilt replaces learned control",
-    "summary": "The generalized Schr\u00f6dinger bridge on a graph moves mass between two distributions while charging a cost for the states visited. It has been approached by learning the rates of a controlled continuous-time Markov chain, with a temporal-difference penalty that restores the cost. A state cost folds into the reference process as a Feynman-Kac tilt. The cost-augmented bridge is then a plain bridge against the tilted reference, and the penalty is unnecessary. The bridge is computed exactly by alternating two endpoint rescalings, each one sparse matrix-exponential application; nothing is discretized in time or learned. The alternation converges at a rate set by the endpoint coupling alone. For a quadratic congestion cost on time-averaged occupancies, damped best response around the exact bridge is gradient descent on a strongly convex function, and its residual bounds its error. On a protein-folding model, a free-energy cost lowers the expected barrier of the folding paths. On the learned approach's road network, roll-outs of the exact bridge match the target within sampling error, and on networks with millions of intersections its memory grows linearly.",
+    "title": "Cost-augmented Schrödinger bridges on graphs are exactly solvable: a Feynman-Kac tilt replaces learned control",
+    "summary": "The generalized Schrödinger bridge on a graph moves mass between two distributions while charging a cost for the states visited. It has been approached by learning the rates of a controlled continuous-time Markov chain, with a temporal-difference penalty that restores the cost. A state cost folds into the reference process as a Feynman-Kac tilt. The cost-augmented bridge is then a plain bridge against the tilted reference, and the penalty is unnecessary. The bridge is computed exactly by alternating two endpoint rescalings, each one sparse matrix-exponential application; nothing is discretized in time or learned. The alternation converges at a rate set by the endpoint coupling alone. For a quadratic congestion cost on time-averaged occupancies, damped best response around the exact bridge is gradient descent on a strongly convex function, and its residual bounds its error. On a protein-folding model, a free-energy cost lowers the expected barrier of the folding paths. On the learned approach's road network, roll-outs of the exact bridge match the target within sampling error, and on networks with millions of intersections its memory grows linearly.",
     "authors": [
       "Akshay Balsubramani"
     ],
@@ -3421,7 +3421,7 @@
   {
     "arxiv_id": "2610.01792v1",
     "title": "Learnt Attacks on Quantum Key Distribution under Channel Noise and Device Drift",
-    "summary": "Quantum key distribution (QKD) links are provisioned from security analyses of stationary channels, whereas the devices that determine the channel drift between recalibrations. Whether an eavesdropper who cannot alter the channel's own noise gains by following that drift has not been quantified. Adaptive eavesdropping is posed here as a constrained Markov decision process in which the attacker selects one circuit per round while the noise level follows an Ornstein--Uhlenbeck process and the abort condition is a budget over each block of rounds. The value of adaptation is bounded by the best fixed circuit and a dynamic-programming upper bound. The actions are learnt attacks. Whereas Decker et al. trained a parametrised circuit on a fixed gate template against a fixed channel, here the gate structure and rotation angles are searched jointly. This yields circuits compact enough to form a discrete action set, extending the construction to noise models lacking a known template, including the amplitude damping channel. On device-independent E91 under bilateral depolarising noise, a reinforcement-learning attacker raises her Holevo information from $0.135$ for the best fixed circuit to $0.348$ at zero detection, $98\\%$ of the upper bound. On BB84 under a drifting bit-flip channel, she exceeds a conservative noise-indexed rule by $0.024$ in fidelity, reaching $99\\%$ of the upper bound. Under stationary noise, the attacker's gain from basis asymmetry changes sign between an averaged and a per-basis error-rate constraint. The search, started from random gate sequences, recovers the analytical cloners and the collective-attack key rate, and meets the lower bound of the Winick--L\u00fctkenhaus--Coles objective from above.",
+    "summary": "Quantum key distribution (QKD) links are provisioned from security analyses of stationary channels, whereas the devices that determine the channel drift between recalibrations. Whether an eavesdropper who cannot alter the channel's own noise gains by following that drift has not been quantified. Adaptive eavesdropping is posed here as a constrained Markov decision process in which the attacker selects one circuit per round while the noise level follows an Ornstein--Uhlenbeck process and the abort condition is a budget over each block of rounds. The value of adaptation is bounded by the best fixed circuit and a dynamic-programming upper bound. The actions are learnt attacks. Whereas Decker et al. trained a parametrised circuit on a fixed gate template against a fixed channel, here the gate structure and rotation angles are searched jointly. This yields circuits compact enough to form a discrete action set, extending the construction to noise models lacking a known template, including the amplitude damping channel. On device-independent E91 under bilateral depolarising noise, a reinforcement-learning attacker raises her Holevo information from $0.135$ for the best fixed circuit to $0.348$ at zero detection, $98\\%$ of the upper bound. On BB84 under a drifting bit-flip channel, she exceeds a conservative noise-indexed rule by $0.024$ in fidelity, reaching $99\\%$ of the upper bound. Under stationary noise, the attacker's gain from basis asymmetry changes sign between an averaged and a per-basis error-rate constraint. The search, started from random gate sequences, recovers the analytical cloners and the collective-attack key rate, and meets the lower bound of the Winick--Lütkenhaus--Coles objective from above.",
     "authors": [
       "Marcel Mordarski",
       "Benjamin Gras",
@@ -3645,8 +3645,8 @@
   },
   {
     "arxiv_id": "2610.01951v1",
-    "title": "Sharp Non-Asymptotic Analysis of the Penalized Challenger in $\u03b2$-EB-TCI for Bernoulli Bandits",
-    "summary": "Top-two algorithms are simple and effective for fixed-confidence best-arm identification, but their sharp non-asymptotic behavior is still not well understood. We study this problem for Bernoulli bandits through $\u03b2$-EB-TCI, the empirical-best top-two rule of Jourdan et al., whose challenger is chosen using a Bernoulli transportation cost with a logarithmic count penalty. We prove that, after the empirical leader has become the true best arm and its sampling fraction stays close to $\u03b2$, the stopping time is $T_\u03b2^{\\star}(\u03bc)\\log(1/\u03b4)$ up to lower-order concentration terms. We also show that, in this regime, every challenger is sampled linearly often. Thus, for the original algorithm without forced exploration, the main remaining difficulty is to control when the empirical leader becomes permanently correct. These results imply a non-asymptotic high-probability bound for all Bernoulli instances with a unique best arm. If the algorithm satisfies a finite-mean sufficient-exploration condition, the bound further yields the sharp expected sample complexity. In particular, this gives the sharp expectation result for the unguarded Bernoulli rule when all arm means are pairwise distinct, using the sufficient-exploration result of Jourdan et al. Finally, if we add a mild forced-exploration rule that contributes only $O(\\sqrt{Kt})$ pulls up to time $t$, we obtain a self-contained expected sample-complexity theorem for any number of arms under the unique-best-arm assumption. We also identify a limitation of proof strategies that try to handle equal suboptimal means through a single index-comparison argument.",
+    "title": "Sharp Non-Asymptotic Analysis of the Penalized Challenger in $β$-EB-TCI for Bernoulli Bandits",
+    "summary": "Top-two algorithms are simple and effective for fixed-confidence best-arm identification, but their sharp non-asymptotic behavior is still not well understood. We study this problem for Bernoulli bandits through $β$-EB-TCI, the empirical-best top-two rule of Jourdan et al., whose challenger is chosen using a Bernoulli transportation cost with a logarithmic count penalty. We prove that, after the empirical leader has become the true best arm and its sampling fraction stays close to $β$, the stopping time is $T_β^{\\star}(μ)\\log(1/δ)$ up to lower-order concentration terms. We also show that, in this regime, every challenger is sampled linearly often. Thus, for the original algorithm without forced exploration, the main remaining difficulty is to control when the empirical leader becomes permanently correct. These results imply a non-asymptotic high-probability bound for all Bernoulli instances with a unique best arm. If the algorithm satisfies a finite-mean sufficient-exploration condition, the bound further yields the sharp expected sample complexity. In particular, this gives the sharp expectation result for the unguarded Bernoulli rule when all arm means are pairwise distinct, using the sufficient-exploration result of Jourdan et al. Finally, if we add a mild forced-exploration rule that contributes only $O(\\sqrt{Kt})$ pulls up to time $t$, we obtain a self-contained expected sample-complexity theorem for any number of arms under the unique-best-arm assumption. We also identify a limitation of proof strategies that try to handle equal suboptimal means through a single index-comparison argument.",
     "authors": [
       "Nam Nguyen",
       "Tuan Quang Dam"
@@ -4201,7 +4201,7 @@
   {
     "arxiv_id": "2610.02210v1",
     "title": "Moore, Escher, Penrose: A Conformal Golden Braid",
-    "summary": "I don't think I have ever done anything as peculiar in my life. Among other things, it shows a young man looking with interest at a print on the wall of an exhibition that features himself. How can this be? Perhaps I am not far removed from Einstein's curved universe.'' So wrote M.C. Escher about his 1956 lithograph Print Gallery. Nearly half a century later, a mathematical analysis related its geometry to an untwisted source image through a conformal power map $z \\mapsto z^\u03b1$, $\u03b1\\in \\mathbb{C}$. Building on this construction, we use a frozen text-to-image diffusion model to generate new self-referential scenes. Prompting alone does not enforce the recursion, while a post-hoc transformation can leave structures poorly connected. Applying the transformation during sampling is also insufficient: the denoiser may \"repair\" the intended distortion or drift out of the prescribed geometry. We construct a generalized inverse $T^\\dagger$ of the non-invertible image transformation $T$, adapted to its recursive constraint. In the idealized formulation, the Penrose identity $TT^\\dagger T = T$ makes $TT^\\dagger$ an idempotent projection onto geometrically admissible images. Yet denoising only the transformed image remains an out-of-distribution task, even with projection. We therefore braid denoising steps with $T$ and $T^\\dagger$: source-space steps develop the untwisted scene, while transformed-space steps refine its appearance and connections in the final geometry. We generate Print Gallery-like compositions and explore further transformations. Rather than distorting a finished image, we let the scene and its distortion develop together.",
+    "summary": "I don't think I have ever done anything as peculiar in my life. Among other things, it shows a young man looking with interest at a print on the wall of an exhibition that features himself. How can this be? Perhaps I am not far removed from Einstein's curved universe.'' So wrote M.C. Escher about his 1956 lithograph Print Gallery. Nearly half a century later, a mathematical analysis related its geometry to an untwisted source image through a conformal power map $z \\mapsto z^α$, $α\\in \\mathbb{C}$. Building on this construction, we use a frozen text-to-image diffusion model to generate new self-referential scenes. Prompting alone does not enforce the recursion, while a post-hoc transformation can leave structures poorly connected. Applying the transformation during sampling is also insufficient: the denoiser may \"repair\" the intended distortion or drift out of the prescribed geometry. We construct a generalized inverse $T^\\dagger$ of the non-invertible image transformation $T$, adapted to its recursive constraint. In the idealized formulation, the Penrose identity $TT^\\dagger T = T$ makes $TT^\\dagger$ an idempotent projection onto geometrically admissible images. Yet denoising only the transformed image remains an out-of-distribution task, even with projection. We therefore braid denoising steps with $T$ and $T^\\dagger$: source-space steps develop the untwisted scene, while transformed-space steps refine its appearance and connections in the final geometry. We generate Print Gallery-like compositions and explore further transformations. Rather than distorting a finished image, we let the scene and its distortion develop together.",
     "authors": [
       "Sophia Feldman",
       "Assaf Shocher"
@@ -4396,263 +4396,5 @@
     "date": "2026-10-02",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "Taewan123/Qwen3-0.6B-JSON-SFT-GRPO",
-    "author": "unknown",
-    "title": "Taewan123/Qwen3-0.6B-JSON-SFT-GRPO",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "qwen3",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:NotoriousH2/Qwen3-0.6B-JSON-SFT",
-      "base_model:finetune:NotoriousH2/Qwen3-0.6B-JSON-SFT",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-10-02T06:33:20.000Z",
-    "last_modified": "2026-10-02T06:33:26.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Taewan123/Qwen3-0.6B-JSON-SFT-GRPO",
-    "date": "2026-10-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "francesca9805/rus-cyrl-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed3407",
-    "author": "unknown",
-    "title": "francesca9805/rus-cyrl-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed3407",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "trl",
-      "sft",
-      "base_model:francesca9805/rus-cyrl-10mb-ppt-Dp-100mb-packed-bfdiso_seed3407",
-      "base_model:finetune:francesca9805/rus-cyrl-10mb-ppt-Dp-100mb-packed-bfdiso_seed3407",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-10-02T05:57:30.000Z",
-    "last_modified": "2026-10-02T06:32:17.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/francesca9805/rus-cyrl-10mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed3407",
-    "date": "2026-10-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Nat1an/cerulean-lab4-l1-eabd952b",
-    "author": "unknown",
-    "title": "Nat1an/cerulean-lab4-l1-eabd952b",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "arxiv:1910.09700",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-10-02T06:29:52.000Z",
-    "last_modified": "2026-10-02T06:31:35.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Nat1an/cerulean-lab4-l1-eabd952b",
-    "date": "2026-10-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "gimly13/zimage-cyberrealistic-gguf",
-    "author": "unknown",
-    "title": "gimly13/zimage-cyberrealistic-gguf",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "stable-diffusion.cpp",
-      "gguf",
-      "z-image",
-      "z-image-turbo",
-      "text-to-image",
-      "comfyui",
-      "z-image-power-nodes",
-      "quantized",
-      "en",
-      "base_model:cyberdelia/cyberrealistic_zimage",
-      "base_model:quantized:cyberdelia/cyberrealistic_zimage",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "pipeline_tag": "text-to-image",
-    "library": "stable-diffusion.cpp",
-    "created_at": "2026-10-01T13:35:59.000Z",
-    "last_modified": "2026-10-02T06:31:11.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/gimly13/zimage-cyberrealistic-gguf",
-    "date": "2026-10-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "snail889988/faster-whisper-v4.8",
-    "author": "unknown",
-    "title": "snail889988/faster-whisper-v4.8",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "text-generation",
-      "en",
-      "base_model:ggerganov/whisper.cpp",
-      "base_model:finetune:ggerganov/whisper.cpp",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "",
-    "created_at": "2026-10-02T03:01:01.000Z",
-    "last_modified": "2026-10-02T06:29:02.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/snail889988/faster-whisper-v4.8",
-    "date": "2026-10-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Gandalf69/Priest-24B-v3-LoRA",
-    "author": "unknown",
-    "title": "Gandalf69/Priest-24B-v3-LoRA",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "peft",
-      "safetensors",
-      "base_model:adapter:TheDrummer/Cydonia-24B-v4.3",
-      "lora",
-      "sft",
-      "transformers",
-      "trl",
-      "text-generation",
-      "conversational",
-      "base_model:TheDrummer/Cydonia-24B-v4.3",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "peft",
-    "created_at": "2026-10-02T06:26:15.000Z",
-    "last_modified": "2026-10-02T06:26:30.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Gandalf69/Priest-24B-v3-LoRA",
-    "date": "2026-10-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "francesca9805/rus-cyrl-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed455",
-    "author": "unknown",
-    "title": "francesca9805/rus-cyrl-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed455",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "gpt2",
-      "text-generation",
-      "generated_from_trainer",
-      "sft",
-      "trl",
-      "base_model:francesca9805/rus-cyrl-100mb-ppt-Dp-100mb-packed-bfdiso_seed455",
-      "base_model:finetune:francesca9805/rus-cyrl-100mb-ppt-Dp-100mb-packed-bfdiso_seed455",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-10-02T05:06:37.000Z",
-    "last_modified": "2026-10-02T06:26:15.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/francesca9805/rus-cyrl-100mb-after-ppt-Dp-100mb-packed-bfdiso-ckpt500_seed455",
-    "date": "2026-10-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "DeeAxe/business-entity-matching-encoders",
-    "author": "unknown",
-    "title": "DeeAxe/business-entity-matching-encoders",
-    "downloads": 0,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "entity-resolution",
-      "record-linkage",
-      "cross-encoder",
-      "xlm-roberta",
-      "multilingual",
-      "text-classification",
-      "base_model:intfloat/multilingual-e5-base",
-      "base_model:finetune:intfloat/multilingual-e5-base",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-10-01T19:27:41.000Z",
-    "last_modified": "2026-10-02T06:26:14.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/DeeAxe/business-entity-matching-encoders",
-    "date": "2026-10-02",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "dataset_id": "KakologArchives/KakologArchives",
-    "author": "KakologArchives",
-    "title": "KakologArchives/KakologArchives",
-    "downloads": 480874,
-    "likes": 102,
-    "tags": [
-      "task_categories:text-classification",
-      "language:ja",
-      "license:mit",
-      "region:us"
-    ],
-    "created_at": "2023-05-12T13:31:56.000Z",
-    "last_modified": "2026-10-02T06:32:56.000Z",
-    "url": "https://huggingface.co/datasets/KakologArchives/KakologArchives",
-    "date": "2026-10-02",
-    "source": "huggingface_dataset",
-    "type": "dataset",
-    "research_score": 0.4
   }
 ]
