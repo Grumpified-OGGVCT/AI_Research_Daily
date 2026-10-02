@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02T13:27:04.060342",
+  "date": "2026-10-02T18:53:25.520850",
   "patterns": {
     "multimodal_research": [
       {
@@ -617,14 +617,6 @@
       {
         "title": "Fewer Tokens, Better Action: GPT-6 Astra Robot Agents with 14% Higher Success Rate but 65% Fewer Tokens",
         "url": "https://arxiv.org/abs/2610.01939v1"
-      },
-      {
-        "title": "peft-internal-testing/tiny-GptOssForCausalLM",
-        "url": "https://huggingface.co/peft-internal-testing/tiny-GptOssForCausalLM"
-      },
-      {
-        "title": "Fillmanu1/thai-animal-gpt2-qa",
-        "url": "https://huggingface.co/Fillmanu1/thai-animal-gpt2-qa"
       }
     ],
     "vision_systems": [
@@ -923,6 +915,10 @@
       {
         "title": "Rethinking Memorization Mitigation in Diffusion Models: Reinforcing Text Conditioning",
         "url": "https://arxiv.org/abs/2610.01723v1"
+      },
+      {
+        "title": "gimly13/zimage-cyberrealistic-gguf",
+        "url": "https://huggingface.co/gimly13/zimage-cyberrealistic-gguf"
       }
     ],
     "reasoning": [
@@ -1213,6 +1209,10 @@
       {
         "title": "Spiking neural networks for streaming qubit readout",
         "url": "https://arxiv.org/abs/2610.02129v1"
+      },
+      {
+        "title": "flashstep/reasoning-critical-span-scorer",
+        "url": "https://huggingface.co/flashstep/reasoning-critical-span-scorer"
       }
     ],
     "benchmarks": [
@@ -1597,19 +1597,19 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1649,7 +1649,7 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 31,
+      "frequency": 32,
       "significance": "high"
     }
   ],
