@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02T18:53:25.520850",
+  "date": "2026-10-02T22:45:31.936584",
   "patterns": {
     "multimodal_research": [
       {
@@ -915,10 +915,6 @@
       {
         "title": "Rethinking Memorization Mitigation in Diffusion Models: Reinforcing Text Conditioning",
         "url": "https://arxiv.org/abs/2610.01723v1"
-      },
-      {
-        "title": "gimly13/zimage-cyberrealistic-gguf",
-        "url": "https://huggingface.co/gimly13/zimage-cyberrealistic-gguf"
       }
     ],
     "reasoning": [
@@ -1209,10 +1205,6 @@
       {
         "title": "Spiking neural networks for streaming qubit readout",
         "url": "https://arxiv.org/abs/2610.02129v1"
-      },
-      {
-        "title": "flashstep/reasoning-critical-span-scorer",
-        "url": "https://huggingface.co/flashstep/reasoning-critical-span-scorer"
       }
     ],
     "benchmarks": [
@@ -1603,13 +1595,13 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "reasoning",
-      "observation": "73 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1649,13 +1641,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 32,
+      "frequency": 31,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 389
+    "total_papers": 387
   }
 }
