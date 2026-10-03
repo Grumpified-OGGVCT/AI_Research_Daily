@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-03T01:38:34.963196",
+  "date": "2026-10-03T07:26:11.014575",
   "patterns": {
     "multimodal_research": [
       {
@@ -915,14 +915,6 @@
       {
         "title": "Rethinking Memorization Mitigation in Diffusion Models: Reinforcing Text Conditioning",
         "url": "https://arxiv.org/abs/2610.01723v1"
-      },
-      {
-        "title": "voltaire321/Ming-Image-0.1-Design-GGUF",
-        "url": "https://huggingface.co/voltaire321/Ming-Image-0.1-Design-GGUF"
-      },
-      {
-        "title": "CraftlyrobotMushfiqur/image",
-        "url": "https://huggingface.co/CraftlyrobotMushfiqur/image"
       }
     ],
     "reasoning": [
@@ -1603,7 +1595,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1656,6 +1648,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 389
+    "total_papers": 387
   }
 }
