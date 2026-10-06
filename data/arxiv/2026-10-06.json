@@ -6,7 +6,7 @@
     "authors": [
       "Shanglin Li",
       "Shiwen Chu",
-      "Okan Ko\u00e7",
+      "Okan Koç",
       "Chenyu Liu",
       "Qibin Zhao",
       "Motoaki Kawanabe",
@@ -123,12 +123,12 @@
     "authors": [
       "Chengyu Yu",
       "Leon Jacopo Costa",
-      "Zoja An\u017eur",
+      "Zoja Anžur",
       "Mohan Li",
-      "Ga\u0161per Slapni\u010dar",
+      "Gašper Slapničar",
       "Daniil Kirilenko",
       "Martin Gjoreski",
-      "Mitja Lu\u0161trek",
+      "Mitja Luštrek",
       "Marc Langheinrich"
     ],
     "categories": [
@@ -245,7 +245,7 @@
     "authors": [
       "Keshav Ramji",
       "Tahira Naseem",
-      "Ram\u00f3n Fernandez Astudillo"
+      "Ramón Fernandez Astudillo"
     ],
     "categories": [
       "cs.CL"
@@ -264,7 +264,7 @@
     "authors": [
       "Eliot Walt",
       "Miltiadis Kofinas",
-      "Nikolaj M\u00fccke",
+      "Nikolaj Mücke",
       "Efstratios Gavves",
       "Dim Coumou"
     ],
@@ -358,7 +358,7 @@
       "Sergey V. Sukhomlinov",
       "Davit Hovhannisyan",
       "Roland Aydin",
-      "Martin H. M\u00fcser",
+      "Martin H. Müser",
       "Mathias Niepert"
     ],
     "categories": [
@@ -398,7 +398,7 @@
     "title": "Dual Variational Autoencoders for Efficient Sim-to-Real Transfer in Low-Cost Robotic Navigation",
     "summary": "Vision-based autonomous navigation for low-cost robots remains a fundamental challenge, primarily due to the significant gap between simulated training environments and real-world operational conditions. Direct policy transfer from simulation is often ineffective, while training exclusively on real data is impractical. We propose a hybrid transfer learning framework that effectively bridges the sim-to-real gap by combining domain randomization with feature-level domain adaptation. Our method employs a dual convolutional variational autoencoder architecture with a shared decoder, trained on an extensive set of 45225 simulated images and a minimal set of only 4556 real-world samples. This architecture learns a compact, common latent representation space that aligns the distributions of both domains. The adaptation process is further enhanced by two complementary data augmentation techniques designed to expand the limited real-world data. Experimental evaluation demonstrates that our method achieves an average success rate of almost 91% on image classification tasks for real-world indoor navigation, significantly outperforming both simulation-only and real-world-only training. We validate these findings through a direct, real-world deployment, where the proposed policy successfully guides a low-cost robot in a reactive exploration task. Furthermore, we validate the model's efficiency through a rigorous computational estimation, confirming its suitability for resource-constrained embedded platforms such as the Raspberry Pi 4 and NVIDIA Jetson Nano. This work presents a practical solution for developing effective and efficient navigation policies for low-cost robotic systems.",
     "authors": [
-      "\u00c1lvaro D\u00edez",
+      "Álvaro Díez",
       "Fidel Aznar"
     ],
     "categories": [
@@ -423,7 +423,7 @@
       "Yannick Hold-Geoffroy",
       "Iliyan Georgiev",
       "Javier Vazquez-Corral",
-      "Anna Fr\u00fchst\u00fcck"
+      "Anna Frühstück"
     ],
     "categories": [
       "cs.CV",
@@ -636,7 +636,7 @@
     "title": "Visual Swarm Navigation via Deep Reinforcement Learning and Evolutionary Hybrid Design",
     "summary": "Swarm robotics presents a robust and cost-effective paradigm for advanced automation in complex, dynamic environments, such as those encountered in search and rescue or environmental monitoring. A fundamental challenge for this field is the data-driven design of decentralized controllers capable of generating emergent collective behaviors. This paper proposes a novel, AI-driven hybrid methodology for the automatic synthesis of swarm robotic controllers for autonomous visual navigation. This approach synergistically combines multi-agent reinforcement learning with neuro-evolutionary strategies, specifically leveraging implementations of the cross-entropy method and the covariance matrix adaptation evolution strategy to optimize a pre-trained individual navigation policy. The underlying deep architecture is engineered for low-cost, resource-constrained platforms, utilizing a compact neural network that relies exclusively on monocular camera imagery. This vision-based design emphasizes computational and energy efficiency, a critical requirement for practical swarm deployments. Experiments, performed in a high-fidelity physics simulator, demonstrate that the resulting controllers enable robust and scalable collective exploration of diverse indoor environments. The controller trained using our cross-entropy method achieves superior exploration coverage, visiting 36.20% more regions compared to the covariance matrix adaptation evolution strategy. Critically, our best vision-based policy achieves exploration performance statistically comparable to traditional methods relying on more expensive distance sensors, while delivering a significant 31.40% average reduction in energy consumption. These findings validate an effective and economically viable autonomous control system, establishing a path for deploying highly efficient collective intelligence in real-world engineering applications.",
     "authors": [
-      "\u00c1lvaro D\u00edez",
+      "Álvaro Díez",
       "Fidel Aznar"
     ],
     "categories": [
@@ -659,7 +659,7 @@
       "Marco Morik",
       "Jesse Palarus",
       "Carmen Vidaurre",
-      "Klaus-Robert M\u00fcller",
+      "Klaus-Robert Müller",
       "Shinichi Nakajima"
     ],
     "categories": [
@@ -774,7 +774,7 @@
   {
     "arxiv_id": "2610.06636v1",
     "title": "Differentially Private Mixing of Public Datasets Improves Private Learning",
-    "summary": "Many machine learning applications involve sensitive data and therefore require training under differential privacy (DP). However, DP training often degrades model utility. In some cases, first pre-training the model on \"public\" data before finetuning with DP on the sensitive data can reduce the drop in utility. However, the success of this depends on how relevant the selected public dataset is to the sensitive data. We introduce the first pipeline that privately learns the mixture of several public datasets to pretrain on for a given sensitive downstream task. Our key insight is that we can privately find the best mixture of multiple public datasets by privately learning a low-dimensional linear model. We tested our method on the NIH dataset for X-ray classification and the ENRON email dataset for language modeling. Applying our method to find tailored mixtures of X-ray datasets to pretrain on for diseases in the NIH ChestX-ray14 dataset, we improved macro AUC by up to 0.037 across privacy budgets compared to the baselines, with gains as large as +22.8% relative AUC on Cardiomegaly at $\u03b5=1$. For DP training on the ENRON dataset, pre-training on our mixture of The Common Pile (a collection of public-domain text datasets) decreased test perplexity by 16% relative to the baseline mixtures.",
+    "summary": "Many machine learning applications involve sensitive data and therefore require training under differential privacy (DP). However, DP training often degrades model utility. In some cases, first pre-training the model on \"public\" data before finetuning with DP on the sensitive data can reduce the drop in utility. However, the success of this depends on how relevant the selected public dataset is to the sensitive data. We introduce the first pipeline that privately learns the mixture of several public datasets to pretrain on for a given sensitive downstream task. Our key insight is that we can privately find the best mixture of multiple public datasets by privately learning a low-dimensional linear model. We tested our method on the NIH dataset for X-ray classification and the ENRON email dataset for language modeling. Applying our method to find tailored mixtures of X-ray datasets to pretrain on for diseases in the NIH ChestX-ray14 dataset, we improved macro AUC by up to 0.037 across privacy budgets compared to the baselines, with gains as large as +22.8% relative AUC on Cardiomegaly at $ε=1$. For DP training on the ENRON dataset, pre-training on our mixture of The Common Pile (a collection of public-domain text datasets) decreased test perplexity by 16% relative to the baseline mixtures.",
     "authors": [
       "Yufei Chen",
       "Tejumade Afonja",
@@ -886,7 +886,7 @@
       "Louis Tichelman",
       "Xingyue Huang",
       "Jinwoo Kim",
-      "\u0130smail \u0130lkan Ceylan"
+      "İsmail İlkan Ceylan"
     ],
     "categories": [
       "cs.LG"
@@ -1016,7 +1016,7 @@
   {
     "arxiv_id": "2610.06810v1",
     "title": "Finding Gaussian Structure in Bosonic States",
-    "summary": "We study agnostic tomography of pure bosonic Gaussian states: given copies of an arbitrary $n$-mode bosonic state $\u03c1$, the goal is to output a pure Gaussian state whose infidelity with $\u03c1$ is at most $\\mathrm{opt} + \u03b5$, where $\\mathrm{opt}$ is the minimum infidelity achievable by any pure Gaussian state.   We give efficient protocols achieving this in both the high and low fidelity regimes. When $\\mathrm{opt}$ is below some universal constant, our protocol has runtime and copy complexity which is strongly polynomial in $n, 1/\u03b5$ and $\\log \\log E$, where $E$ is the energy of the closest pure Gaussian state. For arbitrary $\\mathrm{opt}$, our protocol uses $(n+1)^{\\mathrm{poly}(1/\u03b5)} \\mathrm{poly}\\left(1+\\log\\log(E)\\right)$ copies and runtime. As a corollary, we obtain the first truly tolerant Gaussianity testing protocol for distinguishing whether $\\mathrm{opt} > c + \u03b5$ or $\\mathrm{opt} < c - \u03b5$, for any threshold $c\\in(0,1)$. We also prove $\\mathrm{poly}(n,1/\u03b5)$ runtime is impossible, unless $\\mathrm{NP}\\subseteq\\mathrm{BQP}$.   Our protocols follow a shared paradigm: first, we iteratively use general Gaussian measurements combined with techniques from classical robust statistics to obtain a good warm start estimate, then we leverage non-Gaussian measurements to refine this warm start using convex and non-convex optimization methods. Interestingly, we prove that non-Gaussian measurements are necessary to match the strong agnostic guarantees we obtain, and in fact these guarantees are provably superior to what is possible for robustly estimating classical Gaussians.",
+    "summary": "We study agnostic tomography of pure bosonic Gaussian states: given copies of an arbitrary $n$-mode bosonic state $ρ$, the goal is to output a pure Gaussian state whose infidelity with $ρ$ is at most $\\mathrm{opt} + ε$, where $\\mathrm{opt}$ is the minimum infidelity achievable by any pure Gaussian state.   We give efficient protocols achieving this in both the high and low fidelity regimes. When $\\mathrm{opt}$ is below some universal constant, our protocol has runtime and copy complexity which is strongly polynomial in $n, 1/ε$ and $\\log \\log E$, where $E$ is the energy of the closest pure Gaussian state. For arbitrary $\\mathrm{opt}$, our protocol uses $(n+1)^{\\mathrm{poly}(1/ε)} \\mathrm{poly}\\left(1+\\log\\log(E)\\right)$ copies and runtime. As a corollary, we obtain the first truly tolerant Gaussianity testing protocol for distinguishing whether $\\mathrm{opt} > c + ε$ or $\\mathrm{opt} < c - ε$, for any threshold $c\\in(0,1)$. We also prove $\\mathrm{poly}(n,1/ε)$ runtime is impossible, unless $\\mathrm{NP}\\subseteq\\mathrm{BQP}$.   Our protocols follow a shared paradigm: first, we iteratively use general Gaussian measurements combined with techniques from classical robust statistics to obtain a good warm start estimate, then we leverage non-Gaussian measurements to refine this warm start using convex and non-convex optimization methods. Interestingly, we prove that non-Gaussian measurements are necessary to match the strong agnostic guarantees we obtain, and in fact these guarantees are provably superior to what is possible for robustly estimating classical Gaussians.",
     "authors": [
       "Alvan Arulandu",
       "Sitan Chen",
@@ -1313,9 +1313,9 @@
     "title": "Efficient Secure Federated Learning via Information-Theoretically Secure Key Distribution: A Medical Imaging Case Study",
     "summary": "Federated Learning (FL) enables collaborative training of models across institutions without centralizing sensitive data, making it well-suited for privacy-concerned applications, such as medical imaging. To protect FL model updates during secure aggregation, additive masking is commonly employed. However, its underlying classical key establishment is only computationally secure. On the other hand, physics-based Information-Theoretically Secure (ITS) key exchange introduces practical constraints: finite key generation rates and time-limited storage severely limit throughput and sustained training of uncompressed models. In this work, we address this bottleneck by developing an FL framework that integrates frozen backbones, knowledge distillation, and quantization. These techniques reduce communication payload and, consequently, key material consumption. Moving beyond simulation, we benchmark this framework on a real physics-based key distribution testbed involving a chest X-ray classification application. Our results show that key usage can be reduced by $\\sim$35$\\times$ while maintaining predictive accuracy. This prevents buffer depletion and key expiration, enabling sustainable FL training under physical key generation constraints.",
     "authors": [
-      "Ivan Don\u00e0",
+      "Ivan Donà",
       "Hans H. Brunner",
-      "\u00c1lvaro Troyano Olivas",
+      "Álvaro Troyano Olivas",
       "Chi-Hang Fred Fung",
       "Momtchil Peev",
       "Giovanni Iacca"
@@ -1339,7 +1339,7 @@
       "Mohamed Dhouib",
       "Clement Elliker",
       "Alexi Canesse",
-      "Ma\u00ebl Jenny",
+      "Maël Jenny",
       "Lucas-Andrei Thil",
       "Mahammed El-Sharkawy",
       "Sonia Vanier",
@@ -1387,11 +1387,11 @@
     "title": "Block Disentanglement in CRL: Bridging Identifiability and Visual State Estimation",
     "summary": "Causal representation learning (CRL) is the process of recovering causally-related latent variables from high-dimensional observations. As a label-free inference method, CRL is particularly attractive for applications where data labels are unavailable or impractical to obtain. While there has been significant progress in understanding the identifiability guarantees of CRL, such guarantees often hold under highly stylized assumptions, which temper the direct application to real-world problems. This paper has a two-fold objective for interventional CRL. First, it establishes identifiability guarantees for substantially weaker interventional assumptions, resulting in block disentanglement of the causal variables, where the block structure depends on the realistically available intervention mechanisms. Secondly, the block disentanglement framework is used for embodied visual state estimation, in which the objective is to recover the latent physical variables of a robotic system directly from visual data (images and videos) without labeled data. These two components are critically complementary. The block disentanglement theory delineates identifiability guarantees under weakened assumptions, and the application demonstrates that the resulting objective remains effective in a controlled embodied setting despite further assumption violations, providing a theory-to-practice bridge needed to translate the promise of label-free CRL into practical problems.",
     "authors": [
-      "Emre Acart\u00fcrk",
+      "Emre Acartürk",
       "Pranamya Kulkarni",
       "Puranjay Datta",
       "Karthikeyan Shanmugam",
-      "Burak Var\u0131c\u0131",
+      "Burak Varıcı",
       "Ali Tajer"
     ],
     "categories": [
@@ -1477,7 +1477,7 @@
       "Christophe Roux",
       "Manuel Arnold",
       "Sebastian Pokutta",
-      "Fritz G\u00fcnther"
+      "Fritz Günther"
     ],
     "categories": [
       "cs.LG",
@@ -1591,16 +1591,16 @@
   {
     "arxiv_id": "2610.06413v1",
     "title": "SpatialChain: A Benchmark for Auditing Spatial Reasoning Faithfulness in VLMs",
-    "summary": "Thinking-enabled vision-language models (VLMs) report ever-higher accuracy on spatial benchmarks, yet final-answer scores cannot reveal whether a correct prediction reflects faithful spatial reasoning or a linguistic shortcut. We introduce SpatialChain, a dataset of 28,350 training and 899 test examples pairing spatially-oriented GQA questions with scene-graph-grounded reasoning chains, retained only when the generated answer matches the symbolic ground truth, and a two-axis evaluation combining objective chain-overlap metrics with a scene-graph-aware LLM judge that scores faithfulness and completeness independently of the final answer. Applied to nine thinking-enabled VLMs, the protocol surfaces three findings invisible to standard accuracy: (i) four of nine models achieve $\\geq$79% VQA accuracy while exhibiting shortcut rates above 39%, i.e., correct answers whose reasoning the judge marks as unfaithful; (ii) chain quality significantly predicts answer correctness for seven of nine models, but the two exceptions (Claude Sonnet 4.6, InternVL3.5-8B) reveal qualitatively distinct failure modes, terse output vs. verbose-decorative reasoning, that benchmark accuracy alone conflates; (iii) SFT on SpatialChain improves Qwen3-VL-8B by +6.2 pp in-domain and reduces its shortcut rate to 22%, while a stylistic specialization effect on external benchmarks motivates replay-augmented training as mitigation. The faithfulness judge is validated against 198 human-annotated items, where judge-human agreement matches human-human agreement, and against a second judge from a different provider, which preserves the model ranking ($\u03c1$ = 0.88). Data, generation scripts, and evaluation code are released at https://github.com/spatialchain/SpatialChainBenchmark.",
+    "summary": "Thinking-enabled vision-language models (VLMs) report ever-higher accuracy on spatial benchmarks, yet final-answer scores cannot reveal whether a correct prediction reflects faithful spatial reasoning or a linguistic shortcut. We introduce SpatialChain, a dataset of 28,350 training and 899 test examples pairing spatially-oriented GQA questions with scene-graph-grounded reasoning chains, retained only when the generated answer matches the symbolic ground truth, and a two-axis evaluation combining objective chain-overlap metrics with a scene-graph-aware LLM judge that scores faithfulness and completeness independently of the final answer. Applied to nine thinking-enabled VLMs, the protocol surfaces three findings invisible to standard accuracy: (i) four of nine models achieve $\\geq$79% VQA accuracy while exhibiting shortcut rates above 39%, i.e., correct answers whose reasoning the judge marks as unfaithful; (ii) chain quality significantly predicts answer correctness for seven of nine models, but the two exceptions (Claude Sonnet 4.6, InternVL3.5-8B) reveal qualitatively distinct failure modes, terse output vs. verbose-decorative reasoning, that benchmark accuracy alone conflates; (iii) SFT on SpatialChain improves Qwen3-VL-8B by +6.2 pp in-domain and reduces its shortcut rate to 22%, while a stylistic specialization effect on external benchmarks motivates replay-augmented training as mitigation. The faithfulness judge is validated against 198 human-annotated items, where judge-human agreement matches human-human agreement, and against a second judge from a different provider, which preserves the model ranking ($ρ$ = 0.88). Data, generation scripts, and evaluation code are released at https://github.com/spatialchain/SpatialChainBenchmark.",
     "authors": [
       "Rafael Teixeira Sousa",
-      "Vin\u00edcius Paulo Lopes de Oliveira",
+      "Vinícius Paulo Lopes de Oliveira",
       "Elisa Ayumi Masasi de Oliveira",
       "Luiza Martins de Freitas Cintra",
-      "Fernanda Bufon F\u00e4rber",
+      "Fernanda Bufon Färber",
       "Igor Dias Aguiar",
       "Julia Yasmim de Almeida Nobre",
-      "Arlindo Rodrigues Galv\u00e3o Filho"
+      "Arlindo Rodrigues Galvão Filho"
     ],
     "categories": [
       "cs.CV",
@@ -1711,7 +1711,7 @@
     "authors": [
       "Andrew Geyko",
       "Marius Mosbach",
-      "Andr\u00e9 Brinkmann"
+      "André Brinkmann"
     ],
     "categories": [
       "cs.DC",
@@ -1747,7 +1747,7 @@
   {
     "arxiv_id": "2610.06822v1",
     "title": "Private online learning and prediction for Littlestone classes",
-    "summary": "We study mistake bounds for differentially private online learning and online prediction under oblivious realisable adversaries. Online learning requires the learner to release a hypothesis at each time step whereas in online prediction, the learner only needs to make predictions without releasing a hypothesis. Using a novel lower bound for private online learning and an upper bound for private prediction, we show that the sample complexity of these two problems are separated by a factor that grows with the time horizon for every class of finite Littlestone dimension $d$. First, we prove that every $\\br{\u03b5,\u03b4}$-private online learner has a deterministic realisable stream of length $T$ on which the mistake bound is at least $\\bE\\bs{M_T}=\\Om{\\frac d\u03b5\\log\\br{ T}^{2/3}}$. In particular, this is the first non-trivial lower in the range $1/T<\u03b4<1/\\log T)$ left open in earlier works[SR22,DSS24,LWY24]. Second, we prove that for every class of of Littlestone dimension $d$, there exists an $(\u03b5,\u03b4)$-jointly private predictor with at most $2^{2^{cd^2}}\u03b5^{-2}\\log^2\\br{2/\\br{\u03b5\u03b4}}$ expected mistakes, independently of $T$, for some absolute constant $c>0$. Thus, for every fixed class of finite Littlestone dimension when $\u03b4=\u0398\\br{1/\\log T}$, private learning requires $\\Om{\\br{\\log T}^{2/3}}$ expected mistakes, whereas private prediction admits $\\bigO{\\br{\\log\\log T}^2}$.",
+    "summary": "We study mistake bounds for differentially private online learning and online prediction under oblivious realisable adversaries. Online learning requires the learner to release a hypothesis at each time step whereas in online prediction, the learner only needs to make predictions without releasing a hypothesis. Using a novel lower bound for private online learning and an upper bound for private prediction, we show that the sample complexity of these two problems are separated by a factor that grows with the time horizon for every class of finite Littlestone dimension $d$. First, we prove that every $\\br{ε,δ}$-private online learner has a deterministic realisable stream of length $T$ on which the mistake bound is at least $\\bE\\bs{M_T}=\\Om{\\frac dε\\log\\br{ T}^{2/3}}$. In particular, this is the first non-trivial lower in the range $1/T<δ<1/\\log T)$ left open in earlier works[SR22,DSS24,LWY24]. Second, we prove that for every class of of Littlestone dimension $d$, there exists an $(ε,δ)$-jointly private predictor with at most $2^{2^{cd^2}}ε^{-2}\\log^2\\br{2/\\br{εδ}}$ expected mistakes, independently of $T$, for some absolute constant $c>0$. Thus, for every fixed class of finite Littlestone dimension when $δ=Θ\\br{1/\\log T}$, private learning requires $\\Om{\\br{\\log T}^{2/3}}$ expected mistakes, whereas private prediction admits $\\bigO{\\br{\\log\\log T}^2}$.",
     "authors": [
       "Amartya Sanyal"
     ],
@@ -1921,7 +1921,7 @@
       "Arash Mehrjou",
       "Patrick Schwab",
       "Timothy Jones",
-      "Pietro Li\u00f2"
+      "Pietro Liò"
     ],
     "categories": [
       "cs.LG",
@@ -1986,7 +1986,7 @@
       "Minjoon Choi",
       "Jenna Russell",
       "Ramya Namuduri",
-      "Deniz B\u00f6l\u00f6ni-Turgut",
+      "Deniz Bölöni-Turgut",
       "Marzena Karpinska",
       "John Wieting",
       "Mohit Iyyer"
@@ -2078,7 +2078,7 @@
   {
     "arxiv_id": "2610.06535v1",
     "title": "Symmetry and AI-assisted discovery of magic-state factories",
-    "summary": "Magic-state distillation is a major resource cost in fault-tolerant quantum computing. The cost of a magic-state factory depends strongly on its failure rate, which grows with the number of input magic states. Although symmetry-restricted methods have recently made distance two searches tractable, distance three and above have remained elusive at moderate input counts. We develop symmetry- and AI-assisted methods to search this regime. We present a unified binary-matrix formulation encompassing both triorthogonal-code and direct circuit searches. We show that distance at least three is equivalent to nonzero, pairwise distinct syndromes, separating the choice of syndromes from the search for compatible output gates. We restrict the syndrome search using group symmetry and language-model agents, followed by deterministic solving and independent verification. Our searches yield 699 factory classes, including 564 new ones. These include factories for pure-T states and factories with entangled outputs comprising combinations of T, CS, and CCZ magic states. The pure-T factories [[63, 11, 3]] and [[850, 128, 6]] achieve the lowest overhead exponents we know among protocols with at most 100 and 1000 inputs, respectively, with $\u03b3= 1.589$ and $\u03b3= 1.057$. Our [[1715, 287, 6]] factory, with $\u03b3= 0.998$, is the smallest known pure-T factory with $\u03b3< 1$. We also provide a context directory of search briefs and campaign notes with which readers can train their own agents and tailor the search to their requirements. With these results, we begin constructing an active, open-source repository of magic-state distillation protocols for the quantum community, supplemented by our methods and data, for the practical fault-tolerant quantum computing regime.",
+    "summary": "Magic-state distillation is a major resource cost in fault-tolerant quantum computing. The cost of a magic-state factory depends strongly on its failure rate, which grows with the number of input magic states. Although symmetry-restricted methods have recently made distance two searches tractable, distance three and above have remained elusive at moderate input counts. We develop symmetry- and AI-assisted methods to search this regime. We present a unified binary-matrix formulation encompassing both triorthogonal-code and direct circuit searches. We show that distance at least three is equivalent to nonzero, pairwise distinct syndromes, separating the choice of syndromes from the search for compatible output gates. We restrict the syndrome search using group symmetry and language-model agents, followed by deterministic solving and independent verification. Our searches yield 699 factory classes, including 564 new ones. These include factories for pure-T states and factories with entangled outputs comprising combinations of T, CS, and CCZ magic states. The pure-T factories [[63, 11, 3]] and [[850, 128, 6]] achieve the lowest overhead exponents we know among protocols with at most 100 and 1000 inputs, respectively, with $γ= 1.589$ and $γ= 1.057$. Our [[1715, 287, 6]] factory, with $γ= 0.998$, is the smallest known pure-T factory with $γ< 1$. We also provide a context directory of search briefs and campaign notes with which readers can train their own agents and tailor the search to their requirements. With these results, we begin constructing an active, open-source repository of magic-state distillation protocols for the quantum community, supplemented by our methods and data, for the practical fault-tolerant quantum computing regime.",
     "authors": [
       "Shubham P. Jain",
       "Adam Wills",
@@ -2328,7 +2328,7 @@
     "title": "How Sparse Probability Maps Shape Mixture-of-Experts Routing",
     "summary": "Mixture-of-experts (MoE) routers typically apply softmax to the router scores and keep the top-K experts, making every token use exactly K experts. Sparsity-inducing probability maps such as sparsemax, alpha-entmax and normmax can adaptively assign exact zeros to selected experts, and therefore appear to offer token-dependent expert participation, even when using the same top-K machinery. In this work, we study whether and how this sparsity survives training. We train matched 300M and 1B top-2 MoE language models with softmax, 1.5-entmax, sparsemax and 2-normmax, and find that the maps behave very differently once trained: at 1B, entmax discards 30% less probability mass than softmax while almost never dropping a selected expert, sparsemax retains the most mass, and normmax routes 21% of tokens to a single expert. These outcomes are not properties of the maps alone. Each map drops a selected expert only when the gap between the two largest scores reaches a fixed threshold, and the trained routers differ in the score distribution they learn: the entmax router learns scores with roughly half the spread of softmax's, which keeps its top-2 gaps below its threshold, while sparsemax and normmax, which share the same threshold, learn different gap distributions and hence different participation. Routers thus co-adapt their scores to the map, and a map's capacity to produce zeros does not by itself determine expert participation. While none of the sparse maps improves validation loss over softmax, they make the trained models far less sensitive to selecting more experts at inference: sparsemax trained with K=2 loses 0.02 nats when run with K=8, where softmax loses 0.58. Our results indicate that adaptive MoE routing has to be designed around the joint behavior of the probability map and the learned scores, rather than around the map alone.",
     "authors": [
-      "Tom\u00e1s Brogueira",
+      "Tomás Brogueira",
       "Marcos Treviso",
       "Miguel Couceiro"
     ],
@@ -2393,7 +2393,7 @@
     "authors": [
       "Sama Satariyan",
       "Raphael Cousin",
-      "G{\u00e9}rard Biau"
+      "G{é}rard Biau"
     ],
     "categories": [
       "cs.LG"
@@ -2563,7 +2563,7 @@
   {
     "arxiv_id": "2610.06308v1",
     "title": "Sharp dimensional analysis of midpoint methods for Langevin sampling",
-    "summary": "We study deterministic and randomized midpoint discretizations of Langevin dynamics for a target $\u03c0\\propto e^{-V}$, where $0 \\prec \u03b1I\\preceq\\nabla^2V\\preceq\u03b2I$ and $\u03ba=\u03b2/\u03b1$. To achieve $\\sqrt\u03b1\\,W_2\\leqslant\\varepsilon$, we show that deterministic Heun uses at most $\\widetilde O(\u03ba^{4/3}d^{1/3}\\varepsilon^{-2/3})$ gradient queries, and underdamped exponential midpoint uses $\\widetilde O(\u03ba^{5/4}d^{1/4}\\varepsilon^{-1/2})$. The proofs exploit cancellation at stationarity and smoothing using techniques from Malliavin calculus, outperforming previous upper bounds based on standard couplings. At bounded condition number, a lower bound matches the $d$ and $\\varepsilon$ powers of both deterministic methods. To contrast, for the randomized midpoint methods and Poisson midpoint with at least two grid points (both overdamped and underdamped variants), a simple Gaussian calculation yields a lower bound $d^{1/3}\\varepsilon^{-1/3}$ to get an $\\varepsilon$-close sample despite starting at a benign initialization. This shows surprisingly that in high dimensions, deterministic discretizations can outperform their random counterparts.",
+    "summary": "We study deterministic and randomized midpoint discretizations of Langevin dynamics for a target $π\\propto e^{-V}$, where $0 \\prec αI\\preceq\\nabla^2V\\preceqβI$ and $κ=β/α$. To achieve $\\sqrtα\\,W_2\\leqslant\\varepsilon$, we show that deterministic Heun uses at most $\\widetilde O(κ^{4/3}d^{1/3}\\varepsilon^{-2/3})$ gradient queries, and underdamped exponential midpoint uses $\\widetilde O(κ^{5/4}d^{1/4}\\varepsilon^{-1/2})$. The proofs exploit cancellation at stationarity and smoothing using techniques from Malliavin calculus, outperforming previous upper bounds based on standard couplings. At bounded condition number, a lower bound matches the $d$ and $\\varepsilon$ powers of both deterministic methods. To contrast, for the randomized midpoint methods and Poisson midpoint with at least two grid points (both overdamped and underdamped variants), a simple Gaussian calculation yields a lower bound $d^{1/3}\\varepsilon^{-1/3}$ to get an $\\varepsilon$-close sample despite starting at a benign initialization. This shows surprisingly that in high dimensions, deterministic discretizations can outperform their random counterparts.",
     "authors": [
       "Fan Chen",
       "Sinho Chewi",
@@ -2703,7 +2703,7 @@
   {
     "arxiv_id": "2610.06653v1",
     "title": "The Birkhoff Geometry of Manifold-Constrained Hyper-Connections: Two Channels, Vertex Viscosity, and Sinkhorn as a Retraction",
-    "summary": "Hyper-connections widen the residual stream of a Transformer to $n$ parallel streams. Their manifold-constrained version (mHC) mixes the streams at each layer with a doubly stochastic matrix, which it computes by Sinkhorn normalization of exponentiated logits. We give a geometric theory of this design on the Birkhoff polytope. First, a doubly stochastic mixer splits the stream into a mean channel, on which mHC is exactly a residual network, and a difference channel, which each layer contracts by its second singular value $\u03c3_2 \\le 1 - n \\min_{ij} H_{ij}$. Thus the extra width is a fading memory with a horizon of $1/(1-\u03c3_2)$ layers, and among nonnegative mixers only the permutations do not collapse. Second, the Sinkhorn-logit map is a global chart, and its logit gradient is exactly the Fisher-Rao gradient. Thus logit gradient flow follows a squared Fisher-Rao metric, and the straight-through update is exactly entropic mirror descent. Third, under logit gradient flow the logarithm of each entry moves at a rate of at most $4n^3\\|\\nabla f\\|_\\infty \\varepsilon$, where $\\varepsilon$ is the distance to the nearest permutation. Thus gradient flow approaches and leaves the vertices only at rate $1/t$, but mirror descent moves at an exponential rate. Fourth, the local convergence factor of Sinkhorn is $\u03c3_2^2$, so a fixed iteration budget limits the horizon. Experiments confirm the predicted rates.",
+    "summary": "Hyper-connections widen the residual stream of a Transformer to $n$ parallel streams. Their manifold-constrained version (mHC) mixes the streams at each layer with a doubly stochastic matrix, which it computes by Sinkhorn normalization of exponentiated logits. We give a geometric theory of this design on the Birkhoff polytope. First, a doubly stochastic mixer splits the stream into a mean channel, on which mHC is exactly a residual network, and a difference channel, which each layer contracts by its second singular value $σ_2 \\le 1 - n \\min_{ij} H_{ij}$. Thus the extra width is a fading memory with a horizon of $1/(1-σ_2)$ layers, and among nonnegative mixers only the permutations do not collapse. Second, the Sinkhorn-logit map is a global chart, and its logit gradient is exactly the Fisher-Rao gradient. Thus logit gradient flow follows a squared Fisher-Rao metric, and the straight-through update is exactly entropic mirror descent. Third, under logit gradient flow the logarithm of each entry moves at a rate of at most $4n^3\\|\\nabla f\\|_\\infty \\varepsilon$, where $\\varepsilon$ is the distance to the nearest permutation. Thus gradient flow approaches and leaves the vertices only at rate $1/t$, but mirror descent moves at an exponential rate. Fourth, the local convergence factor of Sinkhorn is $σ_2^2$, so a fixed iteration budget limits the horizon. Experiments confirm the predicted rates.",
     "authors": [
       "Xiaoyu Li",
       "Zhizhou Sha",
@@ -2779,7 +2779,7 @@
       "Christian Nauck",
       "Langzhou He",
       "Chao Gao",
-      "J\u00fcrgen Kurths",
+      "Jürgen Kurths",
       "Frank Hellmann"
     ],
     "categories": [
@@ -3103,7 +3103,7 @@
   {
     "arxiv_id": "2610.06675v1",
     "title": "Improved Convergence of Large Stepsize Gradient Descent for Logistic Regression",
-    "summary": "We study gradient descent (GD) with a large constant stepsize for logistic regression on linearly separable data. Existing analysis shows an accelerated rate of $\\widetilde{O}(1/\\sqrt\u03b5)$ to reach loss $\u03b5$ with an aggressive stepsize, although the loss may initially oscillate. Tighter control of the oscillatory dynamics has been available only for two-dimensional data. We prove a substantially faster rate in arbitrary dimension: GD with a large stepsize $\u03b7=1/\u03b5$ reaches loss $\u03b5$ within $O(\\ln^{p}(1/\u03b5))$ steps, where $p$ depends only on the margin and the rank of the data. Our proof improves the bound on the transition time of GD from the oscillatory to the stable phase, after which the loss decreases monotonically. We split the oscillatory phase into recursively nested intervals. The margin and the rank bound the nesting depth, and a counting argument bounds the number of intervals at each depth, together yielding the polylogarithmic step complexity.",
+    "summary": "We study gradient descent (GD) with a large constant stepsize for logistic regression on linearly separable data. Existing analysis shows an accelerated rate of $\\widetilde{O}(1/\\sqrtε)$ to reach loss $ε$ with an aggressive stepsize, although the loss may initially oscillate. Tighter control of the oscillatory dynamics has been available only for two-dimensional data. We prove a substantially faster rate in arbitrary dimension: GD with a large stepsize $η=1/ε$ reaches loss $ε$ within $O(\\ln^{p}(1/ε))$ steps, where $p$ depends only on the margin and the rank of the data. Our proof improves the bound on the transition time of GD from the oscillatory to the stable phase, after which the loss decreases monotonically. We split the oscillatory phase into recursively nested intervals. The margin and the rank bound the nesting depth, and a counting argument bounds the number of intervals at each depth, together yielding the polylogarithmic step complexity.",
     "authors": [
       "Xiaochuan Gong",
       "Ang Li"
@@ -3274,7 +3274,7 @@
     "summary": "Article 50 (2) of the EU Artificial Intelligence Act requires providers of generative systems to make synthetic outputs machine-readable and detectable, while qualifying the effectiveness, interoperability, robustness, and reliability by technical feasibility, cost, content-specific limits, and the state of the art. For free-form text, one important implementation route is the implementation of a generative watermarking procedure, which poses a compliance problem that is hard to address. Strong watermarking is impossible against adaptive removal, while ordinary edits attenuate statistical evidence, and unmarked human text may overlap distributionally with machine output. This article develops an auditable alternative. First, it defines a description-length robustness profile. A finite-sample bound shows that detectable bias decays and that the required sample size grows with the inverse square of the decay rate. This replaces an unidentified Shannon-entropy constant with collision entropy. Second, it constructs label-conditional conformal prediction sets with separate false-attribution and false-exclusion levels, reporting ``watermark supported,'' ``not supported,'' or ``inconclusive''. Coverage is obtained as a finite-sample result and is class-conditional under exchangeability. A small reproducible simulation of a tournament watermark confirms both claims and shows that the surviving-token rule overstates the tolerable edit rate roughly twofold. The resulting premarket certificate, signed detector report, and postmarket recalibration protocol operationalize the Commission's 2026 Code of Practice without claiming universal robustness.",
     "authors": [
       "Fernando Delbianco",
-      "Fernando Tohm\u00e9",
+      "Fernando Tohmé",
       "Hugo Acciarri"
     ],
     "categories": [
@@ -3382,11 +3382,11 @@
   {
     "arxiv_id": "2610.06798v1",
     "title": "A Response Theory Probe for Learned Stochastic AI Simulators, Tested on Lorenz-63",
-    "summary": "Machine-learning emulators of chaotic and stochastic systems are usually validated on forecast skill and long-run statistics. Neither certifies that an emulator responds correctly to forcing, the property that projection and attribution studies rely on. Linear response theory makes this testable: the forced response follows from unperturbed correlations through a generalized fluctuation-dissipation relation, and decomposes over the stochastic Ruelle-Pollicott resonances of the Koopman generator. Building on the Koopmanism Response framework, we turn this into a calibrated, mode-resolved test for learned surrogates: each surrogate rollout passes or fails each check, and failure rates are compared with those of independent realizations of the true system. On stochastic Lorenz-63, a three-variable toy model, we evaluate SINDy, an MLP, a reservoir computer, a neural ODE and a neural SDE with learned diffusion, over up to 80 rollouts each. A sparse-regression model with the correct library passes every check at rates consistent with the true system. Invariant-statistics fidelity and response fidelity dissociate in both directions: a quarter of reservoir-computer rollouts pass every invariant-statistics check and match the static susceptibility $\u03c7(0)$, yet misrepresent the slow relaxation modes, while the neural ODE and SDE rarely meet the invariant-statistics floor but recover those modes in three quarters of rollouts. As expected of a time-integrated quantity dominated here by fast relaxation, $\u03c7(0)$ does not separate these cases. For a fixed network, the training formulation (one-step drift, flow map, or multi-step through the integrator) decides which of these properties it gets right.",
+    "summary": "Machine-learning emulators of chaotic and stochastic systems are usually validated on forecast skill and long-run statistics. Neither certifies that an emulator responds correctly to forcing, the property that projection and attribution studies rely on. Linear response theory makes this testable: the forced response follows from unperturbed correlations through a generalized fluctuation-dissipation relation, and decomposes over the stochastic Ruelle-Pollicott resonances of the Koopman generator. Building on the Koopmanism Response framework, we turn this into a calibrated, mode-resolved test for learned surrogates: each surrogate rollout passes or fails each check, and failure rates are compared with those of independent realizations of the true system. On stochastic Lorenz-63, a three-variable toy model, we evaluate SINDy, an MLP, a reservoir computer, a neural ODE and a neural SDE with learned diffusion, over up to 80 rollouts each. A sparse-regression model with the correct library passes every check at rates consistent with the true system. Invariant-statistics fidelity and response fidelity dissociate in both directions: a quarter of reservoir-computer rollouts pass every invariant-statistics check and match the static susceptibility $χ(0)$, yet misrepresent the slow relaxation modes, while the neural ODE and SDE rarely meet the invariant-statistics floor but recover those modes in three quarters of rollouts. As expected of a time-integrated quantity dominated here by fast relaxation, $χ(0)$ does not separate these cases. For a fixed network, the training formulation (one-step drift, flow map, or multi-step through the integrator) decides which of these properties it gets right.",
     "authors": [
-      "Jo\u00e3o B\u00f6ger",
+      "João Böger",
       "Simon Driscoll",
-      "Niccol\u00f2 Zagli",
+      "Niccolò Zagli",
       "Valerio Lucarini",
       "Francisco Camara Pereira"
     ],
@@ -3407,7 +3407,7 @@
     "title": "Singular parameters and missing limits in neural PDE solvers",
     "summary": "Neural solvers for partial differential equations (PDEs) can approach an accurate solution while their parameters grow without bound. In such cases, the limiting solution may have no finite representation in the chosen model, leaving the best loss unattained. Our analysis connects missing limits in deep neural tanh- networks to unbounded hidden parameters or increasingly redundant neurons. For a class of models built from translated kernels, we describe the missing functions and recover them by adding kernel derivatives to the model. This completion makes the best approximation attainable under standard assumptions. Numerical studies follow the associated parameter growth and explore how completion affects PDE optimization.",
     "authors": [
-      "Daniel Fern\u00e1ndez"
+      "Daniel Fernández"
     ],
     "categories": [
       "math.NA",
@@ -3688,7 +3688,7 @@
   {
     "arxiv_id": "2610.06745v1",
     "title": "Hyperbolic Graph Representation Learning: Embed in One Metric, Optimize with Another",
-    "summary": "Hierarchical graphs embed in hyperbolic space with lower distortion than in Euclidean space owing to its negative curvature. However, their gradient-based learning is hampered at large radii, where the Poincar\u00e9 ball and the Lorentz hyperboloid models fail numerically. Polar coordinates avoid this problem, but the hyperbolic metric scales the angular step by the hyperbolic sine of the radius, freezing angular motion. We observe that this factor is a choice, silently fixed by existing implementations: the Euclidean tangent parametrization, for instance, uses the radius itself. We show that other choices are not only possible but preferable. They are endpoints of a one-parameter family of optimization preconditioners with curvatures from $-1$ to $0$, while the embedding remains at curvature $-1$. We show that since the Euclidean preconditioner rearranges a layout but refines it poorly, while an intermediate one refines far better once a layout is in place, combining them in two stages reduces the loss on real-world trees by 46-74% over the best single curvature.",
+    "summary": "Hierarchical graphs embed in hyperbolic space with lower distortion than in Euclidean space owing to its negative curvature. However, their gradient-based learning is hampered at large radii, where the Poincaré ball and the Lorentz hyperboloid models fail numerically. Polar coordinates avoid this problem, but the hyperbolic metric scales the angular step by the hyperbolic sine of the radius, freezing angular motion. We observe that this factor is a choice, silently fixed by existing implementations: the Euclidean tangent parametrization, for instance, uses the radius itself. We show that other choices are not only possible but preferable. They are endpoints of a one-parameter family of optimization preconditioners with curvatures from $-1$ to $0$, while the embedding remains at curvature $-1$. We show that since the Euclidean preconditioner rearranges a layout but refines it poorly, while an intermediate one refines far better once a layout is in place, combining them in two stages reduces the loss on real-world trees by 46-74% over the best single curvature.",
     "authors": [
       "Federico Larroca",
       "Paola Bermolen",
@@ -3709,9 +3709,9 @@
   {
     "arxiv_id": "2610.06673v1",
     "title": "The Pushback Paradox: A Two-Probe Diagnostic for Language Model Compliance",
-    "summary": "Are language models compliant with user instructions? A model that always complies can be stopped but also exploited, while one that always resists can be neither exploited nor stopped. We contribute an open two-probe benchmark that can place any language model on this spectrum. In the active probe, a user instructs the model to act and accept a lower payoff, which measures exploitability. In the passive probe, the user instructs it to wait and give up a higher payoff, which measures stoppability. The two compliance rates combine into a compliance index $\u03ba$. Applied to twelve language models, the benchmark shows that seven mostly follow the instruction in both probes and justify their action by pointing to the instruction. Only Claude Sonnet-4.6 and Claude Opus-4.7 can be stopped without being exploitable, Claude Opus-4.6 and GPT-5-mini resist both instructions, and no model is exploitable but unstoppable. Knowing where a language model sits on the compliance index $\u03ba$ matters for human operators and for multi-agent systems, whether distributed or orchestrated.",
+    "summary": "Are language models compliant with user instructions? A model that always complies can be stopped but also exploited, while one that always resists can be neither exploited nor stopped. We contribute an open two-probe benchmark that can place any language model on this spectrum. In the active probe, a user instructs the model to act and accept a lower payoff, which measures exploitability. In the passive probe, the user instructs it to wait and give up a higher payoff, which measures stoppability. The two compliance rates combine into a compliance index $κ$. Applied to twelve language models, the benchmark shows that seven mostly follow the instruction in both probes and justify their action by pointing to the instruction. Only Claude Sonnet-4.6 and Claude Opus-4.7 can be stopped without being exploitable, Claude Opus-4.6 and GPT-5-mini resist both instructions, and no model is exploitable but unstoppable. Knowing where a language model sits on the compliance index $κ$ matters for human operators and for multi-agent systems, whether distributed or orchestrated.",
     "authors": [
-      "Stefan B\u00fchler",
+      "Stefan Bühler",
       "David Exler",
       "Markus Reischl",
       "Mark Schutera"
@@ -3811,7 +3811,7 @@
   {
     "arxiv_id": "2610.06602v1",
     "title": "Multitask Conditional Generative Adversarial Network Enables Automatic Whole Knee Cartilage and Menisci Segmentation and Reliable T1\\r{ho} and T2 Quantification Without High-Resolution Morphological Images",
-    "summary": "Early osteoarthritis detection through quantitative MRI (qMRI) requires accurate cartilage and meniscus segmentation, traditionally necessitating time-consuming, costly 3D high-resolution Double Echo Steady-State (DESS) MRI scans. This study developed a multi-task conditional generative adversarial network (MT-cGAN) to simultaneously synthesize DESS-like images and segment tissues directly from qMRI echo images. This retrospective study evaluated 508 knee MRI volumes from 361 subjects (mean age: $40.4 \\pm 12.2$ years; 179 female) across three cohorts. Ground truth segmentation masks were generated from DESS images using a pretrained model with manual correction, and $T_{1\u03c1}$ and $T_2$ maps were computed from magnetization-prepared angle-modulated partitioned $k$-space spoiled gradient echo snapshots (MAPSS) echo images. MT-cGAN was trained to jointly synthesize DESS-like images and segment cartilage and meniscus directly from echo images. Model performance was evaluated using Dice score for segmentation accuracy and coefficient of variation (CV) for $T_{1\u03c1}$ and $T_2$ quantification. MT-cGAN achieved the highest segmentation performance, mean Dice score 0.84 (range: 0.80--0.86) across all cartilage and meniscus compartments and significantly outperformed the state-of-the-art conditional GAN model with transfer learning (mean Dice, 0.82; $p < 0.001$, Wilcoxon signed-rank test). For relaxometry quantification, MT-cGAN demonstrated the highest consistency with the reference DESS protocol, yielding the lowest CV ($T_{1\u03c1}$: 1.84%, $T_2$: 1.81%). The proposed MT-cGAN accurately segmented cartilage and menisci while providing reliable $T_{1\u03c1}$ and $T_2$ quantification directly from echo images. By eliminating the need for separate morphological DESS scans, this workflow reduces required scan times to facilitate the clinical translation of qMRI.",
+    "summary": "Early osteoarthritis detection through quantitative MRI (qMRI) requires accurate cartilage and meniscus segmentation, traditionally necessitating time-consuming, costly 3D high-resolution Double Echo Steady-State (DESS) MRI scans. This study developed a multi-task conditional generative adversarial network (MT-cGAN) to simultaneously synthesize DESS-like images and segment tissues directly from qMRI echo images. This retrospective study evaluated 508 knee MRI volumes from 361 subjects (mean age: $40.4 \\pm 12.2$ years; 179 female) across three cohorts. Ground truth segmentation masks were generated from DESS images using a pretrained model with manual correction, and $T_{1ρ}$ and $T_2$ maps were computed from magnetization-prepared angle-modulated partitioned $k$-space spoiled gradient echo snapshots (MAPSS) echo images. MT-cGAN was trained to jointly synthesize DESS-like images and segment cartilage and meniscus directly from echo images. Model performance was evaluated using Dice score for segmentation accuracy and coefficient of variation (CV) for $T_{1ρ}$ and $T_2$ quantification. MT-cGAN achieved the highest segmentation performance, mean Dice score 0.84 (range: 0.80--0.86) across all cartilage and meniscus compartments and significantly outperformed the state-of-the-art conditional GAN model with transfer learning (mean Dice, 0.82; $p < 0.001$, Wilcoxon signed-rank test). For relaxometry quantification, MT-cGAN demonstrated the highest consistency with the reference DESS protocol, yielding the lowest CV ($T_{1ρ}$: 1.84%, $T_2$: 1.81%). The proposed MT-cGAN accurately segmented cartilage and menisci while providing reliable $T_{1ρ}$ and $T_2$ quantification directly from echo images. By eliminating the need for separate morphological DESS scans, this workflow reduces required scan times to facilitate the clinical translation of qMRI.",
     "authors": [
       "Ahmed Tahseen Minhaz",
       "Richard Lartey",
@@ -3902,11 +3902,11 @@
       "Mazen Amria",
       "Jasper Hoffmann",
       "Philipp Bordne",
-      "Anna Rothenh\u00e4usler",
+      "Anna Rothenhäusler",
       "Lilli Frison",
       "Harald Taxt Walnum",
       "Sebastien Gros",
-      "Joschka B\u00f6decker"
+      "Joschka Bödecker"
     ],
     "categories": [
       "cs.LG",
@@ -3999,8 +3999,8 @@
       "Ping Xiong",
       "Chao Gao",
       "Philip S. Yu",
-      "Klaus-Robert M\u00fcller",
-      "J\u00fcrgen Kurths",
+      "Klaus-Robert Müller",
+      "Jürgen Kurths",
       "Frank Hellmann"
     ],
     "categories": [
@@ -4090,7 +4090,7 @@
   {
     "arxiv_id": "2610.06610v1",
     "title": "The Surrogate Is Not the Reward: Post-Surrogate Primary-Outcome Acquisition in Contextual Bandits",
-    "summary": "We study contextual bandits in which a surrogate is observed after the action but before the learner decides whether to acquire the primary outcome that defines action value and regret. The value of acquiring the primary outcome depends on both decision relevance (how much the current outcome matters for comparing policies) and the residual uncertainty after observing the surrogate. The Audited Surrogate Bandit (ASB) learns a contextual policy while allocating a budget of $B$ primary-outcome acquisitions over $T$ rounds. ASB sets a pre-surrogate acquisition level from current decision relevance and, after observing the surrogate, redistributes that level using an estimate of that residual uncertainty. For a finite class of $N$ policies over $K$ actions, ASB incurs $\\widetilde O[\\sqrt{KT\\log N}\\{1+\\sqrt{T/B}\\}]$ regret relative to the best policy in the class. In a two-action family where the surrogate does not reveal the better action, a learner that observes the surrogate before deciding whether to acquire can achieve bounded regret, whereas any learner that must decide before seeing the surrogate incurs $\u03a9(T/B)$ worst-case regret under the same budget. Synthetic experiments show that both acquisition factors matter: ASB has lower regret than variants using only decision relevance or only residual uncertainty. On a KuaiRec benchmark of user-video interactions, the regret gap relative to relevance-only acquisition widens and then narrows as the budget grows.",
+    "summary": "We study contextual bandits in which a surrogate is observed after the action but before the learner decides whether to acquire the primary outcome that defines action value and regret. The value of acquiring the primary outcome depends on both decision relevance (how much the current outcome matters for comparing policies) and the residual uncertainty after observing the surrogate. The Audited Surrogate Bandit (ASB) learns a contextual policy while allocating a budget of $B$ primary-outcome acquisitions over $T$ rounds. ASB sets a pre-surrogate acquisition level from current decision relevance and, after observing the surrogate, redistributes that level using an estimate of that residual uncertainty. For a finite class of $N$ policies over $K$ actions, ASB incurs $\\widetilde O[\\sqrt{KT\\log N}\\{1+\\sqrt{T/B}\\}]$ regret relative to the best policy in the class. In a two-action family where the surrogate does not reveal the better action, a learner that observes the surrogate before deciding whether to acquire can achieve bounded regret, whereas any learner that must decide before seeing the surrogate incurs $Ω(T/B)$ worst-case regret under the same budget. Synthetic experiments show that both acquisition factors matter: ASB has lower regret than variants using only decision relevance or only residual uncertainty. On a KuaiRec benchmark of user-video interactions, the regret gap relative to relevance-only acquisition widens and then narrows as the budget grows.",
     "authors": [
       "Kyungbok Lee",
       "Michael R. Kosorok"
@@ -4244,9 +4244,9 @@
     "title": "On the Comparison of Optimizers for Imbalanced Learning",
     "summary": "Data imbalance is pervasive in machine learning, from rare words and anomalies to underrepresented patterns in heterogeneous or cross-tabulated data. We study idealized optimizers geometries in continuous time to model small-step training in deep learning. We assume that the source of imbalance is unobserved: the optimizer has only access to the aggregate training loss ignoring the exact contributions of the majority and minority groups. In this setting, we characterize a region where majority losses are optimized regardless of the admissible minority structure. We derive explicit equations of this zone and bounds on the time needed to leave it. These bounds exhibit a milder dependence on minority amplitude for sign, spectral, and Newton descent than for Euclidean gradient descent. Experiments with AdamW and Muon suggest similar advantages over SGD across language, tabular, and image tasks.",
     "authors": [
-      "Cl{\u00e9}ment Lezane",
+      "Cl{é}ment Lezane",
       "Fran{\\c c}ois Bachoc",
-      "J{\u00e9}r{\u00f4}me Bolte",
+      "J{é}r{ô}me Bolte",
       "Jean-Michel Loubes"
     ],
     "categories": [
@@ -4268,7 +4268,7 @@
       "Anna S. Bosman",
       "Arnaud Liefooghe",
       "Katherine M. Malan",
-      "S\u00e9bastien Verel"
+      "Sébastien Verel"
     ],
     "categories": [
       "cs.NE",
@@ -4286,7 +4286,7 @@
     "title": "Multi-Task Partially Supervised Learning for Super-Resolution and Semantic Segmentation on Earth Observation data",
     "summary": "Super-resolution and semantic segmentation are known to benefit one another, especially in the Earth observation context. However, learning both tasks in a joint model often requires both task annotations, which is impractical and expensive. In this paper, we study the multi-task partially supervised learning paradigm for both tasks, where each example is assumed to have only a single-task annotation. To that end, we examine two multi-task architectural variations, the sequential and shared variants, and then propose a hybrid variant and a re-projection loss to benefit from the shared representation and enforce image quality of super-resolution when training with semantic segmentation. Experiments show favorable results compared to the SOTA sequential variant. Source code will be published at https://github.com/lhoangan/munera.",
     "authors": [
-      "Ho\u00e0ng-\u00c2n L\u00ea",
+      "Hoàng-Ân Lê",
       "Minh-Tan Pham",
       "Solange Lemai-Chenevier",
       "Daniel Greslou"
@@ -4328,7 +4328,7 @@
       "Rohan Mehra",
       "Alexandre Riffard",
       "Yannis Loumouamou",
-      "Mathieu Labussi\u00e8re"
+      "Mathieu Labussière"
     ],
     "categories": [
       "cs.CV",
@@ -4348,10 +4348,10 @@
     "authors": [
       "Abdoul Djalil Ousseini Hamza",
       "Herearii Metuarea",
-      "Corentin Lothod{\u00e9}",
+      "Corentin Lothod{é}",
       "Morgane Roth",
       "Jacem Ben Hamden",
-      "Eric Duch{\u00ea}ne",
+      "Eric Duch{ê}ne",
       "Lionel Ley",
       "David Alletru",
       "David Rousseau"
@@ -4406,398 +4406,5 @@
     "date": "2026-10-06",
     "source": "arxiv",
     "research_score": 0.42
-  },
-  {
-    "model_id": "Goekdeniz-Guelmez/Qwen3.5-2B-Base-RL",
-    "author": "unknown",
-    "title": "Goekdeniz-Guelmez/Qwen3.5-2B-Base-RL",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "text-generation",
-      "conversational",
-      "dataset:openbmb/UltraData-Math",
-      "base_model:Qwen/Qwen3.5-2B",
-      "base_model:finetune:Qwen/Qwen3.5-2B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-10-06T11:06:01.000Z",
-    "last_modified": "2026-10-06T11:39:52.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Goekdeniz-Guelmez/Qwen3.5-2B-Base-RL",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ritwika96/arc-agi2-joint-loopvit-epochs-trainium-v3",
-    "author": "unknown",
-    "title": "ritwika96/arc-agi2-joint-loopvit-epochs-trainium-v3",
-    "downloads": 1049,
-    "likes": 1,
-    "tags": [
-      "arc-agi",
-      "loopvit",
-      "trainium",
-      "license:mit",
-      "region:us"
-    ],
-    "pipeline_tag": "",
-    "library": "",
-    "created_at": "2026-10-05T15:43:39.000Z",
-    "last_modified": "2026-10-06T11:39:30.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ritwika96/arc-agi2-joint-loopvit-epochs-trainium-v3",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Lythri/Lythri-7B-A4B-Q4_0_8-GGUF",
-    "author": "unknown",
-    "title": "Lythri/Lythri-7B-A4B-Q4_0_8-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "emotional-support",
-      "companion",
-      "on-device",
-      "conversational",
-      "gemma4",
-      "Q4_0_8",
-      "doi:10.5281/zenodo.23179311",
-      "text-generation",
-      "base_model:Lythri/Lythri-7B-A4B",
-      "base_model:quantized:Lythri/Lythri-7B-A4B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "gguf",
-    "created_at": "2026-10-06T06:50:58.000Z",
-    "last_modified": "2026-10-06T11:36:23.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Lythri/Lythri-7B-A4B-Q4_0_8-GGUF",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "MergekitCloud/mergekit-99",
-    "author": "unknown",
-    "title": "MergekitCloud/mergekit-99",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "mergekit",
-      "merge",
-      "conversational",
-      "arxiv:2311.03099",
-      "base_model:Qwen/Qwen3-8B",
-      "base_model:merge:Qwen/Qwen3-8B",
-      "base_model:deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
-      "base_model:merge:deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
-      "base_model:ertghiu256/qwen3-8b-code-reasoning",
-      "base_model:merge:ertghiu256/qwen3-8b-code-reasoning",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-10-06T11:34:57.000Z",
-    "last_modified": "2026-10-06T11:36:16.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/MergekitCloud/mergekit-99",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Lythri/Lythri-4B-A2B-Q4_0_8-GGUF",
-    "author": "unknown",
-    "title": "Lythri/Lythri-4B-A2B-Q4_0_8-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "gguf",
-      "emotional-support",
-      "companion",
-      "on-device",
-      "conversational",
-      "gemma4",
-      "Q4_0_8",
-      "doi:10.5281/zenodo.23179311",
-      "text-generation",
-      "base_model:Lythri/Lythri-4B-A2B",
-      "base_model:quantized:Lythri/Lythri-4B-A2B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "gguf",
-    "created_at": "2026-10-06T06:51:16.000Z",
-    "last_modified": "2026-10-06T11:35:59.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Lythri/Lythri-4B-A2B-Q4_0_8-GGUF",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "khtsly/c",
-    "author": "unknown",
-    "title": "khtsly/c",
-    "downloads": 4242,
-    "likes": 1,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "kimi_linear",
-      "text-generation",
-      "kimi-k3",
-      "luau",
-      "experimental-checkpoint",
-      "custom_code",
-      "en",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-10-03T08:32:00.000Z",
-    "last_modified": "2026-10-06T11:35:56.000Z",
-    "days_since_creation": 3,
-    "url": "https://huggingface.co/khtsly/c",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Smruthi3/Qwen2.5-1.5B-KTO-Finetuning",
-    "author": "unknown",
-    "title": "Smruthi3/Qwen2.5-1.5B-KTO-Finetuning",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen2",
-      "text-generation",
-      "text-generation-inference",
-      "unsloth",
-      "conversational",
-      "en",
-      "base_model:unsloth/Qwen2.5-1.5B-Instruct-unsloth-bnb-4bit",
-      "base_model:finetune:unsloth/Qwen2.5-1.5B-Instruct-unsloth-bnb-4bit",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-10-06T11:34:28.000Z",
-    "last_modified": "2026-10-06T11:35:55.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Smruthi3/Qwen2.5-1.5B-KTO-Finetuning",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "ashfidel/Qwen3.5-2B-heretic-v3b-MLX-mixed_4_6",
-    "author": "unknown",
-    "title": "ashfidel/Qwen3.5-2B-heretic-v3b-MLX-mixed_4_6",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "mlx",
-      "safetensors",
-      "qwen3_5",
-      "heretic",
-      "text-generation",
-      "conversational",
-      "en",
-      "base_model:tvall43/Qwen3.5-2B-heretic-v3b",
-      "base_model:quantized:tvall43/Qwen3.5-2B-heretic-v3b",
-      "license:apache-2.0",
-      "4-bit",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "mlx",
-    "created_at": "2026-10-06T11:34:20.000Z",
-    "last_modified": "2026-10-06T11:34:38.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/ashfidel/Qwen3.5-2B-heretic-v3b-MLX-mixed_4_6",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "mradermacher/starlight-pro-1-GGUF",
-    "author": "unknown",
-    "title": "mradermacher/starlight-pro-1-GGUF",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "gguf",
-      "text-generation",
-      "starlight",
-      "north-ml",
-      "en",
-      "base_model:North-ML1/starlight-pro-1",
-      "base_model:quantized:North-ML1/starlight-pro-1",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us",
-      "conversational"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-10-06T11:13:15.000Z",
-    "last_modified": "2026-10-06T11:34:01.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/mradermacher/starlight-pro-1-GGUF",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Sangsang/rewind-run1-sft-model",
-    "author": "unknown",
-    "title": "Sangsang/rewind-run1-sft-model",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3",
-      "text-generation",
-      "math",
-      "reasoning",
-      "rewind",
-      "supervised-fine-tuning",
-      "conversational",
-      "en",
-      "dataset:Sangsang/rewind-run1-sft-data",
-      "base_model:Qwen/Qwen3-1.7B",
-      "base_model:finetune:Qwen/Qwen3-1.7B",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-10-06T11:32:41.000Z",
-    "last_modified": "2026-10-06T11:33:20.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Sangsang/rewind-run1-sft-model",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "misukisu/moderation-modernbert-en",
-    "author": "unknown",
-    "title": "misukisu/moderation-modernbert-en",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "onnx",
-      "safetensors",
-      "modernbert",
-      "text-classification",
-      "content-moderation",
-      "toxicity",
-      "spam",
-      "safety",
-      "multi-label",
-      "en",
-      "dataset:tasksource/jigsaw_toxicity",
-      "dataset:google/civil_comments",
-      "dataset:nvidia/Aegis-AI-Content-Safety-Dataset-2.0",
-      "dataset:lmsys/toxic-chat",
-      "dataset:SetFit/enron_spam",
-      "dataset:ucirvine/sms_spam",
-      "dataset:mmathys/openai-moderation-api-evaluation",
-      "base_model:answerdotai/ModernBERT-base",
-      "base_model:quantized:answerdotai/ModernBERT-base",
-      "license:apache-2.0",
-      "text-embeddings-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-classification",
-    "library": "transformers",
-    "created_at": "2026-10-06T11:25:24.000Z",
-    "last_modified": "2026-10-06T11:33:17.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/misukisu/moderation-modernbert-en",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
-  },
-  {
-    "model_id": "Yusiko/khazri-3",
-    "author": "unknown",
-    "title": "Yusiko/khazri-3",
-    "downloads": 0,
-    "likes": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "llama",
-      "text-generation",
-      "causal-lm",
-      "base-model",
-      "pretrained",
-      "az",
-      "en",
-      "ru",
-      "tr",
-      "license:apache-2.0",
-      "text-generation-inference",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "pipeline_tag": "text-generation",
-    "library": "transformers",
-    "created_at": "2026-10-06T10:43:11.000Z",
-    "last_modified": "2026-10-06T11:32:28.000Z",
-    "days_since_creation": 0,
-    "url": "https://huggingface.co/Yusiko/khazri-3",
-    "date": "2026-10-06",
-    "source": "huggingface_model",
-    "type": "model",
-    "research_score": 0.4
   }
 ]
