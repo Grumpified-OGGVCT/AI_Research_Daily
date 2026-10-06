@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-06T17:44:40.499627",
+  "date": "2026-10-06T22:08:23.571758",
   "patterns": {
     "multimodal_research": [
       {
@@ -275,6 +275,14 @@
       {
         "title": "Multitask Conditional Generative Adversarial Network Enables Automatic Whole Knee Cartilage and Menisci Segmentation and Reliable T1\\r{ho} and T2 Quantification Without High-Resolution Morphological Images",
         "url": "https://arxiv.org/abs/2610.06602v1"
+      },
+      {
+        "title": "IsValorum/Qwen3.8-27B-EfficientThink-Uncensored-VAL-APEX-I-NanoPlus-GGUF",
+        "url": "https://huggingface.co/IsValorum/Qwen3.8-27B-EfficientThink-Uncensored-VAL-APEX-I-NanoPlus-GGUF"
+      },
+      {
+        "title": "IsValorum/Qwen3.8-27B-EfficientThink-Uncensored-VAL-APEX-I-MiniPlus-V2.1-GGUF",
+        "url": "https://huggingface.co/IsValorum/Qwen3.8-27B-EfficientThink-Uncensored-VAL-APEX-I-MiniPlus-V2.1-GGUF"
       },
       {
         "title": "InterMimicGen: Scaling Humanoid Loco-Manipulation through Self-Evolving Motion Imitation",
@@ -621,18 +629,6 @@
       {
         "title": "S2PD: Serial-to-Parallel Diffusion for Physically and Logically Consistent Video Generation",
         "url": "https://arxiv.org/abs/2610.06847v1"
-      },
-      {
-        "title": "SrothJr/banglabert-dapt-depression-classifier",
-        "url": "https://huggingface.co/SrothJr/banglabert-dapt-depression-classifier"
-      },
-      {
-        "title": "SrothJr/sahajbert-bangla-depression-severity-dapt",
-        "url": "https://huggingface.co/SrothJr/sahajbert-bangla-depression-severity-dapt"
-      },
-      {
-        "title": "SrothJr/banglabert-bangla-depression-severity-dapt",
-        "url": "https://huggingface.co/SrothJr/banglabert-bangla-depression-severity-dapt"
       }
     ],
     "vision_systems": [
@@ -1561,7 +1557,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "46 independent papers",
+      "observation": "48 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1573,7 +1569,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "87 independent papers",
+      "observation": "84 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1632,6 +1628,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 383
+    "total_papers": 382
   }
 }
