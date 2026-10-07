@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T15:59:42.018084",
+  "date": "2026-10-07T21:03:11.110845",
   "patterns": {
     "multimodal_research": [
       {
@@ -617,10 +617,6 @@
       {
         "title": "Stable Scores, Unstable Answers: Frame Phase and Option Order in Video Multiple-Choice Evaluation",
         "url": "https://arxiv.org/abs/2610.08649v1"
-      },
-      {
-        "title": "GRAI-UNSTPB/gemma4_31b_it_ft_cs_llm_en",
-        "url": "https://huggingface.co/GRAI-UNSTPB/gemma4_31b_it_ft_cs_llm_en"
       }
     ],
     "vision_systems": [
@@ -1569,7 +1565,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "85 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1628,6 +1624,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 382
+    "total_papers": 381
   }
 }
