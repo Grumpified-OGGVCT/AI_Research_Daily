@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08T16:02:09.332818",
+  "date": "2026-10-08T21:14:23.849643",
   "patterns": {
     "multimodal_research": [
       {
@@ -527,16 +527,12 @@
         "url": "https://arxiv.org/abs/2610.10156v1"
       },
       {
-        "title": "HawkBearPig/GLM-5.3-NF4I8-GPTQ-H32-g128",
-        "url": "https://huggingface.co/HawkBearPig/GLM-5.3-NF4I8-GPTQ-H32-g128"
+        "title": "Rishi74518/smollm2-360m-bim-lora",
+        "url": "https://huggingface.co/Rishi74518/smollm2-360m-bim-lora"
       },
       {
-        "title": "bertuginal/Tekir2-1.5B",
-        "url": "https://huggingface.co/bertuginal/Tekir2-1.5B"
-      },
-      {
-        "title": "arslanahmed3/emotion-distilbert",
-        "url": "https://huggingface.co/arslanahmed3/emotion-distilbert"
+        "title": "ysakkaf/nhis-project7-distilbert",
+        "url": "https://huggingface.co/ysakkaf/nhis-project7-distilbert"
       }
     ],
     "vision_systems": [
@@ -1405,7 +1401,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "76 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1464,6 +1460,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 341
+    "total_papers": 340
   }
 }
