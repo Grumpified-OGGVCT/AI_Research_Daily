@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-09T08:18:30.415499",
+  "date": "2026-10-09T15:43:44.156017",
   "patterns": {
     "multimodal_research": [
       {
@@ -593,10 +593,6 @@
       {
         "title": "From What to Which: Decoding Modifier Grounding in Frozen MLLMs",
         "url": "https://arxiv.org/abs/2610.12305v1"
-      },
-      {
-        "title": "Duck859555656/distilbert-query-classifier",
-        "url": "https://huggingface.co/Duck859555656/distilbert-query-classifier"
       }
     ],
     "vision_systems": [
@@ -903,6 +899,10 @@
       {
         "title": "Hybrid Cinematography: Previsualizing and Managing Hallucination Risk in Generative Video Reshooting",
         "url": "https://arxiv.org/abs/2610.12455v1"
+      },
+      {
+        "title": "AtomicChat/Qwen-Image-2.1-Turbo-GGUF",
+        "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-GGUF"
       }
     ],
     "reasoning": [
@@ -1617,13 +1617,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "77 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
