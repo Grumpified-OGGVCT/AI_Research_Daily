@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10T13:13:10.889895",
+  "date": "2026-10-10T18:10:26.771259",
   "patterns": {
     "multimodal_research": [
       {
@@ -229,6 +229,10 @@
         "url": "https://arxiv.org/abs/2610.11959v1"
       },
       {
+        "title": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+        "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2"
+      },
+      {
         "title": "Learning Kilometer-Scale Weather Prediction with Global-Regional Alignment",
         "url": "https://arxiv.org/abs/2610.12401v1"
       },
@@ -443,6 +447,10 @@
         "url": "https://arxiv.org/abs/2610.12124v1"
       },
       {
+        "title": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
+        "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2"
+      },
+      {
         "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
         "url": "https://arxiv.org/abs/2610.12442v1"
       },
@@ -593,6 +601,10 @@
       {
         "title": "From What to Which: Decoding Modifier Grounding in Frozen MLLMs",
         "url": "https://arxiv.org/abs/2610.12305v1"
+      },
+      {
+        "title": "brentwcy/retailpulse-roberta-base",
+        "url": "https://huggingface.co/brentwcy/retailpulse-roberta-base"
       }
     ],
     "vision_systems": [
@@ -1601,7 +1613,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "45 independent papers",
+      "observation": "46 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1613,7 +1625,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "70 independent papers",
+      "observation": "72 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1672,6 +1684,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 393
+    "total_papers": 396
   }
 }
