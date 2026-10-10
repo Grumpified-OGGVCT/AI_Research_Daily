@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10T00:26:17.243693",
+  "date": "2026-10-10T06:36:31.556226",
   "patterns": {
     "multimodal_research": [
       {
@@ -301,10 +301,6 @@
         "url": "https://arxiv.org/abs/2610.12369v1"
       },
       {
-        "title": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
-        "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2"
-      },
-      {
         "title": "Connected Self Forcing: Beyond Local Learning in Video Autoregression",
         "url": "https://arxiv.org/abs/2610.12156v1"
       },
@@ -315,6 +311,10 @@
       {
         "title": "Slot3R: Set-Associative Spatial Memory for Streaming 3D Reconstruction",
         "url": "https://arxiv.org/abs/2610.12282v1"
+      },
+      {
+        "title": "HarutoWatan/efficientformer-retrieval",
+        "url": "https://huggingface.co/HarutoWatan/efficientformer-retrieval"
       }
     ],
     "language_models": [
@@ -589,10 +589,6 @@
       {
         "title": "Healthy Counterfactual Generation via Diffusion Inpainting for Mammography Classification",
         "url": "https://arxiv.org/abs/2610.12147v1"
-      },
-      {
-        "title": "nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2",
-        "url": "https://huggingface.co/nerkyor/Qwen3.8-27B-Coder390-EfficientThink-Opus5.5-GPT6Astra-Grok4.7-DSV4Pro-K3-SFT-RLOO-MTP-DFlash2"
       },
       {
         "title": "OmniCapBench: A Deep-Structured Evaluation Framework for Fine-Grained Audio-Visual Captioning",
@@ -907,10 +903,6 @@
       {
         "title": "Hybrid Cinematography: Previsualizing and Managing Hallucination Risk in Generative Video Reshooting",
         "url": "https://arxiv.org/abs/2610.12455v1"
-      },
-      {
-        "title": "selsar/cv_combined_all_dimensions_v3",
-        "url": "https://huggingface.co/selsar/cv_combined_all_dimensions_v3"
       }
     ],
     "reasoning": [
@@ -1625,13 +1617,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1684,6 +1676,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 396
+    "total_papers": 394
   }
 }
