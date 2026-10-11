@@ -1,11 +1,29 @@
 {
-  "date": "2026-10-11T19:51:27.088745",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-10-11T23:22:18.711976",
+  "patterns": {
+    "reasoning": [
+      {
+        "title": "inference4j/qwen3-0.6b",
+        "url": "https://huggingface.co/inference4j/qwen3-0.6b"
+      },
+      {
+        "title": "inference4j/phi-4-mini-instruct",
+        "url": "https://huggingface.co/inference4j/phi-4-mini-instruct"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "reasoning",
+      "observation": "Reasoning capabilities being explored",
+      "inference": "Moving beyond pattern matching toward genuine reasoning - still 12-24 months from practical impact",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 2
   }
 }
