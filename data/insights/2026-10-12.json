@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-12T03:43:14.228819",
+  "patterns": {
+    "vision_systems": [
+      {
+        "title": "orcarouter/DeepSeek-V4-Flash-Vision-Uncensored-GGUF",
+        "url": "https://huggingface.co/orcarouter/DeepSeek-V4-Flash-Vision-Uncensored-GGUF"
+      },
+      {
+        "title": "RunningHubAI/rh-tf-z-image-bf16-rh4.safetensors-unet",
+        "url": "https://huggingface.co/RunningHubAI/rh-tf-z-image-bf16-rh4.safetensors-unet"
+      },
+      {
+        "title": "mflux-community/qwen-image-2-1-turbo-mflux-q4",
+        "url": "https://huggingface.co/mflux-community/qwen-image-2-1-turbo-mflux-q4"
+      },
+      {
+        "title": "mflux-community/qwen-image-2-1-turbo-mflux-q5",
+        "url": "https://huggingface.co/mflux-community/qwen-image-2-1-turbo-mflux-q5"
+      },
+      {
+        "title": "maximUlya/Qwen-Image-2.1-Uncensored-GGUF",
+        "url": "https://huggingface.co/maximUlya/Qwen-Image-2.1-Uncensored-GGUF"
+      },
+      {
+        "title": "mflux-community/qwen-image-2-1-turbo-mflux-q6",
+        "url": "https://huggingface.co/mflux-community/qwen-image-2-1-turbo-mflux-q6"
+      },
+      {
+        "title": "mflux-community/qwen-image-2-1-turbo-mflux-q8",
+        "url": "https://huggingface.co/mflux-community/qwen-image-2-1-turbo-mflux-q8"
+      },
+      {
+        "title": "mflux-community/qwen-image-2-1-turbo-mflux-bf16",
+        "url": "https://huggingface.co/mflux-community/qwen-image-2-1-turbo-mflux-bf16"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "vision_systems",
+      "observation": "8 independent papers",
+      "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
+      "confidence": "high"
+    }
+  ],
+  "research_trends": [],
+  "stats": {
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 8
+  }
+}
