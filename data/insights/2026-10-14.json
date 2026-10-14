@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14T17:44:34.247994",
+  "date": "2026-10-14T21:11:43.878371",
   "patterns": {
     "multimodal_research": [
       {
@@ -939,6 +939,14 @@
       {
         "title": "MFVSR: A Multi-Style and Fine-Grained Benchmark for Video Subtitle Removal",
         "url": "https://arxiv.org/abs/2610.18461v1"
+      },
+      {
+        "title": "Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-W6A8-Vision",
+        "url": "https://huggingface.co/Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-W6A8-Vision"
+      },
+      {
+        "title": "Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-BF16-Vision",
+        "url": "https://huggingface.co/Xananthium/REDCELL-26B-A4B-OSINT-Cyber-Abliterated-Pilot-BF16-Vision"
       }
     ],
     "reasoning": [
@@ -1591,7 +1599,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "73 independent papers",
+      "observation": "75 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1626,13 +1634,13 @@
       "significance": "high"
     },
     {
-      "topic": "generation",
-      "frequency": 33,
+      "topic": "vision",
+      "frequency": 34,
       "significance": "high"
     },
     {
-      "topic": "vision",
-      "frequency": 32,
+      "topic": "generation",
+      "frequency": 33,
       "significance": "high"
     },
     {
@@ -1644,6 +1652,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 386
+    "total_papers": 388
   }
 }
