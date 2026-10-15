@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15T10:41:27.195844",
+  "date": "2026-10-15T15:27:07.026529",
   "patterns": {
     "multimodal_research": [
       {
@@ -247,6 +247,10 @@
       {
         "title": "Long-Horizon RL Needs Muon",
         "url": "https://arxiv.org/abs/2610.20256v1"
+      },
+      {
+        "title": "bluemorpholimited/Morpho-72B-MoE-DPO",
+        "url": "https://huggingface.co/bluemorpholimited/Morpho-72B-MoE-DPO"
       }
     ],
     "language_models": [
@@ -579,36 +583,20 @@
         "url": "https://arxiv.org/abs/2610.20608v1"
       },
       {
-        "title": "EmreAkgul/omniASR-LLM-7B-v2-ONNX",
-        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-7B-v2-ONNX"
-      },
-      {
-        "title": "EmreAkgul/omniASR-LLM-7B-ONNX",
-        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-7B-ONNX"
-      },
-      {
         "title": "EmreAkgul/omniASR-LLM-3B-ONNX",
         "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-3B-ONNX"
       },
       {
-        "title": "EmreAkgul/omniASR-LLM-3B-v2-ONNX",
-        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-3B-v2-ONNX"
+        "title": "EmreAkgul/omniASR-LLM-7B-v2-ONNX",
+        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-7B-v2-ONNX"
       },
       {
-        "title": "EmreAkgul/omniASR-LLM-1B-v2-ONNX",
-        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-1B-v2-ONNX"
+        "title": "MaterialsandtheEnvironment/matenv-smollm2-360m",
+        "url": "https://huggingface.co/MaterialsandtheEnvironment/matenv-smollm2-360m"
       },
       {
-        "title": "EmreAkgul/omniASR-LLM-300M-ONNX",
-        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-300M-ONNX"
-      },
-      {
-        "title": "EmreAkgul/omniASR-LLM-1B-ONNX",
-        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-1B-ONNX"
-      },
-      {
-        "title": "EmreAkgul/omniASR-LLM-300M-v2-ONNX",
-        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-300M-v2-ONNX"
+        "title": "nusaiba19/roberta-immigrant-hate-speech",
+        "url": "https://huggingface.co/nusaiba19/roberta-immigrant-hate-speech"
       }
     ],
     "vision_systems": [
@@ -1469,7 +1457,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "38 independent papers",
+      "observation": "39 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1481,7 +1469,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "90 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1540,6 +1528,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 360
+    "total_papers": 357
   }
 }
