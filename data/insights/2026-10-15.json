@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15T19:37:39.386669",
+  "date": "2026-10-15T22:50:38.833628",
   "patterns": {
     "multimodal_research": [
       {
@@ -577,10 +577,6 @@
       {
         "title": "Representation Conditioning for Generation",
         "url": "https://arxiv.org/abs/2610.20608v1"
-      },
-      {
-        "title": "groxaxo/Qwen3.6-35B-A3B-Heretic-UD-inspired-GPTQPro-W4",
-        "url": "https://huggingface.co/groxaxo/Qwen3.6-35B-A3B-Heretic-UD-inspired-GPTQPro-W4"
       }
     ],
     "vision_systems": [
@@ -853,8 +849,8 @@
         "url": "https://arxiv.org/abs/2610.20074v1"
       },
       {
-        "title": "realrebelai/FLUX-3-Image-Klein_GGUFs",
-        "url": "https://huggingface.co/realrebelai/FLUX-3-Image-Klein_GGUFs"
+        "title": "akhaliq/flux-3-image-klein-angles-lora",
+        "url": "https://huggingface.co/akhaliq/flux-3-image-klein-angles-lora"
       }
     ],
     "reasoning": [
@@ -1457,7 +1453,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "82 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1516,6 +1512,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 354
+    "total_papers": 353
   }
 }
