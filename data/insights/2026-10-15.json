@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15T05:28:33.498888",
+  "date": "2026-10-15T10:41:27.195844",
   "patterns": {
     "multimodal_research": [
       {
@@ -579,8 +579,36 @@
         "url": "https://arxiv.org/abs/2610.20608v1"
       },
       {
-        "title": "myllmbox/Qwen-Image-2.1-Turbo-hibrid",
-        "url": "https://huggingface.co/myllmbox/Qwen-Image-2.1-Turbo-hibrid"
+        "title": "EmreAkgul/omniASR-LLM-7B-v2-ONNX",
+        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-7B-v2-ONNX"
+      },
+      {
+        "title": "EmreAkgul/omniASR-LLM-7B-ONNX",
+        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-7B-ONNX"
+      },
+      {
+        "title": "EmreAkgul/omniASR-LLM-3B-ONNX",
+        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-3B-ONNX"
+      },
+      {
+        "title": "EmreAkgul/omniASR-LLM-3B-v2-ONNX",
+        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-3B-v2-ONNX"
+      },
+      {
+        "title": "EmreAkgul/omniASR-LLM-1B-v2-ONNX",
+        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-1B-v2-ONNX"
+      },
+      {
+        "title": "EmreAkgul/omniASR-LLM-300M-ONNX",
+        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-300M-ONNX"
+      },
+      {
+        "title": "EmreAkgul/omniASR-LLM-1B-ONNX",
+        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-1B-ONNX"
+      },
+      {
+        "title": "EmreAkgul/omniASR-LLM-300M-v2-ONNX",
+        "url": "https://huggingface.co/EmreAkgul/omniASR-LLM-300M-v2-ONNX"
       }
     ],
     "vision_systems": [
@@ -851,10 +879,6 @@
       {
         "title": "Feasibility of a Patient-Specific Digital Twin for Ventriculoperitoneal Shunt Trajectory Planning",
         "url": "https://arxiv.org/abs/2610.20074v1"
-      },
-      {
-        "title": "myllmbox/Qwen-Image-2.1-Turbo-hibrid",
-        "url": "https://huggingface.co/myllmbox/Qwen-Image-2.1-Turbo-hibrid"
       }
     ],
     "reasoning": [
@@ -1457,13 +1481,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "83 independent papers",
+      "observation": "90 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "68 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1516,6 +1540,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 354
+    "total_papers": 360
   }
 }
