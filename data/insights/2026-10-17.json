@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17T00:58:14.401752",
+  "date": "2026-10-17T05:18:17.607475",
   "patterns": {
     "multimodal_research": [
       {
@@ -633,6 +633,14 @@
       {
         "title": "Seeing is Believing: Benchmarking and Mitigating the Interference of Language Priors on Visual Perception in MLLMs",
         "url": "https://arxiv.org/abs/2610.21902v1"
+      },
+      {
+        "title": "GUI-Gym/Qwen3-VL-8B-sft-gpt-6.1-sol-train_new_tasks_v3_verified_filtered_full_mobileforge",
+        "url": "https://huggingface.co/GUI-Gym/Qwen3-VL-8B-sft-gpt-6.1-sol-train_new_tasks_v3_verified_filtered_full_mobileforge"
+      },
+      {
+        "title": "Kyle308666/BrickGPT-Qwen3-1.7B-BrickMore-48",
+        "url": "https://huggingface.co/Kyle308666/BrickGPT-Qwen3-1.7B-BrickMore-48"
       }
     ],
     "vision_systems": [
@@ -909,12 +917,8 @@
         "url": "https://arxiv.org/abs/2610.21865v1"
       },
       {
-        "title": "SimpleTuner/flux-3-klein-image-photo-aesthetics-distilled-assisted-512-v2-kohaku-fa",
-        "url": "https://huggingface.co/SimpleTuner/flux-3-klein-image-photo-aesthetics-distilled-assisted-512-v2-kohaku-fa"
-      },
-      {
-        "title": "SimpleTuner/flux-3-klein-image-photo-aesthetics-distilled-assisted-1024",
-        "url": "https://huggingface.co/SimpleTuner/flux-3-klein-image-photo-aesthetics-distilled-assisted-1024"
+        "title": "SimpleTuner/flux-3-klein-image-photo-aesthetics-distilled-assisted-1024-v2-kohaku-fa",
+        "url": "https://huggingface.co/SimpleTuner/flux-3-klein-image-photo-aesthetics-distilled-assisted-1024-v2-kohaku-fa"
       }
     ],
     "reasoning": [
@@ -1601,13 +1605,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "91 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "69 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1660,6 +1664,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 390
+    "total_papers": 391
   }
 }
