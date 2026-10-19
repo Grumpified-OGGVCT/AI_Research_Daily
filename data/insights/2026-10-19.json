@@ -1,11 +1,22 @@
 {
-  "date": "2026-10-19T11:47:43.772330",
-  "patterns": {},
+  "date": "2026-10-19T18:08:18.185264",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "memostarkbaba/MemoGPT-30M",
+        "url": "https://huggingface.co/memostarkbaba/MemoGPT-30M"
+      },
+      {
+        "title": "FA777/emotion-distilbert",
+        "url": "https://huggingface.co/FA777/emotion-distilbert"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
