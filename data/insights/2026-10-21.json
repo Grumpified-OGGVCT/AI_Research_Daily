@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21T19:52:23.520181",
+  "date": "2026-10-21T22:58:39.025217",
   "patterns": {
     "multimodal_research": [
       {
@@ -679,12 +679,8 @@
         "url": "https://arxiv.org/abs/2610.28540v1"
       },
       {
-        "title": "TDoSiMa/DeepSeek-R1-Distill-Qwen-1.5B-GPTQ-Safetensors",
-        "url": "https://huggingface.co/TDoSiMa/DeepSeek-R1-Distill-Qwen-1.5B-GPTQ-Safetensors"
-      },
-      {
-        "title": "TDoSiMa/DeepSeek-R1-Distill-Qwen-1.5B-GPTQ-a16w4",
-        "url": "https://huggingface.co/TDoSiMa/DeepSeek-R1-Distill-Qwen-1.5B-GPTQ-a16w4"
+        "title": "Rami/fast-dllm-v2-1.5b-vgc-regmb-lora",
+        "url": "https://huggingface.co/Rami/fast-dllm-v2-1.5b-vgc-regmb-lora"
       }
     ],
     "vision_systems": [
@@ -967,10 +963,6 @@
       {
         "title": "KoalaGS: Complexity-Aware Continuous Level of Detail for Gaussian Splatting",
         "url": "https://arxiv.org/abs/2610.28615v1"
-      },
-      {
-        "title": "oakoliver/eg2-qwen-image-2.1-adapter",
-        "url": "https://huggingface.co/oakoliver/eg2-qwen-image-2.1-adapter"
       }
     ],
     "reasoning": [
@@ -1653,13 +1645,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "94 independent papers",
+      "observation": "93 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,6 +1704,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 401
   }
 }
