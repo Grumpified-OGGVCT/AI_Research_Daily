@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-22T12:44:30.709647",
+  "date": "2026-10-22T17:49:23.435787",
   "patterns": {
     "multimodal_research": [
       {
@@ -255,6 +255,10 @@
       {
         "title": "Reading the Room: Scale-ambiguous Semantic Registration of Sparse VSLAM Maps to Floor Plans in Partially Built Environments",
         "url": "https://arxiv.org/abs/2610.29647v1"
+      },
+      {
+        "title": "prithivMLmods/flint-MXFP4_MOE-40B-A2.5B",
+        "url": "https://huggingface.co/prithivMLmods/flint-MXFP4_MOE-40B-A2.5B"
       }
     ],
     "language_models": [
@@ -1113,6 +1117,14 @@
       {
         "title": "GuidedSAM-Plume: An Expert-Guided Segmentation Framework for Volcanic Plumes",
         "url": "https://arxiv.org/abs/2610.29825v1"
+      },
+      {
+        "title": "mradermacher/Ministral-3-8B-Claude-Opus-Reasoning-Distilled-i1-GGUF",
+        "url": "https://huggingface.co/mradermacher/Ministral-3-8B-Claude-Opus-Reasoning-Distilled-i1-GGUF"
+      },
+      {
+        "title": "henry202/olmo-reasoning-checkpoint1600",
+        "url": "https://huggingface.co/henry202/olmo-reasoning-checkpoint1600"
       }
     ],
     "benchmarks": [
@@ -1561,7 +1573,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "39 independent papers",
+      "observation": "40 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1585,7 +1597,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "58 independent papers",
+      "observation": "60 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1619,19 +1631,19 @@
       "significance": "high"
     },
     {
-      "topic": "vision",
+      "topic": "reasoning",
       "frequency": 32,
       "significance": "high"
     },
     {
-      "topic": "reasoning",
-      "frequency": 30,
+      "topic": "vision",
+      "frequency": 32,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 383
+    "total_papers": 386
   }
 }
