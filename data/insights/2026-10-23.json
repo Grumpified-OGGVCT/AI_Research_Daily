@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-23T10:52:00.968888",
+  "date": "2026-10-23T15:37:02.174195",
   "patterns": {
     "multimodal_research": [
       {
@@ -687,8 +687,8 @@
         "url": "https://arxiv.org/abs/2610.31651v1"
       },
       {
-        "title": "JagadishPavanch/bert-transaction-categorization",
-        "url": "https://huggingface.co/JagadishPavanch/bert-transaction-categorization"
+        "title": "Ahmadbader17/tiny-gpt",
+        "url": "https://huggingface.co/Ahmadbader17/tiny-gpt"
       }
     ],
     "vision_systems": [
@@ -971,6 +971,10 @@
       {
         "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
         "url": "https://arxiv.org/abs/2610.31466v1"
+      },
+      {
+        "title": "Kandoo/MOSS-Image-Impressionism-LoRA",
+        "url": "https://huggingface.co/Kandoo/MOSS-Image-Impressionism-LoRA"
       }
     ],
     "reasoning": [
@@ -1659,7 +1663,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "70 independent papers",
+      "observation": "71 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1712,6 +1716,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 403
+    "total_papers": 404
   }
 }
