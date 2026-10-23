@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-23T05:41:49.176702",
+  "date": "2026-10-23T10:52:00.968888",
   "patterns": {
     "multimodal_research": [
       {
@@ -685,6 +685,10 @@
       {
         "title": "BrickWright: Agentic Creation of Physically Feasible Brick Builds",
         "url": "https://arxiv.org/abs/2610.31651v1"
+      },
+      {
+        "title": "JagadishPavanch/bert-transaction-categorization",
+        "url": "https://huggingface.co/JagadishPavanch/bert-transaction-categorization"
       }
     ],
     "vision_systems": [
@@ -1649,7 +1653,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "98 independent papers",
+      "observation": "99 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1708,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 402
+    "total_papers": 403
   }
 }
