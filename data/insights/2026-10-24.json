@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-24T18:32:18.291527",
+  "date": "2026-10-24T21:22:57.528901",
   "patterns": {
     "multimodal_research": [
       {
@@ -971,10 +971,6 @@
       {
         "title": "AnyGameRenderer: Entity-Consistent Generative Rendering Across Games and an Entity-Level Benchmark",
         "url": "https://arxiv.org/abs/2610.31466v1"
-      },
-      {
-        "title": "akhaliq/MOSS-Image-Edit-HQ",
-        "url": "https://huggingface.co/akhaliq/MOSS-Image-Edit-HQ"
       }
     ],
     "reasoning": [
@@ -1663,7 +1659,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "71 independent papers",
+      "observation": "70 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1716,6 +1712,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 404
+    "total_papers": 403
   }
 }
