@@ -1,11 +1,37 @@
 {
-  "date": "2026-10-25T20:16:14.527269",
-  "patterns": {},
-  "inferences": [],
+  "date": "2026-10-25T22:59:25.858137",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "Thanatos0512/YulaGeoLLM",
+        "url": "https://huggingface.co/Thanatos0512/YulaGeoLLM"
+      },
+      {
+        "title": "SZLHOLDINGS/ChaskaLLM",
+        "url": "https://huggingface.co/SZLHOLDINGS/ChaskaLLM"
+      },
+      {
+        "title": "Youssefashoush/smollm3-3b-banking77-lora",
+        "url": "https://huggingface.co/Youssefashoush/smollm3-3b-banking77-lora"
+      },
+      {
+        "title": "raulboix/distilbert-imdb-sentiment",
+        "url": "https://huggingface.co/raulboix/distilbert-imdb-sentiment"
+      }
+    ]
+  },
+  "inferences": [
+    {
+      "pattern": "language_models",
+      "observation": "4 related papers",
+      "inference": "Emerging interest in Language Models - monitor for breakthrough results",
+      "confidence": "medium"
+    }
+  ],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
-    "total_inferences": 0,
-    "total_papers": 0
+    "total_patterns": 1,
+    "total_inferences": 1,
+    "total_papers": 4
   }
 }
