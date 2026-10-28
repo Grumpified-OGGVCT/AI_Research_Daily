@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28T13:43:58.644227",
+  "date": "2026-10-28T19:15:21.706956",
   "patterns": {
     "multimodal_research": [
       {
@@ -661,6 +661,14 @@
       {
         "title": "INTR++: INterpretable TRansformer with better Accuracy, Interpretability, and Adaptability",
         "url": "https://arxiv.org/abs/2610.37178v1"
+      },
+      {
+        "title": "chris320211/smoothquant-gemma2-2b-g52xlarge-vllm",
+        "url": "https://huggingface.co/chris320211/smoothquant-gemma2-2b-g52xlarge-vllm"
+      },
+      {
+        "title": "chris320211/smoothquant-qwen25-15b-g52xlarge-vllm",
+        "url": "https://huggingface.co/chris320211/smoothquant-qwen25-15b-g52xlarge-vllm"
       }
     ],
     "vision_systems": [
@@ -1617,7 +1625,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "86 independent papers",
+      "observation": "88 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1676,6 +1684,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 394
+    "total_papers": 396
   }
 }
