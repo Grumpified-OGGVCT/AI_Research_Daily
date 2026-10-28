@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28T19:15:21.706956",
+  "date": "2026-10-28T23:48:09.771650",
   "patterns": {
     "multimodal_research": [
       {
@@ -315,6 +315,10 @@
       {
         "title": "Subspace Clifford Networks",
         "url": "https://arxiv.org/abs/2610.37226v1"
+      },
+      {
+        "title": "yushengsu/new-repo-qwen3-8b-moe16x768-16A1-dspark",
+        "url": "https://huggingface.co/yushengsu/new-repo-qwen3-8b-moe16x768-16A1-dspark"
       }
     ],
     "language_models": [
@@ -661,14 +665,6 @@
       {
         "title": "INTR++: INterpretable TRansformer with better Accuracy, Interpretability, and Adaptability",
         "url": "https://arxiv.org/abs/2610.37178v1"
-      },
-      {
-        "title": "chris320211/smoothquant-gemma2-2b-g52xlarge-vllm",
-        "url": "https://huggingface.co/chris320211/smoothquant-gemma2-2b-g52xlarge-vllm"
-      },
-      {
-        "title": "chris320211/smoothquant-qwen25-15b-g52xlarge-vllm",
-        "url": "https://huggingface.co/chris320211/smoothquant-qwen25-15b-g52xlarge-vllm"
       }
     ],
     "vision_systems": [
@@ -1613,7 +1609,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "54 independent papers",
+      "observation": "55 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1625,7 +1621,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1684,6 +1680,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 396
+    "total_papers": 395
   }
 }
