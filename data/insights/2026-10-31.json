@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31T01:21:15.070041",
+  "date": "2026-10-31T07:52:47.923516",
   "patterns": {
     "multimodal_research": [
       {
@@ -863,14 +863,6 @@
       {
         "title": "Neural Blind Deconvolution for Image Scanning Microscopy",
         "url": "https://arxiv.org/abs/2610.40088v1"
-      },
-      {
-        "title": "akhaliq/MOSS-Image-IDM-LoRA",
-        "url": "https://huggingface.co/akhaliq/MOSS-Image-IDM-LoRA"
-      },
-      {
-        "title": "akhaliq/MOSS-Image-SFT-2-steps",
-        "url": "https://huggingface.co/akhaliq/MOSS-Image-SFT-2-steps"
       }
     ],
     "reasoning": [
@@ -1491,7 +1483,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "76 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1544,6 +1536,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 361
+    "total_papers": 359
   }
 }
