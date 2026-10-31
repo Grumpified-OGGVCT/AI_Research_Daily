@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-31T07:52:47.923516",
+  "date": "2026-10-31T14:11:20.522836",
   "patterns": {
     "multimodal_research": [
       {
@@ -551,6 +551,10 @@
         "url": "https://arxiv.org/abs/2610.39946v1"
       },
       {
+        "title": "frankmorales2020/gpt-oss-20b-topo-governed-cbp-new-version2-gguf",
+        "url": "https://huggingface.co/frankmorales2020/gpt-oss-20b-topo-governed-cbp-new-version2-gguf"
+      },
+      {
         "title": "PhysCount: Do MLLMs Count Visual Appearances or Physical Entities?",
         "url": "https://arxiv.org/abs/2610.40530v1"
       },
@@ -863,6 +867,14 @@
       {
         "title": "Neural Blind Deconvolution for Image Scanning Microscopy",
         "url": "https://arxiv.org/abs/2610.40088v1"
+      },
+      {
+        "title": "oleost/visionstate-sound",
+        "url": "https://huggingface.co/oleost/visionstate-sound"
+      },
+      {
+        "title": "akhaliq/MOSS-Image-IDM-2-Steps",
+        "url": "https://huggingface.co/akhaliq/MOSS-Image-IDM-2-Steps"
       }
     ],
     "reasoning": [
@@ -1477,13 +1489,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "72 independent papers",
+      "observation": "73 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "74 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1519,7 +1531,7 @@
     },
     {
       "topic": "vision",
-      "frequency": 43,
+      "frequency": 44,
       "significance": "high"
     },
     {
@@ -1536,6 +1548,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 359
+    "total_papers": 362
   }
 }
