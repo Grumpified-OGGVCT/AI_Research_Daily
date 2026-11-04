@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-04T08:26:08.735670",
+  "date": "2026-11-04T16:45:28.137284",
   "patterns": {
     "multimodal_research": [
       {
@@ -649,10 +649,6 @@
       {
         "title": "Lightweight graph transformers for clutter and target classification in automotive radar",
         "url": "https://arxiv.org/abs/2611.04959v1"
-      },
-      {
-        "title": "Nullmega/Mellum2.1-12B-A2.5B-Thinking-DevSec-GGUF",
-        "url": "https://huggingface.co/Nullmega/Mellum2.1-12B-A2.5B-Thinking-DevSec-GGUF"
       }
     ],
     "vision_systems": [
@@ -1173,10 +1169,6 @@
       {
         "title": "OpenBrain: An Auditable Generated-Label Release for Whole-Brain MRI Parcellation",
         "url": "https://arxiv.org/abs/2611.05348v1"
-      },
-      {
-        "title": "keras/ministral_3_14b_reasoning_2512_en",
-        "url": "https://huggingface.co/keras/ministral_3_14b_reasoning_2512_en"
       }
     ],
     "benchmarks": [
@@ -1569,7 +1561,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1581,7 +1573,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "62 independent papers",
+      "observation": "61 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1621,13 +1613,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 24,
+      "frequency": 23,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 382
+    "total_papers": 380
   }
 }
