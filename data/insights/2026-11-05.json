@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05T18:27:09.998793",
+  "date": "2026-11-05T23:56:34.524164",
   "patterns": {
     "multimodal_research": [
       {
@@ -275,6 +275,10 @@
       {
         "title": "SpikePose: Lightweight Video Human Pose Estimation",
         "url": "https://arxiv.org/abs/2611.06594v1"
+      },
+      {
+        "title": "Chauhan93/data-efficient-learning-fast",
+        "url": "https://huggingface.co/Chauhan93/data-efficient-learning-fast"
       }
     ],
     "language_models": [
@@ -791,6 +795,10 @@
       {
         "title": "Object-independent evaluation of small-data astronomical image classifiers: architecture, representation, and acquisition shortcuts",
         "url": "https://arxiv.org/abs/2611.06484v1"
+      },
+      {
+        "title": "DanielNguyen121/SPCvsCLIP-Food101-Public",
+        "url": "https://huggingface.co/DanielNguyen121/SPCvsCLIP-Food101-Public"
       }
     ],
     "reasoning": [
@@ -1453,7 +1461,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "49 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1471,7 +1479,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "64 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1524,6 +1532,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 356
+    "total_papers": 358
   }
 }
