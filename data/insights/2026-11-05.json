@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05T10:35:25.015425",
+  "date": "2026-11-05T18:27:09.998793",
   "patterns": {
     "multimodal_research": [
       {
@@ -533,10 +533,6 @@
       {
         "title": "Object-independent evaluation of small-data astronomical image classifiers: architecture, representation, and acquisition shortcuts",
         "url": "https://arxiv.org/abs/2611.06484v1"
-      },
-      {
-        "title": "nourhossam/smollm3-invoice-qlora",
-        "url": "https://huggingface.co/nourhossam/smollm3-invoice-qlora"
       }
     ],
     "vision_systems": [
@@ -551,10 +547,6 @@
       {
         "title": "MonoLaDN: Language-Guided DeNoising for Monocular 3D Object Detection",
         "url": "https://arxiv.org/abs/2611.06282v1"
-      },
-      {
-        "title": "huggingface/documentation-images",
-        "url": "https://huggingface.co/datasets/huggingface/documentation-images"
       },
       {
         "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
@@ -1473,13 +1465,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "64 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1532,6 +1524,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 358
+    "total_papers": 356
   }
 }
