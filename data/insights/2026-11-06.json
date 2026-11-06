@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-06T04:37:39.690160",
+  "date": "2026-11-06T12:40:39.419644",
   "patterns": {
     "multimodal_research": [
       {
@@ -579,8 +579,8 @@
         "url": "https://arxiv.org/abs/2611.08140v1"
       },
       {
-        "title": "seotarek/medorqis-llm",
-        "url": "https://huggingface.co/seotarek/medorqis-llm"
+        "title": "AhmedSSabir/ModernBERT-CNN-Caption-Reranker",
+        "url": "https://huggingface.co/AhmedSSabir/ModernBERT-CNN-Caption-Reranker"
       }
     ],
     "vision_systems": [
@@ -887,10 +887,6 @@
       {
         "title": "National-scale mapping of tree species composition in Switzerland from high-resolution aerial imagery and multimodal data",
         "url": "https://arxiv.org/abs/2611.08095v1"
-      },
-      {
-        "title": "DanielNguyen121/SPCvsCLIP-Food101-Public",
-        "url": "https://huggingface.co/DanielNguyen121/SPCvsCLIP-Food101-Public"
       }
     ],
     "reasoning": [
@@ -1543,7 +1539,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "77 independent papers",
+      "observation": "76 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1596,6 +1592,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 374
+    "total_papers": 373
   }
 }
