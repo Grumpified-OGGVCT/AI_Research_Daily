@@ -1,11 +1,22 @@
 {
-  "date": "2026-11-08T07:01:06.097129",
-  "patterns": {},
+  "date": "2026-11-08T14:11:48.085733",
+  "patterns": {
+    "language_models": [
+      {
+        "title": "dmilush/shieldlm-deberta-mcp-tools",
+        "url": "https://huggingface.co/dmilush/shieldlm-deberta-mcp-tools"
+      },
+      {
+        "title": "AyoubChLin/Huihui-gpt-oss-20b-BF16-abliterated-v2",
+        "url": "https://huggingface.co/AyoubChLin/Huihui-gpt-oss-20b-BF16-abliterated-v2"
+      }
+    ]
+  },
   "inferences": [],
   "research_trends": [],
   "stats": {
-    "total_patterns": 0,
+    "total_patterns": 1,
     "total_inferences": 0,
-    "total_papers": 0
+    "total_papers": 2
   }
 }
