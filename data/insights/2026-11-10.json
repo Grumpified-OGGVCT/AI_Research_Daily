@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-10T13:11:50.791398",
+  "date": "2026-11-10T20:41:57.010097",
   "patterns": {
     "multimodal_research": [
       {
@@ -269,8 +269,8 @@
         "url": "https://arxiv.org/abs/2611.12875v1"
       },
       {
-        "title": "h3rb3rn/moe-expert-datainfra-4b-v4",
-        "url": "https://huggingface.co/h3rb3rn/moe-expert-datainfra-4b-v4"
+        "title": "airg/unet-efficientnet-b7-ltfl-mmgab-100ep-1window-ftw",
+        "url": "https://huggingface.co/airg/unet-efficientnet-b7-ltfl-mmgab-100ep-1window-ftw"
       }
     ],
     "language_models": [
@@ -531,8 +531,8 @@
         "url": "https://arxiv.org/abs/2611.12524v1"
       },
       {
-        "title": "h3rb3rn/smollm3-expert-graphrag-3b-v4",
-        "url": "https://huggingface.co/h3rb3rn/smollm3-expert-graphrag-3b-v4"
+        "title": "Jackliu00/smollm3-advanced-sft-lora-unsloth",
+        "url": "https://huggingface.co/Jackliu00/smollm3-advanced-sft-lora-unsloth"
       }
     ],
     "vision_systems": [
@@ -795,6 +795,14 @@
       {
         "title": "What Breaks Scribble-Supervised Segmentation? An Audit-Informed Benchmark for Scribble Annotation Robustness",
         "url": "https://arxiv.org/abs/2611.12674v1"
+      },
+      {
+        "title": "Abiray/MiniMax-H3-Image-GGUF",
+        "url": "https://huggingface.co/Abiray/MiniMax-H3-Image-GGUF"
+      },
+      {
+        "title": "akhaliq/minimax-h3-image-pdmd-2step",
+        "url": "https://huggingface.co/akhaliq/minimax-h3-image-pdmd-2step"
       }
     ],
     "reasoning": [
@@ -1499,7 +1507,7 @@
     },
     {
       "pattern": "vision_systems",
-      "observation": "65 independent papers",
+      "observation": "67 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1552,6 +1560,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 363
+    "total_papers": 365
   }
 }
