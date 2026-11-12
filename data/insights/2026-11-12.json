@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-12T12:03:49.238039",
+  "date": "2026-11-12T20:37:22.606573",
   "patterns": {
     "multimodal_research": [
       {
@@ -587,12 +587,16 @@
         "url": "https://arxiv.org/abs/2611.13995v1"
       },
       {
-        "title": "Neural-Labs/tiny-llm",
-        "url": "https://huggingface.co/Neural-Labs/tiny-llm"
+        "title": "Juanpab07/xlmroberta-sarcasmo-spanish-2026_JP07",
+        "url": "https://huggingface.co/Juanpab07/xlmroberta-sarcasmo-spanish-2026_JP07"
       },
       {
-        "title": "wajdiz/camelbert-mix-sentiment-onnx",
-        "url": "https://huggingface.co/wajdiz/camelbert-mix-sentiment-onnx"
+        "title": "q-project/gpt-oss-20b-qpack-q1",
+        "url": "https://huggingface.co/q-project/gpt-oss-20b-qpack-q1"
+      },
+      {
+        "title": "roger33303/gpt2-124m-sft",
+        "url": "https://huggingface.co/roger33303/gpt2-124m-sft"
       }
     ],
     "vision_systems": [
@@ -1585,7 +1589,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "85 independent papers",
+      "observation": "86 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1644,6 +1648,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 386
+    "total_papers": 387
   }
 }
