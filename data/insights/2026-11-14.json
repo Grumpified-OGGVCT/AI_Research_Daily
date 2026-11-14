@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-14T02:52:34.446377",
+  "date": "2026-11-14T09:43:58.449094",
   "patterns": {
     "multimodal_research": [
       {
@@ -593,6 +593,10 @@
       {
         "title": "Objects as Addresses: Instance Binding in Vision Transformer Attention",
         "url": "https://arxiv.org/abs/2611.17240v1"
+      },
+      {
+        "title": "mai-data-ai/complaint-distilbert",
+        "url": "https://huggingface.co/mai-data-ai/complaint-distilbert"
       }
     ],
     "vision_systems": [
@@ -1133,10 +1137,6 @@
       {
         "title": "ActWorld-JEPA: Action-Conditioned JEPA World Models Meet Latent Planning for End-to-End Autonomous Driving",
         "url": "https://arxiv.org/abs/2611.16579v1"
-      },
-      {
-        "title": "SZLHOLDINGS/reasoning-master-v1-candidate",
-        "url": "https://huggingface.co/SZLHOLDINGS/reasoning-master-v1-candidate"
       }
     ],
     "benchmarks": [
@@ -1525,7 +1525,7 @@
     },
     {
       "pattern": "language_models",
-      "observation": "88 independent papers",
+      "observation": "89 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1537,7 +1537,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
