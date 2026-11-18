@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-18T09:36:43.866932",
+  "date": "2026-11-18T18:34:34.903442",
   "patterns": {
     "multimodal_research": [
       {
@@ -363,7 +363,7 @@
     ],
     "language_models": [
       {
-        "title": "NVIDIA Kumo Tabular: Pushing the Accuracy$\\unicode{8211}$Efficiency Frontier for Tabular Prediction",
+        "title": "NVIDIA Kumo Tabular: Pushing the Accuracy-Efficiency Frontier for Tabular Prediction",
         "url": "https://arxiv.org/abs/2611.23001v1"
       },
       {
@@ -689,7 +689,7 @@
     ],
     "vision_systems": [
       {
-        "title": "NVIDIA Kumo Tabular: Pushing the Accuracy$\\unicode{8211}$Efficiency Frontier for Tabular Prediction",
+        "title": "NVIDIA Kumo Tabular: Pushing the Accuracy-Efficiency Frontier for Tabular Prediction",
         "url": "https://arxiv.org/abs/2611.23001v1"
       },
       {
@@ -1269,11 +1269,15 @@
       {
         "title": "You Only Encode Once: Sub-Pixel-Shifted Frames for Arbitrary-Scale Remote Sensing Super-Resolution with 2D Gaussian Splatting",
         "url": "https://arxiv.org/abs/2611.22898v1"
+      },
+      {
+        "title": "local-inference-lab/kimi-k3.1-pro-dspark-flare",
+        "url": "https://huggingface.co/local-inference-lab/kimi-k3.1-pro-dspark-flare"
       }
     ],
     "benchmarks": [
       {
-        "title": "NVIDIA Kumo Tabular: Pushing the Accuracy$\\unicode{8211}$Efficiency Frontier for Tabular Prediction",
+        "title": "NVIDIA Kumo Tabular: Pushing the Accuracy-Efficiency Frontier for Tabular Prediction",
         "url": "https://arxiv.org/abs/2611.23001v1"
       },
       {
@@ -1689,7 +1693,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "49 independent papers",
+      "observation": "50 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1736,6 +1740,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 409
+    "total_papers": 410
   }
 }
