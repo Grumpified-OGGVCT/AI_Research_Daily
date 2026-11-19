@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19T08:17:43.910969",
+  "date": "2026-11-19T17:54:59.331292",
   "patterns": {
     "multimodal_research": [
       {
@@ -587,8 +587,8 @@
         "url": "https://arxiv.org/abs/2611.24706v1"
       },
       {
-        "title": "HosseinSch/distilhubert-finetuned-gtzan",
-        "url": "https://huggingface.co/HosseinSch/distilhubert-finetuned-gtzan"
+        "title": "ilyazayts/llm-course-hw3-dora",
+        "url": "https://huggingface.co/ilyazayts/llm-course-hw3-dora"
       }
     ],
     "vision_systems": [
@@ -1157,10 +1157,6 @@
       {
         "title": "EviScope: Evidence-Conditioned Sampling for Long-Range 3D Detection",
         "url": "https://arxiv.org/abs/2611.24451v1"
-      },
-      {
-        "title": "freakyskittle/CYBER-FROST-3.8-110B-Latent-BF16-reasoning",
-        "url": "https://huggingface.co/freakyskittle/CYBER-FROST-3.8-110B-Latent-BF16-reasoning"
       }
     ],
     "benchmarks": [
@@ -1585,7 +1581,7 @@
     },
     {
       "pattern": "reasoning",
-      "observation": "66 independent papers",
+      "observation": "65 independent papers",
       "inference": "Strong convergence in Reasoning - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1625,13 +1621,13 @@
     },
     {
       "topic": "reasoning",
-      "frequency": 25,
+      "frequency": 24,
       "significance": "high"
     }
   ],
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 383
+    "total_papers": 382
   }
 }
