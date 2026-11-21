@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-21T18:44:36.921792",
+  "date": "2026-11-21T23:41:43.184628",
   "patterns": {
     "multimodal_research": [
       {
@@ -287,6 +287,10 @@
       {
         "title": "AdaPixFlow: Learning Continuous-Time 3D Dynamics Across Scenes from Sparse Multi-view Observations",
         "url": "https://arxiv.org/abs/2611.26433v1"
+      },
+      {
+        "title": "adinugrohoport/efficientformer-retrieval-mini",
+        "url": "https://huggingface.co/adinugrohoport/efficientformer-retrieval-mini"
       }
     ],
     "language_models": [
@@ -1511,10 +1515,6 @@
       {
         "title": "UniVEP: Unifying Velocity and Endpoint Prediction for Robot Manipulation",
         "url": "https://arxiv.org/abs/2611.26103v1"
-      },
-      {
-        "title": "SOTAagi2030/lumen-search-reranker-v2",
-        "url": "https://huggingface.co/SOTAagi2030/lumen-search-reranker-v2"
       }
     ]
   },
@@ -1533,7 +1533,7 @@
     },
     {
       "pattern": "efficient_architectures",
-      "observation": "42 independent papers",
+      "observation": "43 independent papers",
       "inference": "Strong convergence in Efficient Architectures - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1569,7 +1569,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "97 independent papers",
+      "observation": "96 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
