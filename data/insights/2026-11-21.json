@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-21T11:58:59.062461",
+  "date": "2026-11-21T18:44:36.921792",
   "patterns": {
     "multimodal_research": [
       {
@@ -601,14 +601,6 @@
       {
         "title": "SpatialScout-V2: Can VLM Agents Actively Explore Real-World 3D Scenes and Localize Objects?",
         "url": "https://arxiv.org/abs/2611.26177v1"
-      },
-      {
-        "title": "Arxenarendra/jobbert-task3-match",
-        "url": "https://huggingface.co/Arxenarendra/jobbert-task3-match"
-      },
-      {
-        "title": "shiva123782/Chatgptastra4",
-        "url": "https://huggingface.co/shiva123782/Chatgptastra4"
       }
     ],
     "vision_systems": [
@@ -907,10 +899,6 @@
       {
         "title": "SHUSH: Emission-Aware Reward Design for Proactive Video Assistants",
         "url": "https://arxiv.org/abs/2611.26478v1"
-      },
-      {
-        "title": "openlimi/moss-image-realism",
-        "url": "https://huggingface.co/openlimi/moss-image-realism"
       }
     ],
     "reasoning": [
@@ -1523,6 +1511,10 @@
       {
         "title": "UniVEP: Unifying Velocity and Endpoint Prediction for Robot Manipulation",
         "url": "https://arxiv.org/abs/2611.26103v1"
+      },
+      {
+        "title": "SOTAagi2030/lumen-search-reranker-v2",
+        "url": "https://huggingface.co/SOTAagi2030/lumen-search-reranker-v2"
       }
     ]
   },
@@ -1553,13 +1545,13 @@
     },
     {
       "pattern": "language_models",
-      "observation": "80 independent papers",
+      "observation": "78 independent papers",
       "inference": "Strong convergence in Language Models - expect production adoption within 6-12 months",
       "confidence": "high"
     },
     {
       "pattern": "vision_systems",
-      "observation": "75 independent papers",
+      "observation": "74 independent papers",
       "inference": "Strong convergence in Vision Systems - expect production adoption within 6-12 months",
       "confidence": "high"
     },
@@ -1577,7 +1569,7 @@
     },
     {
       "pattern": "benchmarks",
-      "observation": "96 independent papers",
+      "observation": "97 independent papers",
       "inference": "Strong convergence in Benchmarks - expect production adoption within 6-12 months",
       "confidence": "high"
     }
@@ -1612,6 +1604,6 @@
   "stats": {
     "total_patterns": 6,
     "total_inferences": 9,
-    "total_papers": 378
+    "total_papers": 376
   }
 }
